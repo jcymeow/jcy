@@ -447,3 +447,337 @@ ENTITY_ROOT_POSITION = {
     "block-y": 0.0,
     "hide-y": 1000.0
 }
+
+# 怪物光源
+ENTITY_MONSTER_LIGHT = {
+    "type": "Entity",
+    "name": "entity_monster_light",
+    "id": 7467890050,
+    "components": [
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "transform_monster_light",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        },
+        {
+            "type": "PointLightDefinitionComponent",
+            "name": "vfx_monster_light",
+            "color": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "power": 0,
+            "radius": 150,
+            "attenuation": 1,
+            "lightMask": 1,
+            "isLocalLight": False,
+            "diffuseContribution": 1,
+            "specularContribution": 1
+        }
+    ]
+}
+
+# 怪物危险标记
+ENTITY_MONSTER_DANGEROUS = {
+    "type": "Entity",
+    "name": "entity_monster_dangerous",
+    "id": 7467890051,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "vxf_monster_dangerous",
+            "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "vfx4294962040_component_transform",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A1兵营指引
+ENTITY_COURTE_POINTER = {
+    "type": "Entity",
+    "name": "entity_court_pointer",
+    "id": 7467890060,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0315.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 304,
+                "y": 20,
+                "z": 336.8
+            },
+            "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0.7071,
+                "w": 1
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A1兵营指引
+ENTITY_COURTN_POINTER = {
+    "type": "Entity",
+    "name": "entity_court_pointer",
+    "id": 7467890061,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0045.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 328.9,
+                "y": 20,
+                "z": 245
+            },
+            "orientation": {
+                "x": 0.7071,
+                "y": 0,
+                "z": 0,
+                "w": 1
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A1兵营指引
+ENTITY_COURTW_POINTER = {
+    "type": "Entity",
+    "name": "entity_court_pointer",
+    "id": 7467890062,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0135.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 324,
+                "y": 20,
+                "z": 286
+            },
+            "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": -0.7071,
+                "w": 1
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A5尼拉塞克指引 
+ENTITY_NIHLE_POINTER = {
+    "type": "Entity",
+    "name": "entity_nihl_pointer",
+    "id": 7467890070,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0315.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 420.0,
+                "y": 4,
+                "z": 453
+            },
+            "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A5尼拉塞克指引 
+ENTITY_NIHLN_POINTER = {
+    "type": "Entity",
+    "name": "entity_nihl_pointer",
+    "id": 7467890071,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0045.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 420.0,
+                "y": 4,
+                "z": 453
+            },
+            "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A5尼拉塞克指引 
+ENTITY_NIHLS_POINTER = {
+    "type": "Entity",
+    "name": "entity_nihl_pointer",
+    "id": 7467890072,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0225.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 420.0,
+                "y": 4,
+                "z": 453
+            },
+            "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+# A5尼拉塞克指引 
+ENTITY_NIHLW_POINTER = {
+    "type": "Entity",
+    "name": "entity_nihl_pointer",
+    "id": 7467890073,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx2/particles/common/directionarrows_0135.particles",
+            "hardKillOnDestroy": False
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 420.0,
+                "y": 4,
+                "z": 453
+            },
+            "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}

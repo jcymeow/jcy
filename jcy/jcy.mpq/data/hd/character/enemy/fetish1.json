@@ -262,35 +262,45 @@
         },
         {
             "type": "Entity",
-            "name": "entity_root",
-            "id": 2101618603,
+            "name": "entity_monster_light",
+            "id": 7467890050,
             "components": [
                 {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightning_baaltaunt.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
                     "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
+                    "name": "transform_monster_light",
                     "position": {
                         "x": 0,
-                        "y": 3,
+                        "y": 0,
                         "z": 0
                     },
                     "orientation": {
-                        "x": 0.707106769,
+                        "x": 0,
                         "y": 0,
                         "z": 0,
                         "w": 1
                     },
                     "scale": {
-                        "x": 50,
-                        "y": 50,
-                        "z": 50
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
                     },
                     "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "vfx_monster_light",
+                    "color": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "power": 1500,
+                    "radius": 150,
+                    "attenuation": 1,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1,
+                    "specularContribution": 1
                 }
             ]
         }

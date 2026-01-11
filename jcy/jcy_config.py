@@ -1,6 +1,6 @@
 # 配置类
 
-# 控制器配置 <FunctionId, Value/Values
+# 控制器配置 <FunctionId, Value/Values>
 SETTINGS = {}
 
 # 素材包配置 <AssetType, AssetId>

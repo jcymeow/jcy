@@ -93,13 +93,13 @@ class FeatureView:
             self._create_tab(config)
 
         # --- 符文提醒 ---
-        rune_tab = ItemNotificationTable(notebook, config_dict=self.controller.current_states, config_key=ITEM_NOTIFICATION)
+        rune_tab = ItemNotificationTable(notebook, config_dict=jcy_config.SETTINGS, config_key=ITEM_NOTIFICATION)
         self.add_tab(rune_tab, "道具提醒")
 
         # --- new道具屏蔽 ---
         items_name_data = self.controller.file_operations.load_items_name()
         items_name_data.extend(GOLD_NAMES)
-        ifp = ItemFilterPanel(notebook, ITEMS, items_name_data,controller=self.controller, config_dict=self.controller.current_states, config_key=ITEM_FILTER)
+        ifp = ItemFilterPanel(notebook, ITEMS, items_name_data,controller=self.controller, config_dict=jcy_config.SETTINGS, config_key=ITEM_FILTER)
         self.add_tab(ifp, "道具屏蔽")
 
         # --- 素材管理 ---
@@ -194,11 +194,13 @@ class FeatureView:
 
             elif SPIN == type:
                 text = child.get("text")
+                _form = child.get("params").get("form")
+                _to = child.get("params").get("to")
                 spinbox = LabeledSpinBox(
                     master=tab,
                     feature_id=fid,
                     text=text,    
-                    from_=0, to=9, increment=1,
+                    from_=_form, to=_to, increment=1,
                     default_value=0,
                     command=self.controller.execute_feature_action
                 )
@@ -417,7 +419,7 @@ class FeatureView:
         except tk.TclError:
             pass
 
-    def update_ui_state(self, current_states: dict):
+    def update_ui_state(self):
         """
         根据加载的设置更新 UI 元素的状态。
         """
@@ -430,10 +432,10 @@ class FeatureView:
         
         for fid, var in self.feature_vars.items():
             if fid in self.all_features_config["checktable"]:
-                value = current_states.get(fid, {})
+                value = jcy_config.SETTINGS.get(fid, {})
                 var.set(value)
             elif fid in tab_fids:
-                value = current_states.get(fid)
+                value = jcy_config.SETTINGS.get(fid)
                 var.set(value)
 
 
@@ -481,12 +483,6 @@ class FeatureView:
     def visible(self):
         """窗口终始化"""
         self.load_window_geometry()
-
-        # if not "2" in self.controller.current_states["399"]:
-        #     self.hide_tab("恐怖区域")
-
-        # if not "1" in self.controller.current_states["399"]:
-        #     self.hide_tab("D2R多开器")
 
 
 class LabeledRadioGroup(ttk.LabelFrame):
@@ -1355,7 +1351,7 @@ class TerrorZoneUI(tk.Frame):
                         continue
                     zone_info = TERROR_ZONE_DICT.get(zone_key)
                     if isinstance(zone_info, dict):
-                        language =self.controller.current_states[TERROR_ZONE_LANGUAGE]
+                        language =jcy_config.SETTINGS[TERROR_ZONE_LANGUAGE]
                         name = zone_info.get(language)
                     else:
                         name = "未知名称"
@@ -1374,7 +1370,7 @@ class AssetManagerUI(tk.Frame):
         self.mod_root = mod_root or MOD_PATH
         self._external_assets = assets if assets is not None else ASSETS
         self._asset_types = asset_types if asset_types is not None else ASSETS_TYPE
-        self.asset_dir = tk.StringVar(value=self.controller.current_states.get(ASSET_PATH, ""))
+        self.asset_dir = tk.StringVar(value=jcy_config.SETTINGS.get(ASSET_PATH, ""))
         self.type_var = tk.StringVar(value="")
 
         self.asset_blocks = []
@@ -1562,8 +1558,8 @@ class AssetManagerUI(tk.Frame):
         path = filedialog.askdirectory(title="选择素材存放目录")
         if path:
             self.asset_dir.set(path)
-            self.controller.current_states[ASSET_PATH] = path
-            self.controller.feature_state_manager.save_settings(self.controller.current_states)
+            jcy_config.SETTINGS[ASSET_PATH] = path
+            self.controller.feature_state_manager.save_settings(jcy_config.SETTINGS)
             self.controller.file_operations.scan_asset_package()
             self.refresh_status(update_layout=True)
 

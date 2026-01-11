@@ -1,16 +1,17 @@
+import copy
 import csv
 import json
 import os
 import shutil
 import re
 import time
+from typing import Optional
 from jcy_assets import *
 from jcy_constants import *
 from jcy_paths import *
 from jcy_element import *
 from jcy_utils import *
 import jcy_config
-
 import requests, zipfile, tempfile
 
 
@@ -24,6 +25,7 @@ class FileOperations:
             MODIFY_FILENAME_BY_SETTINGS: self.modify_filename_by_settings,
             MODIFY_FILENAME_BY_ASSET: self.modify_filename_by_asset,
             MODIFY_EXCEL: self.modify_excel,
+            GAME_MODEL_APPLY: self.game_model_apply,
         }
 
 
@@ -48,7 +50,7 @@ class FileOperations:
     
     def scan_asset_package(self):
         """扫描素材包"""
-        asset_dir = self.controller.current_states.get(ASSET_PATH)
+        asset_dir = jcy_config.SETTINGS.get(ASSET_PATH)
         if not asset_dir:
             return
         
@@ -80,7 +82,7 @@ class FileOperations:
 
         asset_id = asset.get("id")
         asset_type = asset.get("type")
-        asset_dir = self.controller.current_states.get(ASSET_PATH)
+        asset_dir = jcy_config.SETTINGS.get(ASSET_PATH)
 
         zip_file = asset.get("file", "")
         zip_path = os.path.join(asset_dir, zip_file)
@@ -167,7 +169,10 @@ class FileOperations:
             func = self.method_dict.get(name)
             if not func:
                 print(f"asset_execute -> unknown method: {name}")
-            result = func(params)
+            if params:
+                result = func(params)
+            else:
+                result = func()
             if not result.get("ok"):
                 print(f"asset_execute -> {name} -> {result.get("message")}")
 
@@ -211,12 +216,29 @@ class FileOperations:
             return err_result(f"exception, e:{e}")
 
 
+    def game_model_apply(self):
+        """素材包.游戏模型.应用"""
+        
+        funcs = []
+        # ---- 怪物光源 ----
+        funcs.append(self.modify_asset_monster_light())
+        # ---- 高危怪物标记 ----
+        funcs.append(self.modify_asset_monster_dangerous())
+        # ---- Act1兵营指引 ----
+        funcs.append(self.modify_act1_barrack_pointer())
+        # ---- Act5尼拉塞克指引 ----
+        funcs.append(self.modify_act5_nihl_pointer())
+
+        summary = [sum(column) for column in zip(*funcs)]
+        return ok_result(summary)
+
+
     def modify_filename_by_settings(self, params: dict) -> dict:
         try:
             _key = params.get("key")
             _value = params.get("value")
             _records = params.get("records")
-            _values = self.controller.current_states.get(_key)
+            _values = jcy_config.SETTINGS.get(_key)
             isEnabled = _value in _values
             result = self.common_rename(_records, isEnabled)
             count = result[0]
@@ -766,138 +788,9 @@ class FileOperations:
 
         # 文件
         _files = {
-            # 危险怪物增加光源&标识
-            "2": [
-                r"data/hd/character/enemy/andariel.json",
-                r"data/hd/character/enemy/arach1.json",
-                r"data/hd/character/enemy/baalclone.json",
-                r"data/hd/character/enemy/baalcrab.json",
-                r"data/hd/character/enemy/baalminion1.json",
-                r"data/hd/character/enemy/baboon1.json",
-                r"data/hd/character/enemy/baboon6.json",
-                r"data/hd/character/enemy/barricadedoor1.json",
-                r"data/hd/character/enemy/barricadedoor2.json",
-                r"data/hd/character/enemy/barricadetower.json",
-                r"data/hd/character/enemy/barricadewall1.json",
-                r"data/hd/character/enemy/barricadewall2.json",
-                r"data/hd/character/enemy/batdemon1.json",
-                r"data/hd/character/enemy/bighead1.json",
-                r"data/hd/character/enemy/bladecreeper.json",
-                r"data/hd/character/enemy/bloodgolem.json",
-                r"data/hd/character/enemy/bloodlord1.json",
-                r"data/hd/character/enemy/bloodraven.json",
-                r"data/hd/character/enemy/blunderbore1.json",
-                r"data/hd/character/enemy/bonefetish1.json",
-                r"data/hd/character/enemy/boneprison1.json",
-                r"data/hd/character/enemy/boneprison2.json",
-                r"data/hd/character/enemy/boneprison3.json",
-                r"data/hd/character/enemy/boneprison4.json",
-                r"data/hd/character/enemy/brute2.json",
-                r"data/hd/character/enemy/cantor1.json",
-                r"data/hd/character/enemy/catapult1.json",
-                r"data/hd/character/enemy/catapultspotter1.json",
-                r"data/hd/character/enemy/chargeboltsentry.json",
-                r"data/hd/character/enemy/claygolem.json",
-                r"data/hd/character/enemy/compellingorb.json",
-                r"data/hd/character/enemy/corpsefire.json",
-                r"data/hd/character/enemy/corruptrogue1.json",
-                r"data/hd/character/enemy/councilmember1.json",
-                r"data/hd/character/enemy/cowking.json",
-                r"data/hd/character/enemy/cr_archer1.json",
-                r"data/hd/character/enemy/cr_lancer1.json",
-                r"data/hd/character/enemy/crownest1.json",
-                r"data/hd/character/enemy/darkelder.json",
-                r"data/hd/character/enemy/darkwanderer.json",
-                r"data/hd/character/enemy/deathmauler1.json",
-                r"data/hd/character/enemy/deathsentry.json",
-                r"data/hd/character/enemy/diablo.json",
-                r"data/hd/character/enemy/doomknight1.json",
-                r"data/hd/character/enemy/doomknight2.json",
-                r"data/hd/character/enemy/doomknight3.json",
-                r"data/hd/character/enemy/dopplezon.json",
-                r"data/hd/character/enemy/duriel.json",
-                r"data/hd/character/enemy/evilhole1.json",
-                r"data/hd/character/enemy/evilhut.json",
-                r"data/hd/character/enemy/fallen1.json",
-                r"data/hd/character/enemy/fallenshaman1.json",
-                r"data/hd/character/enemy/fetish1.json",
-                r"data/hd/character/enemy/fetish11.json",
-                r"data/hd/character/enemy/fetishblow1.json",
-                r"data/hd/character/enemy/fetishshaman1.json",
-                r"data/hd/character/enemy/fingermage1.json",
-                r"data/hd/character/enemy/firetower.json",
-                r"data/hd/character/enemy/flyingscimitar.json",
-                r"data/hd/character/enemy/foulcrow1.json",
-                r"data/hd/character/enemy/frogdemon1.json",
-                r"data/hd/character/enemy/frozenhorror1.json",
-                r"data/hd/character/enemy/gargoyletrap.json",
-                r"data/hd/character/enemy/goatman1.json",
-                r"data/hd/character/enemy/gorgon1.json",
-                r"data/hd/character/enemy/griswold.json",
-                r"data/hd/character/enemy/hellbovine.json",
-                r"data/hd/character/enemy/imp1.json",
-                r"data/hd/character/enemy/invisopet.json",
-                r"data/hd/character/enemy/invisospawner.json",
-                r"data/hd/character/enemy/lightningsentry.json",
-                r"data/hd/character/enemy/lightningspire.json",
-                r"data/hd/character/enemy/maggotbaby1.json",
-                r"data/hd/character/enemy/maggotegg1.json",
-                r"data/hd/character/enemy/megademon1.json",
-                r"data/hd/character/enemy/mephisto.json",
-                r"data/hd/character/enemy/mephistospirit.json",
-                r"data/hd/character/enemy/minion1.json",
-                r"data/hd/character/enemy/minionspawner1.json",
-                r"data/hd/character/enemy/mosquito1.json",
-                r"data/hd/character/enemy/mummy1.json",
-                r"data/hd/character/enemy/overseer1.json",
-                r"data/hd/character/enemy/painworm1.json",
-                r"data/hd/character/enemy/pantherwoman1.json",
-                r"data/hd/character/enemy/putriddefiler1.json",
-                r"data/hd/character/enemy/quillbear1.json",
-                r"data/hd/character/enemy/quillrat1.json",
-                r"data/hd/character/enemy/reanimatedhorde1.json",
-                r"data/hd/character/enemy/regurgitator1.json",
-                r"data/hd/character/enemy/sandleaper1.json",
-                r"data/hd/character/enemy/sandmaggot1.json",
-                r"data/hd/character/enemy/sandraider1.json",
-                r"data/hd/character/enemy/sarcophagus.json",
-                r"data/hd/character/enemy/scarab1.json",
-                r"data/hd/character/enemy/seventombs.json",
-                r"data/hd/character/enemy/shadowwarrior.json",
-                r"data/hd/character/enemy/siegebeast1.json",
-                r"data/hd/character/enemy/sk_archer1.json",
-                r"data/hd/character/enemy/skeleton1.json",
-                r"data/hd/character/enemy/skmage_cold1.json",
-                r"data/hd/character/enemy/skmage_fire1.json",
-                r"data/hd/character/enemy/skmage_ltng1.json",
-                r"data/hd/character/enemy/skmage_pois1.json",
-                r"data/hd/character/enemy/slinger1.json",
-                r"data/hd/character/enemy/slinger5.json",
-                r"data/hd/character/enemy/snowyeti1.json",
-                r"data/hd/character/enemy/succubus1.json",
-                r"data/hd/character/enemy/succubuswitch1.json",
-                r"data/hd/character/enemy/suicideminion1.json",
-                r"data/hd/character/enemy/swarm1.json",
-                r"data/hd/character/enemy/tentacle1.json",
-                r"data/hd/character/enemy/tentaclehead1.json",
-                r"data/hd/character/enemy/thornhulk1.json",
-                r"data/hd/character/enemy/trappedsoul1.json",
-                r"data/hd/character/enemy/trappedsoul2.json",
-                r"data/hd/character/enemy/turret1.json",
-                r"data/hd/character/enemy/unraveler1.json",
-                r"data/hd/character/enemy/vampire1.json",
-                r"data/hd/character/enemy/venomlord.json",
-                r"data/hd/character/enemy/vilechild1.json",
-                r"data/hd/character/enemy/vilemother1.json",
-                r"data/hd/character/enemy/vulture1.json",
-                r"data/hd/character/enemy/willowisp1.json",
-                r"data/hd/character/enemy/window1.json",
-                r"data/hd/character/enemy/window2.json",
-                r"data/hd/character/enemy/wraith1.json",
-                r"data/hd/character/enemy/zealot1.json",
-                r"data/hd/character/enemy/zombie1.json",
-            ],
-            # BOSS怪物光环指引->环境-任务指引
+            # 危险怪物增加光源&标识 - 废弃
+            "2": [],
+            # BOSS怪物光环指引->环境-任务指引 - 废弃
             "3": [],
             # 屏蔽A5督军山克死亡特效
             "4": [
@@ -906,7 +799,7 @@ class FileOperations:
             # 蓝色精英怪物随机染色
             "5": [
                 r"data/hd/global/palette/randtransforms.json",
-            ]
+            ],
         }
 
         funcs = []
@@ -914,10 +807,411 @@ class FileOperations:
             sub = self.common_rename(files, key in keys)
             funcs.append(sub)
 
+        funcs.append(self.modify_monster_dangerous())
+
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
         
         return summary
+
+
+    def select_asset_monster_lighting(self):
+        """修改素材包内怪物光源"""
+        
+        value = jcy_config.SETTINGS.get(MONSTER_LIGHTING, 0)
+
+        _files = [
+            r"data/hd/character/enemy/bonefetish1.json",
+            r"data/hd/character/enemy/cr_archer1.json",
+            r"data/hd/character/enemy/cr_lancer1.json",
+            r"data/hd/character/enemy/imp1.json",
+            r"data/hd/character/enemy/reanimatedhorde1.json",
+            r"data/hd/character/enemy/skeleton1.json",
+            r"data/hd/character/enemy/vampire1.json",
+            r"data/hd/character/enemy/venomlord.json",
+            r"data/hd/character/enemy/vilechild1.json",
+            r"data/hd/character/enemy/wraith1.json",
+            r"data/hd/character/enemy/zombie1.json",
+        ]
+
+        count = 0
+        total = len(_files)
+
+        for _file in _files:
+            try:
+                file_data = None
+                file_path = os.path.join(MOD_PATH, _file)
+                if not os.path.exists(file_path):
+                    continue
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    file_data = json.load(f)
+                
+                entities = file_data.get("entities", [])
+
+                # 查找光照node
+                targetIndex = None
+                for i, entity in enumerate(entities):
+                    if entity.get("id", 0) == ENTITY_MONSTER_LIGHT.get("id"):
+                        targetIndex = i
+                        break
+                
+                # 没有光照node, 则添加
+                if targetIndex is None:
+                    entities.append(ENTITY_MONSTER_LIGHT)
+                    targetIndex = -1
+
+                node = entities[targetIndex]
+                node["components"][-1]["power"] = value * 300
+                
+                with open(file_path, 'w', encoding="utf-8") as f:
+                    json.dump(file_data, f, ensure_ascii=False, indent=4)              
+                count += 1
+            except Exception as e:
+                print(f"[ERROR] {_file}: {e}")
+        
+        return (count, total)
+
+
+    def select_monster_lighting(self, value: Optional[int] = None):
+        """修改怪物光源"""
+
+        if value is None:
+            value = jcy_config.SETTINGS.get(MONSTER_LIGHTING, 0)
+
+        _files = [
+            r"data/hd/character/enemy/andariel.json",
+            r"data/hd/character/enemy/arach1.json",
+            r"data/hd/character/enemy/baalclone.json",
+            r"data/hd/character/enemy/baalcrab.json",
+            r"data/hd/character/enemy/baalminion1.json",
+            r"data/hd/character/enemy/baboon1.json",
+            r"data/hd/character/enemy/baboon6.json",
+            r"data/hd/character/enemy/barricadedoor1.json",
+            r"data/hd/character/enemy/barricadedoor2.json",
+            r"data/hd/character/enemy/barricadetower.json",
+            r"data/hd/character/enemy/barricadewall1.json",
+            r"data/hd/character/enemy/barricadewall2.json",
+            r"data/hd/character/enemy/batdemon1.json",
+            r"data/hd/character/enemy/bighead1.json",
+            r"data/hd/character/enemy/bladecreeper.json",
+            r"data/hd/character/enemy/bloodgolem.json",
+            r"data/hd/character/enemy/bloodlord1.json",
+            r"data/hd/character/enemy/bloodraven.json",
+            r"data/hd/character/enemy/blunderbore1.json",
+            r"data/hd/character/enemy/bonefetish1.json",
+            r"data/hd/character/enemy/boneprison1.json",
+            r"data/hd/character/enemy/boneprison2.json",
+            r"data/hd/character/enemy/boneprison3.json",
+            r"data/hd/character/enemy/boneprison4.json",
+            r"data/hd/character/enemy/brute2.json",
+            r"data/hd/character/enemy/cantor1.json",
+            r"data/hd/character/enemy/catapult1.json",
+            r"data/hd/character/enemy/catapultspotter1.json",
+            r"data/hd/character/enemy/chargeboltsentry.json",
+            r"data/hd/character/enemy/claygolem.json",
+            r"data/hd/character/enemy/compellingorb.json",
+            r"data/hd/character/enemy/corpsefire.json",
+            r"data/hd/character/enemy/corruptrogue1.json",
+            r"data/hd/character/enemy/councilmember1.json",
+            r"data/hd/character/enemy/cowking.json",
+            r"data/hd/character/enemy/cr_archer1.json",
+            r"data/hd/character/enemy/cr_lancer1.json",
+            r"data/hd/character/enemy/crownest1.json",
+            r"data/hd/character/enemy/darkelder.json",
+            r"data/hd/character/enemy/darkwanderer.json",
+            r"data/hd/character/enemy/deathmauler1.json",
+            r"data/hd/character/enemy/deathsentry.json",
+            r"data/hd/character/enemy/diablo.json",
+            r"data/hd/character/enemy/doomknight1.json",
+            r"data/hd/character/enemy/doomknight2.json",
+            r"data/hd/character/enemy/doomknight3.json",
+            r"data/hd/character/enemy/dopplezon.json",
+            r"data/hd/character/enemy/duriel.json",
+            r"data/hd/character/enemy/evilhole1.json",
+            r"data/hd/character/enemy/evilhut.json",
+            r"data/hd/character/enemy/fallen1.json",
+            r"data/hd/character/enemy/fallenshaman1.json",
+            r"data/hd/character/enemy/fetish1.json",
+            r"data/hd/character/enemy/fetish11.json",
+            r"data/hd/character/enemy/fetishblow1.json",
+            r"data/hd/character/enemy/fetishshaman1.json",
+            r"data/hd/character/enemy/fingermage1.json",
+            r"data/hd/character/enemy/firetower.json",
+            r"data/hd/character/enemy/flyingscimitar.json",
+            r"data/hd/character/enemy/foulcrow1.json",
+            r"data/hd/character/enemy/frogdemon1.json",
+            r"data/hd/character/enemy/frozenhorror1.json",
+            r"data/hd/character/enemy/gargoyletrap.json",
+            r"data/hd/character/enemy/goatman1.json",
+            r"data/hd/character/enemy/gorgon1.json",
+            r"data/hd/character/enemy/griswold.json",
+            r"data/hd/character/enemy/hellbovine.json",
+            r"data/hd/character/enemy/imp1.json",
+            r"data/hd/character/enemy/invisopet.json",
+            r"data/hd/character/enemy/invisospawner.json",
+            r"data/hd/character/enemy/lightningsentry.json",
+            r"data/hd/character/enemy/lightningspire.json",
+            r"data/hd/character/enemy/maggotbaby1.json",
+            r"data/hd/character/enemy/maggotegg1.json",
+            r"data/hd/character/enemy/megademon1.json",
+            r"data/hd/character/enemy/mephisto.json",
+            r"data/hd/character/enemy/mephistospirit.json",
+            r"data/hd/character/enemy/minion1.json",
+            r"data/hd/character/enemy/minionspawner1.json",
+            r"data/hd/character/enemy/mosquito1.json",
+            r"data/hd/character/enemy/mummy1.json",
+            r"data/hd/character/enemy/overseer1.json",
+            r"data/hd/character/enemy/painworm1.json",
+            r"data/hd/character/enemy/pantherwoman1.json",
+            r"data/hd/character/enemy/putriddefiler1.json",
+            r"data/hd/character/enemy/quillbear1.json",
+            r"data/hd/character/enemy/quillrat1.json",
+            r"data/hd/character/enemy/reanimatedhorde1.json",
+            r"data/hd/character/enemy/regurgitator1.json",
+            r"data/hd/character/enemy/sandleaper1.json",
+            r"data/hd/character/enemy/sandmaggot1.json",
+            r"data/hd/character/enemy/sandraider1.json",
+            r"data/hd/character/enemy/sarcophagus.json",
+            r"data/hd/character/enemy/scarab1.json",
+            r"data/hd/character/enemy/seventombs.json",
+            r"data/hd/character/enemy/shadowwarrior.json",
+            r"data/hd/character/enemy/siegebeast1.json",
+            r"data/hd/character/enemy/sk_archer1.json",
+            r"data/hd/character/enemy/skeleton1.json",
+            r"data/hd/character/enemy/skmage_cold1.json",
+            r"data/hd/character/enemy/skmage_fire1.json",
+            r"data/hd/character/enemy/skmage_ltng1.json",
+            r"data/hd/character/enemy/skmage_pois1.json",
+            r"data/hd/character/enemy/slinger1.json",
+            r"data/hd/character/enemy/slinger5.json",
+            r"data/hd/character/enemy/snowyeti1.json",
+            r"data/hd/character/enemy/succubus1.json",
+            r"data/hd/character/enemy/succubuswitch1.json",
+            r"data/hd/character/enemy/suicideminion1.json",
+            r"data/hd/character/enemy/swarm1.json",
+            r"data/hd/character/enemy/tentacle1.json",
+            r"data/hd/character/enemy/tentaclehead1.json",
+            r"data/hd/character/enemy/thornhulk1.json",
+            r"data/hd/character/enemy/trappedsoul1.json",
+            r"data/hd/character/enemy/trappedsoul2.json",
+            r"data/hd/character/enemy/turret1.json",
+            r"data/hd/character/enemy/unraveler1.json",
+            r"data/hd/character/enemy/vampire1.json",
+            r"data/hd/character/enemy/venomlord.json",
+            r"data/hd/character/enemy/vilechild1.json",
+            r"data/hd/character/enemy/vilemother1.json",
+            r"data/hd/character/enemy/vulture1.json",
+            r"data/hd/character/enemy/willowisp1.json",
+            r"data/hd/character/enemy/window1.json",
+            r"data/hd/character/enemy/window2.json",
+            r"data/hd/character/enemy/wraith1.json",
+            r"data/hd/character/enemy/zealot1.json",
+            r"data/hd/character/enemy/zombie1.json",
+        ]
+
+        count = 0
+        total = len(_files)
+
+        for _file in _files:
+            try:
+                file_data = None
+                file_path = os.path.join(MOD_PATH, _file)
+                if not os.path.exists(file_path):
+                    continue
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    file_data = json.load(f)
+                
+                entities = file_data.get("entities", [])
+
+                # 查找光照node
+                targetIndex = None
+                for i, entity in enumerate(entities):
+                    if entity.get("id", 0) == ENTITY_MONSTER_LIGHT.get("id"):
+                        targetIndex = i
+                        break
+                
+                # 没有光照node, 则添加
+                if targetIndex is None:
+                    entities.append(ENTITY_MONSTER_LIGHT)
+                    targetIndex = -1
+
+                node = entities[targetIndex]
+                node["components"][-1]["power"] = value * 300
+                
+                with open(file_path, 'w', encoding="utf-8") as f:
+                    json.dump(file_data, f, ensure_ascii=False, indent=4)              
+                count += 1
+            except Exception as e:
+                print(f"[ERROR] {_file}: {e}")
+        
+        return (count, total)
+    
+
+    def modify_asset_monster_dangerous(self):
+        """修改素材包怪物危险标记"""
+
+        configs = jcy_config.SETTINGS.get(MONSTER_SETTING, [])
+        is_enabled = "7" in configs
+
+        _files = [
+            {
+                "file": r"data/hd/character/enemy/bonefetish1.json",
+                "position-y": 2.5,
+            },
+        ]
+
+        count = 0
+        total = len(_files)
+
+        for _file in _files:
+            try:
+                _path = _file.get("file")
+                _position_y = _file.get("position-y")
+
+                file_data = None
+                file_path = os.path.join(MOD_PATH, _path)
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    file_data = json.load(f)
+                
+                entities = file_data.get("entities", [])
+
+                targetIndex = None
+                for i, entity in enumerate(entities):
+                    if entity["id"] == ENTITY_MONSTER_DANGEROUS["id"]:
+                        targetIndex = i
+                        break
+                
+                modified = False
+
+                if is_enabled is True and targetIndex is None:
+                    entity = copy.deepcopy(ENTITY_MONSTER_DANGEROUS)
+                    entity["components"][-1]["position"]["y"] = _position_y
+                    file_data["entities"].append(entity)
+                    modified = True
+                
+                if is_enabled is False and targetIndex is not None:
+                    file_data["entities"].pop(targetIndex)
+                    modified = True
+
+                count += 1
+                if modified:
+                    with open(file_path, 'w', encoding="utf-8") as f:
+                        json.dump(file_data, f, ensure_ascii=False, indent=4)              
+            except Exception as e:
+                print(f"[ERROR] {_file}: {e}")
+        
+        return (count, total)
+
+
+    def modify_monster_dangerous(self, isEnabled: Optional[bool] = None):
+        """修改怪物危险标记"""
+
+        if isEnabled is None:
+            configs = jcy_config.SETTINGS.get(MONSTER_SETTING, [])
+            isEnabled = "7" in configs
+
+        _files = [
+            {
+                "file": r"data/hd/character/enemy/andariel.json",
+                "position-y": 12,
+            },
+            {
+                "file": r"data/hd/character/enemy/baalcrab.json",
+                "position-y": 12,
+            },
+            {
+                "file": r"data/hd/character/enemy/bloodlord1.json",
+                "position-y": 5,
+            },
+            {
+                "file": r"data/hd/character/enemy/bloodraven.json",
+                "position-y": 5,
+            },
+            {
+                "file": r"data/hd/character/enemy/cowking.json",
+                "position-y": 12,
+            },
+            {
+                "file": r"data/hd/character/enemy/darkelder.json",
+                "position-y": 5,
+            },
+            {
+                "file": r"data/hd/character/enemy/diablo.json",
+                "position-y": 12,
+            },
+            {
+                "file": r"data/hd/character/enemy/duriel.json",
+                "position-y": 12,
+            },
+            {
+                "file": r"data/hd/character/enemy/griswold.json",
+                "position-y": 5,
+            },
+            {
+                "file": r"data/hd/character/enemy/mephisto.json",
+                "position-y": 12,
+            },
+            {
+                "file": r"data/hd/character/enemy/nihlathakboss.json",
+                "position-y": 10,
+            },
+            {
+                "file": r"data/hd/character/enemy/willowisp1.json",
+                "position-y": 2.5,
+            },
+            {
+                "file": r"data/hd/character/enemy/bonefetish1.json",
+                "position-y": 2.5,
+            },
+        ]
+
+        count = 0
+        total = len(_files)
+
+        for _file in _files:
+            try:
+                _path = _file.get("file")
+                _position_y = _file.get("position-y")
+
+                file_data = None
+                file_path = os.path.join(MOD_PATH, _path)
+                if not os.path.exists(file_path):
+                    continue
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    file_data = json.load(f)
+                
+                entities = file_data.get("entities", [])
+
+                targetIndex = None
+                for i, entity in enumerate(entities):
+                    if entity["id"] == ENTITY_MONSTER_DANGEROUS["id"]:
+                        targetIndex = i
+                        break
+                
+                modified = False
+
+                if isEnabled is True and targetIndex is None:
+                    entity = copy.deepcopy(ENTITY_MONSTER_DANGEROUS)
+                    entity["components"][-1]["position"]["y"] = _position_y
+                    file_data["entities"].append(entity)
+                    modified = True
+                
+                if isEnabled is False and targetIndex is not None:
+                    file_data["entities"].pop(targetIndex)
+                    modified = True
+
+                if modified:
+                    with open(file_path, 'w', encoding="utf-8") as f:
+                        json.dump(file_data, f, ensure_ascii=False, indent=4)              
+                count += 1
+            except Exception as e:
+                print(f"[ERROR] {_file}: {e}")
+        
+        return (count, total)
 
 
     def modify_character_player(self, val: int = 0):
@@ -962,50 +1256,6 @@ class FileOperations:
         return (count, total)
 
 
-    def modify_rune_rectangle(self, val: int = 0):
-        """
-        符文名称大小
-        """
-        params = [
-            r"data/local/lng/strings/item-runes.json",
-        ]
-
-        count = 0
-        total = len(params)
-
-        try:
-            # 0.var
-            target_file = os.path.join(MOD_PATH, params[0])
-            temp_file = target_file + ".tmp"
-            # 1.load
-            json_data = None
-            with open(target_file, 'r', encoding='utf-8-sig') as f:
-                json_data = json.load(f)
-            
-            # 2.modify
-            pattern = re.compile(r"^r(2[2-9]|3[0-3])$")
-            for object in json_data:
-                if pattern.match(object["Key"]):
-                    object["enUS"] = ("\n"*val) + object["enUS"].replace("\n", "").replace("=","").replace("ÿc8","\nÿc8") + ("\n"*val)
-                    object["zhCN"] = ("\n"*val) + object["zhCN"].replace("\n", "").replace("=","").replace("ÿc8","\nÿc8") + ("\n"*val)
-                    object["zhTW"] = ("\n"*val) + object["zhTW"].replace("\n", "").replace("=","").replace("ÿc8","\nÿc8") + ("\n"*val)
-                    if(val > 0) :
-                        object["enUS"] = object["enUS"] + ("="*(2*val+10))
-                        object["zhCN"] = object["zhCN"] + ("="*(2*val+10))
-                        object["zhTW"] = object["zhTW"] + ("="*(2*val+10))
-            
-            # 3.dump temp
-            with open(temp_file, 'w', encoding="utf-8-sig") as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=2)
-
-            # 4.replace
-            os.replace(temp_file, target_file)
-            count += 1
-        except Exception as e:
-            print(e)
-        return (count, total)
-
-
     def modify_hireablespanelhd_json(self, location:str, hud_size: str):
         """修改佣兵面板"""
         # 佣兵未知-位置 != 自定义, 不修改
@@ -1040,7 +1290,7 @@ class FileOperations:
             file_data["fields"]["rect"] = rects.get(hud_size)
 
             key = keys.get(hud_size)
-            value = self.controller.current_states.get(key)
+            value = jcy_config.SETTINGS.get(key)
             file_data["fields"]["secondSetPosition"] = value
 
             # 3.write
@@ -1078,7 +1328,7 @@ class FileOperations:
         count += 1
 
         # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        hud_size = self.controller.current_states.get(HUD_SIZE)
+        hud_size = jcy_config.SETTINGS.get(HUD_SIZE)
         result = self.modify_hireablespanelhd_json(radio, hud_size)
         count += result[0]
         total += result[1]
@@ -1090,8 +1340,8 @@ class FileOperations:
         """修改佣兵坐标"""
         
         # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        location = self.controller.current_states.get(MERCENARY_LOCATION)
-        hud_size = self.controller.current_states.get(HUD_SIZE)
+        location = jcy_config.SETTINGS.get(MERCENARY_LOCATION)
+        hud_size = jcy_config.SETTINGS.get(HUD_SIZE)
         result = self.modify_hireablespanelhd_json(location, hud_size)
         return (result[0], result[1], f"= {str(val)}")
 
@@ -1361,8 +1611,8 @@ class FileOperations:
             with open(jcy_item_modifiers_data_path, 'r', encoding='utf-8') as f:
                 jcy_item_modifiers_data = json.load(f)
 
-            netease = self.controller.current_states.get(NETEASE_LANGUAGE)
-            battlenet = self.controller.current_states.get(BATTLE_NET_LANGUAGE)
+            netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
+            battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
             # 词缀数据填充模板
             for item in jcy_item_modifiers_templet:
                 Key = item["Key"]
@@ -1509,13 +1759,13 @@ class FileOperations:
         
 
         # 道具过滤 ITEM_FILTER
-        item_filter_dict = self.controller.current_states[ITEM_FILTER]
+        item_filter_dict = jcy_config.SETTINGS[ITEM_FILTER]
         # 底材特效配置 EQIUPMENT_EFFECTS
-        base_dict = self.controller.current_states[BASE_EFFECTS]
+        base_dict = jcy_config.SETTINGS[BASE_EFFECTS]
         # 暗金特效配置 UNIQUE_EFFECTS
-        unique_dict = self.controller.current_states[UNIQUE_EFFECTS]
+        unique_dict = jcy_config.SETTINGS[UNIQUE_EFFECTS]
         # 套装特效配置 SETS_EFFECTS
-        set_dict = self.controller.current_states[SETS_EFFECTS]
+        set_dict = jcy_config.SETTINGS[SETS_EFFECTS]
 
         base_grade = "0" in base_dict
         base_weight = "1" in base_dict
@@ -1548,8 +1798,8 @@ class FileOperations:
                 obj[ZHSGCN] = obj[ZHCN]
                 obj[ZHSGTW] = obj[ZHTW]
 
-            netease = self.controller.current_states.get(NETEASE_LANGUAGE)
-            battlenet = self.controller.current_states.get(BATTLE_NET_LANGUAGE)
+            netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
+            battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
 
             for item in templet_list:
                 Key = item["Key"]
@@ -1683,8 +1933,8 @@ class FileOperations:
 
         count = 0
 
-        item_rune_setting1 = self.controller.current_states.get(ITEM_RUNE_SETTING1)
-        item_rune_setting2 = self.controller.current_states.get(ITEM_RUNE_SETTING2)
+        item_rune_setting1 = jcy_config.SETTINGS.get(ITEM_RUNE_SETTING1)
+        item_rune_setting2 = jcy_config.SETTINGS.get(ITEM_RUNE_SETTING2)
         
         rune_color = "1" in item_rune_setting1
         rune_title = "2" in item_rune_setting1
@@ -1718,8 +1968,8 @@ class FileOperations:
                 if obj.get(ZHSGTW) is None:
                     obj[ZHSGTW] = obj[ZHTW]
 
-            netease = self.controller.current_states.get(NETEASE_LANGUAGE)
-            battlenet = self.controller.current_states.get(BATTLE_NET_LANGUAGE)
+            netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
+            battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
 
             for item in templet_list:
                 Key = item["Key"]
@@ -2176,6 +2426,108 @@ class FileOperations:
         return summary
 
 
+    def modify_act1_barrack_pointer(self):
+        """修改A1兵营指引"""
+
+        _files = [
+            r"data/hd/env/preset/act1/court/courte.json",
+            r"data/hd/env/preset/act1/court/courtn.json",
+            r"data/hd/env/preset/act1/court/courtw.json",
+        ]
+
+        _pointers = [
+            ENTITY_COURTE_POINTER,
+            ENTITY_COURTN_POINTER,
+            ENTITY_COURTW_POINTER,
+        ]
+
+        count = 0
+        total = len(_files)
+
+        is_enabled = "3" in jcy_config.SETTINGS.get(ENABLE_POINTER, [])
+
+        for i, _file in enumerate(_files):
+            try:
+                pointer = _pointers[i]
+                json_data = None
+                json_path = os.path.join(MOD_PATH, _file)
+
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+
+                is_modified = False
+                last_entity = json_data["entities"][-1]
+                if is_enabled is True and last_entity["id"] != pointer.get("id"):
+                    json_data["entities"].append(pointer)
+                    is_modified = True
+
+                if is_enabled is False and last_entity["id"] == pointer.get("id"):
+                    json_data["entities"].pop(-1)
+                    is_modified = True
+
+                if is_modified:
+                    with open(json_path, 'w', encoding='utf-8') as f:
+                        json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+                count += 1
+            except Exception as e:
+                print(e)
+            
+        return (count, total)
+
+
+    def modify_act5_nihl_pointer(self):
+        """修改A5尼拉塞克指引"""
+
+        _files = [
+            r"data/hd/env/preset/expansion/wildtemple/nihle.json",
+            r"data/hd/env/preset/expansion/wildtemple/nihln.json",
+            r"data/hd/env/preset/expansion/wildtemple/nihls.json",
+            r"data/hd/env/preset/expansion/wildtemple/nihlw.json",
+        ]
+
+        _pointers = [
+            ENTITY_NIHLE_POINTER,
+            ENTITY_NIHLN_POINTER,
+            ENTITY_NIHLS_POINTER,
+            ENTITY_NIHLW_POINTER,
+        ]
+
+        count = 0
+        total = len(_files)
+
+        is_enabled = "6" in jcy_config.SETTINGS.get(ENABLE_POINTER, [])
+
+        for i, _file in enumerate(_files):
+            try:
+                pointer = _pointers[i]
+                json_data = None
+                json_path = os.path.join(MOD_PATH, _file)
+
+                with open(json_path, 'r', encoding='utf-8') as f:
+                    json_data = json.load(f)
+
+                is_modified = False
+                last_entity = json_data["entities"][-1]
+                if is_enabled is True and last_entity["id"] != pointer.get("id"):
+                    json_data["entities"].append(pointer)
+                    is_modified = True
+
+                if is_enabled is False and last_entity["id"] == pointer.get("id"):
+                    json_data["entities"].pop(-1)
+                    is_modified = True
+
+                if is_modified:
+                    with open(json_path, 'w', encoding='utf-8') as f:
+                        json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+                count += 1
+            except Exception as e:
+                print(e)
+            
+        return (count, total)
+
+
     def show_environmental_pointer(self, keys: list):
         """开启环境指引"""
         
@@ -2186,12 +2538,8 @@ class FileOperations:
         _files = {
             "1":[],
             "2":[],
-            # A1兵营
-            "3":[
-                r"data/hd/env/preset/act1/court/courte.json",
-                r"data/hd/env/preset/act1/court/courtn.json",
-                r"data/hd/env/preset/act1/court/courtw.json",
-            ],
+            # A1兵营 弃用
+            "3":[],
             # A2贤者小站
             "4": [
                 r"data/hd/env/preset/act2/outdoors/kingwarp.json",
@@ -2204,18 +2552,18 @@ class FileOperations:
                 r"data/hd/env/preset/act4/diab/bridge4.json",
             ],
             # A5尼拉塞克
-            "6": [
-                r"data/hd/env/preset/expansion/wildtemple/nihle.json",
-                r"data/hd/env/preset/expansion/wildtemple/nihln.json",
-                r"data/hd/env/preset/expansion/wildtemple/nihls.json",
-                r"data/hd/env/preset/expansion/wildtemple/nihlw.json",
-            ]
+            "6": []
         }
 
         funcs = []
         for key, files in _files.items():
             sub = self.common_rename(files, key in keys)
             funcs.append(sub)
+
+        # A1兵营指引
+        funcs.append(self.modify_act1_barrack_pointer())
+        # A5尼拉塞克指引
+        funcs.append(self.modify_act5_nihl_pointer())
 
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
@@ -2489,8 +2837,8 @@ class FileOperations:
         with open(item_names_path, 'r', encoding='utf-8-sig') as f:
             item_names_data = json.load(f)
         
-        netease = self.controller.current_states.get(NETEASE_LANGUAGE)
-        battlenet = self.controller.current_states.get(BATTLE_NET_LANGUAGE)
+        netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
+        battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
 
         for item in item_names_data:
             try:
@@ -2632,13 +2980,13 @@ class FileOperations:
             total += 1
 
         # 联动修改 佣兵面板
-        location = self.controller.current_states.get(MERCENARY_LOCATION)
+        location = jcy_config.SETTINGS.get(MERCENARY_LOCATION)
         result = self.modify_hireablespanelhd_json(location, radio)
         count += result[0]
         total += result[1]
 
         # ---- 联动修改 刺客聚气 ----
-        martial = self.controller.current_states.get(ASN_MARTIAL)
+        martial = jcy_config.SETTINGS.get(ASN_MARTIAL)
         result = self.assassin_martial(martial)
         count += result[0]
         total += result[1]
@@ -3681,7 +4029,7 @@ class FileOperations:
                 print(e)
         
         elif "2" == radio:
-            hud_size = self.controller.current_states.get(HUD_SIZE)
+            hud_size = jcy_config.SETTINGS.get(HUD_SIZE)
             _param = _params.get(radio).get(hud_size)
             try:
                 for i, _file in enumerate(_files):
@@ -3767,7 +4115,7 @@ class FileOperations:
                 zone_key = rec.get("zone")
                 formatted_time = time.strftime('%Y-%m-%d %H', time.localtime(raw_time)) if raw_time else "未知时间"
                 zone_info = TERROR_ZONE_DICT.get(zone_key, {})
-                language = self.controller.current_states[TERROR_ZONE_LANGUAGE]
+                language = jcy_config.SETTINGS[TERROR_ZONE_LANGUAGE]
                 zone_name = zone_info.get(language) if zone_info else f"未知区域（{zone_key}）"
                 formatted_name = zone_name.replace("、", "\n").replace(",", "\n")
                 info = f"{formatted_time}\n{formatted_name}"

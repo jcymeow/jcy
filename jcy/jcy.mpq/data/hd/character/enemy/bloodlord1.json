@@ -1,10 +1,6 @@
 {
     "dependencies": {
-        "particles": [
-            {
-                "path": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles"
-            }
-        ],
+        "particles": [],
         "models": [
             {
                 "path": "data/hd/character/enemy/bloodlord1/head_hev.model"
@@ -797,18 +793,18 @@
         },
         {
             "type": "Entity",
-            "name": "vfx",
-            "id": 2238451436,
+            "name": "entity_monster_dangerous",
+            "id": 7467890051,
             "components": [
                 {
                     "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
+                    "name": "vxf_monster_dangerous",
                     "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
-                    "hardKillOnDestroy": true
+                    "hardKillOnDestroy": false
                 },
                 {
                     "type": "TransformDefinitionComponent",
-                    "name": "vfx_TransformDefinition",
+                    "name": "vfx4294962040_component_transform",
                     "position": {
                         "x": 0,
                         "y": 5,
@@ -831,35 +827,45 @@
         },
         {
             "type": "Entity",
-            "name": "entity_root",
-            "id": 2101618603,
+            "name": "entity_monster_light",
+            "id": 7467890050,
             "components": [
                 {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightning_baaltaunt.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
                     "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
+                    "name": "transform_monster_light",
                     "position": {
                         "x": 0,
-                        "y": 3,
+                        "y": 0,
                         "z": 0
                     },
                     "orientation": {
-                        "x": 0.707106769,
+                        "x": 0,
                         "y": 0,
                         "z": 0,
                         "w": 1
                     },
                     "scale": {
-                        "x": 50,
-                        "y": 50,
-                        "z": 50
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
                     },
                     "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "vfx_monster_light",
+                    "color": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "power": 1500,
+                    "radius": 150,
+                    "attenuation": 1,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1,
+                    "specularContribution": 1
                 }
             ]
         }

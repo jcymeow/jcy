@@ -212,6 +212,50 @@
                     "terrainBlendMode": 1
                 }
             ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_monster_light",
+            "id": 7467890050,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_monster_light",
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "vfx_monster_light",
+                    "color": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "power": 1500,
+                    "radius": 150,
+                    "attenuation": 1,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1,
+                    "specularContribution": 1
+                }
+            ]
         }
     ]
 }

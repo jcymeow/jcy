@@ -66,7 +66,7 @@ class FeatureController:
     def __init__(self, master):
         self.master = master
         self.dialogs = "" 
-        self.current_states = {}
+        jcy_config.SETTINGS = {}
         
 
         # 无配置文件,以默认文件为准
@@ -78,7 +78,7 @@ class FeatureController:
         self.feature_config = FeatureConfig()
         self.feature_state_manager = FeatureStateManager(self.feature_config)
         self.feature_state_manager.load_settings()
-        self.current_states = copy.deepcopy(self.feature_state_manager.loaded_states)
+        jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
 
         # 文件操作类
         self.file_operations = FileOperations(self)
@@ -108,7 +108,7 @@ class FeatureController:
             self.upgrade_dialog = None
 
             # 更新 current_states
-            self.current_states = copy.deepcopy(self.feature_state_manager.loaded_states)
+            jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
 
         # 恐怖区域更新
         self.terror_zone_fetcher = TerrorZoneFetcher(self)
@@ -118,14 +118,11 @@ class FeatureController:
         self.feature_view = FeatureView(master, self.feature_config.all_features_config, self)
 
         # 按照配置更新到UI
-        self.feature_view.update_ui_state(self.current_states)
+        self.feature_view.update_ui_state()
 
         # 按配置显/隐面板
         self.feature_view.visible()
 
-    def getCurrentState(self, key):
-        return self.current_states.get(key)
-    
 
     def _upgrade_config(self, dialog=None):
         """执行完整的配置升级流程，可传入升级 dialog 显示进度"""
@@ -146,7 +143,7 @@ class FeatureController:
             # 保存合并后的配置
             self.feature_state_manager.save_settings(merged_config)
             self.feature_state_manager.load_settings()
-            self.current_states = copy.deepcopy(self.feature_state_manager.loaded_states)
+            jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
 
             if dialog:
                 dialog.log("📂 同步配置到 Mod 文件...")
@@ -161,10 +158,10 @@ class FeatureController:
                     result = self.file_operations.apply_asset(asset)
                     if result.get("ok"):
                         if dialog:
-                            dialog.log(f"{asset.get("name")} 应用成功.")
+                            dialog.log(f"{asset.get('name')} 应用成功.")
                     else:
                         if dialog:
-                            dialog.log(f"{asset.get("name")} 应用失败, {result.get("message")}")
+                            dialog.log(f"{asset.get('name')} 应用失败, {result.get('message')}")
 
             if dialog:
                 dialog.log("✅ 升级完成!")
@@ -251,15 +248,17 @@ class FeatureController:
             MERCENARY_65: self.file_operations.mercenary_coordinate,
             # 怪物-配置
             MONSTER_SETTING: self.file_operations.select_monster_setting,
+            # 怪物-光源亮度
+            MONSTER_LIGHTING: self.file_operations.select_monster_lighting,
             # 怪物-血条样式
             MONSTER_HEALTH: self.file_operations.select_monster_health,
             # 怪物-导弹
             MONSTER_MISSILE: self.file_operations.select_enemy_arrow_skin,
             # 装备-特效
-            BASE_EFFECTS: self.file_operations.select_equipment_effects,
+            EQIUPMENT_SETTING: self.file_operations.select_equipment_setting,
             # 装备-底材/暗金/套装特效
             BASE_EFFECTS: self.file_operations.select_equipment_effects,
-            EQIUPMENT_SETTING: self.file_operations.select_equipment_setting,
+            UNIQUE_EFFECTS: self.file_operations.select_equipment_effects,
             SETS_EFFECTS: self.file_operations.select_equipment_effects,
             # 装备-词缀特效
             AFFIX_EFFECTS: self.file_operations.select_affix_effects,
@@ -267,8 +266,6 @@ class FeatureController:
             UNIQUE_COLOR: self.file_operations.modify_unique_color,
             # 装备-模型特效
             MODEL_EFFECTS: self.file_operations.select_model_eccects,
-            # 22#+符文名称大小(越大越容易发现/选中)
-            # RUNE_SIZE: self.file_operations.modify_rune_rectangle,
             # 符文&符文之语设置
             ITEM_RUNE_SETTING1: self.file_operations.modify_item_rune,
             ITEM_RUNE_SETTING2: self.file_operations.modify_item_rune,
@@ -343,7 +340,7 @@ class FeatureController:
                 text = child.get("text")
                 type = child.get("type")
 
-                current_value = self.current_states.get(fid)
+                current_value = jcy_config.SETTINGS.get(fid)
                 loaded_value = self.feature_state_manager.loaded_states.get(fid)
                 if current_value is not None and current_value != loaded_value:
                     changes_detected = True
@@ -357,7 +354,7 @@ class FeatureController:
 
         # -- 屏蔽道具 --
         for fid, info in self.feature_config.all_features_config["checktable"].items():
-            current_value = self.current_states.get(fid)
+            current_value = jcy_config.SETTINGS.get(fid)
             loaded_value = self.feature_state_manager.loaded_states.get(fid)
             if current_value is not None and current_value != loaded_value:
                 changes_detected = True
@@ -367,14 +364,14 @@ class FeatureController:
         
 
         # 保存当前状态到 settings.json
-        self.feature_state_manager.save_settings(self.current_states)
-        self.feature_state_manager.loaded_states = copy.deepcopy(self.current_states)
+        self.feature_state_manager.save_settings(jcy_config.SETTINGS)
+        self.feature_state_manager.loaded_states = copy.deepcopy(jcy_config.SETTINGS)
 
         # 显示结果
         return changes_detected
 
     def execute_feature_action(self, feature_id: str, value):
-        self.current_states[feature_id] = value
+        jcy_config.SETTINGS[feature_id] = value
     
     def open_appdata(self):
         subprocess.Popen(f'explorer "{CONFIG_PATH}"')  # 打开目录（Windows）
@@ -453,7 +450,7 @@ class TerrorZoneFetcher:
         for attempt in range(1, max_retries + 1):
             try:
                 # 区服配置
-                server_cfg = self.controller.current_states[TERROR_ZONE_SERVER]
+                server_cfg = jcy_config.SETTINGS[TERROR_ZONE_SERVER]
                 api_array = TERROR_ZONE_API[server_cfg]
                 
                 if "1" == server_cfg:
@@ -559,12 +556,12 @@ class TerrorZoneFetcher:
                     print(f"[错误] 保存数据失败: {e}")
 
                 # Win系统通知
-                if "1" in self.controller.current_states[TERROR_ZONE_NEXT]:
+                if "1" in jcy_config.SETTINGS[TERROR_ZONE_NEXT]:
                     if callback:
                         callback(data)
 
                 # 游戏内预告
-                if "2" in self.controller.current_states[TERROR_ZONE_NEXT]:
+                if "2" in jcy_config.SETTINGS[TERROR_ZONE_NEXT]:
                     self.controller.file_operations.writeTerrorZone(data)
                 else:
                     self.controller.file_operations.writeTerrorZone("")
@@ -630,7 +627,7 @@ if __name__ == "__main__":
             formatted_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time)) if raw_time else "未知时间"
             
             zone_info = TERROR_ZONE_DICT.get(zone_key, {})
-            language = app.current_states[TERROR_ZONE_LANGUAGE]
+            language = jcy_config.SETTINGS[TERROR_ZONE_LANGUAGE]
             zone_name = zone_info.get(language) if zone_info else f"未知区域（{zone_key}）"
             message = f"{formatted_time} {zone_name}"
         except Exception as e:

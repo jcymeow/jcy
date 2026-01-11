@@ -264,7 +264,11 @@ class FeatureConfig:
                             "fid": LIGHT_REDIUS,
                             "type": SPIN,
                             "text": "额外的照亮范围",
-                            "colspan": 20
+                            "colspan": 20,
+                            "params": {
+                                "form": 0,
+                                "to": 9
+                            }
                         },
                         {
                             "fid": COMMON_SETTING,
@@ -462,13 +466,23 @@ class FeatureConfig:
                             "fid": MONSTER_SETTING,
                             "type": CHECK,
                             "text": "怪物-配置",
-                            "colspan": 100,
+                            "colspan": 70,
                             "params": {
-                                "2": "危险怪物增加光源标识",
                                 "4": "屏蔽A5督军山克死亡特效",
-                                "5": "蓝色精英随机染色"
+                                "5": "蓝色精英随机染色",
+                                "6": "开启 危险怪物标识",
                             }
-                        },                        
+                        },
+                        {
+                            "fid": MONSTER_LIGHTING,
+                            "type": SPIN,
+                            "text": "怪物-光源亮度",
+                            "colspan": 30,
+                            "params": {
+                                "form": 0,
+                                "to": 10
+                            }
+                        },
                         {
                             "fid": MONSTER_HEALTH,
                             "type": RADIO,
@@ -600,12 +614,6 @@ class FeatureConfig:
                                 "3": "掉落声音提醒"
                             }
                         },
-                        # {
-                        #     "fid": RUNE_SIZE,
-                        #     "type": SPIN,
-                        #     "text": "22#+符文名称大小",
-                        #     "colspan": 30
-                        # },
                         {
                             "fid": ITEM_RUNE_SETTING1,
                             "type": CHECK,

@@ -1,10 +1,6 @@
 {
     "dependencies": {
-        "particles": [
-            {
-                "path": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles"
-            }
-        ],
+        "particles": [],
         "models": [
             {
                 "path": "data/hd/character/enemy/nihlathakboss/torso.model"
@@ -253,40 +249,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_root",
-            "id": 2101618603,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightning_baaltaunt.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0,
-                        "y": 3,
-                        "z": 0
-                    },
-                    "orientation": {
-                        "x": 1.2,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 50,
-                        "y": 50,
-                        "z": 50
-                    },
-                    "inheritOnlyPosition": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "jcy_entity_pointer",
             "id": 586091852,
             "components": [
@@ -315,6 +277,40 @@
                     "type": "PrefabPlacementDefinitionComponent",
                     "name": "prefab_PrefabPlacementDefinitionComponent",
                     "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_monster_dangerous",
+            "id": 7467890051,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vxf_monster_dangerous",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx4294962040_component_transform",
+                    "position": {
+                        "x": 0,
+                        "y": 10,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
                 }
             ]
         }

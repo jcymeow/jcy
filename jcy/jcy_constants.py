@@ -135,6 +135,7 @@ MERCENARY_85 = "Mercenary85"
 MERCENARY_75 = "Mercenary75"
 MERCENARY_65 = "Mercenary65"
 MONSTER_SETTING = "MonsterSetting"
+MONSTER_LIGHTING = "MonsterLighting"
 MONSTER_HEALTH = "MonsterHealth"
 MONSTER_MISSILE = "MonsterMissile"
 BASE_EFFECTS = "BaseEffects"
@@ -176,6 +177,7 @@ REMOVE_METHOD = "remove_method"
 MODIFY_FILENAME_BY_SETTINGS = "modify_filename_by_settings"
 MODIFY_FILENAME_BY_ASSET = "modify_filename_by_asset"
 MODIFY_EXCEL = "modify_excel"
+GAME_MODEL_APPLY = "game_model_apply"
 
 
 
@@ -1690,6 +1692,7 @@ __all__ = [
     'MERCENARY_75',
     'MERCENARY_65',
     'MONSTER_SETTING',
+    'MONSTER_LIGHTING',
     'MONSTER_HEALTH',
     'MONSTER_MISSILE',
     'BASE_EFFECTS',
@@ -1748,6 +1751,7 @@ __all__ = [
     'MODIFY_FILENAME_BY_SETTINGS',
     'MODIFY_FILENAME_BY_ASSET',
     'MODIFY_EXCEL',
+    'GAME_MODEL_APPLY',
     'init_global_dict',
     'translate',
 ]

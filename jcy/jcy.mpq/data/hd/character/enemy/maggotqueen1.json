@@ -274,40 +274,6 @@
         },
         {
             "type": "Entity",
-            "name": "entity_root",
-            "id": 2101618603,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightning_baaltaunt.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0,
-                        "y": 3,
-                        "z": 0
-                    },
-                    "orientation": {
-                        "x": 1.2,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 50,
-                        "y": 50,
-                        "z": 50
-                    },
-                    "inheritOnlyPosition": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "jcy_entity_pointer",
             "id": 586091852,
             "components": [

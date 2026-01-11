@@ -9,9 +9,6 @@
             },
             {
                 "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash_Dust.particles"
-            },
-            {
-                "path": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_7/vfx_arcanerune_7.particles"
             }
         ],
         "models": [
@@ -246,6 +243,84 @@
                         "z": 1
                     },
                     "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_monster_dangerous",
+            "id": 7467890051,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vxf_monster_dangerous",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "vfx4294962040_component_transform",
+                    "position": {
+                        "x": 0,
+                        "y": 2.5,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_monster_light",
+            "id": 7467890050,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_monster_light",
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "vfx_monster_light",
+                    "color": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "power": 1500,
+                    "radius": 150,
+                    "attenuation": 1,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1,
+                    "specularContribution": 1
                 }
             ]
         }
