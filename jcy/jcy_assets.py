@@ -21,60 +21,19 @@ ASSETS = [
         "name": "网易国服_游戏模型",
         "type": GAME_MODEL,
         "author": "桔橙柚",
-        "description": "包含:反和谐(骷髅宝石/死灵盾牌/短杖/冥河娃娃/怨灵/僵尸), 国服:外侧回廊/沃特之厅 模型",
+        "description": "国服:外侧回廊/沃特之厅/怪模模型/反和谐",
         "source": "国服与国际服模型不同, 网易国服请使用这个素材包",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/netease.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/netease.zip",
         "file": "netease.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/netease.png",
-        "size": 11079780,
-        "md5": "E6281E351FE5A94CCF727DB8CC9C629F",
+        "size": 11096337,
+        "md5": "FD7DA7EAF705FCBD9BA55D52C9DC8CC0",
         APPLY_METHOD: [
-            { 
-                "method": MODIFY_FILENAME_BY_SETTINGS, 
-                "params": {
-                    "key": MONSTER_SETTING,
-                    "value": "2",
-                    "records": [
-                        "data/hd/character/enemy/bonefetish1.json", 
-                        "data/hd/character/enemy/wraith1.json",
-                        "data/hd/character/enemy/zombie1.json",
-                    ]
-                }
-            },
-            { 
-                "method": MODIFY_FILENAME_BY_SETTINGS, 
-                "params": {
-                    "key": ENABLE_POINTER,
-                    "value": "3",
-                    "records": [
-                        "data/hd/env/preset/act1/court/courte.json",
-                        "data/hd/env/preset/act1/court/courtn.json",
-                        "data/hd/env/preset/act1/court/courtw.json",
-                    ]
-                }
-            },
-            { 
-                "method": MODIFY_FILENAME_BY_SETTINGS, 
-                "params": {
-                    "key": ENABLE_POINTER,
-                    "value": "6",
-                    "records": [
-                        "data/hd/env/preset/expansion/wildtemple/nihle.json",
-                        "data/hd/env/preset/expansion/wildtemple/nihln.json",
-                        "data/hd/env/preset/expansion/wildtemple/nihls.json",
-                        "data/hd/env/preset/expansion/wildtemple/nihlw.json",
-                    ]
-                }
+            {
+                "method": GAME_MODEL_APPLY,
             },
         ],
-        REMOVE_METHOD: [
-            { 
-                "method": MODIFY_FILENAME_BY_ASSET, 
-                "params": {
-                    "key": 4,
-                }
-            },
-        ],
+        REMOVE_METHOD: [],
         "list": [
             # StygianDoll 冥河鬼娃
             "data/hd/character/enemy/bonefetish1/animation/combined.animations",
@@ -118,7 +77,16 @@ ASSETS = [
             "data/hd/character/enemy/wraith1/wraith1_state_machine.json",
             "data/hd/character/enemy/wraith1/wraith1_variant.json",
             "data/hd/character/enemy/wraith1.json",
-            # Zombie 殭屍
+            # 怪物模型
+            "data/hd/character/enemy/bonefetish1.json",
+            "data/hd/character/enemy/cr_archer1.json",
+            "data/hd/character/enemy/cr_lancer1.json",
+            "data/hd/character/enemy/imp1.json",
+            "data/hd/character/enemy/reanimatedhorde1.json",
+            "data/hd/character/enemy/skeleton1.json",
+            "data/hd/character/enemy/vampire1.json",
+            "data/hd/character/enemy/vilechild1.json",
+            "data/hd/character/enemy/wraith1.json",
             "data/hd/character/enemy/zombie1.json",
             # court 外侧回廊
             "data/hd/env/preset/act1/court/courte.json",
@@ -173,50 +141,30 @@ ASSETS = [
         "name": "暴雪国际服_游戏模型",
         "type": GAME_MODEL,
         "author": "桔橙柚",
-        "description": "包含 国际服:僵尸/外侧回廊/沃特之厅 模型",
+        "description": "国际服:外侧回廊/沃特之厅/怪物模型",
         "source": "国服与国际服模型不同, 暴雪国际服请使用这个素材包",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/battlenet.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/battlenet.zip",
         "file": "battlenet.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/battlenet.png",
-        "size": 1407541,
-        "md5": "CF6F3182A19E7F75A99B1F40D046B414",
+        "size": 1428760,
+        "md5": "1C5B25F8C5FB88706B59982ABADE0557",
         APPLY_METHOD: [
-            { 
-                "method": MODIFY_FILENAME_BY_SETTINGS, 
-                "params": {
-                    "key": ENABLE_POINTER,
-                    "value": "3",
-                    "records": [
-                        "data/hd/env/preset/act1/court/courte.json",
-                        "data/hd/env/preset/act1/court/courtn.json",
-                        "data/hd/env/preset/act1/court/courtw.json",
-                    ]
-                }
-            },
-            { 
-                "method": MODIFY_FILENAME_BY_SETTINGS, 
-                "params": {
-                    "key": ENABLE_POINTER,
-                    "value": "6",
-                    "records": [
-                        "data/hd/env/preset/expansion/wildtemple/nihle.json",
-                        "data/hd/env/preset/expansion/wildtemple/nihln.json",
-                        "data/hd/env/preset/expansion/wildtemple/nihls.json",
-                        "data/hd/env/preset/expansion/wildtemple/nihlw.json",
-                    ]
-                }
+            {
+                "method": GAME_MODEL_APPLY,
             },
         ],
-        REMOVE_METHOD: [
-            { 
-                "method": MODIFY_FILENAME_BY_ASSET, 
-                "params": {
-                    "key": 5,
-                }
-            },
-        ],
+        REMOVE_METHOD: [],
         "list": [
-            # Zombie 殭屍
+            # 怪物模型
+            "data/hd/character/enemy/bonefetish1.json",
+            "data/hd/character/enemy/cr_archer1.json",
+            "data/hd/character/enemy/cr_lancer1.json",
+            "data/hd/character/enemy/imp1.json",
+            "data/hd/character/enemy/reanimatedhorde1.json",
+            "data/hd/character/enemy/skeleton1.json",
+            "data/hd/character/enemy/vampire1.json",
+            "data/hd/character/enemy/vilechild1.json",
+            "data/hd/character/enemy/wraith1.json",
             "data/hd/character/enemy/zombie1.json",
             # court 外侧回廊
             "data/hd/env/preset/act1/court/courte.json",

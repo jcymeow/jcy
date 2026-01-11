@@ -221,7 +221,7 @@ class FileOperations:
         
         funcs = []
         # ---- 怪物光源 ----
-        funcs.append(self.modify_asset_monster_light())
+        funcs.append(self.select_asset_monster_lighting())
         # ---- 高危怪物标记 ----
         funcs.append(self.modify_asset_monster_dangerous())
         # ---- Act1兵营指引 ----
