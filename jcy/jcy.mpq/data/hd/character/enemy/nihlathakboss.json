@@ -249,39 +249,6 @@
         },
         {
             "type": "Entity",
-            "name": "jcy_entity_pointer",
-            "id": 586091852,
-            "components": [
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "prefab_TransformDefinitionComponent",
-                    "position": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 25.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "PrefabPlacementDefinitionComponent",
-                    "name": "prefab_PrefabPlacementDefinitionComponent",
-                    "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_monster_dangerous",
             "id": 7467890051,
             "components": [
@@ -311,6 +278,39 @@
                         "z": 1
                     },
                     "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 586091852,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "prefab_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 25.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PrefabPlacementDefinitionComponent",
+                    "name": "prefab_PrefabPlacementDefinitionComponent",
+                    "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
                 }
             ]
         }

@@ -228,6 +228,8 @@ class FileOperations:
         funcs.append(self.modify_act1_barrack_pointer())
         # ---- Act5尼拉塞克指引 ----
         funcs.append(self.modify_act5_nihl_pointer())
+        # ---- 邻区指引 ----
+        funcs.append(self.modify_asset_nextarea_pointer())
 
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
@@ -2538,7 +2540,7 @@ class FileOperations:
         _files = {
             "1":[],
             "2":[],
-            # A1兵营 弃用
+            # A1兵营 -> modify_act1_barrack_pointer
             "3":[],
             # A2贤者小站
             "4": [
@@ -2551,7 +2553,7 @@ class FileOperations:
                 r"data/hd/env/preset/act4/diab/bridge3.json",
                 r"data/hd/env/preset/act4/diab/bridge4.json",
             ],
-            # A5尼拉塞克
+            # A5尼拉塞克 -> modify_act5_nihl_pointer
             "6": []
         }
 
@@ -2593,7 +2595,9 @@ class FileOperations:
         _maps = {
             "0": [],
             "1": ARROW_LIGHT1,
-            "2": PF_BEACON_WAYPOINT
+            "2": PF_BEACON_WAYPOINT,
+            "3": ARROW_LIGHT1,
+            "4": ARROW_LIGHT2,
         }
 
 
@@ -2650,7 +2654,9 @@ class FileOperations:
         _maps = {
             "0": [],
             "1": ARROW_LIGHT2,
-            "2": PF_BEACON_QUEST
+            "2": PF_BEACON_QUEST,
+            "3": ARROW_LIGHT1,
+            "4": ARROW_LIGHT2,
         }
 
 
@@ -2710,7 +2716,9 @@ class FileOperations:
         _maps = {
             "0": [],
             "1": ROOMTILES_ARROW_LIGHT2,
-            "2": PF_BEACON_UPSTAIRS
+            "2": PF_BEACON_UPSTAIRS,
+            "3": ARROW_LIGHT1,
+            "4": ARROW_LIGHT2,
         }
 
 
@@ -2735,6 +2743,7 @@ class FileOperations:
                 print(e)
 
         return (count, total)
+
 
     def modify_downstairs_pointer(self, radio: str = "0"):
         """修改下口指引样式"""
@@ -2781,7 +2790,9 @@ class FileOperations:
         _maps = {
             "0": [],
             "1": ROOMTILES_ARROW_LIGHT1,
-            "2": PF_BEACON_DOWNSTAIRS
+            "2": PF_BEACON_DOWNSTAIRS,
+            "3": ARROW_LIGHT1,
+            "4": ARROW_LIGHT2,
         }
 
 
@@ -2806,6 +2817,28 @@ class FileOperations:
                 print(e)
 
         return (count, total)
+
+
+    def modify_nextarea_pointer(self, radio: str = "0"):
+        """环境-邻区指引"""
+         # 任务对象文件列表
+        _files = [
+            "data/hd/env/preset/act1/outdoors/bord1o.json",
+            "data/hd/env/preset/act1/outdoors/bord1oe.json",
+            "data/hd/env/preset/act1/outdoors/bord2o.json",
+            "data/hd/env/preset/act1/outdoors/bord2oe.json",
+            "data/hd/env/preset/act1/outdoors/bord3o.json",
+            "data/hd/env/preset/act1/outdoors/bord3oe.json",
+            "data/hd/env/preset/act1/outdoors/bord4o.json",
+            "data/hd/env/preset/act1/outdoors/bord4oe.json",
+            "data/hd/env/preset/act4/mesa/border1o.json",
+            "data/hd/env/preset/act4/mesa/border2o.json",
+            "data/hd/env/preset/act4/mesa/border3o.json",
+            "data/hd/env/preset/act4/mesa/border4o.json",
+        ]
+
+        return self.common_rename(_files, radio == "2")
+
 
     def filter_item_name(self, item_name: str, filter: bool) -> str:
         """

@@ -80,7 +80,7 @@ class FeatureConfig:
                             "type": TERROR_ZONE_TABLE,
                             "text": "恐怖区域",
                             "colspan": 100
-                        }
+                        },
                     ]
                 },
                 {
@@ -190,12 +190,22 @@ class FeatureConfig:
                             "fid": ENABLE_POINTER,
                             "type": CHECK,
                             "text": "环境-开启指引",
-                            "colspan": 100,
+                            "colspan": 70,
                             "params": {
                                 "3": "A1兵营",
                                 "4": "A2贤者小站",
                                 "5": "A4火焰之河",
                                 "6": "A5尼拉塞克"
+                            }
+                        },
+                        {
+                            "fid": NEXTAREA_POINTER,
+                            "type": RADIO,
+                            "text": "环境-邻区指引",
+                            "colspan": 30,
+                            "params": {
+                                "0": "默认",
+                                "2": "灰环指引",
                             }
                         },
                         {
@@ -205,8 +215,9 @@ class FeatureConfig:
                             "colspan": 50,
                             "params": {
                                 "0": "默认",
-                                "1": "箭头指引",
                                 "2": "蓝环指引",
+                                "3": "长箭头",
+                                "4": "双箭头",
                             }
                         },
                         {
@@ -216,8 +227,9 @@ class FeatureConfig:
                             "colspan": 50,
                             "params": {
                                 "0": "默认",
-                                "1": "箭头指引",
                                 "2": "红环指引",
+                                "3": "长箭头",
+                                "4": "双箭头",
                             }
                         },
                         {
@@ -227,8 +239,9 @@ class FeatureConfig:
                             "colspan": 50,
                             "params": {
                                 "0": "默认",
-                                "1": "箭头指引",
                                 "2": "黄环指引",
+                                "3": "长箭头",
+                                "4": "双箭头",
                             }
                         },
                         {
@@ -238,8 +251,9 @@ class FeatureConfig:
                             "colspan": 50,
                             "params": {
                                 "0": "默认",
-                                "1": "箭头指引",
                                 "2": "绿环指引",
+                                "3": "长箭头",
+                                "4": "双箭头",
                             }
                         },
                     ]

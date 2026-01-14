@@ -68,6 +68,10 @@ class FeatureController:
         self.dialogs = "" 
         jcy_config.SETTINGS = {}
         
+        # 检查MOD包是否存在
+        if not os.path.exists(MOD_PATH):
+            messagebox.showerror("错误", "控制器程序和 MOD 包是绑定在一起使用的，不能分开存放")
+            sys.exit(1)
 
         # 无配置文件,以默认文件为准
         if not os.path.exists(USER_SETTINGS_PATH):
@@ -285,6 +289,8 @@ class FeatureController:
             UPSTAIRS_POINTER: self.file_operations.modify_upstairs_pointer,
             # 环境-下口指引
             DOWNSTAIRS_POINTER: self.file_operations.modify_downstairs_pointer,
+            # 环境-邻区指引
+            NEXTAREA_POINTER: self.file_operations.modify_nextarea_pointer,
             # 迷你盒子位置
             MINI_CUBE: self.file_operations.modify_mini_cube,
             # ESC设置
