@@ -365,7 +365,7 @@ class FeatureConfig:
                             "text": "德鲁伊",
                             "colspan": 25,
                             "params": {
-                                "1": "飓风术特效"
+                                "2": "蓝色飓风术"
                             }
                         },
                         {

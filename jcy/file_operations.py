@@ -3896,10 +3896,13 @@ class FileOperations:
         _files = {
             # 德鲁伊-飓风术
             "1":[
-                r"data/hd/missiles/expansion_hurricane_rocks.json",
-                r"data/hd/missiles/expansion_hurricane_tree.json",
-                r"data/hd/missiles/expansion_hurricane_swoosh.json",
+                # r"data/hd/missiles/expansion_hurricane_rocks.json",
+                # r"data/hd/missiles/expansion_hurricane_tree.json",
+                # r"data/hd/missiles/expansion_hurricane_swoosh.json",
             ],
+            "2":[
+                "data/hd/missiles/expansion_hurricane_swoosh.json"
+            ]
         }
 
         funcs = []

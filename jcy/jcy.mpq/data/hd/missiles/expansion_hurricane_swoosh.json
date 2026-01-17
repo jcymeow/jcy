@@ -1,1 +1,87 @@
-{"dependencies":{"particles":[{"path":"data/hd/vfx/particles/missiles/expansion_tornado/vfx_druid_tornado.particles"}],"models":[{"path":"data/hd/vfx/meshes/missiles/tornado/fx_mesh_tornado_back_optimized.model"}],"skeletons":[],"animations":[],"textures":[{"path":"data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/White.texture"}],"physics":[],"json":[],"variantdata":[],"objecteffects":[],"other":[]},"type":"UnitDefinition","name":"expansion_tornado","entities":[{"type":"Entity","name":"entity_root","id":1029767625,"components":[{"type":"UnitRootComponent","name":"component_root","state_machine_filename":"","doNotInheritRotation":false,"rotationOverride":{"x":0.0,"y":0.3826834,"z":0.0,"w":0.9238795},"doNotUseHDHeight":false,"hideAllMeshWhenInOpenedMode":false,"onCreateEventName":"","animations":[]}]},{"type":"Entity","name":"entity_vfx","id":1901868417,"components":[{"type":"VfxDefinitionComponent","name":"component_vfx1","filename":"data/hd/vfx/particles/missiles/expansion_tornado/vfx_druid_tornado.particles","hardKillOnDestroy":false}]}]}
+{
+    "dependencies": {
+        "particles": [
+            {
+                "path": "data/hd/vfx/particles/missiles/icestorm_swoosh/vfx_icestorm_swoosh.particles"
+            }
+        ],
+        "models": [
+            {
+                "path": "data/hd/vfx/meshes/missiles/hurricane/fx_mesh_druid_hurricane_swoosh.model"
+            }
+        ],
+        "skeletons": [],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/vfx/textures/default/Black.texture"
+            }
+        ],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "expansion_hurricane_swoosh",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3463760006,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_vfx1",
+            "id": 40893502,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx1",
+                    "filename": "data/hd/vfx2/particles/missiles/expansion_hurricane_swoosh/expansion_hurricane_swoosh.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}
