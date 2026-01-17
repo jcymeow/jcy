@@ -2437,45 +2437,9 @@ class FileOperations:
             r"data/hd/env/preset/act1/court/courtw.json",
         ]
 
-        _pointers = [
-            ENTITY_COURTE_POINTER,
-            ENTITY_COURTN_POINTER,
-            ENTITY_COURTW_POINTER,
-        ]
-
-        count = 0
-        total = len(_files)
-
         is_enabled = "3" in jcy_config.SETTINGS.get(ENABLE_POINTER, [])
 
-        for i, _file in enumerate(_files):
-            try:
-                pointer = _pointers[i]
-                json_data = None
-                json_path = os.path.join(MOD_PATH, _file)
-
-                with open(json_path, 'r', encoding='utf-8') as f:
-                    json_data = json.load(f)
-
-                is_modified = False
-                last_entity = json_data["entities"][-1]
-                if is_enabled is True and last_entity["id"] != pointer.get("id"):
-                    json_data["entities"].append(pointer)
-                    is_modified = True
-
-                if is_enabled is False and last_entity["id"] == pointer.get("id"):
-                    json_data["entities"].pop(-1)
-                    is_modified = True
-
-                if is_modified:
-                    with open(json_path, 'w', encoding='utf-8') as f:
-                        json.dump(json_data, f, ensure_ascii=False, indent=4)
-
-                count += 1
-            except Exception as e:
-                print(e)
-            
-        return (count, total)
+        return self.common_rename(_files, is_enabled)
 
 
     def modify_act5_nihl_pointer(self):
@@ -2488,46 +2452,9 @@ class FileOperations:
             r"data/hd/env/preset/expansion/wildtemple/nihlw.json",
         ]
 
-        _pointers = [
-            ENTITY_NIHLE_POINTER,
-            ENTITY_NIHLN_POINTER,
-            ENTITY_NIHLS_POINTER,
-            ENTITY_NIHLW_POINTER,
-        ]
-
-        count = 0
-        total = len(_files)
-
         is_enabled = "6" in jcy_config.SETTINGS.get(ENABLE_POINTER, [])
 
-        for i, _file in enumerate(_files):
-            try:
-                pointer = _pointers[i]
-                json_data = None
-                json_path = os.path.join(MOD_PATH, _file)
-
-                with open(json_path, 'r', encoding='utf-8') as f:
-                    json_data = json.load(f)
-
-                is_modified = False
-                last_entity = json_data["entities"][-1]
-                if is_enabled is True and last_entity["id"] != pointer.get("id"):
-                    json_data["entities"].append(pointer)
-                    is_modified = True
-
-                if is_enabled is False and last_entity["id"] == pointer.get("id"):
-                    json_data["entities"].pop(-1)
-                    is_modified = True
-
-                if is_modified:
-                    with open(json_path, 'w', encoding='utf-8') as f:
-                        json.dump(json_data, f, ensure_ascii=False, indent=4)
-
-                count += 1
-            except Exception as e:
-                print(e)
-            
-        return (count, total)
+        return self.common_rename(_files, is_enabled)
 
 
     def show_environmental_pointer(self, keys: list):
