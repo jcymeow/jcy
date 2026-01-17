@@ -198,16 +198,16 @@ class FeatureConfig:
                                 "6": "A5尼拉塞克"
                             }
                         },
-                        {
-                            "fid": NEXTAREA_POINTER,
-                            "type": RADIO,
-                            "text": "环境-邻区指引",
-                            "colspan": 30,
-                            "params": {
-                                "0": "默认",
-                                "2": "灰环指引",
-                            }
-                        },
+                        # {
+                        #     "fid": NEXTAREA_POINTER,
+                        #     "type": RADIO,
+                        #     "text": "环境-邻区指引",
+                        #     "colspan": 30,
+                        #     "params": {
+                        #         "0": "默认",
+                        #         "2": "灰环指引",
+                        #     }
+                        # },
                         {
                             "fid": WAYPOINT_POINTER,
                             "type": RADIO,

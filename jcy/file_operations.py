@@ -229,7 +229,7 @@ class FileOperations:
         # ---- Act5尼拉塞克指引 ----
         funcs.append(self.modify_act5_nihl_pointer())
         # ---- 邻区指引 ----
-        funcs.append(self.modify_asset_nextarea_pointer())
+        # funcs.append(self.modify_asset_nextarea_pointer())
 
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
