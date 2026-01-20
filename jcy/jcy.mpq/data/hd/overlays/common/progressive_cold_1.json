@@ -29,9 +29,9 @@
                     "type": "TransformDefinitionComponent",
                     "name": "entity_root_TransformDefinition",
                     "position": {
-                        "x": 130.54,
-                        "y": 80.54,
-                        "z": 124.0
+                        "x": 127.5,
+                        "y": 96.0,
+                        "z": 124.5
                     },
                     "inheritOnlyPosition": true
                 }

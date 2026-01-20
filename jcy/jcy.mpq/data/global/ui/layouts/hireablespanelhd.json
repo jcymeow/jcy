@@ -6,7 +6,7 @@
         "rect": {
             "x": 46,
             "y": 60,
-            "scale": 0.64
+            "scale": 0.98
         },
         "nextIconOffset": {
             "y": 204
@@ -14,8 +14,8 @@
         "summonsUseSecondSet": true,
         "nameAlternationSecondSetY": 0,
         "secondSetPosition": {
-            "x": 2381,
-            "y": 2785
+            "x": 1286,
+            "y": 1640
         },
         "nextIconOffsetSecondSet": {
             "x": 120

@@ -2870,12 +2870,12 @@ class FileOperations:
 
         rects = [
             # HUD
-            {
-                "0": { "x": -1454, "y": -412, "width": 2952, "height": 764 },
-                "1": { "x": -1236, "y": -350, "width": 2952, "height": 764, "scale": 0.85 },
-                "2": { "x": -1090, "y": -310, "width": 2952, "height": 764, "scale": 0.75 },
-                "3": { "x": -945.1, "y": -267.8, "width": 2952, "height": 764, "scale": 0.65 },
-            },
+            # {
+            #     "0": { "x": -1454, "y": -412, "width": 2952, "height": 764 },
+            #     "1": { "x": -1236, "y": -350, "width": 2952, "height": 764, "scale": 0.85 },
+            #     "2": { "x": -1090, "y": -310, "width": 2952, "height": 764, "scale": 0.75 },
+            #     "3": { "x": -945.1, "y": -267.8, "width": 2952, "height": 764, "scale": 0.65 },
+            # },
             # WEAPON
             {
                 "0": { "x": 0, "y": -146 , "scale": 1},
@@ -2886,7 +2886,7 @@ class FileOperations:
         ]
 
         _files = [
-            r"data/global/ui/layouts/hudpanelhd.json",
+            # r"data/global/ui/layouts/hudpanelhd.json",
             r"data/global/ui/layouts/ui_new_weaponswaphd.json"
         ]
 
@@ -2913,43 +2913,43 @@ class FileOperations:
                 print(e)
 
         # ---- 迷你按鈕 ----
-        mini_params = {
-            "0":{"anchor-x": 0.70, "rect-y": -450},
-            "1":{"anchor-x": 0.67, "rect-y": -380},
-            "2":{"anchor-x": 0.65, "rect-y": -340},
-            "3":{"anchor-x": 0.63, "rect-y": -300},
-        }
+        # mini_params = {
+        #     "0":{"anchor-x": 0.70, "rect-y": -450},
+        #     "1":{"anchor-x": 0.67, "rect-y": -380},
+        #     "2":{"anchor-x": 0.65, "rect-y": -340},
+        #     "3":{"anchor-x": 0.63, "rect-y": -300},
+        # }
 
-        try:
-            mini_param = mini_params.get(radio)
-            mini_json = None
-            mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
+        # try:
+        #     mini_param = mini_params.get(radio)
+        #     mini_json = None
+        #     mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
 
-            with open(mini_path, 'r', encoding='utf-8') as f:
-                mini_json = json.load(f)
+        #     with open(mini_path, 'r', encoding='utf-8') as f:
+        #         mini_json = json.load(f)
 
-            mini_json["fields"]["anchor"]["x"] = mini_param.get("anchor-x")
-            mini_json["fields"]["rect"]["y"] = mini_param.get("rect-y")
+        #     mini_json["fields"]["anchor"]["x"] = mini_param.get("anchor-x")
+        #     mini_json["fields"]["rect"]["y"] = mini_param.get("rect-y")
                         
-            with open(mini_path, 'w', encoding='utf-8') as f:
-                json.dump(mini_json, f, ensure_ascii=False, indent=4)
-            count += 1
-        except Exception as e:
-            print(e)
-        finally:
-            total += 1
+        #     with open(mini_path, 'w', encoding='utf-8') as f:
+        #         json.dump(mini_json, f, ensure_ascii=False, indent=4)
+        #     count += 1
+        # except Exception as e:
+        #     print(e)
+        # finally:
+        #     total += 1
 
         # 联动修改 佣兵面板
-        location = jcy_config.SETTINGS.get(MERCENARY_LOCATION)
-        result = self.modify_hireablespanelhd_json(location, radio)
-        count += result[0]
-        total += result[1]
+        # location = jcy_config.SETTINGS.get(MERCENARY_LOCATION)
+        # result = self.modify_hireablespanelhd_json(location, radio)
+        # count += result[0]
+        # total += result[1]
 
         # ---- 联动修改 刺客聚气 ----
-        martial = jcy_config.SETTINGS.get(ASN_MARTIAL)
-        result = self.assassin_martial(martial)
-        count += result[0]
-        total += result[1]
+        # martial = jcy_config.SETTINGS.get(ASN_MARTIAL)
+        # result = self.assassin_martial(martial)
+        # count += result[0]
+        # total += result[1]
         
         return (count, total)
 
@@ -3728,7 +3728,7 @@ class FileOperations:
         total = len(_files)
 
         _controls = {
-            "1": "OpenWeaponSwap",
+            # "1": "OpenWeaponSwap",
             "2": "OpenMiniHp",
             "3": "OpenMiniCube",
         }
@@ -3921,6 +3921,7 @@ class FileOperations:
         total = len(_files)
 
         _params = {
+            # 右侧
             "1": [
                 {"x":123,"y":100,"z":112},
                 {"x":118.5,"y":100.0,"z":107.5},
@@ -3966,14 +3967,29 @@ class FileOperations:
                     { "x": 124.40, "y":  78.00, "z": 124.0 },
                     { "x": 133.61, "y":  81.81, "z": 124.00 },
                 ],
-            }
+            },
+            # 下方
+            "3": [
+                # 4
+                {"x": 	127.50	, "y": 	96.00	, "z": 	124.50	},
+                # 5
+                {"x": 	129.00	, "y": 	96.00	, "z": 	123.00	}, 
+                # 6
+                {"x": 	130.50	, "y": 	96.00	, "z": 	121.50	}, 
+                # 2
+                {"x": 	124.50	, "y": 	96.00	, "z": 	127.50	},
+                # 3
+                {"x": 	126.00	, "y": 	96.00	, "z": 	126.00	},
+                # 1
+                {"x": 	123.00	, "y": 	96.00	, "z": 	129.00	},
+            ]
         }
 
         rename_result = self.common_rename(_files, radio != "0")
         if "0" == radio:
             return rename_result
         
-        elif "1" == radio:
+        elif "1" == radio or "3" == radio:
             _param = _params.get(radio)
             try:
                 for i, _file in enumerate(_files):

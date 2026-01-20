@@ -213,7 +213,7 @@ class FeatureController:
             # 额外的照亮范围
             LIGHT_REDIUS: self.file_operations.modify_character_player,
             # HUD面板缩放
-            HUD_SIZE: self.file_operations.select_hudpanel_size,
+            # HUD_SIZE: self.file_operations.select_hudpanel_size,
             # 传送门皮肤
             PORTAL_SKIN: self.file_operations.select_town_portal,
             # 角色特效

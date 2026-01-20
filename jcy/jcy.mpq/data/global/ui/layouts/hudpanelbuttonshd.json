@@ -4,12 +4,12 @@
     "fields": {
         "priority": 99,
         "anchor": {
-            "x": 0.63,
+            "x": 0.7,
             "y": 1
         },
         "rect": {
             "x": 0,
-            "y": -300
+            "y": -450
         }
     },
     "children": [

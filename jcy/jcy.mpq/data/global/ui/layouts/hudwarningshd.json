@@ -179,7 +179,7 @@
             "name": "OpenWeaponSwap",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:UI_New_WeaponSwap",
+                "message": "",
                 "default": "PanelManager:OpenPanel:UI_New_WeaponSwap"
             }
         },
