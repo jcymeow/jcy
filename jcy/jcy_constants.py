@@ -175,10 +175,9 @@ ACT5_HIRE = "Act5Hire"
 HUD_SKIN = "HudSkin"
 APPLY_METHOD = "apply_method"
 REMOVE_METHOD = "remove_method"
-MODIFY_FILENAME_BY_SETTINGS = "modify_filename_by_settings"
-MODIFY_FILENAME_BY_ASSET = "modify_filename_by_asset"
-MODIFY_EXCEL = "modify_excel"
 GAME_MODEL_APPLY = "game_model_apply"
+HIRE_SKIN_APPLY = "hire_skin_apply"
+HIRE_SKIN_REMOVE = "hire_skin_remove"
 
 
 
@@ -1750,10 +1749,9 @@ __all__ = [
     'HUD_SKIN',
     'APPLY_METHOD',
     'REMOVE_METHOD',
-    'MODIFY_FILENAME_BY_SETTINGS',
-    'MODIFY_FILENAME_BY_ASSET',
-    'MODIFY_EXCEL',
     'GAME_MODEL_APPLY',
+    'HIRE_SKIN_APPLY',
+    'HIRE_SKIN_REMOVE',
     'init_global_dict',
     'translate',
 ]

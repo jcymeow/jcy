@@ -22,10 +22,9 @@ class FileOperations:
     def __init__(self, controller):
         self.controller = controller
         self.method_dict = {
-            MODIFY_FILENAME_BY_SETTINGS: self.modify_filename_by_settings,
-            MODIFY_FILENAME_BY_ASSET: self.modify_filename_by_asset,
-            MODIFY_EXCEL: self.modify_excel,
             GAME_MODEL_APPLY: self.game_model_apply,
+            HIRE_SKIN_APPLY: self.modify_hire_skin,
+            HIRE_SKIN_REMOVE: self.modify_hire_skin,
         }
 
 
@@ -177,21 +176,12 @@ class FileOperations:
                 print(f"asset_execute -> {name} -> {result.get("message")}")
 
 
-    def modify_excel(self, params: dict) -> dict:
-        """修改Excel(txt)文件"""
-        _file = params.get("file")
-        _key = params.get("key")
-        _records = params.get("records")
+    def common_modify_excel(self, file, key, records):
+        count = 0
+        total = len(records)
 
-        if not _file:
-            return err_result(f"file is None.")
-        if not _key:
-            return err_result(f"key is None.")
-        if not _records:
-            return err_result(f"records is None.")
-        
         try:
-            path = os.path.join(MOD_PATH, _file)
+            path = os.path.join(MOD_PATH, file)
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
@@ -200,20 +190,48 @@ class FileOperations:
                 rows = list(reader)
 
             for row in rows:
-                key = row[_key]
-                if key in _records:
-                    values = _records.get(key)
-                    for k, v in values.items():
+                rk = row[key]
+                if rk in records:
+                    count += 1
+                    rv = records.get(rk)
+                    for k, v in rv.items():
                         row[k] = v
 
             with open(path, "w", encoding="utf-8", newline="") as f:
                 writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t')
                 writer.writeheader()
                 writer.writerows(rows)
-            
-            return ok_result(f"modify_excel success")
         except Exception as e:
-            return err_result(f"exception, e:{e}")
+            print(e)
+        
+        return (count, total)
+
+
+    def common_modify_json(self, file, records):
+        count = 0
+        total = len(records)
+
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, file)
+            
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            for item in json_data:
+                key = item.get("Key")
+                if key in records:
+                    count += 1
+                    record = records.get(key)
+                    item["zhCN"] = record.get("zhCN")
+                    item["zhTW"] = record.get("zhTW")
+
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+        except Exception as e:
+            print(e)
+        
+        return (count, total)
 
 
     def game_model_apply(self):
@@ -235,38 +253,27 @@ class FileOperations:
         return ok_result(summary)
 
 
-    def modify_filename_by_settings(self, params: dict) -> dict:
-        try:
-            _key = params.get("key")
-            _value = params.get("value")
-            _records = params.get("records")
-            _values = jcy_config.SETTINGS.get(_key)
-            isEnabled = _value in _values
-            result = self.common_rename(_records, isEnabled)
-            count = result[0]
-            total = result[1]
-            if count == total:
-                return ok_result(f"modify: {count}/{total}")
-            else:
-                return err_result(f"modify: {count}/{total}")
-        except Exception as e:
-            return err_result(f"exception, e:{e}")
-    
+    def modify_hire_skin(self, param: dict):
+        """佣兵皮肤应用"""
+        type = param.get("type")
+        gender = param.get("gender")
+        hire_key = HIRE_KEYS.get(type)
+        hire_sound = HIRE_SOUNDS.get(type).get(gender)
+        hire_name = HIRE_NAMES.get(type).get(gender)
 
-    def modify_filename_by_asset(self, params: dict) -> dict:
-        try:
-            _key = params.get("key");
-            asset = ASSET_DICT.get(_key)
-            files = asset.get("list")
-            result = self.common_rename(files, True)
-            count = result[0]
-            total = result[1]
-            if count == total:
-                return ok_result(f"modify: {count}/{total}")
-            else:
-                return err_result(f"modify: {count}/{total}")
-        except Exception as e:
-            return err_result(f"exception, e:{e}")
+        funcs = []
+        # 佣兵公共音效
+        hirelingdesc = { hire_key: { "alternateVoice": gender } }
+        funcs.append(self.common_modify_excel(file="data/global/excel/hirelingdesc.txt", key="id", records=hirelingdesc))
+        print(funcs[-1])
+        # 佣兵音效
+        funcs.append(self.common_modify_excel(file="data/global/excel/sounds.txt", key="Sound", records=hire_sound))
+        print(funcs[-1])
+        # 佣兵姓名
+        funcs.append(self.common_modify_json(file="data/local/lng/strings/mercenaries.json", records=hire_name))
+        print(funcs[-1])
+        summary = [sum(column) for column in zip(*funcs)]
+        return ok_result(summary)
 
 
     def common_submit(self, fid, param):

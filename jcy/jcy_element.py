@@ -1,3 +1,5 @@
+from jcy_constants import *
+
 # 下口
 PF_BEACON_DOWNSTAIRS = [
     {
@@ -783,6 +785,8 @@ ENTITY_NIHLW_POINTER = {
 }
 
 # 技能图标位置
+# 0123
+# 456789
 SKILL_ICON_POSITION = [
     {"x": 	123.00	, "y": 	100.00	, "z": 	129.00	},
     {"x": 	124.50	, "y": 	100.00	, "z": 	127.50	},
@@ -795,3 +799,85 @@ SKILL_ICON_POSITION = [
     {"x": 	131.90	, "y": 	99.50	, "z": 	124.00	},
     {"x": 	135.90	, "y": 	101.20	, "z": 	124.00	},
 ]
+
+HIRE_KEYS = {
+    1: "rougehire",
+    2: "act2hire",
+    3: "act3hire",
+    51: "act5hire1",
+    52: "act5hire2",
+}
+
+HIRE_SOUNDS = {
+    2: {
+        0:{
+            "guard_death_hd1": {"FileName": r"monster/guard/monster_guard_death_1_hd.flac"},
+            "guard_death_hd2": {"FileName": r"monster/guard/monster_guard_death_2_hd.flac"},
+            "guard_death_hd3": {"FileName": r"monster/guard/monster_guard_death_3_hd.flac"},
+            "guard_hit_hd1": {"FileName": r"monster/guard/monster_guard_gethit_1_hd.flac"},
+            "guard_hit_hd2": {"FileName": r"monster/guard/monster_guard_gethit_2_hd.flac"},
+            "guard_hit_hd3": {"FileName": r"monster/guard/monster_guard_gethit_3_hd.flac"},
+            "guard_hit_hd4": {"FileName": r"monster/guard/monster_guard_gethit_4_hd.flac"},
+        },
+        1:{
+            "guard_death_hd1": {"FileName": r"monster/rogue/death1_hd.flac"},
+            "guard_death_hd2": {"FileName": r"monster/rogue/death2_hd.flac"},
+            "guard_death_hd3": {"FileName": r"monster/rogue/death1_hd.flac"},
+            "guard_hit_hd1": {"FileName": r"monster/rogue/gethit1_hd.flac"},
+            "guard_hit_hd2": {"FileName": r"monster/rogue/gethit2_hd.flac"},
+            "guard_hit_hd3": {"FileName": r"monster/rogue/gethit3_hd.flac"},
+            "guard_hit_hd4": {"FileName": r"monster/rogue/gethit4_hd.flac"},
+        },
+    }
+}
+
+HIRE_NAMES = {
+    2: {
+        0: {
+            "merca201": {"zhTW": "哈撒迪", "zhCN": "哈扎德"},
+            "merca202": {"zhTW": "艾利希爾", "zhCN": "阿西兹尔"},
+            "merca203": {"zhTW": "阿撒爾", "zhCN": "艾兹瑞尔"},
+            "merca204": {"zhTW": "亞斯哈", "zhCN": "阿萨布"},
+            "merca205": {"zhTW": "克哈蘭", "zhCN": "卡兰"},
+            "merca206": {"zhTW": "哈辛", "zhCN": "哈辛"},
+            "merca207": {"zhTW": "羅森", "zhCN": "拉赞"},
+            "merca208": {"zhTW": "艾米羅", "zhCN": "艾米罗"},
+            "merca209": {"zhTW": "培撒姆", "zhCN": "普拉桑"},
+            "merca210": {"zhTW": "費索", "zhCN": "菲泽尔"},
+            "merca211": {"zhTW": "傑馬利", "zhCN": "杰马里"},
+            "merca212": {"zhTW": "卡辛姆", "zhCN": "卡辛"},
+            "merca213": {"zhTW": "古爾薩", "zhCN": "古札"},
+            "merca214": {"zhTW": "米山", "zhCN": "米山"},
+            "merca215": {"zhTW": "雷哈拉", "zhCN": "勒哈纳斯"},
+            "merca216": {"zhTW": "杜爾加", "zhCN": "杜尔加"},
+            "merca217": {"zhTW": "尼爾亞", "zhCN": "妮拉吉"},
+            "merca218": {"zhTW": "伊尔赞", "zhCN": "伊尔赞"},
+            "merca219": {"zhTW": "撒那利", "zhCN": "扎纳尔西"},
+            "merca220": {"zhTW": "瓦黑德", "zhCN": "瓦希德"},
+            "merca221": {"zhTW": "維克懷特", "zhCN": "维希亚特"},
+        },
+        1: {
+            "merca201": {"zhTW": "哈莎蒂", "zhCN": "哈莎蒂"},
+            "merca202": {"zhTW": "艾莉希爾", "zhCN": "艾莉希尔"},
+            "merca203": {"zhTW": "愛斯瑞爾", "zhCN": "爱斯瑞尔"},
+            "merca204": {"zhTW": "阿珊碧", "zhCN": "阿珊碧"},
+            "merca205": {"zhTW": "嘉蘭", "zhCN": "嘉兰"},
+            "merca206": {"zhTW": "哈欣", "zhCN": "哈欣"},
+            "merca207": {"zhTW": "蘿珊", "zhCN": "萝珊"},
+            "merca208": {"zhTW": "艾米莉", "zhCN": "艾米莉"},
+            "merca209": {"zhTW": "普拉姍", "zhCN": "普拉姗"},
+            "merca210": {"zhTW": "菲澤麗", "zhCN": "菲泽丽"},
+            "merca211": {"zhTW": "吉瑪麗", "zhCN": "吉玛丽"},
+            "merca212": {"zhTW": "卡欣", "zhCN": "卡欣"},
+            "merca213": {"zhTW": "古爾莎", "zhCN": "古尔莎"},
+            "merca214": {"zhTW": "米姍", "zhCN": "米姗"},
+            "merca215": {"zhTW": "蕾拉斯", "zhCN": "蕾拉斯"},
+            "merca216": {"zhTW": "蒂爾嘉", "zhCN": "蒂尔嘉"},
+            "merca217": {"zhTW": "妮拉姬", "zhCN": "妮拉姬"},
+            "merca218": {"zhTW": "伊爾姗", "zhCN": "伊尔姗"},
+            "merca219": {"zhTW": "莎娜莉", "zhCN": "莎娜莉"},
+            "merca220": {"zhTW": "瓦希多", "zhCN": "瓦希多"},
+            "merca221": {"zhTW": "薇希婭", "zhCN": "薇希娅"},
+        },
+    }
+}

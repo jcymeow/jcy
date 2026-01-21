@@ -1122,67 +1122,29 @@ ASSETS = [
         "size": 59157,
         "md5": "4025744E7A4DA2808170430BBB015020",
         APPLY_METHOD: [
-            { 
-                "method": MODIFY_EXCEL, 
+            {
+                "method": HIRE_SKIN_APPLY, 
                 "params": {
-                    "file": "data/global/excel/hirelingdesc.txt", 
-                    "key": "id",
-                    "records": {
-                        "act2hire" : { "alternateVoice": 1 }
-                    }
-                }
-            },
-            { 
-                "method": MODIFY_EXCEL, 
-                "params": {
-                    "file": "data/global/excel/sounds.txt", 
-                    "key": "Sound",
-                    "records": {
-                        "guard_death_hd1": {"FileName": r"monster/rogue/death1_hd.flac"},
-                        "guard_death_hd2": {"FileName": r"monster/rogue/death2_hd.flac"},
-                        "guard_death_hd3": {"FileName": r"monster/rogue/death1_hd.flac"},
-                        "guard_hit_hd1": {"FileName": r"monster/rogue/gethit1_hd.flac"},
-                        "guard_hit_hd2": {"FileName": r"monster/rogue/gethit2_hd.flac"},
-                        "guard_hit_hd3": {"FileName": r"monster/rogue/gethit3_hd.flac"},
-                        "guard_hit_hd4": {"FileName": r"monster/rogue/gethit4_hd.flac"},
-                    }
-                }
-            },
+                    "type": 2,
+                    "gender": 1,
+                },
+            }
         ],
         REMOVE_METHOD: [
-            { 
-                "method": MODIFY_EXCEL, 
+            {
+                "method": HIRE_SKIN_APPLY, 
                 "params": {
-                    "file": "data/global/excel/hirelingdesc.txt", 
-                    "key": "id",
-                    "records": {
-                        "act2hire" : { "alternateVoice": 0 }
-                    }
-                }
-            },
-            { 
-                "method": MODIFY_EXCEL, 
-                "params": {
-                    "file": "data/global/excel/sounds.txt", 
-                    "key": "Sound",
-                    "records": {
-                        "guard_death_hd1": {"FileName": r"monster/guard/monster_guard_death_1_hd.flac"},
-                        "guard_death_hd2": {"FileName": r"monster/guard/monster_guard_death_2_hd.flac"},
-                        "guard_death_hd3": {"FileName": r"monster/guard/monster_guard_death_3_hd.flac"},
-                        "guard_hit_hd1": {"FileName": r"monster/guard/monster_guard_gethit_1_hd.flac"},
-                        "guard_hit_hd2": {"FileName": r"monster/guard/monster_guard_gethit_2_hd.flac"},
-                        "guard_hit_hd3": {"FileName": r"monster/guard/monster_guard_gethit_3_hd.flac"},
-                        "guard_hit_hd4": {"FileName": r"monster/guard/monster_guard_gethit_4_hd.flac"},
-                    }
-                }
-            },
+                    "type": 2,
+                    "gender": 0,
+                },
+            }
         ],
         "list": [
             "data/hd/character/enemy/act2hire_female/act2hire_female_state_machine.json",
             "data/hd/character/enemy/act2hire.json",
             "data/hd/global/ui/hireables/act2hireableicon.lowend.sprite",
             "data/hd/global/ui/hireables/act2hireableicon.sprite",
-            "data/local/lng/strings/mercenaries.json",
+            # "data/local/lng/strings/mercenaries.json",
         ]
     },
     {
@@ -1198,60 +1160,22 @@ ASSETS = [
         "size": 61018,
         "md5": "35F0617D59FA4C9E82CE12C894B788F9",
         APPLY_METHOD: [
-            { 
-                "method": MODIFY_EXCEL, 
+            {
+                "method": HIRE_SKIN_APPLY, 
                 "params": {
-                    "file": "data/global/excel/hirelingdesc.txt", 
-                    "key": "id",
-                    "records": {
-                        "act2hire" : { "alternateVoice": 1 }
-                    }
-                }
-            },
-            { 
-                "method": MODIFY_EXCEL, 
-                "params": {
-                    "file": "data/global/excel/sounds.txt", 
-                    "key": "Sound",
-                    "records": {
-                        "guard_death_hd1": {"FileName": r"monster/rogue/death1_hd.flac"},
-                        "guard_death_hd2": {"FileName": r"monster/rogue/death2_hd.flac"},
-                        "guard_death_hd3": {"FileName": r"monster/rogue/death1_hd.flac"},
-                        "guard_hit_hd1": {"FileName": r"monster/rogue/gethit1_hd.flac"},
-                        "guard_hit_hd2": {"FileName": r"monster/rogue/gethit2_hd.flac"},
-                        "guard_hit_hd3": {"FileName": r"monster/rogue/gethit3_hd.flac"},
-                        "guard_hit_hd4": {"FileName": r"monster/rogue/gethit4_hd.flac"},
-                    }
-                }
-            },
+                    "type": 2,
+                    "gender": 1,
+                },
+            }
         ],
         REMOVE_METHOD: [
-            { 
-                "method": MODIFY_EXCEL, 
+            {
+                "method": HIRE_SKIN_APPLY, 
                 "params": {
-                    "file": "data/global/excel/hirelingdesc.txt", 
-                    "key": "id",
-                    "records": {
-                        "act2hire" : { "alternateVoice": 0 }
-                    }
-                }
-            },
-            { 
-                "method": MODIFY_EXCEL, 
-                "params": {
-                    "file": "data/global/excel/sounds.txt", 
-                    "key": "Sound",
-                    "records": {
-                        "guard_death_hd1": {"FileName": r"monster/guard/monster_guard_death_1_hd.flac"},
-                        "guard_death_hd2": {"FileName": r"monster/guard/monster_guard_death_2_hd.flac"},
-                        "guard_death_hd3": {"FileName": r"monster/guard/monster_guard_death_3_hd.flac"},
-                        "guard_hit_hd1": {"FileName": r"monster/guard/monster_guard_gethit_1_hd.flac"},
-                        "guard_hit_hd2": {"FileName": r"monster/guard/monster_guard_gethit_2_hd.flac"},
-                        "guard_hit_hd3": {"FileName": r"monster/guard/monster_guard_gethit_3_hd.flac"},
-                        "guard_hit_hd4": {"FileName": r"monster/guard/monster_guard_gethit_4_hd.flac"},
-                    }
-                }
-            },
+                    "type": 2,
+                    "gender": 0,
+                },
+            }
         ],
         "list": [
             "data/hd/character/enemy/act2hire_female/act2hire_female_state_machine.json",
@@ -1259,7 +1183,7 @@ ASSETS = [
             "data/hd/character/enemy/act2hire.json",
             "data/hd/global/ui/hireables/act2hireableicon.lowend.sprite",
             "data/hd/global/ui/hireables/act2hireableicon.sprite",
-            "data/local/lng/strings/mercenaries.json",
+            # "data/local/lng/strings/mercenaries.json",
         ]
     },
     {
@@ -1275,60 +1199,22 @@ ASSETS = [
         "size": 7643982,
         "md5": "005DF819EF0D6BF3C861064895173CE5",
         APPLY_METHOD: [
-            { 
-                "method": MODIFY_EXCEL, 
+            {
+                "method": HIRE_SKIN_APPLY, 
                 "params": {
-                    "file": "data/global/excel/hirelingdesc.txt", 
-                    "key": "id",
-                    "records": {
-                        "act2hire" : { "alternateVoice": 1 }
-                    }
-                }
-            },
-            { 
-                "method": MODIFY_EXCEL, 
-                "params": {
-                    "file": "data/global/excel/sounds.txt", 
-                    "key": "Sound",
-                    "records": {
-                        "guard_death_hd1": {"FileName": r"monster/rogue/death1_hd.flac"},
-                        "guard_death_hd2": {"FileName": r"monster/rogue/death2_hd.flac"},
-                        "guard_death_hd3": {"FileName": r"monster/rogue/death1_hd.flac"},
-                        "guard_hit_hd1": {"FileName": r"monster/rogue/gethit1_hd.flac"},
-                        "guard_hit_hd2": {"FileName": r"monster/rogue/gethit2_hd.flac"},
-                        "guard_hit_hd3": {"FileName": r"monster/rogue/gethit3_hd.flac"},
-                        "guard_hit_hd4": {"FileName": r"monster/rogue/gethit4_hd.flac"},
-                    }
-                }
-            },
+                    "type": 2,
+                    "gender": 1,
+                },
+            }
         ],
         REMOVE_METHOD: [
-            { 
-                "method": MODIFY_EXCEL, 
+            {
+                "method": HIRE_SKIN_APPLY, 
                 "params": {
-                    "file": "data/global/excel/hirelingdesc.txt", 
-                    "key": "id",
-                    "records": {
-                        "act2hire" : { "alternateVoice": 0 }
-                    }
-                }
-            },
-            { 
-                "method": MODIFY_EXCEL, 
-                "params": {
-                    "file": "data/global/excel/sounds.txt", 
-                    "key": "Sound",
-                    "records": {
-                        "guard_death_hd1": {"FileName": r"monster/guard/monster_guard_death_1_hd.flac"},
-                        "guard_death_hd2": {"FileName": r"monster/guard/monster_guard_death_2_hd.flac"},
-                        "guard_death_hd3": {"FileName": r"monster/guard/monster_guard_death_3_hd.flac"},
-                        "guard_hit_hd1": {"FileName": r"monster/guard/monster_guard_gethit_1_hd.flac"},
-                        "guard_hit_hd2": {"FileName": r"monster/guard/monster_guard_gethit_2_hd.flac"},
-                        "guard_hit_hd3": {"FileName": r"monster/guard/monster_guard_gethit_3_hd.flac"},
-                        "guard_hit_hd4": {"FileName": r"monster/guard/monster_guard_gethit_4_hd.flac"},
-                    }
-                }
-            },
+                    "type": 2,
+                    "gender": 0,
+                },
+            }
         ],
         "list": [
             "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_armor_alb.texture",
@@ -1446,7 +1332,7 @@ ASSETS = [
             "data/hd/character/enemy/act2hire.json",
             "data/hd/global/ui/hireables/act2hireableicon.lowend.sprite",
             "data/hd/global/ui/hireables/act2hireableicon.sprite",
-            "data/local/lng/strings/mercenaries.json",
+            # "data/local/lng/strings/mercenaries.json",
         ]
     },
     {
