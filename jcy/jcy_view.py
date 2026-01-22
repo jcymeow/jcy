@@ -1363,18 +1363,18 @@ class TerrorZoneUI(tk.Frame):
         self.load_and_display_data()
 
 class AssetManagerUI(tk.Frame):
-    def __init__(self, master, controller=None, mod_root=None, assets=None, asset_types=None):
+    def __init__(self, master, controller=None, mod_root=None, assets=None, categories=None):
         super().__init__(master)
         self.master = master
         self.controller = controller
         self.mod_root = mod_root or MOD_PATH
         self._external_assets = assets if assets is not None else ASSETS
-        self._asset_types = asset_types if asset_types is not None else ASSETS_TYPE
+        self._categories = categories if categories is not None else ASSET_CATEGORIES
         self.asset_dir = tk.StringVar(value=jcy_config.SETTINGS.get(ASSET_PATH, ""))
-        self.type_var = tk.StringVar(value="")
-
+        self.category_var = tk.StringVar(value="")
         self.asset_blocks = []
         self._build_ui()
+
 
     def _build_ui(self):
         top = tk.Frame(self)
@@ -1391,23 +1391,23 @@ class AssetManagerUI(tk.Frame):
         tk.Label(filter_frame, text="素材类型：").pack(side="left", padx=(4, 2))
 
         # 所有类型中文名
-        type_values = [t.get("zhCN") for t in self._asset_types if t.get("Key")]
+        category_values = [c.get("zhCN") for c in self._categories]
 
         # 默认选中第一项
-        if type_values:
-            self.type_var.set(type_values[0])
+        if category_values:
+            self.category_var.set(category_values[0])
 
         # 下拉框
-        self.type_cb = ttk.Combobox(filter_frame, textvariable=self.type_var,
-                                    values=type_values, state="readonly", width=18)
-        self.type_cb.pack(side="left", padx=4)
+        self.category_cb = ttk.Combobox(filter_frame, textvariable=self.category_var,
+                                    values=category_values, state="readonly", width=18)
+        self.category_cb.pack(side="left", padx=4)
 
         # ---- 数量标签 ----
         self.type_count_label = tk.Label(filter_frame, text="数量：0")
         self.type_count_label.pack(side="left", padx=6)
 
         # 选择时刷新
-        self.type_cb.bind('<<ComboboxSelected>>', lambda e: self.refresh_status(update_layout=True))
+        self.category_cb.bind('<<ComboboxSelected>>', lambda e: self.refresh_status(update_layout=True))
 
         ttk.Separator(self, orient="horizontal").pack(fill="x", pady=6)
 
@@ -1449,7 +1449,8 @@ class AssetManagerUI(tk.Frame):
         self._render_asset_blocks()
 
         # 刷新状态（包括数量）
-        self.after(150, self.refresh_status(update_layout=True))
+        # self.after(150, self.refresh_status(update_layout=True))
+        self.after(150, lambda: self.refresh_status(update_layout=True))
 
 
     def _render_asset_blocks(self):
@@ -1461,6 +1462,7 @@ class AssetManagerUI(tk.Frame):
             frame = self._create_asset_block(asset)
             frame.grid(row=i, column=0, padx=8, pady=8, sticky="nwes")
             self.asset_blocks.append((asset, frame))
+
 
     def _create_asset_block(self, asset):
         title = asset.get('name') or '<unnamed>'
@@ -1503,18 +1505,24 @@ class AssetManagerUI(tk.Frame):
 
 
     def refresh_status(self, update_layout=True):
-        applied_assets = set(jcy_config.ASSET_CONFIG.values())
+        
+        applied_assets = {
+            v for v in jcy_config.ASSET_CONFIG.values()
+            if isinstance(v, int) and v > 0
+        }
         row = 0
 
         # 只在需要时计算 selected_type
-        selected_type = ''
+        selected_category = None
         if update_layout:
-            selected_type_zh = self.type_var.get()
-            type_key_map = {t.get('zhCN'): t.get('Key') for t in self._asset_types}
-            selected_type = type_key_map.get(selected_type_zh, '')
-            self.type_count_label.config(
-                text=f"数量：{jcy_config.ASSET_COUNT.get(selected_type, 0)}"
+            selected_category_zh = self.category_var.get()
+            self._category_map = {c["zhCN"]: c["category"] for c in self._categories}
+            selected_category = self._category_map.get(selected_category_zh)
+            count = sum(
+                1 for a in self._external_assets
+                if a.get("category") == selected_category
             )
+            self.type_count_label.config(text=f"数量：{count}")
 
         for asset, frame in self.asset_blocks:
             try:
@@ -1522,7 +1530,7 @@ class AssetManagerUI(tk.Frame):
 
                 # ===== 布局处理（只在类型切换时）=====
                 if update_layout:
-                    if selected_type and asset.get('type') != selected_type:
+                    if selected_category is not None and asset.get('category') != selected_category:
                         frame.grid_forget()
                     else:
                         frame.grid(row=row, column=0, padx=8, pady=8, sticky='nwes')
@@ -1551,7 +1559,6 @@ class AssetManagerUI(tk.Frame):
 
         if update_layout:
             self.canvas.yview_moveto(0)
-
 
 
     def _choose_dir(self):
@@ -1616,11 +1623,13 @@ class AssetManagerUI(tk.Frame):
             progress.after(0, lambda p=progress: p.config(value=0))
             self.after(0, self.refresh_status(update_layout=False))
 
+
     def _preview(self, url):
         if not url:
             return messagebox.showerror('错误', '没有预览链接。')
         import webbrowser
         webbrowser.open(url)
+
 
     def _apply_asset(self, asset):
         try:
@@ -1647,6 +1656,7 @@ class AssetManagerUI(tk.Frame):
         finally:
             self.refresh_status(update_layout=False)
 
+
     def _remove_asset(self, asset):
         try:
             result = self.controller.file_operations.remove_asset(asset)
@@ -1658,6 +1668,7 @@ class AssetManagerUI(tk.Frame):
             messagebox.showerror("错误", f"移除失败：{e}")
         finally:
             self.refresh_status(update_layout=False)
+
 
     def _delete_asset(self, asset):
         asset_dir = self.asset_dir.get().strip()

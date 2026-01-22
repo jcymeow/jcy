@@ -173,6 +173,17 @@ ACT2_HIRE = "Act2Hire"
 ACT3_HIRE = "Act3Hire"
 ACT5_HIRE = "Act5Hire"
 HUD_SKIN = "HudSkin"
+OTHERS = "Others"
+TOA = "Token of Absolution"
+
+AMA = "Ama"
+SOR = "Sor"
+NEC = "Nec"
+PAL = "Pal"
+BAR = "Bar"
+DRU = "Sor"
+ASN = "Asn"
+
 APPLY_METHOD = "apply_method"
 REMOVE_METHOD = "remove_method"
 GAME_MODEL_APPLY = "game_model_apply"
@@ -1747,6 +1758,15 @@ __all__ = [
     'ACT3_HIRE',
     'ACT5_HIRE',
     'HUD_SKIN',
+    'OTHERS',
+    'TOA',
+    'AMA',
+    'SOR',
+    'NEC',
+    'PAL',
+    'BAR',
+    'DRU',
+    'ASN',
     'APPLY_METHOD',
     'REMOVE_METHOD',
     'GAME_MODEL_APPLY',
