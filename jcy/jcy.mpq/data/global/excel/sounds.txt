@@ -11448,6 +11448,4 @@ markbear_off	11445		sfx/items_hd	skill\markbear_off.flac	0	0	0	0	0	255	255	100	1
 diadem	11446		sfx/items_hd	item\diadem.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 mephisto_key	11447		sfx/items_hd	item\torch_key.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 fade_off	11448		sfx/items_hd	skill\fade_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
-infector_of_souls_death	11449		sfx/items_hd	monster\infector_of_souls_death.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
-lord_de_seis_death	11450		sfx/items_hd	monster\lord_de_seis_death.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
-grand_vizier_of_chaos_death	11451		sfx/items_hd	monster\grand_vizier_of_chaos_death.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
+unique_death	11449		sfx/items_hd	monster\unique_death.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
