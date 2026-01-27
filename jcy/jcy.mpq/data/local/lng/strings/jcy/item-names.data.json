@@ -6002,6 +6002,29 @@
             "defense": ""
         }
     },
+    "xhm":{
+        "enUS": {
+            "nickname": "",
+            "grade": "Normal",
+            "weight": "",
+            "sockets": "",
+            "defense": ""
+        },
+        "zhCN": {
+            "nickname": "",
+            "grade": "普",
+            "weight": "",
+            "sockets": "",
+            "defense": ""
+        },
+        "zhTW": {
+            "nickname": "",
+            "grade": "普",
+            "weight": "",
+            "sockets": "",
+            "defense": ""
+        }
+    },
     "ktr": {
         "enUS": {
             "nickname": "",
