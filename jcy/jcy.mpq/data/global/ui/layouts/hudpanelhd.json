@@ -2,7 +2,7 @@
     "type": "HUDPanelHD",
     "name": "HUDPanel",
     "fields": {
-        "priority": -9,
+        "priority": 100,
         "anchor": {
             "x": 0.5,
             "y": 1
@@ -53,6 +53,28 @@
             },
             "children": [
                 {
+                    "type": "TextBoxWidget",
+                    "name": "ValueDisplay",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5
+                        },
+                        "rect": {
+                            "y": -30
+                        },
+                        "fontType": "16pt",
+                        "style": {
+                            "pointSize": "$XMediumLargeFontSize",
+                            "alignment": {
+                                "v": "bottom",
+                                "h": "center"
+                            },
+                            "spacing": "$MinimumSpacing",
+                            "dropShadow": "$DefaultDropShadow"
+                        }
+                    }
+                },
+                {
                     "type": "AnimatedImageWidget",
                     "name": "BallImage",
                     "fields": {
@@ -91,41 +113,6 @@
                         },
                         "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point"
                     }
-                },
-                {
-                    "type": "TextBoxWidget",
-                    "name": "ValueDisplay",
-                    "fields": {
-                        "anchor": {
-                            "x": 0.5
-                        },
-                        "rect": {
-                            "x": 5,
-                            "y": 190
-                        },
-                        "fontType": "16pt",
-                        "style": {
-                            "pointSize": "$XMediumLargeFontSize",
-                            "alignment": {
-                                "v": "bottom",
-                                "h": "center"
-                            },
-                            "spacing": "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
-                    }
-                },
-                {
-                    "type": "ClickCatcherWidget",
-                    "name": "donttouch",
-                    "fields": {
-                        "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 348,
-                            "height": 350
-                        }
-                    }
                 }
             ]
         },
@@ -145,6 +132,27 @@
                 "potionPreviewTransparency": 0.5
             },
             "children": [
+                {
+                    "type": "TextBoxWidget",
+                    "name": "ValueDisplay",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5
+                        },
+                        "rect": {
+                            "y": -30
+                        },
+                        "style": {
+                            "pointSize": "$XMediumLargeFontSize",
+                            "alignment": {
+                                "v": "bottom",
+                                "h": "center"
+                            },
+                            "spacing": "$MinimumSpacing",
+                            "dropShadow": "$DefaultDropShadow"
+                        }
+                    }
+                },
                 {
                     "type": "AnimatedImageWidget",
                     "name": "BallImage",
@@ -205,40 +213,6 @@
                             1.0
                         ]
                     }
-                },
-                {
-                    "type": "TextBoxWidget",
-                    "name": "ValueDisplay",
-                    "fields": {
-                        "anchor": {
-                            "x": 0.5
-                        },
-                        "rect": {
-                            "x": 5,
-                            "y": 190
-                        },
-                        "style": {
-                            "pointSize": "$XMediumLargeFontSize",
-                            "alignment": {
-                                "v": "bottom",
-                                "h": "center"
-                            },
-                            "spacing": "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
-                    }
-                },
-                {
-                    "type": "ClickCatcherWidget",
-                    "name": "donttouch",
-                    "fields": {
-                        "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 348,
-                            "height": 350
-                        }
-                    }
                 }
             ]
         },
@@ -260,7 +234,9 @@
                     "name": "HotkeyText",
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
-                        "style": "$SkillHotkeyTextStyle"
+                        "style": "$SkillHotkeyTextStyle",
+                        "useAltStyleIfDoesntFit": true,
+                        "altStyle": "$SkillHotkeyTextAltStyle"
                     }
                 },
                 {
@@ -310,7 +286,7 @@
                         "blendMode": "black",
                         "fps": 14,
                         "loop": false,
-                        "hideOnComplete": false,
+                        "hideOnComplete": true,
                         "playing": false
                     }
                 },
@@ -326,7 +302,7 @@
                         "blendMode": "black",
                         "fps": 14,
                         "loop": false,
-                        "hideOnComplete": false,
+                        "hideOnComplete": true,
                         "playing": false
                     }
                 }
@@ -464,25 +440,6 @@
                             "y": -6
                         }
                     }
-                },
-                {
-                    "type": "ButtonWidget",
-                    "name": "exitandsetting",
-                    "fields": {
-                        "menu": "pauseMenu",
-                        "filename": "PANEL/HUD_02/PauseMenu",
-                        "tooltipString": "游戏设置",
-                        "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
-                        "focusIndicatorVisible": true,
-                        "hoveredFrame": 2,
-                        "tooltipOffset": {
-                            "y": -30
-                        },
-                        "rect": {
-                            "x": 422,
-                            "y": -6
-                        }
-                    }
                 }
             ]
         },
@@ -544,7 +501,9 @@
                     "name": "HotkeyText",
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
-                        "style": "$SkillHotkeyTextStyle"
+                        "style": "$SkillHotkeyTextStyle",
+                        "useAltStyleIfDoesntFit": true,
+                        "altStyle": "$SkillHotkeyTextAltStyle"
                     }
                 },
                 {
@@ -574,7 +533,9 @@
                     "name": "HotkeyText",
                     "fields": {
                         "rect": "$SkillHotkeyTextRect",
-                        "style": "$SkillHotkeyTextStyle"
+                        "style": "$SkillHotkeyTextStyle",
+                        "useAltStyleIfDoesntFit": true,
+                        "altStyle": "$SkillHotkeyTextAltStyle"
                     }
                 },
                 {
@@ -710,6 +671,58 @@
                 "filename": "PANEL/HUD_02/quest_button",
                 "rightPanelOffset": {
                     "x": -1080
+                },
+                "hoveredFrame": 3,
+                "disabledFrame": 2,
+                "disabledTint": {
+                    "a": 1
+                }
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget",
+                    "name": "Label",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5
+                        },
+                        "rect": {
+                            "y": -3
+                        },
+                        "fontType": "16pt",
+                        "style": {
+                            "pointSize": "$XMediumLargeFontSize",
+                            "alignment": {
+                                "v": "bottom",
+                                "h": "center"
+                            },
+                            "spacing": "$MinimumSpacing",
+                            "dropShadow": "$DefaultDropShadow"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "LevelUpButtonWidget",
+            "name": "QuestAlert",
+            "fields": {
+                "type": "quests",
+                "labels": [
+                    "@CfgQuestLog",
+                    "@CfgQuestLog"
+                ],
+                "isFloating": true,
+                "rect": {
+                    "x": 406,
+                    "y": -164
+                },
+                "filename": "PANEL/HUD_02/quest_button",
+                "leftPanelOffset": {
+                    "x": 1080
+                },
+                "newStatsButtonOverlapOffset": {
+                    "y": -210
                 },
                 "hoveredFrame": 3,
                 "disabledFrame": 2,
