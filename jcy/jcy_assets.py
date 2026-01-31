@@ -1872,6 +1872,54 @@ ASSETS = [
             "data/hd/global/ui/items/misc/quest/token_of_absolution.lowend.sprite",
         ]
     },
+    {
+        "id": 902,
+        "name": "箱子(Bank)皮肤",
+        "category": OTHERS,
+        "type": BANK,
+        "author": "Z풍차돌기",
+        "description": "1.5倍蓝色箱子",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/3234",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/902.zip",
+        "file": "902.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/902/902.png",
+        "size": 635009,
+        "md5": "84E6641BD9E02B83F905AFCF18D9E68C",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list": [
+            "data/hd/objects/chests/bank/model/torso_lod0.model",
+            "data/hd/objects/chests/bank/model/torso_lod1.model",
+            "data/hd/objects/chests/bank/model/torso_lod2.model",
+            "data/hd/objects/chests/bank/model/torso_lod3.model",
+            "data/hd/objects/chests/bank/model/torso_lod4.model",
+            "data/hd/objects/chests/bank/texture/chest_bank_alb.texture",
+            "data/hd/objects/chests/bank/texture/chest_bank_nrm.texture",
+            "data/hd/objects/chests/bank/texture/chest_bank_orm.texture",
+            "data/hd/objects/chests/bank/bank_state_machine.json",
+            "data/hd/objects/chests/bank.json"
+        ]
+    },
+    {
+        "id": 903,
+        "name": "箱子(Bank)皮肤",
+        "category": OTHERS,
+        "type": BANK,
+        "author": "왕왕작작",
+        "description": "1.5倍红色箱子",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/4997",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/903.zip",
+        "file": "903.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/903/903.png",
+        "size": 70335,
+        "md5": "F16BECA39C67DFFA364F6115EB999E8A",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list": [
+            "data/hd/objects/chests/bank/texture/chest_bank_alb.texture",
+            "data/hd/objects/chests/bank.json",
+        ]
+    },
     # 亚马逊(1000, 1100)
     # 法师(1100, 1200)
     {
@@ -2019,9 +2067,9 @@ ASSETS = [
         "name": "SOR_皮肤_2",
         "category": SOR,
         "type": SOR,
-        "author": "我忘了..",
+        "author": "커터처퍼",
         "description": "银色涂装",
-        "source": "",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/2347",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/1102.zip",
         "file": "1102.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/1102/1102.png",

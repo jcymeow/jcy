@@ -176,6 +176,7 @@ ACT5_HIRE = "Act5Hire"
 HUD_SKIN = "HudSkin"
 OTHERS = "Others"
 TOA = "Token of Absolution"
+BANK = "Bank"
 
 AMA = "Ama"
 SOR = "Sor"
@@ -1773,6 +1774,7 @@ __all__ = [
     'HUD_SKIN',
     'OTHERS',
     'TOA',
+    'BANK',
     'AMA',
     'SOR',
     'NEC',
