@@ -3954,6 +3954,19 @@ class FileOperations:
             "4": [
                 r"data/hd/overlays/sorceress/energyshield.json"
             ],
+            # 开启 灰色九头蛇
+            "5": [
+                r"data/hd/character/enemy/hydra1/textures/hydra_alb.texture",
+                r"data/hd/vfx/particles/character/enemy/hydra1/vfx_hydra1_ambientfire.particles",
+                r"data/hd/vfx/particles/character/enemy/hydra1/vfx_hydra1_decal.particles",
+                r"data/hd/vfx/particles/character/enemy/hydra1/vfx_hydra1_muzzleflash.particles",
+            ],
+            # 开启 火弹术->黑色圣光弹
+            "6": [
+                r"data/hd/missiles/firebolt.json",
+                r"data/hd/vfx/particles/missiles/fire_arrow_explode_2/vfx_fire_arrow_explode_2.particles",
+                r"data/hd/vfx/particles/overlays/common/fire_hit/fire_hit.particles",
+            ],
         }
 
         funcs = []
