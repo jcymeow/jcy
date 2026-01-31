@@ -1632,20 +1632,223 @@ ASSETS = [
         "author": "Icemint, Sandmann, Jhyun0512, Mardok, 살신e",
         "description": "移除天使/恶魔雕像, 经验条刻度, 彩色经验条, 彩色体力条",
         "source": "https://www.inven.co.kr/board/diablo2/5842/6759",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/hudSkin1.zip",
-        "file": "hudSkin1.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/hudSkin1.png",
-        "size": 1399629,
-        "md5": "92BE171BF388C23F44F2BFD9711AF658",
-        APPLY_METHOD: [],
-        REMOVE_METHOD: [],
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/801.zip",
+        "file": "801.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/801.png",
+        "size": 1402515,
+        "md5": "8C7930A4D535C3AF6C1356CE2F4291E5",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [
+            {
+                "method": HUD_SKIN_APPLY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
         "list": [
+            "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
             "data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/front_panel.sprite",
             "data/hd/global/ui/panel/hud_02/stamina_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/stamina_bar.sprite",
+        ]
+    },
+    {
+        "id": 802,
+        "name": "HUD皮肤_2",
+        "category": HUD_SKIN,
+        "type": HUD_SKIN,
+        "author": "Gous",
+        "description": "Diablo III HUD",
+        "source": "https://www.nexusmods.com/diablo2resurrected/mods/819",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/802.zip",
+        "file": "802.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/802.webp",
+        "size": 23174169,
+        "md5": "6C6E875823A4044DD8202FEAB58300BC",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [
+            {
+                "method": HUD_SKIN_APPLY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        "list": [
+            "data/global/ui/layouts/hudpanelhd.json",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_man_idle.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_man_idle.sprite",
+            "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
+            "data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/front_panel.sprite",
+        ]
+    },
+    {
+        "id": 803,
+        "name": "HUD皮肤_3",
+        "category": HUD_SKIN,
+        "type": HUD_SKIN,
+        "author": "未知",
+        "description": "Diablo IV HUD",
+        "source": "",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/803.zip",
+        "file": "803.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/803.png",
+        "size": 5579870,
+        "md5": "36547ED9A10109BBDB543BFE774E97C8",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [
+            {
+                "method": HUD_SKIN_APPLY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        "list": [
+            "data/global/ui/layouts/hudpanelhd.json",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.sprite",
+            "data/hd/global/ui/panel/hud_02/automap.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/automap.sprite",
+            "data/hd/global/ui/panel/hud_02/belt_popped_row.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/belt_popped_row.sprite",
+            "data/hd/global/ui/panel/hud_02/character.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/character.sprite",
+            "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
+            "data/hd/global/ui/panel/hud_02/expnum.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/expnum.sprite",
+            "data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/front_panel.sprite",
+            "data/hd/global/ui/panel/hud_02/inventory.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/inventory.sprite",
+            "data/hd/global/ui/panel/hud_02/messages.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/messages.sprite",
+            "data/hd/global/ui/panel/hud_02/pausemenu.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/pausemenu.sprite",
+            "data/hd/global/ui/panel/hud_02/questlog.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/questlog.sprite",
+            "data/hd/global/ui/panel/hud_02/skilltree.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/skilltree.sprite",
+            "data/hd/global/ui/panel/hud_02/sprint.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/sprint.sprite",
+            "data/hd/global/ui/panel/hud_02/stamina_bar.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/stamina_bar.sprite",
+        ]
+    },
+    {
+        "id": 804,
+        "name": "HUD皮肤_4",
+        "category": HUD_SKIN,
+        "type": HUD_SKIN,
+        "author": "NDState",
+        "description": "极简风",
+        "source": "https://www.nexusmods.com/diablo2resurrected/mods/325",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/804.zip",
+        "file": "804.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/804.png",
+        "size": 153051,
+        "md5": "D15C425E5530944DE2DA0A23239FD3E5",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [
+            {
+                "method": HUD_SKIN4_APPLY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/hudpanelhd.json"
+                    ]
+                }
+            }
+        ],
+        "list": [
+            "data/global/ui/layouts/hudpanelhd.json",
+            "data/global/ui/layouts/skillselecthd.json",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_idle.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_idle.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/hotpoint/frameset1/globe_hot_point2.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/healthmanaanimation/hotpoint/frameset1/globe_hot_point2.sprite",
+            "data/hd/global/ui/panel/belt_popped_row.lowend.sprite",
+            "data/hd/global/ui/panel/belt_popped_row.sprite",
         ]
     },
     # 杂项(900, 1000)

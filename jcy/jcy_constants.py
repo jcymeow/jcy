@@ -1,3 +1,4 @@
+from enum import Enum
 """
 常量模块
 """
@@ -184,11 +185,18 @@ BAR = "Bar"
 DRU = "Sor"
 ASN = "Asn"
 
+METHOD = "method"
+PARAMS = "params"
+PREPROCESS_METHOD = "preprocess_method"
 APPLY_METHOD = "apply_method"
 REMOVE_METHOD = "remove_method"
+
+BACKUP_RESOTRE_FILES = "backup_restore_files"
 GAME_MODEL_APPLY = "game_model_apply"
 HIRE_SKIN_APPLY = "hire_skin_apply"
 HIRE_SKIN_REMOVE = "hire_skin_remove"
+HUD_SKIN_APPLY = "hud_skin_apply"
+HUD_SKIN4_APPLY = "hud_skin4_apply"
 
 
 
@@ -1650,8 +1658,13 @@ CUSTOM_SOUNDS = {
 }
 
 
+class Operation(Enum):
+    RESOTRE = 0
+    BACKUP = 1
+
 # 导出所有需要的符号
 __all__ = [
+    'Operation',
     'MUTEX_NAME',
     'ERROR_ALREADY_EXISTS',
     'WM_SHOW_WINDOW',
@@ -1767,11 +1780,17 @@ __all__ = [
     'BAR',
     'DRU',
     'ASN',
+    'METHOD',
+    'PARAMS',
+    'PREPROCESS_METHOD',
     'APPLY_METHOD',
     'REMOVE_METHOD',
+    'BACKUP_RESOTRE_FILES',
     'GAME_MODEL_APPLY',
     'HIRE_SKIN_APPLY',
     'HIRE_SKIN_REMOVE',
+    'HUD_SKIN_APPLY',
+    'HUD_SKIN4_APPLY',
     'init_global_dict',
     'translate',
 ]

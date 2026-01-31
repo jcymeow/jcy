@@ -53,28 +53,6 @@
             },
             "children": [
                 {
-                    "type": "TextBoxWidget",
-                    "name": "ValueDisplay",
-                    "fields": {
-                        "anchor": {
-                            "x": 0.5
-                        },
-                        "rect": {
-                            "y": -30
-                        },
-                        "fontType": "16pt",
-                        "style": {
-                            "pointSize": "$XMediumLargeFontSize",
-                            "alignment": {
-                                "v": "bottom",
-                                "h": "center"
-                            },
-                            "spacing": "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
-                    }
-                },
-                {
                     "type": "AnimatedImageWidget",
                     "name": "BallImage",
                     "fields": {
@@ -113,6 +91,40 @@
                         },
                         "filename": "PANEL/HUD_02/HealthManaAnimation/HotPoint/FrameSet1/globe_hot_point"
                     }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "ValueDisplay",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5
+                        },
+                        "rect": {
+                            "y": 175
+                        },
+                        "fontType": "16pt",
+                        "style": {
+                            "pointSize": "$XMediumLargeFontSize",
+                            "alignment": {
+                                "v": "bottom",
+                                "h": "center"
+                            },
+                            "spacing": "$MinimumSpacing",
+                            "dropShadow": "$DefaultDropShadow"
+                        }
+                    }
+                },
+                {
+                    "type": "ClickCatcherWidget",
+                    "name": "donttouch",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 348,
+                            "height": 350
+                        }
+                    }
                 }
             ]
         },
@@ -132,27 +144,6 @@
                 "potionPreviewTransparency": 0.5
             },
             "children": [
-                {
-                    "type": "TextBoxWidget",
-                    "name": "ValueDisplay",
-                    "fields": {
-                        "anchor": {
-                            "x": 0.5
-                        },
-                        "rect": {
-                            "y": -30
-                        },
-                        "style": {
-                            "pointSize": "$XMediumLargeFontSize",
-                            "alignment": {
-                                "v": "bottom",
-                                "h": "center"
-                            },
-                            "spacing": "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
-                    }
-                },
                 {
                     "type": "AnimatedImageWidget",
                     "name": "BallImage",
@@ -212,6 +203,39 @@
                             -0.0,
                             1.0
                         ]
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "ValueDisplay",
+                    "fields": {
+                        "anchor": {
+                            "x": 0.5
+                        },
+                        "rect": {
+                            "y": 175
+                        },
+                        "style": {
+                            "pointSize": "$XMediumLargeFontSize",
+                            "alignment": {
+                                "v": "bottom",
+                                "h": "center"
+                            },
+                            "spacing": "$MinimumSpacing",
+                            "dropShadow": "$DefaultDropShadow"
+                        }
+                    }
+                },
+                {
+                    "type": "ClickCatcherWidget",
+                    "name": "donttouch",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 348,
+                            "height": 350
+                        }
                     }
                 }
             ]

@@ -22,16 +22,20 @@ class FileOperations:
     def __init__(self, controller):
         self.controller = controller
         self.method_dict = {
+            BACKUP_RESOTRE_FILES: self.backup_restore_files,
             GAME_MODEL_APPLY: self.game_model_apply,
             HIRE_SKIN_APPLY: self.modify_hire_skin,
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
+            HUD_SKIN_APPLY: self.modify_hud_skin,
+            HUD_SKIN4_APPLY: self.modify_hud4_skin,
         }
 
 
     def void(self, param):
         "空方法"
         return (0, 0)
-    
+
+
     def load_asset_config(self) -> dict:
         """加载素材包配置"""
         if os.path.exists(ASSETS_PATH):
@@ -86,6 +90,7 @@ class FileOperations:
         zip_file = asset.get("file", "")
         zip_path = os.path.join(asset_dir, zip_file)
 
+        # --- 校验素材包 ---
         # 1. 先检查 zip 包是否存在
         if not os.path.exists(zip_path):
             return err_result(f"文件:{zip_path} 不存在, 请先下载素材包.")
@@ -100,14 +105,20 @@ class FileOperations:
         if zip_md5 and not check_file_md5(zip_path, zip_md5):
             return err_result(f"素材包 MD5 校验失败，请重新下载更新素材包.")
 
-        # 4. 解压到临时目录
-        tmp_dir = tempfile.mkdtemp(prefix="mod_apply_")
-
+        tmp_dir = None
         try:
+            # --- 应用素材包 ---
+            # 4. 调用素材前置方法
+            preprocess_method = asset.get(PREPROCESS_METHOD, [])
+            if preprocess_method:
+                self.asset_execute(preprocess_method)
+
+            # 5. 解压到临时目录
+            tmp_dir = tempfile.mkdtemp(prefix="mod_apply_")
             with zipfile.ZipFile(zip_path, "r") as zf:
                 zf.extractall(tmp_dir)
 
-            # 5. 素材包文件复制到 mod
+            # 6. 素材包文件复制到 mod
             for f in asset.get("list", []):
                 src = os.path.join(tmp_dir, f)
                 dst = os.path.join(MOD_PATH, f)
@@ -116,15 +127,14 @@ class FileOperations:
                 os.makedirs(dst_dir, exist_ok=True)
                 shutil.copy2(src, dst)
 
-            # 6. 调用素材应用方法
+            # 7. 调用素材应用方法
             apply_method = asset.get(APPLY_METHOD, [])
             if apply_method:
                 self.asset_execute(apply_method)
-            
+
             # 7. 保存素材配置
             jcy_config.ASSET_CONFIG[asset_type] = asset_id
             self.save_asset_config()
-
             return ok_result(f"{asset.get('name')} 已应用.")
         except Exception as e:
             print(f"[ERROR] 应用素材 {asset.get('name')} 失败：{e}")
@@ -138,19 +148,19 @@ class FileOperations:
         """素材包-移除"""
         asset_type = asset.get("type")
 
-        # 1.调用素材"移除"方法
-        remove_method = asset.get(REMOVE_METHOD)
-        if remove_method:
-            self.asset_execute(remove_method)
-        
-        # 2.从mod移除素材包文件
+        # 1.从mod移除素材包文件
         for f in asset.get('list', []):
             full_path = os.path.join(MOD_PATH, f)
             if os.path.exists(full_path):
                 try:
                     os.remove(full_path)
-                except Exception:
-                    pass
+                except Exception as e:
+                    print(e)
+
+        # 2.调用素材"移除"方法
+        remove_method = asset.get(REMOVE_METHOD)
+        if remove_method:
+            self.asset_execute(remove_method)
         
         # 3. 保存素材配置
         jcy_config.ASSET_CONFIG[asset_type] = 0
@@ -162,8 +172,8 @@ class FileOperations:
     def asset_execute(self, methods: list):
         """调用素材方法, 静默执行&打印异常"""
         for item in methods:
-            name = item.get("method")
-            params = item.get("params")
+            name = item.get(METHOD)
+            params = item.get(PARAMS)
 
             func = self.method_dict.get(name)
             if not func:
@@ -234,6 +244,28 @@ class FileOperations:
         return (count, total)
 
 
+    def backup_restore_files(self, params):
+        opeartion = params.get("operation")
+        files = params.get("files")
+        print(opeartion)
+        print(files)
+        for file in files:
+            try:
+                original_file = os.path.join(MOD_PATH, file)
+                backup_file = os.path.join(MOD_PATH, file + ".bak")
+                match opeartion:
+                    case Operation.BACKUP:
+                        if os.path.exists(original_file) and not os.path.exists(backup_file):
+                            os.replace(original_file, backup_file)
+                    case Operation.RESOTRE:
+                        if os.path.exists(backup_file) and not os.path.exists(original_file):
+                            os.replace(backup_file, original_file)
+            except Exception as e:
+                print(e)
+                return err_result(e)
+        return ok_result(len(files))
+
+
     def game_model_apply(self):
         """素材包.游戏模型.应用"""
         
@@ -274,6 +306,175 @@ class FileOperations:
         print(funcs[-1])
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
+
+
+    def modify_hud_skin(self):
+        # ---- 1/6/7 统一处理, 修改hudpanel.json ----
+        game_setting2 = jcy_config.SETTINGS.get(GAME_SETTING2, [])
+        hide_quest = "1" in game_setting2
+        move_down = "6" in game_setting2
+        dont_touch = "7" in game_setting2
+
+        try:
+            hud_json = None
+            hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelhd.json")
+            if os.path.exists(hud_path):
+                with open(hud_path, 'r', encoding='utf-8') as f:
+                    hud_json = json.load(f)
+
+                # 1.隐藏任务按钮
+                hud_json["children"] = [
+                    c for c in hud_json.get("children", [])
+                    if not (
+                        c.get("type") == "LevelUpButtonWidget"
+                        and c.get("name") == "QuestAlert"
+                    )
+                ]
+                if not hide_quest:
+                    hud_json["children"].append(copy.deepcopy(ENTITY_HUD_QUEST))
+
+                # 查找health_ball, mana_ball
+                health_ball = None
+                mana_ball = None
+                hp_fields_rect = None
+                mp_fields_rect = None
+                for child in hud_json.get("children", []):
+                    if "AttributeBallWidget" == child.get("type") and "HealthBall" == child.get("name"):
+                        health_ball = child
+                        hp_fields_rect = health_ball["fields"]["rect"]
+
+                    if "AttributeBallWidget" == child.get("type") and "ManaBall" == child.get("name"):
+                        mana_ball = child
+                        mp_fields_rect = mana_ball["fields"]["rect"]
+
+                # 6.生命/魔法读数下移
+                for i, hp_child in enumerate(health_ball["children"]):
+                    if "TextBoxWidget" == hp_child.get("type") and "ValueDisplay" == hp_child.get("name"):
+                        hp_child["fields"]["rect"]["y"] = hp_fields_rect["height"]//2 if move_down else 0
+                        break
+                for i, mp_child in enumerate(mana_ball["children"]):
+                    if "TextBoxWidget" == mp_child.get("type") and "ValueDisplay" == mp_child.get("name"):
+                        mp_child["fields"]["rect"]["y"] = mp_fields_rect["height"]//2 if move_down else 0
+                        break
+                
+                # 7.生命/魔法球禁止点击
+                health_ball["children"] = [
+                    c for c in health_ball.get("children", [])
+                    if not (
+                        c.get("type") == "ClickCatcherWidget"
+                        and c.get("name") == "donttouch"
+                    )
+                ]
+                mana_ball["children"] = [
+                    c for c in mana_ball.get("children", [])
+                    if not (
+                        c.get("type") == "ClickCatcherWidget"
+                        and c.get("name") == "donttouch"
+                    )
+                ]
+                if dont_touch:
+                    hp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                    hp_dont_touch["fields"]["rect"]["width"] = hp_fields_rect["width"]
+                    hp_dont_touch["fields"]["rect"]["height"] = hp_fields_rect["height"]
+                    health_ball["children"].append(hp_dont_touch)
+                    mp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                    mp_dont_touch["fields"]["rect"]["width"] = mp_fields_rect["width"]
+                    mp_dont_touch["fields"]["rect"]["height"] = mp_fields_rect["height"]
+                    mana_ball["children"].append(mp_dont_touch)
+                
+                with open(hud_path, 'w', encoding='utf-8') as f:
+                    json.dump(hud_json, f, ensure_ascii=False, indent=4)
+
+                return ok_result("apply success")
+        except Exception as e:
+            print(e)
+            return err_result(e)
+
+
+    def modify_hud4_skin(self):
+        # ---- 1/6/7 统一处理, 修改hudpanel.json ----
+        game_setting2 = jcy_config.SETTINGS.get(GAME_SETTING2, [])
+        hide_quest = "1" in game_setting2
+        move_down = "6" in game_setting2
+        dont_touch = "7" in game_setting2
+
+        try:
+            hud_json = None
+            hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelhd.json")
+            if os.path.exists(hud_path):
+                with open(hud_path, 'r', encoding='utf-8') as f:
+                    hud_json = json.load(f)
+
+                # 1.隐藏任务按钮
+                hud_json["children"] = [
+                    c for c in hud_json.get("children", [])
+                    if not (
+                        c.get("type") == "LevelUpButtonWidget"
+                        and c.get("name") == "QuestAlert"
+                    )
+                ]
+                if not hide_quest:
+                    hud_json["children"].append(copy.deepcopy(ENTITY_HUD_QUEST))
+
+                # 查找health_ball, mana_ball
+                health_ball = None
+                mana_ball = None
+                hp_fields_rect = None
+                mp_fields_rect = None
+                for child in hud_json.get("children", []):
+                    if "RectangleWidget" == child.get("type") and "HealthOpaqueBG" == child.get("name"):
+                        for c in child["children"]:
+                            if "AttributeBallWidget" == c.get("type") and "HealthBall" == c.get("name"):
+                                health_ball = c
+                                hp_fields_rect = c["fields"]["rect"]
+                    if "RectangleWidget" == child.get("type") and "ManaOpaqueBG" == child.get("name"):
+                        for c in child["children"]:
+                            if "AttributeBallWidget" == c.get("type") and "ManaBall" == c.get("name"):
+                                mana_ball = c
+                                mp_fields_rect = c["fields"]["rect"]
+
+                # 6.生命/魔法读数下移
+                for i, hp_child in enumerate(health_ball["children"]):
+                    if "TextBoxWidget" == hp_child.get("type") and "ValueDisplay" == hp_child.get("name"):
+                        hp_child["fields"]["rect"]["y"] = hp_fields_rect["height"]//2 if move_down else 0
+                        break
+                for i, mp_child in enumerate(mana_ball["children"]):
+                    if "TextBoxWidget" == mp_child.get("type") and "ValueDisplay" == mp_child.get("name"):
+                        mp_child["fields"]["rect"]["y"] = mp_fields_rect["height"]//2 if move_down else 0
+                        break
+                
+                # 7.生命/魔法球禁止点击
+                health_ball["children"] = [
+                    c for c in health_ball.get("children", [])
+                    if not (
+                        c.get("type") == "ClickCatcherWidget"
+                        and c.get("name") == "donttouch"
+                    )
+                ]
+                mana_ball["children"] = [
+                    c for c in mana_ball.get("children", [])
+                    if not (
+                        c.get("type") == "ClickCatcherWidget"
+                        and c.get("name") == "donttouch"
+                    )
+                ]
+                if dont_touch:
+                    hp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                    hp_dont_touch["fields"]["rect"]["width"] = hp_fields_rect["width"]
+                    hp_dont_touch["fields"]["rect"]["height"] = hp_fields_rect["height"]
+                    health_ball["children"].append(hp_dont_touch)
+                    mp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                    mp_dont_touch["fields"]["rect"]["width"] = mp_fields_rect["width"]
+                    mp_dont_touch["fields"]["rect"]["height"] = mp_fields_rect["height"]
+                    mana_ball["children"].append(mp_dont_touch)
+                
+                with open(hud_path, 'w', encoding='utf-8') as f:
+                    json.dump(hud_json, f, ensure_ascii=False, indent=4)
+
+                return ok_result("apply success")
+        except Exception as e:
+            print(e)
+            return err_result(e)
 
 
     def common_submit(self, fid, param):
@@ -330,47 +531,6 @@ class FileOperations:
 
         return (count, len(files))
     
-
-    def hide_quest_button(self, isEnabled: bool = False):
-        """隐藏任务按钮"""
-        
-        _files = [
-            r"data/global/ui/layouts/hudpanel.json",
-            r"data/global/ui/layouts/hudpanelhd.json"
-        ]
-
-        _QuestAlert = [
-            {"type":"LevelUpButtonWidget","name":"QuestAlert","fields":{"type":"quests","labels":["@CfgQuestLog","@CfgQuestLog"],"isFloating":True,"tooltipOffset":{"y":-12},"rect":{"x":43,"y":-95},"filename":"PANEL/level","socketFilename":"PANEL/levelsocket","socketOffset":{"x":-3,"y":-2},"leftPanelOffset":{"x":320},"leftPanel800BonusOffset":{"x":80},"disabledFrame":2,"disabledTint":{"a":1}},"children":[{"type":"TextBoxWidget","name":"Label","fields":{"rect":{"x":15,"y":-19},"style":{"alignment":{"h":"center"}}}}]},
-            {"type":"LevelUpButtonWidget","name":"QuestAlert","fields":{"type":"quests","labels":["@CfgQuestLog","@CfgQuestLog"],"isFloating":True,"rect":{"x":406,"y":-164},"filename":"PANEL/HUD_02/quest_button","leftPanelOffset":{"x":1080},"newStatsButtonOverlapOffset":{"y":-210},"hoveredFrame":3,"disabledFrame":2,"disabledTint":{"a":1}},"children":[{"type":"TextBoxWidget","name":"Label","fields":{"anchor":{"x":0.5},"rect":{"y":-3},"fontType":"16pt","style":{"pointSize":"$XMediumLargeFontSize","alignment":{"v":"bottom","h":"center"},"spacing":"$MinimumSpacing","dropShadow":"$DefaultDropShadow"}}}]}
-        ]
-
-        count = 0
-        total = len(_files)
-
-        for i, file in enumerate(_files) :
-            try:
-                path = os.path.join(MOD_PATH, file)
-                
-                with open(path, 'r', encoding='utf-8') as f:
-                    json_data = json.load(f)
-
-                node = json_data["children"][-1]
-                if isEnabled:
-                    if node["name"] == "QuestAlert":
-                        json_data["children"].pop()
-                else:
-                    if node["name"] != "QuestAlert":
-                        json_data["children"].append(_QuestAlert[i])
-
-                with open(path, 'w', encoding='utf-8') as f:
-                    json.dump(json_data, f, ensure_ascii=False, indent=4)
-
-                count += 1
-            except Exception as e:
-                print(e)
-        
-        return (count, total)
-
 
     def toggle_low_quality(self, isEnabled: bool = False):
         """
@@ -3065,8 +3225,6 @@ class FileOperations:
                 # 
                 r"data/global/ui/layouts/mainmenupanelhd.json",
             ],
-            # 单击Esc退出游戏
-            "2": [],
             # 更大的好友菜单
             "3": [
                 r"data/global/ui/layouts/contextmenuhd.json",
@@ -3397,70 +3555,23 @@ class FileOperations:
                 r"data/hd/env/vis/visbox_tempenter_darkness_vis.json",
                 r"data/hd/env/vis/visbox_tempenter_roof_vis.json",
                 r"data/hd/env/vis/visbox_tower_vis.json",
-            ]
+            ],
+            # 左键快速购买
+            "6": [
+                r"data/global/ui/layouts/vendorpanellayouthd.json",
+            ],
+            # 经验/宝石祭坛特效标识
+            "7":[
+                r"data/hd/overlays/common/shrine_experience.json",
+                r"data/hd/overlays/common/shrine_stamina.json",
+            ],
         }
 
         funcs = []
-        for i in range(1, len(_files) + 1):
-            key = str(i)
-            files = _files[key]
-            sub = self.common_rename(files, key in keys)
+        for k, v in _files.items():
+            sub = self.common_rename(v, k in keys)
             funcs.append(sub)
 
-        # 5: 隐藏左右面板边框&铰链
-        count = 0
-        total = 2
-        profiledhd_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/_profilehd.json")
-        _5files = [
-            r"data/global/ui/layouts/panelborderspanelhd.json",
-        ]
-
-        if "5" in keys:
-            try:
-                # 隐藏
-                profiledhd_data = None
-                with open(profiledhd_path, 'r', encoding='utf-8') as f:
-                    profiledhd_data = json.load(f)
-
-                profiledhd_data.pop("LeftSideSprite", None)
-                profiledhd_data.pop("LeftHingeSprite", None)
-                profiledhd_data.pop("RightSideSprite", None)
-                profiledhd_data.pop("RightHingeSprite", None)
-
-                with open(profiledhd_path, 'w', encoding="utf-8") as f:
-                    json.dump(profiledhd_data, f, ensure_ascii=False, indent=4)
-                count += 1
-
-                # 使用自定义json
-                result = self.common_rename(_5files, True)
-                count += result[0]
-                
-            except Exception as e:
-                print(e)
-        else:
-            try:
-                # 显示
-                profiledhd_data = None
-                with open(profiledhd_path, 'r', encoding='utf-8') as f:
-                    profiledhd_data = json.load(f)
-
-                profiledhd_data["LeftSideSprite"]="PANEL\\Docking_Bar\\SidePanel_L"
-                profiledhd_data["LeftHingeSprite"]="PANEL\\Docking_Bar\\SidePanel_Hinge_L"
-                profiledhd_data["RightSideSprite"]="PANEL\\Docking_Bar\\SidePanel_R"
-                profiledhd_data["RightHingeSprite"]="PANEL\\Docking_Bar\\SidePanel_Hinge_R"
-
-                with open(profiledhd_path, 'w', encoding="utf-8") as f:
-                    json.dump(profiledhd_data, f, ensure_ascii=False, indent=4)
-                count += 1
-                
-                # 使用官方json
-                result = self.common_rename(_5files, False)
-                count += result[0]
-            except Exception as e:
-                print(e)
-
-
-        funcs.append((count, total))
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
         
@@ -3472,23 +3583,12 @@ class FileOperations:
         if keys is None:
             return (0, 0)
 
-        # 隐藏任务按钮
-        sub1 = self.hide_quest_button("1" in keys)
-
-        # 文件
         _files = {
-            # 隐藏生命/魔法抬头
-            "2": [],
-            # 左键快速购买
-            "3": [
-                r"data/global/ui/layouts/vendorpanellayouthd.json",
+            # 隐藏边框&铰链A
+            "2": [
+                r"data/global/ui/layouts/panelborderspanelhd.json",
             ],
-            # 经验/宝石祭坛特效标识
-            "4": [
-                r"data/hd/overlays/common/shrine_experience.json",
-                r"data/hd/overlays/common/shrine_stamina.json",
-            ],
-            # 交互对象增加蓝色火苗
+            # 箱子增加蓝色火苗
             "5": [
                 r"data/hd/objects/armor_weapons/armor_stand_1.json",
                 r"data/hd/objects/armor_weapons/armor_stand_2.json",
@@ -3674,49 +3774,115 @@ class FileOperations:
         for key, files in _files.items():
             sub = self.common_rename(files, key in keys)
             funcs.append(sub)
-        funcs.append(sub1)
 
-        # ---- "6": "生命/魔法读数下移", ----
-        hud_handler = "6" in keys
-        
-        # modify ui.json
+        # 2.隐藏边框&铰链B
         try:
-            ui_json = None
-            ui_path = os.path.join(MOD_PATH, r"data/local/lng/strings/ui.json")
-            with open(ui_path, 'r', encoding='utf-8-sig') as f:
-                    ui_json = json.load(f)
-            for obj in ui_json:
-                if obj.get("Key") == "panelhealth":
-                    for k, v in UI_PANEL_HEALTH.items():
-                        if k in obj:
-                            obj[k] = obj[k].replace(v, "") if hud_handler else v + obj[k].replace(v, "")
+            profiledhd_data = None
+            profiledhd_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/_profilehd.json")
+            with open(profiledhd_path, 'r', encoding='utf-8') as f:
+                profiledhd_data = json.load(f)
 
-                if obj.get("Key") == "panelmana":
-                    for k, v in UI_PANEL_MANA.items():
-                        if k in obj:
-                            obj[k] = obj[k].replace(v, "") if hud_handler else v + obj[k].replace(v, "")
-                    break
-            with open(ui_path, 'w', encoding="utf-8-sig") as f:
-                json.dump(ui_json, f, ensure_ascii=False, indent=2)
+            if "2" in keys:
+                profiledhd_data.pop("LeftSideSprite", None)
+                profiledhd_data.pop("LeftHingeSprite", None)
+                profiledhd_data.pop("RightSideSprite", None)
+                profiledhd_data.pop("RightHingeSprite", None)
+            else:
+                profiledhd_data["LeftSideSprite"]="PANEL\\Docking_Bar\\SidePanel_L"
+                profiledhd_data["LeftHingeSprite"]="PANEL\\Docking_Bar\\SidePanel_Hinge_L"
+                profiledhd_data["RightSideSprite"]="PANEL\\Docking_Bar\\SidePanel_R"
+                profiledhd_data["RightHingeSprite"]="PANEL\\Docking_Bar\\SidePanel_Hinge_R"
+
+            with open(profiledhd_path, 'w', encoding="utf-8") as f:
+                json.dump(profiledhd_data, f, ensure_ascii=False, indent=4)
+
             funcs.append((1, 1))
         except Exception as e:
+            funcs.append((0, 1))
             print(e)
 
-        # modify hudpanelhd.json
-        try:
-            hud_json = None
-            hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelhd.json")
-            with open(hud_path, 'r', encoding='utf-8') as f:
-                    hud_json = json.load(f)
-            
-            hud_json["children"][1]["children"][2]["fields"]["rect"]["y"] = 190 if hud_handler else -50
-            hud_json["children"][2]["children"][2]["fields"]["rect"]["y"] = 190 if hud_handler else -50
+        # 特例:素材804使用自己的APPLY方法
+        if jcy_config.ASSET_CONFIG[HUD_SKIN] == 804:
+            self.modify_hud4_skin()
+        else:
+            # ---- 1/6/7 统一处理, 修改hudpanel.json ----
+            hide_quest = "1" in keys
+            move_down = "6" in keys
+            dont_touch = "7" in keys
 
-            with open(hud_path, 'w', encoding="utf-8") as f:
-                json.dump(hud_json, f, ensure_ascii=False, indent=4)
-            funcs.append((1, 1))
-        except Exception as e:
-            print(e)
+            try:
+                hud_json = None
+                hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelhd.json")
+                if os.path.exists(hud_path):
+                    with open(hud_path, 'r', encoding='utf-8') as f:
+                        hud_json = json.load(f)
+
+                    # 1.隐藏任务按钮
+                    hud_json["children"] = [
+                        c for c in hud_json.get("children", [])
+                        if not (
+                            c.get("type") == "LevelUpButtonWidget"
+                            and c.get("name") == "QuestAlert"
+                        )
+                    ]
+                    if not hide_quest:
+                        hud_json["children"].append(copy.deepcopy(ENTITY_HUD_QUEST))
+
+                    # 查找health_ball, mana_ball
+                    health_ball = None
+                    mana_ball = None
+                    hp_fields_rect = None
+                    mp_fields_rect = None
+                    for child in hud_json.get("children", []):
+                        if "AttributeBallWidget" == child.get("type") and "HealthBall" == child.get("name"):
+                            health_ball = child
+                            hp_fields_rect = health_ball["fields"]["rect"]
+
+                        if "AttributeBallWidget" == child.get("type") and "ManaBall" == child.get("name"):
+                            mana_ball = child
+                            mp_fields_rect = mana_ball["fields"]["rect"]
+
+                    # 6.生命/魔法读数下移
+                    for i, hp_child in enumerate(health_ball["children"]):
+                        if "TextBoxWidget" == hp_child.get("type") and "ValueDisplay" == hp_child.get("name"):
+                            hp_child["fields"]["rect"]["y"] = hp_fields_rect["height"]//2 if move_down else 0
+                            break
+                    for i, mp_child in enumerate(mana_ball["children"]):
+                        if "TextBoxWidget" == mp_child.get("type") and "ValueDisplay" == mp_child.get("name"):
+                            mp_child["fields"]["rect"]["y"] = mp_fields_rect["height"]//2 if move_down else 0
+                            break
+                    
+                    # 7.生命/魔法球禁止点击
+                    health_ball["children"] = [
+                        c for c in health_ball.get("children", [])
+                        if not (
+                            c.get("type") == "ClickCatcherWidget"
+                            and c.get("name") == "donttouch"
+                        )
+                    ]
+                    mana_ball["children"] = [
+                        c for c in mana_ball.get("children", [])
+                        if not (
+                            c.get("type") == "ClickCatcherWidget"
+                            and c.get("name") == "donttouch"
+                        )
+                    ]
+                    if dont_touch:
+                        hp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                        hp_dont_touch["fields"]["rect"]["width"] = hp_fields_rect["width"]
+                        hp_dont_touch["fields"]["rect"]["height"] = hp_fields_rect["height"]
+                        health_ball["children"].append(hp_dont_touch)
+                        mp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                        mp_dont_touch["fields"]["rect"]["width"] = mp_fields_rect["width"]
+                        mp_dont_touch["fields"]["rect"]["height"] = mp_fields_rect["height"]
+                        mana_ball["children"].append(mp_dont_touch)
+                    
+                    with open(hud_path, 'w', encoding='utf-8') as f:
+                        json.dump(hud_json, f, ensure_ascii=False, indent=4)
+                    funcs.append((1, 1))
+            except Exception as e:
+                funcs.append((0, 1))
+                print(e)
 
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))

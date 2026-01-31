@@ -68,9 +68,14 @@ class FeatureController:
         self.dialogs = "" 
         jcy_config.SETTINGS = {}
         
+        # 检查D2R.exe包是否存在
+        if not check_d2r_exists():
+            messagebox.showerror("错误", "请确认MOD包路径 Diablo II Resurrected/mods/jcy")
+            sys.exit(1)
+
         # 检查MOD包是否存在
         if not os.path.exists(MOD_PATH):
-            messagebox.showerror("错误", "控制器程序和 MOD 包是绑定在一起使用的，不能分开存放")
+            messagebox.showerror("错误", "请确认控制器'jcy 控制器.exe'和MOD包'jcy.mpq' 在同一路径")
             sys.exit(1)
 
         # 无配置文件,以默认文件为准

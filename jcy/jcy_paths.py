@@ -58,6 +58,23 @@ def get_data_file(relative_path: str) -> Path:
     return base_path / relative_path
 
 
+def get_app_dir():
+    if getattr(sys, 'frozen', False):
+        # PyInstaller 打包后的 exe
+        return Path(sys.executable).parent
+    else:
+        # 源码运行
+        return Path(__file__).resolve().parent
+    
+
+def check_d2r_exists():
+    app_dir = get_app_dir()
+
+    d2r_path = (app_dir / "../../D2R.exe").resolve()
+
+    return d2r_path.exists()
+
+
 # --- 文件名 ---
 # 用户配置路径 C:/Users/{用户名}/AppData/Local/D2R_Mod_jcy
 D2R_MOD_JCY = "D2R_Mod_jcy"
@@ -228,5 +245,6 @@ __all__ = [
     'ensure_appdata_files',
     'load_default_config',
     'load_user_config',
-    'merge_configs'
+    'merge_configs',
+    'check_d2r_exists',
 ]

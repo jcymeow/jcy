@@ -784,6 +784,74 @@ ENTITY_NIHLW_POINTER = {
     ]
 }
 
+# DONTTOUCH
+ENTITY_DONT_TOUCH = {
+    "type": "ClickCatcherWidget",
+    "name": "donttouch",
+    "fields": {
+        "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
+    }
+}
+
+ENTITY_HUD_QUEST = {
+    "type": "LevelUpButtonWidget",
+    "name": "QuestAlert",
+    "fields": {
+        "type": "quests",
+        "labels": [
+            "@CfgQuestLog",
+            "@CfgQuestLog"
+        ],
+        "isFloating": True,
+        "rect": {
+            "x": 406,
+            "y": -164
+        },
+        "filename": "PANEL/HUD_02/quest_button",
+        "leftPanelOffset": {
+            "x": 1080
+        },
+        "newStatsButtonOverlapOffset": {
+            "y": -210
+        },
+        "hoveredFrame": 3,
+        "disabledFrame": 2,
+        "disabledTint": {
+            "a": 1
+        }
+    },
+    "children": [
+        {
+            "type": "TextBoxWidget",
+            "name": "Label",
+            "fields": {
+                "anchor": {
+                    "x": 0.5
+                },
+                "rect": {
+                    "y": -3
+                },
+                "fontType": "16pt",
+                "style": {
+                    "pointSize": "$XMediumLargeFontSize",
+                    "alignment": {
+                        "v": "bottom",
+                        "h": "center"
+                    },
+                    "spacing": "$MinimumSpacing",
+                    "dropShadow": "$DefaultDropShadow"
+                }
+            }
+        }
+    ]
+}
+
+
 # 技能图标位置
 # 0123
 # 456789

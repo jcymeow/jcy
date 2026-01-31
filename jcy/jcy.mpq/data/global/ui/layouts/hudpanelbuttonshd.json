@@ -76,6 +76,22 @@
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
             }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "minifriendstoggle",
+            "fields": {
+                "rect": {
+                    "x": 260.0,
+                    "y": 0,
+                    "scale": 0.8
+                },
+                "filename": "panel\\hud_02\\pausemenu",
+                "tooltipString": "游戏设置",
+                "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
         }
     ]
 }
