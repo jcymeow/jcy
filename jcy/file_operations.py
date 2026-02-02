@@ -2690,7 +2690,7 @@ class FileOperations:
             "0": [],
             "1": ARROW_LIGHT1,
             "2": PF_BEACON_WAYPOINT,
-            "3": ARROW_LIGHT1,
+            "3": ROOMTILES_ARROW_LIGHT1,
             "4": ARROW_LIGHT2,
         }
 
@@ -2749,7 +2749,7 @@ class FileOperations:
             "0": [],
             "1": ARROW_LIGHT2,
             "2": PF_BEACON_QUEST,
-            "3": ARROW_LIGHT1,
+            "3": ROOMTILES_ARROW_LIGHT1,
             "4": ARROW_LIGHT2,
         }
 
@@ -2811,7 +2811,7 @@ class FileOperations:
             "0": [],
             "1": ROOMTILES_ARROW_LIGHT2,
             "2": PF_BEACON_UPSTAIRS,
-            "3": ARROW_LIGHT1,
+            "3": ROOMTILES_ARROW_LIGHT1,
             "4": ARROW_LIGHT2,
         }
 
@@ -2885,7 +2885,7 @@ class FileOperations:
             "0": [],
             "1": ROOMTILES_ARROW_LIGHT1,
             "2": PF_BEACON_DOWNSTAIRS,
-            "3": ARROW_LIGHT1,
+            "3": ROOMTILES_ARROW_LIGHT1,
             "4": ARROW_LIGHT2,
         }
 

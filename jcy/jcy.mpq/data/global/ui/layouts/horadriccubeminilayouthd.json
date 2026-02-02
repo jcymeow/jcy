@@ -4,11 +4,11 @@
     "fields": {
         "priority": 10,
         "rect": {
-            "x": 400,
+            "x": -740,
             "y": -430
         },
         "anchor": {
-            "x": 0,
+            "x": 1,
             "y": 1
         }
     },
@@ -25,7 +25,7 @@
             "name": "convert",
             "fields": {
                 "rect": {
-                    "x": 340,
+                    "x": -50,
                     "y": 100,
                     "scale": 0.5
                 },
@@ -40,7 +40,7 @@
             "name": "close",
             "fields": {
                 "rect": {
-                    "x": 328,
+                    "x": -62,
                     "y": 160
                 },
                 "filename": "PANEL\\closebtn_4x",

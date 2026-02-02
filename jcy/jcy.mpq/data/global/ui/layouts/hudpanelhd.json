@@ -726,58 +726,6 @@
                     }
                 }
             ]
-        },
-        {
-            "type": "LevelUpButtonWidget",
-            "name": "QuestAlert",
-            "fields": {
-                "type": "quests",
-                "labels": [
-                    "@CfgQuestLog",
-                    "@CfgQuestLog"
-                ],
-                "isFloating": true,
-                "rect": {
-                    "x": 406,
-                    "y": -164
-                },
-                "filename": "PANEL/HUD_02/quest_button",
-                "leftPanelOffset": {
-                    "x": 1080
-                },
-                "newStatsButtonOverlapOffset": {
-                    "y": -210
-                },
-                "hoveredFrame": 3,
-                "disabledFrame": 2,
-                "disabledTint": {
-                    "a": 1
-                }
-            },
-            "children": [
-                {
-                    "type": "TextBoxWidget",
-                    "name": "Label",
-                    "fields": {
-                        "anchor": {
-                            "x": 0.5
-                        },
-                        "rect": {
-                            "y": -3
-                        },
-                        "fontType": "16pt",
-                        "style": {
-                            "pointSize": "$XMediumLargeFontSize",
-                            "alignment": {
-                                "v": "bottom",
-                                "h": "center"
-                            },
-                            "spacing": "$MinimumSpacing",
-                            "dropShadow": "$DefaultDropShadow"
-                        }
-                    }
-                }
-            ]
         }
     ]
 }

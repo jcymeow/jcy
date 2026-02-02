@@ -13820,8 +13820,8 @@
   {
     "id": 10021,
     "Key": "xhm",
-    "enUS": "Winged Helm",
-    "zhTW": "翼盔",
+    "enUS": "Winged Helm|Normal",
+    "zhTW": "翼盔|普",
     "deDE": "Flügelhelm",
     "esES": "[ms]Yelmo alado",
     "frFR": "[ms]Heaume ailé",
@@ -13832,11 +13832,11 @@
     "jaJP": "ウィングド・ヘルム",
     "ptBR": "[ms]Elmo Alado",
     "ruRU": "[ms]крылатый шлем",
-    "zhCN": "翼盔",
-    "zhCN2": "翼盔",
-    "zhTW2": "翼盔",
-    "zhSGCN": "翼盔",
-    "zhSGTW": "翼盔"
+    "zhCN": "翼盔|普",
+    "zhCN2": "翼盔|普",
+    "zhTW2": "翼盔|普",
+    "zhSGCN": "翼盔|普",
+    "zhSGTW": "翼盔|普"
   },
   {
     "id": 10022,
