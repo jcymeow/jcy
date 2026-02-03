@@ -1,4 +1,4 @@
-from enum import Enum
+from enum import Enum, auto
 """
 常量模块
 """
@@ -32,7 +32,7 @@ LANG = None
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.3.8"
+APP_VERSION = "v1.3.8A"
 
 # 发布日期
 APP_DATE = "20260201"
@@ -198,6 +198,8 @@ HIRE_SKIN_APPLY = "hire_skin_apply"
 HIRE_SKIN_REMOVE = "hire_skin_remove"
 HUD_SKIN_APPLY = "hud_skin_apply"
 HUD_SKIN4_APPLY = "hud_skin4_apply"
+
+
 
 
 
@@ -1663,9 +1665,22 @@ class Operation(Enum):
     RESOTRE = 0
     BACKUP = 1
 
+class Methods(Enum):
+
+    MODIFY_HUD_PANEL_BUTTONS = auto()
+    """修改hudpanelbuttonshd.json, anchor rect"""
+
+class DefaultValue(Enum):
+    HUD_PANEL_BUTTONS = {
+        "anchor": {"x": 0.7, "y": 1 },
+        "rect": { "x": 0, "y": -450}
+    }
+
 # 导出所有需要的符号
 __all__ = [
     'Operation',
+    'Methods',
+    'DefaultValue',
     'MUTEX_NAME',
     'ERROR_ALREADY_EXISTS',
     'WM_SHOW_WINDOW',

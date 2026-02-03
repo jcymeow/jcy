@@ -28,6 +28,7 @@ class FileOperations:
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
             HUD_SKIN_APPLY: self.modify_hud_skin,
             HUD_SKIN4_APPLY: self.modify_hud4_skin,
+            Methods.MODIFY_HUD_PANEL_BUTTONS: self.modify_hud_panel_buttons,
         }
 
 
@@ -174,7 +175,6 @@ class FileOperations:
         for item in methods:
             name = item.get(METHOD)
             params = item.get(PARAMS)
-
             func = self.method_dict.get(name)
             if not func:
                 print(f"asset_execute -> unknown method: {name}")
@@ -474,6 +474,24 @@ class FileOperations:
                 return ok_result("apply success")
         except Exception as e:
             print(e)
+            return err_result(e)
+
+
+    def modify_hud_panel_buttons(self, params):
+        """修改hudpanelbuttonshd.json"""
+        json_data = None
+        json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
+        try:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            json_data["fields"]["anchor"] = params.get("anchor")
+            json_data["fields"]["rect"] = params.get("rect")
+
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            return ok_result()
+        except Exception as e:
             return err_result(e)
 
 

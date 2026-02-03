@@ -39,7 +39,7 @@ ASSETS = [
         "md5": "22FFB2A9CA409619CDED205083E4464B",
         APPLY_METHOD: [
             {
-                "method": GAME_MODEL_APPLY,
+                METHOD: GAME_MODEL_APPLY,
             },
         ],
         REMOVE_METHOD: [],
@@ -160,7 +160,7 @@ ASSETS = [
         "md5": "DC3AC4E791BFF2C8F018C84449201AF3",
         APPLY_METHOD: [
             {
-                "method": GAME_MODEL_APPLY,
+                METHOD: GAME_MODEL_APPLY,
             },
         ],
         REMOVE_METHOD: [],
@@ -1150,8 +1150,8 @@ ASSETS = [
         "md5": "4025744E7A4DA2808170430BBB015020",
         APPLY_METHOD: [
             {
-                "method": HIRE_SKIN_APPLY, 
-                "params": {
+                METHOD: HIRE_SKIN_APPLY, 
+                PARAMS: {
                     "type": 2,
                     "gender": 1,
                 },
@@ -1159,8 +1159,8 @@ ASSETS = [
         ],
         REMOVE_METHOD: [
             {
-                "method": HIRE_SKIN_APPLY, 
-                "params": {
+                METHOD: HIRE_SKIN_APPLY, 
+                PARAMS: {
                     "type": 2,
                     "gender": 0,
                 },
@@ -1189,8 +1189,8 @@ ASSETS = [
         "md5": "35F0617D59FA4C9E82CE12C894B788F9",
         APPLY_METHOD: [
             {
-                "method": HIRE_SKIN_APPLY, 
-                "params": {
+                METHOD: HIRE_SKIN_APPLY, 
+                PARAMS: {
                     "type": 2,
                     "gender": 1,
                 },
@@ -1198,8 +1198,8 @@ ASSETS = [
         ],
         REMOVE_METHOD: [
             {
-                "method": HIRE_SKIN_APPLY, 
-                "params": {
+                METHOD: HIRE_SKIN_APPLY, 
+                PARAMS: {
                     "type": 2,
                     "gender": 0,
                 },
@@ -1229,8 +1229,8 @@ ASSETS = [
         "md5": "005DF819EF0D6BF3C861064895173CE5",
         APPLY_METHOD: [
             {
-                "method": HIRE_SKIN_APPLY, 
-                "params": {
+                METHOD: HIRE_SKIN_APPLY, 
+                PARAMS: {
                     "type": 2,
                     "gender": 1,
                 },
@@ -1238,8 +1238,8 @@ ASSETS = [
         ],
         REMOVE_METHOD: [
             {
-                "method": HIRE_SKIN_APPLY, 
-                "params": {
+                METHOD: HIRE_SKIN_APPLY, 
+                PARAMS: {
                     "type": 2,
                     "gender": 0,
                 },
@@ -1650,7 +1650,7 @@ ASSETS = [
         ],
         APPLY_METHOD: [
             {
-                "method": HUD_SKIN_APPLY,
+                METHOD: HUD_SKIN_APPLY,
             },
         ],
         REMOVE_METHOD: [
@@ -1700,7 +1700,7 @@ ASSETS = [
         ],
         APPLY_METHOD: [
             {
-                "method": HUD_SKIN_APPLY,
+                METHOD: HUD_SKIN_APPLY,
             },
         ],
         REMOVE_METHOD: [
@@ -1752,7 +1752,7 @@ ASSETS = [
         ],
         APPLY_METHOD: [
             {
-                "method": HUD_SKIN_APPLY,
+                METHOD: HUD_SKIN_APPLY,
             },
         ],
         REMOVE_METHOD: [
@@ -1820,14 +1820,25 @@ ASSETS = [
                         "data/global/ui/layouts/hudpanelhd.json"
                     ]
                 }
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HUD_PANEL_BUTTONS,
+                PARAMS: {
+                    "anchor": { "x": 0.5, "y": 1 },
+                    "rect": { "x": -200, "y": -350 },
+                }
+            },
         ],
         APPLY_METHOD: [
             {
-                "method": HUD_SKIN4_APPLY,
+                METHOD: HUD_SKIN4_APPLY,
             },
         ],
         REMOVE_METHOD: [
+            {
+                METHOD: Methods.MODIFY_HUD_PANEL_BUTTONS,
+                PARAMS: DefaultValue.HUD_PANEL_BUTTONS.value
+            },
             {
                 METHOD: BACKUP_RESOTRE_FILES,
                 PARAMS: {
