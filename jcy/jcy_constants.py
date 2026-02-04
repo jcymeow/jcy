@@ -1668,7 +1668,10 @@ class Operation(Enum):
 class Methods(Enum):
 
     MODIFY_HUD_PANEL_BUTTONS = auto()
-    """修改hudpanelbuttonshd.json, anchor rect"""
+    """修改 hudpanelbuttonshd.json, anchor rect"""
+    
+    MODIFY_ASN_MARTIAL_BY_HUD = auto()
+    """修改 刺客-聚气图标 如果HUD模式"""
 
 class DefaultValue(Enum):
     HUD_PANEL_BUTTONS = {

@@ -1652,6 +1652,9 @@ ASSETS = [
             {
                 METHOD: HUD_SKIN_APPLY,
             },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         REMOVE_METHOD: [
             {
@@ -1662,7 +1665,10 @@ ASSETS = [
                         "data/global/ui/layouts/hudpanelhd.json"
                     ]
                 }
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         "list": [
             "data/global/ui/layouts/hudpanelhd.json",
@@ -1702,6 +1708,9 @@ ASSETS = [
             {
                 METHOD: HUD_SKIN_APPLY,
             },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         REMOVE_METHOD: [
             {
@@ -1712,7 +1721,10 @@ ASSETS = [
                         "data/global/ui/layouts/hudpanelhd.json"
                     ]
                 }
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         "list": [
             "data/global/ui/layouts/hudpanelhd.json",
@@ -1754,6 +1766,9 @@ ASSETS = [
             {
                 METHOD: HUD_SKIN_APPLY,
             },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         REMOVE_METHOD: [
             {
@@ -1764,7 +1779,10 @@ ASSETS = [
                         "data/global/ui/layouts/hudpanelhd.json"
                     ]
                 }
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         "list": [
             "data/global/ui/layouts/hudpanelhd.json",
@@ -1833,6 +1851,9 @@ ASSETS = [
             {
                 METHOD: HUD_SKIN4_APPLY,
             },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         REMOVE_METHOD: [
             {
@@ -1847,7 +1868,10 @@ ASSETS = [
                         "data/global/ui/layouts/hudpanelhd.json"
                     ]
                 }
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
+            },
         ],
         "list": [
             "data/global/ui/layouts/hudpanelhd.json",

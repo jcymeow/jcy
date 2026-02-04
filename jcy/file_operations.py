@@ -29,6 +29,8 @@ class FileOperations:
             HUD_SKIN_APPLY: self.modify_hud_skin,
             HUD_SKIN4_APPLY: self.modify_hud4_skin,
             Methods.MODIFY_HUD_PANEL_BUTTONS: self.modify_hud_panel_buttons,
+            Methods.MODIFY_ASN_MARTIAL_BY_HUD: self.modify_asn_martial_by_hud,
+
         }
 
 
@@ -477,6 +479,19 @@ class FileOperations:
             return err_result(e)
 
 
+    def modify_asn_martial_by_hud(self):
+        """修改 刺客-聚气图标 如果HUD模式"""
+        martial = jcy_config.SETTINGS[ASN_MARTIAL]
+        if martial == "9":
+            result = self.assassin_martial("9")
+            if(result[0] == result[1]):
+                return ok_result(f"{result[0]}/{result[1]}")
+            else:
+                return err_result(f"{result[0]}/{result[1]}")
+        else:
+            return ok_result()
+
+
     def modify_hud_panel_buttons(self, params):
         """修改hudpanelbuttonshd.json"""
         json_data = None
@@ -717,6 +732,8 @@ class FileOperations:
             r"data/global/excel/overlay.txt",
             r"data/hd/overlays/assassin/fade.json",
             r"data/hd/overlays/assassin/quickness.json",
+            r"data/hd/overlays/common/markbear.json",
+            r"data/hd/overlays/common/markwolf.json",
             r"data/hd/overlays/common/battlecommand.json",
             r"data/hd/overlays/common/battleorders.json",
             r"data/hd/overlays/common/shout.json",
@@ -3096,45 +3113,6 @@ class FileOperations:
                 count += 1
             except Exception as e:
                 print(e)
-
-        # ---- 迷你按鈕 ----
-        # mini_params = {
-        #     "0":{"anchor-x": 0.70, "rect-y": -450},
-        #     "1":{"anchor-x": 0.67, "rect-y": -380},
-        #     "2":{"anchor-x": 0.65, "rect-y": -340},
-        #     "3":{"anchor-x": 0.63, "rect-y": -300},
-        # }
-
-        # try:
-        #     mini_param = mini_params.get(radio)
-        #     mini_json = None
-        #     mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
-
-        #     with open(mini_path, 'r', encoding='utf-8') as f:
-        #         mini_json = json.load(f)
-
-        #     mini_json["fields"]["anchor"]["x"] = mini_param.get("anchor-x")
-        #     mini_json["fields"]["rect"]["y"] = mini_param.get("rect-y")
-                        
-        #     with open(mini_path, 'w', encoding='utf-8') as f:
-        #         json.dump(mini_json, f, ensure_ascii=False, indent=4)
-        #     count += 1
-        # except Exception as e:
-        #     print(e)
-        # finally:
-        #     total += 1
-
-        # 联动修改 佣兵面板
-        # location = jcy_config.SETTINGS.get(MERCENARY_LOCATION)
-        # result = self.modify_hireablespanelhd_json(location, radio)
-        # count += result[0]
-        # total += result[1]
-
-        # ---- 联动修改 刺客聚气 ----
-        # martial = jcy_config.SETTINGS.get(ASN_MARTIAL)
-        # result = self.assassin_martial(martial)
-        # count += result[0]
-        # total += result[1]
         
         return (count, total)
 
@@ -4134,44 +4112,6 @@ class FileOperations:
                 {"x":129.5,"y":100.0,"z":114.5},
                 {"x":127.5,"y":100.0,"z":116.5},
             ],
-            "2": {
-                # HUD×100%
-                "0": [
-                    { "x": 133.20, "y":  84.8,  "z": 124.0 },
-                    { "x": 136.27, "y":  86.07, "z": 124.00 },
-                    { "x": 139.34, "y":  87.34, "z": 124.00 },
-                    { "x": 142.41, "y":  88.51, "z": 124.00 },
-                    { "x": 145.48, "y":  89.88, "z": 124.00 },
-                    { "x": 148.55, "y":  91.25, "z": 124.00 },
-                ],
-                # HUD×85%
-                "1": [
-                    { "x": 129.5,  "y":  82.0,  "z": 124.0 },
-                    { "x": 132.57, "y":  83.27, "z": 124.00 },
-                    { "x": 135.64, "y":  84.54, "z": 124.00 },
-                    { "x": 138.71, "y":  85.81, "z": 124.00 },
-                    { "x": 141.78, "y":  87.08, "z": 124.00 },
-                    { "x": 144.85, "y":  88.35, "z": 124.00 },
-                ],
-                # HUD×75%
-                "2": [
-                    { "x": 133.14, "y":  82.54, "z": 124.00 },
-                    { "x": 139.28, "y":  85.08, "z": 124.00 },
-                    { "x": 142.35, "y":  86.35, "z": 124.00 },
-                    { "x": 130.07, "y":  81.27, "z": 124.00 },
-                    { "x": 127.0,  "y":  80.0,  "z": 124.0 },
-                    { "x": 136.21, "y":  83.81, "z": 124.00 },
-                ],
-                # HUD×65%
-                "3": [
-                    { "x": 130.54, "y":  80.54, "z": 124.00 },
-                    { "x": 136.68, "y":  83.08, "z": 124.00 },
-                    { "x": 139.75, "y":  84.35, "z": 124.00 },
-                    { "x": 127.47, "y":  79.27, "z": 124.00 },
-                    { "x": 124.40, "y":  78.00, "z": 124.0 },
-                    { "x": 133.61, "y":  81.81, "z": 124.00 },
-                ],
-            },
             # 下方
             "3": [
                 # 4
@@ -4186,7 +4126,7 @@ class FileOperations:
                 {"x": 	126.00	, "y": 	96.00	, "z": 	126.00	},
                 # 1
                 {"x": 	123.00	, "y": 	96.00	, "z": 	129.00	},
-            ]
+            ],
         }
 
         rename_result = self.common_rename(_files, radio != "0")
@@ -4211,9 +4151,38 @@ class FileOperations:
             except Exception as e:
                 print(e)
         
-        elif "2" == radio:
-            hud_size = jcy_config.SETTINGS.get(HUD_SIZE)
-            _param = _params.get(radio).get(hud_size)
+        elif "9" == radio:
+            # --- HUD方案 ---
+            hud = jcy_config.ASSET_CONFIG.get(HUD_SKIN)
+            _param = None
+            match hud:
+                case 803:
+                    _param = [
+                        {"x": 	125.00	, "y": 	82.00	, "z": 	127.00	},
+                        {"x": 	126.50	, "y": 	82.00	, "z": 	125.50	},
+                        {"x": 	128.00	, "y": 	82.00	, "z": 	124.00	},
+                        {"x": 	122.00	, "y": 	82.00	, "z": 	130.00	},
+                        {"x": 	123.50	, "y": 	82.00	, "z": 	128.50	},
+                        {"x": 	120.50	, "y": 	82.00	, "z": 	131.50	},
+                    ]
+                case 804:
+                    _param = [
+                        {"x": 	117.50	, "y": 	79.00	, "z": 	134.50	},
+                        {"x": 	119.00	, "y": 	79.00	, "z": 	133.00	},
+                        {"x": 	119.00	, "y": 	75.00	, "z": 	133.00	},
+                        {"x": 	116.00	, "y": 	75.00	, "z": 	136.00	},
+                        {"x": 	116.00	, "y": 	79.00	, "z": 	136.00	},
+                        {"x": 	117.50	, "y": 	75.00	, "z": 	134.50	},
+                    ]
+                case _:
+                    _param = [
+                        {"x": 	133.50	, "y": 	84.00	, "z": 	118.50	},
+                        {"x": 	135.00	, "y": 	84.00	, "z": 	117.00	}, 
+                        {"x": 	136.50	, "y": 	84.00	, "z": 	115.50	}, 
+                        {"x": 	130.50	, "y": 	84.00	, "z": 	121.50	},
+                        {"x": 	132.00	, "y": 	84.00	, "z": 	120.00	},
+                        {"x": 	129.00	, "y": 	84.00	, "z": 	123.00	},
+                    ]
             try:
                 for i, _file in enumerate(_files):
                     _file_json = None
@@ -4229,7 +4198,6 @@ class FileOperations:
                     count += 1
             except Exception as e:
                 print(e)
-            
         return (count, total)
     
 
