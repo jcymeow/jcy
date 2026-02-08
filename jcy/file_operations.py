@@ -41,10 +41,14 @@ class FileOperations:
 
     def load_asset_config(self) -> dict:
         """加载素材包配置"""
-        if os.path.exists(ASSETS_PATH):
-            # 文件存在，直接读取
-            with open(ASSETS_PATH, 'r', encoding="utf-8") as f:
-                jcy_config.ASSET_CONFIG = json.load(f)
+        if not os.path.exists(ASSETS_PATH):
+            os.makedirs(os.path.dirname(ASSETS_PATH), exist_ok=True)
+            with open(ASSETS_PATH, "w", encoding="utf-8") as f:
+                json.dump({}, f, ensure_ascii=False, indent=2)
+        
+        with open(ASSETS_PATH, 'r', encoding="utf-8") as f:
+            jcy_config.ASSET_CONFIG = json.load(f)
+            
         return jcy_config.ASSET_CONFIG
 
 
