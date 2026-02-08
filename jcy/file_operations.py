@@ -3467,7 +3467,8 @@ class FileOperations:
             print(e)
 
         # 特例:素材804使用自己的APPLY方法
-        if jcy_config.ASSET_CONFIG[HUD_SKIN] == 804:
+        hud_skin = jcy_config.ASSET_CONFIG.get(HUD_SKIN, 0)
+        if hud_skin == 804:
             self.modify_hud4_skin()
         else:
             self.modify_hud_skin()

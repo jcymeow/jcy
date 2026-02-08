@@ -181,7 +181,7 @@ SOR = "Sor"
 NEC = "Nec"
 PAL = "Pal"
 BAR = "Bar"
-DRU = "Sor"
+DRU = "Dru"
 ASN = "Asn"
 
 METHOD = "method"
