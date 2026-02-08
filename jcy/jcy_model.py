@@ -263,29 +263,6 @@ class FeatureConfig:
                     "text": "角色&技能",
                     "children": [
                         {
-                            "fid": CHARACTER_EFFECTS,
-                            "type": CHECK,
-                            "text": "角色特效",
-                            "colspan": 80,
-                            "params": {
-                                "1": "套装特效",
-                                "2": "脚下电圈特效",
-                                "3": "红色闪电特效",
-                                "4": "红色火焰特效",
-                                "5": "小翅膀"
-                            }
-                        },
-                        {
-                            "fid": LIGHT_REDIUS,
-                            "type": SPIN,
-                            "text": "额外的照亮范围",
-                            "colspan": 20,
-                            "params": {
-                                "form": 0,
-                                "to": 9
-                            }
-                        },
-                        {
                             "fid": COMMON_SETTING,
                             "type": CHECK,
                             "text": "通用设置",

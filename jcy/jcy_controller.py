@@ -215,14 +215,8 @@ class FeatureController:
             GAME_SETTING2: self.file_operations.select_game_setting2,
             # 控件设置
             CONTROLS_SETTING: self.file_operations.select_controls_setting,
-            # 额外的照亮范围
-            LIGHT_REDIUS: self.file_operations.modify_character_player,
-            # HUD面板缩放
-            # HUD_SIZE: self.file_operations.select_hudpanel_size,
             # 传送门皮肤
             PORTAL_SKIN: self.file_operations.select_town_portal,
-            # 角色特效
-            CHARACTER_EFFECTS: self.file_operations.select_character_effects,
             # 弓/弩箭皮肤
             ARROW: self.file_operations.select_arrow_skin,
             # 魔法师

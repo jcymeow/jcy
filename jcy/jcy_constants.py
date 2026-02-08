@@ -32,10 +32,10 @@ LANG = None
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.3.8A"
+APP_VERSION = "v1.3.9"
 
 # 发布日期
-APP_DATE = "20260201"
+APP_DATE = "20260208"
 
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
@@ -114,10 +114,8 @@ GAME_SETTING = "GameSetting"
 GAME_SETTING2 = "GameSetting2"
 GAME_SETTING3 = "GameSetting3"
 CONTROLS_SETTING = "ControlsSetting"
-LIGHT_REDIUS = "LightRedius"
 HUD_SIZE = "HudSize"
 PORTAL_SKIN = "ProtalSkin"
-CHARACTER_EFFECTS = "CharacterEffects"
 ARROW = "Arrow"
 SOR_SETTING = "SorceressSetting"
 TELEPORT_SKIN = "TeleportSkin"
@@ -1713,10 +1711,8 @@ __all__ = [
     'GAME_SETTING2',
     'GAME_SETTING3',
     'CONTROLS_SETTING',
-    'LIGHT_REDIUS',
     'HUD_SIZE',
     'PORTAL_SKIN',
-    'CHARACTER_EFFECTS',
     'ARROW',
     'SOR_SETTING',
     'TELEPORT_SKIN',
