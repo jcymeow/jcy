@@ -850,13 +850,17 @@ class ItemNotificationTable(tk.Frame):
 
         # ---------- 表体 ----------
         self.vars = []
-        for i in range(40):
+        count = len(ITEM_ENUS)
+        settings_values = self.config_dict[self.config_key]
+        settings_values_len = len(settings_values)
+        for i in range(count):
             tk.Label(self._tbl, text=ITEM_ENUS[i], borderwidth=1, relief="solid").grid(row=i+1, column=0, sticky="nsew")
             tk.Label(self._tbl, text=ITEM_ZHTW[i], borderwidth=1, relief="solid").grid(row=i+1, column=1, sticky="nsew")
 
             row_vars = []
+            vals = settings_values[i] if i < settings_values_len else [False, False, False]
             for j in range(3):
-                val = self.config_dict[self.config_key][i][j]
+                val = vals[j]
                 var = tk.BooleanVar(value=val)
                 cb_frame = tk.Frame(self._tbl, borderwidth=1, relief="solid")
                 cb_frame.grid(row=i+1, column=j+2, sticky="nsew")

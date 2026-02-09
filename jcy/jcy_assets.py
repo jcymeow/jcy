@@ -1644,7 +1644,7 @@ ASSETS = [
         "md5": "8C7930A4D535C3AF6C1356CE2F4291E5",
         PREPROCESS_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
@@ -1663,7 +1663,7 @@ ASSETS = [
         ],
         REMOVE_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
@@ -1700,7 +1700,7 @@ ASSETS = [
         "md5": "6C6E875823A4044DD8202FEAB58300BC",
         PREPROCESS_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
@@ -1719,7 +1719,7 @@ ASSETS = [
         ],
         REMOVE_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
@@ -1758,7 +1758,7 @@ ASSETS = [
         "md5": "36547ED9A10109BBDB543BFE774E97C8",
         PREPROCESS_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
@@ -1777,7 +1777,7 @@ ASSETS = [
         ],
         REMOVE_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
@@ -1836,7 +1836,7 @@ ASSETS = [
         "md5": "D15C425E5530944DE2DA0A23239FD3E5",
         PREPROCESS_METHOD: [
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
@@ -1866,7 +1866,7 @@ ASSETS = [
                 PARAMS: DefaultValue.HUD_PANEL_BUTTONS.value
             },
             {
-                METHOD: BACKUP_RESOTRE_FILES,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
@@ -1973,14 +1973,37 @@ ASSETS = [
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/904/904.png",
         "size": 94165,
         "md5": "4C52115B41D38FAFAB5890A78D4C192A",
-        APPLY_METHOD: [
+        PREPROCESS_METHOD: [
             {
-                METHOD: Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
             },
         ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
             {
-                METHOD: Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
             },
         ],
         "list": [
@@ -2005,14 +2028,37 @@ ASSETS = [
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/905/905.png",
         "size": 88900,
         "md5": "AD04D7324CF00C0AED1F9D1739232D23",
-        APPLY_METHOD: [
+        PREPROCESS_METHOD: [
             {
-                METHOD: Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
             },
         ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
             {
-                METHOD: Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
             },
         ],
         "list": [
@@ -2034,17 +2080,40 @@ ASSETS = [
         "source": "https://www.inven.co.kr/board/diablo2/5842/185",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.2/906.zip",
         "file": "906.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/905/906.png",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/906/906.png",
         "size": 87890,
         "md5": "AE002470FFB1ACAD80D1C61D9C45D80D",
-        APPLY_METHOD: [
+        PREPROCESS_METHOD: [
             {
-                METHOD: Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
             },
         ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
             {
-                METHOD: Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY,
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
             },
         ],
         "list": [

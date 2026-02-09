@@ -22,7 +22,7 @@ class FileOperations:
     def __init__(self, controller):
         self.controller = controller
         self.method_dict = {
-            BACKUP_RESOTRE_FILES: self.backup_restore_files,
+            Methods.BACKUP_RESOTRE_FILES: self.backup_restore_files,
             GAME_MODEL_APPLY: self.game_model_apply,
             HIRE_SKIN_APPLY: self.modify_hire_skin,
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
@@ -30,8 +30,6 @@ class FileOperations:
             HUD_SKIN4_APPLY: self.modify_hud4_skin,
             Methods.MODIFY_HUD_PANEL_BUTTONS: self.modify_hud_panel_buttons,
             Methods.MODIFY_ASN_MARTIAL_BY_HUD: self.modify_asn_martial_by_hud,
-            Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY: self.modify_items_original_mophisto_key,
-            Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY: self.modify_items_asset_mophisto_key,
         }
 
 
@@ -496,50 +494,6 @@ class FileOperations:
         else:
             return ok_result()
 
-
-    def modify_items_original_mophisto_key(self):
-        """修改 items.json pk1/pk2/pk3 使用默认"""
-        json_data = None
-        json_path = os.path.join(MOD_PATH, r"data/hd/items/items.json")
-        try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                json_data = json.load(f)
-
-            for obj in json_data:
-                if obj.get("pk1") is not None:
-                    obj["pk1"]["asset"] = "key/mephisto_key"
-                if obj.get("pk2") is not None:
-                    obj["pk2"]["asset"] = "key/mephisto_key"
-                if obj.get("pk3") is not None:
-                    obj["pk3"]["asset"] = "key/mephisto_key"
-
-            with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=2)
-            return ok_result("")
-        except Exception as e:
-            return err_result(e)
-
-    def modify_items_asset_mophisto_key(self):
-        """修改 items.json pk1/pk2/pk3 使用素材"""
-        json_data = None
-        json_path = os.path.join(MOD_PATH, r"data/hd/items/items.json")
-        try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                json_data = json.load(f)
-
-            for obj in json_data:
-                if obj.get("pk1") is not None:
-                    obj["pk1"]["asset"] = "key/mephisto_key1"
-                if obj.get("pk2") is not None:
-                    obj["pk2"]["asset"] = "key/mephisto_key2"
-                if obj.get("pk3") is not None:
-                    obj["pk3"]["asset"] = "key/mephisto_key3"
-
-            with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=2)
-            return ok_result("")
-        except Exception as e:
-            return err_result(e)
 
     def modify_hud_panel_buttons(self, params):
         """修改hudpanelbuttonshd.json"""
@@ -3982,8 +3936,6 @@ class FileOperations:
     
 
     def modify_item_notification(self, data: list):
-        count = 0
-        total = 41
         
         sound_index = {
             "r01":0,
@@ -4025,8 +3977,9 @@ class FileOperations:
             "sc":36,
             "lc":37,
             "gc":38,
-            "diadem": 39
-
+            "mephisto_key": 39,
+            "mephisto_key": 40,
+            "mephisto_key": 41,
         }
 
         rune_files = [
@@ -4072,9 +4025,15 @@ class FileOperations:
             r"data/hd/items/misc/charm/charm_small.json",
             r"data/hd/items/misc/charm/charm_medium.json",
             r"data/hd/items/misc/charm/charm_large.json",
-            r"data/hd/items/armor/circlet/diadem.json",
+
+            r"data/hd/items/misc/key/mephisto_key1.json",
+            r"data/hd/items/misc/key/mephisto_key2.json",
+            r"data/hd/items/misc/key/mephisto_key3.json",
         ]
 
+        count = 0
+        total = 1 + len(data)
+        
         # === 语音提示 ===
         try:
             sounds_path = os.path.join(MOD_PATH, r"data/global/excel/sounds.txt")
@@ -4098,7 +4057,7 @@ class FileOperations:
         except Exception as e:
             print(e)
         
-
+        # --- 光柱提示/光圈提示 ---
         for i, rune in enumerate(data):
             try:
                 rune_file = os.path.join(MOD_PATH, rune_files[i])
@@ -4108,11 +4067,9 @@ class FileOperations:
                 # 移除全部 jcy_entity_pointer 节点
                 rune_json["entities"] = [item for item in rune_json["entities"] if item.get("name") != "jcy_entity_pointer"]
 
-                # === 光柱提示 ===
                 if bool(data[i][1]):
                     rune_json["entities"].append(ENTITY_DROP_LIGHT)
 
-                # === 光圈提示 ===
                 if bool(data[i][2]):
                     rune_json["entities"].extend(PF_BEACON_ITEMS)
                 
@@ -4126,6 +4083,7 @@ class FileOperations:
                 print(e)
         
         return (count, total)
+
 
     def skill_off_sounds(self, keys: list):
         """技能结束提示音"""

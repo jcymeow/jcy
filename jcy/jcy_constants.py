@@ -191,7 +191,6 @@ PREPROCESS_METHOD = "preprocess_method"
 APPLY_METHOD = "apply_method"
 REMOVE_METHOD = "remove_method"
 
-BACKUP_RESOTRE_FILES = "backup_restore_files"
 GAME_MODEL_APPLY = "game_model_apply"
 HIRE_SKIN_APPLY = "hire_skin_apply"
 HIRE_SKIN_REMOVE = "hire_skin_remove"
@@ -210,8 +209,8 @@ SEPARATOR = "Separator"
 LOCATION = "Location"
 # Controller Type -->
 
-ITEM_ENUS = ["El Rune", "Eld Rune", "Tir Rune", "Nef Rune", "Eth Rune", "Ith Rune", "Tal Rune", "Ral Rune", "Ort Rune", "Thul Rune", "Amn Rune", "Sol Rune", "Shael Rune", "Dol Rune", "Hel Rune", "Io Rune", "Lum Rune", "Ko Rune", "Fal Rune", "Lem Rune", "Pul Rune", "Um Rune", "Mal Rune", "Ist Rune", "Gul Rune", "Vex Rune", "Ohm Rune", "Lo Rune", "Sur Rune", "Ber Rune", "Jah Rune", "Cham Rune", "Zod Rune", "Ring", "Amulet", "Jewel", "Small Charm", "Large Charm", "Grand Charm", "Diadem"]
-ITEM_ZHTW = ["艾爾#01", "艾德#02", "特爾#03", "那夫#04", "愛斯#05", "伊司#06", "塔爾#07", "拉爾#08", "歐特#09", "書爾#10", "安姆#11", "索爾#12", "夏#13", "多爾#14", "海爾#15", "埃歐#16", "盧姆#17", "科#18", "法爾#19", "藍姆#20", "普爾#21", "烏姆#22", "馬爾#23", "伊司特#24", "古爾#25", "伐克斯#26", "歐姆#27", "羅#28", "瑟#29", "貝#30", "喬#31", "查姆#32", "薩德#33", "戒指", "項鏈", "珠寶", "小型咒符", "大型咒符", "巨型咒符", "權冠"]
+ITEM_ENUS = ["El Rune", "Eld Rune", "Tir Rune", "Nef Rune", "Eth Rune", "Ith Rune", "Tal Rune", "Ral Rune", "Ort Rune", "Thul Rune", "Amn Rune", "Sol Rune", "Shael Rune", "Dol Rune", "Hel Rune", "Io Rune", "Lum Rune", "Ko Rune", "Fal Rune", "Lem Rune", "Pul Rune", "Um Rune", "Mal Rune", "Ist Rune", "Gul Rune", "Vex Rune", "Ohm Rune", "Lo Rune", "Sur Rune", "Ber Rune", "Jah Rune", "Cham Rune", "Zod Rune", "Ring", "Amulet", "Jewel", "Small Charm", "Large Charm", "Grand Charm", "Key of Terror|A1", "Key of Hate|A2", "Key of Destruction|A5"]
+ITEM_ZHTW = ["艾爾#01", "艾德#02", "特爾#03", "那夫#04", "愛斯#05", "伊司#06", "塔爾#07", "拉爾#08", "歐特#09", "書爾#10", "安姆#11", "索爾#12", "夏#13", "多爾#14", "海爾#15", "埃歐#16", "盧姆#17", "科#18", "法爾#19", "藍姆#20", "普爾#21", "烏姆#22", "馬爾#23", "伊司特#24", "古爾#25", "伐克斯#26", "歐姆#27", "羅#28", "瑟#29", "貝#30", "喬#31", "查姆#32", "薩德#33", "戒指", "項鏈", "珠寶", "小型咒符", "大型咒符", "巨型咒符", "恐懼之鑰|A1", "憎恨之鑰|A2", "毀滅之鑰|A5"]
 # 本地化文件列表
 LNG_STRINGS = [
     r"data/local/lng/strings/item-gems.json",
@@ -1666,6 +1665,9 @@ class Operation(Enum):
 
 class Methods(Enum):
 
+    BACKUP_RESOTRE_FILES = auto()
+    """备份/还原文件"""
+
     MODIFY_HUD_PANEL_BUTTONS = auto()
     """修改 hudpanelbuttonshd.json, anchor rect"""
     
@@ -1677,6 +1679,7 @@ class Methods(Enum):
 
     MODIFY_ITEMS_ASSET_MEPHISTO_KEY = auto()
     """修改 items.json 使用素材火炬钥匙皮肤"""
+
 
 class DefaultValue(Enum):
     HUD_PANEL_BUTTONS = {
@@ -1809,7 +1812,6 @@ __all__ = [
     'PREPROCESS_METHOD',
     'APPLY_METHOD',
     'REMOVE_METHOD',
-    'BACKUP_RESOTRE_FILES',
     'GAME_MODEL_APPLY',
     'HIRE_SKIN_APPLY',
     'HIRE_SKIN_REMOVE',
