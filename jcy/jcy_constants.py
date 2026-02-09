@@ -35,7 +35,7 @@ APP_NAME = "jcy控制器"
 APP_VERSION = "v1.3.9"
 
 # 发布日期
-APP_DATE = "20260208"
+APP_DATE = "20260209"
 
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
@@ -151,7 +151,6 @@ ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
 ASSET_PATH = "AssetPath"
 DISABLE_EFFECTS = "DisableEffects"
 ENABLE_POINTER = "EnablePointer"
-TORCH_KEY = "TorchKey"
 ITEM_FILTER = "ItemFilter"
 WAYPOINT_POINTER = "WayPointPointer"
 MISSION_POINTER = "MissionPointer"
@@ -1759,7 +1758,6 @@ __all__ = [
     'ITEM_ENUS',
     'ITEM_ZHTW',
     'LNG_STRINGS',
-    'TORCH_KEY',
     'ITEM_FILTER',
     'DISABLE_EFFECTS',
     'ENABLE_POINTER',

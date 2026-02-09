@@ -272,8 +272,6 @@ class FeatureController:
             # 符文&符文之语设置
             ITEM_RUNE_SETTING1: self.file_operations.modify_item_rune,
             ITEM_RUNE_SETTING2: self.file_operations.modify_item_rune,
-            # 火炬钥匙
-            TORCH_KEY: self.file_operations.torch_key,
             # 环境-关闭特效
             DISABLE_EFFECTS: self.file_operations.hide_environmental_effects,
             # 环境-开启指引

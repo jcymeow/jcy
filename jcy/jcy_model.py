@@ -601,17 +601,6 @@ class FeatureConfig:
                             "type": "Separator"
                         },
                         {
-                            "fid": TORCH_KEY,
-                            "type": CHECK,
-                            "text": "火炬钥匙",
-                            "colspan": 100,
-                            "params": {
-                                "1": "金属颜色皮肤",
-                                "2": "掉落光柱提醒",
-                                "3": "掉落声音提醒"
-                            }
-                        },
-                        {
                             "fid": ITEM_RUNE_SETTING1,
                             "type": CHECK,
                             "text": "符文-设置",

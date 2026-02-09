@@ -3876,65 +3876,6 @@ class FileOperations:
         
         return (1, 1)
 
-    def torch_key(self, keys: list):
-        """火炬钥匙"""
-        if keys is None:
-            return (0, 0)
-
-        count = 0 
-        total = 0
-
-        # "1": "金属颜色皮肤",
-        handle1 = "1" in keys
-        items_dict = {
-            "pk1": {True:{ "asset": "key/mephisto_key1" }, False: { "asset": "key/mephisto_key" }},
-            "pk2": {True:{ "asset": "key/mephisto_key2" }, False: { "asset": "key/mephisto_key" }},
-            "pk3": {True:{ "asset": "key/mephisto_key3" }, False: { "asset": "key/mephisto_key" }},
-        }
-        items_json = None
-        items_path = os.path.join(MOD_PATH, r"data/hd/items/items.json")
-        with open(items_path, 'r', encoding='utf-8') as f:
-            items_json = json.load(f)
-        for entry in items_json:
-            for key in entry.keys():
-                if key in items_dict:
-                    entry[key] = items_dict[key][handle1]
-        with open(items_path, "w", encoding="utf-8") as f:
-            json.dump(items_json, f, ensure_ascii=False, indent=2)
-        count += 1
-
-        # "2": "掉落光柱提醒",
-        handle2 = "2" in keys
-        key_files = [
-            r"data/hd/items/misc/key/mephisto_key.json",
-            r"data/hd/items/misc/key/mephisto_key1.json",
-            r"data/hd/items/misc/key/mephisto_key2.json",
-            r"data/hd/items/misc/key/mephisto_key3.json",
-        ]
-        for key_file in key_files:
-            mephisto_key_json = None
-            mephisto_key_path = os.path.join(MOD_PATH, key_file)
-            with open(mephisto_key_path, 'r', encoding='utf-8') as f:
-                mephisto_key_json = json.load(f)
-            
-            mephisto_key_json["entities"] = [item for item in mephisto_key_json["entities"] if item.get("name") != "jcy_entity_pointer"]
-            if handle2:
-                mephisto_key_json["entities"].append(ENTITY_DROP_LIGHT)
-
-            with open(mephisto_key_path, "w", encoding="utf-8") as f:
-                json.dump(mephisto_key_json, f, ensure_ascii=False, indent=4)
-            count += 1
-
-        # "3": "掉落声音提醒"
-        handle3 = "3" in keys
-        sounds = { "mephisto_key": handle3 }
-        sub3 = self.modify_custom_sounds(sounds)
-        count += sub3[0]
-        total += (1 + len(key_files) + sub3[1])
-
-        return (count, total)
-    
-
     def modify_item_notification(self, data: list):
         
         sound_index = {
