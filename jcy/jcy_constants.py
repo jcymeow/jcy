@@ -1672,6 +1672,12 @@ class Methods(Enum):
     MODIFY_ASN_MARTIAL_BY_HUD = auto()
     """修改 刺客-聚气图标 如果HUD模式"""
 
+    MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY = auto()
+    """修改 items.json 使用原版火炬钥匙皮肤"""
+
+    MODIFY_ITEMS_ASSET_MEPHISTO_KEY = auto()
+    """修改 items.json 使用素材火炬钥匙皮肤"""
+
 class DefaultValue(Enum):
     HUD_PANEL_BUTTONS = {
         "anchor": {"x": 0.7, "y": 1 },

@@ -1973,8 +1973,16 @@ ASSETS = [
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/904/904.png",
         "size": 94165,
         "md5": "4C52115B41D38FAFAB5890A78D4C192A",
-        APPLY_METHOD: [],
-        REMOVE_METHOD: [],
+        APPLY_METHOD: [
+            {
+                METHOD: Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY,
+            },
+        ],
         "list": [
             "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
             "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
@@ -1997,8 +2005,16 @@ ASSETS = [
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/905/905.png",
         "size": 88900,
         "md5": "AD04D7324CF00C0AED1F9D1739232D23",
-        APPLY_METHOD: [],
-        REMOVE_METHOD: [],
+        APPLY_METHOD: [
+            {
+                METHOD: Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY,
+            },
+        ],
         "list": [
             "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
             "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
@@ -2021,8 +2037,16 @@ ASSETS = [
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/905/906.png",
         "size": 87890,
         "md5": "AE002470FFB1ACAD80D1C61D9C45D80D",
-        APPLY_METHOD: [],
-        REMOVE_METHOD: [],
+        APPLY_METHOD: [
+            {
+                METHOD: Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY,
+            },
+        ],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY,
+            },
+        ],
         "list": [
             "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
             "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",

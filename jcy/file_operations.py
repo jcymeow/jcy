@@ -30,7 +30,8 @@ class FileOperations:
             HUD_SKIN4_APPLY: self.modify_hud4_skin,
             Methods.MODIFY_HUD_PANEL_BUTTONS: self.modify_hud_panel_buttons,
             Methods.MODIFY_ASN_MARTIAL_BY_HUD: self.modify_asn_martial_by_hud,
-
+            Methods.MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY: self.modify_items_original_mophisto_key,
+            Methods.MODIFY_ITEMS_ASSET_MEPHISTO_KEY: self.modify_items_asset_mophisto_key,
         }
 
 
@@ -495,6 +496,50 @@ class FileOperations:
         else:
             return ok_result()
 
+
+    def modify_items_original_mophisto_key(self):
+        """修改 items.json pk1/pk2/pk3 使用默认"""
+        json_data = None
+        json_path = os.path.join(MOD_PATH, r"data/hd/items/items.json")
+        try:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            for obj in json_data:
+                if obj.get("pk1") is not None:
+                    obj["pk1"]["asset"] = "key/mephisto_key"
+                if obj.get("pk2") is not None:
+                    obj["pk2"]["asset"] = "key/mephisto_key"
+                if obj.get("pk3") is not None:
+                    obj["pk3"]["asset"] = "key/mephisto_key"
+
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=2)
+            return ok_result("")
+        except Exception as e:
+            return err_result(e)
+
+    def modify_items_asset_mophisto_key(self):
+        """修改 items.json pk1/pk2/pk3 使用素材"""
+        json_data = None
+        json_path = os.path.join(MOD_PATH, r"data/hd/items/items.json")
+        try:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            for obj in json_data:
+                if obj.get("pk1") is not None:
+                    obj["pk1"]["asset"] = "key/mephisto_key1"
+                if obj.get("pk2") is not None:
+                    obj["pk2"]["asset"] = "key/mephisto_key2"
+                if obj.get("pk3") is not None:
+                    obj["pk3"]["asset"] = "key/mephisto_key3"
+
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=2)
+            return ok_result("")
+        except Exception as e:
+            return err_result(e)
 
     def modify_hud_panel_buttons(self, params):
         """修改hudpanelbuttonshd.json"""
