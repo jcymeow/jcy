@@ -492,7 +492,7 @@ class FileOperations:
             else:
                 return err_result(f"{result[0]}/{result[1]}")
         else:
-            return ok_result()
+            return ok_result("")
 
 
     def modify_hud_panel_buttons(self, params):
@@ -2441,10 +2441,10 @@ class FileOperations:
         # 指引映射
         _maps = {
             "0": [],
-            "1": ARROW_LIGHT1,
+            "1": [],
             "2": PF_BEACON_WAYPOINT,
-            "3": ROOMTILES_ARROW_LIGHT1,
-            "4": ARROW_LIGHT2,
+            "3": WAYPOINT_ARROW_LIGHT1,
+            "4": WAYPOINT_ARROW_LIGHT2,
         }
 
 
@@ -2500,10 +2500,10 @@ class FileOperations:
         # 指引映射
         _maps = {
             "0": [],
-            "1": ARROW_LIGHT2,
+            "1": [],
             "2": PF_BEACON_QUEST,
-            "3": ROOMTILES_ARROW_LIGHT1,
-            "4": ARROW_LIGHT2,
+            "3": WAYPOINT_ARROW_LIGHT1,
+            "4": WAYPOINT_ARROW_LIGHT2,
         }
 
 
@@ -2562,10 +2562,10 @@ class FileOperations:
         # 指引映射
         _maps = {
             "0": [],
-            "1": ROOMTILES_ARROW_LIGHT2,
+            "1": [],
             "2": PF_BEACON_UPSTAIRS,
             "3": ROOMTILES_ARROW_LIGHT1,
-            "4": ARROW_LIGHT2,
+            "4": ROOMTILES_ARROW_LIGHT2,
         }
 
 
@@ -2636,10 +2636,10 @@ class FileOperations:
         # 指引映射
         _maps = {
             "0": [],
-            "1": ROOMTILES_ARROW_LIGHT1,
+            "1": [],
             "2": PF_BEACON_DOWNSTAIRS,
             "3": ROOMTILES_ARROW_LIGHT1,
-            "4": ARROW_LIGHT2,
+            "4": ROOMTILES_ARROW_LIGHT2,
         }
 
 
