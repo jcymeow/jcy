@@ -957,35 +957,6 @@ class FileOperations:
         summary = tuple(sum(values) for values in zip(*results))
         
         return summary
-
-    def select_mercenary_skin(self, keys: list):
-        """选择佣兵皮肤"""
-        if keys is None:
-            return (0, 0)
-
-        # 文件
-        _files = {
-            # A1白毛罗格
-            "1" : [],
-            # A2女性佣兵
-            "2":[],
-            # A5火焰刀佣兵
-            "5":[
-                r"data/hd/character/enemy/act5hire1.json",
-                r"data/hd/items/weapon/sword/act5hire1_bastard_sword.json",
-                r"data/hd/items/weapon/sword/act5hire1_long_sword.json",
-            ]
-        }
-
-        funcs = []
-        for key, files in _files.items():
-            sub = self.common_rename(files, key in keys)
-            funcs.append(sub)
-
-        results = [f for f in funcs]
-        summary = tuple(sum(values) for values in zip(*results))
-        
-        return summary
     
 
     def select_monster_setting(self, keys: list):
@@ -1435,9 +1406,9 @@ class FileOperations:
         }
         keys = {
             "0": MERCENARY_100,
-            "1": MERCENARY_85,
-            "2": MERCENARY_75,
-            "3": MERCENARY_65,
+            "1": MERCENARY_100,
+            "2": MERCENARY_100,
+            "3": MERCENARY_100,
         }
 
         try:

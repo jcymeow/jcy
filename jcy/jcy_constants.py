@@ -127,12 +127,8 @@ ASN_SETTING = "AssassinSetting"
 ASN_MARTIAL = "AssassinMartial"
 COMMON_SETTING = "CommonSetting"
 SKILL_OFF_SOUNDS = "SkillOffSounds"
-MERCENARY = "Mercenary"
 MERCENARY_LOCATION = "MercenaryLocation"
 MERCENARY_100 = "Mercenary100"
-MERCENARY_85 = "Mercenary85"
-MERCENARY_75 = "Mercenary75"
-MERCENARY_65 = "Mercenary65"
 MONSTER_SETTING = "MonsterSetting"
 MONSTER_LIGHTING = "MonsterLighting"
 MONSTER_HEALTH = "MonsterHealth"
@@ -1733,12 +1729,8 @@ __all__ = [
     'ASN_MARTIAL',
     'COMMON_SETTING',
     'SKILL_OFF_SOUNDS',
-    'MERCENARY',
     'MERCENARY_LOCATION',
     'MERCENARY_100',
-    'MERCENARY_85',
-    'MERCENARY_75',
-    'MERCENARY_65',
     'MONSTER_SETTING',
     'MONSTER_LIGHTING',
     'MONSTER_HEALTH',

@@ -417,45 +417,6 @@ class FeatureConfig:
                                 "y": 1640
                             }
                         },
-                        # {
-                        #     "fid": MERCENARY_85,
-                        #     "type": LOCATION,
-                        #     "text": "佣兵-坐标 x HUD85%",
-                        #     "colspan": 25,
-                        #     "params": {
-                        #         "x": 1656,
-                        #         "y": 2025
-                        #     }
-                        # },
-                        # {
-                        #     "fid": MERCENARY_75,
-                        #     "type": LOCATION,
-                        #     "text": "佣兵-坐标 x HUD75%",
-                        #     "colspan": 25,
-                        #     "params": {
-                        #         "x": 1981,
-                        #         "y": 2375
-                        #     }
-                        # },
-                        # {
-                        #     "fid": MERCENARY_65,
-                        #     "type": LOCATION,
-                        #     "text": "佣兵-坐标 x HUD65%",
-                        #     "colspan": 25,
-                        #     "params": {
-                        #         "x": 2381,
-                        #         "y": 2785
-                        #     }
-                        # },
-                        {
-                            "fid": MERCENARY,
-                            "type": CHECK,
-                            "text": "佣兵-皮肤",
-                            "colspan": 50,
-                            "params": {
-                                "5": "A5火焰刀佣兵"
-                            }
-                        },
                         {
                             "type": "Separator"
                         },

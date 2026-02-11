@@ -237,18 +237,10 @@ class FeatureController:
             COMMON_SETTING: self.file_operations.common_setting,
             # 技能结束提示音
             SKILL_OFF_SOUNDS: self.file_operations.skill_off_sounds,
-            # 佣兵-皮肤
-            MERCENARY: self.file_operations.select_mercenary_skin,
             # 佣兵-图标位置
             MERCENARY_LOCATION: self.file_operations.select_hireables_panel,
             # 佣兵-坐标 x HUD100%
             MERCENARY_100: self.file_operations.mercenary_coordinate,
-            # 佣兵-坐标 x HUD85%
-            MERCENARY_85: self.file_operations.mercenary_coordinate,
-            # 佣兵-坐标 x HUD75%
-            MERCENARY_75: self.file_operations.mercenary_coordinate,
-            # 佣兵-坐标 x HUD65%
-            MERCENARY_65: self.file_operations.mercenary_coordinate,
             # 怪物-配置
             MONSTER_SETTING: self.file_operations.select_monster_setting,
             # 怪物-光源亮度
