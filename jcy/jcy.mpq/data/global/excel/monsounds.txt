@@ -143,3 +143,9 @@ diabloclone	diablo_attack_1	weapon_giant_1	0	6	100	120	diablo_attack_1	weapon_gi
 Infector of Souls														unique_death		0											150													0
 Lord De Seis														unique_death		0											150													0
 Grand Vizier of Chaos														unique_death		0											150													0
+colbarbwhirl		weapon_1hs_large_1		5		255		weapon_1hs_large_1		5		255	baby_barbarian_gethit_hd_6	baby_barbarian_death_hd_3	2	0					light_walk_dirt_1		2	0	100															0
+colbarbthrow		weapon_1hs_large_1		5		255		weapon_1hs_large_1		5		255	baby_barbarian_gethit_hd_6	baby_barbarian_death_hd_3	2	0					light_walk_dirt_1		2	0	100															0
+colbarbfrenzy		weapon_1hs_large_1		5		255		weapon_1hs_large_1		5		255	baby_barbarian_gethit_hd_6	baby_barbarian_death_hd_3	2	0					light_walk_dirt_1		2	0	100															0
+colossal1		weapon_1hs_large_1		5		255		weapon_1hs_large_1		5		255	UA_barbarian1_gethit_hd_1	UA_Barbarian_death_hd_1	2	0					medium_walk_dirt_1		2	0	100															0
+colossal2		weapon_1hs_large_1		5		255		weapon_1hs_large_1		5		255	UA_barbarian2_gethit_hd_1	UA_Barbarian_death_hd_2	2	0					medium_walk_dirt_1		2	0	100															0
+colossal3		weapon_1hs_large_1		5		255		weapon_1hs_large_1		5		255	UA_barbarian3_gethit_hd_1	UA_Barbarian_death_hd_3	2	0					medium_walk_dirt_1		2	0	100															0
