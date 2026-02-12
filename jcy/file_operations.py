@@ -294,15 +294,10 @@ class FileOperations:
         """佣兵皮肤应用"""
         type = param.get("type")
         gender = param.get("gender")
-        hire_key = HIRE_KEYS.get(type)
         hire_sound = HIRE_SOUNDS.get(type).get(gender)
         hire_name = HIRE_NAMES.get(type).get(gender)
 
         funcs = []
-        # 佣兵公共音效
-        hirelingdesc = { hire_key: { "alternateVoice": gender } }
-        funcs.append(self.common_modify_excel(file="data/global/excel/hirelingdesc.txt", key="id", records=hirelingdesc))
-        print(funcs[-1])
         # 佣兵音效
         funcs.append(self.common_modify_excel(file="data/global/excel/sounds.txt", key="Sound", records=hire_sound))
         print(funcs[-1])
@@ -4050,35 +4045,6 @@ class FileOperations:
                 writer.writeheader()
                 writer.writerows(rows)
             
-            return (1, 1)
-        except Exception as e:
-            print(e)
-            return (0, 1)
-
-    def modify_hirelingdesc(self, data: dict):
-        """修改佣兵语音(hirelingdesc.txt)"""
-        if data is None:
-            return (0, 0)
-        
-        try:
-            path = os.path.join(MOD_PATH, r"data/global/excel/hirelingdesc.txt")
-
-            rows = []
-            with open(path, "r", encoding="utf-8") as f:
-                reader = csv.DictReader(f, delimiter="\t")
-                rows = list(reader)
-
-            for row in rows:
-                id = row["id"]
-                if id in data:
-                    is_female = data.get(id)
-                    row["alternateVoice"] = "1" if is_female else "0"
-
-            with open(path, "w", encoding="utf-8", newline="") as f:
-                writer = csv.DictWriter(f, fieldnames=reader.fieldnames, delimiter='\t')
-                writer.writeheader()
-                writer.writerows(rows)
-
             return (1, 1)
         except Exception as e:
             print(e)

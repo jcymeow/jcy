@@ -1,6 +1,0 @@
-id	*hcIdx	alternateVoice	*eol
-roguehire	271	1	0
-act2hire	338	0	0
-act3hire	359	0	0
-act5hire1	560	0	0
-act5hire2	561	0	0
