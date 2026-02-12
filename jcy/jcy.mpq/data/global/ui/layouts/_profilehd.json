@@ -706,7 +706,6 @@
     "SecondSetIconOffset": {
         "x": 175
     },
-    "LeftSideSprite": "PANEL\\Docking_Bar\\SidePanel_L",
     "LeftSideRect": {},
     "LeftSideRectImbuePanel": {
         "x": -236,
@@ -726,8 +725,6 @@
         "x": -236,
         "y": 630
     },
-    "LeftHingeSprite": "PANEL\\Docking_Bar\\SidePanel_Hinge_L",
-    "RightSideSprite": "PANEL\\Docking_Bar\\SidePanel_R",
     "RightSideRect": {
         "x": -732
     },
@@ -741,7 +738,6 @@
         "x": 1076,
         "y": 630
     },
-    "RightHingeSprite": "PANEL\\Docking_Bar\\SidePanel_Hinge_R",
     "ItemCellSize": {
         "x": 98,
         "y": 98
