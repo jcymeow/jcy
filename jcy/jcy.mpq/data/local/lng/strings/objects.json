@@ -3988,5 +3988,26 @@
     "zhTW2": "僅限取出",
     "zhSGCN": "仅限取出",
     "zhSGTW": "僅限取出"
+  },
+  {
+    "id": 28100,
+    "Key": "stashRemoveOnly",
+    "enUS": "Remove Only",
+    "zhTW": "僅限移除",
+    "deDE": "Nur entfernen",
+    "esES": "Eliminar solo",
+    "frFR": "Retrait uniquement",
+    "itIT": "Solo rimozione",
+    "koKR": "제거만 가능",
+    "plPL": "Tylko usuń",
+    "esMX": "Solo eliminar",
+    "jaJP": "削除のみ：",
+    "ptBR": "Apenas remover",
+    "ruRU": "Только извлечение",
+    "zhCN": "仅限取出",
+    "zhCN2": "仅限取出",
+    "zhTW2": "僅限移除",
+    "zhSGCN": "仅限取出",
+    "zhSGTW": "僅限移除"
   }
 ]

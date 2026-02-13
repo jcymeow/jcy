@@ -6200,7 +6200,7 @@
     "enUS": "Increased Stack Size",
     "zhTW": "堆疊數量提高",
     "deDE": "Erhöhte Stapelgröße",
-    "esES": "Cantidad aumentada",
+    "esES": "Cantidad de alijo aumentada",
     "frFR": "Quantité maximale augmentée",
     "itIT": "Accumuli aumentati",
     "koKR": "중첩 수량 증가",
@@ -6877,7 +6877,7 @@
     "itIT": "Danni fisici subiti ridotti del %d%%",
     "koKR": "받는 물리 피해 %d%% 감소",
     "plPL": "Odnoszone obrażenia fizyczne są zmniejszone o %d%%",
-    "esMX": "Reduce un %d% el daño físico recibido",
+    "esMX": "Reduce un %d%% el daño físico recibido",
     "jaJP": "受ける物理ダメージを軽減（%d%%）",
     "ptBR": "Dano físico recebido reduzido em %d%%",
     "ruRU": "Получаемый физический урон уменьшен на %d%%",
@@ -7457,8 +7457,8 @@
   {
     "id": 27602,
     "Key": "WarOnly",
-    "enUS": "(Warlock Only)",
-    "zhTW": "（只限術士）",
+    "enUS": "{{color0}}(Warlock Only){{color1}}",
+    "zhTW": "{{color0}}（只限術士）{{color1}}",
     "deDE": "(Nur Hexenmeister)",
     "esES": "(Solo brujo)",
     "frFR": "(Démoniste uniquement)",
@@ -7469,11 +7469,11 @@
     "jaJP": "（ウォーロックのみ）",
     "ptBR": "(Somente Bruxo)",
     "ruRU": "(Только для чернокнижников)",
-    "zhCN": "（仅限术士）",
-    "zhCN2": "（仅限术士）",
-    "zhSGCN": "（仅限术士）",
-    "zhTW2": "（只限術士）",
-    "zhSGTW": "（只限術士）"
+    "zhCN": "{{color0}}（仅限术士）{{color1}}",
+    "zhCN2": "{{color0}}（仅限术士）{{color1}}",
+    "zhSGCN": "{{color0}}（仅限术士）{{color1}}",
+    "zhTW2": "{{color0}}（只限術士）{{color1}}",
+    "zhSGTW": "{{color0}}（只限術士）{{color1}}"
   },
   {
     "id": 27678,
@@ -7647,7 +7647,7 @@
     "id": 27979,
     "Key": "ChronicleModifierRange",
     "enUS": "ÿcU(%s-%s)ÿc3",
-    "zhTW": "ÿcT（%s-%s）ÿc3",
+    "zhTW": "ÿcU（%s-%s）ÿc3",
     "deDE": "ÿcU(%s-%s)ÿc3",
     "esES": "ÿcU(%s-%s)ÿc3",
     "frFR": "ÿcU(%s-%s)ÿc3",
@@ -7661,14 +7661,14 @@
     "zhCN": "ÿcU(%s-%s)ÿc3",
     "zhCN2": "ÿcU(%s-%s)ÿc3",
     "zhSGCN": "ÿcU(%s-%s)ÿc3",
-    "zhTW2": "ÿcT（%s-%s）ÿc3",
-    "zhSGTW": "ÿcT（%s-%s）ÿc3"
+    "zhTW2": "ÿcU（%s-%s）ÿc3",
+    "zhSGTW": "ÿcU（%s-%s）ÿc3"
   },
   {
     "id": 27998,
     "Key": "ItemStats1hRange",
     "enUS": "Defense: ÿcU(%d-%d)ÿc3",
-    "zhTW": "防禦：ÿcT（%d-%d）ÿc3",
+    "zhTW": "防禦：ÿcU（%d-%d）ÿc3",
     "deDE": "Verteidigung: ÿcT(%d-%d)ÿc3",
     "esES": "Defensa: ÿcT(%d-%d)ÿc3",
     "frFR": "Défense : ÿcU(%d-%d)ÿc3",
@@ -7682,8 +7682,8 @@
     "zhCN": "防御: ÿcU(%d-%d)ÿc3",
     "zhCN2": "防御: ÿcU(%d-%d)ÿc3",
     "zhSGCN": "防御: ÿcU(%d-%d)ÿc3",
-    "zhTW2": "防禦：ÿcT（%d-%d）ÿc3",
-    "zhSGTW": "防禦：ÿcT（%d-%d）ÿc3"
+    "zhTW2": "防禦：ÿcU（%d-%d）ÿc3",
+    "zhSGTW": "防禦：ÿcU（%d-%d）ÿc3"
   },
   {
     "id": 28014,

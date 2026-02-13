@@ -1025,7 +1025,12 @@
     "xa3": {},
     "xa4": {},
     "xa5": {},
-    "WarOnly": {},
+    "WarOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
     "ModStrMagMastery": {},
     "ModStrMagPierce": {},
     "MaxMagDmgPerLvl": {},

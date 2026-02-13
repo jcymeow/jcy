@@ -130,7 +130,8 @@
         "RejuvPotionColor": "$FontColorWhite",
         "GoldColor": "$FontColorWhite",
         "RuneColor": "$FontColorOrange",
-        "EventItemsColor": "$FontColorOrange"
+        "EventItemsColor": "$FontColorOrange",
+        "DesecratedColor": "$FontColorDesecrated"
     },
     "SecondSetIconOffset": {
         "x": 225
@@ -388,5 +389,21 @@
         "y": 1200
     },
     "JoinGamePlayerEntryHeight": 140,
-    "JoinGamePlayerNameHeight": 100
+    "JoinGamePlayerNameHeight": 100,
+    "StyleLFButtonTextSmall": {
+        "fontColor": "$LightButtonTextColor",
+        "pointSize": "$LootFilterSmallFontSize",
+        "dropShadow": "$DefaultDropShadow",
+        "spacing": {
+            "kerning": 0.88,
+            "leading": 0.8
+        },
+        "alignment": {
+            "v": "center",
+            "h": "center"
+        },
+        "options": {
+            "lineWrap": true
+        }
+    }
 }
