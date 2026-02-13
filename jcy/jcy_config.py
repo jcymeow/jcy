@@ -11,3 +11,6 @@ ASSET_PACKAGE = {}
 
 # 素材包数量 <AssetType, count>
 ASSET_COUNT = {}
+
+# 恐怖区域
+TERROR_ZONE = {}

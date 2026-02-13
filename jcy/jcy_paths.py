@@ -221,7 +221,7 @@ __all__ = [
     'DOT_VERSION',
     'ACCOUNTS_JSON',
     'SETTINGS_JSON',
-    'TERROR_ZONE_JSON',
+
     'BEAR_ICO',
     'DONATE_WECHAT_PNG',
     'HELP_PNG',

@@ -711,17 +711,6 @@ class FileOperations:
         return self.common_rename(files_quick_game, isEnabled)
 
 
-    def toggle_context_menu(self, isEnabled: bool = False):
-        """
-        更大的好友菜单
-        """
-        files_context_menu = [
-            r"data/global/ui/layouts/contextmenuhd.json",
-        ]
-
-        return self.common_rename(files_context_menu, isEnabled);
-
-
     def toggle_skill_logo(self, isEnabled: bool = False):
         """
         技能图标
@@ -886,6 +875,7 @@ class FileOperations:
             print(e)
 
         return (count, total)
+
 
     def select_enemy_arrow_skin(self, radio: str = "0"):
         """
@@ -1432,7 +1422,6 @@ class FileOperations:
             return (0, 0)
 
 
-
     def select_hireables_panel(self, radio: str = "0"):
         """
         佣兵图标位置
@@ -1596,6 +1585,7 @@ class FileOperations:
         except Exception as e:
             print(e)
         return (count, total)
+
 
     def select_model_eccects(self, keys: list):
         """装备-模型特效"""
@@ -3532,7 +3522,8 @@ class FileOperations:
         summary = tuple(sum(values) for values in zip(*results))
         
         return summary
-    
+
+
     def necromancer_setting(self, keys: list):
         """死灵法师设置"""
         if keys is None:
@@ -3554,7 +3545,8 @@ class FileOperations:
         summary = tuple(sum(values) for values in zip(*results))
         
         return summary
-    
+
+
     def druid_setting(self, keys: list):
         """德鲁伊设置"""
         if keys is None:
@@ -3605,6 +3597,7 @@ class FileOperations:
         
         return summary
 
+
     def assassin_setting(self, keys: list):
         """刺客设置"""
         if keys is None:
@@ -3632,7 +3625,8 @@ class FileOperations:
         summary = tuple(sum(values) for values in zip(*results))
         
         return summary
-    
+
+
     def assassin_martial(self, radio: str = "0"):
         """刺客-聚气图标"""
         
@@ -3778,6 +3772,7 @@ class FileOperations:
 
         return summary
 
+
     def sync_app_data(self):
         """同步APP参数到npcs.json"""
         
@@ -3809,38 +3804,22 @@ class FileOperations:
             print(e)
 
 
-    def writeTerrorZone(self, data: dict|str):
-        """写入游戏TZ预报
-        - dict -> 解析 -> 写入
-        - str -> 写入
-        """
-
-        info = data
-        # 解析tzjson
-        if isinstance(data, dict):
-            if data["status"] == "ok":
-                rec = data["data"][0]
-                raw_time = rec.get("time")
-                zone_key = rec.get("zone")
-                formatted_time = time.strftime('%Y-%m-%d %H', time.localtime(raw_time)) if raw_time else "未知时间"
-                zone_info = TERROR_ZONE_DICT.get(zone_key, {})
-                language = jcy_config.SETTINGS[TERROR_ZONE_LANGUAGE]
-                zone_name = zone_info.get(language) if zone_info else f"未知区域（{zone_key}）"
-                formatted_name = zone_name.replace("、", "\n").replace(",", "\n")
-                info = f"{formatted_time}\n{formatted_name}"
+    def writeTerrorZone(self, data: str):
+        """写入游戏TZ预报"""
 
         # 写tz
         try:
             json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudwarningsfakehd.json")
             with open(json_path, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
-            json_data["children"][2]["children"][0]["fields"]["text"] = info
+            json_data["children"][3]["children"][0]["fields"]["text"] = data
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
         except Exception as e:
             print("[writeTerrorZone 写入异常]", e)
         
         return (1, 1)
+
 
     def modify_item_notification(self, data: list):
         
@@ -4213,6 +4192,7 @@ class FileOperations:
             except Exception as e:
                 print(e)
 
+
     def load_items_name(self):
         """加载道具名称"""
         item_names_data = None                     
@@ -4221,3 +4201,15 @@ class FileOperations:
             item_names_data = json.load(f)
 
         return item_names_data
+
+
+    def load_jcy_zones(self):
+        file_path = os.path.join(MOD_PATH, r"jcy/zones.json")
+        with open(file_path, 'r', encoding='utf-8') as f:
+            jcy_config.TERROR_ZONE = json.load(f)
+
+
+    def save_terror_zone(self, data):
+        file_path = os.path.join(TERROR_ZONE_PATH)
+        with open(file_path, 'w', encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)

@@ -1324,42 +1324,42 @@ class TerrorZoneUI(tk.Frame):
         self.bind("<Visibility>", self.on_visible)
 
     def create_widgets(self):
-        self.tree = ttk.Treeview(self, columns=("time", "name", "exp", "drop"), show="headings")
+        self.tree = ttk.Treeview(self, columns=("time", "name"), show="headings")
         self.tree.heading("time", text="时间")
         self.tree.heading("name", text="恐怖地带")
-        self.tree.heading("exp", text="经验评级")
-        self.tree.heading("drop", text="掉落评级")
         self.tree.column("time", width=150, anchor=tk.CENTER)
-        self.tree.column("name", width=350, anchor=tk.CENTER)
-        self.tree.column("exp", width=50, anchor=tk.CENTER)
-        self.tree.column("drop", width=50, anchor=tk.CENTER)
+        self.tree.column("name", width=450, anchor=tk.CENTER)
         self.tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
     def load_and_display_data(self):
         if not os.path.isfile(TERROR_ZONE_PATH):
             return
-
+        
         try:
             with open(TERROR_ZONE_PATH, "r", encoding="utf-8") as f:
                 full_data = json.load(f)
             data_list = full_data.get("data", [])
-
             self.tree.delete(*self.tree.get_children())
 
             for item in data_list:
                 if isinstance(item, dict):
-                    zone_key = item.get("zone")
                     raw_time = item.get("time")
-                    formatted_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time)) if raw_time else "未知时间"
-                    if not zone_key:
-                        continue
-                    zone_info = TERROR_ZONE_DICT.get(zone_key)
-                    if isinstance(zone_info, dict):
-                        language =jcy_config.SETTINGS[TERROR_ZONE_LANGUAGE]
-                        name = zone_info.get(language)
-                    else:
-                        name = "未知名称"
-                    self.tree.insert("", "end", values=(formatted_time, name, zone_info.get("exp"), zone_info.get("drop")))
+                    raw_zone = item.get("zone")
+
+                    formatted_time = (
+                        time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time))
+                        if raw_time else "未知时间"
+                    )
+                    
+                    zone_names = []
+                    tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
+                    for zone_id in raw_zone:
+                        zone = jcy_config.TERROR_ZONE.get(str(zone_id), {})
+                        zone_names.append(zone.get(tz_lang, "未知区域"))
+                    unique_names = list(dict.fromkeys(zone_names))
+                    name = " ".join(unique_names)
+                   
+                    self.tree.insert("", "end", values=(formatted_time, name))
         except Exception as e:
             messagebox.showerror("错误", f"加载数据失败: {e}")
 

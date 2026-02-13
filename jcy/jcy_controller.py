@@ -32,36 +32,6 @@ from upgrade_dialog import UpgradeDialog
 
 LOCAL_TZ = timezone(timedelta(hours=8))
 
-def convert_net_ease_to_legacy(json_data, TERROR_ZONE_MAP):
-    """
-    将网易国服 API 结构转换为旧版 tz.json 结构
-    """
-
-    out = {"status": "ok", "data": []}
-
-    for entry in json_data.get("data", []):
-        ts = entry["time"]
-
-        # 网易是数组形式 ["监狱","营房"] → 旧版只需要第一个
-        zone_id = None
-        for name in entry["name"]:
-            primary_name = name
-            zone_id = TERROR_ZONE_MAP.get(primary_name)
-            if zone_id:
-                break
-        
-        if not zone_id:
-            print(f"[警告] 找不到映射：{primary_name}，使用 0-0")
-            zone_id = "0-0"
-
-        out["data"].append({
-            "time": ts,
-            "zone": zone_id
-        })
-
-    return out
-
-
 class FeatureController:
     def __init__(self, master):
         self.master = master
@@ -100,6 +70,8 @@ class FeatureController:
         self.file_operations.load_asset_config()
         # 扫描素材包
         self.file_operations.scan_asset_package()
+        # 读取恐怖区域配置
+        self.file_operations.load_jcy_zones()
 
         # 升级检查
         need_upgrade = ensure_appdata_files()
@@ -119,8 +91,52 @@ class FeatureController:
             # 更新 current_states
             jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
 
-        # 恐怖区域更新
+        # ---------------- 恐怖区域回调 ----------------
+        def notify_fetch_success(data, **kwargs):
+            try:
+                # 更新恐怖区域文件
+                self.file_operations.save_terror_zone(data)
+
+                # 解析当前 slice
+                rec = data.get("data", [])[0] if data.get("data") else {}
+                raw_time = rec.get("time")
+                raw_zone = rec.get("zone", [])
+
+                # 时间字符串
+                formatted_time = (
+                    time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time))
+                    if raw_time else "未知时间"
+                )
+
+                # 构建列表，首元素为时间
+                tz_list = [formatted_time]
+
+                tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
+                for zone_id in raw_zone:
+                    zone = jcy_config.TERROR_ZONE.get(str(zone_id), {})
+                    tz_list.append(zone.get(tz_lang, f"未知区域({zone_id})"))
+
+                # 去重 + 保序
+                tz_list = list(dict.fromkeys(tz_list))
+
+                # 获取用户设置
+                next_setting = jcy_config.SETTINGS.get(TERROR_ZONE_NEXT, [])
+                # 系统通知
+                if "1" in next_setting:
+                    toast("恐怖区域已更新", " ".join(tz_list))
+
+                # 游戏内预告
+                if "2" in next_setting:
+                    self.file_operations.writeTerrorZone("\n".join(tz_list))
+                else:
+                    self.file_operations.writeTerrorZone("")
+
+            except Exception as e:
+                print("[通知构造异常]", e)
+
+        # ---------------- 初始化恐怖区域抓取器 ----------------
         self.terror_zone_fetcher = TerrorZoneFetcher(self)
+        self.terror_zone_fetcher.start_auto_fetch_thread(notify_fetch_success)
 
         # 初始化 UI (根据jcy_model, 并设置默认值)
         self.feature_config.all_features_config
@@ -429,151 +445,145 @@ class LoadingDialog(tk.Toplevel):
         self.destroy()
 
 
+def notify_fetch_success(data, controller=None):
+    """
+    恐怖区域数据更新回调
+    - controller: FeatureController 对象，用于访问 file_operations
+    """
+    try:
+        rec = data["data"][0]
+        raw_time = rec.get("time")
+        formatted_time = time.strftime(
+            '%Y-%m-%d %H:%M:%S', time.localtime(raw_time)
+        ) if raw_time else "未知时间"
+
+        names = rec.get("name", [])
+        zone_name = " / ".join(names) if names else "未知区域"
+
+        # -------------------- 根据 TERROR_ZONE_NEXT 执行操作 --------------------
+        next_setting = jcy_config.SETTINGS.get(TERROR_ZONE_NEXT, "")
+
+        # 系统通知
+        if "1" in next_setting:
+            toast("恐怖区域已更新", f"{formatted_time} {zone_name}")
+
+        # 游戏内预告
+        if controller and controller.file_operations:
+            if "2" in next_setting:
+                controller.file_operations.writeTerrorZone(data)
+            else:
+                controller.file_operations.writeTerrorZone("")
+
+        print(f"[通知] {formatted_time} {zone_name} 处理完毕")
+
+    except Exception as e:
+        print("[通知构造异常]", e)
+        if "1" in jcy_config.SETTINGS.get(TERROR_ZONE_NEXT, ""):
+            toast("恐怖区域已更新", "恐怖区域数据更新成功，但解析失败。")
+
 
 class TerrorZoneFetcher:
-    def __init__(self, controller: FeatureController):
+    FETCH_INTERVAL = 180  # 秒
+
+    def __init__(self, controller):
         self.running = False
-        self.first = True
         self.thread = None
         self.controller = controller
+        self.last_slice_start = None
 
-    def fetch_once_with_retry(self, max_retries=20):
-        """
-        爬取TZ最新数据
-        """
-        randint = random.randint(0, 1)
+    def fetch_once_with_retry(self, max_retries=10):
+        api_array = TERROR_ZONE_API.get("1", [])
+        if not api_array:
+            print("[错误] API 列表为空")
+            return None
+
+        idx = random.randint(0, len(api_array) - 1)
+
         for attempt in range(1, max_retries + 1):
+            api = api_array[idx % len(api_array)]
             try:
-                # 区服配置
-                server_cfg = jcy_config.SETTINGS[TERROR_ZONE_SERVER]
-                api_array = TERROR_ZONE_API[server_cfg]
-                
-                if "1" == server_cfg:
-                    # 国际服
-                    api = api_array[randint % len(api_array)]
+                print(f"[尝试] 第 {attempt} 次抓取 {api}")
+                response = requests.get(api, timeout=10)
+                response.raise_for_status()
+                json_data = response.json()
 
-                    print(f"[尝试] 第 {attempt} 次抓取 {api}")
-                    response = requests.get(api, timeout=10)
-                    response.raise_for_status()
-                    json_data = response.json()
+                if json_data.get("status") != "ok":
+                    print(f"[失败] status 非 ok: {json_data}")
+                    continue
 
-                    # 1. 检查 status 和 data
-                    if json_data.get("status") != "ok" or not json_data.get("data"):
-                        print(f"[失败] 数据格式异常: {json_data}")
-                    else:
-                        # 2. 解析时间戳（UTC时间）
-                        tz_time = json_data["data"][0]["time"]
-                        target_hour = datetime.fromtimestamp(tz_time, tz=timezone.utc).hour
+                data_list = json_data.get("data")
+                if not data_list:
+                    print("[失败] data 为空")
+                    continue
 
-                        # 3. 当前 UTC 时间 + 1
-                        current_hour = datetime.now(timezone.utc).hour
-                        expected_hour = (current_hour + 1) % 24
-
-                        # 4. 判断是否为“下一个小时”
-                        if target_hour == expected_hour:
-                            print("[成功] 恐怖区域数据抓取成功（为下一个小时）")
-                            return json_data
-                        else:
-                            print(f"[失败] 数据未更新：目标小时={target_hour}，当前+1={expected_hour}")
-                elif "2" == server_cfg:
-                    # 网易国服
-                    api = api_array[randint % len(api_array)]
-
-                    print(f"[尝试] 第 {attempt} 次抓取 {api}")
-                    response = requests.get(api, timeout=10)
-                    response.raise_for_status()
-                    json_data = response.json()
-
-                    # 1. 检查 status 和 data
-                    if json_data.get("status") != "ok" or not json_data.get("data"):
-                        print(f"[失败] 数据格式异常: {json_data}")
-                    else:
-                        # 2. 解析时间戳（UTC时间）
-                        tz_time = json_data["data"][0]["time"]
-                        target_hour = datetime.fromtimestamp(tz_time, tz=timezone.utc).hour
-
-                        # 3. 当前 UTC 时间 + 1
-                        current_hour = datetime.now(timezone.utc).hour
-                        expected_hour = (current_hour + 1) % 24
-
-                        # 4. 判断是否为“下一个小时”
-                        if target_hour == expected_hour:
-                            print("[成功] 恐怖区域数据抓取成功（为下一个小时）")
-
-                            #在这里添加转换器！！！
-                            legacy_json = convert_net_ease_to_legacy(json_data, TERROR_ZONE_MAP)
-                            return legacy_json
-                        else:
-                            print(f"[失败] 数据未更新：目标小时={target_hour}，当前+1={expected_hour}")
+                return json_data
 
             except Exception as e:
                 print(f"[异常] 第 {attempt} 次抓取失败: {e}")
 
-            randint += 1
+            idx += 1
             time.sleep(random.randint(5 * attempt, 10 * attempt))
 
-        print("[错误] 所有尝试均失败或数据未更新")
+        print("[错误] 多次尝试后仍未获取到 TZ 数据")
+        return None
+
+    @staticmethod
+    def get_current_slice(data_list):
+        """
+        返回当前生效 slice，格式为字典
+        """
+        now = int(time.time())
+        for item in data_list:
+            slice_start = item.get("time")
+            if slice_start is None:
+                continue
+            # slice 生效区间：slice_start <= now < slice_start + 1800 (半小时)
+            if slice_start <= now < slice_start + 1800:
+                return item
         return None
 
     def _run_fetch_loop(self, callback):
-        print("[启动] 恐怖区域自动抓取线程已启动")
         self.running = True
 
+        # 启动立即抓取一次
+        json_data = self.fetch_once_with_retry()
+        if json_data and callback:
+            current_slice = self.get_current_slice(json_data.get("data", []))
+            if current_slice:
+                self.last_slice_start = current_slice["time"]
+            callback(json_data)  # 保留原始 JSON 给回调
+
         while self.running:
-            if self.first:
-                self.first = False
-                print("[首次] 程序启动，立即执行一次抓取")
-            else:
-                now = datetime.now()
-                target = now.replace(minute=0, second=30, microsecond=0)
-                if now > target:
-                    # 超过当前小时，推到下一个小时
-                    next_hour = (now + timedelta(hours=1)).replace(minute=0, second=30, microsecond=0)
-                    target = next_hour
+            json_data = self.fetch_once_with_retry()
+            if not json_data:
+                time.sleep(self.FETCH_INTERVAL)
+                continue
 
-                wait_seconds = (target - now).total_seconds()
-                print(f"[等待] 距离下次整点触发还有 {wait_seconds} 秒")
-                time.sleep(wait_seconds)
-
-                delay = random.randint(30, 90)
-                print(f"[延迟] 随机延迟 {delay} 秒后开始抓取")
-                time.sleep(delay)
-
-            data = self.fetch_once_with_retry()
-
-            if data:
-                try:
-                    with open(TERROR_ZONE_PATH, "w", encoding="utf-8") as f:
-                        json.dump(data, f, ensure_ascii=False, indent=2)
-                        
-                    print(f"[保存] 数据已保存到 {TERROR_ZONE_PATH}")
-                except Exception as e:
-                    print(f"[错误] 保存数据失败: {e}")
-
-                # Win系统通知
-                if "1" in jcy_config.SETTINGS[TERROR_ZONE_NEXT]:
+            current_slice = self.get_current_slice(json_data.get("data", []))
+            if current_slice:
+                slice_start = current_slice["time"]
+                if self.last_slice_start != slice_start:
+                    self.last_slice_start = slice_start
                     if callback:
-                        callback(data)
+                        callback(json_data)  # 保留原始 JSON 给回调
 
-                # 游戏内预告
-                if "2" in jcy_config.SETTINGS[TERROR_ZONE_NEXT]:
-                    self.controller.file_operations.writeTerrorZone(data)
-                else:
-                    self.controller.file_operations.writeTerrorZone("")
-
-            else:
-                print("[提示] 当前时间点抓取失败，等待下个整点再尝试")
+            time.sleep(self.FETCH_INTERVAL)
 
     def start_auto_fetch_thread(self, callback):
         if self.thread and self.thread.is_alive():
             print("[提示] 自动抓取线程已在运行")
             return
 
-        self.thread = threading.Thread(target=self._run_fetch_loop, args=(callback,), daemon=True)
+        self.thread = threading.Thread(
+            target=self._run_fetch_loop,
+            args=(callback,),
+            daemon=True
+        )
         self.thread.start()
 
     def stop(self):
         self.running = False
+
 
 if not getattr(sys, 'frozen', False):
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -612,26 +622,4 @@ if __name__ == "__main__":
 
     app = FeatureController(root)
     
-    # 恐怖区域数据更新回调
-    def notify_fetch_success(data):
-        print("[通知] 恐怖区域数据更新成功！")
-        try:
-            rec = data["data"][0]
-            raw_time = rec.get("time")
-            zone_key = rec.get("zone")
-            formatted_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time)) if raw_time else "未知时间"
-            
-            zone_info = TERROR_ZONE_DICT.get(zone_key, {})
-            language = jcy_config.SETTINGS[TERROR_ZONE_LANGUAGE]
-            zone_name = zone_info.get(language) if zone_info else f"未知区域（{zone_key}）"
-            message = f"{formatted_time} {zone_name}"
-        except Exception as e:
-            print("[通知构造异常]", e)
-            message = "恐怖区域数据更新成功，但部分信息解析失败。"
-
-        toast("恐怖区域已更新", message)
-
-    # 启动自动获取恐怖区域数据的后台线程
-    app.terror_zone_fetcher.start_auto_fetch_thread(notify_fetch_success)
-
     root.mainloop()
