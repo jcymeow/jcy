@@ -23,11 +23,44 @@
     "children": [
         {
             "type": "LayoutItemWidget",
-            "name": "InfoTextWrapper",
+            "name": "BatteryInfoTextWrapper",
             "fields": {
                 "minHeight": 50,
                 "marginRight": 12,
                 "marginTop": 12,
+                "marginBottom": 12
+            },
+            "children": [
+                {
+                    "type": "TextBoxWidget",
+                    "name": "BatteryInfoText",
+                    "fields": {
+                        "fitToText": true,
+                        "style": {
+                            "pointSize": "$MediumFontSize",
+                            "fontColor": "$FontColorGoldYellow",
+                            "alignment": {
+                                "v": "top",
+                                "h": "right"
+                            },
+                            "options": {
+                                "newlineHandling": "standard"
+                            },
+                            "spacing": {
+                                "kerning": 0.9
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "LayoutItemWidget",
+            "name": "InfoTextWrapper",
+            "fields": {
+                "minHeight": 50,
+                "marginRight": 12,
+                "marginTop": -12,
                 "marginBottom": 12
             },
             "children": [
@@ -44,7 +77,6 @@
                                 "h": "right"
                             },
                             "options": {
-                                "pipeCharacterBehavior": "handle",
                                 "newlineHandling": "standard"
                             },
                             "spacing": {
@@ -73,17 +105,12 @@
                         "fontType": "16pt",
                         "style": {
                             "pointSize": "$MediumFontSize",
-                            "fontColor": {
-                                "r": 135,
-                                "g": 82,
-                                "b": 161
-                            },
+                            "fontColor": "$FontColorDesecrated",
                             "alignment": {
                                 "v": "top",
                                 "h": "right"
                             },
                             "options": {
-                                "pipeCharacterBehavior": "handle",
                                 "newlineHandling": "standard"
                             },
                             "spacing": {
@@ -100,7 +127,7 @@
             "fields": {
                 "minHeight": 50,
                 "marginRight": 12,
-                "marginTop": -12,
+                "marginTop": -24,
                 "marginBottom": 12
             },
             "children": [

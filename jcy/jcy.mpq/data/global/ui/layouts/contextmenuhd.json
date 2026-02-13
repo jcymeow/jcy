@@ -11,6 +11,8 @@
         "defaultWidget": "OptionsList",
         "drawTint": false,
         "priority": 2000000001,
+        "wideSlotFileName": "Lobby\\ContextMenuSlotsWide",
+        "normalSlotFileName": "Lobby\\ContextMenuSlots"
     },
     "children": [
         {

@@ -88,7 +88,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/objects/env_organic/gid_b_inn_decoy/skeleton/gid_b_inn_decoy.skeleton"
+                    "filename": "data/hd/objects/env_organic/gid_b_inn_decoy/skeleton/gid_b_inn_decoy.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VfxDefinitionComponent",
