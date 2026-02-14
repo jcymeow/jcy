@@ -1,23 +1,18 @@
 import copy
 import ctypes
-import json
 import os
 import random
 import requests
 import shutil
 import sys
-import tempfile
 import threading
-from threading import Thread
 import time
 import tkinter as tk
 import tkinter.font as tkFont
 from PIL import Image, ImageTk
-from datetime import datetime, timedelta, timezone
 from tkinter import messagebox
 from win11toast import toast
 import subprocess
-import zipfile
 
 
 from file_operations import FileOperations
@@ -30,9 +25,9 @@ from jcy_assets import *
 from jcy_utils import *
 from upgrade_dialog import UpgradeDialog
 
-LOCAL_TZ = timezone(timedelta(hours=8))
 
 class FeatureController:
+
     def __init__(self, master):
         self.master = master
         self.dialogs = "" 
@@ -311,8 +306,6 @@ class FeatureController:
             UPSTAIRS_POINTER: self.file_operations.modify_upstairs_pointer,
             # 环境-下口指引
             DOWNSTAIRS_POINTER: self.file_operations.modify_downstairs_pointer,
-            # 环境-邻区指引
-            NEXTAREA_POINTER: self.file_operations.modify_nextarea_pointer,
             # 迷你盒子位置
             MINI_CUBE: self.file_operations.modify_mini_cube,
             # ESC设置
@@ -398,9 +391,11 @@ class FeatureController:
         # 显示结果
         return changes_detected
 
+
     def execute_feature_action(self, feature_id: str, value):
         jcy_config.SETTINGS[feature_id] = value
-    
+
+
     def open_appdata(self):
         subprocess.Popen(f'explorer "{CONFIG_PATH}"')  # 打开目录（Windows）
 
@@ -604,6 +599,7 @@ class TerrorZoneFetcher:
 
 if not getattr(sys, 'frozen', False):
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 
 if __name__ == "__main__":
     # ---- UAC ---- 

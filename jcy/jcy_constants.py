@@ -137,7 +137,6 @@ WAYPOINT_POINTER = "WayPointPointer"
 MISSION_POINTER = "MissionPointer"
 UPSTAIRS_POINTER = "UpstairsPointer"
 DOWNSTAIRS_POINTER = "DownstairsPointer"
-NEXTAREA_POINTER = "NextareaPointer"
 MINI_CUBE = "MiniCube"
 ESC_SETTING = "EscSetting"
 # Function Identifier -->
@@ -1021,7 +1020,6 @@ __all__ = [
     'MISSION_POINTER',
     'UPSTAIRS_POINTER',
     'DOWNSTAIRS_POINTER',
-    'NEXTAREA_POINTER',
     'MINI_CUBE',
     'ESC_SETTING',
     'GAME_MODEL',

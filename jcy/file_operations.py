@@ -2622,27 +2622,6 @@ class FileOperations:
         return (count, total)
 
 
-    def modify_nextarea_pointer(self, radio: str = "0"):
-        """环境-邻区指引"""
-         # 任务对象文件列表
-        _files = [
-            "data/hd/env/preset/act1/outdoors/bord1o.json",
-            "data/hd/env/preset/act1/outdoors/bord1oe.json",
-            "data/hd/env/preset/act1/outdoors/bord2o.json",
-            "data/hd/env/preset/act1/outdoors/bord2oe.json",
-            "data/hd/env/preset/act1/outdoors/bord3o.json",
-            "data/hd/env/preset/act1/outdoors/bord3oe.json",
-            "data/hd/env/preset/act1/outdoors/bord4o.json",
-            "data/hd/env/preset/act1/outdoors/bord4oe.json",
-            "data/hd/env/preset/act4/mesa/border1o.json",
-            "data/hd/env/preset/act4/mesa/border2o.json",
-            "data/hd/env/preset/act4/mesa/border3o.json",
-            "data/hd/env/preset/act4/mesa/border4o.json",
-        ]
-
-        return self.common_rename(_files, radio == "2")
-
-
     def filter_item_name(self, item_name: str, filter: bool) -> str:
         """
         filter=True  → 强制加 UE01A 前缀
