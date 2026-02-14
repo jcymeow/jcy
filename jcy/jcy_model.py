@@ -16,43 +16,33 @@ class FeatureConfig:
                     "text": "总体设置",
                     "children":[
                         {
-                            "fid": NETEASE_LANGUAGE,
+                            "fid": Function.ZHCN.value,
                             "type": RADIO,
                             "text": "网易国服-本地化(装备/道具/符文/符文之语/词缀/技能/地图)",
                             "colspan": 100,
                             "params": {
-                                ZHCN2: "简中翻译",
-                                ZHSGCN: "松岗简体",
-                                ENUS: "enUS",
-                                ZHTW2: "繁中翻译",
-                                ZHSGTW: "松崗繁體"
+                                Language.ZHCN.value: "简中翻译",
+                                Language.SGCN.value: "松岗简体",
+                                Language.ENUS.value: "enUS",
+                                Language.ZHTW.value: "繁中翻译",
+                                Language.SGTW.value: "松崗繁體"
                             }
                         },
                         {
-                            "fid": BATTLE_NET_LANGUAGE,
+                            "fid": Function.ZHTW.value,
                             "type": RADIO,
                             "text": "暴雪國際服-本地化(裝備/道具/符文/符文之語/詞綴/技能/地图)",
                             "colspan": 100,
                             "params": {
-                                ZHCN2: "简中翻译",
-                                ZHSGCN: "松岗简体",
-                                ENUS: "enUS",
-                                ZHTW2: "繁中翻译",
-                                ZHSGTW: "松崗繁體"
+                                Language.ZHCN.value: "简中翻译",
+                                Language.SGCN.value: "松岗简体",
+                                Language.ENUS.value: "enUS",
+                                Language.ZHTW.value: "繁中翻译",
+                                Language.SGTW.value: "松崗繁體"
                             }
                         },
                         {
                             "type": SEPARATOR
-                        },
-                        {
-                            "fid": TERROR_ZONE_SERVER,
-                            "type": RADIO,
-                            "text": "恐怖区域-服务器",
-                            "colspan": 40,
-                            "params": {
-                                "1": "暴雪国际服",
-                                "2": "网易国服"
-                            }
                         },
                         {
                             "fid": TERROR_ZONE_LANGUAGE,

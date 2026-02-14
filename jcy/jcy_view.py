@@ -241,8 +241,8 @@ class FeatureView:
 
             elif TERROR_ZONE_TABLE == type:
                 current_row += 1
-                tz = TerrorZoneUI(tab, self.controller)
-                tz.grid(row=current_row, column=0, columnspan=100, sticky="nsew")
+                self.tz_tab = TerrorZoneUI(tab, self.controller)
+                self.tz_tab.grid(row=current_row, column=0, columnspan=100, sticky="nsew")
                 current_row += 1
                 current_col = 0
 
@@ -417,8 +417,6 @@ class FeatureView:
                     self.apply_button.config(state='disabled')
                 except tk.TclError:
                     pass
-                if selected == "恐怖区域":
-                    self.tz_tab.load_and_display_data()
             else:
                 try:
                     self.apply_button.config(state='normal')

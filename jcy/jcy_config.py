@@ -17,3 +17,12 @@ TERROR_ZONE = {}
 
 # 本地化
 LOCAL = {}
+
+# 暗金物品
+UNIQUEITEMS = []
+
+# 套装
+SETS = []
+
+# 套装组件
+SETITEMS = []

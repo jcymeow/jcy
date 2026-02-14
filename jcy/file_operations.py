@@ -2742,22 +2742,10 @@ class FileOperations:
 
 
     def select_language(self, radio: str):
-        """删除恐怖地带文件"""
-        count = 0
-        if TERROR_ZONE_PATH.exists():
-            TERROR_ZONE_PATH.unlink
-            count += 1
-        return (count, 1, "重启控制器生效!")
-    
+        """刷新控制器恐怖地带列表"""
+        self.controller.feature_view.tz_tab.load_and_display_data()
+        return 1, 1
 
-    def select_server(self, radio: str):
-        """删除恐怖地带文件"""
-        count = 0
-        if TERROR_ZONE_PATH.exists():
-            TERROR_ZONE_PATH.unlink
-            count += 1
-        return (count, 1, "重启控制器生效!")
-    
 
     def modify_selected_language(self, select_language: str):
         """修改本地化文件列表, 选中语言内容"""

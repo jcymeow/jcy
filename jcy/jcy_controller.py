@@ -73,6 +73,10 @@ class FeatureController:
         jcy_config.TERROR_ZONE = self.file_operations.load_terror_zone_mapper()
         # 加载字典
         jcy_config.LOCAL = self.file_operations.load_dicts()
+
+        jcy_config.UNIQUEITEMS = self.file_operations.load_uniqueitems()
+        jcy_config.SETS = self.file_operations.load_sets()
+        jcy_config.SETITEMS = self.file_operations.load_setitems()
         
         # 升级检查
         need_upgrade = ensure_appdata_files()
@@ -226,18 +230,18 @@ class FeatureController:
         """
         
         self._handlers = {
+
+            # 网易国服语言翻译(装备/道具/符文/符文之语)
+            Function.ZHCN.value: self.file_operations.modify_zhCN_language,
+            # 暴雪国际服语言翻译(装备/道具/符文/符文之语)
+            Function.ZHTW.value: self.file_operations.modify_zhTW_language,
+
             # 道具屏蔽
             ITEM_FILTER: self.file_operations.modify_item_filter,
-            # 恐怖区域-服务器
-            TERROR_ZONE_SERVER: self.file_operations.select_server,
             # 恐怖区域-语言
             TERROR_ZONE_LANGUAGE: self.file_operations.select_language,
             # 恐怖区域-预告
             TERROR_ZONE_NEXT: self.file_operations.terror_zone_next,
-            # 网易国服语言翻译(装备/道具/符文/符文之语)
-            NETEASE_LANGUAGE: self.file_operations.select_netease_language,
-            # 暴雪国际服语言翻译(装备/道具/符文/符文之语)
-            BATTLE_NET_LANGUAGE: self.file_operations.select_battle_net_language,
             # 游戏设置
             GAME_SETTING: self.file_operations.select_game_setting,
             # 游戏设置2
