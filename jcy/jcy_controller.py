@@ -61,7 +61,6 @@ class FeatureController:
 
         # 文件操作类
         self.file_operations = FileOperations(self)
-        init_global_dict(self.file_operations)
         # 同步APP信息到JSON
         self.file_operations.sync_app_data()
         # 注册控制器方法
@@ -70,9 +69,11 @@ class FeatureController:
         self.file_operations.load_asset_config()
         # 扫描素材包
         self.file_operations.scan_asset_package()
-        # 读取恐怖区域配置
-        self.file_operations.load_jcy_zones()
-
+        # 读取恐怖区域映射
+        jcy_config.TERROR_ZONE = self.file_operations.load_terror_zone_mapper()
+        # 加载字典
+        jcy_config.LOCAL = self.file_operations.load_dicts()
+        
         # 升级检查
         need_upgrade = ensure_appdata_files()
         if need_upgrade:
@@ -100,7 +101,7 @@ class FeatureController:
                 # 解析当前 slice
                 rec = data.get("data", [])[0] if data.get("data") else {}
                 raw_time = rec.get("time")
-                raw_zone = rec.get("zone", [])
+                raw_zone = rec.get("zone")
 
                 # 时间字符串
                 formatted_time = (
@@ -112,9 +113,21 @@ class FeatureController:
                 tz_list = [formatted_time]
 
                 tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
-                for zone_id in raw_zone:
-                    zone = jcy_config.TERROR_ZONE.get(str(zone_id), {})
-                    tz_list.append(zone.get(tz_lang, f"未知区域({zone_id})"))
+
+                if isinstance(raw_zone, str):
+                    level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
+                    for level_key in level_keys:
+                        level = jcy_config.LOCAL.get(level_key, {})
+                        level_name = level.get(tz_lang, f"未知区域({level_key})")
+                        tz_list.append(level_name)
+
+                elif isinstance(raw_zone, list):
+                    for zone_id in raw_zone:
+                        level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
+                        level = jcy_config.LOCAL.get(level_key, {})
+                        level_name = level.get(tz_lang, f"未知区域({zone_id})")
+                        tz_list.append(level_name)
+                
 
                 # 去重 + 保序
                 tz_list = list(dict.fromkeys(tz_list))

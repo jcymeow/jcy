@@ -36,6 +36,14 @@ def play_flac(path):
     else:
         print("文件不存在:", path)
 
+def translate(text: str) -> str:
+    """如果首位是 @ 则按字典翻译，否则原样返回"""
+    if isinstance(text, str) and text.startswith('@'):
+        key = text[1:]  # 去掉@
+        _dict =  jcy_config.LOCAL.get(key, {})
+        return _dict.get(ZHTW, f"未知翻译({key})")
+    return text
+
 class FeatureView:
     """
     UI控制
@@ -1345,20 +1353,37 @@ class TerrorZoneUI(tk.Frame):
                 if isinstance(item, dict):
                     raw_time = item.get("time")
                     raw_zone = item.get("zone")
-
+                    
+                    # 时间
                     formatted_time = (
                         time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time))
                         if raw_time else "未知时间"
                     )
-                    
-                    zone_names = []
+
+                    # 恐怖地带
+                    tz_list = []
+
                     tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
-                    for zone_id in raw_zone:
-                        zone = jcy_config.TERROR_ZONE.get(str(zone_id), {})
-                        zone_names.append(zone.get(tz_lang, "未知区域"))
-                    unique_names = list(dict.fromkeys(zone_names))
-                    name = " ".join(unique_names)
-                   
+                    
+                    if isinstance(raw_zone, str):
+                        level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
+                        for level_key in level_keys:
+                            level = jcy_config.LOCAL.get(level_key, {})
+                            level_name = level.get(tz_lang, f"未知区域({level_key})")
+                            tz_list.append(level_name)
+
+                    elif isinstance(raw_zone, list):
+                        for zone_id in raw_zone:
+                            level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
+                            level = jcy_config.LOCAL.get(level_key, {})
+                            level_name = level.get(tz_lang, f"未知区域({zone_id})")
+                            tz_list.append(level_name)
+
+                    # 去重 + 保序
+                    tz_list = list(dict.fromkeys(tz_list))
+
+                    name = " ".join(tz_list)
+
                     self.tree.insert("", "end", values=(formatted_time, name))
         except Exception as e:
             messagebox.showerror("错误", f"加载数据失败: {e}")

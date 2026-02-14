@@ -14,3 +14,6 @@ ASSET_COUNT = {}
 
 # 恐怖区域
 TERROR_ZONE = {}
+
+# 本地化
+LOCAL = {}

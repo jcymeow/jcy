@@ -1,4 +1,5 @@
 from enum import Enum, auto
+from jcy_config import *
 """
 常量模块
 """
@@ -60,21 +61,6 @@ REGION_NAME_MAP = {
 # Unicode私有区字符 for 屏蔽道具
 UE01A = "" * 41
 
-# 全局字典
-GLOBAL_DICT = {}
-
-def init_global_dict(file_operations):
-    GLOBAL_DICT.clear()
-    GLOBAL_DICT.update(file_operations.load_global_dict())
-
-def translate(text: str) -> str:
-    """如果首位是 @ 则按字典翻译，否则原样返回"""
-    if isinstance(text, str) and text.startswith('@'):
-        key = text[1:]  # 去掉@
-        _dict = GLOBAL_DICT.get(key)
-        if _dict: 
-            return _dict[ZHCN]
-    return text
 
 GOLD_NAMES = [
     {
@@ -1538,6 +1524,7 @@ class Operation(Enum):
     RESOTRE = 0
     BACKUP = 1
 
+
 class Methods(Enum):
 
     BACKUP_RESOTRE_FILES = auto()
@@ -1642,7 +1629,6 @@ __all__ = [
     'REGION_NAME_MAP',
     'UE01A',
     'TERROR_ZONE_API',
-    'TERROR_ZONE_DICT',
     'SETS_INDEX',
     'SET_ITEM_INDEX',
     'ITEM_BASE',
@@ -1686,6 +1672,4 @@ __all__ = [
     'HIRE_SKIN_REMOVE',
     'HUD_SKIN_APPLY',
     'HUD_SKIN4_APPLY',
-    'init_global_dict',
-    'translate',
 ]

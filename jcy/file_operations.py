@@ -4141,29 +4141,6 @@ class FileOperations:
         return (count, total)
 
 
-    def load_global_dict(self):
-        """初始化全局字典"""
-        
-        _files = [
-            r"data/local/lng/strings/item-names.json",
-            r"data/local/lng/strings/item-runes.json",
-            r"data/local/lng/strings/skills.json",
-        ]
-
-        _dict = {}
-
-        for _file in _files:
-            json_data = None
-            json_path = os.path.join(MOD_PATH, _file)
-            with open(json_path, "r", encoding="utf-8-sig") as f:
-                json_data = json.load(f)
-            
-            for entity in json_data:
-                _dict[entity.get("Key")] = entity
-
-        return _dict
-
-
     def terror_zone_next(self, keys: list):
         """恐怖区域-预告"""
         if keys is None:
@@ -4203,13 +4180,37 @@ class FileOperations:
         return item_names_data
 
 
-    def load_jcy_zones(self):
-        file_path = os.path.join(MOD_PATH, r"jcy/zones.json")
+    def load_terror_zone_mapper(self):
+        file_path = os.path.join(MOD_PATH, r"jcy/levels.mapper.json")
         with open(file_path, 'r', encoding='utf-8') as f:
-            jcy_config.TERROR_ZONE = json.load(f)
+            return json.load(f)
 
 
     def save_terror_zone(self, data):
         file_path = os.path.join(TERROR_ZONE_PATH)
         with open(file_path, 'w', encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+    def load_dicts(self):
+        """加载字典"""
+
+        _files = [
+            r"original/item-names.json",
+            r"original/item-runes.json",
+            r"original/levels.json",
+            r"original/skills.json",
+        ]
+
+        _dict = {}
+
+        for _file in _files:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, _file)
+            with open(json_path, "r", encoding="utf-8-sig") as f:
+                json_data = json.load(f)
+            
+            for entity in json_data:
+                _dict[entity.get("Key")] = entity
+
+        return _dict        
