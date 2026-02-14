@@ -1,0 +1,147 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/objects/env_pillars/arcane_tome/model/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/objects/env_pillars/arcane_tome/skeleton/arcane_tome.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_alb.texture"
+            },
+            {
+                "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_nrm.texture"
+            },
+            {
+                "path": "data/hd/objects/env_pillars/arcane_tome/texture/arcane_tome_orm.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/objects/env_pillars/arcane_tome/arcane_tome_state_machine.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "arcane_tome",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3798984492,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/objects/env_pillars/arcane_tome/arcane_tome_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/objects/env_pillars/arcane_tome/skeleton/arcane_tome.skeleton"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 359275748,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/objects/env_pillars/arcane_tome/model/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_torso_TransformDefinition",
+                    "position": {
+                        "x": 1.1,
+                        "y": 0.0,
+                        "z": 0.85
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 586091852,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "prefab_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 25.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PrefabPlacementDefinitionComponent",
+                    "name": "prefab_PrefabPlacementDefinitionComponent",
+                    "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
+                }
+            ]
+        }
+    ]
+}

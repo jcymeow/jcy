@@ -1728,7 +1728,7 @@ class FileOperations:
                             arr.append(item.get(ENUS))
                         item[lng] = ''.join(arr)
                 
-                elif Key in ITEM_UNIQUE:
+                elif Key in jcy_config.UNIQUEITEMS:
                     # 暗金装
                     for lng in _languages:
                         arr = []
@@ -1752,7 +1752,7 @@ class FileOperations:
                             arr.append(item.get(ENUS))
                         item[lng] = ''.join(arr)
                 
-                elif Key in SETS_INDEX or Key in SET_ITEM_INDEX:
+                elif Key in jcy_config.SETS or Key in jcy_config.SETITEMS:
                     # 套装
                     for lng in _languages:
                         arr = []
@@ -2432,19 +2432,19 @@ class FileOperations:
         
         # 任务对象文件列表
         _files = [
-            "data/hd/character/enemy/smith.json",
             "data/hd/character/enemy/radament.json",
             "data/hd/character/enemy/maggotqueen1.json",
-            "data/hd/character/enemy/summoner.json",
             "data/hd/character/enemy/izual.json",
-            "data/hd/character/enemy/hephasto.json",
             "data/hd/character/enemy/prisondoor.json",
             "data/hd/character/enemy/nihlathakboss.json",
             "data/hd/character/enemy/Uberandariel.json",
             "data/hd/character/enemy/Uberduriel.json",
+            "data/hd/objects/armor_weapons/malus.json",
+            "data/hd/objects/env_manmade/soul_stone_forge.json",
             "data/hd/objects/env_stone/Stone_alpha.json",
             "data/hd/objects/env_wood/inifuss_tree.json",
-            "data/hd/objects/env_pillars/Seven_tombs_receptacle.json",
+            "data/hd/objects/env_pillars/arcane_tome.json",
+            "data/hd/objects/env_pillars/seven_tombs_receptacle.json",
             "data/hd/objects/env_organic/gid_b_inn_decoy.json",
             "data/hd/roomtiles/act_1_wilderness_to_tower.json",
             "data/hd/roomtiles/act_2_desert_to_tomb_l_2.json",
@@ -2758,34 +2758,42 @@ class FileOperations:
             count += 1
         return (count, 1, "重启控制器生效!")
     
-    
-    def select_netease_language(self, radio: str):
-        """国服文字选择"""
-        if radio not in LANGUAGES:
-            radio = ZHCN2
+
+    def modify_selected_language(self, select_language: str):
+        """修改本地化文件列表, 选中语言内容"""
+        
+        _files = [
+            "item-gems.json",
+            "item-modifiers.json",
+            "item-nameaffixes.json",
+            "item-names.json",
+            "item-runes.json",
+            "levels.json",
+            "monsters.json",
+            "npcs.json",
+            "objects.json",
+            "quests.json",
+            "shrines.json",
+            "skills.json",
+        ]
 
         count = 0
-        total = len(LNG_STRINGS)
+        total = len(_files)
 
-        for file in LNG_STRINGS:
+        lng = jcy_config.SETTINGS.get(select_language, ZHTW)
+
+        for _file in _files:
             json_data = None
-            json_path = os.path.join(MOD_PATH, file)
+            json_path = os.path.join(MOD_PATH, "data/local/lng/strings", _file)
 
             try:
-                # 1.load
                 with open(json_path, 'r', encoding='utf-8-sig') as f:
                     json_data = json.load(f)
 
-                # 2.modify 
-                for obj in json_data:
-                    # 鲁棒性
-                    if ZHCN2 not in obj:
-                        obj[ZHCN2] = obj[ZHCN]
-                    if ZHTW2 not in obj:
-                        obj[ZHTW2] = obj[ZHTW]
-                    obj[ZHCN] = obj[radio]
-                
-                # 3.write
+                for item in json_data:
+                    key = item.get("Key")
+                    item[select_language] = jcy_config.LOCAL.get(key, {}).get(lng, key)
+                                
                 with open(json_path, 'w', encoding="utf-8-sig") as f:
                     json.dump(json_data, f, ensure_ascii=False, indent=2)
 
@@ -2793,44 +2801,18 @@ class FileOperations:
             except Exception as e:
                 print(f"[Error] {json_path}: {e}")
 
-        return (count, total)
-    
+        return count, total
 
-    def select_battle_net_language(self, radio: str):
+
+    def modify_zhCN_language(self, radio: str):
+        """网易国服-本地化"""
+        return self.modify_selected_language(ZHCN)
+        
+
+
+    def modify_zhTW_language(self, radio: str):
         """国际服文字选择"""
-        if radio not in LANGUAGES:
-            radio = ZHTW2
-
-        count = 0
-        total = len(LNG_STRINGS)
-
-        for file in LNG_STRINGS:
-            json_data = None
-            json_path = os.path.join(MOD_PATH, file)
-
-            try:
-                # 1.load
-                with open(json_path, 'r', encoding='utf-8-sig') as f:
-                    json_data = json.load(f)
-
-                # 2.modify 
-                for obj in json_data:
-                    # 鲁棒性
-                    if ZHCN2 not in obj:
-                        obj[ZHCN2] = obj[ZHCN]
-                    if ZHTW2 not in obj:
-                        obj[ZHTW2] = obj[ZHTW]
-                    obj[ZHTW] = obj[radio]
-                
-                # 3.write
-                with open(json_path, 'w', encoding="utf-8-sig") as f:
-                    json.dump(json_data, f, ensure_ascii=False, indent=2)
-
-                count += 1
-            except Exception as e:
-                print(f"[Error] {json_path}: {e}")
-
-        return (count, total)
+        return self.modify_selected_language(ZHTW)
 
 
     def select_game_setting(self, keys: list):
@@ -4214,3 +4196,63 @@ class FileOperations:
                 _dict[entity.get("Key")] = entity
 
         return _dict        
+
+
+    def load_uniqueitems(self):
+        uniqueitems = []
+        try:
+            path = os.path.join(MOD_PATH, r"original/uniqueitems.txt")
+
+            rows = []
+            with open(path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f, delimiter="\t")
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+
+            for row in rows:
+                index = row["index"]
+                uniqueitems.append(index)
+        except Exception as e:
+            print(e)
+        
+        return uniqueitems
+
+
+    def load_sets(self):
+        sets = []
+        try:
+            path = os.path.join(MOD_PATH, r"original/sets.txt")
+
+            rows = []
+            with open(path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f, delimiter="\t")
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+
+            for row in rows:
+                index = row["index"]
+                sets.append(index)
+        except Exception as e:
+            print(e)
+        
+        return sets
+
+
+    def load_setitems(self):
+        setitems = []
+        try:
+            path = os.path.join(MOD_PATH, r"original/setitems.txt")
+
+            rows = []
+            with open(path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f, delimiter="\t")
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+
+            for row in rows:
+                index = row["index"]
+                setitems.append(index)
+        except Exception as e:
+            print(e)
+        
+        return setitems

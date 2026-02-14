@@ -1,0 +1,180 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/objects/armor_weapons/malus/model/torso.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/objects/armor_weapons/malus/skeleton/malus.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/objects/armor_weapons/malus/texture/armor_weapons_malus_alb.texture"
+            },
+            {
+                "path": "data/hd/objects/armor_weapons/malus/texture/armor_weapons_malus_nrm.texture"
+            },
+            {
+                "path": "data/hd/objects/armor_weapons/malus/texture/armor_weapons_malus_orm.texture"
+            },
+            {
+                "path": "data/hd/objects/armor_weapons/malus/texture/w039_Hammer_invhmr_alb.texture"
+            },
+            {
+                "path": "data/hd/objects/armor_weapons/malus/texture/w039_Hammer_invhmr_nrm.texture"
+            },
+            {
+                "path": "data/hd/objects/armor_weapons/malus/texture/w039_Hammer_invhmr_orm.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/objects/armor_weapons/malus/malus_state_machine.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "malus",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 1546731796,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "component_root",
+                    "state_machine_filename": "data/hd/objects/armor_weapons/malus/malus_state_machine.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "component_skeleton",
+                    "filename": "data/hd/objects/armor_weapons/malus/skeleton/malus.skeleton",
+                    "enableWeaponAttachInertialization": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_torso",
+            "id": 2402055628,
+            "components": [
+                {
+                    "type": "UnitPartComponent",
+                    "name": "component_part_torso",
+                    "part": "torso",
+                    "variant": "lit"
+                },
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "component_model_torso",
+                    "filename": "data/hd/objects/armor_weapons/malus/model/torso.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_light",
+            "id": 1217520629,
+            "components": [
+                {
+                    "type": "PointLightDefinitionComponent",
+                    "name": "entity_light_PointLightDefinition",
+                    "color": {
+                        "x": 1.0,
+                        "y": 0.172549,
+                        "z": 0.0
+                    },
+                    "power": 5000.0,
+                    "radius": 10.0,
+                    "attenuation": 2.0,
+                    "lightMask": 1,
+                    "isLocalLight": false,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_light_TransformDefinition",
+                    "position": {
+                        "x": -2.0,
+                        "y": 5.0,
+                        "z": 4.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 586091852,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "prefab_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 25.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PrefabPlacementDefinitionComponent",
+                    "name": "prefab_PrefabPlacementDefinitionComponent",
+                    "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
+                }
+            ]
+        }
+    ]
+}
