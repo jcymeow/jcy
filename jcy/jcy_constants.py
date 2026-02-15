@@ -107,9 +107,6 @@ GOLD_NAMES = [
 NETEASE_LANGUAGE = "NeteaseLanguage"
 BATTLE_NET_LANGUAGE = "BattleNetLanguage"
 
-GAME_SETTING = "GameSetting"
-GAME_SETTING2 = "GameSetting2"
-GAME_SETTING3 = "GameSetting3"
 CONTROLS_SETTING = "ControlsSetting"
 HUD_SIZE = "HudSize"
 PORTAL_SKIN = "ProtalSkin"
@@ -909,6 +906,9 @@ class Function(Enum):
     TERROR_ZONE_NEXT = "TerrorZoneNext"
     TERROR_ZONE_TABLE = "TerrorZoneTable"
 
+    GAME_SETTING = "GameSetting"
+    GAME_SETTING2 = "GameSetting2"
+
 
 class Language(Enum):
     ENUS = "enUS"
@@ -976,9 +976,6 @@ __all__ = [
     'NETEASE_LANGUAGE',
     'BATTLE_NET_LANGUAGE',
     'GOLD_NAMES',
-    'GAME_SETTING',
-    'GAME_SETTING2',
-    'GAME_SETTING3',
     'CONTROLS_SETTING',
     'HUD_SIZE',
     'PORTAL_SKIN',

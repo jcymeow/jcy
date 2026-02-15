@@ -236,13 +236,14 @@ class FeatureController:
             Function.TERROR_ZONE_LANGUAGE.value: self.file_operations.select_language,
             # 恐怖区域-预告
             Function.TERROR_ZONE_NEXT.value: self.file_operations.terror_zone_next,
+            
+            # 游戏设置
+            Function.GAME_SETTING.value: self.file_operations.select_game_setting,
+            # 游戏设置2
+            Function.GAME_SETTING2.value: self.file_operations.select_game_setting2,
 
             # 道具屏蔽
             ITEM_FILTER: self.file_operations.modify_item_filter,
-            # 游戏设置
-            GAME_SETTING: self.file_operations.select_game_setting,
-            # 游戏设置2
-            GAME_SETTING2: self.file_operations.select_game_setting2,
             # 控件设置
             CONTROLS_SETTING: self.file_operations.select_controls_setting,
             # 传送门皮肤

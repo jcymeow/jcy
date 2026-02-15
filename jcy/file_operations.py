@@ -310,7 +310,7 @@ class FileOperations:
 
     def modify_hud_skin(self):
         # ---- 1/6/7 统一处理, 修改hudpanel.json ----
-        game_setting2 = jcy_config.SETTINGS.get(GAME_SETTING2, [])
+        game_setting2 = jcy_config.SETTINGS.get(Function.GAME_SETTING2.value, [])
         hide_quest = "1" in game_setting2
         move_down = "6" in game_setting2
         dont_touch = "7" in game_setting2
@@ -393,7 +393,7 @@ class FileOperations:
 
     def modify_hud4_skin(self):
         # ---- 1/6/7 统一处理, 修改hudpanel.json ----
-        game_setting2 = jcy_config.SETTINGS.get(GAME_SETTING2, [])
+        game_setting2 = jcy_config.SETTINGS.get(Function.GAME_SETTING2.value, [])
         hide_quest = "1" in game_setting2
         move_down = "6" in game_setting2
         dont_touch = "7" in game_setting2
@@ -2743,7 +2743,7 @@ class FileOperations:
                 # 恐怖地带
                 tz_list = [formatted_time]
 
-                tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
+                tz_lang = jcy_config.SETTINGS.get(Function.TERROR_ZONE_LANGUAGE.value, "zhTW")
                 
                 if isinstance(raw_zone, str):
                     level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
@@ -3156,10 +3156,9 @@ class FileOperations:
             "6": [
                 r"data/global/ui/layouts/vendorpanellayouthd.json",
             ],
-            # 经验/宝石祭坛特效标识
+            # 经验祭坛特效标识
             "7":[
                 r"data/hd/overlays/common/shrine_experience.json",
-                r"data/hd/overlays/common/shrine_stamina.json",
             ],
         }
 

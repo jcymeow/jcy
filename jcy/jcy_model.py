@@ -77,7 +77,7 @@ class FeatureConfig:
                     "text": "游戏&环境",
                     "children": [
                         {
-                            "fid": GAME_SETTING,
+                            "fid": Function.GAME_SETTING.value,
                             "type": CHECK,
                             "text": "游戏设置1",
                             "colspan": 100,
@@ -86,11 +86,11 @@ class FeatureConfig:
                                 "3": "更大的好友菜单",
                                 "4": "画面变亮",
                                 "6": "左键快速购买",
-                                "7": "经验/宝石祭坛特效标识",
+                                "7": "经验祭坛特效标识",
                             }
                         },
                         {
-                            "fid": GAME_SETTING2,
+                            "fid": Function.GAME_SETTING2.value,
                             "type": CHECK,
                             "text": "游戏设置2",
                             "colspan": 100,
