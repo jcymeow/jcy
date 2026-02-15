@@ -1,0 +1,402 @@
+{
+    "shrine": {
+        "Key": "shrine",
+        "enUS": "shrine",
+        "zhCN": "聖壇",
+        "zhTW": "聖壇",
+        "sgCN": "神殿",
+        "sgTW": "神殿"
+    },
+    "Shrine": {
+        "Key": "Shrine",
+        "enUS": "Shrine",
+        "zhCN": "聖壇",
+        "zhTW": "聖壇",
+        "sgCN": "神殿",
+        "sgTW": "神殿"
+    },
+    "ShrMsg0": {
+        "Key": "ShrMsg0",
+        "enUS": "You feel nothing.",
+        "zhCN": "你沒有任何感覺。",
+        "zhTW": "你沒有任何感覺。",
+        "sgCN": "你完全没有特別感觉。",
+        "sgTW": "你完全沒有特別感覺。"
+    },
+    "ShrMsg1": {
+        "Key": "ShrMsg1",
+        "enUS": "You feel refreshed.",
+        "zhCN": "你感到精神百倍。",
+        "zhTW": "你感到精神百倍。",
+        "sgCN": "你觉得重生一般。",
+        "sgTW": "你覺得重生一般。"
+    },
+    "ShrMsg2": {
+        "Key": "ShrMsg2",
+        "enUS": "You feel healthy.",
+        "zhCN": "你感到生命力旺盛。",
+        "zhTW": "你感到生命力旺盛。",
+        "sgCN": "你觉得活力无限。",
+        "sgTW": "你覺得活力無限。"
+    },
+    "ShrMsg3": {
+        "Key": "ShrMsg3",
+        "enUS": "You feel recharged.",
+        "zhCN": "你感到能量充沛。",
+        "zhTW": "你感到能量充沛。",
+        "sgCN": "你觉得能力全满。",
+        "sgTW": "你覺得能量全滿。"
+    },
+    "ShrMsg4": {
+        "Key": "ShrMsg4",
+        "enUS": "You feel incredibly healthy.",
+        "zhCN": "你感到生命力無比旺盛。",
+        "zhTW": "你感到生命力無比旺盛。",
+        "sgCN": "你觉得生命不可思议的加强。",
+        "sgTW": "你覺得生命不可思議的加強。"
+    },
+    "ShrMsg5": {
+        "Key": "ShrMsg5",
+        "enUS": "You feel infused with energy.",
+        "zhCN": "你感到體內能量滿溢。",
+        "zhTW": "你感到體內能量滿溢。",
+        "sgCN": "你觉得体内灌入不可思议的能量。",
+        "sgTW": "你覺得體內灌入不可思議的能量。"
+    },
+    "ShrMsg6": {
+        "Key": "ShrMsg6",
+        "enUS": "Your skin hardens.",
+        "zhCN": "你的皮膚變硬了。",
+        "zhTW": "你的皮膚變硬了。",
+        "sgCN": "你的皮肤变硬了。",
+        "sgTW": "你的皮膚變硬了。"
+    },
+    "ShrMsg7": {
+        "Key": "ShrMsg7",
+        "enUS": "You feel ready for battle.",
+        "zhCN": "你感到隨時能投身戰場。",
+        "zhTW": "你感到隨時能投身戰場。",
+        "sgCN": "你你觉得随时可以战斗。",
+        "sgTW": "你覺得隨時可以戰鬥。"
+    },
+    "ShrMsg8": {
+        "Key": "ShrMsg8",
+        "enUS": "You no longer fear fire.",
+        "zhCN": "你不再畏懼火焰了。",
+        "zhTW": "你不再畏懼火焰了。",
+        "sgCN": "你不再畏惧火焰。",
+        "sgTW": "你不再畏懼火焰了。"
+    },
+    "ShrMsg9": {
+        "Key": "ShrMsg9",
+        "enUS": "You no longer fear cold.",
+        "zhCN": "你不再畏懼冰寒了。",
+        "zhTW": "你不再畏懼冰寒了。",
+        "sgCN": "你不再畏惧寒冷。",
+        "sgTW": "你不再畏懼冰凍了。"
+    },
+    "ShrMsg10": {
+        "Key": "ShrMsg10",
+        "enUS": "You no longer fear lightning.",
+        "zhCN": "你不再畏懼電擊了。",
+        "zhTW": "你不再畏懼電擊了。",
+        "sgCN": "你不再畏惧闪电。",
+        "sgTW": "你不再畏懼閃電了。"
+    },
+    "ShrMsg11": {
+        "Key": "ShrMsg11",
+        "enUS": "You no longer fear poison.",
+        "zhCN": "你不再畏懼毒素了。",
+        "zhTW": "你不再畏懼毒素了。",
+        "sgCN": "你不再畏惧毒素。",
+        "sgTW": "你不再畏懼毒素了。"
+    },
+    "ShrMsg12": {
+        "Key": "ShrMsg12",
+        "enUS": "You feel more skillful.",
+        "zhCN": "你感到技巧變得熟練。",
+        "zhTW": "你感到技巧變得熟練。",
+        "sgCN": "你感觉得技能变强了。",
+        "sgTW": "你覺得技能變強了。"
+    },
+    "ShrMsg13": {
+        "Key": "ShrMsg13",
+        "enUS": "Your spiritual force recovers quickly.",
+        "zhCN": "你的精神力量快速回復。",
+        "zhTW": "你的精神力量快速回復。",
+        "sgCN": "你的精神力量快速回复。",
+        "sgTW": "你的精神力量快速的回復。"
+    },
+    "ShrMsg14": {
+        "Key": "ShrMsg14",
+        "enUS": "The weight of the world seems lighter.",
+        "zhCN": "世界的重量似乎變輕了。",
+        "zhTW": "世界的重量似乎變輕了。",
+        "sgCN": "世界的重量似乎变轻了。",
+        "sgTW": "世界的重量似乎變輕了。"
+    },
+    "ShrMsg15": {
+        "Key": "ShrMsg15",
+        "enUS": "Your experience teaches you well.",
+        "zhCN": "你的經驗讓你更上層樓。",
+        "zhTW": "你的經驗讓你更上層樓。",
+        "sgCN": "你的经验让你更上层楼。",
+        "sgTW": "你的經驗讓你更上層樓。"
+    },
+    "ShrMsg16": {
+        "Key": "ShrMsg16",
+        "enUS": "Your sense of identity is subtly changed.",
+        "zhCN": "你對自我的認知隱約改變了。",
+        "zhTW": "你對自我的認知隱約改變了。",
+        "sgCN": "你辨认的感官变得更敏锐了。",
+        "sgTW": "你辨認的感官變得更敏銳了。"
+    },
+    "ShrMsg17": {
+        "Key": "ShrMsg17",
+        "enUS": "The freedom to go home...",
+        "zhCN": "回家的自由…",
+        "zhTW": "回家的自由…",
+        "sgCN": "回家的自由……",
+        "sgTW": "回家的自由..."
+    },
+    "ShrMsg18": {
+        "Key": "ShrMsg18",
+        "enUS": "A marvelous gem...",
+        "zhCN": "華貴的寶石…",
+        "zhTW": "華貴的寶石…",
+        "sgCN": "一个神奇的宝石……",
+        "sgTW": "一個神奇的寶石..."
+    },
+    "ShrMsg19": {
+        "Key": "ShrMsg19",
+        "enUS": "A fiery death...",
+        "zhCN": "火熱的死亡…",
+        "zhTW": "火熱的死亡…",
+        "sgCN": "一个惨烈的死亡……",
+        "sgTW": "一個慘烈的死亡..."
+    },
+    "ShrMsg20": {
+        "Key": "ShrMsg20",
+        "enUS": "Death's advocate approaches.",
+        "zhCN": "死亡的代言人逼近了。",
+        "zhTW": "死亡的代言人逼近了。",
+        "sgCN": "死亡的代言人靠近了。",
+        "sgTW": "死亡的代言人靠近了。"
+    },
+    "ShrMsg21": {
+        "Key": "ShrMsg21",
+        "enUS": "A circle of flame...",
+        "zhCN": "火焰之環…",
+        "zhTW": "火焰之環…",
+        "sgCN": "火焰之环……",
+        "sgTW": "火焰之環..."
+    },
+    "ShrMsg22": {
+        "Key": "ShrMsg22",
+        "enUS": "A circle of death...",
+        "zhCN": "死亡之環…",
+        "zhTW": "死亡之環…",
+        "sgCN": "死亡之环……",
+        "sgTW": "死亡之環..."
+    },
+    "ShrId0": {
+        "Key": "ShrId0",
+        "enUS": "Null Shrine",
+        "zhCN": "空無聖壇",
+        "zhTW": "空無聖壇",
+        "sgCN": "空的神殿",
+        "sgTW": "空的神殿"
+    },
+    "ShrId1": {
+        "Key": "ShrId1",
+        "enUS": "Refilling Shrine",
+        "zhCN": "回復聖壇",
+        "zhTW": "回復聖壇",
+        "sgCN": "回复神殿",
+        "sgTW": "回復神殿"
+    },
+    "ShrId2": {
+        "Key": "ShrId2",
+        "enUS": "Health Shrine",
+        "zhCN": "生命聖壇",
+        "zhTW": "生命聖壇",
+        "sgCN": "生命神殿",
+        "sgTW": "生命神殿"
+    },
+    "ShrId3": {
+        "Key": "ShrId3",
+        "enUS": "Mana Shrine",
+        "zhCN": "法力聖壇",
+        "zhTW": "法力聖壇",
+        "sgCN": "法力神殿",
+        "sgTW": "法力神殿"
+    },
+    "ShrId4": {
+        "Key": "ShrId4",
+        "enUS": "Health Exchange Shrine",
+        "zhCN": "生命交換聖壇",
+        "zhTW": "生命交換聖壇",
+        "sgCN": "生命交换神殿",
+        "sgTW": "生命交換神殿"
+    },
+    "ShrId5": {
+        "Key": "ShrId5",
+        "enUS": "Mana Exchange Shrine",
+        "zhCN": "法力交換聖壇",
+        "zhTW": "法力交換聖壇",
+        "sgCN": "法力交换神殿",
+        "sgTW": "法力交換神殿"
+    },
+    "ShrId6": {
+        "Key": "ShrId6",
+        "enUS": "Armor Shrine",
+        "zhCN": "護甲聖壇",
+        "zhTW": "護甲聖壇",
+        "sgCN": "装甲神殿",
+        "sgTW": "裝甲神殿"
+    },
+    "ShrId7": {
+        "Key": "ShrId7",
+        "enUS": "Combat Shrine",
+        "zhCN": "作戰聖壇",
+        "zhTW": "作戰聖壇",
+        "sgCN": "作战神殿",
+        "sgTW": "作戰神殿"
+    },
+    "ShrId8": {
+        "Key": "ShrId8",
+        "enUS": "Resist Fire Shrine",
+        "zhCN": "抗火聖壇",
+        "zhTW": "抗火聖壇",
+        "sgCN": "抗火焰神殿",
+        "sgTW": "抗火焰神殿"
+    },
+    "ShrId9": {
+        "Key": "ShrId9",
+        "enUS": "Resist Cold Shrine",
+        "zhCN": "抗寒聖壇",
+        "zhTW": "抗寒聖壇",
+        "sgCN": "抗冰冻神殿",
+        "sgTW": "抗冰凍神殿"
+    },
+    "ShrId10": {
+        "Key": "ShrId10",
+        "enUS": "Resist Lightning Shrine",
+        "zhCN": "抗電聖壇",
+        "zhTW": "抗電聖壇",
+        "sgCN": "抗闪电神殿",
+        "sgTW": "抗閃電神殿"
+    },
+    "ShrId11": {
+        "Key": "ShrId11",
+        "enUS": "Resist Poison Shrine",
+        "zhCN": "抗毒聖壇",
+        "zhTW": "抗毒聖壇",
+        "sgCN": "抗毒素神殿",
+        "sgTW": "抗毒素神殿"
+    },
+    "ShrId12": {
+        "Key": "ShrId12",
+        "enUS": "Skill Shrine",
+        "zhCN": "技能聖壇",
+        "zhTW": "技能聖壇",
+        "sgCN": "技能神殿",
+        "sgTW": "技能神殿"
+    },
+    "ShrId13": {
+        "Key": "ShrId13",
+        "enUS": "Mana Recharge Shrine",
+        "zhCN": "法力恢復聖壇",
+        "zhTW": "法力恢復聖壇",
+        "sgCN": "法力补充神殿",
+        "sgTW": "法力補充神殿"
+    },
+    "ShrId14": {
+        "Key": "ShrId14",
+        "enUS": "Stamina Shrine",
+        "zhCN": "精力聖壇",
+        "zhTW": "精力聖壇",
+        "sgCN": "耐力神殿",
+        "sgTW": "耐力神殿"
+    },
+    "ShrId15": {
+        "Key": "ShrId15",
+        "enUS": "Experience Shrine",
+        "zhCN": "經驗聖壇",
+        "zhTW": "經驗聖壇",
+        "sgCN": "经验神殿",
+        "sgTW": "經驗神殿"
+    },
+    "ShrId16": {
+        "Key": "ShrId16",
+        "enUS": "Enirhs Shrine",
+        "zhCN": "壇聖聖壇",
+        "zhTW": "壇聖聖壇",
+        "sgCN": "辨识神殿",
+        "sgTW": "辨視神殿"
+    },
+    "ShrId17": {
+        "Key": "ShrId17",
+        "enUS": "Portal Shrine",
+        "zhCN": "傳送聖壇",
+        "zhTW": "傳送聖壇",
+        "sgCN": "传送神殿",
+        "sgTW": "傳送神殿"
+    },
+    "ShrId18": {
+        "Key": "ShrId18",
+        "enUS": "Gem Shrine",
+        "zhCN": "寶石聖壇",
+        "zhTW": "寶石聖壇",
+        "sgCN": "宝石神殿",
+        "sgTW": "寶石神殿"
+    },
+    "ShrId19": {
+        "Key": "ShrId19",
+        "enUS": "Fire Shrine",
+        "zhCN": "火焰聖壇",
+        "zhTW": "火焰聖壇",
+        "sgCN": "火焰神殿",
+        "sgTW": "火焰神殿"
+    },
+    "ShrId20": {
+        "Key": "ShrId20",
+        "enUS": "Monster Shrine",
+        "zhCN": "怪物聖壇",
+        "zhTW": "怪物聖壇",
+        "sgCN": "怪物神殿",
+        "sgTW": "怪物神殿"
+    },
+    "ShrId21": {
+        "Key": "ShrId21",
+        "enUS": "Exploding Shrine",
+        "zhCN": "爆炸聖壇",
+        "zhTW": "爆炸聖壇",
+        "sgCN": "爆裂神殿",
+        "sgTW": "爆裂神殿"
+    },
+    "ShrId22": {
+        "Key": "ShrId22",
+        "enUS": "Poison Shrine",
+        "zhCN": "劇毒聖壇",
+        "zhTW": "劇毒聖壇",
+        "sgCN": "毒素神殿",
+        "sgTW": "毒素神殿"
+    },
+    "Shrine2wilderness": {
+        "Key": "Shrine2wilderness",
+        "enUS": "Shrine",
+        "zhCN": "聖壇",
+        "zhTW": "聖壇",
+        "sgCN": "神殿",
+        "sgTW": "神殿"
+    },
+    "Shrine3wilderness": {
+        "Key": "Shrine3wilderness",
+        "enUS": "Shrine",
+        "zhCN": "聖壇",
+        "zhTW": "聖壇",
+        "sgCN": "神殿",
+        "sgTW": "神殿"
+    }
+}

@@ -1,0 +1,1274 @@
+{
+    "qstsa2q0": {
+        "Key": "qstsa2q0",
+        "enUS": "Act 2 Prologue",
+        "zhCN": "第二章序幕",
+        "zhTW": "第二章序幕",
+        "sgCN": "第二章序幕",
+        "sgTW": "第二章序幕"
+    },
+    "qstsa2q1": {
+        "Key": "qstsa2q1",
+        "enUS": "Radament's Lair",
+        "zhCN": "羅達門特的巢穴",
+        "zhTW": "羅達門特的巢穴",
+        "sgCN": "罗达门特的巢穴",
+        "sgTW": "羅達門特的巢穴"
+    },
+    "qstsa2q2": {
+        "Key": "qstsa2q2",
+        "enUS": "The Horadric Staff",
+        "zhCN": "赫拉迪姆之杖",
+        "zhTW": "赫拉迪姆之杖",
+        "sgCN": "赫拉迪克之杖",
+        "sgTW": "赫拉迪克之杖"
+    },
+    "qstsa2q3": {
+        "Key": "qstsa2q3",
+        "enUS": "Tainted Sun",
+        "zhCN": "蔽日黑暗",
+        "zhTW": "蔽日黑暗",
+        "sgCN": "堕落的太阳",
+        "sgTW": "墮落的太陽"
+    },
+    "qstsa2q4": {
+        "Key": "qstsa2q4",
+        "enUS": "Arcane Sanctuary",
+        "zhCN": "秘法聖殿",
+        "zhTW": "秘法聖殿",
+        "sgCN": "神秘庇难所",
+        "sgTW": "神秘庇難所"
+    },
+    "qstsa2q5": {
+        "Key": "qstsa2q5",
+        "enUS": "The Summoner",
+        "zhCN": "召喚師",
+        "zhTW": "召喚師",
+        "sgCN": "召唤者",
+        "sgTW": "召喚者"
+    },
+    "qstsa2q6": {
+        "Key": "qstsa2q6",
+        "enUS": "The Seven Tombs",
+        "zhCN": "七座古墓",
+        "zhTW": "七座古墓",
+        "sgCN": "七个古墓",
+        "sgTW": "七個古墓"
+    },
+    "qstsa3q0": {
+        "Key": "qstsa3q0",
+        "enUS": "Act 3 Prologue",
+        "zhCN": "第三章序幕",
+        "zhTW": "第三章序幕",
+        "sgCN": "第三章序幕",
+        "sgTW": "第三章序幕"
+    },
+    "qstsa3q1": {
+        "Key": "qstsa3q1",
+        "enUS": "Lam Esen's Tome",
+        "zhCN": "藍伊森之書",
+        "zhTW": "藍伊森之書",
+        "sgCN": "蓝·依森之书",
+        "sgTW": "藍.依森之書"
+    },
+    "qstsa3q2": {
+        "Key": "qstsa3q2",
+        "enUS": "Khalim's Will",
+        "zhCN": "克林姆的遺願",
+        "zhTW": "克林姆的遺願",
+        "sgCN": "克林姆的遗愿",
+        "sgTW": "克林姆的遺願"
+    },
+    "qstsa3q3": {
+        "Key": "qstsa3q3",
+        "enUS": "Blade of the Old Religion",
+        "zhCN": "古代宗教之刃",
+        "zhTW": "古代宗教之刃",
+        "sgCN": "古代宗教之刃",
+        "sgTW": "古代宗教之刃"
+    },
+    "qstsa3q4": {
+        "Key": "qstsa3q4",
+        "enUS": "The Golden Bird",
+        "zhCN": "黃金鳥",
+        "zhTW": "黃金鳥",
+        "sgCN": "黄金鸟",
+        "sgTW": "黃金鳥"
+    },
+    "qstsa3q5": {
+        "Key": "qstsa3q5",
+        "enUS": "The Blackened Temple",
+        "zhCN": "晦影神殿",
+        "zhTW": "晦影神殿",
+        "sgCN": "沉沦在黑暗的神殿",
+        "sgTW": "沈淪在黑暗的神殿"
+    },
+    "qstsa3q6": {
+        "Key": "qstsa3q6",
+        "enUS": "The Guardian",
+        "zhCN": "守護者",
+        "zhTW": "守護者",
+        "sgCN": "守护者",
+        "sgTW": "守護者"
+    },
+    "qstsa4q0": {
+        "Key": "qstsa4q0",
+        "enUS": "Act 4 Prologue",
+        "zhCN": "第四章序幕",
+        "zhTW": "第四章序幕",
+        "sgCN": "第四章序幕",
+        "sgTW": "第四章序幕"
+    },
+    "qstsa4q1": {
+        "Key": "qstsa4q1",
+        "enUS": "The Fallen Angel",
+        "zhCN": "墮落的天使",
+        "zhTW": "墮落的天使",
+        "sgCN": "堕落的天使",
+        "sgTW": "墮落的天使"
+    },
+    "qstsa4q2": {
+        "Key": "qstsa4q2",
+        "enUS": "Terror's End",
+        "zhCN": "恐懼的終結",
+        "zhTW": "恐懼的終結",
+        "sgCN": "恐怖的结局",
+        "sgTW": "恐怖的結局"
+    },
+    "qstsa4q3": {
+        "Key": "qstsa4q3",
+        "enUS": "Hell's Forge",
+        "zhCN": "地獄熔爐",
+        "zhTW": "地獄熔爐",
+        "sgCN": "地狱熔炉",
+        "sgTW": "地獄熔爐"
+    },
+    "qstsa2q01": {
+        "Key": "qstsa2q01",
+        "enUS": "Lut Gholein",
+        "zhCN": "魯高因",
+        "zhTW": "魯高因",
+        "sgCN": "鲁·高因",
+        "sgTW": "魯.高因"
+    },
+    "qstsa2q11": {
+        "Key": "qstsa2q11",
+        "enUS": "Find Radament's Lair in the Lut Gholein sewers.",
+        "zhCN": "在魯高因的下水道中，找到羅達門特的巢穴。",
+        "zhTW": "在魯高因的下水道中，找到羅達門特的巢穴。",
+        "sgCN": "在鲁·高因的下水道中，找到罗达门特的巢穴。",
+        "sgTW": "在魯.高因的下水道中，找到羅達門特的巢穴。"
+    },
+    "qstsa2q12": {
+        "Key": "qstsa2q12",
+        "enUS": "Kill Radament.",
+        "zhCN": "殺死羅達門特。",
+        "zhTW": "殺死羅達門特。",
+        "sgCN": "杀了罗达门特。",
+        "sgTW": "殺了羅達門特。"
+    },
+    "qstsa2q13": {
+        "Key": "qstsa2q13",
+        "enUS": "Return to Atma for a reward.",
+        "zhCN": "回去找亞特瑪領取獎勵。",
+        "zhTW": "回去找亞特瑪領取獎勵。",
+        "sgCN": "回去找亚特玛领取奖赏。",
+        "sgTW": "回去找亞特瑪領取獎賞。"
+    },
+    "qstsa2q21": {
+        "Key": "qstsa2q21",
+        "enUS": "Show the scroll to Cain in Lut Gholein.",
+        "zhCN": "把卷軸拿回魯高因給凱恩看看。",
+        "zhTW": "把卷軸拿回魯高因給凱恩看看。",
+        "sgCN": "把这个卷轴给鲁·高因的凯恩看看。",
+        "sgTW": "把這個卷軸給魯.高因的凱恩看看。"
+    },
+    "qstsa2q22": {
+        "Key": "qstsa2q22",
+        "enUS": "Search the Halls of the Dead under the Dry Hills for the Cube. Search the Maggot Lair under the Far Oasis for the Shaft. Search the Claw Viper Temple for the Headpiece.",
+        "zhCN": "在乾土高地底下的死亡之殿尋找方塊，在遙遠的綠洲底下的蛆蟲巢穴尋找杖身，在利爪蛇魔神殿尋找杖頂。",
+        "zhTW": "在乾土高地底下的死亡之殿尋找方塊，在遙遠的綠洲底下的蛆蟲巢穴尋找杖身，在利爪蛇魔神殿尋找杖頂。",
+        "sgCN": "在乾燥的高地下面的死亡之殿中，好好找寻那个方块。在遥远的绿洲下面可以找到蛆虫巢穴，裡面有转轴。到利爪腹蛇神殿，可以找到顶端。",
+        "sgTW": "在乾燥的高地下面的死亡之殿中，好好找尋那個方塊。在遙遠的綠洲下面可以找到蛆蟲巢穴，裡面有轉軸。到利爪腹蛇神殿，可以找到頂端。"
+    },
+    "qstsa2q23": {
+        "Key": "qstsa2q23",
+        "enUS": "Use the Horadric Cube to restore the Staff.",
+        "zhCN": "使用赫拉迪姆方塊使法杖復原。",
+        "zhTW": "使用赫拉迪姆方塊使法杖復原。",
+        "sgCN": "利用赫拉迪克的方块把法杖回复原状。",
+        "sgTW": "利用赫拉迪克的方塊把法杖回復原狀。"
+    },
+    "qstsa2q24": {
+        "Key": "qstsa2q24",
+        "enUS": "Take the Staff into Tal Rasha's Tomb.",
+        "zhCN": "帶著法杖進入塔拉夏的古墓。",
+        "zhTW": "帶著法杖進入塔拉夏的古墓。",
+        "sgCN": "拿着法杖进入塔·拉夏的古墓。",
+        "sgTW": "拿著法杖進入塔.拉夏的古墓。"
+    },
+    "qstsa2q25": {
+        "Key": "qstsa2q25",
+        "enUS": "Take the artifacts to Cain in Lut Gholein.",
+        "zhCN": "把古物帶回去魯高因，拿給凱恩。",
+        "zhTW": "把古物帶回去魯高因，拿給凱恩。",
+        "sgCN": "拿著这个古物，前去找鲁·高因中的凯恩。",
+        "sgTW": "拿著這個古物，前去找魯.高因中的凱恩。"
+    },
+    "qstsa2q31": {
+        "Key": "qstsa2q31",
+        "enUS": "Look for the source of the darkness.",
+        "zhCN": "尋找黑暗的源頭。",
+        "zhTW": "尋找黑暗的源頭。",
+        "sgCN": "找寻黑暗之源。",
+        "sgTW": "找尋黑暗之源。"
+    },
+    "qstsa2q31a": {
+        "Key": "qstsa2q31a",
+        "enUS": "Ask Drognan about the strange darkness.",
+        "zhCN": "問問卓格南對這片奇怪的黑暗有什麼看法。",
+        "zhTW": "問問卓格南對這片奇怪的黑暗有什麼看法。",
+        "sgCN": "问问卓格南对这片奇怪的黑暗有什麽看法。",
+        "sgTW": "問問卓格南對這片奇怪的黑暗有什麼看法。"
+    },
+    "qstsa2q32": {
+        "Key": "qstsa2q32",
+        "enUS": "Destroy the Serpent Altar in the Claw Viper Temple beneath the Valley of Snakes.",
+        "zhCN": "前往群蛇峽谷底下的利爪蛇魔神殿，摧毀其中的祭壇。",
+        "zhTW": "前往群蛇峽谷底下的利爪蛇魔神殿，摧毀其中的祭壇。",
+        "sgCN": "摧毁位于利爪腹蛇神殿的蛇形祭坛，它位于群蛇峡谷的下面。",
+        "sgTW": "摧毀位於利爪腹蛇神殿的蛇形祭壇，它位於群蛇峽谷的下面。"
+    },
+    "qstsa2q33": {
+        "Key": "qstsa2q33",
+        "enUS": "Speak with the townsfolk in Lut Gholein.",
+        "zhCN": "和魯高因的居民談談。",
+        "zhTW": "和魯高因的居民談談。",
+        "sgCN": "和鲁·高因中的居民谈谈。",
+        "sgTW": "和魯.高因中的居民談談。"
+    },
+    "qstsa2q41": {
+        "Key": "qstsa2q41",
+        "enUS": "Look for the Arcane Sanctuary within the Palace.",
+        "zhCN": "到皇宮中尋找秘法聖殿。",
+        "zhTW": "到皇宮中尋找秘法聖殿。",
+        "sgCN": "到皇宫中找寻神秘庇难所。",
+        "sgTW": "到皇宮中找尋神秘庇難所。"
+    },
+    "qstsa2q41a": {
+        "Key": "qstsa2q41a",
+        "enUS": "Talk to Drognan.",
+        "zhCN": "與卓格南交談。",
+        "zhTW": "與卓格南交談。",
+        "sgCN": "和卓格南谈谈。",
+        "sgTW": "和卓格南談談。"
+    },
+    "qstsa2q42": {
+        "Key": "qstsa2q42",
+        "enUS": "Find Horazon's Journal.",
+        "zhCN": "找出赫拉森的日誌。",
+        "zhTW": "找出赫拉森的日誌。",
+        "sgCN": "找出赫拉森的日记。",
+        "sgTW": "找出赫拉森的日記。"
+    },
+    "qstsa2q43": {
+        "Key": "qstsa2q43",
+        "enUS": "Continue the search for the Seventh Tomb.",
+        "zhCN": "繼續尋找第七個古墓。",
+        "zhTW": "繼續尋找第七個古墓。",
+        "sgCN": "继续找寻第七个古墓。",
+        "sgTW": "繼續找尋第七個古墓。"
+    },
+    "qstsa2q51": {
+        "Key": "qstsa2q51",
+        "enUS": "Beware the Summoner.",
+        "zhCN": "小心召喚師。",
+        "zhTW": "小心召喚師。",
+        "sgCN": "小心召唤者。",
+        "sgTW": "小心召喚者。"
+    },
+    "qstsa2q52": {
+        "Key": "qstsa2q52",
+        "enUS": "Kill the Summoner.",
+        "zhCN": "殺死召喚師。",
+        "zhTW": "殺死召喚師。",
+        "sgCN": "杀了召唤者。",
+        "sgTW": "殺了召喚者。"
+    },
+    "qstsa2q53": {
+        "Key": "qstsa2q53",
+        "enUS": "Return to town for more information.",
+        "zhCN": "回到城鎮打聽更多消息。",
+        "zhTW": "回到城鎮打聽更多消息。",
+        "sgCN": "回到城镇可以听到更多的讯息。",
+        "sgTW": "回到城鎮可以聽到更多的訊息。"
+    },
+    "qstsa2q61": {
+        "Key": "qstsa2q61",
+        "enUS": "Find Tal Rasha's Tomb.",
+        "zhCN": "找出塔拉夏的古墓。",
+        "zhTW": "找出塔拉夏的古墓。",
+        "sgCN": "找到塔·拉夏的古墓。",
+        "sgTW": "找出塔.拉夏的古墓。"
+    },
+    "qstsa2q61a": {
+        "Key": "qstsa2q61a",
+        "enUS": "The Symbol of the True Tomb of Tal Rasha.",
+        "zhCN": "塔拉夏真正的古墓標有此符號。",
+        "zhTW": "塔拉夏真正的古墓標有此符號。",
+        "sgCN": "这个符号标示出真正的塔·拉夏古墓。",
+        "sgTW": "這個符號標示出真正的塔.拉夏古墓。"
+    },
+    "qstsa2q62": {
+        "Key": "qstsa2q62",
+        "enUS": "Kill Duriel.",
+        "zhCN": "殺死都瑞爾。",
+        "zhTW": "殺死都瑞爾。",
+        "sgCN": "杀了都瑞尔。",
+        "sgTW": "殺了都瑞爾。"
+    },
+    "qstsa2q63": {
+        "Key": "qstsa2q63",
+        "enUS": "Explore Tal Rasha'a Chamber.",
+        "zhCN": "探索塔拉夏的房間。",
+        "zhTW": "探索塔拉夏的房間。",
+        "sgCN": "探索塔·拉夏的房间。",
+        "sgTW": "探索塔.拉夏的房間。"
+    },
+    "qstsa2q63a": {
+        "Key": "qstsa2q63a",
+        "enUS": "Talk to Jerhyn.",
+        "zhCN": "與傑恩交談。",
+        "zhTW": "與傑恩交談。",
+        "sgCN": "和杰恩谈谈。",
+        "sgTW": "和傑恩談談。"
+    },
+    "qstsa2q64": {
+        "Key": "qstsa2q64",
+        "enUS": "Talk to Jerhyn.",
+        "zhCN": "與傑恩交談。",
+        "zhTW": "與傑恩交談。",
+        "sgCN": "和杰恩谈谈。",
+        "sgTW": "和傑恩談談。"
+    },
+    "qstsa2q65": {
+        "Key": "qstsa2q65",
+        "enUS": "Talk to Meshif.",
+        "zhCN": "與馬席夫交談。",
+        "zhTW": "與馬席夫交談。",
+        "sgCN": "和马席夫谈谈。",
+        "sgTW": "和馬席夫談談。"
+    },
+    "qstsa3q01": {
+        "Key": "qstsa3q01",
+        "enUS": "Jungle Village",
+        "zhCN": "叢林村落",
+        "zhTW": "叢林村落",
+        "sgCN": "丛林村落",
+        "sgTW": "叢林村落"
+    },
+    "qstsa3q11": {
+        "Key": "qstsa3q11",
+        "enUS": "Search the six temples in the Bazaar, Upper Kurast, and the Causeway for Lam Esen's Tome.",
+        "zhCN": "在庫拉斯特市集、庫拉斯特上層，和庫拉斯特堤道的六座神殿中，尋找藍伊森之書。",
+        "zhTW": "在庫拉斯特市集、庫拉斯特上層，和庫拉斯特堤道的六座神殿中，尋找藍伊森之書。",
+        "sgCN": "你得在库拉斯特商场、库拉斯特上层，和库拉斯特的堤道分布的六个古墓中，找到蓝·依森之书。",
+        "sgTW": "你得在庫拉斯特商場、庫拉斯特上層，和庫拉斯特的堤道分布的六個古墓中，找到藍.依森之書。"
+    },
+    "qstsa3q12": {
+        "Key": "qstsa3q12",
+        "enUS": "Talk to Alkor.",
+        "zhCN": "與艾柯交談。",
+        "zhTW": "與艾柯交談。",
+        "sgCN": "和艾柯谈谈。",
+        "sgTW": "和艾柯談談。"
+    },
+    "qstsa3q21": {
+        "Key": "qstsa3q21",
+        "enUS": "Find Khalim's relics. Search for his Eye in the Spider Cavern.",
+        "zhCN": "找出克林姆的聖遺物。在蜘蛛洞窟中尋找他的眼球。",
+        "zhTW": "找出克林姆的聖遺物。在蜘蛛洞窟中尋找他的眼球。",
+        "sgCN": "找出克林姆的遗骸。在蜘蛛洞窟中可以找到他的眼球。",
+        "sgTW": "找出克林姆的遺骸。在蜘蛛洞窟中可以找到他的眼球。"
+    },
+    "qstsa3q22": {
+        "Key": "qstsa3q22",
+        "enUS": "Search for Khalim's Brain in the Flayer Dungeon.",
+        "zhCN": "在剝皮地牢中找出克林姆的大腦。",
+        "zhTW": "在剝皮地牢中找出克林姆的大腦。",
+        "sgCN": "在剥皮地窖中找出克林姆的脑。",
+        "sgTW": "在剝皮地窖中找出克林姆的腦。"
+    },
+    "qstsa3q23": {
+        "Key": "qstsa3q23",
+        "enUS": "Search for Khalim's Flail in Travincal. Beware the High Council.",
+        "zhCN": "在崔凡克找出克林姆的連枷。小心最高議會。",
+        "zhTW": "在崔凡克找出克林姆的連枷。小心最高議會。",
+        "sgCN": "在崔凡克找出克林姆的连枷。小心最高评议会。",
+        "sgTW": "在崔凡克找出克林姆的連枷。小心最高評議會。"
+    },
+    "qstsa3q24": {
+        "Key": "qstsa3q24",
+        "enUS": "Search for Khalim's Heart in the Sewers under the Kurast Bazaar.",
+        "zhCN": "在庫拉斯特市集底下的下水道中，尋找克林姆的心臟。",
+        "zhTW": "在庫拉斯特市集底下的下水道中，尋找克林姆的心臟。",
+        "sgCN": "在库拉斯特商场底下的下水道中，找寻克林姆的心臟。",
+        "sgTW": "在庫拉斯特商場底下的下水道中，找尋克林姆的心臟。"
+    },
+    "qstsa3q25": {
+        "Key": "qstsa3q25",
+        "enUS": "Transmute Khalim's relics - the Flail, Eye, Heart, and Brain - with the Horadric Cube.",
+        "zhCN": "使用赫拉迪姆方塊轉換克林姆的聖遺物：連枷、眼球、心臟，還有大腦。",
+        "zhTW": "使用赫拉迪姆方塊轉換克林姆的聖遺物：連枷、眼球、心臟，還有大腦。",
+        "sgCN": "转换克林姆的遗骸-连枷、眼球、心臟、脑-放进赫拉迪克的方块之中。",
+        "sgTW": "轉換克林姆的遺骸-連枷、眼球、心臟、腦-放進赫拉迪克的方塊之中。"
+    },
+    "qstsa3q26": {
+        "Key": "qstsa3q26",
+        "enUS": "Use Khalim's Will to smash the Compelling Orb.",
+        "zhCN": "利用克林姆的遺願摧毀強制魔珠。",
+        "zhTW": "利用克林姆的遺願摧毀強制魔珠。",
+        "sgCN": "利用克林姆的遗𫖸来摧毁强制球体。",
+        "sgTW": "利用克林姆的遺願來摧毀強制球體。"
+    },
+    "qstsa3q21a": {
+        "Key": "qstsa3q21a",
+        "enUS": "Ask Cain about Khalim's relics.",
+        "zhCN": "詢問凱恩關於克林姆的遺物的事情。",
+        "zhTW": "詢問凱恩關於克林姆的遺物的事情。",
+        "sgCN": "询问问凯恩与克林姆遗骸有关的事情。",
+        "sgTW": "問問凱恩與克林姆遺骸有關的事情。"
+    },
+    "qstsa3q31": {
+        "Key": "qstsa3q31",
+        "enUS": "Look for the Gidbinn in the Flayer Jungle.",
+        "zhCN": "在剝皮叢林中尋找吉德賓。",
+        "zhTW": "在剝皮叢林中尋找吉德賓。",
+        "sgCN": "在剥皮丛林中找找吉德宾。",
+        "sgTW": "在剝皮叢林中找找吉德賓。"
+    },
+    "qstsa3q32": {
+        "Key": "qstsa3q32",
+        "enUS": "Pick up the Gidbinn.",
+        "zhCN": "撿起吉德賓。",
+        "zhTW": "撿起吉德賓。",
+        "sgCN": "取回吉德宾。",
+        "sgTW": "取回吉德賓。"
+    },
+    "qstsa3q33": {
+        "Key": "qstsa3q33",
+        "enUS": "Return the Gidbinn to Ormus.",
+        "zhCN": "把吉德賓帶回去給奧瑪斯。",
+        "zhTW": "把吉德賓帶回去給奧瑪斯。",
+        "sgCN": "把吉德宾送到奥玛斯的手中。",
+        "sgTW": "把吉德賓送到奧瑪斯的手中。"
+    },
+    "qstsa3q34": {
+        "Key": "qstsa3q34",
+        "enUS": "Talk to Asheara.",
+        "zhCN": "與艾席拉交談。",
+        "zhTW": "與艾席拉交談。",
+        "sgCN": "和艾席拉谈谈。",
+        "sgTW": "和艾席拉談談。"
+    },
+    "qstsa3q35": {
+        "Key": "qstsa3q35",
+        "enUS": "Talk to Ormus.",
+        "zhCN": "與奧瑪斯交談。",
+        "zhTW": "與奧瑪斯交談。",
+        "sgCN": "和奥玛斯谈谈。",
+        "sgTW": "和奧瑪斯談談。"
+    },
+    "qstsa3q41": {
+        "Key": "qstsa3q41",
+        "enUS": "Ask Cain about the Jade Figurine.",
+        "zhCN": "詢問凱恩關於翠玉塑像的事情。",
+        "zhTW": "詢問凱恩關於翠玉塑像的事情。",
+        "sgCN": "问问凯恩与玉製小人有关的事。",
+        "sgTW": "問問凱恩與玉製小人有關的事。"
+    },
+    "qstsa3q42": {
+        "Key": "qstsa3q42",
+        "enUS": "Show Meshif the Figurine.",
+        "zhCN": "把塑像拿給馬席夫看看。",
+        "zhTW": "把塑像拿給馬席夫看看。",
+        "sgCN": "把小人给马席夫看看。",
+        "sgTW": "把小人給馬席夫看看。"
+    },
+    "qstsa3q43": {
+        "Key": "qstsa3q43",
+        "enUS": "Ask Cain about the Golden Bird.",
+        "zhCN": "詢問凱恩關於黃金鳥的事情。",
+        "zhTW": "詢問凱恩關於黃金鳥的事情。",
+        "sgCN": "问凯恩与黄金鸟有关的消息。",
+        "sgTW": "詢問凱恩與黃金鳥有關的消息。"
+    },
+    "qstsa3q44": {
+        "Key": "qstsa3q44",
+        "enUS": "Give the Golden Bird to Alkor.",
+        "zhCN": "把黃金鳥交給艾柯。",
+        "zhTW": "把黃金鳥交給艾柯。",
+        "sgCN": "把黄金鸟交给艾柯。",
+        "sgTW": "把黃金鳥交給艾柯。"
+    },
+    "qstsa3q45": {
+        "Key": "qstsa3q45",
+        "enUS": "Return to Alkor for reward.",
+        "zhCN": "回去找艾柯，領取獎勵。",
+        "zhTW": "回去找艾柯，領取獎勵。",
+        "sgCN": "回去找艾柯，拿取你的奖赏。",
+        "sgTW": "回去找艾柯，拿取你的獎賞。"
+    },
+    "qstsa3q51": {
+        "Key": "qstsa3q51",
+        "enUS": "Find the Blackened Temple within Travincal.",
+        "zhCN": "在崔凡克找到晦影神殿。",
+        "zhTW": "在崔凡克找到晦影神殿。",
+        "sgCN": "到沈沦在黑暗的神殿，位于崔凡克之中。",
+        "sgTW": "找到沈淪在黑暗的神殿，位於崔凡克之中。"
+    },
+    "qstsa3q52": {
+        "Key": "qstsa3q52",
+        "enUS": "Kill the High Council.",
+        "zhCN": "殺死所有最高議會的成員。",
+        "zhTW": "殺死所有最高議會的成員。",
+        "sgCN": "杀死所有的最高评议会成员。",
+        "sgTW": "殺死所有的最高評議會成員。"
+    },
+    "qstsa3q53": {
+        "Key": "qstsa3q53",
+        "enUS": "Ask Cain for help.",
+        "zhCN": "請求凱恩協助。",
+        "zhTW": "請求凱恩協助。",
+        "sgCN": "去找凯恩求援。",
+        "sgTW": "去找凱恩求援。"
+    },
+    "qstsa3q61": {
+        "Key": "qstsa3q61",
+        "enUS": "Smash the Compelling Orb with Khalim's Will to open the way to Mephisto's Durance.",
+        "zhCN": "利用克林姆的遺願把強制魔珠毀掉，打通一條前往墨菲斯托囚牢的路。",
+        "zhTW": "利用克林姆的遺願把強制魔珠毀掉，打通一條前往墨菲斯托囚牢的路。",
+        "sgCN": "利用克林姆的遗愿把强制球体毁掉，可以打开前往墨菲斯托的囚牢。",
+        "sgTW": "利用克林姆的遺願把強制球體毀掉，可以打開前往墨菲斯托的囚牢。"
+    },
+    "qstsa3q62": {
+        "Key": "qstsa3q62",
+        "enUS": "Search for Mephisto in his Durance.",
+        "zhCN": "在囚牢中找出墨菲斯托。",
+        "zhTW": "在囚牢中找出墨菲斯托。",
+        "sgCN": "在他的囚牢中，找出墨菲斯托。",
+        "sgTW": "在他的囚牢中，找出墨菲斯托。"
+    },
+    "qstsa3q63": {
+        "Key": "qstsa3q63",
+        "enUS": "Kill Mephisto.",
+        "zhCN": "殺死墨菲斯托。",
+        "zhTW": "殺死墨菲斯托。",
+        "sgCN": "杀了墨菲斯托。",
+        "sgTW": "殺了墨菲斯托。"
+    },
+    "qstsa3q31a": {
+        "Key": "qstsa3q31a",
+        "enUS": "Ask around the Docks about the Gidbinn.",
+        "zhCN": "在港口附近打聽吉德賓的事情。",
+        "zhTW": "在港口附近打聽吉德賓的事情。",
+        "sgCN": "在海港附近打听吉德宾的事情。",
+        "sgTW": "在海港附近打聽吉德賓的事情。"
+    },
+    "qstsa3q51a": {
+        "Key": "qstsa3q51a",
+        "enUS": "Ask Ormus about the Blackened Temple.",
+        "zhCN": "問問奧瑪斯有關晦影神殿的消息。",
+        "zhTW": "問問奧瑪斯有關晦影神殿的消息。",
+        "sgCN": "问问奥玛斯有关沈沦在黑暗的神殿的消息。",
+        "sgTW": "問問奧瑪斯有關沈淪在黑暗的神殿的消息。"
+    },
+    "qstsa3q61a": {
+        "Key": "qstsa3q61a",
+        "enUS": "Ormus has news about the Guardian.",
+        "zhCN": "奧瑪斯有關於守護者的新消息。",
+        "zhTW": "奧瑪斯有關於守護者的新消息。",
+        "sgCN": "奥玛斯对守护者有新的消息。",
+        "sgTW": "奧瑪斯對守護者有新的消息。"
+    },
+    "qstsa4q11": {
+        "Key": "qstsa4q11",
+        "enUS": "Look for Izual in the Plains of Despair.",
+        "zhCN": "在絕望平原尋找伊卒爾。",
+        "zhTW": "在絕望平原尋找伊卒爾。",
+        "sgCN": "在绝望平原找寻伊卒尔。",
+        "sgTW": "在絕望平原找尋伊卒爾。"
+    },
+    "qstsa4q12": {
+        "Key": "qstsa4q12",
+        "enUS": "Destroy the demon that holds Izual's soul.",
+        "zhCN": "消滅控制伊卒爾靈魂的惡魔。",
+        "zhTW": "消滅控制伊卒爾靈魂的惡魔。",
+        "sgCN": "摧毁控制伊卒尔灵魂的邪魔。",
+        "sgTW": "摧毀控制伊卒爾靈魂的邪魔。"
+    },
+    "qstsa4q13a": {
+        "Key": "qstsa4q13a",
+        "enUS": "Talk to Izual's Spirit.",
+        "zhCN": "與伊卒爾的靈魂交談。",
+        "zhTW": "與伊卒爾的靈魂交談。",
+        "sgCN": "和伊卒尔的灵魂交谈。",
+        "sgTW": "和伊卒爾的靈魂交談。"
+    },
+    "qstsa4q13": {
+        "Key": "qstsa4q13",
+        "enUS": "See Tyrael for reward.",
+        "zhCN": "去找泰瑞爾，領取獎勵。",
+        "zhTW": "去找泰瑞爾，領取獎勵。",
+        "sgCN": "去找泰瑞尔，领取你的奖赏。",
+        "sgTW": "去找泰瑞爾，領取你的獎賞。"
+    },
+    "qstsa4q31": {
+        "Key": "qstsa4q31",
+        "enUS": "Take Mephisto's Soulstone to the Hellforge.",
+        "zhCN": "帶著墨菲斯托的靈魂石，前往地獄熔爐。",
+        "zhTW": "帶著墨菲斯托的靈魂石，前往地獄熔爐。",
+        "sgCN": "拿著墨菲斯托的灵魂之石，前往地狱熔炉。",
+        "sgTW": "拿著墨菲斯托的靈魂之石，前往地獄熔爐。"
+    },
+    "qstsa4q32": {
+        "Key": "qstsa4q32",
+        "enUS": "Destroy Mephisto's Soulstone at the Hellforge.",
+        "zhCN": "在地獄熔爐摧毀墨菲斯托的靈魂石。",
+        "zhTW": "在地獄熔爐摧毀墨菲斯托的靈魂石。",
+        "sgCN": "在地狱熔炉中摧毁墨菲斯托的灵魂之石。",
+        "sgTW": "在地獄熔爐中摧毀墨菲斯托的靈魂之石。"
+    },
+    "qstsa4q33": {
+        "Key": "qstsa4q33",
+        "enUS": "Use the Hellforge Hammer on the Forge.",
+        "zhCN": "使用地獄熔爐之鎚敲擊靈魂石。",
+        "zhTW": "使用地獄熔爐之鎚敲擊靈魂石。",
+        "sgCN": "利用地狱熔炉旁边的铁鎚，敲打熔炉上的灵魂之石。",
+        "sgTW": "利用地獄熔爐旁邊的鐵鎚，敲打熔爐上的靈魂之石。"
+    },
+    "qstsa4q34": {
+        "Key": "qstsa4q34",
+        "enUS": "Consult with Cain.",
+        "zhCN": "找凱恩商量。",
+        "zhTW": "找凱恩商量。",
+        "sgCN": "和凯恩请教一下。",
+        "sgTW": "和凱恩請教一下。"
+    },
+    "qstsa4q21": {
+        "Key": "qstsa4q21",
+        "enUS": "Find Diablo in his Sanctuary.",
+        "zhCN": "在混沌魔殿中找出迪亞布羅。",
+        "zhTW": "在混沌魔殿中找出迪亞布羅。",
+        "sgCN": "在他的庇难所中找出暗黑破坏神。",
+        "sgTW": "在他的庇難所中找出暗黑破壞神。"
+    },
+    "qstsa4q22": {
+        "Key": "qstsa4q22",
+        "enUS": "Kill Diablo.",
+        "zhCN": "殺死迪亞布羅。",
+        "zhTW": "殺死迪亞布羅。",
+        "sgCN": "杀死暗黑破坏神。",
+        "sgTW": "殺死暗黑破壞神。"
+    },
+    "qstsa4q23": {
+        "Key": "qstsa4q23",
+        "enUS": "Break the remaining %d seals.",
+        "zhCN": "打破剩下的%d個封印。",
+        "zhTW": "打破剩下的%d個封印。",
+        "sgCN": "打破尚存的%d封印。",
+        "sgTW": "打破尚存的%d封印。"
+    },
+    "qstsa4q24": {
+        "Key": "qstsa4q24",
+        "enUS": "Break the final seal.",
+        "zhCN": "打破最後一個封印。",
+        "zhTW": "打破最後一個封印。",
+        "sgCN": "打破最后一个封印。",
+        "sgTW": "打破最後一個封印。"
+    },
+    "qstsa1qt": {
+        "Key": "qstsa1qt",
+        "enUS": "The Townspeople",
+        "zhCN": "城鎮人民",
+        "zhTW": "城鎮人民",
+        "sgCN": "镇民",
+        "sgTW": "鎮民"
+    },
+    "qstsa1qt0": {
+        "Key": "qstsa1qt0",
+        "enUS": "introduction",
+        "zhCN": "介紹",
+        "zhTW": "介紹",
+        "sgCN": "介绍",
+        "sgTW": "介紹"
+    },
+    "qstsa1q0": {
+        "Key": "qstsa1q0",
+        "enUS": "Act 1 Prologue",
+        "zhCN": "第一章序幕",
+        "zhTW": "第一章序幕",
+        "sgCN": "第一章序章",
+        "sgTW": "第一章序章"
+    },
+    "qstsa1q1": {
+        "Key": "qstsa1q1",
+        "enUS": "Den of Evil",
+        "zhCN": "邪惡洞窟",
+        "zhTW": "邪惡洞窟",
+        "sgCN": "邪恶洞穴",
+        "sgTW": "邪惡洞穴"
+    },
+    "qstsa1q2": {
+        "Key": "qstsa1q2",
+        "enUS": "Sisters' Burial Grounds",
+        "zhCN": "褻瀆的墓地",
+        "zhTW": "褻瀆的墓地",
+        "sgCN": "修女埋骨之地",
+        "sgTW": "修女埋骨之地"
+    },
+    "qstsa1q3": {
+        "Key": "qstsa1q3",
+        "enUS": "Tools of the Trade",
+        "zhCN": "工欲善其事",
+        "zhTW": "工欲善其事",
+        "sgCN": "交易的工具",
+        "sgTW": "交易的工具"
+    },
+    "qstsa1q4": {
+        "Key": "qstsa1q4",
+        "enUS": "The Search for Cain",
+        "zhCN": "尋找凱恩",
+        "zhTW": "尋找凱恩",
+        "sgCN": "凯恩的搜寻",
+        "sgTW": "凱恩的搜尋"
+    },
+    "qstsa1q5": {
+        "Key": "qstsa1q5",
+        "enUS": "The Forgotten Tower",
+        "zhCN": "遺忘之塔",
+        "zhTW": "遺忘之塔",
+        "sgCN": "遗忘之塔",
+        "sgTW": "遺忘之塔"
+    },
+    "qstsa1q6": {
+        "Key": "qstsa1q6",
+        "enUS": "Sisters to the Slaughter",
+        "zhCN": "為姐妹們復仇",
+        "zhTW": "為姐妹們復仇",
+        "sgCN": "屠杀的修女",
+        "sgTW": "屠殺的修女"
+    },
+    "qstsa1q11": {
+        "Key": "qstsa1q11",
+        "enUS": "Look for the Den in the wilderness outside the Rogues' Camp.",
+        "zhCN": "在俠盜營地外面的荒野中，找到洞穴。",
+        "zhTW": "在俠盜營地外面的荒野中，找到洞穴。",
+        "sgCN": "在萝格营地外面的荒野中，找寻一个洞穴。",
+        "sgTW": "在蘿格營地外面的荒野中，找尋一個洞穴。"
+    },
+    "qstsa1q12": {
+        "Key": "qstsa1q12",
+        "enUS": "Kill all the monsters in the Den.",
+        "zhCN": "殺死所有盤踞在洞穴裡面的怪物。",
+        "zhTW": "殺死所有盤踞在洞穴裡面的怪物。",
+        "sgCN": "杀死所有盘踞在洞穴中的怪物。",
+        "sgTW": "殺死所有盤踞在洞穴中的怪物。"
+    },
+    "qstsa1q13": {
+        "Key": "qstsa1q13",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "qstsa1q14": {
+        "Key": "qstsa1q14",
+        "enUS": "Monsters remaining: %d",
+        "zhCN": "剩餘怪物：%d",
+        "zhTW": "剩餘怪物：%d",
+        "sgCN": "剩下的怪物: %d",
+        "sgTW": "剩下的怪物： %d"
+    },
+    "qstsa1q140": {
+        "Key": "qstsa1q140",
+        "enUS": "One monster left.",
+        "zhCN": "剩下一個怪物。",
+        "zhTW": "剩下一個怪物。",
+        "sgCN": "还有一个怪物。",
+        "sgTW": "還有一個怪物。"
+    },
+    "qstsa1q15": {
+        "Key": "qstsa1q15",
+        "enUS": "Return to Akara for a reward.",
+        "zhCN": "回去找阿卡拉領取獎勵。",
+        "zhTW": "回去找阿卡拉領取獎勵。",
+        "sgCN": "回去找阿卡拉领赏。",
+        "sgTW": "回去找阿卡拉領賞。"
+    },
+    "qstsa1q21": {
+        "Key": "qstsa1q21",
+        "enUS": "Look for Blood Raven in the Burial Grounds next to the Cold Plains.",
+        "zhCN": "到鄰近冰冷之原的埋骨之地，尋找血鴉的蹤跡。",
+        "zhTW": "到鄰近冰冷之原的埋骨之地，尋找血鴉的蹤跡。",
+        "sgCN": "到冰冷之原旁边的埋骨之所，找寻血鸦的踪迹。",
+        "sgTW": "到冰冷之原旁邊的埋骨之所，找尋血鴉的蹤跡。"
+    },
+    "qstsa1q22": {
+        "Key": "qstsa1q22",
+        "enUS": "Kill Blood Raven.",
+        "zhCN": "殺死血鴉。",
+        "zhTW": "殺死血鴉。",
+        "sgCN": "杀了血鸦。",
+        "sgTW": "殺了血鴉。"
+    },
+    "qstsa1q23": {
+        "Key": "qstsa1q23",
+        "enUS": "Return to Kashya for a reward.",
+        "zhCN": "回去找卡夏領取獎勵。",
+        "zhTW": "回去找卡夏領取獎勵。",
+        "sgCN": "回去找卡夏领赏。",
+        "sgTW": "回去找卡夏領賞。"
+    },
+    "qstsa1q41": {
+        "Key": "qstsa1q41",
+        "enUS": "Go through the Underground Passage to the Dark Wood, search for the Tree of Inifuss, and recover the Scroll.",
+        "zhCN": "穿過地底通道來到黑暗森林，找到艾尼弗斯之樹，並取回卷軸。",
+        "zhTW": "穿過地底通道來到黑暗森林，找到艾尼弗斯之樹，並取回卷軸。",
+        "sgCN": "穿过地底通道来到黑暗森林，找到艾尼弗斯之树，并取回卷轴。",
+        "sgTW": "穿過地底通道來到黑暗森林，找到艾尼弗斯之樹，並取回卷軸。"
+    },
+    "qstsa1q42": {
+        "Key": "qstsa1q42",
+        "enUS": "Take the Scroll of Inifuss to Akara.",
+        "zhCN": "將艾尼弗斯卷軸帶回去給阿卡拉。",
+        "zhTW": "將艾尼弗斯卷軸帶回去給阿卡拉。",
+        "sgCN": "拿著艾尼弗斯的卷轴去找阿卡拉。",
+        "sgTW": "拿著艾尼弗斯的卷軸去找阿卡拉。"
+    },
+    "qstsa1q43": {
+        "Key": "qstsa1q43",
+        "enUS": "Go to the Cairn Stones in the Stony Field. Touch the Stones in the order found on the Scroll of Inifuss. Enter the portal to Tristram, but beware the danger that lies ahead.",
+        "zhCN": "前往亂石曠野中的石陣。按照寫在艾尼弗斯卷軸上面的順序觸碰石柱，然後進入傳送門前往崔斯特姆，但務必要小心前方的危險。",
+        "zhTW": "前往亂石曠野中的石陣。按照寫在艾尼弗斯卷軸上面的順序觸碰石柱，然後進入傳送門前往崔斯特姆，但務必要小心前方的危險。",
+        "sgCN": "前往石块旷野中的石塚，利用我写在艾尼弗斯卷轴上面的顺序触碰石块，然后进入传送点前往崔斯特瑞姆。但是你们要小心面前的危险。",
+        "sgTW": "前往石塊曠野中的石塚，利用我寫在艾尼弗斯卷軸上面的順序觸碰石塊，然後進入傳送點前往崔斯特瑞姆。但是你們要小心面前的危險。"
+    },
+    "qstsa1q44": {
+        "Key": "qstsa1q44",
+        "enUS": "Find and rescue Deckard Cain.",
+        "zhCN": "找到並救出迪卡‧凱恩。",
+        "zhTW": "找到並救出迪卡‧凱恩。",
+        "sgCN": "找到并救出迪卡·凯恩。",
+        "sgTW": "找到並救出迪卡．凱恩。"
+    },
+    "qstsa1q45": {
+        "Key": "qstsa1q45",
+        "enUS": "Cain has been rescued and is now at the Rogue Encampment.",
+        "zhCN": "凱恩獲救了，現在已經返回俠盜營地。",
+        "zhTW": "凱恩獲救了，現在已經返回俠盜營地。",
+        "sgCN": "恩已经被救回来了，现在回到了萝格营地之中。",
+        "sgTW": "凱恩已經被救回來了，現在回到了蘿格營地之中。"
+    },
+    "qstsa1q46": {
+        "Key": "qstsa1q46",
+        "enUS": "Visit Cain and Akara in the Rogue Encampment.",
+        "zhCN": "回到俠盜營地，見見凱恩和阿卡拉。",
+        "zhTW": "回到俠盜營地，見見凱恩和阿卡拉。",
+        "sgCN": "回到萝格营地，见见凯恩和阿卡拉。",
+        "sgTW": "回到蘿格營地，見見凱恩和阿卡拉。"
+    },
+    "qstsa1q46b": {
+        "Key": "qstsa1q46b",
+        "enUS": "Talk to Akara for a reward.",
+        "zhCN": "與阿卡拉交談，領取獎勵。",
+        "zhTW": "與阿卡拉交談，領取獎勵。",
+        "sgCN": "去和阿卡拉谈谈并领赏。",
+        "sgTW": "去和阿卡拉談談並領賞。"
+    },
+    "qstsa1q51": {
+        "Key": "qstsa1q51",
+        "enUS": "Look for the Tower in the Black Marsh beyond the Dark Wood.",
+        "zhCN": "在穿過黑暗森林後的黑色荒地中，找到高塔。",
+        "zhTW": "在穿過黑暗森林後的黑色荒地中，找到高塔。",
+        "sgCN": "在黑暗森林远方的黑色荒地中，可以找到一个高塔。",
+        "sgTW": "在黑暗森林遠方的黑色荒地中，可以找到一個高塔。"
+    },
+    "qstsa1q51a": {
+        "Key": "qstsa1q51a",
+        "enUS": "Explore the cellar dungeons beneath the Tower ruins.",
+        "zhCN": "探索高塔廢墟底下的地牢。",
+        "zhTW": "探索高塔廢墟底下的地牢。",
+        "sgCN": "探索高塔废墟下面的地窖牢房。",
+        "sgTW": "探索高塔廢墟下面的地窖牢房。"
+    },
+    "qstsa1q51b": {
+        "Key": "qstsa1q51b",
+        "enUS": "Explore the cellar dungeons beneath the Tower ruins.",
+        "zhCN": "探索高塔廢墟底下的地牢。",
+        "zhTW": "探索高塔廢墟底下的地牢。",
+        "sgCN": "探索高塔废墟下面的地窖牢房。",
+        "sgTW": "探索高塔廢墟下面的地窖牢房。"
+    },
+    "qstsa1q52": {
+        "Key": "qstsa1q52",
+        "enUS": "Dispose of the evil Countess.",
+        "zhCN": "打倒邪惡女伯爵。",
+        "zhTW": "打倒邪惡女伯爵。",
+        "sgCN": "打倒里面的邪恶女伯爵。",
+        "sgTW": "打倒裡面的邪惡女伯爵。"
+    },
+    "qstsa1q31": {
+        "Key": "qstsa1q31",
+        "enUS": "Look for the Horadric Malus in the Monastery Barracks. Beware of the Smith that guards it.",
+        "zhCN": "到修道院兵營找出赫拉迪姆之鎚。務必小心看守的鐵匠。",
+        "zhTW": "到修道院兵營找出赫拉迪姆之鎚。務必小心看守的鐵匠。",
+        "sgCN": "在僧院的军营中找寻赫拉迪克之鎚。小心有个铁匠在看守著它。",
+        "sgTW": "在僧院的軍營中找尋赫拉迪克之鎚。小心有個鐵匠在看守著它。"
+    },
+    "qstsa1q32": {
+        "Key": "qstsa1q32",
+        "enUS": "Return the Horadric Malus to Charsi.",
+        "zhCN": "把赫拉迪姆之鎚帶回去給恰西。",
+        "zhTW": "把赫拉迪姆之鎚帶回去給恰西。",
+        "sgCN": "把赫拉迪克之鎚送回恰西的手中。",
+        "sgTW": "把赫拉迪克之鎚送回恰西的手中。"
+    },
+    "qstsa1q32b": {
+        "Key": "qstsa1q32b",
+        "enUS": "Charsi will imbue an item with magical power.",
+        "zhCN": "恰西會為你的一項物品灌入魔法力量。",
+        "zhTW": "恰西會為你的一項物品灌入魔法力量。",
+        "sgCN": "恰西会把你的一项物品灌入魔法力量。",
+        "sgTW": "恰西會把你的一項物品灌入魔法力量。"
+    },
+    "qstsa1q61": {
+        "Key": "qstsa1q61",
+        "enUS": "Find Andariel's Lair in the depths of the Monastery Catacombs.",
+        "zhCN": "在修道院的地下墓穴中，找到安達莉爾的巢穴。",
+        "zhTW": "在修道院的地下墓穴中，找到安達莉爾的巢穴。",
+        "sgCN": "在僧院的地下墓穴中，找到安达莉尔的老巢。",
+        "sgTW": "在僧院的地下墓穴中，找到安達莉爾的老巢。"
+    },
+    "qstsa1q62": {
+        "Key": "qstsa1q62",
+        "enUS": "Kill Andariel.",
+        "zhCN": "殺死安達莉爾。",
+        "zhTW": "殺死安達莉爾。",
+        "sgCN": "杀了安达莉尔。",
+        "sgTW": "殺了安達莉爾。"
+    },
+    "qstsa1q62b": {
+        "Key": "qstsa1q62b",
+        "enUS": "Return to Warriv to take the Caravan East.",
+        "zhCN": "回去找瓦瑞夫，隨著商隊向東旅行。",
+        "zhTW": "回去找瓦瑞夫，隨著商隊向東旅行。",
+        "sgCN": "回去找瓦瑞夫，你可以和他一块带领商队往东走。",
+        "sgTW": "回去找瓦瑞夫，你可以和他一塊帶領商隊往東走。"
+    },
+    "qstsa1q63": {
+        "Key": "qstsa1q63",
+        "enUS": "Return to Warriv to take the Caravan East.",
+        "zhCN": "回去找瓦瑞夫，隨著商隊向東旅行。",
+        "zhTW": "回去找瓦瑞夫，隨著商隊向東旅行。",
+        "sgCN": "回去找瓦瑞夫，你可以和他一块带领商队往东走。",
+        "sgTW": "回去找瓦瑞夫，你可以和他一塊帶領商隊往東走。"
+    },
+    "qstsa2q63f": {
+        "Key": "qstsa2q63f",
+        "enUS": "Explore Tal Rasha's Tomb",
+        "zhCN": "探索塔拉夏的古墓。",
+        "zhTW": "探索塔拉夏的古墓。",
+        "sgCN": "探索塔·拉夏的墓穴",
+        "sgTW": "探索塔.拉夏的墓穴"
+    },
+    "qsta5q14": {
+        "Key": "qsta5q14",
+        "enUS": "Larzuk will add sockets to the item of your choice.",
+        "zhCN": "拉蘇克會在你指定的物品上面增加鑲孔。",
+        "zhTW": "拉蘇克會在你指定的物品上面增加鑲孔。",
+        "sgCN": "拉苏克会在你指定的物品增加凹槽。",
+        "sgTW": "拉蘇克會在你指定的物品上面增加凹槽。"
+    },
+    "qstsa5q42a": {
+        "Key": "qstsa5q42a",
+        "enUS": "Find Nihlathak in the Halls of Vaught.",
+        "zhCN": "在沃特之廳找出尼拉塞克。",
+        "zhTW": "在沃特之廳找出尼拉塞克。",
+        "sgCN": "在瓦特大厅中找出尼拉塞克。",
+        "sgTW": "在瓦特之廳中找出尼拉塞克。"
+    },
+    "qstsa5q31a": {
+        "Key": "qstsa5q31a",
+        "enUS": "Rescue Anya.",
+        "zhCN": "救出安亞。",
+        "zhTW": "救出安亞。",
+        "sgCN": "救出安亚。",
+        "sgTW": "救出安亞。"
+    },
+    "qstsa5q21a": {
+        "Key": "qstsa5q21a",
+        "enUS": "Free the soldiers from their prison and lead them back to town.",
+        "zhCN": "從監牢中救出士兵，並把他們帶回城鎮。",
+        "zhTW": "從監牢中救出士兵，並把他們帶回城鎮。",
+        "sgCN": "从他们的牢房中救出𢧐士，并把他们带回来。",
+        "sgTW": "從他們的牢房中救出戰士，並把他們帶回來。"
+    },
+    "qstsa5q43a": {
+        "Key": "qstsa5q43a",
+        "enUS": "Anya will personalize an item for you.",
+        "zhCN": "安亞會為一件物品冠上你的名字。",
+        "zhTW": "安亞會為一件物品冠上你的名字。",
+        "sgCN": "安亚会為你量身打造一项物品。",
+        "sgTW": "安亞會為你量身打造一項物品。"
+    },
+    "qstsa5q62a": {
+        "Key": "qstsa5q62a",
+        "enUS": "Kill Baal in the Worldstone Chamber before he corrupts it.",
+        "zhCN": "在巴爾腐化世界之石以前，殺掉位於世界之石大殿中的巴爾。",
+        "zhTW": "在巴爾腐化世界之石以前，殺掉位於世界之石大殿中的巴爾。",
+        "sgCN": "在巴尔腐化世界之石以前，杀掉位于世界之石大厅中的巴尔。",
+        "sgTW": "在巴爾腐化世界之石以前，殺掉位於世界之石大廳中的巴爾。"
+    },
+    "qstsa5q61a": {
+        "Key": "qstsa5q61a",
+        "enUS": "Find Baal's Throne Room.",
+        "zhCN": "找到巴爾的王座大廳。",
+        "zhTW": "找到巴爾的王座大廳。",
+        "sgCN": "找到巴尔的王室。",
+        "sgTW": "找到巴爾的王室。"
+    },
+    "qstsa5q62b": {
+        "Key": "qstsa5q62b",
+        "enUS": "Kill Baal's Minions.",
+        "zhCN": "殺死巴爾的僕從。",
+        "zhTW": "殺死巴爾的僕從。",
+        "sgCN": "杀死巴尔的仆从。",
+        "sgTW": "殺死巴爾的僕眾"
+    },
+    "qstsa5q1": {
+        "Key": "qstsa5q1",
+        "enUS": "Siege on Harrogath",
+        "zhCN": "哈洛加斯圍城戰",
+        "zhTW": "哈洛加斯圍城戰",
+        "sgCN": "哈洛加斯围城战",
+        "sgTW": "哈洛加斯圍城戰"
+    },
+    "qsta5q11": {
+        "Key": "qsta5q11",
+        "enUS": "Stop the Siege by killing Shenk the Overseer in the Bloody Foothills.",
+        "zhCN": "殺死在血腥丘陵的督軍山克，以阻止這場圍城戰。",
+        "zhTW": "殺死在血腥丘陵的督軍山克，以阻止這場圍城戰。",
+        "sgCN": "消杀死在血腥丘陵的督军山克，以阻止这场围城战。",
+        "sgTW": "殺死在血腥丘陵的督軍山克，以阻止這場圍城戰"
+    },
+    "qsta5q12": {
+        "Key": "qsta5q12",
+        "enUS": "Kill Shenk the Overseer.",
+        "zhCN": "殺死督軍山克。",
+        "zhTW": "殺死督軍山克。",
+        "sgCN": "杀死督军山克。",
+        "sgTW": "殺死督軍山克"
+    },
+    "qsta5q13": {
+        "Key": "qsta5q13",
+        "enUS": "Go talk to Larzuk for your reward.",
+        "zhCN": "與拉蘇克交談，領取你的獎勵。",
+        "zhTW": "與拉蘇克交談，領取你的獎勵。",
+        "sgCN": "和拉苏克交谈，以拿取你的奖赏。",
+        "sgTW": "和拉蘇克交談，以拿取你的獎賞"
+    },
+    "qstsa5q2": {
+        "Key": "qstsa5q2",
+        "enUS": "Rescue on Mount Arreat",
+        "zhCN": "亞瑞特山的救援行動",
+        "zhTW": "亞瑞特山的救援行動",
+        "sgCN": "亚瑞特山的救援行动",
+        "sgTW": "亞瑞特山的救援行動"
+    },
+    "qstsa5q21": {
+        "Key": "qstsa5q21",
+        "enUS": "Find the Soldiers in the Frigid Highlands.",
+        "zhCN": "找到冰凍高地上的士兵。",
+        "zhTW": "找到冰凍高地上的士兵。",
+        "sgCN": "找到在冰冻高地上的战士。",
+        "sgTW": "找到在冰凍高地上的戰士"
+    },
+    "qstsa5q22": {
+        "Key": "qstsa5q22",
+        "enUS": "Rescue %d more Soldiers in the Frigid Highlands.",
+        "zhCN": "在冰凍高地救援%d位士兵。",
+        "zhTW": "在冰凍高地救援%d位士兵。",
+        "sgCN": "救援在冰冻高地上面%d位以上的𢧐士。",
+        "sgTW": "救援在冰凍高地上面%d位以上的戰士"
+    },
+    "qstsa5q23": {
+        "Key": "qstsa5q23",
+        "enUS": "Return to Qual-Kehk for your reward.",
+        "zhCN": "回去找夸爾凱克，領取你的獎賞。",
+        "zhTW": "回去找夸爾凱克，領取你的獎賞。",
+        "sgCN": "回到夸尔凯克身边，拿取你的奖赏。",
+        "sgTW": "回到夸爾凱克身邊，拿取你的獎賞"
+    },
+    "qstsa5q24": {
+        "Key": "qstsa5q24",
+        "enUS": "Apply the Runes to a Socketed item in this order:",
+        "zhCN": "以下列順序把符文嵌進鑲孔物品：",
+        "zhTW": "以下列順序把符文嵌進鑲孔物品：",
+        "sgCN": "以下列顺序把符文装进一个凹槽物品：",
+        "sgTW": "以下列順序把符文裝進一個凹槽物品："
+    },
+    "qstsa5q3": {
+        "Key": "qstsa5q3",
+        "enUS": "Prison of Ice",
+        "zhCN": "冰凍囚牢",
+        "zhTW": "冰凍囚牢",
+        "sgCN": "冰之囚",
+        "sgTW": "冰之囚"
+    },
+    "qstsa5q31": {
+        "Key": "qstsa5q31",
+        "enUS": "Look for Anya under the Crystalline Passage by the Frozen River.",
+        "zhCN": "在水晶通道下的冰凍之河尋覓安亞。",
+        "zhTW": "在水晶通道下的冰凍之河尋覓安亞。",
+        "sgCN": "在水晶通道下的冰河中寻觅安亚。",
+        "sgTW": "在水晶通道下的冰河中尋覓安亞"
+    },
+    "qstsa5q32": {
+        "Key": "qstsa5q32",
+        "enUS": "Talk to Malah.",
+        "zhCN": "與瑪拉交談。",
+        "zhTW": "與瑪拉交談。",
+        "sgCN": "和马拉谈话。",
+        "sgTW": "和瑪拉談話。"
+    },
+    "qstsa5q33": {
+        "Key": "qstsa5q33",
+        "enUS": "Use the potion Malah gave you to thaw Anya.",
+        "zhCN": "使用瑪拉給你的藥水融化安亞身上的冰。",
+        "zhTW": "使用瑪拉給你的藥水融化安亞身上的冰。",
+        "sgCN": "利用马拉给你的药剂融化安亚身上的冰。",
+        "sgTW": "利用瑪拉給你的藥劑融化安亞身上的冰。"
+    },
+    "qstsa5q34": {
+        "Key": "qstsa5q34",
+        "enUS": "Talk to Malah for your reward.",
+        "zhCN": "與瑪拉交談，領取你的獎勵。",
+        "zhTW": "與瑪拉交談，領取你的獎勵。",
+        "sgCN": "与马拉交谈，以拿取你的奖赏。",
+        "sgTW": "與瑪拉交談，以拿取你的獎賞。"
+    },
+    "qstsa5q35": {
+        "Key": "qstsa5q35",
+        "enUS": "Talk to Anya.",
+        "zhCN": "與安亞交談。",
+        "zhTW": "與安亞交談。",
+        "sgCN": "与安亚交谈。",
+        "sgTW": "與安亞交談"
+    },
+    "qstsa5q4": {
+        "Key": "qstsa5q4",
+        "enUS": "Betrayal of Harrogath",
+        "zhCN": "哈洛加斯的叛徒",
+        "zhTW": "哈洛加斯的叛徒",
+        "sgCN": "哈洛加斯的反叛行动",
+        "sgTW": "哈洛加斯的反叛行動"
+    },
+    "qstsa5q41": {
+        "Key": "qstsa5q41",
+        "enUS": "Take Anya's portal to Nihlathak's Temple.",
+        "zhCN": "通過安亞的傳送門，前往尼拉塞克的神殿。",
+        "zhTW": "通過安亞的傳送門，前往尼拉塞克的神殿。",
+        "sgCN": "用安亚的传送点，前往尼拉塞克的神殿。",
+        "sgTW": "利用安亞的傳送點，前往尼拉塞克的神殿。"
+    },
+    "qstsa5q42": {
+        "Key": "qstsa5q42",
+        "enUS": "Kill Nihlathak.",
+        "zhCN": "殺死尼拉塞克。",
+        "zhTW": "殺死尼拉塞克。",
+        "sgCN": "杀死尼拉塞克。",
+        "sgTW": "殺死尼拉塞克。"
+    },
+    "qstsa5q43": {
+        "Key": "qstsa5q43",
+        "enUS": "Talk to Anya before you continue through the Crystalline Passage, past the Glacial Trail, to proceed up Mount Arreat to the Summit.",
+        "zhCN": "在你繼續通過水晶通道、冰河小徑，並登上亞瑞特山巔之前先和安亞交談。",
+        "zhTW": "在你繼續通過水晶通道、冰河小徑，並登上亞瑞特山巔之前先和安亞交談。",
+        "sgCN": "在你到达水晶通道、冰河路径与亚瑞特山顶之前和安亚交谈。",
+        "sgTW": "在你到達水晶通道、冰河路徑與亞瑞特山頂之前和安亞交談。"
+    },
+    "qstsa5q5": {
+        "Key": "qstsa5q5",
+        "enUS": "Rite of Passage",
+        "zhCN": "祭儀試煉",
+        "zhTW": "祭儀試煉",
+        "sgCN": "通道的祭典",
+        "sgTW": "通道的祭典"
+    },
+    "qstsa5q51": {
+        "Key": "qstsa5q51",
+        "enUS": "Travel through the Ancient's Way to find the Ancients at the Arreat Summit.",
+        "zhCN": "沿著先祖之路行走，在亞瑞特山巔找到先祖。",
+        "zhTW": "沿著先祖之路行走，在亞瑞特山巔找到先祖。",
+        "sgCN": "沿著远古之路行走在亚瑞特山顶找到古代人。",
+        "sgTW": "沿著遠古之路行走在亞瑞特山頂找到古代人。"
+    },
+    "qstsa5q52": {
+        "Key": "qstsa5q52",
+        "enUS": "Consult with the Ancients by activating the Altar of the Heavens.",
+        "zhCN": "啟動天堂祭壇之後，與先祖交談。",
+        "zhTW": "啟動天堂祭壇之後，與先祖交談。",
+        "sgCN": "在啟动天堂祭坛之后，与古代人交涉。",
+        "sgTW": "在啟動天堂祭壇之後，與古代人交涉。"
+    },
+    "qstsa5q53": {
+        "Key": "qstsa5q53",
+        "enUS": "Defeat all three Ancients without leaving Mount Arreat.",
+        "zhCN": "在不離開亞瑞特山的情況下，打倒三位先祖。",
+        "zhTW": "在不離開亞瑞特山的情況下，打倒三位先祖。",
+        "sgCN": "在不离开亚瑞特山的情况下，打倒所有的古代人。",
+        "sgTW": "在不離開亞瑞特山的情況下，打倒所有的古代人。"
+    },
+    "qstsa5q6": {
+        "Key": "qstsa5q6",
+        "enUS": "Eve of Destruction",
+        "zhCN": "毀滅的前夕",
+        "zhTW": "毀滅的前夕",
+        "sgCN": "毁灭的前夕",
+        "sgTW": "毀滅的前夕"
+    },
+    "qstsa5q61": {
+        "Key": "qstsa5q61",
+        "enUS": "Consult with the Ancients.",
+        "zhCN": "與先祖交談。",
+        "zhTW": "與先祖交談。",
+        "sgCN": "与古代人交涉。",
+        "sgTW": "與古代人交涉"
+    },
+    "qstsa5q62": {
+        "Key": "qstsa5q62",
+        "enUS": "Kill Baal.",
+        "zhCN": "殺死巴爾。",
+        "zhTW": "殺死巴爾。",
+        "sgCN": "杀死巴尔。",
+        "sgTW": "殺死巴爾。"
+    },
+    "qstsa5q63": {
+        "Key": "qstsa5q63",
+        "enUS": "Talk to Tyreal.",
+        "zhCN": "與泰瑞爾交談。",
+        "zhTW": "與泰瑞爾交談。",
+        "sgCN": "与泰瑞尔交谈。",
+        "sgTW": "與泰瑞爾交談。"
+    },
+    "qstsa5q64": {
+        "Key": "qstsa5q64",
+        "enUS": "Take Tyreal's Portal to Safety.",
+        "zhCN": "利用泰瑞爾的傳送門前往安全的地方。",
+        "zhTW": "利用泰瑞爾的傳送門前往安全的地方。",
+        "sgCN": "利用泰瑞尔的传送点来到安全的地方。",
+        "sgTW": "利用泰瑞爾的傳送點來到安全的地方。"
+    }
+}

@@ -2723,7 +2723,49 @@ class FileOperations:
     def select_language(self, radio: str):
         """刷新控制器恐怖地带列表"""
         self.controller.feature_view.tz_tab.load_and_display_data()
-        return 1, 1
+
+        try:
+            with open(TERROR_ZONE_PATH, "r", encoding="utf-8") as f:
+                full_data = json.load(f)
+            data_list = full_data.get("data", [])
+
+            item = data_list[0]
+            if isinstance(item, dict):
+                raw_time = item.get("time")
+                raw_zone = item.get("zone")
+                
+                # 时间
+                formatted_time = (
+                    time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time))
+                    if raw_time else "未知时间"
+                )
+
+                # 恐怖地带
+                tz_list = [formatted_time]
+
+                tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
+                
+                if isinstance(raw_zone, str):
+                    level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
+                    for level_key in level_keys:
+                        level = jcy_config.LOCAL.get(level_key, {})
+                        level_name = level.get(tz_lang, f"未知区域({level_key})")
+                        tz_list.append(level_name)
+
+                elif isinstance(raw_zone, list):
+                    for zone_id in raw_zone:
+                        level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
+                        level = jcy_config.LOCAL.get(level_key, {})
+                        level_name = level.get(tz_lang, f"未知区域({zone_id})")
+                        tz_list.append(level_name)
+
+                # 去重 + 保序
+                tz_list = list(dict.fromkeys(tz_list))
+
+                return self.writeTerrorZone("\n".join(tz_list))           
+        except Exception as e:
+            print(e)
+            return 0, 1
 
 
     def modify_selected_language(self, select_language: str):

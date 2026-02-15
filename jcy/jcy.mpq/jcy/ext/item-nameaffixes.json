@@ -1,0 +1,8210 @@
+{
+    "Low Quality": {
+        "Key": "Low Quality",
+        "enUS": "Low Quality",
+        "zhCN": "劣等的",
+        "zhTW": "劣等的",
+        "sgCN": "劣质的",
+        "sgTW": "劣質的"
+    },
+    "Damaged": {
+        "Key": "Damaged",
+        "enUS": "Damaged",
+        "zhCN": "損壞的",
+        "zhTW": "損壞的",
+        "sgCN": "损坏的",
+        "sgTW": "損壞的"
+    },
+    "Cracked": {
+        "Key": "Cracked",
+        "enUS": "Cracked",
+        "zhCN": "破舊的",
+        "zhTW": "破舊的",
+        "sgCN": "破碎的",
+        "sgTW": "破碎的"
+    },
+    "Hiquality": {
+        "Key": "Hiquality",
+        "enUS": "ÿc;Superiorÿc0",
+        "zhCN": "ÿc;特等ÿc0",
+        "zhTW": "ÿc;特等ÿc0",
+        "sgCN": "ÿc;超強的ÿc0",
+        "sgTW": "ÿc;超強的ÿc0"
+    },
+    "Gemmed": {
+        "Key": "Gemmed",
+        "enUS": "Gemmed",
+        "zhCN": "鑲嵌寶石的",
+        "zhTW": "鑲嵌寶石的",
+        "sgCN": "镶上宝石的",
+        "sgTW": "鑲上寶石的"
+    },
+    "Resiliant": {
+        "Key": "Resiliant",
+        "enUS": "Resilient",
+        "zhCN": "強韌",
+        "zhTW": "強韌",
+        "sgCN": "精力充沛之",
+        "sgTW": "精力充沛之"
+    },
+    "Sturdy": {
+        "Key": "Sturdy",
+        "enUS": "Sturdy",
+        "zhCN": "堅實",
+        "zhTW": "堅實",
+        "sgCN": "结实之",
+        "sgTW": "結實之"
+    },
+    "Strong": {
+        "Key": "Strong",
+        "enUS": "Strong",
+        "zhCN": "強固",
+        "zhTW": "強固",
+        "sgCN": "强壮之",
+        "sgTW": "強壯之"
+    },
+    "Glorious": {
+        "Key": "Glorious",
+        "enUS": "Glorious",
+        "zhCN": "光榮",
+        "zhTW": "光榮",
+        "sgCN": "光荣之",
+        "sgTW": "光榮之"
+    },
+    "Blessed": {
+        "Key": "Blessed",
+        "enUS": "Blessed",
+        "zhCN": "祝福",
+        "zhTW": "祝福",
+        "sgCN": "祝福之",
+        "sgTW": "祝福之"
+    },
+    "Saintly": {
+        "Key": "Saintly",
+        "enUS": "Saintly",
+        "zhCN": "崇高",
+        "zhTW": "崇高",
+        "sgCN": "崇高之",
+        "sgTW": "崇高之"
+    },
+    "Holy": {
+        "Key": "Holy",
+        "enUS": "Holy",
+        "zhCN": "神聖",
+        "zhTW": "神聖",
+        "sgCN": "神圣之",
+        "sgTW": "神聖之"
+    },
+    "Devious": {
+        "Key": "Devious",
+        "enUS": "Devious",
+        "zhCN": "迂迴",
+        "zhTW": "迂迴",
+        "sgCN": "迂回之",
+        "sgTW": "迂迴之"
+    },
+    "Fortified": {
+        "Key": "Fortified",
+        "enUS": "Fortified",
+        "zhCN": "強化",
+        "zhTW": "強化",
+        "sgCN": "防御強化之",
+        "sgTW": "防禦強化之"
+    },
+    "Urgent": {
+        "Key": "Urgent",
+        "enUS": "Urgent",
+        "zhCN": "緊急",
+        "zhTW": "緊急",
+        "sgCN": "紧急之",
+        "sgTW": "緊急之"
+    },
+    "Fleet": {
+        "Key": "Fleet",
+        "enUS": "Fleet",
+        "zhCN": "快捷",
+        "zhTW": "快捷",
+        "sgCN": "快捷之",
+        "sgTW": "快捷之"
+    },
+    "Muscular": {
+        "Key": "Muscular",
+        "enUS": "Muscular",
+        "zhCN": "壯碩",
+        "zhTW": "壯碩",
+        "sgCN": "强力之",
+        "sgTW": "強力之"
+    },
+    "Jagged": {
+        "Key": "Jagged",
+        "enUS": "Jagged",
+        "zhCN": "鋸齒",
+        "zhTW": "鋸齒",
+        "sgCN": "锯齿之",
+        "sgTW": "鋸齒之"
+    },
+    "Deadly": {
+        "Key": "Deadly",
+        "enUS": "Deadly",
+        "zhCN": "奪命",
+        "zhTW": "奪命",
+        "sgCN": "致命之",
+        "sgTW": "致命之"
+    },
+    "Vicious": {
+        "Key": "Vicious",
+        "enUS": "Vicious",
+        "zhCN": "兇惡",
+        "zhTW": "兇惡",
+        "sgCN": "恶毒之",
+        "sgTW": "惡毒之"
+    },
+    "Brutal": {
+        "Key": "Brutal",
+        "enUS": "Brutal",
+        "zhCN": "殘暴",
+        "zhTW": "殘暴",
+        "sgCN": "残忍之",
+        "sgTW": "殘忍之"
+    },
+    "Massive": {
+        "Key": "Massive",
+        "enUS": "Massive",
+        "zhCN": "重創",
+        "zhTW": "重創",
+        "sgCN": "稳重之",
+        "sgTW": "穩重之"
+    },
+    "Savage": {
+        "Key": "Savage",
+        "enUS": "Savage",
+        "zhCN": "蠻烈",
+        "zhTW": "蠻烈",
+        "sgCN": "野蛮之",
+        "sgTW": "野蠻之"
+    },
+    "Merciless": {
+        "Key": "Merciless",
+        "enUS": "Merciless",
+        "zhCN": "絕憫",
+        "zhTW": "絕憫",
+        "sgCN": "绝情之",
+        "sgTW": "絕情之"
+    },
+    "Vulpine": {
+        "Key": "Vulpine",
+        "enUS": "Vulpine",
+        "zhCN": "奸詐",
+        "zhTW": "奸詐",
+        "sgCN": "奸诈之",
+        "sgTW": "奸詐之"
+    },
+    "Swift": {
+        "Key": "Swift",
+        "enUS": "Swift",
+        "zhCN": "迅疾",
+        "zhTW": "迅疾",
+        "sgCN": "迅速之",
+        "sgTW": "迅速之"
+    },
+    "Artful": {
+        "Key": "Artful",
+        "enUS": "Artful",
+        "zhCN": "取巧",
+        "zhTW": "取巧",
+        "sgCN": "机敏之",
+        "sgTW": "機敏之"
+    },
+    "Adroit": {
+        "Key": "Adroit",
+        "enUS": "Adroit",
+        "zhCN": "巧捷",
+        "zhTW": "巧捷",
+        "sgCN": "机敏之",
+        "sgTW": "機敏之"
+    },
+    "Tireless": {
+        "Key": "Tireless",
+        "enUS": "Tireless",
+        "zhCN": "不倦",
+        "zhTW": "不倦",
+        "sgCN": "不倦之",
+        "sgTW": "不倦之"
+    },
+    "Rugged": {
+        "Key": "Rugged",
+        "enUS": "Rugged",
+        "zhCN": "粗獷",
+        "zhTW": "粗獷",
+        "sgCN": "凹凸之",
+        "sgTW": "凹凸之"
+    },
+    "Bronze": {
+        "Key": "Bronze",
+        "enUS": "Bronze",
+        "zhCN": "青銅",
+        "zhTW": "青銅",
+        "sgCN": "青铜之",
+        "sgTW": "青銅之"
+    },
+    "Iron": {
+        "Key": "Iron",
+        "enUS": "Iron",
+        "zhCN": "生鐵",
+        "zhTW": "生鐵",
+        "sgCN": "铁之",
+        "sgTW": "鐵之"
+    },
+    "Steel": {
+        "Key": "Steel",
+        "enUS": "Steel",
+        "zhCN": "鋼鐵",
+        "zhTW": "鋼鐵",
+        "sgCN": "钢之",
+        "sgTW": "鋼之"
+    },
+    "Silver": {
+        "Key": "Silver",
+        "enUS": "Silver",
+        "zhCN": "白銀",
+        "zhTW": "白銀",
+        "sgCN": "银之",
+        "sgTW": "銀之"
+    },
+    "Gold": {
+        "Key": "Gold",
+        "enUS": "Gold",
+        "zhCN": "黃金",
+        "zhTW": "黃金",
+        "sgCN": "金之",
+        "sgTW": "金之"
+    },
+    "Platinum": {
+        "Key": "Platinum",
+        "enUS": "Platinum",
+        "zhCN": "白金",
+        "zhTW": "白金",
+        "sgCN": "白金之",
+        "sgTW": "白金之"
+    },
+    "Meteoric": {
+        "Key": "Meteoric",
+        "enUS": "Meteoric",
+        "zhCN": "隕鐵",
+        "zhTW": "隕鐵",
+        "sgCN": "陨铁之",
+        "sgTW": "隕鐵之"
+    },
+    "Sharp": {
+        "Key": "Sharp",
+        "enUS": "Sharp",
+        "zhCN": "銳利",
+        "zhTW": "銳利",
+        "sgCN": "尖锐之",
+        "sgTW": "尖銳之"
+    },
+    "Fine": {
+        "Key": "Fine",
+        "enUS": "Fine",
+        "zhCN": "良質",
+        "zhTW": "良質",
+        "sgCN": "精良之",
+        "sgTW": "精良之"
+    },
+    "Warrior's": {
+        "Key": "Warrior's",
+        "enUS": "Warrior's",
+        "zhCN": "戰士",
+        "zhTW": "戰士",
+        "sgCN": "战士之",
+        "sgTW": "戰士之"
+    },
+    "Soldier's": {
+        "Key": "Soldier's",
+        "enUS": "Soldier's",
+        "zhCN": "士兵",
+        "zhTW": "士兵",
+        "sgCN": "士兵之",
+        "sgTW": "士兵之"
+    },
+    "Knight's": {
+        "Key": "Knight's",
+        "enUS": "Knight's",
+        "zhCN": "騎士",
+        "zhTW": "騎士",
+        "sgCN": "骑士之",
+        "sgTW": "騎士之"
+    },
+    "Lord's": {
+        "Key": "Lord's",
+        "enUS": "Lord's",
+        "zhCN": "領主",
+        "zhTW": "領主",
+        "sgCN": "君王之",
+        "sgTW": "君王之"
+    },
+    "King's": {
+        "Key": "King's",
+        "enUS": "King's",
+        "zhCN": "王者",
+        "zhTW": "王者",
+        "sgCN": "国王之",
+        "sgTW": "國王之"
+    },
+    "Howling": {
+        "Key": "Howling",
+        "enUS": "Howling",
+        "zhCN": "嘶嚎",
+        "zhTW": "嘶嚎",
+        "sgCN": "咆哮之",
+        "sgTW": "咆哮之"
+    },
+    "Fortuitous": {
+        "Key": "Fortuitous",
+        "enUS": "Fortuitous",
+        "zhCN": "巧運",
+        "zhTW": "巧運",
+        "sgCN": "偶然之",
+        "sgTW": "偶然之"
+    },
+    "Brilliant": {
+        "Key": "Brilliant",
+        "enUS": "Brilliant",
+        "zhCN": "聰穎",
+        "zhTW": "聰穎",
+        "sgCN": "明亮之",
+        "sgTW": "明亮之"
+    },
+    "Omniscient": {
+        "Key": "Omniscient",
+        "enUS": "Omniscient",
+        "zhCN": "全知",
+        "zhTW": "全知",
+        "sgCN": "全知之",
+        "sgTW": "全知之"
+    },
+    "Sage": {
+        "Key": "Sage",
+        "enUS": "Sage",
+        "zhCN": "聖明",
+        "zhTW": "聖明",
+        "sgCN": "贤人之",
+        "sgTW": "賢人之"
+    },
+    "Shrewd": {
+        "Key": "Shrewd",
+        "enUS": "Shrewd",
+        "zhCN": "精明",
+        "zhTW": "精明",
+        "sgCN": "敏锐之",
+        "sgTW": "敏銳之"
+    },
+    "Vivid": {
+        "Key": "Vivid",
+        "enUS": "Vivid",
+        "zhCN": "生動",
+        "zhTW": "生動",
+        "sgCN": "生动之",
+        "sgTW": "生動之"
+    },
+    "Glimmering": {
+        "Key": "Glimmering",
+        "enUS": "Glimmering",
+        "zhCN": "微光",
+        "zhTW": "微光",
+        "sgCN": "微光之",
+        "sgTW": "微光之"
+    },
+    "Glowing": {
+        "Key": "Glowing",
+        "enUS": "Glowing",
+        "zhCN": "光亮",
+        "zhTW": "光亮",
+        "sgCN": "发光之",
+        "sgTW": "發光之"
+    },
+    "Bright": {
+        "Key": "Bright",
+        "enUS": "Bright",
+        "zhCN": "明亮",
+        "zhTW": "明亮",
+        "sgCN": "光明之",
+        "sgTW": "光明之"
+    },
+    "Solar": {
+        "Key": "Solar",
+        "enUS": "Solar",
+        "zhCN": "太陽",
+        "zhTW": "太陽",
+        "sgCN": "太阳之",
+        "sgTW": "太陽之"
+    },
+    "Lizard's": {
+        "Key": "Lizard's",
+        "enUS": "Lizard's",
+        "zhCN": "蜥蜴",
+        "zhTW": "蜥蜴",
+        "sgCN": "蜥蜴之",
+        "sgTW": "蜥蜴之"
+    },
+    "Forceful": {
+        "Key": "Forceful",
+        "enUS": "Forceful",
+        "zhCN": "強力",
+        "zhTW": "強力",
+        "sgCN": "强力之",
+        "sgTW": "強力之"
+    },
+    "Snake's": {
+        "Key": "Snake's",
+        "enUS": "Snake's",
+        "zhCN": "盤蛇",
+        "zhTW": "盤蛇",
+        "sgCN": "蛇之",
+        "sgTW": "蛇之"
+    },
+    "Serpent's": {
+        "Key": "Serpent's",
+        "enUS": "Serpent's",
+        "zhCN": "蛟龍",
+        "zhTW": "蛟龍",
+        "sgCN": "海蛇之",
+        "sgTW": "海蛇之"
+    },
+    "Drake's": {
+        "Key": "Drake's",
+        "enUS": "Drake's",
+        "zhCN": "飛龍",
+        "zhTW": "飛龍",
+        "sgCN": "德尔克之",
+        "sgTW": "德爾克之"
+    },
+    "Dragon's": {
+        "Key": "Dragon's",
+        "enUS": "Dragon's",
+        "zhCN": "巨龍",
+        "zhTW": "巨龍",
+        "sgCN": "龙之",
+        "sgTW": "龍之"
+    },
+    "Wyrm's": {
+        "Key": "Wyrm's",
+        "enUS": "Wyrm's",
+        "zhCN": "古龍",
+        "zhTW": "古龍",
+        "sgCN": "维特之",
+        "sgTW": "維特之"
+    },
+    "Dazzling": {
+        "Key": "Dazzling",
+        "enUS": "Dazzling",
+        "zhCN": "眩惑",
+        "zhTW": "眩惑",
+        "sgCN": "炫目之",
+        "sgTW": "眩惑之"
+    },
+    "Facinating": {
+        "Key": "Facinating",
+        "enUS": "Fascinating",
+        "zhCN": "迷戀",
+        "zhTW": "迷戀",
+        "sgCN": "醉人之",
+        "sgTW": "醉人之"
+    },
+    "Prismatic": {
+        "Key": "Prismatic",
+        "enUS": "Prismatic",
+        "zhCN": "光繽",
+        "zhTW": "光繽",
+        "sgCN": "棱镜之",
+        "sgTW": "稜鏡之"
+    },
+    "Azure": {
+        "Key": "Azure",
+        "enUS": "Azure",
+        "zhCN": "碧藍",
+        "zhTW": "碧藍",
+        "sgCN": "天青之",
+        "sgTW": "天青之"
+    },
+    "Lapis": {
+        "Key": "Lapis",
+        "enUS": "Lapis",
+        "zhCN": "天藍",
+        "zhTW": "天藍",
+        "sgCN": "天蓝之",
+        "sgTW": "天藍之"
+    },
+    "Cobalt": {
+        "Key": "Cobalt",
+        "enUS": "Cobalt",
+        "zhCN": "鈷藍",
+        "zhTW": "鈷藍",
+        "sgCN": "钴之",
+        "sgTW": "鈷之"
+    },
+    "Indigo": {
+        "Key": "Indigo",
+        "enUS": "Indigo",
+        "zhCN": "靛青",
+        "zhTW": "靛青",
+        "sgCN": "靛青之",
+        "sgTW": "靛青之"
+    },
+    "Sapphire": {
+        "Key": "Sapphire",
+        "enUS": "Sapphire",
+        "zhCN": "寶藍",
+        "zhTW": "寶藍",
+        "sgCN": "蔚蓝之",
+        "sgTW": "蔚藍之"
+    },
+    "Cerulean": {
+        "Key": "Cerulean",
+        "enUS": "Cerulean",
+        "zhCN": "天藍",
+        "zhTW": "天藍",
+        "sgCN": "天蓝之",
+        "sgTW": "天藍之"
+    },
+    "Red": {
+        "Key": "Red",
+        "enUS": "Red",
+        "zhCN": "赤紅",
+        "zhTW": "赤紅",
+        "sgCN": "红之",
+        "sgTW": "紅之"
+    },
+    "Crimson": {
+        "Key": "Crimson",
+        "enUS": "Crimson",
+        "zhCN": "緋紅",
+        "zhTW": "緋紅",
+        "sgCN": "枣红",
+        "sgTW": "棗紅之"
+    },
+    "Burgundy": {
+        "Key": "Burgundy",
+        "enUS": "Burgundy",
+        "zhCN": "酒紅",
+        "zhTW": "酒紅",
+        "sgCN": "红棕之",
+        "sgTW": "紅棕之"
+    },
+    "Garnet": {
+        "Key": "Garnet",
+        "enUS": "Garnet",
+        "zhCN": "深紅",
+        "zhTW": "深紅",
+        "sgCN": "深红之",
+        "sgTW": "深紅之"
+    },
+    "Russet": {
+        "Key": "Russet",
+        "enUS": "Russet",
+        "zhCN": "赭紅",
+        "zhTW": "赭紅",
+        "sgCN": "赤褐之",
+        "sgTW": "赤褐之"
+    },
+    "Ruby": {
+        "Key": "Ruby",
+        "enUS": "Ruby",
+        "zhCN": "寶紅",
+        "zhTW": "寶紅",
+        "sgCN": "红宝石之",
+        "sgTW": "紅寶石之"
+    },
+    "Vermilion": {
+        "Key": "Vermilion",
+        "enUS": "Vermilion",
+        "zhCN": "朱紅",
+        "zhTW": "朱紅",
+        "sgCN": "朱砂之",
+        "sgTW": "朱砂之"
+    },
+    "Orange": {
+        "Key": "Orange",
+        "enUS": "Orange",
+        "zhCN": "橙橘",
+        "zhTW": "橙橘",
+        "sgCN": "橙之",
+        "sgTW": "橙之"
+    },
+    "Ocher": {
+        "Key": "Ocher",
+        "enUS": "Ocher",
+        "zhCN": "赭黃",
+        "zhTW": "赭黃",
+        "sgCN": "赭黃之",
+        "sgTW": "赭黃之"
+    },
+    "Tangerine": {
+        "Key": "Tangerine",
+        "enUS": "Tangerine",
+        "zhCN": "橘黃",
+        "zhTW": "橘黃",
+        "sgCN": "红柑之",
+        "sgTW": "紅柑之"
+    },
+    "Coral": {
+        "Key": "Coral",
+        "enUS": "Coral",
+        "zhCN": "珊瑚",
+        "zhTW": "珊瑚",
+        "sgCN": "珊瑚之",
+        "sgTW": "珊瑚之"
+    },
+    "Crackling": {
+        "Key": "Crackling",
+        "enUS": "Crackling",
+        "zhCN": "爆裂",
+        "zhTW": "爆裂",
+        "sgCN": "爆裂之",
+        "sgTW": "爆裂之"
+    },
+    "Amber": {
+        "Key": "Amber",
+        "enUS": "Amber",
+        "zhCN": "琥珀",
+        "zhTW": "琥珀",
+        "sgCN": "琥珀之",
+        "sgTW": "琥珀之"
+    },
+    "Forked": {
+        "Key": "Forked",
+        "enUS": "Forked",
+        "zhCN": "叉狀",
+        "zhTW": "叉狀",
+        "sgCN": "分叉之",
+        "sgTW": "分叉之"
+    },
+    "Beryl": {
+        "Key": "Beryl",
+        "enUS": "Beryl",
+        "zhCN": "藍綠",
+        "zhTW": "藍綠",
+        "sgCN": "海蓝之",
+        "sgTW": "海藍之"
+    },
+    "Jade": {
+        "Key": "Jade",
+        "enUS": "Jade",
+        "zhCN": "翠綠",
+        "zhTW": "翠綠",
+        "sgCN": "翠绿之",
+        "sgTW": "翠綠之"
+    },
+    "Viridian": {
+        "Key": "Viridian",
+        "enUS": "Viridian",
+        "zhCN": "鉻綠",
+        "zhTW": "鉻綠",
+        "sgCN": "铭绿之",
+        "sgTW": "銘綠之"
+    },
+    "Vital": {
+        "Key": "Vital",
+        "enUS": "Vital",
+        "zhCN": "命能",
+        "zhTW": "命能",
+        "sgCN": "重要之",
+        "sgTW": "重要之"
+    },
+    "Emerald": {
+        "Key": "Emerald",
+        "enUS": "Emerald",
+        "zhCN": "寶綠",
+        "zhTW": "寶綠",
+        "sgCN": "祖母绿之",
+        "sgTW": "祖母綠之"
+    },
+    "Enduring": {
+        "Key": "Enduring",
+        "enUS": "Enduring",
+        "zhCN": "長耐",
+        "zhTW": "長耐",
+        "sgCN": "忍耐之",
+        "sgTW": "忍耐之"
+    },
+    "Fletcher's": {
+        "Key": "Fletcher's",
+        "enUS": "Fletcher's",
+        "zhCN": "造箭師",
+        "zhTW": "造箭師",
+        "sgCN": "制箭者之",
+        "sgTW": "製箭者之"
+    },
+    "Archer's": {
+        "Key": "Archer's",
+        "enUS": "Archer's",
+        "zhCN": "弓箭手",
+        "zhTW": "弓箭手",
+        "sgCN": "弓箭手之",
+        "sgTW": "弓箭手之"
+    },
+    "Monk's": {
+        "Key": "Monk's",
+        "enUS": "Monk's",
+        "zhCN": "武僧",
+        "zhTW": "武僧",
+        "sgCN": "僧人之",
+        "sgTW": "僧人之"
+    },
+    "Priest's": {
+        "Key": "Priest's",
+        "enUS": "Priest's",
+        "zhCN": "牧師",
+        "zhTW": "牧師",
+        "sgCN": "牧师之",
+        "sgTW": "牧師之"
+    },
+    "Summoner's": {
+        "Key": "Summoner's",
+        "enUS": "Summoner's",
+        "zhCN": "召喚師",
+        "zhTW": "召喚師",
+        "sgCN": "召唤者之",
+        "sgTW": "召喚者之"
+    },
+    "Necromancer's": {
+        "Key": "Necromancer's",
+        "enUS": "Necromancer's",
+        "zhCN": "死靈法師",
+        "zhTW": "死靈法師",
+        "sgCN": "死灵法师之",
+        "sgTW": "死靈法師之"
+    },
+    "Angel's": {
+        "Key": "Angel's",
+        "enUS": "Angel's",
+        "zhCN": "天使",
+        "zhTW": "天使",
+        "sgCN": "天使之",
+        "sgTW": "天使之"
+    },
+    "Arch-Angel's": {
+        "Key": "Arch-Angel's",
+        "enUS": "Arch-Angel's",
+        "zhCN": "大天使",
+        "zhTW": "大天使",
+        "sgCN": "大天使之",
+        "sgTW": "大天使之"
+    },
+    "Slayer's": {
+        "Key": "Slayer's",
+        "enUS": "Slayer's",
+        "zhCN": "屠殺者",
+        "zhTW": "屠殺者",
+        "sgCN": "屠杀者之",
+        "sgTW": "屠殺者之"
+    },
+    "Berserker's": {
+        "Key": "Berserker's",
+        "enUS": "Berserker's",
+        "zhCN": "狂戰士",
+        "zhTW": "狂戰士",
+        "sgCN": "狂战士之",
+        "sgTW": "狂戰士之"
+    },
+    "Kicking": {
+        "Key": "Kicking",
+        "enUS": "Kicking",
+        "zhCN": "踢擊",
+        "zhTW": "踢擊",
+        "sgCN": "脚踢之",
+        "sgTW": "腳踢之"
+    },
+    "Triumphant": {
+        "Key": "Triumphant",
+        "enUS": "Triumphant",
+        "zhCN": "凱旋",
+        "zhTW": "凱旋",
+        "sgCN": "成功之",
+        "sgTW": "成功之"
+    },
+    "Mighty": {
+        "Key": "Mighty",
+        "enUS": "Mighty",
+        "zhCN": "強力",
+        "zhTW": "強力",
+        "sgCN": "強大之",
+        "sgTW": "強大之"
+    },
+    "Energizing": {
+        "Key": "Energizing",
+        "enUS": "Energizing",
+        "zhCN": "賦能",
+        "zhTW": "賦能",
+        "sgCN": "激励之",
+        "sgTW": "激勵之"
+    },
+    "Empowering": {
+        "Key": "Empowering",
+        "enUS": "Empowering",
+        "zhCN": "強能",
+        "zhTW": "強能",
+        "sgCN": "授权之",
+        "sgTW": "授權之"
+    },
+    "Brisk": {
+        "Key": "Brisk",
+        "enUS": "Brisk",
+        "zhCN": "活潑",
+        "zhTW": "活潑",
+        "sgCN": "活泼之",
+        "sgTW": "活潑之"
+    },
+    "Tough": {
+        "Key": "Tough",
+        "enUS": "Tough",
+        "zhCN": "強悍",
+        "zhTW": "強悍",
+        "sgCN": "强悍之",
+        "sgTW": "強悍之"
+    },
+    "Hardy": {
+        "Key": "Hardy",
+        "enUS": "Hardy",
+        "zhCN": "健壯",
+        "zhTW": "健壯",
+        "sgCN": "健壮之",
+        "sgTW": "健壯之"
+    },
+    "Robust": {
+        "Key": "Robust",
+        "enUS": "Robust",
+        "zhCN": "魁梧",
+        "zhTW": "魁梧",
+        "sgCN": "魁梧之",
+        "sgTW": "魁梧之"
+    },
+    "of Health": {
+        "Key": "of Health",
+        "enUS": "of Health",
+        "zhCN": "強健之",
+        "zhTW": "強健之",
+        "sgCN": "生命的",
+        "sgTW": "生命的"
+    },
+    "of Protection": {
+        "Key": "of Protection",
+        "enUS": "of Protection",
+        "zhCN": "保護之",
+        "zhTW": "保護之",
+        "sgCN": "保护的",
+        "sgTW": "保護的"
+    },
+    "of Absorption": {
+        "Key": "of Absorption",
+        "enUS": "of Absorption",
+        "zhCN": "緩衝之",
+        "zhTW": "緩衝之",
+        "sgCN": "吸收",
+        "sgTW": "吸收"
+    },
+    "of Warding": {
+        "Key": "of Warding",
+        "enUS": "of Warding",
+        "zhCN": "結界之",
+        "zhTW": "結界之",
+        "sgCN": "防避的",
+        "sgTW": "防避的"
+    },
+    "of the Sentinel": {
+        "Key": "of the Sentinel",
+        "enUS": "of the Sentinel",
+        "zhCN": "戒衛之",
+        "zhTW": "戒衛之",
+        "sgCN": "步哨的",
+        "sgTW": "步哨的"
+    },
+    "of Guarding": {
+        "Key": "of Guarding",
+        "enUS": "of Guarding",
+        "zhCN": "護法之",
+        "zhTW": "護法之",
+        "sgCN": "守卫的",
+        "sgTW": "守衛的"
+    },
+    "of Negation": {
+        "Key": "of Negation",
+        "enUS": "of Negation",
+        "zhCN": "消魔之",
+        "zhTW": "消魔之",
+        "sgCN": "否定的",
+        "sgTW": "否定的"
+    },
+    "of Piercing": {
+        "Key": "of Piercing",
+        "enUS": "of Piercing",
+        "zhCN": "穿透之",
+        "zhTW": "穿透之",
+        "sgCN": "刺穿的",
+        "sgTW": "刺穿的"
+    },
+    "of Bashing": {
+        "Key": "of Bashing",
+        "enUS": "of Bashing",
+        "zhCN": "猛擊之",
+        "zhTW": "猛擊之",
+        "sgCN": "重击的",
+        "sgTW": "重擊的"
+    },
+    "of Puncturing": {
+        "Key": "of Puncturing",
+        "enUS": "of Puncturing",
+        "zhCN": "擊穿之",
+        "zhTW": "擊穿之",
+        "sgCN": "爆破的",
+        "sgTW": "爆破的"
+    },
+    "of Thorns": {
+        "Key": "of Thorns",
+        "enUS": "of Thorns",
+        "zhCN": "棘刺之",
+        "zhTW": "棘刺之",
+        "sgCN": "刺尖的",
+        "sgTW": "刺尖的"
+    },
+    "of Spikes": {
+        "Key": "of Spikes",
+        "enUS": "of Spikes",
+        "zhCN": "銳刺之",
+        "zhTW": "銳刺之",
+        "sgCN": "尖刺的",
+        "sgTW": "尖刺的"
+    },
+    "of Readiness": {
+        "Key": "of Readiness",
+        "enUS": "of Readiness",
+        "zhCN": "迅速之",
+        "zhTW": "迅速之",
+        "sgCN": "迅速的",
+        "sgTW": "迅速的"
+    },
+    "of Alacrity": {
+        "Key": "of Alacrity",
+        "enUS": "of Alacrity",
+        "zhCN": "輕快之",
+        "zhTW": "輕快之",
+        "sgCN": "轻快的",
+        "sgTW": "輕快的"
+    },
+    "of Swiftness": {
+        "Key": "of Swiftness",
+        "enUS": "of Swiftness",
+        "zhCN": "迅捷之",
+        "zhTW": "迅捷之",
+        "sgCN": "敏捷的",
+        "sgTW": "敏捷的"
+    },
+    "of Quickness": {
+        "Key": "of Quickness",
+        "enUS": "of Quickness",
+        "zhCN": "快速之",
+        "zhTW": "快速之",
+        "sgCN": "快速的",
+        "sgTW": "快速的"
+    },
+    "of Blocking": {
+        "Key": "of Blocking",
+        "enUS": "of Blocking",
+        "zhCN": "格擋之",
+        "zhTW": "格擋之",
+        "sgCN": "格挡的",
+        "sgTW": "格擋的"
+    },
+    "of Deflecting": {
+        "Key": "of Deflecting",
+        "enUS": "of Deflecting",
+        "zhCN": "偏折之",
+        "zhTW": "偏折之",
+        "sgCN": "偏向的",
+        "sgTW": "偏向的"
+    },
+    "of the Apprentice": {
+        "Key": "of the Apprentice",
+        "enUS": "of the Apprentice",
+        "zhCN": "學徒之",
+        "zhTW": "學徒之",
+        "sgCN": "学徒的",
+        "sgTW": "學徒的"
+    },
+    "of the Magus": {
+        "Key": "of the Magus",
+        "enUS": "of the Magus",
+        "zhCN": "魔導師之",
+        "zhTW": "魔導師之",
+        "sgCN": "马格斯的",
+        "sgTW": "馬格斯的"
+    },
+    "of Frost": {
+        "Key": "of Frost",
+        "enUS": "of Frost",
+        "zhCN": "冰霜之",
+        "zhTW": "冰霜之",
+        "sgCN": "霜的",
+        "sgTW": "霜的"
+    },
+    "of the Glacier": {
+        "Key": "of the Glacier",
+        "enUS": "of the Glacier",
+        "zhCN": "冰河之",
+        "zhTW": "冰河之",
+        "sgCN": "冰河的",
+        "sgTW": "冰河的"
+    },
+    "of Warmth": {
+        "Key": "of Warmth",
+        "enUS": "of Thawing",
+        "zhCN": "融冰之",
+        "zhTW": "融冰之",
+        "sgCN": "融解的",
+        "sgTW": "融解的"
+    },
+    "of Flame": {
+        "Key": "of Flame",
+        "enUS": "of Flame",
+        "zhCN": "火炎之",
+        "zhTW": "火炎之",
+        "sgCN": "火焰的",
+        "sgTW": "火焰的"
+    },
+    "of Fire": {
+        "Key": "of Fire",
+        "enUS": "of Fire",
+        "zhCN": "火焰之",
+        "zhTW": "火焰之",
+        "sgCN": "火的",
+        "sgTW": "火的"
+    },
+    "of Burning": {
+        "Key": "of Burning",
+        "enUS": "of Burning",
+        "zhCN": "燃燒之",
+        "zhTW": "燃燒之",
+        "sgCN": "燃烧的",
+        "sgTW": "燃燒的"
+    },
+    "of Shock": {
+        "Key": "of Shock",
+        "enUS": "of Shock",
+        "zhCN": "觸電之",
+        "zhTW": "觸電之",
+        "sgCN": "冲击的",
+        "sgTW": "衝擊的"
+    },
+    "of Lightning": {
+        "Key": "of Lightning",
+        "enUS": "of Lightning",
+        "zhCN": "閃電之",
+        "zhTW": "閃電之",
+        "sgCN": "闪电的",
+        "sgTW": "閃電的"
+    },
+    "of Thunder": {
+        "Key": "of Thunder",
+        "enUS": "of Thunder",
+        "zhCN": "雷電之",
+        "zhTW": "雷電之",
+        "sgCN": "雷电的",
+        "sgTW": "雷電的"
+    },
+    "of Craftsmanship": {
+        "Key": "of Craftsmanship",
+        "enUS": "of Craftmanship",
+        "zhCN": "工匠之",
+        "zhTW": "工匠之",
+        "sgCN": "工匠的",
+        "sgTW": "工匠的"
+    },
+    "of Quality": {
+        "Key": "of Quality",
+        "enUS": "of Quality",
+        "zhCN": "優良之",
+        "zhTW": "優良之",
+        "sgCN": "品质的",
+        "sgTW": "品質的"
+    },
+    "of Maiming": {
+        "Key": "of Maiming",
+        "enUS": "of Maiming",
+        "zhCN": "殘害之",
+        "zhTW": "殘害之",
+        "sgCN": "残废的",
+        "sgTW": "殘廢的"
+    },
+    "of Slaying": {
+        "Key": "of Slaying",
+        "enUS": "of Slaying",
+        "zhCN": "斬殺之",
+        "zhTW": "斬殺之",
+        "sgCN": "屠杀的",
+        "sgTW": "屠殺的"
+    },
+    "of Gore": {
+        "Key": "of Gore",
+        "enUS": "of Gore",
+        "zhCN": "傷戮之",
+        "zhTW": "傷戮之",
+        "sgCN": "凝血的",
+        "sgTW": "凝血的"
+    },
+    "of Carnage": {
+        "Key": "of Carnage",
+        "enUS": "of Carnage",
+        "zhCN": "屠殺之",
+        "zhTW": "屠殺之",
+        "sgCN": "屠杀的",
+        "sgTW": "屠殺的"
+    },
+    "of Slaughter": {
+        "Key": "of Slaughter",
+        "enUS": "of Slaughter",
+        "zhCN": "宰殺之",
+        "zhTW": "宰殺之",
+        "sgCN": "残杀的",
+        "sgTW": "殘殺的"
+    },
+    "of Worth": {
+        "Key": "of Worth",
+        "enUS": "of Worth",
+        "zhCN": "價值之",
+        "zhTW": "價值之",
+        "sgCN": "价值的",
+        "sgTW": "價值的"
+    },
+    "of Measure": {
+        "Key": "of Measure",
+        "enUS": "of Measure",
+        "zhCN": "衡量之",
+        "zhTW": "衡量之",
+        "sgCN": "测量的",
+        "sgTW": "測量的"
+    },
+    "of Excellence": {
+        "Key": "of Excellence",
+        "enUS": "of Excellence",
+        "zhCN": "卓越之",
+        "zhTW": "卓越之",
+        "sgCN": "精灵的",
+        "sgTW": "精靈的"
+    },
+    "of Performance": {
+        "Key": "of Performance",
+        "enUS": "of Performance",
+        "zhCN": "性能之",
+        "zhTW": "性能之",
+        "sgCN": "表现的",
+        "sgTW": "表現的"
+    },
+    "of Blight": {
+        "Key": "of Blight",
+        "enUS": "of Blight",
+        "zhCN": "荒疫之",
+        "zhTW": "荒疫之",
+        "sgCN": "光明的",
+        "sgTW": "光明的"
+    },
+    "of Venom": {
+        "Key": "of Venom",
+        "enUS": "of Venom",
+        "zhCN": "劇毒之",
+        "zhTW": "劇毒之",
+        "sgCN": "毒素的",
+        "sgTW": "毒素的"
+    },
+    "of Pestilence": {
+        "Key": "of Pestilence",
+        "enUS": "of Pestilence",
+        "zhCN": "疫癘之",
+        "zhTW": "疫癘之",
+        "sgCN": "瘟疫的",
+        "sgTW": "瘟疫的"
+    },
+    "of Dexterity": {
+        "Key": "of Dexterity",
+        "enUS": "of Dexterity",
+        "zhCN": "敏捷之",
+        "zhTW": "敏捷之",
+        "sgCN": "敏捷的",
+        "sgTW": "敏捷的"
+    },
+    "of Skill": {
+        "Key": "of Skill",
+        "enUS": "of Skill",
+        "zhCN": "技術之",
+        "zhTW": "技術之",
+        "sgCN": "技能的",
+        "sgTW": "技能的"
+    },
+    "of Accuracy": {
+        "Key": "of Accuracy",
+        "enUS": "of Accuracy",
+        "zhCN": "準確之",
+        "zhTW": "準確之",
+        "sgCN": "准确的",
+        "sgTW": "準確的"
+    },
+    "of Precision": {
+        "Key": "of Precision",
+        "enUS": "of Precision",
+        "zhCN": "精密之",
+        "zhTW": "精密之",
+        "sgCN": "精密的",
+        "sgTW": "精密的"
+    },
+    "of Perfection": {
+        "Key": "of Perfection",
+        "enUS": "of Perfection",
+        "zhCN": "完美之",
+        "zhTW": "完美之",
+        "sgCN": "完美的",
+        "sgTW": "完美的"
+    },
+    "of Balance": {
+        "Key": "of Balance",
+        "enUS": "of Balance",
+        "zhCN": "平衡之",
+        "zhTW": "平衡之",
+        "sgCN": "平衡的",
+        "sgTW": "平衡的"
+    },
+    "of Stability": {
+        "Key": "of Stability",
+        "enUS": "of Stability",
+        "zhCN": "穩定之",
+        "zhTW": "穩定之",
+        "sgCN": "稳定的",
+        "sgTW": "穩定的"
+    },
+    "of the Horse": {
+        "Key": "of the Horse",
+        "enUS": "of the Horse",
+        "zhCN": "駿馬之",
+        "zhTW": "駿馬之",
+        "sgCN": "马的",
+        "sgTW": "馬的"
+    },
+    "of Regeneration": {
+        "Key": "of Regeneration",
+        "enUS": "of Regeneration",
+        "zhCN": "恢復之",
+        "zhTW": "恢復之",
+        "sgCN": "重造的",
+        "sgTW": "重造的"
+    },
+    "of Regrowth": {
+        "Key": "of Regrowth",
+        "enUS": "of Regrowth",
+        "zhCN": "癒合之",
+        "zhTW": "癒合之",
+        "sgCN": "重生的",
+        "sgTW": "重生的"
+    },
+    "of Vileness": {
+        "Key": "of Vileness",
+        "enUS": "of Vileness",
+        "zhCN": "穢毒之",
+        "zhTW": "穢毒之",
+        "sgCN": "恶毒的",
+        "sgTW": "惡毒的"
+    },
+    "of Greed": {
+        "Key": "of Greed",
+        "enUS": "of Greed",
+        "zhCN": "貪婪之",
+        "zhTW": "貪婪之",
+        "sgCN": "贪婪的",
+        "sgTW": "貪婪的"
+    },
+    "of Wealth": {
+        "Key": "of Wealth",
+        "enUS": "of Wealth",
+        "zhCN": "財富之",
+        "zhTW": "財富之",
+        "sgCN": "财富的",
+        "sgTW": "財富的"
+    },
+    "of Chance": {
+        "Key": "of Chance",
+        "enUS": "of Chance",
+        "zhCN": "機會之",
+        "zhTW": "機會之",
+        "sgCN": "机会的",
+        "sgTW": "機會的"
+    },
+    "of Fortune": {
+        "Key": "of Fortune",
+        "enUS": "of Fortune",
+        "zhCN": "機運之",
+        "zhTW": "機運之",
+        "sgCN": "幸运的",
+        "sgTW": "幸運的"
+    },
+    "of Energy": {
+        "Key": "of Energy",
+        "enUS": "of Energy",
+        "zhCN": "能量之",
+        "zhTW": "能量之",
+        "sgCN": "能源的",
+        "sgTW": "能源的"
+    },
+    "of the Mind": {
+        "Key": "of the Mind",
+        "enUS": "of the Mind",
+        "zhCN": "心神之",
+        "zhTW": "心神之",
+        "sgCN": "思想的",
+        "sgTW": "思想的"
+    },
+    "of Brilliance": {
+        "Key": "of Brilliance",
+        "enUS": "of Brilliance",
+        "zhCN": "才華之",
+        "zhTW": "才華之",
+        "sgCN": "才华的",
+        "sgTW": "才華的"
+    },
+    "of Sorcery": {
+        "Key": "of Sorcery",
+        "enUS": "of Sorcery",
+        "zhCN": "幻法之",
+        "zhTW": "幻法之",
+        "sgCN": "幻术的",
+        "sgTW": "幻術的"
+    },
+    "of Wizardry": {
+        "Key": "of Wizardry",
+        "enUS": "of Wizardry",
+        "zhCN": "巫術之",
+        "zhTW": "巫術之",
+        "sgCN": "法术的",
+        "sgTW": "法術的"
+    },
+    "of the Bear": {
+        "Key": "of the Bear",
+        "enUS": "of the Bear",
+        "zhCN": "巨熊之",
+        "zhTW": "巨熊之",
+        "sgCN": "熊的",
+        "sgTW": "熊的"
+    },
+    "of Light": {
+        "Key": "of Light",
+        "enUS": "of Light",
+        "zhCN": "光明之",
+        "zhTW": "光明之",
+        "sgCN": "光明的",
+        "sgTW": "光明的"
+    },
+    "of Radiance": {
+        "Key": "of Radiance",
+        "enUS": "of Radiance",
+        "zhCN": "光輝之",
+        "zhTW": "光輝之",
+        "sgCN": "光彩的",
+        "sgTW": "光彩的"
+    },
+    "of the Sun": {
+        "Key": "of the Sun",
+        "enUS": "of the Sun",
+        "zhCN": "日光之",
+        "zhTW": "日光之",
+        "sgCN": "太阳的",
+        "sgTW": "太陽的"
+    },
+    "of Life": {
+        "Key": "of Life",
+        "enUS": "of Life",
+        "zhCN": "生命之",
+        "zhTW": "生命之",
+        "sgCN": "生命的",
+        "sgTW": "生命的"
+    },
+    "of the Jackal": {
+        "Key": "of the Jackal",
+        "enUS": "of the Jackal",
+        "zhCN": "豺狼之",
+        "zhTW": "豺狼之",
+        "sgCN": "豺狼的",
+        "sgTW": "豺狼的"
+    },
+    "of the Fox": {
+        "Key": "of the Fox",
+        "enUS": "of the Fox",
+        "zhCN": "狐狸之",
+        "zhTW": "狐狸之",
+        "sgCN": "狐狸的",
+        "sgTW": "狐狸的"
+    },
+    "of the Wolf": {
+        "Key": "of the Wolf",
+        "enUS": "of the Wolf",
+        "zhCN": "野狼之",
+        "zhTW": "野狼之",
+        "sgCN": "狼的",
+        "sgTW": "狼的"
+    },
+    "of the Tiger": {
+        "Key": "of the Tiger",
+        "enUS": "of the Tiger",
+        "zhCN": "老虎之",
+        "zhTW": "老虎之",
+        "sgCN": "虎的",
+        "sgTW": "虎的"
+    },
+    "of the Mammoth": {
+        "Key": "of the Mammoth",
+        "enUS": "of the Mammoth",
+        "zhCN": "猛瑪之",
+        "zhTW": "猛瑪之",
+        "sgCN": "巨大的",
+        "sgTW": "巨大的"
+    },
+    "of the Colosuss": {
+        "Key": "of the Colosuss",
+        "enUS": "of the Colossus",
+        "zhCN": "巨像之",
+        "zhTW": "巨像之",
+        "sgCN": "太阳神的",
+        "sgTW": "太陽神的"
+    },
+    "of the Leech": {
+        "Key": "of the Leech",
+        "enUS": "of the Leech",
+        "zhCN": "血蛭之",
+        "zhTW": "血蛭之",
+        "sgCN": "妖巫的",
+        "sgTW": "妖巫的"
+    },
+    "of the Locust": {
+        "Key": "of the Locust",
+        "enUS": "of the Locust",
+        "zhCN": "蝗蟲之",
+        "zhTW": "蝗蟲之",
+        "sgCN": "蝗虫的",
+        "sgTW": "蝗蟲的"
+    },
+    "of the Bat": {
+        "Key": "of the Bat",
+        "enUS": "of the Bat",
+        "zhCN": "蝙蝠之",
+        "zhTW": "蝙蝠之",
+        "sgCN": "蝙蝠的",
+        "sgTW": "蝙蝠的"
+    },
+    "of the Vampire": {
+        "Key": "of the Vampire",
+        "enUS": "of the Vampire",
+        "zhCN": "吸血鬼之",
+        "zhTW": "吸血鬼之",
+        "sgCN": "吸血鬼的",
+        "sgTW": "吸血鬼的"
+    },
+    "of Defiance": {
+        "Key": "of Defiance",
+        "enUS": "of Defiance",
+        "zhCN": "抗毒之",
+        "zhTW": "抗毒之",
+        "sgCN": "反抗的",
+        "sgTW": "反抗的"
+    },
+    "of Remedy": {
+        "Key": "of Remedy",
+        "enUS": "of Remedy",
+        "zhCN": "醫治之",
+        "zhTW": "醫治之",
+        "sgCN": "医治的",
+        "sgTW": "醫治的"
+    },
+    "of Amelioration": {
+        "Key": "of Amelioration",
+        "enUS": "of Amelioration",
+        "zhCN": "緩解之",
+        "zhTW": "緩解之",
+        "sgCN": "演进的",
+        "sgTW": "演進的"
+    },
+    "of Ice": {
+        "Key": "of Ice",
+        "enUS": "of Ice",
+        "zhCN": "寒冰之",
+        "zhTW": "寒冰之",
+        "sgCN": "冰的",
+        "sgTW": "冰的"
+    },
+    "of Simplicity": {
+        "Key": "of Simplicity",
+        "enUS": "of Simplicity",
+        "zhCN": "簡易之",
+        "zhTW": "簡易之",
+        "sgCN": "简朴的",
+        "sgTW": "簡樸的"
+    },
+    "of Ease": {
+        "Key": "of Ease",
+        "enUS": "of Ease",
+        "zhCN": "舒適之",
+        "zhTW": "舒適之",
+        "sgCN": "安逸的",
+        "sgTW": "安逸的"
+    },
+    "of the Mule": {
+        "Key": "of the Mule",
+        "enUS": "of the Mule",
+        "zhCN": "騾馱之",
+        "zhTW": "騾馱之",
+        "sgCN": "顽固的",
+        "sgTW": "頑固的"
+    },
+    "of Strength": {
+        "Key": "of Strength",
+        "enUS": "of Strength",
+        "zhCN": "力量之",
+        "zhTW": "力量之",
+        "sgCN": "力量的",
+        "sgTW": "力量的"
+    },
+    "of Might": {
+        "Key": "of Might",
+        "enUS": "of Might",
+        "zhCN": "武力之",
+        "zhTW": "武力之",
+        "sgCN": "武力的",
+        "sgTW": "武力的"
+    },
+    "of the Ox": {
+        "Key": "of the Ox",
+        "enUS": "of the Ox",
+        "zhCN": "公牛之",
+        "zhTW": "公牛之",
+        "sgCN": "公牛的",
+        "sgTW": "公牛的"
+    },
+    "of the Giant": {
+        "Key": "of the Giant",
+        "enUS": "of the Giant",
+        "zhCN": "巨人之",
+        "zhTW": "巨人之",
+        "sgCN": "巨人的",
+        "sgTW": "巨人的"
+    },
+    "of the Titan": {
+        "Key": "of the Titan",
+        "enUS": "of the Titan",
+        "zhCN": "泰坦之",
+        "zhTW": "泰坦之",
+        "sgCN": "泰坦的",
+        "sgTW": "泰坦的"
+    },
+    "of Pacing": {
+        "Key": "of Pacing",
+        "enUS": "of Pacing",
+        "zhCN": "步伐之",
+        "zhTW": "步伐之",
+        "sgCN": "步伐的",
+        "sgTW": "步伐的"
+    },
+    "of Haste": {
+        "Key": "of Haste",
+        "enUS": "of Haste",
+        "zhCN": "疾行之",
+        "zhTW": "疾行之",
+        "sgCN": "憎恨的",
+        "sgTW": "憎恨的"
+    },
+    "of Speed": {
+        "Key": "of Speed",
+        "enUS": "of Speed",
+        "zhCN": "速度之",
+        "zhTW": "速度之",
+        "sgCN": "速度的",
+        "sgTW": "速度的"
+    },
+    "gld": {
+        "Key": "gld",
+        "enUS": "G",
+        "zhCN": "金",
+        "zhTW": "金",
+        "sgCN": "黄金",
+        "sgTW": "黃金"
+    },
+    "Beast": {
+        "Key": "Beast",
+        "enUS": "Beast",
+        "zhCN": "野獸",
+        "zhTW": "野獸",
+        "sgCN": "野兽之",
+        "sgTW": "野獸之"
+    },
+    "Eagle": {
+        "Key": "Eagle",
+        "enUS": "Eagle",
+        "zhCN": "飛鷹",
+        "zhTW": "飛鷹",
+        "sgCN": "老鹰之",
+        "sgTW": "老鷹之"
+    },
+    "Viper": {
+        "Key": "Viper",
+        "enUS": "Viper",
+        "zhCN": "蛇魔",
+        "zhTW": "蛇魔",
+        "sgCN": "蝮蛇之",
+        "sgTW": "蝮蛇之"
+    },
+    "Skull": {
+        "Key": "Skull",
+        "enUS": "Skull",
+        "zhCN": "骷髏",
+        "zhTW": "骷髏",
+        "sgCN": "骷髅之",
+        "sgTW": "骷髏之"
+    },
+    "Blood": {
+        "Key": "Blood",
+        "enUS": "Blood",
+        "zhCN": "鮮血",
+        "zhTW": "鮮血",
+        "sgCN": "血之",
+        "sgTW": "血之"
+    },
+    "Dread": {
+        "Key": "Dread",
+        "enUS": "Dread",
+        "zhCN": "畏怖",
+        "zhTW": "畏怖",
+        "sgCN": "恐惧之",
+        "sgTW": "恐懼之"
+    },
+    "Doom": {
+        "Key": "Doom",
+        "enUS": "Doom",
+        "zhCN": "末日",
+        "zhTW": "末日",
+        "sgCN": "毁灭之",
+        "sgTW": "毀滅之"
+    },
+    "Grim": {
+        "Key": "Grim",
+        "enUS": "Grim",
+        "zhCN": "兇殘",
+        "zhTW": "兇殘",
+        "sgCN": "冷酷之",
+        "sgTW": "冷酷之"
+    },
+    "Bone": {
+        "Key": "Bone",
+        "enUS": "Bone",
+        "zhCN": "骸骨",
+        "zhTW": "骸骨",
+        "sgCN": "白骨之",
+        "sgTW": "白骨之"
+    },
+    "Death": {
+        "Key": "Death",
+        "enUS": "Death",
+        "zhCN": "死亡",
+        "zhTW": "死亡",
+        "sgCN": "死亡之",
+        "sgTW": "死亡之"
+    },
+    "Shadow": {
+        "Key": "Shadow",
+        "enUS": "Shadow",
+        "zhCN": "暗影",
+        "zhTW": "暗影",
+        "sgCN": "阴影之",
+        "sgTW": "陰影之"
+    },
+    "Storm": {
+        "Key": "Storm",
+        "enUS": "Storm",
+        "zhCN": "風暴",
+        "zhTW": "風暴",
+        "sgCN": "暴风之",
+        "sgTW": "暴風之"
+    },
+    "Rune": {
+        "Key": "Rune",
+        "enUS": "Rune",
+        "zhCN": "符文",
+        "zhTW": "符文",
+        "sgCN": "符号之",
+        "sgTW": "符號之"
+    },
+    "PlagueRI": {
+        "Key": "PlagueRI",
+        "enUS": "Plague",
+        "zhCN": "瘟疫",
+        "zhTW": "瘟疫",
+        "sgCN": "瘟疫之",
+        "sgTW": "瘟疫之"
+    },
+    "Stone": {
+        "Key": "Stone",
+        "enUS": "Stone",
+        "zhCN": "石岩",
+        "zhTW": "石岩",
+        "sgCN": "石块之",
+        "sgTW": "石塊之"
+    },
+    "Spirit": {
+        "Key": "Spirit",
+        "enUS": "Spirit",
+        "zhCN": "魂靈",
+        "zhTW": "魂靈",
+        "sgCN": "精神之",
+        "sgTW": "精神之"
+    },
+    "Demon": {
+        "Key": "Demon",
+        "enUS": "Demon",
+        "zhCN": "惡魔",
+        "zhTW": "惡魔",
+        "sgCN": "恶魔之",
+        "sgTW": "惡魔之"
+    },
+    "Cruel": {
+        "Key": "Cruel",
+        "enUS": "Cruel",
+        "zhCN": "殘酷",
+        "zhTW": "殘酷",
+        "sgCN": "残忍之",
+        "sgTW": "殘忍之"
+    },
+    "Empyrion": {
+        "Key": "Empyrion",
+        "enUS": "Empyrian",
+        "zhCN": "天境",
+        "zhTW": "天境",
+        "sgCN": "埃及之",
+        "sgTW": "埃及之"
+    },
+    "Bramble": {
+        "Key": "Bramble",
+        "enUS": "Bramble",
+        "zhCN": "荊棘",
+        "zhTW": "荊棘",
+        "sgCN": "野薔薇之",
+        "sgTW": "野薔薇之"
+    },
+    "Pain": {
+        "Key": "Pain",
+        "enUS": "Pain",
+        "zhCN": "痛苦",
+        "zhTW": "痛苦",
+        "sgCN": "痛苦之",
+        "sgTW": "痛苦之"
+    },
+    "Loath": {
+        "Key": "Loath",
+        "enUS": "Loath",
+        "zhCN": "厭惡",
+        "zhTW": "厭惡",
+        "sgCN": "不愿之",
+        "sgTW": "不願之"
+    },
+    "Glyph": {
+        "Key": "Glyph",
+        "enUS": "Glyph",
+        "zhCN": "雕紋",
+        "zhTW": "雕紋",
+        "sgCN": "绘画文字之",
+        "sgTW": "繪畫文字之"
+    },
+    "Hailstone": {
+        "Key": "Hailstone",
+        "enUS": "Hailstone",
+        "zhCN": "冰雹",
+        "zhTW": "冰雹",
+        "sgCN": "霰之",
+        "sgTW": "霰之"
+    },
+    "Gale": {
+        "Key": "Gale",
+        "enUS": "Gale",
+        "zhCN": "狂風",
+        "zhTW": "狂風",
+        "sgCN": "狂风之",
+        "sgTW": "狂風之"
+    },
+    "Dire": {
+        "Key": "Dire",
+        "enUS": "Dire",
+        "zhCN": "兇蠻",
+        "zhTW": "兇蠻",
+        "sgCN": "悲慘之",
+        "sgTW": "悲慘之"
+    },
+    "Soul": {
+        "Key": "Soul",
+        "enUS": "Soul",
+        "zhCN": "靈魂",
+        "zhTW": "靈魂",
+        "sgCN": "灵魂之",
+        "sgTW": "靈魂之"
+    },
+    "Brimstone": {
+        "Key": "Brimstone",
+        "enUS": "Brimstone",
+        "zhCN": "硫磺",
+        "zhTW": "硫磺",
+        "sgCN": "硫磺之",
+        "sgTW": "硫磺之"
+    },
+    "Corpse": {
+        "Key": "Corpse",
+        "enUS": "Corpse",
+        "zhCN": "屍體",
+        "zhTW": "屍體",
+        "sgCN": "尸体之",
+        "sgTW": "屍體之"
+    },
+    "Carrion": {
+        "Key": "Carrion",
+        "enUS": "Carrion",
+        "zhCN": "腐屍",
+        "zhTW": "腐屍",
+        "sgCN": "腐尸之",
+        "sgTW": "腐屍之"
+    },
+    "Havoc": {
+        "Key": "Havoc",
+        "enUS": "Havoc",
+        "zhCN": "浩劫",
+        "zhTW": "浩劫",
+        "sgCN": "浩劫之",
+        "sgTW": "浩劫之"
+    },
+    "Bitter": {
+        "Key": "Bitter",
+        "enUS": "Bitter",
+        "zhCN": "受難",
+        "zhTW": "受難",
+        "sgCN": "受难之",
+        "sgTW": "受難之"
+    },
+    "Entropy": {
+        "Key": "Entropy",
+        "enUS": "Entropy",
+        "zhCN": "熵數",
+        "zhTW": "熵數",
+        "sgCN": "幽冥之",
+        "sgTW": "幽冥之"
+    },
+    "Chaos": {
+        "Key": "Chaos",
+        "enUS": "Chaos",
+        "zhCN": "混沌",
+        "zhTW": "混沌",
+        "sgCN": "混沌之",
+        "sgTW": "混沌之"
+    },
+    "Order": {
+        "Key": "Order",
+        "enUS": "Order",
+        "zhCN": "秩序",
+        "zhTW": "秩序",
+        "sgCN": "秩序之",
+        "sgTW": "秩序之"
+    },
+    "Rift": {
+        "Key": "Rift",
+        "enUS": "Rift",
+        "zhCN": "裂隙",
+        "zhTW": "裂隙",
+        "sgCN": "破开之",
+        "sgTW": "破開之"
+    },
+    "Corruption": {
+        "Key": "Corruption",
+        "enUS": "Corruption",
+        "zhCN": "腐化",
+        "zhTW": "腐化",
+        "sgCN": "毁灭之",
+        "sgTW": "毀滅之"
+    },
+    "bite": {
+        "Key": "bite",
+        "enUS": "Bite",
+        "zhCN": "之咬",
+        "zhTW": "之咬",
+        "sgCN": "咬",
+        "sgTW": "咬"
+    },
+    "scratch": {
+        "Key": "scratch",
+        "enUS": "Scratch",
+        "zhCN": "抓痕",
+        "zhTW": "抓痕",
+        "sgCN": "抓",
+        "sgTW": "抓"
+    },
+    "scalpel": {
+        "Key": "scalpel",
+        "enUS": "Scalpel",
+        "zhCN": "手術刀",
+        "zhTW": "手術刀",
+        "sgCN": "小刀",
+        "sgTW": "小刀"
+    },
+    "fang": {
+        "Key": "fang",
+        "enUS": "Fang",
+        "zhCN": "尖牙",
+        "zhTW": "尖牙",
+        "sgCN": "尖牙",
+        "sgTW": "尖牙"
+    },
+    "gutter": {
+        "Key": "gutter",
+        "enUS": "Gutter",
+        "zhCN": "撕腸者",
+        "zhTW": "撕腸者",
+        "sgCN": "槽",
+        "sgTW": "槽"
+    },
+    "thirst": {
+        "Key": "thirst",
+        "enUS": "Thirst",
+        "zhCN": "渴望",
+        "zhTW": "渴望",
+        "sgCN": "渴望",
+        "sgTW": "渴望"
+    },
+    "razor": {
+        "Key": "razor",
+        "enUS": "Razor",
+        "zhCN": "剃刀",
+        "zhTW": "剃刀",
+        "sgCN": "剃刀",
+        "sgTW": "剃刀"
+    },
+    "scythe": {
+        "Key": "scythe",
+        "enUS": "Scythe",
+        "zhCN": "鐮刀",
+        "zhTW": "鐮刀",
+        "sgCN": "镰刀",
+        "sgTW": "鐮刀"
+    },
+    "edge": {
+        "Key": "edge",
+        "enUS": "Edge",
+        "zhCN": "之刃",
+        "zhTW": "之刃",
+        "sgCN": "刃",
+        "sgTW": "刃"
+    },
+    "splitter": {
+        "Key": "splitter",
+        "enUS": "Splitter",
+        "zhCN": "劈裂者",
+        "zhTW": "劈裂者",
+        "sgCN": "劈裂",
+        "sgTW": "劈裂"
+    },
+    "cleaver": {
+        "Key": "cleaver",
+        "enUS": "Cleaver",
+        "zhCN": "斬刃",
+        "zhTW": "斬刃",
+        "sgCN": "切肉刀",
+        "sgTW": "切肉刀"
+    },
+    "sever": {
+        "Key": "sever",
+        "enUS": "Sever",
+        "zhCN": "斷裂者",
+        "zhTW": "斷裂者",
+        "sgCN": "断裂者",
+        "sgTW": "斷裂者"
+    },
+    "sunder": {
+        "Key": "sunder",
+        "enUS": "Sunder",
+        "zhCN": "斷破",
+        "zhTW": "斷破",
+        "sgCN": "撕碎者",
+        "sgTW": "撕碎者"
+    },
+    "rend": {
+        "Key": "rend",
+        "enUS": "Rend",
+        "zhCN": "剮裂者",
+        "zhTW": "剮裂者",
+        "sgCN": "分裂",
+        "sgTW": "分裂"
+    },
+    "mangler": {
+        "Key": "mangler",
+        "enUS": "Mangler",
+        "zhCN": "割碎者",
+        "zhTW": "割碎者",
+        "sgCN": "乱砍者",
+        "sgTW": "亂砍者"
+    },
+    "slayer": {
+        "Key": "slayer",
+        "enUS": "Slayer",
+        "zhCN": "屠殺者",
+        "zhTW": "屠殺者",
+        "sgCN": "屠杀者",
+        "sgTW": "屠殺者"
+    },
+    "reaver": {
+        "Key": "reaver",
+        "enUS": "Reaver",
+        "zhCN": "強奪者",
+        "zhTW": "強奪者",
+        "sgCN": "强夺者",
+        "sgTW": "強奪者"
+    },
+    "Spawn": {
+        "Key": "Spawn",
+        "enUS": "Spawn",
+        "zhCN": "之物",
+        "zhTW": "之物",
+        "sgCN": "复生",
+        "sgTW": "復生"
+    },
+    "gnash": {
+        "Key": "gnash",
+        "enUS": "Gnash",
+        "zhCN": "啃咬",
+        "zhTW": "啃咬",
+        "sgCN": "咬牙",
+        "sgTW": "咬牙"
+    },
+    "star": {
+        "Key": "star",
+        "enUS": "Star",
+        "zhCN": "之星",
+        "zhTW": "之星",
+        "sgCN": "星",
+        "sgTW": "星"
+    },
+    "blow": {
+        "Key": "blow",
+        "enUS": "Blow",
+        "zhCN": "之吹",
+        "zhTW": "之吹",
+        "sgCN": "吹",
+        "sgTW": "吹"
+    },
+    "smasher": {
+        "Key": "smasher",
+        "enUS": "Smasher",
+        "zhCN": "擊碎者",
+        "zhTW": "擊碎者",
+        "sgCN": "击碎者",
+        "sgTW": "擊碎者"
+    },
+    "Bane": {
+        "Key": "Bane",
+        "enUS": "Bane",
+        "zhCN": "禍害",
+        "zhTW": "禍害",
+        "sgCN": "克星",
+        "sgTW": "剋星"
+    },
+    "breaker": {
+        "Key": "breaker",
+        "enUS": "Breaker",
+        "zhCN": "破壞者",
+        "zhTW": "破壞者",
+        "sgCN": "破坏者",
+        "sgTW": "破壞者"
+    },
+    "grinder": {
+        "Key": "grinder",
+        "enUS": "Grinder",
+        "zhCN": "研磨者",
+        "zhTW": "研磨者",
+        "sgCN": "研磨者",
+        "sgTW": "研磨者"
+    },
+    "crack": {
+        "Key": "crack",
+        "enUS": "Crack",
+        "zhCN": "崩破",
+        "zhTW": "崩破",
+        "sgCN": "破裂",
+        "sgTW": "破裂"
+    },
+    "mallet": {
+        "Key": "mallet",
+        "enUS": "Mallet",
+        "zhCN": "鎚棒",
+        "zhTW": "鎚棒",
+        "sgCN": "大头锤",
+        "sgTW": "大頭錘"
+    },
+    "knell": {
+        "Key": "knell",
+        "enUS": "Knell",
+        "zhCN": "喪鐘",
+        "zhTW": "喪鐘",
+        "sgCN": "丧钟",
+        "sgTW": "喪鐘"
+    },
+    "lance": {
+        "Key": "lance",
+        "enUS": "Lance",
+        "zhCN": "長槍",
+        "zhTW": "長槍",
+        "sgCN": "长枪",
+        "sgTW": "長槍"
+    },
+    "spike": {
+        "Key": "spike",
+        "enUS": "Spike",
+        "zhCN": "刺釘",
+        "zhTW": "刺釘",
+        "sgCN": "钉",
+        "sgTW": "釘"
+    },
+    "impaler": {
+        "Key": "impaler",
+        "enUS": "Impaler",
+        "zhCN": "刺穿者",
+        "zhTW": "刺穿者",
+        "sgCN": "刺穿者",
+        "sgTW": "刺穿者"
+    },
+    "skewer": {
+        "Key": "skewer",
+        "enUS": "Skewer",
+        "zhCN": "串刺者",
+        "zhTW": "串刺者",
+        "sgCN": "串列者",
+        "sgTW": "串列者"
+    },
+    "prod": {
+        "Key": "prod",
+        "enUS": "Prod",
+        "zhCN": "戳棍",
+        "zhTW": "戳棍",
+        "sgCN": "刺",
+        "sgTW": "刺"
+    },
+    "scourge": {
+        "Key": "scourge",
+        "enUS": "Scourge",
+        "zhCN": "煞星",
+        "zhTW": "煞星",
+        "sgCN": "鞭",
+        "sgTW": "鞭"
+    },
+    "wand": {
+        "Key": "wand",
+        "enUS": "Wand",
+        "zhCN": "魔杖",
+        "zhTW": "魔杖",
+        "sgCN": "杖",
+        "sgTW": "杖"
+    },
+    "wrack": {
+        "Key": "wrack",
+        "enUS": "Wrack",
+        "zhCN": "破滅",
+        "zhTW": "破滅",
+        "sgCN": "破灭",
+        "sgTW": "破滅"
+    },
+    "barb": {
+        "Key": "barb",
+        "enUS": "Barb",
+        "zhCN": "勾刺",
+        "zhTW": "勾刺",
+        "sgCN": "倒钩",
+        "sgTW": "倒鉤"
+    },
+    "needle": {
+        "Key": "needle",
+        "enUS": "Needle",
+        "zhCN": "之針",
+        "zhTW": "之針",
+        "sgCN": "针",
+        "sgTW": "針"
+    },
+    "dart": {
+        "Key": "dart",
+        "enUS": "Dart",
+        "zhCN": "飛鏢",
+        "zhTW": "飛鏢",
+        "sgCN": "镖",
+        "sgTW": "鏢"
+    },
+    "bolt": {
+        "Key": "bolt",
+        "enUS": "Bolt",
+        "zhCN": "之矢",
+        "zhTW": "之矢",
+        "sgCN": "弹",
+        "sgTW": "彈"
+    },
+    "quarrel": {
+        "Key": "quarrel",
+        "enUS": "Quarrel",
+        "zhCN": "爭鬥",
+        "zhTW": "爭鬥",
+        "sgCN": "争吵",
+        "sgTW": "爭吵"
+    },
+    "fletch": {
+        "Key": "fletch",
+        "enUS": "Fletch",
+        "zhCN": "箭羽",
+        "zhTW": "箭羽",
+        "sgCN": "箭羽",
+        "sgTW": "箭羽"
+    },
+    "flight": {
+        "Key": "flight",
+        "enUS": "Flight",
+        "zhCN": "之翔",
+        "zhTW": "之翔",
+        "sgCN": "翔",
+        "sgTW": "翔"
+    },
+    "nock": {
+        "Key": "nock",
+        "enUS": "Nock",
+        "zhCN": "搭弦",
+        "zhTW": "搭弦",
+        "sgCN": "搭弦",
+        "sgTW": "搭弦"
+    },
+    "horn": {
+        "Key": "horn",
+        "enUS": "Horn",
+        "zhCN": "尖角",
+        "zhTW": "尖角",
+        "sgCN": "角",
+        "sgTW": "角"
+    },
+    "stinger": {
+        "Key": "stinger",
+        "enUS": "Stinger",
+        "zhCN": "釘刺者",
+        "zhTW": "釘刺者",
+        "sgCN": "有刺者",
+        "sgTW": "有刺者"
+    },
+    "quill": {
+        "Key": "quill",
+        "enUS": "Quill",
+        "zhCN": "刺針",
+        "zhTW": "刺針",
+        "sgCN": "羽",
+        "sgTW": "羽"
+    },
+    "goad": {
+        "Key": "goad",
+        "enUS": "Goad",
+        "zhCN": "刺棒",
+        "zhTW": "刺棒",
+        "sgCN": "刺棒",
+        "sgTW": "刺棒"
+    },
+    "branch": {
+        "Key": "branch",
+        "enUS": "Branch",
+        "zhCN": "之枝",
+        "zhTW": "之枝",
+        "sgCN": "枝",
+        "sgTW": "枝"
+    },
+    "spire": {
+        "Key": "spire",
+        "enUS": "Spire",
+        "zhCN": "尖塔",
+        "zhTW": "尖塔",
+        "sgCN": "螺旋",
+        "sgTW": "螺旋"
+    },
+    "song": {
+        "Key": "song",
+        "enUS": "Song",
+        "zhCN": "之歌",
+        "zhTW": "之歌",
+        "sgCN": "歌",
+        "sgTW": "歌"
+    },
+    "call": {
+        "Key": "call",
+        "enUS": "Call",
+        "zhCN": "呼喚",
+        "zhTW": "呼喚",
+        "sgCN": "呼喊",
+        "sgTW": "呼喊"
+    },
+    "spell": {
+        "Key": "spell",
+        "enUS": "Spell",
+        "zhCN": "咒法",
+        "zhTW": "咒法",
+        "sgCN": "法术",
+        "sgTW": "法術"
+    },
+    "chant": {
+        "Key": "chant",
+        "enUS": "Chant",
+        "zhCN": "祝禱",
+        "zhTW": "祝禱",
+        "sgCN": "曲",
+        "sgTW": "曲"
+    },
+    "weaver": {
+        "Key": "weaver",
+        "enUS": "Weaver",
+        "zhCN": "編織者",
+        "zhTW": "編織者",
+        "sgCN": "编织者",
+        "sgTW": "編織者"
+    },
+    "gnarl": {
+        "Key": "gnarl",
+        "enUS": "Gnarl",
+        "zhCN": "瘤節",
+        "zhTW": "瘤節",
+        "sgCN": "节",
+        "sgTW": "節"
+    },
+    "Civerb's": {
+        "Key": "Civerb's",
+        "enUS": "Civerb's",
+        "zhCN": "克維雷布的",
+        "zhTW": "克維雷布的",
+        "sgCN": "希弗伯之",
+        "sgTW": "希弗伯之"
+    },
+    "Hsarus'": {
+        "Key": "Hsarus'",
+        "enUS": "Hsaru's",
+        "zhCN": "海沙魯的",
+        "zhTW": "海沙魯的",
+        "sgCN": "海沙鲁之",
+        "sgTW": "海沙魯之"
+    },
+    "Cleglaw's": {
+        "Key": "Cleglaw's",
+        "enUS": "Cleglaw's",
+        "zhCN": "克雷德勞",
+        "zhTW": "克雷德勞",
+        "sgCN": "克雷得劳之",
+        "sgTW": "克雷得勞之"
+    },
+    "Iratha's": {
+        "Key": "Iratha's",
+        "enUS": "Iratha's",
+        "zhCN": "依雷撒的",
+        "zhTW": "依雷撒的",
+        "sgCN": "依雷撒之",
+        "sgTW": "依雷撒之"
+    },
+    "Isenhart's": {
+        "Key": "Isenhart's",
+        "enUS": "Isenhart's",
+        "zhCN": "依森哈特的",
+        "zhTW": "依森哈特的",
+        "sgCN": "依森哈德之",
+        "sgTW": "依森哈德之"
+    },
+    "Vidala's": {
+        "Key": "Vidala's",
+        "enUS": "Vidala's",
+        "zhCN": "維達拉的",
+        "zhTW": "維達拉的",
+        "sgCN": "维达拉之",
+        "sgTW": "維達拉之"
+    },
+    "Milabrega's": {
+        "Key": "Milabrega's",
+        "enUS": "Milabrega's",
+        "zhCN": "米拉伯佳",
+        "zhTW": "米拉伯佳",
+        "sgCN": "米拉伯佳之",
+        "sgTW": "米拉伯佳之"
+    },
+    "Cathan's": {
+        "Key": "Cathan's",
+        "enUS": "Cathan's",
+        "zhCN": "卡珊的",
+        "zhTW": "卡珊的",
+        "sgCN": "卡珊之",
+        "sgTW": "卡珊之"
+    },
+    "Tancred's": {
+        "Key": "Tancred's",
+        "enUS": "Tancred's",
+        "zhCN": "坦克雷的",
+        "zhTW": "坦克雷的",
+        "sgCN": "坦克雷之",
+        "sgTW": "坦克雷之"
+    },
+    "Sigon's": {
+        "Key": "Sigon's",
+        "enUS": "Sigon's",
+        "zhCN": "西剛的",
+        "zhTW": "西剛的",
+        "sgCN": "西刚之",
+        "sgTW": "西剛之"
+    },
+    "Infernal": {
+        "Key": "Infernal",
+        "enUS": "Infernal",
+        "zhCN": "煉獄",
+        "zhTW": "煉獄",
+        "sgCN": "地狱之",
+        "sgTW": "地獄之"
+    },
+    "Death's": {
+        "Key": "Death's",
+        "enUS": "Death's",
+        "zhCN": "死亡之",
+        "zhTW": "死亡之",
+        "sgCN": "死亡之",
+        "sgTW": "死亡之"
+    },
+    "Angelical": {
+        "Key": "Angelical",
+        "enUS": "Angelic",
+        "zhCN": "天使的",
+        "zhTW": "天使的",
+        "sgCN": "天上之",
+        "sgTW": "天上之"
+    },
+    "Arctic": {
+        "Key": "Arctic",
+        "enUS": "Arctic",
+        "zhCN": "北極",
+        "zhTW": "北極",
+        "sgCN": "北极之",
+        "sgTW": "北極之"
+    },
+    "Arcanna's": {
+        "Key": "Arcanna's",
+        "enUS": "Arcanna's",
+        "zhCN": "阿卡娜的",
+        "zhTW": "阿卡娜的",
+        "sgCN": "卡阿娜之",
+        "sgTW": "卡阿娜之"
+    },
+    "Weird": {
+        "Key": "Weird",
+        "enUS": "Weird",
+        "zhCN": "怪奇",
+        "zhTW": "怪奇",
+        "sgCN": "怪异",
+        "sgTW": "怪異"
+    },
+    "GloomUM": {
+        "Key": "GloomUM",
+        "enUS": "Gloom",
+        "zhCN": "陰鬱",
+        "zhTW": "陰鬱",
+        "sgCN": "黑暗之",
+        "sgTW": "黑暗之"
+    },
+    "Gray": {
+        "Key": "Gray",
+        "enUS": "Gray",
+        "zhCN": "灰暗",
+        "zhTW": "灰暗",
+        "sgCN": "灰色之",
+        "sgTW": "灰色之"
+    },
+    "DireUM": {
+        "Key": "DireUM",
+        "enUS": "Dire",
+        "zhCN": "兇蠻",
+        "zhTW": "兇蠻",
+        "sgCN": "悲慘之",
+        "sgTW": "悲慘之"
+    },
+    "Black": {
+        "Key": "Black",
+        "enUS": "Black",
+        "zhCN": "漆黑",
+        "zhTW": "漆黑",
+        "sgCN": "黑色之",
+        "sgTW": "黑色之"
+    },
+    "ShadowUM": {
+        "Key": "ShadowUM",
+        "enUS": "Shadow",
+        "zhCN": "暗影",
+        "zhTW": "暗影",
+        "sgCN": "影子之",
+        "sgTW": "影子之"
+    },
+    "Haze": {
+        "Key": "Haze",
+        "enUS": "Haze",
+        "zhCN": "薄霧",
+        "zhTW": "薄霧",
+        "sgCN": "薄雾之",
+        "sgTW": "薄霧之"
+    },
+    "Wind": {
+        "Key": "Wind",
+        "enUS": "Wind",
+        "zhCN": "飆風",
+        "zhTW": "飆風",
+        "sgCN": "风之",
+        "sgTW": "風之"
+    },
+    "StormUM": {
+        "Key": "StormUM",
+        "enUS": "Storm",
+        "zhCN": "風暴",
+        "zhTW": "風暴",
+        "sgCN": "风暴之",
+        "sgTW": "風暴之"
+    },
+    "Warp": {
+        "Key": "Warp",
+        "enUS": "Warp",
+        "zhCN": "扭曲",
+        "zhTW": "扭曲",
+        "sgCN": "扭曲之",
+        "sgTW": "扭曲之"
+    },
+    "Night": {
+        "Key": "Night",
+        "enUS": "Night",
+        "zhCN": "暗夜",
+        "zhTW": "暗夜",
+        "sgCN": "夜之",
+        "sgTW": "夜之"
+    },
+    "Moon": {
+        "Key": "Moon",
+        "enUS": "Moon",
+        "zhCN": "孤月",
+        "zhTW": "孤月",
+        "sgCN": "月之",
+        "sgTW": "月之"
+    },
+    "Star": {
+        "Key": "Star",
+        "enUS": "Star",
+        "zhCN": "星辰",
+        "zhTW": "星辰",
+        "sgCN": "星之",
+        "sgTW": "星之"
+    },
+    "Pit": {
+        "Key": "Pit",
+        "enUS": "Pit",
+        "zhCN": "地穴",
+        "zhTW": "地穴",
+        "sgCN": "地洞之",
+        "sgTW": "地洞之"
+    },
+    "Fire": {
+        "Key": "Fire",
+        "enUS": "Flame",
+        "zhCN": "火焰",
+        "zhTW": "火焰",
+        "sgCN": "火焰之",
+        "sgTW": "火焰之"
+    },
+    "Cold": {
+        "Key": "Cold",
+        "enUS": "Ice",
+        "zhCN": "寒冰",
+        "zhTW": "寒冰",
+        "sgCN": "冰之",
+        "sgTW": "冰之"
+    },
+    "Seethe": {
+        "Key": "Seethe",
+        "enUS": "Seethe",
+        "zhCN": "沸揚",
+        "zhTW": "沸揚",
+        "sgCN": "沸腾之",
+        "sgTW": "沸騰之"
+    },
+    "SharpUM": {
+        "Key": "SharpUM",
+        "enUS": "Sharp",
+        "zhCN": "鋒利",
+        "zhTW": "鋒利",
+        "sgCN": "锐利之",
+        "sgTW": "銳利之"
+    },
+    "AshUM": {
+        "Key": "AshUM",
+        "enUS": "Ash",
+        "zhCN": "灰燼",
+        "zhTW": "灰燼",
+        "sgCN": "灰之",
+        "sgTW": "灰之"
+    },
+    "Blade": {
+        "Key": "Blade",
+        "enUS": "Blade",
+        "zhCN": "刀鋒",
+        "zhTW": "刀鋒",
+        "sgCN": "刀锋之",
+        "sgTW": "刀鋒之"
+    },
+    "SteelUM": {
+        "Key": "SteelUM",
+        "enUS": "Steel",
+        "zhCN": "鋼鐵",
+        "zhTW": "鋼鐵",
+        "sgCN": "铁之",
+        "sgTW": "鐵之"
+    },
+    "StoneUM": {
+        "Key": "StoneUM",
+        "enUS": "Stone",
+        "zhCN": "石岩",
+        "zhTW": "石岩",
+        "sgCN": "石之",
+        "sgTW": "石之"
+    },
+    "Rust": {
+        "Key": "Rust",
+        "enUS": "Rust",
+        "zhCN": "鏽蝕",
+        "zhTW": "鏽蝕",
+        "sgCN": "腐蚀之",
+        "sgTW": "腐蝕之"
+    },
+    "Mold": {
+        "Key": "Mold",
+        "enUS": "Mold",
+        "zhCN": "霉害",
+        "zhTW": "霉害",
+        "sgCN": "发霉之",
+        "sgTW": "發黴之"
+    },
+    "Blight": {
+        "Key": "Blight",
+        "enUS": "Blight",
+        "zhCN": "荒疫",
+        "zhTW": "荒疫",
+        "sgCN": "枯萎之",
+        "sgTW": "枯萎之"
+    },
+    "Plague": {
+        "Key": "Plague",
+        "enUS": "Plague",
+        "zhCN": "瘟疫",
+        "zhTW": "瘟疫",
+        "sgCN": "瘟疫之",
+        "sgTW": "瘟疫之"
+    },
+    "Rot": {
+        "Key": "Rot",
+        "enUS": "Rot",
+        "zhCN": "腐敗",
+        "zhTW": "腐敗",
+        "sgCN": "腐败之",
+        "sgTW": "腐敗之"
+    },
+    "Ooze": {
+        "Key": "Ooze",
+        "enUS": "Ooze",
+        "zhCN": "滲流",
+        "zhTW": "滲流",
+        "sgCN": "渗流之",
+        "sgTW": "滲流之"
+    },
+    "Puke": {
+        "Key": "Puke",
+        "enUS": "Puke",
+        "zhCN": "嘔血",
+        "zhTW": "嘔血",
+        "sgCN": "呕吐之",
+        "sgTW": "嘔吐之"
+    },
+    "Snot": {
+        "Key": "Snot",
+        "enUS": "Snot",
+        "zhCN": "黏涕",
+        "zhTW": "黏涕",
+        "sgCN": "鼻涕之",
+        "sgTW": "鼻涕之"
+    },
+    "Bile": {
+        "Key": "Bile",
+        "enUS": "Bile",
+        "zhCN": "乖戾",
+        "zhTW": "乖戾",
+        "sgCN": "乖戾之",
+        "sgTW": "乖戾之"
+    },
+    "BloodUM": {
+        "Key": "BloodUM",
+        "enUS": "Blood",
+        "zhCN": "鮮血",
+        "zhTW": "鮮血",
+        "sgCN": "鲜血之",
+        "sgTW": "鮮血之"
+    },
+    "Pulse": {
+        "Key": "Pulse",
+        "enUS": "Pulse",
+        "zhCN": "波動",
+        "zhTW": "波動",
+        "sgCN": "波动之",
+        "sgTW": "波動之"
+    },
+    "Gut": {
+        "Key": "Gut",
+        "enUS": "Gut",
+        "zhCN": "臟器",
+        "zhTW": "臟器",
+        "sgCN": "内脏之",
+        "sgTW": "內臟之"
+    },
+    "Gore": {
+        "Key": "Gore",
+        "enUS": "Gore",
+        "zhCN": "血塊",
+        "zhTW": "血塊",
+        "sgCN": "血块之",
+        "sgTW": "血塊之"
+    },
+    "FleshUM": {
+        "Key": "FleshUM",
+        "enUS": "Flesh",
+        "zhCN": "血肉",
+        "zhTW": "血肉",
+        "sgCN": "血肉之",
+        "sgTW": "血肉之"
+    },
+    "BoneUM": {
+        "Key": "BoneUM",
+        "enUS": "Bone",
+        "zhCN": "骸骨",
+        "zhTW": "骸骨",
+        "sgCN": "白骨之",
+        "sgTW": "白骨之"
+    },
+    "SpineUM": {
+        "Key": "SpineUM",
+        "enUS": "Spine",
+        "zhCN": "尖脊",
+        "zhTW": "尖脊",
+        "sgCN": "山脊之",
+        "sgTW": "山脊之"
+    },
+    "Mind": {
+        "Key": "Mind",
+        "enUS": "Mind",
+        "zhCN": "心靈",
+        "zhTW": "心靈",
+        "sgCN": "意志之",
+        "sgTW": "意志之"
+    },
+    "SpiritUM": {
+        "Key": "SpiritUM",
+        "enUS": "Spirit",
+        "zhCN": "魂靈",
+        "zhTW": "魂靈",
+        "sgCN": "精神之",
+        "sgTW": "精神之"
+    },
+    "SoulUM": {
+        "Key": "SoulUM",
+        "enUS": "Soul",
+        "zhCN": "靈魂",
+        "zhTW": "靈魂",
+        "sgCN": "灵魂之",
+        "sgTW": "靈魂之"
+    },
+    "Wrath": {
+        "Key": "Wrath",
+        "enUS": "Wrath",
+        "zhCN": "憤怒",
+        "zhTW": "憤怒",
+        "sgCN": "忿怒之",
+        "sgTW": "忿怒之"
+    },
+    "GriefUM": {
+        "Key": "GriefUM",
+        "enUS": "Grief",
+        "zhCN": "悲慟",
+        "zhTW": "悲慟",
+        "sgCN": "悲叹之",
+        "sgTW": "悲嘆之"
+    },
+    "Foul": {
+        "Key": "Foul",
+        "enUS": "Foul",
+        "zhCN": "穢汙",
+        "zhTW": "穢汙",
+        "sgCN": "腐烂之",
+        "sgTW": "腐爛之"
+    },
+    "Vile": {
+        "Key": "Vile",
+        "enUS": "Vile",
+        "zhCN": "兇邪",
+        "zhTW": "兇邪",
+        "sgCN": "邪恶之",
+        "sgTW": "邪惡之"
+    },
+    "Sin": {
+        "Key": "Sin",
+        "enUS": "Sin",
+        "zhCN": "罪惡",
+        "zhTW": "罪惡",
+        "sgCN": "罪之",
+        "sgTW": "罪之"
+    },
+    "ChaosUM": {
+        "Key": "ChaosUM",
+        "enUS": "Chaos",
+        "zhCN": "混沌",
+        "zhTW": "混沌",
+        "sgCN": "混沌之",
+        "sgTW": "混沌之"
+    },
+    "DreadUM": {
+        "Key": "DreadUM",
+        "enUS": "Dread",
+        "zhCN": "畏怖",
+        "zhTW": "畏怖",
+        "sgCN": "恐惧之",
+        "sgTW": "恐懼之"
+    },
+    "DoomUM": {
+        "Key": "DoomUM",
+        "enUS": "Doom",
+        "zhCN": "末日",
+        "zhTW": "末日",
+        "sgCN": "毁灭之",
+        "sgTW": "毀滅之"
+    },
+    "BaneUM": {
+        "Key": "BaneUM",
+        "enUS": "Bane",
+        "zhCN": "禍害",
+        "zhTW": "禍害",
+        "sgCN": "祸根之",
+        "sgTW": "禍根之"
+    },
+    "DeathUM": {
+        "Key": "DeathUM",
+        "enUS": "Death",
+        "zhCN": "死亡",
+        "zhTW": "死亡",
+        "sgCN": "死亡之",
+        "sgTW": "死亡之"
+    },
+    "ViperUM": {
+        "Key": "ViperUM",
+        "enUS": "Viper",
+        "zhCN": "蛇魔",
+        "zhTW": "蛇魔",
+        "sgCN": "蝮蛇之",
+        "sgTW": "蝮蛇之"
+    },
+    "Dragon": {
+        "Key": "Dragon",
+        "enUS": "Dragon",
+        "zhCN": "巨龍",
+        "zhTW": "巨龍",
+        "sgCN": "龙之",
+        "sgTW": "龍之"
+    },
+    "Devil": {
+        "Key": "Devil",
+        "enUS": "Devil",
+        "zhCN": "妖鬼",
+        "zhTW": "妖鬼",
+        "sgCN": "恶魔之",
+        "sgTW": "惡魔之"
+    },
+    "touchUM": {
+        "Key": "touchUM",
+        "enUS": "Touch",
+        "zhCN": "之觸",
+        "zhTW": "之觸",
+        "sgCN": "接触的",
+        "sgTW": "接觸的"
+    },
+    "spellUM": {
+        "Key": "spellUM",
+        "enUS": "Spell",
+        "zhCN": "之咒",
+        "zhTW": "之咒",
+        "sgCN": "法术的",
+        "sgTW": "法術的"
+    },
+    "feast": {
+        "Key": "feast",
+        "enUS": "Feast",
+        "zhCN": "之饗宴",
+        "zhTW": "之饗宴",
+        "sgCN": "筵席的",
+        "sgTW": "筵席的"
+    },
+    "wound": {
+        "Key": "wound",
+        "enUS": "Wound",
+        "zhCN": "之傷",
+        "zhTW": "之傷",
+        "sgCN": "伤痕的",
+        "sgTW": "傷痕的"
+    },
+    "grin": {
+        "Key": "grin",
+        "enUS": "Grin",
+        "zhCN": "獰笑者",
+        "zhTW": "獰笑者",
+        "sgCN": "露牙的",
+        "sgTW": "露牙的"
+    },
+    "maim": {
+        "Key": "maim",
+        "enUS": "Maim",
+        "zhCN": "殘傷者",
+        "zhTW": "殘傷者",
+        "sgCN": "残废的",
+        "sgTW": "殘廢的"
+    },
+    "hack": {
+        "Key": "hack",
+        "enUS": "Hack",
+        "zhCN": "之劈",
+        "zhTW": "之劈",
+        "sgCN": "乱切的",
+        "sgTW": "亂切的"
+    },
+    "biteUM": {
+        "Key": "biteUM",
+        "enUS": "Bite",
+        "zhCN": "噬咬",
+        "zhTW": "噬咬",
+        "sgCN": "咬的",
+        "sgTW": "咬的"
+    },
+    "rendUM": {
+        "Key": "rendUM",
+        "enUS": "Rend",
+        "zhCN": "之破",
+        "zhTW": "之破",
+        "sgCN": "扯破的",
+        "sgTW": "扯破的"
+    },
+    "burn": {
+        "Key": "burn",
+        "enUS": "Burn",
+        "zhCN": "猛燃者",
+        "zhTW": "猛燃者",
+        "sgCN": "燃烧的",
+        "sgTW": "燃燒的"
+    },
+    "rip": {
+        "Key": "rip",
+        "enUS": "Ripper",
+        "zhCN": "開膛手",
+        "zhTW": "開膛手",
+        "sgCN": "开膛手的",
+        "sgTW": "開膛手的"
+    },
+    "kill": {
+        "Key": "kill",
+        "enUS": "Kill",
+        "zhCN": "之殺",
+        "zhTW": "之殺",
+        "sgCN": "杀的",
+        "sgTW": "殺的"
+    },
+    "callUM": {
+        "Key": "callUM",
+        "enUS": "Call",
+        "zhCN": "呼喚者",
+        "zhTW": "呼喚者",
+        "sgCN": "呼喊的",
+        "sgTW": "呼喊的"
+    },
+    "vex": {
+        "Key": "vex",
+        "enUS": "Vex",
+        "zhCN": "之苦痛者",
+        "zhTW": "之苦痛者",
+        "sgCN": "苦恼的",
+        "sgTW": "苦惱的"
+    },
+    "jade": {
+        "Key": "jade",
+        "enUS": "Jade",
+        "zhCN": "之玉",
+        "zhTW": "之玉",
+        "sgCN": "玉的",
+        "sgTW": "玉的"
+    },
+    "web": {
+        "Key": "web",
+        "enUS": "Web",
+        "zhCN": "毒網",
+        "zhTW": "毒網",
+        "sgCN": "网的",
+        "sgTW": "網的"
+    },
+    "shieldUM": {
+        "Key": "shieldUM",
+        "enUS": "Shield",
+        "zhCN": "之盾",
+        "zhTW": "之盾",
+        "sgCN": "盾的",
+        "sgTW": "盾的"
+    },
+    "KillerUM": {
+        "Key": "KillerUM",
+        "enUS": "Killer",
+        "zhCN": "殺手",
+        "zhTW": "殺手",
+        "sgCN": "杀手的",
+        "sgTW": "殺手的"
+    },
+    "RazorUM": {
+        "Key": "RazorUM",
+        "enUS": "Razor",
+        "zhCN": "剃刀",
+        "zhTW": "剃刀",
+        "sgCN": "剃刀的",
+        "sgTW": "剃刀的"
+    },
+    "drinker": {
+        "Key": "drinker",
+        "enUS": "Drinker",
+        "zhCN": "暢飲者",
+        "zhTW": "暢飲者",
+        "sgCN": "酒鬼的",
+        "sgTW": "酒鬼的"
+    },
+    "shifter": {
+        "Key": "shifter",
+        "enUS": "Shifter",
+        "zhCN": "變形者",
+        "zhTW": "變形者",
+        "sgCN": "变形者的",
+        "sgTW": "變形者的"
+    },
+    "crawler": {
+        "Key": "crawler",
+        "enUS": "Crawler",
+        "zhCN": "爬行者",
+        "zhTW": "爬行者",
+        "sgCN": "爬行者的",
+        "sgTW": "爬行者的"
+    },
+    "dancer": {
+        "Key": "dancer",
+        "enUS": "Dancer",
+        "zhCN": "舞者",
+        "zhTW": "舞者",
+        "sgCN": "舞者的",
+        "sgTW": "舞者的"
+    },
+    "bender": {
+        "Key": "bender",
+        "enUS": "Bender",
+        "zhCN": "彎曲者",
+        "zhTW": "彎曲者",
+        "sgCN": "闹饮者的",
+        "sgTW": "鬧飲者的"
+    },
+    "weaverUM": {
+        "Key": "weaverUM",
+        "enUS": "Weaver",
+        "zhCN": "編織者",
+        "zhTW": "編織者",
+        "sgCN": "挥舞者的",
+        "sgTW": "揮舞者的"
+    },
+    "eater": {
+        "Key": "eater",
+        "enUS": "Eater",
+        "zhCN": "吞食者",
+        "zhTW": "吞食者",
+        "sgCN": "吞吃者的",
+        "sgTW": "吞吃者的"
+    },
+    "widow": {
+        "Key": "widow",
+        "enUS": "Widow",
+        "zhCN": "寡婦",
+        "zhTW": "寡婦",
+        "sgCN": "寡妇的",
+        "sgTW": "寡婦的"
+    },
+    "maggot": {
+        "Key": "maggot",
+        "enUS": "Maggot",
+        "zhCN": "蛆蟲",
+        "zhTW": "蛆蟲",
+        "sgCN": "蛆虫的",
+        "sgTW": "蛆蟲的"
+    },
+    "spawn": {
+        "Key": "spawn",
+        "enUS": "Spawn",
+        "zhCN": "鬼物",
+        "zhTW": "鬼物",
+        "sgCN": "重生的",
+        "sgTW": "重生的"
+    },
+    "wight": {
+        "Key": "wight",
+        "enUS": "Wight",
+        "zhCN": "活屍",
+        "zhTW": "活屍",
+        "sgCN": "人的",
+        "sgTW": "人的"
+    },
+    "GrumbleUM": {
+        "Key": "GrumbleUM",
+        "enUS": "Grumble",
+        "zhCN": "泣怨者",
+        "zhTW": "泣怨者",
+        "sgCN": "哭诉的",
+        "sgTW": "哭訴的"
+    },
+    "GrowlerUM": {
+        "Key": "GrowlerUM",
+        "enUS": "Growler",
+        "zhCN": "咆哮者",
+        "zhTW": "咆哮者",
+        "sgCN": "咆哮者的",
+        "sgTW": "咆哮者的"
+    },
+    "SnarlUM": {
+        "Key": "SnarlUM",
+        "enUS": "Snarl",
+        "zhCN": "吠叫者",
+        "zhTW": "吠叫者",
+        "sgCN": "吠叫的",
+        "sgTW": "吠叫的"
+    },
+    "wolf": {
+        "Key": "wolf",
+        "enUS": "Wolf",
+        "zhCN": "狂狼",
+        "zhTW": "狂狼",
+        "sgCN": "狼的",
+        "sgTW": "狼的"
+    },
+    "crow": {
+        "Key": "crow",
+        "enUS": "Crow",
+        "zhCN": "魔鴉",
+        "zhTW": "魔鴉",
+        "sgCN": "乌鸦的",
+        "sgTW": "烏鴉的"
+    },
+    "raven": {
+        "Key": "raven",
+        "enUS": "Raven",
+        "zhCN": "掠鴉",
+        "zhTW": "掠鴉",
+        "sgCN": "渡鸟的",
+        "sgTW": "渡鳥的"
+    },
+    "hawk": {
+        "Key": "hawk",
+        "enUS": "Hawk",
+        "zhCN": "天鷹",
+        "zhTW": "天鷹",
+        "sgCN": "鹰的",
+        "sgTW": "鷹的"
+    },
+    "cloud": {
+        "Key": "cloud",
+        "enUS": "Cloud",
+        "zhCN": "罩雲",
+        "zhTW": "罩雲",
+        "sgCN": "云的",
+        "sgTW": "雲的"
+    },
+    "BangUM": {
+        "Key": "BangUM",
+        "enUS": "Bang",
+        "zhCN": "之響",
+        "zhTW": "之響",
+        "sgCN": "重击的",
+        "sgTW": "重擊的"
+    },
+    "head": {
+        "Key": "head",
+        "enUS": "Head",
+        "zhCN": "之首",
+        "zhTW": "之首",
+        "sgCN": "头的",
+        "sgTW": "頭的"
+    },
+    "skullUM": {
+        "Key": "skullUM",
+        "enUS": "Skull",
+        "zhCN": "骷髏",
+        "zhTW": "骷髏",
+        "sgCN": "骷髅的",
+        "sgTW": "骷髏的"
+    },
+    "browUM": {
+        "Key": "browUM",
+        "enUS": "Brow",
+        "zhCN": "面容",
+        "zhTW": "面容",
+        "sgCN": "面容的",
+        "sgTW": "面容的"
+    },
+    "eyeUM": {
+        "Key": "eyeUM",
+        "enUS": "Eye",
+        "zhCN": "之眼",
+        "zhTW": "之眼",
+        "sgCN": "眼的",
+        "sgTW": "眼的"
+    },
+    "maw": {
+        "Key": "maw",
+        "enUS": "Maw",
+        "zhCN": "魔口",
+        "zhTW": "魔口",
+        "sgCN": "魔口的",
+        "sgTW": "魔口的"
+    },
+    "tongue": {
+        "Key": "tongue",
+        "enUS": "Tongue",
+        "zhCN": "之舌",
+        "zhTW": "之舌",
+        "sgCN": "舌的",
+        "sgTW": "舌的"
+    },
+    "fangUM": {
+        "Key": "fangUM",
+        "enUS": "Fang",
+        "zhCN": "之牙",
+        "zhTW": "之牙",
+        "sgCN": "牙的",
+        "sgTW": "牙的"
+    },
+    "hornUM": {
+        "Key": "hornUM",
+        "enUS": "Horn",
+        "zhCN": "之角",
+        "zhTW": "之角",
+        "sgCN": "角的",
+        "sgTW": "角的"
+    },
+    "thorn": {
+        "Key": "thorn",
+        "enUS": "Thorn",
+        "zhCN": "荊棘",
+        "zhTW": "荊棘",
+        "sgCN": "刺的",
+        "sgTW": "刺的"
+    },
+    "clawUM": {
+        "Key": "clawUM",
+        "enUS": "Claw",
+        "zhCN": "利爪",
+        "zhTW": "利爪",
+        "sgCN": "爪的",
+        "sgTW": "爪的"
+    },
+    "fistUM": {
+        "Key": "fistUM",
+        "enUS": "Fist",
+        "zhCN": "之拳",
+        "zhTW": "之拳",
+        "sgCN": "拳的",
+        "sgTW": "拳的"
+    },
+    "heartUM": {
+        "Key": "heartUM",
+        "enUS": "Heart",
+        "zhCN": "之心",
+        "zhTW": "之心",
+        "sgCN": "心的",
+        "sgTW": "心的"
+    },
+    "shankUM": {
+        "Key": "shankUM",
+        "enUS": "Shank",
+        "zhCN": "脛骨",
+        "zhTW": "脛骨",
+        "sgCN": "胫骨的",
+        "sgTW": "脛骨的"
+    },
+    "skinUM": {
+        "Key": "skinUM",
+        "enUS": "Skin",
+        "zhCN": "之皮",
+        "zhTW": "之皮",
+        "sgCN": "皮的",
+        "sgTW": "皮的"
+    },
+    "wingUM": {
+        "Key": "wingUM",
+        "enUS": "Wing",
+        "zhCN": "飛翼",
+        "zhTW": "飛翼",
+        "sgCN": "翼的",
+        "sgTW": "翼的"
+    },
+    "pox": {
+        "Key": "pox",
+        "enUS": "Pox",
+        "zhCN": "疫病",
+        "zhTW": "疫病",
+        "sgCN": "天花的",
+        "sgTW": "天花的"
+    },
+    "fester": {
+        "Key": "fester",
+        "enUS": "Fester",
+        "zhCN": "潰爛",
+        "zhTW": "潰爛",
+        "sgCN": "溃烂的",
+        "sgTW": "潰爛的"
+    },
+    "blister": {
+        "Key": "blister",
+        "enUS": "Blister",
+        "zhCN": "毒皰",
+        "zhTW": "毒皰",
+        "sgCN": "起泡的",
+        "sgTW": "起泡的"
+    },
+    "pus": {
+        "Key": "pus",
+        "enUS": "Pus",
+        "zhCN": "之膿",
+        "zhTW": "之膿",
+        "sgCN": "脓的",
+        "sgTW": "膿的"
+    },
+    "SlimeUM": {
+        "Key": "SlimeUM",
+        "enUS": "Slime",
+        "zhCN": "黏毒",
+        "zhTW": "黏毒",
+        "sgCN": "粘液的",
+        "sgTW": "黏液的"
+    },
+    "drool": {
+        "Key": "drool",
+        "enUS": "Drool",
+        "zhCN": "之涎",
+        "zhTW": "之涎",
+        "sgCN": "流口水的",
+        "sgTW": "流口水的"
+    },
+    "froth": {
+        "Key": "froth",
+        "enUS": "Froth",
+        "zhCN": "白沫",
+        "zhTW": "白沫",
+        "sgCN": "泡沫的",
+        "sgTW": "泡沫的"
+    },
+    "sludge": {
+        "Key": "sludge",
+        "enUS": "Sludge",
+        "zhCN": "汙泥",
+        "zhTW": "汙泥",
+        "sgCN": "污泥的",
+        "sgTW": "污泥的"
+    },
+    "venom": {
+        "Key": "venom",
+        "enUS": "Venom",
+        "zhCN": "毒液",
+        "zhTW": "毒液",
+        "sgCN": "毒液的",
+        "sgTW": "毒液的"
+    },
+    "poison": {
+        "Key": "poison",
+        "enUS": "Poison",
+        "zhCN": "之毒",
+        "zhTW": "之毒",
+        "sgCN": "毒的",
+        "sgTW": "毒的"
+    },
+    "break": {
+        "Key": "break",
+        "enUS": "Break",
+        "zhCN": "破斷",
+        "zhTW": "破斷",
+        "sgCN": "打断的",
+        "sgTW": "打斷的"
+    },
+    "shard": {
+        "Key": "shard",
+        "enUS": "Shard",
+        "zhCN": "碎片",
+        "zhTW": "碎片",
+        "sgCN": "碎片的",
+        "sgTW": "碎片的"
+    },
+    "flame": {
+        "Key": "flame",
+        "enUS": "Flame",
+        "zhCN": "火焰",
+        "zhTW": "火焰",
+        "sgCN": "火焰的",
+        "sgTW": "火焰的"
+    },
+    "maul": {
+        "Key": "maul",
+        "enUS": "Maul",
+        "zhCN": "捶打者",
+        "zhTW": "捶打者",
+        "sgCN": "大木槌的",
+        "sgTW": "大木槌的"
+    },
+    "thirstUM": {
+        "Key": "thirstUM",
+        "enUS": "Thirst",
+        "zhCN": "饑渴",
+        "zhTW": "饑渴",
+        "sgCN": "饥渴的",
+        "sgTW": "饑渴的"
+    },
+    "lust": {
+        "Key": "lust",
+        "enUS": "Lust",
+        "zhCN": "之慾",
+        "zhTW": "之慾",
+        "sgCN": "渴望的",
+        "sgTW": "渴望的"
+    },
+    "the Hammer": {
+        "Key": "the Hammer",
+        "enUS": "the Hammer",
+        "zhCN": "「重鎚者」",
+        "zhTW": "「重鎚者」",
+        "sgCN": "铁锤者·",
+        "sgTW": "鐵鎚者"
+    },
+    "the Axe": {
+        "Key": "the Axe",
+        "enUS": "the Axe",
+        "zhCN": "「銳斧使徒」",
+        "zhTW": "「銳斧使徒」",
+        "sgCN": "斧头者·",
+        "sgTW": "斧頭者"
+    },
+    "the Sharp": {
+        "Key": "the Sharp",
+        "enUS": "the Sharp",
+        "zhCN": "銳不可當的",
+        "zhTW": "銳不可當的",
+        "sgCN": "锐利者·",
+        "sgTW": "銳利者"
+    },
+    "the Jagged": {
+        "Key": "the Jagged",
+        "enUS": "the Jagged",
+        "zhCN": "「鋸齒者」",
+        "zhTW": "「鋸齒者」",
+        "sgCN": "锯齿者·",
+        "sgTW": "鋸齒者"
+    },
+    "the Flayer": {
+        "Key": "the Flayer",
+        "enUS": "the Flayer",
+        "zhCN": "「剝皮手」",
+        "zhTW": "「剝皮手」",
+        "sgCN": "剥皮者·",
+        "sgTW": "剝皮者"
+    },
+    "the Slasher": {
+        "Key": "the Slasher",
+        "enUS": "the Slasher",
+        "zhCN": "「切割者」",
+        "zhTW": "「切割者」",
+        "sgCN": "切割者·",
+        "sgTW": "切割者"
+    },
+    "the Impaler": {
+        "Key": "the Impaler",
+        "enUS": "the Impaler",
+        "zhCN": "「刺穿者」",
+        "zhTW": "「刺穿者」",
+        "sgCN": "刺穿者·",
+        "sgTW": "刺穿者"
+    },
+    "the Hunter": {
+        "Key": "the Hunter",
+        "enUS": "the Hunter",
+        "zhCN": "「狩獵者」",
+        "zhTW": "「狩獵者」",
+        "sgCN": "猎人·",
+        "sgTW": "獵人"
+    },
+    "the Slayer": {
+        "Key": "the Slayer",
+        "enUS": "the Slayer",
+        "zhCN": "「屠殺使徒」",
+        "zhTW": "「屠殺使徒」",
+        "sgCN": "屠杀者·",
+        "sgTW": "屠殺者"
+    },
+    "the Mauler": {
+        "Key": "the Mauler",
+        "enUS": "the Mauler",
+        "zhCN": "「猛擊者」",
+        "zhTW": "「猛擊者」",
+        "sgCN": "伤害手·",
+        "sgTW": "傷害手"
+    },
+    "the Destroyer": {
+        "Key": "the Destroyer",
+        "enUS": "the Destroyer",
+        "zhCN": "「毀滅者」",
+        "zhTW": "「毀滅者」",
+        "sgCN": "毁灭者·",
+        "sgTW": "毀滅者"
+    },
+    "theQuick": {
+        "Key": "theQuick",
+        "enUS": "the Quick",
+        "zhCN": "迅捷的",
+        "zhTW": "迅捷的",
+        "sgCN": "快速者·",
+        "sgTW": "快速者"
+    },
+    "the Witch": {
+        "Key": "the Witch",
+        "enUS": "the Witch",
+        "zhCN": "巫異",
+        "zhTW": "巫異",
+        "sgCN": "女巫·",
+        "sgTW": "女巫"
+    },
+    "the Mad": {
+        "Key": "the Mad",
+        "enUS": "the Mad",
+        "zhCN": "瘋狂的",
+        "zhTW": "瘋狂的",
+        "sgCN": "疯狂者·",
+        "sgTW": "瘋狂者"
+    },
+    "the Wraith": {
+        "Key": "the Wraith",
+        "enUS": "the Wraith",
+        "zhCN": "「怨靈化身」",
+        "zhTW": "「怨靈化身」",
+        "sgCN": "忿怒者·",
+        "sgTW": "忿怒者"
+    },
+    "the Shade": {
+        "Key": "the Shade",
+        "enUS": "the Shade",
+        "zhCN": "鬼影般的",
+        "zhTW": "鬼影般的",
+        "sgCN": "阴影·",
+        "sgTW": "陰影"
+    },
+    "the Dead": {
+        "Key": "the Dead",
+        "enUS": "the Dead",
+        "zhCN": "無法安息的",
+        "zhTW": "無法安息的",
+        "sgCN": "死亡者·",
+        "sgTW": "死亡者"
+    },
+    "the Unholy": {
+        "Key": "the Unholy",
+        "enUS": "the Unholy",
+        "zhCN": "「穢邪者」",
+        "zhTW": "「穢邪者」",
+        "sgCN": "不神圣者·",
+        "sgTW": "不神聖者"
+    },
+    "the Howler": {
+        "Key": "the Howler",
+        "enUS": "the Howler",
+        "zhCN": "「號哭者」",
+        "zhTW": "「號哭者」",
+        "sgCN": "号哭者·",
+        "sgTW": "號哭者"
+    },
+    "the Grim": {
+        "Key": "the Grim",
+        "enUS": "the Grim",
+        "zhCN": "陰森的",
+        "zhTW": "陰森的",
+        "sgCN": "残酷者·",
+        "sgTW": "殘酷者"
+    },
+    "the Dark": {
+        "Key": "the Dark",
+        "enUS": "the Dark",
+        "zhCN": "「黑暗者」",
+        "zhTW": "「黑暗者」",
+        "sgCN": "黑暗者·",
+        "sgTW": "黑暗者"
+    },
+    "the Tainted": {
+        "Key": "the Tainted",
+        "enUS": "the Tainted",
+        "zhCN": "「汙染者」",
+        "zhTW": "「汙染者」",
+        "sgCN": "污染者·",
+        "sgTW": "污染者"
+    },
+    "the Unclean": {
+        "Key": "the Unclean",
+        "enUS": "the Unclean",
+        "zhCN": "「不潔者」",
+        "zhTW": "「不潔者」",
+        "sgCN": "不洁者·",
+        "sgTW": "不潔者"
+    },
+    "the Hungry": {
+        "Key": "the Hungry",
+        "enUS": "the Hungry",
+        "zhCN": "「飢渴者」",
+        "zhTW": "「飢渴者」",
+        "sgCN": "饥渴者·",
+        "sgTW": "飢渴者"
+    },
+    "the Cold": {
+        "Key": "the Cold",
+        "enUS": "the Cold",
+        "zhCN": "冷酷無情的",
+        "zhTW": "冷酷無情的",
+        "sgCN": "冷冰者·",
+        "sgTW": "冰冷者"
+    },
+    "Champion": {
+        "Key": "Champion",
+        "enUS": "Champion",
+        "zhCN": "精英",
+        "zhTW": "精英",
+        "sgCN": "[头目]",
+        "sgTW": "頭目"
+    },
+    "of the Wraith": {
+        "Key": "of the Wraith",
+        "enUS": "of the Wraith",
+        "zhCN": "怨靈之",
+        "zhTW": "怨靈之",
+        "sgCN": "死灵",
+        "sgTW": "死靈"
+    },
+    "of Equilibrium": {
+        "Key": "of Equilibrium",
+        "enUS": "of Equilibrium",
+        "zhCN": "均衡之",
+        "zhTW": "均衡之",
+        "sgCN": "均衡",
+        "sgTW": "均衡"
+    },
+    "Valkyrie's": {
+        "Key": "Valkyrie's",
+        "enUS": "Valkyrie's",
+        "zhCN": "女武神",
+        "zhTW": "女武神",
+        "sgCN": "女武神之",
+        "sgTW": "女武神之"
+    },
+    "Maiden's": {
+        "Key": "Maiden's",
+        "enUS": "Maiden's",
+        "zhCN": "女戰士",
+        "zhTW": "女戰士",
+        "sgCN": "处女之",
+        "sgTW": "處女之"
+    },
+    "Blank": {
+        "Key": "Blank",
+        "enUS": "Void",
+        "zhCN": "虛無之",
+        "zhTW": "虛無之",
+        "sgCN": "虚无之",
+        "sgTW": "虛無之"
+    },
+    "champfanaticX": {
+        "Key": "champfanaticX",
+        "enUS": "Fanatic",
+        "zhCN": "瘋迷",
+        "zhTW": "瘋迷",
+        "sgCN": "[狂信者]",
+        "sgTW": "狂信者"
+    },
+    "champberserkX": {
+        "Key": "champberserkX",
+        "enUS": "Berserker",
+        "zhCN": "狂暴",
+        "zhTW": "狂暴",
+        "sgCN": "[狂战士]",
+        "sgTW": "狂戰士"
+    },
+    "Stout": {
+        "Key": "Stout",
+        "enUS": "Stout",
+        "zhCN": "牢固",
+        "zhTW": "牢固",
+        "sgCN": "坚固之",
+        "sgTW": "堅固之"
+    },
+    "Antimagic": {
+        "Key": "Antimagic",
+        "enUS": "Antimagic",
+        "zhCN": "抗魔",
+        "zhTW": "抗魔",
+        "sgCN": "反魔法之",
+        "sgTW": "反魔法之"
+    },
+    "Null": {
+        "Key": "Null",
+        "enUS": "Null",
+        "zhCN": "無效",
+        "zhTW": "無效",
+        "sgCN": "无效之",
+        "sgTW": "無效之"
+    },
+    "Godly": {
+        "Key": "Godly",
+        "enUS": "Godly",
+        "zhCN": "神威",
+        "zhTW": "神威",
+        "sgCN": "神之",
+        "sgTW": "神之"
+    },
+    "Ivory": {
+        "Key": "Ivory",
+        "enUS": "Ivory",
+        "zhCN": "象牙",
+        "zhTW": "象牙",
+        "sgCN": "象牙之",
+        "sgTW": "象牙之"
+    },
+    "Eburin": {
+        "Key": "Eburin",
+        "enUS": "Eburine",
+        "zhCN": "骨牙",
+        "zhTW": "骨牙",
+        "sgCN": "类象牙之",
+        "sgTW": "類象牙之"
+    },
+    "Blanched": {
+        "Key": "Blanched",
+        "enUS": "Blanched",
+        "zhCN": "白化",
+        "zhTW": "白化",
+        "sgCN": "白化之",
+        "sgTW": "白化之"
+    },
+    "Stalwart": {
+        "Key": "Stalwart",
+        "enUS": "Stalwart",
+        "zhCN": "健壯",
+        "zhTW": "健壯",
+        "sgCN": "健壮之",
+        "sgTW": "健壯之"
+    },
+    "Burly": {
+        "Key": "Burly",
+        "enUS": "Burly",
+        "zhCN": "魁梧",
+        "zhTW": "魁梧",
+        "sgCN": "魁梧之",
+        "sgTW": "魁梧之"
+    },
+    "Dense": {
+        "Key": "Dense",
+        "enUS": "Dense",
+        "zhCN": "密集",
+        "zhTW": "密集",
+        "sgCN": "密集之",
+        "sgTW": "密集之"
+    },
+    "Thin": {
+        "Key": "Thin",
+        "enUS": "Thin",
+        "zhCN": "細薄",
+        "zhTW": "細薄",
+        "sgCN": "细瘦之",
+        "sgTW": "細瘦之"
+    },
+    "Compact": {
+        "Key": "Compact",
+        "enUS": "Compact",
+        "zhCN": "緊實",
+        "zhTW": "緊實",
+        "sgCN": "密实之",
+        "sgTW": "密實之"
+    },
+    "Witch-hunter's": {
+        "Key": "Witch-hunter's",
+        "enUS": "Witch-hunter's",
+        "zhCN": "女巫獵人",
+        "zhTW": "女巫獵人",
+        "sgCN": "女巫猎人之",
+        "sgTW": "女巫獵人之"
+    },
+    "Magekiller's": {
+        "Key": "Magekiller's",
+        "enUS": "Magekiller's",
+        "zhCN": "法師殺手",
+        "zhTW": "法師殺手",
+        "sgCN": "法师杀手之",
+        "sgTW": "法師殺手之"
+    },
+    "Hierophant's": {
+        "Key": "Hierophant's",
+        "enUS": "Hierophant's",
+        "zhCN": "祭司",
+        "zhTW": "祭司",
+        "sgCN": "祭司之",
+        "sgTW": "祭司之"
+    },
+    "Shaman's": {
+        "Key": "Shaman's",
+        "enUS": "Shaman's",
+        "zhCN": "薩滿",
+        "zhTW": "薩滿",
+        "sgCN": "巫师之",
+        "sgTW": "巫師之"
+    },
+    "Pestilent": {
+        "Key": "Pestilent",
+        "enUS": "Pestilent",
+        "zhCN": "疫病",
+        "zhTW": "疫病",
+        "sgCN": "瘟疫之",
+        "sgTW": "瘟疫之"
+    },
+    "Toxic": {
+        "Key": "Toxic",
+        "enUS": "Toxic",
+        "zhCN": "劇毒",
+        "zhTW": "劇毒",
+        "sgCN": "剧毒之",
+        "sgTW": "劇毒之"
+    },
+    "Corosive": {
+        "Key": "Corosive",
+        "enUS": "Corrosive",
+        "zhCN": "腐蝕",
+        "zhTW": "腐蝕",
+        "sgCN": "腐蚀之",
+        "sgTW": "腐蝕之"
+    },
+    "Envenomed": {
+        "Key": "Envenomed",
+        "enUS": "Foul",
+        "zhCN": "穢汙",
+        "zhTW": "穢汙",
+        "sgCN": "险恶之",
+        "sgTW": "險惡之"
+    },
+    "Septic": {
+        "Key": "Septic",
+        "enUS": "Septic",
+        "zhCN": "敗腐",
+        "zhTW": "敗腐",
+        "sgCN": "腐败之",
+        "sgTW": "腐敗之"
+    },
+    "Shocking": {
+        "Key": "Shocking",
+        "enUS": "Shocking",
+        "zhCN": "電擊",
+        "zhTW": "電擊",
+        "sgCN": "震撼之",
+        "sgTW": "震撼之"
+    },
+    "Arcing": {
+        "Key": "Arcing",
+        "enUS": "Arcing",
+        "zhCN": "電弧",
+        "zhTW": "電弧",
+        "sgCN": "弯曲之",
+        "sgTW": "彎曲之"
+    },
+    "Buzzing": {
+        "Key": "Buzzing",
+        "enUS": "Buzzing",
+        "zhCN": "電鳴",
+        "zhTW": "電鳴",
+        "sgCN": "嗡叫之",
+        "sgTW": "嗡叫之"
+    },
+    "Static": {
+        "Key": "Static",
+        "enUS": "Static",
+        "zhCN": "靜電",
+        "zhTW": "靜電",
+        "sgCN": "静态之",
+        "sgTW": "靜態之"
+    },
+    "Scorching": {
+        "Key": "Scorching",
+        "enUS": "Condensing",
+        "zhCN": "焦火",
+        "zhTW": "焦火",
+        "sgCN": "浓缩之",
+        "sgTW": "濃縮之"
+    },
+    "Flaming": {
+        "Key": "Flaming",
+        "enUS": "Flaming",
+        "zhCN": "烈焰",
+        "zhTW": "烈焰",
+        "sgCN": "燃烧之",
+        "sgTW": "燃燒之"
+    },
+    "Smoking": {
+        "Key": "Smoking",
+        "enUS": "Smoking",
+        "zhCN": "火煙",
+        "zhTW": "火煙",
+        "sgCN": "烟雾之",
+        "sgTW": "煙霧之"
+    },
+    "Smoldering": {
+        "Key": "Smoldering",
+        "enUS": "Smoldering",
+        "zhCN": "悶燃",
+        "zhTW": "悶燃",
+        "sgCN": "闷烧之",
+        "sgTW": "悶燒之"
+    },
+    "Ember": {
+        "Key": "Ember",
+        "enUS": "Fiery",
+        "zhCN": "熾烈",
+        "zhTW": "熾烈",
+        "sgCN": "烈火之",
+        "sgTW": "烈火之"
+    },
+    "Hibernal": {
+        "Key": "Hibernal",
+        "enUS": "Hibernal",
+        "zhCN": "冬寒",
+        "zhTW": "冬寒",
+        "sgCN": "寒冬之",
+        "sgTW": "寒冬之"
+    },
+    "Boreal": {
+        "Key": "Boreal",
+        "enUS": "Boreal",
+        "zhCN": "凍原",
+        "zhTW": "凍原",
+        "sgCN": "北风之",
+        "sgTW": "北風之"
+    },
+    "Shivering": {
+        "Key": "Shivering",
+        "enUS": "Shivering",
+        "zhCN": "凍顫",
+        "zhTW": "凍顫",
+        "sgCN": "颤抖之",
+        "sgTW": "顫抖之"
+    },
+    "Snowflake": {
+        "Key": "Snowflake",
+        "enUS": "Snowy",
+        "zhCN": "落雪",
+        "zhTW": "落雪",
+        "sgCN": "雪白之",
+        "sgTW": "雪白之"
+    },
+    "Mnemonic": {
+        "Key": "Mnemonic",
+        "enUS": "Mnemonic",
+        "zhCN": "記憶",
+        "zhTW": "記憶",
+        "sgCN": "记忆之",
+        "sgTW": "記憶之"
+    },
+    "Visionary": {
+        "Key": "Visionary",
+        "enUS": "Visionary",
+        "zhCN": "靈視",
+        "zhTW": "靈視",
+        "sgCN": "灵视",
+        "sgTW": "靈視"
+    },
+    "Eagleeye": {
+        "Key": "Eagleeye",
+        "enUS": "Eagleeye",
+        "zhCN": "鷲眼",
+        "zhTW": "鷲眼",
+        "sgCN": "明察秋毫之",
+        "sgTW": "明察秋毫之"
+    },
+    "Hawkeye": {
+        "Key": "Hawkeye",
+        "enUS": "Hawkeye",
+        "zhCN": "鷹眼",
+        "zhTW": "鷹眼",
+        "sgCN": "目光锐利之",
+        "sgTW": "目光銳利之"
+    },
+    "Falconeye": {
+        "Key": "Falconeye",
+        "enUS": "Falconeye",
+        "zhCN": "隼眼",
+        "zhTW": "隼眼",
+        "sgCN": "鹰眼之",
+        "sgTW": "鷹眼之"
+    },
+    "Sparroweye": {
+        "Key": "Sparroweye",
+        "enUS": "Sparroweye",
+        "zhCN": "雀眼",
+        "zhTW": "雀眼",
+        "sgCN": "麻雀之眼之",
+        "sgTW": "麻雀之眼之"
+    },
+    "Robineye": {
+        "Key": "Robineye",
+        "enUS": "Robineye",
+        "zhCN": "鴝眼",
+        "zhTW": "鴝眼",
+        "sgCN": "知更鸟之眼之",
+        "sgTW": "知更鳥之眼之"
+    },
+    "Paradox": {
+        "Key": "Paradox",
+        "enUS": "Paradox",
+        "zhCN": "矛盾",
+        "zhTW": "矛盾",
+        "sgCN": "矛盾之",
+        "sgTW": "矛盾之"
+    },
+    "Shouting": {
+        "Key": "Shouting",
+        "enUS": "Howling",
+        "zhCN": "嘶嚎",
+        "zhTW": "嘶嚎",
+        "sgCN": "狂哮之",
+        "sgTW": "狂哮之"
+    },
+    "Yelling": {
+        "Key": "Yelling",
+        "enUS": "Yelling",
+        "zhCN": "嘶喊",
+        "zhTW": "嘶喊",
+        "sgCN": "嘶喊之",
+        "sgTW": "嘶喊之"
+    },
+    "Calling": {
+        "Key": "Calling",
+        "enUS": "Calling",
+        "zhCN": "呼喚",
+        "zhTW": "呼喚",
+        "sgCN": "召唤之",
+        "sgTW": "召喚之"
+    },
+    "Loud": {
+        "Key": "Loud",
+        "enUS": "Alarming",
+        "zhCN": "警告",
+        "zhTW": "警告",
+        "sgCN": "警告之",
+        "sgTW": "警告之"
+    },
+    "Trump": {
+        "Key": "Trump",
+        "enUS": "Fool's",
+        "zhCN": "愚者",
+        "zhTW": "愚者",
+        "sgCN": "愚人之",
+        "sgTW": "愚人之"
+    },
+    "Joker's": {
+        "Key": "Joker's",
+        "enUS": "Joker's",
+        "zhCN": "丑角",
+        "zhTW": "丑角",
+        "sgCN": "丑角之",
+        "sgTW": "丑角之"
+    },
+    "Jester's": {
+        "Key": "Jester's",
+        "enUS": "Jester's",
+        "zhCN": "弄臣",
+        "zhTW": "弄臣",
+        "sgCN": "弄臣之",
+        "sgTW": "弄臣之"
+    },
+    "Jack's": {
+        "Key": "Jack's",
+        "enUS": "Jack's",
+        "zhCN": "少年",
+        "zhTW": "少年",
+        "sgCN": "少年之",
+        "sgTW": "少年之"
+    },
+    "Knave's": {
+        "Key": "Knave's",
+        "enUS": "Knave's",
+        "zhCN": "惡棍",
+        "zhTW": "惡棍",
+        "sgCN": "恶棍之",
+        "sgTW": "惡棍之"
+    },
+    "Paleocene": {
+        "Key": "Paleocene",
+        "enUS": "Faithful",
+        "zhCN": "忠貞",
+        "zhTW": "忠貞",
+        "sgCN": "忠诚之",
+        "sgTW": "忠誠之"
+    },
+    "Eocene": {
+        "Key": "Eocene",
+        "enUS": "Righteous",
+        "zhCN": "正義",
+        "zhTW": "正義",
+        "sgCN": "正义之",
+        "sgTW": "正義之"
+    },
+    "Oligocene": {
+        "Key": "Oligocene",
+        "enUS": "Honorable",
+        "zhCN": "高貴",
+        "zhTW": "高貴",
+        "sgCN": "高贵之",
+        "sgTW": "高貴之"
+    },
+    "Miocene": {
+        "Key": "Miocene",
+        "enUS": "Enlightened",
+        "zhCN": "啟悟",
+        "zhTW": "啟悟",
+        "sgCN": "教化之",
+        "sgTW": "教化之"
+    },
+    "Kenshi's": {
+        "Key": "Kenshi's",
+        "enUS": "Kenshi's",
+        "zhCN": "劍士",
+        "zhTW": "劍士",
+        "sgCN": "剑圣之",
+        "sgTW": "劍聖之"
+    },
+    "Sensei's": {
+        "Key": "Sensei's",
+        "enUS": "Sensei's",
+        "zhCN": "師尊",
+        "zhTW": "師尊",
+        "sgCN": "剑士之",
+        "sgTW": "劍士之"
+    },
+    "Shogukusha's": {
+        "Key": "Shogukusha's",
+        "enUS": "Shogukusha's",
+        "zhCN": "修武者",
+        "zhTW": "修武者",
+        "sgCN": "将军之",
+        "sgTW": "將軍之"
+    },
+    "Psychic": {
+        "Key": "Psychic",
+        "enUS": "Psychic",
+        "zhCN": "通靈",
+        "zhTW": "通靈",
+        "sgCN": "心灵之",
+        "sgTW": "心靈之"
+    },
+    "Mentalist's": {
+        "Key": "Mentalist's",
+        "enUS": "Mentalist's",
+        "zhCN": "讀心",
+        "zhTW": "讀心",
+        "sgCN": "心智之",
+        "sgTW": "心智之"
+    },
+    "Cunning": {
+        "Key": "Cunning",
+        "enUS": "Cunning",
+        "zhCN": "狡猾",
+        "zhTW": "狡猾",
+        "sgCN": "冷静之",
+        "sgTW": "冷靜之"
+    },
+    "Trickster's": {
+        "Key": "Trickster's",
+        "enUS": "Trickster's",
+        "zhCN": "欺詐",
+        "zhTW": "欺詐",
+        "sgCN": "欺诈之",
+        "sgTW": "詐欺之"
+    },
+    "Entrapping": {
+        "Key": "Entrapping",
+        "enUS": "Entrapping",
+        "zhCN": "誘騙",
+        "zhTW": "誘騙",
+        "sgCN": "诱骗之",
+        "sgTW": "誘騙之"
+    },
+    "Gaea's": {
+        "Key": "Gaea's",
+        "enUS": "Gaean",
+        "zhCN": "蓋亞",
+        "zhTW": "蓋亞",
+        "sgCN": "盖亚之",
+        "sgTW": "蓋亞之"
+    },
+    "Terra's": {
+        "Key": "Terra's",
+        "enUS": "Terrene",
+        "zhCN": "大地",
+        "zhTW": "大地",
+        "sgCN": "尘土之",
+        "sgTW": "塵土之"
+    },
+    "Nature's": {
+        "Key": "Nature's",
+        "enUS": "Natural",
+        "zhCN": "自然",
+        "zhTW": "自然",
+        "sgCN": "自然之",
+        "sgTW": "自然之"
+    },
+    "Communal": {
+        "Key": "Communal",
+        "enUS": "Communal",
+        "zhCN": "獸群",
+        "zhTW": "獸群",
+        "sgCN": "共有之",
+        "sgTW": "共有之"
+    },
+    "Feral": {
+        "Key": "Feral",
+        "enUS": "Feral",
+        "zhCN": "野性",
+        "zhTW": "野性",
+        "sgCN": "猛禽之",
+        "sgTW": "猛禽之"
+    },
+    "Spiritual": {
+        "Key": "Spiritual",
+        "enUS": "Spiritual",
+        "zhCN": "荒靈",
+        "zhTW": "荒靈",
+        "sgCN": "精神之",
+        "sgTW": "精神之"
+    },
+    "Keeper's": {
+        "Key": "Keeper's",
+        "enUS": "Keeper's",
+        "zhCN": "看管者",
+        "zhTW": "看管者",
+        "sgCN": "管理者之",
+        "sgTW": "管理者之"
+    },
+    "Caretaker's": {
+        "Key": "Caretaker's",
+        "enUS": "Caretaker's",
+        "zhCN": "照護者",
+        "zhTW": "照護者",
+        "sgCN": "看守人之",
+        "sgTW": "看守人之"
+    },
+    "Trainer's": {
+        "Key": "Trainer's",
+        "enUS": "Trainer's",
+        "zhCN": "訓練師",
+        "zhTW": "訓練師",
+        "sgCN": "训练师之",
+        "sgTW": "訓練師之"
+    },
+    "Veteran's": {
+        "Key": "Veteran's",
+        "enUS": "Veteran's",
+        "zhCN": "老手",
+        "zhTW": "老手",
+        "sgCN": "老手之",
+        "sgTW": "老手之"
+    },
+    "Expert's": {
+        "Key": "Expert's",
+        "enUS": "Expert's",
+        "zhCN": "專家",
+        "zhTW": "專家",
+        "sgCN": "专家之",
+        "sgTW": "專家之"
+    },
+    "Furious": {
+        "Key": "Furious",
+        "enUS": "Furious",
+        "zhCN": "狂怒",
+        "zhTW": "狂怒",
+        "sgCN": "狂怒之",
+        "sgTW": "狂怒之"
+    },
+    "Raging": {
+        "Key": "Raging",
+        "enUS": "Raging",
+        "zhCN": "烈怒",
+        "zhTW": "烈怒",
+        "sgCN": "猛烈之",
+        "sgTW": "猛烈之"
+    },
+    "Echoing": {
+        "Key": "Echoing",
+        "enUS": "Echoing",
+        "zhCN": "回音",
+        "zhTW": "回音",
+        "sgCN": "回音之",
+        "sgTW": "回音之"
+    },
+    "Resonant": {
+        "Key": "Resonant",
+        "enUS": "Resonant",
+        "zhCN": "共鳴",
+        "zhTW": "共鳴",
+        "sgCN": "回响之",
+        "sgTW": "回響之"
+    },
+    "Sounding": {
+        "Key": "Sounding",
+        "enUS": "Sounding",
+        "zhCN": "鳴響",
+        "zhTW": "鳴響",
+        "sgCN": "鸣响之",
+        "sgTW": "鳴響之"
+    },
+    "Guardian's": {
+        "Key": "Guardian's",
+        "enUS": "Guardian's",
+        "zhCN": "守護者",
+        "zhTW": "守護者",
+        "sgCN": "守护者之",
+        "sgTW": "守護者之"
+    },
+    "Warder's": {
+        "Key": "Warder's",
+        "enUS": "Warden's",
+        "zhCN": "看守者",
+        "zhTW": "看守者",
+        "sgCN": "主管之",
+        "sgTW": "主管之"
+    },
+    "Preserver's": {
+        "Key": "Preserver's",
+        "enUS": "Preserver's",
+        "zhCN": "保護者",
+        "zhTW": "保護者",
+        "sgCN": "保护者之",
+        "sgTW": "保護者之"
+    },
+    "Marshal's": {
+        "Key": "Marshal's",
+        "enUS": "Marshal's",
+        "zhCN": "元帥",
+        "zhTW": "元帥",
+        "sgCN": "元帅之",
+        "sgTW": "元帥之"
+    },
+    "Commander's": {
+        "Key": "Commander's",
+        "enUS": "Commander's",
+        "zhCN": "指揮官",
+        "zhTW": "指揮官",
+        "sgCN": "指挥官之",
+        "sgTW": "指揮官之"
+    },
+    "Captain's": {
+        "Key": "Captain's",
+        "enUS": "Captain's",
+        "zhCN": "隊長",
+        "zhTW": "隊長",
+        "sgCN": "队长之",
+        "sgTW": "隊長之"
+    },
+    "Rose Branded": {
+        "Key": "Rose Branded",
+        "enUS": "Rose Branded",
+        "zhCN": "玫瑰烙印",
+        "zhTW": "玫瑰烙印",
+        "sgCN": "玫瑰烙印之",
+        "sgTW": "玫瑰烙印之"
+    },
+    "Hawk Branded": {
+        "Key": "Hawk Branded",
+        "enUS": "Hawk Branded",
+        "zhCN": "天鷹烙印",
+        "zhTW": "天鷹烙印",
+        "sgCN": "老鹰烙印之",
+        "sgTW": "老鷹烙印之"
+    },
+    "Lion Branded": {
+        "Key": "Lion Branded",
+        "enUS": "Lion Branded",
+        "zhCN": "雄獅烙印",
+        "zhTW": "雄獅烙印",
+        "sgCN": "狮子烙印之",
+        "sgTW": "獅子烙印之"
+    },
+    "Golemlord's": {
+        "Key": "Golemlord's",
+        "enUS": "Golemlord's",
+        "zhCN": "魔像王",
+        "zhTW": "魔像王",
+        "sgCN": "石魔之王之",
+        "sgTW": "石魔之王之"
+    },
+    "Vodoun": {
+        "Key": "Vodoun",
+        "enUS": "Mojo",
+        "zhCN": "魔精",
+        "zhTW": "魔精",
+        "sgCN": "雄壮之",
+        "sgTW": "雄壯之"
+    },
+    "Graverobber's": {
+        "Key": "Graverobber's",
+        "enUS": "Graverobber's",
+        "zhCN": "盜墓者",
+        "zhTW": "盜墓者",
+        "sgCN": "盗墓者之",
+        "sgTW": "盜墓者之"
+    },
+    "Venomous": {
+        "Key": "Venomous",
+        "enUS": "Venomous",
+        "zhCN": "猛毒",
+        "zhTW": "猛毒",
+        "sgCN": "剧毒之",
+        "sgTW": "劇毒之"
+    },
+    "Noxious": {
+        "Key": "Noxious",
+        "enUS": "Noxious",
+        "zhCN": "毒害",
+        "zhTW": "毒害",
+        "sgCN": "有害之",
+        "sgTW": "有害之"
+    },
+    "Fungal": {
+        "Key": "Fungal",
+        "enUS": "Fungal",
+        "zhCN": "真菌",
+        "zhTW": "真菌",
+        "sgCN": "霉菌之",
+        "sgTW": "黴菌之"
+    },
+    "Accursed": {
+        "Key": "Accursed",
+        "enUS": "Cursing",
+        "zhCN": "詛咒",
+        "zhTW": "詛咒",
+        "sgCN": "诅咒之",
+        "sgTW": "詛咒之"
+    },
+    "Blighting": {
+        "Key": "Blighting",
+        "enUS": "Blighting",
+        "zhCN": "枯萎",
+        "zhTW": "枯萎",
+        "sgCN": "枯萎之",
+        "sgTW": "枯萎之"
+    },
+    "Hexing": {
+        "Key": "Hexing",
+        "enUS": "Hexing",
+        "zhCN": "妖術",
+        "zhTW": "妖術",
+        "sgCN": "诅咒之",
+        "sgTW": "詛咒之"
+    },
+    "Glacial": {
+        "Key": "Glacial",
+        "enUS": "Glacial",
+        "zhCN": "冰河",
+        "zhTW": "冰河",
+        "sgCN": "冰冷之",
+        "sgTW": "冰冷之"
+    },
+    "Freezing": {
+        "Key": "Freezing",
+        "enUS": "Freezing",
+        "zhCN": "凍結",
+        "zhTW": "凍結",
+        "sgCN": "冰冻之",
+        "sgTW": "冰凍之"
+    },
+    "Chilling": {
+        "Key": "Chilling",
+        "enUS": "Chilling",
+        "zhCN": "寒冰",
+        "zhTW": "寒冰",
+        "sgCN": "寒意之",
+        "sgTW": "寒意之"
+    },
+    "Powered": {
+        "Key": "Powered",
+        "enUS": "Powered",
+        "zhCN": "電能",
+        "zhTW": "電能",
+        "sgCN": "力量十足之",
+        "sgTW": "力量十足之"
+    },
+    "Charged": {
+        "Key": "Charged",
+        "enUS": "Charged",
+        "zhCN": "電荷",
+        "zhTW": "電荷",
+        "sgCN": "充能之",
+        "sgTW": "充能之"
+    },
+    "Sparking": {
+        "Key": "Sparking",
+        "enUS": "Sparking",
+        "zhCN": "電光",
+        "zhTW": "電光",
+        "sgCN": "火光之",
+        "sgTW": "火光之"
+    },
+    "Volcanic": {
+        "Key": "Volcanic",
+        "enUS": "Volcanic",
+        "zhCN": "火山",
+        "zhTW": "火山",
+        "sgCN": "火山之",
+        "sgTW": "火山之"
+    },
+    "Blazing": {
+        "Key": "Blazing",
+        "enUS": "Blazing",
+        "zhCN": "烈火",
+        "zhTW": "烈火",
+        "sgCN": "炎热之",
+        "sgTW": "炎熱之"
+    },
+    "Burning": {
+        "Key": "Burning",
+        "enUS": "Burning",
+        "zhCN": "燃燒",
+        "zhTW": "燃燒",
+        "sgCN": "燃烧之",
+        "sgTW": "燃燒之"
+    },
+    "Lancer's": {
+        "Key": "Lancer's",
+        "enUS": "Lancer's",
+        "zhCN": "長槍手",
+        "zhTW": "長槍手",
+        "sgCN": "长枪兵之",
+        "sgTW": "長槍兵之"
+    },
+    "Spearmaiden's": {
+        "Key": "Spearmaiden's",
+        "enUS": "Spearmaiden's",
+        "zhCN": "女矛手",
+        "zhTW": "女矛手",
+        "sgCN": "女矛手之",
+        "sgTW": "女矛手之"
+    },
+    "Harpoonist's": {
+        "Key": "Harpoonist's",
+        "enUS": "Harpoonist's",
+        "zhCN": "魚叉手",
+        "zhTW": "魚叉手",
+        "sgCN": "鱼叉手之",
+        "sgTW": "魚叉手之"
+    },
+    "Athlete's": {
+        "Key": "Athlete's",
+        "enUS": "Athletic",
+        "zhCN": "競技",
+        "zhTW": "競技",
+        "sgCN": "竞赛之",
+        "sgTW": "競賽之"
+    },
+    "Gymnast's": {
+        "Key": "Gymnast's",
+        "enUS": "Gymnastic",
+        "zhCN": "體技",
+        "zhTW": "體技",
+        "sgCN": "体技之",
+        "sgTW": "體技之"
+    },
+    "Acrobat's": {
+        "Key": "Acrobat's",
+        "enUS": "Acrobatic",
+        "zhCN": "特技",
+        "zhTW": "特技",
+        "sgCN": "特技之",
+        "sgTW": "特技之"
+    },
+    "Bowyer's": {
+        "Key": "Bowyer's",
+        "enUS": "Bowyer's",
+        "zhCN": "製弓匠",
+        "zhTW": "製弓匠",
+        "sgCN": "制弓匠之",
+        "sgTW": "製弓匠之"
+    },
+    "Diamond": {
+        "Key": "Diamond",
+        "enUS": "Diamond",
+        "zhCN": "鑽石",
+        "zhTW": "鑽石",
+        "sgCN": "钻石之",
+        "sgTW": "鑽石之"
+    },
+    "Celestial": {
+        "Key": "Celestial",
+        "enUS": "Celestial",
+        "zhCN": "天靈",
+        "zhTW": "天靈",
+        "sgCN": "天体之",
+        "sgTW": "天體之"
+    },
+    "Elysian": {
+        "Key": "Elysian",
+        "enUS": "Elysian",
+        "zhCN": "樂土",
+        "zhTW": "樂土",
+        "sgCN": "极乐之",
+        "sgTW": "極樂之"
+    },
+    "Astral": {
+        "Key": "Astral",
+        "enUS": "Astral",
+        "zhCN": "星界",
+        "zhTW": "星界",
+        "sgCN": "星间之",
+        "sgTW": "星間之"
+    },
+    "Unearthly": {
+        "Key": "Unearthly",
+        "enUS": "Unearthly",
+        "zhCN": "超凡",
+        "zhTW": "超凡",
+        "sgCN": "超自然之",
+        "sgTW": "超自然之"
+    },
+    "Arcadian": {
+        "Key": "Arcadian",
+        "enUS": "Arcadian",
+        "zhCN": "世外",
+        "zhTW": "世外",
+        "sgCN": "田园之",
+        "sgTW": "田園之"
+    },
+    "Jeweler's": {
+        "Key": "Jeweler's",
+        "enUS": "Jeweler's",
+        "zhCN": "珠寶匠",
+        "zhTW": "珠寶匠",
+        "sgCN": "珠宝匠之",
+        "sgTW": "珠寶匠之"
+    },
+    "Artificer's": {
+        "Key": "Artificer's",
+        "enUS": "Artisan's",
+        "zhCN": "工匠",
+        "zhTW": "工匠",
+        "sgCN": "巧匠之",
+        "sgTW": "工匠之"
+    },
+    "Mechanist's": {
+        "Key": "Mechanist's",
+        "enUS": "Mechanic's",
+        "zhCN": "技工",
+        "zhTW": "技工",
+        "sgCN": "技工之",
+        "sgTW": "技工之"
+    },
+    "Aureolin": {
+        "Key": "Aureolin",
+        "enUS": "Aureolic",
+        "zhCN": "光輪",
+        "zhTW": "光輪",
+        "sgCN": "光轮之",
+        "sgTW": "光輪之"
+    },
+    "Victorious": {
+        "Key": "Victorious",
+        "enUS": "Victorious",
+        "zhCN": "勝利",
+        "zhTW": "勝利",
+        "sgCN": "优胜之",
+        "sgTW": "優勝之"
+    },
+    "Ambergris": {
+        "Key": "Ambergris",
+        "enUS": "Ambergris",
+        "zhCN": "龍涎香",
+        "zhTW": "龍涎香",
+        "sgCN": "龙涎香之",
+        "sgTW": "龍涎香之"
+    },
+    "Camphor": {
+        "Key": "Camphor",
+        "enUS": "Camphor",
+        "zhCN": "樟腦",
+        "zhTW": "樟腦",
+        "sgCN": "樟脑之",
+        "sgTW": "樟腦之"
+    },
+    "Lapis Lazuli": {
+        "Key": "Lapis Lazuli",
+        "enUS": "Lapis Lazuli",
+        "zhCN": "青金石",
+        "zhTW": "青金石",
+        "sgCN": "青金石之",
+        "sgTW": "青金石之"
+    },
+    "Chromatic": {
+        "Key": "Chromatic",
+        "enUS": "Chromatic",
+        "zhCN": "絢彩",
+        "zhTW": "絢彩",
+        "sgCN": "多彩之",
+        "sgTW": "多彩之"
+    },
+    "Scintillating": {
+        "Key": "Scintillating",
+        "enUS": "Scintillating",
+        "zhCN": "燦爛",
+        "zhTW": "燦爛",
+        "sgCN": "闪闪发光之",
+        "sgTW": "閃閃發光之"
+    },
+    "Turquoise": {
+        "Key": "Turquoise",
+        "enUS": "Turquoise",
+        "zhCN": "綠松石",
+        "zhTW": "綠松石",
+        "sgCN": "绿松石之",
+        "sgTW": "綠松石之"
+    },
+    "Jacinth": {
+        "Key": "Jacinth",
+        "enUS": "Jacinth",
+        "zhCN": "紅鋯石",
+        "zhTW": "紅鋯石",
+        "sgCN": "红锆石之",
+        "sgTW": "紅鋯石之"
+    },
+    "Zircon": {
+        "Key": "Zircon",
+        "enUS": "Zircon",
+        "zhCN": "鋯石",
+        "zhTW": "鋯石",
+        "sgCN": "锆石之",
+        "sgTW": "鋯石之"
+    },
+    "Bahamut's": {
+        "Key": "Bahamut's",
+        "enUS": "Bahamut's",
+        "zhCN": "巴哈姆特",
+        "zhTW": "巴哈姆特",
+        "sgCN": "巴哈姆特之",
+        "sgTW": "巴哈姆特之"
+    },
+    "Great Wyrm's": {
+        "Key": "Great Wyrm's",
+        "enUS": "Great Wyrm's",
+        "zhCN": "上古巨龍",
+        "zhTW": "上古巨龍",
+        "sgCN": "巨飞龙之",
+        "sgTW": "巨飛龍之"
+    },
+    "Felicitous": {
+        "Key": "Felicitous",
+        "enUS": "Felicitous",
+        "zhCN": "福運",
+        "zhTW": "福運",
+        "sgCN": "得体之",
+        "sgTW": "得體之"
+    },
+    "Lucky": {
+        "Key": "Lucky",
+        "enUS": "Lucky",
+        "zhCN": "好運",
+        "zhTW": "好運",
+        "sgCN": "好运之",
+        "sgTW": "好運之"
+    },
+    "Wailing": {
+        "Key": "Wailing",
+        "enUS": "Wailing",
+        "zhCN": "哭號",
+        "zhTW": "哭號",
+        "sgCN": "哭号之",
+        "sgTW": "哭號之"
+    },
+    "Screaming": {
+        "Key": "Screaming",
+        "enUS": "Screaming",
+        "zhCN": "尖嘯",
+        "zhTW": "尖嘯",
+        "sgCN": "尖叫之",
+        "sgTW": "尖叫之"
+    },
+    "Grandmaster's": {
+        "Key": "Grandmaster's",
+        "enUS": "Grandmaster's",
+        "zhCN": "宗師",
+        "zhTW": "宗師",
+        "sgCN": "宗师之",
+        "sgTW": "宗師之"
+    },
+    "Master's": {
+        "Key": "Master's",
+        "enUS": "Master's",
+        "zhCN": "大師",
+        "zhTW": "大師",
+        "sgCN": "大师之",
+        "sgTW": "大師之"
+    },
+    "Argent": {
+        "Key": "Argent",
+        "enUS": "Argent",
+        "zhCN": "銀白",
+        "zhTW": "銀白",
+        "sgCN": "银之",
+        "sgTW": "銀之"
+    },
+    "Tin": {
+        "Key": "Tin",
+        "enUS": "Tin",
+        "zhCN": "錫鑄",
+        "zhTW": "錫鑄",
+        "sgCN": "锡之",
+        "sgTW": "錫之"
+    },
+    "Nickel": {
+        "Key": "Nickel",
+        "enUS": "Nickel",
+        "zhCN": "鎳鍍",
+        "zhTW": "鎳鍍",
+        "sgCN": "镍之",
+        "sgTW": "鎳之"
+    },
+    "Maroon": {
+        "Key": "Maroon",
+        "enUS": "Maroon",
+        "zhCN": "茶色",
+        "zhTW": "茶色",
+        "sgCN": "茶色之",
+        "sgTW": "茶色之"
+    },
+    "Chestnut": {
+        "Key": "Chestnut",
+        "enUS": "Chestnut",
+        "zhCN": "栗色",
+        "zhTW": "栗色",
+        "sgCN": "栗色之",
+        "sgTW": "栗色之"
+    },
+    "Vigorous": {
+        "Key": "Vigorous",
+        "enUS": "Vigorous",
+        "zhCN": "元氣",
+        "zhTW": "元氣",
+        "sgCN": "精力",
+        "sgTW": "精力"
+    },
+    "Brown": {
+        "Key": "Brown",
+        "enUS": "Brown",
+        "zhCN": "棕色",
+        "zhTW": "棕色",
+        "sgCN": "棕色之",
+        "sgTW": "棕色之"
+    },
+    "Dun": {
+        "Key": "Dun",
+        "enUS": "Dun",
+        "zhCN": "暗楬",
+        "zhTW": "暗楬",
+        "sgCN": "暗褐之",
+        "sgTW": "暗褐之"
+    },
+    "Realgar": {
+        "Key": "Realgar",
+        "enUS": "Realgar",
+        "zhCN": "雄黃",
+        "zhTW": "雄黃",
+        "sgCN": "雄黃之",
+        "sgTW": "雄黃之"
+    },
+    "Rusty": {
+        "Key": "Rusty",
+        "enUS": "Rusty",
+        "zhCN": "鐵鏽",
+        "zhTW": "鐵鏽",
+        "sgCN": "铁锈之",
+        "sgTW": "鐵鏽之"
+    },
+    "Cinnabar": {
+        "Key": "Cinnabar",
+        "enUS": "Cinnabar",
+        "zhCN": "朱砂紅",
+        "zhTW": "朱砂紅",
+        "sgCN": "朱红之",
+        "sgTW": "朱紅之"
+    },
+    "Vermillion": {
+        "Key": "Vermillion",
+        "enUS": "Vermilion",
+        "zhCN": "朱紅",
+        "zhTW": "朱紅",
+        "sgCN": "朱砂之",
+        "sgTW": "朱砂之"
+    },
+    "Carmine": {
+        "Key": "Carmine",
+        "enUS": "Carmine",
+        "zhCN": "胭脂",
+        "zhTW": "胭脂",
+        "sgCN": "胭脂之",
+        "sgTW": "胭脂之"
+    },
+    "Carbuncle": {
+        "Key": "Carbuncle",
+        "enUS": "Carbuncle",
+        "zhCN": "紅玉",
+        "zhTW": "紅玉",
+        "sgCN": "红玉之",
+        "sgTW": "紅玉之"
+    },
+    "Serrated": {
+        "Key": "Serrated",
+        "enUS": "Serrated",
+        "zhCN": "鋸刃",
+        "zhTW": "鋸刃",
+        "sgCN": "锯齿之",
+        "sgTW": "鋸齒之"
+    },
+    "Scarlet": {
+        "Key": "Scarlet",
+        "enUS": "Scarlet",
+        "zhCN": "猩紅",
+        "zhTW": "猩紅",
+        "sgCN": "猩红之",
+        "sgTW": "猩紅之"
+    },
+    "Bloody": {
+        "Key": "Bloody",
+        "enUS": "Bloody",
+        "zhCN": "染血",
+        "zhTW": "染血",
+        "sgCN": "血腥之",
+        "sgTW": "血腥之"
+    },
+    "Sanguinary": {
+        "Key": "Sanguinary",
+        "enUS": "Sanguinary",
+        "zhCN": "血腥",
+        "zhTW": "血腥",
+        "sgCN": "噬杀之",
+        "sgTW": "噬殺之"
+    },
+    "Pearl": {
+        "Key": "Pearl",
+        "enUS": "Pearl",
+        "zhCN": "珍珠",
+        "zhTW": "珍珠",
+        "sgCN": "珍珠之",
+        "sgTW": "珍珠之"
+    },
+    "Divine": {
+        "Key": "Divine",
+        "enUS": "Divine",
+        "zhCN": "聖恩",
+        "zhTW": "聖恩",
+        "sgCN": "神性之",
+        "sgTW": "神性之"
+    },
+    "Hallowed": {
+        "Key": "Hallowed",
+        "enUS": "Hallowed",
+        "zhCN": "崇聖",
+        "zhTW": "崇聖",
+        "sgCN": "圣洁之",
+        "sgTW": "聖潔之"
+    },
+    "Sacred": {
+        "Key": "Sacred",
+        "enUS": "Sacred",
+        "zhCN": "聖潔",
+        "zhTW": "聖潔",
+        "sgCN": "神圣之",
+        "sgTW": "神聖之"
+    },
+    "Pure": {
+        "Key": "Pure",
+        "enUS": "Pure",
+        "zhCN": "純潔",
+        "zhTW": "純潔",
+        "sgCN": "纯洁之",
+        "sgTW": "純潔之"
+    },
+    "Consecrated": {
+        "Key": "Consecrated",
+        "enUS": "Consecrated",
+        "zhCN": "聖化",
+        "zhTW": "聖化",
+        "sgCN": "净化之",
+        "sgTW": "淨化之"
+    },
+    "Assamic": {
+        "Key": "Assamic",
+        "enUS": "Lunar",
+        "zhCN": "月照",
+        "zhTW": "月照",
+        "sgCN": "月精灵之",
+        "sgTW": "月精靈之"
+    },
+    "Frantic": {
+        "Key": "Frantic",
+        "enUS": "Frantic",
+        "zhCN": "狂亂",
+        "zhTW": "狂亂",
+        "sgCN": "狂乱之",
+        "sgTW": "狂亂之"
+    },
+    "Hellatial": {
+        "Key": "Hellatial",
+        "enUS": "Hellacious",
+        "zhCN": "地獄般",
+        "zhTW": "地獄般",
+        "sgCN": "地狱般之",
+        "sgTW": "地獄般之"
+    },
+    "Quixotic": {
+        "Key": "Quixotic",
+        "enUS": "Quixotic",
+        "zhCN": "幻想",
+        "zhTW": "幻想",
+        "sgCN": "幻想之",
+        "sgTW": "幻想之"
+    },
+    "Smiting": {
+        "Key": "Smiting",
+        "enUS": "Smiting",
+        "zhCN": "重擊",
+        "zhTW": "重擊",
+        "sgCN": "重击之",
+        "sgTW": "重擊之"
+    },
+    "Steller": {
+        "Key": "Steller",
+        "enUS": "Stellar",
+        "zhCN": "天星",
+        "zhTW": "天星",
+        "sgCN": "星辰之",
+        "sgTW": "星辰之"
+    },
+    "Stinging": {
+        "Key": "Stinging",
+        "enUS": "Stinging",
+        "zhCN": "刺痛",
+        "zhTW": "刺痛",
+        "sgCN": "刺痛之",
+        "sgTW": "刺痛之"
+    },
+    "Singing": {
+        "Key": "Singing",
+        "enUS": "Singing",
+        "zhCN": "歌唱",
+        "zhTW": "歌唱",
+        "sgCN": "歌唱之",
+        "sgTW": "歌唱之"
+    },
+    "Timeless": {
+        "Key": "Timeless",
+        "enUS": "Timeless",
+        "zhCN": "無窮",
+        "zhTW": "無窮",
+        "sgCN": "无穷之",
+        "sgTW": "無窮之"
+    },
+    "Original": {
+        "Key": "Original",
+        "enUS": "Original",
+        "zhCN": "原始",
+        "zhTW": "原始",
+        "sgCN": "原始之",
+        "sgTW": "原始之"
+    },
+    "Corporal": {
+        "Key": "Corporal",
+        "enUS": "Corporal",
+        "zhCN": "肉體",
+        "zhTW": "肉體",
+        "sgCN": "肉体之",
+        "sgTW": "肉體之"
+    },
+    "Lawful": {
+        "Key": "Lawful",
+        "enUS": "Lawful",
+        "zhCN": "守序",
+        "zhTW": "守序",
+        "sgCN": "守序之",
+        "sgTW": "守序之"
+    },
+    "Chaotic": {
+        "Key": "Chaotic",
+        "enUS": "Chaotic",
+        "zhCN": "混沌",
+        "zhTW": "混沌",
+        "sgCN": "混乱",
+        "sgTW": "混沌"
+    },
+    "Fierce": {
+        "Key": "Fierce",
+        "enUS": "Fierce",
+        "zhCN": "兇猛",
+        "zhTW": "兇猛",
+        "sgCN": "凶猛之",
+        "sgTW": "兇猛之"
+    },
+    "Ferocious": {
+        "Key": "Ferocious",
+        "enUS": "Ferocious",
+        "zhCN": "兇猛",
+        "zhTW": "兇猛",
+        "sgCN": "凶暴之",
+        "sgTW": "兇暴之"
+    },
+    "Perpetual": {
+        "Key": "Perpetual",
+        "enUS": "Perpetual",
+        "zhCN": "永恆",
+        "zhTW": "永恆",
+        "sgCN": "永恒之",
+        "sgTW": "永恆之"
+    },
+    "Continuous": {
+        "Key": "Continuous",
+        "enUS": "Everlasting",
+        "zhCN": "無盡",
+        "zhTW": "無盡",
+        "sgCN": "无尽之",
+        "sgTW": "無盡之"
+    },
+    "Laden": {
+        "Key": "Laden",
+        "enUS": "Laden",
+        "zhCN": "滿載",
+        "zhTW": "滿載",
+        "sgCN": "满载之",
+        "sgTW": "滿載之"
+    },
+    "Pernicious": {
+        "Key": "Pernicious",
+        "enUS": "Pernicious",
+        "zhCN": "致命",
+        "zhTW": "致命",
+        "sgCN": "致命之",
+        "sgTW": "致命之"
+    },
+    "Harmful": {
+        "Key": "Harmful",
+        "enUS": "Harmful",
+        "zhCN": "有害",
+        "zhTW": "有害",
+        "sgCN": "有害之",
+        "sgTW": "有害之"
+    },
+    "Evil": {
+        "Key": "Evil",
+        "enUS": "Evil",
+        "zhCN": "邪惡",
+        "zhTW": "邪惡",
+        "sgCN": "邪恶之",
+        "sgTW": "邪惡之"
+    },
+    "Insidious": {
+        "Key": "Insidious",
+        "enUS": "Insidious",
+        "zhCN": "凶險",
+        "zhTW": "凶險",
+        "sgCN": "诡诈之",
+        "sgTW": "詭詐之"
+    },
+    "Malicious": {
+        "Key": "Malicious",
+        "enUS": "Malicious",
+        "zhCN": "懷恨",
+        "zhTW": "懷恨",
+        "sgCN": "恶意之",
+        "sgTW": "惡意之"
+    },
+    "Spiteful": {
+        "Key": "Spiteful",
+        "enUS": "Spiteful",
+        "zhCN": "惡意",
+        "zhTW": "惡意",
+        "sgCN": "怀恨之",
+        "sgTW": "懷恨之"
+    },
+    "Precocious": {
+        "Key": "Precocious",
+        "enUS": "Precocious",
+        "zhCN": "早熟",
+        "zhTW": "早熟",
+        "sgCN": "早熟之",
+        "sgTW": "早熟之"
+    },
+    "Majestic": {
+        "Key": "Majestic",
+        "enUS": "Majestic",
+        "zhCN": "莊嚴",
+        "zhTW": "莊嚴",
+        "sgCN": "庄严之",
+        "sgTW": "莊嚴之"
+    },
+    "Sanguine": {
+        "Key": "Sanguine",
+        "enUS": "Sanguine",
+        "zhCN": "舐血",
+        "zhTW": "舐血",
+        "sgCN": "舐血之",
+        "sgTW": "舐血之"
+    },
+    "Monumental": {
+        "Key": "Monumental",
+        "enUS": "Monumental",
+        "zhCN": "刻印",
+        "zhTW": "刻印",
+        "sgCN": "刻印之",
+        "sgTW": "刻印之"
+    },
+    "Irresistible": {
+        "Key": "Irresistible",
+        "enUS": "Irresistible",
+        "zhCN": "無法抵抗",
+        "zhTW": "無法抵抗",
+        "sgCN": "无法抵抗之",
+        "sgTW": "無法抵抗之"
+    },
+    "Festering": {
+        "Key": "Festering",
+        "enUS": "Festering",
+        "zhCN": "潰爛",
+        "zhTW": "潰爛",
+        "sgCN": "溃烂之",
+        "sgTW": "潰爛之"
+    },
+    "Musty": {
+        "Key": "Musty",
+        "enUS": "Musty",
+        "zhCN": "陳腐",
+        "zhTW": "陳腐",
+        "sgCN": "陈腐之",
+        "sgTW": "陳腐之"
+    },
+    "Dusty": {
+        "Key": "Dusty",
+        "enUS": "Dusty",
+        "zhCN": "塵漫",
+        "zhTW": "塵漫",
+        "sgCN": "尘漫之",
+        "sgTW": "塵漫之"
+    },
+    "Decaying": {
+        "Key": "Decaying",
+        "enUS": "Decaying",
+        "zhCN": "衰退",
+        "zhTW": "衰退",
+        "sgCN": "衰退之",
+        "sgTW": "衰退之"
+    },
+    "Rotting": {
+        "Key": "Rotting",
+        "enUS": "Rotting",
+        "zhCN": "腐壞",
+        "zhTW": "腐壞",
+        "sgCN": "腐坏之",
+        "sgTW": "腐壞之"
+    },
+    "Infectious": {
+        "Key": "Infectious",
+        "enUS": "Infectious",
+        "zhCN": "傳染",
+        "zhTW": "傳染",
+        "sgCN": "传染之",
+        "sgTW": "傳染之"
+    },
+    "Foggy": {
+        "Key": "Foggy",
+        "enUS": "Foggy",
+        "zhCN": "迷霧",
+        "zhTW": "迷霧",
+        "sgCN": "迷雾之",
+        "sgTW": "迷霧之"
+    },
+    "Cloudy": {
+        "Key": "Cloudy",
+        "enUS": "Cloudy",
+        "zhCN": "多雲",
+        "zhTW": "多雲",
+        "sgCN": "多云之",
+        "sgTW": "多雲之"
+    },
+    "Hazy": {
+        "Key": "Hazy",
+        "enUS": "Hazy",
+        "zhCN": "朦朧",
+        "zhTW": "朦朧",
+        "sgCN": "朦胧之",
+        "sgTW": "朦朧之"
+    },
+    "Punishing": {
+        "Key": "Punishing",
+        "enUS": "Punishing",
+        "zhCN": "懲罰",
+        "zhTW": "懲罰",
+        "sgCN": "惩罚之",
+        "sgTW": "懲罰之"
+    },
+    "Obsidian": {
+        "Key": "Obsidian",
+        "enUS": "Obsidian",
+        "zhCN": "黑曜石",
+        "zhTW": "黑曜石",
+        "sgCN": "黑曜石之",
+        "sgTW": "黑曜石之"
+    },
+    "Royal": {
+        "Key": "Royal",
+        "enUS": "Royal",
+        "zhCN": "皇家",
+        "zhTW": "皇家",
+        "sgCN": "皇家之",
+        "sgTW": "皇家之"
+    },
+    "Frigid": {
+        "Key": "Frigid",
+        "enUS": "Frigid",
+        "zhCN": "酷寒",
+        "zhTW": "酷寒",
+        "sgCN": "酷寒之",
+        "sgTW": "酷寒之"
+    },
+    "Moldy": {
+        "Key": "Moldy",
+        "enUS": "Moldy",
+        "zhCN": "發霉",
+        "zhTW": "發霉",
+        "sgCN": "发霉之",
+        "sgTW": "發霉之"
+    },
+    "Gaudy": {
+        "Key": "Gaudy",
+        "enUS": "Gaudy",
+        "zhCN": "炫耀",
+        "zhTW": "炫耀",
+        "sgCN": "炫耀之",
+        "sgTW": "炫耀之"
+    },
+    "Impecable": {
+        "Key": "Impecable",
+        "enUS": "Impeccable",
+        "zhCN": "無瑕",
+        "zhTW": "無瑕",
+        "sgCN": "无瑕之",
+        "sgTW": "無暇之"
+    },
+    "Soulless": {
+        "Key": "Soulless",
+        "enUS": "Soulless",
+        "zhCN": "無魂",
+        "zhTW": "無魂",
+        "sgCN": "无魂之",
+        "sgTW": "無魂之"
+    },
+    "Heated": {
+        "Key": "Heated",
+        "enUS": "Heated",
+        "zhCN": "熱火",
+        "zhTW": "熱火",
+        "sgCN": "热火之",
+        "sgTW": "熱火之"
+    },
+    "Lasting": {
+        "Key": "Lasting",
+        "enUS": "Lasting",
+        "zhCN": "持續",
+        "zhTW": "持續",
+        "sgCN": "持续之",
+        "sgTW": "持續之"
+    },
+    "Scorched": {
+        "Key": "Scorched",
+        "enUS": "Scorched",
+        "zhCN": "燒炙",
+        "zhTW": "燒炙",
+        "sgCN": "烧炙之",
+        "sgTW": "燒炙之"
+    },
+    "Marred": {
+        "Key": "Marred",
+        "enUS": "Marred",
+        "zhCN": "損傷",
+        "zhTW": "損傷",
+        "sgCN": "损伤之",
+        "sgTW": "損傷之"
+    },
+    "Lilac": {
+        "Key": "Lilac",
+        "enUS": "Lilac",
+        "zhCN": "丁香",
+        "zhTW": "丁香",
+        "sgCN": "丁香之",
+        "sgTW": "丁香之"
+    },
+    "Rose": {
+        "Key": "Rose",
+        "enUS": "Rose",
+        "zhCN": "玫瑰",
+        "zhTW": "玫瑰",
+        "sgCN": "玫瑰之",
+        "sgTW": "玫瑰之"
+    },
+    "Shimmering": {
+        "Key": "Shimmering",
+        "enUS": "Shimmering",
+        "zhCN": "閃耀",
+        "zhTW": "閃耀",
+        "sgCN": "闪耀之",
+        "sgTW": "閃耀之"
+    },
+    "Green": {
+        "Key": "Green",
+        "enUS": "Green",
+        "zhCN": "綠色",
+        "zhTW": "綠色",
+        "sgCN": "绿色之",
+        "sgTW": "綠色之"
+    },
+    "Wicked": {
+        "Key": "Wicked",
+        "enUS": "Wicked",
+        "zhCN": "凶邪",
+        "zhTW": "凶邪",
+        "sgCN": "诡异之",
+        "sgTW": "詭異之"
+    },
+    "Strange": {
+        "Key": "Strange",
+        "enUS": "Strange",
+        "zhCN": "陌異",
+        "zhTW": "陌異",
+        "sgCN": "怪异之",
+        "sgTW": "怪異之"
+    },
+    "Repulsive": {
+        "Key": "Repulsive",
+        "enUS": "Repulsive",
+        "zhCN": "噁心",
+        "zhTW": "噁心",
+        "sgCN": "恶心之",
+        "sgTW": "噁心之"
+    },
+    "Reclusive": {
+        "Key": "Reclusive",
+        "enUS": "Reclusive",
+        "zhCN": "避世",
+        "zhTW": "避世",
+        "sgCN": "隐世之",
+        "sgTW": "隱世之"
+    },
+    "Crude": {
+        "Key": "Crude",
+        "enUS": "Crude",
+        "zhCN": "粗製的",
+        "zhTW": "粗製的",
+        "sgCN": "粗糙之",
+        "sgTW": "粗糙之"
+    },
+    "Rude": {
+        "Key": "Rude",
+        "enUS": "Rude",
+        "zhCN": "粗野",
+        "zhTW": "粗野",
+        "sgCN": "粗野之",
+        "sgTW": "粗野之"
+    },
+    "Hermetic": {
+        "Key": "Hermetic",
+        "enUS": "Hermetic",
+        "zhCN": "奧密",
+        "zhTW": "奧密",
+        "sgCN": "深奧之",
+        "sgTW": "深奧之"
+    },
+    "Rainbow": {
+        "Key": "Rainbow",
+        "enUS": "Rainbow",
+        "zhCN": "彩虹",
+        "zhTW": "彩虹",
+        "sgCN": "彩虹之",
+        "sgTW": "彩虹之"
+    },
+    "Colorful": {
+        "Key": "Colorful",
+        "enUS": "Colorful",
+        "zhCN": "多彩",
+        "zhTW": "多彩",
+        "sgCN": "多彩之",
+        "sgTW": "多彩之"
+    },
+    "Stinky": {
+        "Key": "Stinky",
+        "enUS": "Odiferous",
+        "zhCN": "惡臭",
+        "zhTW": "惡臭",
+        "sgCN": "恶臭之",
+        "sgTW": "惡臭之"
+    },
+    "Gritty": {
+        "Key": "Gritty",
+        "enUS": "Grinding",
+        "zhCN": "碾壓",
+        "zhTW": "碾壓",
+        "sgCN": "磨碎之",
+        "sgTW": "磨碎之"
+    },
+    "of Warming": {
+        "Key": "of Warming",
+        "enUS": "of Warming",
+        "zhCN": "溫暖之",
+        "zhTW": "溫暖之",
+        "sgCN": "温暖之",
+        "sgTW": "溫暖之"
+    },
+    "of Stoicism": {
+        "Key": "of Stoicism",
+        "enUS": "of Stoicism",
+        "zhCN": "堅忍之",
+        "zhTW": "堅忍之",
+        "sgCN": "冷静",
+        "sgTW": "冷靜"
+    },
+    "of the Dynamo": {
+        "Key": "of the Dynamo",
+        "enUS": "of the Dynamo",
+        "zhCN": "爆發之",
+        "zhTW": "爆發之",
+        "sgCN": "爆发",
+        "sgTW": "爆發"
+    },
+    "of Grounding": {
+        "Key": "of Grounding",
+        "enUS": "of Grounding",
+        "zhCN": "接地之",
+        "zhTW": "接地之",
+        "sgCN": "钻地",
+        "sgTW": "鑽地"
+    },
+    "of Insulation": {
+        "Key": "of Insulation",
+        "enUS": "of Insulation",
+        "zhCN": "絕緣之",
+        "zhTW": "絕緣之",
+        "sgCN": "绝缘",
+        "sgTW": "絕緣"
+    },
+    "of Resistance": {
+        "Key": "of Resistance",
+        "enUS": "of Resistance",
+        "zhCN": "阻抗之",
+        "zhTW": "阻抗之",
+        "sgCN": "阻抗",
+        "sgTW": "阻抗"
+    },
+    "of Faith": {
+        "Key": "of Faith",
+        "enUS": "of Faith",
+        "zhCN": "信仰之",
+        "zhTW": "信仰之",
+        "sgCN": "信仰",
+        "sgTW": "信仰"
+    },
+    "of Fire Quenching": {
+        "Key": "of Fire Quenching",
+        "enUS": "of Quenching",
+        "zhCN": "猝滅之",
+        "zhTW": "猝滅之",
+        "sgCN": "猝灭",
+        "sgTW": "猝滅"
+    },
+    "of Amianthus": {
+        "Key": "of Amianthus",
+        "enUS": "of Amianthus",
+        "zhCN": "石絨之",
+        "zhTW": "石絨之",
+        "sgCN": "石绵",
+        "sgTW": "石綿"
+    },
+    "of Incombustibility": {
+        "Key": "of Incombustibility",
+        "enUS": "of Inflammability",
+        "zhCN": "易燃之",
+        "zhTW": "易燃之",
+        "sgCN": "易燃",
+        "sgTW": "易燃"
+    },
+    "of Coolness": {
+        "Key": "of Coolness",
+        "enUS": "of Coolness",
+        "zhCN": "降溫之",
+        "zhTW": "降溫之",
+        "sgCN": "降温",
+        "sgTW": "降溫"
+    },
+    "of Anima": {
+        "Key": "of Anima",
+        "enUS": "of Amicae",
+        "zhCN": "和睦之",
+        "zhTW": "和睦之",
+        "sgCN": "和睦",
+        "sgTW": "和睦"
+    },
+    "of Life Everlasting": {
+        "Key": "of Life Everlasting",
+        "enUS": "of Life Everlasting",
+        "zhCN": "永生之",
+        "zhTW": "永生之",
+        "sgCN": "永生",
+        "sgTW": "永生"
+    },
+    "of Sunlight": {
+        "Key": "of Sunlight",
+        "enUS": "of Sunlight",
+        "zhCN": "陽光之",
+        "zhTW": "陽光之",
+        "sgCN": "阳光",
+        "sgTW": "陽光"
+    },
+    "of Frozen Orb": {
+        "Key": "of Frozen Orb",
+        "enUS": "of Frozen Orb",
+        "zhCN": "冰封球之",
+        "zhTW": "冰封球之",
+        "sgCN": "冰冻球",
+        "sgTW": "冰凍球"
+    },
+    "of Hydra Shield": {
+        "Key": "of Hydra Shield",
+        "enUS": "of Hydra Shield",
+        "zhCN": "多頭蛇盾之",
+        "zhTW": "多頭蛇盾之",
+        "sgCN": "九头蛇盾",
+        "sgTW": "九頭蛇盾"
+    },
+    "of Chilling Armor": {
+        "Key": "of Chilling Armor",
+        "enUS": "of Chilling Armor",
+        "zhCN": "寒冰甲之",
+        "zhTW": "寒冰甲之",
+        "sgCN": "寒冰装甲",
+        "sgTW": "寒冰裝甲"
+    },
+    "of Blizzard": {
+        "Key": "of Blizzard",
+        "enUS": "of Blizzard",
+        "zhCN": "暴風雪之",
+        "zhTW": "暴風雪之",
+        "sgCN": "暴风雪",
+        "sgTW": "暴風雪"
+    },
+    "of Energy Shield": {
+        "Key": "of Energy Shield",
+        "enUS": "of Energy Shield",
+        "zhCN": "能量護盾之",
+        "zhTW": "能量護盾之",
+        "sgCN": "能源盾",
+        "sgTW": "能源盾"
+    },
+    "of Thunder Storm": {
+        "Key": "of Thunder Storm",
+        "enUS": "of Thunder Storm",
+        "zhCN": "雷暴之",
+        "zhTW": "雷暴之",
+        "sgCN": "雷云风暴",
+        "sgTW": "雷雲風暴"
+    },
+    "of Meteor": {
+        "Key": "of Meteor",
+        "enUS": "of Meteor",
+        "zhCN": "隕石之",
+        "zhTW": "隕石之",
+        "sgCN": "陨石",
+        "sgTW": "隕石"
+    },
+    "of Glacial Spike": {
+        "Key": "of Glacial Spike",
+        "enUS": "of Glacial Spike",
+        "zhCN": "冰川之槍",
+        "zhTW": "冰川之槍",
+        "sgCN": "冰河刺",
+        "sgTW": "冰河刺"
+    },
+    "of Teleport Shield": {
+        "Key": "of Teleport Shield",
+        "enUS": "of Teleport Shield",
+        "zhCN": "傳送盾之",
+        "zhTW": "傳送盾之",
+        "sgCN": "传送盾",
+        "sgTW": "傳送盾"
+    },
+    "of Chain Lightning": {
+        "Key": "of Chain Lightning",
+        "enUS": "of Chain Lightning",
+        "zhCN": "連鎖閃電之",
+        "zhTW": "連鎖閃電之",
+        "sgCN": "连锁闪电",
+        "sgTW": "連鎖閃電"
+    },
+    "of Enchant": {
+        "Key": "of Enchant",
+        "enUS": "of Enchant",
+        "zhCN": "附魔之",
+        "zhTW": "附魔之",
+        "sgCN": "附魔",
+        "sgTW": "附魔"
+    },
+    "of Fire Wall": {
+        "Key": "of Fire Wall",
+        "enUS": "of Fire Wall",
+        "zhCN": "火牆之",
+        "zhTW": "火牆之",
+        "sgCN": "火墙",
+        "sgTW": "火牆"
+    },
+    "of Shiver Armor": {
+        "Key": "of Shiver Armor",
+        "enUS": "of Shiver Armor",
+        "zhCN": "碎冰甲之",
+        "zhTW": "碎冰甲之",
+        "sgCN": "寒冰屏障",
+        "sgTW": "寒顫屏障"
+    },
+    "of Nova Shield": {
+        "Key": "of Nova Shield",
+        "enUS": "of Nova Shield",
+        "zhCN": "新星之盾",
+        "zhTW": "新星之盾",
+        "sgCN": "新星盾",
+        "sgTW": "新星盾"
+    },
+    "of Nova": {
+        "Key": "of Nova",
+        "enUS": "of Nova",
+        "zhCN": "閃電新星之",
+        "zhTW": "閃電新星之",
+        "sgCN": "新星",
+        "sgTW": "新星"
+    },
+    "of Fire Ball": {
+        "Key": "of Fire Ball",
+        "enUS": "of Fire Ball",
+        "zhCN": "火球之",
+        "zhTW": "火球之",
+        "sgCN": "火球",
+        "sgTW": "火球"
+    },
+    "of Blaze": {
+        "Key": "of Blaze",
+        "enUS": "of Blaze",
+        "zhCN": "熾熱之徑",
+        "zhTW": "熾熱之徑",
+        "sgCN": "炽热之径",
+        "sgTW": "熾熱之徑"
+    },
+    "of Ice Blast": {
+        "Key": "of Ice Blast",
+        "enUS": "of Ice Blast",
+        "zhCN": "寒冰球之",
+        "zhTW": "寒冰球之",
+        "sgCN": "冰风爆",
+        "sgTW": "冰風暴"
+    },
+    "of Frost Shield": {
+        "Key": "of Frost Shield",
+        "enUS": "of Frost Shield",
+        "zhCN": "冰霜護盾之",
+        "zhTW": "冰霜護盾之",
+        "sgCN": "冷凝盾",
+        "sgTW": "冷凝盾"
+    },
+    "of Telekinesis": {
+        "Key": "of Telekinesis",
+        "enUS": "of Telekinesis",
+        "zhCN": "心靈傳動之",
+        "zhTW": "心靈傳動之",
+        "sgCN": "心灵传动",
+        "sgTW": "心靈傳動"
+    },
+    "of Static Field": {
+        "Key": "of Static Field",
+        "enUS": "of Static Field",
+        "zhCN": "靜電力場之",
+        "zhTW": "靜電力場之",
+        "sgCN": "静态力场",
+        "sgTW": "靜態力場"
+    },
+    "of Frozen Armor": {
+        "Key": "of Frozen Armor",
+        "enUS": "of Frozen Armor",
+        "zhCN": "冰封甲之",
+        "zhTW": "冰封甲之",
+        "sgCN": "冰封屏障",
+        "sgTW": "冰封屏障"
+    },
+    "of Icebolt": {
+        "Key": "of Icebolt",
+        "enUS": "of Icebolt",
+        "zhCN": "寒冰彈之",
+        "zhTW": "寒冰彈之",
+        "sgCN": "冰锥",
+        "sgTW": "冰錐"
+    },
+    "of Charged Shield": {
+        "Key": "of Charged Shield",
+        "enUS": "of Charged Bolt",
+        "zhCN": "電能彈之",
+        "zhTW": "電能彈之",
+        "sgCN": "充能弹",
+        "sgTW": "充能彈"
+    },
+    "of Firebolts": {
+        "Key": "of Firebolts",
+        "enUS": "of Firebolts",
+        "zhCN": "火焰彈之",
+        "zhTW": "火焰彈之",
+        "sgCN": "火焰弹",
+        "sgTW": "火焰箭"
+    },
+    "of the Elements": {
+        "Key": "of the Elements",
+        "enUS": "of the Elements",
+        "zhCN": "元素之",
+        "zhTW": "元素之",
+        "sgCN": "元素",
+        "sgTW": "元素"
+    },
+    "of the Cobra": {
+        "Key": "of the Cobra",
+        "enUS": "of the Cobra",
+        "zhCN": "眼鏡蛇之",
+        "zhTW": "眼鏡蛇之",
+        "sgCN": "眼镜蛇",
+        "sgTW": "眼鏡蛇"
+    },
+    "of the Efreeti": {
+        "Key": "of the Efreeti",
+        "enUS": "of the Efreeti",
+        "zhCN": "火靈之",
+        "zhTW": "火靈之",
+        "sgCN": "火元素",
+        "sgTW": "火元素"
+    },
+    "of the Phoenix": {
+        "Key": "of the Phoenix",
+        "enUS": "of the Phoenix",
+        "zhCN": "鳳凰之",
+        "zhTW": "鳳凰之",
+        "sgCN": "凤凰",
+        "sgTW": "鳳凰"
+    },
+    "of the Yeti": {
+        "Key": "of the Yeti",
+        "enUS": "of the Yeti",
+        "zhCN": "雪怪之",
+        "zhTW": "雪怪之",
+        "sgCN": "雪猿",
+        "sgTW": "雪猿"
+    },
+    "of Grace and Power": {
+        "Key": "of Grace and Power",
+        "enUS": "of Grace and Power",
+        "zhCN": "優雅與力量之",
+        "zhTW": "優雅與力量之",
+        "sgCN": "优雅与力量",
+        "sgTW": "優雅與力量"
+    },
+    "of Grace": {
+        "Key": "of Grace",
+        "enUS": "of Grace",
+        "zhCN": "優雅之",
+        "zhTW": "優雅之",
+        "sgCN": "优雅",
+        "sgTW": "優雅 "
+    },
+    "of Power": {
+        "Key": "of Power",
+        "enUS": "of Power",
+        "zhCN": "力量之",
+        "zhTW": "力量之",
+        "sgCN": "力量",
+        "sgTW": "力量"
+    },
+    "of the Elephant": {
+        "Key": "of the Elephant",
+        "enUS": "of the Elephant",
+        "zhCN": "巨象之",
+        "zhTW": "巨象之",
+        "sgCN": "巨象",
+        "sgTW": "巨象"
+    },
+    "of Memory": {
+        "Key": "of Memory",
+        "enUS": "of Memory",
+        "zhCN": "記憶之",
+        "zhTW": "記憶之",
+        "sgCN": "记忆",
+        "sgTW": "記憶"
+    },
+    "of the Kraken1": {
+        "Key": "of the Kraken1",
+        "enUS": "of the Kraken",
+        "zhCN": "海怪之",
+        "zhTW": "海怪之",
+        "sgCN": "海妖",
+        "sgTW": "海妖"
+    },
+    "of Propogation": {
+        "Key": "of Propogation",
+        "enUS": "of Propogation",
+        "zhCN": "增殖之",
+        "zhTW": "增殖之",
+        "sgCN": "传播",
+        "sgTW": "傳播"
+    },
+    "of Replenishing": {
+        "Key": "of Replenishing",
+        "enUS": "of Replenishing",
+        "zhCN": "補充之",
+        "zhTW": "補充之",
+        "sgCN": "补充",
+        "sgTW": "補充"
+    },
+    "of Ages": {
+        "Key": "of Ages",
+        "enUS": "of Ages",
+        "zhCN": "歲月之",
+        "zhTW": "歲月之",
+        "sgCN": "岁月",
+        "sgTW": "歲月"
+    },
+    "of Fast Repair": {
+        "Key": "of Fast Repair",
+        "enUS": "of Restoration",
+        "zhCN": "修復之",
+        "zhTW": "修復之",
+        "sgCN": "回复",
+        "sgTW": "回復"
+    },
+    "of Self-Repair": {
+        "Key": "of Self-Repair",
+        "enUS": "of Self-Repair",
+        "zhCN": "自我修復",
+        "zhTW": "自我修復",
+        "sgCN": "自我修护",
+        "sgTW": "自我修護"
+    },
+    "of Acceleration": {
+        "Key": "of Acceleration",
+        "enUS": "of Acceleration",
+        "zhCN": "加速之",
+        "zhTW": "加速之",
+        "sgCN": "加速",
+        "sgTW": "加速"
+    },
+    "of Traveling": {
+        "Key": "of Traveling",
+        "enUS": "of Transportation",
+        "zhCN": "運輸之",
+        "zhTW": "運輸之",
+        "sgCN": "传送",
+        "sgTW": "傳送"
+    },
+    "of Virility": {
+        "Key": "of Virility",
+        "enUS": "of Virility",
+        "zhCN": "氣力之",
+        "zhTW": "氣力之",
+        "sgCN": "精气",
+        "sgTW": "精氣"
+    },
+    "of Atlus": {
+        "Key": "of Atlus",
+        "enUS": "of Atlas",
+        "zhCN": "擎天神之",
+        "zhTW": "擎天神之",
+        "sgCN": "擎天神",
+        "sgTW": "擎天神"
+    },
+    "of Freedom": {
+        "Key": "of Freedom",
+        "enUS": "of Freedom",
+        "zhCN": "自由之",
+        "zhTW": "自由之",
+        "sgCN": "自由",
+        "sgTW": "自由"
+    },
+    "of the Lamprey": {
+        "Key": "of the Lamprey",
+        "enUS": "of the Lamprey",
+        "zhCN": "八目鰻之",
+        "zhTW": "八目鰻之",
+        "sgCN": "八目鳗",
+        "sgTW": "八目鰻"
+    },
+    "of Hope": {
+        "Key": "of Hope",
+        "enUS": "of Hope",
+        "zhCN": "希望之",
+        "zhTW": "希望之",
+        "sgCN": "希望",
+        "sgTW": "希望"
+    },
+    "of Spirit": {
+        "Key": "of Spirit",
+        "enUS": "of Spirit",
+        "zhCN": "魂靈之",
+        "zhTW": "魂靈之",
+        "sgCN": "灵魂",
+        "sgTW": "靈魂"
+    },
+    "of Vita": {
+        "Key": "of Vita",
+        "enUS": "of Vita",
+        "zhCN": "活力之",
+        "zhTW": "活力之",
+        "sgCN": "精力",
+        "sgTW": "精力"
+    },
+    "of Substinence": {
+        "Key": "of Substinence",
+        "enUS": "of Sustenance",
+        "zhCN": "維續之",
+        "zhTW": "維續之",
+        "sgCN": "耐久",
+        "sgTW": "耐久"
+    },
+    "of the Whale": {
+        "Key": "of the Whale",
+        "enUS": "of the Whale",
+        "zhCN": "巨鯨之",
+        "zhTW": "巨鯨之",
+        "sgCN": "巨鲸",
+        "sgTW": "巨鯨"
+    },
+    "of the Squid": {
+        "Key": "of the Squid",
+        "enUS": "of the Squid",
+        "zhCN": "烏賊之",
+        "zhTW": "烏賊之",
+        "sgCN": "乌贼",
+        "sgTW": "烏賊"
+    },
+    "of the Colossus1": {
+        "Key": "of the Colossus1",
+        "enUS": "of the Colossus",
+        "zhCN": "巨神之",
+        "zhTW": "巨神之",
+        "sgCN": "巨神",
+        "sgTW": "巨神"
+    },
+    "of Knowledge": {
+        "Key": "of Knowledge",
+        "enUS": "of Knowledge",
+        "zhCN": "知識之",
+        "zhTW": "知識之",
+        "sgCN": "知识",
+        "sgTW": "知識"
+    },
+    "of Enlightenment": {
+        "Key": "of Enlightenment",
+        "enUS": "of Enlightenment",
+        "zhCN": "啟發之",
+        "zhTW": "啟發之",
+        "sgCN": "启发",
+        "sgTW": "啟發"
+    },
+    "of Prosperity": {
+        "Key": "of Prosperity",
+        "enUS": "of Prosperity",
+        "zhCN": "富饒之",
+        "zhTW": "富饒之",
+        "sgCN": "富饶",
+        "sgTW": "富饒"
+    },
+    "of Good Luck": {
+        "Key": "of Good Luck",
+        "enUS": "of Good Luck",
+        "zhCN": "幸運之",
+        "zhTW": "幸運之",
+        "sgCN": "幸运",
+        "sgTW": "幸運"
+    },
+    "of Luck": {
+        "Key": "of Luck",
+        "enUS": "of Luck",
+        "zhCN": "運氣之",
+        "zhTW": "運氣之",
+        "sgCN": "幸运",
+        "sgTW": "好運"
+    },
+    "of Avarice": {
+        "Key": "of Avarice",
+        "enUS": "of Avarice",
+        "zhCN": "貪慾之",
+        "zhTW": "貪慾之",
+        "sgCN": "贪婪",
+        "sgTW": "貪婪"
+    },
+    "of Honor": {
+        "Key": "of Honor",
+        "enUS": "of Honor",
+        "zhCN": "榮耀之",
+        "zhTW": "榮耀之",
+        "sgCN": "荣誉",
+        "sgTW": "榮譽"
+    },
+    "of Revivification": {
+        "Key": "of Revivification",
+        "enUS": "of Revivification",
+        "zhCN": "復元之",
+        "zhTW": "復元之",
+        "sgCN": "复苏",
+        "sgTW": "復甦"
+    },
+    "of Truth": {
+        "Key": "of Truth",
+        "enUS": "of Truth",
+        "zhCN": "真理之",
+        "zhTW": "真理之",
+        "sgCN": "真理",
+        "sgTW": "真理"
+    },
+    "of Daring": {
+        "Key": "of Daring",
+        "enUS": "of Daring",
+        "zhCN": "膽識之",
+        "zhTW": "膽識之",
+        "sgCN": "大胆",
+        "sgTW": "大膽"
+    },
+    "of Nirvana": {
+        "Key": "of Nirvana",
+        "enUS": "of Nirvana",
+        "zhCN": "涅槃之",
+        "zhTW": "涅槃之",
+        "sgCN": "涅槃",
+        "sgTW": "涅槃"
+    },
+    "of Envy": {
+        "Key": "of Envy",
+        "enUS": "of Envy",
+        "zhCN": "嫉妒之",
+        "zhTW": "嫉妒之",
+        "sgCN": "嫉妒",
+        "sgTW": "嫉妒"
+    },
+    "of Anthrax": {
+        "Key": "of Anthrax",
+        "enUS": "of Anthrax",
+        "zhCN": "炭疽之",
+        "zhTW": "炭疽之",
+        "sgCN": "炭疽",
+        "sgTW": "炭疽"
+    },
+    "of Bliss": {
+        "Key": "of Bliss",
+        "enUS": "of Bliss",
+        "zhCN": "喜樂之",
+        "zhTW": "喜樂之",
+        "sgCN": "福气",
+        "sgTW": "福氣"
+    },
+    "of Joy": {
+        "Key": "of Joy",
+        "enUS": "of Joy",
+        "zhCN": "歡喜之",
+        "zhTW": "歡喜之",
+        "sgCN": "欢喜",
+        "sgTW": "歡喜"
+    },
+    "of Transcendence": {
+        "Key": "of Transcendence",
+        "enUS": "of Transcendence",
+        "zhCN": "超凡之",
+        "zhTW": "超凡之",
+        "sgCN": "超凡",
+        "sgTW": "超凡"
+    },
+    "of Wrath": {
+        "Key": "of Wrath",
+        "enUS": "of Wrath",
+        "zhCN": "怒氣之",
+        "zhTW": "怒氣之",
+        "sgCN": "怒气",
+        "sgTW": "怒氣"
+    },
+    "of Ire": {
+        "Key": "of Ire",
+        "enUS": "of Ire",
+        "zhCN": "盛怒之",
+        "zhTW": "盛怒之",
+        "sgCN": "愤怒",
+        "sgTW": "憤怒"
+    },
+    "of Evisceration": {
+        "Key": "of Evisceration",
+        "enUS": "of Evisceration",
+        "zhCN": "開膛之",
+        "zhTW": "開膛之",
+        "sgCN": "吸精",
+        "sgTW": "吸精"
+    },
+    "of Butchery": {
+        "Key": "of Butchery",
+        "enUS": "of Butchery",
+        "zhCN": "屠虐之",
+        "zhTW": "屠虐之",
+        "sgCN": "屠杀",
+        "sgTW": "屠殺"
+    },
+    "of Ennui": {
+        "Key": "of Ennui",
+        "enUS": "of Ennui",
+        "zhCN": "倦怠之",
+        "zhTW": "倦怠之",
+        "sgCN": "倦怠",
+        "sgTW": "倦怠"
+    },
+    "of Storms": {
+        "Key": "of Storms",
+        "enUS": "of Storms",
+        "zhCN": "風暴之",
+        "zhTW": "風暴之",
+        "sgCN": "暴风",
+        "sgTW": "暴風"
+    },
+    "of Passion": {
+        "Key": "of Passion",
+        "enUS": "of Passion",
+        "zhCN": "熱情之",
+        "zhTW": "熱情之",
+        "sgCN": "热情",
+        "sgTW": "熱情"
+    },
+    "of Incineration": {
+        "Key": "of Incineration",
+        "enUS": "of Incineration",
+        "zhCN": "焚絕之",
+        "zhTW": "焚絕之",
+        "sgCN": "炽炎",
+        "sgTW": "熾炎"
+    },
+    "of Frigidity": {
+        "Key": "of Frigidity",
+        "enUS": "of Frigidity",
+        "zhCN": "嚴寒之",
+        "zhTW": "嚴寒之",
+        "sgCN": "寒冷",
+        "sgTW": "寒冷"
+    },
+    "of Winter": {
+        "Key": "of Winter",
+        "enUS": "of Winter",
+        "zhCN": "嚴冬之",
+        "zhTW": "嚴冬之",
+        "sgCN": "严冬",
+        "sgTW": "嚴冬"
+    },
+    "of the Icicle": {
+        "Key": "of the Icicle",
+        "enUS": "of the Icicle",
+        "zhCN": "冰刺之",
+        "zhTW": "冰刺之",
+        "sgCN": "冰刺",
+        "sgTW": "冰刺"
+    },
+    "of Fervor": {
+        "Key": "of Fervor",
+        "enUS": "of Fervor",
+        "zhCN": "白熱之",
+        "zhTW": "白熱之",
+        "sgCN": "白热",
+        "sgTW": "白熱"
+    },
+    "of Malice": {
+        "Key": "of Malice",
+        "enUS": "of Malice",
+        "zhCN": "惡謀之",
+        "zhTW": "惡謀之",
+        "sgCN": "恶意",
+        "sgTW": "惡意"
+    },
+    "of Swords": {
+        "Key": "of Swords",
+        "enUS": "of Swords",
+        "zhCN": "劍刺之",
+        "zhTW": "劍刺之",
+        "sgCN": "剑刃",
+        "sgTW": "刀劍"
+    },
+    "of Razors": {
+        "Key": "of Razors",
+        "enUS": "of Razors",
+        "zhCN": "刃刺之",
+        "zhTW": "刃刺之",
+        "sgCN": "剃刀",
+        "sgTW": "剃刀"
+    },
+    "of Desire": {
+        "Key": "of Desire",
+        "enUS": "of Desire",
+        "zhCN": "慾望之",
+        "zhTW": "慾望之",
+        "sgCN": "欲望",
+        "sgTW": "慾望"
+    },
+    "of the Sirocco": {
+        "Key": "of the Sirocco",
+        "enUS": "of the Scirocco",
+        "zhCN": "熱風之",
+        "zhTW": "熱風之",
+        "sgCN": "热风",
+        "sgTW": "熱風"
+    },
+    "of the Dunes": {
+        "Key": "of the Dunes",
+        "enUS": "of the Dunes",
+        "zhCN": "沙丘之",
+        "zhTW": "沙丘之",
+        "sgCN": "沙丘",
+        "sgTW": "沙丘"
+    },
+    "of Thawing": {
+        "Key": "of Thawing",
+        "enUS": "of Thawing",
+        "zhCN": "融冰之",
+        "zhTW": "融冰之",
+        "sgCN": "解冻",
+        "sgTW": "解凍"
+    },
+    "Of the Choir": {
+        "Key": "Of the Choir",
+        "enUS": "Of the Choir",
+        "zhCN": "合唱之",
+        "zhTW": "合唱之",
+        "sgCN": "合唱",
+        "sgTW": "合唱"
+    },
+    "Of the Sniper": {
+        "Key": "Of the Sniper",
+        "enUS": "Of the Sniper",
+        "zhCN": "狙擊之",
+        "zhTW": "狙擊之",
+        "sgCN": "狙击",
+        "sgTW": "狙擊"
+    },
+    "Of the Stiletto": {
+        "Key": "Of the Stiletto",
+        "enUS": "Of the Stiletto",
+        "zhCN": "尖錐之",
+        "zhTW": "尖錐之",
+        "sgCN": "尖锥",
+        "sgTW": "尖錐"
+    },
+    "Of Bile": {
+        "Key": "Of Bile",
+        "enUS": "of Bile",
+        "zhCN": "乖戾之",
+        "zhTW": "乖戾之",
+        "sgCN": "乖戾",
+        "sgTW": "乖戾"
+    },
+    "Of Blitzen": {
+        "Key": "Of Blitzen",
+        "enUS": "of Blitzen",
+        "zhCN": "閃擊之",
+        "zhTW": "閃擊之",
+        "sgCN": "闪击",
+        "sgTW": "閃擊"
+    },
+    "Of Cremation": {
+        "Key": "Of Cremation",
+        "enUS": "of Cremation",
+        "zhCN": "焚化之",
+        "zhTW": "焚化之",
+        "sgCN": "焚化",
+        "sgTW": "焚化"
+    },
+    "Of Darkness": {
+        "Key": "Of Darkness",
+        "enUS": "of Darkness",
+        "zhCN": "黑暗之",
+        "zhTW": "黑暗之",
+        "sgCN": "黑暗",
+        "sgTW": "黑暗"
+    },
+    "Of Disease": {
+        "Key": "Of Disease",
+        "enUS": "of Disease",
+        "zhCN": "疾病之",
+        "zhTW": "疾病之",
+        "sgCN": "疾病",
+        "sgTW": "疾病"
+    },
+    "Of Remorse": {
+        "Key": "Of Remorse",
+        "enUS": "of Remorse",
+        "zhCN": "悔恨之",
+        "zhTW": "悔恨之",
+        "sgCN": "悔恨",
+        "sgTW": "悔恨"
+    },
+    "Of Terror": {
+        "Key": "Of Terror",
+        "enUS": "of Terror",
+        "zhCN": "恐懼之",
+        "zhTW": "恐懼之",
+        "sgCN": "恐惧",
+        "sgTW": "恐懼"
+    },
+    "Of the Sky": {
+        "Key": "Of the Sky",
+        "enUS": "of the Sky",
+        "zhCN": "蒼穹之",
+        "zhTW": "蒼穹之",
+        "sgCN": "苍穹",
+        "sgTW": "蒼穹"
+    },
+    "Of Valhalla": {
+        "Key": "Of Valhalla",
+        "enUS": "of Valhalla",
+        "zhCN": "英靈之",
+        "zhTW": "英靈之",
+        "sgCN": "英灵",
+        "sgTW": "英靈"
+    },
+    "Of Waste": {
+        "Key": "Of Waste",
+        "enUS": "of Waste",
+        "zhCN": "荒地之",
+        "zhTW": "荒地之",
+        "sgCN": "荒地",
+        "sgTW": "荒地"
+    },
+    "Of Nobility": {
+        "Key": "Of Nobility",
+        "enUS": "of Nobility",
+        "zhCN": "貴冑之",
+        "zhTW": "貴冑之",
+        "sgCN": "高贵",
+        "sgTW": "高貴"
+    },
+    "Of Karma": {
+        "Key": "Of Karma",
+        "enUS": "of Karma",
+        "zhCN": "因果之",
+        "zhTW": "因果之",
+        "sgCN": "因果",
+        "sgTW": "因果"
+    },
+    "Of Grounding": {
+        "Key": "Of Grounding",
+        "enUS": "of Grounding",
+        "zhCN": "接地之",
+        "zhTW": "接地之",
+        "sgCN": "钻地",
+        "sgTW": "鑽地"
+    },
+    "Of the River": {
+        "Key": "Of the River",
+        "enUS": "of the River",
+        "zhCN": "河流之",
+        "zhTW": "河流之",
+        "sgCN": "河流",
+        "sgTW": "河流"
+    },
+    "Of the Lake": {
+        "Key": "Of the Lake",
+        "enUS": "of the Lake",
+        "zhCN": "湖泊之",
+        "zhTW": "湖泊之",
+        "sgCN": "湖泊",
+        "sgTW": "湖泊"
+    },
+    "Of the Ocean": {
+        "Key": "Of the Ocean",
+        "enUS": "of the Ocean",
+        "zhCN": "海洋之",
+        "zhTW": "海洋之",
+        "sgCN": "海洋",
+        "sgTW": "海洋"
+    },
+    "Of the Bayou": {
+        "Key": "Of the Bayou",
+        "enUS": "of the Bayou",
+        "zhCN": "支流之",
+        "zhTW": "支流之",
+        "sgCN": "支流",
+        "sgTW": "支流"
+    },
+    "Of the Stream": {
+        "Key": "Of the Stream",
+        "enUS": "of the Stream",
+        "zhCN": "小溪之",
+        "zhTW": "小溪之",
+        "sgCN": "小溪",
+        "sgTW": "小溪"
+    },
+    "Of the Lady": {
+        "Key": "Of the Lady",
+        "enUS": "of the Lady",
+        "zhCN": "女士之",
+        "zhTW": "女士之",
+        "sgCN": "女士",
+        "sgTW": "女士"
+    },
+    "Of the Maiden": {
+        "Key": "Of the Maiden",
+        "enUS": "Of the Maiden",
+        "zhCN": "少女之",
+        "zhTW": "少女之",
+        "sgCN": "少女",
+        "sgTW": "少女"
+    },
+    "Of the Virgin": {
+        "Key": "Of the Virgin",
+        "enUS": "of the Virgin",
+        "zhCN": "處女之",
+        "zhTW": "處女之",
+        "sgCN": "处女",
+        "sgTW": "處女"
+    },
+    "Of the Hag": {
+        "Key": "Of the Hag",
+        "enUS": "of the Hag",
+        "zhCN": "巫婆之",
+        "zhTW": "巫婆之",
+        "sgCN": "巫婆",
+        "sgTW": "巫婆"
+    },
+    "Of the Witch": {
+        "Key": "Of the Witch",
+        "enUS": "of the Witch",
+        "zhCN": "女巫之",
+        "zhTW": "女巫之",
+        "sgCN": "巫女",
+        "sgTW": "女巫"
+    },
+    "Of Judgement": {
+        "Key": "Of Judgement",
+        "enUS": "of Judgement",
+        "zhCN": "審判之",
+        "zhTW": "審判之",
+        "sgCN": "裁决",
+        "sgTW": "審判"
+    },
+    "Of Illusion": {
+        "Key": "Of Illusion",
+        "enUS": "of Illusion",
+        "zhCN": "幻覺之",
+        "zhTW": "幻覺之",
+        "sgCN": "幻觉",
+        "sgTW": "幻覺"
+    },
+    "Of Elusion": {
+        "Key": "Of Elusion",
+        "enUS": "of Eluding",
+        "zhCN": "閃避之",
+        "zhTW": "閃避之",
+        "sgCN": "闪避",
+        "sgTW": "閃避"
+    },
+    "Of Combat": {
+        "Key": "Of Combat",
+        "enUS": "of Combat",
+        "zhCN": "戰鬥之",
+        "zhTW": "戰鬥之",
+        "sgCN": "战斗之",
+        "sgTW": "戰鬥"
+    },
+    "Of Attrition": {
+        "Key": "Of Attrition",
+        "enUS": "of Attrition",
+        "zhCN": "摩擦之",
+        "zhTW": "摩擦之",
+        "sgCN": "摩擦",
+        "sgTW": "摩擦"
+    },
+    "Of Abrasion": {
+        "Key": "Of Abrasion",
+        "enUS": "of Abrasion",
+        "zhCN": "侵蝕之",
+        "zhTW": "侵蝕之",
+        "sgCN": "侵蚀",
+        "sgTW": "侵蝕"
+    },
+    "Of Erosion": {
+        "Key": "Of Erosion",
+        "enUS": "of Erosion",
+        "zhCN": "腐蝕之",
+        "zhTW": "腐蝕之",
+        "sgCN": "腐蚀",
+        "sgTW": "腐蝕"
+    },
+    "Of Searing": {
+        "Key": "Of Searing",
+        "enUS": "of Searing",
+        "zhCN": "灼熱之",
+        "zhTW": "灼熱之",
+        "sgCN": "灼热",
+        "sgTW": "灼熱"
+    },
+    "Of Stone": {
+        "Key": "Of Stone",
+        "enUS": "of Stone",
+        "zhCN": "石岩之",
+        "zhTW": "石岩之",
+        "sgCN": "岩石",
+        "sgTW": "岩石"
+    },
+    "Of Stature": {
+        "Key": "Of Stature",
+        "enUS": "of Stature",
+        "zhCN": "聲譽之",
+        "zhTW": "聲譽之",
+        "sgCN": "能力",
+        "sgTW": "能力"
+    },
+    "Of Fortication": {
+        "Key": "Of Fortication",
+        "enUS": "of Fortification",
+        "zhCN": "強化之",
+        "zhTW": "強化之",
+        "sgCN": "强化",
+        "sgTW": "強化"
+    },
+    "Of Quickening": {
+        "Key": "Of Quickening",
+        "enUS": "of Quickening",
+        "zhCN": "加速之",
+        "zhTW": "加速之",
+        "sgCN": "加速",
+        "sgTW": "加速"
+    },
+    "Of Dispatch": {
+        "Key": "Of Dispatch",
+        "enUS": "of Dispatch",
+        "zhCN": "急速之",
+        "zhTW": "急速之",
+        "sgCN": "急速",
+        "sgTW": "急速"
+    },
+    "Of Daring": {
+        "Key": "Of Daring",
+        "enUS": "of Daring",
+        "zhCN": "膽識之",
+        "zhTW": "膽識之",
+        "sgCN": "猛击",
+        "sgTW": "猛進 "
+    },
+    "Of Dread": {
+        "Key": "Of Dread",
+        "enUS": "of Dread",
+        "zhCN": "畏怖之",
+        "zhTW": "畏怖之",
+        "sgCN": "恐惧",
+        "sgTW": "恐懼"
+    },
+    "Of Suffering": {
+        "Key": "Of Suffering",
+        "enUS": "of Suffering",
+        "zhCN": "苦難之",
+        "zhTW": "苦難之",
+        "sgCN": "受苦",
+        "sgTW": "受苦"
+    },
+    "Of Doom": {
+        "Key": "Of Doom",
+        "enUS": "of Doom",
+        "zhCN": "末日之",
+        "zhTW": "末日之",
+        "sgCN": "末日",
+        "sgTW": "末日"
+    },
+    "Of Vengence": {
+        "Key": "Of Vengence",
+        "enUS": "of Vengence",
+        "zhCN": "復仇之",
+        "zhTW": "復仇之",
+        "sgCN": "复仇",
+        "sgTW": "復仇"
+    },
+    "Of Redemption": {
+        "Key": "Of Redemption",
+        "enUS": "of Redemption",
+        "zhCN": "救贖之",
+        "zhTW": "救贖之",
+        "sgCN": "救赎",
+        "sgTW": "救贖"
+    },
+    "Of Luck": {
+        "Key": "Of Luck",
+        "enUS": "of Luck",
+        "zhCN": "運氣之",
+        "zhTW": "運氣之",
+        "sgCN": "幸运",
+        "sgTW": "幸運"
+    },
+    "Of the Avenger": {
+        "Key": "Of the Avenger",
+        "enUS": "of the Avenger",
+        "zhCN": "復仇者之",
+        "zhTW": "復仇者之",
+        "sgCN": "复仇者",
+        "sgTW": "復仇者"
+    },
+    "Of the Specter": {
+        "Key": "Of the Specter",
+        "enUS": "of the Specter",
+        "zhCN": "邪鬼之",
+        "zhTW": "邪鬼之",
+        "sgCN": "邪鬼",
+        "sgTW": "邪鬼"
+    },
+    "Of the Ghost": {
+        "Key": "Of the Ghost",
+        "enUS": "of the Ghost",
+        "zhCN": "鬼靈之",
+        "zhTW": "鬼靈之",
+        "sgCN": "鬼灵",
+        "sgTW": "鬼靈"
+    },
+    "Of the Infantry": {
+        "Key": "Of the Infantry",
+        "enUS": "of the Infantry",
+        "zhCN": "步兵之",
+        "zhTW": "步兵之",
+        "sgCN": "步兵",
+        "sgTW": "步兵"
+    },
+    "Of the Mosquito": {
+        "Key": "Of the Mosquito",
+        "enUS": "of the Mosquito",
+        "zhCN": "飛蚊之",
+        "zhTW": "飛蚊之",
+        "sgCN": "飞蚊",
+        "sgTW": "飛蚊"
+    },
+    "Of the Gnat": {
+        "Key": "Of the Gnat",
+        "enUS": "of the Gnat",
+        "zhCN": "蚊蚋之",
+        "zhTW": "蚊蚋之",
+        "sgCN": "蚊蚋",
+        "sgTW": "蚊蚋"
+    },
+    "Of the Fly": {
+        "Key": "Of the Fly",
+        "enUS": "of the Fly",
+        "zhCN": "飛蠅之",
+        "zhTW": "飛蠅之",
+        "sgCN": "飞蝇",
+        "sgTW": "飛蠅"
+    },
+    "Of the Plague": {
+        "Key": "Of the Plague",
+        "enUS": "of the Plague",
+        "zhCN": "瘟疫之",
+        "zhTW": "瘟疫之",
+        "sgCN": "疫病",
+        "sgTW": "疫病"
+    },
+    "Of Twilight": {
+        "Key": "Of Twilight",
+        "enUS": "of Twilight",
+        "zhCN": "暮光之",
+        "zhTW": "暮光之",
+        "sgCN": "曙光",
+        "sgTW": "曙光"
+    },
+    "Of Dusk": {
+        "Key": "Of Dusk",
+        "enUS": "of Dusk",
+        "zhCN": "黃昏之",
+        "zhTW": "黃昏之",
+        "sgCN": "薄暮",
+        "sgTW": "薄暮"
+    },
+    "Of Dawn": {
+        "Key": "Of Dawn",
+        "enUS": "of Dawn",
+        "zhCN": "黎明之",
+        "zhTW": "黎明之",
+        "sgCN": "黎明",
+        "sgTW": "黎明"
+    },
+    "Of the Imbecile": {
+        "Key": "Of the Imbecile",
+        "enUS": "of the Imbecile",
+        "zhCN": "低能之",
+        "zhTW": "低能之",
+        "sgCN": "低能",
+        "sgTW": "低能"
+    },
+    "Of the Idiot": {
+        "Key": "Of the Idiot",
+        "enUS": "of the Idiot",
+        "zhCN": "愚蠢之",
+        "zhTW": "愚蠢之",
+        "sgCN": "愚蠢",
+        "sgTW": "愚蠢"
+    },
+    "Of the Retard": {
+        "Key": "Of the Retard",
+        "enUS": "of the Moron",
+        "zhCN": "笨蛋之",
+        "zhTW": "笨蛋之",
+        "sgCN": "笨蛋",
+        "sgTW": "笨蛋"
+    },
+    "Of the Jujube": {
+        "Key": "Of the Jujube",
+        "enUS": "of the Jujube",
+        "zhCN": "刺棗之",
+        "zhTW": "刺棗之",
+        "sgCN": "刺枣",
+        "sgTW": "刺棗"
+    },
+    "Of the Obscenity": {
+        "Key": "Of the Obscenity",
+        "enUS": "of the Obscene",
+        "zhCN": "淫穢之",
+        "zhTW": "淫穢之",
+        "sgCN": "淫秽",
+        "sgTW": "淫穢"
+    },
+    "Of Quota": {
+        "Key": "Of Quota",
+        "enUS": "of the Quota",
+        "zhCN": "配額之",
+        "zhTW": "配額之",
+        "sgCN": "配额",
+        "sgTW": "配額"
+    },
+    "Of the Maggot": {
+        "Key": "Of the Maggot",
+        "enUS": "of Maggots",
+        "zhCN": "蛆蟲之",
+        "zhTW": "蛆蟲之",
+        "sgCN": "蛆虫",
+        "sgTW": "蛆蟲"
+    },
+    "Of Horror": {
+        "Key": "Of Horror",
+        "enUS": "of Horror",
+        "zhCN": "驚怖之",
+        "zhTW": "驚怖之",
+        "sgCN": "惊怖",
+        "sgTW": "驚怖"
+    },
+    "Of Baddass": {
+        "Key": "Of Baddass",
+        "enUS": "of the Abyss",
+        "zhCN": "深淵之",
+        "zhTW": "深淵之",
+        "sgCN": "深渊",
+        "sgTW": "深淵"
+    },
+    "Of the Beast": {
+        "Key": "Of the Beast",
+        "enUS": "of the Beast",
+        "zhCN": "野獸之",
+        "zhTW": "野獸之",
+        "sgCN": "狂兽",
+        "sgTW": "狂獸"
+    },
+    "Of Cruelty": {
+        "Key": "Of Cruelty",
+        "enUS": "of Cruelty",
+        "zhCN": "殘酷之",
+        "zhTW": "殘酷之",
+        "sgCN": "残酷",
+        "sgTW": "殘酷"
+    },
+    "Of Badness": {
+        "Key": "Of Badness",
+        "enUS": "of Badness",
+        "zhCN": "壞毒之",
+        "zhTW": "壞毒之",
+        "sgCN": "恶毒",
+        "sgTW": "惡毒"
+    },
+    "Of the Horde": {
+        "Key": "Of the Horde",
+        "enUS": "of the Horde",
+        "zhCN": "部落之",
+        "zhTW": "部落之",
+        "sgCN": "集力",
+        "sgTW": "集力"
+    },
+    "Of the Forest": {
+        "Key": "Of the Forest",
+        "enUS": "of the Forest",
+        "zhCN": "森林之",
+        "zhTW": "森林之",
+        "sgCN": "丛林",
+        "sgTW": "叢林"
+    },
+    "Of the Lilly": {
+        "Key": "Of the Lilly",
+        "enUS": "of the Lilly",
+        "zhCN": "百合之",
+        "zhTW": "百合之",
+        "sgCN": "下垂",
+        "sgTW": "下垂"
+    },
+    "Of the Grassy Gnoll": {
+        "Key": "Of the Grassy Gnoll",
+        "enUS": "of the Grassy Gnoll",
+        "zhCN": "深綠豺狼人之",
+        "zhTW": "深綠豺狼人之",
+        "sgCN": "深绿豺狼人",
+        "sgTW": "深綠豺狼人"
+    },
+    "Of the Stars": {
+        "Key": "Of the Stars",
+        "enUS": "of the Stars",
+        "zhCN": "星辰之",
+        "zhTW": "星辰之",
+        "sgCN": "星辰",
+        "sgTW": "星辰"
+    },
+    "Of the Moon": {
+        "Key": "Of the Moon",
+        "enUS": "of the Moon",
+        "zhCN": "月亮之",
+        "zhTW": "月亮之",
+        "sgCN": "月亮",
+        "sgTW": "月亮"
+    },
+    "Of Love": {
+        "Key": "Of Love",
+        "enUS": "of Love",
+        "zhCN": "愛情之",
+        "zhTW": "愛情之",
+        "sgCN": "爱情",
+        "sgTW": "愛情"
+    },
+    "Of the Unicorn": {
+        "Key": "Of the Unicorn",
+        "enUS": "of the Unicorn",
+        "zhCN": "獨角獸之",
+        "zhTW": "獨角獸之",
+        "sgCN": "独角兽",
+        "sgTW": "獨角獸"
+    },
+    "Of the Walrus": {
+        "Key": "Of the Walrus",
+        "enUS": "of the Walrus",
+        "zhCN": "海象之",
+        "zhTW": "海象之",
+        "sgCN": "海象",
+        "sgTW": "海象"
+    },
+    "Of the Earth": {
+        "Key": "Of the Earth",
+        "enUS": "of the Earth",
+        "zhCN": "土地之",
+        "zhTW": "土地之",
+        "sgCN": "土地",
+        "sgTW": "土地"
+    },
+    "Of Vines": {
+        "Key": "Of Vines",
+        "enUS": "of Vines",
+        "zhCN": "藤蔓之",
+        "zhTW": "藤蔓之",
+        "sgCN": "藤蔓",
+        "sgTW": "藤蔓"
+    },
+    "Of Honor": {
+        "Key": "Of Honor",
+        "enUS": "of Honor",
+        "zhCN": "榮耀之",
+        "zhTW": "榮耀之",
+        "sgCN": "荣誉",
+        "sgTW": "榮譽"
+    },
+    "Of Tribute": {
+        "Key": "Of Tribute",
+        "enUS": "of Tribute",
+        "zhCN": "奉獻之",
+        "zhTW": "奉獻之",
+        "sgCN": "奉献",
+        "sgTW": "奉獻"
+    },
+    "Of Credit": {
+        "Key": "Of Credit",
+        "enUS": "of Credit",
+        "zhCN": "致敬之",
+        "zhTW": "致敬之",
+        "sgCN": "致敬",
+        "sgTW": "致敬"
+    },
+    "Of Admiration": {
+        "Key": "Of Admiration",
+        "enUS": "of Admiration",
+        "zhCN": "佩服之",
+        "zhTW": "佩服之",
+        "sgCN": "佩服",
+        "sgTW": "佩服"
+    },
+    "Of Sweetness": {
+        "Key": "Of Sweetness",
+        "enUS": "of Sweetness",
+        "zhCN": "甜美之",
+        "zhTW": "甜美之",
+        "sgCN": "甜美",
+        "sgTW": "甜美"
+    },
+    "Of Beauty": {
+        "Key": "Of Beauty",
+        "enUS": "of Beauty",
+        "zhCN": "美麗之",
+        "zhTW": "美麗之",
+        "sgCN": "美丽",
+        "sgTW": "美麗"
+    },
+    "Of Pilfering": {
+        "Key": "Of Pilfering",
+        "enUS": "of Pilfering",
+        "zhCN": "盜竊之",
+        "zhTW": "盜竊之",
+        "sgCN": "盗窃",
+        "sgTW": "盜竊"
+    },
+    "of Damage Amplification": {
+        "Key": "of Damage Amplification",
+        "enUS": "of Amplify Damage",
+        "zhCN": "傷害加深之",
+        "zhTW": "傷害加深之",
+        "sgCN": "伤害加深",
+        "sgTW": "傷害加深"
+    },
+    "of Hurricane": {
+        "Key": "of Hurricane",
+        "enUS": "of Hurricane",
+        "zhCN": "颶風之",
+        "zhTW": "颶風之",
+        "sgCN": "暴风",
+        "sgTW": "暴風"
+    },
+    "of Armageddon": {
+        "Key": "of Armageddon",
+        "enUS": "of Armageddon",
+        "zhCN": "毀天滅地之",
+        "zhTW": "毀天滅地之",
+        "sgCN": "末日决战",
+        "sgTW": "末日決戰"
+    },
+    "of Tornado": {
+        "Key": "of Tornado",
+        "enUS": "of Tornado",
+        "zhCN": "龍捲風之",
+        "zhTW": "龍捲風之",
+        "sgCN": "龙卷风",
+        "sgTW": "龍捲風"
+    },
+    "of Volcano": {
+        "Key": "of Volcano",
+        "enUS": "of Volcano",
+        "zhCN": "火山噴發之",
+        "zhTW": "火山噴發之",
+        "sgCN": "火山",
+        "sgTW": "火山"
+    },
+    "of Twister": {
+        "Key": "of Twister",
+        "enUS": "of Twister",
+        "zhCN": "旋風之",
+        "zhTW": "旋風之",
+        "sgCN": "小旋风",
+        "sgTW": "鎌鼬風"
+    },
+    "of Cyclone Armor": {
+        "Key": "of Cyclone Armor",
+        "enUS": "of Cyclone Armor",
+        "zhCN": "氣旋護甲之",
+        "zhTW": "氣旋護甲之",
+        "sgCN": "旋风屏障",
+        "sgTW": "旋風屏障"
+    },
+    "of Eruption": {
+        "Key": "of Eruption",
+        "enUS": "of Fissure",
+        "zhCN": "裂地之火",
+        "zhTW": "裂地之火",
+        "sgCN": "火山爆",
+        "sgTW": "火山爆"
+    },
+    "of Molten Boulders": {
+        "Key": "of Molten Boulders",
+        "enUS": "of Molten Boulder",
+        "zhCN": "熔火巨石之",
+        "zhTW": "熔火巨石之",
+        "sgCN": "融化圆石",
+        "sgTW": "融化圓石"
+    },
+    "of Firestorms": {
+        "Key": "of Firestorms",
+        "enUS": "of Firestorms",
+        "zhCN": "火焰風暴之",
+        "zhTW": "火焰風暴之",
+        "sgCN": "火风暴",
+        "sgTW": "火風暴"
+    },
+    "of Battle Command": {
+        "Key": "of Battle Command",
+        "enUS": "of Battle Command",
+        "zhCN": "戰鬥指揮之",
+        "zhTW": "戰鬥指揮之",
+        "sgCN": "战斗指挥",
+        "sgTW": "戰鬥指揮"
+    },
+    "of War Cry": {
+        "Key": "of War Cry",
+        "enUS": "of War Cry",
+        "zhCN": "戰爭狂嘯之",
+        "zhTW": "戰爭狂嘯之",
+        "sgCN": "战斗狂嗥",
+        "sgTW": "戰鬥狂嗥"
+    },
+    "of Grim Ward": {
+        "Key": "of Grim Ward",
+        "enUS": "of Grim Ward",
+        "zhCN": "恐怖圖騰之",
+        "zhTW": "恐怖圖騰之",
+        "sgCN": "残酷吓阻",
+        "sgTW": "殘酷嚇阻"
+    },
+    "of Battle Orders": {
+        "Key": "of Battle Orders",
+        "enUS": "of Battle Orders",
+        "zhCN": "戰鬥命令之",
+        "zhTW": "戰鬥命令之",
+        "sgCN": "战斗体制",
+        "sgTW": "戰鬥體制"
+    },
+    "of Battle Cry": {
+        "Key": "of Battle Cry",
+        "enUS": "of Battle Cry",
+        "zhCN": "戰鬥怒吼之",
+        "zhTW": "戰鬥怒吼之",
+        "sgCN": "战嗥",
+        "sgTW": "戰嗥"
+    },
+    "of Concentration": {
+        "Key": "of Concentration",
+        "enUS": "of Concentration",
+        "zhCN": "專注打擊之",
+        "zhTW": "專注打擊之",
+        "sgCN": "专注",
+        "sgTW": "專注"
+    },
+    "of Item Finding": {
+        "Key": "of Item Finding",
+        "enUS": "of Find Item",
+        "zhCN": "尋找物品",
+        "zhTW": "尋找物品",
+        "sgCN": "寻找物品",
+        "sgTW": "找尋物品"
+    },
+    "of Stunning": {
+        "Key": "of Stunning",
+        "enUS": "of Stun",
+        "zhCN": "擊昏之",
+        "zhTW": "擊昏之",
+        "sgCN": "击昏",
+        "sgTW": "擊昏"
+    },
+    "of Shouting": {
+        "Key": "of Shouting",
+        "enUS": "of Shout",
+        "zhCN": "大吼之",
+        "zhTW": "大吼之",
+        "sgCN": "大叫",
+        "sgTW": "大叫"
+    },
+    "of Taunting": {
+        "Key": "of Taunting",
+        "enUS": "of Taunt",
+        "zhCN": "嘲諷之",
+        "zhTW": "嘲諷之",
+        "sgCN": "嘲弄",
+        "sgTW": "嘲弄"
+    },
+    "of Potion Finding": {
+        "Key": "of Potion Finding",
+        "enUS": "of Find Potion",
+        "zhCN": "尋找藥水",
+        "zhTW": "尋找藥水",
+        "sgCN": "寻找药剂",
+        "sgTW": "找尋藥劑"
+    },
+    "of Howling": {
+        "Key": "of Howling",
+        "enUS": "of Howl",
+        "zhCN": "狂嗥之",
+        "zhTW": "狂嗥之",
+        "sgCN": "狂嗥",
+        "sgTW": "狂嗥"
+    },
+    "of Fist of the Heavens": {
+        "Key": "of Fist of the Heavens",
+        "enUS": "of Fist of the Heavens",
+        "zhCN": "天堂之拳",
+        "zhTW": "天堂之拳",
+        "sgCN": "天堂之拳",
+        "sgTW": "天堂之拳"
+    },
+    "of Holy Shield": {
+        "Key": "of Holy Shield",
+        "enUS": "of Holy Shield",
+        "zhCN": "神聖之盾",
+        "zhTW": "神聖之盾",
+        "sgCN": "神圣之盾",
+        "sgTW": "神聖之盾"
+    },
+    "of Conversion": {
+        "Key": "of Conversion",
+        "enUS": "of Conversion",
+        "zhCN": "招降之",
+        "zhTW": "招降之",
+        "sgCN": "转化",
+        "sgTW": "轉換"
+    },
+    "of Blessed Hammers": {
+        "Key": "of Blessed Hammers",
+        "enUS": "of Blessed Hammer",
+        "zhCN": "祝福之鎚",
+        "zhTW": "祝福之鎚",
+        "sgCN": "祝福之锤",
+        "sgTW": "祝福之鎚"
+    },
+    "of Vengeance": {
+        "Key": "of Vengeance",
+        "enUS": "of Vengeance",
+        "zhCN": "復仇之",
+        "zhTW": "復仇之",
+        "sgCN": "复仇",
+        "sgTW": "復仇"
+    },
+    "of Charging": {
+        "Key": "of Charging",
+        "enUS": "of Charge",
+        "zhCN": "衝鋒之",
+        "zhTW": "衝鋒之",
+        "sgCN": "突击",
+        "sgTW": "突擊"
+    },
+    "of Zeal": {
+        "Key": "of Zeal",
+        "enUS": "of Zeal",
+        "zhCN": "熱忱之",
+        "zhTW": "熱忱之",
+        "sgCN": "白热",
+        "sgTW": "白熱"
+    },
+    "of Holy Bolts": {
+        "Key": "of Holy Bolts",
+        "enUS": "of Holy Bolt",
+        "zhCN": "聖光彈之",
+        "zhTW": "聖光彈之",
+        "sgCN": "圣光弹",
+        "sgTW": "聖光彈"
+    },
+    "of Sacrifice": {
+        "Key": "of Sacrifice",
+        "enUS": "of Sacrifice",
+        "zhCN": "犧牲之",
+        "zhTW": "犧牲之",
+        "sgCN": "牺牲",
+        "sgTW": "犧牲"
+    },
+    "of Fire Golem Summoning": {
+        "Key": "of Fire Golem Summoning",
+        "enUS": "of Fire Golem",
+        "zhCN": "火焰魔像之",
+        "zhTW": "火焰魔像之",
+        "sgCN": "火焰石魔",
+        "sgTW": "火焰石魔"
+    },
+    "of Bone Spirits": {
+        "Key": "of Bone Spirits",
+        "enUS": "of Bone Spirit",
+        "zhCN": "骸骨之魂",
+        "zhTW": "骸骨之魂",
+        "sgCN": "白骨之魂",
+        "sgTW": "白骨之魂"
+    },
+    "of Poison Novas": {
+        "Key": "of Poison Novas",
+        "enUS": "of Poison Nova",
+        "zhCN": "劇毒新星之",
+        "zhTW": "劇毒新星之",
+        "sgCN": "剧毒新星",
+        "sgTW": "劇毒新星"
+    },
+    "of Lower Resistance": {
+        "Key": "of Lower Resistance",
+        "enUS": "of Lower Resistance",
+        "zhCN": "降低抗性之",
+        "zhTW": "降低抗性之",
+        "sgCN": "降低抵抗",
+        "sgTW": "降低抵抗"
+    },
+    "of Iron Golem Creation": {
+        "Key": "of Iron Golem Creation",
+        "enUS": "of Iron Golem",
+        "zhCN": "鋼鐵魔像之",
+        "zhTW": "鋼鐵魔像之",
+        "sgCN": "钢铁石魔",
+        "sgTW": "鋼鐵石魔"
+    },
+    "of Bone Imprisonment": {
+        "Key": "of Bone Imprisonment",
+        "enUS": "of Bone Prison",
+        "zhCN": "骨牢之",
+        "zhTW": "骨牢之",
+        "sgCN": "骨牢",
+        "sgTW": "骨牢"
+    },
+    "of Decrepification": {
+        "Key": "of Decrepification",
+        "enUS": "of Decrepify",
+        "zhCN": "衰老之",
+        "zhTW": "衰老之",
+        "sgCN": "衰老",
+        "sgTW": "衰老"
+    },
+    "of Attraction": {
+        "Key": "of Attraction",
+        "enUS": "of Attract",
+        "zhCN": "致命吸引之",
+        "zhTW": "致命吸引之",
+        "sgCN": "吸引",
+        "sgTW": "吸引"
+    },
+    "of Blood Golem Summoning": {
+        "Key": "of Blood Golem Summoning",
+        "enUS": "of Blood Golem",
+        "zhCN": "鮮血魔像之",
+        "zhTW": "鮮血魔像之",
+        "sgCN": "鲜血石魔",
+        "sgTW": "鮮血石魔"
+    },
+    "of Bone Spears": {
+        "Key": "of Bone Spears",
+        "enUS": "of Bone Spear",
+        "zhCN": "骨矛之",
+        "zhTW": "骨矛之",
+        "sgCN": "骨矛",
+        "sgTW": "骨矛"
+    },
+    "of Poison Explosion": {
+        "Key": "of Poison Explosion",
+        "enUS": "of Poison Explosion",
+        "zhCN": "毒爆之",
+        "zhTW": "毒爆之",
+        "sgCN": "毒爆",
+        "sgTW": "毒爆"
+    },
+    "of Life Tap": {
+        "Key": "of Life Tap",
+        "enUS": "of Life Tap",
+        "zhCN": "偷取生命之",
+        "zhTW": "偷取生命之",
+        "sgCN": "偷取生命",
+        "sgTW": "偷取生命"
+    },
+    "of Confusion": {
+        "Key": "of Confusion",
+        "enUS": "of Confusion",
+        "zhCN": "混亂之",
+        "zhTW": "混亂之",
+        "sgCN": "迷乱",
+        "sgTW": "迷亂"
+    },
+    "of Raise Skeletal Mages": {
+        "Key": "of Raise Skeletal Mages",
+        "enUS": "of Skeletal Mages",
+        "zhCN": "骷髏法師之",
+        "zhTW": "骷髏法師之",
+        "sgCN": "复苏髅法师",
+        "sgTW": "復甦骷髏法師"
+    },
+    "of Bone Walls": {
+        "Key": "of Bone Walls",
+        "enUS": "of Bone Wall",
+        "zhCN": "骨牆之",
+        "zhTW": "骨牆之",
+        "sgCN": "骨墙",
+        "sgTW": "骨牆"
+    },
+    "of Terror": {
+        "Key": "of Terror",
+        "enUS": "of Terror",
+        "zhCN": "恐懼之",
+        "zhTW": "恐懼之",
+        "sgCN": "恐惧",
+        "sgTW": "恐懼"
+    },
+    "of Iron Maiden": {
+        "Key": "of Iron Maiden",
+        "enUS": "of Iron Maiden",
+        "zhCN": "攻擊反噬之",
+        "zhTW": "攻擊反噬之",
+        "sgCN": "攻击反噬",
+        "sgTW": "攻擊反噬"
+    },
+    "of Clay Golem Summoning": {
+        "Key": "of Clay Golem Summoning",
+        "enUS": "of Clay Golem",
+        "zhCN": "黏土魔像之",
+        "zhTW": "黏土魔像之",
+        "sgCN": "黏土石魔",
+        "sgTW": "黏土石魔"
+    },
+    "of Corpse Explosions": {
+        "Key": "of Corpse Explosions",
+        "enUS": "of Corpse Explosion",
+        "zhCN": "屍爆之",
+        "zhTW": "屍爆之",
+        "sgCN": "尸爆",
+        "sgTW": "屍爆"
+    },
+    "of Poison Dagger": {
+        "Key": "of Poison Dagger",
+        "enUS": "of Poison Dagger",
+        "zhCN": "淬毒匕首之",
+        "zhTW": "淬毒匕首之",
+        "sgCN": "毒匕首",
+        "sgTW": "淬毒匕首"
+    },
+    "of Weaken": {
+        "Key": "of Weaken",
+        "enUS": "of Weaken",
+        "zhCN": "削弱之",
+        "zhTW": "削弱之",
+        "sgCN": "削弱",
+        "sgTW": "削弱"
+    },
+    "of Dim Vision": {
+        "Key": "of Dim Vision",
+        "enUS": "of Dim Vision",
+        "zhCN": "昏暗視野之",
+        "zhTW": "昏暗視野之",
+        "sgCN": "微暗灵视",
+        "sgTW": "微暗靈視"
+    },
+    "of Raise Skeletons": {
+        "Key": "of Raise Skeletons",
+        "enUS": "of Raise Skeleton",
+        "zhCN": "復生骷髏之",
+        "zhTW": "復生骷髏之",
+        "sgCN": "骷髅复苏",
+        "sgTW": "骷髏復甦"
+    },
+    "of Bone Armor": {
+        "Key": "of Bone Armor",
+        "enUS": "of Bone Armor",
+        "zhCN": "骸骨護甲之",
+        "zhTW": "骸骨護甲之",
+        "sgCN": "白骨装甲",
+        "sgTW": "白骨裝甲"
+    },
+    "of Teeth": {
+        "Key": "of Teeth",
+        "enUS": "of Teeth",
+        "zhCN": "剔骨之牙",
+        "zhTW": "剔骨之牙",
+        "sgCN": "牙",
+        "sgTW": "牙"
+    },
+    "of Amplify Damage": {
+        "Key": "of Amplify Damage",
+        "enUS": "of Amplify Damage",
+        "zhCN": "傷害加深之",
+        "zhTW": "傷害加深之",
+        "sgCN": "伤害加深",
+        "sgTW": "傷害加深"
+    },
+    "of Frozen Orbs": {
+        "Key": "of Frozen Orbs",
+        "enUS": "of Frozen Orb",
+        "zhCN": "冰封球之",
+        "zhTW": "冰封球之",
+        "sgCN": "冰封球",
+        "sgTW": "冰封球"
+    },
+    "of Hydras": {
+        "Key": "of Hydras",
+        "enUS": "of Hydra",
+        "zhCN": "多頭蛇之",
+        "zhTW": "多頭蛇之",
+        "sgCN": "九头蛇",
+        "sgTW": "九頭海蛇"
+    },
+    "of Blizzards": {
+        "Key": "of Blizzards",
+        "enUS": "of Blizzard",
+        "zhCN": "暴風雪之",
+        "zhTW": "暴風雪之",
+        "sgCN": "暴风雪",
+        "sgTW": "暴風雪"
+    },
+    "of Meteors": {
+        "Key": "of Meteors",
+        "enUS": "of Meteor",
+        "zhCN": "隕石之",
+        "zhTW": "隕石之",
+        "sgCN": "陨石",
+        "sgTW": "隕石"
+    },
+    "of Glacial Spikes": {
+        "Key": "of Glacial Spikes",
+        "enUS": "of Glacial Spike",
+        "zhCN": "冰川之槍",
+        "zhTW": "冰川之槍",
+        "sgCN": "冰尖柱",
+        "sgTW": "冰尖柱"
+    },
+    "of Teleportation": {
+        "Key": "of Teleportation",
+        "enUS": "of Teleportation",
+        "zhCN": "傳送之",
+        "zhTW": "傳送之",
+        "sgCN": "传送",
+        "sgTW": "傳送"
+    },
+    "of Enchantment": {
+        "Key": "of Enchantment",
+        "enUS": "of Enchantment",
+        "zhCN": "附魔之",
+        "zhTW": "附魔之",
+        "sgCN": "强化",
+        "sgTW": "強化"
+    },
+    "of Fire Walls": {
+        "Key": "of Fire Walls",
+        "enUS": "of Fire Wall",
+        "zhCN": "火牆之",
+        "zhTW": "火牆之",
+        "sgCN": "火墙",
+        "sgTW": "火牆"
+    },
+    "of Novas": {
+        "Key": "of Novas",
+        "enUS": "of Nova",
+        "zhCN": "閃電新星之",
+        "zhTW": "閃電新星之",
+        "sgCN": "新星",
+        "sgTW": "新星"
+    },
+    "of Fire Balls": {
+        "Key": "of Fire Balls",
+        "enUS": "of Fire Ball",
+        "zhCN": "火球之",
+        "zhTW": "火球之",
+        "sgCN": "火球",
+        "sgTW": "火球"
+    },
+    "of Blazing": {
+        "Key": "of Blazing",
+        "enUS": "of Blazing",
+        "zhCN": "熾烈之徑",
+        "zhTW": "熾烈之徑",
+        "sgCN": "炽烈之径",
+        "sgTW": "熾烈之徑"
+    },
+    "of Ice Blasts": {
+        "Key": "of Ice Blasts",
+        "enUS": "of Ice Blast",
+        "zhCN": "寒冰球之",
+        "zhTW": "寒冰球之",
+        "sgCN": "冰风暴",
+        "sgTW": "冰風暴"
+    },
+    "of Frost Novas": {
+        "Key": "of Frost Novas",
+        "enUS": "of Frost Nova",
+        "zhCN": "冰霜新星之",
+        "zhTW": "冰霜新星之",
+        "sgCN": "霜之新星",
+        "sgTW": "霜之新星"
+    },
+    "of Ice Bolts": {
+        "Key": "of Ice Bolts",
+        "enUS": "of Ice Bolt",
+        "zhCN": "寒冰彈之",
+        "zhTW": "寒冰彈之",
+        "sgCN": "冰弹",
+        "sgTW": "冰彈"
+    },
+    "of Charged Bolts": {
+        "Key": "of Charged Bolts",
+        "enUS": "of Charged Bolt",
+        "zhCN": "電能彈之",
+        "zhTW": "電能彈之",
+        "sgCN": "充能弹",
+        "sgTW": "充能彈"
+    },
+    "of Fire Bolts": {
+        "Key": "of Fire Bolts",
+        "enUS": "of Fire Bolt",
+        "zhCN": "火焰彈之",
+        "zhTW": "火焰彈之",
+        "sgCN": "火弹",
+        "sgTW": "火彈"
+    },
+    "of Lightning Fury": {
+        "Key": "of Lightning Fury",
+        "enUS": "of Lightning Fury",
+        "zhCN": "閃電烈怒之",
+        "zhTW": "閃電烈怒之",
+        "sgCN": "闪电之怒",
+        "sgTW": "閃電之怒"
+    },
+    "of Lightning Spear": {
+        "Key": "of Lightning Spear",
+        "enUS": "of Lightning Spear",
+        "zhCN": "閃電長矛之",
+        "zhTW": "閃電長矛之",
+        "sgCN": "闪电攻击",
+        "sgTW": "閃電攻擊"
+    },
+    "of Freezing Arrows": {
+        "Key": "of Freezing Arrows",
+        "enUS": "of Freezing Arrow",
+        "zhCN": "冰凍箭之",
+        "zhTW": "冰凍箭之",
+        "sgCN": "冻结之箭",
+        "sgTW": "凍結之箭"
+    },
+    "of Fending": {
+        "Key": "of Fending",
+        "enUS": "of Fending",
+        "zhCN": "疾刺之",
+        "zhTW": "疾刺之",
+        "sgCN": "疾刺",
+        "sgTW": "疾刺"
+    },
+    "of Immolating Arrows": {
+        "Key": "of Immolating Arrows",
+        "enUS": "of Immolating Arrow",
+        "zhCN": "熾炎箭",
+        "zhTW": "熾炎箭",
+        "sgCN": "牺牲之箭",
+        "sgTW": "犧牲之箭"
+    },
+    "of Plague Javelin": {
+        "Key": "of Plague Javelin",
+        "enUS": "of Plague Javelin",
+        "zhCN": "瘟疫標槍之",
+        "zhTW": "瘟疫標槍之",
+        "sgCN": "瘟疫标枪",
+        "sgTW": "瘟疫鏢槍"
+    },
+    "of Charged Spear": {
+        "Key": "of Charged Spear",
+        "enUS": "of Charged Spear",
+        "zhCN": "聚能長矛之",
+        "zhTW": "聚能長矛之",
+        "sgCN": "充能一击",
+        "sgTW": "充能一擊"
+    },
+    "of Guided Arrows": {
+        "Key": "of Guided Arrows",
+        "enUS": "of Guided Arrow",
+        "zhCN": "導引箭",
+        "zhTW": "導引箭",
+        "sgCN": "导引箭",
+        "sgTW": "導引箭"
+    },
+    "of Ice Arrows": {
+        "Key": "of Ice Arrows",
+        "enUS": "of Ice Arrow",
+        "zhCN": "寒冰箭之",
+        "zhTW": "寒冰箭之",
+        "sgCN": "急冻箭",
+        "sgTW": "急凍箭"
+    },
+    "of Lightning Javelin": {
+        "Key": "of Lightning Javelin",
+        "enUS": "of Lightning Javelin",
+        "zhCN": "閃電標槍之",
+        "zhTW": "閃電標槍之",
+        "sgCN": "闪电标枪",
+        "sgTW": "閃電鏢槍"
+    },
+    "of Impaling Spear": {
+        "Key": "of Impaling Spear",
+        "enUS": "of Impaling Spear",
+        "zhCN": "穿刺長矛之",
+        "zhTW": "穿刺長矛之",
+        "sgCN": "刺爆",
+        "sgTW": "刺爆之"
+    },
+    "of Slow Missiles": {
+        "Key": "of Slow Missiles",
+        "enUS": "of Slow Missile",
+        "zhCN": "緩箭術之",
+        "zhTW": "緩箭術之",
+        "sgCN": "慢速箭",
+        "sgTW": "慢速箭"
+    },
+    "of Exploding Arrows": {
+        "Key": "of Exploding Arrows",
+        "enUS": "of Exploding Arrow",
+        "zhCN": "爆裂箭之",
+        "zhTW": "爆裂箭之",
+        "sgCN": "爆裂箭",
+        "sgTW": "爆裂箭"
+    },
+    "of Poison Javelin": {
+        "Key": "of Poison Javelin",
+        "enUS": "of Poison Javelin",
+        "zhCN": "劇毒標槍之",
+        "zhTW": "劇毒標槍之",
+        "sgCN": "毒枪",
+        "sgTW": "毒槍"
+    },
+    "of Power Spear": {
+        "Key": "of Power Spear",
+        "enUS": "of Power Spear",
+        "zhCN": "充能長矛之",
+        "zhTW": "充能長矛之",
+        "sgCN": "威力一击",
+        "sgTW": "威力一擊"
+    },
+    "of Multiple Shot": {
+        "Key": "of Multiple Shot",
+        "enUS": "of Multiple Shot",
+        "zhCN": "多重箭之",
+        "zhTW": "多重箭之",
+        "sgCN": "多重箭",
+        "sgTW": "多重箭"
+    },
+    "of Cold Arrows": {
+        "Key": "of Cold Arrows",
+        "enUS": "of Cold Arrow",
+        "zhCN": "冷霜箭之",
+        "zhTW": "冷霜箭之",
+        "sgCN": "冰箭之",
+        "sgTW": "冰箭"
+    },
+    "of Jabbing": {
+        "Key": "of Jabbing",
+        "enUS": "of Jab",
+        "zhCN": "戳刺之",
+        "zhTW": "戳刺之",
+        "sgCN": "戳刺",
+        "sgTW": "戳刺"
+    },
+    "of Inner Sight": {
+        "Key": "of Inner Sight",
+        "enUS": "of Inner Sight",
+        "zhCN": "心靈視野之",
+        "zhTW": "心靈視野之",
+        "sgCN": "内视",
+        "sgTW": "內視"
+    },
+    "of Fire Arrows": {
+        "Key": "of Fire Arrows",
+        "enUS": "of Fire Arrow",
+        "zhCN": "火焰箭之",
+        "zhTW": "火焰箭之",
+        "sgCN": "火焰箭",
+        "sgTW": "火焰箭"
+    },
+    "of Magic Arrows": {
+        "Key": "of Magic Arrows",
+        "enUS": "of Magic Arrow",
+        "zhCN": "魔法箭之",
+        "zhTW": "魔法箭之",
+        "sgCN": "魔法箭",
+        "sgTW": "魔法箭"
+    },
+    "Of self-repair": {
+        "Key": "Of self-repair",
+        "enUS": "Self-Repair",
+        "zhCN": "自我修復",
+        "zhTW": "自我修復",
+        "sgCN": "自我修复",
+        "sgTW": "自我修復"
+    },
+    "of Dawn": {
+        "Key": "of Dawn",
+        "enUS": "of Dawn",
+        "zhCN": "黎明之",
+        "zhTW": "黎明之",
+        "sgCN": "破晓",
+        "sgTW": "破曉"
+    },
+    "of Inertia": {
+        "Key": "of Inertia",
+        "enUS": "of Inertia",
+        "zhCN": "慣性之",
+        "zhTW": "慣性之",
+        "sgCN": "惯性之",
+        "sgTW": "慣性"
+    },
+    "of Joyfulness": {
+        "Key": "of Joyfulness",
+        "enUS": "of Joyfulness",
+        "zhCN": "歡愉之",
+        "zhTW": "歡愉之",
+        "sgCN": "快乐",
+        "sgTW": "快樂"
+    },
+    "of Lightning Strike": {
+        "Key": "of Lightning Strike",
+        "enUS": "of Lightning Strike",
+        "zhCN": "閃電強擊之",
+        "zhTW": "閃電強擊之",
+        "sgCN": "之闪电攻击",
+        "sgTW": "之閃電攻擊"
+    },
+    "of Plague Jab": {
+        "Key": "of Plague Jab",
+        "enUS": "of Plague Jab",
+        "zhCN": "瘟疫戳刺之",
+        "zhTW": "瘟疫戳刺之",
+        "sgCN": "之瘟疫戳刺",
+        "sgTW": "之瘟疫戳刺"
+    },
+    "of Charged Strike": {
+        "Key": "of Charged Strike",
+        "enUS": "of Charged Strike",
+        "zhCN": "聚能強擊之",
+        "zhTW": "聚能強擊之",
+        "sgCN": "之充能一击",
+        "sgTW": "之充能一擊"
+    },
+    "of Impaling Strike": {
+        "Key": "of Impaling Strike",
+        "enUS": "of Impaling Strike",
+        "zhCN": "穿刺之",
+        "zhTW": "穿刺之",
+        "sgCN": "之刺爆",
+        "sgTW": "之刺爆"
+    },
+    "of Poison Jab": {
+        "Key": "of Poison Jab",
+        "enUS": "of Poison Jab",
+        "zhCN": "劇毒戳刺之",
+        "zhTW": "劇毒戳刺之",
+        "sgCN": "之剧毒戳刺",
+        "sgTW": "之劇毒戳刺"
+    },
+    "of Power Strike": {
+        "Key": "of Power Strike",
+        "enUS": "of Power Strike",
+        "zhCN": "充能強擊之",
+        "zhTW": "充能強擊之",
+        "sgCN": "之威力一击",
+        "sgTW": "之威力一擊"
+    },
+    "of the Colossus": {
+        "Key": "of the Colossus",
+        "enUS": "of the Gargantuan",
+        "zhCN": "龐然巨物之",
+        "zhTW": "龐然巨物之",
+        "sgCN": "之大食巨人",
+        "sgTW": "之大食巨人"
+    },
+    "of the Kraken": {
+        "Key": "of the Kraken",
+        "enUS": "of the Centaur",
+        "zhCN": "半人馬之",
+        "zhTW": "半人馬之",
+        "sgCN": "之半人马",
+        "sgTW": "之半人馬"
+    },
+    "of the Plague": {
+        "Key": "of the Plague",
+        "enUS": "of the Plague",
+        "zhCN": "瘟疫之",
+        "zhTW": "瘟疫之",
+        "sgCN": "瘟疫的",
+        "sgTW": "瘟疫的"
+    },
+    "UiShadowUI": {
+        "Key": "UiShadowUI",
+        "enUS": "Shadow",
+        "zhCN": "暗影分身",
+        "zhTW": "暗影分身",
+        "sgCN": "影子",
+        "sgTW": "影子"
+    },
+    "Ghostly": {
+        "Key": "Ghostly",
+        "enUS": "Ghostly",
+        "zhCN": "幽靈",
+        "zhTW": "幽靈",
+        "sgCN": "幽灵的",
+        "sgTW": "幽靈的"
+    },
+    "Fanatic": {
+        "Key": "Fanatic",
+        "enUS": "Fanatic",
+        "zhCN": "暴怒",
+        "zhTW": "暴怒",
+        "sgCN": "狂信者",
+        "sgTW": "狂信者"
+    },
+    "Possessed": {
+        "Key": "Possessed",
+        "enUS": "Possessed",
+        "zhCN": "著魔",
+        "zhTW": "著魔",
+        "sgCN": "着魔者",
+        "sgTW": "著魔者"
+    },
+    "Berserk": {
+        "Key": "Berserk",
+        "enUS": "Berserker",
+        "zhCN": "狂暴",
+        "zhTW": "狂暴",
+        "sgCN": "狂战士",
+        "sgTW": "狂戰士"
+    },
+    "Virulent": {
+        "Key": "Virulent",
+        "enUS": "Virulent",
+        "zhCN": "怨毒",
+        "zhTW": "怨毒",
+        "sgCN": "剧毒",
+        "sgTW": "怨毒"
+    },
+    "of Acidity": {
+        "Key": "of Acidity",
+        "enUS": "of Acidity",
+        "zhCN": "酸蝕之",
+        "zhTW": "酸蝕之",
+        "sgCN": "酸蚀之",
+        "sgTW": "酸蝕之"
+    },
+    "Incendiary": {
+        "Key": "Incendiary",
+        "enUS": "Incendiary",
+        "zhCN": "煽火",
+        "zhTW": "煽火",
+        "sgCN": "焚烧",
+        "sgTW": "煽火"
+    },
+    "of Kindling": {
+        "Key": "of Kindling",
+        "enUS": "of Kindling",
+        "zhCN": "引火之",
+        "zhTW": "引火之",
+        "sgCN": "点燃之",
+        "sgTW": "引火之"
+    },
+    "Gelid": {
+        "Key": "Gelid",
+        "enUS": "Gelid",
+        "zhCN": "嚴寒",
+        "zhTW": "嚴寒",
+        "sgCN": "极寒",
+        "sgTW": "嚴寒"
+    },
+    "of Numbing": {
+        "Key": "of Numbing",
+        "enUS": "of Numbing",
+        "zhCN": "麻木之",
+        "zhTW": "麻木之",
+        "sgCN": "麻痹之",
+        "sgTW": "麻木之"
+    },
+    "Magnetic": {
+        "Key": "Magnetic",
+        "enUS": "Magnetic",
+        "zhCN": "磁性",
+        "zhTW": "磁性",
+        "sgCN": "磁性",
+        "sgTW": "磁性"
+    },
+    "of Conductivity": {
+        "Key": "of Conductivity",
+        "enUS": "of Conductivity",
+        "zhCN": "導電之",
+        "zhTW": "導電之",
+        "sgCN": "传导之",
+        "sgTW": "導電之"
+    },
+    "Mystical": {
+        "Key": "Mystical",
+        "enUS": "Mystical",
+        "zhCN": "神秘",
+        "zhTW": "神秘",
+        "sgCN": "神秘",
+        "sgTW": "神秘"
+    },
+    "of Thaumaturgy": {
+        "Key": "of Thaumaturgy",
+        "enUS": "of Thaumaturgy",
+        "zhCN": "奇術之",
+        "zhTW": "奇術之",
+        "sgCN": "奇术之",
+        "sgTW": "奇術之"
+    },
+    "Breaching": {
+        "Key": "Breaching",
+        "enUS": "Breaching",
+        "zhCN": "突破",
+        "zhTW": "突破",
+        "sgCN": "破甲",
+        "sgTW": "突破"
+    },
+    "of Force": {
+        "Key": "of Force",
+        "enUS": "of Force",
+        "zhCN": "力迫之",
+        "zhTW": "力迫之",
+        "sgCN": "力量之",
+        "sgTW": "力迫之"
+    },
+    "Sullied": {
+        "Key": "Sullied",
+        "enUS": "Sullied",
+        "zhCN": "玷汙",
+        "zhTW": "玷汙",
+        "sgCN": "污染",
+        "sgTW": "玷汙"
+    },
+    "Fiendish": {
+        "Key": "Fiendish",
+        "enUS": "Fiendish",
+        "zhCN": "妖魔",
+        "zhTW": "妖魔",
+        "sgCN": "邪鬼",
+        "sgTW": "妖魔"
+    },
+    "Erratic": {
+        "Key": "Erratic",
+        "enUS": "Erratic",
+        "zhCN": "失序",
+        "zhTW": "失序",
+        "sgCN": "善变",
+        "sgTW": "失序"
+    },
+    "Torrid": {
+        "Key": "Torrid",
+        "enUS": "Torrid",
+        "zhCN": "熾熱",
+        "zhTW": "熾熱",
+        "sgCN": "灼热",
+        "sgTW": "熾熱"
+    },
+    "TaintedAffix": {
+        "Key": "TaintedAffix",
+        "enUS": "Tainted",
+        "zhCN": "魔汙",
+        "zhTW": "魔汙",
+        "sgCN": "污染",
+        "sgTW": "魔汙"
+    },
+    "Forbidden": {
+        "Key": "Forbidden",
+        "enUS": "Forbidden",
+        "zhCN": "封禁",
+        "zhTW": "封禁",
+        "sgCN": "禁忌",
+        "sgTW": "封禁"
+    },
+    "Dreadful": {
+        "Key": "Dreadful",
+        "enUS": "Dreadful",
+        "zhCN": "怖懼",
+        "zhTW": "怖懼",
+        "sgCN": "可怖",
+        "sgTW": "怖懼"
+    },
+    "Malevolent": {
+        "Key": "Malevolent",
+        "enUS": "Malevolent",
+        "zhCN": "惡毒",
+        "zhTW": "惡毒",
+        "sgCN": "恶意",
+        "sgTW": "惡毒"
+    },
+    "of Miasma Bolt": {
+        "Key": "of Miasma Bolt",
+        "enUS": "of Miasma Bolt",
+        "zhCN": "瘴氣彈之",
+        "zhTW": "瘴氣彈之",
+        "sgCN": "瘴气弹之",
+        "sgTW": "瘴氣彈之"
+    },
+    "of Lethargy": {
+        "Key": "of Lethargy",
+        "enUS": "of Lethargy",
+        "zhCN": "昏沉之",
+        "zhTW": "昏沉之",
+        "sgCN": "迟缓之",
+        "sgTW": "昏沉之"
+    },
+    "of Rancor": {
+        "Key": "of Rancor",
+        "enUS": "of Rancor",
+        "zhCN": "冤仇之",
+        "zhTW": "冤仇之",
+        "sgCN": "怨恨之",
+        "sgTW": "冤仇之"
+    },
+    "of Apocalypse": {
+        "Key": "of Apocalypse",
+        "enUS": "of Apocalypse",
+        "zhCN": "天啟末日之",
+        "zhTW": "天啟末日之",
+        "sgCN": "末日之",
+        "sgTW": "天啟末日之"
+    },
+    "Devil's": {
+        "Key": "Devil's",
+        "enUS": "Devil's",
+        "zhCN": "妖鬼的",
+        "zhTW": "妖鬼的",
+        "sgCN": "恶魔的",
+        "sgTW": "妖鬼的"
+    },
+    "Arch-Devil's": {
+        "Key": "Arch-Devil's",
+        "enUS": "Arch-Devil's",
+        "zhCN": "大妖鬼",
+        "zhTW": "大妖鬼",
+        "sgCN": "大恶魔的",
+        "sgTW": "大妖鬼"
+    }
+}

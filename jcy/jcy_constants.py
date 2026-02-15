@@ -33,10 +33,10 @@ LANG = None
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.4.0A"
+APP_VERSION = "v1.4.0B"
 
 # 发布日期
-APP_DATE = "20260212"
+APP_DATE = "20260215"
 
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"

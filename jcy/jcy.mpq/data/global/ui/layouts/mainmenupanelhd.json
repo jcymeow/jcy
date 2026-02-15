@@ -359,6 +359,16 @@
         },
         {
             "type": "PlayerLoaderWidget",
+            "name": "PreloadWarlock",
+            "fields": {
+                "playerClass": "Warlock",
+                "animation": "FrontendNeutral",
+                "animationSpeed": 0,
+                "captureInView": "$INT_MAX"
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget",
             "name": "Player",
             "fields": {
                 "position": [

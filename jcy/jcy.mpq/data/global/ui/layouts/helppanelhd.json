@@ -3,7 +3,7 @@
     "name": "HelpPanel",
     "fields": {
         "priority": 300,
-        "fitToParent": 1,
+        "fitToParent": true,
         "childFormats": [
             {
                 "name": "HelpRun",
@@ -63,7 +63,7 @@
                 "name": "Helpskillbind",
                 "rect": {
                     "x": -865,
-                    "y": 960
+                    "y": 895
                 },
                 "command": [
                     "skill1",
@@ -72,19 +72,10 @@
                 "text": "@StrHDHelp7"
             },
             {
-                "name": "HelpRenderToggle",
-                "rect": {
-                    "x": -865,
-                    "y": 700
-                },
-                "command": "toggle_renderer",
-                "text": "@StrHDHelp8"
-            },
-            {
                 "name": "HelpZoom",
                 "rect": {
                     "x": -865,
-                    "y": 765
+                    "y": 700
                 },
                 "command": "zoom",
                 "text": "@StrHDHelpZoomDescription"
@@ -93,7 +84,7 @@
                 "name": "HelpMercenaryScreen",
                 "rect": {
                     "x": -865,
-                    "y": 830
+                    "y": 765
                 },
                 "command": "hirelingscreen",
                 "text": "@StrHDHelp9"
@@ -102,7 +93,7 @@
                 "name": "HelpMercenaryPotion",
                 "rect": {
                     "x": -865,
-                    "y": 895
+                    "y": 830
                 },
                 "command": [
                     "standstill",
@@ -120,12 +111,12 @@
             "type": "RectangleWidget",
             "name": "TransparentBG",
             "fields": {
-                "fitToScreen": 1,
+                "fitToScreen": true,
                 "color": [
-                    0,
-                    0,
-                    0,
-                    0
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
                 ]
             },
             "children": [
@@ -133,7 +124,7 @@
                     "type": "ClickCatcherWidget",
                     "name": "catcher",
                     "fields": {
-                        "fitToParent": 1
+                        "fitToParent": true
                     }
                 }
             ]
@@ -172,214 +163,212 @@
                     }
                 },
                 {
-                    "type": "TableWidget",
-                    "name": "PauseInfoTable",
+                    "type": "TextBoxWidget",
+                    "name": "GameplayLabel",
                     "fields": {
-                        "anchor": {
-                            "x": 0.5,
-                            "y": 0.5
-                        },
                         "rect": {
-                            "x": -680,
-                            "y": 240
+                            "x": -920,
+                            "y": 75
                         },
-                        "columns": [
-                            {
-                                "width": 720,
-                                "alignment": {
-                                    "h": "center",
-                                    "v": "center"
-                                }
-                            },
-                            {
-                                "width": 720,
-                                "alignment": {
-                                    "h": "center",
-                                    "v": "center"
-                                }
+                        "text": "@StrHDHelp12",
+                        "style": {
+                            "fontColor": "$FontColorGoldYellow",
+                            "pointSize": "$LargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
                             }
-                        ],
-                        "rowHeight": 180,
-                        "generateFocusLinks": true
-                    },
-                    "children": [
-                        {
-                            "type": "TableRowWidget",
-                            "name": "RowItemDictionary1",
-                            "children": [
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextNormalWeapons",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryNormalWeaponMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "NormalWeaponDictionary"
-                                },
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextNormalArmors",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryNormalArmorMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "NormalArmorDictionary"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "RowItemDictionary2",
-                            "children": [
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextUniqueWeapons",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryUniqueWeaponMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "UniqueWeaponDictionary"
-                                },
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextUniqueArmors",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryUniqueArmorMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "UniqueArmorDictionary"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "RowItemDictionary3",
-                            "children": [
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextRunewords",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryRunewordMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "RunewordItemDictionary"
-                                },
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextSetItems",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionarySetItemMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "SetItemDictionary"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "TableRowWidget",
-                            "name": "RowItemDictionary4",
-                            "children": [
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextCubeRecipes",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:itemDictionaryCubeMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "CubeRecipeDictionary"
-                                },
-                                {
-                                    "fields": {
-                                        "filename": "PauseMenu\\PauseButton",
-                                        "hoveredFrame": 3,
-                                        "textString": "@dictTextBreakPoints",
-                                        "pressLabelOffset": [
-                                            0,
-                                            0
-                                        ],
-                                        "onClickMessage": "PanelManager:OpenPanel:ItemDictionaryBreakPointMainPanel",
-                                        "textColor": "$FontColorLightTeal",
-                                        "text/style": "$StyleFEButtonText",
-                                        "acceptsReturnKey": true,
-                                        "focusOnMouseOver": true,
-                                        "sound": "select"
-                                    },
-                                    "type": "ButtonWidget",
-                                    "name": "BreakPointDictionary"
-                                }
-                            ]
                         }
-                    ]
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpRun",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpHighItems",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpStandAttack",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "UILabel",
+                    "fields": {
+                        "rect": {
+                            "x": -920,
+                            "y": 405
+                        },
+                        "text": "@StrHDHelp11",
+                        "style": {
+                            "fontColor": "$FontColorGoldYellow",
+                            "pointSize": "$LargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpAutoMap",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpGameMenu",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpchatMode",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "Helpskillbind",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpZoom",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpMercenaryScreen",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "HelpMercenaryPotion",
+                    "fields": {
+                        "fontType": "12ptF",
+                        "style": {
+                            "options": {
+                                "pipeCharacterBehavior": "handle"
+                            },
+                            "pointSize": "$MediumLargeFontSize",
+                            "alignment": {
+                                "v": "center",
+                                "h": "left"
+                            }
+                        }
+                    }
                 },
                 {
                     "type": "TextBoxWidget",
@@ -759,8 +748,8 @@
             "name": "RightSection",
             "fields": {
                 "anchor": {
-                    "x": 1,
-                    "y": 1
+                    "x": 1.0,
+                    "y": 1.0
                 },
                 "rect": {
                     "x": -230,
@@ -825,10 +814,10 @@
                         "requiredDamageLevel": "none",
                         "lowDamageFraction": 0.5,
                         "mediumDamageFraction": 0.8,
-                        "highDamageFraction": 1,
-                        "damagedAlpha": 1,
-                        "undamagedAlpha": 1,
-                        "unwornAlpha": 1
+                        "highDamageFraction": 1.0,
+                        "damagedAlpha": 1.0,
+                        "undamagedAlpha": 1.0,
+                        "unwornAlpha": 1.0
                     }
                 },
                 {

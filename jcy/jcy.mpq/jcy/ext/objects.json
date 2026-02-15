@@ -1,0 +1,1530 @@
+{
+    "orifice": {
+        "Key": "orifice",
+        "enUS": "orifice",
+        "zhCN": "插槽",
+        "zhTW": "插槽",
+        "sgCN": "底座",
+        "sgTW": "插槽"
+    },
+    "Barrel": {
+        "Key": "Barrel",
+        "enUS": "Barrel",
+        "zhCN": "木桶",
+        "zhTW": "木桶",
+        "sgCN": "桶",
+        "sgTW": "木桶"
+    },
+    "Lever1": {
+        "Key": "Lever1",
+        "enUS": "Lever",
+        "zhCN": "拉桿",
+        "zhTW": "拉桿",
+        "sgCN": "控制杆",
+        "sgTW": "拉桿"
+    },
+    "BarrelEx": {
+        "Key": "BarrelEx",
+        "enUS": "an Exploding Barrel",
+        "zhCN": "爆炸桶",
+        "zhTW": "爆炸桶",
+        "sgCN": "一个爆炸桶",
+        "sgTW": "爆炸桶"
+    },
+    "Door": {
+        "Key": "Door",
+        "enUS": "Closed Door",
+        "zhCN": "關閉的門",
+        "zhTW": "關閉的門",
+        "sgCN": "关闭的门",
+        "sgTW": "關閉的門"
+    },
+    "Portal": {
+        "Key": "Portal",
+        "enUS": "Portal to ",
+        "zhCN": "傳送到",
+        "zhTW": "傳送到",
+        "sgCN": "传送门至",
+        "sgTW": "傳送到"
+    },
+    "ODoor": {
+        "Key": "ODoor",
+        "enUS": "Open Door",
+        "zhCN": "打開的門",
+        "zhTW": "打開的門",
+        "sgCN": "打开的门",
+        "sgTW": "打開的門"
+    },
+    "BlockedDoor": {
+        "Key": "BlockedDoor",
+        "enUS": "Blocked Door",
+        "zhCN": "堵住的門",
+        "zhTW": "堵住的門",
+        "sgCN": "堵上的门",
+        "sgTW": "堵住的門"
+    },
+    "LockedDoor": {
+        "Key": "LockedDoor",
+        "enUS": "Locked Door",
+        "zhCN": "上鎖的門",
+        "zhTW": "上鎖的門",
+        "sgCN": "锁住的门",
+        "sgTW": "上鎖的門"
+    },
+    "StoneAlpha": {
+        "Key": "StoneAlpha",
+        "enUS": "Cairn Stone",
+        "zhCN": "石柱",
+        "zhTW": "石柱",
+        "sgCN": "石柱",
+        "sgTW": "石柱"
+    },
+    "StoneBeta": {
+        "Key": "StoneBeta",
+        "enUS": "Cairn Stone",
+        "zhCN": "石柱",
+        "zhTW": "石柱",
+        "sgCN": "石柱",
+        "sgTW": "石柱"
+    },
+    "StoneDelta": {
+        "Key": "StoneDelta",
+        "enUS": "Cairn Stone",
+        "zhCN": "石柱",
+        "zhTW": "石柱",
+        "sgCN": "石柱",
+        "sgTW": "石柱"
+    },
+    "StoneGamma": {
+        "Key": "StoneGamma",
+        "enUS": "Cairn Stone",
+        "zhCN": "石柱",
+        "zhTW": "石柱",
+        "sgCN": "石柱",
+        "sgTW": "石柱"
+    },
+    "StoneLambda": {
+        "Key": "StoneLambda",
+        "enUS": "Cairn Stone",
+        "zhCN": "石柱",
+        "zhTW": "石柱",
+        "sgCN": "石柱",
+        "sgTW": "石柱"
+    },
+    "StoneTheta": {
+        "Key": "StoneTheta",
+        "enUS": "Cairn Stone",
+        "zhCN": "石柱",
+        "zhTW": "石柱",
+        "sgCN": "石柱",
+        "sgTW": "石柱"
+    },
+    "Crate": {
+        "Key": "Crate",
+        "enUS": "Crate",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "木条箱",
+        "sgTW": "箱子"
+    },
+    "Casket": {
+        "Key": "Casket",
+        "enUS": "Casket",
+        "zhCN": "石柩",
+        "zhTW": "石柩",
+        "sgCN": "棺木",
+        "sgTW": "石柩"
+    },
+    "Cabinet": {
+        "Key": "Cabinet",
+        "enUS": "Cabinet",
+        "zhCN": "櫃子",
+        "zhTW": "櫃子",
+        "sgCN": "柜子",
+        "sgTW": "櫃子"
+    },
+    "Vase": {
+        "Key": "Vase",
+        "enUS": "Vase",
+        "zhCN": "花瓶",
+        "zhTW": "花瓶",
+        "sgCN": "花瓶",
+        "sgTW": "花瓶"
+    },
+    "Inifuss": {
+        "Key": "Inifuss",
+        "enUS": "Tree of Inifuss",
+        "zhCN": "艾尼弗斯之樹",
+        "zhTW": "艾尼弗斯之樹",
+        "sgCN": "艾尼弗斯之树",
+        "sgTW": "艾尼弗斯之樹"
+    },
+    "corpse": {
+        "Key": "corpse",
+        "enUS": "Corpse",
+        "zhCN": "屍體",
+        "zhTW": "屍體",
+        "sgCN": "尸骸",
+        "sgTW": "屍體"
+    },
+    "RogueCorpse": {
+        "Key": "RogueCorpse",
+        "enUS": "Dead Rogue",
+        "zhCN": "死掉的俠盜",
+        "zhTW": "死掉的俠盜",
+        "sgCN": "死去的流亡者",
+        "sgTW": "死掉的俠盜"
+    },
+    "CorpseOnStick": {
+        "Key": "CorpseOnStick",
+        "enUS": "Dead Rogue",
+        "zhCN": "死掉的俠盜",
+        "zhTW": "死掉的俠盜",
+        "sgCN": "死去的流亡者",
+        "sgTW": "死掉的俠盜"
+    },
+    "TowerTome": {
+        "Key": "TowerTome",
+        "enUS": "The Moldy Tome",
+        "zhCN": "發霉的古書",
+        "zhTW": "發霉的古書",
+        "sgCN": "发霉的书",
+        "sgTW": "發霉的古書"
+    },
+    "ArmorStand": {
+        "Key": "ArmorStand",
+        "enUS": "Armor Stand",
+        "zhCN": "防具架",
+        "zhTW": "防具架",
+        "sgCN": "护甲架",
+        "sgTW": "防具架"
+    },
+    "WeaponRack": {
+        "Key": "WeaponRack",
+        "enUS": "Weapon Rack",
+        "zhCN": "武器架",
+        "zhTW": "武器架",
+        "sgCN": "武器架",
+        "sgTW": "武器架"
+    },
+    "Sarcophagus": {
+        "Key": "Sarcophagus",
+        "enUS": "Sarcophagus",
+        "zhCN": "石棺",
+        "zhTW": "石棺",
+        "sgCN": "石棺",
+        "sgTW": "石棺"
+    },
+    "Trap Door": {
+        "Key": "Trap Door",
+        "enUS": "Trap Door",
+        "zhCN": "暗門",
+        "zhTW": "暗門",
+        "sgCN": "活板门",
+        "sgTW": "暗門"
+    },
+    "LargeUrn": {
+        "Key": "LargeUrn",
+        "enUS": "Large Urn",
+        "zhCN": "大甕",
+        "zhTW": "大甕",
+        "sgCN": "大瓮",
+        "sgTW": "大甕"
+    },
+    "CanopicJar": {
+        "Key": "CanopicJar",
+        "enUS": "Canopic Jar",
+        "zhCN": "臟器罈",
+        "zhTW": "臟器罈",
+        "sgCN": "坎努匹克陶罐",
+        "sgTW": "臟器罈"
+    },
+    "Obelisk": {
+        "Key": "Obelisk",
+        "enUS": "Obelisk",
+        "zhCN": "方尖碑",
+        "zhTW": "方尖碑",
+        "sgCN": "石碑",
+        "sgTW": "方尖碑"
+    },
+    "HoleAnim": {
+        "Key": "HoleAnim",
+        "enUS": "Undefiled Grave",
+        "zhCN": "完好的墳墓",
+        "zhTW": "完好的墳墓",
+        "sgCN": "未被亵渎的坟墓",
+        "sgTW": "完好的墳墓"
+    },
+    "Urn": {
+        "Key": "Urn",
+        "enUS": "Urn",
+        "zhCN": "土甕",
+        "zhTW": "土甕",
+        "sgCN": "罐子",
+        "sgTW": "土甕"
+    },
+    "Well": {
+        "Key": "Well",
+        "enUS": "Well",
+        "zhCN": "井",
+        "zhTW": "井",
+        "sgCN": "井",
+        "sgTW": "井"
+    },
+    "bag": {
+        "Key": "bag",
+        "enUS": "Bag",
+        "zhCN": "袋子",
+        "zhTW": "袋子",
+        "sgCN": "袋子",
+        "sgTW": "袋子"
+    },
+    "Chest": {
+        "Key": "Chest",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "chest": {
+        "Key": "chest",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "lockedchest": {
+        "Key": "lockedchest",
+        "enUS": "Locked Chest",
+        "zhCN": "上鎖的箱子",
+        "zhTW": "上鎖的箱子",
+        "sgCN": "锁住的箱子",
+        "sgTW": "上鎖的箱子"
+    },
+    "templeshrine": {
+        "Key": "templeshrine",
+        "enUS": "shrine",
+        "zhCN": "聖壇",
+        "zhTW": "聖壇",
+        "sgCN": "圣坛",
+        "sgTW": "聖壇"
+    },
+    "stair": {
+        "Key": "stair",
+        "enUS": "Stair",
+        "zhCN": "樓梯",
+        "zhTW": "樓梯",
+        "sgCN": "楼梯",
+        "sgTW": "樓梯"
+    },
+    "coffin": {
+        "Key": "coffin",
+        "enUS": "Coffin",
+        "zhCN": "棺柩",
+        "zhTW": "棺柩",
+        "sgCN": "棺材",
+        "sgTW": "棺柩"
+    },
+    "bookshelf": {
+        "Key": "bookshelf",
+        "enUS": "Bookshelf",
+        "zhCN": "書架",
+        "zhTW": "書架",
+        "sgCN": "书架",
+        "sgTW": "書架"
+    },
+    "loose boulder": {
+        "Key": "loose boulder",
+        "enUS": "Loose Boulder",
+        "zhCN": "鬆動的圓石",
+        "zhTW": "鬆動的圓石",
+        "sgCN": "松动的巨石",
+        "sgTW": "鬆動的圓石"
+    },
+    "loose rock": {
+        "Key": "loose rock",
+        "enUS": "Loose Rock",
+        "zhCN": "鬆動的石塊",
+        "zhTW": "鬆動的石塊",
+        "sgCN": "松动的岩石",
+        "sgTW": "鬆動的石塊"
+    },
+    "hollow log": {
+        "Key": "hollow log",
+        "enUS": "Hollow Log",
+        "zhCN": "中空的木頭",
+        "zhTW": "中空的木頭",
+        "sgCN": "干枯的原木",
+        "sgTW": "中空的木頭"
+    },
+    "hiding spot": {
+        "Key": "hiding spot",
+        "enUS": "Hiding Spot",
+        "zhCN": "藏匿處",
+        "zhTW": "藏匿處",
+        "sgCN": "藏匿点",
+        "sgTW": "藏匿處"
+    },
+    "fire": {
+        "Key": "fire",
+        "enUS": "Fire",
+        "zhCN": "火焰",
+        "zhTW": "火焰",
+        "sgCN": "火",
+        "sgTW": "火焰"
+    },
+    "Chest3": {
+        "Key": "Chest3",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "hidden stash": {
+        "Key": "hidden stash",
+        "enUS": "Hidden Stash",
+        "zhCN": "隱藏的物品",
+        "zhTW": "隱藏的物品",
+        "sgCN": "藏匿物",
+        "sgTW": "隱藏的物品"
+    },
+    "GuardCorpse": {
+        "Key": "GuardCorpse",
+        "enUS": "Guard Corpse",
+        "zhCN": "守衛的屍體",
+        "zhTW": "守衛的屍體",
+        "sgCN": "守卫的尸体",
+        "sgTW": "守衛的屍體"
+    },
+    "bowl": {
+        "Key": "bowl",
+        "enUS": "Bowl",
+        "zhCN": "碗",
+        "zhTW": "碗",
+        "sgCN": "碗",
+        "sgTW": "碗"
+    },
+    "AmbientSound": {
+        "Key": "AmbientSound",
+        "enUS": "Ambient Sound",
+        "zhCN": "環境聲音",
+        "zhTW": "環境聲音",
+        "sgCN": "环境音效",
+        "sgTW": "環境聲音"
+    },
+    "burning body": {
+        "Key": "burning body",
+        "enUS": "Burning Body",
+        "zhCN": "燃燒的屍體",
+        "zhTW": "燃燒的屍體",
+        "sgCN": "燃烧的尸体",
+        "sgTW": "燃燒的屍體"
+    },
+    "door": {
+        "Key": "door",
+        "enUS": "Door",
+        "zhCN": "門",
+        "zhTW": "門",
+        "sgCN": "门",
+        "sgTW": "門"
+    },
+    "skullpile": {
+        "Key": "skullpile",
+        "enUS": "Skullpile",
+        "zhCN": "骷髏堆",
+        "zhTW": "骷髏堆",
+        "sgCN": "头骨堆",
+        "sgTW": "骷髏堆"
+    },
+    "cocoon": {
+        "Key": "cocoon",
+        "enUS": "Cocoon",
+        "zhCN": "繭",
+        "zhTW": "繭",
+        "sgCN": "茧",
+        "sgTW": "繭"
+    },
+    "gidbinn altar": {
+        "Key": "gidbinn altar",
+        "enUS": "Gidbinn Altar",
+        "zhCN": "吉德賓祭壇",
+        "zhTW": "吉德賓祭壇",
+        "sgCN": "吉德宾祭坛",
+        "sgTW": "吉德賓祭壇"
+    },
+    "cowa": {
+        "Key": "cowa",
+        "enUS": "Cow",
+        "zhCN": "乳牛",
+        "zhTW": "乳牛",
+        "sgCN": "奶牛",
+        "sgTW": "乳牛"
+    },
+    "manashrine": {
+        "Key": "manashrine",
+        "enUS": "Shrine",
+        "zhCN": "聖壇",
+        "zhTW": "聖壇",
+        "sgCN": "圣坛",
+        "sgTW": "聖壇"
+    },
+    "ratchest": {
+        "Key": "ratchest",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "bank": {
+        "Key": "bank",
+        "enUS": "Your Private Stash",
+        "zhCN": "你的個人儲物箱",
+        "zhTW": "你的個人儲物箱",
+        "sgCN": "你的私人储藏箱",
+        "sgTW": "你的個人儲物箱"
+    },
+    "goo pile": {
+        "Key": "goo pile",
+        "enUS": "Goo Pile",
+        "zhCN": "黏液堆",
+        "zhTW": "黏液堆",
+        "sgCN": "粘液堆",
+        "sgTW": "黏液堆"
+    },
+    "holyshrine": {
+        "Key": "holyshrine",
+        "enUS": "Holyshrine",
+        "zhCN": "神聖祭壇",
+        "zhTW": "神聖祭壇",
+        "sgCN": "神坛",
+        "sgTW": "神聖祭壇"
+    },
+    "teleportation pad": {
+        "Key": "teleportation pad",
+        "enUS": "Teleport Pad",
+        "zhCN": "傳送台",
+        "zhTW": "傳送台",
+        "sgCN": "传送台",
+        "sgTW": "傳送台"
+    },
+    "ratchest-r": {
+        "Key": "ratchest-r",
+        "enUS": "Ratchest",
+        "zhCN": "老鼠箱",
+        "zhTW": "老鼠箱",
+        "sgCN": "老鼠箱",
+        "sgTW": "老鼠箱"
+    },
+    "skull pile": {
+        "Key": "skull pile",
+        "enUS": "Skull Pile",
+        "zhCN": "骷髏堆",
+        "zhTW": "骷髏堆",
+        "sgCN": "头骨堆",
+        "sgTW": "骷髏堆"
+    },
+    "body": {
+        "Key": "body",
+        "enUS": "Body",
+        "zhCN": "屍體",
+        "zhTW": "屍體",
+        "sgCN": "残骸",
+        "sgTW": "屍體"
+    },
+    "hell bridge": {
+        "Key": "hell bridge",
+        "enUS": "Hell Bridge",
+        "zhCN": "地獄之橋",
+        "zhTW": "地獄之橋",
+        "sgCN": "地狱桥",
+        "sgTW": "地獄之橋"
+    },
+    "compellingorb": {
+        "Key": "compellingorb",
+        "enUS": "Compelling Orb",
+        "zhCN": "強制魔珠",
+        "zhTW": "強制魔珠",
+        "sgCN": "强迫之球",
+        "sgTW": "強制魔珠"
+    },
+    "basket": {
+        "Key": "basket",
+        "enUS": "Basket",
+        "zhCN": "籃子",
+        "zhTW": "籃子",
+        "sgCN": "篮子",
+        "sgTW": "籃子"
+    },
+    "Basket": {
+        "Key": "Basket",
+        "enUS": "Basket",
+        "zhCN": "籃子",
+        "zhTW": "籃子",
+        "sgCN": "篮子",
+        "sgTW": "籃子"
+    },
+    "RockPIle": {
+        "Key": "RockPIle",
+        "enUS": "Rock Pile",
+        "zhCN": "石堆",
+        "zhTW": "石堆",
+        "sgCN": "岩石堆",
+        "sgTW": "石堆"
+    },
+    "dead body": {
+        "Key": "dead body",
+        "enUS": "Dead Body",
+        "zhCN": "屍體",
+        "zhTW": "屍體",
+        "sgCN": "死尸",
+        "sgTW": "屍體"
+    },
+    "eunuch": {
+        "Key": "eunuch",
+        "enUS": "Eunuch",
+        "zhCN": "閹人",
+        "zhTW": "閹人",
+        "sgCN": "阉人",
+        "sgTW": "閹人"
+    },
+    "dead guard": {
+        "Key": "dead guard",
+        "enUS": "Dead Guard",
+        "zhCN": "死亡的守衛",
+        "zhTW": "死亡的守衛",
+        "sgCN": "死去的守卫",
+        "sgTW": "死亡的守衛"
+    },
+    "portal": {
+        "Key": "portal",
+        "enUS": "Portal",
+        "zhCN": "傳送門",
+        "zhTW": "傳送門",
+        "sgCN": "传送门",
+        "sgTW": "傳送門"
+    },
+    "sarcophagus": {
+        "Key": "sarcophagus",
+        "enUS": "Sarcophagus",
+        "zhCN": "石棺",
+        "zhTW": "石棺",
+        "sgCN": "石棺",
+        "sgTW": "石棺"
+    },
+    "dead villager": {
+        "Key": "dead villager",
+        "enUS": "Dead Villager",
+        "zhCN": "死亡的村民",
+        "zhTW": "死亡的村民",
+        "sgCN": "遇难的村民",
+        "sgTW": "死亡的村民"
+    },
+    "sewer lever": {
+        "Key": "sewer lever",
+        "enUS": "Sewer Lever",
+        "zhCN": "下水道拉桿",
+        "zhTW": "下水道拉桿",
+        "sgCN": "下水道控制杆",
+        "sgTW": "下水道拉桿"
+    },
+    "sewer stairs": {
+        "Key": "sewer stairs",
+        "enUS": "Sewer Stairs",
+        "zhCN": "下水道樓梯",
+        "zhTW": "下水道樓梯",
+        "sgCN": "下水道阶梯",
+        "sgTW": "下水道樓梯"
+    },
+    "magic shrine": {
+        "Key": "magic shrine",
+        "enUS": "Magic Shrine",
+        "zhCN": "魔法祭壇",
+        "zhTW": "魔法祭壇",
+        "sgCN": "魔法圣坛",
+        "sgTW": "魔法祭壇"
+    },
+    "stash": {
+        "Key": "stash",
+        "enUS": "Stash",
+        "zhCN": "儲物箱",
+        "zhTW": "儲物箱",
+        "sgCN": "储藏箱",
+        "sgTW": "儲物箱"
+    },
+    "guyq": {
+        "Key": "guyq",
+        "enUS": "Suffering Soul",
+        "zhCN": "受苦的靈魂",
+        "zhTW": "受苦的靈魂",
+        "sgCN": "受难的灵魂",
+        "sgTW": "受苦的靈魂"
+    },
+    "taintedsunaltar": {
+        "Key": "taintedsunaltar",
+        "enUS": "Tainted Sun Altar",
+        "zhCN": "蔽日祭壇",
+        "zhTW": "蔽日祭壇",
+        "sgCN": "被污染的太阳祭坛",
+        "sgTW": "蔽日祭壇"
+    },
+    "Hellforge": {
+        "Key": "Hellforge",
+        "enUS": "Hellforge",
+        "zhCN": "地獄熔爐",
+        "zhTW": "地獄熔爐",
+        "sgCN": "地狱熔炉",
+        "sgTW": "地獄熔爐"
+    },
+    "fissure": {
+        "Key": "fissure",
+        "enUS": "fissure",
+        "zhCN": "裂隙",
+        "zhTW": "裂隙",
+        "sgCN": "裂隙",
+        "sgTW": "裂隙"
+    },
+    "BoneChest": {
+        "Key": "BoneChest",
+        "enUS": "Bone Chest",
+        "zhCN": "骨箱",
+        "zhTW": "骨箱",
+        "sgCN": "骨箱",
+        "sgTW": "骨箱"
+    },
+    "casket": {
+        "Key": "casket",
+        "enUS": "Casket",
+        "zhCN": "石柩",
+        "zhTW": "石柩",
+        "sgCN": "棺木",
+        "sgTW": "石柩"
+    },
+    "HungSkeleton": {
+        "Key": "HungSkeleton",
+        "enUS": "Hung Skeleton",
+        "zhCN": "吊掛的骷髏",
+        "zhTW": "吊掛的骷髏",
+        "sgCN": "被绞死的骷髅",
+        "sgTW": "吊掛的骷髏"
+    },
+    "pillar": {
+        "Key": "pillar",
+        "enUS": "Pillar",
+        "zhCN": "柱子",
+        "zhTW": "柱子",
+        "sgCN": "柱子",
+        "sgTW": "柱子"
+    },
+    "Turret": {
+        "Key": "Turret",
+        "enUS": "a Turret",
+        "zhCN": "塔台",
+        "zhTW": "塔台",
+        "sgCN": "箭塔",
+        "sgTW": "塔台"
+    },
+    "a trap": {
+        "Key": "a trap",
+        "enUS": "a Trap",
+        "zhCN": "陷阱",
+        "zhTW": "陷阱",
+        "sgCN": "陷阱",
+        "sgTW": "陷阱"
+    },
+    "POW": {
+        "Key": "POW",
+        "enUS": "Barbarian Captive",
+        "zhCN": "野蠻人俘虜",
+        "zhTW": "野蠻人俘虜",
+        "sgCN": "野蛮人俘虏",
+        "sgTW": "野蠻人俘虜"
+    },
+    "chestr": {
+        "Key": "chestr",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "barrel wilderness": {
+        "Key": "barrel wilderness",
+        "enUS": "Barrel",
+        "zhCN": "桶子",
+        "zhTW": "桶子",
+        "sgCN": "木桶",
+        "sgTW": "桶子"
+    },
+    "woodchestL": {
+        "Key": "woodchestL",
+        "enUS": "Wooden Chest",
+        "zhCN": "木箱",
+        "zhTW": "木箱",
+        "sgCN": "木箱",
+        "sgTW": "木箱"
+    },
+    "burialchestL": {
+        "Key": "burialchestL",
+        "enUS": "Burial Chest",
+        "zhCN": "陪葬品",
+        "zhTW": "陪葬品",
+        "sgCN": "埋尸箱",
+        "sgTW": "陪葬品"
+    },
+    "burialchestR": {
+        "Key": "burialchestR",
+        "enUS": "Burial Chest",
+        "zhCN": "陪葬品",
+        "zhTW": "陪葬品",
+        "sgCN": "埋尸箱",
+        "sgTW": "陪葬品"
+    },
+    "well": {
+        "Key": "well",
+        "enUS": "Well",
+        "zhCN": "井",
+        "zhTW": "井",
+        "sgCN": "井",
+        "sgTW": "井"
+    },
+    "Waypoint": {
+        "Key": "Waypoint",
+        "enUS": "Waypoint",
+        "zhCN": "傳送平台",
+        "zhTW": "傳送平台",
+        "sgCN": "传送点",
+        "sgTW": "傳送平台"
+    },
+    "ChestL": {
+        "Key": "ChestL",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "ChestSL": {
+        "Key": "ChestSL",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "ChestSR": {
+        "Key": "ChestSR",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "woodchestR": {
+        "Key": "woodchestR",
+        "enUS": "Wooden Chest",
+        "zhCN": "木箱",
+        "zhTW": "木箱",
+        "sgCN": "木箱",
+        "sgTW": "木箱"
+    },
+    "chestR": {
+        "Key": "chestR",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "burningbodies": {
+        "Key": "burningbodies",
+        "enUS": "Pyre of Flesh",
+        "zhCN": "屍骸火堆",
+        "zhTW": "屍骸火堆",
+        "sgCN": "肉堆",
+        "sgTW": "屍骸火堆"
+    },
+    "burningpit": {
+        "Key": "burningpit",
+        "enUS": "Burning Pit",
+        "zhCN": "燃燒的坑洞",
+        "zhTW": "燃燒的坑洞",
+        "sgCN": "燃烧坑",
+        "sgTW": "燃燒的坑洞"
+    },
+    "tribal flag": {
+        "Key": "tribal flag",
+        "enUS": "Tribal Flag",
+        "zhCN": "部族的旗子",
+        "zhTW": "部族的旗子",
+        "sgCN": "部族旗帜",
+        "sgTW": "部族的旗子"
+    },
+    "flag widlerness": {
+        "Key": "flag widlerness",
+        "enUS": "Flag",
+        "zhCN": "旗子",
+        "zhTW": "旗子",
+        "sgCN": "旗帜",
+        "sgTW": "旗子"
+    },
+    "eflg": {
+        "Key": "eflg",
+        "enUS": "Town Flag",
+        "zhCN": "城鎮的旗子",
+        "zhTW": "城鎮的旗子",
+        "sgCN": "镇旗",
+        "sgTW": "城鎮的旗子"
+    },
+    "chan": {
+        "Key": "chan",
+        "enUS": "Chandelier",
+        "zhCN": "吊燈",
+        "zhTW": "吊燈",
+        "sgCN": "吊灯",
+        "sgTW": "吊燈"
+    },
+    "jar": {
+        "Key": "jar",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "jar2": {
+        "Key": "jar2",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "jar3": {
+        "Key": "jar3",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "swingingheads": {
+        "Key": "swingingheads",
+        "enUS": "Swinging Heads",
+        "zhCN": "懸掛的屍骨",
+        "zhTW": "懸掛的屍骨",
+        "sgCN": "晃荡的人头",
+        "sgTW": "懸掛的屍骨"
+    },
+    "pole": {
+        "Key": "pole",
+        "enUS": "Pole",
+        "zhCN": "柱子",
+        "zhTW": "柱子",
+        "sgCN": "柱子",
+        "sgTW": "柱子"
+    },
+    "animatedskullsandrocks": {
+        "Key": "animatedskullsandrocks",
+        "enUS": "Skulls and Rocks",
+        "zhCN": "骷髏和石塊",
+        "zhTW": "骷髏和石塊",
+        "sgCN": "头骨与石块",
+        "sgTW": "骷髏和石塊"
+    },
+    "hellgate": {
+        "Key": "hellgate",
+        "enUS": "Hell Gate",
+        "zhCN": "地獄之門",
+        "zhTW": "地獄之門",
+        "sgCN": "地狱门",
+        "sgTW": "地獄之門"
+    },
+    "gate": {
+        "Key": "gate",
+        "enUS": "Main Gate",
+        "zhCN": "大門",
+        "zhTW": "大門",
+        "sgCN": "大门",
+        "sgTW": "大門"
+    },
+    "banner1": {
+        "Key": "banner1",
+        "enUS": "Banner",
+        "zhCN": "戰旗",
+        "zhTW": "戰旗",
+        "sgCN": "战旗",
+        "sgTW": "戰旗"
+    },
+    "banner2": {
+        "Key": "banner2",
+        "enUS": "Banner",
+        "zhCN": "戰旗",
+        "zhTW": "戰旗",
+        "sgCN": "战旗",
+        "sgTW": "戰旗"
+    },
+    "mrpole": {
+        "Key": "mrpole",
+        "enUS": "Pole",
+        "zhCN": "柱子",
+        "zhTW": "柱子",
+        "sgCN": "柱子",
+        "sgTW": "柱子"
+    },
+    "pene": {
+        "Key": "pene",
+        "enUS": "Stash",
+        "zhCN": "柵欄",
+        "zhTW": "柵欄",
+        "sgCN": "藏匿处",
+        "sgTW": "柵欄"
+    },
+    "debris": {
+        "Key": "debris",
+        "enUS": "Debris",
+        "zhCN": "殘骸",
+        "zhTW": "殘骸",
+        "sgCN": "残骸",
+        "sgTW": "殘骸"
+    },
+    "woodchest2R": {
+        "Key": "woodchest2R",
+        "enUS": "Wooden Chest",
+        "zhCN": "木箱",
+        "zhTW": "木箱",
+        "sgCN": "木箱",
+        "sgTW": "木箱"
+    },
+    "woodchest2L": {
+        "Key": "woodchest2L",
+        "enUS": "Wooden Chest",
+        "zhCN": "木箱",
+        "zhTW": "木箱",
+        "sgCN": "木箱",
+        "sgTW": "木箱"
+    },
+    "object1": {
+        "Key": "object1",
+        "enUS": "Hidden Stash",
+        "zhCN": "隱藏的物品",
+        "zhTW": "隱藏的物品",
+        "sgCN": "藏匿物",
+        "sgTW": "隱藏的物品"
+    },
+    "magic shrine2": {
+        "Key": "magic shrine2",
+        "enUS": "Magic Shrine",
+        "zhCN": "魔法祭壇",
+        "zhTW": "魔法祭壇",
+        "sgCN": "魔法圣坛",
+        "sgTW": "魔法祭壇"
+    },
+    "torch2": {
+        "Key": "torch2",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "torch1": {
+        "Key": "torch1",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "tomb3": {
+        "Key": "tomb3",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "tomb2": {
+        "Key": "tomb2",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "tomb1": {
+        "Key": "tomb1",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "ttor": {
+        "Key": "ttor",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "icecave_torch2": {
+        "Key": "icecave_torch2",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "icecave_torch1": {
+        "Key": "icecave_torch1",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "clientsmoke": {
+        "Key": "clientsmoke",
+        "enUS": "Smoke",
+        "zhCN": "煙霧",
+        "zhTW": "煙霧",
+        "sgCN": "烟雾",
+        "sgTW": "煙霧"
+    },
+    "deadbarbarian": {
+        "Key": "deadbarbarian",
+        "enUS": "Dead Barbarian",
+        "zhCN": "死亡的野蠻人",
+        "zhTW": "死亡的野蠻人",
+        "sgCN": "死去的野蛮人",
+        "sgTW": "死亡的野蠻人"
+    },
+    "deadbarbarian18": {
+        "Key": "deadbarbarian18",
+        "enUS": "Dead Barbarian",
+        "zhCN": "死亡的野蠻人",
+        "zhTW": "死亡的野蠻人",
+        "sgCN": "死去的野蛮人",
+        "sgTW": "死亡的野蠻人"
+    },
+    "uncle f#%* comedy central(c)": {
+        "Key": "uncle f#%* comedy central(c)",
+        "enUS": "Moe",
+        "zhCN": "老莫",
+        "zhTW": "老莫",
+        "sgCN": "莫伊",
+        "sgTW": "老莫"
+    },
+    "cagedwussie1": {
+        "Key": "cagedwussie1",
+        "enUS": "Cage",
+        "zhCN": "籠子",
+        "zhTW": "籠子",
+        "sgCN": "笼子",
+        "sgTW": "籠子"
+    },
+    "icecaveshrine2": {
+        "Key": "icecaveshrine2",
+        "enUS": "Shrine",
+        "zhCN": "祭壇",
+        "zhTW": "祭壇",
+        "sgCN": "圣坛",
+        "sgTW": "祭壇"
+    },
+    "icecavejar4": {
+        "Key": "icecavejar4",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "icecavejar3": {
+        "Key": "icecavejar3",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "icecavejar2": {
+        "Key": "icecavejar2",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "icecavejar1": {
+        "Key": "icecavejar1",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "evilurn": {
+        "Key": "evilurn",
+        "enUS": "Evil Urn",
+        "zhCN": "邪甕",
+        "zhTW": "邪甕",
+        "sgCN": "邪瓮",
+        "sgTW": "邪甕"
+    },
+    "secret object": {
+        "Key": "secret object",
+        "enUS": "secret object",
+        "zhCN": "秘密物品",
+        "zhTW": "秘密物品",
+        "sgCN": "秘密物品",
+        "sgTW": "秘密物品"
+    },
+    "Altar": {
+        "Key": "Altar",
+        "enUS": "Altar",
+        "zhCN": "祭壇",
+        "zhTW": "祭壇",
+        "sgCN": "祭坛",
+        "sgTW": "祭壇"
+    },
+    "Ldeathpole": {
+        "Key": "Ldeathpole",
+        "enUS": "Death Pole",
+        "zhCN": "死亡之柱",
+        "zhTW": "死亡之柱",
+        "sgCN": "死刑柱",
+        "sgTW": "死亡之柱"
+    },
+    "deathpole": {
+        "Key": "deathpole",
+        "enUS": "Death Pole",
+        "zhCN": "死亡之柱",
+        "zhTW": "死亡之柱",
+        "sgCN": "死刑柱",
+        "sgTW": "死亡之柱"
+    },
+    "explodingchest": {
+        "Key": "explodingchest",
+        "enUS": "Chest",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "箱子",
+        "sgTW": "箱子"
+    },
+    "banner 2": {
+        "Key": "banner 2",
+        "enUS": "Banner",
+        "zhCN": "戰旗",
+        "zhTW": "戰旗",
+        "sgCN": "战旗",
+        "sgTW": "戰旗"
+    },
+    "banner 1": {
+        "Key": "banner 1",
+        "enUS": "Banner",
+        "zhCN": "戰旗",
+        "zhTW": "戰旗",
+        "sgCN": "战旗",
+        "sgTW": "戰旗"
+    },
+    "pileofskullsandrocks": {
+        "Key": "pileofskullsandrocks",
+        "enUS": "Skulls and Rocks",
+        "zhCN": "骷髏和石塊",
+        "zhTW": "骷髏和石塊",
+        "sgCN": "头骨与石块",
+        "sgTW": "骷髏和石塊"
+    },
+    "animated skulland rockpile": {
+        "Key": "animated skulland rockpile",
+        "enUS": "Skulls and Rocks",
+        "zhCN": "骷髏和石塊",
+        "zhTW": "骷髏和石塊",
+        "sgCN": "头骨与石块",
+        "sgTW": "骷髏和石塊"
+    },
+    "jar1": {
+        "Key": "jar1",
+        "enUS": "Jar",
+        "zhCN": "瓦罐",
+        "zhTW": "瓦罐",
+        "sgCN": "罐子",
+        "sgTW": "瓦罐"
+    },
+    "etorch2": {
+        "Key": "etorch2",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "ettr": {
+        "Key": "ettr",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "ecfra": {
+        "Key": "ecfra",
+        "enUS": "Fire",
+        "zhCN": "營火",
+        "zhTW": "營火",
+        "sgCN": "火堆",
+        "sgTW": "營火"
+    },
+    "etorch1": {
+        "Key": "etorch1",
+        "enUS": "Torch",
+        "zhCN": "火炬",
+        "zhTW": "火炬",
+        "sgCN": "火把",
+        "sgTW": "火炬"
+    },
+    "healthshrine": {
+        "Key": "healthshrine",
+        "enUS": "Health Shrine",
+        "zhCN": "生命聖壇",
+        "zhTW": "生命聖壇",
+        "sgCN": "生命圣坛",
+        "sgTW": "生命聖壇"
+    },
+    "explodingbarrel": {
+        "Key": "explodingbarrel",
+        "enUS": "Barrel",
+        "zhCN": "桶子",
+        "zhTW": "桶子",
+        "sgCN": "桶",
+        "sgTW": "桶子"
+    },
+    "flag wilderness": {
+        "Key": "flag wilderness",
+        "enUS": "Flag",
+        "zhCN": "旗子",
+        "zhTW": "旗子",
+        "sgCN": "旗帜",
+        "sgTW": "旗子"
+    },
+    "object": {
+        "Key": "object",
+        "enUS": "Hidden Stash",
+        "zhCN": "隱藏的物品",
+        "zhTW": "隱藏的物品",
+        "sgCN": "藏匿物",
+        "sgTW": "隱藏的物品"
+    },
+    "pyox": {
+        "Key": "pyox",
+        "enUS": "Fire Pit",
+        "zhCN": "火坑",
+        "zhTW": "火坑",
+        "sgCN": "火坑",
+        "sgTW": "火坑"
+    },
+    "ptox": {
+        "Key": "ptox",
+        "enUS": "Torch Pit",
+        "zhCN": "火炬坑",
+        "zhTW": "火炬坑",
+        "sgCN": "火盆",
+        "sgTW": "火炬坑"
+    },
+    "Siege Control": {
+        "Key": "Siege Control",
+        "enUS": "Siege Control",
+        "zhCN": "圍城控制器",
+        "zhTW": "圍城控制器",
+        "sgCN": "攻城机关",
+        "sgTW": "圍城控制器"
+    },
+    "mrjar": {
+        "Key": "mrjar",
+        "enUS": "Hidden Stash",
+        "zhCN": "隱藏的物品",
+        "zhTW": "隱藏的物品",
+        "sgCN": "藏匿物",
+        "sgTW": "隱藏的物品"
+    },
+    "object2": {
+        "Key": "object2",
+        "enUS": "Hidden Stash",
+        "zhCN": "隱藏的物品",
+        "zhTW": "隱藏的物品",
+        "sgCN": "藏匿物",
+        "sgTW": "隱藏的物品"
+    },
+    "mrbox": {
+        "Key": "mrbox",
+        "enUS": "Box",
+        "zhCN": "箱子",
+        "zhTW": "箱子",
+        "sgCN": "盒子",
+        "sgTW": "箱子"
+    },
+    "tomb3L": {
+        "Key": "tomb3L",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "tomb2L": {
+        "Key": "tomb2L",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "tomb1L": {
+        "Key": "tomb1L",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "red light": {
+        "Key": "red light",
+        "enUS": "Red Light",
+        "zhCN": "紅光",
+        "zhTW": "紅光",
+        "sgCN": "红光",
+        "sgTW": "紅光"
+    },
+    "groundtombL": {
+        "Key": "groundtombL",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "groundtomb": {
+        "Key": "groundtomb",
+        "enUS": "Tomb",
+        "zhCN": "古墓",
+        "zhTW": "古墓",
+        "sgCN": "墓",
+        "sgTW": "古墓"
+    },
+    "deadperson": {
+        "Key": "deadperson",
+        "enUS": "Corpse",
+        "zhCN": "屍體",
+        "zhTW": "屍體",
+        "sgCN": "尸骸",
+        "sgTW": "屍體"
+    },
+    "candles": {
+        "Key": "candles",
+        "enUS": "Candles",
+        "zhCN": "蠟蠋",
+        "zhTW": "蠟蠋",
+        "sgCN": "蜡烛",
+        "sgTW": "蠟蠋"
+    },
+    "sbub": {
+        "Key": "sbub",
+        "enUS": "Shrub",
+        "zhCN": "灌木",
+        "zhTW": "灌木",
+        "sgCN": "灌木",
+        "sgTW": "灌木"
+    },
+    "ubub": {
+        "Key": "ubub",
+        "enUS": "Shrub",
+        "zhCN": "灌木",
+        "zhTW": "灌木",
+        "sgCN": "灌木",
+        "sgTW": "灌木"
+    },
+    "deadperson2": {
+        "Key": "deadperson2",
+        "enUS": "Corpse",
+        "zhCN": "屍體",
+        "zhTW": "屍體",
+        "sgCN": "尸骸",
+        "sgTW": "屍體"
+    },
+    "Prison Door": {
+        "Key": "Prison Door",
+        "enUS": "Prison Door",
+        "zhCN": "牢門",
+        "zhTW": "牢門",
+        "sgCN": "监牢大门",
+        "sgTW": "牢門"
+    },
+    "ancientsaltar": {
+        "Key": "ancientsaltar",
+        "enUS": "Altar of the Heavens",
+        "zhCN": "天堂祭壇",
+        "zhTW": "天堂祭壇",
+        "sgCN": "天坛",
+        "sgTW": "天堂祭壇"
+    },
+    "hiddenstash": {
+        "Key": "hiddenstash",
+        "enUS": "Hidden Stash",
+        "zhCN": "隱藏的物品",
+        "zhTW": "隱藏的物品",
+        "sgCN": "藏匿物",
+        "sgTW": "隱藏的物品"
+    },
+    "eweaponrackL": {
+        "Key": "eweaponrackL",
+        "enUS": "Weapon Rack",
+        "zhCN": "武器架",
+        "zhTW": "武器架",
+        "sgCN": "武器架",
+        "sgTW": "武器架"
+    },
+    "eweaponrackR": {
+        "Key": "eweaponrackR",
+        "enUS": "Weapon Rack",
+        "zhCN": "武器架",
+        "zhTW": "武器架",
+        "sgCN": "武器架",
+        "sgTW": "武器架"
+    },
+    "earmorstandL": {
+        "Key": "earmorstandL",
+        "enUS": "Armor Stand",
+        "zhCN": "防具架",
+        "zhTW": "防具架",
+        "sgCN": "护甲架",
+        "sgTW": "防具架"
+    },
+    "earmorstandR": {
+        "Key": "earmorstandR",
+        "enUS": "Armor Stand",
+        "zhCN": "防具架",
+        "zhTW": "防具架",
+        "sgCN": "护甲架",
+        "sgTW": "防具架"
+    },
+    "oldStash": {
+        "Key": "oldStash",
+        "enUS": "Remove Only",
+        "zhCN": "僅限取出",
+        "zhTW": "僅限取出",
+        "sgCN": "仅限取出",
+        "sgTW": "僅限取出"
+    },
+    "stashRemoveOnly": {
+        "Key": "stashRemoveOnly",
+        "enUS": "Remove Only",
+        "zhCN": "仅限取出",
+        "zhTW": "僅限移除",
+        "sgCN": "仅限取出",
+        "sgTW": "僅限移除"
+    }
+}

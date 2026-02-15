@@ -1,0 +1,1049 @@
+{
+    "Socketable": {
+        "color": [
+            "ÿcO",
+            "ÿc3"
+        ]
+    },
+    "ItemStats1d": {
+        "abbr": "(DUR)"
+    },
+    "ModStr1a": {
+        "abbr": "(STR)"
+    },
+    "ModStr1b": {
+        "abbr": "(DEX)"
+    },
+    "ModStr1c": {
+        "abbr": "(VIT)"
+    },
+    "ModStr1d": {
+        "abbr": "(ENG)"
+    },
+    "ModStr1e": {
+        "abbr": "(Mana)"
+    },
+    "ModStr1f": {
+        "abbr": "(MAX)"
+    },
+    "ModStr1g": {
+        "abbr": "(MIN)"
+    },
+    "ModStr1h": {
+        "abbr": "(AR)"
+    },
+    "ModStr1i": {
+        "abbr": "(DEF)"
+    },
+    "ModStr1j": {
+        "abbr": "(FR)",
+        "color": [
+            "ÿc1",
+            "ÿc3"
+        ]
+    },
+    "ModStr1k": {
+        "abbr": "(CR)",
+        "color": [
+            "ÿcT",
+            "ÿc3"
+        ]
+    },
+    "ModStr1l": {
+        "abbr": "(LR)",
+        "color": [
+            "ÿc9",
+            "ÿc3"
+        ]
+    },
+    "ModStr1m": {
+        "abbr": "(MR)"
+    },
+    "ModStr1n": {
+        "abbr": "(PR)",
+        "color": [
+            "ÿc2",
+            "ÿc3"
+        ]
+    },
+    "ModStr1o": {
+        "abbr": "(Max FD)"
+    },
+    "ModStr1p": {
+        "abbr": "(Min FD)"
+    },
+    "ModStr1q": {
+        "abbr": "(Max LD)"
+    },
+    "ModStr1r": {
+        "abbr": "(Min LD)"
+    },
+    "ModStr1s": {
+        "abbr": "(Max CD)"
+    },
+    "ModStr1t": {
+        "abbr": "(Min CD)"
+    },
+    "ModStr1u": {
+        "abbr": "(Life)"
+    },
+    "ModStr1v": {
+        "abbr": "(ATD)"
+    },
+    "ModStr1y": {
+        "abbr": "(KB)"
+    },
+    "ModStr2g": {
+        "abbr": "(Max Life)"
+    },
+    "ModStr2h": {
+        "abbr": "(Max Mana)"
+    },
+    "ModStr2i": {
+        "abbr": "(Max DUR)"
+    },
+    "ModStr2l": {
+        "abbr": "(Life Rep)"
+    },
+    "ModStr2m": {
+        "abbr": "(Mana Rep)"
+    },
+    "ModStr2t": {
+        "abbr": "(MDR)"
+    },
+    "ModStr2u": {
+        "abbr": "(DR)"
+    },
+    "Modstr2v": {
+        "abbr": "(EDef)"
+    },
+    "ModStr2y": {
+        "abbr": "(LM)",
+        "color": [
+            "ÿc3",
+            "ÿc3"
+        ]
+    },
+    "ModStr2z": {
+        "abbr": "(LL)",
+        "color": [
+            "ÿcU",
+            "ÿc3"
+        ]
+    },
+    "ModStr3a": {
+        "abbr": "(AMA)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3b": {
+        "abbr": "(PAL)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3c": {
+        "abbr": "(NEC)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3d": {
+        "abbr": "(SOR)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3e": {
+        "abbr": "(BAR)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3f": {
+        "abbr": "(Light Radius)"
+    },
+    "ModStr3g": {
+        "abbr": "(CTB)"
+    },
+    "ModStr3h": {
+        "abbr": "(REQ)"
+    },
+    "ModStr3i": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3k": {
+        "abbr": "(All Skills)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStr3l": {
+        "abbr": "(FT)"
+    },
+    "ModStr3m": {
+        "abbr": "(OW)"
+    },
+    "ModStr3r": {
+        "abbr": "(PLR)"
+    },
+    "ModStr3v": {
+        "abbr": "(Heal STA)"
+    },
+    "ModStr3w": {
+        "abbr": "(DTM)"
+    },
+    "ModStr3y": {
+        "abbr": "(ITD)"
+    },
+    "ModStr3z": {
+        "abbr": "(HPD)"
+    },
+    "ModStr4a": {
+        "abbr": "(PMH)"
+    },
+    "ModStr4b": {
+        "abbr": "(HFD)"
+    },
+    "ModStr4e": {
+        "abbr": "(DTD)"
+    },
+    "ModStr4f": {
+        "abbr": "(DTU)"
+    },
+    "ModStr4g": {
+        "abbr": "(Reg Mana)"
+    },
+    "ModStr4h": {
+        "abbr": "(Max PD)"
+    },
+    "ModStr4i": {
+        "abbr": "(Min PD)"
+    },
+    "ModStr4j": {
+        "abbr": "(ARD)"
+    },
+    "ModStr4k": {
+        "abbr": "(ARU)"
+    },
+    "ModStr4l": {
+        "abbr": "(IAS)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4m": {
+        "abbr": "(IAS)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4n": {
+        "abbr": "(IAS)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4o": {
+        "abbr": "(FHR)"
+    },
+    "ModStr4p": {
+        "abbr": "(FHR)"
+    },
+    "ModStr4q": {
+        "abbr": "(FHR)"
+    },
+    "ModStr4r": {
+        "abbr": "(FRW)"
+    },
+    "ModStr4s": {
+        "abbr": "(FRW)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4t": {
+        "abbr": "(FRW)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4u": {
+        "abbr": "(FCR)"
+    },
+    "ModStr4v": {
+        "abbr": "(FCR)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4w": {
+        "abbr": "(FCR)",
+        "color": [
+            "ÿc;",
+            "ÿc3"
+        ]
+    },
+    "ModStr4x": {
+        "abbr": "(FBR)"
+    },
+    "ModStr4y": {
+        "abbr": "(FBR)"
+    },
+    "ModStr4z": {
+        "abbr": "(FBR)"
+    },
+    "ModStr5b": {
+        "abbr": "(DMG)"
+    },
+    "ModStr5c": {
+        "abbr": "(CB)"
+    },
+    "ModStr5f": {
+        "abbr": "(EK)"
+    },
+    "ModStr5g": {
+        "abbr": "(FA)"
+    },
+    "ModStr5h": {
+        "abbr": "(FA)"
+    },
+    "ModStr5i": {
+        "abbr": "(LA)"
+    },
+    "ModStr5j": {
+        "abbr": "(LA)"
+    },
+    "ModStr5k": {
+        "abbr": "(MA)"
+    },
+    "ModStr5l": {
+        "abbr": "(MA)"
+    },
+    "ModStr5m": {
+        "abbr": "(CA)"
+    },
+    "ModStr5n": {
+        "abbr": "(CA)"
+    },
+    "ModStr5q": {
+        "abbr": "(DS)"
+    },
+    "ModStr5u": {
+        "abbr": "(Max FR)"
+    },
+    "ModStr5v": {
+        "abbr": "(Max CR)"
+    },
+    "ModStr5w": {
+        "abbr": "(Max LR)"
+    },
+    "ModStr5x": {
+        "abbr": "(Max MR)"
+    },
+    "ModStr5y": {
+        "abbr": "(Max PR)"
+    },
+    "ModStr5z": {
+        "abbr": "(CBF)",
+        "color": [
+            "ÿcT",
+            "ÿc3"
+        ]
+    },
+    "ModStr6c": {
+        "abbr": "(DLK)"
+    },
+    "improved to hit": {
+        "abbr": "(AR)"
+    },
+    "ModStr5d": {
+        "abbr": "(Max STA)"
+    },
+    "strModEnhancedDamage": {
+        "abbr": "(EDmg)",
+        "color": [
+            "ÿcU",
+            "ÿc3"
+        ]
+    },
+    "strModAllResistances": {
+        "abbr": "(RES)",
+        "color": [
+            "ÿcO",
+            "ÿc3"
+        ]
+    },
+    "strModAllSkillLevels": {
+        "abbr": "(All Skill)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "strModFireDamage": {
+        "abbr": "(FD)"
+    },
+    "strModFireDamageRange": {
+        "abbr": "(FD)"
+    },
+    "strModColdDamage": {
+        "abbr": "(CD)"
+    },
+    "strModColdDamageRange": {
+        "abbr": "(CD)"
+    },
+    "strModLightningDamage": {
+        "abbr": "(LD)"
+    },
+    "strModLightningDamageRange": {
+        "abbr": "(LD)"
+    },
+    "strModMagicDamage": {
+        "abbr": "(MD)"
+    },
+    "strModMagicDamageRange": {
+        "abbr": "(MD)"
+    },
+    "strModPoisonDamage": {
+        "abbr": "(PD)"
+    },
+    "strModPoisonDamageRange": {
+        "abbr": "(PD)"
+    },
+    "strModMinDamage": {
+        "abbr": "(DMG)"
+    },
+    "strModMinDamageRange": {
+        "abbr": "(DMG)"
+    },
+    "ModStre9j": {
+        "abbr": "(FDR)"
+    },
+    "ModStre9k": {
+        "abbr": "(CDR)"
+    },
+    "ModStre9l": {
+        "abbr": "(LDR)"
+    },
+    "ModStre9m": {
+        "abbr": "(PDR)"
+    },
+    "ModStre9n": {
+        "abbr": "(MDA)"
+    },
+    "ModStre9o": {
+        "abbr": "(FDA)"
+    },
+    "ModStre9p": {
+        "abbr": "(CDA)"
+    },
+    "ModStre9q": {
+        "abbr": "(LDA)"
+    },
+    "ModStre9r": {
+        "abbr": "(PDA)"
+    },
+    "StrSklTabItem1": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem2": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem3": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem4": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem5": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem6": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem7": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem8": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem10": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem11": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem12": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem13": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem14": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem15": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem16": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem17": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem18": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem19": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem20": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem21": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "AmaOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "SorOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "NecOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "PalOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "BarOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "DruOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "AssOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "Moditem2allattrib": {
+        "abbr": "(ATTR)"
+    },
+    "Moditem2ExpG": {
+        "abbr": "(EXP)"
+    },
+    "ModitemHPaK": {
+        "abbr": "(LK)"
+    },
+    "ModitemRedVendP": {
+        "abbr": "(-Price)"
+    },
+    "ModitemSMRIP": {
+        "abbr": "(RIP)"
+    },
+    "ModitemAttratvsM": {
+        "abbr": "(AR)"
+    },
+    "Moditemdamvsm": {
+        "abbr": "(DMG)"
+    },
+    "Moditemenrescoldsk": {
+        "abbr": "(-CR)"
+    },
+    "Moditemenresfiresk": {
+        "abbr": "(-FR)"
+    },
+    "Moditemenresltngsk": {
+        "abbr": "(-LR)"
+    },
+    "Moditemenrespoissk": {
+        "abbr": "(-PR)"
+    },
+    "ModitemdamFiresk": {
+        "abbr": "(FD)"
+    },
+    "ModitemdamColdsk": {
+        "abbr": "(CD)"
+    },
+    "ModitemdamLtngsk": {
+        "abbr": "(LD)"
+    },
+    "ModitemdamPoissk": {
+        "abbr": "(PD)"
+    },
+    "StrSklTabItem9": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ItemStats1r": {
+        "abbr": "(CTB)"
+    },
+    "ModStr1w": {
+        "abbr": "(EG)",
+        "color": [
+            "ÿc7",
+            "ÿc3"
+        ]
+    },
+    "ModStr1x": {
+        "abbr": "(MF)",
+        "color": [
+            "ÿc7",
+            "ÿc3"
+        ]
+    },
+    "ModStr3u": {
+        "abbr": "(Flee)"
+    },
+    "ModStr4c": {
+        "abbr": "(AR)"
+    },
+    "ModStr5r": {
+        "abbr": "(Slow)"
+    },
+    "ModStr6d": {
+        "abbr": "(HBT)"
+    },
+    "ModStre8b": {
+        "abbr": "(ASN)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8a": {
+        "abbr": "(DRU)",
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8d": {
+        "abbr": "(ARD)"
+    },
+    "ModStre8e": {
+        "abbr": "(ARU)"
+    },
+    "ModStre8f": {
+        "abbr": "(DTD)"
+    },
+    "ModStre8g": {
+        "abbr": "(AR)"
+    },
+    "ModStre8h": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8i": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8j": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8k": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8l": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8m": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8n": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8o": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8p": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8q": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8r": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8s": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8t": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8u": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8v": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8w": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8x": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8y": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre8z": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre9a": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStre9b": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "strethereal": {
+        "color": [
+            "ÿcO",
+            "ÿc3"
+        ]
+    },
+    "ModStr2uPercent": {
+        "abbr": "(DR)"
+    },
+    "strItemModEtherealSocketed": {
+        "color": [
+            "ÿcO",
+            "ÿc3"
+        ]
+    },
+    "ModStr2uPercentNegative": {
+        "abbr": "(DI)"
+    },
+    "priceless": {},
+    "ItemStats1a": {},
+    "ItemStats1b": {},
+    "ItemStats1c": {},
+    "ItemStats1e": {},
+    "ItemStats1f": {},
+    "ItemStats1g": {},
+    "ItemStats1h": {},
+    "ItemStats1i": {},
+    "ItemStats1j": {},
+    "ItemStast1k": {},
+    "ItemStats1l": {},
+    "ItemStats1m": {},
+    "ItemStats1n": {},
+    "ItemStats1o": {},
+    "ItemStats1p": {},
+    "ItemStats1q": {},
+    "ItemStatsrejuv1": {},
+    "ItemStatsrejuv2": {},
+    "ModStr1z": {},
+    "ModStr2a": {},
+    "ModStr2b": {},
+    "ModStr2c": {},
+    "ModStr2d": {},
+    "ModStr2e": {},
+    "ModStr2f": {},
+    "ModStr2j": {},
+    "ModStr2k": {},
+    "ModStr2n": {},
+    "ModStr2o": {},
+    "ModStr2p": {},
+    "ModStr2q": {},
+    "ModStr2r": {},
+    "ModStr2s": {},
+    "ModStr2w": {},
+    "ModStr2x": {},
+    "ModStr3j": {},
+    "ModStr3n": {},
+    "ModStr3o": {},
+    "ModStr3p": {},
+    "ModStr3q": {},
+    "ModStr3x": {},
+    "ModStr4d": {},
+    "ModStr5a": {},
+    "ModStr5e": {},
+    "ModStr5o": {},
+    "ModStr5p": {},
+    "ModStr5s": {},
+    "ModStr5t": {},
+    "ModStr6a": {},
+    "ModStr6b": {},
+    "ModStr6g": {},
+    "ModStr6h": {},
+    "ModStr6i": {},
+    "improved damage": {},
+    "improved armor class": {},
+    "improved durability": {},
+    "Quick Strike": {},
+    "strGemPlace1": {},
+    "strGemPlace2": {},
+    "WeaponDescMace": {},
+    "WeaponDescAxe": {},
+    "WeaponDescSword - %s": {},
+    "WeaponDescDagger": {},
+    "WeaponDescJavelin": {},
+    "WeaponDescSpear": {},
+    "WeaponDescBow": {},
+    "WeaponDescStaff": {},
+    "WeaponDescPoleArm": {},
+    "WeaponDescCrossBow": {},
+    "WeaponAttackFastest": {},
+    "WeaponAttackVeryFast": {},
+    "WeaponAttackFast": {},
+    "WeaponAttackNormal": {},
+    "WeaponAttackSlow": {},
+    "WeaponAttackVerySlow": {},
+    "WeaponAttackSlowest": {},
+    "ModStr6e": {},
+    "ModitemAura": {},
+    "Moditemslayat": {},
+    "Moditemreanimas": {},
+    "Moditemskondeath": {},
+    "ModitemskonLevel": {},
+    "ModitemskonKill": {},
+    "ModStr6f": {},
+    "ExInsertSocketsX": {},
+    "increaseswithplaylevelX": {},
+    "toa": {},
+    "Charmdes": {},
+    "ice": {},
+    "ModStre8c": {},
+    "ModStre9c": {},
+    "ModStre9d": {},
+    "ModStre9e": {},
+    "ModStre9f": {},
+    "ModStre9g": {},
+    "ModStre9h": {},
+    "ModStre9i": {},
+    "ModStre9s": {},
+    "ModStre9t": {},
+    "ModStre9u": {},
+    "ModStre9v": {},
+    "ModStre9w": {},
+    "ModStre9x": {},
+    "ModStre9y": {},
+    "ModStre9z": {},
+    "ModStre10a": {},
+    "ModStre10b": {},
+    "ModStre10c": {},
+    "ModStre10d": {},
+    "ModStre10e": {},
+    "ModStre10f": {},
+    "ModStre10g": {},
+    "ModStre10h": {},
+    "ModStre10i": {},
+    "ModStre10j": {},
+    "WeaponDescH2H": {},
+    "WeaponDescOrb": {},
+    "ItemexpED": {},
+    "ModStre10k": {},
+    "ModStre10L": {},
+    "tr2": {},
+    "ExInsertSockets": {},
+    "ItemExpansiveChancX": {},
+    "ItemExpansiveChanc1": {},
+    "ItemExpansiveChanc2": {},
+    "ItemExpcharmdesc": {},
+    "stretherealnonrepair": {},
+    "ItemModifierClassSkill": {},
+    "ItemModifierNonClassSkill": {},
+    "strItemStatThrowDamageRange": {},
+    "UseTokenOfAbsolution": {},
+    "MalahsPotionDescription": {},
+    "ItemModifierPersonalized": {},
+    "ModStr6j": {},
+    "ModItemMonColdSunder": {},
+    "ModItemMonFireSunder": {},
+    "ModItemMonLightSunder": {},
+    "ModItemMonPoisonSunder": {},
+    "ModItemMonPhysicalSunder": {},
+    "ModItemMonMagicSunder": {},
+    "ModStr6k": {},
+    "ModStr6l": {},
+    "UseTerrorTokenAct1": {},
+    "UseTerrorTokenAct2": {},
+    "UseTerrorTokenAct3": {},
+    "UseTerrorTokenAct4": {},
+    "UseTerrorTokenAct5": {},
+    "xa1": {},
+    "xa2": {},
+    "xa3": {},
+    "xa4": {},
+    "xa5": {},
+    "WarOnly": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStrMagMastery": {},
+    "ModStrMagPierce": {},
+    "MaxMagDmgPerLvl": {},
+    "ModStrDamPierce": {},
+    "StrSklTabItem24": {},
+    "StrSklTabItem22": {},
+    "StrSklTabItem23": {},
+    "ModStrge9": {},
+    "ChronicleModifierRange": {},
+    "ItemStats1hRange": {},
+    "ChronicleRandomClassSkillLevel": {},
+    "ChronicleItemModifierClassSkillRandom": {},
+    "ChroniclePropertyGroupListBullet": {},
+    "ChroniclePropertyGroupListHeader": {},
+    "ChronicleModifierRangeNoParen": {}
+}
