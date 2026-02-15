@@ -106,9 +106,7 @@ GOLD_NAMES = [
 # <!-- Function Identifier 
 NETEASE_LANGUAGE = "NeteaseLanguage"
 BATTLE_NET_LANGUAGE = "BattleNetLanguage"
-TERROR_ZONE_LANGUAGE = "TerrorZoneLanguage"
-TERROR_ZONE_NEXT = "TerrorZoneNext"
-TERROR_ZONE_TABLE = "TerrorZoneTable"
+
 GAME_SETTING = "GameSetting"
 GAME_SETTING2 = "GameSetting2"
 GAME_SETTING3 = "GameSetting3"
@@ -907,6 +905,9 @@ CUSTOM_SOUNDS = {
 class Function(Enum):
     ZHCN = "zhCN"
     ZHTW = "zhTW"
+    TERROR_ZONE_LANGUAGE = "TerrorZoneLanguage"
+    TERROR_ZONE_NEXT = "TerrorZoneNext"
+    TERROR_ZONE_TABLE = "TerrorZoneTable"
 
 
 class Language(Enum):
@@ -974,9 +975,6 @@ __all__ = [
     'APP_SIZE',
     'NETEASE_LANGUAGE',
     'BATTLE_NET_LANGUAGE',
-    'TERROR_ZONE_LANGUAGE',
-    'TERROR_ZONE_NEXT',
-    'TERROR_ZONE_TABLE',
     'GOLD_NAMES',
     'GAME_SETTING',
     'GAME_SETTING2',

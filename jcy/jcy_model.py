@@ -45,7 +45,7 @@ class FeatureConfig:
                             "type": SEPARATOR
                         },
                         {
-                            "fid": TERROR_ZONE_LANGUAGE,
+                            "fid": Function.TERROR_ZONE_LANGUAGE.value,
                             "type": RADIO,
                             "text": "恐怖区域-语言",
                             "colspan": 60,
@@ -56,7 +56,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": TERROR_ZONE_NEXT,
+                            "fid": Function.TERROR_ZONE_NEXT.value,
                             "type": CHECK,
                             "text": "恐怖区域-预告",
                             "colspan": 40,
@@ -66,8 +66,8 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": TERROR_ZONE_TABLE,
-                            "type": TERROR_ZONE_TABLE,
+                            "fid": Function.TERROR_ZONE_TABLE.value,
+                            "type": Function.TERROR_ZONE_TABLE.value,
                             "text": "恐怖区域",
                             "colspan": 100
                         },

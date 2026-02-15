@@ -113,7 +113,7 @@ class FeatureController:
                 # 构建列表，首元素为时间
                 tz_list = [formatted_time]
 
-                tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
+                tz_lang = jcy_config.SETTINGS.get(Function.TERROR_ZONE_LANGUAGE.value, "zhTW")
 
                 if isinstance(raw_zone, str):
                     level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
@@ -134,7 +134,7 @@ class FeatureController:
                 tz_list = list(dict.fromkeys(tz_list))
 
                 # 获取用户设置
-                next_setting = jcy_config.SETTINGS.get(TERROR_ZONE_NEXT, [])
+                next_setting = jcy_config.SETTINGS.get(Function.TERROR_ZONE_NEXT.value, [])
                 # 系统通知
                 if "1" in next_setting:
                     toast("恐怖区域已更新", " ".join(tz_list))
@@ -232,13 +232,13 @@ class FeatureController:
             Function.ZHCN.value: self.file_operations.modify_zhCN_language,
             # 暴雪国际服语言翻译(装备/道具/符文/符文之语)
             Function.ZHTW.value: self.file_operations.modify_zhTW_language,
+            # 恐怖区域-语言
+            Function.TERROR_ZONE_LANGUAGE.value: self.file_operations.select_language,
+            # 恐怖区域-预告
+            Function.TERROR_ZONE_NEXT.value: self.file_operations.terror_zone_next,
 
             # 道具屏蔽
             ITEM_FILTER: self.file_operations.modify_item_filter,
-            # 恐怖区域-语言
-            TERROR_ZONE_LANGUAGE: self.file_operations.select_language,
-            # 恐怖区域-预告
-            TERROR_ZONE_NEXT: self.file_operations.terror_zone_next,
             # 游戏设置
             GAME_SETTING: self.file_operations.select_game_setting,
             # 游戏设置2
@@ -475,7 +475,7 @@ def notify_fetch_success(data, controller=None):
         zone_name = " / ".join(names) if names else "未知区域"
 
         # -------------------- 根据 TERROR_ZONE_NEXT 执行操作 --------------------
-        next_setting = jcy_config.SETTINGS.get(TERROR_ZONE_NEXT, "")
+        next_setting = jcy_config.SETTINGS.get(Function.TERROR_ZONE_NEXT.value, "")
 
         # 系统通知
         if "1" in next_setting:
@@ -492,7 +492,7 @@ def notify_fetch_success(data, controller=None):
 
     except Exception as e:
         print("[通知构造异常]", e)
-        if "1" in jcy_config.SETTINGS.get(TERROR_ZONE_NEXT, ""):
+        if "1" in jcy_config.SETTINGS.get(Function.TERROR_ZONE_NEXT.value, []):
             toast("恐怖区域已更新", "恐怖区域数据更新成功，但解析失败。")
 
 
