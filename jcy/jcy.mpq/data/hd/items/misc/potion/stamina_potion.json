@@ -67,7 +67,7 @@
                     "name": "entity_root_TransformDefinition",
                     "position": {
                         "x": 0.0,
-                        "y": 1000.0,
+                        "y": 0.0,
                         "z": 0.25
                     },
                     "orientation": {
