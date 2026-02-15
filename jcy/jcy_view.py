@@ -40,7 +40,7 @@ def translate(text: str) -> str:
     """如果首位是 @ 则按字典翻译，否则原样返回"""
     if isinstance(text, str) and text.startswith('@'):
         key = text[1:]  # 去掉@
-        _dict =  jcy_config.LOCAL.get(key, {})
+        _dict =  jcy_config.LOCAL_ORIGINAL_DICT.get(key, {})
         return _dict.get(ZHTW, f"未知翻译({key})")
     return text
 
@@ -1366,14 +1366,14 @@ class TerrorZoneUI(tk.Frame):
                     if isinstance(raw_zone, str):
                         level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
                         for level_key in level_keys:
-                            level = jcy_config.LOCAL.get(level_key, {})
+                            level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
                             level_name = level.get(tz_lang, f"未知区域({level_key})")
                             tz_list.append(level_name)
 
                     elif isinstance(raw_zone, list):
                         for zone_id in raw_zone:
                             level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
-                            level = jcy_config.LOCAL.get(level_key, {})
+                            level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
                             level_name = level.get(tz_lang, f"未知区域({zone_id})")
                             tz_list.append(level_name)
 

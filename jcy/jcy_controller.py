@@ -66,8 +66,10 @@ class FeatureController:
         self.file_operations.scan_asset_package()
         # 读取恐怖区域映射
         jcy_config.TERROR_ZONE = self.file_operations.load_terror_zone_mapper()
-        # 加载字典
-        jcy_config.LOCAL = self.file_operations.load_dicts()
+        # 加载本地化扩展字典
+        jcy_config.LOCAL_EXT_DICT = self.file_operations.load_local_ext_dicts()
+        # 加载本地化原文件字典
+        jcy_config.LOCAL_ORIGINAL_DICT = self.file_operations.load_local_original_dicts()
 
         jcy_config.UNIQUEITEMS = self.file_operations.load_uniqueitems()
         jcy_config.SETS = self.file_operations.load_sets()
@@ -116,14 +118,14 @@ class FeatureController:
                 if isinstance(raw_zone, str):
                     level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
                     for level_key in level_keys:
-                        level = jcy_config.LOCAL.get(level_key, {})
+                        level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
                         level_name = level.get(tz_lang, f"未知区域({level_key})")
                         tz_list.append(level_name)
 
                 elif isinstance(raw_zone, list):
                     for zone_id in raw_zone:
                         level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
-                        level = jcy_config.LOCAL.get(level_key, {})
+                        level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
                         level_name = level.get(tz_lang, f"未知区域({zone_id})")
                         tz_list.append(level_name)
                 

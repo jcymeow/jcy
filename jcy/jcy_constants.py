@@ -27,7 +27,21 @@ LANGUAGES = [ZHCN2, ZHSGCN, ZHTW2, ZHSGTW, ENUS]
 UI_PANEL_HEALTH = {"enUS":"Life:","zhTW":"生命：","deDE":"Leben:","esES":"Vida:","frFR":"Vie :","itIT":"Vita:","koKR":"생명력:","plPL":"Zdrowie:","esMX":"Vida:","jaJP":"ライフ:","ptBR":"Vida:","ruRU":"Здоровье:","zhCN":"生命:"}
 UI_PANEL_MANA = {"enUS":"Mana:","zhTW":"法力：","deDE":"Mana:","esES":"Maná:","frFR":"Mana :","itIT":"Mana:","koKR":"마나:","plPL":"Mana:","esMX":"Maná:","jaJP":"マナ:","ptBR":"Mana:","ruRU":"Мана:","zhCN":"法力:"}
 
-LANG = None
+# 本地化文档
+LOCAL_FILES = [
+    "item-gems.json",
+    "item-modifiers.json",
+    "item-nameaffixes.json",
+    "item-names.json",
+    "item-runes.json",
+    "levels.json",
+    "monsters.json",
+    "npcs.json",
+    "objects.json",
+    "quests.json",
+    "shrines.json",
+    "skills.json",
+]
 
 # 控制器名称
 APP_NAME = "jcy控制器"
@@ -950,6 +964,7 @@ __all__ = [
     'ZHSGTW',
     'ENUS',
     'LANGUAGES',
+    'LOCAL_FILES',
     'UI_PANEL_HEALTH',
     'UI_PANEL_MANA',
     'APP_NAME',

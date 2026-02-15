@@ -2748,14 +2748,14 @@ class FileOperations:
                 if isinstance(raw_zone, str):
                     level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
                     for level_key in level_keys:
-                        level = jcy_config.LOCAL.get(level_key, {})
+                        level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
                         level_name = level.get(tz_lang, f"未知区域({level_key})")
                         tz_list.append(level_name)
 
                 elif isinstance(raw_zone, list):
                     for zone_id in raw_zone:
                         level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
-                        level = jcy_config.LOCAL.get(level_key, {})
+                        level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
                         level_name = level.get(tz_lang, f"未知区域({zone_id})")
                         tz_list.append(level_name)
 
@@ -2771,27 +2771,12 @@ class FileOperations:
     def modify_selected_language(self, select_language: str):
         """修改本地化文件列表, 选中语言内容"""
         
-        _files = [
-            "item-gems.json",
-            "item-modifiers.json",
-            "item-nameaffixes.json",
-            "item-names.json",
-            "item-runes.json",
-            "levels.json",
-            "monsters.json",
-            "npcs.json",
-            "objects.json",
-            "quests.json",
-            "shrines.json",
-            "skills.json",
-        ]
-
         count = 0
-        total = len(_files)
+        total = len(LOCAL_FILES)
 
         lng = jcy_config.SETTINGS.get(select_language, ZHTW)
 
-        for _file in _files:
+        for _file in LOCAL_FILES:
             json_data = None
             json_path = os.path.join(MOD_PATH, "data/local/lng/strings", _file)
 
@@ -2801,7 +2786,7 @@ class FileOperations:
 
                 for item in json_data:
                     key = item.get("Key")
-                    item[select_language] = jcy_config.LOCAL.get(key, {}).get(lng, key)
+                    item[select_language] = jcy_config.LOCAL_EXT_DICT.get(key, {}).get(lng, key)
                                 
                 with open(json_path, 'w', encoding="utf-8-sig") as f:
                     json.dump(json_data, f, ensure_ascii=False, indent=2)
@@ -4181,6 +4166,36 @@ class FileOperations:
         file_path = os.path.join(TERROR_ZONE_PATH)
         with open(file_path, 'w', encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=4)
+
+
+    def load_local_ext_dicts(self):
+        """加载本地化扩展字典"""
+        _dict = {}
+
+        for _file in LOCAL_FILES:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, "jcy/ext", _file)
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+            _dict.update(json_data)
+
+        return _dict   
+
+
+    def load_local_original_dicts(self):
+        """加载本地化原文件字典"""
+        _dict = {}
+
+        for _file in LOCAL_FILES:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, "original", _file)
+            with open(json_path, "r", encoding="utf-8-sig") as f:
+                json_data = json.load(f)
+            
+            for entity in json_data:
+                _dict[entity.get("Key")] = entity
+
+        return _dict     
 
 
     def load_dicts(self):

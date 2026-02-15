@@ -15,8 +15,11 @@ ASSET_COUNT = {}
 # 恐怖区域
 TERROR_ZONE = {}
 
-# 本地化
-LOCAL = {}
+# 本地化扩展字典
+LOCAL_EXT_DICT = {}
+
+# 本地化原文件字典
+LOCAL_ORIGINAL_DICT = {}
 
 # 暗金物品
 UNIQUEITEMS = []
