@@ -166,7 +166,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": ENABLE_POINTER,
+                            "fid": Function.ENABLE_POINTER.value,
                             "type": CHECK,
                             "text": "环境-开启指引",
                             "colspan": 70,

@@ -2300,7 +2300,7 @@ class FileOperations:
             r"data/hd/env/preset/act1/court/courtw.json",
         ]
 
-        is_enabled = "3" in jcy_config.SETTINGS.get(ENABLE_POINTER, [])
+        is_enabled = "3" in jcy_config.SETTINGS.get(Function.ENABLE_POINTER.value, [])
 
         return self.common_rename(_files, is_enabled)
 
@@ -2315,7 +2315,7 @@ class FileOperations:
             r"data/hd/env/preset/expansion/wildtemple/nihlw.json",
         ]
 
-        is_enabled = "6" in jcy_config.SETTINGS.get(ENABLE_POINTER, [])
+        is_enabled = "6" in jcy_config.SETTINGS.get(Function.ENABLE_POINTER.value, [])
 
         return self.common_rename(_files, is_enabled)
 

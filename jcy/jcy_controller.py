@@ -251,6 +251,8 @@ class FeatureController:
             Function.PORTAL_SKIN.value: self.file_operations.select_town_portal,
             # 环境-关闭特效
             Function.DISABLE_EFFECTS.value: self.file_operations.hide_environmental_effects,
+            # 环境-开启指引
+            Function.ENABLE_POINTER.value: self.file_operations.show_environmental_pointer,
 
 
 
@@ -305,9 +307,6 @@ class FeatureController:
             # 符文&符文之语设置
             ITEM_RUNE_SETTING1: self.file_operations.modify_item_rune,
             ITEM_RUNE_SETTING2: self.file_operations.modify_item_rune,
-            
-            # 环境-开启指引
-            ENABLE_POINTER: self.file_operations.show_environmental_pointer,
             # 道具-提醒
             ITEM_NOTIFICATION: self.file_operations.modify_item_notification,
             # 环境-小站指引
