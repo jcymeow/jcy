@@ -1720,7 +1720,7 @@ class FileOperations:
                         if set_enus and lng != Language.ENUS.value:
                             arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
-                else:
+                elif Key in ITEM_BASE:
                     for lang in Language:
                         lng = lang.value
                         arr = [item[lng]]
@@ -1753,6 +1753,7 @@ class FileOperations:
             with open(ext_path, 'w', encoding="utf-8") as f:
                 json.dump(ext_json, f, ensure_ascii=False, indent=4)
             
+            jcy_config.LOCAL_EXT_DICT = self.load_local_ext_dicts()
             self.modify_zhCN_language("")
             self.modify_zhTW_language("")
 
@@ -2736,7 +2737,9 @@ class FileOperations:
 
                 for item in json_data:
                     key = item.get("Key")
-                    item[select_language] = jcy_config.LOCAL_EXT_DICT.get(key, {}).get(lng, key)
+                    ext = jcy_config.LOCAL_EXT_DICT.get(key)
+                    if ext:
+                        item[select_language] = ext.get(lng)
                                 
                 with open(json_path, 'w', encoding="utf-8-sig") as f:
                     json.dump(json_data, f, ensure_ascii=False, indent=2)

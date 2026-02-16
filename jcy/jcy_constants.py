@@ -36,8 +36,8 @@ LOCAL_FILES = [
     "item-runes.json",
     "levels.json",
     "monsters.json",
-    "npcs.json",
     "objects.json",
+    "presence-states.json",
     "quests.json",
     "shrines.json",
     "skills.json",
@@ -612,6 +612,21 @@ ITEM_BASE = [
     "vbt",
     "vgl",
     "vou",
+    "wa1",
+    "wa2",
+    "wa3",
+    "wa4",
+    "wa5",
+    "wa6",
+    "wa7",
+    "wa8",
+    "wa9",
+    "waa",
+    "wab",
+    "wac",
+    "wad",
+    "wae",
+    "waf",
     "wax",
     "whm",
     "wnd",
@@ -666,7 +681,8 @@ ITEM_BASE = [
     "zlb",
     "zmb",
     "ztb",
-    "zvb"
+    "zvb",
+
 ]
 
 # 道具字典<Key, 模型>
