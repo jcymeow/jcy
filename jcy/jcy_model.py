@@ -178,7 +178,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": WAYPOINT_POINTER,
+                            "fid": Function.WAYPOINT_POINTER.value,
                             "type": RADIO,
                             "text": "环境-小站指引",
                             "colspan": 50,
@@ -190,7 +190,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MISSION_POINTER,
+                            "fid": Function.MISSION_POINTER.value,
                             "type": RADIO,
                             "text": "环境-任务指引",
                             "colspan": 50,
@@ -202,7 +202,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": UPSTAIRS_POINTER,
+                            "fid": Function.UPSTAIRS_POINTER.value,
                             "type": RADIO,
                             "text": "环境-上口指引",
                             "colspan": 50,
@@ -214,7 +214,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": DOWNSTAIRS_POINTER,
+                            "fid": Function.DOWNSTAIRS_POINTER.value,
                             "type": RADIO,
                             "text": "环境-下口指引",
                             "colspan": 50,

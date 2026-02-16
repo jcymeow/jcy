@@ -139,10 +139,6 @@ ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
 ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
 ASSET_PATH = "AssetPath"
 ITEM_FILTER = "ItemFilter"
-WAYPOINT_POINTER = "WayPointPointer"
-MISSION_POINTER = "MissionPointer"
-UPSTAIRS_POINTER = "UpstairsPointer"
-DOWNSTAIRS_POINTER = "DownstairsPointer"
 # Function Identifier -->
 
 # Assets
@@ -909,6 +905,10 @@ class Function(Enum):
     PORTAL_SKIN = "ProtalSkin"
     DISABLE_EFFECTS = "DisableEffects"
     ENABLE_POINTER = "EnablePointer"
+    WAYPOINT_POINTER = "WayPointPointer"
+    MISSION_POINTER = "MissionPointer"
+    UPSTAIRS_POINTER = "UpstairsPointer"
+    DOWNSTAIRS_POINTER = "DownstairsPointer"
 
 
 class Language(Enum):
@@ -1023,10 +1023,6 @@ __all__ = [
     'ITEM_BASE',
     'ITEM_MISC',
     'CUSTOM_SOUNDS',
-    'WAYPOINT_POINTER',
-    'MISSION_POINTER',
-    'UPSTAIRS_POINTER',
-    'DOWNSTAIRS_POINTER',
     'GAME_MODEL',
     'RUNE_SKIN',
     'SKILL_SKIN',

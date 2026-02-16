@@ -237,6 +237,7 @@ class FeatureController:
             # 恐怖区域-预告
             Function.TERROR_ZONE_NEXT.value: self.file_operations.terror_zone_next,
 
+
             # 游戏设置
             Function.GAME_SETTING.value: self.file_operations.select_game_setting,
             # 游戏设置2
@@ -253,8 +254,14 @@ class FeatureController:
             Function.DISABLE_EFFECTS.value: self.file_operations.hide_environmental_effects,
             # 环境-开启指引
             Function.ENABLE_POINTER.value: self.file_operations.show_environmental_pointer,
-
-
+            # 环境-小站指引
+            Function.WAYPOINT_POINTER.value: self.file_operations.modify_waypoint_pointer,
+            # 环境-任务指引
+            Function.MISSION_POINTER.value: self.file_operations.modify_mission_pointer,
+            # 环境-上口指引
+            Function.UPSTAIRS_POINTER.value: self.file_operations.modify_upstairs_pointer,
+            # 环境-下口指引
+            Function.DOWNSTAIRS_POINTER.value: self.file_operations.modify_downstairs_pointer,
 
 
             # 道具屏蔽
@@ -309,14 +316,7 @@ class FeatureController:
             ITEM_RUNE_SETTING2: self.file_operations.modify_item_rune,
             # 道具-提醒
             ITEM_NOTIFICATION: self.file_operations.modify_item_notification,
-            # 环境-小站指引
-            WAYPOINT_POINTER: self.file_operations.modify_waypoint_pointer,
-            # 环境-任务指引
-            MISSION_POINTER: self.file_operations.modify_mission_pointer,
-            # 环境-上口指引
-            UPSTAIRS_POINTER: self.file_operations.modify_upstairs_pointer,
-            # 环境-下口指引
-            DOWNSTAIRS_POINTER: self.file_operations.modify_downstairs_pointer,
+            
             
             
         }
