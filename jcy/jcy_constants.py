@@ -37,7 +37,6 @@ LOCAL_FILES = [
     "levels.json",
     "monsters.json",
     "objects.json",
-    "presence-states.json",
     "quests.json",
     "shrines.json",
     "skills.json",
