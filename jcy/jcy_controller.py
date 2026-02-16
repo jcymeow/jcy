@@ -270,57 +270,55 @@ class FeatureController:
             Function.ARROW.value : self.file_operations.select_arrow_skin,
             # 传送术皮肤
             Function.TELEPORT_SKIN.value: self.file_operations.select_teleport_skin,
-
-
-            # 道具屏蔽
-            ITEM_FILTER: self.file_operations.modify_item_filter,
             # 魔法师
-            SOR_SETTING: self.file_operations.sorceress_setting,
-            # 死灵法师
-            NEC_SETTING: self.file_operations.necromancer_setting,
-            # 德鲁伊
-            DRU_SETTING: self.file_operations.druid_setting,
+            Function.SOR_SETTING.value: self.file_operations.sorceress_setting,
             # 刺客
-            ASN_SETTING: self.file_operations.assassin_setting,
+            Function.ASN_SETTING.value: self.file_operations.assassin_setting,
             # 刺客-聚气图标
-            ASN_MARTIAL: self.file_operations.assassin_martial,
+            Function.ASN_MARTIAL.value: self.file_operations.assassin_martial,
+            # 死灵法师
+            Function.NEC_SETTING.value: self.file_operations.necromancer_setting,
+            # 德鲁伊
+            Function.DRU_SETTING.value: self.file_operations.druid_setting,
             # 圣骑士
-            PAL_SETTING: self.file_operations.paladin_setting,
-            
+            Function.PAL_SETTING.value: self.file_operations.paladin_setting,
             # 技能结束提示音
-            SKILL_OFF_SOUNDS: self.file_operations.skill_off_sounds,
+            Function.SKILL_OFF_SOUNDS.value: self.file_operations.skill_off_sounds,
+
             # 佣兵-图标位置
-            MERCENARY_LOCATION: self.file_operations.select_hireables_panel,
+            Function.MERCENARY_LOCATION.value: self.file_operations.select_hireables_panel,
             # 佣兵-坐标 x HUD100%
-            MERCENARY_100: self.file_operations.mercenary_coordinate,
+            Function.MERCENARY_100.value: self.file_operations.mercenary_coordinate,
             # 怪物-配置
-            MONSTER_SETTING: self.file_operations.select_monster_setting,
+            Function.MONSTER_SETTING.value: self.file_operations.select_monster_setting,
             # 怪物-光源亮度
-            MONSTER_LIGHTING: self.file_operations.select_monster_lighting,
+            Function.MONSTER_LIGHTING.value: self.file_operations.select_monster_lighting,
             # 怪物-血条样式
-            MONSTER_HEALTH: self.file_operations.select_monster_health,
+            Function.MONSTER_HEALTH.value: self.file_operations.select_monster_health,
             # 怪物-导弹
-            MONSTER_MISSILE: self.file_operations.select_enemy_arrow_skin,
+            Function.MONSTER_MISSILE.value: self.file_operations.select_enemy_arrow_skin,
+
             # 装备-特效
-            EQIUPMENT_SETTING: self.file_operations.select_equipment_setting,
+            Function.EQIUPMENT_SETTING.value: self.file_operations.select_equipment_setting,
             # 装备-底材/暗金/套装特效
-            BASE_EFFECTS: self.file_operations.select_equipment_effects,
-            UNIQUE_EFFECTS: self.file_operations.select_equipment_effects,
-            SETS_EFFECTS: self.file_operations.select_equipment_effects,
+            Function.BASE_EFFECTS.value: self.file_operations.select_equipment_effects,
+            Function.UNIQUE_EFFECTS.value: self.file_operations.select_equipment_effects,
+            Function.SETS_EFFECTS.value: self.file_operations.select_equipment_effects,
             # 装备-词缀特效
-            AFFIX_EFFECTS: self.file_operations.select_affix_effects,
+            Function.AFFIX_EFFECTS.value: self.file_operations.select_affix_effects,
             # 暗金/独特装备-染色
-            UNIQUE_COLOR: self.file_operations.modify_unique_color,
-            # 装备-模型特效
-            MODEL_EFFECTS: self.file_operations.select_model_eccects,
+            Function.UNIQUE_COLOR.value: self.file_operations.modify_unique_color,
+            # 装备-开启投掷特效
+            Function.MODEL_EFFECTS.value: self.file_operations.select_model_eccects,
             # 符文&符文之语设置
-            ITEM_RUNE_SETTING1: self.file_operations.modify_item_rune,
-            ITEM_RUNE_SETTING2: self.file_operations.modify_item_rune,
+            Function.ITEM_RUNE_SETTING1.value: self.file_operations.modify_item_rune,
+            Function.ITEM_RUNE_SETTING2.value: self.file_operations.modify_item_rune,
+
             # 道具-提醒
-            ITEM_NOTIFICATION: self.file_operations.modify_item_notification,
-            
-            
-            
+            Function.ITEM_NOTIFICATION.value: self.file_operations.modify_item_notification,
+
+             # 道具屏蔽
+            Function.ITEM_FILTER.value: self.file_operations.modify_item_filter,
         }
 
 

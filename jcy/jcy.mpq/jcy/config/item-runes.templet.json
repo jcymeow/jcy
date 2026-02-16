@@ -1,0 +1,2234 @@
+[
+    {
+        "id": 10902,
+        "Key": "r16",
+        "enUS": "{{formula}}{{color}}{{logo}}Io{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}埃歐{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}艾欧{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}艾欧{{title}}{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}破{{rune}}{{num}}"
+    },
+    {
+        "id": 10903,
+        "Key": "r16L",
+        "enUS": "Io#16",
+        "zhTW": "埃歐#16",
+        "zhCN": "艾欧#16",
+        "sgCN": "破#16",
+        "sgTW": "破#16"
+    },
+    {
+        "id": 10904,
+        "Key": "r13",
+        "enUS": "{{formula}}{{color}}{{logo}}Shael{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}夏{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}沙伊{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}夏{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}夏{{rune}}{{num}}"
+    },
+    {
+        "id": 10905,
+        "Key": "r13L",
+        "enUS": "Shael#13",
+        "zhTW": "夏#13",
+        "zhCN": "沙伊#13",
+        "sgCN": "夏#13",
+        "sgTW": "夏#13"
+    },
+    {
+        "id": 10906,
+        "Key": "r31",
+        "enUS": "{{formula}}{{color}}{{logo}}Jah{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}喬{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}扎哈{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}乔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}喬{{rune}}{{num}}"
+    },
+    {
+        "id": 10907,
+        "Key": "r31L",
+        "enUS": "Jah#31",
+        "zhTW": "喬#31",
+        "zhCN": "扎哈#31",
+        "sgCN": "乔#31",
+        "sgTW": "喬#31"
+    },
+    {
+        "id": 10910,
+        "Key": "Runeword22",
+        "enUS": "Delirium",
+        "zhTW": "精神錯亂",
+        "zhCN": "迷狂",
+        "sgCN": "迪勒瑞姆",
+        "sgTW": "迪勒瑞姆"
+    },
+    {
+        "id": 20440,
+        "Key": "r33",
+        "enUS": "{{formula}}{{color}}{{logo}}Zod{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}薩德{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}佐德{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}萨德{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}薩德{{rune}}{{num}}"
+    },
+    {
+        "id": 20441,
+        "Key": "r32",
+        "enUS": "{{formula}}{{color}}{{logo}}Cham{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}查姆{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}"
+    },
+    {
+        "id": 20443,
+        "Key": "r30",
+        "enUS": "{{formula}}{{color}}{{logo}}Ber{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}貝{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}贝{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}贝{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}貝{{rune}}{{num}}"
+    },
+    {
+        "id": 20444,
+        "Key": "r29",
+        "enUS": "{{formula}}{{color}}{{logo}}Sur{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}瑟{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}"
+    },
+    {
+        "id": 20445,
+        "Key": "r28",
+        "enUS": "{{formula}}{{color}}{{logo}}Lo{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}羅{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}罗{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}罗{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}羅{{rune}}{{num}}"
+    },
+    {
+        "id": 20446,
+        "Key": "r27",
+        "enUS": "{{formula}}{{color}}{{logo}}Ohm{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}歐姆{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}欧姆{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}欧姆{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}歐姆{{rune}}{{num}}"
+    },
+    {
+        "id": 20447,
+        "Key": "r26",
+        "enUS": "{{formula}}{{color}}{{logo}}Vex{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}伐克斯{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}"
+    },
+    {
+        "id": 20448,
+        "Key": "r25",
+        "enUS": "{{formula}}{{color}}{{logo}}Gul{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}古爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}古尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}古尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}古爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20449,
+        "Key": "r24",
+        "enUS": "{{formula}}{{color}}{{logo}}Ist{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}伊司特{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}"
+    },
+    {
+        "id": 20450,
+        "Key": "r23",
+        "enUS": "{{formula}}{{color}}{{logo}}Mal{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}馬爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}玛尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}马尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}馬爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20451,
+        "Key": "r22",
+        "enUS": "{{formula}}{{color}}{{logo}}Um{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}烏姆{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}乌姆{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}乌姆{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}烏姆{{rune}}{{num}}"
+    },
+    {
+        "id": 20452,
+        "Key": "r21",
+        "enUS": "{{formula}}{{color}}{{logo}}Pul{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}普爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}普尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}普尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}普爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20453,
+        "Key": "r20",
+        "enUS": "{{formula}}{{color}}{{logo}}Lem{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}藍姆{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}兰姆{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}蓝姆{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}藍姆{{rune}}{{num}}"
+    },
+    {
+        "id": 20454,
+        "Key": "r19",
+        "enUS": "{{formula}}{{color}}{{logo}}Fal{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}法爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}法尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}法尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}法爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20455,
+        "Key": "r18",
+        "enUS": "{{formula}}{{color}}{{logo}}Ko{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}科{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}科{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}科{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}科{{rune}}{{num}}"
+    },
+    {
+        "id": 20456,
+        "Key": "r17",
+        "enUS": "{{formula}}{{color}}{{logo}}Lum{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}盧姆{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}卢姆{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}卢姆{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}盧姆{{rune}}{{num}}"
+    },
+    {
+        "id": 20458,
+        "Key": "r15",
+        "enUS": "{{formula}}{{color}}{{logo}}Hel{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}海爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}海尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}海尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}海爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20459,
+        "Key": "r14",
+        "enUS": "{{formula}}{{color}}{{logo}}Dol{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}多爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}多尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}多尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}多爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20461,
+        "Key": "r12",
+        "enUS": "{{formula}}{{color}}{{logo}}Sol{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}索爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}索尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}索尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}索爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20462,
+        "Key": "r11",
+        "enUS": "{{formula}}{{color}}{{logo}}Amn{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}安姆{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}安姆{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}安姆{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}安姆{{rune}}{{num}}"
+    },
+    {
+        "id": 20463,
+        "Key": "r10",
+        "enUS": "{{formula}}{{color}}{{logo}}Thul{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}書爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}图尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}书尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}書爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20464,
+        "Key": "r09",
+        "enUS": "{{formula}}{{color}}{{logo}}Ort{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}歐特{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}欧特{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}欧特{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}歐特{{rune}}{{num}}"
+    },
+    {
+        "id": 20465,
+        "Key": "r08",
+        "enUS": "{{formula}}{{color}}{{logo}}Ral{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}拉爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}拉尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}拉尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}拉爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20466,
+        "Key": "r07",
+        "enUS": "{{formula}}{{color}}{{logo}}Tal{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}塔爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}塔尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}塔尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}塔爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20467,
+        "Key": "r06",
+        "enUS": "{{formula}}{{color}}{{logo}}Ith{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}伊司{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}伊司{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}伊司{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}伊司{{rune}}{{num}}"
+    },
+    {
+        "id": 20468,
+        "Key": "r05",
+        "enUS": "{{formula}}{{color}}{{logo}}Eth{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}愛斯{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}艾斯{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}爱斯{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}愛斯{{rune}}{{num}}"
+    },
+    {
+        "id": 20469,
+        "Key": "r04",
+        "enUS": "{{formula}}{{color}}{{logo}}Nef{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}那夫{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}奈夫{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}那夫{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}那夫{{rune}}{{num}}"
+    },
+    {
+        "id": 20470,
+        "Key": "r03",
+        "enUS": "{{formula}}{{color}}{{logo}}Tir{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}特爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}提尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}特尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}特爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20471,
+        "Key": "r02",
+        "enUS": "{{formula}}{{color}}{{logo}}Eld{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}艾德{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}艾德{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}艾德{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}艾德{{rune}}{{num}}"
+    },
+    {
+        "id": 20472,
+        "Key": "r01",
+        "enUS": "{{formula}}{{color}}{{logo}}El{{title}}{{rune}}{{num}}",
+        "zhTW": "{{formula}}{{color}}{{logo}}{{title}}艾爾{{rune}}{{num}}",
+        "zhCN": "{{formula}}{{color}}{{logo}}艾尔{{title}}{{rune}}{{num}}",
+        "sgCN": "{{formula}}{{color}}{{logo}}{{title}}艾尔{{rune}}{{num}}",
+        "sgTW": "{{formula}}{{color}}{{logo}}{{title}}艾爾{{rune}}{{num}}"
+    },
+    {
+        "id": 20473,
+        "Key": "r33L",
+        "enUS": "Zod#33",
+        "zhTW": "薩德#33",
+        "zhCN": "佐德#33",
+        "sgCN": "萨德#33",
+        "sgTW": "薩德#33"
+    },
+    {
+        "id": 20474,
+        "Key": "r32L",
+        "enUS": "Cham#32",
+        "zhTW": "查姆#32",
+        "zhCN": "查姆#32",
+        "sgCN": "查姆#32",
+        "sgTW": "查姆#32"
+    },
+    {
+        "id": 20476,
+        "Key": "r30L",
+        "enUS": "Ber#30",
+        "zhTW": "貝#30",
+        "zhCN": "贝#30",
+        "sgCN": "贝#30",
+        "sgTW": "貝#30"
+    },
+    {
+        "id": 20477,
+        "Key": "r29L",
+        "enUS": "Sur#29",
+        "zhTW": "瑟#29",
+        "zhCN": "瑟#29",
+        "sgCN": "瑟#29",
+        "sgTW": "瑟#29"
+    },
+    {
+        "id": 20478,
+        "Key": "r28L",
+        "enUS": "Lo#28",
+        "zhTW": "羅#28",
+        "zhCN": "罗#28",
+        "sgCN": "罗#28",
+        "sgTW": "羅#28"
+    },
+    {
+        "id": 20479,
+        "Key": "r27L",
+        "enUS": "Ohm#27",
+        "zhTW": "歐姆#27",
+        "zhCN": "欧姆#27",
+        "sgCN": "欧姆#27",
+        "sgTW": "歐姆#27"
+    },
+    {
+        "id": 20480,
+        "Key": "r26L",
+        "enUS": "Vex#26",
+        "zhTW": "伐克斯#26",
+        "zhCN": "伐克斯#26",
+        "sgCN": "伐克斯#26",
+        "sgTW": "伐克斯#26"
+    },
+    {
+        "id": 20481,
+        "Key": "r25L",
+        "enUS": "Gul#25",
+        "zhTW": "古爾#25",
+        "zhCN": "古尔#25",
+        "sgCN": "古尔#25",
+        "sgTW": "古爾#25"
+    },
+    {
+        "id": 20482,
+        "Key": "r24L",
+        "enUS": "Ist#24",
+        "zhTW": "伊司特#24",
+        "zhCN": "伊司特#24",
+        "sgCN": "伊司特#24",
+        "sgTW": "伊司特#24"
+    },
+    {
+        "id": 20483,
+        "Key": "r23L",
+        "enUS": "Mal#23",
+        "zhTW": "馬爾#23",
+        "zhCN": "玛尔#23",
+        "sgCN": "马尔#23",
+        "sgTW": "馬爾#23"
+    },
+    {
+        "id": 20484,
+        "Key": "r22L",
+        "enUS": "Um#22",
+        "zhTW": "烏姆#22",
+        "zhCN": "乌姆#22",
+        "sgCN": "乌姆#22",
+        "sgTW": "烏姆#22"
+    },
+    {
+        "id": 20485,
+        "Key": "r21L",
+        "enUS": "Pul#21",
+        "zhTW": "普爾#21",
+        "zhCN": "普尔#21",
+        "sgCN": "普尔#21",
+        "sgTW": "普爾#21"
+    },
+    {
+        "id": 20486,
+        "Key": "r20L",
+        "enUS": "Lem#20",
+        "zhTW": "藍姆#20",
+        "zhCN": "兰姆#20",
+        "sgCN": "蓝姆#20",
+        "sgTW": "藍姆#20"
+    },
+    {
+        "id": 20487,
+        "Key": "r19L",
+        "enUS": "Fal#19",
+        "zhTW": "法爾#19",
+        "zhCN": "法尔#19",
+        "sgCN": "法尔#19",
+        "sgTW": "法爾#19"
+    },
+    {
+        "id": 20488,
+        "Key": "r18L",
+        "enUS": "Ko#18",
+        "zhTW": "科#18",
+        "zhCN": "科#18",
+        "sgCN": "科#18",
+        "sgTW": "科#18"
+    },
+    {
+        "id": 20489,
+        "Key": "r17L",
+        "enUS": "Lum#17",
+        "zhTW": "盧姆#17",
+        "zhCN": "卢姆#17",
+        "sgCN": "卢姆#17",
+        "sgTW": "盧姆#17"
+    },
+    {
+        "id": 20491,
+        "Key": "r15L",
+        "enUS": "Hel#15",
+        "zhTW": "海爾#15",
+        "zhCN": "海尔#15",
+        "sgCN": "海尔#15",
+        "sgTW": "海爾#15"
+    },
+    {
+        "id": 20492,
+        "Key": "r14L",
+        "enUS": "Dol#14",
+        "zhTW": "多爾#14",
+        "zhCN": "多尔#14",
+        "sgCN": "多尔#14",
+        "sgTW": "多爾#14"
+    },
+    {
+        "id": 20494,
+        "Key": "r12L",
+        "enUS": "Sol#12",
+        "zhTW": "索爾#12",
+        "zhCN": "索尔#12",
+        "sgCN": "索尔#12",
+        "sgTW": "索爾#12"
+    },
+    {
+        "id": 20495,
+        "Key": "r11L",
+        "enUS": "Amn#11",
+        "zhTW": "安姆#11",
+        "zhCN": "安姆#11",
+        "sgCN": "安姆#11",
+        "sgTW": "安姆#11"
+    },
+    {
+        "id": 20496,
+        "Key": "r10L",
+        "enUS": "Thul#10",
+        "zhTW": "書爾#10",
+        "zhCN": "图尔#10",
+        "sgCN": "书尔#10",
+        "sgTW": "書爾#10"
+    },
+    {
+        "id": 20497,
+        "Key": "r09L",
+        "enUS": "Ort#09",
+        "zhTW": "歐特#09",
+        "zhCN": "欧特#09",
+        "sgCN": "欧特#09",
+        "sgTW": "歐特#09"
+    },
+    {
+        "id": 20498,
+        "Key": "r08L",
+        "enUS": "Ral#08",
+        "zhTW": "拉爾#08",
+        "zhCN": "拉尔#08",
+        "sgCN": "拉尔#08",
+        "sgTW": "拉爾#08"
+    },
+    {
+        "id": 20499,
+        "Key": "r07L",
+        "enUS": "Tal#07",
+        "zhTW": "塔爾#07",
+        "zhCN": "塔尔#07",
+        "sgCN": "塔尔#07",
+        "sgTW": "塔爾#07"
+    },
+    {
+        "id": 20500,
+        "Key": "r06L",
+        "enUS": "Ith#06",
+        "zhTW": "伊司#06",
+        "zhCN": "伊司#06",
+        "sgCN": "伊司#06",
+        "sgTW": "伊司#06"
+    },
+    {
+        "id": 20501,
+        "Key": "r05L",
+        "enUS": "Eth#05",
+        "zhTW": "愛斯#05",
+        "zhCN": "艾斯#05",
+        "sgCN": "爱斯#05",
+        "sgTW": "愛斯#05"
+    },
+    {
+        "id": 20502,
+        "Key": "r04L",
+        "enUS": "Nef#04",
+        "zhTW": "那夫#04",
+        "zhCN": "奈夫#04",
+        "sgCN": "那夫#04",
+        "sgTW": "那夫#04"
+    },
+    {
+        "id": 20503,
+        "Key": "r03L",
+        "enUS": "Tir#03",
+        "zhTW": "特爾#03",
+        "zhCN": "提尔#03",
+        "sgCN": "特尔#03",
+        "sgTW": "特爾#03"
+    },
+    {
+        "id": 20504,
+        "Key": "r02L",
+        "enUS": "Eld#02",
+        "zhTW": "艾德#02",
+        "zhCN": "艾德#02",
+        "sgCN": "艾德#02",
+        "sgTW": "艾德#02"
+    },
+    {
+        "id": 20505,
+        "Key": "r01L",
+        "enUS": "El#01",
+        "zhTW": "艾爾#01",
+        "zhCN": "艾尔#01",
+        "sgCN": "艾尔#01",
+        "sgTW": "艾爾#01"
+    },
+    {
+        "id": 20506,
+        "Key": "RuneQuote",
+        "enUS": "'",
+        "zhTW": "'",
+        "zhCN": "'",
+        "sgCN": "'",
+        "sgTW": "'"
+    },
+    {
+        "id": 20507,
+        "Key": "Runeword1",
+        "enUS": "Ancients' Pledge",
+        "zhTW": "先祖之契",
+        "zhCN": "先祖之誓",
+        "sgCN": "古代人的契约",
+        "sgTW": "古代人的契約"
+    },
+    {
+        "id": 20508,
+        "Key": "Runeword2",
+        "enUS": "Armageddon",
+        "zhTW": "毀天滅地",
+        "zhCN": "末日",
+        "sgCN": "毁天灭地",
+        "sgTW": "毀天滅地"
+    },
+    {
+        "id": 20509,
+        "Key": "Runeword3",
+        "enUS": "Authority",
+        "zhTW": "權威",
+        "zhCN": "权威",
+        "sgCN": "权威",
+        "sgTW": "權威"
+    },
+    {
+        "id": 20510,
+        "Key": "Runeword4",
+        "enUS": "Beast",
+        "zhTW": "野獸",
+        "zhCN": "野兽",
+        "sgCN": "野兽",
+        "sgTW": "野獸"
+    },
+    {
+        "id": 20511,
+        "Key": "Runeword5",
+        "enUS": "Beauty",
+        "zhTW": "美貌",
+        "zhCN": "美丽",
+        "sgCN": "美貌",
+        "sgTW": "美貌"
+    },
+    {
+        "id": 20512,
+        "Key": "Runeword6",
+        "enUS": "Black",
+        "zhTW": "黑錘",
+        "zhCN": "黑色",
+        "sgCN": "黑色",
+        "sgTW": "黑色"
+    },
+    {
+        "id": 20513,
+        "Key": "Runeword7",
+        "enUS": "Blood",
+        "zhTW": "鮮血",
+        "zhCN": "鲜血",
+        "sgCN": "血腥",
+        "sgTW": "血腥"
+    },
+    {
+        "id": 20514,
+        "Key": "Runeword8",
+        "enUS": "Bone",
+        "zhTW": "骸骨",
+        "zhCN": "白骨",
+        "sgCN": "白骨",
+        "sgTW": "白骨"
+    },
+    {
+        "id": 20515,
+        "Key": "Runeword9",
+        "enUS": "Bramble",
+        "zhTW": "刺藤",
+        "zhCN": "荆棘",
+        "sgCN": "野蔷薇",
+        "sgTW": "野薔薇"
+    },
+    {
+        "id": 20516,
+        "Key": "Runeword10",
+        "enUS": "Brand",
+        "zhTW": "烙印",
+        "zhCN": "烙印",
+        "sgCN": "品牌",
+        "sgTW": "品牌"
+    },
+    {
+        "id": 20517,
+        "Key": "Runeword11",
+        "enUS": "Breath of the Dying",
+        "zhTW": "死亡呼吸",
+        "zhCN": "濒死之息",
+        "sgCN": "死亡呼吸",
+        "sgTW": "死亡呼吸"
+    },
+    {
+        "id": 20518,
+        "Key": "Runeword12",
+        "enUS": "Broken Promise",
+        "zhTW": "破碎誓言",
+        "zhCN": "破碎誓言",
+        "sgCN": "破碎的誓言",
+        "sgTW": "破碎的誓言"
+    },
+    {
+        "id": 20519,
+        "Key": "Runeword13",
+        "enUS": "Call to Arms",
+        "zhTW": "戰爭召喚",
+        "zhCN": "战争召唤",
+        "sgCN": "战争召唤",
+        "sgTW": "戰爭召喚"
+    },
+    {
+        "id": 20520,
+        "Key": "Runeword14",
+        "enUS": "Chains of Honor",
+        "zhTW": "榮耀之鍊",
+        "zhCN": "荣耀之链",
+        "sgCN": "荣耀之链",
+        "sgTW": "榮耀之鍊"
+    },
+    {
+        "id": 20521,
+        "Key": "Runeword15",
+        "enUS": "Chance",
+        "zhTW": "機會",
+        "zhCN": "机遇",
+        "sgCN": "机会",
+        "sgTW": "機會"
+    },
+    {
+        "id": 20522,
+        "Key": "Runeword16",
+        "enUS": "Chaos",
+        "zhTW": "混沌",
+        "zhCN": "混沌",
+        "sgCN": "混沌",
+        "sgTW": "沌頓"
+    },
+    {
+        "id": 20523,
+        "Key": "Runeword17",
+        "enUS": "Crescent Moon",
+        "zhTW": "新月",
+        "zhCN": "新月",
+        "sgCN": "新月",
+        "sgTW": "新月"
+    },
+    {
+        "id": 20524,
+        "Key": "Runeword18",
+        "enUS": "Darkness",
+        "zhTW": "黑暗",
+        "zhCN": "黑暗",
+        "sgCN": "黑暗",
+        "sgTW": "黑暗"
+    },
+    {
+        "id": 20525,
+        "Key": "Runeword19",
+        "enUS": "Daylight",
+        "zhTW": "白晝",
+        "zhCN": "白昼",
+        "sgCN": "白天",
+        "sgTW": "白天"
+    },
+    {
+        "id": 20526,
+        "Key": "Runeword20",
+        "enUS": "Death",
+        "zhTW": "死神",
+        "zhCN": "死亡",
+        "sgCN": "死神",
+        "sgTW": "死神"
+    },
+    {
+        "id": 20527,
+        "Key": "Runeword21",
+        "enUS": "Deception",
+        "zhTW": "欺暪",
+        "zhCN": "欺骗",
+        "sgCN": "欺瞒",
+        "sgTW": "欺暪"
+    },
+    {
+        "id": 20529,
+        "Key": "Runeword23",
+        "enUS": "Desire",
+        "zhTW": "渴望",
+        "zhCN": "欲望",
+        "sgCN": "渴望",
+        "sgTW": "渴望"
+    },
+    {
+        "id": 20530,
+        "Key": "Runeword24",
+        "enUS": "Despair",
+        "zhTW": "絕望",
+        "zhCN": "绝望",
+        "sgCN": "失望",
+        "sgTW": "失望"
+    },
+    {
+        "id": 20531,
+        "Key": "Runeword25",
+        "enUS": "Destruction",
+        "zhTW": "毀滅",
+        "zhCN": "毁灭",
+        "sgCN": "毁灭",
+        "sgTW": "毀滅"
+    },
+    {
+        "id": 20532,
+        "Key": "Runeword26",
+        "enUS": "Doom",
+        "zhTW": "末日",
+        "zhCN": "厄运",
+        "sgCN": "末日",
+        "sgTW": "末日"
+    },
+    {
+        "id": 20533,
+        "Key": "Runeword27",
+        "enUS": "Dragon",
+        "zhTW": "飛龍",
+        "zhCN": "巨龙",
+        "sgCN": "飞龙",
+        "sgTW": "飛龍"
+    },
+    {
+        "id": 20534,
+        "Key": "Runeword28",
+        "enUS": "Dread",
+        "zhTW": "恐懼",
+        "zhCN": "惊惧",
+        "sgCN": "恐惧",
+        "sgTW": "恐懼"
+    },
+    {
+        "id": 20535,
+        "Key": "Runeword29",
+        "enUS": "Dream",
+        "zhTW": "夢境",
+        "zhCN": "梦境",
+        "sgCN": "梦境",
+        "sgTW": "夢境"
+    },
+    {
+        "id": 20536,
+        "Key": "Runeword30",
+        "enUS": "Duress",
+        "zhTW": "強制",
+        "zhCN": "强压",
+        "sgCN": "强制",
+        "sgTW": "強制"
+    },
+    {
+        "id": 20537,
+        "Key": "Runeword31",
+        "enUS": "Edge",
+        "zhTW": "邊緣",
+        "zhCN": "邊緣",
+        "sgCN": "锐锋",
+        "sgTW": "邊緣"
+    },
+    {
+        "id": 20538,
+        "Key": "Runeword32",
+        "enUS": "Elation",
+        "zhTW": "興高彩烈",
+        "zhCN": "欢欣",
+        "sgCN": "兴高采烈",
+        "sgTW": "興高彩烈"
+    },
+    {
+        "id": 20539,
+        "Key": "Runeword33",
+        "enUS": "Enigma",
+        "zhTW": "謎團",
+        "zhCN": "谜团",
+        "sgCN": "谜团",
+        "sgTW": "謎團"
+    },
+    {
+        "id": 20540,
+        "Key": "Runeword34",
+        "enUS": "Enlightenment",
+        "zhTW": "教化",
+        "zhCN": "启迪",
+        "sgCN": "教化",
+        "sgTW": "教化"
+    },
+    {
+        "id": 20541,
+        "Key": "Runeword35",
+        "enUS": "Envy",
+        "zhTW": "羨慕",
+        "zhCN": "羡慕",
+        "sgCN": "羡慕",
+        "sgTW": "羨慕"
+    },
+    {
+        "id": 20542,
+        "Key": "Runeword36",
+        "enUS": "Eternity",
+        "zhTW": "永恆",
+        "zhCN": "永恒",
+        "sgCN": "永恒",
+        "sgTW": "永恆"
+    },
+    {
+        "id": 20543,
+        "Key": "Runeword37",
+        "enUS": "Exile",
+        "zhTW": "流亡",
+        "zhCN": "流放",
+        "sgCN": "流亡",
+        "sgTW": "流亡"
+    },
+    {
+        "id": 20544,
+        "Key": "Runeword38",
+        "enUS": "Faith",
+        "zhTW": "信心",
+        "zhCN": "信念",
+        "sgCN": "信心",
+        "sgTW": "信心"
+    },
+    {
+        "id": 20545,
+        "Key": "Runeword39",
+        "enUS": "Famine",
+        "zhTW": "饑荒",
+        "zhCN": "饥荒",
+        "sgCN": "饥荒",
+        "sgTW": "饑荒"
+    },
+    {
+        "id": 20546,
+        "Key": "Runeword40",
+        "enUS": "Flickering Flame",
+        "zhTW": "閃爍火焰",
+        "zhCN": "闪烁火焰",
+        "sgCN": "火焰",
+        "sgTW": "火焰"
+    },
+    {
+        "id": 20547,
+        "Key": "Runeword41",
+        "enUS": "Fortitude",
+        "zhTW": "剛毅",
+        "zhCN": "刚毅",
+        "sgCN": "刚毅",
+        "sgTW": "剛毅"
+    },
+    {
+        "id": 20548,
+        "Key": "Runeword42",
+        "enUS": "Fortune",
+        "zhTW": "機運",
+        "zhCN": "鸿运",
+        "sgCN": "幸运",
+        "sgTW": "幸運"
+    },
+    {
+        "id": 20549,
+        "Key": "Runeword43",
+        "enUS": "Friendship",
+        "zhTW": "友情",
+        "zhCN": "友谊",
+        "sgCN": "友情",
+        "sgTW": "友情"
+    },
+    {
+        "id": 20550,
+        "Key": "Runeword44",
+        "enUS": "Fury",
+        "zhTW": "狂怒",
+        "zhCN": "愤怒",
+        "sgCN": "狂怒",
+        "sgTW": "狂怒"
+    },
+    {
+        "id": 20551,
+        "Key": "Runeword45",
+        "enUS": "Gloom",
+        "zhTW": "幽暗",
+        "zhCN": "阴霾",
+        "sgCN": "幽暗",
+        "sgTW": "幽暗"
+    },
+    {
+        "id": 20552,
+        "Key": "Runeword46",
+        "enUS": "Glory",
+        "zhTW": "榮譽",
+        "zhCN": "光华",
+        "sgCN": "荣誉",
+        "sgTW": "榮譽"
+    },
+    {
+        "id": 20553,
+        "Key": "Runeword47",
+        "enUS": "Grief",
+        "zhTW": "悔恨",
+        "zhCN": "悔恨",
+        "sgCN": "悔恨",
+        "sgTW": "悔恨"
+    },
+    {
+        "id": 20554,
+        "Key": "Runeword48",
+        "enUS": "Hand of Justice",
+        "zhTW": "正義之手",
+        "zhCN": "正义之手",
+        "sgCN": "正义之手",
+        "sgTW": "正義之手"
+    },
+    {
+        "id": 20555,
+        "Key": "Runeword49",
+        "enUS": "Harmony",
+        "zhTW": "和諧",
+        "zhCN": "和谐",
+        "sgCN": "和谐",
+        "sgTW": "和諧"
+    },
+    {
+        "id": 20556,
+        "Key": "Runeword50",
+        "enUS": "Hatred",
+        "zhTW": "憎恨",
+        "zhCN": "憎恨",
+        "sgCN": "憎恨",
+        "sgTW": "憎恨"
+    },
+    {
+        "id": 20557,
+        "Key": "Runeword51",
+        "enUS": "Heart of the Oak",
+        "zhTW": "橡樹之心",
+        "zhCN": "橡树之心",
+        "sgCN": "橡树之心",
+        "sgTW": "橡樹之心"
+    },
+    {
+        "id": 20558,
+        "Key": "Runeword52",
+        "enUS": "Heaven's Will",
+        "zhTW": "天堂意志",
+        "zhCN": "天堂意志",
+        "sgCN": "天堂意志",
+        "sgTW": "天堂意志"
+    },
+    {
+        "id": 20559,
+        "Key": "Runeword53",
+        "enUS": "Holy Tears",
+        "zhTW": "神聖之淚",
+        "zhCN": "神圣之泪",
+        "sgCN": "神圣之泪",
+        "sgTW": "神聖之淚"
+    },
+    {
+        "id": 20560,
+        "Key": "Runeword54",
+        "enUS": "Holy Thunder",
+        "zhTW": "神聖雷擊",
+        "zhCN": "圣雷",
+        "sgCN": "神圣雷击",
+        "sgTW": "神聖雷擊"
+    },
+    {
+        "id": 20561,
+        "Key": "Runeword55",
+        "enUS": "Honor",
+        "zhTW": "榮耀",
+        "zhCN": "荣耀",
+        "sgCN": "荣耀",
+        "sgTW": "榮耀"
+    },
+    {
+        "id": 20562,
+        "Key": "Runeword56",
+        "enUS": "Revenge",
+        "zhTW": "報復",
+        "zhCN": "报复",
+        "sgCN": "复仇",
+        "sgTW": "復仇"
+    },
+    {
+        "id": 20563,
+        "Key": "Runeword57",
+        "enUS": "Humility",
+        "zhTW": "謙恭",
+        "zhCN": "谦逊",
+        "sgCN": "谦恭",
+        "sgTW": "謙恭"
+    },
+    {
+        "id": 20564,
+        "Key": "Runeword58",
+        "enUS": "Hunger",
+        "zhTW": "飢餓",
+        "zhCN": "饥饿",
+        "sgCN": "饥饿",
+        "sgTW": "飢餓"
+    },
+    {
+        "id": 20565,
+        "Key": "Runeword59",
+        "enUS": "Ice",
+        "zhTW": "寒冰",
+        "zhCN": "寒冰",
+        "sgCN": "冰冻",
+        "sgTW": "冰凍"
+    },
+    {
+        "id": 20566,
+        "Key": "Runeword60",
+        "enUS": "Infinity",
+        "zhTW": "無限",
+        "zhCN": "无限",
+        "sgCN": "无限",
+        "sgTW": "無限"
+    },
+    {
+        "id": 20567,
+        "Key": "Runeword61",
+        "enUS": "Innocence",
+        "zhTW": "純真",
+        "zhCN": "无辜",
+        "sgCN": "纯洁",
+        "sgTW": "純潔"
+    },
+    {
+        "id": 20568,
+        "Key": "Runeword62",
+        "enUS": "Insight",
+        "zhTW": "靈光",
+        "zhCN": "眼光",
+        "sgCN": "眼光",
+        "sgTW": "眼光"
+    },
+    {
+        "id": 20569,
+        "Key": "Runeword63",
+        "enUS": "Jealousy",
+        "zhTW": "妒忌",
+        "zhCN": "嫉妒",
+        "sgCN": "妒忌",
+        "sgTW": "妒忌"
+    },
+    {
+        "id": 20570,
+        "Key": "Runeword64",
+        "enUS": "Judgement",
+        "zhTW": "審判",
+        "zhCN": "审判",
+        "sgCN": "审判",
+        "sgTW": "審判"
+    },
+    {
+        "id": 20571,
+        "Key": "Runeword65",
+        "enUS": "King's Grace",
+        "zhTW": "王者的慈悲",
+        "zhCN": "王恩",
+        "sgCN": "王者的慈悲",
+        "sgTW": "王者的慈悲"
+    },
+    {
+        "id": 20572,
+        "Key": "Runeword66",
+        "enUS": "Kingslayer",
+        "zhTW": "弒王者",
+        "zhCN": "弑君者",
+        "sgCN": "弑王者",
+        "sgTW": "弒王者"
+    },
+    {
+        "id": 20573,
+        "Key": "Runeword67",
+        "enUS": "Knight's Vigil",
+        "zhTW": "騎士守望",
+        "zhCN": "骑士之印",
+        "sgCN": "骑士的警戒",
+        "sgTW": "騎士的警戒"
+    },
+    {
+        "id": 20574,
+        "Key": "Runeword68",
+        "enUS": "Knowledge",
+        "zhTW": "學識",
+        "zhCN": "知识",
+        "sgCN": "知识",
+        "sgTW": "知識"
+    },
+    {
+        "id": 20575,
+        "Key": "Runeword69",
+        "enUS": "Last Wish",
+        "zhTW": "最後遺願",
+        "zhCN": "临终之愿",
+        "sgCN": "最后希望",
+        "sgTW": "最後希望"
+    },
+    {
+        "id": 20576,
+        "Key": "Runeword70",
+        "enUS": "Law",
+        "zhTW": "律法",
+        "zhCN": "律法",
+        "sgCN": "法律",
+        "sgTW": "法律"
+    },
+    {
+        "id": 20577,
+        "Key": "Runeword71",
+        "enUS": "Lawbringer",
+        "zhTW": "執法者",
+        "zhCN": "执法者",
+        "sgCN": "执法者",
+        "sgTW": "執法者"
+    },
+    {
+        "id": 20578,
+        "Key": "Runeword72",
+        "enUS": "Leaf",
+        "zhTW": "葉子",
+        "zhCN": "叶子",
+        "sgCN": "叶子",
+        "sgTW": "葉子"
+    },
+    {
+        "id": 20579,
+        "Key": "Runeword73",
+        "enUS": "Lightning",
+        "zhTW": "閃電",
+        "zhCN": "闪电",
+        "sgCN": "闪电",
+        "sgTW": "閃電"
+    },
+    {
+        "id": 20580,
+        "Key": "Runeword74",
+        "enUS": "Lionheart",
+        "zhTW": "獅子心",
+        "zhCN": "狮心",
+        "sgCN": "狮子心",
+        "sgTW": "獅子心"
+    },
+    {
+        "id": 20581,
+        "Key": "Runeword75",
+        "enUS": "Lore",
+        "zhTW": "知識",
+        "zhCN": "学识",
+        "sgCN": "知识",
+        "sgTW": "知識"
+    },
+    {
+        "id": 20582,
+        "Key": "Runeword76",
+        "enUS": "Love",
+        "zhTW": "愛情",
+        "zhCN": "爱情",
+        "sgCN": "爱情",
+        "sgTW": "愛情"
+    },
+    {
+        "id": 20583,
+        "Key": "Runeword77",
+        "enUS": "Loyalty",
+        "zhTW": "忠誠",
+        "zhCN": "忠诚",
+        "sgCN": "忠诚",
+        "sgTW": "忠誠"
+    },
+    {
+        "id": 20584,
+        "Key": "Runeword78",
+        "enUS": "Lust",
+        "zhTW": "慾望",
+        "zhCN": "欲望",
+        "sgCN": "欲望",
+        "sgTW": "慾望"
+    },
+    {
+        "id": 20585,
+        "Key": "Runeword79",
+        "enUS": "Madness",
+        "zhTW": "瘋狂",
+        "zhCN": "疯狂",
+        "sgCN": "疯狂",
+        "sgTW": "瘋狂"
+    },
+    {
+        "id": 20586,
+        "Key": "Runeword81",
+        "enUS": "Malice",
+        "zhTW": "怨恨",
+        "zhCN": "怨恨",
+        "sgCN": "怨恨",
+        "sgTW": "怨恨"
+    },
+    {
+        "id": 20587,
+        "Key": "Runeword82",
+        "enUS": "Melody",
+        "zhTW": "旋律",
+        "zhCN": "旋律",
+        "sgCN": "旋律",
+        "sgTW": "旋律"
+    },
+    {
+        "id": 20588,
+        "Key": "Runeword83",
+        "enUS": "Memory",
+        "zhTW": "記憶",
+        "zhCN": "回忆",
+        "sgCN": "记忆",
+        "sgTW": "記憶"
+    },
+    {
+        "id": 20589,
+        "Key": "Runeword84",
+        "enUS": "Mist",
+        "zhTW": "迷霧",
+        "zhCN": "迷雾",
+        "sgCN": "迷雾",
+        "sgTW": "迷霧"
+    },
+    {
+        "id": 20590,
+        "Key": "Runeword85",
+        "enUS": "Morning",
+        "zhTW": "清晨",
+        "zhCN": "清晨",
+        "sgCN": "清晨",
+        "sgTW": "早晨"
+    },
+    {
+        "id": 20591,
+        "Key": "Runeword86",
+        "enUS": "Mystery",
+        "zhTW": "神秘",
+        "zhCN": "谜题",
+        "sgCN": "神秘",
+        "sgTW": "神秘"
+    },
+    {
+        "id": 20592,
+        "Key": "Runeword87",
+        "enUS": "Myth",
+        "zhTW": "神話",
+        "zhCN": "神话",
+        "sgCN": "神话",
+        "sgTW": "神話"
+    },
+    {
+        "id": 20593,
+        "Key": "Runeword88",
+        "enUS": "Nadir",
+        "zhTW": "天底",
+        "zhCN": "天底",
+        "sgCN": "天底",
+        "sgTW": "天底"
+    },
+    {
+        "id": 20594,
+        "Key": "Runeword89",
+        "enUS": "Nature's Kingdom",
+        "zhTW": "自然王國",
+        "zhCN": "自然王国",
+        "sgCN": "天然的王国",
+        "sgTW": "天然的王國"
+    },
+    {
+        "id": 20595,
+        "Key": "Runeword90",
+        "enUS": "Night",
+        "zhTW": "夜晚",
+        "zhCN": "黑夜",
+        "sgCN": "黑夜",
+        "sgTW": "夜晚"
+    },
+    {
+        "id": 20596,
+        "Key": "Runeword91",
+        "enUS": "Oath",
+        "zhTW": "誓約",
+        "zhCN": "誓言",
+        "sgCN": "誓约",
+        "sgTW": "誓約"
+    },
+    {
+        "id": 20597,
+        "Key": "Runeword92",
+        "enUS": "Obedience",
+        "zhTW": "遵從",
+        "zhCN": "顺从",
+        "sgCN": "遵从",
+        "sgTW": "遵從"
+    },
+    {
+        "id": 20598,
+        "Key": "Runeword93",
+        "enUS": "Oblivion",
+        "zhTW": "湮沒",
+        "zhCN": "湮灭",
+        "sgCN": "湮没",
+        "sgTW": "湮沒"
+    },
+    {
+        "id": 20599,
+        "Key": "Runeword94",
+        "enUS": "Obsession",
+        "zhTW": "執念",
+        "zhCN": "执着",
+        "sgCN": "着魔",
+        "sgTW": "著魔"
+    },
+    {
+        "id": 20600,
+        "Key": "Runeword95",
+        "enUS": "Passion",
+        "zhTW": "熱情",
+        "zhCN": "热情",
+        "sgCN": "热情",
+        "sgTW": "熱情"
+    },
+    {
+        "id": 20601,
+        "Key": "Runeword96",
+        "enUS": "Patience",
+        "zhTW": "耐心",
+        "zhCN": "耐心",
+        "sgCN": "忍耐",
+        "sgTW": "忍耐"
+    },
+    {
+        "id": 20602,
+        "Key": "Runeword97",
+        "enUS": "Pattern",
+        "zhTW": "圖紋",
+        "zhCN": "典范",
+        "sgCN": "样式",
+        "sgTW": "樣式"
+    },
+    {
+        "id": 20603,
+        "Key": "Runeword98",
+        "enUS": "Peace",
+        "zhTW": "和平",
+        "zhCN": "平和",
+        "sgCN": "和平",
+        "sgTW": "和平"
+    },
+    {
+        "id": 20604,
+        "Key": "Runeword99",
+        "enUS": "Voice of Reason",
+        "zhTW": "理性之聲",
+        "zhCN": "理智之声",
+        "sgCN": "思考之声",
+        "sgTW": "思考之聲"
+    },
+    {
+        "id": 20605,
+        "Key": "Runeword100",
+        "enUS": "Penitence",
+        "zhTW": "懺悔",
+        "zhCN": "忏悔",
+        "sgCN": "忏悔",
+        "sgTW": "懺悔"
+    },
+    {
+        "id": 20606,
+        "Key": "Runeword101",
+        "enUS": "Peril",
+        "zhTW": "危害",
+        "zhCN": "灾劫",
+        "sgCN": "危害",
+        "sgTW": "危害"
+    },
+    {
+        "id": 20607,
+        "Key": "Runeword102",
+        "enUS": "Pestilence",
+        "zhTW": "疫病",
+        "zhCN": "疾病",
+        "sgCN": "疫病",
+        "sgTW": "疫病"
+    },
+    {
+        "id": 20608,
+        "Key": "Runeword103",
+        "enUS": "Phoenix",
+        "zhTW": "鳳凰",
+        "zhCN": "凤凰",
+        "sgCN": "凤凰",
+        "sgTW": "鳳凰"
+    },
+    {
+        "id": 20609,
+        "Key": "Runeword104",
+        "enUS": "Piety",
+        "zhTW": "虔誠",
+        "zhCN": "虔敬",
+        "sgCN": "虔诚",
+        "sgTW": "虔誠"
+    },
+    {
+        "id": 20610,
+        "Key": "Runeword105",
+        "enUS": "Pillar of Faith",
+        "zhTW": "信念之柱",
+        "zhCN": "信念之柱",
+        "sgCN": "信念之柱",
+        "sgTW": "信念之柱"
+    },
+    {
+        "id": 20611,
+        "Key": "Runeword106",
+        "enUS": "Plague",
+        "zhTW": "瘟疫",
+        "zhCN": "瘟疫",
+        "sgCN": "瘟疫",
+        "sgTW": "瘟疫"
+    },
+    {
+        "id": 20612,
+        "Key": "Runeword107",
+        "enUS": "Praise",
+        "zhTW": "頌揚",
+        "zhCN": "赞美",
+        "sgCN": "颂扬",
+        "sgTW": "頌揚"
+    },
+    {
+        "id": 20613,
+        "Key": "Runeword108",
+        "enUS": "Prayer",
+        "zhTW": "祈禱",
+        "zhCN": "祈祷",
+        "sgCN": "祈祷",
+        "sgTW": "祈禱"
+    },
+    {
+        "id": 20614,
+        "Key": "Runeword109",
+        "enUS": "Pride",
+        "zhTW": "驕傲",
+        "zhCN": "骄傲",
+        "sgCN": "骄傲",
+        "sgTW": "驕傲"
+    },
+    {
+        "id": 20615,
+        "Key": "Runeword110",
+        "enUS": "Principle",
+        "zhTW": "原則",
+        "zhCN": "信条",
+        "sgCN": "原理",
+        "sgTW": "原理"
+    },
+    {
+        "id": 20616,
+        "Key": "Runeword111",
+        "enUS": "Prowess in Battle",
+        "zhTW": "勇戰之力",
+        "zhCN": "战力",
+        "sgCN": "战斗中的勇气",
+        "sgTW": "戰鬥中的勇氣"
+    },
+    {
+        "id": 20617,
+        "Key": "Runeword112",
+        "enUS": "Prudence",
+        "zhTW": "謹慎",
+        "zhCN": "谨慎",
+        "sgCN": "谨慎",
+        "sgTW": "謹慎"
+    },
+    {
+        "id": 20618,
+        "Key": "Runeword113",
+        "enUS": "Punishment",
+        "zhTW": "懲罰",
+        "zhCN": "惩罚",
+        "sgCN": "惩罚",
+        "sgTW": "懲罰"
+    },
+    {
+        "id": 20619,
+        "Key": "Runeword114",
+        "enUS": "Purity",
+        "zhTW": "純潔",
+        "zhCN": "纯洁",
+        "sgCN": "纯洁",
+        "sgTW": "純潔"
+    },
+    {
+        "id": 20620,
+        "Key": "Runeword115",
+        "enUS": "Question",
+        "zhTW": "疑問",
+        "zhCN": "质问",
+        "sgCN": "疑问",
+        "sgTW": "疑問"
+    },
+    {
+        "id": 20621,
+        "Key": "Runeword116",
+        "enUS": "Radiance",
+        "zhTW": "光輝",
+        "zhCN": "光辉",
+        "sgCN": "光辉",
+        "sgTW": "光輝"
+    },
+    {
+        "id": 20622,
+        "Key": "Runeword117",
+        "enUS": "Rain",
+        "zhTW": "降雨",
+        "zhCN": "暴雨",
+        "sgCN": "降雨",
+        "sgTW": "降雨"
+    },
+    {
+        "id": 20623,
+        "Key": "Runeword118",
+        "enUS": "Reason",
+        "zhTW": "理由",
+        "zhCN": "理性",
+        "sgCN": "理由",
+        "sgTW": "理由"
+    },
+    {
+        "id": 20624,
+        "Key": "Runeword119",
+        "enUS": "Red",
+        "zhTW": "鮮紅",
+        "zhCN": "绯红",
+        "sgCN": "鲜红",
+        "sgTW": "鮮紅"
+    },
+    {
+        "id": 20625,
+        "Key": "Runeword120",
+        "enUS": "Rhyme",
+        "zhTW": "聲韻",
+        "zhCN": "韵律",
+        "sgCN": "押韵",
+        "sgTW": "押韻"
+    },
+    {
+        "id": 20626,
+        "Key": "Runeword121",
+        "enUS": "Rift",
+        "zhTW": "裂隙",
+        "zhCN": "裂隙",
+        "sgCN": "裂缝",
+        "sgTW": "裂縫"
+    },
+    {
+        "id": 20627,
+        "Key": "Runeword122",
+        "enUS": "Sanctuary",
+        "zhTW": "聖堂",
+        "zhCN": "庇护",
+        "sgCN": "圣堂",
+        "sgTW": "聖堂"
+    },
+    {
+        "id": 20628,
+        "Key": "Runeword123",
+        "enUS": "Serendipity",
+        "zhTW": "機緣",
+        "zhCN": "奇遇",
+        "sgCN": "奇遇",
+        "sgTW": "奇遇"
+    },
+    {
+        "id": 20629,
+        "Key": "Runeword124",
+        "enUS": "Shadow",
+        "zhTW": "暗影",
+        "zhCN": "阴影",
+        "sgCN": "影子",
+        "sgTW": "影子"
+    },
+    {
+        "id": 20630,
+        "Key": "Runeword125",
+        "enUS": "Shadow of Doubt",
+        "zhTW": "懷疑之影",
+        "zhCN": "疑虑之影",
+        "sgCN": "怀疑之影",
+        "sgTW": "懷疑之影"
+    },
+    {
+        "id": 20631,
+        "Key": "Runeword126",
+        "enUS": "Silence",
+        "zhTW": "寂靜",
+        "zhCN": "沉默",
+        "sgCN": "寂静",
+        "sgTW": "寂靜"
+    },
+    {
+        "id": 20632,
+        "Key": "Runeword127",
+        "enUS": "Siren's Song",
+        "zhTW": "賽蓮之歌",
+        "zhCN": "海妖之歌",
+        "sgCN": "赛莲之歌",
+        "sgTW": "賽蓮之歌"
+    },
+    {
+        "id": 20633,
+        "Key": "Runeword128",
+        "enUS": "Smoke",
+        "zhTW": "煙霧",
+        "zhCN": "烟雾",
+        "sgCN": "烟雾",
+        "sgTW": "煙霧"
+    },
+    {
+        "id": 20634,
+        "Key": "Runeword129",
+        "enUS": "Sorrow",
+        "zhTW": "哀傷",
+        "zhCN": "悲伤",
+        "sgCN": "哀伤",
+        "sgTW": "哀傷"
+    },
+    {
+        "id": 20635,
+        "Key": "Runeword130",
+        "enUS": "Spirit",
+        "zhTW": "精神",
+        "zhCN": "精神",
+        "sgCN": "精神",
+        "sgTW": "精神"
+    },
+    {
+        "id": 20636,
+        "Key": "Runeword131",
+        "enUS": "Splendor",
+        "zhTW": "燦爛",
+        "zhCN": "壮美",
+        "sgCN": "灿烂",
+        "sgTW": "燦爛"
+    },
+    {
+        "id": 20637,
+        "Key": "Runeword132",
+        "enUS": "Starlight",
+        "zhTW": "星光",
+        "zhCN": "星光",
+        "sgCN": "星光",
+        "sgTW": "星光"
+    },
+    {
+        "id": 20638,
+        "Key": "Runeword133",
+        "enUS": "Stealth",
+        "zhTW": "隱密",
+        "zhCN": "隐秘",
+        "sgCN": "隐密",
+        "sgTW": "隱密"
+    },
+    {
+        "id": 20639,
+        "Key": "Runeword134",
+        "enUS": "Steel",
+        "zhTW": "鋼鐵",
+        "zhCN": "钢铁",
+        "sgCN": "钢铁",
+        "sgTW": "鋼鐵"
+    },
+    {
+        "id": 20640,
+        "Key": "Runeword135",
+        "enUS": "Still Water",
+        "zhTW": "寂靜之水",
+        "zhCN": "止水",
+        "sgCN": "寂静之水",
+        "sgTW": "寂靜之水"
+    },
+    {
+        "id": 20641,
+        "Key": "Runeword136",
+        "enUS": "Sting",
+        "zhTW": "螫刺",
+        "zhCN": "钉刺",
+        "sgCN": "刺伤",
+        "sgTW": "刺傷"
+    },
+    {
+        "id": 20642,
+        "Key": "Runeword137",
+        "enUS": "Stone",
+        "zhTW": "石塊",
+        "zhCN": "磐石",
+        "sgCN": "石块",
+        "sgTW": "石塊"
+    },
+    {
+        "id": 20643,
+        "Key": "Runeword138",
+        "enUS": "Storm",
+        "zhTW": "風暴",
+        "zhCN": "风暴",
+        "sgCN": "风暴",
+        "sgTW": "風暴"
+    },
+    {
+        "id": 20644,
+        "Key": "Runeword139",
+        "enUS": "Strength",
+        "zhTW": "力量",
+        "zhCN": "力量",
+        "sgCN": "力量",
+        "sgTW": "力量"
+    },
+    {
+        "id": 20645,
+        "Key": "Runeword140",
+        "enUS": "Tempest",
+        "zhTW": "暴風雨",
+        "zhCN": "暴风雨",
+        "sgCN": "暴风雨",
+        "sgTW": "暴風雨"
+    },
+    {
+        "id": 20646,
+        "Key": "Runeword141",
+        "enUS": "Temptation",
+        "zhTW": "誘惑",
+        "zhCN": "诱惑",
+        "sgCN": "诱惑",
+        "sgTW": "誘惑"
+    },
+    {
+        "id": 20647,
+        "Key": "Runeword142",
+        "enUS": "Terror",
+        "zhTW": "恐佈",
+        "zhCN": "恐惧",
+        "sgCN": "恐怖",
+        "sgTW": "恐佈"
+    },
+    {
+        "id": 20648,
+        "Key": "Runeword143",
+        "enUS": "Thirst",
+        "zhTW": "飢渴",
+        "zhCN": "渴求",
+        "sgCN": "饥渴",
+        "sgTW": "飢渴"
+    },
+    {
+        "id": 20649,
+        "Key": "Runeword144",
+        "enUS": "Thought",
+        "zhTW": "思維",
+        "zhCN": "思绪",
+        "sgCN": "思维",
+        "sgTW": "思維"
+    },
+    {
+        "id": 20650,
+        "Key": "Runeword145",
+        "enUS": "Thunder",
+        "zhTW": "雷霆",
+        "zhCN": "雷霆",
+        "sgCN": "雷电",
+        "sgTW": "雷電"
+    },
+    {
+        "id": 20651,
+        "Key": "Runeword146",
+        "enUS": "Time",
+        "zhTW": "時間",
+        "zhCN": "时光",
+        "sgCN": "时间",
+        "sgTW": "時間"
+    },
+    {
+        "id": 20652,
+        "Key": "Runeword147",
+        "enUS": "Tradition",
+        "zhTW": "傳統",
+        "zhCN": "传统",
+        "sgCN": "传统",
+        "sgTW": "傳統"
+    },
+    {
+        "id": 20653,
+        "Key": "Runeword148",
+        "enUS": "Treachery",
+        "zhTW": "背信",
+        "zhCN": "背叛",
+        "sgCN": "背信",
+        "sgTW": "背信"
+    },
+    {
+        "id": 20654,
+        "Key": "Runeword149",
+        "enUS": "Trust",
+        "zhTW": "信任",
+        "zhCN": "信任",
+        "sgCN": "信任",
+        "sgTW": "信任"
+    },
+    {
+        "id": 20655,
+        "Key": "Runeword150",
+        "enUS": "Truth",
+        "zhTW": "真理",
+        "zhCN": "真理",
+        "sgCN": "真实",
+        "sgTW": "真實"
+    },
+    {
+        "id": 20656,
+        "Key": "Runeword151",
+        "enUS": "Unbending Will",
+        "zhTW": "不屈意志",
+        "zhCN": "不屈之志",
+        "sgCN": "坚定意志",
+        "sgTW": "堅定意志"
+    },
+    {
+        "id": 20657,
+        "Key": "Runeword152",
+        "enUS": "Valor",
+        "zhTW": "英勇",
+        "zhCN": "勇气",
+        "sgCN": "英勇",
+        "sgTW": "英勇"
+    },
+    {
+        "id": 20658,
+        "Key": "Runeword153",
+        "enUS": "Vengeance",
+        "zhTW": "復仇",
+        "zhCN": "复仇",
+        "sgCN": "复仇",
+        "sgTW": "復仇"
+    },
+    {
+        "id": 20659,
+        "Key": "Runeword154",
+        "enUS": "Venom",
+        "zhTW": "劇毒",
+        "zhCN": "毒液",
+        "sgCN": "毒牙",
+        "sgTW": "毒牙"
+    },
+    {
+        "id": 20660,
+        "Key": "Runeword155",
+        "enUS": "Victory",
+        "zhTW": "勝利",
+        "zhCN": "胜利",
+        "sgCN": "胜利",
+        "sgTW": "勝利"
+    },
+    {
+        "id": 20661,
+        "Key": "Runeword156",
+        "enUS": "Voice",
+        "zhTW": "聲音",
+        "zhCN": "声音",
+        "sgCN": "声音",
+        "sgTW": "聲音"
+    },
+    {
+        "id": 20662,
+        "Key": "Runeword157",
+        "enUS": "Void",
+        "zhTW": "虛無",
+        "zhCN": "虚空",
+        "sgCN": "虚无之",
+        "sgTW": "虛無之"
+    },
+    {
+        "id": 20663,
+        "Key": "Runeword158",
+        "enUS": "War",
+        "zhTW": "戰爭",
+        "zhCN": "战争",
+        "sgCN": "战争",
+        "sgTW": "戰爭"
+    },
+    {
+        "id": 20664,
+        "Key": "Runeword159",
+        "enUS": "Water",
+        "zhTW": "清水",
+        "zhCN": "源水",
+        "sgCN": "清水",
+        "sgTW": "清水"
+    },
+    {
+        "id": 20665,
+        "Key": "Runeword160",
+        "enUS": "Wealth",
+        "zhTW": "財富",
+        "zhCN": "财富",
+        "sgCN": "财富",
+        "sgTW": "財富"
+    },
+    {
+        "id": 20666,
+        "Key": "Runeword161",
+        "enUS": "Whisper",
+        "zhTW": "低語",
+        "zhCN": "低语",
+        "sgCN": "低语",
+        "sgTW": "低語"
+    },
+    {
+        "id": 20667,
+        "Key": "Runeword162",
+        "enUS": "White",
+        "zhTW": "蒼白",
+        "zhCN": "白色",
+        "sgCN": "白色",
+        "sgTW": "白色"
+    },
+    {
+        "id": 20668,
+        "Key": "Runeword163",
+        "enUS": "Wind",
+        "zhTW": "輕風",
+        "zhCN": "疾风",
+        "sgCN": "轻风",
+        "sgTW": "輕風"
+    },
+    {
+        "id": 20669,
+        "Key": "Runeword164",
+        "enUS": "Wings of Hope",
+        "zhTW": "希望之翼",
+        "zhCN": "希望之翼",
+        "sgCN": "希望之翼",
+        "sgTW": "希望之翼"
+    },
+    {
+        "id": 20670,
+        "Key": "Runeword165",
+        "enUS": "Wisdom",
+        "zhTW": "智慧",
+        "zhCN": "智慧",
+        "sgCN": "智慧",
+        "sgTW": "智慧"
+    },
+    {
+        "id": 20671,
+        "Key": "Runeword166",
+        "enUS": "Woe",
+        "zhTW": "悲痛",
+        "zhCN": "灾祸",
+        "sgCN": "悲痛",
+        "sgTW": "悲痛"
+    },
+    {
+        "id": 20672,
+        "Key": "Runeword167",
+        "enUS": "Wonder",
+        "zhTW": "驚奇",
+        "zhCN": "奇迹",
+        "sgCN": "惊奇",
+        "sgTW": "驚奇"
+    },
+    {
+        "id": 20673,
+        "Key": "Runeword168",
+        "enUS": "Wrath",
+        "zhTW": "憤怒",
+        "zhCN": "怒火",
+        "sgCN": "愤怒",
+        "sgTW": "憤怒"
+    },
+    {
+        "id": 20674,
+        "Key": "Runeword169",
+        "enUS": "Youth",
+        "zhTW": "年輕",
+        "zhCN": "青春",
+        "sgCN": "年轻",
+        "sgTW": "年輕"
+    },
+    {
+        "id": 20675,
+        "Key": "Runeword170",
+        "enUS": "Zephyr",
+        "zhTW": "和風",
+        "zhCN": "和风",
+        "sgCN": "和风",
+        "sgTW": "和風"
+    },
+    {
+        "id": 27360,
+        "Key": "Runeword171",
+        "enUS": "Hustle",
+        "zhTW": "催促",
+        "zhCN": "喧嚣",
+        "sgCN": "催促",
+        "sgTW": "催促"
+    },
+    {
+        "id": 27361,
+        "Key": "Runeword172",
+        "enUS": "Hustle",
+        "zhTW": "催促",
+        "zhCN": "喧嚣",
+        "sgCN": "催促",
+        "sgTW": "催促"
+    },
+    {
+        "id": 27362,
+        "Key": "Runeword173",
+        "enUS": "Mosaic",
+        "zhTW": "嵌飾",
+        "zhCN": "模糊",
+        "sgCN": "嵌饰",
+        "sgTW": "嵌飾"
+    },
+    {
+        "id": 27363,
+        "Key": "Runeword174",
+        "enUS": "Metamorphosis",
+        "zhTW": "變化",
+        "zhCN": "变形",
+        "sgCN": "变化",
+        "sgTW": "變化"
+    },
+    {
+        "id": 27364,
+        "Key": "Runeword175",
+        "enUS": "Ground",
+        "zhTW": "接地",
+        "zhCN": "接地",
+        "sgCN": "接地",
+        "sgTW": "接地"
+    },
+    {
+        "id": 27365,
+        "Key": "Runeword176",
+        "enUS": "Temper",
+        "zhTW": "和緩",
+        "zhCN": "淬火",
+        "sgCN": "和缓",
+        "sgTW": "和緩"
+    },
+    {
+        "id": 27366,
+        "Key": "Runeword177",
+        "enUS": "Hearth",
+        "zhTW": "火爐",
+        "zhCN": "壁炉",
+        "sgCN": "火炉",
+        "sgTW": "火爐"
+    },
+    {
+        "id": 27367,
+        "Key": "Runeword178",
+        "enUS": "Cure",
+        "zhTW": "治癒",
+        "zhCN": "解药",
+        "sgCN": "治愈",
+        "sgTW": "治癒"
+    },
+    {
+        "id": 27650,
+        "Key": "Runeword180",
+        "enUS": "Coven",
+        "zhTW": "巫師會",
+        "zhCN": "女巫团",
+        "sgCN": "女巫团",
+        "sgTW": "巫師會"
+    },
+    {
+        "id": 27651,
+        "Key": "Runeword181",
+        "enUS": "Vigilance",
+        "zhTW": "戒慎",
+        "zhCN": "警戒",
+        "sgCN": "警戒",
+        "sgTW": "戒慎"
+    },
+    {
+        "id": 27652,
+        "Key": "Runeword182",
+        "enUS": "Ritual",
+        "zhTW": "儀式",
+        "zhCN": "仪式",
+        "sgCN": "仪式",
+        "sgTW": "儀式"
+    },
+    {
+        "id": 27974,
+        "Key": "Runeword179",
+        "enUS": "Bulwark",
+        "zhTW": "壁壘",
+        "zhCN": "壁垒",
+        "sgCN": "壁垒",
+        "sgTW": "壁壘"
+    }
+]

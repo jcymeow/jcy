@@ -101,14 +101,14 @@ class FeatureView:
             self._create_tab(config)
 
         # --- 符文提醒 ---
-        rune_tab = ItemNotificationTable(notebook, config_dict=jcy_config.SETTINGS, config_key=ITEM_NOTIFICATION)
+        rune_tab = ItemNotificationTable(notebook, config_dict=jcy_config.SETTINGS, config_key=Function.ITEM_NOTIFICATION.value)
         self.add_tab(rune_tab, "道具提醒")
 
         # --- new道具屏蔽 ---
-        items_name_data = self.controller.file_operations.load_items_name()
-        items_name_data.extend(GOLD_NAMES)
-        ifp = ItemFilterPanel(notebook, ITEMS, items_name_data,controller=self.controller, config_dict=jcy_config.SETTINGS, config_key=ITEM_FILTER)
-        self.add_tab(ifp, "道具屏蔽")
+        # items_name_data = self.controller.file_operations.load_items_name()
+        # items_name_data.extend(GOLD_NAMES)
+        # ifp = ItemFilterPanel(notebook, ITEMS, items_name_data,controller=self.controller, config_dict=jcy_config.SETTINGS, config_key=Function.ITEM_FILTER.value)
+        # self.add_tab(ifp, "道具屏蔽")
 
         # --- 素材管理 ---
         asset_tab = AssetManagerUI(notebook, self.controller)
@@ -1980,7 +1980,7 @@ class ItemFilterPanel(tk.Frame):
         # --- ⚠️ 关键：真正调用 controller 执行更新 ---
         if self.controller:
             # total 是全量字典，这才是你真正想传出去的东西
-            self.controller.execute_feature_action(ITEM_FILTER, total)
+            self.controller.execute_feature_action(Function.ITEM_FILTER.value, total)
 
     def get_selected(self):
         """返回 {key: True/False}"""

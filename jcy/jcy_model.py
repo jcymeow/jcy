@@ -264,7 +264,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": SOR_SETTING,
+                            "fid": Function.SOR_SETTING.value,
                             "type": CHECK,
                             "text": "魔法师",
                             "columns": 4,
@@ -279,7 +279,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": ASN_SETTING,
+                            "fid": Function.ASN_SETTING.value,
                             "type": CHECK,
                             "text": "刺客",
                             "colspan": 50,
@@ -289,7 +289,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": ASN_MARTIAL,
+                            "fid": Function.ASN_MARTIAL.value,
                             "type": RADIO,
                             "text": "刺客-聚气图标",
                             "colspan": 50,
@@ -302,7 +302,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": NEC_SETTING,
+                            "fid": Function.NEC_SETTING.value,
                             "type": CHECK,
                             "text": "死灵法师",
                             "colspan": 25,
@@ -311,7 +311,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": DRU_SETTING,
+                            "fid": Function.DRU_SETTING.value,
                             "type": CHECK,
                             "text": "德鲁伊",
                             "colspan": 25,
@@ -320,7 +320,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": PAL_SETTING,
+                            "fid": Function.PAL_SETTING.value,
                             "type": CHECK,
                             "text": "圣骑士",
                             "colspan": 25,
@@ -329,7 +329,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": SKILL_OFF_SOUNDS,
+                            "fid": Function.SKILL_OFF_SOUNDS.value,
                             "type": CHECK,
                             "text": "技能结束提示音",
                             "colspan": 100,
@@ -363,7 +363,7 @@ class FeatureConfig:
                     "text": "佣兵&怪物",
                     "children": [
                         {
-                            "fid": MERCENARY_LOCATION,
+                            "fid": Function.MERCENARY_LOCATION.value,
                             "type": RADIO,
                             "text": "佣兵-图标位置",
                             "colspan": 100,
@@ -376,7 +376,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MERCENARY_100,
+                            "fid": Function.MERCENARY_100.value,
                             "type": LOCATION,
                             "text": "佣兵-坐标 x HUD100%",
                             "colspan": 25,
@@ -389,7 +389,7 @@ class FeatureConfig:
                             "type": "Separator"
                         },
                         {
-                            "fid": MONSTER_SETTING,
+                            "fid": Function.MONSTER_SETTING.value,
                             "type": CHECK,
                             "text": "怪物-配置",
                             "colspan": 70,
@@ -400,7 +400,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MONSTER_LIGHTING,
+                            "fid": Function.MONSTER_LIGHTING.value,
                             "type": SPIN,
                             "text": "怪物-光源亮度",
                             "colspan": 30,
@@ -410,7 +410,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MONSTER_HEALTH,
+                            "fid": Function.MONSTER_HEALTH.value,
                             "type": RADIO,
                             "text": "怪物-血条样式",
                             "colspan": 50,
@@ -422,7 +422,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MONSTER_MISSILE,
+                            "fid": Function.MONSTER_MISSILE.value,
                             "type": RADIO,
                             "text": "老鼠刺针/剥皮吹箭样式",
                             "colspan": 50,
@@ -439,7 +439,7 @@ class FeatureConfig:
                     "text": "装备&物品",
                     "children": [
                         {
-                            "fid": BASE_EFFECTS,
+                            "fid": Function.BASE_EFFECTS.value,
                             "type": CHECK,
                             "text": "装备-底材特效",
                             "colspan": 60,
@@ -452,7 +452,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": AFFIX_EFFECTS,
+                            "fid": Function.AFFIX_EFFECTS.value,
                             "type": CHECK,
                             "text": "装备-词缀特效",
                             "colspan": 40,
@@ -462,7 +462,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": UNIQUE_EFFECTS,
+                            "fid": Function.UNIQUE_EFFECTS.value,
                             "type": CHECK,
                             "text": "装备-独特/暗金装特效",
                             "colspan": 50,
@@ -473,7 +473,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": SETS_EFFECTS,
+                            "fid": Function.SETS_EFFECTS.value,
                             "type": CHECK,
                             "text": "装备-套装/绿装特效",
                             "colspan": 50,
@@ -484,7 +484,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": ITEM_RUNE_SETTING2,
+                            "fid": Function.ITEM_RUNE_SETTING2.value,
                             "type": CHECK,
                             "text": "装备-符文之语特效",
                             "colspan": 50,
@@ -495,7 +495,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": EQIUPMENT_SETTING,
+                            "fid": Function.EQIUPMENT_SETTING.value,
                             "type": CHECK,
                             "text": "装备-设置",
                             "colspan": 50,
@@ -505,7 +505,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": UNIQUE_COLOR,
+                            "fid": Function.UNIQUE_COLOR.value,
                             "type": CHECK,
                             "text": "暗金/独特装备-染色",
                             "colspan": 50,
@@ -517,7 +517,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MODEL_EFFECTS,
+                            "fid": Function.MODEL_EFFECTS.value,
                             "type": CHECK,
                             "text": "装备-开启投掷特效",
                             "colspan": 50,
@@ -530,7 +530,7 @@ class FeatureConfig:
                             "type": "Separator"
                         },
                         {
-                            "fid": ITEM_RUNE_SETTING1,
+                            "fid": Function.ITEM_RUNE_SETTING1.value,
                             "type": CHECK,
                             "text": "符文-设置",
                             "colspan": 100,
@@ -548,8 +548,8 @@ class FeatureConfig:
                 }
             ],
             "checktable": {
-                ITEM_NOTIFICATION: "道具提醒",
-                ITEM_FILTER: "道具过滤"
+                Function.ITEM_NOTIFICATION.value: "道具提醒",
+                # Function.ITEM_FILTER.value: "道具过滤"
             }
 
         }

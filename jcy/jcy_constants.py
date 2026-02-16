@@ -103,41 +103,6 @@ GOLD_NAMES = [
     }
 ]
 
-# <!-- Function Identifier 
-NETEASE_LANGUAGE = "NeteaseLanguage"
-BATTLE_NET_LANGUAGE = "BattleNetLanguage"
-
-
-HUD_SIZE = "HudSize"
-SOR_SETTING = "SorceressSetting"
-NEC_SETTING = "NecromancerSetting"
-PAL_SETTING = "PaladinSetting"
-BAR_SETTING = "BarbarianSetting"
-DRU_SETTING = "DruidSetting"
-ASN_SETTING = "AssassinSetting"
-ASN_MARTIAL = "AssassinMartial"
-SKILL_OFF_SOUNDS = "SkillOffSounds"
-MERCENARY_LOCATION = "MercenaryLocation"
-MERCENARY_100 = "Mercenary100"
-MONSTER_SETTING = "MonsterSetting"
-MONSTER_LIGHTING = "MonsterLighting"
-MONSTER_HEALTH = "MonsterHealth"
-MONSTER_MISSILE = "MonsterMissile"
-BASE_EFFECTS = "BaseEffects"
-EQIUPMENT_SETTING = "EquipmentSetting"
-AFFIX_EFFECTS = "AffixEffects"
-UNIQUE_EFFECTS = "UniqueEffects"
-SETS_EFFECTS = "SetsEffects"
-UNIQUE_COLOR = "UniqueColor"
-MODEL_EFFECTS = "ModelEffects"
-RUNE_SIZE = "RuneSize"
-ITEM_NOTIFICATION = "ItemNotification"
-ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
-ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
-ASSET_PATH = "AssetPath"
-ITEM_FILTER = "ItemFilter"
-# Function Identifier -->
-
 # Assets
 GAME_MODEL = "GameModel"
 RUNE_SKIN = "RuneSkin"
@@ -173,9 +138,7 @@ HIRE_SKIN_REMOVE = "hire_skin_remove"
 HUD_SKIN_APPLY = "hud_skin_apply"
 HUD_SKIN4_APPLY = "hud_skin4_apply"
 
-
-
-
+ASSET_PATH = "AssetPath"
 
 # <!-- Controller Type
 RADIO = "RadioGroup"
@@ -910,14 +873,40 @@ class Function(Enum):
     COMMON_SETTING = "CommonSetting"
     ARROW = "Arrow"
     TELEPORT_SKIN = "TeleportSkin"
+    SOR_SETTING = "SorceressSetting"
+    NEC_SETTING = "NecromancerSetting"
+    PAL_SETTING = "PaladinSetting"
+    BAR_SETTING = "BarbarianSetting"
+    DRU_SETTING = "DruidSetting"
+    ASN_SETTING = "AssassinSetting"
+    ASN_MARTIAL = "AssassinMartial"
+    SKILL_OFF_SOUNDS = "SkillOffSounds"
+    MERCENARY_LOCATION = "MercenaryLocation"
+    MERCENARY_100 = "Mercenary100"
+    MONSTER_SETTING = "MonsterSetting"
+    MONSTER_LIGHTING = "MonsterLighting"
+    MONSTER_HEALTH = "MonsterHealth"
+    MONSTER_MISSILE = "MonsterMissile"
+    BASE_EFFECTS = "BaseEffects"
+    EQIUPMENT_SETTING = "EquipmentSetting"
+    AFFIX_EFFECTS = "AffixEffects"
+    UNIQUE_EFFECTS = "UniqueEffects"
+    SETS_EFFECTS = "SetsEffects"
+    UNIQUE_COLOR = "UniqueColor"
+    MODEL_EFFECTS = "ModelEffects"
+    RUNE_SIZE = "RuneSize"
+    ITEM_NOTIFICATION = "ItemNotification"
+    ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
+    ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
+    ITEM_FILTER = "ItemFilter"
 
 
 class Language(Enum):
-    ENUS = "enUS"
     ZHCN = "zhCN"
     ZHTW = "zhTW"
     SGCN = "sgCN"
     SGTW = "sgTW"
+    ENUS = "enUS"
 
 
 class Operation(Enum):
@@ -975,40 +964,11 @@ __all__ = [
     'APP_FULL_NAME',
     'APP_DATE',
     'APP_SIZE',
-    'NETEASE_LANGUAGE',
-    'BATTLE_NET_LANGUAGE',
     'GOLD_NAMES',
-    'HUD_SIZE',
-    'SOR_SETTING',
-    'NEC_SETTING',
-    'PAL_SETTING',
-    'BAR_SETTING',
-    'DRU_SETTING',
-    'ASN_SETTING',
-    'ASN_MARTIAL',
-    'SKILL_OFF_SOUNDS',
-    'MERCENARY_LOCATION',
-    'MERCENARY_100',
-    'MONSTER_SETTING',
-    'MONSTER_LIGHTING',
-    'MONSTER_HEALTH',
-    'MONSTER_MISSILE',
-    'BASE_EFFECTS',
-    'EQIUPMENT_SETTING',
-    'AFFIX_EFFECTS',
-    'UNIQUE_EFFECTS',
-    'SETS_EFFECTS',
-    'UNIQUE_COLOR',
-    'MODEL_EFFECTS',
-    'RUNE_SIZE',
-    'ITEM_NOTIFICATION',
-    'ITEM_RUNE_SETTING1',
-    'ITEM_RUNE_SETTING2',
     'ASSET_PATH',
     'ITEM_ENUS',
     'ITEM_ZHTW',
     'LNG_STRINGS',
-    'ITEM_FILTER',
     'RADIO',
     'CHECK',
     'SPIN',

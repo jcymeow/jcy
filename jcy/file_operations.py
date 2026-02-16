@@ -479,7 +479,7 @@ class FileOperations:
 
     def modify_asn_martial_by_hud(self):
         """修改 刺客-聚气图标 如果HUD模式"""
-        martial = jcy_config.SETTINGS[ASN_MARTIAL]
+        martial = jcy_config.SETTINGS[Function.ASN_MARTIAL.value]
         if martial == "9":
             result = self.assassin_martial("9")
             if(result[0] == result[1]):
@@ -982,7 +982,7 @@ class FileOperations:
     def select_asset_monster_lighting(self):
         """修改素材包内怪物光源"""
         
-        value = jcy_config.SETTINGS.get(MONSTER_LIGHTING, 0)
+        value = jcy_config.SETTINGS.get(Function.MONSTER_LIGHTING.value, 0)
 
         _files = [
             r"data/hd/character/enemy/bonefetish1.json",
@@ -1041,7 +1041,7 @@ class FileOperations:
         """修改怪物光源"""
 
         if value is None:
-            value = jcy_config.SETTINGS.get(MONSTER_LIGHTING, 0)
+            value = jcy_config.SETTINGS.get(Function.MONSTER_LIGHTING.value, 0)
 
         _files = [
             r"data/hd/character/enemy/andariel.json",
@@ -1215,7 +1215,7 @@ class FileOperations:
     def modify_asset_monster_dangerous(self):
         """修改素材包怪物危险标记"""
 
-        configs = jcy_config.SETTINGS.get(MONSTER_SETTING, [])
+        configs = jcy_config.SETTINGS.get(Function.MONSTER_SETTING.value, [])
         is_enabled = "7" in configs
 
         _files = [
@@ -1273,7 +1273,7 @@ class FileOperations:
         """修改怪物危险标记"""
 
         if isEnabled is None:
-            configs = jcy_config.SETTINGS.get(MONSTER_SETTING, [])
+            configs = jcy_config.SETTINGS.get(Function.MONSTER_SETTING.value, [])
             isEnabled = "7" in configs
 
         _files = [
@@ -1391,10 +1391,10 @@ class FileOperations:
             "3": { "x": 46, "y": 60, "scale": 0.64 },
         }
         keys = {
-            "0": MERCENARY_100,
-            "1": MERCENARY_100,
-            "2": MERCENARY_100,
-            "3": MERCENARY_100,
+            "0": Function.MERCENARY_100.value,
+            "1": Function.MERCENARY_100.value,
+            "2": Function.MERCENARY_100.value,
+            "3": Function.MERCENARY_100.value,
         }
 
         try:
@@ -1448,8 +1448,7 @@ class FileOperations:
         count += 1
 
         # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        hud_size = jcy_config.SETTINGS.get(HUD_SIZE)
-        result = self.modify_hireablespanelhd_json(radio, hud_size)
+        result = self.modify_hireablespanelhd_json(radio, "0")
         count += result[0]
         total += result[1]
 
@@ -1460,9 +1459,8 @@ class FileOperations:
         """修改佣兵坐标"""
         
         # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        location = jcy_config.SETTINGS.get(MERCENARY_LOCATION)
-        hud_size = jcy_config.SETTINGS.get(HUD_SIZE)
-        result = self.modify_hireablespanelhd_json(location, hud_size)
+        location = jcy_config.SETTINGS.get(Function.MERCENARY_LOCATION.value)
+        result = self.modify_hireablespanelhd_json(location, "0")
         return (result[0], result[1], f"= {str(val)}")
 
 
@@ -1489,8 +1487,8 @@ class FileOperations:
             with open(jcy_item_modifiers_data_path, 'r', encoding='utf-8') as f:
                 jcy_item_modifiers_data = json.load(f)
 
-            netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
-            battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
+            netease = jcy_config.SETTINGS.get(Function.ZHCN.value)
+            battlenet = jcy_config.SETTINGS.get(Function.ZHTW.value)
             # 词缀数据填充模板
             for item in jcy_item_modifiers_templet:
                 Key = item["Key"]
@@ -1636,15 +1634,12 @@ class FileOperations:
 
         count = 0
         
-
-        # 道具过滤 ITEM_FILTER
-        item_filter_dict = jcy_config.SETTINGS[ITEM_FILTER]
         # 底材特效配置 EQIUPMENT_EFFECTS
-        base_dict = jcy_config.SETTINGS[BASE_EFFECTS]
+        base_dict = jcy_config.SETTINGS[Function.BASE_EFFECTS.value]
         # 暗金特效配置 UNIQUE_EFFECTS
-        unique_dict = jcy_config.SETTINGS[UNIQUE_EFFECTS]
+        unique_dict = jcy_config.SETTINGS[Function.UNIQUE_EFFECTS.value]
         # 套装特效配置 SETS_EFFECTS
-        set_dict = jcy_config.SETTINGS[SETS_EFFECTS]
+        set_dict = jcy_config.SETTINGS[Function.SETS_EFFECTS.value]
 
         base_grade = "0" in base_dict
         base_weight = "1" in base_dict
@@ -1660,52 +1655,80 @@ class FileOperations:
         set_max = "5" in set_dict
         set_mark = "6" in set_dict
 
-        _languages = [ZHCN, ZHSGCN, ZHTW, ZHSGTW, ENUS]
-        # --- item-names.templet.json + item-names.data.json -> item-names.json ---
+        # --- templet + data -> ext ---
         try:
             templet_list = None
-            templet_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-names.templet.json")
-            with open(templet_path, 'r', encoding='utf-8-sig') as f:
+            templet_path = os.path.join(MOD_PATH, r"jcy/config/item-names.templet.json")
+            with open(templet_path, 'r', encoding='utf-8') as f:
                 templet_list = json.load(f)
 
             data_dict = None
-            data_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-names.data.json")
+            data_path = os.path.join(MOD_PATH, r"jcy/config/item-names.data.json")
             with open(data_path, 'r', encoding='utf-8') as f:
                 data_dict = json.load(f)
             # 松岗简/繁体, 采用简/繁体数据
             for key, obj in data_dict.items():
-                obj[ZHSGCN] = obj[ZHCN]
-                obj[ZHSGTW] = obj[ZHTW]
+                obj[Language.SGCN.value] = obj[Language.ZHCN.value]
+                obj[Language.SGTW.value] = obj[Language.ZHTW.value]
 
-            netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
-            battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
+            # 结果集
+            ext_json = {}
 
             for item in templet_list:
                 Key = item["Key"]
                 data = data_dict.get(Key)
                 
                 # 没有模板数据pass
-                if data is None:
+                if not data:
                     continue
 
-                # 按照过滤规则修改模板名称 (道具类不在此列, 使用移位过滤)
-                if Key not in ITEM_MISC and item_filter_dict.get(Key):
-                    item[ZHCN] = UE01A + item[ZHCN]
-                    item[ZHSGCN] = UE01A + item[ZHSGCN]
-                    item[ZHTW] = UE01A + item[ZHTW]
-                    item[ZHSGTW] = UE01A + item[ZHSGTW]
-                    item[ENUS] = UE01A + item[ENUS]
-
-                if Key in ITEM_BASE:
-                    # 装备底材
-                    for lng in _languages:
+                if Key in jcy_config.UNIQUEITEMS:
+                    # ---- 暗金装 ----
+                    for lang in Language:
+                        lng = lang.value
+                        arr = []
+                        if unique_max:
+                            max = data[lng].get("max")
+                            if max:
+                                arr.append(f"ÿc1[{max}]\n")
+                        if unique_mark:
+                            mark = data[lng].get("mark")
+                            if mark:
+                                arr.append(f"ÿc2[{mark}]\n")
+                        if len(arr) > 0:
+                            arr.append("ÿc4")
+                        arr.append(item.get(lng))
+                        if unique_enus and lng != Language.ENUS.value:
+                            arr.append(f" {item.get(Language.ENUS.value)}")
+                        item[lng] = ''.join(arr)
+                elif Key in jcy_config.SETS or Key in jcy_config.SETITEMS:
+                    # 套装
+                    for lang in Language:
+                        lng = lang.value
+                        arr = []
+                        if set_max:
+                            max = data[lng].get("max")
+                            if max:
+                                arr.append(f"ÿc1[{max}]\n")
+                        if set_mark:
+                            mark = data[lng].get("mark")
+                            if mark:
+                                arr.append(f"ÿc2{mark}\n")
+                        if len(arr) > 0:
+                            arr.append("ÿc2")
+                        arr.append(item.get(lng))
+                        if set_enus and lng != Language.ENUS.value:
+                            arr.append(f" {item.get(Language.ENUS.value)}")
+                        item[lng] = ''.join(arr)
+                else:
+                    for lang in Language:
+                        lng = lang.value
                         arr = [item[lng]]
                         
                         if base_grade:
                             grade = data[lng].get("grade")
                             if grade:
-                                arr.append("|")
-                                arr.append(grade)
+                                arr.append(f"|{grade}")
                         if base_weight:
                             weight = data[lng].get("weight")
                             if weight:
@@ -1715,89 +1738,29 @@ class FileOperations:
                         if base_sockets:
                             sockets = data[lng].get("sockets")
                             if sockets:
-                                arr.append("[")
-                                arr.append(sockets)
-                                arr.append("]")
+                                arr.append(f"[{sockets}]")
                         if base_defense:
                             defense = data[lng].get("defense")
                             if defense:
-                                arr.append("[")
-                                arr.append(defense)
-                                arr.append("]")
-                        if base_enus and lng != ENUS:
-                            arr.append(" ")
-                            arr.append(item.get(ENUS))
+                                arr.append(f"[{defense}]")
+                        if base_enus and lng != Language.ENUS.value:
+                            arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
-                
-                elif Key in jcy_config.UNIQUEITEMS:
-                    # 暗金装
-                    for lng in _languages:
-                        arr = []
-                        if unique_max:
-                            max = data[lng].get("max")
-                            if max:
-                                arr.append("ÿc1[")
-                                arr.append(max)
-                                arr.append("]\n")
-                        if unique_mark:
-                            mark = data[lng].get("mark")
-                            if mark:
-                                arr.append("ÿc2")
-                                arr.append(mark)
-                                arr.append("\n")
-                        if len(arr) > 0:
-                            arr.append("ÿc4")
-                        arr.append(item.get(lng))
-                        if unique_enus and lng != ENUS:
-                            arr.append(" ")
-                            arr.append(item.get(ENUS))
-                        item[lng] = ''.join(arr)
-                
-                elif Key in jcy_config.SETS or Key in jcy_config.SETITEMS:
-                    # 套装
-                    for lng in _languages:
-                        arr = []
-                        if set_max:
-                            max = data[lng].get("max")
-                            if max:
-                                arr.append("ÿc1[")
-                                arr.append(max)
-                                arr.append("]\n")
-                        if set_mark:
-                            mark = data[lng].get("mark")
-                            if mark:
-                                arr.append("ÿc2")
-                                arr.append(mark)
-                                arr.append("\n")
-                        if len(arr) > 0:
-                            arr.append("ÿc2")
-                        arr.append(item.get(lng))
-                        if set_enus and lng != ENUS:
-                            arr.append(" ")
-                            arr.append(item.get(ENUS))
-                        item[lng] = ''.join(arr)
-                
-                # 备份
-                item[ZHCN2] = item[ZHCN]
-                item[ZHTW2] = item[ZHTW]
-                # 国服本地化
-                item[ZHCN] = item[netease]
-                # 国际服本地化
-                item[ZHTW] = item[battlenet]
-                                                
-            # write temp file
-            item_names_tmp = os.path.join(MOD_PATH, r"data/local/lng/strings/item-names.json.tmp")
-            with open(item_names_tmp, 'w', encoding="utf-8-sig") as f:
-                json.dump(templet_list, f, ensure_ascii=False, indent=2)
+                ext_json[Key] = item
 
-            # replace target file
-            item_names = os.path.join(MOD_PATH, r"data/local/lng/strings/item-names.json")
-            os.replace(item_names_tmp, item_names)
+            # 写ext
+            ext_path = os.path.join(MOD_PATH, r"jcy/ext/item-names.json")
+            with open(ext_path, 'w', encoding="utf-8") as f:
+                json.dump(ext_json, f, ensure_ascii=False, indent=4)
+            
+            self.modify_zhCN_language("")
+            self.modify_zhTW_language("")
+
             count += 1
         except Exception as e:
             print(e)
 
-        return (count, 1)
+        return count, 1
 
 
     def modify_item_rune(self, keys: list):
@@ -1812,8 +1775,8 @@ class FileOperations:
 
         count = 0
 
-        item_rune_setting1 = jcy_config.SETTINGS.get(ITEM_RUNE_SETTING1)
-        item_rune_setting2 = jcy_config.SETTINGS.get(ITEM_RUNE_SETTING2)
+        item_rune_setting1 = jcy_config.SETTINGS.get(Function.ITEM_RUNE_SETTING1.value)
+        item_rune_setting2 = jcy_config.SETTINGS.get(Function.ITEM_RUNE_SETTING2.value)
         
         rune_color = "1" in item_rune_setting1
         rune_title = "2" in item_rune_setting1
@@ -1847,8 +1810,8 @@ class FileOperations:
                 if obj.get(ZHSGTW) is None:
                     obj[ZHSGTW] = obj[ZHTW]
 
-            netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
-            battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
+            netease = jcy_config.SETTINGS.get(Function.ZHCN.value)
+            battlenet = jcy_config.SETTINGS.get(Function.ZHTW.value)
 
             for item in templet_list:
                 Key = item["Key"]
@@ -2639,8 +2602,8 @@ class FileOperations:
         with open(item_names_path, 'r', encoding='utf-8-sig') as f:
             item_names_data = json.load(f)
         
-        netease = jcy_config.SETTINGS.get(NETEASE_LANGUAGE)
-        battlenet = jcy_config.SETTINGS.get(BATTLE_NET_LANGUAGE)
+        netease = jcy_config.SETTINGS.get(Function.ZHCN.value)
+        battlenet = jcy_config.SETTINGS.get(Function.ZHTW.value)
 
         for item in item_names_data:
             try:
@@ -2788,7 +2751,6 @@ class FileOperations:
     def modify_zhCN_language(self, radio: str):
         """网易国服-本地化"""
         return self.modify_selected_language(ZHCN)
-        
 
 
     def modify_zhTW_language(self, radio: str):
