@@ -2,13 +2,13 @@
     "type": "HoradricCubePanel",
     "name": "HoradricCubeMiniLayout",
     "fields": {
-        "priority": 10,
+        "priority": 101,
         "rect": {
-            "x": -740,
+            "x": 400,
             "y": -430
         },
         "anchor": {
-            "x": 1,
+            "x": 0,
             "y": 1
         }
     },
@@ -25,7 +25,7 @@
             "name": "convert",
             "fields": {
                 "rect": {
-                    "x": -50,
+                    "x": 340,
                     "y": 100,
                     "scale": 0.5
                 },
@@ -40,7 +40,7 @@
             "name": "close",
             "fields": {
                 "rect": {
-                    "x": -62,
+                    "x": 328,
                     "y": 160
                 },
                 "filename": "PANEL\\closebtn_4x",

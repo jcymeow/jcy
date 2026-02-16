@@ -146,7 +146,7 @@ WAYPOINT_POINTER = "WayPointPointer"
 MISSION_POINTER = "MissionPointer"
 UPSTAIRS_POINTER = "UpstairsPointer"
 DOWNSTAIRS_POINTER = "DownstairsPointer"
-MINI_CUBE = "MiniCube"
+
 # Function Identifier -->
 
 # Assets
@@ -909,6 +909,7 @@ class Function(Enum):
     GAME_SETTING2 = "GameSetting2"
     CONTROLS_SETTING = "ControlsSetting"
     ESC_SETTING = "EscSetting"
+    MINI_CUBE = "MiniCube"
 
 
 class Language(Enum):
@@ -1030,7 +1031,6 @@ __all__ = [
     'MISSION_POINTER',
     'UPSTAIRS_POINTER',
     'DOWNSTAIRS_POINTER',
-    'MINI_CUBE',
     'GAME_MODEL',
     'RUNE_SKIN',
     'SKILL_SKIN',

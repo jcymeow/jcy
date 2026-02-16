@@ -245,6 +245,8 @@ class FeatureController:
             Function.CONTROLS_SETTING.value: self.file_operations.select_controls_setting,
             # ESC设置
             Function.ESC_SETTING.value: self.file_operations.modify_esc_func,
+            # 迷你盒子位置
+            Function.MINI_CUBE.value: self.file_operations.modify_mini_cube,
 
             # 道具屏蔽
             ITEM_FILTER: self.file_operations.modify_item_filter,
@@ -311,8 +313,7 @@ class FeatureController:
             UPSTAIRS_POINTER: self.file_operations.modify_upstairs_pointer,
             # 环境-下口指引
             DOWNSTAIRS_POINTER: self.file_operations.modify_downstairs_pointer,
-            # 迷你盒子位置
-            MINI_CUBE: self.file_operations.modify_mini_cube,
+            
             
         }
 

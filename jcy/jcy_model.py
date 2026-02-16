@@ -125,7 +125,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": MINI_CUBE,
+                            "fid": Function.MINI_CUBE.value,
                             "type": RADIO,
                             "text": "迷你盒子位置",
                             "colspan": 60,
