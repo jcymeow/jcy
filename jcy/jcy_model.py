@@ -153,7 +153,7 @@ class FeatureConfig:
                             "type": SEPARATOR
                         },
                         {
-                            "fid": DISABLE_EFFECTS,
+                            "fid": Function.DISABLE_EFFECTS.value,
                             "type": CHECK,
                             "text": "环境-屏蔽元素",
                             "colspan": 100,

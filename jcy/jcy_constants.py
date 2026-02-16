@@ -138,7 +138,6 @@ ITEM_NOTIFICATION = "ItemNotification"
 ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
 ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
 ASSET_PATH = "AssetPath"
-DISABLE_EFFECTS = "DisableEffects"
 ENABLE_POINTER = "EnablePointer"
 ITEM_FILTER = "ItemFilter"
 WAYPOINT_POINTER = "WayPointPointer"
@@ -909,6 +908,7 @@ class Function(Enum):
     ESC_SETTING = "EscSetting"
     MINI_CUBE = "MiniCube"
     PORTAL_SKIN = "ProtalSkin"
+    DISABLE_EFFECTS = "DisableEffects"
 
 
 class Language(Enum):
@@ -1011,7 +1011,6 @@ __all__ = [
     'ITEM_ZHTW',
     'LNG_STRINGS',
     'ITEM_FILTER',
-    'DISABLE_EFFECTS',
     'ENABLE_POINTER',
     'RADIO',
     'CHECK',

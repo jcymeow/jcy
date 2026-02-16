@@ -1917,25 +1917,11 @@ class FileOperations:
             # 动画
             "1" : [
                 #
-                r"data/global/video/act2/act02start.webm",
-                r"data/global/video/act3/act03start.webm",
-                r"data/global/video/act4/act04end.webm",
-                r"data/global/video/act4/act04start.webm",
-                r"data/global/video/act5/d2x_out.webm",
                 r"data/global/video/bliznorth.webm",
-                r"data/global/video/d2intro.webm",
-                r"data/global/video/d2x_intro.webm",
                 r"data/global/video/new_bliz.webm",
                 #
-                r"data/hd/global/video/act2/act02start.webm",
-                r"data/hd/global/video/act3/act03start.webm",
-                r"data/hd/global/video/act4/act04end.webm",
-                r"data/hd/global/video/act4/act04start.webm",
-                r"data/hd/global/video/act5/d2x_out.webm",
                 r"data/hd/global/video/blizzardlogos.webm",
                 r"data/hd/global/video/creditsloop.webm",
-                r"data/hd/global/video/d2intro.webm",
-                r"data/hd/global/video/d2x_intro.webm",
                 r"data/hd/global/video/logoanim.webm",
                 r"data/hd/global/video/logoloop.webm",
                 #
