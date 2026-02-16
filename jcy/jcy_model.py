@@ -103,19 +103,18 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": CONTROLS_SETTING,
+                            "fid": Function.CONTROLS_SETTING.value,
                             "type": CHECK,
                             "text": "控件设置",
                             "colspan": 100,
                             "params": {
-                                # "1": "正副手提示",
                                 "2": "默认开启迷你血条",
                                 "3": "默认开启MINI盒子",
                                 "4": "H键帮助面板+字典"
                             }
                         },
                         {
-                            "fid": ESC_SETTING,
+                            "fid": Function.ESC_SETTING.value,
                             "type": RADIO,
                             "text": "ESC设置",
                             "colspan": 40,
@@ -137,18 +136,6 @@ class FeatureConfig:
                                 "4": "右下角",
                             }
                         },
-                        # {
-                        #     "fid": HUD_SIZE,
-                        #     "type": RADIO,
-                        #     "text": "HUD面板缩放",
-                        #     "colspan": 50,
-                        #     "params": {
-                        #         "0": "100%",
-                        #         "1": "85%",
-                        #         "2": "75%",
-                        #         "3": "65%"
-                        #     }
-                        # },
                         {
                             "fid": PORTAL_SKIN,
                             "type": RADIO,
@@ -189,16 +176,6 @@ class FeatureConfig:
                                 "6": "A5尼拉塞克"
                             }
                         },
-                        # {
-                        #     "fid": NEXTAREA_POINTER,
-                        #     "type": RADIO,
-                        #     "text": "环境-邻区指引",
-                        #     "colspan": 30,
-                        #     "params": {
-                        #         "0": "默认",
-                        #         "2": "灰环指引",
-                        #     }
-                        # },
                         {
                             "fid": WAYPOINT_POINTER,
                             "type": RADIO,

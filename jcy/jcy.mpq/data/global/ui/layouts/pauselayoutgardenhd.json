@@ -1,6 +1,6 @@
 {
     "type": "PausePanel",
-    "name": "PauseLayout",
+    "name": "PauseLayoutGarden",
     "fields": {
         "priority": 9001,
         "fitToParent": true,
@@ -178,7 +178,7 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": false
+                                "acceptsEscKeyEverywhere": true
                             }
                         }
                     ]
@@ -199,6 +199,90 @@
                                     0
                                 ],
                                 "onClickMessage": "PausePanelMessage:Close",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "ImageWidget",
+            "name": "LootChron Separator",
+            "fields": {
+                "rect": {
+                    "x": -411,
+                    "y": 89
+                },
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "filename": "PauseMenu\\Divider_Medium"
+            }
+        },
+        {
+            "type": "TableWidget",
+            "name": "PauseTableExtra",
+            "fields": {
+                "anchor": {
+                    "x": 0.5,
+                    "y": 0.5
+                },
+                "rect": {
+                    "x": -329,
+                    "y": 115
+                },
+                "columns": [
+                    {
+                        "width": 658,
+                        "alignment": {
+                            "h": "center",
+                            "v": "center"
+                        }
+                    }
+                ],
+                "rowHeight": 140,
+                "generateFocusLinks": true
+            },
+            "children": [
+                {
+                    "type": "TableRowWidget",
+                    "name": "Row Loot Filter",
+                    "children": [
+                        {
+                            "type": "ButtonWidget",
+                            "name": "LootFilter",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@LootFilter",
+                                "onClickMessage": "PausePanelMessage:OpenLootFilter",
+                                "textColor": "$LightButtonTextColor",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "select"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "Row Chronicle",
+                    "children": [
+                        {
+                            "type": "ButtonWidget",
+                            "name": "Chronicle",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "@Chronicle",
+                                "onClickMessage": "PanelManager:OpenPanel:ChroniclePanel",
                                 "textColor": "$LightButtonTextColor",
                                 "text/style": "$StyleFEButtonText",
                                 "acceptsReturnKey": true,
@@ -234,10 +318,10 @@
         },
         {
             "type": "TimerWidget",
-            "name": "exitgame",
+            "name": "gotomain",
             "fields": {
-                "time": 0,
-                "message": "PausePanelMessage:ExitGame"
+                "time": 0.1,
+                "message": ""
             }
         }
     ]

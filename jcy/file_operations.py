@@ -3420,7 +3420,6 @@ class FileOperations:
         total = len(_files)
 
         _controls = {
-            # "1": "OpenWeaponSwap",
             "2": "OpenMiniHp",
             "3": "OpenMiniCube",
         }
@@ -4066,54 +4065,39 @@ class FileOperations:
         """ESC设定"""
 
         count = 0
-        total = 2
+        total = 1
 
         params = {
-            "0": (True, True, True, False, ""),
-            "1": (True, True, True, False, "PausePanelMessage:ExitGame"),
-            "2": (False, False, False, True, ""),
+            "0": (False, ""),
+            "1": (True, "PausePanelMessage:ExitGame"),
+            "2": (True, ""),
         }
 
         param = params.get(radio)
         if not param:
-            return (count, total)
-        
+            return count, total
+
         try:
-            # ---- modify pauselayout.json ----
-            od_json = None
-            od_path = os.path.join(MOD_PATH, "data/global/ui/layouts/pauselayout.json")
-            with open(od_path, "r", encoding="utf-8") as f:
-                od_json = json.load(f)
-
-            od_json["children"][-1]["children"][0]["children"][0]["fields"]["acceptsReturnKey"] = param[0]
-            od_json["children"][-1]["children"][0]["children"][0]["fields"]["focusOnMouseOver"] = param[1]
-            od_json["children"][-1]["children"][1]["children"][0]["fields"]["focusOnMouseOver"] = param[2]
-            od_json["children"][-1]["children"][1]["children"][0]["fields"]["acceptsEscKeyEverywhere"] = param[3]
-            od_json["children"][-1]["children"][-1]["fields"]["message"] = param[4]
-
-            with open(od_path, 'w', encoding="utf-8") as f:
-                json.dump(od_json, f, ensure_ascii=False, indent=4)
-            count += 1
-
-            # ---- modify pauselayouthd.json ----
+            # ---- modify pauselayoutgardenhd.json ----
             hd_json = None
-            hd_path = os.path.join(MOD_PATH, "data/global/ui/layouts/pauselayouthd.json")
+            hd_path = os.path.join(MOD_PATH, "data/global/ui/layouts/pauselayoutgardenhd.json")
+            if not os.path.exists(hd_path):
+                return count, total
+
             with open(hd_path, "r", encoding="utf-8") as f:
                 hd_json = json.load(f)
 
-            hd_json["children"][3]["children"][0]["children"][0]["fields"]["acceptsReturnKey"] = param[0]
-            hd_json["children"][3]["children"][0]["children"][0]["fields"]["focusOnMouseOver"] = param[1]
-            hd_json["children"][3]["children"][1]["children"][0]["fields"]["focusOnMouseOver"] = param[2]
-            hd_json["children"][3]["children"][1]["children"][0]["fields"]["acceptsEscKeyEverywhere"] = param[3]
-            hd_json["children"][-1]["fields"]["message"] = param[4]
+            hd_json["children"][3]["children"][1]["children"][0]["fields"]["acceptsEscKeyEverywhere"] = param[0]
+            hd_json["children"][-1]["fields"]["message"] = param[1]
 
             with open(hd_path, 'w', encoding="utf-8") as f:
                 json.dump(hd_json, f, ensure_ascii=False, indent=4)
+
             count += 1
         except Exception as e:
             print(e)
 
-        return (count, total)
+        return count, total
 
 
     def terror_zone_next(self, keys: list):

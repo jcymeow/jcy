@@ -107,7 +107,7 @@ GOLD_NAMES = [
 NETEASE_LANGUAGE = "NeteaseLanguage"
 BATTLE_NET_LANGUAGE = "BattleNetLanguage"
 
-CONTROLS_SETTING = "ControlsSetting"
+
 HUD_SIZE = "HudSize"
 PORTAL_SKIN = "ProtalSkin"
 ARROW = "Arrow"
@@ -147,7 +147,6 @@ MISSION_POINTER = "MissionPointer"
 UPSTAIRS_POINTER = "UpstairsPointer"
 DOWNSTAIRS_POINTER = "DownstairsPointer"
 MINI_CUBE = "MiniCube"
-ESC_SETTING = "EscSetting"
 # Function Identifier -->
 
 # Assets
@@ -908,6 +907,8 @@ class Function(Enum):
 
     GAME_SETTING = "GameSetting"
     GAME_SETTING2 = "GameSetting2"
+    CONTROLS_SETTING = "ControlsSetting"
+    ESC_SETTING = "EscSetting"
 
 
 class Language(Enum):
@@ -976,7 +977,6 @@ __all__ = [
     'NETEASE_LANGUAGE',
     'BATTLE_NET_LANGUAGE',
     'GOLD_NAMES',
-    'CONTROLS_SETTING',
     'HUD_SIZE',
     'PORTAL_SKIN',
     'ARROW',
@@ -1031,7 +1031,6 @@ __all__ = [
     'UPSTAIRS_POINTER',
     'DOWNSTAIRS_POINTER',
     'MINI_CUBE',
-    'ESC_SETTING',
     'GAME_MODEL',
     'RUNE_SKIN',
     'SKILL_SKIN',

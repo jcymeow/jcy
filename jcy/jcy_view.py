@@ -239,7 +239,7 @@ class FeatureView:
                 current_col += colspan
                 self.feature_vars[child["fid"]] = group
 
-            elif TERROR_ZONE_TABLE == type:
+            elif Function.TERROR_ZONE_TABLE.value == type:
                 current_row += 1
                 self.tz_tab = TerrorZoneUI(tab, self.controller)
                 self.tz_tab.grid(row=current_row, column=0, columnspan=100, sticky="nsew")
@@ -1361,7 +1361,7 @@ class TerrorZoneUI(tk.Frame):
                     # 恐怖地带
                     tz_list = []
 
-                    tz_lang = jcy_config.SETTINGS.get(TERROR_ZONE_LANGUAGE, "zhTW")
+                    tz_lang = jcy_config.SETTINGS.get(Function.TERROR_ZONE_LANGUAGE.value, "zhTW")
                     
                     if isinstance(raw_zone, str):
                         level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
