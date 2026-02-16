@@ -14,7 +14,7 @@
     "jaJP": "祭壇",
     "ptBR": "altar",
     "ruRU": "святилище",
-    "zhCN": "shrine"
+    "zhCN": "聖壇"
   },
   {
     "id": 3255,
@@ -31,7 +31,7 @@
     "jaJP": "祭壇",
     "ptBR": "Altar",
     "ruRU": "Святилище",
-    "zhCN": "Shrine"
+    "zhCN": "聖壇"
   },
   {
     "id": 3683,
@@ -48,7 +48,7 @@
     "jaJP": "何も感じられなかった。",
     "ptBR": "Nada aconteceu.",
     "ruRU": "Вы ничего не чувствуете.",
-    "zhCN": "You feel nothing."
+    "zhCN": "你沒有任何感覺。"
   },
   {
     "id": 3684,
@@ -65,7 +65,7 @@
     "jaJP": "活力が湧いてきた。",
     "ptBR": "Suas energias estão renovadas.",
     "ruRU": "Вы чувствуете прилив бодрости.",
-    "zhCN": "You feel refreshed."
+    "zhCN": "你感到精神百倍。"
   },
   {
     "id": 3685,
@@ -82,7 +82,7 @@
     "jaJP": "元気が湧いてきた。",
     "ptBR": "Sua saúde está renovada.",
     "ruRU": "Вас наполняет здоровье.",
-    "zhCN": "You feel healthy."
+    "zhCN": "你感到生命力旺盛。"
   },
   {
     "id": 3686,
@@ -99,7 +99,7 @@
     "jaJP": "マナが注ぎ込まれた。",
     "ptBR": "Seu espírito está renovado.",
     "ruRU": "Ваши силы восстановлены.",
-    "zhCN": "You feel recharged."
+    "zhCN": "你感到能量充沛。"
   },
   {
     "id": 3687,
@@ -116,7 +116,7 @@
     "jaJP": "元気がみなぎってきた。",
     "ptBR": "Sua saúde está muito melhor.",
     "ruRU": "Вас до краев наполняет здоровье.",
-    "zhCN": "You feel incredibly healthy."
+    "zhCN": "你感到生命力無比旺盛。"
   },
   {
     "id": 3688,
@@ -133,7 +133,7 @@
     "jaJP": "マナがみなぎってきた。",
     "ptBR": "Seu espírito está muito melhor.",
     "ruRU": "Вы чувствуете приток энергии.",
-    "zhCN": "You feel infused with energy."
+    "zhCN": "你感到體內能量滿溢。"
   },
   {
     "id": 3689,
@@ -150,7 +150,7 @@
     "jaJP": "皮膚が頑丈になった。",
     "ptBR": "Sua pele está mais resistente.",
     "ruRU": "Ваша кожа становится крепче.",
-    "zhCN": "Your skin hardens."
+    "zhCN": "你的皮膚變硬了。"
   },
   {
     "id": 3690,
@@ -167,7 +167,7 @@
     "jaJP": "戦いへの覚悟が深まった。",
     "ptBR": "Sua disposição para a batalha está maior.",
     "ruRU": "Вы чувствуете готовность к бою.",
-    "zhCN": "You feel ready for battle."
+    "zhCN": "你感到隨時能投身戰場。"
   },
   {
     "id": 3691,
@@ -184,7 +184,7 @@
     "jaJP": "火への恐れがなくなった。",
     "ptBR": "Você deixou de temer o fogo.",
     "ruRU": "Вы больше не боитесь огня.",
-    "zhCN": "You no longer fear fire."
+    "zhCN": "你不再畏懼火焰了。"
   },
   {
     "id": 3692,
@@ -201,7 +201,7 @@
     "jaJP": "冷気への恐れがなくなった。",
     "ptBR": "Você deixou de temer o gelo.",
     "ruRU": "Вы больше не боитесь льда.",
-    "zhCN": "You no longer fear cold."
+    "zhCN": "你不再畏懼冰寒了。"
   },
   {
     "id": 3693,
@@ -218,7 +218,7 @@
     "jaJP": "電撃への恐れがなくなった。",
     "ptBR": "Você deixou de temer a eletricidade.",
     "ruRU": "Вы больше не боитесь молнии.",
-    "zhCN": "You no longer fear lightning."
+    "zhCN": "你不再畏懼電擊了。"
   },
   {
     "id": 3694,
@@ -235,7 +235,7 @@
     "jaJP": "毒への恐れがなくなった。",
     "ptBR": "Você deixou de temer o veneno.",
     "ruRU": "Вы больше не боитесь яда.",
-    "zhCN": "You no longer fear poison."
+    "zhCN": "你不再畏懼毒素了。"
   },
   {
     "id": 3695,
@@ -252,7 +252,7 @@
     "jaJP": "技が研ぎ澄まされた。",
     "ptBR": "Suas habilidades estão reforçadas.",
     "ruRU": "Ваши умения улучшились.",
-    "zhCN": "You feel more skillful."
+    "zhCN": "你感到技巧變得熟練。"
   },
   {
     "id": 3696,
@@ -269,7 +269,7 @@
     "jaJP": "マナの回復が速くなった。",
     "ptBR": "Sua força espiritual recupera-se mais rapidamente.",
     "ruRU": "Ваша духовная сила быстро восстанавливается.",
-    "zhCN": "Your spiritual force recovers quickly."
+    "zhCN": "你的精神力量快速回復。"
   },
   {
     "id": 3697,
@@ -286,7 +286,7 @@
     "jaJP": "体が軽く感じられるようになった。",
     "ptBR": "O mundo parece estar mais leve.",
     "ruRU": "Вам стало легче выдерживать тяжесть мира.",
-    "zhCN": "The weight of the world seems lighter."
+    "zhCN": "世界的重量似乎變輕了。"
   },
   {
     "id": 3698,
@@ -303,7 +303,7 @@
     "jaJP": "経験から学びやすくなった。",
     "ptBR": "Sua experiência gera mais frutos.",
     "ruRU": "Вы извлекаете урок из приобретенного опыта.",
-    "zhCN": "Your experience teaches you well."
+    "zhCN": "你的經驗讓你更上層樓。"
   },
   {
     "id": 3699,
@@ -320,7 +320,7 @@
     "jaJP": "自分が少し違って感じられる。",
     "ptBR": "Sua identidade mudou sutilmente.",
     "ruRU": "Вы чувствуете себя не вполне собой.",
-    "zhCN": "Your sense of identity is subtly changed."
+    "zhCN": "你對自我的認知隱約改變了。"
   },
   {
     "id": 3700,
@@ -337,7 +337,7 @@
     "jaJP": "これで拠点に戻れる…",
     "ptBR": "A liberdade de voltar para casa...",
     "ruRU": "Свобода вернуться домой...",
-    "zhCN": "The freedom to go home..."
+    "zhCN": "回家的自由…"
   },
   {
     "id": 3701,
@@ -354,7 +354,7 @@
     "jaJP": "宝石がきらめいた…",
     "ptBR": "Uma gema magnífica...",
     "ruRU": "Необыкновенный самоцвет...",
-    "zhCN": "A marvelous gem..."
+    "zhCN": "華貴的寶石…"
   },
   {
     "id": 3702,
@@ -371,7 +371,7 @@
     "jaJP": "死の炎を浴びろ…",
     "ptBR": "Uma morte incandescente...",
     "ruRU": "Огненная смерть...",
-    "zhCN": "A fiery death..."
+    "zhCN": "火熱的死亡…"
   },
   {
     "id": 3703,
@@ -388,7 +388,7 @@
     "jaJP": "死の使いが近づいてくる…",
     "ptBR": "Um defensor da morte se aproxima.",
     "ruRU": "Приближается посланник смерти.",
-    "zhCN": "Death's advocate approaches."
+    "zhCN": "死亡的代言人逼近了。"
   },
   {
     "id": 3704,
@@ -405,7 +405,7 @@
     "jaJP": "炎の円環がもたらされた…",
     "ptBR": "Um círculo de chamas...",
     "ruRU": "Круг огня...",
-    "zhCN": "A circle of flame..."
+    "zhCN": "火焰之環…"
   },
   {
     "id": 3705,
@@ -422,7 +422,7 @@
     "jaJP": "死の円環がもたらされた…",
     "ptBR": "Um círculo mortífero...",
     "ruRU": "Круг смерти...",
-    "zhCN": "A circle of death..."
+    "zhCN": "死亡之環…"
   },
   {
     "id": 10809,
@@ -439,7 +439,7 @@
     "jaJP": "無の祭壇",
     "ptBR": "Altar Nulificante",
     "ruRU": "Нуль-святилище",
-    "zhCN": "Null Shrine"
+    "zhCN": "空無聖壇"
   },
   {
     "id": 10810,
@@ -456,7 +456,7 @@
     "jaJP": "回復の祭壇",
     "ptBR": "Altar Restaurador",
     "ruRU": "Святилище восстановления",
-    "zhCN": "Refilling Shrine"
+    "zhCN": "回復聖壇"
   },
   {
     "id": 10811,
@@ -473,7 +473,7 @@
     "jaJP": "命の祭壇",
     "ptBR": "Altar de Vida",
     "ruRU": "Святилище здоровья",
-    "zhCN": "Health Shrine"
+    "zhCN": "生命聖壇"
   },
   {
     "id": 10812,
@@ -490,7 +490,7 @@
     "jaJP": "マナの祭壇",
     "ptBR": "Altar de Mana",
     "ruRU": "Святилище маны",
-    "zhCN": "Mana Shrine"
+    "zhCN": "法力聖壇"
   },
   {
     "id": 10813,
@@ -507,7 +507,7 @@
     "jaJP": "命の交換の祭壇",
     "ptBR": "Altar de Troca de Vida",
     "ruRU": "Святилище обмена здоровьем",
-    "zhCN": "Health Exchange Shrine"
+    "zhCN": "生命交換聖壇"
   },
   {
     "id": 10814,
@@ -524,7 +524,7 @@
     "jaJP": "マナ交換の祭壇",
     "ptBR": "Altar de Troca de Mana",
     "ruRU": "Святилище обмена маной",
-    "zhCN": "Mana Exchange Shrine"
+    "zhCN": "法力交換聖壇"
   },
   {
     "id": 10815,
@@ -541,7 +541,7 @@
     "jaJP": "守りの祭壇",
     "ptBR": "Altar de Armadura",
     "ruRU": "Святилище брони",
-    "zhCN": "Armor Shrine"
+    "zhCN": "護甲聖壇"
   },
   {
     "id": 10816,
@@ -558,7 +558,7 @@
     "jaJP": "戦いの祭壇",
     "ptBR": "Altar de Combate",
     "ruRU": "Святилище сражений",
-    "zhCN": "Combat Shrine"
+    "zhCN": "作戰聖壇"
   },
   {
     "id": 10817,
@@ -575,7 +575,7 @@
     "jaJP": "火炎耐性の祭壇",
     "ptBR": "Altar de Resistência a Fogo",
     "ruRU": "Святилище сопротивления огню",
-    "zhCN": "Resist Fire Shrine"
+    "zhCN": "抗火聖壇"
   },
   {
     "id": 10818,
@@ -592,7 +592,7 @@
     "jaJP": "冷気耐性の祭壇",
     "ptBR": "Altar de Resistência a Gelo",
     "ruRU": "Святилище сопротивления льду",
-    "zhCN": "Resist Cold Shrine"
+    "zhCN": "抗寒聖壇"
   },
   {
     "id": 10819,
@@ -609,7 +609,7 @@
     "jaJP": "電撃耐性の祭壇",
     "ptBR": "Altar de Resistência Elétrica",
     "ruRU": "Святилище сопротивления молнии",
-    "zhCN": "Resist Lightning Shrine"
+    "zhCN": "抗電聖壇"
   },
   {
     "id": 10820,
@@ -626,7 +626,7 @@
     "jaJP": "毒物耐性の祭壇",
     "ptBR": "Altar de Resistência a Veneno",
     "ruRU": "Святилище сопротивления яду",
-    "zhCN": "Resist Poison Shrine"
+    "zhCN": "抗毒聖壇"
   },
   {
     "id": 10821,
@@ -643,7 +643,7 @@
     "jaJP": "スキルの祭壇",
     "ptBR": "Altar de Habilidades",
     "ruRU": "Святилище умений",
-    "zhCN": "Skill Shrine"
+    "zhCN": "技能聖壇"
   },
   {
     "id": 10822,
@@ -660,7 +660,7 @@
     "jaJP": "マナ再生の祭壇",
     "ptBR": "Altar de Recarga de Mana",
     "ruRU": "Святилище восполнения маны",
-    "zhCN": "Mana Recharge Shrine"
+    "zhCN": "法力恢復聖壇"
   },
   {
     "id": 10823,
@@ -677,7 +677,7 @@
     "jaJP": "スタミナの祭壇",
     "ptBR": "Altar de Vigor",
     "ruRU": "Святилище выносливости",
-    "zhCN": "Stamina Shrine"
+    "zhCN": "精力聖壇"
   },
   {
     "id": 10824,
@@ -694,7 +694,7 @@
     "jaJP": "経験の祭壇",
     "ptBR": "Altar de Experiência",
     "ruRU": "Святилище опыта",
-    "zhCN": "Experience Shrine"
+    "zhCN": "經驗聖壇"
   },
   {
     "id": 10825,
@@ -711,7 +711,7 @@
     "jaJP": "ンダイサの祭壇",
     "ptBR": "Altar de Ratla",
     "ruRU": "Святилище Ещилитявс",
-    "zhCN": "Enirhs Shrine"
+    "zhCN": "壇聖聖壇"
   },
   {
     "id": 10826,
@@ -728,7 +728,7 @@
     "jaJP": "ポータルの祭壇",
     "ptBR": "Altar do Portal",
     "ruRU": "Святилище портала",
-    "zhCN": "Portal Shrine"
+    "zhCN": "傳送聖壇"
   },
   {
     "id": 10827,
@@ -745,7 +745,7 @@
     "jaJP": "宝石の祭壇",
     "ptBR": "Altar de Gema",
     "ruRU": "Святилище самоцветов",
-    "zhCN": "Gem Shrine"
+    "zhCN": "寶石聖壇"
   },
   {
     "id": 10828,
@@ -762,7 +762,7 @@
     "jaJP": "火炎の祭壇",
     "ptBR": "Altar Ígneo",
     "ruRU": "Святилище огня",
-    "zhCN": "Fire Shrine"
+    "zhCN": "火焰聖壇"
   },
   {
     "id": 10829,
@@ -779,7 +779,7 @@
     "jaJP": "魔物の祭壇",
     "ptBR": "Altar Monstruoso",
     "ruRU": "Святилище монстров",
-    "zhCN": "Monster Shrine"
+    "zhCN": "怪物聖壇"
   },
   {
     "id": 10830,
@@ -796,7 +796,7 @@
     "jaJP": "爆発の祭壇",
     "ptBR": "Altar Explosivo",
     "ruRU": "Святилище взрывов",
-    "zhCN": "Exploding Shrine"
+    "zhCN": "爆炸聖壇"
   },
   {
     "id": 10831,
@@ -813,7 +813,7 @@
     "jaJP": "毒の祭壇",
     "ptBR": "Altar Venenoso",
     "ruRU": "Святилище яда",
-    "zhCN": "Poison Shrine"
+    "zhCN": "劇毒聖壇"
   },
   {
     "id": 22592,
@@ -830,7 +830,7 @@
     "jaJP": "祭壇",
     "ptBR": "Altar",
     "ruRU": "Святилище",
-    "zhCN": "Shrine"
+    "zhCN": "聖壇"
   },
   {
     "id": 22593,
@@ -847,6 +847,6 @@
     "jaJP": "祭壇",
     "ptBR": "Altar",
     "ruRU": "Святилище",
-    "zhCN": "Shrine"
+    "zhCN": "聖壇"
   }
 ]

@@ -14,7 +14,7 @@
     "jaJP": "差し込み穴",
     "ptBR": "orifício",
     "ruRU": "отверстие",
-    "zhCN": "orifice"
+    "zhCN": "插槽"
   },
   {
     "id": 3222,
@@ -31,7 +31,7 @@
     "jaJP": "樽",
     "ptBR": "Barril",
     "ruRU": "Бочка",
-    "zhCN": "Barrel"
+    "zhCN": "木桶"
   },
   {
     "id": 3223,
@@ -48,7 +48,7 @@
     "jaJP": "レバー",
     "ptBR": "Alavanca",
     "ruRU": "Рычаг",
-    "zhCN": "Lever"
+    "zhCN": "拉桿"
   },
   {
     "id": 3224,
@@ -65,7 +65,7 @@
     "jaJP": "爆発樽",
     "ptBR": "um Barril Explosivo",
     "ruRU": "Взрывоопасная бочка",
-    "zhCN": "an Exploding Barrel"
+    "zhCN": "爆炸桶"
   },
   {
     "id": 3225,
@@ -82,7 +82,7 @@
     "jaJP": "扉（閉）",
     "ptBR": "Porta Fechada",
     "ruRU": "Закрытая дверь",
-    "zhCN": "Closed Door"
+    "zhCN": "關閉的門"
   },
   {
     "id": 3226,
@@ -99,7 +99,7 @@
     "jaJP": "ポータル: ",
     "ptBR": "Portal para ",
     "ruRU": "Портал: ",
-    "zhCN": "Portal to "
+    "zhCN": "傳送到"
   },
   {
     "id": 3227,
@@ -116,7 +116,7 @@
     "jaJP": "扉（開）",
     "ptBR": "Porta Aberta",
     "ruRU": "Открытая дверь",
-    "zhCN": "Open Door"
+    "zhCN": "打開的門"
   },
   {
     "id": 3228,
@@ -133,7 +133,7 @@
     "jaJP": "ふさがれた扉",
     "ptBR": "Porta Bloqueada",
     "ruRU": "Перегороженная дверь",
-    "zhCN": "Blocked Door"
+    "zhCN": "堵住的門"
   },
   {
     "id": 3229,
@@ -150,7 +150,7 @@
     "jaJP": "鍵のかかった扉",
     "ptBR": "Porta Trancada",
     "ruRU": "Запертая дверь",
-    "zhCN": "Locked Door"
+    "zhCN": "上鎖的門"
   },
   {
     "id": 3230,
@@ -167,7 +167,7 @@
     "jaJP": "ケルン・ストーン",
     "ptBR": "Pedra Monumental",
     "ruRU": "Ритуальный камень",
-    "zhCN": "Cairn Stone"
+    "zhCN": "石柱"
   },
   {
     "id": 3231,
@@ -184,7 +184,7 @@
     "jaJP": "ケルン・ストーン",
     "ptBR": "Pedra Monumental",
     "ruRU": "Ритуальный камень",
-    "zhCN": "Cairn Stone"
+    "zhCN": "石柱"
   },
   {
     "id": 3232,
@@ -201,7 +201,7 @@
     "jaJP": "ケルン・ストーン",
     "ptBR": "Pedra Monumental",
     "ruRU": "Ритуальный камень",
-    "zhCN": "Cairn Stone"
+    "zhCN": "石柱"
   },
   {
     "id": 3233,
@@ -218,7 +218,7 @@
     "jaJP": "ケルン・ストーン",
     "ptBR": "Pedra Monumental",
     "ruRU": "Ритуальный камень",
-    "zhCN": "Cairn Stone"
+    "zhCN": "石柱"
   },
   {
     "id": 3234,
@@ -235,7 +235,7 @@
     "jaJP": "ケルン・ストーン",
     "ptBR": "Pedra Monumental",
     "ruRU": "Ритуальный камень",
-    "zhCN": "Cairn Stone"
+    "zhCN": "石柱"
   },
   {
     "id": 3235,
@@ -252,7 +252,7 @@
     "jaJP": "ケルン・ストーン",
     "ptBR": "Pedra Monumental",
     "ruRU": "Ритуальный камень",
-    "zhCN": "Cairn Stone"
+    "zhCN": "石柱"
   },
   {
     "id": 3236,
@@ -269,7 +269,7 @@
     "jaJP": "木箱",
     "ptBR": "Caixote",
     "ruRU": "Ящик",
-    "zhCN": "Crate"
+    "zhCN": "箱子"
   },
   {
     "id": 3237,
@@ -286,7 +286,7 @@
     "jaJP": "棺",
     "ptBR": "Ataúde",
     "ruRU": "Саркофаг",
-    "zhCN": "Casket"
+    "zhCN": "石柩"
   },
   {
     "id": 3238,
@@ -303,7 +303,7 @@
     "jaJP": "キャビネット",
     "ptBR": "Gabinete",
     "ruRU": "Шкафчик",
-    "zhCN": "Cabinet"
+    "zhCN": "櫃子"
   },
   {
     "id": 3239,
@@ -320,7 +320,7 @@
     "jaJP": "花びん",
     "ptBR": "Vaso",
     "ruRU": "Ваза",
-    "zhCN": "Vase"
+    "zhCN": "花瓶"
   },
   {
     "id": 3240,
@@ -337,7 +337,7 @@
     "jaJP": "イニファスの木",
     "ptBR": "Árvore de Inifuss",
     "ruRU": "Древо Инифусс",
-    "zhCN": "Tree of Inifuss"
+    "zhCN": "艾尼弗斯之樹"
   },
   {
     "id": 3241,
@@ -354,7 +354,7 @@
     "jaJP": "死骸",
     "ptBR": "Cadáver",
     "ruRU": "Труп",
-    "zhCN": "Corpse"
+    "zhCN": "屍體"
   },
   {
     "id": 3242,
@@ -371,7 +371,7 @@
     "jaJP": "ローグの死体",
     "ptBR": "Renegada Morta",
     "ruRU": "Мертвый разбойник",
-    "zhCN": "Dead Rogue"
+    "zhCN": "死掉的俠盜"
   },
   {
     "id": 3243,
@@ -388,7 +388,7 @@
     "jaJP": "ローグの死体",
     "ptBR": "Renegada Morta",
     "ruRU": "Мертвый разбойник",
-    "zhCN": "Dead Rogue"
+    "zhCN": "死掉的俠盜"
   },
   {
     "id": 3244,
@@ -405,7 +405,7 @@
     "jaJP": "カビだらけの研究書",
     "ptBR": "O Tomo Mofado",
     "ruRU": "Заплесневелый фолиант",
-    "zhCN": "The Moldy Tome"
+    "zhCN": "發霉的古書"
   },
   {
     "id": 3247,
@@ -422,7 +422,7 @@
     "jaJP": "鎧立て",
     "ptBR": "Estande de Armadura",
     "ruRU": "Стойка для доспехов",
-    "zhCN": "Armor Stand"
+    "zhCN": "防具架"
   },
   {
     "id": 3248,
@@ -439,7 +439,7 @@
     "jaJP": "武器棚",
     "ptBR": "Estante de Armas",
     "ruRU": "Оружейная стойка",
-    "zhCN": "Weapon Rack"
+    "zhCN": "武器架"
   },
   {
     "id": 3249,
@@ -456,7 +456,7 @@
     "jaJP": "石棺",
     "ptBR": "Sarcófago",
     "ruRU": "Саркофаг",
-    "zhCN": "Sarcophagus"
+    "zhCN": "石棺"
   },
   {
     "id": 3250,
@@ -473,7 +473,7 @@
     "jaJP": "落とし戸",
     "ptBR": "Alçapão",
     "ruRU": "Лаз",
-    "zhCN": "Trap Door"
+    "zhCN": "暗門"
   },
   {
     "id": 3251,
@@ -490,7 +490,7 @@
     "jaJP": "大きな壺",
     "ptBR": "Urna Grande",
     "ruRU": "Большая урна",
-    "zhCN": "Large Urn"
+    "zhCN": "大甕"
   },
   {
     "id": 3252,
@@ -507,7 +507,7 @@
     "jaJP": "臓器壺",
     "ptBR": "Vaso Canópico",
     "ruRU": "Канопа",
-    "zhCN": "Canopic Jar"
+    "zhCN": "臟器罈"
   },
   {
     "id": 3253,
@@ -524,7 +524,7 @@
     "jaJP": "オベリスク",
     "ptBR": "Obelisco",
     "ruRU": "Обелиск",
-    "zhCN": "Obelisk"
+    "zhCN": "方尖碑"
   },
   {
     "id": 3254,
@@ -541,7 +541,7 @@
     "jaJP": "荒らされていない墓",
     "ptBR": "Túmulo Intacto",
     "ruRU": "Нетронутая могила",
-    "zhCN": "Undefiled Grave"
+    "zhCN": "完好的墳墓"
   },
   {
     "id": 3256,
@@ -558,7 +558,7 @@
     "jaJP": "壺",
     "ptBR": "Urna",
     "ruRU": "Урна",
-    "zhCN": "Urn"
+    "zhCN": "土甕"
   },
   {
     "id": 3258,
@@ -575,7 +575,7 @@
     "jaJP": "泉",
     "ptBR": "Poço",
     "ruRU": "Колодец",
-    "zhCN": "Well"
+    "zhCN": "井"
   },
   {
     "id": 3259,
@@ -592,7 +592,7 @@
     "jaJP": "袋",
     "ptBR": "Bolsa",
     "ruRU": "Сумка",
-    "zhCN": "Bag"
+    "zhCN": "袋子"
   },
   {
     "id": 3260,
@@ -609,7 +609,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 3261,
@@ -626,7 +626,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 3262,
@@ -643,7 +643,7 @@
     "jaJP": "鍵のかかった宝箱",
     "ptBR": "Baú Trancado",
     "ruRU": "Запертый сундук",
-    "zhCN": "Locked Chest"
+    "zhCN": "上鎖的箱子"
   },
   {
     "id": 3264,
@@ -660,7 +660,7 @@
     "jaJP": "祭壇",
     "ptBR": "altar",
     "ruRU": "святилище",
-    "zhCN": "shrine"
+    "zhCN": "聖壇"
   },
   {
     "id": 3265,
@@ -677,7 +677,7 @@
     "jaJP": "階段",
     "ptBR": "Escadas",
     "ruRU": "Лестница",
-    "zhCN": "Stair"
+    "zhCN": "樓梯"
   },
   {
     "id": 3266,
@@ -694,7 +694,7 @@
     "jaJP": "棺桶",
     "ptBR": "Caixão",
     "ruRU": "Гроб",
-    "zhCN": "Coffin"
+    "zhCN": "棺柩"
   },
   {
     "id": 3267,
@@ -711,7 +711,7 @@
     "jaJP": "本棚",
     "ptBR": "Estante de Livros",
     "ruRU": "Книжная полка",
-    "zhCN": "Bookshelf"
+    "zhCN": "書架"
   },
   {
     "id": 3268,
@@ -728,7 +728,7 @@
     "jaJP": "ぐらつく大岩",
     "ptBR": "Rochedo Solto",
     "ruRU": "Шаткий валун",
-    "zhCN": "Loose Boulder"
+    "zhCN": "鬆動的圓石"
   },
   {
     "id": 3269,
@@ -745,7 +745,7 @@
     "jaJP": "ぐらつく石",
     "ptBR": "Rocha Solta",
     "ruRU": "Шаткий камень",
-    "zhCN": "Loose Rock"
+    "zhCN": "鬆動的石塊"
   },
   {
     "id": 3270,
@@ -762,7 +762,7 @@
     "jaJP": "うろのある丸太",
     "ptBR": "Tronco Oco",
     "ruRU": "Полое бревно",
-    "zhCN": "Hollow Log"
+    "zhCN": "中空的木頭"
   },
   {
     "id": 3271,
@@ -779,7 +779,7 @@
     "jaJP": "隠れ場所",
     "ptBR": "Esconderijo",
     "ruRU": "Укрытие",
-    "zhCN": "Hiding Spot"
+    "zhCN": "藏匿處"
   },
   {
     "id": 3272,
@@ -796,7 +796,7 @@
     "jaJP": "炎",
     "ptBR": "Fogo",
     "ruRU": "Костер",
-    "zhCN": "Fire"
+    "zhCN": "火焰"
   },
   {
     "id": 3273,
@@ -813,7 +813,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 3274,
@@ -830,7 +830,7 @@
     "jaJP": "秘密の隠し場所",
     "ptBR": "Estoque Oculto",
     "ruRU": "Тайные припасы",
-    "zhCN": "Hidden Stash"
+    "zhCN": "隱藏的物品"
   },
   {
     "id": 3275,
@@ -847,7 +847,7 @@
     "jaJP": "衛兵の死体",
     "ptBR": "Cadáver do Guarda",
     "ruRU": "Тело стражника",
-    "zhCN": "Guard Corpse"
+    "zhCN": "守衛的屍體"
   },
   {
     "id": 3276,
@@ -864,7 +864,7 @@
     "jaJP": "鉢",
     "ptBR": "Tigela",
     "ruRU": "Кубок",
-    "zhCN": "Bowl"
+    "zhCN": "碗"
   },
   {
     "id": 3278,
@@ -881,7 +881,7 @@
     "jaJP": "周囲の音",
     "ptBR": "Som Ambiente",
     "ruRU": "Окружающий звук",
-    "zhCN": "Ambient Sound"
+    "zhCN": "環境聲音"
   },
   {
     "id": 3280,
@@ -898,7 +898,7 @@
     "jaJP": "火の付いた体",
     "ptBR": "Corpo Flamejante",
     "ruRU": "Горящий труп",
-    "zhCN": "Burning Body"
+    "zhCN": "燃燒的屍體"
   },
   {
     "id": 3282,
@@ -915,7 +915,7 @@
     "jaJP": "扉",
     "ptBR": "Porta",
     "ruRU": "Дверь",
-    "zhCN": "Door"
+    "zhCN": "門"
   },
   {
     "id": 3284,
@@ -932,7 +932,7 @@
     "jaJP": "頭蓋骨の山",
     "ptBR": "Monte de Caveiras",
     "ruRU": "Гора черепов",
-    "zhCN": "Skullpile"
+    "zhCN": "骷髏堆"
   },
   {
     "id": 3285,
@@ -949,7 +949,7 @@
     "jaJP": "繭",
     "ptBR": "Casulo",
     "ruRU": "Кокон",
-    "zhCN": "Cocoon"
+    "zhCN": "繭"
   },
   {
     "id": 3286,
@@ -966,7 +966,7 @@
     "jaJP": "ギドビンの祭壇",
     "ptBR": "Altar da Gidbinn",
     "ruRU": "Алтарь Гидбинна",
-    "zhCN": "Gidbinn Altar"
+    "zhCN": "吉德賓祭壇"
   },
   {
     "id": 3287,
@@ -983,7 +983,7 @@
     "jaJP": "牛",
     "ptBR": "Vaca",
     "ruRU": "Корова",
-    "zhCN": "Cow"
+    "zhCN": "乳牛"
   },
   {
     "id": 3288,
@@ -1000,7 +1000,7 @@
     "jaJP": "祭壇",
     "ptBR": "Altar",
     "ruRU": "Святилище",
-    "zhCN": "Shrine"
+    "zhCN": "聖壇"
   },
   {
     "id": 3290,
@@ -1017,7 +1017,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 3292,
@@ -1034,7 +1034,7 @@
     "jaJP": "保管箱",
     "ptBR": "Baú Pessoal",
     "ruRU": "Ваш тайник",
-    "zhCN": "Your Private Stash"
+    "zhCN": "你的個人儲物箱"
   },
   {
     "id": 3293,
@@ -1051,7 +1051,7 @@
     "jaJP": "粘液の塊",
     "ptBR": "Monte de Gosma",
     "ruRU": "Сгусток слизи",
-    "zhCN": "Goo Pile"
+    "zhCN": "黏液堆"
   },
   {
     "id": 3294,
@@ -1068,7 +1068,7 @@
     "jaJP": "聖なる祭壇",
     "ptBR": "Altar Sagrado",
     "ruRU": "Святилище света",
-    "zhCN": "Holyshrine"
+    "zhCN": "神聖祭壇"
   },
   {
     "id": 3295,
@@ -1085,7 +1085,7 @@
     "jaJP": "テレポート装置",
     "ptBR": "Portal de Teleporte",
     "ruRU": "Площадка телепорта",
-    "zhCN": "Teleport Pad"
+    "zhCN": "傳送台"
   },
   {
     "id": 3296,
@@ -1102,7 +1102,7 @@
     "jaJP": "ラットチェスト",
     "ptBR": "Ninho de Ratos",
     "ruRU": "Крысиный сундук",
-    "zhCN": "Ratchest"
+    "zhCN": "老鼠箱"
   },
   {
     "id": 3297,
@@ -1119,7 +1119,7 @@
     "jaJP": "頭蓋骨の山",
     "ptBR": "Monte de Caveiras",
     "ruRU": "Гора черепов",
-    "zhCN": "Skull Pile"
+    "zhCN": "骷髏堆"
   },
   {
     "id": 3298,
@@ -1136,7 +1136,7 @@
     "jaJP": "死体",
     "ptBR": "Corpo",
     "ruRU": "Тело",
-    "zhCN": "Body"
+    "zhCN": "屍體"
   },
   {
     "id": 3299,
@@ -1153,7 +1153,7 @@
     "jaJP": "地獄の橋",
     "ptBR": "Ponte Infernal",
     "ruRU": "Адский мост",
-    "zhCN": "Hell Bridge"
+    "zhCN": "地獄之橋"
   },
   {
     "id": 3300,
@@ -1170,7 +1170,7 @@
     "jaJP": "支配のオーブ",
     "ptBR": "Orbe Dominador",
     "ruRU": "Сфера Подчинения",
-    "zhCN": "Compelling Orb"
+    "zhCN": "強制魔珠"
   },
   {
     "id": 3301,
@@ -1187,7 +1187,7 @@
     "jaJP": "バスケット",
     "ptBR": "Cesta",
     "ruRU": "Корзина",
-    "zhCN": "Basket"
+    "zhCN": "籃子"
   },
   {
     "id": 3302,
@@ -1204,7 +1204,7 @@
     "jaJP": "バスケット",
     "ptBR": "Cesta",
     "ruRU": "Корзина",
-    "zhCN": "Basket"
+    "zhCN": "籃子"
   },
   {
     "id": 3303,
@@ -1221,7 +1221,7 @@
     "jaJP": "岩の山",
     "ptBR": "Monte de Pedras",
     "ruRU": "Груда булыжников",
-    "zhCN": "Rock Pile"
+    "zhCN": "石堆"
   },
   {
     "id": 3305,
@@ -1238,7 +1238,7 @@
     "jaJP": "死体",
     "ptBR": "Cadáver",
     "ruRU": "Мертвое тело",
-    "zhCN": "Dead Body"
+    "zhCN": "屍體"
   },
   {
     "id": 3306,
@@ -1255,7 +1255,7 @@
     "jaJP": "宦官",
     "ptBR": "Eunuco",
     "ruRU": "Евнух",
-    "zhCN": "Eunuch"
+    "zhCN": "閹人"
   },
   {
     "id": 3307,
@@ -1272,7 +1272,7 @@
     "jaJP": "衛兵の死体",
     "ptBR": "Guarda Morto",
     "ruRU": "Мертвый стражник",
-    "zhCN": "Dead Guard"
+    "zhCN": "死亡的守衛"
   },
   {
     "id": 3308,
@@ -1289,7 +1289,7 @@
     "jaJP": "ポータル",
     "ptBR": "Portal",
     "ruRU": "Портал",
-    "zhCN": "Portal"
+    "zhCN": "傳送門"
   },
   {
     "id": 3309,
@@ -1306,7 +1306,7 @@
     "jaJP": "石棺",
     "ptBR": "Sarcófago",
     "ruRU": "Саркофаг",
-    "zhCN": "Sarcophagus"
+    "zhCN": "石棺"
   },
   {
     "id": 3310,
@@ -1323,7 +1323,7 @@
     "jaJP": "村人の死体",
     "ptBR": "Aldeão Morto",
     "ruRU": "Мертвый простолюдин",
-    "zhCN": "Dead Villager"
+    "zhCN": "死亡的村民"
   },
   {
     "id": 3311,
@@ -1340,7 +1340,7 @@
     "jaJP": "下水道のレバー",
     "ptBR": "Alavanca do Esgoto",
     "ruRU": "Рычаг от лестницы в стоки",
-    "zhCN": "Sewer Lever"
+    "zhCN": "下水道拉桿"
   },
   {
     "id": 3312,
@@ -1357,7 +1357,7 @@
     "jaJP": "下水道の階段",
     "ptBR": "Escadas do Esgoto",
     "ruRU": "Лестница в стоки",
-    "zhCN": "Sewer Stairs"
+    "zhCN": "下水道樓梯"
   },
   {
     "id": 3313,
@@ -1374,7 +1374,7 @@
     "jaJP": "魔術の祭壇",
     "ptBR": "Altar Mágico",
     "ruRU": "Святилище магии",
-    "zhCN": "Magic Shrine"
+    "zhCN": "魔法祭壇"
   },
   {
     "id": 3315,
@@ -1391,7 +1391,7 @@
     "jaJP": "保管箱",
     "ptBR": "Baú",
     "ruRU": "Тайник",
-    "zhCN": "Stash"
+    "zhCN": "儲物箱"
   },
   {
     "id": 3316,
@@ -1408,7 +1408,7 @@
     "jaJP": "苦しむ魂",
     "ptBR": "Alma Agonizante",
     "ruRU": "Страдающая душа",
-    "zhCN": "Suffering Soul"
+    "zhCN": "受苦的靈魂"
   },
   {
     "id": 3317,
@@ -1425,7 +1425,7 @@
     "jaJP": "穢された太陽の祭壇",
     "ptBR": "Altar do Sol Maculado",
     "ruRU": "Алтарь затмения",
-    "zhCN": "Tainted Sun Altar"
+    "zhCN": "蔽日祭壇"
   },
   {
     "id": 3318,
@@ -1442,7 +1442,7 @@
     "jaJP": "地獄の炉",
     "ptBR": "Forja Infernal",
     "ruRU": "Адская кузня",
-    "zhCN": "Hellforge"
+    "zhCN": "地獄熔爐"
   },
   {
     "id": 3320,
@@ -1459,7 +1459,7 @@
     "jaJP": "亀裂",
     "ptBR": "fissura",
     "ruRU": "Расщелина",
-    "zhCN": "fissure"
+    "zhCN": "裂隙"
   },
   {
     "id": 3321,
@@ -1476,7 +1476,7 @@
     "jaJP": "骨の宝箱",
     "ptBR": "Baú de Ossos",
     "ruRU": "Костяной сундук",
-    "zhCN": "Bone Chest"
+    "zhCN": "骨箱"
   },
   {
     "id": 3322,
@@ -1493,7 +1493,7 @@
     "jaJP": "棺",
     "ptBR": "Ataúde",
     "ruRU": "Саркофаг",
-    "zhCN": "Casket"
+    "zhCN": "石柩"
   },
   {
     "id": 3323,
@@ -1510,7 +1510,7 @@
     "jaJP": "吊るされた骸骨",
     "ptBR": "Esqueleto Enforcado",
     "ruRU": "Подвешенный скелет",
-    "zhCN": "Hung Skeleton"
+    "zhCN": "吊掛的骷髏"
   },
   {
     "id": 3324,
@@ -1527,7 +1527,7 @@
     "jaJP": "柱",
     "ptBR": "Pilar",
     "ruRU": "Колонна",
-    "zhCN": "Pillar"
+    "zhCN": "柱子"
   },
   {
     "id": 3326,
@@ -1544,7 +1544,7 @@
     "jaJP": "タレット",
     "ptBR": "uma Torre",
     "ruRU": "Турель",
-    "zhCN": "a Turret"
+    "zhCN": "塔台"
   },
   {
     "id": 3327,
@@ -1561,7 +1561,7 @@
     "jaJP": "罠",
     "ptBR": "uma Armadilha",
     "ruRU": "Ловушка",
-    "zhCN": "a Trap"
+    "zhCN": "陷阱"
   },
   {
     "id": 22484,
@@ -1578,7 +1578,7 @@
     "jaJP": "バーバリアンの虜囚",
     "ptBR": "Bárbaro Aprisionado",
     "ruRU": "Пленный варвар",
-    "zhCN": "Barbarian Captive"
+    "zhCN": "野蠻人俘虜"
   },
   {
     "id": 22520,
@@ -1595,7 +1595,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 22521,
@@ -1612,7 +1612,7 @@
     "jaJP": "樽",
     "ptBR": "Barril",
     "ruRU": "Бочка",
-    "zhCN": "Barrel"
+    "zhCN": "桶子"
   },
   {
     "id": 22522,
@@ -1629,7 +1629,7 @@
     "jaJP": "木の宝箱",
     "ptBR": "Baú de Madeira",
     "ruRU": "Деревянный сундук",
-    "zhCN": "Wooden Chest"
+    "zhCN": "木箱"
   },
   {
     "id": 22523,
@@ -1646,7 +1646,7 @@
     "jaJP": "棺の宝箱",
     "ptBR": "Arca Funerária",
     "ruRU": "Погребальный сундук",
-    "zhCN": "Burial Chest"
+    "zhCN": "陪葬品"
   },
   {
     "id": 22524,
@@ -1663,7 +1663,7 @@
     "jaJP": "棺の宝箱",
     "ptBR": "Arca Funerária",
     "ruRU": "Погребальный сундук",
-    "zhCN": "Burial Chest"
+    "zhCN": "陪葬品"
   },
   {
     "id": 22525,
@@ -1680,7 +1680,7 @@
     "jaJP": "泉",
     "ptBR": "Poço",
     "ruRU": "Колодец",
-    "zhCN": "Well"
+    "zhCN": "井"
   },
   {
     "id": 22526,
@@ -1697,7 +1697,7 @@
     "jaJP": "ウェイポイント",
     "ptBR": "Marco de Senda",
     "ruRU": "Путевой камень",
-    "zhCN": "Waypoint"
+    "zhCN": "傳送平台"
   },
   {
     "id": 22527,
@@ -1714,7 +1714,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 22528,
@@ -1731,7 +1731,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 22529,
@@ -1748,7 +1748,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук ",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 22530,
@@ -1765,7 +1765,7 @@
     "jaJP": "木の宝箱",
     "ptBR": "Baú de Madeira",
     "ruRU": "Деревянный сундук",
-    "zhCN": "Wooden Chest"
+    "zhCN": "木箱"
   },
   {
     "id": 22531,
@@ -1782,7 +1782,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 22532,
@@ -1799,7 +1799,7 @@
     "jaJP": "火葬死体",
     "ptBR": "Pira Cárnea",
     "ruRU": "Горящие останки",
-    "zhCN": "Pyre of Flesh"
+    "zhCN": "屍骸火堆"
   },
   {
     "id": 22533,
@@ -1816,7 +1816,7 @@
     "jaJP": "バーニング・ピット",
     "ptBR": "Fosso Flamejante",
     "ruRU": "Яма для сжигания",
-    "zhCN": "Burning Pit"
+    "zhCN": "燃燒的坑洞"
   },
   {
     "id": 22534,
@@ -1833,7 +1833,7 @@
     "jaJP": "部族の旗",
     "ptBR": "Bandeira Tribal",
     "ruRU": "Флаг племени",
-    "zhCN": "Tribal Flag"
+    "zhCN": "部族的旗子"
   },
   {
     "id": 22535,
@@ -1850,7 +1850,7 @@
     "jaJP": "旗",
     "ptBR": "Bandeira",
     "ruRU": "Флаг",
-    "zhCN": "Flag"
+    "zhCN": "旗子"
   },
   {
     "id": 22536,
@@ -1867,7 +1867,7 @@
     "jaJP": "街の旗",
     "ptBR": "Bandeira da Cidade",
     "ruRU": "Городской флаг",
-    "zhCN": "Town Flag"
+    "zhCN": "城鎮的旗子"
   },
   {
     "id": 22537,
@@ -1884,7 +1884,7 @@
     "jaJP": "シャンデリア",
     "ptBR": "Lustre",
     "ruRU": "Люстра",
-    "zhCN": "Chandelier"
+    "zhCN": "吊燈"
   },
   {
     "id": 22538,
@@ -1901,7 +1901,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22539,
@@ -1918,7 +1918,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22540,
@@ -1935,7 +1935,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22541,
@@ -1952,7 +1952,7 @@
     "jaJP": "揺れる頭",
     "ptBR": "Cabeças Oscilantes",
     "ruRU": "Качающиеся головы",
-    "zhCN": "Swinging Heads"
+    "zhCN": "懸掛的屍骨"
   },
   {
     "id": 22542,
@@ -1969,7 +1969,7 @@
     "jaJP": "ポール",
     "ptBR": "Haste",
     "ruRU": "Шест",
-    "zhCN": "Pole"
+    "zhCN": "柱子"
   },
   {
     "id": 22543,
@@ -1986,7 +1986,7 @@
     "jaJP": "岩石とドクロの山",
     "ptBR": "Caveiras e Pedras",
     "ruRU": "Черепа и камни",
-    "zhCN": "Skulls and Rocks"
+    "zhCN": "骷髏和石塊"
   },
   {
     "id": 22544,
@@ -2003,7 +2003,7 @@
     "jaJP": "地獄の門",
     "ptBR": "Portão Infernal",
     "ruRU": "Врата Преисподней",
-    "zhCN": "Hell Gate"
+    "zhCN": "地獄之門"
   },
   {
     "id": 22545,
@@ -2020,7 +2020,7 @@
     "jaJP": "正門",
     "ptBR": "Portão Principal",
     "ruRU": "Главные врата",
-    "zhCN": "Main Gate"
+    "zhCN": "大門"
   },
   {
     "id": 22546,
@@ -2037,7 +2037,7 @@
     "jaJP": "旗",
     "ptBR": "Estandarte",
     "ruRU": "Знамя",
-    "zhCN": "Banner"
+    "zhCN": "戰旗"
   },
   {
     "id": 22547,
@@ -2054,7 +2054,7 @@
     "jaJP": "旗",
     "ptBR": "Estandarte",
     "ruRU": "Знамя",
-    "zhCN": "Banner"
+    "zhCN": "戰旗"
   },
   {
     "id": 22548,
@@ -2071,7 +2071,7 @@
     "jaJP": "ポール",
     "ptBR": "Haste",
     "ruRU": "Шест",
-    "zhCN": "Pole"
+    "zhCN": "柱子"
   },
   {
     "id": 22549,
@@ -2088,7 +2088,7 @@
     "jaJP": "隠し場所",
     "ptBR": "Baú",
     "ruRU": "Тайник",
-    "zhCN": "Stash"
+    "zhCN": "柵欄"
   },
   {
     "id": 22550,
@@ -2105,7 +2105,7 @@
     "jaJP": "がれき",
     "ptBR": "Destroços",
     "ruRU": "Обломки",
-    "zhCN": "Debris"
+    "zhCN": "殘骸"
   },
   {
     "id": 22551,
@@ -2122,7 +2122,7 @@
     "jaJP": "木の宝箱",
     "ptBR": "Baú de Madeira",
     "ruRU": "Деревянный сундук",
-    "zhCN": "Wooden Chest"
+    "zhCN": "木箱"
   },
   {
     "id": 22552,
@@ -2139,7 +2139,7 @@
     "jaJP": "木の宝箱",
     "ptBR": "Baú de Madeira",
     "ruRU": "Деревянный сундук",
-    "zhCN": "Wooden Chest"
+    "zhCN": "木箱"
   },
   {
     "id": 22553,
@@ -2156,7 +2156,7 @@
     "jaJP": "秘密の隠し場所",
     "ptBR": "Estoque Oculto",
     "ruRU": "Тайные припасы",
-    "zhCN": "Hidden Stash"
+    "zhCN": "隱藏的物品"
   },
   {
     "id": 22554,
@@ -2173,7 +2173,7 @@
     "jaJP": "魔術の祭壇",
     "ptBR": "Altar Mágico",
     "ruRU": "Святилище магии",
-    "zhCN": "Magic Shrine"
+    "zhCN": "魔法祭壇"
   },
   {
     "id": 22555,
@@ -2190,7 +2190,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22556,
@@ -2207,7 +2207,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22557,
@@ -2224,7 +2224,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Могила",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22558,
@@ -2241,7 +2241,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Могила",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22559,
@@ -2258,7 +2258,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Могила",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22560,
@@ -2275,7 +2275,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22561,
@@ -2292,7 +2292,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22562,
@@ -2309,7 +2309,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22563,
@@ -2326,7 +2326,7 @@
     "jaJP": "煙",
     "ptBR": "Fumaça",
     "ruRU": "Дым",
-    "zhCN": "Smoke"
+    "zhCN": "煙霧"
   },
   {
     "id": 22564,
@@ -2343,7 +2343,7 @@
     "jaJP": "バーバリアンの死体",
     "ptBR": "Bárbaro Morto",
     "ruRU": "Мертвый варвар",
-    "zhCN": "Dead Barbarian"
+    "zhCN": "死亡的野蠻人"
   },
   {
     "id": 22565,
@@ -2360,7 +2360,7 @@
     "jaJP": "バーバリアンの死体",
     "ptBR": "Bárbaro Morto",
     "ruRU": "Мертвый варвар",
-    "zhCN": "Dead Barbarian"
+    "zhCN": "死亡的野蠻人"
   },
   {
     "id": 22566,
@@ -2377,7 +2377,7 @@
     "jaJP": "モー",
     "ptBR": "Moe",
     "ruRU": "Мо",
-    "zhCN": "Moe"
+    "zhCN": "老莫"
   },
   {
     "id": 22567,
@@ -2394,7 +2394,7 @@
     "jaJP": "檻",
     "ptBR": "Gaiola",
     "ruRU": "Клетка",
-    "zhCN": "Cage"
+    "zhCN": "籠子"
   },
   {
     "id": 22568,
@@ -2411,7 +2411,7 @@
     "jaJP": "祭壇",
     "ptBR": "Altar",
     "ruRU": "Святилище",
-    "zhCN": "Shrine"
+    "zhCN": "祭壇"
   },
   {
     "id": 22569,
@@ -2428,7 +2428,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22570,
@@ -2445,7 +2445,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22571,
@@ -2462,7 +2462,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22572,
@@ -2479,7 +2479,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22573,
@@ -2496,7 +2496,7 @@
     "jaJP": "邪悪な壺",
     "ptBR": "Urna Maligna",
     "ruRU": "Темная урна",
-    "zhCN": "Evil Urn"
+    "zhCN": "邪甕"
   },
   {
     "id": 22574,
@@ -2513,7 +2513,7 @@
     "jaJP": "謎の物体",
     "ptBR": "objeto secreto",
     "ruRU": "Секретный предмет",
-    "zhCN": "secret object"
+    "zhCN": "秘密物品"
   },
   {
     "id": 22575,
@@ -2530,7 +2530,7 @@
     "jaJP": "祭壇",
     "ptBR": "Altar",
     "ruRU": "Алтарь",
-    "zhCN": "Altar"
+    "zhCN": "祭壇"
   },
   {
     "id": 22576,
@@ -2547,7 +2547,7 @@
     "jaJP": "デス・ポール",
     "ptBR": "Haste Fúnebre",
     "ruRU": "Шест для казни",
-    "zhCN": "Death Pole"
+    "zhCN": "死亡之柱"
   },
   {
     "id": 22577,
@@ -2564,7 +2564,7 @@
     "jaJP": "デス・ポール",
     "ptBR": "Haste Fúnebre",
     "ruRU": "Шест для казни",
-    "zhCN": "Death Pole"
+    "zhCN": "死亡之柱"
   },
   {
     "id": 22578,
@@ -2581,7 +2581,7 @@
     "jaJP": "宝箱",
     "ptBR": "Baú",
     "ruRU": "Сундук",
-    "zhCN": "Chest"
+    "zhCN": "箱子"
   },
   {
     "id": 22579,
@@ -2598,7 +2598,7 @@
     "jaJP": "旗",
     "ptBR": "Estandarte",
     "ruRU": "Знамя",
-    "zhCN": "Banner"
+    "zhCN": "戰旗"
   },
   {
     "id": 22580,
@@ -2615,7 +2615,7 @@
     "jaJP": "旗",
     "ptBR": "Estandarte",
     "ruRU": "Знамя",
-    "zhCN": "Banner"
+    "zhCN": "戰旗"
   },
   {
     "id": 22581,
@@ -2632,7 +2632,7 @@
     "jaJP": "岩石とドクロの山",
     "ptBR": "Caveiras e Pedras",
     "ruRU": "Черепа и камни",
-    "zhCN": "Skulls and Rocks"
+    "zhCN": "骷髏和石塊"
   },
   {
     "id": 22582,
@@ -2649,7 +2649,7 @@
     "jaJP": "岩石とドクロの山",
     "ptBR": "Caveiras e Pedras",
     "ruRU": "Черепа и камни",
-    "zhCN": "Skulls and Rocks"
+    "zhCN": "骷髏和石塊"
   },
   {
     "id": 22583,
@@ -2666,7 +2666,7 @@
     "jaJP": "瓶",
     "ptBR": "Jarro",
     "ruRU": "Кувшин",
-    "zhCN": "Jar"
+    "zhCN": "瓦罐"
   },
   {
     "id": 22584,
@@ -2683,7 +2683,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22585,
@@ -2700,7 +2700,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22586,
@@ -2717,7 +2717,7 @@
     "jaJP": "炎",
     "ptBR": "Fogo",
     "ruRU": "Костер",
-    "zhCN": "Fire"
+    "zhCN": "營火"
   },
   {
     "id": 22587,
@@ -2734,7 +2734,7 @@
     "jaJP": "たいまつ",
     "ptBR": "Tocha",
     "ruRU": "Факел",
-    "zhCN": "Torch"
+    "zhCN": "火炬"
   },
   {
     "id": 22588,
@@ -2751,7 +2751,7 @@
     "jaJP": "命の祭壇",
     "ptBR": "Altar de Vida",
     "ruRU": "Святилище здоровья",
-    "zhCN": "Health Shrine"
+    "zhCN": "生命聖壇"
   },
   {
     "id": 22589,
@@ -2768,7 +2768,7 @@
     "jaJP": "樽",
     "ptBR": "Barril",
     "ruRU": "Бочка",
-    "zhCN": "Barrel"
+    "zhCN": "桶子"
   },
   {
     "id": 22590,
@@ -2785,7 +2785,7 @@
     "jaJP": "旗",
     "ptBR": "Bandeira",
     "ruRU": "Флаг",
-    "zhCN": "Flag"
+    "zhCN": "旗子"
   },
   {
     "id": 22591,
@@ -2802,7 +2802,7 @@
     "jaJP": "秘密の隠し場所",
     "ptBR": "Estoque Oculto",
     "ruRU": "Тайные припасы",
-    "zhCN": "Hidden Stash"
+    "zhCN": "隱藏的物品"
   },
   {
     "id": 22594,
@@ -2819,7 +2819,7 @@
     "jaJP": "ファイア・ピット",
     "ptBR": "Fosso Ígneo",
     "ruRU": "Огненная яма",
-    "zhCN": "Fire Pit"
+    "zhCN": "火坑"
   },
   {
     "id": 22595,
@@ -2836,7 +2836,7 @@
     "jaJP": "トーチ・ピット",
     "ptBR": "Fosso Luminoso",
     "ruRU": "Яма с факелами",
-    "zhCN": "Torch Pit"
+    "zhCN": "火炬坑"
   },
   {
     "id": 22596,
@@ -2853,7 +2853,7 @@
     "jaJP": "シージ装置",
     "ptBR": "Controle de Cerco",
     "ruRU": "Осадный механизм",
-    "zhCN": "Siege Control"
+    "zhCN": "圍城控制器"
   },
   {
     "id": 22597,
@@ -2870,7 +2870,7 @@
     "jaJP": "秘密の隠し場所",
     "ptBR": "Estoque Oculto",
     "ruRU": "Тайник",
-    "zhCN": "Hidden Stash"
+    "zhCN": "隱藏的物品"
   },
   {
     "id": 22598,
@@ -2887,7 +2887,7 @@
     "jaJP": "秘密の隠し場所",
     "ptBR": "Estoque Oculto",
     "ruRU": "Тайные припасы",
-    "zhCN": "Hidden Stash"
+    "zhCN": "隱藏的物品"
   },
   {
     "id": 22599,
@@ -2904,7 +2904,7 @@
     "jaJP": "箱",
     "ptBR": "Caixa",
     "ruRU": "Коробка",
-    "zhCN": "Box"
+    "zhCN": "箱子"
   },
   {
     "id": 22600,
@@ -2921,7 +2921,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Гробница",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22601,
@@ -2938,7 +2938,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Гробница",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22602,
@@ -2955,7 +2955,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Гробница",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22603,
@@ -2972,7 +2972,7 @@
     "jaJP": "赤い光",
     "ptBR": "Luz Vermelha",
     "ruRU": "Красный светильник",
-    "zhCN": "Red Light"
+    "zhCN": "紅光"
   },
   {
     "id": 22604,
@@ -2989,7 +2989,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Гробница",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22605,
@@ -3006,7 +3006,7 @@
     "jaJP": "墓",
     "ptBR": "Tumba",
     "ruRU": "Гробница",
-    "zhCN": "Tomb"
+    "zhCN": "古墓"
   },
   {
     "id": 22606,
@@ -3023,7 +3023,7 @@
     "jaJP": "死骸",
     "ptBR": "Cadáver",
     "ruRU": "Труп",
-    "zhCN": "Corpse"
+    "zhCN": "屍體"
   },
   {
     "id": 22607,
@@ -3040,7 +3040,7 @@
     "jaJP": "ろうそく",
     "ptBR": "Velas",
     "ruRU": "Свечи",
-    "zhCN": "Candles"
+    "zhCN": "蠟蠋"
   },
   {
     "id": 22608,
@@ -3057,7 +3057,7 @@
     "jaJP": "低木",
     "ptBR": "Arbusto",
     "ruRU": "Куст",
-    "zhCN": "Shrub"
+    "zhCN": "灌木"
   },
   {
     "id": 22609,
@@ -3074,7 +3074,7 @@
     "jaJP": "低木",
     "ptBR": "Arbusto",
     "ruRU": "Куст",
-    "zhCN": "Shrub"
+    "zhCN": "灌木"
   },
   {
     "id": 22610,
@@ -3091,7 +3091,7 @@
     "jaJP": "死骸",
     "ptBR": "Cadáver",
     "ruRU": "Труп",
-    "zhCN": "Corpse"
+    "zhCN": "屍體"
   },
   {
     "id": 22611,
@@ -3108,7 +3108,7 @@
     "jaJP": "牢獄の扉",
     "ptBR": "Porta da Prisão",
     "ruRU": "Тюремная дверь",
-    "zhCN": "Prison Door"
+    "zhCN": "牢門"
   },
   {
     "id": 22612,
@@ -3125,7 +3125,7 @@
     "jaJP": "天国の祭壇",
     "ptBR": "Altar do Paraíso",
     "ruRU": "Алтарь Небес",
-    "zhCN": "Altar of the Heavens"
+    "zhCN": "天堂祭壇"
   },
   {
     "id": 22613,
@@ -3142,7 +3142,7 @@
     "jaJP": "秘密の隠し場所",
     "ptBR": "Estoque Oculto",
     "ruRU": "Тайные припасы",
-    "zhCN": "Hidden Stash"
+    "zhCN": "隱藏的物品"
   },
   {
     "id": 22614,
@@ -3159,7 +3159,7 @@
     "jaJP": "武器棚",
     "ptBR": "Estante de Armas",
     "ruRU": "Оружейная стойка",
-    "zhCN": "Weapon Rack"
+    "zhCN": "武器架"
   },
   {
     "id": 22615,
@@ -3176,7 +3176,7 @@
     "jaJP": "武器棚",
     "ptBR": "Estante de Armas",
     "ruRU": "Оружейная стойка",
-    "zhCN": "Weapon Rack"
+    "zhCN": "武器架"
   },
   {
     "id": 22616,
@@ -3193,7 +3193,7 @@
     "jaJP": "鎧立て",
     "ptBR": "Estande de Armadura",
     "ruRU": "Стойка для доспехов",
-    "zhCN": "Armor Stand"
+    "zhCN": "防具架"
   },
   {
     "id": 22617,
@@ -3210,7 +3210,7 @@
     "jaJP": "鎧立て",
     "ptBR": "Estande de Armadura",
     "ruRU": "Стойка для доспехов",
-    "zhCN": "Armor Stand"
+    "zhCN": "防具架"
   },
   {
     "id": 27213,
@@ -3227,7 +3227,7 @@
     "jaJP": "Remove Only",
     "ptBR": "Remove Only",
     "ruRU": "Remove Only",
-    "zhCN": "Remove Only"
+    "zhCN": "僅限取出"
   },
   {
     "id": 28100,
@@ -3244,6 +3244,6 @@
     "jaJP": "削除のみ：",
     "ptBR": "Apenas remover",
     "ruRU": "Только извлечение",
-    "zhCN": "Remove Only"
+    "zhCN": "僅限移除"
   }
 ]

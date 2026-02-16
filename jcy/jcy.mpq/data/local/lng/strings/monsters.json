@@ -14,7 +14,7 @@
     "jaJP": "イズアル",
     "ptBR": "Izual",
     "ruRU": "Изуал",
-    "zhCN": "Izual"
+    "zhCN": "伊卒爾"
   },
   {
     "id": 1015,
@@ -31,7 +31,7 @@
     "jaJP": "イズアル",
     "ptBR": "Izual",
     "ruRU": "Изуал",
-    "zhCN": "Izual"
+    "zhCN": "伊卒爾"
   },
   {
     "id": 1067,
@@ -48,7 +48,7 @@
     "jaJP": "鎧職人へファスト",
     "ptBR": "Hefasto, o Armoreiro",
     "ruRU": "Гефасто Оружейник",
-    "zhCN": "Hephasto The Armorer"
+    "zhCN": "護甲鍛造師海法斯特"
   },
   {
     "id": 1068,
@@ -65,7 +65,7 @@
     "jaJP": "地獄の牛",
     "ptBR": "Bovino Infernal",
     "ruRU": "Адская корова",
-    "zhCN": "Hell Bovine"
+    "zhCN": "地獄之牛"
   },
   {
     "id": 1235,
@@ -184,7 +184,7 @@
     "jaJP": "グールの",
     "ptBR": "[fs]Carniçal[ms]Carniçal[fp]Carniçais[mp]Carniçais",
     "ruRU": "[ms]вурдалачий[fs]вурдалачья[ns]вурдалачье[pl]вурдалачьи",
-    "zhCN": "Ghoul"
+    "zhCN": "食屍鬼"
   },
   {
     "id": 2349,
@@ -201,7 +201,7 @@
     "jaJP": "壊滅者",
     "ptBR": "Esmagador",
     "ruRU": "Сокрушитель",
-    "zhCN": "Crusher"
+    "zhCN": "粉碎者"
   },
   {
     "id": 2463,
@@ -218,7 +218,7 @@
     "jaJP": "スカラベ",
     "ptBR": "[ms]Escaravelho",
     "ruRU": "Скарабей",
-    "zhCN": "Scarab"
+    "zhCN": "惡魔甲蟲"
   },
   {
     "id": 2850,
@@ -235,7 +235,7 @@
     "jaJP": "牛王",
     "ptBR": "O Rei Vaca",
     "ruRU": "Коровий король",
-    "zhCN": "The Cow King"
+    "zhCN": "牛王"
   },
   {
     "id": 2851,
@@ -252,7 +252,7 @@
     "jaJP": "混沌の大宰相",
     "ptBR": "Grão-vizir do Caos",
     "ruRU": "Великий визирь хаоса",
-    "zhCN": "Grand Vizier of Chaos"
+    "zhCN": "混沌首相"
   },
   {
     "id": 2852,
@@ -269,7 +269,7 @@
     "jaJP": "サイス卿",
     "ptBR": "Lorde De Seis",
     "ruRU": "Лорд Де Зейс",
-    "zhCN": "Lord De Seis"
+    "zhCN": "迪塞斯勳爵"
   },
   {
     "id": 2853,
@@ -286,7 +286,7 @@
     "jaJP": "魂を汚す者",
     "ptBR": "Infestador de Almas",
     "ruRU": "Заразитель душ",
-    "zhCN": "Infector of Souls"
+    "zhCN": "靈魂傳播者"
   },
   {
     "id": 2854,
@@ -303,7 +303,7 @@
     "jaJP": "人食いのリフトレイス",
     "ptBR": "Espectral, o Canibal",
     "ruRU": "Безднород Каннибал",
-    "zhCN": "Riftwraith the Cannibal"
+    "zhCN": "食人的裂口之怒"
   },
   {
     "id": 2855,
@@ -320,7 +320,7 @@
     "jaJP": "腐れの源",
     "ptBR": "Maculador",
     "ruRU": "Сеятель гнили",
-    "zhCN": "Taintbreeder"
+    "zhCN": "汙染飼育者"
   },
   {
     "id": 2856,
@@ -337,7 +337,7 @@
     "jaJP": "トーメンター",
     "ptBR": "O Atormentador",
     "ruRU": "Мучитель",
-    "zhCN": "The Tormentor"
+    "zhCN": "折磨者"
   },
   {
     "id": 2857,
@@ -354,7 +354,7 @@
     "jaJP": "闇の翼",
     "ptBR": "Asa Sombria",
     "ruRU": "Темнокрыл",
-    "zhCN": "Darkwing"
+    "zhCN": "黑暗之翼"
   },
   {
     "id": 2858,
@@ -371,7 +371,7 @@
     "jaJP": "竜掌のマファー",
     "ptBR": "Maffer Dracomano",
     "ruRU": "Маффер Драконорукий",
-    "zhCN": "Maffer Dragonhand"
+    "zhCN": "龍手馬弗"
   },
   {
     "id": 2859,
@@ -388,7 +388,7 @@
     "jaJP": "虚無の遣いワイアンド",
     "ptBR": "Wyand Nulificante",
     "ruRU": "Вианд Призыватель Бездны",
-    "zhCN": "Wyand Voidbringer"
+    "zhCN": "虛空指維恩"
   },
   {
     "id": 2860,
@@ -405,7 +405,7 @@
     "jaJP": "氷拳のトゥールク",
     "ptBR": "Toorc Punhofrio",
     "ruRU": "Турк Ледяной Кулак",
-    "zhCN": "Toorc Icefist"
+    "zhCN": "冰拳托克"
   },
   {
     "id": 2861,
@@ -422,7 +422,7 @@
     "jaJP": "閃拳のブレム",
     "ptBR": "Bremm Punho Faiscante",
     "ruRU": "Бремм Искристый Кулак",
-    "zhCN": "Bremm Sparkfist"
+    "zhCN": "電光拳布瑞姆"
   },
   {
     "id": 2862,
@@ -439,7 +439,7 @@
     "jaJP": "炎指のゲレブ",
     "ptBR": "Geleb Incendiário",
     "ruRU": "Гелеб Огнепал",
-    "zhCN": "Geleb Flamefinger"
+    "zhCN": "火焰指吉列布"
   },
   {
     "id": 2863,
@@ -456,7 +456,7 @@
     "jaJP": "邪掌のイスマイル",
     "ptBR": "Ismail Vilmano",
     "ruRU": "Исмаил Мерзорукий",
-    "zhCN": "Ismail Vilehand"
+    "zhCN": "邪之手伊斯梅爾"
   },
   {
     "id": 2864,
@@ -473,7 +473,7 @@
     "jaJP": "八つ裂く翼のアイスホーク",
     "ptBR": "Asafenda Gélido",
     "ruRU": "Когтистый ледокрыл",
-    "zhCN": "Icehawk Riftwing"
+    "zhCN": "裂隙之翼冰鷹"
   },
   {
     "id": 2865,
@@ -490,7 +490,7 @@
     "jaJP": "バトルメイド・サリナ",
     "ptBR": "Guerreira Sarina",
     "ruRU": "Дева битвы Сарина",
-    "zhCN": "Battlemaid Sarina"
+    "zhCN": "戰場女傑莎莉娜"
   },
   {
     "id": 2866,
@@ -507,7 +507,7 @@
     "jaJP": "ストームツリー",
     "ptBR": "Tempestárvore",
     "ruRU": "Древо бури",
-    "zhCN": "Stormtree"
+    "zhCN": "暴風之樹"
   },
   {
     "id": 2867,
@@ -524,7 +524,7 @@
     "jaJP": "呪術医エンドゥグ",
     "ptBR": "Feiticeiro Endugu",
     "ruRU": "Колдун Эндугу",
-    "zhCN": "Witch Doctor Endugu"
+    "zhCN": "巫醫印都古"
   },
   {
     "id": 2868,
@@ -541,7 +541,7 @@
     "jaJP": "劫火のスザーク",
     "ptBR": "Sszark, o Flamejante",
     "ruRU": "Ссзарк Пылающий",
-    "zhCN": "Sszark the Burning"
+    "zhCN": "灼熱的斯札克"
   },
   {
     "id": 2869,
@@ -558,7 +558,7 @@
     "jaJP": "ビシボシュ",
     "ptBR": "Bishibosh",
     "ruRU": "Бишибош",
-    "zhCN": "Bishibosh"
+    "zhCN": "畢須博須"
   },
   {
     "id": 2870,
@@ -575,7 +575,7 @@
     "jaJP": "ボーンブレイカー",
     "ptBR": "Quebra-ossos",
     "ruRU": "Костедробильщик",
-    "zhCN": "Bonebreaker"
+    "zhCN": "碎骨者"
   },
   {
     "id": 2871,
@@ -592,7 +592,7 @@
     "jaJP": "コールドクロウ",
     "ptBR": "Gelicorvo",
     "ruRU": "Ледяная Ворона",
-    "zhCN": "Coldcrow"
+    "zhCN": "冰烏鴉"
   },
   {
     "id": 2872,
@@ -609,7 +609,7 @@
     "jaJP": "ラカニシュ",
     "ptBR": "Rakanishu",
     "ruRU": "Раканишу",
-    "zhCN": "Rakanishu"
+    "zhCN": "拉卡尼休"
   },
   {
     "id": 2873,
@@ -626,7 +626,7 @@
     "jaJP": "木拳のツリーヘッド",
     "ptBR": "Arbóreo Lenhoso",
     "ruRU": "Древолоб Дуборук",
-    "zhCN": "Treehead WoodFist"
+    "zhCN": "樹頭木拳"
   },
   {
     "id": 2874,
@@ -643,7 +643,7 @@
     "jaJP": "グリズウォルド",
     "ptBR": "[ms]Griswold",
     "ruRU": "Гризвольд",
-    "zhCN": "Griswold"
+    "zhCN": "格里斯瓦德"
   },
   {
     "id": 2875,
@@ -660,7 +660,7 @@
     "jaJP": "伯爵夫人",
     "ptBR": "A Condessa",
     "ruRU": "Графиня",
-    "zhCN": "The Countess"
+    "zhCN": "女伯爵"
   },
   {
     "id": 2876,
@@ -677,7 +677,7 @@
     "jaJP": "奈落の腐犬",
     "ptBR": "Cão Pestilento",
     "ruRU": "Сквернопес Отродье Преисподней",
-    "zhCN": "Pitspawn Fouldog"
+    "zhCN": "獄淵惡犬"
   },
   {
     "id": 2877,
@@ -694,7 +694,7 @@
     "jaJP": "這いまわる炎の棘",
     "ptBR": "Espetochama, o Rastejante",
     "ruRU": "Ползучий Огнешип",
-    "zhCN": "Flamespike the Crawler"
+    "zhCN": "爬行者火釘"
   },
   {
     "id": 2878,
@@ -711,7 +711,7 @@
     "jaJP": "ボーン・アッシュ",
     "ptBR": "Poeira Óssea",
     "ruRU": "Костяной Пепел",
-    "zhCN": "Bone Ash"
+    "zhCN": "骨灰"
   },
   {
     "id": 2879,
@@ -728,7 +728,7 @@
     "jaJP": "ラダメント",
     "ptBR": "Radament",
     "ruRU": "Радамант",
-    "zhCN": "Radament"
+    "zhCN": "羅達門特"
   },
   {
     "id": 2880,
@@ -745,7 +745,7 @@
     "jaJP": "荒々しきブラッド・ウィッチ",
     "ptBR": "Bruxassangue, a Selvagem",
     "ruRU": "Кровожадка Хищница",
-    "zhCN": "Bloodwitch the Wild"
+    "zhCN": "瘋狂血腥女巫"
   },
   {
     "id": 2881,
@@ -762,7 +762,7 @@
     "jaJP": "ファングスキン",
     "ptBR": "Presapele",
     "ruRU": "Кожеклык",
-    "zhCN": "Fangskin"
+    "zhCN": "牙皮"
   },
   {
     "id": 2882,
@@ -779,7 +779,7 @@
     "jaJP": "ビートルバースト",
     "ptBR": "Bestouro",
     "ruRU": "Взрывожук",
-    "zhCN": "Beetleburst"
+    "zhCN": "爆蟲"
   },
   {
     "id": 2883,
@@ -796,7 +796,7 @@
     "jaJP": "這い寄りし者",
     "ptBR": "Coisa Arrepiante",
     "ruRU": "Бредущее тело",
-    "zhCN": "Creeping Feature"
+    "zhCN": "蔓延症狀"
   },
   {
     "id": 2884,
@@ -813,7 +813,7 @@
     "jaJP": "穴掘るコールドワーム",
     "ptBR": "Vermefrio, o Escavador",
     "ruRU": "Ледочервь Копатель",
-    "zhCN": "Coldworm the Burrower"
+    "zhCN": "冰蟲鑽地者"
   },
   {
     "id": 2885,
@@ -830,7 +830,7 @@
     "jaJP": "焼ける瞳",
     "ptBR": "Olho Flamejante",
     "ruRU": "Огненный Глаз",
-    "zhCN": "Fire Eye"
+    "zhCN": "火之眼"
   },
   {
     "id": 2886,
@@ -847,7 +847,7 @@
     "jaJP": "闇のエルダー",
     "ptBR": "Ancião Sombrio",
     "ruRU": "Темный старейшина",
-    "zhCN": "Dark Elder"
+    "zhCN": "黑暗長老"
   },
   {
     "id": 2887,
@@ -864,7 +864,7 @@
     "jaJP": "召喚師",
     "ptBR": "O Evocador",
     "ruRU": "Призыватель",
-    "zhCN": "The Summoner"
+    "zhCN": "召喚師"
   },
   {
     "id": 2888,
@@ -881,7 +881,7 @@
     "jaJP": "魂なき古のカー",
     "ptBR": "Kaa Ancestral, o Sem-alma",
     "ruRU": "Древний Каа Бездушник",
-    "zhCN": "Ancient Kaa the Soulless"
+    "zhCN": "遠古無魂者卡厄"
   },
   {
     "id": 2889,
@@ -898,7 +898,7 @@
     "jaJP": "穢れた鍛冶師",
     "ptBR": "O Ferreiro",
     "ruRU": "Кузнец",
-    "zhCN": "The Smith"
+    "zhCN": "鐵匠"
   },
   {
     "id": 2897,
@@ -915,7 +915,7 @@
     "jaJP": "ローグ",
     "ptBR": "Renegada",
     "ruRU": "Разбойница",
-    "zhCN": "Rogue"
+    "zhCN": "俠盜"
   },
   {
     "id": 2898,
@@ -932,7 +932,7 @@
     "jaJP": "スティジャンドール",
     "ptBR": "[ms]Boneco Estígio",
     "ruRU": "Стигийская кукла",
-    "zhCN": "Stygian Doll"
+    "zhCN": "冥河鬼娃"
   },
   {
     "id": 2899,
@@ -949,7 +949,7 @@
     "jaJP": "ソウルキラー",
     "ptBR": "[ms]Mata-almas",
     "ruRU": "Душегуб",
-    "zhCN": "Soul Killer"
+    "zhCN": "靈魂殺手"
   },
   {
     "id": 2900,
@@ -966,7 +966,7 @@
     "jaJP": "フレイヤー",
     "ptBR": "[ms]Esfolador",
     "ruRU": "Свежеватель",
-    "zhCN": "Flayer"
+    "zhCN": "剝皮手"
   },
   {
     "id": 2901,
@@ -983,7 +983,7 @@
     "jaJP": "フェティッシュ",
     "ptBR": "[ms]Carranco",
     "ruRU": "Фетиш",
-    "zhCN": "Fetish"
+    "zhCN": "鬼娃"
   },
   {
     "id": 2902,
@@ -1000,7 +1000,7 @@
     "jaJP": "ラットマン",
     "ptBR": "[ms]Homem-rato",
     "ruRU": "Крысолюд",
-    "zhCN": "Rat Man"
+    "zhCN": "鼠人"
   },
   {
     "id": 2903,
@@ -1017,7 +1017,7 @@
     "jaJP": "蘇りしスティジャンドール",
     "ptBR": "[ms]Boneco Estígio Morto-vivo",
     "ruRU": "Оживленная стигийская кукла",
-    "zhCN": "Undead Stygian Doll"
+    "zhCN": "不死冥河鬼娃"
   },
   {
     "id": 2904,
@@ -1034,7 +1034,7 @@
     "jaJP": "蘇りしソウルキラー",
     "ptBR": "[ms]Mata-almas Morto-vivo",
     "ruRU": "Оживленный душегуб",
-    "zhCN": "Undead Soul Killer"
+    "zhCN": "不死靈魂殺手"
   },
   {
     "id": 2905,
@@ -1051,7 +1051,7 @@
     "jaJP": "蘇りしフレイヤー",
     "ptBR": "[ms]Esfolador Morto-vivo",
     "ruRU": "Оживленный свежеватель",
-    "zhCN": "Undead Flayer"
+    "zhCN": "不死剝皮手"
   },
   {
     "id": 2906,
@@ -1068,7 +1068,7 @@
     "jaJP": "蘇りしフェティッシュ",
     "ptBR": "[ms]Carranco Morto-vivo",
     "ruRU": "Оживленный фетиш",
-    "zhCN": "Undead Fetish"
+    "zhCN": "不死鬼娃"
   },
   {
     "id": 2907,
@@ -1085,7 +1085,7 @@
     "jaJP": "蘇りしラットマン",
     "ptBR": "[ms]Homem-rato Morto-vivo",
     "ruRU": "Оживленный крысолюд",
-    "zhCN": "Undead Rat Man"
+    "zhCN": "不死鼠人"
   },
   {
     "id": 2908,
@@ -1102,7 +1102,7 @@
     "jaJP": "闇の眷属",
     "ptBR": "[ms]Familiar Sombrio",
     "ruRU": "Темный фамилиар",
-    "zhCN": "Dark Familiar"
+    "zhCN": "黑暗魔寵"
   },
   {
     "id": 2909,
@@ -1119,7 +1119,7 @@
     "jaJP": "血濡れたコウモリ",
     "ptBR": "[ms]Mergulhador Sangrento",
     "ruRU": "Кровавый пикировщик",
-    "zhCN": "Blood Diver"
+    "zhCN": "鮮血俯衝者"
   },
   {
     "id": 2910,
@@ -1136,7 +1136,7 @@
     "jaJP": "闇コウモリ",
     "ptBR": "[ms]Morcego Soturno",
     "ruRU": "Сумрачный нетопырь",
-    "zhCN": "Gloombat"
+    "zhCN": "幽暗蝙蝠"
   },
   {
     "id": 2911,
@@ -1153,7 +1153,7 @@
     "jaJP": "砂漠コウモリ",
     "ptBR": "[fs]Asa do Deserto",
     "ruRU": "Пустынный летун",
-    "zhCN": "Desert Wing"
+    "zhCN": "沙漠之翼"
   },
   {
     "id": 2912,
@@ -1170,7 +1170,7 @@
     "jaJP": "追放されし者",
     "ptBR": "[ms]O Banido",
     "ruRU": "Изгнанный",
-    "zhCN": "The Banished"
+    "zhCN": "放逐者"
   },
   {
     "id": 2913,
@@ -1187,7 +1187,7 @@
     "jaJP": "血の支配者",
     "ptBR": "[ms]Lorde Sangrento",
     "ruRU": "Владыка крови",
-    "zhCN": "Blood Lord"
+    "zhCN": "鮮血鬼爵"
   },
   {
     "id": 2914,
@@ -1204,7 +1204,7 @@
     "jaJP": "闇の支配者",
     "ptBR": "[ms]Lorde Sombrio",
     "ruRU": "Владыка Тьмы",
-    "zhCN": "Dark Lord"
+    "zhCN": "黑暗鬼爵"
   },
   {
     "id": 2915,
@@ -1221,7 +1221,7 @@
     "jaJP": "夜の支配者",
     "ptBR": "[ms]Lorde Noturno",
     "ruRU": "Владыка ночи",
-    "zhCN": "Night Lord"
+    "zhCN": "暗夜鬼爵"
   },
   {
     "id": 2916,
@@ -1238,7 +1238,7 @@
     "jaJP": "死肉の支配者",
     "ptBR": "[ms]Lorde Carniçal",
     "ruRU": "Владыка вурдалаков",
-    "zhCN": "Ghoul Lord"
+    "zhCN": "食屍鬼爵"
   },
   {
     "id": 2917,
@@ -1255,7 +1255,7 @@
     "jaJP": "棘拳の怪物",
     "ptBR": "[ms]Punho Espinhoso",
     "ruRU": "Шипорук",
-    "zhCN": "Spikefist"
+    "zhCN": "釘拳木魔"
   },
   {
     "id": 2918,
@@ -1272,7 +1272,7 @@
     "jaJP": "枝打つ巨木",
     "ptBR": "[ms]Solapador",
     "ruRU": "Молотильщик",
-    "zhCN": "Thrasher"
+    "zhCN": "笞擊木魔"
   },
   {
     "id": 2919,
@@ -1289,7 +1289,7 @@
     "jaJP": "茨の怪物",
     "ptBR": "[ms]Colosso Sarçoso",
     "ruRU": "Терновый гигант",
-    "zhCN": "Bramble Hulk"
+    "zhCN": "刺藤木魔"
   },
   {
     "id": 2920,
@@ -1306,7 +1306,7 @@
     "jaJP": "刺の怪物",
     "ptBR": "[ms]Colosso Espinhoso",
     "ruRU": "Шипастый гигант",
-    "zhCN": "Thorned Hulk"
+    "zhCN": "荊棘木魔"
   },
   {
     "id": 2921,
@@ -1323,7 +1323,7 @@
     "jaJP": "大王蜘蛛",
     "ptBR": "[ms]Magus Aranha",
     "ruRU": "Паук-маг",
-    "zhCN": "Spider Magus"
+    "zhCN": "法毒蜘蛛"
   },
   {
     "id": 2922,
@@ -1340,7 +1340,7 @@
     "jaJP": "赤殻蜘蛛",
     "ptBR": "[fs]Aranha Flamejante",
     "ruRU": "Огненный паук",
-    "zhCN": "Flame Spider"
+    "zhCN": "火焰蜘蛛"
   },
   {
     "id": 2923,
@@ -1357,7 +1357,7 @@
     "jaJP": "毒吐き蜘蛛",
     "ptBR": "[ms]Tece-veneno",
     "ruRU": "Ядовитый ткач",
-    "zhCN": "Poison Spinner"
+    "zhCN": "劇毒紡織者"
   },
   {
     "id": 2924,
@@ -1374,7 +1374,7 @@
     "jaJP": "砂漠蜘蛛",
     "ptBR": "[ms]Pescador Arenoso",
     "ruRU": "Ловец песков",
-    "zhCN": "Sand Fisher"
+    "zhCN": "沙漠釣蛛"
   },
   {
     "id": 2925,
@@ -1391,7 +1391,7 @@
     "jaJP": "大蜘蛛",
     "ptBR": "[ms]Aracnídea",
     "ruRU": "Арах",
-    "zhCN": "Arach"
+    "zhCN": "巨大蜘蛛"
   },
   {
     "id": 2926,
@@ -1408,7 +1408,7 @@
     "jaJP": "ブラッド・ウィング",
     "ptBR": "[fs]Asa Sangrenta",
     "ruRU": "Кровокрыл",
-    "zhCN": "Blood Wing"
+    "zhCN": "血翅蚊"
   },
   {
     "id": 2927,
@@ -1425,7 +1425,7 @@
     "jaJP": "ブラッド・フック",
     "ptBR": "[ms]Gancho Sangrento",
     "ruRU": "Кровавый коготь",
-    "zhCN": "Blood Hook"
+    "zhCN": "血鉤蚊"
   },
   {
     "id": 2928,
@@ -1442,7 +1442,7 @@
     "jaJP": "フィーダー",
     "ptBR": "[ms]Cevador",
     "ruRU": "Едок",
-    "zhCN": "Feeder"
+    "zhCN": "餵血蚊"
   },
   {
     "id": 2929,
@@ -1459,7 +1459,7 @@
     "jaJP": "サッカー",
     "ptBR": "[ms]Sugador",
     "ruRU": "Кровосос",
-    "zhCN": "Sucker"
+    "zhCN": "吸血蚊"
   },
   {
     "id": 2930,
@@ -1476,7 +1476,7 @@
     "jaJP": "ウィングド・ナイトメア",
     "ptBR": "[ms]Pesadelo Alado",
     "ruRU": "Крылатый кошмар",
-    "zhCN": "Winged Nightmare"
+    "zhCN": "飛翼夢魘"
   },
   {
     "id": 2931,
@@ -1493,7 +1493,7 @@
     "jaJP": "ヘル・バザード",
     "ptBR": "[ms]Urubu Infernal",
     "ruRU": "Адский канюк",
-    "zhCN": "Hell Buzzard"
+    "zhCN": "地獄兀鷹"
   },
   {
     "id": 2932,
@@ -1510,7 +1510,7 @@
     "jaJP": "アンデッド・スカヴェンジャー",
     "ptBR": "[ms]Vorazgo Morto-vivo",
     "ruRU": "Оживленный падальщик",
-    "zhCN": "Undead Scavenger"
+    "zhCN": "不死食腐鳥"
   },
   {
     "id": 2933,
@@ -1527,7 +1527,7 @@
     "jaJP": "キャリオン・バード",
     "ptBR": "[fs]Ave Carniceira",
     "ruRU": "Стервятник",
-    "zhCN": "Carrion Bird"
+    "zhCN": "食腐鳥"
   },
   {
     "id": 2934,
@@ -1544,7 +1544,7 @@
     "jaJP": "綻びし者",
     "ptBR": "[ms]Desfiador",
     "ruRU": "Разматыватель",
-    "zhCN": "Unraveler"
+    "zhCN": "解繃者"
   },
   {
     "id": 2935,
@@ -1561,7 +1561,7 @@
     "jaJP": "守護せし者",
     "ptBR": "[ms]Guardião",
     "ruRU": "Страж",
-    "zhCN": "Guardian"
+    "zhCN": "守護者"
   },
   {
     "id": 2936,
@@ -1578,7 +1578,7 @@
     "jaJP": "虚ろなる者",
     "ptBR": "[ms]Desolado",
     "ruRU": "Опустошенный",
-    "zhCN": "Hollow One"
+    "zhCN": "中空屍怪"
   },
   {
     "id": 2937,
@@ -1595,7 +1595,7 @@
     "jaJP": "古代のホラドリム",
     "ptBR": "[ms]Ancestral Horadrim",
     "ruRU": "Хорадримский древний",
-    "zhCN": "Horadrim Ancient"
+    "zhCN": "赫拉迪姆古屍"
   },
   {
     "id": 2938,
@@ -1612,7 +1612,7 @@
     "jaJP": "ボーン・スカラベ",
     "ptBR": "[ms]Escaravelho Ósseo",
     "ruRU": "Костяной скарабей",
-    "zhCN": "Bone Scarab"
+    "zhCN": "骸骨甲蟲"
   },
   {
     "id": 2939,
@@ -1629,7 +1629,7 @@
     "jaJP": "スチール・スカラベ",
     "ptBR": "[ms]Escaravelho de Aço",
     "ruRU": "Стальной скарабей",
-    "zhCN": "Steel Scarab"
+    "zhCN": "鋼鐵甲蟲"
   },
   {
     "id": 2940,
@@ -1646,7 +1646,7 @@
     "jaJP": "スカラベ",
     "ptBR": "[ms]Escaravelho",
     "ruRU": "Скарабей",
-    "zhCN": "Scarab"
+    "zhCN": "惡魔甲蟲"
   },
   {
     "id": 2941,
@@ -1663,7 +1663,7 @@
     "jaJP": "デス・ビートル",
     "ptBR": "[ms]Besouro Fúnebre",
     "ruRU": "Жук-убийца",
-    "zhCN": "Death Beetle"
+    "zhCN": "死亡甲蟲"
   },
   {
     "id": 2942,
@@ -1680,7 +1680,7 @@
     "jaJP": "ダング・ソルジャー",
     "ptBR": "[ms]Escaravelho Soldado",
     "ruRU": "Навозник-солдат",
-    "zhCN": "Dung Soldier"
+    "zhCN": "蜣螂兵蟲"
   },
   {
     "id": 2943,
@@ -1697,7 +1697,7 @@
     "jaJP": "地獄蝗の群れ",
     "ptBR": "[ms]Enxame Infernal",
     "ruRU": "Адский рой",
-    "zhCN": "Hell Swarm"
+    "zhCN": "地獄蟲群"
   },
   {
     "id": 2944,
@@ -1714,7 +1714,7 @@
     "jaJP": "厄災蝗の群れ",
     "ptBR": "[mp]Insetos Pestilentos",
     "ruRU": "Чумные жуки",
-    "zhCN": "Plague Bugs"
+    "zhCN": "瘟疫之蟲"
   },
   {
     "id": 2945,
@@ -1731,7 +1731,7 @@
     "jaJP": "闇蝗の群れ",
     "ptBR": "[mp]Gafanhotos Tenebrosos",
     "ruRU": "Черная саранча",
-    "zhCN": "Black Locusts"
+    "zhCN": "黑色蝗蟲"
   },
   {
     "id": 2946,
@@ -1748,7 +1748,7 @@
     "jaJP": "蝗の群れ",
     "ptBR": "[mp]Sarnentos",
     "ruRU": "Гнус",
-    "zhCN": "Itchies"
+    "zhCN": "刺螫蟲群"
   },
   {
     "id": 2947,
@@ -1765,7 +1765,7 @@
     "jaJP": "ヘル・キャット",
     "ptBR": "[ms]Felino Infernal",
     "ruRU": "Адская кошка",
-    "zhCN": "Hell Cat"
+    "zhCN": "地獄拉庫尼"
   },
   {
     "id": 2948,
@@ -1782,7 +1782,7 @@
     "jaJP": "ナイト・タイガー",
     "ptBR": "[ms]Tigre Noturno",
     "ruRU": "Ночная тигрица",
-    "zhCN": "Night Tiger"
+    "zhCN": "暗夜拉庫尼"
   },
   {
     "id": 2949,
@@ -1799,7 +1799,7 @@
     "jaJP": "サーベル・キャット",
     "ptBR": "[ms]Felino-de-Sabre",
     "ruRU": "Саблезубая кошка",
-    "zhCN": "Saber Cat"
+    "zhCN": "拉庫尼"
   },
   {
     "id": 2950,
@@ -1816,7 +1816,7 @@
     "jaJP": "ハントレス",
     "ptBR": "[fs]Caçadora",
     "ruRU": "Охотница",
-    "zhCN": "Huntress"
+    "zhCN": "女獵手"
   },
   {
     "id": 2951,
@@ -1833,7 +1833,7 @@
     "jaJP": "クリフ・ラーカー",
     "ptBR": "[ms]Espreitador do Penhasco",
     "ruRU": "Скальный прыгун",
-    "zhCN": "Cliff Lurker"
+    "zhCN": "峭壁潛伏者"
   },
   {
     "id": 2952,
@@ -1850,7 +1850,7 @@
     "jaJP": "ツリー・ラーカー",
     "ptBR": "[ms]Espreitador Arbóreo",
     "ruRU": "Древесный прыгун",
-    "zhCN": "Tree Lurker"
+    "zhCN": "樹木潛伏者"
   },
   {
     "id": 2953,
@@ -1867,7 +1867,7 @@
     "jaJP": "ケイブ・リーパー",
     "ptBR": "[ms]Saltador da Caverna",
     "ruRU": "Пещерный прыгун",
-    "zhCN": "Cave Leaper"
+    "zhCN": "洞穴躍行魔"
   },
   {
     "id": 2954,
@@ -1884,7 +1884,7 @@
     "jaJP": "トゥーム・クリーパー",
     "ptBR": "[ms]Rastejante da Tumba",
     "ruRU": "Могильный ползун",
-    "zhCN": "Tomb Creeper"
+    "zhCN": "古墓爬跳者"
   },
   {
     "id": 2955,
@@ -1901,7 +1901,7 @@
     "jaJP": "サンド・リーパー",
     "ptBR": "[ms]Saltador Arenoso",
     "ruRU": "Песчаный прыгун",
-    "zhCN": "Sand Leaper"
+    "zhCN": "沙漠躍行魔"
   },
   {
     "id": 2956,
@@ -1918,7 +1918,7 @@
     "jaJP": "トゥーム・ヴァイパー",
     "ptBR": "[fs]Víbora da Tumba",
     "ruRU": "Могильный змей",
-    "zhCN": "Tomb Viper"
+    "zhCN": "古墓蛇魔"
   },
   {
     "id": 2957,
@@ -1935,7 +1935,7 @@
     "jaJP": "ピット・ヴァイパー",
     "ptBR": "[fs]Víbora do Fosso",
     "ruRU": "Змей бездны",
-    "zhCN": "Pit Viper"
+    "zhCN": "地穴蛇魔"
   },
   {
     "id": 2958,
@@ -1952,7 +1952,7 @@
     "jaJP": "サラマンダー",
     "ptBR": "[fs]Salamandra",
     "ruRU": "Саламандра",
-    "zhCN": "Salamander"
+    "zhCN": "火蜥蛇魔"
   },
   {
     "id": 2959,
@@ -1969,7 +1969,7 @@
     "jaJP": "クロウ・ヴァイパー",
     "ptBR": "[fs]Víbora da Garra",
     "ruRU": "Когтистый змей",
-    "zhCN": "Claw Viper"
+    "zhCN": "利爪蛇魔"
   },
   {
     "id": 2960,
@@ -1986,7 +1986,7 @@
     "jaJP": "サーペント・マグス",
     "ptBR": "[ms]Magus Serpente",
     "ruRU": "Змей-колдун",
-    "zhCN": "Serpent Magus"
+    "zhCN": "蛇魔法師"
   },
   {
     "id": 2961,
@@ -2003,7 +2003,7 @@
     "jaJP": "血濡れた地虫",
     "ptBR": "[ms]Verme Sangrento",
     "ruRU": "Кровавая мокрица",
-    "zhCN": "Blood Maggot"
+    "zhCN": "鮮血蛆蟲"
   },
   {
     "id": 2962,
@@ -2020,7 +2020,7 @@
     "jaJP": "吸血地虫",
     "ptBR": "[fs]Lampreia Gigante",
     "ruRU": "Гигантская жужелица",
-    "zhCN": "Giant Lamprey"
+    "zhCN": "吸血巨蟲"
   },
   {
     "id": 2963,
@@ -2037,7 +2037,7 @@
     "jaJP": "貪る地虫",
     "ptBR": "[ms]Devorador",
     "ruRU": "Пожиратель",
-    "zhCN": "Devourer"
+    "zhCN": "吞噬者"
   },
   {
     "id": 2964,
@@ -2054,7 +2054,7 @@
     "jaJP": "岩棲みの地虫",
     "ptBR": "[ms]Verme Rochoso",
     "ruRU": "Каменный червь",
-    "zhCN": "Rock Worm"
+    "zhCN": "鑽岩蛆蟲"
   },
   {
     "id": 2965,
@@ -2071,7 +2071,7 @@
     "jaJP": "砂漠の地虫",
     "ptBR": "[ms]Verme Arenoso",
     "ruRU": "Песчаная мокрица",
-    "zhCN": "Sand Maggot"
+    "zhCN": "沙漠蛆蟲"
   },
   {
     "id": 2966,
@@ -2088,7 +2088,7 @@
     "jaJP": "ブッシュ・バーブ",
     "ptBR": "[ms]Arbusto Farpado",
     "ruRU": "Травяной вредитель",
-    "zhCN": "Bush Barb"
+    "zhCN": "灌木倒刺怪"
   },
   {
     "id": 2967,
@@ -2105,7 +2105,7 @@
     "jaJP": "レイザー・スパイン",
     "ptBR": "[ms]Espinha-navalha",
     "ruRU": "Остроспин",
-    "zhCN": "Razor Spine"
+    "zhCN": "刃脊獸"
   },
   {
     "id": 2968,
@@ -2122,7 +2122,7 @@
     "jaJP": "ソーン・ビースト",
     "ptBR": "[fs]Fera Espinhosa",
     "ruRU": "Шипастая тварь",
-    "zhCN": "Thorn Beast"
+    "zhCN": "荊棘獸"
   },
   {
     "id": 2969,
@@ -2139,7 +2139,7 @@
     "jaJP": "スパイク・フィーンド",
     "ptBR": "[ms]Demônio Espinhoso",
     "ruRU": "Шипастый бес",
-    "zhCN": "Spike Fiend"
+    "zhCN": "釘刺魔"
   },
   {
     "id": 2970,
@@ -2156,7 +2156,7 @@
     "jaJP": "クィル・ラット",
     "ptBR": "[ms]Rato-ouriço",
     "ruRU": "Шипастая крыса",
-    "zhCN": "Quill Rat"
+    "zhCN": "針刺鼠"
   },
   {
     "id": 2971,
@@ -2173,7 +2173,7 @@
     "jaJP": "地獄の一族",
     "ptBR": "[ms]Clã Infernal",
     "ruRU": "Прислужник Преисподней",
-    "zhCN": "Hell Clan"
+    "zhCN": "冥府羊頭人"
   },
   {
     "id": 2972,
@@ -2190,7 +2190,7 @@
     "jaJP": "月の一族",
     "ptBR": "[ms]Clã da Lua",
     "ruRU": "Прислужник луны",
-    "zhCN": "Moon Clan"
+    "zhCN": "月族羊頭人"
   },
   {
     "id": 2973,
@@ -2207,7 +2207,7 @@
     "jaJP": "夜の一族",
     "ptBR": "[ms]Clã da Noite",
     "ruRU": "Прислужник ночи",
-    "zhCN": "Night Clan"
+    "zhCN": "夜族羊頭人"
   },
   {
     "id": 2974,
@@ -2224,7 +2224,7 @@
     "jaJP": "死の一族",
     "ptBR": "[ms]Clã da Morte",
     "ruRU": "Прислужник смерти",
-    "zhCN": "Death Clan"
+    "zhCN": "死族羊頭人"
   },
   {
     "id": 2975,
@@ -2241,7 +2241,7 @@
     "jaJP": "血の一族",
     "ptBR": "[ms]Clã do Sangue",
     "ruRU": "Прислужник крови",
-    "zhCN": "Blood Clan"
+    "zhCN": "血族羊頭人"
   },
   {
     "id": 2976,
@@ -2258,7 +2258,7 @@
     "jaJP": "寺院の魔獣",
     "ptBR": "[ms]Guarda do Templo",
     "ruRU": "Храмовый страж",
-    "zhCN": "Temple Guard"
+    "zhCN": "神殿守衛"
   },
   {
     "id": 2977,
@@ -2275,7 +2275,7 @@
     "jaJP": "ドゥーム・エイプ",
     "ptBR": "[ms]Símio da Perdição",
     "ruRU": "Жуткая обезьяна",
-    "zhCN": "Doom Ape"
+    "zhCN": "毀滅猿怪"
   },
   {
     "id": 2978,
@@ -2292,7 +2292,7 @@
     "jaJP": "密林の魔獣",
     "ptBR": "[ms]Caçador da Selva",
     "ruRU": "Джунглевый охотник",
-    "zhCN": "Jungle Hunter"
+    "zhCN": "叢林獵手"
   },
   {
     "id": 2979,
@@ -2309,7 +2309,7 @@
     "jaJP": "岩地の魔獣",
     "ptBR": "[ms]Habitante das Rochas",
     "ruRU": "Обитатель камней",
-    "zhCN": "Rock Dweller"
+    "zhCN": "石居猿"
   },
   {
     "id": 2980,
@@ -2326,7 +2326,7 @@
     "jaJP": "砂丘の魔獣",
     "ptBR": "[fs]Fera das Dunas",
     "ruRU": "Дюнный зверь",
-    "zhCN": "Dune Beast"
+    "zhCN": "沙丘猿獸"
   },
   {
     "id": 2981,
@@ -2343,7 +2343,7 @@
     "jaJP": "血肉の狩人",
     "ptBR": "Caçadora Cárnea",
     "ruRU": "Охотница за плотью",
-    "zhCN": "Flesh Hunter"
+    "zhCN": "血肉獵人"
   },
   {
     "id": 2982,
@@ -2360,7 +2360,7 @@
     "jaJP": "暗黒のローグ",
     "ptBR": "[fs]Renegada Tenebrosa",
     "ruRU": "Черная разбойница",
-    "zhCN": "Black Rogue"
+    "zhCN": "黑色俠盜"
   },
   {
     "id": 2984,
@@ -2377,7 +2377,7 @@
     "jaJP": "穢れし狩人",
     "ptBR": "[fs]Caçadora Vil",
     "ruRU": "Злобная охотница",
-    "zhCN": "Vile Hunter"
+    "zhCN": "兇邪獵手"
   },
   {
     "id": 2985,
@@ -2394,7 +2394,7 @@
     "jaJP": "闇の狩人",
     "ptBR": "[fs]Caçadora Sombria",
     "ruRU": "Темная охотница",
-    "zhCN": "Dark Hunter"
+    "zhCN": "黑暗獵人"
   },
   {
     "id": 2986,
@@ -2411,7 +2411,7 @@
     "jaJP": "ダーク・シェイプ",
     "ptBR": "[fs]Forma Sombria",
     "ruRU": "Темная фигура",
-    "zhCN": "Dark Shape"
+    "zhCN": "幽影"
   },
   {
     "id": 2987,
@@ -2428,7 +2428,7 @@
     "jaJP": "アペリション",
     "ptBR": "[fs]Aparição",
     "ruRU": "Привидение",
-    "zhCN": "Apparition"
+    "zhCN": "幽影"
   },
   {
     "id": 2988,
@@ -2445,7 +2445,7 @@
     "jaJP": "スペクター",
     "ptBR": "[fs]Assombração",
     "ruRU": "Фантом",
-    "zhCN": "Specter"
+    "zhCN": "亡靈"
   },
   {
     "id": 2990,
@@ -2462,7 +2462,7 @@
     "jaJP": "ゴースト",
     "ptBR": "[ms]Fantasma",
     "ruRU": "Призрак",
-    "zhCN": "Ghost"
+    "zhCN": "鬼魂"
   },
   {
     "id": 2991,
@@ -2479,7 +2479,7 @@
     "jaJP": "アサイラント",
     "ptBR": "[ms]Agressor",
     "ruRU": "Налетчик",
-    "zhCN": "Assailant"
+    "zhCN": "襲擊者"
   },
   {
     "id": 2992,
@@ -2496,7 +2496,7 @@
     "jaJP": "インフィデル",
     "ptBR": "[ms]Infiel",
     "ruRU": "Неверный",
-    "zhCN": "Infidel"
+    "zhCN": "異信者"
   },
   {
     "id": 2993,
@@ -2513,7 +2513,7 @@
     "jaJP": "インベイダー",
     "ptBR": "[ms]Invasor",
     "ruRU": "Захватчик",
-    "zhCN": "Invader"
+    "zhCN": "入侵者"
   },
   {
     "id": 2994,
@@ -2530,7 +2530,7 @@
     "jaJP": "マローダー",
     "ptBR": "[ms]Saqueador",
     "ruRU": "Мародер",
-    "zhCN": "Marauder"
+    "zhCN": "掠奪者"
   },
   {
     "id": 2995,
@@ -2547,7 +2547,7 @@
     "jaJP": "サンド・レイダー",
     "ptBR": "[ms]Invasor Arenoso",
     "ruRU": "Пустынный налетчик",
-    "zhCN": "Sand Raider"
+    "zhCN": "沙漠劫掠者"
   },
   {
     "id": 2996,
@@ -2564,7 +2564,7 @@
     "jaJP": "ガルガンチュア・ビースト",
     "ptBR": "[fs]Fera Gargântua",
     "ruRU": "Исполинский зверь",
-    "zhCN": "Gargantuan Beast"
+    "zhCN": "巨獸毛怪"
   },
   {
     "id": 2997,
@@ -2581,7 +2581,7 @@
     "jaJP": "ウェイリング・ビースト",
     "ptBR": "[fs]Fera Uivante",
     "ruRU": "Воющий зверь",
-    "zhCN": "Wailing Beast"
+    "zhCN": "尖嘯毛怪"
   },
   {
     "id": 2998,
@@ -2598,7 +2598,7 @@
     "jaJP": "イエティ",
     "ptBR": "[ms]Yeti",
     "ruRU": "Йети",
-    "zhCN": "Yeti"
+    "zhCN": "雪怪"
   },
   {
     "id": 2999,
@@ -2615,7 +2615,7 @@
     "jaJP": "クラッシャー",
     "ptBR": "[ms]Esmagador",
     "ruRU": "Крушитель",
-    "zhCN": "Crusher"
+    "zhCN": "碎拳毛怪"
   },
   {
     "id": 3000,
@@ -2632,7 +2632,7 @@
     "jaJP": "ブルート",
     "ptBR": "[ms]Bruto",
     "ruRU": "Изверг",
-    "zhCN": "Brute"
+    "zhCN": "兇蠻毛怪"
   },
   {
     "id": 3001,
@@ -2649,7 +2649,7 @@
     "jaJP": "クラウド・ストーカー",
     "ptBR": "[ms]Perseguidor Nebuloso",
     "ruRU": "Облачный охотник",
-    "zhCN": "Cloud Stalker"
+    "zhCN": "雲襲血鷹"
   },
   {
     "id": 3002,
@@ -2666,7 +2666,7 @@
     "jaJP": "ブラック・ヴァルチャー",
     "ptBR": "[ms]Abutre Tenebroso",
     "ruRU": "Черный стервятник",
-    "zhCN": "Black Vulture"
+    "zhCN": "黑色禿鷹"
   },
   {
     "id": 3003,
@@ -2683,7 +2683,7 @@
     "jaJP": "ブラック・ラプター",
     "ptBR": "[ms]Raptor Tenebroso",
     "ruRU": "Черный ящер",
-    "zhCN": "Black Raptor"
+    "zhCN": "黑色猛禽"
   },
   {
     "id": 3004,
@@ -2700,7 +2700,7 @@
     "jaJP": "ブラッド・ホーク",
     "ptBR": "[ms]Falcão Sangrento",
     "ruRU": "Кровавый ястреб",
-    "zhCN": "Blood Hawk"
+    "zhCN": "血鷹"
   },
   {
     "id": 3005,
@@ -2717,7 +2717,7 @@
     "jaJP": "ファウル・クロウ",
     "ptBR": "[ms]Corvo Sórdido",
     "ruRU": "Нечистая птица",
-    "zhCN": "Foul Crow"
+    "zhCN": "惡毒穢鴉"
   },
   {
     "id": 3006,
@@ -2734,7 +2734,7 @@
     "jaJP": "プレイグ・ベアラー",
     "ptBR": "[ms]Empesteador",
     "ruRU": "Разносчик чумы",
-    "zhCN": "Plague Bearer"
+    "zhCN": "瘟疫散布者"
   },
   {
     "id": 3007,
@@ -2751,7 +2751,7 @@
     "jaJP": "グール",
     "ptBR": "[ms]Carniçal",
     "ruRU": "Вурдалак",
-    "zhCN": "Ghoul"
+    "zhCN": "食屍鬼"
   },
   {
     "id": 3008,
@@ -2768,7 +2768,7 @@
     "jaJP": "ドラウンド・カーカス",
     "ptBR": "[fs]Carcaça Encharcada",
     "ruRU": "Утопленный труп",
-    "zhCN": "Drowned Carcass"
+    "zhCN": "溺斃死屍"
   },
   {
     "id": 3009,
@@ -2785,7 +2785,7 @@
     "jaJP": "ハングリー・デッド",
     "ptBR": "[ms]Morto Faminto",
     "ruRU": "Голодный мертвец",
-    "zhCN": "Hungry Dead"
+    "zhCN": "飢餓死者"
   },
   {
     "id": 3010,
@@ -2802,7 +2802,7 @@
     "jaJP": "ゾンビ",
     "ptBR": "[ms]Zumbi",
     "ruRU": "Зомби",
-    "zhCN": "Zombie"
+    "zhCN": "殭屍"
   },
   {
     "id": 3011,
@@ -2819,7 +2819,7 @@
     "jaJP": "骸骨",
     "ptBR": "[ms]Esqueleto",
     "ruRU": "Скелет",
-    "zhCN": "Skeleton"
+    "zhCN": "骷髏"
   },
   {
     "id": 3012,
@@ -2836,7 +2836,7 @@
     "jaJP": "ホラー",
     "ptBR": "[ms]Horror",
     "ruRU": "Ужас",
-    "zhCN": "Horror"
+    "zhCN": "恐骨骷髏"
   },
   {
     "id": 3013,
@@ -2853,7 +2853,7 @@
     "jaJP": "リターンド",
     "ptBR": "[ms]Retornado",
     "ruRU": "Воскресший",
-    "zhCN": "Returned"
+    "zhCN": "返世亡靈"
   },
   {
     "id": 3014,
@@ -2870,7 +2870,7 @@
     "jaJP": "バーニングデッド",
     "ptBR": "[ms]Morto Flamejante",
     "ruRU": "Горящий мертвец",
-    "zhCN": "Burning Dead"
+    "zhCN": "烈焰骷髏"
   },
   {
     "id": 3015,
@@ -2887,7 +2887,7 @@
     "jaJP": "ボーン・ウォリアー",
     "ptBR": "[ms]Guerreiro Esquelético",
     "ruRU": "Костяной воин",
-    "zhCN": "Bone Warrior"
+    "zhCN": "骸骨戰士"
   },
   {
     "id": 3016,
@@ -2904,7 +2904,7 @@
     "jaJP": "ダムド",
     "ptBR": "[ms]Maldito",
     "ruRU": "Проклятый",
-    "zhCN": "Damned"
+    "zhCN": "詛咒魔汙怪"
   },
   {
     "id": 3017,
@@ -2921,7 +2921,7 @@
     "jaJP": "ディス・フィギュアード",
     "ptBR": "[ms]Desfigurado",
     "ruRU": "Изувеченный",
-    "zhCN": "Disfigured"
+    "zhCN": "醜惡魔汙怪"
   },
   {
     "id": 3018,
@@ -2938,7 +2938,7 @@
     "jaJP": "ミスシェイプン",
     "ptBR": "[ms]Disforme",
     "ruRU": "Уродливый",
-    "zhCN": "Misshapen"
+    "zhCN": "畸形魔汙怪"
   },
   {
     "id": 3019,
@@ -2955,7 +2955,7 @@
     "jaJP": "テインテッド",
     "ptBR": "[ms]Maculado",
     "ruRU": "Помутненный",
-    "zhCN": "Tainted"
+    "zhCN": "魔汙怪"
   },
   {
     "id": 3020,
@@ -2972,7 +2972,7 @@
     "jaJP": "アフリクテッド",
     "ptBR": "[ms]Torpe",
     "ruRU": "Пораженный",
-    "zhCN": "Afflicted"
+    "zhCN": "災劫魔汙怪"
   },
   {
     "id": 3021,
@@ -2989,7 +2989,7 @@
     "jaJP": "アンダリエル",
     "ptBR": "Andariel",
     "ruRU": "Андариэль",
-    "zhCN": "Andariel"
+    "zhCN": "安達莉爾"
   },
   {
     "id": 3033,
@@ -3006,7 +3006,7 @@
     "jaJP": "ラクダ",
     "ptBR": "[ms]Camelo",
     "ruRU": "Верблюд",
-    "zhCN": "Camel"
+    "zhCN": "駱駝"
   },
   {
     "id": 3034,
@@ -3023,7 +3023,7 @@
     "jaJP": "腑分けされしミイラ",
     "ptBR": "[ms]Cadáver",
     "ruRU": "Кадавр",
-    "zhCN": "Cadaver"
+    "zhCN": "活屍木乃伊"
   },
   {
     "id": 3035,
@@ -3040,7 +3040,7 @@
     "jaJP": "保存されしミイラ",
     "ptBR": "[ms]Morto Preservado",
     "ruRU": "Сохранившийся мертвец",
-    "zhCN": "Preserved Dead"
+    "zhCN": "長存木乃伊"
   },
   {
     "id": 3036,
@@ -3057,7 +3057,7 @@
     "jaJP": "埋葬されしミイラ",
     "ptBR": "[ms]Embalsamado",
     "ruRU": "Нетленный",
-    "zhCN": "Embalmed"
+    "zhCN": "防腐木乃伊"
   },
   {
     "id": 3037,
@@ -3074,7 +3074,7 @@
     "jaJP": "乾いたミイラ",
     "ptBR": "[ms]Cadáver Ressequido",
     "ruRU": "Иссушенный труп",
-    "zhCN": "Dried Corpse"
+    "zhCN": "乾屍木乃伊"
   },
   {
     "id": 3038,
@@ -3091,7 +3091,7 @@
     "jaJP": "腐りしミイラ",
     "ptBR": "[ms]Decomposto",
     "ruRU": "Гниющий",
-    "zhCN": "Decayed"
+    "zhCN": "腐屍木乃伊"
   },
   {
     "id": 3039,
@@ -3108,7 +3108,7 @@
     "jaJP": "ウルダー",
     "ptBR": "[ms]Urdar",
     "ruRU": "Урдар",
-    "zhCN": "Urdar"
+    "zhCN": "烏爾達巨怪"
   },
   {
     "id": 3041,
@@ -3125,7 +3125,7 @@
     "jaJP": "ゴアベリー",
     "ptBR": "[ms]Sanguepança",
     "ruRU": "Кровобрюх",
-    "zhCN": "Gorebelly"
+    "zhCN": "血腹巨怪"
   },
   {
     "id": 3042,
@@ -3142,7 +3142,7 @@
     "jaJP": "ブランダーボア",
     "ptBR": "[ms]Tritura-ossos",
     "ruRU": "Лютобой",
-    "zhCN": "Blunderbore"
+    "zhCN": "蠻力巨怪"
   },
   {
     "id": 3043,
@@ -3159,7 +3159,7 @@
     "jaJP": "血濡れた地虫の幼生",
     "ptBR": "[ms]Filhote de Verme Sangrento",
     "ruRU": "Личинка кровавой мокрицы",
-    "zhCN": "Blood Maggot Young"
+    "zhCN": "鮮血蛆蟲幼體"
   },
   {
     "id": 3044,
@@ -3176,7 +3176,7 @@
     "jaJP": "吸血地虫の幼生",
     "ptBR": "[ms]Filhote de Lampreia Gigante",
     "ruRU": "Молодая гигантская жужелица",
-    "zhCN": "Giant Lamprey Young"
+    "zhCN": "吸血巨蟲幼體"
   },
   {
     "id": 3045,
@@ -3193,7 +3193,7 @@
     "jaJP": "貪る地虫の幼生",
     "ptBR": "[ms]Filhote de Devorador",
     "ruRU": "Молодой пожиратель",
-    "zhCN": "Devourer Young"
+    "zhCN": "吞噬者幼體"
   },
   {
     "id": 3046,
@@ -3210,7 +3210,7 @@
     "jaJP": "岩棲みの地虫の幼生",
     "ptBR": "[ms]Filhote de Verme Rochoso",
     "ruRU": "Личинка каменного червя",
-    "zhCN": "Rock Worm Young"
+    "zhCN": "鑽岩蛆蟲幼體"
   },
   {
     "id": 3047,
@@ -3227,7 +3227,7 @@
     "jaJP": "砂漠の地虫の幼生",
     "ptBR": "[ms]Filhote de Verme Arenoso",
     "ruRU": "Личинка песчаной мокрицы",
-    "zhCN": "Sand Maggot Young"
+    "zhCN": "沙漠蛆蟲幼體"
   },
   {
     "id": 3048,
@@ -3244,7 +3244,7 @@
     "jaJP": "血濡れた地虫の卵",
     "ptBR": "[ms]Ovo de Verme Sangrento",
     "ruRU": "Яйцо кровавой мокрицы",
-    "zhCN": "Blood Maggot Egg"
+    "zhCN": "鮮血蛆蟲之卵"
   },
   {
     "id": 3049,
@@ -3261,7 +3261,7 @@
     "jaJP": "吸血地虫の卵",
     "ptBR": "[ms]Ovo de Lampreia Gigante",
     "ruRU": "Яйцо гигантской жужелицы",
-    "zhCN": "Giant Lamprey Egg"
+    "zhCN": "吸血巨蟲之卵"
   },
   {
     "id": 3050,
@@ -3278,7 +3278,7 @@
     "jaJP": "貪る地虫の卵",
     "ptBR": "[ms]Ovo de Devorador",
     "ruRU": "Яйцо пожирателя",
-    "zhCN": "Devourer Egg"
+    "zhCN": "吞噬者之卵"
   },
   {
     "id": 3051,
@@ -3295,7 +3295,7 @@
     "jaJP": "岩棲みの地虫の卵",
     "ptBR": "[ms]Ovo de Verme Rochoso",
     "ruRU": "Яйцо каменного червя",
-    "zhCN": "Rock Worm Egg"
+    "zhCN": "鑽岩蛆蟲之卵"
   },
   {
     "id": 3052,
@@ -3312,7 +3312,7 @@
     "jaJP": "砂漠の地虫の卵",
     "ptBR": "[ms]Ovo de Verme Arenoso",
     "ruRU": "Яйцо песчаной мокрицы",
-    "zhCN": "Sand Maggot Egg"
+    "zhCN": "沙漠蛆蟲之卵"
   },
   {
     "id": 3053,
@@ -3329,7 +3329,7 @@
     "jaJP": "地虫",
     "ptBR": "[ms]Verme",
     "ruRU": "Мокрица",
-    "zhCN": "Maggot"
+    "zhCN": "蛆蟲"
   },
   {
     "id": 3054,
@@ -3346,7 +3346,7 @@
     "jaJP": "デュリエル",
     "ptBR": "Duriel",
     "ruRU": "Дюриэль",
-    "zhCN": "Duriel"
+    "zhCN": "都瑞爾"
   },
   {
     "id": 3055,
@@ -3363,7 +3363,7 @@
     "jaJP": "ブラッド・ホークの巣",
     "ptBR": "[ms]Ninho de Falcão Sangrento",
     "ruRU": "Гнездо кровавых ястребов",
-    "zhCN": "Blood Hawk Nest"
+    "zhCN": "血鷹之巢"
   },
   {
     "id": 3056,
@@ -3380,7 +3380,7 @@
     "jaJP": "フライング・シミター",
     "ptBR": "[fs]Cimitarra Voadora",
     "ruRU": "Парящий ятаган",
-    "zhCN": "Flying Scimitar"
+    "zhCN": "鬼靈彎刀"
   },
   {
     "id": 3057,
@@ -3397,7 +3397,7 @@
     "jaJP": "クラウド・ストーカーの巣",
     "ptBR": "[ms]Ninho de Perseguidor Nebuloso",
     "ruRU": "Гнездо облачных охотников",
-    "zhCN": "Cloud Stalker Nest"
+    "zhCN": "雲襲血鷹之巢"
   },
   {
     "id": 3058,
@@ -3414,7 +3414,7 @@
     "jaJP": "ブラック・ラプターの巣",
     "ptBR": "[ms]Ninho de Raptor Tenebroso",
     "ruRU": "Гнездо черного ящера",
-    "zhCN": "Black Raptor Nest"
+    "zhCN": "黑色猛禽之巢"
   },
   {
     "id": 3059,
@@ -3431,7 +3431,7 @@
     "jaJP": "ファウル・クロウの巣",
     "ptBR": "[ms]Ninho de Corvo Sórdido",
     "ruRU": "Гнездо нечистой птицы",
-    "zhCN": "Foul Crow Nest"
+    "zhCN": "惡毒穢鴉之巢"
   },
   {
     "id": 3060,
@@ -3448,7 +3448,7 @@
     "jaJP": "ディアブロ",
     "ptBR": "Diablo",
     "ruRU": "Диабло",
-    "zhCN": "Diablo"
+    "zhCN": "迪亞布羅"
   },
   {
     "id": 3061,
@@ -3465,7 +3465,7 @@
     "jaJP": "バール",
     "ptBR": "Baal",
     "ruRU": "Баал",
-    "zhCN": "Baal"
+    "zhCN": "巴爾"
   },
   {
     "id": 3062,
@@ -3482,7 +3482,7 @@
     "jaJP": "メフィスト",
     "ptBR": "Mefisto",
     "ruRU": "Мефисто",
-    "zhCN": "Mephisto"
+    "zhCN": "墨菲斯托"
   },
   {
     "id": 3063,
@@ -3499,7 +3499,7 @@
     "jaJP": "聖歌隊長",
     "ptBR": "[ms]Cantor",
     "ruRU": "Кантор",
-    "zhCN": "Cantor"
+    "zhCN": "領唱者"
   },
   {
     "id": 3064,
@@ -3516,7 +3516,7 @@
     "jaJP": "司祭長",
     "ptBR": "[ms]Hierofante",
     "ruRU": "Верховный жрец",
-    "zhCN": "Hierophant"
+    "zhCN": "祭司"
   },
   {
     "id": 3065,
@@ -3533,7 +3533,7 @@
     "jaJP": "会堂奉仕者",
     "ptBR": "[ms]Sexton",
     "ruRU": "Алтарник",
-    "zhCN": "Sexton"
+    "zhCN": "司事"
   },
   {
     "id": 3066,
@@ -3550,7 +3550,7 @@
     "jaJP": "ザカラム狂信者",
     "ptBR": "[ms]Zelote",
     "ruRU": "Фанатик",
-    "zhCN": "Zealot"
+    "zhCN": "狂熱信徒"
   },
   {
     "id": 3067,
@@ -3567,7 +3567,7 @@
     "jaJP": "ザカラム信徒",
     "ptBR": "[ms]Fiel",
     "ruRU": "Послушник",
-    "zhCN": "Faithful"
+    "zhCN": "忠誠信徒"
   },
   {
     "id": 3068,
@@ -3584,7 +3584,7 @@
     "jaJP": "ザカラム教徒",
     "ptBR": "[ms]Zakarumita",
     "ruRU": "Закарумит",
-    "zhCN": "Zakarumite"
+    "zhCN": "撒卡蘭姆信徒"
   },
   {
     "id": 3069,
@@ -3601,7 +3601,7 @@
     "jaJP": "ブラック・ソウル",
     "ptBR": "[fs]Alma Sombria",
     "ruRU": "Черная душа",
-    "zhCN": "Black Soul"
+    "zhCN": "黑魂鬼火"
   },
   {
     "id": 3070,
@@ -3618,7 +3618,7 @@
     "jaJP": "バーニング・ソウル",
     "ptBR": "[fs]Alma Flamejante",
     "ruRU": "Пылающая душа",
-    "zhCN": "Burning Soul"
+    "zhCN": "燃魂鬼火"
   },
   {
     "id": 3071,
@@ -3635,7 +3635,7 @@
     "jaJP": "スワンプ・ゴースト",
     "ptBR": "[ms]Fantasma do Pântano",
     "ruRU": "Болотный призрак",
-    "zhCN": "Swamp Ghost"
+    "zhCN": "沼澤鬼魂"
   },
   {
     "id": 3072,
@@ -3652,7 +3652,7 @@
     "jaJP": "グローム",
     "ptBR": "[ms]Fusco",
     "ruRU": "Сумеречник",
-    "zhCN": "Gloam"
+    "zhCN": "薄暮鬼火"
   },
   {
     "id": 3073,
@@ -3669,7 +3669,7 @@
     "jaJP": "ウォープト・ワンの呪術師",
     "ptBR": "[ms]Xamã Distorcido",
     "ruRU": "Искаженный-шаман",
-    "zhCN": "Warped Shaman"
+    "zhCN": "扭曲薩滿"
   },
   {
     "id": 3074,
@@ -3686,7 +3686,7 @@
     "jaJP": "ダーク・ワンの呪術師",
     "ptBR": "[ms]Xamã Trevoso",
     "ruRU": "Темный-шаман",
-    "zhCN": "Dark Shaman"
+    "zhCN": "暗黑薩滿"
   },
   {
     "id": 3075,
@@ -3703,7 +3703,7 @@
     "jaJP": "デビルキンの呪術師",
     "ptBR": "[ms]Xamã Demonante",
     "ruRU": "Дьяволенок-шаман",
-    "zhCN": "Devilkin Shaman"
+    "zhCN": "魔妖薩滿"
   },
   {
     "id": 3076,
@@ -3720,7 +3720,7 @@
     "jaJP": "カーヴァーの呪術師",
     "ptBR": "[ms]Xamã Entalhador",
     "ruRU": "Плоторез-шаман",
-    "zhCN": "Carver Shaman"
+    "zhCN": "刨肉薩滿"
   },
   {
     "id": 3077,
@@ -3737,7 +3737,7 @@
     "jaJP": "フォールンの呪術師",
     "ptBR": "[ms]Xamã Decaído",
     "ruRU": "Падший-шаман",
-    "zhCN": "Fallen Shaman"
+    "zhCN": "沉淪魔薩滿"
   },
   {
     "id": 3078,
@@ -3754,7 +3754,7 @@
     "jaJP": "ウォープト・ワン",
     "ptBR": "[ms]Distorcido",
     "ruRU": "Искаженный",
-    "zhCN": "Warped One"
+    "zhCN": "扭曲沉淪魔"
   },
   {
     "id": 3079,
@@ -3771,7 +3771,7 @@
     "jaJP": "ダーク・ワン",
     "ptBR": "[ms]Trevoso",
     "ruRU": "Темный",
-    "zhCN": "Dark One"
+    "zhCN": "暗黑沉淪魔"
   },
   {
     "id": 3080,
@@ -3788,7 +3788,7 @@
     "jaJP": "デビルキン",
     "ptBR": "[ms]Demonante",
     "ruRU": "Дьяволенок",
-    "zhCN": "Devilkin"
+    "zhCN": "魔妖沉淪魔"
   },
   {
     "id": 3081,
@@ -3805,7 +3805,7 @@
     "jaJP": "カーヴァー",
     "ptBR": "[ms]Entalhador",
     "ruRU": "Плоторез",
-    "zhCN": "Carver"
+    "zhCN": "刨肉沉淪魔"
   },
   {
     "id": 3082,
@@ -3822,7 +3822,7 @@
     "jaJP": "フォールン",
     "ptBR": "[ms]Decaído",
     "ruRU": "Падший",
-    "zhCN": "Fallen"
+    "zhCN": "沉淪魔"
   },
   {
     "id": 3083,
@@ -3839,7 +3839,7 @@
     "jaJP": "リターンド・アーチャー",
     "ptBR": "[ms]Arqueiro Retornado",
     "ruRU": "Воскресший лучник",
-    "zhCN": "Returned Archer"
+    "zhCN": "返世亡靈弓箭手"
   },
   {
     "id": 3084,
@@ -3856,7 +3856,7 @@
     "jaJP": "ホラー・アーチャー",
     "ptBR": "[ms]Horror Arqueiro",
     "ruRU": "Лучник ужаса",
-    "zhCN": "Horror Archer"
+    "zhCN": "恐骨弓箭手"
   },
   {
     "id": 3085,
@@ -3873,7 +3873,7 @@
     "jaJP": "バーニングデッド・アーチャー",
     "ptBR": "[ms]Arqueiro Morto Flamejante",
     "ruRU": "Горящий скелет-лучник",
-    "zhCN": "Burning Dead Archer"
+    "zhCN": "烈焰骷髏弓箭手"
   },
   {
     "id": 3086,
@@ -3890,7 +3890,7 @@
     "jaJP": "ボーン・アーチャー",
     "ptBR": "[ms]Arqueiro Esquelético",
     "ruRU": "Костяной лучник",
-    "zhCN": "Bone Archer"
+    "zhCN": "骸骨弓箭手"
   },
   {
     "id": 3087,
@@ -3907,7 +3907,7 @@
     "jaJP": "コープス・アーチャー",
     "ptBR": "[ms]Arqueiro Cadáver",
     "ruRU": "Труп-лучник",
-    "zhCN": "Corpse Archer"
+    "zhCN": "屍骸弓箭手"
   },
   {
     "id": 3088,
@@ -3924,7 +3924,7 @@
     "jaJP": "スケルトン・アーチャー",
     "ptBR": "[ms]Esqueleto Arqueiro",
     "ruRU": "Скелет-лучник",
-    "zhCN": "Skeleton Archer"
+    "zhCN": "骷髏弓箭手"
   },
   {
     "id": 3089,
@@ -3941,7 +3941,7 @@
     "jaJP": "血肉の槍兵",
     "ptBR": "Lanceira Cárnea",
     "ruRU": "Кровавая копейщица",
-    "zhCN": "Flesh Lancer"
+    "zhCN": "血肉長槍手"
   },
   {
     "id": 3090,
@@ -3958,7 +3958,7 @@
     "jaJP": "暗黒の槍兵",
     "ptBR": "[fs]Lanceira Tenebrosa",
     "ruRU": "Черная копейщица",
-    "zhCN": "Black Lancer"
+    "zhCN": "黑色長槍手"
   },
   {
     "id": 3091,
@@ -3975,7 +3975,7 @@
     "jaJP": "闇の槍兵",
     "ptBR": "[fs]Lanceira Sombria",
     "ruRU": "Темная копейщица",
-    "zhCN": "Dark Lancer"
+    "zhCN": "黑暗長槍手"
   },
   {
     "id": 3092,
@@ -3992,7 +3992,7 @@
     "jaJP": "穢れし槍兵",
     "ptBR": "[fs]Lanceira Vil",
     "ruRU": "Злобная копейщица",
-    "zhCN": "Vile Lancer"
+    "zhCN": "兇邪長槍手"
   },
   {
     "id": 3093,
@@ -4009,7 +4009,7 @@
     "jaJP": "闇の槍使い",
     "ptBR": "[fs]Lanceira Sinistra",
     "ruRU": "Темная воительница",
-    "zhCN": "Dark Spearwoman"
+    "zhCN": "黑暗女槍手"
   },
   {
     "id": 3094,
@@ -4026,7 +4026,7 @@
     "jaJP": "血肉の弓使い",
     "ptBR": "Arqueira Cárnea",
     "ruRU": "Кровавая лучница",
-    "zhCN": "Flesh Archer"
+    "zhCN": "血肉弓箭手"
   },
   {
     "id": 3095,
@@ -4043,7 +4043,7 @@
     "jaJP": "暗黒の弓使い",
     "ptBR": "[fs]Arqueira Tenebrosa",
     "ruRU": "Черная лучница",
-    "zhCN": "Black Archer"
+    "zhCN": "黑色弓箭手"
   },
   {
     "id": 3096,
@@ -4060,7 +4060,7 @@
     "jaJP": "闇の野伏り",
     "ptBR": "[fs]Patrulheira Sombria",
     "ruRU": "Темная разведчица",
-    "zhCN": "Dark Ranger"
+    "zhCN": "黑暗遊俠"
   },
   {
     "id": 3098,
@@ -4077,7 +4077,7 @@
     "jaJP": "闇の弓使い",
     "ptBR": "[fs]Arqueira Sombria",
     "ruRU": "Темная лучница",
-    "zhCN": "Dark Archer"
+    "zhCN": "黑暗弓箭手"
   },
   {
     "id": 3099,
@@ -4094,7 +4094,7 @@
     "jaJP": "召喚師",
     "ptBR": "O Evocador",
     "ruRU": "Призыватель",
-    "zhCN": "The Summoner"
+    "zhCN": "召喚師"
   },
   {
     "id": 3100,
@@ -4111,7 +4111,7 @@
     "jaJP": "スティジャンドールの呪術師",
     "ptBR": "[ms]Xamã Boneco Estígio",
     "ruRU": "Стигийская кукла – шаман",
-    "zhCN": "Stygian Doll Shaman"
+    "zhCN": "冥河鬼娃薩滿"
   },
   {
     "id": 3101,
@@ -4128,7 +4128,7 @@
     "jaJP": "ソウルキラーの呪術師",
     "ptBR": "[ms]Xamã Mata-almas",
     "ruRU": "Душегуб-шаман",
-    "zhCN": "Soul Killer Shaman"
+    "zhCN": "靈魂殺手薩滿"
   },
   {
     "id": 3102,
@@ -4145,7 +4145,7 @@
     "jaJP": "フレイヤーの呪術師",
     "ptBR": "[ms]Xamã Esfolador",
     "ruRU": "Свежеватель-шаман",
-    "zhCN": "Flayer Shaman"
+    "zhCN": "剝皮手薩滿"
   },
   {
     "id": 3103,
@@ -4162,7 +4162,7 @@
     "jaJP": "フェティッシュの呪術師",
     "ptBR": "[ms]Xamã Carranco",
     "ruRU": "Фетиш-шаман",
-    "zhCN": "Fetish Shaman"
+    "zhCN": "鬼娃薩滿"
   },
   {
     "id": 3104,
@@ -4179,7 +4179,7 @@
     "jaJP": "ラットマンの呪術師",
     "ptBR": "[ms]Xamã Homem-rato",
     "ruRU": "Крысолюд-шаман",
-    "zhCN": "RatMan Shaman"
+    "zhCN": "鼠人薩滿"
   },
   {
     "id": 3105,
@@ -4196,7 +4196,7 @@
     "jaJP": "ホラー・メイジ",
     "ptBR": "[ms]Horror Mago",
     "ruRU": "Маг ужаса",
-    "zhCN": "Horror Mage"
+    "zhCN": "恐骨法師"
   },
   {
     "id": 3106,
@@ -4213,7 +4213,7 @@
     "jaJP": "バーニングデッド・メイジ",
     "ptBR": "[ms]Mago Morto Flamejante",
     "ruRU": "Горящий скелет-маг",
-    "zhCN": "Burning Dead Mage"
+    "zhCN": "烈焰骷髏法師"
   },
   {
     "id": 3107,
@@ -4230,7 +4230,7 @@
     "jaJP": "ボーン・メイジ",
     "ptBR": "[ms]Mago Esquelético",
     "ruRU": "Костяной маг",
-    "zhCN": "Bone Mage"
+    "zhCN": "骸骨法師"
   },
   {
     "id": 3108,
@@ -4247,7 +4247,7 @@
     "jaJP": "コープス・メイジ",
     "ptBR": "[ms]Mago Cadáver",
     "ruRU": "Труп-маг",
-    "zhCN": "Corpse Mage"
+    "zhCN": "死屍法師"
   },
   {
     "id": 3109,
@@ -4264,7 +4264,7 @@
     "jaJP": "リターンド・メイジ",
     "ptBR": "[ms]Mago Retornado",
     "ruRU": "Воскресший маг",
-    "zhCN": "Returned Mage"
+    "zhCN": "返世亡靈法師"
   },
   {
     "id": 3110,
@@ -4281,7 +4281,7 @@
     "jaJP": "ガーゴイル・トラップ",
     "ptBR": "[fs]Armadilha da Gárgula",
     "ruRU": "Ловушка-горгулья",
-    "zhCN": "Gargoyle Trap"
+    "zhCN": "石像鬼陷阱"
   },
   {
     "id": 3111,
@@ -4298,7 +4298,7 @@
     "jaJP": "ブラッド・レイヴン",
     "ptBR": "Rapina Sangrenta",
     "ruRU": "Кровавый Ворон",
-    "zhCN": "Blood Raven"
+    "zhCN": "血鴉"
   },
   {
     "id": 3115,
@@ -4315,7 +4315,7 @@
     "jaJP": "スティジャン・ウォッチャー",
     "ptBR": "[ms]Vigia Estígio",
     "ruRU": "Стигийский наблюдатель",
-    "zhCN": "Stygian Watcher"
+    "zhCN": "冥河水怪"
   },
   {
     "id": 3116,
@@ -4332,7 +4332,7 @@
     "jaJP": "リバー・ストーカー",
     "ptBR": "[ms]Perseguidor Fluvial",
     "ruRU": "Речной охотник",
-    "zhCN": "River Stalker"
+    "zhCN": "河流水怪"
   },
   {
     "id": 3117,
@@ -4349,7 +4349,7 @@
     "jaJP": "ウォーター・ウォッチャー",
     "ptBR": "[ms]Vigia Aquático",
     "ruRU": "Водяной страж",
-    "zhCN": "Water Watcher"
+    "zhCN": "水坑水怪"
   },
   {
     "id": 3118,
@@ -4366,7 +4366,7 @@
     "jaJP": "スティジャン・ウォッチャー",
     "ptBR": "[ms]Vigia Estígio",
     "ruRU": "Стигийский наблюдатель",
-    "zhCN": "Stygian Watcher"
+    "zhCN": "冥河水怪"
   },
   {
     "id": 3119,
@@ -4383,7 +4383,7 @@
     "jaJP": "リバー・ストーカー",
     "ptBR": "[ms]Perseguidor Fluvial",
     "ruRU": "Речной охотник",
-    "zhCN": "River Stalker"
+    "zhCN": "河流水怪"
   },
   {
     "id": 3120,
@@ -4400,7 +4400,7 @@
     "jaJP": "ウォーター・ウォッチャー",
     "ptBR": "[ms]Vigia Aquático",
     "ruRU": "Водяной страж",
-    "zhCN": "Water Watcher"
+    "zhCN": "水坑水怪"
   },
   {
     "id": 3121,
@@ -4417,7 +4417,7 @@
     "jaJP": "ナイト・マローダー",
     "ptBR": "[ms]Saqueador Noturno",
     "ruRU": "Ночной мародер",
-    "zhCN": "Night Marauder"
+    "zhCN": "暗夜掠奪者"
   },
   {
     "id": 3126,
@@ -4434,7 +4434,7 @@
     "jaJP": "血濡れた地虫の女王",
     "ptBR": "[fs]Rainha Verme Sangrenta",
     "ruRU": "Королева кровавых мокриц",
-    "zhCN": "Blood Maggot Queen"
+    "zhCN": "鮮血蛆蟲之后"
   },
   {
     "id": 3127,
@@ -4451,7 +4451,7 @@
     "jaJP": "吸血地虫の女王",
     "ptBR": "[fs]Rainha Lampreia Gigante",
     "ruRU": "Королева гигантских жужелиц",
-    "zhCN": "Giant Lamprey Queen"
+    "zhCN": "吸血巨蟲之后"
   },
   {
     "id": 3128,
@@ -4468,7 +4468,7 @@
     "jaJP": "貪る地虫の女王",
     "ptBR": "[fs]Rainha Devoradora",
     "ruRU": "Королева пожирателей",
-    "zhCN": "Devourer Queen"
+    "zhCN": "吞噬者之后"
   },
   {
     "id": 3129,
@@ -4485,7 +4485,7 @@
     "jaJP": "岩棲みの地虫の女王",
     "ptBR": "[fs]Rainha Verme Rochosa",
     "ruRU": "Королева каменных червей",
-    "zhCN": "Rock Worm Queen"
+    "zhCN": "鑽岩蛆蟲之后"
   },
   {
     "id": 3130,
@@ -4502,7 +4502,7 @@
     "jaJP": "砂漠の地虫の女王",
     "ptBR": "[fs]Rainha Verme Arenosa",
     "ruRU": "Королева песчаных мокриц",
-    "zhCN": "Sand Maggot Queen"
+    "zhCN": "沙漠蛆蟲之后"
   },
   {
     "id": 3131,
@@ -4519,7 +4519,7 @@
     "jaJP": "粘液ガエル",
     "ptBR": "[ms]Príncipe Viscoso",
     "ruRU": "Хозяин тины",
-    "zhCN": "Slime Prince"
+    "zhCN": "黏液蛙王"
   },
   {
     "id": 3132,
@@ -4536,7 +4536,7 @@
     "jaJP": "沼地の魔物",
     "ptBR": "[fs]Criatura do Pântano",
     "ruRU": "Болотная тварь",
-    "zhCN": "Bog Creature"
+    "zhCN": "泥沼魔蛙"
   },
   {
     "id": 3133,
@@ -4553,7 +4553,7 @@
     "jaJP": "沼棲み",
     "ptBR": "[ms]Habitante do Pântano",
     "ruRU": "Обитатель болот",
-    "zhCN": "Swamp Dweller"
+    "zhCN": "沼澤魔蛙"
   },
   {
     "id": 3134,
@@ -4570,7 +4570,7 @@
     "jaJP": "バーブド・ジャイアント",
     "ptBR": "[ms]Gigante Farpado",
     "ruRU": "Колючий великан",
-    "zhCN": "Barbed Giant"
+    "zhCN": "倒刺巨獸"
   },
   {
     "id": 3135,
@@ -4587,7 +4587,7 @@
     "jaJP": "レイザー・ビースト",
     "ptBR": "[fs]Fera-navalha",
     "ruRU": "Бритвенный зверь",
-    "zhCN": "Razor Beast"
+    "zhCN": "剃刀獸"
   },
   {
     "id": 3136,
@@ -4604,7 +4604,7 @@
     "jaJP": "ソーン・ブルート",
     "ptBR": "[ms]Bruto Espinhoso",
     "ruRU": "Шипастый изверг",
-    "zhCN": "Thorn Brute"
+    "zhCN": "棘刺獸"
   },
   {
     "id": 3137,
@@ -4621,7 +4621,7 @@
     "jaJP": "スパイク・ジャイアント",
     "ptBR": "[ms]Gigante Espinhoso",
     "ruRU": "Шипастый великан",
-    "zhCN": "Spike Giant"
+    "zhCN": "尖釘巨獸"
   },
   {
     "id": 3138,
@@ -4638,7 +4638,7 @@
     "jaJP": "クィル・ベアー",
     "ptBR": "[ms]Urso-ouriço",
     "ruRU": "Шипастый медведь",
-    "zhCN": "Quill Bear"
+    "zhCN": "刺熊怪"
   },
   {
     "id": 3139,
@@ -4655,7 +4655,7 @@
     "jaJP": "評議会員",
     "ptBR": "[ms]Membro do Conselho",
     "ruRU": "Советник",
-    "zhCN": "Council Member"
+    "zhCN": "議會成員"
   },
   {
     "id": 3140,
@@ -4672,7 +4672,7 @@
     "jaJP": "黒衣の放浪者",
     "ptBR": "Errante Sombrio",
     "ruRU": "Темный Странник",
-    "zhCN": "Dark Wanderer"
+    "zhCN": "黑暗流浪者"
   },
   {
     "id": 3141,
@@ -4689,7 +4689,7 @@
     "jaJP": "黒衣の放浪者",
     "ptBR": "Errante Sombrio",
     "ruRU": "Темный Странник",
-    "zhCN": "Dark Wanderer"
+    "zhCN": "黑暗流浪者"
   },
   {
     "id": 3142,
@@ -4706,7 +4706,7 @@
     "jaJP": "ヘル・スリンガー",
     "ptBR": "[ms]Lançador Infernal",
     "ruRU": "Адская пращница",
-    "zhCN": "Hell Slinger"
+    "zhCN": "地獄投擲者"
   },
   {
     "id": 3143,
@@ -4723,7 +4723,7 @@
     "jaJP": "ナイト・スリンガー",
     "ptBR": "[ms]Lançador Noturno",
     "ruRU": "Ночная пращница",
-    "zhCN": "Night Slinger"
+    "zhCN": "暗夜投擲者"
   },
   {
     "id": 3144,
@@ -4740,7 +4740,7 @@
     "jaJP": "スピア・キャット",
     "ptBR": "[ms]Felino Lanceiro",
     "ruRU": "Кошка-копейщица",
-    "zhCN": "Spear Cat"
+    "zhCN": "標槍拉庫尼"
   },
   {
     "id": 3145,
@@ -4757,7 +4757,7 @@
     "jaJP": "スリンガー",
     "ptBR": "[ms]Lançador",
     "ruRU": "Пращница",
-    "zhCN": "Slinger"
+    "zhCN": "投擲者"
   },
   {
     "id": 3146,
@@ -4774,7 +4774,7 @@
     "jaJP": "火炎の塔",
     "ptBR": "[fs]Torre Ígnea",
     "ruRU": "Огненная башня",
-    "zhCN": "Fire Tower"
+    "zhCN": "火焰塔"
   },
   {
     "id": 3147,
@@ -4791,7 +4791,7 @@
     "jaJP": "雷撃の塔",
     "ptBR": "[fs]Torre Elétrica",
     "ruRU": "Шпиль молний",
-    "zhCN": "Lightning Spire"
+    "zhCN": "閃電塔"
   },
   {
     "id": 3148,
@@ -4808,7 +4808,7 @@
     "jaJP": "ピット・ロード",
     "ptBR": "[ms]Senhor do Fosso",
     "ruRU": "Владыка бездны",
-    "zhCN": "Pit Lord"
+    "zhCN": "獄淵領主"
   },
   {
     "id": 3149,
@@ -4825,7 +4825,7 @@
     "jaJP": "バルログ",
     "ptBR": "[ms]Balrog",
     "ruRU": "Балрог",
-    "zhCN": "Balrog"
+    "zhCN": "炎魔"
   },
   {
     "id": 3150,
@@ -4842,7 +4842,7 @@
     "jaJP": "ヴェノム・ロード",
     "ptBR": "[ms]Senhor do Veneno",
     "ruRU": "Властелин ядов",
-    "zhCN": "Venom Lord"
+    "zhCN": "毒魔領主"
   },
   {
     "id": 3151,
@@ -4859,7 +4859,7 @@
     "jaJP": "鉄狼団",
     "ptBR": "Lobo de Ferro",
     "ruRU": "Стальной Волк",
-    "zhCN": "Iron Wolf"
+    "zhCN": "鐵狼衛士"
   },
   {
     "id": 3152,
@@ -4893,7 +4893,7 @@
     "jaJP": "虚無の騎士",
     "ptBR": "[ms]Cavaleiro Soturno",
     "ruRU": "Рыцарь забвения",
-    "zhCN": "Oblivion Knight"
+    "zhCN": "遺忘騎士"
   },
   {
     "id": 3154,
@@ -4910,7 +4910,7 @@
     "jaJP": "メイジ",
     "ptBR": "Mago",
     "ruRU": "Маг",
-    "zhCN": "Mage"
+    "zhCN": "法師"
   },
   {
     "id": 3155,
@@ -4927,7 +4927,7 @@
     "jaJP": "深淵の騎士",
     "ptBR": "[ms]Cavaleiro Abissal",
     "ruRU": "Рыцарь бездны",
-    "zhCN": "Abyss Knight"
+    "zhCN": "深淵騎士"
   },
   {
     "id": 3156,
@@ -4944,7 +4944,7 @@
     "jaJP": "ファイター・メイジ",
     "ptBR": "Mago Guerreiro",
     "ruRU": "Воин-маг",
-    "zhCN": "Fighter Mage"
+    "zhCN": "戰士法師"
   },
   {
     "id": 3157,
@@ -4961,7 +4961,7 @@
     "jaJP": "破滅の騎士",
     "ptBR": "[ms]Cavaleiro da Perdição",
     "ruRU": "Рыцарь рока",
-    "zhCN": "Doom Knight"
+    "zhCN": "末日騎士"
   },
   {
     "id": 3158,
@@ -4978,7 +4978,7 @@
     "jaJP": "ファイター",
     "ptBR": "Guerreiro",
     "ruRU": "Воин",
-    "zhCN": "Fighter"
+    "zhCN": "戰士"
   },
   {
     "id": 3159,
@@ -4995,7 +4995,7 @@
     "jaJP": "モー・フィーンド",
     "ptBR": "[ms]Demônio da Bocarra",
     "ruRU": "Зеводемон",
-    "zhCN": "Maw Fiend"
+    "zhCN": "魔口吐屍怪"
   },
   {
     "id": 3160,
@@ -5012,7 +5012,7 @@
     "jaJP": "コープス・スピッター",
     "ptBR": "[ms]Cospe-cadáver",
     "ruRU": "Исторгатель трупов",
-    "zhCN": "Corpse Spitter"
+    "zhCN": "吐屍怪"
   },
   {
     "id": 3161,
@@ -5029,7 +5029,7 @@
     "jaJP": "コルピュラント",
     "ptBR": "[ms]Corpulento",
     "ruRU": "Брюхач",
-    "zhCN": "Corpulent"
+    "zhCN": "臃腫吐屍怪"
   },
   {
     "id": 3162,
@@ -5046,7 +5046,7 @@
     "jaJP": "ストーム・キャスター",
     "ptBR": "[ms]Lança-tempestade",
     "ruRU": "Маг бури",
-    "zhCN": "Storm Caster"
+    "zhCN": "暴風施術者"
   },
   {
     "id": 3163,
@@ -5063,7 +5063,7 @@
     "jaJP": "ストラングラー",
     "ptBR": "[ms]Estrangulador",
     "ruRU": "Душитель",
-    "zhCN": "Strangler"
+    "zhCN": "扼殺者"
   },
   {
     "id": 3164,
@@ -5080,7 +5080,7 @@
     "jaJP": "ドゥーム・キャスター",
     "ptBR": "[ms]Lança-ruína",
     "ruRU": "Маг рока",
-    "zhCN": "Doom Caster"
+    "zhCN": "厄運施術者"
   },
   {
     "id": 3165,
@@ -5097,7 +5097,7 @@
     "jaJP": "グロテスク・ウィルム",
     "ptBR": "[fs]Serpe Grotesca",
     "ruRU": "Уродливый червь",
-    "zhCN": "Grotesque Wyrm"
+    "zhCN": "異魔鬼子"
   },
   {
     "id": 3166,
@@ -5114,7 +5114,7 @@
     "jaJP": "スティジャン・ドッグ",
     "ptBR": "[ms]Cão Estígio",
     "ruRU": "Стигийская собака",
-    "zhCN": "Stygian Dog"
+    "zhCN": "冥河鬼子"
   },
   {
     "id": 3167,
@@ -5131,7 +5131,7 @@
     "jaJP": "フレッシュ・ビースト",
     "ptBR": "Fera Cárnea",
     "ruRU": "Кровавый зверь",
-    "zhCN": "Flesh Beast"
+    "zhCN": "血獸鬼子"
   },
   {
     "id": 3168,
@@ -5148,7 +5148,7 @@
     "jaJP": "グロテスク",
     "ptBR": "[fs]Grotesca",
     "ruRU": "Макабр",
-    "zhCN": "Grotesque"
+    "zhCN": "異魔鬼母"
   },
   {
     "id": 3169,
@@ -5165,7 +5165,7 @@
     "jaJP": "スティジャン・ハッグ",
     "ptBR": "[fs]Megera Estígia",
     "ruRU": "Стигийская ведьма",
-    "zhCN": "Stygian Hag"
+    "zhCN": "冥河鬼母"
   },
   {
     "id": 3170,
@@ -5182,7 +5182,7 @@
     "jaJP": "フレッシュ・スポーナー",
     "ptBR": "Parideira Cárnea",
     "ruRU": "Породительница плоти",
-    "zhCN": "Flesh Spawner"
+    "zhCN": "血獸鬼母"
   },
   {
     "id": 3171,
@@ -5199,7 +5199,7 @@
     "jaJP": "ローグ・スカウト",
     "ptBR": "[fs]Batedora Renegada",
     "ruRU": "Разбойница-разведчица",
-    "zhCN": "Rogue Scout"
+    "zhCN": "俠盜斥候"
   },
   {
     "id": 3172,
@@ -5216,7 +5216,7 @@
     "jaJP": "ブラッド・ウィングの巣",
     "ptBR": "[ms]Ninho de Asa Sangrenta",
     "ruRU": "Гнездо кровокрылов",
-    "zhCN": "Blood Wing Nest"
+    "zhCN": "血翅蚊之巢"
   },
   {
     "id": 3173,
@@ -5233,7 +5233,7 @@
     "jaJP": "ブラッド・フックの巣",
     "ptBR": "[ms]Ninho de Gancho Sangrento",
     "ruRU": "Гнездо кровавых когтей",
-    "zhCN": "Blood Hook Nest"
+    "zhCN": "血鉤蚊之巢"
   },
   {
     "id": 3174,
@@ -5250,7 +5250,7 @@
     "jaJP": "フィーダーの巣",
     "ptBR": "[ms]Ninho de Cevador",
     "ruRU": "Гнездо едоков",
-    "zhCN": "Feeder Nest"
+    "zhCN": "餵血蚊之巢"
   },
   {
     "id": 3175,
@@ -5267,7 +5267,7 @@
     "jaJP": "サッカーの巣",
     "ptBR": "[ms]Ninho de Sugador",
     "ruRU": "Гнездо кровососов",
-    "zhCN": "Sucker Nest"
+    "zhCN": "吸血蚊之巢"
   },
   {
     "id": 3176,
@@ -5284,7 +5284,7 @@
     "jaJP": "ネクロメイジ",
     "ptBR": "[ms]Necromago",
     "ruRU": "Некромаг",
-    "zhCN": "Necromage"
+    "zhCN": "死靈師"
   },
   {
     "id": 3177,
@@ -5301,7 +5301,7 @@
     "jaJP": "ネクロスケルトン",
     "ptBR": "[ms]Necroesqueleto",
     "ruRU": "Некроскелет",
-    "zhCN": "Necroskeleton"
+    "zhCN": "死靈骷髏"
   },
   {
     "id": 3178,
@@ -5318,7 +5318,7 @@
     "jaJP": "囚われた魂",
     "ptBR": "[fs]Alma Aprisionada",
     "ruRU": "Пленная душа",
-    "zhCN": "Trapped Soul"
+    "zhCN": "受困的靈魂"
   },
   {
     "id": 3181,
@@ -5335,7 +5335,7 @@
     "jaJP": "フェティッシュを復活させる",
     "ptBR": "Revive carrancos",
     "ruRU": "Оживляет фетишей",
-    "zhCN": "Raises Fetishes"
+    "zhCN": "復活鬼娃"
   },
   {
     "id": 3182,
@@ -5352,7 +5352,7 @@
     "jaJP": "アンデッドを復活させる",
     "ptBR": "Revive mortos-vivos",
     "ruRU": "Оживляет нежить",
-    "zhCN": "Raises Undead"
+    "zhCN": "復活不死怪物"
   },
   {
     "id": 3183,
@@ -5369,7 +5369,7 @@
     "jaJP": "産卵する",
     "ptBR": "Põe ovos",
     "ruRU": "Откладывает яйца",
-    "zhCN": "Lays Eggs"
+    "zhCN": "產卵"
   },
   {
     "id": 3184,
@@ -5386,7 +5386,7 @@
     "jaJP": "フォールンを復活させる",
     "ptBR": "Revive decaídos",
     "ruRU": "Оживляет падших",
-    "zhCN": "Raises Fallen"
+    "zhCN": "復活沉淪魔"
   },
   {
     "id": 3185,
@@ -5403,7 +5403,7 @@
     "jaJP": "他のモンスターを回復する",
     "ptBR": "Cura outros",
     "ruRU": "Лекарь",
-    "zhCN": "Heals Others"
+    "zhCN": "治療其他同伴"
   },
   {
     "id": 3186,
@@ -5420,7 +5420,7 @@
     "jaJP": "マナとスタミナを奪い取る",
     "ptBR": "Drena mana e vigor",
     "ruRU": "Высасывает ману и выносливость",
-    "zhCN": "Drains Mana and Stamina"
+    "zhCN": "吸取法力和精力"
   },
   {
     "id": 3187,
@@ -5437,7 +5437,7 @@
     "jaJP": "マナを奪い取る",
     "ptBR": "Drena mana",
     "ruRU": "Высасывает ману",
-    "zhCN": "Drains Mana"
+    "zhCN": "吸取法力"
   },
   {
     "id": 3188,
@@ -5454,7 +5454,7 @@
     "jaJP": "スタミナを奪い取る",
     "ptBR": "Drena vigor",
     "ruRU": "Высасывает выносливость",
-    "zhCN": "Drains Stamina"
+    "zhCN": "吸取精力"
   },
   {
     "id": 3189,
@@ -5471,7 +5471,7 @@
     "jaJP": "スタン攻撃",
     "ptBR": "Ataque de atordoamento",
     "ruRU": "Оглушает при атаке",
-    "zhCN": "Stun Attack"
+    "zhCN": "昏迷攻擊"
   },
   {
     "id": 3190,
@@ -5488,7 +5488,7 @@
     "jaJP": "死体を食べて吐き出す",
     "ptBR": "Come e cospe cadáveres",
     "ruRU": "Пожирает и извергает трупы",
-    "zhCN": "Eats and Spits Corspes"
+    "zhCN": "吞食與吐出屍體"
   },
   {
     "id": 3191,
@@ -5505,7 +5505,7 @@
     "jaJP": "追尾する攻撃でマナを奪い取る",
     "ptBR": "Projéteis guiados drenam mana",
     "ruRU": "Самонаводящиеся снаряды, вытягивает ману",
-    "zhCN": "Homing Missiles Drain Mana"
+    "zhCN": "追蹤飛箭吸取法力"
   },
   {
     "id": 3192,
@@ -5522,7 +5522,7 @@
     "jaJP": "スティジャンドールを復活させる",
     "ptBR": "Revive bonecos estígios",
     "ruRU": "Оживляет стигийских кукол",
-    "zhCN": "Raises Stygian Dolls"
+    "zhCN": "復活冥河鬼娃"
   },
   {
     "id": 3193,
@@ -5539,7 +5539,7 @@
     "jaJP": "ソウルキラーを復活させる",
     "ptBR": "Revive mata-almas",
     "ruRU": "Оживляет душегубов",
-    "zhCN": "Raises Soul Killers"
+    "zhCN": "復活靈魂殺手"
   },
   {
     "id": 3194,
@@ -5556,7 +5556,7 @@
     "jaJP": "フレイヤーを復活させる",
     "ptBR": "Revive esfoladores",
     "ruRU": "Оживляет свежевателей",
-    "zhCN": "Raises Flayers"
+    "zhCN": "復活剝皮手"
   },
   {
     "id": 3195,
@@ -5573,7 +5573,7 @@
     "jaJP": "フェティッシュを復活させる",
     "ptBR": "Revive carrancos",
     "ruRU": "Оживляет фетишей",
-    "zhCN": "Raises Fetishes"
+    "zhCN": "復活鬼娃"
   },
   {
     "id": 3196,
@@ -5590,7 +5590,7 @@
     "jaJP": "ラットマンを復活させる",
     "ptBR": "Revive homens-rato",
     "ruRU": "Оживляет крысолюдов",
-    "zhCN": "Raises Ratmen"
+    "zhCN": "復活鼠人"
   },
   {
     "id": 3197,
@@ -5607,7 +5607,7 @@
     "jaJP": "ライフを奪う",
     "ptBR": "Rouba pontos de vida",
     "ruRU": "Похищает здоровье",
-    "zhCN": "Steals Life"
+    "zhCN": "生命竊取"
   },
   {
     "id": 3198,
@@ -5624,7 +5624,7 @@
     "jaJP": "アンデッドを復活させる",
     "ptBR": "Revive mortos-vivos",
     "ruRU": "Оживляет нежить",
-    "zhCN": "Raises Undead"
+    "zhCN": "復活不死怪物"
   },
   {
     "id": 3199,
@@ -5641,7 +5641,7 @@
     "jaJP": "ダーク・ワンを復活させる",
     "ptBR": "Revive trevosos",
     "ruRU": "Оживляет темных",
-    "zhCN": "Raises Dark Ones"
+    "zhCN": "復活暗黑沉淪魔"
   },
   {
     "id": 3200,
@@ -5658,7 +5658,7 @@
     "jaJP": "デビルキンを復活させる",
     "ptBR": "Revive demonantes",
     "ruRU": "Оживляет дьяволят",
-    "zhCN": "Raises Devilkin"
+    "zhCN": "復活魔妖沉淪魔"
   },
   {
     "id": 3201,
@@ -5675,7 +5675,7 @@
     "jaJP": "カーヴァーを復活させる",
     "ptBR": "Revive entalhadores",
     "ruRU": "Оживляет плоторезов",
-    "zhCN": "Raises Carvers"
+    "zhCN": "復活刨肉沉淪魔"
   },
   {
     "id": 3202,
@@ -5692,7 +5692,7 @@
     "jaJP": "フォールンを復活させる",
     "ptBR": "Revive decaídos",
     "ruRU": "Оживляет падших",
-    "zhCN": "Raises Fallen"
+    "zhCN": "復活沉淪魔"
   },
   {
     "id": 3203,
@@ -5709,7 +5709,7 @@
     "jaJP": "ウォープト・ワンを復活させる",
     "ptBR": "Revive distorcidos",
     "ruRU": "Оживляет искаженных",
-    "zhCN": "Raises The Warped"
+    "zhCN": "復活扭曲沉淪魔"
   },
   {
     "id": 3204,
@@ -5726,7 +5726,7 @@
     "jaJP": "電撃攻撃",
     "ptBR": "acerto elétrico",
     "ruRU": "Шокирующий удар",
-    "zhCN": "shocking hit"
+    "zhCN": "放電攻擊"
   },
   {
     "id": 3205,
@@ -5743,7 +5743,7 @@
     "jaJP": "屈強",
     "ptBR": "Extraforte",
     "ruRU": "Сверхсила",
-    "zhCN": "Extra Strong"
+    "zhCN": "特別強壯"
   },
   {
     "id": 3206,
@@ -5760,7 +5760,7 @@
     "jaJP": "俊敏",
     "ptBR": "Extrarrápido",
     "ruRU": "Стремительность",
-    "zhCN": "Extra Fast"
+    "zhCN": "特別快速"
   },
   {
     "id": 3207,
@@ -5777,7 +5777,7 @@
     "jaJP": "呪い",
     "ptBR": "Amaldiçoado",
     "ruRU": "Проклятие",
-    "zhCN": "Cursed"
+    "zhCN": "施加詛咒"
   },
   {
     "id": 3208,
@@ -5794,7 +5794,7 @@
     "jaJP": "魔法耐性",
     "ptBR": "Resistente a Magia",
     "ruRU": "Сопротивление магии",
-    "zhCN": "Magic Resistant"
+    "zhCN": "魔法抗性"
   },
   {
     "id": 3209,
@@ -5811,7 +5811,7 @@
     "jaJP": "火炎強化",
     "ptBR": "Encantamento Ígneo",
     "ruRU": "Чары огня",
-    "zhCN": "Fire Enchanted"
+    "zhCN": "火焰強化"
   },
   {
     "id": 3210,
@@ -5828,7 +5828,7 @@
     "jaJP": "冷気強化",
     "ptBR": "Encantamento Gélido",
     "ruRU": "Чары льда",
-    "zhCN": "Cold Enchanted"
+    "zhCN": "冰寒強化"
   },
   {
     "id": 3211,
@@ -5845,7 +5845,7 @@
     "jaJP": "電撃強化",
     "ptBR": "Encantamento Elétrico",
     "ruRU": "Чары молнии",
-    "zhCN": "Lightning Enchanted"
+    "zhCN": "電擊強化"
   },
   {
     "id": 3212,
@@ -5862,7 +5862,7 @@
     "jaJP": "マナダメージ",
     "ptBR": "Exaustão de Mana",
     "ruRU": "Сожжение маны",
-    "zhCN": "Mana Burn"
+    "zhCN": "法力燃燒"
   },
   {
     "id": 3213,
@@ -5879,7 +5879,7 @@
     "jaJP": "スペクトラルヒット",
     "ptBR": "Golpe Espectral",
     "ruRU": "Призрачный удар",
-    "zhCN": "Spectral Hit"
+    "zhCN": "灌能打擊"
   },
   {
     "id": 3215,
@@ -5896,7 +5896,7 @@
     "jaJP": "ストーンスキン",
     "ptBR": "Pele de Pedra",
     "ruRU": "Каменная кожа",
-    "zhCN": "Stone Skin"
+    "zhCN": "硬化外皮"
   },
   {
     "id": 3216,
@@ -5913,7 +5913,7 @@
     "jaJP": "一斉射撃",
     "ptBR": "Disparos Múltiplos",
     "ruRU": "Залп",
-    "zhCN": "Multiple Shots"
+    "zhCN": "多重射擊"
   },
   {
     "id": 3217,
@@ -5930,7 +5930,7 @@
     "jaJP": "盗賊",
     "ptBR": "Ladrão",
     "ruRU": "Вор",
-    "zhCN": "Thief"
+    "zhCN": "偷盜"
   },
   {
     "id": 3218,
@@ -5947,7 +5947,7 @@
     "jaJP": "オーラ強化",
     "ptBR": "Encantamento de Aura",
     "ruRU": "Зачарованная аура",
-    "zhCN": "Aura Enchanted"
+    "zhCN": "靈氣強化"
   },
   {
     "id": 3219,
@@ -5964,7 +5964,7 @@
     "jaJP": "噛みつきに注意！",
     "ptBR": "Esta vaca morde",
     "ruRU": "Эта корова кусается",
-    "zhCN": "This Cow Bites"
+    "zhCN": "這頭牛會咬人"
   },
   {
     "id": 3221,
@@ -5981,7 +5981,7 @@
     "jaJP": "ミニオン",
     "ptBR": "Lacaio",
     "ruRU": "Прислужник",
-    "zhCN": "Minion"
+    "zhCN": "僕從"
   },
   {
     "id": 3246,
@@ -5998,7 +5998,7 @@
     "jaJP": "ミイラの棺",
     "ptBR": "[ms]Sarcófago da Múmia",
     "ruRU": "Саркофаг мумии",
-    "zhCN": "Mummy Sarcophagus"
+    "zhCN": "木乃伊石棺"
   },
   {
     "id": 3283,
@@ -6015,7 +6015,7 @@
     "jaJP": "スケルトン",
     "ptBR": "[ms]Esqueleto",
     "ruRU": "Скелет",
-    "zhCN": "Skeleton"
+    "zhCN": "骷髏"
   },
   {
     "id": 3319,
@@ -6032,7 +6032,7 @@
     "jaJP": "コープス・ファイア",
     "ptBR": "Flamorto",
     "ruRU": "Пылающий труп",
-    "zhCN": "Corpsefire"
+    "zhCN": "屍火"
   },
   {
     "id": 10002,
@@ -6049,7 +6049,7 @@
     "jaJP": "モーラー",
     "ptBR": "[ms]Marretador",
     "ruRU": "Мучитель",
-    "zhCN": "Mauler"
+    "zhCN": "重擊巨怪"
   },
   {
     "id": 10077,
@@ -6066,7 +6066,7 @@
     "jaJP": "＜アンデッド＞",
     "ptBR": "Morto-vivo",
     "ruRU": "Нежить",
-    "zhCN": "Undead"
+    "zhCN": "不死怪物"
   },
   {
     "id": 10078,
@@ -6083,7 +6083,7 @@
     "jaJP": "＜デーモン＞",
     "ptBR": "Demônio",
     "ruRU": "Демон",
-    "zhCN": "Demon"
+    "zhCN": "惡魔"
   },
   {
     "id": 10908,
@@ -6100,7 +6100,7 @@
     "jaJP": "闇の追跡者",
     "ptBR": "[fs]Perseguidora Sombria",
     "ruRU": "Темная следопытка",
-    "zhCN": "Dark Stalker"
+    "zhCN": "黑暗潛襲者"
   },
   {
     "id": 10909,
@@ -6117,7 +6117,7 @@
     "jaJP": "穢れし弓使い",
     "ptBR": "[fs]Arqueira Vil",
     "ruRU": "Злобная лучница",
-    "zhCN": "Vile Archer"
+    "zhCN": "兇邪弓箭手"
   },
   {
     "id": 11007,
@@ -6134,7 +6134,7 @@
     "jaJP": "落とし戸",
     "ptBR": "Alçapão",
     "ruRU": "Черный ход",
-    "zhCN": "Trap Door"
+    "zhCN": "暗門"
   },
   {
     "id": 11013,
@@ -6151,7 +6151,7 @@
     "jaJP": "魔魅なる",
     "ptBR": "[fs]Satânica[ms]Satânico[fp]Satânicas[mp]Satânicos",
     "ruRU": "[ms]изуверский[fs]изуверская[ns]изуверское[pl]изуверские",
-    "zhCN": "Fiend"
+    "zhCN": "魔蝠"
   },
   {
     "id": 11014,
@@ -6168,7 +6168,7 @@
     "jaJP": "死霊の",
     "ptBR": "[fs]Espectral[ms]Espectral[fp]Espectrais[mp]Espectrais",
     "ruRU": "[ms]фантомный[fs]фантомная[ns]фантомное[pl]фантомные",
-    "zhCN": "Wraith"
+    "zhCN": "怨靈"
   },
   {
     "id": 11015,
@@ -6185,7 +6185,7 @@
     "jaJP": "悪魔",
     "ptBR": "[ms]Demônio Alado",
     "ruRU": "Бес",
-    "zhCN": "Fiend"
+    "zhCN": "魔蝠"
   },
   {
     "id": 11016,
@@ -6202,7 +6202,7 @@
     "jaJP": "レイス",
     "ptBR": "[ms]Espectro",
     "ruRU": "Дух",
-    "zhCN": "Wraith"
+    "zhCN": "怨靈"
   },
   {
     "id": 11029,
@@ -6219,7 +6219,7 @@
     "jaJP": "死体を食べて吐き出す",
     "ptBR": "Come e cospe cadáveres",
     "ruRU": "Пожирает и извергает трупы",
-    "zhCN": "Eats and Spits Corpses"
+    "zhCN": "吞食與吐出屍體"
   },
   {
     "id": 11031,
@@ -6236,7 +6236,7 @@
     "jaJP": "電撃攻撃",
     "ptBR": "Acerto elétrico",
     "ruRU": "Шокирующий удар",
-    "zhCN": "Shocking Hit"
+    "zhCN": "放電攻擊"
   },
   {
     "id": 11084,
@@ -6253,7 +6253,7 @@
     "jaJP": "幽かなる",
     "ptBR": "[fs]Fantasmagórica[ms]Fantasmagórico[fp]Fantasmagóricas[mp]Fantasmagóricos",
     "ruRU": "призрак",
-    "zhCN": "Ghostly"
+    "zhCN": "幽靈"
   },
   {
     "id": 11086,
@@ -6270,7 +6270,7 @@
     "jaJP": "憑りつかれた",
     "ptBR": "[fs]Possuída[ms]Possuído[fp]Possuídas[mp]Possuídos",
     "ruRU": "одержимость",
-    "zhCN": "Possessed"
+    "zhCN": "著魔"
   },
   {
     "id": 11154,
@@ -6287,7 +6287,7 @@
     "jaJP": "リリス",
     "ptBR": "Lilith",
     "ruRU": "Лилит",
-    "zhCN": "Lilith"
+    "zhCN": "莉莉絲"
   },
   {
     "id": 21851,
@@ -6304,7 +6304,7 @@
     "jaJP": "根絶やしのコレンゾ",
     "ptBR": "Colenzo, o Aniquilador",
     "ruRU": "Колензо Аннигилятор",
-    "zhCN": "Colenzo the Annihilator"
+    "zhCN": "破壞者卡蘭索"
   },
   {
     "id": 21852,
@@ -6321,7 +6321,7 @@
     "jaJP": "呪われしアクメル",
     "ptBR": "Achmel, o Amaldiçoado",
     "ruRU": "Акмел Проклятый",
-    "zhCN": "Achmel the Cursed"
+    "zhCN": "詛咒的阿克姆"
   },
   {
     "id": 21853,
@@ -6338,7 +6338,7 @@
     "jaJP": "血まみれバルトゥク",
     "ptBR": "Bartuc, o Sangrento",
     "ruRU": "Бартук Кровавый",
-    "zhCN": "Bartuc the Bloody"
+    "zhCN": "血腥的霸圖克"
   },
   {
     "id": 21854,
@@ -6355,7 +6355,7 @@
     "jaJP": "不浄なるヴェンター",
     "ptBR": "Ventar, o Profano",
     "ruRU": "Вентар Нечестивый",
-    "zhCN": "Ventar the Unholy"
+    "zhCN": "不潔的凡塔"
   },
   {
     "id": 21855,
@@ -6372,7 +6372,7 @@
     "jaJP": "暴虐のリスター",
     "ptBR": "Lister, o Atormentador",
     "ruRU": "Листер Истязатель",
-    "zhCN": "Lister the Tormentor"
+    "zhCN": "折磨者立斯特"
   },
   {
     "id": 21859,
@@ -6389,7 +6389,7 @@
     "jaJP": "バール",
     "ptBR": "Baal",
     "ruRU": "Баал",
-    "zhCN": "Baal"
+    "zhCN": "巴爾"
   },
   {
     "id": 21860,
@@ -6406,7 +6406,7 @@
     "jaJP": "バール",
     "ptBR": "Baal",
     "ruRU": "Баал",
-    "zhCN": "Baal"
+    "zhCN": "巴爾"
   },
   {
     "id": 21862,
@@ -6423,7 +6423,7 @@
     "jaJP": "綻びし者",
     "ptBR": "[ms]Desfiador",
     "ruRU": "Разматыватель",
-    "zhCN": "Unraveler"
+    "zhCN": "解繃者"
   },
   {
     "id": 21864,
@@ -6440,7 +6440,7 @@
     "jaJP": "破壊のしもべ",
     "ptBR": "[ms]Lacaio da Destruição",
     "ruRU": "Слуга Разрушения",
-    "zhCN": "Minion of Destruction"
+    "zhCN": "毀滅僕從"
   },
   {
     "id": 22330,
@@ -6457,7 +6457,7 @@
     "jaJP": "ダイアウルフ",
     "ptBR": "Lobo Atroz",
     "ruRU": "Лютый волк",
-    "zhCN": "Dire Wolf"
+    "zhCN": "恐狼"
   },
   {
     "id": 22331,
@@ -6474,7 +6474,7 @@
     "jaJP": "ウォリアー",
     "ptBR": "Guerreiro",
     "ruRU": "Воин",
-    "zhCN": "Warrior"
+    "zhCN": "戰士"
   },
   {
     "id": 22334,
@@ -6491,7 +6491,7 @@
     "jaJP": "スパイク・ジェネレーター",
     "ptBR": "Gerador de Espetos",
     "ruRU": "Источник шипов",
-    "zhCN": "Spike Generator"
+    "zhCN": "尖刺製造機"
   },
   {
     "id": 22338,
@@ -6508,7 +6508,7 @@
     "jaJP": "ペット",
     "ptBR": "[fs]Mascote",
     "ruRU": "Питомец",
-    "zhCN": "Pet"
+    "zhCN": "寵物"
   },
   {
     "id": 22340,
@@ -6525,7 +6525,7 @@
     "jaJP": "ウルフ",
     "ptBR": "Lobo",
     "ruRU": "Волк",
-    "zhCN": "Wolf"
+    "zhCN": "狼"
   },
   {
     "id": 22341,
@@ -6542,7 +6542,7 @@
     "jaJP": "ドルイド・スピリット",
     "ptBR": "Espírito Druida",
     "ruRU": "Дух друида",
-    "zhCN": "Druid Spirit"
+    "zhCN": "德魯伊魂靈"
   },
   {
     "id": 22342,
@@ -6559,7 +6559,7 @@
     "jaJP": "ダイアウルフ",
     "ptBR": "[ms]Lobo Atroz",
     "ruRU": "Лютый волк",
-    "zhCN": "Dire Wolf"
+    "zhCN": "恐狼"
   },
   {
     "id": 22343,
@@ -6576,7 +6576,7 @@
     "jaJP": "スピリット・ウルフ",
     "ptBR": "[ms]Lobo Espiritual",
     "ruRU": "Призрачный волк",
-    "zhCN": "Spirit Wolf"
+    "zhCN": "幽靈狼"
   },
   {
     "id": 22344,
@@ -6593,7 +6593,7 @@
     "jaJP": "グリズリー",
     "ptBR": "[ms]Urso-cinzento",
     "ruRU": "Гризли",
-    "zhCN": "Grizzly"
+    "zhCN": "灰熊"
   },
   {
     "id": 22345,
@@ -6610,7 +6610,7 @@
     "jaJP": "プレイグ・ポピー",
     "ptBR": "[fs]Papoula Pestilenta",
     "ruRU": "Чумной мак",
-    "zhCN": "Plague Poppy"
+    "zhCN": "瘟疫罌粟"
   },
   {
     "id": 22346,
@@ -6627,7 +6627,7 @@
     "jaJP": "サイクル・オブ・ライフ",
     "ptBR": "[ms]Ciclo da Vida",
     "ruRU": "Жизненный цикл",
-    "zhCN": "Cycle of Life"
+    "zhCN": "生命輪迴"
   },
   {
     "id": 22347,
@@ -6644,7 +6644,7 @@
     "jaJP": "ヴァイン・クリーチャー",
     "ptBR": "[fs]Criatura Vínea",
     "ruRU": "Обитатель лозы",
-    "zhCN": "Vine Creature"
+    "zhCN": "藤蔓生物"
   },
   {
     "id": 22348,
@@ -6661,7 +6661,7 @@
     "jaJP": "イーグル",
     "ptBR": "[fs]Águia",
     "ruRU": "Орел",
-    "zhCN": "Eagle"
+    "zhCN": "老鷹"
   },
   {
     "id": 22349,
@@ -6678,7 +6678,7 @@
     "jaJP": "ウルフ",
     "ptBR": "[ms]Lobo",
     "ruRU": "Волк",
-    "zhCN": "Wolf"
+    "zhCN": "狼"
   },
   {
     "id": 22350,
@@ -6695,7 +6695,7 @@
     "jaJP": "ベアー",
     "ptBR": "[ms]Urso",
     "ruRU": "Медведь",
-    "zhCN": "Bear"
+    "zhCN": "熊"
   },
   {
     "id": 22351,
@@ -6712,7 +6712,7 @@
     "jaJP": "シージ・ドア",
     "ptBR": "Porta de Cerco",
     "ruRU": "Трап осадной башни",
-    "zhCN": "Siege Door"
+    "zhCN": "攻城門"
   },
   {
     "id": 22352,
@@ -6729,7 +6729,7 @@
     "jaJP": "シージ・タワー",
     "ptBR": "Torre de Cerco",
     "ruRU": "Осадная башня",
-    "zhCN": "Seige Tower"
+    "zhCN": "攻城塔"
   },
   {
     "id": 22353,
@@ -6746,7 +6746,7 @@
     "jaJP": "ロット・ウォーカー",
     "ptBR": "[ms]Caminhante Putrefato",
     "ruRU": "Гниющий ходок",
-    "zhCN": "Rot Walker"
+    "zhCN": "腐行者"
   },
   {
     "id": 22354,
@@ -6763,7 +6763,7 @@
     "jaJP": "リアニメイテッド・ホード",
     "ptBR": "Horda Reanimada",
     "ruRU": "Оживленный солдат",
-    "zhCN": "Reanimated Horde"
+    "zhCN": "再生屍兵"
   },
   {
     "id": 22355,
@@ -6780,7 +6780,7 @@
     "jaJP": "プロウリング・デッド",
     "ptBR": "[ms]Cadáver Sorrateiro",
     "ruRU": "Хищный мертвец",
-    "zhCN": "Prowling Dead"
+    "zhCN": "巡行屍兵"
   },
   {
     "id": 22356,
@@ -6797,7 +6797,7 @@
     "jaJP": "アンホーリー・コープス",
     "ptBR": "[ms]Cadáver Profano",
     "ruRU": "Оскверненный труп",
-    "zhCN": "Unholy Corpse"
+    "zhCN": "穢邪屍兵"
   },
   {
     "id": 22357,
@@ -6814,7 +6814,7 @@
     "jaJP": "デファイルド・ウォリアー",
     "ptBR": "[ms]Guerreiro Profanado",
     "ruRU": "Потревоженный воин",
-    "zhCN": "Defiled Warrior"
+    "zhCN": "褻瀆戰士"
   },
   {
     "id": 22358,
@@ -6831,7 +6831,7 @@
     "jaJP": "シージ・ビースト",
     "ptBR": "Fera de Cerco",
     "ruRU": "Осадный зверь",
-    "zhCN": "Siege Beast"
+    "zhCN": "攻城獸"
   },
   {
     "id": 22359,
@@ -6848,7 +6848,7 @@
     "jaJP": "クラッシュ・ビースト",
     "ptBR": "Fera Esmagadora",
     "ruRU": "Крушащий зверь",
-    "zhCN": "Crush Beast"
+    "zhCN": "重擊攻城獸"
   },
   {
     "id": 22360,
@@ -6865,7 +6865,7 @@
     "jaJP": "ブラッド・ブリンガー",
     "ptBR": "[ms]Arauto Sangrento",
     "ruRU": "Кровавый разносчик",
-    "zhCN": "Blood Bringer"
+    "zhCN": "血腥攻城獸"
   },
   {
     "id": 22361,
@@ -6882,7 +6882,7 @@
     "jaJP": "ゴア・ベアラー",
     "ptBR": "[ms]Sanguinolento",
     "ruRU": "Гигант плоти",
-    "zhCN": "Gore Bearer"
+    "zhCN": "蝕肉獸"
   },
   {
     "id": 22362,
@@ -6899,7 +6899,7 @@
     "jaJP": "デーモン・スティード",
     "ptBR": "[ms]Corcel Demoníaco",
     "ruRU": "Демонический скакун",
-    "zhCN": "Demon Steed"
+    "zhCN": "惡魔戰馬"
   },
   {
     "id": 22363,
@@ -6916,7 +6916,7 @@
     "jaJP": "ウェイリング・スピリット",
     "ptBR": "Espírito Uivante",
     "ruRU": "Стенающий дух",
-    "zhCN": "Wailing Spirit"
+    "zhCN": "泣靈"
   },
   {
     "id": 22364,
@@ -6933,7 +6933,7 @@
     "jaJP": "ライフ・シーカー",
     "ptBR": "Caçador de Vidas",
     "ruRU": "Искатель жизни",
-    "zhCN": "Life Seeker"
+    "zhCN": "索命者"
   },
   {
     "id": 22365,
@@ -6950,7 +6950,7 @@
     "jaJP": "ライフ・スティーラー",
     "ptBR": "Ladrão de Vida",
     "ruRU": "Похититель жизни",
-    "zhCN": "Life Stealer"
+    "zhCN": "偷命者"
   },
   {
     "id": 22366,
@@ -6967,7 +6967,7 @@
     "jaJP": "デスリィ・ヴィゼッジ",
     "ptBR": "Semblante Mortífero",
     "ruRU": "Мертвенный лик",
-    "zhCN": "Deathly Visage"
+    "zhCN": "死亡幻影"
   },
   {
     "id": 22367,
@@ -6984,7 +6984,7 @@
     "jaJP": "バウンド・スピリット",
     "ptBR": "Espírito Prisioneiro",
     "ruRU": "Плененный дух",
-    "zhCN": "Bound Spirit"
+    "zhCN": "縛靈"
   },
   {
     "id": 22368,
@@ -7001,7 +7001,7 @@
     "jaJP": "バニッシュト・ソウル",
     "ptBR": "Alma Banida",
     "ruRU": "Изгнанная душа",
-    "zhCN": "Banished Soul"
+    "zhCN": "流放之魂"
   },
   {
     "id": 22369,
@@ -7018,7 +7018,7 @@
     "jaJP": "デス",
     "ptBR": "Morte",
     "ruRU": "Смерть",
-    "zhCN": "Death"
+    "zhCN": "死亡化身"
   },
   {
     "id": 22370,
@@ -7035,7 +7035,7 @@
     "jaJP": "エンスレイヴド",
     "ptBR": "[ms]Escravizado",
     "ruRU": "Порабощенный",
-    "zhCN": "Enslaved"
+    "zhCN": "僕魔"
   },
   {
     "id": 22371,
@@ -7052,7 +7052,7 @@
     "jaJP": "スレイヤー",
     "ptBR": "Homicida",
     "ruRU": "Истребитель",
-    "zhCN": "Slayer"
+    "zhCN": "殺戮僕魔"
   },
   {
     "id": 22372,
@@ -7069,7 +7069,7 @@
     "jaJP": "アイスボア",
     "ptBR": "Javali Gélido",
     "ruRU": "Ледяной вепрь",
-    "zhCN": "Ice Boar"
+    "zhCN": "寒冰僕魔"
   },
   {
     "id": 22373,
@@ -7086,7 +7086,7 @@
     "jaJP": "ファイアボア",
     "ptBR": "Javali Ígneo",
     "ruRU": "Огненный вепрь",
-    "zhCN": "Fire Boar"
+    "zhCN": "火焰僕魔"
   },
   {
     "id": 22374,
@@ -7103,7 +7103,7 @@
     "jaJP": "ヘルスポーン",
     "ptBR": "Cria Infernal",
     "ruRU": "Адская тварь",
-    "zhCN": "Hell Spawn"
+    "zhCN": "地獄爪牙"
   },
   {
     "id": 22375,
@@ -7120,7 +7120,7 @@
     "jaJP": "アイススポーン",
     "ptBR": "Cria Gélida",
     "ruRU": "Ледяная тварь",
-    "zhCN": "Ice Spawn"
+    "zhCN": "冰封爪牙"
   },
   {
     "id": 22376,
@@ -7137,7 +7137,7 @@
     "jaJP": "グレーター・ヘルスポーン",
     "ptBR": "Cria Infernal Superior",
     "ruRU": "Гигантская адская тварь",
-    "zhCN": "Greater Hell Spawn"
+    "zhCN": "高階地獄爪牙"
   },
   {
     "id": 22377,
@@ -7154,7 +7154,7 @@
     "jaJP": "グレーター・アイススポーン",
     "ptBR": "Cria Gélida Superior",
     "ruRU": "Гигантская ледяная тварь",
-    "zhCN": "Greater Ice Spawn"
+    "zhCN": "高等冰封爪牙"
   },
   {
     "id": 22378,
@@ -7171,7 +7171,7 @@
     "jaJP": "狂いしエンスレイヴド",
     "ptBR": "[ms]Escravizado Fanático",
     "ruRU": "Порабощенный фанатик",
-    "zhCN": "Fanatic Enslaved"
+    "zhCN": "狂熱僕魔"
   },
   {
     "id": 22379,
@@ -7188,7 +7188,7 @@
     "jaJP": "狂いしスレイヤー",
     "ptBR": "Homicida Berserker",
     "ruRU": "Берсерк-палач",
-    "zhCN": "Berserker Slayer"
+    "zhCN": "凶暴殺戮僕魔"
   },
   {
     "id": 22380,
@@ -7205,7 +7205,7 @@
     "jaJP": "侵されしファイアボア",
     "ptBR": "[ms]Javali Ígneo Arruinado",
     "ruRU": "Одержимый огненный вепрь",
-    "zhCN": "Consumed Fire Boar"
+    "zhCN": "狂亂寒冰僕魔"
   },
   {
     "id": 22381,
@@ -7222,7 +7222,7 @@
     "jaJP": "侵されしアイスボア",
     "ptBR": "[ms]Javali Gélido Arruinado",
     "ruRU": "Одержимый ледяной вепрь",
-    "zhCN": "Consumed Ice Boar"
+    "zhCN": "狂亂火焰僕魔"
   },
   {
     "id": 22382,
@@ -7239,7 +7239,7 @@
     "jaJP": "激昂せしヘルスポーン",
     "ptBR": "Cria Infernal Frenética",
     "ruRU": "Озверевшая адская тварь",
-    "zhCN": "Frenzied Hell Spawn"
+    "zhCN": "狂怒地獄爪牙"
   },
   {
     "id": 22383,
@@ -7256,7 +7256,7 @@
     "jaJP": "激昂せしアイススポーン",
     "ptBR": "Cria Gélida Frenética",
     "ruRU": "Озверевшая ледяная тварь",
-    "zhCN": "Frenzied Ice Spawn"
+    "zhCN": "狂怒冰封爪牙"
   },
   {
     "id": 22384,
@@ -7273,7 +7273,7 @@
     "jaJP": "惑乱せしヘルスポーン",
     "ptBR": "Cria Infernal Insana",
     "ruRU": "Безумная адская тварь",
-    "zhCN": "Insane Hell Spawn"
+    "zhCN": "瘋狂地獄爪牙"
   },
   {
     "id": 22385,
@@ -7290,7 +7290,7 @@
     "jaJP": "惑乱せしアイススポーン",
     "ptBR": "Cria Gélida Insana",
     "ruRU": "Безумная ледяная тварь",
-    "zhCN": "Insane Ice Spawn"
+    "zhCN": "瘋狂冰封爪牙"
   },
   {
     "id": 22386,
@@ -7307,7 +7307,7 @@
     "jaJP": "サキュバス",
     "ptBR": "Súcubo",
     "ruRU": "Суккуб",
-    "zhCN": "Succubus"
+    "zhCN": "魅魔"
   },
   {
     "id": 22387,
@@ -7324,7 +7324,7 @@
     "jaJP": "ヴァイル・テンプトレス",
     "ptBR": "Sedutora Vil",
     "ruRU": "Порочная искусительница",
-    "zhCN": "Vile Temptress"
+    "zhCN": "兇邪妖魅"
   },
   {
     "id": 22388,
@@ -7341,7 +7341,7 @@
     "jaJP": "スティジャン・ハーロット",
     "ptBR": "Cortesã Estígia",
     "ruRU": "Стигийская блудница",
-    "zhCN": "Stygian Harlot"
+    "zhCN": "冥河淫魅"
   },
   {
     "id": 22389,
@@ -7358,7 +7358,7 @@
     "jaJP": "ヘル・テンプトレス",
     "ptBR": "Sedutora Infernal",
     "ruRU": "Адская искусительница",
-    "zhCN": "Hell Temptress"
+    "zhCN": "地獄妖魅"
   },
   {
     "id": 22390,
@@ -7375,7 +7375,7 @@
     "jaJP": "ブラッド・テンプトレス",
     "ptBR": "Sedutora Sangrenta",
     "ruRU": "Кровавая искусительница",
-    "zhCN": "Blood Temptress"
+    "zhCN": "血腥妖魅"
   },
   {
     "id": 22391,
@@ -7392,7 +7392,7 @@
     "jaJP": "セイレーン",
     "ptBR": "Sirena",
     "ruRU": "Сирена",
-    "zhCN": "Siren"
+    "zhCN": "賽蓮女妖"
   },
   {
     "id": 22392,
@@ -7409,7 +7409,7 @@
     "jaJP": "ヴァイル・ウィッチ",
     "ptBR": "Bruxa Vil",
     "ruRU": "Злобная ведьма",
-    "zhCN": "Vile Witch"
+    "zhCN": "兇邪女妖"
   },
   {
     "id": 22393,
@@ -7426,7 +7426,7 @@
     "jaJP": "スティジャン・フューリー",
     "ptBR": "Fúria Estígia",
     "ruRU": "Стигийская фурия",
-    "zhCN": "Stygian Fury"
+    "zhCN": "冥怒女妖"
   },
   {
     "id": 22394,
@@ -7443,7 +7443,7 @@
     "jaJP": "ブラッド・ウィッチ",
     "ptBR": "Bruxa Sangrenta",
     "ruRU": "Ведьма крови",
-    "zhCN": "Blood Witch"
+    "zhCN": "血巫女妖"
   },
   {
     "id": 22395,
@@ -7460,7 +7460,7 @@
     "jaJP": "ヘル・ウィッチ",
     "ptBR": "Bruxa Infernal",
     "ruRU": "Адская ведьма",
-    "zhCN": "Hell Witch"
+    "zhCN": "地獄女妖"
   },
   {
     "id": 22396,
@@ -7477,7 +7477,7 @@
     "jaJP": "オーバーシアー",
     "ptBR": "Capataz",
     "ruRU": "Надзиратель",
-    "zhCN": "Overseer"
+    "zhCN": "督軍"
   },
   {
     "id": 22397,
@@ -7494,7 +7494,7 @@
     "jaJP": "ラッシャー",
     "ptBR": "Açoitador",
     "ruRU": "Хлестатель",
-    "zhCN": "Lasher"
+    "zhCN": "鞭笞者"
   },
   {
     "id": 22398,
@@ -7511,7 +7511,7 @@
     "jaJP": "オーバーロード",
     "ptBR": "Suserano",
     "ruRU": "Властитель",
-    "zhCN": "Overlord"
+    "zhCN": "霸主"
   },
   {
     "id": 22399,
@@ -7528,7 +7528,7 @@
     "jaJP": "ブラッド・ボス",
     "ptBR": "[ms]Chefe Sangrento",
     "ruRU": "Кровавый повелитель",
-    "zhCN": "Blood Boss"
+    "zhCN": "血腥統治者"
   },
   {
     "id": 22400,
@@ -7545,7 +7545,7 @@
     "jaJP": "ヘル・ウィップ",
     "ptBR": "[ms]Chicote Infernal",
     "ruRU": "Адский бичеватель",
-    "zhCN": "Hell Whip"
+    "zhCN": "地獄之鞭"
   },
   {
     "id": 22401,
@@ -7562,7 +7562,7 @@
     "jaJP": "悪魔のポータル",
     "ptBR": "[ms]Portal Demoníaco",
     "ruRU": "Демонический портал",
-    "zhCN": "Demon Portal"
+    "zhCN": "惡魔傳送門"
   },
   {
     "id": 22402,
@@ -7579,7 +7579,7 @@
     "jaJP": "悪魔のポータル",
     "ptBR": "[ms]Portal Demoníaco",
     "ruRU": "Демонический портал",
-    "zhCN": "Demon Portal"
+    "zhCN": "惡魔傳送門"
   },
   {
     "id": 22403,
@@ -7596,7 +7596,7 @@
     "jaJP": "悪魔のポータル",
     "ptBR": "[ms]Portal Demoníaco",
     "ruRU": "Демонический портал",
-    "zhCN": "Demon Portal"
+    "zhCN": "惡魔傳送門"
   },
   {
     "id": 22404,
@@ -7613,7 +7613,7 @@
     "jaJP": "悪魔のポータル",
     "ptBR": "[ms]Portal Demoníaco",
     "ruRU": "Демонический портал",
-    "zhCN": "Demon Portal"
+    "zhCN": "惡魔傳送門"
   },
   {
     "id": 22405,
@@ -7630,7 +7630,7 @@
     "jaJP": "悪魔のポータル",
     "ptBR": "Portal Demoníaco",
     "ruRU": "Демонический портал",
-    "zhCN": "Demon Portal"
+    "zhCN": "惡魔傳送門"
   },
   {
     "id": 22406,
@@ -7647,7 +7647,7 @@
     "jaJP": "デーモン・インプ",
     "ptBR": "[ms]Diabrete Demoníaco",
     "ruRU": "Бес",
-    "zhCN": "Demon Imp"
+    "zhCN": "惡魔小鬼"
   },
   {
     "id": 22407,
@@ -7664,7 +7664,7 @@
     "jaJP": "デーモン・ラスカル",
     "ptBR": "[ms]Peralta Demoníaco",
     "ruRU": "Проказник",
-    "zhCN": "Demon Rascal"
+    "zhCN": "嘍囉小鬼"
   },
   {
     "id": 22408,
@@ -7681,7 +7681,7 @@
     "jaJP": "デーモン・グレムリン",
     "ptBR": "[ms]Gremlin Demoníaco",
     "ruRU": "Гремлин",
-    "zhCN": "Demon Gremlin"
+    "zhCN": "妖魔小鬼"
   },
   {
     "id": 22409,
@@ -7698,7 +7698,7 @@
     "jaJP": "デーモン・トリックスター",
     "ptBR": "[ms]Trapaceiro Demoníaco",
     "ruRU": "Трикстер",
-    "zhCN": "Demon Trickster"
+    "zhCN": "欺瞞小鬼"
   },
   {
     "id": 22410,
@@ -7715,7 +7715,7 @@
     "jaJP": "デーモン・スプライト",
     "ptBR": "[ms]Duende Demoníaco",
     "ruRU": "Демонический дух",
-    "zhCN": "Demon Sprite"
+    "zhCN": "精怪小鬼"
   },
   {
     "id": 22411,
@@ -7732,7 +7732,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22412,
@@ -7749,7 +7749,7 @@
     "jaJP": "投石機",
     "ptBR": "[fs]Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22413,
@@ -7766,7 +7766,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22414,
@@ -7783,7 +7783,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22415,
@@ -7800,7 +7800,7 @@
     "jaJP": "フローズン・クリーパー",
     "ptBR": "[ms]Rastejante Congelado",
     "ruRU": "Ледяной ходок",
-    "zhCN": "Frozen Creeper"
+    "zhCN": "爬行冰怪"
   },
   {
     "id": 22416,
@@ -7817,7 +7817,7 @@
     "jaJP": "フローズン・テラー",
     "ptBR": "[ms]Terror Congelado",
     "ruRU": "Ледяной кошмар",
-    "zhCN": "Frozen Terror"
+    "zhCN": "恐怖冰怪"
   },
   {
     "id": 22417,
@@ -7834,7 +7834,7 @@
     "jaJP": "フローズン・スカージ",
     "ptBR": "[ms]Flagelo Congelado",
     "ruRU": "Ледяное отродье",
-    "zhCN": "Frozen Scourge"
+    "zhCN": "禍害冰怪"
   },
   {
     "id": 22418,
@@ -7851,7 +7851,7 @@
     "jaJP": "フローズン・ホラー",
     "ptBR": "[ms]Horror Congelado",
     "ruRU": "Ледяной ужас",
-    "zhCN": "Frozen Horror"
+    "zhCN": "驚恐冰怪"
   },
   {
     "id": 22419,
@@ -7868,7 +7868,7 @@
     "jaJP": "フローズン・スコルチ",
     "ptBR": "[ms]Braseiro Congelado",
     "ruRU": "Ледяной выжигатель",
-    "zhCN": "Frozen Scorch"
+    "zhCN": "焦凍冰怪"
   },
   {
     "id": 22420,
@@ -7885,7 +7885,7 @@
     "jaJP": "月の闘将",
     "ptBR": "[ms]Senhor Lunar",
     "ruRU": "Владыка луны",
-    "zhCN": "Moon Lord"
+    "zhCN": "月族統領"
   },
   {
     "id": 22421,
@@ -7902,7 +7902,7 @@
     "jaJP": "夜の闘将",
     "ptBR": "[ms]Senhor Noturno",
     "ruRU": "Владыка ночи",
-    "zhCN": "Night Lord"
+    "zhCN": "夜族統領"
   },
   {
     "id": 22422,
@@ -7919,7 +7919,7 @@
     "jaJP": "血の闘将",
     "ptBR": "[ms]Senhor Sangrento",
     "ruRU": "Владыка крови",
-    "zhCN": "Blood Lord"
+    "zhCN": "血族統領"
   },
   {
     "id": 22423,
@@ -7936,7 +7936,7 @@
     "jaJP": "地獄の闘将",
     "ptBR": "[ms]Senhor Infernal",
     "ruRU": "Владыка ада",
-    "zhCN": "Hell Lord"
+    "zhCN": "冥府統領"
   },
   {
     "id": 22424,
@@ -7953,7 +7953,7 @@
     "jaJP": "死の闘将",
     "ptBR": "[ms]Senhor Fúnebre",
     "ruRU": "Владыка смерти",
-    "zhCN": "Death Lord"
+    "zhCN": "死族統領"
   },
   {
     "id": 22425,
@@ -7970,7 +7970,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22426,
@@ -7987,7 +7987,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22427,
@@ -8004,7 +8004,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22428,
@@ -8021,7 +8021,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22429,
@@ -8038,7 +8038,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22430,
@@ -8055,7 +8055,7 @@
     "jaJP": "投石機",
     "ptBR": "Catapulta",
     "ruRU": "Катапульта",
-    "zhCN": "Catapult"
+    "zhCN": "投石機"
   },
   {
     "id": 22431,
@@ -8072,7 +8072,7 @@
     "jaJP": "バリケード",
     "ptBR": "Barricada",
     "ruRU": "Баррикада",
-    "zhCN": "Barricade"
+    "zhCN": "防禦工事"
   },
   {
     "id": 22432,
@@ -8089,7 +8089,7 @@
     "jaJP": "バリケード",
     "ptBR": "Barricada",
     "ruRU": "Баррикада",
-    "zhCN": "Barricade"
+    "zhCN": "防禦工事"
   },
   {
     "id": 22433,
@@ -8106,7 +8106,7 @@
     "jaJP": "封鎖された扉",
     "ptBR": "Porta Bloqueada",
     "ruRU": "Заваленная дверь",
-    "zhCN": "Barricaded Door"
+    "zhCN": "封住的門"
   },
   {
     "id": 22434,
@@ -8123,7 +8123,7 @@
     "jaJP": "バリケード・タワー",
     "ptBR": "Torre Bloqueada",
     "ruRU": "Заваленная башня",
-    "zhCN": "Barricaded Tower"
+    "zhCN": "防禦塔"
   },
   {
     "id": 22435,
@@ -8140,7 +8140,7 @@
     "jaJP": "監視者シェンク",
     "ptBR": "Shenk, o Capataz",
     "ruRU": "Шенк Надзиратель",
-    "zhCN": "Shenk the Overseer"
+    "zhCN": "督軍山克"
   },
   {
     "id": 22436,
@@ -8157,7 +8157,7 @@
     "jaJP": "悪鬼の巣",
     "ptBR": "Cabana de Demônio Malévolo",
     "ruRU": "Лачуга злобных демонов",
-    "zhCN": "Evil Demon Hut"
+    "zhCN": "邪惡魔屋"
   },
   {
     "id": 22437,
@@ -8174,7 +8174,7 @@
     "jaJP": "デス・モーラー",
     "ptBR": "Marretador Fúnebre",
     "ruRU": "Жуткий терзатель",
-    "zhCN": "Death Mauler"
+    "zhCN": "亡軍重擊魔"
   },
   {
     "id": 22438,
@@ -8191,7 +8191,7 @@
     "jaJP": "デス・ブローラー",
     "ptBR": "[ms]Briguento Fúnebre",
     "ruRU": "Жуткий задира",
-    "zhCN": "Death Brawler"
+    "zhCN": "亡軍征戰者"
   },
   {
     "id": 22439,
@@ -8208,7 +8208,7 @@
     "jaJP": "デス・スラッシャー",
     "ptBR": "[ms]Retalhador Fúnebre",
     "ruRU": "Жуткий раздиратель",
-    "zhCN": "Death Slasher"
+    "zhCN": "亡軍斬殺者"
   },
   {
     "id": 22440,
@@ -8225,7 +8225,7 @@
     "jaJP": "デス・バーサーカー",
     "ptBR": "[ms]Berserker Fúnebre",
     "ruRU": "Берсерк смерти",
-    "zhCN": "Death Berserker"
+    "zhCN": "亡軍狂戰士"
   },
   {
     "id": 22441,
@@ -8242,7 +8242,7 @@
     "jaJP": "デス・ブリガディア",
     "ptBR": "General Fúnebre",
     "ruRU": "Жуткий офицер",
-    "zhCN": "Death Brigadier"
+    "zhCN": "亡軍戰將"
   },
   {
     "id": 22442,
@@ -8259,7 +8259,7 @@
     "jaJP": "スノー・ドリフター",
     "ptBR": "Errante Glacial",
     "ruRU": "Снежный скиталец",
-    "zhCN": "Snow Drifter"
+    "zhCN": "雪原雪怪"
   },
   {
     "id": 22443,
@@ -8276,7 +8276,7 @@
     "jaJP": "アボミナブル",
     "ptBR": "Abominável",
     "ruRU": "Отвратный",
-    "zhCN": "Abominable"
+    "zhCN": "厚毛雪怪"
   },
   {
     "id": 22444,
@@ -8293,7 +8293,7 @@
     "jaJP": "チルド・フロス",
     "ptBR": "Espuma Gélida",
     "ruRU": "Замерзшая пена",
-    "zhCN": "Chilled Froth"
+    "zhCN": "寒冰霜"
   },
   {
     "id": 22445,
@@ -8310,7 +8310,7 @@
     "jaJP": "フローズン・アビス",
     "ptBR": "Abissal Congelado",
     "ruRU": "Ледяная бездна",
-    "zhCN": "Frozen Abyss"
+    "zhCN": "冰封雪怪"
   },
   {
     "id": 22446,
@@ -8327,7 +8327,7 @@
     "jaJP": "バール",
     "ptBR": "Baal",
     "ruRU": "Баал",
-    "zhCN": "Baal"
+    "zhCN": "巴爾"
   },
   {
     "id": 22447,
@@ -8344,7 +8344,7 @@
     "jaJP": "バール",
     "ptBR": "Baal",
     "ruRU": "Баал",
-    "zhCN": "Baal"
+    "zhCN": "巴爾"
   },
   {
     "id": 22448,
@@ -8361,7 +8361,7 @@
     "jaJP": "バール",
     "ptBR": "Baal",
     "ruRU": "Баал",
-    "zhCN": "Baal"
+    "zhCN": "巴爾"
   },
   {
     "id": 22449,
@@ -8378,7 +8378,7 @@
     "jaJP": "ピュトリッド・デファイラー",
     "ptBR": "Profanador Pútrido",
     "ruRU": "Гниющий осквернитель",
-    "zhCN": "Putrid Defiler"
+    "zhCN": "腐敗褻瀆者"
   },
   {
     "id": 22450,
@@ -8395,7 +8395,7 @@
     "jaJP": "レッチド・デファイラー",
     "ptBR": "Profanador Terrível",
     "ruRU": "Проклятый осквернитель",
-    "zhCN": "Wretched Defiler"
+    "zhCN": "卑汙褻瀆者"
   },
   {
     "id": 22451,
@@ -8412,7 +8412,7 @@
     "jaJP": "フェティド・デファイラー",
     "ptBR": "[ms]Profanador Fétido",
     "ruRU": "Зловонный осквернитель",
-    "zhCN": "Fetid Defiler"
+    "zhCN": "惡臭褻瀆者"
   },
   {
     "id": 22452,
@@ -8429,7 +8429,7 @@
     "jaJP": "ランシド・デファイラー",
     "ptBR": "[ms]Profanador Repugnante",
     "ruRU": "Гадкий осквернитель",
-    "zhCN": "Rancid Defiler"
+    "zhCN": "腐臭褻瀆者"
   },
   {
     "id": 22453,
@@ -8446,7 +8446,7 @@
     "jaJP": "ランク・デファイラー",
     "ptBR": "[ms]Profanador Rançoso",
     "ruRU": "Мерзкий осквернитель",
-    "zhCN": "Rank Defiler"
+    "zhCN": "狠劣褻瀆者"
   },
   {
     "id": 22454,
@@ -8463,7 +8463,7 @@
     "jaJP": "ペイン・ワーム",
     "ptBR": "[ms]Verme Doloroso",
     "ruRU": "Червь боли",
-    "zhCN": "Pain Worm"
+    "zhCN": "苦痛之蟲"
   },
   {
     "id": 22455,
@@ -8480,7 +8480,7 @@
     "jaJP": "トーメント・ワーム",
     "ptBR": "[ms]Verme Tormentoso",
     "ruRU": "Червь страданий",
-    "zhCN": "Torment Worm"
+    "zhCN": "折磨之蟲"
   },
   {
     "id": 22456,
@@ -8497,7 +8497,7 @@
     "jaJP": "アゴニー・ワーム",
     "ptBR": "[ms]Verme Desolador",
     "ruRU": "Червь агонии",
-    "zhCN": "Agony Worm"
+    "zhCN": "苦惱之蟲"
   },
   {
     "id": 22457,
@@ -8514,7 +8514,7 @@
     "jaJP": "メナス・ワーム",
     "ptBR": "[ms]Verme Ameaçador",
     "ruRU": "Червь угрозы",
-    "zhCN": "Menace Worm"
+    "zhCN": "脅迫之蟲"
   },
   {
     "id": 22458,
@@ -8531,7 +8531,7 @@
     "jaJP": "アンギッシュ・ワーム",
     "ptBR": "Verme Angustiante",
     "ruRU": "Червь мучений",
-    "zhCN": "Anguish Worm"
+    "zhCN": "怨慟之蟲   "
   },
   {
     "id": 22459,
@@ -8548,7 +8548,7 @@
     "jaJP": "ウォープト・ワンの狼騎兵",
     "ptBR": "Cavalga-lobo Decaído Distorcido",
     "ruRU": "Искаженный падший-наездник",
-    "zhCN": "Warped Fallen Wolfrider"
+    "zhCN": "扭曲沉淪魔狼騎士"
   },
   {
     "id": 22460,
@@ -8565,7 +8565,7 @@
     "jaJP": "ダーク・ワンの狼騎兵",
     "ptBR": "Cavalga-lobo Trevoso",
     "ruRU": "Темный наездник",
-    "zhCN": "Darkone Wolfrider"
+    "zhCN": "暗黑狼騎士"
   },
   {
     "id": 22461,
@@ -8582,7 +8582,7 @@
     "jaJP": "デビルキンの狼騎兵",
     "ptBR": "[ms]Cavalga-lobo Demonante",
     "ruRU": "Дьяволенок-наездник",
-    "zhCN": "Devilkin Wolfrider"
+    "zhCN": "魔妖狼騎士"
   },
   {
     "id": 22462,
@@ -8599,7 +8599,7 @@
     "jaJP": "カーヴァーの狼騎兵",
     "ptBR": "Cavalga-lobo Entalhador",
     "ruRU": "Плоторез-наездник",
-    "zhCN": "Carver Wolfrider"
+    "zhCN": "刨肉狼騎士"
   },
   {
     "id": 22463,
@@ -8616,7 +8616,7 @@
     "jaJP": "フォールンの狼騎兵",
     "ptBR": "[ms]Cavalga-lobo Decaído",
     "ruRU": "Падший-наездник",
-    "zhCN": "Fallen Wolfrider"
+    "zhCN": "沉淪魔狼騎士"
   },
   {
     "id": 22469,
@@ -8633,7 +8633,7 @@
     "jaJP": "インフェルノ・セントリー",
     "ptBR": "Sentinela Infernal",
     "ruRU": "Инфернальный часовой",
-    "zhCN": "Inferno Sentry"
+    "zhCN": "煉獄衛兵"
   },
   {
     "id": 22486,
@@ -8650,7 +8650,7 @@
     "jaJP": "カーリー",
     "ptBR": "Crespo",
     "ruRU": "Кудряш",
-    "zhCN": "Curly"
+    "zhCN": "蜷曲"
   },
   {
     "id": 22487,
@@ -8667,7 +8667,7 @@
     "jaJP": "ラリー",
     "ptBR": "Larry",
     "ruRU": "Ларри",
-    "zhCN": "Larry"
+    "zhCN": "賴瑞"
   },
   {
     "id": 22488,
@@ -8684,7 +8684,7 @@
     "jaJP": "コーリック",
     "ptBR": "Korlic",
     "ruRU": "Корлик",
-    "zhCN": "Korlic"
+    "zhCN": "科力克"
   },
   {
     "id": 22489,
@@ -8701,7 +8701,7 @@
     "jaJP": "マドウク",
     "ptBR": "Madawc",
     "ruRU": "Мадавк",
-    "zhCN": "Madawc"
+    "zhCN": "馬道克"
   },
   {
     "id": 22490,
@@ -8718,7 +8718,7 @@
     "jaJP": "タリック",
     "ptBR": "[ms]Talic",
     "ruRU": "Талик",
-    "zhCN": "Talic"
+    "zhCN": "塔力克"
   },
   {
     "id": 22491,
@@ -8735,7 +8735,7 @@
     "jaJP": "豪炎のリッパー",
     "ptBR": "Estripador Fulgurante",
     "ruRU": "Адский потрошитель",
-    "zhCN": "Blaze Ripper"
+    "zhCN": "刀鋒撕裂者"
   },
   {
     "id": 22492,
@@ -8752,7 +8752,7 @@
     "jaJP": "マグマ・トルクァー",
     "ptBR": "Arrasador Magmático",
     "ruRU": "Извращенная магма",
-    "zhCN": "Magma Torquer"
+    "zhCN": "熔岩扭曲者"
   },
   {
     "id": 22493,
@@ -8769,7 +8769,7 @@
     "jaJP": "鋭牙のスレイヤー",
     "ptBR": "Homicida Navalhodonte",
     "ruRU": "Острозуб Истребитель",
-    "zhCN": "Sharptooth Slayer"
+    "zhCN": "利牙殺手"
   },
   {
     "id": 22494,
@@ -8786,7 +8786,7 @@
     "jaJP": "ヴィンヴィア・モレック",
     "ptBR": "Moloque Vinvear",
     "ruRU": "Винвеар Молох",
-    "zhCN": "Vinvear Molech"
+    "zhCN": "芬維爾‧摩洛克"
   },
   {
     "id": 22495,
@@ -8803,7 +8803,7 @@
     "jaJP": "ヘルズ・ベル",
     "ptBR": "Belle do Inferno",
     "ruRU": "Белладонна",
-    "zhCN": "Hell's Belle"
+    "zhCN": "地獄佳人"
   },
   {
     "id": 22496,
@@ -8820,7 +8820,7 @@
     "jaJP": "スナップチップ・シャッター",
     "ptBR": "Esfacelador Lascado",
     "ruRU": "Трескун Сотрясатель",
-    "zhCN": "Snapchip Shatter"
+    "zhCN": "碎冰"
   },
   {
     "id": 22497,
@@ -8837,7 +8837,7 @@
     "jaJP": "ピンドルスキン",
     "ptBR": "Pelefermo",
     "ruRU": "Пиндлскин",
-    "zhCN": "Pindleskin"
+    "zhCN": "暴皮"
   },
   {
     "id": 22498,
@@ -8854,7 +8854,7 @@
     "jaJP": "スレッシュ・ソケット",
     "ptBR": "Descascador",
     "ruRU": "Гнездовой молотитель",
-    "zhCN": "Thresh Socket"
+    "zhCN": "剝孔"
   },
   {
     "id": 22499,
@@ -8871,7 +8871,7 @@
     "jaJP": "解き放たれしアイバック",
     "ptBR": "Costolho, o Desenfreado",
     "ruRU": "Спиноок Высвобожденный",
-    "zhCN": "Eyeback the Unleashed"
+    "zhCN": "爆發者艾巴克"
   },
   {
     "id": 22500,
@@ -8888,7 +8888,7 @@
     "jaJP": "矯正者エルドリッチ",
     "ptBR": "Ancestral, o Retificador",
     "ruRU": "Зловещ Уравнитель",
-    "zhCN": "Eldritch the Rectifier"
+    "zhCN": "矯正者艾德瑞奇"
   },
   {
     "id": 22501,
@@ -8905,7 +8905,7 @@
     "jaJP": "ダック・ファレン",
     "ptBR": "Dac Farren",
     "ruRU": "Дак Фаррен",
-    "zhCN": "Dac Farren"
+    "zhCN": "達克法恩"
   },
   {
     "id": 22502,
@@ -8922,7 +8922,7 @@
     "jaJP": "ボーンソー・ブレイカー",
     "ptBR": "Destruidor Serra-ossos",
     "ruRU": "Пилорез Разбиватель",
-    "zhCN": "Bonesaw Breaker"
+    "zhCN": "骨鋸破壞者"
   },
   {
     "id": 22503,
@@ -8939,7 +8939,7 @@
     "jaJP": "アクス・ドゥウェラー",
     "ptBR": "Machadino",
     "ruRU": "Топорщик",
-    "zhCN": "Axe Dweller"
+    "zhCN": "居斧者"
   },
   {
     "id": 22504,
@@ -8956,7 +8956,7 @@
     "jaJP": "フローズンシュタイン",
     "ptBR": "Congelenstein",
     "ruRU": "Морозище",
-    "zhCN": "Frozenstein"
+    "zhCN": "冰凍怪魔"
   },
   {
     "id": 23966,
@@ -8973,7 +8973,7 @@
     "jaJP": "ステンドグラス",
     "ptBR": "Janela de Vitral",
     "ruRU": "Витраж",
-    "zhCN": "Stained Glass Window"
+    "zhCN": "彩玻璃窗"
   },
   {
     "id": 26802,
@@ -8990,7 +8990,7 @@
     "jaJP": "%sの屍",
     "ptBR": "Cadáver de %s",
     "ruRU": "%s – труп",
-    "zhCN": "%s Corpse"
+    "zhCN": "%s的屍體"
   },
   {
     "id": 27980,
@@ -9007,7 +9007,7 @@
     "jaJP": "防衛の精霊",
     "ptBR": "Espírito Defensor",
     "ruRU": "Дух-защитник",
-    "zhCN": "Defender Spirit"
+    "zhCN": "防禦者之靈"
   },
   {
     "id": 27981,
@@ -9024,7 +9024,7 @@
     "jaJP": "守護の精霊",
     "ptBR": "Espírito Guardião",
     "ruRU": "Дух-хранитель",
-    "zhCN": "Guardian Spirit"
+    "zhCN": "守護者之靈"
   },
   {
     "id": 27982,
@@ -9041,7 +9041,7 @@
     "jaJP": "擁護の精霊",
     "ptBR": "Espírito Protetor",
     "ruRU": "Дух-покровитель",
-    "zhCN": "Protector Spirit"
+    "zhCN": "保衛者之靈"
   },
   {
     "id": 28006,
@@ -9058,7 +9058,7 @@
     "jaJP": "ゴートマン",
     "ptBR": "Caprino",
     "ruRU": "Козлоногий",
-    "zhCN": "Goatman"
+    "zhCN": "羊頭人"
   },
   {
     "id": 28007,
@@ -9075,6 +9075,6 @@
     "jaJP": "ディファイラー",
     "ptBR": "Profanador",
     "ruRU": "Осквернитель",
-    "zhCN": "Defiler"
+    "zhCN": "褻瀆者"
   }
 ]

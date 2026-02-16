@@ -14,7 +14,7 @@
     "jaJP": "ここでは売れません。",
     "ptBR": "O item não pode ser negociado aqui.",
     "ruRU": "Этот предмет нельзя продать здесь.",
-    "zhCN": "Item cannot be traded here."
+    "zhCN": "無法在此交易這項物品。"
   },
   {
     "id": 3453,
@@ -31,7 +31,7 @@
     "jaJP": "ソケット（%i）",
     "ptBR": "Engastes (%i)",
     "ruRU": "С гнездами (%i)",
-    "zhCN": "ÿcOSocketed (%i)ÿc3"
+    "zhCN": "ÿcO鑲孔（%i）ÿc3"
   },
   {
     "id": 3454,
@@ -48,7 +48,7 @@
     "jaJP": "装備条件を満たしていません",
     "ptBR": "Requisitos não atendidos",
     "ruRU": "Требования не соблюдены",
-    "zhCN": "Requirements not met"
+    "zhCN": "不符合需求"
   },
   {
     "id": 3455,
@@ -65,7 +65,7 @@
     "jaJP": "未鑑定",
     "ptBR": "Não identificado",
     "ruRU": "Неопознанный предмет",
-    "zhCN": "Unidentified"
+    "zhCN": "尚未鑑定"
   },
   {
     "id": 3456,
@@ -82,7 +82,7 @@
     "jaJP": "使用可能数:",
     "ptBR": "Cargas:",
     "ruRU": "Зарядов:",
-    "zhCN": "Charges:"
+    "zhCN": "使用次數："
   },
   {
     "id": 3457,
@@ -99,7 +99,7 @@
     "jaJP": "耐久力: %i/%i",
     "ptBR": "Durabilidade: %i de %i",
     "ruRU": "Прочность: %i из %i",
-    "zhCN": "Durability(DUR): %i of %i"
+    "zhCN": "耐久度(DUR)：%i / %i"
   },
   {
     "id": 3458,
@@ -116,7 +116,7 @@
     "jaJP": "必要な筋力: %d",
     "ptBR": "Força necessária: %d",
     "ruRU": "Требуемая сила: %d",
-    "zhCN": "Required Strength: %d"
+    "zhCN": "需要力量：%d"
   },
   {
     "id": 3459,
@@ -133,7 +133,7 @@
     "jaJP": "必要な敏捷性: %d",
     "ptBR": "Destreza necessária: %d",
     "ruRU": "Требуемая ловкость: %d",
-    "zhCN": "Required Dexterity: %d"
+    "zhCN": "需要敏捷：%d"
   },
   {
     "id": 3460,
@@ -150,7 +150,7 @@
     "jaJP": "ダメージ:",
     "ptBR": "Dano:",
     "ruRU": "Урон:",
-    "zhCN": "Damage:"
+    "zhCN": "傷害："
   },
   {
     "id": 3461,
@@ -167,7 +167,7 @@
     "jaJP": "防御力: %d",
     "ptBR": "Defesa: %d",
     "ruRU": "Защита: %d",
-    "zhCN": "Defense: %d"
+    "zhCN": "防禦：%d"
   },
   {
     "id": 3462,
@@ -184,7 +184,7 @@
     "jaJP": "数量: %d/%d",
     "ptBR": "Quantidade: %d de %d",
     "ruRU": "Количество: %d из %d",
-    "zhCN": "Quantity: %d of %d"
+    "zhCN": "數量：%d / %d"
   },
   {
     "id": 3463,
@@ -201,7 +201,7 @@
     "jaJP": "/",
     "ptBR": "de",
     "ruRU": "из",
-    "zhCN": "of"
+    "zhCN": "/"
   },
   {
     "id": 3464,
@@ -218,7 +218,7 @@
     "jaJP": "に",
     "ptBR": "para",
     "ruRU": "до",
-    "zhCN": "to"
+    "zhCN": "至"
   },
   {
     "id": 3465,
@@ -235,7 +235,7 @@
     "jaJP": "片手持ちダメージ: %d - %d",
     "ptBR": "Dano de uma mão: %d a %d",
     "ruRU": "Урон от одноручного оружия: %d–%d",
-    "zhCN": "One-Hand Damage: %d to %d"
+    "zhCN": "單手傷害：%d - %d 點"
   },
   {
     "id": 3466,
@@ -252,7 +252,7 @@
     "jaJP": "両手持ちダメージ: %d - %d",
     "ptBR": "Dano de duas mãos: %d a %d",
     "ruRU": "Урон от двуручного оружия: %d–%d",
-    "zhCN": "Two-Hand Damage: %d to %d"
+    "zhCN": "雙手傷害：%d - %d 點"
   },
   {
     "id": 3467,
@@ -269,7 +269,7 @@
     "jaJP": "投てきダメージ: %d",
     "ptBR": "Dano de arremesso: %d",
     "ruRU": "Урон от метательного оружия: %d",
-    "zhCN": "Throw Damage: %d"
+    "zhCN": "投擲傷害：%d 點"
   },
   {
     "id": 3468,
@@ -286,7 +286,7 @@
     "jaJP": "盾攻撃ダメージ: %d - %d",
     "ptBR": "Dano de Castigo: %d a %d",
     "ruRU": "%d–%d урона от щита",
-    "zhCN": "Smite Damage: %d to %d"
+    "zhCN": "重擊傷害：%d - %d 點"
   },
   {
     "id": 3469,
@@ -303,7 +303,7 @@
     "jaJP": "必要レベル: %d",
     "ptBR": "Nível necessário: %d",
     "ruRU": "Требуемый уровень: %d-й",
-    "zhCN": "Required Level: %d"
+    "zhCN": "需要等級：%d"
   },
   {
     "id": 3470,
@@ -320,7 +320,7 @@
     "jaJP": "ポイント: %d",
     "ptBR": "Pontos: %d",
     "ruRU": "Восполняет %d ед.",
-    "zhCN": "Points: %d"
+    "zhCN": "點數：%d"
   },
   {
     "id": 3471,
@@ -337,7 +337,7 @@
     "jaJP": "ライフとマナを回復（%d%%）",
     "ptBR": "Cura %d%% de pontos de vida e mana",
     "ruRU": "Восполняет %d%% здоровья и маны.",
-    "zhCN": "Heals %d%% Life and Mana"
+    "zhCN": "恢復 %d%% 的生命和法力"
   },
   {
     "id": 3472,
@@ -354,7 +354,7 @@
     "jaJP": "ライフとマナを完全回復",
     "ptBR": "Cura 100% de pontos de vida e mana",
     "ruRU": "Восполняет 100% здоровья и маны",
-    "zhCN": "Heals 100% Life and Mana"
+    "zhCN": "恢復 100% 的生命和法力"
   },
   {
     "id": 3473,
@@ -371,7 +371,7 @@
     "jaJP": "筋力（%+d）",
     "ptBR": "%+d de força",
     "ruRU": "%+d к силе",
-    "zhCN": "%+d to Strength(STR)"
+    "zhCN": "%+d 力量(STR)"
   },
   {
     "id": 3474,
@@ -388,7 +388,7 @@
     "jaJP": "敏捷性（%+d）",
     "ptBR": "%+d de destreza",
     "ruRU": "%+d к ловкости",
-    "zhCN": "%+d to Dexterity(DEX)"
+    "zhCN": "%+d 敏捷(DEX)"
   },
   {
     "id": 3475,
@@ -405,7 +405,7 @@
     "jaJP": "生命力（%+d）",
     "ptBR": "%+d de vitalidade",
     "ruRU": "%+d к живучести",
-    "zhCN": "%+d to Vitality(VIT)"
+    "zhCN": "%+d 體能(VIT)"
   },
   {
     "id": 3476,
@@ -422,7 +422,7 @@
     "jaJP": "エナジー（%+d）",
     "ptBR": "%+d de energia",
     "ruRU": "%+d к энергии",
-    "zhCN": "%+d to Energy(ENG)"
+    "zhCN": "%+d 能量(ENG)"
   },
   {
     "id": 3477,
@@ -439,7 +439,7 @@
     "jaJP": "マナ（%+d）",
     "ptBR": "%+d de mana",
     "ruRU": "%+d к мане",
-    "zhCN": "%+d to Mana(Mana)"
+    "zhCN": "%+d 法力(Mana)"
   },
   {
     "id": 3478,
@@ -456,7 +456,7 @@
     "jaJP": "最大ダメージ（%+d）",
     "ptBR": "%+d de dano máximo",
     "ruRU": "%+d к максимальному урону",
-    "zhCN": "%+d to Maximum Damage(MAX)"
+    "zhCN": "%+d 最大傷害(MAX)"
   },
   {
     "id": 3479,
@@ -473,7 +473,7 @@
     "jaJP": "最小ダメージ（%+d）",
     "ptBR": "%+d de dano mínimo",
     "ruRU": "%+d к минимальному урону",
-    "zhCN": "%+d to Minimum Damage(MIN)"
+    "zhCN": "%+d 最小傷害(MIN)"
   },
   {
     "id": 3480,
@@ -490,7 +490,7 @@
     "jaJP": "命中率（%+d）",
     "ptBR": "%+d de taxa de ataque",
     "ruRU": "%+d к рейтингу атаки",
-    "zhCN": "%+d to Attack Rating(AR)"
+    "zhCN": "%+d 準確率(AR)"
   },
   {
     "id": 3481,
@@ -507,7 +507,7 @@
     "jaJP": "防御力（%+d）",
     "ptBR": "%+d de defesa",
     "ruRU": "%+d к защите",
-    "zhCN": "%+d Defense(DEF)"
+    "zhCN": "%+d 防禦(DEF)"
   },
   {
     "id": 3482,
@@ -524,7 +524,7 @@
     "jaJP": "火炎耐性（%+d%%）",
     "ptBR": "Resistência a fogo %+d%%",
     "ruRU": "%+d%% к сопротивлению огню",
-    "zhCN": "ÿc1Fire Resist(FR) %+d%%ÿc3"
+    "zhCN": "ÿc1火焰抗性(FR) %+d%%ÿc3"
   },
   {
     "id": 3483,
@@ -541,7 +541,7 @@
     "jaJP": "冷気耐性（%+d%%）",
     "ptBR": "Resistência a gelo %+d%%",
     "ruRU": "%+d%% к сопротивлению льду",
-    "zhCN": "ÿcTCold Resist(CR) %+d%%ÿc3"
+    "zhCN": "ÿcT冰寒抗性(CR) %+d%%ÿc3"
   },
   {
     "id": 3484,
@@ -558,7 +558,7 @@
     "jaJP": "電撃耐性（%+d%%）",
     "ptBR": "Resistência elétrica %+d%%",
     "ruRU": "%+d%% к сопротивлению молнии",
-    "zhCN": "ÿc9Lightning Resist(LR) %+d%%ÿc3"
+    "zhCN": "ÿc9電擊抗性(LR) %+d%%ÿc3"
   },
   {
     "id": 3485,
@@ -575,7 +575,7 @@
     "jaJP": "魔法耐性（%+d%%）",
     "ptBR": "Resistência a magia %+d%%",
     "ruRU": "%+d%% к сопротивлению магии",
-    "zhCN": "Magic Resist(MR) %+d%%"
+    "zhCN": "魔法抗性(MR) %+d%%"
   },
   {
     "id": 3486,
@@ -592,7 +592,7 @@
     "jaJP": "毒物耐性（%+d%%）",
     "ptBR": "Resistência a veneno %+d%%",
     "ruRU": "%+d%% к сопротивлению яду",
-    "zhCN": "ÿc2Poison Resist(PR) %+d%%ÿc3"
+    "zhCN": "ÿc2毒素抗性(PR) %+d%%ÿc3"
   },
   {
     "id": 3487,
@@ -609,7 +609,7 @@
     "jaJP": "最大火炎ダメージ（%+d）",
     "ptBR": "%+d de dano ígneo máximo",
     "ruRU": "%+d к максимальному урону от огня",
-    "zhCN": "%+d to Maximum Fire Damage(Max FD)"
+    "zhCN": "%+d 火焰傷害最大值(Max FD)"
   },
   {
     "id": 3488,
@@ -626,7 +626,7 @@
     "jaJP": "最小火炎ダメージ（%+d）",
     "ptBR": "%+d de dano ígneo mínimo",
     "ruRU": "%+d к минимальному урону от огня",
-    "zhCN": "%+d to Minimum Fire Damage(Min FD)"
+    "zhCN": "%+d 火焰傷害最小值(Min FD)"
   },
   {
     "id": 3489,
@@ -643,7 +643,7 @@
     "jaJP": "最大電撃ダメージ（%+d）",
     "ptBR": "%+d de dano elétrico máximo",
     "ruRU": "%+d к максимальному урону от молнии",
-    "zhCN": "%+d to Maximum Lightning Damage(Max LD)"
+    "zhCN": "%+d 電擊傷害最大值(Max LD)"
   },
   {
     "id": 3490,
@@ -660,7 +660,7 @@
     "jaJP": "最小電撃ダメージ（%+d）",
     "ptBR": "%+d de dano elétrico mínimo",
     "ruRU": "%+d к минимальному урону от молнии",
-    "zhCN": "%+d to Minimum Lightning Damage(Min LD)"
+    "zhCN": "%+d 電擊傷害最小值(Min LD)"
   },
   {
     "id": 3491,
@@ -677,7 +677,7 @@
     "jaJP": "最大冷気ダメージ（%+d）",
     "ptBR": "%+d de dano gélido máximo",
     "ruRU": "%+d к максимальному урону от льда",
-    "zhCN": "%+d to Maximum Cold Damage(Max CD)"
+    "zhCN": "%+d 冰寒傷害最大值(Max CD)"
   },
   {
     "id": 3492,
@@ -694,7 +694,7 @@
     "jaJP": "最小冷気ダメージ（%+d）",
     "ptBR": "%+d de dano gélido mínimo",
     "ruRU": "%+d к минимальному урону от льда",
-    "zhCN": "%+d to Minimum Cold Damage(Min CD)"
+    "zhCN": "%+d 冰寒傷害最小值(Min CD)"
   },
   {
     "id": 3493,
@@ -711,7 +711,7 @@
     "jaJP": "ライフ（%+d）",
     "ptBR": "%+d de pontos de vida",
     "ruRU": "%+d к здоровью",
-    "zhCN": "%+d to Life(Life)"
+    "zhCN": "%+d 生命(Life)"
   },
   {
     "id": 3494,
@@ -728,7 +728,7 @@
     "jaJP": "反撃ダメージ（%d）を与える",
     "ptBR": "Agressor recebe %d de dano",
     "ruRU": "Атакующий получает %d урона",
-    "zhCN": "Attacker Takes Damage of(ATD) %d"
+    "zhCN": "攻擊者反傷(ATD)：%d"
   },
   {
     "id": 3497,
@@ -745,7 +745,7 @@
     "jaJP": "ノックバック",
     "ptBR": "Repulsão",
     "ruRU": "Отбрасывает врагов",
-    "zhCN": "Knockback(KB)"
+    "zhCN": "擊退(KB)"
   },
   {
     "id": 3498,
@@ -762,7 +762,7 @@
     "jaJP": "力のエリクサー",
     "ptBR": "Elixir de Força",
     "ruRU": "Эликсир силы",
-    "zhCN": "Elixir of Strength"
+    "zhCN": "力量靈藥"
   },
   {
     "id": 3499,
@@ -779,7 +779,7 @@
     "jaJP": "敏捷性のエリクサー",
     "ptBR": "Elixir de Destreza",
     "ruRU": "Эликсир ловкости",
-    "zhCN": "Elixir of Dexterity"
+    "zhCN": "敏捷靈藥"
   },
   {
     "id": 3500,
@@ -796,7 +796,7 @@
     "jaJP": "エナジーのエリクサー",
     "ptBR": "Elixir de Energia",
     "ruRU": "Эликсир энергии",
-    "zhCN": "Elixir of Energy"
+    "zhCN": "能量靈藥"
   },
   {
     "id": 3501,
@@ -813,7 +813,7 @@
     "jaJP": "生命力のエリクサー",
     "ptBR": "Elixir de Vitalidade",
     "ruRU": "Эликсир живучести",
-    "zhCN": "Elixir of Vitality"
+    "zhCN": "體能靈藥"
   },
   {
     "id": 3502,
@@ -830,7 +830,7 @@
     "jaJP": "マナのエリクサー",
     "ptBR": "Elixir de Mana",
     "ruRU": "Эликсир маны",
-    "zhCN": "Elixir of Mana"
+    "zhCN": "法力靈藥"
   },
   {
     "id": 3503,
@@ -847,7 +847,7 @@
     "jaJP": "ライフのエリクサー",
     "ptBR": "Elixir de Vida",
     "ruRU": "Эликсир здоровья",
-    "zhCN": "Elixir of Life"
+    "zhCN": "生命靈藥"
   },
   {
     "id": 3504,
@@ -864,7 +864,7 @@
     "jaJP": "秒間持続",
     "ptBR": "Duração em segundos",
     "ruRU": "сек. времени действия",
-    "zhCN": "Sec. Duration"
+    "zhCN": "持續秒數"
   },
   {
     "id": 3505,
@@ -881,7 +881,7 @@
     "jaJP": "ライフの最大値上昇（%d%%）",
     "ptBR": "Aumenta o máximo de pontos de vida em %d%%",
     "ruRU": "+%d%% к максимальному запасу здоровья",
-    "zhCN": "Increase Maximum Life(Max Life) %d%%"
+    "zhCN": "生命上限提高(Max Life) %d%%"
   },
   {
     "id": 3506,
@@ -898,7 +898,7 @@
     "jaJP": "マナの最大値上昇（%d%%）",
     "ptBR": "Aumenta o máximo de mana em %d%%",
     "ruRU": "+%d%% к максимальному запасу маны",
-    "zhCN": "Increase Maximum Mana(Max Mana) %d%%"
+    "zhCN": "法力上限提高(Max Mana) %d%%"
   },
   {
     "id": 3507,
@@ -915,7 +915,7 @@
     "jaJP": "耐久力の最大値上昇（%d%%）",
     "ptBR": "Aumenta a durabilidade máxima em %d%%",
     "ruRU": "+%d%% к максимальной прочности",
-    "zhCN": "Increase Maximum Durability(Max DUR) %d%%"
+    "zhCN": "耐久度上限提高(Max DUR) %d%%"
   },
   {
     "id": 3508,
@@ -932,7 +932,7 @@
     "jaJP": "最大ダメージ強化（%+d%%）",
     "ptBR": "%+d%% de dano máximo aprimorado",
     "ruRU": "%+d%% к максимальному урону",
-    "zhCN": "%+d%% Enhanced Maximum Damage"
+    "zhCN": "%+d%% 最大傷害強化"
   },
   {
     "id": 3509,
@@ -949,7 +949,7 @@
     "jaJP": "最小ダメージ強化（%+d%%）",
     "ptBR": "%+d%% de dano mínimo aprimorado",
     "ruRU": "%+d%% к минимальному урону",
-    "zhCN": "%+d%% Enhanced Minimum Damage"
+    "zhCN": "%+d%% 最小傷害強化"
   },
   {
     "id": 3510,
@@ -966,7 +966,7 @@
     "jaJP": "ライフをゆっくりと回復（%+d）",
     "ptBR": "Restaura pontos de vida em %+d",
     "ruRU": "Восполняет %+d здоровья",
-    "zhCN": "Replenish Life(Life Rep) %+d"
+    "zhCN": "生命回復(Life Rep) %+d"
   },
   {
     "id": 3511,
@@ -983,7 +983,7 @@
     "jaJP": "マナをゆっくりと回復",
     "ptBR": "Restauração de mana",
     "ruRU": "Восполнение маны",
-    "zhCN": "Replenish Mana(Mana Rep)"
+    "zhCN": "回復法力(Mana Rep)"
   },
   {
     "id": 3512,
@@ -1000,7 +1000,7 @@
     "jaJP": "ライフを回復（25%%）",
     "ptBR": "Cura 1/4 de vida",
     "ruRU": "Восполняет 1/4 здоровья",
-    "zhCN": "Heal 1/4 Life"
+    "zhCN": "醫治 1/4 生命"
   },
   {
     "id": 3513,
@@ -1017,7 +1017,7 @@
     "jaJP": "ライフを回復（50%%）",
     "ptBR": "Cura 1/2 vida",
     "ruRU": "Восполняет 1/2 здоровья",
-    "zhCN": "Heal 1/2 Life"
+    "zhCN": "醫治 1/2 生命"
   },
   {
     "id": 3514,
@@ -1034,7 +1034,7 @@
     "jaJP": "ライフを完全回復",
     "ptBR": "Recuperação de vida integral",
     "ruRU": "Полное восполнение здоровья",
-    "zhCN": "Restore Full Life"
+    "zhCN": "醫治所有生命"
   },
   {
     "id": 3515,
@@ -1051,7 +1051,7 @@
     "jaJP": "マナをゆっくりと回復（25%%）",
     "ptBR": "Restaura 1/4 de mana",
     "ruRU": "Восполняет 1/4 маны",
-    "zhCN": "Replenish 1/4 Mana"
+    "zhCN": "回復 1/4 法力"
   },
   {
     "id": 3516,
@@ -1068,7 +1068,7 @@
     "jaJP": "ライフをゆっくりと回復（50%%）",
     "ptBR": "Restaura 1/2 vida",
     "ruRU": "Восполняет 1/2 здоровья",
-    "zhCN": "Replenish 1/2 Life"
+    "zhCN": "回復 1/2 生命"
   },
   {
     "id": 3517,
@@ -1085,7 +1085,7 @@
     "jaJP": "マナを完全回復",
     "ptBR": "Recuperação de mana integral",
     "ruRU": "Полностью восполняет ману",
-    "zhCN": "Restore Full Mana"
+    "zhCN": "回復所有法力"
   },
   {
     "id": 3518,
@@ -1102,7 +1102,7 @@
     "jaJP": "魔法ダメージを軽減（%d）",
     "ptBR": "Dano mágico reduzido em %d",
     "ruRU": "–%d к магическому урону",
-    "zhCN": "Magic Damage Reduced by(MDR) %d"
+    "zhCN": "魔法傷害降低(MDR) %d"
   },
   {
     "id": 3519,
@@ -1119,7 +1119,7 @@
     "jaJP": "ダメージを軽減（%d）",
     "ptBR": "Dano reduzido em %d",
     "ruRU": "–%d к урону",
-    "zhCN": "Damage Reduced by(DR) %d"
+    "zhCN": "傷害降低(DR) %d"
   },
   {
     "id": 3520,
@@ -1136,7 +1136,7 @@
     "jaJP": "防御力を強化（%+d%%）",
     "ptBR": "%+d%% de defesa aprimorada",
     "ruRU": "%+d%% к защите",
-    "zhCN": "%+d%% Enhanced Defense(EDef)"
+    "zhCN": "%+d%% 防禦強化(EDef)"
   },
   {
     "id": 3521,
@@ -1153,7 +1153,7 @@
     "jaJP": "ライフに継続ダメージ（%d）",
     "ptBR": "Drenagem de vida %d",
     "ruRU": "Похищает %d здоровья",
-    "zhCN": "Drain Life %d"
+    "zhCN": "吸取生命 %d"
   },
   {
     "id": 3522,
@@ -1170,7 +1170,7 @@
     "jaJP": "マナに継続ダメージ",
     "ptBR": "Drenagem de mana",
     "ruRU": "Похищение маны",
-    "zhCN": "Drain Mana"
+    "zhCN": "吸取法力"
   },
   {
     "id": 3523,
@@ -1187,7 +1187,7 @@
     "jaJP": "攻撃命中でマナを吸収（与ダメージの%d%%）",
     "ptBR": "%d%% de mana roubado por acerto",
     "ruRU": "Похищает %d%% маны за удар",
-    "zhCN": "ÿc3%d%% Mana stolen per hit(LM)ÿc3"
+    "zhCN": "ÿc3擊中竊取 %d%% 法力(LM)ÿc3"
   },
   {
     "id": 3524,
@@ -1204,7 +1204,7 @@
     "jaJP": "攻撃命中でライフを吸収（与ダメージの%d%%）",
     "ptBR": "%d%% de pontos de vida roubados por acerto",
     "ruRU": "Похищает %d%% здоровья за удар",
-    "zhCN": "ÿcU%d%% Life stolen per hit(LL)ÿc3"
+    "zhCN": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3"
   },
   {
     "id": 3525,
@@ -1221,7 +1221,7 @@
     "jaJP": "〈アマゾネス〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Amazona",
     "ruRU": "%+d к уровню умений амазонки",
-    "zhCN": "ÿc8%+d to Amazon Skill Levels(AMA)ÿc3"
+    "zhCN": "ÿc8%+d 亞馬遜技能等級(AMA)ÿc3"
   },
   {
     "id": 3526,
@@ -1238,7 +1238,7 @@
     "jaJP": "〈パラディン〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Paladino",
     "ruRU": "%+d к уровню умений паладина",
-    "zhCN": "ÿc8%+d to Paladin Skill Levels(PAL)ÿc3"
+    "zhCN": "ÿc8%+d 聖騎士技能等級(PAL)ÿc3"
   },
   {
     "id": 3527,
@@ -1255,7 +1255,7 @@
     "jaJP": "〈ネクロマンサー〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Necromante",
     "ruRU": "%+d к уровню умений некроманта",
-    "zhCN": "ÿc8%+d to Necromancer Skill Levels(NEC)ÿc3"
+    "zhCN": "ÿc8%+d 死靈法師技能等級(NEC)ÿc3"
   },
   {
     "id": 3528,
@@ -1272,7 +1272,7 @@
     "jaJP": "〈ソーサレス〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Maga",
     "ruRU": "%+d к уровню умений волшебницы",
-    "zhCN": "ÿc8%+d to Sorceress Skill Levels(SOR)ÿc3"
+    "zhCN": "ÿc8%+d 魔法使技能等級(SOR)ÿc3"
   },
   {
     "id": 3529,
@@ -1289,7 +1289,7 @@
     "jaJP": "〈バーバリアン〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Bárbaro",
     "ruRU": "%+d к уровню умений варвара",
-    "zhCN": "ÿc8%+d to Barbarian Skill Levels(BAR)ÿc3"
+    "zhCN": "ÿc8%+d 野蠻人技能等級(BAR)ÿc3"
   },
   {
     "id": 3530,
@@ -1306,7 +1306,7 @@
     "jaJP": "明かりの範囲（%+d）",
     "ptBR": "%+d de raio de visibilidade",
     "ruRU": "%+d к радиусу обзора",
-    "zhCN": "%+d to Light Radius(Light Radius)"
+    "zhCN": "照亮範圍(Light Radius) %+d"
   },
   {
     "id": 3531,
@@ -1323,7 +1323,7 @@
     "jaJP": "ブロック確率上昇（%d%%）",
     "ptBR": "%d%% de chance adicional de bloqueio",
     "ruRU": "Вероятность %d%% заблокировать удар",
-    "zhCN": "%d%% Increased Chance of Blocking(CTB)"
+    "zhCN": "格擋機率提高(CTB) %d%%"
   },
   {
     "id": 3532,
@@ -1340,7 +1340,7 @@
     "jaJP": "必要ステータス（%+d%%）",
     "ptBR": "Requisitos %+d%%",
     "ruRU": "Требования: %+d%%",
-    "zhCN": "Requirements(REQ) %+d%%"
+    "zhCN": "需求(REQ) %+d%%"
   },
   {
     "id": 3533,
@@ -1357,7 +1357,7 @@
     "jaJP": "〈火炎〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades ígneas",
     "ruRU": "%+d к умениям огня",
-    "zhCN": "ÿc8%+d to Fire Skillsÿc3"
+    "zhCN": "ÿc8%+d 火焰技能ÿc3"
   },
   {
     "id": 3534,
@@ -1374,7 +1374,7 @@
     "jaJP": "攻撃を受けると電撃ダメージ（%d）を反射",
     "ptBR": "Agressor recebe %d de dano elétrico",
     "ruRU": "Атакующий получает %d урона от молнии",
-    "zhCN": "Attacker Takes Lightning Damage of %d"
+    "zhCN": "攻擊者受到 %d 點電擊傷害"
   },
   {
     "id": 3535,
@@ -1391,7 +1391,7 @@
     "jaJP": "全スキル向上（%+d）",
     "ptBR": "%+d para todas as habilidades",
     "ruRU": "%+d ко всем умениям",
-    "zhCN": "ÿc8%+d to All Skills(All Skills)ÿc3"
+    "zhCN": "ÿc8%+d 所有技能(All Skills)ÿc3"
   },
   {
     "id": 3536,
@@ -1408,7 +1408,7 @@
     "jaJP": "ターゲットを凍結させる",
     "ptBR": "Congela o alvo",
     "ruRU": "Замораживает цель",
-    "zhCN": "Freezes target(FT)"
+    "zhCN": "凍結目標(FT)"
   },
   {
     "id": 3537,
@@ -1425,7 +1425,7 @@
     "jaJP": "出血状態を付与（%+d%%）",
     "ptBR": "%+d%% de chance de Feridas Abertas",
     "ruRU": "%+d%% к вероятности нанести открытую рану",
-    "zhCN": "%+d%% Chance of Open Wounds(OW)"
+    "zhCN": "%+d%% 機率造成開放傷口(OW)"
   },
   {
     "id": 3538,
@@ -1442,7 +1442,7 @@
     "jaJP": "インビジビリティ（透明化）",
     "ptBR": "Invisibilidade",
     "ruRU": "Невидимость",
-    "zhCN": "Invisibility"
+    "zhCN": "隱形"
   },
   {
     "id": 3539,
@@ -1459,7 +1459,7 @@
     "jaJP": "ニュートラル・インビジビリティ（透明化）",
     "ptBR": "Invisibilidade neutra",
     "ruRU": "Нейтральная невидимость",
-    "zhCN": "Neutral Invisibility"
+    "zhCN": "天生隱形"
   },
   {
     "id": 3540,
@@ -1476,7 +1476,7 @@
     "jaJP": "マナが回復しなくなる",
     "ptBR": "Sem cura de mana",
     "ruRU": "Не позволяет восполнять ману",
-    "zhCN": "No Mana Healing"
+    "zhCN": "無法力治療"
   },
   {
     "id": 3541,
@@ -1493,7 +1493,7 @@
     "jaJP": "ライフが回復しなくなる",
     "ptBR": "Sem cura de vida",
     "ruRU": "Не позволяет лечиться",
-    "zhCN": "No Life Healing"
+    "zhCN": "無生命治療"
   },
   {
     "id": 3542,
@@ -1510,7 +1510,7 @@
     "jaJP": "毒の効果時間短縮（%d%%）",
     "ptBR": "Duração de veneno reduzida em %d%%",
     "ruRU": "Сокращает время действия яда на %d%%",
-    "zhCN": "Poison Length Reduced by(PLR) %d%%"
+    "zhCN": "中毒的時效縮短(PLR) %d%%"
   },
   {
     "id": 3544,
@@ -1527,7 +1527,7 @@
     "jaJP": "スタミナ回復速度上昇（+%d%%）",
     "ptBR": "Recupera vigor em %d%%",
     "ruRU": "Ускоряет восполнение выносливости на %d%%",
-    "zhCN": "Heal Stamina Plus(Heal STA) %d%%"
+    "zhCN": "精力恢復(Heal STA) +%d%%"
   },
   {
     "id": 3545,
@@ -1544,7 +1544,7 @@
     "jaJP": "受けたダメージの%+d%%をマナに変換",
     "ptBR": "%+d%% do dano recebido transforma-se em mana",
     "ruRU": "%+d%% к урону, приходящемуся на ману",
-    "zhCN": "%+d%% Damage Taken Goes To Mana(DTM)"
+    "zhCN": "%+d%% 受到的傷害轉為法力(DTM)"
   },
   {
     "id": 3546,
@@ -1561,7 +1561,7 @@
     "jaJP": "ライフ回復速度上昇",
     "ptBR": "Cura de vida adicional",
     "ruRU": "Усиливает исцеление",
-    "zhCN": "Heal Life Plus"
+    "zhCN": "回復生命加"
   },
   {
     "id": 3547,
@@ -1578,7 +1578,7 @@
     "jaJP": "ターゲットの防御力を無視",
     "ptBR": "Ignora defesa do alvo",
     "ruRU": "Игнорирует защиту цели",
-    "zhCN": "Ignore Target's Defense(ITD)"
+    "zhCN": "無視目標防禦(ITD)"
   },
   {
     "id": 3548,
@@ -1595,7 +1595,7 @@
     "jaJP": "毒の効果時間短縮（50%%）",
     "ptBR": "Metade da duração de veneno",
     "ruRU": "Вдвое уменьшает время действия яда",
-    "zhCN": "Half Poison Duration(HPD)"
+    "zhCN": "中毒的時效減半(HPD)"
   },
   {
     "id": 3549,
@@ -1612,7 +1612,7 @@
     "jaJP": "モンスターの回復を阻止",
     "ptBR": "Impede cura de monstros",
     "ruRU": "Запрещает монстрам лечиться",
-    "zhCN": "Prevent Monster Heal(PMH)"
+    "zhCN": "防止怪物自療(PMH)"
   },
   {
     "id": 3550,
@@ -1629,7 +1629,7 @@
     "jaJP": "凍結の効果時間短縮（50%%）",
     "ptBR": "Metade da duração de congelamento",
     "ruRU": "Вдвое уменьшает время заморозки",
-    "zhCN": "Half Freeze Duration(HFD)"
+    "zhCN": "被凍結的時效減半(HFD)"
   },
   {
     "id": 3552,
@@ -1646,7 +1646,7 @@
     "jaJP": "攻撃命中でモンスターの防御力低下（%d）",
     "ptBR": "%d de defesa de monstro por acerto",
     "ruRU": "%d к защите от монстров за удар",
-    "zhCN": "%d to Monster Defense Per Hit"
+    "zhCN": "擊中使怪物防禦 %d"
   },
   {
     "id": 3553,
@@ -1663,7 +1663,7 @@
     "jaJP": "デーモンへのダメージ（%+d%%）",
     "ptBR": "%+d%% de dano contra demônios",
     "ruRU": "%+d%% к урону по демонам",
-    "zhCN": "%+d%% Damage to Demons(DTD)"
+    "zhCN": "%+d%% 對惡魔的傷害(DTD)"
   },
   {
     "id": 3554,
@@ -1680,7 +1680,7 @@
     "jaJP": "アンデッドへのダメージ（%+d%%）",
     "ptBR": "%+d%% de dano contra mortos-vivos",
     "ruRU": "%+d%% урона по нежити",
-    "zhCN": "%+d%% Damage to Undead(DTU)"
+    "zhCN": "%+d%% 對不死怪物的傷害(DTU)"
   },
   {
     "id": 3555,
@@ -1697,7 +1697,7 @@
     "jaJP": "マナ回復速度上昇（+%d%%）",
     "ptBR": "Regenera mana em %d%%",
     "ruRU": "Восполняет %d%% маны",
-    "zhCN": "Regenerate Mana(Reg Mana) %d%%"
+    "zhCN": "法力恢復(Reg Mana) %d%%"
   },
   {
     "id": 3556,
@@ -1714,7 +1714,7 @@
     "jaJP": "最大毒ダメージ（%+d）",
     "ptBR": "%+d de dano venenoso máximo",
     "ruRU": "%+d к максимальному урону от яда",
-    "zhCN": "%+d to Maximum Poison Damage(Max PD)"
+    "zhCN": "%+d 毒素傷害最大值(Max PD)"
   },
   {
     "id": 3557,
@@ -1731,7 +1731,7 @@
     "jaJP": "最小毒ダメージ（%+d）",
     "ptBR": "%+d de dano venenoso mínimo",
     "ruRU": "%+d к минимальному урону от яда",
-    "zhCN": "%+d to Minimum Poison Damage(Min PD)"
+    "zhCN": "%+d 毒素傷害最小值(Min PD)"
   },
   {
     "id": 3558,
@@ -1748,7 +1748,7 @@
     "jaJP": "デーモンへの命中率（%+d）",
     "ptBR": "%+d de taxa de ataque contra demônios",
     "ruRU": "%+d к рейтингу атаки против демонов",
-    "zhCN": "%+d to Attack Rating against Demons(ARD)"
+    "zhCN": "%+d 對惡魔的準確率(ARD)"
   },
   {
     "id": 3559,
@@ -1765,7 +1765,7 @@
     "jaJP": "アンデッドへの命中率（%+d）",
     "ptBR": "%+d de taxa de ataque contra mortos-vivos",
     "ruRU": "%+d к рейтингу атаки против нежити",
-    "zhCN": "%+d to Attack Rating against Undead(ARU)"
+    "zhCN": "%+d 對不死怪物的準確率(ARU)"
   },
   {
     "id": 3560,
@@ -1782,7 +1782,7 @@
     "jaJP": "攻撃速度上昇（小）",
     "ptBR": "Velocidade de ataque ligeiramente aumentada",
     "ruRU": "Скорость атаки слегка повышена",
-    "zhCN": "ÿc;Slightly Increased Attack Speed(IAS)ÿc3"
+    "zhCN": "ÿc;小幅攻擊速度提高(IAS)ÿc3"
   },
   {
     "id": 3561,
@@ -1799,7 +1799,7 @@
     "jaJP": "攻撃速度（%+d%%）",
     "ptBR": "%+d%% de velocidade de ataque adicional",
     "ruRU": "%+d%% к скорости атаки",
-    "zhCN": "ÿc;%+d%% Increased Attack Speed(IAS)ÿc3"
+    "zhCN": "ÿc;攻擊速度(IAS) %+d%%ÿc3"
   },
   {
     "id": 3562,
@@ -1816,7 +1816,7 @@
     "jaJP": "攻撃速度上昇（大）",
     "ptBR": "Velocidade de ataque consideravelmente aumentada",
     "ruRU": "Скорость атаки значительно повышена",
-    "zhCN": "ÿc;Greatly Increased Attack Speed(IAS)ÿc3"
+    "zhCN": "ÿc;大幅攻擊速度提高(IAS)ÿc3"
   },
   {
     "id": 3563,
@@ -1833,7 +1833,7 @@
     "jaJP": "ヒットリカバリー速度上昇",
     "ptBR": "Recuperação de golpe rápida",
     "ruRU": "Быстрое восстановление от ударов",
-    "zhCN": "Fast Hit Recovery(FHR)"
+    "zhCN": "快速的打擊恢復(FHR)"
   },
   {
     "id": 3564,
@@ -1850,7 +1850,7 @@
     "jaJP": "ヒットリカバリー速度（%+d%%）",
     "ptBR": "Recuperação de golpe %+d%% mais rápida",
     "ruRU": "%+d%% к ускоренному восстановлению от удара",
-    "zhCN": "%+d%% Faster Hit Recovery(FHR)"
+    "zhCN": "%+d%% 打擊恢復(FHR)"
   },
   {
     "id": 3565,
@@ -1867,7 +1867,7 @@
     "jaJP": "ヒットリカバリー速度上昇（大）",
     "ptBR": "Recuperação de golpe mais rápida",
     "ruRU": "Очень быстрое восстановление от ударов",
-    "zhCN": "Fastest Hit Recovery(FHR)"
+    "zhCN": "最快的打擊恢復(FHR)"
   },
   {
     "id": 3566,
@@ -1884,7 +1884,7 @@
     "jaJP": "歩き/走り速度上昇",
     "ptBR": "Correr/andar rápidas",
     "ruRU": "Скорость ходьбы и бега повышена",
-    "zhCN": "Fast Run/Walk(FRW)"
+    "zhCN": "快速的跑步 / 行走速度(FRW)"
   },
   {
     "id": 3567,
@@ -1901,7 +1901,7 @@
     "jaJP": "歩き/走り速度（%+d%%）",
     "ptBR": "Correr/andar %+d%% mais rápidas",
     "ruRU": "%+d%% к скорости ходьбы и бега",
-    "zhCN": "ÿc;%+d%% Faster Run/Walk(FRW)ÿc3"
+    "zhCN": "ÿc;%+d%% 跑步 / 行走速度(FRW)ÿc3"
   },
   {
     "id": 3568,
@@ -1918,7 +1918,7 @@
     "jaJP": "歩き/走り速度上昇（大）",
     "ptBR": "Correr/andar mais rápidas",
     "ruRU": "Скорость ходьбы и бега значительно повышена",
-    "zhCN": "ÿc;Fastest Run/Walk(FRW)ÿc3"
+    "zhCN": "ÿc;最快的跑步 / 行走速度(FRW)ÿc3"
   },
   {
     "id": 3569,
@@ -1935,7 +1935,7 @@
     "jaJP": "スキル発動速度上昇",
     "ptBR": "Taxa de lançamento rápida",
     "ruRU": "Скорость применения умений повышена",
-    "zhCN": "Fast Cast Rate(FCR)"
+    "zhCN": "快速的施法速度(FCR)"
   },
   {
     "id": 3570,
@@ -1952,7 +1952,7 @@
     "jaJP": "スキル発動速度（%+d%%）",
     "ptBR": "Taxa de lançamento %+d%% mais rápida",
     "ruRU": "%+d%% к скорости применения умений",
-    "zhCN": "ÿc;%+d%% Faster Cast Rate(FCR)ÿc3"
+    "zhCN": "ÿc;%+d%% 施法速度(FCR)ÿc3"
   },
   {
     "id": 3571,
@@ -1969,7 +1969,7 @@
     "jaJP": "スキル発動速度上昇（大）",
     "ptBR": "Taxa de lançamento mais rápida",
     "ruRU": "Скорость применения умений значительно повышена",
-    "zhCN": "Fastest Cast Rate(FCR)"
+    "zhCN": "最快的施法速度(FCR)"
   },
   {
     "id": 3572,
@@ -1986,7 +1986,7 @@
     "jaJP": "ブロック速度上昇",
     "ptBR": "Taxa de bloqueio rápida",
     "ruRU": "Скорость блока повышена",
-    "zhCN": "Fast Block Rate(FBR)"
+    "zhCN": "快速的格擋速度(FBR)"
   },
   {
     "id": 3573,
@@ -2003,7 +2003,7 @@
     "jaJP": "ブロック速度（%+d%%）",
     "ptBR": "Taxa de bloqueio %+d%% mais rápida",
     "ruRU": "%+d%% к скорости блока",
-    "zhCN": "%+d%% Faster Block Rate(FBR)"
+    "zhCN": "%+d%% 格擋速度(FBR)"
   },
   {
     "id": 3574,
@@ -2020,7 +2020,7 @@
     "jaJP": "ブロック速度上昇（大）",
     "ptBR": "Taxa de bloqueio mais rápida",
     "ruRU": "Скорость блока значительно повышена",
-    "zhCN": "Fastest Block Rate(FBR)"
+    "zhCN": "最快的格擋速度(FBR)"
   },
   {
     "id": 3575,
@@ -2037,7 +2037,7 @@
     "jaJP": "投てき可能",
     "ptBR": "Arremessável",
     "ruRU": "Метательное оружие",
-    "zhCN": "Throwable"
+    "zhCN": "可投擲"
   },
   {
     "id": 3576,
@@ -2054,7 +2054,7 @@
     "jaJP": "ダメージ（%+d）",
     "ptBR": "%+d de dano",
     "ruRU": "%+d к урону",
-    "zhCN": "Damage(DMG) %+d"
+    "zhCN": "傷害(DMG) %+d"
   },
   {
     "id": 3577,
@@ -2071,7 +2071,7 @@
     "jaJP": "クラッシング・ブロー（%+d%%）",
     "ptBR": "%+d%% de chance de Golpe Esmagador",
     "ruRU": "%+d%% к вероятности нанести сокрушительный удар",
-    "zhCN": "%+d%% Chance of Crushing Blow(CB)"
+    "zhCN": "%+d%% 機率造成粉碎打擊(CB)"
   },
   {
     "id": 3579,
@@ -2088,7 +2088,7 @@
     "jaJP": "キックダメージ（%+d）",
     "ptBR": "%+d de dano de chute",
     "ruRU": "%+d к урону от пинков",
-    "zhCN": "%+d Kick Damage"
+    "zhCN": "%+d 踢擊傷害"
   },
   {
     "id": 3580,
@@ -2105,7 +2105,7 @@
     "jaJP": "敵を倒すとマナが回復（%+d）",
     "ptBR": "%+d de mana após cada abate",
     "ruRU": "%+d к мане при убийстве",
-    "zhCN": "%+d to Mana after each Kill(EK)"
+    "zhCN": "%+d 擊殺法力恢復(EK)"
   },
   {
     "id": 3581,
@@ -2122,7 +2122,7 @@
     "jaJP": "火炎吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Fogo",
     "ruRU": "%+d%% к поглощению урона от огня",
-    "zhCN": "Fire Absorb(FA) %+d%%"
+    "zhCN": "火焰吸收(FA) %+d%%"
   },
   {
     "id": 3582,
@@ -2139,7 +2139,7 @@
     "jaJP": "火炎吸収（%+d）",
     "ptBR": "%+d de Absorve Fogo",
     "ruRU": "%+d поглощаемого урона от огня",
-    "zhCN": "%+d Fire Absorb(FA)"
+    "zhCN": "%+d 火焰吸收(FA)"
   },
   {
     "id": 3583,
@@ -2156,7 +2156,7 @@
     "jaJP": "電撃吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Eletricidade",
     "ruRU": "%+d%% к поглощению урона от молнии",
-    "zhCN": "Lightning Absorb(LA) %+d%%"
+    "zhCN": "電擊吸收(LA) %+d%%"
   },
   {
     "id": 3584,
@@ -2173,7 +2173,7 @@
     "jaJP": "電撃吸収（%+d）",
     "ptBR": "%+d de Absorve Eletricidade",
     "ruRU": "%+d поглощаемого урона от молнии",
-    "zhCN": "%+d Lightning Absorb(LA)"
+    "zhCN": "%+d 電擊吸收(LA)"
   },
   {
     "id": 3585,
@@ -2190,7 +2190,7 @@
     "jaJP": "魔法吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Magia",
     "ruRU": "%+d%% к поглощению магического урона",
-    "zhCN": "Magic Absorb(MA) %+d%%"
+    "zhCN": "魔法吸收(MA) %+d%%"
   },
   {
     "id": 3586,
@@ -2207,7 +2207,7 @@
     "jaJP": "魔法吸収（%+d）",
     "ptBR": "%+d de Absorve Magia",
     "ruRU": "%+d поглощаемого магического урона",
-    "zhCN": "%+d Magic Absorb(MA)"
+    "zhCN": "%+d 魔法吸收(MA)"
   },
   {
     "id": 3587,
@@ -2224,7 +2224,7 @@
     "jaJP": "冷気吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Gelo",
     "ruRU": "%+d%% к поглощению урона от льда",
-    "zhCN": "Cold Absorb(CA) %+d%%"
+    "zhCN": "冰寒吸收(CA) %+d%%"
   },
   {
     "id": 3588,
@@ -2241,7 +2241,7 @@
     "jaJP": "冷気吸収（%+d）",
     "ptBR": "%+d de Absorve Gelo",
     "ruRU": "%+d поглощаемого урона от льда",
-    "zhCN": "%+d Cold Absorb(CA)"
+    "zhCN": "%+d 冰寒吸收(CA)"
   },
   {
     "id": 3589,
@@ -2258,7 +2258,7 @@
     "jaJP": "ターゲットの防御力（-%d%%）",
     "ptBR": "-%d%% de defesa do alvo",
     "ruRU": "–%d%% к защите цели",
-    "zhCN": "-%d%% Target Defense"
+    "zhCN": "-%d%% 目標防禦"
   },
   {
     "id": 3590,
@@ -2275,7 +2275,7 @@
     "jaJP": "血の饗宴",
     "ptBR": "Mais sangrento",
     "ruRU": "Дополнительное кровотечение",
-    "zhCN": "Extra Bloody"
+    "zhCN": "額外血腥"
   },
   {
     "id": 3591,
@@ -2292,7 +2292,7 @@
     "jaJP": "デッドリー・ストライク（%+d%%）",
     "ptBR": "%+d%% de Golpe Mortal",
     "ruRU": "%+d%% к вероятности нанести смертельный удар",
-    "zhCN": "%+d%% Deadly Strike(DS)"
+    "zhCN": "%+d%% 致命打擊(DS)"
   },
   {
     "id": 3593,
@@ -2309,7 +2309,7 @@
     "jaJP": "天恵の狙い",
     "ptBR": "Mira Abençoada",
     "ruRU": "Правое дело",
-    "zhCN": "Blessed Aim"
+    "zhCN": "精準祝福"
   },
   {
     "id": 3594,
@@ -2326,7 +2326,7 @@
     "jaJP": "反骨",
     "ptBR": "Desafio",
     "ruRU": "Неповиновение",
-    "zhCN": "Defiance"
+    "zhCN": "反抗"
   },
   {
     "id": 3595,
@@ -2343,7 +2343,7 @@
     "jaJP": "最大火炎耐性（%+d%%）",
     "ptBR": "%+d%% de resistência a fogo máxima",
     "ruRU": "%+d%% к максимальному сопротивлению огню",
-    "zhCN": "%+d%% to Maximum Fire Resist(Max FR)"
+    "zhCN": "火焰抗性上限(Max FR) %+d%%"
   },
   {
     "id": 3596,
@@ -2360,7 +2360,7 @@
     "jaJP": "最大冷気耐性（%+d%%）",
     "ptBR": "%+d%% de resistência a gelo máxima",
     "ruRU": "%+d%% к максимальному сопротивлению льду",
-    "zhCN": "%+d%% to Maximum Cold Resist(Max CR)"
+    "zhCN": "冰寒抗性上限(Max CR) %+d%%"
   },
   {
     "id": 3597,
@@ -2377,7 +2377,7 @@
     "jaJP": "最大電撃耐性（%+d%%）",
     "ptBR": "%+d%% de resistência elétrica máxima",
     "ruRU": "%+d%% к максимальному сопротивлению молнии",
-    "zhCN": "%+d%% to Maximum Lightning Resist(Max LR)"
+    "zhCN": "電擊抗性上限(Max LR) %+d%%"
   },
   {
     "id": 3598,
@@ -2394,7 +2394,7 @@
     "jaJP": "最大魔法耐性（%+d%%）",
     "ptBR": "%+d%% de resistência a magia máxima",
     "ruRU": "%+d%% к максимальному сопротивлению магии",
-    "zhCN": "%+d%% to Maximum Magic Resist(Max MR)"
+    "zhCN": "魔法抗性上限(Max MR) %+d%%"
   },
   {
     "id": 3599,
@@ -2411,7 +2411,7 @@
     "jaJP": "最大毒物耐性（%+d%%）",
     "ptBR": "%+d%% de resistência a veneno máxima",
     "ruRU": "%+d%% к максимальному сопротивлению яду",
-    "zhCN": "%+d%% to Maximum Poison Resist(Max PR)"
+    "zhCN": "毒素抗性上限(Max PR) %+d%%"
   },
   {
     "id": 3600,
@@ -2428,7 +2428,7 @@
     "jaJP": "凍結しなくなる",
     "ptBR": "Não pode ser congelado",
     "ruRU": "Нельзя заморозить",
-    "zhCN": "ÿcTCannot Be Frozen(CBF)ÿc3"
+    "zhCN": "ÿcT無法凍結(CBF)ÿc3"
   },
   {
     "id": 3601,
@@ -2445,7 +2445,7 @@
     "jaJP": "遠隔攻撃に対する防御力（%+d）",
     "ptBR": "%+d de defesa contra projéteis",
     "ruRU": "%+d к защите от снарядов",
-    "zhCN": "%+d Defense vs. Missile"
+    "zhCN": "%+d 對遠程防禦"
   },
   {
     "id": 3602,
@@ -2462,7 +2462,7 @@
     "jaJP": "近接攻撃に対する防御力（%+d）",
     "ptBR": "%+d de defesa contra corpo a corpo",
     "ruRU": "%+d к защите от ударов в ближнем бою",
-    "zhCN": "%+d Defense vs. Melee"
+    "zhCN": "%+d 對近戰防禦"
   },
   {
     "id": 3603,
@@ -2479,7 +2479,7 @@
     "jaJP": "デーモンを倒すとライフが回復（%+d）",
     "ptBR": "%+d pontos de vida após cada abate de demônio",
     "ruRU": "%+d здоровья при убийстве демона",
-    "zhCN": "%+d Life after each Demon Kill(DLK)"
+    "zhCN": "%+d 擊殺惡魔生命恢復(DLK)"
   },
   {
     "id": 3607,
@@ -2496,7 +2496,7 @@
     "jaJP": "貫通攻撃（%+d%%）",
     "ptBR": "%+d%% de Ataque Perfurante",
     "ruRU": "%+d%% к пробивающей атаке",
-    "zhCN": "%+d%% Piercing Attack"
+    "zhCN": "%+d%% 穿透攻擊"
   },
   {
     "id": 3608,
@@ -2513,7 +2513,7 @@
     "jaJP": "魔法の矢を放つ",
     "ptBR": "Dispara flechas mágicas",
     "ruRU": "Магические стрелы",
-    "zhCN": "Fires Magic Arrows"
+    "zhCN": "射出魔法箭矢"
   },
   {
     "id": 3609,
@@ -2530,7 +2530,7 @@
     "jaJP": "爆発する矢/ボルトを放つ",
     "ptBR": "Dispara flechas ou setas explosivas",
     "ruRU": "Взрывные стрелы или болты",
-    "zhCN": "Fires Explosive Arrows or Bolts"
+    "zhCN": "射出爆炸的弓矢或弩箭"
   },
   {
     "id": 3625,
@@ -2547,7 +2547,7 @@
     "jaJP": "ダメージ上昇",
     "ptBR": "Dano aprimorado",
     "ruRU": "Увеличенный урон",
-    "zhCN": "Improved Damage"
+    "zhCN": "加強傷害"
   },
   {
     "id": 3626,
@@ -2564,7 +2564,7 @@
     "jaJP": "命中率上昇",
     "ptBR": "Taxa de ataque aprimorada",
     "ruRU": "Увеличенный рейтинг атаки",
-    "zhCN": "Improved Attack Rating(AR)"
+    "zhCN": "加強準確率(AR)"
   },
   {
     "id": 3627,
@@ -2581,7 +2581,7 @@
     "jaJP": "防御力上昇",
     "ptBR": "Defesa aprimorada",
     "ruRU": "Увеличенная защита",
-    "zhCN": "Improved Defense"
+    "zhCN": "加強防禦"
   },
   {
     "id": 3628,
@@ -2598,7 +2598,7 @@
     "jaJP": "耐久力上昇",
     "ptBR": "Durabilidade aprimorada",
     "ruRU": "Увеличенная прочность",
-    "zhCN": "Improved Durability"
+    "zhCN": "加強耐久度"
   },
   {
     "id": 3629,
@@ -2615,7 +2615,7 @@
     "jaJP": "クイック・ストライク",
     "ptBR": "Golpe Rápido",
     "ruRU": "Быстрый удар",
-    "zhCN": "Quick Strike"
+    "zhCN": "快速攻擊"
   },
   {
     "id": 3630,
@@ -2632,7 +2632,7 @@
     "jaJP": "以下のソケット付きのアイテムに装着可能:",
     "ptBR": "Pode ser inserido em",
     "ruRU": "Можно вставить в предметы с гнездами",
-    "zhCN": "Can Be Inserted in Socketed"
+    "zhCN": "可以放入有鑲孔的"
   },
   {
     "id": 3631,
@@ -2649,7 +2649,7 @@
     "jaJP": "武器、盾、兜",
     "ptBR": "armas, escudos ou elmos engastados",
     "ruRU": "Оружие, щиты или шлемы",
-    "zhCN": "Weapons, Shields or Helms"
+    "zhCN": "武器、盾牌或頭盔"
   },
   {
     "id": 4077,
@@ -2666,7 +2666,7 @@
     "jaJP": "メイスタイプ - %s",
     "ptBR": "Classe maça - %s",
     "ruRU": "Булава – %s",
-    "zhCN": "Mace Class - %s"
+    "zhCN": "釘鎚類武器 - %s"
   },
   {
     "id": 4078,
@@ -2683,7 +2683,7 @@
     "jaJP": "斧タイプ - %s",
     "ptBR": "Classe machado - %s",
     "ruRU": "Топор – %s",
-    "zhCN": "Axe Class - %s"
+    "zhCN": "斧頭類武器 - %s"
   },
   {
     "id": 4079,
@@ -2700,7 +2700,7 @@
     "jaJP": "剣タイプ - %s",
     "ptBR": "Classe espada - %s",
     "ruRU": "Меч – %s",
-    "zhCN": "Sword Class - %s"
+    "zhCN": "刀劍類武器 - %s"
   },
   {
     "id": 4080,
@@ -2717,7 +2717,7 @@
     "jaJP": "ダガータイプ - %s",
     "ptBR": "Classe adaga - %s",
     "ruRU": "Кинжал – %s",
-    "zhCN": "Dagger Class - %s"
+    "zhCN": "匕首類武器 - %s"
   },
   {
     "id": 4082,
@@ -2734,7 +2734,7 @@
     "jaJP": "ジャベリンタイプ - %s",
     "ptBR": "Classe dardo - %s",
     "ruRU": "Дротик – %s",
-    "zhCN": "Javelin Class - %s"
+    "zhCN": "標槍類武器 - %s"
   },
   {
     "id": 4083,
@@ -2751,7 +2751,7 @@
     "jaJP": "スピアタイプ - %s",
     "ptBR": "Classe lança - %s",
     "ruRU": "Копье – %s",
-    "zhCN": "Spear Class - %s"
+    "zhCN": "長矛類武器 - %s"
   },
   {
     "id": 4084,
@@ -2768,7 +2768,7 @@
     "jaJP": "弓タイプ - %s",
     "ptBR": "Classe arco - %s",
     "ruRU": "Лук – %s",
-    "zhCN": "Bow Class - %s"
+    "zhCN": "弓類武器 - %s"
   },
   {
     "id": 4085,
@@ -2785,7 +2785,7 @@
     "jaJP": "杖タイプ - %s",
     "ptBR": "Classe cajado - %s",
     "ruRU": "Посох – %s",
-    "zhCN": "Staff Class - %s"
+    "zhCN": "法杖類武器 - %s"
   },
   {
     "id": 4086,
@@ -2802,7 +2802,7 @@
     "jaJP": "長柄武器タイプ - %s",
     "ptBR": "Classe haste - %s",
     "ruRU": "Древковое оружие – %s",
-    "zhCN": "Polearm Class - %s"
+    "zhCN": "長柄類武器 - %s"
   },
   {
     "id": 4087,
@@ -2819,7 +2819,7 @@
     "jaJP": "クロスボウタイプ - %s",
     "ptBR": "Classe besta - %s",
     "ruRU": "Арбалет – %s",
-    "zhCN": "Crossbow Class - %s"
+    "zhCN": "弩類武器 - %s"
   },
   {
     "id": 4088,
@@ -2836,7 +2836,7 @@
     "jaJP": "攻撃速度（非常に速い）",
     "ptBR": "Velocidade de ataque máxima",
     "ruRU": "максимальная скорость атаки",
-    "zhCN": "Fastest Attack Speed"
+    "zhCN": "最快的攻擊速度"
   },
   {
     "id": 4089,
@@ -2853,7 +2853,7 @@
     "jaJP": "攻撃速度（速い）",
     "ptBR": "Velocidade de ataque muito rápida",
     "ruRU": "очень высокая скорость атаки",
-    "zhCN": "Very Fast Attack Speed"
+    "zhCN": "極快的攻擊速度"
   },
   {
     "id": 4090,
@@ -2870,7 +2870,7 @@
     "jaJP": "攻撃速度（やや速い）",
     "ptBR": "Velocidade de ataque rápida",
     "ruRU": "высокая скорость атаки",
-    "zhCN": "Fast Attack Speed"
+    "zhCN": "快速的攻擊速度"
   },
   {
     "id": 4091,
@@ -2887,7 +2887,7 @@
     "jaJP": "攻撃速度（通常）",
     "ptBR": "Velocidade de ataque normal",
     "ruRU": "обычная скорость атаки",
-    "zhCN": "Normal Attack Speed"
+    "zhCN": "一般的攻擊速度"
   },
   {
     "id": 4092,
@@ -2904,7 +2904,7 @@
     "jaJP": "攻撃速度（やや遅い）",
     "ptBR": "Velocidade de ataque lenta",
     "ruRU": "низкая скорость атаки",
-    "zhCN": "Slow Attack Speed"
+    "zhCN": "緩慢的攻擊速度"
   },
   {
     "id": 4093,
@@ -2921,7 +2921,7 @@
     "jaJP": "攻撃速度（遅い）",
     "ptBR": "Velocidade de ataque muito lenta",
     "ruRU": "очень низкая скорость атаки",
-    "zhCN": "Very Slow Attack Speed"
+    "zhCN": "極慢的攻擊速度"
   },
   {
     "id": 4094,
@@ -2938,7 +2938,7 @@
     "jaJP": "攻撃速度（非常に遅い）",
     "ptBR": "Velocidade de ataque mínima",
     "ruRU": "минимальная скорость атаки",
-    "zhCN": "Slowest Attack Speed"
+    "zhCN": "最慢的攻擊速度"
   },
   {
     "id": 10001,
@@ -2955,7 +2955,7 @@
     "jaJP": "スタミナ最大値（%+d）",
     "ptBR": "%+d de vigor máximo",
     "ruRU": "%+d к максимальной выносливости",
-    "zhCN": "%+d Maximum Stamina(Max STA)"
+    "zhCN": "%+d 精力上限(Max STA)"
   },
   {
     "id": 10020,
@@ -2972,7 +2972,7 @@
     "jaJP": "スタミナ消費軽減（%d%%）",
     "ptBR": "Drenagem de vigor reduzida em %d%%",
     "ruRU": "Выносливость снижается на %d%% медленнее",
-    "zhCN": "%d%% Slower Stamina Drain"
+    "zhCN": "精力消耗減緩 %d%%"
   },
   {
     "id": 10023,
@@ -2989,7 +2989,7 @@
     "jaJP": "ダメージを強化（%+d%%）",
     "ptBR": "%+d%% de dano aprimorado",
     "ruRU": "%+d%% к урону",
-    "zhCN": "ÿcU%+d%% Enhanced Damage(EDmg)ÿc3"
+    "zhCN": "ÿcU%+d%% 傷害強化(EDmg)ÿc3"
   },
   {
     "id": 10024,
@@ -3006,7 +3006,7 @@
     "jaJP": "全属性耐性（%+d）",
     "ptBR": "%+d para todas as resistências",
     "ruRU": "%+d к сопротивлению всем видам урона",
-    "zhCN": "ÿcOAll Resistances(RES) %+dÿc3"
+    "zhCN": "ÿcO所有抗性(RES) %+dÿc3"
   },
   {
     "id": 10025,
@@ -3023,7 +3023,7 @@
     "jaJP": "全スキルレベル向上（%+d）",
     "ptBR": "%+d para todos os níveis de habilidade",
     "ruRU": "%+d к уровню всех умений",
-    "zhCN": "ÿc8%+d to All Skill Levels(All Skill)ÿc3"
+    "zhCN": "ÿc8%+d 所有技能等級(All Skill)ÿc3"
   },
   {
     "id": 10026,
@@ -3040,7 +3040,7 @@
     "jaJP": "火炎ダメージ（%+d）",
     "ptBR": "%+d de dano ígneo",
     "ruRU": "%+d урона от огня",
-    "zhCN": "%+d fire damage(FD)"
+    "zhCN": "%+d 火焰傷害(FD)"
   },
   {
     "id": 10027,
@@ -3057,7 +3057,7 @@
     "jaJP": "火炎ダメージ上昇（%d - %d）",
     "ptBR": "Adiciona %d-%d de dano ígneo",
     "ruRU": "+%d–%d урона от огня",
-    "zhCN": "Adds %d-%d fire damage(FD)"
+    "zhCN": "附加 %d - %d 火焰傷害(FD)"
   },
   {
     "id": 10028,
@@ -3074,7 +3074,7 @@
     "jaJP": "冷気ダメージ（%+d）",
     "ptBR": "%+d de dano gélido",
     "ruRU": "%+d урона от льда",
-    "zhCN": "%+d cold damage(CD)"
+    "zhCN": "%+d 冰寒傷害(CD)"
   },
   {
     "id": 10029,
@@ -3091,7 +3091,7 @@
     "jaJP": "冷気ダメージ上昇（%d - %d）",
     "ptBR": "Adiciona %d-%d de dano gélido",
     "ruRU": "+%d–%d урона от льда",
-    "zhCN": "Adds %d-%d cold damage(CD)"
+    "zhCN": "附加 %d - %d 冰寒傷害(CD)"
   },
   {
     "id": 10030,
@@ -3108,7 +3108,7 @@
     "jaJP": "電撃ダメージ（%+d）",
     "ptBR": "%+d de dano elétrico",
     "ruRU": "%+d урона от молнии",
-    "zhCN": "%+d lightning damage(LD)"
+    "zhCN": "%+d 電擊傷害(LD)"
   },
   {
     "id": 10031,
@@ -3125,7 +3125,7 @@
     "jaJP": "電撃ダメージ上昇（%d - %d）",
     "ptBR": "Adiciona %d-%d de dano elétrico",
     "ruRU": "+%d–%d урона от молнии",
-    "zhCN": "Adds %d-%d lightning damage(LD)"
+    "zhCN": "附加 %d - %d 電擊傷害(LD)"
   },
   {
     "id": 10032,
@@ -3142,7 +3142,7 @@
     "jaJP": "魔法ダメージ（%+d）",
     "ptBR": "%+d de dano mágico",
     "ruRU": "%+d магического урона",
-    "zhCN": "%+d magic damage(MD)"
+    "zhCN": "%+d 魔法傷害(MD)"
   },
   {
     "id": 10033,
@@ -3159,7 +3159,7 @@
     "jaJP": "魔法ダメージ上昇（%d - %d）",
     "ptBR": "Adiciona %d-%d de dano mágico",
     "ruRU": "+%d–%d магического урона",
-    "zhCN": "Adds %d-%d magic damage(MD)"
+    "zhCN": "附加 %d - %d 魔法傷害(MD)"
   },
   {
     "id": 10034,
@@ -3176,7 +3176,7 @@
     "jaJP": "毒ダメージ付与（合計%+dダメージを%d秒間で与える）",
     "ptBR": "%+d de dano venenoso ao longo de %d segundos",
     "ruRU": "%+d урона от яда за %d сек.",
-    "zhCN": "%+d poison damage(PD) over %d seconds"
+    "zhCN": "%+d 毒素傷害(PD)，時效 %d 秒"
   },
   {
     "id": 10035,
@@ -3193,7 +3193,7 @@
     "jaJP": "毒ダメージ付与（合計%d - %dダメージを%d秒間で与える）",
     "ptBR": "Adiciona %d-%d de dano venenoso ao longo de %d segundos",
     "ruRU": "+%d–%d урона от яда за %d сек.",
-    "zhCN": "Adds %d-%d poison damage(PD) over %d seconds"
+    "zhCN": "附加 %d - %d 毒素傷害(PD)，時效 %d 秒"
   },
   {
     "id": 10036,
@@ -3210,7 +3210,7 @@
     "jaJP": "ダメージ（%+d）",
     "ptBR": "%+d de dano",
     "ruRU": "%+d к урону",
-    "zhCN": "%+d damage(DMG)"
+    "zhCN": "%+d 傷害(DMG)"
   },
   {
     "id": 10037,
@@ -3227,7 +3227,7 @@
     "jaJP": "ダメージ上昇（%d - %d）",
     "ptBR": "Adiciona %d-%d de dano",
     "ruRU": "+%d–%d урона{{abbr}}",
-    "zhCN": "Adds %d-%d damage(DMG)"
+    "zhCN": "附加 %d - %d 傷害(DMG)"
   },
   {
     "id": 10039,
@@ -3244,7 +3244,7 @@
     "jaJP": "火炎ダメージを軽減",
     "ptBR": "Dano ígneo reduzido em",
     "ruRU": "Урон от огня уменьшен на",
-    "zhCN": "Fire Damage Reduced by(FDR)"
+    "zhCN": "火焰傷害降低(FDR)"
   },
   {
     "id": 10040,
@@ -3261,7 +3261,7 @@
     "jaJP": "冷気ダメージを軽減",
     "ptBR": "Dano gélido reduzido em",
     "ruRU": "Урон от льда уменьшен на",
-    "zhCN": "Cold Damage Reduced by(CDR)"
+    "zhCN": "冰寒傷害降低(CDR)"
   },
   {
     "id": 10041,
@@ -3278,7 +3278,7 @@
     "jaJP": "電撃ダメージを軽減",
     "ptBR": "Dano elétrico reduzido em",
     "ruRU": "Урон от молнии уменьшен на",
-    "zhCN": "Lightning Damage Reduced by(LDR)"
+    "zhCN": "電擊傷害降低(LDR)"
   },
   {
     "id": 10042,
@@ -3295,7 +3295,7 @@
     "jaJP": "毒ダメージを軽減",
     "ptBR": "Dano venenoso reduzido em",
     "ruRU": "Урон от яда уменьшен на",
-    "zhCN": "Poison Damage Reduced by(PDR)"
+    "zhCN": "毒素傷害降低(PDR)"
   },
   {
     "id": 10043,
@@ -3312,7 +3312,7 @@
     "jaJP": "魔法ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano mágico",
     "ruRU": "%+d к поглощению урона от магии",
-    "zhCN": "%+d Absorbs Magic Damage(MDA)"
+    "zhCN": "%+d 魔法傷害吸收(MDA)"
   },
   {
     "id": 10044,
@@ -3329,7 +3329,7 @@
     "jaJP": "火炎ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano ígneo",
     "ruRU": "%+d к поглощению урона от огня",
-    "zhCN": "%+d Absorbs Fire Damage(FDA)"
+    "zhCN": "%+d 火焰傷害吸收(FDA)"
   },
   {
     "id": 10045,
@@ -3346,7 +3346,7 @@
     "jaJP": "冷気ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano gélido",
     "ruRU": "%+d к поглощению урона от льда",
-    "zhCN": "%+d Absorbs Cold Damage(CDA)"
+    "zhCN": "%+d 冰寒傷害吸收(CDA)"
   },
   {
     "id": 10046,
@@ -3363,7 +3363,7 @@
     "jaJP": "電撃ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano elétrico",
     "ruRU": "%+d к поглощению урона от молнии",
-    "zhCN": "%+d Absorbs Lightning Damage(LDA)"
+    "zhCN": "%+d 電擊傷害吸收(LDA)"
   },
   {
     "id": 10047,
@@ -3380,7 +3380,7 @@
     "jaJP": "毒ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano venenoso",
     "ruRU": "%+d к поглощению урона от яда",
-    "zhCN": "%+d Absorbs Poison Damage(PDA)"
+    "zhCN": "%+d 毒素傷害吸收(PDA)"
   },
   {
     "id": 10054,
@@ -3397,7 +3397,7 @@
     "jaJP": "〈ジャベリン/スピア〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Dardos e Lanças",
     "ruRU": "%+d к умениям обращения с дротиками и копьями",
-    "zhCN": "ÿc8%+d to Javelin and Spear Skillsÿc3"
+    "zhCN": "ÿc8%+d 標槍與長矛技能ÿc3"
   },
   {
     "id": 10055,
@@ -3414,7 +3414,7 @@
     "jaJP": "〈常時発動/魔法〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Passivas e Magia",
     "ruRU": "%+d к пассивным и магическим умениям",
-    "zhCN": "ÿc8%+d to Passive and Magic Skillsÿc3"
+    "zhCN": "ÿc8%+d 被動與魔法技能ÿc3"
   },
   {
     "id": 10056,
@@ -3431,7 +3431,7 @@
     "jaJP": "〈弓/クロスボウ〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Arcos e Bestas",
     "ruRU": "%+d к умениям обращения с луками и арбалетами",
-    "zhCN": "ÿc8%+d to Bow and Crossbow Skillsÿc3"
+    "zhCN": "ÿc8%+d 弓與弩技能ÿc3"
   },
   {
     "id": 10057,
@@ -3448,7 +3448,7 @@
     "jaJP": "〈防御オーラ〉スキル向上（%+d）",
     "ptBR": "%+d para Auras Defensivas",
     "ruRU": "%+d к защитным аурам",
-    "zhCN": "ÿc8%+d to Defensive Aurasÿc3"
+    "zhCN": "ÿc8%+d 防禦靈氣ÿc3"
   },
   {
     "id": 10058,
@@ -3465,7 +3465,7 @@
     "jaJP": "〈攻撃オーラ〉スキル向上（%+d）",
     "ptBR": "%+d para Auras Ofensivas",
     "ruRU": "%+d к боевым аурам",
-    "zhCN": "ÿc8%+d to Offensive Aurasÿc3"
+    "zhCN": "ÿc8%+d 攻擊靈氣ÿc3"
   },
   {
     "id": 10059,
@@ -3482,7 +3482,7 @@
     "jaJP": "〈戦闘〉スキル向上（%+d）",
     "ptBR": "%+d para Habilidades de Combate",
     "ruRU": "%+d к боевым умениям",
-    "zhCN": "ÿc8%+d to Combat Skillsÿc3"
+    "zhCN": "ÿc8%+d 戰鬥技能ÿc3"
   },
   {
     "id": 10061,
@@ -3499,7 +3499,7 @@
     "jaJP": "〈ポイズン/ボーン〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Veneno e Ossos",
     "ruRU": "%+d к умениям ядов и костей",
-    "zhCN": "ÿc8%+d to Poison and Bone Skillsÿc3"
+    "zhCN": "ÿc8%+d 毒素與骸骨技能ÿc3"
   },
   {
     "id": 10062,
@@ -3516,7 +3516,7 @@
     "jaJP": "〈呪い〉スキル向上（%+d）",
     "ptBR": "%+d para Maldições",
     "ruRU": "%+d к проклятиям",
-    "zhCN": "ÿc8%+d to Cursesÿc3"
+    "zhCN": "ÿc8%+d 詛咒ÿc3"
   },
   {
     "id": 10063,
@@ -3533,7 +3533,7 @@
     "jaJP": "〈雄叫び〉スキル向上（%+d）",
     "ptBR": "%+d para Gritos de Guerra",
     "ruRU": "%+d к боевым кличам",
-    "zhCN": "ÿc8%+d to Warcriesÿc3"
+    "zhCN": "ÿc8%+d 戰吼ÿc3"
   },
   {
     "id": 10064,
@@ -3550,7 +3550,7 @@
     "jaJP": "〈戦闘〉スキル向上（%+d）",
     "ptBR": "%+d para Habilidades de Combate",
     "ruRU": "%+d к боевым умениям",
-    "zhCN": "ÿc8%+d to Combat Skillsÿc3"
+    "zhCN": "ÿc8%+d 戰鬥技能ÿc3"
   },
   {
     "id": 10065,
@@ -3567,7 +3567,7 @@
     "jaJP": "〈武器術〉スキル向上（%+d）",
     "ptBR": "%+d para Maestrias",
     "ruRU": "%+d к умениям владения оружием",
-    "zhCN": "ÿc8%+d to Masteriesÿc3"
+    "zhCN": "ÿc8%+d 戰鬥專精ÿc3"
   },
   {
     "id": 10066,
@@ -3584,7 +3584,7 @@
     "jaJP": "〈冷気〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Gelo",
     "ruRU": "%+d к умениям льда",
-    "zhCN": "ÿc8%+d to Cold Skillsÿc3"
+    "zhCN": "ÿc8%+d 冰寒技能ÿc3"
   },
   {
     "id": 10067,
@@ -3601,7 +3601,7 @@
     "jaJP": "〈電撃〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Eletricidade",
     "ruRU": "%+d к умениям молнии",
-    "zhCN": "ÿc8%+d to Lightning Skillsÿc3"
+    "zhCN": "ÿc8%+d 閃電技能ÿc3"
   },
   {
     "id": 10068,
@@ -3618,7 +3618,7 @@
     "jaJP": "〈火炎〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Fogo",
     "ruRU": "%+d к умениям огня",
-    "zhCN": "ÿc8%+d to Fire Skillsÿc3"
+    "zhCN": "ÿc8%+d 火焰技能ÿc3"
   },
   {
     "id": 10069,
@@ -3635,7 +3635,7 @@
     "jaJP": "〈召喚〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Invocação",
     "ruRU": "%+d к умениям спутников",
-    "zhCN": "ÿc8%+d to Summoning Skillsÿc3"
+    "zhCN": "ÿc8%+d 召喚技能ÿc3"
   },
   {
     "id": 10070,
@@ -3652,7 +3652,7 @@
     "jaJP": "〈変身〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Metamorfose",
     "ruRU": "%+d к умениям смены облика",
-    "zhCN": "ÿc8%+d to Shape Shifting Skillsÿc3"
+    "zhCN": "ÿc8%+d 變形技能ÿc3"
   },
   {
     "id": 10071,
@@ -3669,7 +3669,7 @@
     "jaJP": "〈自然の力〉スキル向上（%+d）",
     "ptBR": "%+d para habilidades Elementos",
     "ruRU": "%+d к силам стихий",
-    "zhCN": "ÿc8%+d to Elemental Skillsÿc3"
+    "zhCN": "ÿc8%+d 元素技能ÿc3"
   },
   {
     "id": 10072,
@@ -3686,7 +3686,7 @@
     "jaJP": "〈トラップ〉スキル向上（%+d）",
     "ptBR": "%+d para Armadilhas",
     "ruRU": "%+d к ловушкам",
-    "zhCN": "ÿc8%+d to Trapsÿc3"
+    "zhCN": "ÿc8%+d 陷阱ÿc3"
   },
   {
     "id": 10073,
@@ -3703,7 +3703,7 @@
     "jaJP": "〈シャドウアーツ〉スキル向上（%+d）",
     "ptBR": "%+d para Disciplinas Sombrias",
     "ruRU": "%+d к теневым навыкам",
-    "zhCN": "ÿc8%+d to Shadow Disciplinesÿc3"
+    "zhCN": "ÿc8%+d 暗影修行ÿc3"
   },
   {
     "id": 10074,
@@ -3720,7 +3720,7 @@
     "jaJP": "〈マーシャルアーツ〉スキル向上（%+d）",
     "ptBR": "%+d para Artes Marciais",
     "ruRU": "%+d к боевым искусствам",
-    "zhCN": "ÿc8%+d to Martial Artsÿc3"
+    "zhCN": "ÿc8%+d 武學技藝ÿc3"
   },
   {
     "id": 10917,
@@ -3737,7 +3737,7 @@
     "jaJP": "（アマゾネス専用）",
     "ptBR": "(Somente Amazona)",
     "ruRU": "(только для амазонок)",
-    "zhCN": "ÿc8(Amazon Only)ÿc3"
+    "zhCN": "ÿc8（只限亞馬遜）ÿc3"
   },
   {
     "id": 10918,
@@ -3754,7 +3754,7 @@
     "jaJP": "（ソーサレス専用）",
     "ptBR": "(Somente Maga)",
     "ruRU": "(только для волшебниц)",
-    "zhCN": "ÿc8(Sorceress Only)ÿc3"
+    "zhCN": "ÿc8（只限魔法使）ÿc3"
   },
   {
     "id": 10919,
@@ -3771,7 +3771,7 @@
     "jaJP": "（ネクロマンサー専用）",
     "ptBR": "(Somente Necromante)",
     "ruRU": "(только для некромантов)",
-    "zhCN": "ÿc8(Necromancer Only)ÿc3"
+    "zhCN": "ÿc8（只限死靈法師）ÿc3"
   },
   {
     "id": 10920,
@@ -3788,7 +3788,7 @@
     "jaJP": "（パラディン専用）",
     "ptBR": "(Somente Paladino)",
     "ruRU": "(только для паладинов)",
-    "zhCN": "ÿc8(Paladin Only)ÿc3"
+    "zhCN": "ÿc8（只限聖騎士）ÿc3"
   },
   {
     "id": 10921,
@@ -3805,7 +3805,7 @@
     "jaJP": "（バーバリアン専用）",
     "ptBR": "(Somente Bárbaro)",
     "ruRU": "(только для варваров)",
-    "zhCN": "ÿc8(Barbarian Only)ÿc3"
+    "zhCN": "ÿc8（只限野蠻人）ÿc3"
   },
   {
     "id": 10922,
@@ -3822,7 +3822,7 @@
     "jaJP": "（ドルイド専用）",
     "ptBR": "(Somente Druida)",
     "ruRU": "(только для друидов)",
-    "zhCN": "ÿc8(Druid Only)ÿc3"
+    "zhCN": "ÿc8（只限德魯伊）ÿc3"
   },
   {
     "id": 10923,
@@ -3839,7 +3839,7 @@
     "jaJP": "（アサシン専用）",
     "ptBR": "(Somente Assassina)",
     "ruRU": "(только для ассасинов)",
-    "zhCN": "ÿc8(Assassin Only)ÿc3"
+    "zhCN": "ÿc8（只限刺客）ÿc3"
   },
   {
     "id": 10976,
@@ -3856,7 +3856,7 @@
     "jaJP": "装備時にオーラ〈%1〉（レベル%0）を発動",
     "ptBR": "Aura %1 de nível %0 quando equipado",
     "ruRU": "При надевании дает ауру «%1» %0-го уровня",
-    "zhCN": "Level %d %s Aura When Equipped"
+    "zhCN": "裝備時賦予等級 %d %s靈氣"
   },
   {
     "id": 10977,
@@ -3873,7 +3873,7 @@
     "jaJP": "全能力値（%+d）",
     "ptBR": "%+d para todos os atributos",
     "ruRU": "%+d ко всем характеристикам",
-    "zhCN": "%+d to all Attributes(ATTR)"
+    "zhCN": "%+d 所有屬性(ATTR)"
   },
   {
     "id": 10978,
@@ -3890,7 +3890,7 @@
     "jaJP": "獲得経験値（%+d%%）",
     "ptBR": "%+d%% de experiência obtida",
     "ruRU": "%+d%% к опыту",
-    "zhCN": "%+d%% to Experience Gained(EXP)"
+    "zhCN": "獲得的經驗值(EXP) %+d%%"
   },
   {
     "id": 10979,
@@ -3907,7 +3907,7 @@
     "jaJP": "敵を倒すとライフが回復（%+d）",
     "ptBR": "%+d pontos de vida após cada abate",
     "ruRU": "%+d здоровья при убийстве",
-    "zhCN": "%+d Life after each Kill(LK)"
+    "zhCN": "%+d 擊殺生命恢復(LK)"
   },
   {
     "id": 10980,
@@ -3924,7 +3924,7 @@
     "jaJP": "アイテム購入価格低下（-%d%%）",
     "ptBR": "Reduz todos os preços de comerciantes em %d%%",
     "ruRU": "Снижает цены у торговцев на %d%%",
-    "zhCN": "Reduces all Vendor Prices(-Price) %d%%"
+    "zhCN": "所有商人的價格降低(-Price) %d%%"
   },
   {
     "id": 10981,
@@ -3941,7 +3941,7 @@
     "jaJP": "倒したモンスターが復活しなくなる",
     "ptBR": "Monstros mortos descansam em paz",
     "ruRU": "Убитые монстры не возрождаются",
-    "zhCN": "Slain Monsters Rest in Peace(RIP)"
+    "zhCN": "殺死的怪物就此安息(RIP)"
   },
   {
     "id": 10982,
@@ -3958,7 +3958,7 @@
     "jaJP": "への命中率（%d%%）",
     "ptBR": "%d%% de taxa de ataque contra",
     "ruRU": "%d%% к рейтингу атаки против следующих монстров:",
-    "zhCN": "%d%% to Attack Rating(AR) versus"
+    "zhCN": "%d%% 準確率(AR)，針對"
   },
   {
     "id": 10983,
@@ -3975,7 +3975,7 @@
     "jaJP": "へのダメージ（%d%%）",
     "ptBR": "%d%% de dano contra",
     "ruRU": "%d%% к урону против следующих монстров:",
-    "zhCN": "%d%% to Damage(DMG) versus"
+    "zhCN": "%d%% 傷害(DMG)，針對"
   },
   {
     "id": 10984,
@@ -3992,7 +3992,7 @@
     "jaJP": "スレイング:",
     "ptBR": "Matança:",
     "ruRU": "Убийственность:",
-    "zhCN": "Slaying:"
+    "zhCN": "殺死："
   },
   {
     "id": 10985,
@@ -4009,7 +4009,7 @@
     "jaJP": "〈%1〉として復活（確率%0%%）",
     "ptBR": "%0%% de chance de reanimar como: %1",
     "ruRU": "С вероятностью %0%% возрождает как: %1",
-    "zhCN": "%0%% Reanimate as: %1"
+    "zhCN": "%0%% 機率將目標復生為：%1"
   },
   {
     "id": 10986,
@@ -4026,7 +4026,7 @@
     "jaJP": "敵の冷気耐性（-%d%%）",
     "ptBR": "-%d%% de resistência a gelo inimiga",
     "ruRU": "–%d%% к сопротивлению льду у врага",
-    "zhCN": "-%d%% to Enemy Cold Resistance(-CR)"
+    "zhCN": "敵人冰寒抗性(-CR) -%d%%"
   },
   {
     "id": 10987,
@@ -4043,7 +4043,7 @@
     "jaJP": "敵の火炎耐性（-%d%%）",
     "ptBR": "-%d%% de resistência a fogo inimiga",
     "ruRU": "–%d%% к сопротивлению огню у врага",
-    "zhCN": "-%d%% to Enemy Fire Resistance(-FR)"
+    "zhCN": "敵人火焰抗性(-FR) -%d%%"
   },
   {
     "id": 10988,
@@ -4060,7 +4060,7 @@
     "jaJP": "敵の電撃耐性（-%d%%）",
     "ptBR": "-%d%% de resistência elétrica inimiga",
     "ruRU": "–%d%% к сопротивлению молнии у врага",
-    "zhCN": "-%d%% to Enemy Lightning Resistance(-LR)"
+    "zhCN": "敵人電擊抗性(-LR) -%d%%"
   },
   {
     "id": 10989,
@@ -4077,7 +4077,7 @@
     "jaJP": "敵の毒物耐性（-%d%%）",
     "ptBR": "-%d%% de resistência a veneno inimiga",
     "ruRU": "–%d%% к сопротивлению яду у врага",
-    "zhCN": "-%d%% to Enemy Poison Resistance(-PR)"
+    "zhCN": "敵人毒素抗性(-PR) -%d%%"
   },
   {
     "id": 10990,
@@ -4094,7 +4094,7 @@
     "jaJP": "火炎スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade ígnea",
     "ruRU": "%+d%% к урону от умений огня",
-    "zhCN": "%+d%% to Fire Skill Damage(FD)"
+    "zhCN": "%+d%% 火焰技能傷害(FD)"
   },
   {
     "id": 10991,
@@ -4111,7 +4111,7 @@
     "jaJP": "冷気スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade gélida",
     "ruRU": "%+d%% к урону от умений льда",
-    "zhCN": "%+d%% to Cold Skill Damage(CD)"
+    "zhCN": "%+d%% 冰寒技能傷害(CD)"
   },
   {
     "id": 10992,
@@ -4128,7 +4128,7 @@
     "jaJP": "電撃スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade elétrica",
     "ruRU": "%+d%% к урону от умений молнии",
-    "zhCN": "%+d%% to Lightning Skill Damage(LD)"
+    "zhCN": "%+d%% 閃電技能傷害(LD)"
   },
   {
     "id": 10993,
@@ -4145,7 +4145,7 @@
     "jaJP": "毒スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade venenosa",
     "ruRU": "%+d%% к урону от умений яда",
-    "zhCN": "%+d%% to Poison Skill Damage(PD)"
+    "zhCN": "%+d%% 毒素技能傷害(PD)"
   },
   {
     "id": 10994,
@@ -4162,7 +4162,7 @@
     "jaJP": "死亡時に%0%%の確率で〈%2〉（レベル%1）を発動",
     "ptBR": "%0%% de chance de lançar %2 de nível %1 quando você morre",
     "ruRU": "Вероятность %0%% применить умение «%2» %1-го уровня после смерти",
-    "zhCN": "%d%% Chance to cast level %d %s when you Die"
+    "zhCN": "當你死亡時有 %d%% 機率施展等級 %d %s"
   },
   {
     "id": 10995,
@@ -4179,7 +4179,7 @@
     "jaJP": "レベルアップ時に%0%%の確率で〈%2〉（レベル%1）を発動",
     "ptBR": "%0%% de chance de lançar %2 de nível %1 quando você sobe de nível",
     "ruRU": "Вероятность %0%% применить умение «%2» %1-го уровня при достижении нового уровня",
-    "zhCN": "%d%% Chance to cast level %d %s when you Level-Up"
+    "zhCN": "當你升級時有 %d%% 機率施展等級 %d %s"
   },
   {
     "id": 10996,
@@ -4196,7 +4196,7 @@
     "jaJP": "敵を倒すと%0%%の確率で〈%2〉（レベル%1）を発動",
     "ptBR": "%0%% de chance de lançar %2 de nível %1 quando você abate um inimigo",
     "ruRU": "Вероятность %0%% применить умение «%2» %1-го уровня при убийстве",
-    "zhCN": "%d%% Chance to cast level %d %s when you Kill an Enemy"
+    "zhCN": "當你殺敵時有 %d%% 機率施展等級 %d %s"
   },
   {
     "id": 11003,
@@ -4213,7 +4213,7 @@
     "jaJP": "〈召喚〉スキル向上（+%d）",
     "ptBR": "+%d para habilidades Evocação",
     "ruRU": "+%d к умениям призыва",
-    "zhCN": "+%d to Summoning Skills"
+    "zhCN": "+%d 召喚技能"
   },
   {
     "id": 11018,
@@ -4230,7 +4230,7 @@
     "jaJP": "ブロック確率: %d%%",
     "ptBR": "Chance de bloqueio: %d%%",
     "ruRU": "Вероятность блока: %d%%",
-    "zhCN": "Chance to Block(CTB): %d%%"
+    "zhCN": "格擋機率(CTB)：%d%%"
   },
   {
     "id": 11032,
@@ -4247,7 +4247,7 @@
     "jaJP": "モンスターからの獲得ゴールド（+%d%%）",
     "ptBR": "%d%% de ouro adicional de monstros",
     "ruRU": "+%d%% к золоту за убийство монстров",
-    "zhCN": "ÿc7%d%% Extra Gold from Monsters(EG)ÿc3"
+    "zhCN": "ÿc7怪物金幣掉落量提高(EG) %d%%ÿc3"
   },
   {
     "id": 11033,
@@ -4264,7 +4264,7 @@
     "jaJP": "マジックアイテムドロップ率（+%d%%）",
     "ptBR": "%d%% de chance adicional de obter itens mágicos",
     "ruRU": "+%d%% к вероятности найти магический предмет",
-    "zhCN": "ÿc7%d%% Better Chance of Getting Magic Items(MF)ÿc3"
+    "zhCN": "ÿc7尋獲魔法物品機率提高(MF) %d%%ÿc3"
   },
   {
     "id": 11034,
@@ -4281,7 +4281,7 @@
     "jaJP": "攻撃命中でモンスターが逃げ出す（%+d%%）",
     "ptBR": "Acerto causa fuga do monstro %+d%%",
     "ruRU": "%+d%% к вероятности обратить монстра в бегство при ударе",
-    "zhCN": "Hit Causes Monster to Flee(Flee) %+d%%"
+    "zhCN": "%+d%% 機率擊中使怪物逃跑(Flee)"
   },
   {
     "id": 11035,
@@ -4298,7 +4298,7 @@
     "jaJP": "命中率へのボーナス（%d%%）",
     "ptBR": "%d%% de bônus de taxa de ataque",
     "ruRU": "+%d%% к рейтингу атаки",
-    "zhCN": "%d%% Bonus to Attack Rating(AR)"
+    "zhCN": "%d%% 準確率加成(AR)"
   },
   {
     "id": 11036,
@@ -4315,7 +4315,7 @@
     "jaJP": "敵の速度低下（-%d%%）",
     "ptBR": "Desacelera o alvo em %d%%",
     "ruRU": "Замедляет цель на %d%%",
-    "zhCN": "Slows Target by(Slow) %d%%"
+    "zhCN": "使目標減慢(Slow) %d%%"
   },
   {
     "id": 11037,
@@ -4332,7 +4332,7 @@
     "jaJP": "の確率で対象を復活",
     "ptBR": "Chance de reanimar o alvo",
     "ruRU": "Может оживить цель",
-    "zhCN": "Chance to Reanimate Target"
+    "zhCN": "機率使目標復活"
   },
   {
     "id": 11038,
@@ -4349,7 +4349,7 @@
     "jaJP": "攻撃命中でターゲットを目つぶし",
     "ptBR": "Acerto cega o alvo",
     "ruRU": "При ударе ослепляет цель",
-    "zhCN": "Hit Blinds Target(HBT)"
+    "zhCN": "擊中使目標目盲(HBT)"
   },
   {
     "id": 11080,
@@ -4366,7 +4366,7 @@
     "jaJP": "ソケット付きのアイテムに装着可能",
     "ptBR": "Pode ser inserido em itens com engastes",
     "ruRU": "Можно вставить в гнездо",
-    "zhCN": "Can be Inserted into Socketed Items"
+    "zhCN": "可以放入有鑲孔的物品"
   },
   {
     "id": 11091,
@@ -4383,7 +4383,7 @@
     "jaJP": "（キャラクターレベルに依存）",
     "ptBR": "(Com base no nível de personagem)",
     "ruRU": "(зависит от уровня персонажа)",
-    "zhCN": "(Based on Character Level)"
+    "zhCN": "（依角色等級而定）"
   },
   {
     "id": 11158,
@@ -4400,7 +4400,7 @@
     "jaJP": "〈アサシン〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Assassina",
     "ruRU": "%+d к уровню умений ассасина",
-    "zhCN": "ÿc8%+d to Assassin Skill Levels(ASN)ÿc3"
+    "zhCN": "ÿc8%+d 刺客技能等級(ASN)ÿc3"
   },
   {
     "id": 11163,
@@ -4417,7 +4417,7 @@
     "jaJP": "赦しのトークン",
     "ptBR": "Insígnia da Absolvição",
     "ruRU": "Талисман очищения",
-    "zhCN": "Token of Absolution"
+    "zhCN": "赦免徽章"
   },
   {
     "id": 20438,
@@ -4434,7 +4434,7 @@
     "jaJP": "所持品に入れることでボーナスが得られる",
     "ptBR": "Manter no Inventário para ganhar bônus",
     "ruRU": "Дает бонус при хранении в инвентаре",
-    "zhCN": "Keep in Inventory to Gain Bonus"
+    "zhCN": "放在物品欄以獲得其加成效果"
   },
   {
     "id": 20439,
@@ -4451,7 +4451,7 @@
     "jaJP": "マラーのポーション",
     "ptBR": "Poção de Malah",
     "ruRU": "Зелье Маллы",
-    "zhCN": "Malah's Potion"
+    "zhCN": "瑪拉的藥水"
   },
   {
     "id": 21205,
@@ -4468,7 +4468,7 @@
     "jaJP": "〈ドルイド〉スキルレベル向上（%+d）",
     "ptBR": "%+d de níveis de habilidade de Druida",
     "ruRU": "%+d к уровню умений друида",
-    "zhCN": "ÿc8%+d to Druid Skill Levels(DRU)ÿc3"
+    "zhCN": "ÿc8%+d 德魯伊技能等級(DRU)ÿc3"
   },
   {
     "id": 21207,
@@ -4485,7 +4485,7 @@
     "jaJP": " ソケット",
     "ptBR": " engastes",
     "ruRU": " Гнезда",
-    "zhCN": " Sockets"
+    "zhCN": "鑲孔"
   },
   {
     "id": 21208,
@@ -4502,7 +4502,7 @@
     "jaJP": " デーモンへの命中率 +",
     "ptBR": " de taxa de ataque contra demônios",
     "ruRU": " к рейтингу атаки против демонов",
-    "zhCN": " to Attack Rating vs. Demons(ARD)"
+    "zhCN": "對惡魔的準確率(ARD)"
   },
   {
     "id": 21209,
@@ -4519,7 +4519,7 @@
     "jaJP": " アンデッドへの命中率 +",
     "ptBR": " de taxa de ataque contra mortos-vivos",
     "ruRU": " к рейтингу атаки против нежити",
-    "zhCN": " to Attack Rating vs. Undead(ARU)"
+    "zhCN": "對不死怪物的準確率(ARU)"
   },
   {
     "id": 21210,
@@ -4536,7 +4536,7 @@
     "jaJP": " デーモンへのダメージ +",
     "ptBR": " de dano contra demônios",
     "ruRU": " к урону против демонов",
-    "zhCN": " to Damage vs. Demons(DTD)"
+    "zhCN": "對惡魔的傷害(DTD)"
   },
   {
     "id": 21211,
@@ -4553,7 +4553,7 @@
     "jaJP": " %%の命中率上昇",
     "ptBR": "% de taxa de ataque",
     "ruRU": " % к рейтингу атаки",
-    "zhCN": " percent to Attack Rating(AR)"
+    "zhCN": "% 準確率(AR)"
   },
   {
     "id": 21212,
@@ -4570,7 +4570,7 @@
     "jaJP": " 〈ジャベリン/スピア〉スキル +",
     "ptBR": " para habilidades Dardos e Lanças",
     "ruRU": " к уровню умений «Дротики и копья»",
-    "zhCN": " to Javelin and Spear Skills"
+    "zhCN": "標槍與長矛技能"
   },
   {
     "id": 21213,
@@ -4587,7 +4587,7 @@
     "jaJP": " 〈常時発動/魔法〉スキル +",
     "ptBR": " para habilidades Passivas e Magia",
     "ruRU": " к пассивным и магическим умениям",
-    "zhCN": " to Passive and Magic Skills"
+    "zhCN": "被動與魔法技能"
   },
   {
     "id": 21214,
@@ -4604,7 +4604,7 @@
     "jaJP": " 〈弓/クロスボウ〉スキル +",
     "ptBR": " para habilidades Arcos e Bestas",
     "ruRU": " к умениям «Луки и арбалеты»",
-    "zhCN": " to Bow and Crossbow Skills"
+    "zhCN": "弓與弩技能"
   },
   {
     "id": 21215,
@@ -4621,7 +4621,7 @@
     "jaJP": " 〈防御オーラ〉スキル +",
     "ptBR": " para habilidades Auras Defensivas",
     "ruRU": " к уровню защитных аур",
-    "zhCN": " to Defensive Aura Skills"
+    "zhCN": "防禦靈氣技能"
   },
   {
     "id": 21216,
@@ -4638,7 +4638,7 @@
     "jaJP": " 〈攻撃オーラ〉スキル +",
     "ptBR": " para habilidades Auras Ofensivas",
     "ruRU": " к боевым аурам",
-    "zhCN": " to Offensive Aura Skills"
+    "zhCN": "攻擊靈氣技能"
   },
   {
     "id": 21217,
@@ -4655,7 +4655,7 @@
     "jaJP": " 〈戦闘〉スキル +",
     "ptBR": " para Habilidades de Combate",
     "ruRU": " к боевым умениям",
-    "zhCN": " to Combat Skills"
+    "zhCN": "戰鬥技能"
   },
   {
     "id": 21218,
@@ -4672,7 +4672,7 @@
     "jaJP": " 〈召喚〉スキル +",
     "ptBR": " para habilidades Evocação",
     "ruRU": " к уровню умений «Прислужники»",
-    "zhCN": " to Summoning Skills"
+    "zhCN": "召喚技能"
   },
   {
     "id": 21219,
@@ -4689,7 +4689,7 @@
     "jaJP": " 〈ポイズン/ボーン〉スキル +",
     "ptBR": " para habilidades Veneno e Ossos",
     "ruRU": " к уровню умений «Яды и кости»",
-    "zhCN": " to Poison and Bone Skills"
+    "zhCN": "毒素與骸骨技能"
   },
   {
     "id": 21220,
@@ -4706,7 +4706,7 @@
     "jaJP": " 〈呪い〉スキル +",
     "ptBR": " para Maldições",
     "ruRU": " к уровню проклятий",
-    "zhCN": " to Curses"
+    "zhCN": "詛咒"
   },
   {
     "id": 21221,
@@ -4723,7 +4723,7 @@
     "jaJP": " 〈雄叫び〉スキル +",
     "ptBR": " para habilidades Grito de Guerra",
     "ruRU": " к уровню боевых кличей",
-    "zhCN": " to Warcry Skills"
+    "zhCN": "戰吼技能"
   },
   {
     "id": 21222,
@@ -4740,7 +4740,7 @@
     "jaJP": " 〈戦闘〉スキル +",
     "ptBR": " para Habilidades de Combate",
     "ruRU": " к боевым умениям",
-    "zhCN": " to Combat Skills"
+    "zhCN": "戰鬥技能"
   },
   {
     "id": 21223,
@@ -4757,7 +4757,7 @@
     "jaJP": " 〈武器術〉スキル +",
     "ptBR": " para habilidades Maestrias",
     "ruRU": " к умениям владения оружием",
-    "zhCN": " to Masteries Skills"
+    "zhCN": "戰鬥專精技能"
   },
   {
     "id": 21224,
@@ -4774,7 +4774,7 @@
     "jaJP": " 〈冷気〉スキル +",
     "ptBR": " para habilidades Gelo",
     "ruRU": " к умениям льда",
-    "zhCN": " to Cold Skills"
+    "zhCN": "冰寒技能"
   },
   {
     "id": 21225,
@@ -4791,7 +4791,7 @@
     "jaJP": " 〈電撃〉スキル +",
     "ptBR": " para habilidades Eletricidade",
     "ruRU": " к умениям молнии",
-    "zhCN": " to Lightning Skills"
+    "zhCN": "閃電技能"
   },
   {
     "id": 21226,
@@ -4808,7 +4808,7 @@
     "jaJP": " 〈火炎〉スキル +",
     "ptBR": " para habilidades Fogo",
     "ruRU": " к умениям огня",
-    "zhCN": " to Fire Skills"
+    "zhCN": "火焰技能"
   },
   {
     "id": 21227,
@@ -4825,7 +4825,7 @@
     "jaJP": " 〈召喚〉スキル +",
     "ptBR": " para habilidades Invocação",
     "ruRU": " к уровню умений «Спутники»",
-    "zhCN": " to Summoning Skills"
+    "zhCN": "召喚技能"
   },
   {
     "id": 21228,
@@ -4842,7 +4842,7 @@
     "jaJP": " 〈変身〉スキル +",
     "ptBR": " para habilidades Metamorfose",
     "ruRU": " к умениям смены облика",
-    "zhCN": " to Shape-Shifting Skills"
+    "zhCN": "變形技能"
   },
   {
     "id": 21229,
@@ -4859,7 +4859,7 @@
     "jaJP": " 〈自然の力〉スキル +",
     "ptBR": " para habilidades Elementos",
     "ruRU": " к уровню умений «Сила стихий»",
-    "zhCN": " to Elemental Skills"
+    "zhCN": "元素技能"
   },
   {
     "id": 21230,
@@ -4876,7 +4876,7 @@
     "jaJP": " 〈トラップ〉スキル +",
     "ptBR": " para habilidades Armadilhas",
     "ruRU": " к ловушкам",
-    "zhCN": " to Trap Skills"
+    "zhCN": "陷阱技能"
   },
   {
     "id": 21231,
@@ -4893,7 +4893,7 @@
     "jaJP": " 〈シャドウアーツ〉スキル +",
     "ptBR": " para habilidades Disciplinas Sombrias",
     "ruRU": " к теневым навыкам",
-    "zhCN": " to Shadow Discipline Skills"
+    "zhCN": "暗影修行技能"
   },
   {
     "id": 21232,
@@ -4910,7 +4910,7 @@
     "jaJP": " 〈マーシャルアーツ〉スキル +",
     "ptBR": " para habilidades Artes Marciais",
     "ruRU": " к умениям боевых искусств",
-    "zhCN": " to Martial Art Skills"
+    "zhCN": "武學技藝技能"
   },
   {
     "id": 21233,
@@ -4927,7 +4927,7 @@
     "jaJP": "（キャラクターレベルに依存）",
     "ptBR": "(Com base no nível de personagem)",
     "ruRU": "(В зависимости от уровня персонажа)",
-    "zhCN": "(Based on Character Level)"
+    "zhCN": "（依角色等級而定）"
   },
   {
     "id": 21234,
@@ -4944,7 +4944,7 @@
     "jaJP": "%s（夜間に上昇）",
     "ptBR": "%s (aumenta durante a noite)",
     "ruRU": "%s (повышается ночью)",
-    "zhCN": "%s (Increases During Nighttime)"
+    "zhCN": "%s（在夜間增加）"
   },
   {
     "id": 21235,
@@ -4961,7 +4961,7 @@
     "jaJP": "%s（日中に上昇）",
     "ptBR": "%s (aumenta durante o dia)",
     "ruRU": "%s (повышается днем)",
-    "zhCN": "%s (Increases During Daytime)"
+    "zhCN": "%s（在白天增加）"
   },
   {
     "id": 21236,
@@ -4978,7 +4978,7 @@
     "jaJP": "%s（夜明け近くに上昇）",
     "ptBR": "%s (aumenta perto do amanhecer)",
     "ruRU": "%s (повышается на рассвете)",
-    "zhCN": "%s (Increases Near Dawn)"
+    "zhCN": "%s（在黎明增加）"
   },
   {
     "id": 21237,
@@ -4995,7 +4995,7 @@
     "jaJP": "%s（日没近くに上昇）",
     "ptBR": "%s (aumenta perto do entardecer)",
     "ruRU": "%s (повышается в сумерки)",
-    "zhCN": "%s (Increases Near Dusk)"
+    "zhCN": "%s（在黃昏增加）"
   },
   {
     "id": 21238,
@@ -5012,7 +5012,7 @@
     "jaJP": " 回使用可能:",
     "ptBR": " cargas de",
     "ruRU": " зарядов",
-    "zhCN": " Charges of"
+    "zhCN": "次的"
   },
   {
     "id": 21239,
@@ -5029,7 +5029,7 @@
     "jaJP": "所持数増加",
     "ptBR": "Quantidade de pilha adicional",
     "ruRU": "Больше снарядов",
-    "zhCN": "Increased Stack Size"
+    "zhCN": "堆疊數量提高"
   },
   {
     "id": 21240,
@@ -5046,7 +5046,7 @@
     "jaJP": "壊れない",
     "ptBR": "Indestrutível",
     "ruRU": "Не теряет прочности",
-    "zhCN": "Indestructible"
+    "zhCN": "永不毀損"
   },
   {
     "id": 21241,
@@ -5063,7 +5063,7 @@
     "jaJP": "耐久力が回復（毎秒%d）",
     "ptBR": "Repara %d de durabilidade por segundo",
     "ruRU": "Восполняет %d ед. прочности в секунду",
-    "zhCN": "Repairs %d durability per second"
+    "zhCN": "每秒修復 %d 耐久度"
   },
   {
     "id": 21242,
@@ -5080,7 +5080,7 @@
     "jaJP": "耐久力が回復（%d秒ごとに%d）",
     "ptBR": "Repara %d de durabilidade em %d segundos",
     "ruRU": "Восполняет %d ед. прочности раз в %d сек.",
-    "zhCN": "Repairs %d durability in %d seconds"
+    "zhCN": "每 %1 秒修復 %0 點耐久度"
   },
   {
     "id": 21243,
@@ -5097,7 +5097,7 @@
     "jaJP": "数量が自動回復",
     "ptBR": "Reabastece a quantidade",
     "ruRU": "Восполняет снаряды",
-    "zhCN": "Replenishes quantity"
+    "zhCN": "回復數量"
   },
   {
     "id": 21244,
@@ -5114,7 +5114,7 @@
     "jaJP": "発動: レベル%d",
     "ptBR": "Lança habilidade de nível %d",
     "ruRU": "Применяет %d-го уровня",
-    "zhCN": "Cast a Level %d"
+    "zhCN": "施展等級 %d"
   },
   {
     "id": 21245,
@@ -5131,7 +5131,7 @@
     "jaJP": "武器を振ると",
     "ptBR": "Ao golpear",
     "ruRU": "Когда вы атакуете",
-    "zhCN": "When You Swing"
+    "zhCN": "當你揮舞時"
   },
   {
     "id": 21246,
@@ -5148,7 +5148,7 @@
     "jaJP": "攻撃を受けると",
     "ptBR": "Ao receber um golpe",
     "ruRU": "Когда вас поражает противник",
-    "zhCN": "When You Get Hit"
+    "zhCN": "當你被擊中時"
   },
   {
     "id": 21247,
@@ -5165,7 +5165,7 @@
     "jaJP": "攻撃を当てると",
     "ptBR": "Ao acertar um inimigo",
     "ruRU": "Когда вы поразили противника",
-    "zhCN": "When You Hit an Enemy"
+    "zhCN": "當你擊中敵人時"
   },
   {
     "id": 21248,
@@ -5182,7 +5182,7 @@
     "jaJP": "回使用可能",
     "ptBR": "Cargas",
     "ruRU": "Заряды",
-    "zhCN": "Charges"
+    "zhCN": "次"
   },
   {
     "id": 21249,
@@ -5199,7 +5199,7 @@
     "jaJP": "レベル",
     "ptBR": "Nível",
     "ruRU": "Уровень",
-    "zhCN": "Level"
+    "zhCN": "等級"
   },
   {
     "id": 21250,
@@ -5216,7 +5216,7 @@
     "jaJP": "（レベルごと）",
     "ptBR": "Por nível",
     "ruRU": "За каждый уровень",
-    "zhCN": "Per Level"
+    "zhCN": "每級"
   },
   {
     "id": 21251,
@@ -5233,7 +5233,7 @@
     "jaJP": "レベル%0〈%1〉（使用可能数 %2/%3）",
     "ptBR": "%1 Nível %0 (%2/%3 cargas)",
     "ruRU": "«%1» %0-го уровня (%2/%3 зарядов)",
-    "zhCN": "Level %d %s (%d/%d Charges)"
+    "zhCN": "等級 %d %s（%d/%d 次）"
   },
   {
     "id": 21252,
@@ -5250,7 +5250,7 @@
     "jaJP": "（",
     "ptBR": "(",
     "ruRU": "(",
-    "zhCN": "("
+    "zhCN": "（"
   },
   {
     "id": 21253,
@@ -5267,7 +5267,7 @@
     "jaJP": "）",
     "ptBR": ")",
     "ruRU": ")",
-    "zhCN": ")"
+    "zhCN": "）"
   },
   {
     "id": 21254,
@@ -5284,7 +5284,7 @@
     "jaJP": "隠密",
     "ptBR": "Furtividade",
     "ruRU": "Скрытность",
-    "zhCN": "Stealth"
+    "zhCN": "隱密"
   },
   {
     "id": 21255,
@@ -5301,7 +5301,7 @@
     "jaJP": "毒無効化",
     "ptBR": "Imunidade a veneno",
     "ruRU": "Невосприимчивость к яду",
-    "zhCN": "Immunity to Poison"
+    "zhCN": "毒素免疫"
   },
   {
     "id": 21256,
@@ -5318,7 +5318,7 @@
     "jaJP": "呪い",
     "ptBR": "Amaldiçoado",
     "ruRU": "[ms]отверженный[fs]отверженная[ns]отверженное[pl]отверженные",
-    "zhCN": "Cursed"
+    "zhCN": "受詛咒"
   },
   {
     "id": 21257,
@@ -5335,7 +5335,7 @@
     "jaJP": "（パーティーのプレイヤー人数分）",
     "ptBR": "Por jogador no grupo",
     "ruRU": "За каждого игрока в группе",
-    "zhCN": "Per Player in Party"
+    "zhCN": "隊伍中的每個人"
   },
   {
     "id": 21258,
@@ -5352,7 +5352,7 @@
     "jaJP": "鉤爪タイプ - %s",
     "ptBR": "Classe garra - %s",
     "ruRU": "Когти – %s",
-    "zhCN": "Claw Class - %s"
+    "zhCN": "爪類武器 - %s"
   },
   {
     "id": 21259,
@@ -5369,7 +5369,7 @@
     "jaJP": "オーブタイプ - %s",
     "ptBR": "Classe orbe - %s",
     "ruRU": "Сфера – %s",
-    "zhCN": "Orb Class - %s"
+    "zhCN": "法珠類武器 - %s"
   },
   {
     "id": 21260,
@@ -5386,7 +5386,7 @@
     "jaJP": " 属性ダメージ",
     "ptBR": " de dano elemental",
     "ruRU": " урона от стихий",
-    "zhCN": " Elemental Damage"
+    "zhCN": "元素傷害"
   },
   {
     "id": 21782,
@@ -5403,7 +5403,7 @@
     "jaJP": "キックダメージ: %d - %d",
     "ptBR": "Dano de chute: %d a %d",
     "ruRU": "Урон от пинков: %d–%d",
-    "zhCN": "Kick Damage: %d to %d"
+    "zhCN": "踢擊傷害：%d - %d 點"
   },
   {
     "id": 21783,
@@ -5420,7 +5420,7 @@
     "jaJP": "%%の確率で発動:",
     "ptBR": "Percentual de chance de lançar",
     "ruRU": "Вероятность применить",
-    "zhCN": "Percent Chance to Cast"
+    "zhCN": "% 施展機率"
   },
   {
     "id": 21806,
@@ -5437,7 +5437,7 @@
     "jaJP": "耐性の巻物",
     "ptBR": "Pergaminho de Resistência",
     "ruRU": "Свиток сопротивления",
-    "zhCN": "Scroll of Resistance"
+    "zhCN": "抗性卷軸"
   },
   {
     "id": 21874,
@@ -5454,7 +5454,7 @@
     "jaJP": "ソケット付きのアイテムに装着可能",
     "ptBR": "Pode ser inserido em itens com engastes",
     "ruRU": "Можно вставить в предметы с гнездами",
-    "zhCN": "Can be Inserted into Socketed Items"
+    "zhCN": "可以放入有鑲孔的物品"
   },
   {
     "id": 21885,
@@ -5471,7 +5471,7 @@
     "jaJP": "攻撃時に%0%%の確率で〈%2〉（レベル%1）を発動",
     "ptBR": "%0%% de chance de lançar %2 de nível %1 ao atacar",
     "ruRU": "Вероятность %0%% применить умение «%2» %1-го уровня при атаке",
-    "zhCN": "%d%% Chance to cast level %d %s on attack"
+    "zhCN": "攻擊時有 %d%% 機率施展等級 %d %s"
   },
   {
     "id": 21886,
@@ -5488,7 +5488,7 @@
     "jaJP": "命中時に%0%%の確率で〈%2〉（レベル%1）を発動",
     "ptBR": "%0%% de chance de lançar %2 de nível %1 ao atingir um inimigo",
     "ruRU": "Вероятность %0%% применить умение «%2» %1-го уровня при ударе",
-    "zhCN": "%d%% Chance to cast level %d %s on striking"
+    "zhCN": "擊中時有 %d%% 機率施展等級 %d %s"
   },
   {
     "id": 21887,
@@ -5505,7 +5505,7 @@
     "jaJP": "攻撃を受けると%0%%の確率で〈%2〉（レベル%1）を発動",
     "ptBR": "%0%% de chance de lançar %2 de nível %1 ao ser atingido",
     "ruRU": "Вероятность %0%% применить умение «%2» %1-го уровня при получении урона",
-    "zhCN": "%d%% Chance to cast level %d %s when struck"
+    "zhCN": "被擊中時有 %d%% 機率施展等級 %d %s"
   },
   {
     "id": 21888,
@@ -5522,7 +5522,7 @@
     "jaJP": "所持品に入れることでボーナスが得られる",
     "ptBR": "Manter no inventário para ganhar bônus",
     "ruRU": "Дает бонус при хранении в инвентаре",
-    "zhCN": "Keep in inventory to gain bonus"
+    "zhCN": "放在物品欄以獲得其加成效果"
   },
   {
     "id": 22745,
@@ -5539,7 +5539,7 @@
     "jaJP": "イシリアル（修理不可能）",
     "ptBR": "Etéreo (não pode ser reparado)",
     "ruRU": "Бесплотный предмет (нельзя ремонтировать)",
-    "zhCN": "Ethereal (Cannot be Repaired)"
+    "zhCN": "無形（無法修復）"
   },
   {
     "id": 22746,
@@ -5556,7 +5556,7 @@
     "jaJP": "修理できないアイテムです。",
     "ptBR": "Este item não pode ser reparado.",
     "ruRU": "Этот предмет нельзя отремонтировать.",
-    "zhCN": "This item cannot be repaired."
+    "zhCN": "這項物品無法修復。"
   },
   {
     "id": 23001,
@@ -5573,7 +5573,7 @@
     "jaJP": "受ける物理ダメージを軽減（%d%%）",
     "ptBR": "Dano físico recebido reduzido em %d%%",
     "ruRU": "Получаемый физический урон уменьшен на %d%%",
-    "zhCN": "Physical Damage Received Reduced by(DR) %d%%"
+    "zhCN": "受到的物理傷害降低(DR) %d%%"
   },
   {
     "id": 23004,
@@ -5590,7 +5590,7 @@
     "jaJP": "〈%1〉スキル向上（%+0）%2",
     "ptBR": "%+d para %s %s",
     "ruRU": "%+d к умению «%s» %s",
-    "zhCN": "%+d to %s %s"
+    "zhCN": "%+d 至%s %s"
   },
   {
     "id": 23005,
@@ -5607,7 +5607,7 @@
     "jaJP": "〈%1〉向上（%+0）",
     "ptBR": "%+d para %s",
     "ruRU": "%+d к умению «%s»",
-    "zhCN": "%+d to %s"
+    "zhCN": "%+d 至%s"
   },
   {
     "id": 23049,
@@ -5624,7 +5624,7 @@
     "jaJP": "イシリアル（修理不可能）、ソケット（%i）",
     "ptBR": "Etéreo (não pode ser reparado), com engastes (%i)",
     "ruRU": "Бесплотный предмет (нельзя ремонтировать), с гнездами (%i)",
-    "zhCN": "Ethereal (Cannot be Repaired), Socketed (%i)"
+    "zhCN": "無形（無法修復），鑲孔（%i）"
   },
   {
     "id": 23050,
@@ -5641,7 +5641,7 @@
     "jaJP": "投てきダメージ: %d - %d",
     "ptBR": "Dano de arremesso: %d a %d",
     "ruRU": "Урон от метательного оружия: %d–%d",
-    "zhCN": "Throw Damage: %d to %d"
+    "zhCN": "投擲傷害：%d - %d 點"
   },
   {
     "id": 26333,
@@ -5658,7 +5658,7 @@
     "jaJP": "右クリックでステータスとスキル・ポイントをリセット",
     "ptBR": "Clique com o botão direito para redefinir pontos de habilidades/atributos",
     "ruRU": "Щелкните ПКМ, чтобы сбросить очки характеристик/умений",
-    "zhCN": "Right Click to reset Stat/Skill Points"
+    "zhCN": "右鍵點擊以重置屬性與技能點數"
   },
   {
     "id": 26360,
@@ -5675,7 +5675,7 @@
     "jaJP": "アニャの氷を解かせる",
     "ptBR": "Guardar para descongelar Anya",
     "ruRU": "Может отогреть Аню.",
-    "zhCN": "Keep it to thaw Anya"
+    "zhCN": "融化安亞身上的冰雪"
   },
   {
     "id": 26705,
@@ -5692,7 +5692,7 @@
     "jaJP": "一点物の",
     "ptBR": "Personalizado",
     "ruRU": "Переименовано",
-    "zhCN": "Personalized"
+    "zhCN": "冠上名字"
   },
   {
     "id": 27212,
@@ -5709,7 +5709,7 @@
     "jaJP": "%+d%%の確立でアイテム消費をしない",
     "ptBR": "%+d%% de chance de não consumir quantidade",
     "ruRU": "%+d%% к шансу не израсходовать снаряды",
-    "zhCN": "%+d%% Chance to not consume Quantity"
+    "zhCN": "%+d%% 機率不消耗數量"
   },
   {
     "id": 27339,
@@ -5726,7 +5726,7 @@
     "jaJP": "敵の冷気無効を弱体化",
     "ptBR": "Imunidade a gelo de monstros destroçada",
     "ruRU": "Невосприимчивость монстров к холоду нейтрализована",
-    "zhCN": "Monster Cold Immunity is Sundered"
+    "zhCN": "破除怪物的冰寒免疫"
   },
   {
     "id": 27340,
@@ -5743,7 +5743,7 @@
     "jaJP": "敵の火炎無効を弱体化",
     "ptBR": "Imunidade a fogo de monstros destroçada",
     "ruRU": "Невосприимчивость монстров к огню нейтрализована",
-    "zhCN": "Monster Fire Immunity is Sundered"
+    "zhCN": "破除怪物的火焰免疫"
   },
   {
     "id": 27341,
@@ -5760,7 +5760,7 @@
     "jaJP": "敵の電撃無効を弱体化",
     "ptBR": "Imunidade elétrica de monstros destroçada",
     "ruRU": "Невосприимчивость монстров к молнии нейтрализована",
-    "zhCN": "Monster Lightning Immunity is Sundered"
+    "zhCN": "破除怪物的閃電免疫"
   },
   {
     "id": 27342,
@@ -5777,7 +5777,7 @@
     "jaJP": "敵の毒無効を弱体化",
     "ptBR": "Imunidade a veneno de monstros destroçada",
     "ruRU": "Невосприимчивость монстров к яду нейтрализована",
-    "zhCN": "Monster Poison Immunity is Sundered"
+    "zhCN": "破除怪物的毒素免疫"
   },
   {
     "id": 27343,
@@ -5794,7 +5794,7 @@
     "jaJP": "敵の物理無効を弱体化",
     "ptBR": "Imunidade física de monstros destroçada",
     "ruRU": "Невосприимчивость монстров к физическому урону нейтрализована",
-    "zhCN": "Monster Physical Immunity is Sundered"
+    "zhCN": "破除怪物的物理免疫"
   },
   {
     "id": 27344,
@@ -5811,7 +5811,7 @@
     "jaJP": "敵の魔法無効を弱体化",
     "ptBR": "Imunidade a magia de monstros destroçada",
     "ruRU": "Невосприимчивость монстров к магическому урону нейтрализована",
-    "zhCN": "Monster Magic Immunity is Sundered"
+    "zhCN": "破除怪物的魔法免疫"
   },
   {
     "id": 27351,
@@ -5828,7 +5828,7 @@
     "jaJP": "受ける物理ダメージが増加（%d%%）",
     "ptBR": "Dano físico recebido aumentado em %d%%",
     "ruRU": "Получаемый физический урон уменьшен на %d%%",
-    "zhCN": "Physical Damage Received Increased by(DI) %d%%"
+    "zhCN": "受到的物理傷害提高(DI) %d%%"
   },
   {
     "id": 27371,
@@ -5845,7 +5845,7 @@
     "jaJP": "%+d%%の確率で必殺技の溜めを消費しなくなる",
     "ptBR": "%+d%% de chance de finalizações não consumirem cargas",
     "ruRU": "%+d%% к шансу не израсходовать заряды завершающими приемами",
-    "zhCN": "%+d%% chance for finishing moves to not consume charges"
+    "zhCN": "%+d%% 機率使終結技不消耗集氣的力量"
   },
   {
     "id": 27374,
@@ -5862,7 +5862,7 @@
     "jaJP": "攻撃速度+%+d%%",
     "ptBR": "%+d%% de velocidade de ataque",
     "ruRU": "%+d%% к скорости атаки",
-    "zhCN": "%+d%% Attack Speed"
+    "zhCN": "攻擊速度 %+d%% "
   },
   {
     "id": 27574,
@@ -5879,7 +5879,7 @@
     "jaJP": "右クリックで恐慌化（第1章）",
     "ptBR": "Clique com o botão direito para aterrorizar o Ato 1",
     "ruRU": "Ввергнуть ужас в 1-й акт – ПКМ",
-    "zhCN": "Right Click to terrorize Act 1"
+    "zhCN": "點擊滑鼠右鍵將第一章設為邪惡威脅區域"
   },
   {
     "id": 27575,
@@ -5896,7 +5896,7 @@
     "jaJP": "右クリックで恐慌化（第2章）",
     "ptBR": "Clique com o botão direito para aterrorizar o Ato 2",
     "ruRU": "Ввергнуть ужас во 2-й акт – ПКМ",
-    "zhCN": "Right Click to terrorize Act 2"
+    "zhCN": "點擊滑鼠右鍵將第二章設為邪惡威脅區域"
   },
   {
     "id": 27576,
@@ -5913,7 +5913,7 @@
     "jaJP": "右クリックで恐慌化（第3章）",
     "ptBR": "Clique com o botão direito para aterrorizar o Ato 3",
     "ruRU": "Ввергнуть ужас в 3-й акт – ПКМ",
-    "zhCN": "Right Click to terrorize Act 3"
+    "zhCN": "點擊滑鼠右鍵將第三章設為邪惡威脅區域"
   },
   {
     "id": 27577,
@@ -5930,7 +5930,7 @@
     "jaJP": "右クリックで恐慌化（第4章）",
     "ptBR": "Clique com o botão direito para aterrorizar o Ato 4",
     "ruRU": "Ввергнуть ужас в 4-й акт – ПКМ",
-    "zhCN": "Right Click to terrorize Act 4"
+    "zhCN": "點擊滑鼠右鍵將第四章設為邪惡威脅區域"
   },
   {
     "id": 27578,
@@ -5947,7 +5947,7 @@
     "jaJP": "右クリックで恐慌化（第5章）",
     "ptBR": "Clique com o botão direito para aterrorizar o Ato 5",
     "ruRU": "Ввергнуть ужас в 5-й акт – ПКМ",
-    "zhCN": "Right Click to terrorize Act 5"
+    "zhCN": "點擊滑鼠右鍵將第五章設為邪惡威脅區域"
   },
   {
     "id": 27579,
@@ -5964,7 +5964,7 @@
     "jaJP": "西のワールドストーン・シャード",
     "ptBR": "Estilhaço do Oeste da Pedra do Mundo",
     "ruRU": "Западный осколок камня мироздания",
-    "zhCN": "Western Worldstone Shard"
+    "zhCN": "西方的世界之石碎片"
   },
   {
     "id": 27580,
@@ -5981,7 +5981,7 @@
     "jaJP": "東のワールドストーン・シャード",
     "ptBR": "Estilhaço do Leste da Pedra do Mundo",
     "ruRU": "Восточный осколок камня мироздания",
-    "zhCN": "Eastern Worldstone Shard"
+    "zhCN": "東方的世界之石碎片"
   },
   {
     "id": 27581,
@@ -5998,7 +5998,7 @@
     "jaJP": "南のワールドストーン・シャード",
     "ptBR": "Estilhaço do Sul da Pedra do Mundo",
     "ruRU": "Южный осколок камня мироздания",
-    "zhCN": "Southern Worldstone Shard"
+    "zhCN": "南方的世界之石碎片"
   },
   {
     "id": 27582,
@@ -6015,7 +6015,7 @@
     "jaJP": "深部のワールドストーン・シャード",
     "ptBR": "Estilhaço Profundo da Pedra do Mundo",
     "ruRU": "Глубинный осколок камня мироздания",
-    "zhCN": "Deep Worldstone Shard"
+    "zhCN": "深處的世界之石碎片"
   },
   {
     "id": 27583,
@@ -6032,7 +6032,7 @@
     "jaJP": "北のワールドストーン・シャード",
     "ptBR": "Estilhaço do Norte da Pedra do Mundo",
     "ruRU": "Северный осколок камня мироздания",
-    "zhCN": "Northern Worldstone Shard"
+    "zhCN": "北方的世界之石碎片"
   },
   {
     "id": 27602,
@@ -6049,7 +6049,7 @@
     "jaJP": "（ウォーロックのみ）",
     "ptBR": "(Somente Bruxo)",
     "ruRU": "(Только для чернокнижников)",
-    "zhCN": "(Warlock Only)"
+    "zhCN": "（只限術士）"
   },
   {
     "id": 27678,
@@ -6066,7 +6066,7 @@
     "jaJP": "魔法スキルダメージ向上（%+d%%）",
     "ptBR": "%+d%% para dano de habilidade mágica",
     "ruRU": "%+d%% к урону от магических умений",
-    "zhCN": "%+d%% to Magic Skill Damage"
+    "zhCN": "%+d%% 魔法技能傷害"
   },
   {
     "id": 27679,
@@ -6083,7 +6083,7 @@
     "jaJP": "敵の魔法耐性（-%d%%）",
     "ptBR": "-%d%% para resistência a magia inimiga",
     "ruRU": "-%d%% к сопротивлению магии у врага",
-    "zhCN": "-%d%% to Enemy Magic Resistance"
+    "zhCN": "敵人魔法抗性 -%d%%"
   },
   {
     "id": 27865,
@@ -6100,7 +6100,7 @@
     "jaJP": "最大魔法ダメージ向上（%+d%%）",
     "ptBR": "%+d para dano mágico máximo",
     "ruRU": "%+d к максимальному магическому урону",
-    "zhCN": "%+d to Maximum Magic Damage"
+    "zhCN": "%+d 魔法傷害最大值"
   },
   {
     "id": 27866,
@@ -6117,7 +6117,7 @@
     "jaJP": "敵の物理ダメージ耐性（-%d%%）",
     "ptBR": "-%d%% para resistência a dano físico inimigo",
     "ruRU": "-%d%% к сопротивлению физическому урону у врага",
-    "zhCN": "-%d%% to Enemy Physical Damage Resistance"
+    "zhCN": "敵人物理傷害抗性 -%d%%"
   },
   {
     "id": 27888,
@@ -6134,7 +6134,7 @@
     "jaJP": "悪魔スキル向上（+%d）",
     "ptBR": "+%d para habilidades de demônio",
     "ruRU": "+%d к демоническим умениям",
-    "zhCN": "+%d to Demon Skills"
+    "zhCN": "+%d 惡魔技能"
   },
   {
     "id": 27889,
@@ -6151,7 +6151,7 @@
     "jaJP": "エルドリッチスキル向上（+%d）",
     "ptBR": "+%d para habilidades sobrenaturais",
     "ruRU": "+%d к потусторонним умениям",
-    "zhCN": "+%d to Eldritch Skills"
+    "zhCN": "+%d 邪異技能"
   },
   {
     "id": 27890,
@@ -6168,7 +6168,7 @@
     "jaJP": "混沌スキル向上（+%d）",
     "ptBR": "+%d para habilidades de caos",
     "ruRU": "+%d к хаотическим умениям",
-    "zhCN": "+%d to Chaos Skills"
+    "zhCN": "+%d 混沌技能"
   },
   {
     "id": 27891,
@@ -6185,7 +6185,7 @@
     "jaJP": "ウォーロックスキル向上（+%d）",
     "ptBR": "+%d para habilidades de bruxo",
     "ruRU": "+%d к умениям чернокнижника",
-    "zhCN": "+%d to Warlock Skills"
+    "zhCN": "+%d 術士技能"
   },
   {
     "id": 27979,
@@ -6202,7 +6202,7 @@
     "jaJP": "ÿcU(%s-%s)ÿc3",
     "ptBR": "ÿcU(%s-%s)ÿc3",
     "ruRU": "ÿcU(%s-%s)ÿc3",
-    "zhCN": "ÿcU(%s-%s)ÿc3"
+    "zhCN": "ÿcT（%s-%s）ÿc3"
   },
   {
     "id": 27998,
@@ -6219,7 +6219,7 @@
     "jaJP": "防御力: ÿcU(%d-%d)ÿc3",
     "ptBR": "Defesa: ÿcU(%d-%d)ÿc3",
     "ruRU": "Защита: ÿcU(%d-%d)ÿc3",
-    "zhCN": "Defense: ÿcU(%d-%d)ÿc3"
+    "zhCN": "防禦：ÿcT（%d-%d）ÿc3"
   },
   {
     "id": 28014,
@@ -6236,7 +6236,7 @@
     "jaJP": "ランダムなクラスのスキルレベル向上（%+d）",
     "ptBR": "%+d para os níveis de habilidade de uma classe aleatória",
     "ruRU": "%+d к уровням умений случайного класса",
-    "zhCN": "%+d to a Random Class' Skill Levels"
+    "zhCN": "%+d 隨機職業的技能等級"
   },
   {
     "id": 28015,
@@ -6253,7 +6253,7 @@
     "jaJP": "ランダムな%sスキル%s向上（%+d）",
     "ptBR": "%+d para uma habilidade %s aleatória %s",
     "ruRU": "%+d к случайному %s умению %s",
-    "zhCN": "%+d to a random %s Skill %s"
+    "zhCN": "%+d 隨機%s技能%s"
   },
   {
     "id": 28016,
@@ -6270,7 +6270,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "• "
+    "zhCN": ""
   },
   {
     "id": 28017,
@@ -6287,7 +6287,7 @@
     "jaJP": "以下のうち%s: ",
     "ptBR": "%s do seguinte:",
     "ruRU": "%s из следующих свойств:",
-    "zhCN": "%s of the following:"
+    "zhCN": "下列的%s："
   },
   {
     "id": 28084,

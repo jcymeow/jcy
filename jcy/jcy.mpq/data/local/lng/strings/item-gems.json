@@ -14,7 +14,7 @@
     "jaJP": "兜: 筋力が上昇\n盾: 盾防御力が上昇\n武器: 命中率が上昇\n",
     "ptBR": "Elmo: aumenta a força\nEscudo: aumenta a defesa do escudo\nArma: aumenta a taxa de ataque\n",
     "ruRU": "Шлем: повышает силу\nЩит: повышает защиту\nОружие: повышает рейтинг атаки\n",
-    "zhCN": "Helm: adds to strength\nShield: adds to shield's defense\nWeapon: adds to attack rating\n"
+    "zhCN": "頭盔：提高力量\n盾牌：提高盾牌的防禦\n武器：提高準確率\n"
   },
   {
     "id": 3633,
@@ -31,7 +31,7 @@
     "jaJP": "兜: マナ最大値が上昇\n盾: 冷気耐性が上昇\n武器: 攻撃に冷気ダメージを追加\n",
     "ptBR": "Elmo: aumenta o máximo de mana\nEscudo: adiciona resistência a gelo\nArma: adiciona dano gélido ao ataque\n",
     "ruRU": "Шлем: увеличивает максимальный запас маны\nЩит: повышает сопротивление льду\nОружие: добавляет урон от льда при атаках\n",
-    "zhCN": "Helm: adds to maximum mana\nShield: adds resistance to cold\nWeapon: adds cold damage to attack\n"
+    "zhCN": "頭盔：提高法力上限\n護盾：提高冰寒抗性\n武器：攻擊附加冰寒傷害"
   },
   {
     "id": 3634,
@@ -48,7 +48,7 @@
     "jaJP": "兜: 敏捷性が上昇\n盾: 毒物耐性が上昇\n武器: 攻撃に毒ダメージを追加\n",
     "ptBR": "Elmo: aumenta a destreza\nEscudo: adiciona resistência a veneno\nArma: adiciona dano venenoso ao ataque\n",
     "ruRU": "Шлем: повышает ловкость\nЩит: повышает сопротивление яду\nОружие: добавляет урон от яда при атаках\n",
-    "zhCN": "Helm: adds to dexterity\nShield: adds resistance to poison\nWeapon: adds poison damage to attack\n"
+    "zhCN": "頭盔：提高敏捷\n護盾：提高毒素抗性\n武器：攻擊附加毒素傷害\n"
   },
   {
     "id": 3635,
@@ -65,7 +65,7 @@
     "jaJP": "兜: ライフ最大値が上昇\n盾: 火炎耐性が上昇\n武器: 攻撃に火炎ダメージを追加\n",
     "ptBR": "Elmo: aumenta o máximo de pontos de vida\nEscudo: adiciona resistência a fogo\nArma: adiciona dano ígneo ao ataque\n",
     "ruRU": "Шлем: увеличивает максимальный запас здоровья\nЩит: повышает сопротивление огню\nОружие: добавляет урон от огня при атаках\n",
-    "zhCN": "Helm: adds to maximum life\nShield: adds resistance to fire\nWeapon: adds fire damage to attack\n"
+    "zhCN": "頭盔：提高生命上限\n護盾：提高火焰抗性\n武器：攻擊附加火焰傷害\n"
   },
   {
     "id": 3636,
@@ -82,7 +82,7 @@
     "jaJP": "兜: 命中率が上昇\n盾: 全属性耐性が上昇\n武器: アンデッドへのダメージが増加\n",
     "ptBR": "Elmo: aumenta a taxa de ataque\nEscudo: aumenta todas as resistências\nArma: aumenta o dano contra mortos-vivos\n",
     "ruRU": "Шлем: повышает рейтинг атаки\nЩит: повышает сопротивление всем видам урона\nОружие: повышает урон против нежити\n",
-    "zhCN": "Helm: adds to attack rating\nShield: adds to all resistances\nWeapon: adds to damage vs. undead\n"
+    "zhCN": "頭盔：提高準確率\n護盾：提高所有抗性\n武器：提高對不死怪物的傷害"
   },
   {
     "id": 3637,
@@ -99,7 +99,7 @@
     "jaJP": "兜: マジックアイテムのドロップ率が上昇\n盾: 電撃耐性が上昇\n武器: 攻撃に電撃ダメージを追加\n",
     "ptBR": "Elmo: aumenta a chance de encontrar itens mágicos\nEscudo: adiciona resistência elétrica\nArma: adiciona dano elétrico ao ataque\n",
     "ruRU": "Шлем: повышает вероятность найти магические предметы\nЩит: повышает сопротивление молнии\nОружие: добавляет урон от молнии при атаках\n",
-    "zhCN": "Helm: adds to chance to find magic items\nShield: adds resistance to lightning\nWeapon: adds lightning damage to attack\n"
+    "zhCN": "頭盔：提高魔法物品尋獲機率\n護盾：提高電擊抗性\n武器：攻擊附加電擊傷害\n"
   },
   {
     "id": 3638,
@@ -116,7 +116,7 @@
     "jaJP": "兜: ライフとマナの回復速度が上昇\n盾: 反撃ダメージを追加\n武器: 攻撃時にライフとマナを奪う効果を追加\n",
     "ptBR": "Elmo: adiciona regeneração de pontos de vida e mana\nEscudo: adiciona recebimento de dano pelo agressor\nArma: adiciona roubo de pontos de vida e mana ao ataque\n",
     "ruRU": "Шлем: повышает скорость восполнения маны и здоровья\nЩит: наносит урон атакующим противникам\nОружие: позволяет похищать ману и здоровье при атаках\n",
-    "zhCN": "Helm: adds mana and life regeneration\nShield: adds attacker takes damage\nWeapon: adds mana and life steal to attack\n"
+    "zhCN": "頭盔：提高法力和生命恢復率\n護盾：提高攻擊者反傷\n武器：攻擊附加法力和生命竊取\n"
   },
   {
     "id": 4019,
@@ -133,7 +133,7 @@
     "jaJP": "宝石を使う",
     "ptBR": "Usar gema",
     "ruRU": "Использовать самоцвет",
-    "zhCN": "Use Gem"
+    "zhCN": "使用寶石"
   },
   {
     "id": 11073,
@@ -150,7 +150,7 @@
     "jaJP": "兜:",
     "ptBR": "Elmos:",
     "ruRU": "Шлемы:",
-    "zhCN": "Helms:"
+    "zhCN": "頭盔："
   },
   {
     "id": 11074,
@@ -167,7 +167,7 @@
     "jaJP": "盾:",
     "ptBR": "Escudos:",
     "ruRU": "Щиты:",
-    "zhCN": "Shields:"
+    "zhCN": "盾牌："
   },
   {
     "id": 11075,
@@ -184,7 +184,7 @@
     "jaJP": "武器:",
     "ptBR": "Armas:",
     "ruRU": "Оружие:",
-    "zhCN": "Weapons:"
+    "zhCN": "武器："
   },
   {
     "id": 11076,
@@ -201,7 +201,7 @@
     "jaJP": "鎧:",
     "ptBR": "Armaduras:",
     "ruRU": "Броня:",
-    "zhCN": "Armor:"
+    "zhCN": "護甲："
   },
   {
     "id": 21265,
@@ -218,7 +218,7 @@
     "jaJP": "筋力が上昇",
     "ptBR": "Aumenta a força",
     "ruRU": "Повышает силу",
-    "zhCN": "Adds to Strength"
+    "zhCN": "提高力量"
   },
   {
     "id": 21266,
@@ -235,7 +235,7 @@
     "jaJP": "防御力が上昇",
     "ptBR": "Aumenta a defesa",
     "ruRU": "Повышает защиту",
-    "zhCN": "Adds to Defense"
+    "zhCN": "提高防禦"
   },
   {
     "id": 21267,
@@ -252,7 +252,7 @@
     "jaJP": "命中率が上昇",
     "ptBR": "Aumenta a taxa de ataque",
     "ruRU": "Повышает рейтинг атаки",
-    "zhCN": "Adds to Attack Rating"
+    "zhCN": "提高準確率"
   },
   {
     "id": 21268,
@@ -269,7 +269,7 @@
     "jaJP": "マナ最大値が上昇",
     "ptBR": "Aumenta o máximo de mana",
     "ruRU": "Увеличивает максимальный запас маны",
-    "zhCN": "Adds to Maximum Mana"
+    "zhCN": "提高法力上限"
   },
   {
     "id": 21269,
@@ -286,7 +286,7 @@
     "jaJP": "冷気耐性が上昇",
     "ptBR": "Adiciona resistência a gelo",
     "ruRU": "Повышает сопротивление льду",
-    "zhCN": "Adds Resistance to Cold"
+    "zhCN": "提高冰寒抗性"
   },
   {
     "id": 21270,
@@ -303,7 +303,7 @@
     "jaJP": "攻撃に冷気ダメージを追加",
     "ptBR": "Adiciona dano gélido ao ataque",
     "ruRU": "Добавляет урон от льда при атаках",
-    "zhCN": "Adds Cold Damage to Attack"
+    "zhCN": "攻擊附加冰寒傷害"
   },
   {
     "id": 21271,
@@ -320,7 +320,7 @@
     "jaJP": "敏捷性が上昇",
     "ptBR": "Aumenta a destreza",
     "ruRU": "Повышает ловкость",
-    "zhCN": "Adds to Dexterity"
+    "zhCN": "提高敏捷"
   },
   {
     "id": 21272,
@@ -337,7 +337,7 @@
     "jaJP": "毒物耐性が上昇",
     "ptBR": "Adiciona resistência a veneno",
     "ruRU": "Повышает сопротивление яду",
-    "zhCN": "Adds Resistance to Poison"
+    "zhCN": "提高毒素抗性"
   },
   {
     "id": 21273,
@@ -354,7 +354,7 @@
     "jaJP": "攻撃に毒ダメージを追加",
     "ptBR": "Adiciona dano venenoso ao ataque",
     "ruRU": "Добавляет урон от яда при атаках",
-    "zhCN": "Adds Poison Damage to Attack"
+    "zhCN": "攻擊附加毒素傷害"
   },
   {
     "id": 21274,
@@ -371,7 +371,7 @@
     "jaJP": "ライフ最大値が上昇",
     "ptBR": "Aumenta o máximo de pontos de vida",
     "ruRU": "Увеличивает максимальный запас здоровья",
-    "zhCN": "Adds to Maximum Life"
+    "zhCN": "提高生命上限"
   },
   {
     "id": 21275,
@@ -388,7 +388,7 @@
     "jaJP": "火炎耐性が上昇",
     "ptBR": "Adiciona resistência a fogo",
     "ruRU": "Повышает сопротивление огню",
-    "zhCN": "Adds Resistance to Fire"
+    "zhCN": "提高火焰抗性"
   },
   {
     "id": 21276,
@@ -405,7 +405,7 @@
     "jaJP": "攻撃に火炎ダメージを追加",
     "ptBR": "Adiciona dano ígneo ao ataque",
     "ruRU": "Добавляет урон от огня при атаках",
-    "zhCN": "Adds Fire Damage to Attack"
+    "zhCN": "攻擊附加火焰傷害"
   },
   {
     "id": 21277,
@@ -422,7 +422,7 @@
     "jaJP": "命中率が上昇",
     "ptBR": "Aumenta a taxa de ataque",
     "ruRU": "Повышает рейтинг атаки",
-    "zhCN": "Adds to Attack Rating"
+    "zhCN": "提高準確率"
   },
   {
     "id": 21278,
@@ -439,7 +439,7 @@
     "jaJP": "全属性耐性が上昇",
     "ptBR": "Aumenta todas as resistências",
     "ruRU": "Повышает все виды сопротивления",
-    "zhCN": "Adds to All Resistances"
+    "zhCN": "提高所有抗性"
   },
   {
     "id": 21279,
@@ -456,7 +456,7 @@
     "jaJP": "アンデッドへのダメージが増加",
     "ptBR": "Aumenta o dano contra mortos-vivos",
     "ruRU": "Повышает урон против нежити",
-    "zhCN": "Adds to Damage vs. Undead"
+    "zhCN": "提高對不死怪物的傷害"
   },
   {
     "id": 21280,
@@ -473,7 +473,7 @@
     "jaJP": "マジックアイテムのドロップ率が上昇",
     "ptBR": "Aumenta a chance de encontrar itens mágicos",
     "ruRU": "Повышает вероятность найти магические предметы",
-    "zhCN": "Adds to Chance to Find Magic Items"
+    "zhCN": "提高魔法物品尋獲機率"
   },
   {
     "id": 21281,
@@ -490,7 +490,7 @@
     "jaJP": "電撃耐性が上昇",
     "ptBR": "Adiciona resistência elétrica",
     "ruRU": "Повышает сопротивление молнии",
-    "zhCN": "Adds Resistance to Lightning"
+    "zhCN": "提高電擊抗性"
   },
   {
     "id": 21282,
@@ -507,7 +507,7 @@
     "jaJP": "攻撃に電撃ダメージを追加",
     "ptBR": "Adiciona dano elétrico ao ataque",
     "ruRU": "Добавляет урон от молнии при атаках",
-    "zhCN": "Adds Lightning Damage to Attack"
+    "zhCN": "攻擊附加電擊傷害"
   },
   {
     "id": 21283,
@@ -524,7 +524,7 @@
     "jaJP": "ライフとマナの回復速度が上昇",
     "ptBR": "Adiciona regeneração de pontos de vida e mana",
     "ruRU": "Повышает скорость восполнения маны и здоровья",
-    "zhCN": "Adds Mana and Life Regeneration"
+    "zhCN": "提高法力和生命恢復率"
   },
   {
     "id": 21284,
@@ -541,7 +541,7 @@
     "jaJP": "反撃ダメージを追加",
     "ptBR": "Adiciona recebimento de dano pelo agressor",
     "ruRU": "Наносит урон атакующим противникам",
-    "zhCN": "Adds Attacker Takes Damage"
+    "zhCN": "提高攻擊者反傷"
   },
   {
     "id": 21285,
@@ -558,6 +558,6 @@
     "jaJP": "攻撃時にライフとマナを奪う効果を追加",
     "ptBR": "Adiciona roubo de pontos de vida e mana ao ataque",
     "ruRU": "Позволяет похищать ману и здоровье при атаках",
-    "zhCN": "Adds Mana and Life Steal to Attack"
+    "zhCN": "攻擊附加法力和生命竊取"
   }
 ]
