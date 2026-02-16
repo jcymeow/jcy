@@ -264,15 +264,18 @@ class FeatureController:
             Function.DOWNSTAIRS_POINTER.value: self.file_operations.modify_downstairs_pointer,
 
 
+            # 通用设置
+            Function.COMMON_SETTING.value: self.file_operations.common_setting,
+            # 弓/弩箭皮肤
+            Function.ARROW.value : self.file_operations.select_arrow_skin,
+            # 传送术皮肤
+            Function.TELEPORT_SKIN.value: self.file_operations.select_teleport_skin,
+
+
             # 道具屏蔽
             ITEM_FILTER: self.file_operations.modify_item_filter,
-            
-            # 弓/弩箭皮肤
-            ARROW: self.file_operations.select_arrow_skin,
             # 魔法师
             SOR_SETTING: self.file_operations.sorceress_setting,
-            # 传送术皮肤
-            TELEPORT_SKIN: self.file_operations.select_teleport_skin,
             # 死灵法师
             NEC_SETTING: self.file_operations.necromancer_setting,
             # 德鲁伊
@@ -283,8 +286,7 @@ class FeatureController:
             ASN_MARTIAL: self.file_operations.assassin_martial,
             # 圣骑士
             PAL_SETTING: self.file_operations.paladin_setting,
-            # 通用设置
-            COMMON_SETTING: self.file_operations.common_setting,
+            
             # 技能结束提示音
             SKILL_OFF_SOUNDS: self.file_operations.skill_off_sounds,
             # 佣兵-图标位置

@@ -36,21 +36,10 @@
                     "fields": {
                         "rect": {
                             "x": 113,
-                            "y": 170
+                            "y": 204
                         },
                         "filename": "LogoAnimation/LogoAnimation",
                         "fps": 20
-                    }
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "ResurrectedText",
-                    "fields": {
-                        "rect": {
-                            "x": 170,
-                            "y": 500
-                        },
-                        "filename": "LogoAnimation/ResurrectedText"
                     }
                 },
                 {
@@ -101,45 +90,11 @@
                 },
                 {
                     "type": "ButtonWidget",
-                    "name": "Cinematics",
-                    "fields": {
-                        "rect": {
-                            "x": 165,
-                            "y": 960
-                        },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
-                        "textString": "@strGameCinematics",
-                        "onClickMessage": "FrontEndNavigation:ToCinematics",
-                        "textColor": "$LightButtonTextColor",
-                        "text/style": "$StyleFEButtonText",
-                        "hoveredFrame": 3,
-                        "disabledFrame": 2
-                    }
-                },
-                {
-                    "type": "ButtonWidget",
-                    "name": "Credits",
-                    "fields": {
-                        "rect": {
-                            "x": 165,
-                            "y": 1100
-                        },
-                        "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
-                        "textString": "@strGameCredits",
-                        "onClickMessage": "PanelManager:OpenPanel:CreditsModal",
-                        "textColor": "$LightButtonTextColor",
-                        "text/style": "$StyleFEButtonText",
-                        "hoveredFrame": 3,
-                        "disabledFrame": 2
-                    }
-                },
-                {
-                    "type": "ButtonWidget",
                     "name": "Exit",
                     "fields": {
                         "rect": {
                             "x": 165,
-                            "y": 1240
+                            "y": 960
                         },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                         "textString": "@strexitentiregame",
@@ -169,10 +124,10 @@
                         ],
                         "tileScale": 1.0,
                         "rect": {
-                            "x": 87,
-                            "y": 1542,
-                            "width": 631,
-                            "height": 0
+                            "x": 71,
+                            "y": 1491,
+                            "width": 665,
+                            "height": 96
                         }
                     },
                     "children": [
@@ -207,10 +162,10 @@
                         ],
                         "tileScale": 1.0,
                         "rect": {
-                            "x": 87,
-                            "y": 1588,
-                            "width": 631,
-                            "height": 490
+                            "x": 71,
+                            "y": 1578,
+                            "width": 665,
+                            "height": 518
                         }
                     },
                     "children": [
@@ -219,8 +174,8 @@
                             "name": "ScrollBarBackground",
                             "fields": {
                                 "rect": {
-                                    "x": 605,
-                                    "y": 8
+                                    "x": 615,
+                                    "y": 18
                                 },
                                 "filename": "FrontEnd\\HD\\Final\\FrontEnd_ScrollbarSmall"
                             },
@@ -249,8 +204,8 @@
                             "name": "MotDScrollView",
                             "fields": {
                                 "rect": {
-                                    "x": 4,
-                                    "y": 4,
+                                    "x": 14,
+                                    "y": 14,
                                     "width": 600,
                                     "height": 486
                                 },

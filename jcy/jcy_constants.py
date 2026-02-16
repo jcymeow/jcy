@@ -109,16 +109,13 @@ BATTLE_NET_LANGUAGE = "BattleNetLanguage"
 
 
 HUD_SIZE = "HudSize"
-ARROW = "Arrow"
 SOR_SETTING = "SorceressSetting"
-TELEPORT_SKIN = "TeleportSkin"
 NEC_SETTING = "NecromancerSetting"
 PAL_SETTING = "PaladinSetting"
 BAR_SETTING = "BarbarianSetting"
 DRU_SETTING = "DruidSetting"
 ASN_SETTING = "AssassinSetting"
 ASN_MARTIAL = "AssassinMartial"
-COMMON_SETTING = "CommonSetting"
 SKILL_OFF_SOUNDS = "SkillOffSounds"
 MERCENARY_LOCATION = "MercenaryLocation"
 MERCENARY_100 = "Mercenary100"
@@ -910,6 +907,10 @@ class Function(Enum):
     UPSTAIRS_POINTER = "UpstairsPointer"
     DOWNSTAIRS_POINTER = "DownstairsPointer"
 
+    COMMON_SETTING = "CommonSetting"
+    ARROW = "Arrow"
+    TELEPORT_SKIN = "TeleportSkin"
+
 
 class Language(Enum):
     ENUS = "enUS"
@@ -978,16 +979,13 @@ __all__ = [
     'BATTLE_NET_LANGUAGE',
     'GOLD_NAMES',
     'HUD_SIZE',
-    'ARROW',
     'SOR_SETTING',
-    'TELEPORT_SKIN',
     'NEC_SETTING',
     'PAL_SETTING',
     'BAR_SETTING',
     'DRU_SETTING',
     'ASN_SETTING',
     'ASN_MARTIAL',
-    'COMMON_SETTING',
     'SKILL_OFF_SOUNDS',
     'MERCENARY_LOCATION',
     'MERCENARY_100',

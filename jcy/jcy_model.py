@@ -231,7 +231,7 @@ class FeatureConfig:
                     "text": "角色&技能",
                     "children": [
                         {
-                            "fid": COMMON_SETTING,
+                            "fid": Function.COMMON_SETTING.value,
                             "type": CHECK,
                             "text": "通用设置",
                             "colspan": 100,
@@ -241,7 +241,7 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": ARROW,
+                            "fid": Function.ARROW.value,
                             "type": RADIO,
                             "text": "弓/弩箭特效",
                             "colspan": 50,
@@ -253,7 +253,7 @@ class FeatureConfig:
                             }
                         },
                         {        
-                            "fid": TELEPORT_SKIN,
+                            "fid": Function.TELEPORT_SKIN.value,
                             "type": RADIO,
                             "text": "传送术皮肤",
                             "colspan": 50,
