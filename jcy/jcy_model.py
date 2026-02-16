@@ -137,15 +137,16 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": PORTAL_SKIN,
+                            "fid": Function.PORTAL_SKIN.value,
                             "type": RADIO,
                             "text": "传送门皮肤",
-                            "colspan": 50,
+                            "colspan": 60,
                             "params": {
                                 "0": "默认",
                                 "1": "原版红门",
                                 "2": "双圈蓝门",
-                                "3": "单圈红门"
+                                "3": "单圈红门",
+                                "4": "奖励皮肤",
                             }
                         },
                         {

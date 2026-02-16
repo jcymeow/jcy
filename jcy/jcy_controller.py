@@ -247,11 +247,12 @@ class FeatureController:
             Function.ESC_SETTING.value: self.file_operations.modify_esc_func,
             # 迷你盒子位置
             Function.MINI_CUBE.value: self.file_operations.modify_mini_cube,
+            # 传送门皮肤
+            Function.PORTAL_SKIN.value: self.file_operations.select_town_portal,
 
             # 道具屏蔽
             ITEM_FILTER: self.file_operations.modify_item_filter,
-            # 传送门皮肤
-            PORTAL_SKIN: self.file_operations.select_town_portal,
+            
             # 弓/弩箭皮肤
             ARROW: self.file_operations.select_arrow_skin,
             # 魔法师

@@ -737,7 +737,8 @@ class FileOperations:
             "0" :"data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_newstuff.particles",
             "1": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_newstuff_newred.particles",
             "2": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal.particles",
-            "3": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_newstuff_redversion.particles"
+            "3": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_newstuff_redversion.particles",
+            "4": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_chronicle.particles",
         }
 
         paths = [

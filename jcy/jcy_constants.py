@@ -109,7 +109,6 @@ BATTLE_NET_LANGUAGE = "BattleNetLanguage"
 
 
 HUD_SIZE = "HudSize"
-PORTAL_SKIN = "ProtalSkin"
 ARROW = "Arrow"
 SOR_SETTING = "SorceressSetting"
 TELEPORT_SKIN = "TeleportSkin"
@@ -146,7 +145,6 @@ WAYPOINT_POINTER = "WayPointPointer"
 MISSION_POINTER = "MissionPointer"
 UPSTAIRS_POINTER = "UpstairsPointer"
 DOWNSTAIRS_POINTER = "DownstairsPointer"
-
 # Function Identifier -->
 
 # Assets
@@ -910,6 +908,7 @@ class Function(Enum):
     CONTROLS_SETTING = "ControlsSetting"
     ESC_SETTING = "EscSetting"
     MINI_CUBE = "MiniCube"
+    PORTAL_SKIN = "ProtalSkin"
 
 
 class Language(Enum):
@@ -979,7 +978,6 @@ __all__ = [
     'BATTLE_NET_LANGUAGE',
     'GOLD_NAMES',
     'HUD_SIZE',
-    'PORTAL_SKIN',
     'ARROW',
     'SOR_SETTING',
     'TELEPORT_SKIN',

@@ -69,7 +69,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "entity_root_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal.particles",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_chronicle.particles",
                     "hardKillOnDestroy": false
                 }
             ]
