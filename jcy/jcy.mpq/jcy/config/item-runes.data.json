@@ -2552,13 +2552,13 @@
             "logo":"\uE101",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIEl",
             "logo":"\uE101",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIEl",
             "logo":"\uE101",
@@ -2584,13 +2584,13 @@
             "logo":"\uE102",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIEld",
             "logo":"\uE102",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIEld",
             "logo":"\uE102",
@@ -2616,13 +2616,13 @@
             "logo":"\uE103",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcITir",
             "logo":"\uE103",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcITir",
             "logo":"\uE103",
@@ -2648,13 +2648,13 @@
             "logo":"\uE104",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcINef",
             "logo":"\uE104",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcINef",
             "logo":"\uE104",
@@ -2680,13 +2680,13 @@
             "logo":"\uE105",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIEth",
             "logo":"\uE105",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIEth",
             "logo":"\uE105",
@@ -2712,13 +2712,13 @@
             "logo":"\uE106",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIIth",
             "logo":"\uE106",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIIth",
             "logo":"\uE106",
@@ -2744,13 +2744,13 @@
             "logo":"\uE107",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcITal",
             "logo":"\uE107",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcITal",
             "logo":"\uE107",
@@ -2776,13 +2776,13 @@
             "logo":"\uE108",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIRal",
             "logo":"\uE108",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIRal",
             "logo":"\uE108",
@@ -2808,13 +2808,13 @@
             "logo":"\uE109",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIOrt",
             "logo":"\uE109",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIOrt",
             "logo":"\uE109",
@@ -2840,13 +2840,13 @@
             "logo":"\uE10A",
             "formula":"ÿc5[x3+碎裂黃寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIThul",
             "logo":"\uE10A",
             "formula":"ÿc5[x3+碎裂的黄宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIThul",
             "logo":"\uE10A",
@@ -2872,13 +2872,13 @@
             "logo":"\uE10B",
             "formula":"ÿc5[x3+碎裂紫寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIAmn",
             "logo":"\uE10B",
             "formula":"ÿc5[x3+碎裂的紫宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIAmn",
             "logo":"\uE10B",
@@ -2904,13 +2904,13 @@
             "logo":"\uE10C",
             "formula":"ÿc5[x3+碎裂藍寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcISol",
             "logo":"\uE10C",
             "formula":"ÿc5[x3+碎裂的蓝宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcISol",
             "logo":"\uE10C",
@@ -2936,13 +2936,13 @@
             "logo":"\uE10D",
             "formula":"ÿc5[x3+碎裂紅寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIShael",
             "logo":"\uE10D",
             "formula":"ÿc5[x3+碎裂的红宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIShael",
             "logo":"\uE10D",
@@ -2968,13 +2968,13 @@
             "logo":"\uE10E",
             "formula":"ÿc5[x3+碎裂綠寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIDol",
             "logo":"\uE10E",
             "formula":"ÿc5[x3+碎裂的绿宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIDol",
             "logo":"\uE10E",
@@ -3000,13 +3000,13 @@
             "logo":"\uE10F",
             "formula":"ÿc5[x3+碎裂鑽石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIHel",
             "logo":"\uE10F",
             "formula":"ÿc5[x3+碎裂的钻石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIHel",
             "logo":"\uE10F",
@@ -3032,13 +3032,13 @@
             "logo":"\uE110",
             "formula":"ÿc5[x3+瑕疵黃寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIIo",
             "logo":"\uE110",
             "formula":"ÿc5[x3+裂开的黄宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIIo",
             "logo":"\uE110",
@@ -3064,13 +3064,13 @@
             "logo":"\uE111",
             "formula":"ÿc5[x3+瑕疵紫寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcILum",
             "logo":"\uE111",
             "formula":"ÿc5[x3+裂开的紫宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcILum",
             "logo":"\uE111",
@@ -3096,13 +3096,13 @@
             "logo":"\uE112",
             "formula":"ÿc5[x3+瑕疵藍寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIKo",
             "logo":"\uE112",
             "formula":"ÿc5[x3+裂开的蓝宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIKo",
             "logo":"\uE112",
@@ -3128,13 +3128,13 @@
             "logo":"\uE113",
             "formula":"ÿc5[x3+瑕疵紅寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIFal",
             "logo":"\uE113",
             "formula":"ÿc5[x3+裂开的红宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIFal",
             "logo":"\uE113",
@@ -3160,13 +3160,13 @@
             "logo":"\uE114",
             "formula":"ÿc5[x3+瑕疵綠寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcILem",
             "logo":"\uE114",
             "formula":"ÿc5[x3+裂开的绿宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcILem",
             "logo":"\uE114",
@@ -3192,13 +3192,13 @@
             "logo":"\uE115",
             "formula":"ÿc5[x2+瑕疵鑽石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIPul",
             "logo":"\uE115",
             "formula":"ÿc5[x2+裂开的钻石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIPul",
             "logo":"\uE115",
@@ -3224,13 +3224,13 @@
             "logo":"\uE116",
             "formula":"ÿc5[x2+黃寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIUm",
             "logo":"\uE116",
             "formula":"ÿc5[x2+黄宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIUm",
             "logo":"\uE116",
@@ -3256,13 +3256,13 @@
             "logo":"\uE117",
             "formula":"ÿc5[x2+紫寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIMal",
             "logo":"\uE117",
             "formula":"ÿc5[x2+紫宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIMal",
             "logo":"\uE117",
@@ -3288,13 +3288,13 @@
             "logo":"\uE118",
             "formula":"ÿc5[x2+藍寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIIst",
             "logo":"\uE118",
             "formula":"ÿc5[x2+蓝宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIIst",
             "logo":"\uE118",
@@ -3320,13 +3320,13 @@
             "logo":"\uE119",
             "formula":"ÿc5[x2+紅寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIGul",
             "logo":"\uE119",
             "formula":"ÿc5[x2+红宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIGul",
             "logo":"\uE119",
@@ -3352,13 +3352,13 @@
             "logo":"\uE11A",
             "formula":"ÿc5[x2+綠寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIVex",
             "logo":"\uE11A",
             "formula":"ÿc5[x2+绿宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIVex",
             "logo":"\uE11A",
@@ -3384,13 +3384,13 @@
             "logo":"\uE11B",
             "formula":"ÿc5[x2+鑽石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIOhm",
             "logo":"\uE11B",
             "formula":"ÿc5[x2+钻石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIOhm",
             "logo":"\uE11B",
@@ -3416,13 +3416,13 @@
             "logo":"\uE11C",
             "formula":"ÿc5[x2+無瑕黃寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcILo",
             "logo":"\uE11C",
             "formula":"ÿc5[x2+无瑕疵的黄宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcILo",
             "logo":"\uE11C",
@@ -3448,13 +3448,13 @@
             "logo":"\uE11D",
             "formula":"ÿc5[x2+無瑕紫寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcISur",
             "logo":"\uE11D",
             "formula":"ÿc5[x2+无瑕疵的紫宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcISur",
             "logo":"\uE11D",
@@ -3480,13 +3480,13 @@
             "logo":"\uE11E",
             "formula":"ÿc5[x2+無瑕藍寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIBer",
             "logo":"\uE11E",
             "formula":"ÿc5[x2+无瑕疵的蓝宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIBer",
             "logo":"\uE11E",
@@ -3512,13 +3512,13 @@
             "logo":"\uE11F",
             "formula":"ÿc5[x2+無瑕紅寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIJah",
             "logo":"\uE11F",
             "formula":"ÿc5[x2+无瑕的红宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIJah",
             "logo":"\uE11F",
@@ -3544,13 +3544,13 @@
             "logo":"\uE120",
             "formula":"ÿc5[x2+無瑕綠寶石]\n"
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcICham",
             "logo":"\uE120",
             "formula":"ÿc5[x2+无瑕疵的绿宝石]\n"
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcICham",
             "logo":"\uE120",
@@ -3576,13 +3576,13 @@
             "logo":"\uE121",
             "formula":""
         },
-        "zhSGCN": {
+        "sgCN": {
             "title": "符文",
             "rune":" ÿcIZod",
             "logo":"\uE121",
             "formula":""
         },
-        "zhSGTW": {
+        "sgTW": {
             "title": "符文：",
             "rune":" ÿcIZod",
             "logo":"\uE121",

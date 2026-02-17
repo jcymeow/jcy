@@ -2,7 +2,7 @@
     "Izual": {
         "Key": "Izual",
         "enUS": "Izual",
-        "zhCN": "伊卒爾",
+        "zhCN": "伊卒尔",
         "zhTW": "伊卒爾",
         "sgCN": "衣卒尔",
         "sgTW": "伊卒爾"
@@ -10,7 +10,7 @@
     "izual": {
         "Key": "izual",
         "enUS": "Izual",
-        "zhCN": "伊卒爾",
+        "zhCN": "伊卒尔",
         "zhTW": "伊卒爾",
         "sgCN": "衣卒尔",
         "sgTW": "伊卒爾"
@@ -18,7 +18,7 @@
     "The Feature Creep": {
         "Key": "The Feature Creep",
         "enUS": "Hephasto The Armorer",
-        "zhCN": "護甲鍛造師海法斯特",
+        "zhCN": "护甲锻造师海法斯特",
         "zhTW": "護甲鍛造師海法斯特",
         "sgCN": "铸甲师赫法斯托",
         "sgTW": "護甲鍛造師海法斯特"
@@ -26,7 +26,7 @@
     "Hell Bovine": {
         "Key": "Hell Bovine",
         "enUS": "Hell Bovine",
-        "zhCN": "地獄之牛",
+        "zhCN": "地狱之牛",
         "zhTW": "地獄之牛",
         "sgCN": "地狱魔牛",
         "sgTW": "地獄之牛"
@@ -82,7 +82,7 @@
     "GhoulRI": {
         "Key": "GhoulRI",
         "enUS": "Ghoul",
-        "zhCN": "食屍鬼",
+        "zhCN": "食尸鬼",
         "zhTW": "食屍鬼",
         "sgCN": "食尸鬼",
         "sgTW": "食屍鬼"
@@ -98,7 +98,7 @@
     "scarab": {
         "Key": "scarab",
         "enUS": "Scarab",
-        "zhCN": "惡魔甲蟲",
+        "zhCN": "恶魔甲虫",
         "zhTW": "惡魔甲蟲",
         "sgCN": "圣甲虫",
         "sgTW": "惡魔甲蟲"
@@ -122,7 +122,7 @@
     "Lord De Seis": {
         "Key": "Lord De Seis",
         "enUS": "Lord De Seis",
-        "zhCN": "迪塞斯勳爵",
+        "zhCN": "迪塞斯勋爵",
         "zhTW": "迪塞斯勳爵",
         "sgCN": "希斯王",
         "sgTW": "迪塞斯勳爵"
@@ -130,7 +130,7 @@
     "Infector of Souls": {
         "Key": "Infector of Souls",
         "enUS": "Infector of Souls",
-        "zhCN": "靈魂傳播者",
+        "zhCN": "灵魂传播者",
         "zhTW": "靈魂傳播者",
         "sgCN": "灵魂传播者",
         "sgTW": "靈魂傳播者"
@@ -146,7 +146,7 @@
     "Taintbreeder": {
         "Key": "Taintbreeder",
         "enUS": "Taintbreeder",
-        "zhCN": "汙染飼育者",
+        "zhCN": "污染饲育者",
         "zhTW": "汙染飼育者",
         "sgCN": "腐化滋生者",
         "sgTW": "汙染飼育者"
@@ -170,7 +170,7 @@
     "Maffer Dragonhand": {
         "Key": "Maffer Dragonhand",
         "enUS": "Maffer Dragonhand",
-        "zhCN": "龍手馬弗",
+        "zhCN": "龙手马弗",
         "zhTW": "龍手馬弗",
         "sgCN": "马弗·龙手",
         "sgTW": "龍手馬弗"
@@ -178,7 +178,7 @@
     "Wyand Voidfinger": {
         "Key": "Wyand Voidfinger",
         "enUS": "Wyand Voidbringer",
-        "zhCN": "虛空指維恩",
+        "zhCN": "虚空指维恩",
         "zhTW": "虛空指維恩",
         "sgCN": "韦恩·虚空使者",
         "sgTW": "虛空指維恩"
@@ -194,7 +194,7 @@
     "Bremm Sparkfist": {
         "Key": "Bremm Sparkfist",
         "enUS": "Bremm Sparkfist",
-        "zhCN": "電光拳布瑞姆",
+        "zhCN": "电光拳布瑞姆",
         "zhTW": "電光拳布瑞姆",
         "sgCN": "布瑞姆·火花之拳",
         "sgTW": "電光拳布瑞姆"
@@ -210,7 +210,7 @@
     "Ismail Vilehand": {
         "Key": "Ismail Vilehand",
         "enUS": "Ismail Vilehand",
-        "zhCN": "邪之手伊斯梅爾",
+        "zhCN": "邪之手伊斯梅尔",
         "zhTW": "邪之手伊斯梅爾",
         "sgCN": "伊斯梅尔·邪手",
         "sgTW": "邪之手伊斯梅爾"
@@ -218,7 +218,7 @@
     "Icehawk Riftwing": {
         "Key": "Icehawk Riftwing",
         "enUS": "Icehawk Riftwing",
-        "zhCN": "裂隙之翼冰鷹",
+        "zhCN": "裂隙之翼冰鹰",
         "zhTW": "裂隙之翼冰鷹",
         "sgCN": "冰鹰·裂痕之翼",
         "sgTW": "裂隙之翼冰鷹"
@@ -226,7 +226,7 @@
     "Sarina the Battlemaid": {
         "Key": "Sarina the Battlemaid",
         "enUS": "Battlemaid Sarina",
-        "zhCN": "戰場女傑莎莉娜",
+        "zhCN": "战场女杰莎莉娜",
         "zhTW": "戰場女傑莎莉娜",
         "sgCN": "战斗侍女沙利娜",
         "sgTW": "戰場女傑莎莉娜"
@@ -234,7 +234,7 @@
     "Stormtree": {
         "Key": "Stormtree",
         "enUS": "Stormtree",
-        "zhCN": "暴風之樹",
+        "zhCN": "暴风之树",
         "zhTW": "暴風之樹",
         "sgCN": "树木风暴",
         "sgTW": "暴風之樹"
@@ -242,7 +242,7 @@
     "Witch Doctor Endugu": {
         "Key": "Witch Doctor Endugu",
         "enUS": "Witch Doctor Endugu",
-        "zhCN": "巫醫印都古",
+        "zhCN": "巫医印都古",
         "zhTW": "巫醫印都古",
         "sgCN": "巫医恩杜古",
         "sgTW": "巫醫印都古"
@@ -250,7 +250,7 @@
     "Web Mage the Burning": {
         "Key": "Web Mage the Burning",
         "enUS": "Sszark the Burning",
-        "zhCN": "灼熱的斯札克",
+        "zhCN": "灼热的斯札克",
         "zhTW": "灼熱的斯札克",
         "sgCN": "燃烧的斯扎克",
         "sgTW": "灼熱的斯札克"
@@ -258,7 +258,7 @@
     "Bishibosh": {
         "Key": "Bishibosh",
         "enUS": "Bishibosh",
-        "zhCN": "畢須博須",
+        "zhCN": "毕须博须",
         "zhTW": "畢須博須",
         "sgCN": "毕须博须",
         "sgTW": "畢須博須"
@@ -274,7 +274,7 @@
     "Coldcrow": {
         "Key": "Coldcrow",
         "enUS": "Coldcrow",
-        "zhCN": "冰烏鴉",
+        "zhCN": "冰乌鸦",
         "zhTW": "冰烏鴉",
         "sgCN": "冰冷乌鸦",
         "sgTW": "冰烏鴉"
@@ -290,7 +290,7 @@
     "Treehead WoodFist": {
         "Key": "Treehead WoodFist",
         "enUS": "Treehead WoodFist",
-        "zhCN": "樹頭木拳",
+        "zhCN": "树头木拳",
         "zhTW": "樹頭木拳",
         "sgCN": "树头木拳",
         "sgTW": "樹頭木拳"
@@ -314,7 +314,7 @@
     "Pitspawn Fouldog": {
         "Key": "Pitspawn Fouldog",
         "enUS": "Pitspawn Fouldog",
-        "zhCN": "獄淵惡犬",
+        "zhCN": "狱渊恶犬",
         "zhTW": "獄淵惡犬",
         "sgCN": "渊生邪犬",
         "sgTW": "獄淵惡犬"
@@ -322,7 +322,7 @@
     "Flamespike the Crawler": {
         "Key": "Flamespike the Crawler",
         "enUS": "Flamespike the Crawler",
-        "zhCN": "爬行者火釘",
+        "zhCN": "爬行者火钉",
         "zhTW": "爬行者火釘",
         "sgCN": "火焰脊刺",
         "sgTW": "爬行者火釘"
@@ -338,7 +338,7 @@
     "Radament": {
         "Key": "Radament",
         "enUS": "Radament",
-        "zhCN": "羅達門特",
+        "zhCN": "罗达门特",
         "zhTW": "羅達門特",
         "sgCN": "罗达门特",
         "sgTW": "羅達門特"
@@ -346,7 +346,7 @@
     "Bloodwitch the Wild": {
         "Key": "Bloodwitch the Wild",
         "enUS": "Bloodwitch the Wild",
-        "zhCN": "瘋狂血腥女巫",
+        "zhCN": "疯狂血腥女巫",
         "zhTW": "瘋狂血腥女巫",
         "sgCN": "狂野的血腥女巫",
         "sgTW": "瘋狂血腥女巫"
@@ -362,7 +362,7 @@
     "Beetleburst": {
         "Key": "Beetleburst",
         "enUS": "Beetleburst",
-        "zhCN": "爆蟲",
+        "zhCN": "爆虫",
         "zhTW": "爆蟲",
         "sgCN": "突爆甲虫",
         "sgTW": "爆蟲"
@@ -370,7 +370,7 @@
     "Leatherarm": {
         "Key": "Leatherarm",
         "enUS": "Creeping Feature",
-        "zhCN": "蔓延症狀",
+        "zhCN": "蔓延症状",
         "zhTW": "蔓延症狀",
         "sgCN": "缓行恐面",
         "sgTW": "蔓延症狀"
@@ -378,7 +378,7 @@
     "Coldworm the Burrower": {
         "Key": "Coldworm the Burrower",
         "enUS": "Coldworm the Burrower",
-        "zhCN": "冰蟲鑽地者",
+        "zhCN": "冰虫钻地者",
         "zhTW": "冰蟲鑽地者",
         "sgCN": "钻地的冰虫",
         "sgTW": "冰蟲鑽地者"
@@ -394,7 +394,7 @@
     "Dark Elder": {
         "Key": "Dark Elder",
         "enUS": "Dark Elder",
-        "zhCN": "黑暗長老",
+        "zhCN": "黑暗长老",
         "zhTW": "黑暗長老",
         "sgCN": "黑暗长老",
         "sgTW": "黑暗長老"
@@ -402,7 +402,7 @@
     "The Summoner": {
         "Key": "The Summoner",
         "enUS": "The Summoner",
-        "zhCN": "召喚師",
+        "zhCN": "召唤师",
         "zhTW": "召喚師",
         "sgCN": "召唤者",
         "sgTW": "召喚師"
@@ -410,7 +410,7 @@
     "Ancient Kaa the Soulless": {
         "Key": "Ancient Kaa the Soulless",
         "enUS": "Ancient Kaa the Soulless",
-        "zhCN": "遠古無魂者卡厄",
+        "zhCN": "远古无魂者卡厄",
         "zhTW": "遠古無魂者卡厄",
         "sgCN": "失魂的先贤卡",
         "sgTW": "遠古無魂者卡厄"
@@ -418,7 +418,7 @@
     "The Smith": {
         "Key": "The Smith",
         "enUS": "The Smith",
-        "zhCN": "鐵匠",
+        "zhCN": "铁匠",
         "zhTW": "鐵匠",
         "sgCN": "铁匠",
         "sgTW": "鐵匠"
@@ -426,7 +426,7 @@
     "Rogue": {
         "Key": "Rogue",
         "enUS": "Rogue",
-        "zhCN": "俠盜",
+        "zhCN": "侠盗",
         "zhTW": "俠盜",
         "sgCN": "流亡者",
         "sgTW": "俠盜"
@@ -442,7 +442,7 @@
     "SoulKiller": {
         "Key": "SoulKiller",
         "enUS": "Soul Killer",
-        "zhCN": "靈魂殺手",
+        "zhCN": "灵魂杀手",
         "zhTW": "靈魂殺手",
         "sgCN": "灵魂杀手",
         "sgTW": "靈魂殺手"
@@ -450,7 +450,7 @@
     "Flayer": {
         "Key": "Flayer",
         "enUS": "Flayer",
-        "zhCN": "剝皮手",
+        "zhCN": "剥皮手",
         "zhTW": "剝皮手",
         "sgCN": "剥皮魔",
         "sgTW": "剝皮手"
@@ -482,7 +482,7 @@
     "Undead SoulKiller": {
         "Key": "Undead SoulKiller",
         "enUS": "Undead Soul Killer",
-        "zhCN": "不死靈魂殺手",
+        "zhCN": "不死灵魂杀手",
         "zhTW": "不死靈魂殺手",
         "sgCN": "亡灵灵魂杀手",
         "sgTW": "不死靈魂殺手"
@@ -490,7 +490,7 @@
     "Undead Flayer": {
         "Key": "Undead Flayer",
         "enUS": "Undead Flayer",
-        "zhCN": "不死剝皮手",
+        "zhCN": "不死剥皮手",
         "zhTW": "不死剝皮手",
         "sgCN": "亡灵剥皮魔",
         "sgTW": "不死剝皮手"
@@ -514,7 +514,7 @@
     "DarkFamiliar": {
         "Key": "DarkFamiliar",
         "enUS": "Dark Familiar",
-        "zhCN": "黑暗魔寵",
+        "zhCN": "黑暗魔宠",
         "zhTW": "黑暗魔寵",
         "sgCN": "黑暗邪蝠",
         "sgTW": "黑暗魔寵"
@@ -522,7 +522,7 @@
     "BloodDiver": {
         "Key": "BloodDiver",
         "enUS": "Blood Diver",
-        "zhCN": "鮮血俯衝者",
+        "zhCN": "鲜血俯冲者",
         "zhTW": "鮮血俯衝者",
         "sgCN": "俯冲血蝠",
         "sgTW": "鮮血俯衝者"
@@ -554,7 +554,7 @@
     "BloodLord": {
         "Key": "BloodLord",
         "enUS": "Blood Lord",
-        "zhCN": "鮮血鬼爵",
+        "zhCN": "鲜血鬼爵",
         "zhTW": "鮮血鬼爵",
         "sgCN": "血王",
         "sgTW": "鮮血鬼爵"
@@ -578,7 +578,7 @@
     "GhoulLord": {
         "Key": "GhoulLord",
         "enUS": "Ghoul Lord",
-        "zhCN": "食屍鬼爵",
+        "zhCN": "食尸鬼爵",
         "zhTW": "食屍鬼爵",
         "sgCN": "食尸鬼王",
         "sgTW": "食屍鬼爵"
@@ -586,7 +586,7 @@
     "Spikefist": {
         "Key": "Spikefist",
         "enUS": "Spikefist",
-        "zhCN": "釘拳木魔",
+        "zhCN": "钉拳木魔",
         "zhTW": "釘拳木魔",
         "sgCN": "刺拳",
         "sgTW": "釘拳木魔"
@@ -594,7 +594,7 @@
     "Thrasher": {
         "Key": "Thrasher",
         "enUS": "Thrasher",
-        "zhCN": "笞擊木魔",
+        "zhCN": "笞击木魔",
         "zhTW": "笞擊木魔",
         "sgCN": "鞭笞魔",
         "sgTW": "笞擊木魔"
@@ -610,7 +610,7 @@
     "ThornedHulk": {
         "Key": "ThornedHulk",
         "enUS": "Thorned Hulk",
-        "zhCN": "荊棘木魔",
+        "zhCN": "荆棘木魔",
         "zhTW": "荊棘木魔",
         "sgCN": "刺木魔",
         "sgTW": "荊棘木魔"
@@ -634,7 +634,7 @@
     "PoisonSpinner": {
         "Key": "PoisonSpinner",
         "enUS": "Poison Spinner",
-        "zhCN": "劇毒紡織者",
+        "zhCN": "剧毒纺织者",
         "zhTW": "劇毒紡織者",
         "sgCN": "剧毒缠丝蛛",
         "sgTW": "劇毒紡織者"
@@ -642,7 +642,7 @@
     "SandFisher": {
         "Key": "SandFisher",
         "enUS": "Sand Fisher",
-        "zhCN": "沙漠釣蛛",
+        "zhCN": "沙漠钓蛛",
         "zhTW": "沙漠釣蛛",
         "sgCN": "沙地捕食蛛",
         "sgTW": "沙漠釣蛛"
@@ -666,7 +666,7 @@
     "BloodHook": {
         "Key": "BloodHook",
         "enUS": "Blood Hook",
-        "zhCN": "血鉤蚊",
+        "zhCN": "血钩蚊",
         "zhTW": "血鉤蚊",
         "sgCN": "血钩蚊",
         "sgTW": "血鉤蚊"
@@ -674,7 +674,7 @@
     "Feeder": {
         "Key": "Feeder",
         "enUS": "Feeder",
-        "zhCN": "餵血蚊",
+        "zhCN": "喂血蚊",
         "zhTW": "餵血蚊",
         "sgCN": "捕食蚊",
         "sgTW": "餵血蚊"
@@ -690,7 +690,7 @@
     "WingedNightmare": {
         "Key": "WingedNightmare",
         "enUS": "Winged Nightmare",
-        "zhCN": "飛翼夢魘",
+        "zhCN": "飞翼梦魇",
         "zhTW": "飛翼夢魘",
         "sgCN": "噩梦鸟",
         "sgTW": "飛翼夢魘"
@@ -698,7 +698,7 @@
     "HellBuzzard": {
         "Key": "HellBuzzard",
         "enUS": "Hell Buzzard",
-        "zhCN": "地獄兀鷹",
+        "zhCN": "地狱兀鹰",
         "zhTW": "地獄兀鷹",
         "sgCN": "地狱秃鹫",
         "sgTW": "地獄兀鷹"
@@ -706,7 +706,7 @@
     "UndeadScavenger": {
         "Key": "UndeadScavenger",
         "enUS": "Undead Scavenger",
-        "zhCN": "不死食腐鳥",
+        "zhCN": "不死食腐鸟",
         "zhTW": "不死食腐鳥",
         "sgCN": "食尸鸟",
         "sgTW": "不死食腐鳥"
@@ -714,7 +714,7 @@
     "CarrionBird": {
         "Key": "CarrionBird",
         "enUS": "Carrion Bird",
-        "zhCN": "食腐鳥",
+        "zhCN": "食腐鸟",
         "zhTW": "食腐鳥",
         "sgCN": "食腐鸟",
         "sgTW": "食腐鳥"
@@ -722,7 +722,7 @@
     "Unraveler": {
         "Key": "Unraveler",
         "enUS": "Unraveler",
-        "zhCN": "解繃者",
+        "zhCN": "解绷者",
         "zhTW": "解繃者",
         "sgCN": "剖尸者",
         "sgTW": "解繃者"
@@ -730,7 +730,7 @@
     "Guardian": {
         "Key": "Guardian",
         "enUS": "Guardian",
-        "zhCN": "守護者",
+        "zhCN": "守护者",
         "zhTW": "守護者",
         "sgCN": "墓穴守卫",
         "sgTW": "守護者"
@@ -738,7 +738,7 @@
     "HollowOne": {
         "Key": "HollowOne",
         "enUS": "Hollow One",
-        "zhCN": "中空屍怪",
+        "zhCN": "中空尸怪",
         "zhTW": "中空屍怪",
         "sgCN": "空壳尸魔",
         "sgTW": "中空屍怪"
@@ -746,7 +746,7 @@
     "Horadrim Ancient": {
         "Key": "Horadrim Ancient",
         "enUS": "Horadrim Ancient",
-        "zhCN": "赫拉迪姆古屍",
+        "zhCN": "赫拉迪姆古尸",
         "zhTW": "赫拉迪姆古屍",
         "sgCN": "赫拉迪姆先贤",
         "sgTW": "赫拉迪姆古屍"
@@ -754,7 +754,7 @@
     "AlbinoRoach": {
         "Key": "AlbinoRoach",
         "enUS": "Bone Scarab",
-        "zhCN": "骸骨甲蟲",
+        "zhCN": "骸骨甲虫",
         "zhTW": "骸骨甲蟲",
         "sgCN": "白骨圣甲虫",
         "sgTW": "骸骨甲蟲"
@@ -762,7 +762,7 @@
     "SteelWeevil": {
         "Key": "SteelWeevil",
         "enUS": "Steel Scarab",
-        "zhCN": "鋼鐵甲蟲",
+        "zhCN": "钢铁甲虫",
         "zhTW": "鋼鐵甲蟲",
         "sgCN": "钢铁圣甲虫",
         "sgTW": "鋼鐵甲蟲"
@@ -770,7 +770,7 @@
     "Scarab": {
         "Key": "Scarab",
         "enUS": "Scarab",
-        "zhCN": "惡魔甲蟲",
+        "zhCN": "恶魔甲虫",
         "zhTW": "惡魔甲蟲",
         "sgCN": "圣甲虫",
         "sgTW": "惡魔甲蟲"
@@ -778,7 +778,7 @@
     "SandWarrior": {
         "Key": "SandWarrior",
         "enUS": "Death Beetle",
-        "zhCN": "死亡甲蟲",
+        "zhCN": "死亡甲虫",
         "zhTW": "死亡甲蟲",
         "sgCN": "死亡甲虫",
         "sgTW": "死亡甲蟲"
@@ -786,7 +786,7 @@
     "DungSoldier": {
         "Key": "DungSoldier",
         "enUS": "Dung Soldier",
-        "zhCN": "蜣螂兵蟲",
+        "zhCN": "蜣螂兵虫",
         "zhTW": "蜣螂兵蟲",
         "sgCN": "水肥战士",
         "sgTW": "蜣螂兵蟲"
@@ -794,7 +794,7 @@
     "HellSwarm": {
         "Key": "HellSwarm",
         "enUS": "Hell Swarm",
-        "zhCN": "地獄蟲群",
+        "zhCN": "地狱虫群",
         "zhTW": "地獄蟲群",
         "sgCN": "地狱虫群",
         "sgTW": "地獄蟲群"
@@ -802,7 +802,7 @@
     "PlagueBugs": {
         "Key": "PlagueBugs",
         "enUS": "Plague Bugs",
-        "zhCN": "瘟疫之蟲",
+        "zhCN": "瘟疫之虫",
         "zhTW": "瘟疫之蟲",
         "sgCN": "疫虫",
         "sgTW": "瘟疫之蟲"
@@ -810,7 +810,7 @@
     "BlackLocusts": {
         "Key": "BlackLocusts",
         "enUS": "Black Locusts",
-        "zhCN": "黑色蝗蟲",
+        "zhCN": "黑色蝗虫",
         "zhTW": "黑色蝗蟲",
         "sgCN": "黑蝗",
         "sgTW": "黑色蝗蟲"
@@ -818,7 +818,7 @@
     "Itchies": {
         "Key": "Itchies",
         "enUS": "Itchies",
-        "zhCN": "刺螫蟲群",
+        "zhCN": "刺螫虫群",
         "zhTW": "刺螫蟲群",
         "sgCN": "蚤群",
         "sgTW": "刺螫蟲群"
@@ -826,7 +826,7 @@
     "HellCat": {
         "Key": "HellCat",
         "enUS": "Hell Cat",
-        "zhCN": "地獄拉庫尼",
+        "zhCN": "地狱拉库尼",
         "zhTW": "地獄拉庫尼",
         "sgCN": "地狱猫",
         "sgTW": "地獄拉庫尼"
@@ -834,7 +834,7 @@
     "NightTiger": {
         "Key": "NightTiger",
         "enUS": "Night Tiger",
-        "zhCN": "暗夜拉庫尼",
+        "zhCN": "暗夜拉库尼",
         "zhTW": "暗夜拉庫尼",
         "sgCN": "夜行虎",
         "sgTW": "暗夜拉庫尼"
@@ -842,7 +842,7 @@
     "SaberCat": {
         "Key": "SaberCat",
         "enUS": "Saber Cat",
-        "zhCN": "拉庫尼",
+        "zhCN": "拉库尼",
         "zhTW": "拉庫尼",
         "sgCN": "剑齿猫",
         "sgTW": "拉庫尼"
@@ -850,7 +850,7 @@
     "Huntress": {
         "Key": "Huntress",
         "enUS": "Huntress",
-        "zhCN": "女獵手",
+        "zhCN": "女猎手",
         "zhTW": "女獵手",
         "sgCN": "母猎猫",
         "sgTW": "女獵手"
@@ -858,7 +858,7 @@
     "RazorPitDemon": {
         "Key": "RazorPitDemon",
         "enUS": "Cliff Lurker",
-        "zhCN": "峭壁潛伏者",
+        "zhCN": "峭壁潜伏者",
         "zhTW": "峭壁潛伏者",
         "sgCN": "峭壁潜伏魔",
         "sgTW": "峭壁潛伏者"
@@ -866,7 +866,7 @@
     "TreeLurker": {
         "Key": "TreeLurker",
         "enUS": "Tree Lurker",
-        "zhCN": "樹木潛伏者",
+        "zhCN": "树木潜伏者",
         "zhTW": "樹木潛伏者",
         "sgCN": "林木潜伏魔",
         "sgTW": "樹木潛伏者"
@@ -874,7 +874,7 @@
     "CaveLeaper": {
         "Key": "CaveLeaper",
         "enUS": "Cave Leaper",
-        "zhCN": "洞穴躍行魔",
+        "zhCN": "洞穴跃行魔",
         "zhTW": "洞穴躍行魔",
         "sgCN": "洞穴跃行魔",
         "sgTW": "洞穴躍行魔"
@@ -890,7 +890,7 @@
     "SandLeaper": {
         "Key": "SandLeaper",
         "enUS": "Sand Leaper",
-        "zhCN": "沙漠躍行魔",
+        "zhCN": "沙漠跃行魔",
         "zhTW": "沙漠躍行魔",
         "sgCN": "沙地跃行魔",
         "sgTW": "沙漠躍行魔"
@@ -930,7 +930,7 @@
     "SerpentMagus": {
         "Key": "SerpentMagus",
         "enUS": "Serpent Magus",
-        "zhCN": "蛇魔法師",
+        "zhCN": "蛇魔法师",
         "zhTW": "蛇魔法師",
         "sgCN": "蛇妖法师",
         "sgTW": "蛇魔法師"
@@ -938,7 +938,7 @@
     "WorldKiller": {
         "Key": "WorldKiller",
         "enUS": "Blood Maggot",
-        "zhCN": "鮮血蛆蟲",
+        "zhCN": "鲜血蛆虫",
         "zhTW": "鮮血蛆蟲",
         "sgCN": "血虫",
         "sgTW": "鮮血蛆蟲"
@@ -946,7 +946,7 @@
     "GiantLamprey": {
         "Key": "GiantLamprey",
         "enUS": "Giant Lamprey",
-        "zhCN": "吸血巨蟲",
+        "zhCN": "吸血巨虫",
         "zhTW": "吸血巨蟲",
         "sgCN": "巨型八目虫",
         "sgTW": "吸血巨蟲"
@@ -962,7 +962,7 @@
     "RockWorm": {
         "Key": "RockWorm",
         "enUS": "Rock Worm",
-        "zhCN": "鑽岩蛆蟲",
+        "zhCN": "钻岩蛆虫",
         "zhTW": "鑽岩蛆蟲",
         "sgCN": "岩虫",
         "sgTW": "鑽岩蛆蟲"
@@ -970,7 +970,7 @@
     "SandMaggot": {
         "Key": "SandMaggot",
         "enUS": "Sand Maggot",
-        "zhCN": "沙漠蛆蟲",
+        "zhCN": "沙漠蛆虫",
         "zhTW": "沙漠蛆蟲",
         "sgCN": "沙虫",
         "sgTW": "沙漠蛆蟲"
@@ -986,7 +986,7 @@
     "RazorSpine": {
         "Key": "RazorSpine",
         "enUS": "Razor Spine",
-        "zhCN": "刃脊獸",
+        "zhCN": "刃脊兽",
         "zhTW": "刃脊獸",
         "sgCN": "剃刀刺魔",
         "sgTW": "刃脊獸"
@@ -994,7 +994,7 @@
     "ThornBeast": {
         "Key": "ThornBeast",
         "enUS": "Thorn Beast",
-        "zhCN": "荊棘獸",
+        "zhCN": "荆棘兽",
         "zhTW": "荊棘獸",
         "sgCN": "棘刺兽",
         "sgTW": "荊棘獸"
@@ -1002,7 +1002,7 @@
     "SpikeFiend": {
         "Key": "SpikeFiend",
         "enUS": "Spike Fiend",
-        "zhCN": "釘刺魔",
+        "zhCN": "钉刺魔",
         "zhTW": "釘刺魔",
         "sgCN": "刺脊魔",
         "sgTW": "釘刺魔"
@@ -1010,7 +1010,7 @@
     "QuillRat": {
         "Key": "QuillRat",
         "enUS": "Quill Rat",
-        "zhCN": "針刺鼠",
+        "zhCN": "针刺鼠",
         "zhTW": "針刺鼠",
         "sgCN": "刺毛鼠",
         "sgTW": "針刺鼠"
@@ -1018,7 +1018,7 @@
     "HellClan": {
         "Key": "HellClan",
         "enUS": "Hell Clan",
-        "zhCN": "冥府羊頭人",
+        "zhCN": "冥府羊头人",
         "zhTW": "冥府羊頭人",
         "sgCN": "地狱氏族",
         "sgTW": "冥府羊頭人"
@@ -1026,7 +1026,7 @@
     "MoonClan": {
         "Key": "MoonClan",
         "enUS": "Moon Clan",
-        "zhCN": "月族羊頭人",
+        "zhCN": "月族羊头人",
         "zhTW": "月族羊頭人",
         "sgCN": "月亮氏族",
         "sgTW": "月族羊頭人"
@@ -1034,7 +1034,7 @@
     "NightClan": {
         "Key": "NightClan",
         "enUS": "Night Clan",
-        "zhCN": "夜族羊頭人",
+        "zhCN": "夜族羊头人",
         "zhTW": "夜族羊頭人",
         "sgCN": "黑夜氏族",
         "sgTW": "夜族羊頭人"
@@ -1042,7 +1042,7 @@
     "DeathClan": {
         "Key": "DeathClan",
         "enUS": "Death Clan",
-        "zhCN": "死族羊頭人",
+        "zhCN": "死族羊头人",
         "zhTW": "死族羊頭人",
         "sgCN": "死亡氏族",
         "sgTW": "死族羊頭人"
@@ -1050,7 +1050,7 @@
     "BloodClan": {
         "Key": "BloodClan",
         "enUS": "Blood Clan",
-        "zhCN": "血族羊頭人",
+        "zhCN": "血族羊头人",
         "zhTW": "血族羊頭人",
         "sgCN": "鲜血氏族",
         "sgTW": "血族羊頭人"
@@ -1058,7 +1058,7 @@
     "TempleGuard": {
         "Key": "TempleGuard",
         "enUS": "Temple Guard",
-        "zhCN": "神殿守衛",
+        "zhCN": "神殿守卫",
         "zhTW": "神殿守衛",
         "sgCN": "神庙守卫",
         "sgTW": "神殿守衛"
@@ -1066,7 +1066,7 @@
     "DoomApe": {
         "Key": "DoomApe",
         "enUS": "Doom Ape",
-        "zhCN": "毀滅猿怪",
+        "zhCN": "毁灭猿怪",
         "zhTW": "毀滅猿怪",
         "sgCN": "厄运猿",
         "sgTW": "毀滅猿怪"
@@ -1074,7 +1074,7 @@
     "JungleHunter": {
         "Key": "JungleHunter",
         "enUS": "Jungle Hunter",
-        "zhCN": "叢林獵手",
+        "zhCN": "丛林猎手",
         "zhTW": "叢林獵手",
         "sgCN": "丛林猎手",
         "sgTW": "叢林獵手"
@@ -1090,7 +1090,7 @@
     "DuneBeast": {
         "Key": "DuneBeast",
         "enUS": "Dune Beast",
-        "zhCN": "沙丘猿獸",
+        "zhCN": "沙丘猿兽",
         "zhTW": "沙丘猿獸",
         "sgCN": "沙丘兽",
         "sgTW": "沙丘猿獸"
@@ -1098,7 +1098,7 @@
     "FleshHunter": {
         "Key": "FleshHunter",
         "enUS": "Flesh Hunter",
-        "zhCN": "血肉獵人",
+        "zhCN": "血肉猎人",
         "zhTW": "血肉獵人",
         "sgCN": "血肉猎手",
         "sgTW": "血肉獵人"
@@ -1106,7 +1106,7 @@
     "BlackRogue": {
         "Key": "BlackRogue",
         "enUS": "Black Rogue",
-        "zhCN": "黑色俠盜",
+        "zhCN": "黑色侠盗",
         "zhTW": "黑色俠盜",
         "sgCN": "黑化流亡者",
         "sgTW": "黑色俠盜"
@@ -1114,7 +1114,7 @@
     "VileHunter": {
         "Key": "VileHunter",
         "enUS": "Vile Hunter",
-        "zhCN": "兇邪獵手",
+        "zhCN": "凶邪猎手",
         "zhTW": "兇邪獵手",
         "sgCN": "邪恶猎手",
         "sgTW": "兇邪獵手"
@@ -1122,7 +1122,7 @@
     "DarkHunter": {
         "Key": "DarkHunter",
         "enUS": "Dark Hunter",
-        "zhCN": "黑暗獵人",
+        "zhCN": "黑暗猎人",
         "zhTW": "黑暗獵人",
         "sgCN": "黑暗猎手",
         "sgTW": "黑暗獵人"
@@ -1146,7 +1146,7 @@
     "Specter": {
         "Key": "Specter",
         "enUS": "Specter",
-        "zhCN": "亡靈",
+        "zhCN": "亡灵",
         "zhTW": "亡靈",
         "sgCN": "妖魂",
         "sgTW": "亡靈"
@@ -1162,7 +1162,7 @@
     "Assailant": {
         "Key": "Assailant",
         "enUS": "Assailant",
-        "zhCN": "襲擊者",
+        "zhCN": "袭击者",
         "zhTW": "襲擊者",
         "sgCN": "行凶者",
         "sgTW": "襲擊者"
@@ -1170,7 +1170,7 @@
     "Infidel": {
         "Key": "Infidel",
         "enUS": "Infidel",
-        "zhCN": "異信者",
+        "zhCN": "异信者",
         "zhTW": "異信者",
         "sgCN": "信邪者",
         "sgTW": "異信者"
@@ -1186,7 +1186,7 @@
     "Marauder": {
         "Key": "Marauder",
         "enUS": "Marauder",
-        "zhCN": "掠奪者",
+        "zhCN": "掠夺者",
         "zhTW": "掠奪者",
         "sgCN": "掠夺者",
         "sgTW": "掠奪者"
@@ -1202,7 +1202,7 @@
     "GargantuanBeast": {
         "Key": "GargantuanBeast",
         "enUS": "Gargantuan Beast",
-        "zhCN": "巨獸毛怪",
+        "zhCN": "巨兽毛怪",
         "zhTW": "巨獸毛怪",
         "sgCN": "巨身兽",
         "sgTW": "巨獸毛怪"
@@ -1210,7 +1210,7 @@
     "WailingBeast": {
         "Key": "WailingBeast",
         "enUS": "Wailing Beast",
-        "zhCN": "尖嘯毛怪",
+        "zhCN": "尖啸毛怪",
         "zhTW": "尖嘯毛怪",
         "sgCN": "恸哭兽",
         "sgTW": "尖嘯毛怪"
@@ -1234,7 +1234,7 @@
     "Brute": {
         "Key": "Brute",
         "enUS": "Brute",
-        "zhCN": "兇蠻毛怪",
+        "zhCN": "凶蛮毛怪",
         "zhTW": "兇蠻毛怪",
         "sgCN": "蛮力兽",
         "sgTW": "兇蠻毛怪"
@@ -1242,7 +1242,7 @@
     "CloudStalker": {
         "Key": "CloudStalker",
         "enUS": "Cloud Stalker",
-        "zhCN": "雲襲血鷹",
+        "zhCN": "云袭血鹰",
         "zhTW": "雲襲血鷹",
         "sgCN": "烟雾偷袭者",
         "sgTW": "雲襲血鷹"
@@ -1250,7 +1250,7 @@
     "BlackVulture": {
         "Key": "BlackVulture",
         "enUS": "Black Vulture",
-        "zhCN": "黑色禿鷹",
+        "zhCN": "黑色秃鹰",
         "zhTW": "黑色禿鷹",
         "sgCN": "黑羽秃鹫",
         "sgTW": "黑色禿鷹"
@@ -1266,7 +1266,7 @@
     "BloodHawk": {
         "Key": "BloodHawk",
         "enUS": "Blood Hawk",
-        "zhCN": "血鷹",
+        "zhCN": "血鹰",
         "zhTW": "血鷹",
         "sgCN": "血鹰",
         "sgTW": "血鷹"
@@ -1274,7 +1274,7 @@
     "FoulCrow": {
         "Key": "FoulCrow",
         "enUS": "Foul Crow",
-        "zhCN": "惡毒穢鴉",
+        "zhCN": "恶毒秽鸦",
         "zhTW": "惡毒穢鴉",
         "sgCN": "恶臭乌鸦",
         "sgTW": "惡毒穢鴉"
@@ -1290,7 +1290,7 @@
     "Ghoul": {
         "Key": "Ghoul",
         "enUS": "Ghoul",
-        "zhCN": "食屍鬼",
+        "zhCN": "食尸鬼",
         "zhTW": "食屍鬼",
         "sgCN": "食尸鬼",
         "sgTW": "食屍鬼"
@@ -1298,7 +1298,7 @@
     "DrownedCarcass": {
         "Key": "DrownedCarcass",
         "enUS": "Drowned Carcass",
-        "zhCN": "溺斃死屍",
+        "zhCN": "溺毙死尸",
         "zhTW": "溺斃死屍",
         "sgCN": "溺尸",
         "sgTW": "溺斃死屍"
@@ -1306,7 +1306,7 @@
     "HungryDead": {
         "Key": "HungryDead",
         "enUS": "Hungry Dead",
-        "zhCN": "飢餓死者",
+        "zhCN": "饥饿死者",
         "zhTW": "飢餓死者",
         "sgCN": "饥饿行尸",
         "sgTW": "飢餓死者"
@@ -1314,7 +1314,7 @@
     "Zombie": {
         "Key": "Zombie",
         "enUS": "Zombie",
-        "zhCN": "殭屍",
+        "zhCN": "僵尸",
         "zhTW": "殭屍",
         "sgCN": "僵尸",
         "sgTW": "殭屍"
@@ -1322,7 +1322,7 @@
     "Skeleton": {
         "Key": "Skeleton",
         "enUS": "Skeleton",
-        "zhCN": "骷髏",
+        "zhCN": "骷髅",
         "zhTW": "骷髏",
         "sgCN": "骷髅",
         "sgTW": "骷髏"
@@ -1330,7 +1330,7 @@
     "Horror": {
         "Key": "Horror",
         "enUS": "Horror",
-        "zhCN": "恐骨骷髏",
+        "zhCN": "恐骨骷髅",
         "zhTW": "恐骨骷髏",
         "sgCN": "恐怖骸骨",
         "sgTW": "恐骨骷髏"
@@ -1338,7 +1338,7 @@
     "Returned": {
         "Key": "Returned",
         "enUS": "Returned",
-        "zhCN": "返世亡靈",
+        "zhCN": "返世亡灵",
         "zhTW": "返世亡靈",
         "sgCN": "回魂骷髅",
         "sgTW": "返世亡靈"
@@ -1346,7 +1346,7 @@
     "BurningDead": {
         "Key": "BurningDead",
         "enUS": "Burning Dead",
-        "zhCN": "烈焰骷髏",
+        "zhCN": "烈焰骷髅",
         "zhTW": "烈焰骷髏",
         "sgCN": "烈焰亡骨",
         "sgTW": "烈焰骷髏"
@@ -1354,7 +1354,7 @@
     "BoneWarrior": {
         "Key": "BoneWarrior",
         "enUS": "Bone Warrior",
-        "zhCN": "骸骨戰士",
+        "zhCN": "骸骨战士",
         "zhTW": "骸骨戰士",
         "sgCN": "白骨战士",
         "sgTW": "骸骨戰士"
@@ -1362,7 +1362,7 @@
     "Damned": {
         "Key": "Damned",
         "enUS": "Damned",
-        "zhCN": "詛咒魔汙怪",
+        "zhCN": "诅咒魔污怪",
         "zhTW": "詛咒魔汙怪",
         "sgCN": "天谴魔",
         "sgTW": "詛咒魔汙怪"
@@ -1370,7 +1370,7 @@
     "Disfigured": {
         "Key": "Disfigured",
         "enUS": "Disfigured",
-        "zhCN": "醜惡魔汙怪",
+        "zhCN": "丑恶魔污怪",
         "zhTW": "醜惡魔汙怪",
         "sgCN": "残身魔",
         "sgTW": "醜惡魔汙怪"
@@ -1378,7 +1378,7 @@
     "Misshapen": {
         "Key": "Misshapen",
         "enUS": "Misshapen",
-        "zhCN": "畸形魔汙怪",
+        "zhCN": "畸形魔污怪",
         "zhTW": "畸形魔汙怪",
         "sgCN": "畸形魔",
         "sgTW": "畸形魔汙怪"
@@ -1386,7 +1386,7 @@
     "Tainted": {
         "Key": "Tainted",
         "enUS": "Tainted",
-        "zhCN": "魔汙怪",
+        "zhCN": "魔污怪",
         "zhTW": "魔汙怪",
         "sgCN": "污染魔",
         "sgTW": "魔汙怪"
@@ -1394,7 +1394,7 @@
     "Afflicted": {
         "Key": "Afflicted",
         "enUS": "Afflicted",
-        "zhCN": "災劫魔汙怪",
+        "zhCN": "灾劫魔污怪",
         "zhTW": "災劫魔汙怪",
         "sgCN": "受难魔",
         "sgTW": "災劫魔汙怪"
@@ -1402,7 +1402,7 @@
     "Andariel": {
         "Key": "Andariel",
         "enUS": "Andariel",
-        "zhCN": "安達莉爾",
+        "zhCN": "安达莉尔",
         "zhTW": "安達莉爾",
         "sgCN": "安达莉尔",
         "sgTW": "安達莉爾"
@@ -1410,7 +1410,7 @@
     "Camel": {
         "Key": "Camel",
         "enUS": "Camel",
-        "zhCN": "駱駝",
+        "zhCN": "骆驼",
         "zhTW": "駱駝",
         "sgCN": "骆驼",
         "sgTW": "駱駝"
@@ -1418,7 +1418,7 @@
     "Cadaver": {
         "Key": "Cadaver",
         "enUS": "Cadaver",
-        "zhCN": "活屍木乃伊",
+        "zhCN": "活尸木乃伊",
         "zhTW": "活屍木乃伊",
         "sgCN": "解剖尸",
         "sgTW": "活屍木乃伊"
@@ -1426,7 +1426,7 @@
     "PreservedDead": {
         "Key": "PreservedDead",
         "enUS": "Preserved Dead",
-        "zhCN": "長存木乃伊",
+        "zhCN": "长存木乃伊",
         "zhTW": "長存木乃伊",
         "sgCN": "蜡化尸",
         "sgTW": "長存木乃伊"
@@ -1442,7 +1442,7 @@
     "DriedCorpse": {
         "Key": "DriedCorpse",
         "enUS": "Dried Corpse",
-        "zhCN": "乾屍木乃伊",
+        "zhCN": "干尸木乃伊",
         "zhTW": "乾屍木乃伊",
         "sgCN": "干尸",
         "sgTW": "乾屍木乃伊"
@@ -1450,7 +1450,7 @@
     "Decayed": {
         "Key": "Decayed",
         "enUS": "Decayed",
-        "zhCN": "腐屍木乃伊",
+        "zhCN": "腐尸木乃伊",
         "zhTW": "腐屍木乃伊",
         "sgCN": "腐尸",
         "sgTW": "腐屍木乃伊"
@@ -1458,7 +1458,7 @@
     "Urdar": {
         "Key": "Urdar",
         "enUS": "Urdar",
-        "zhCN": "烏爾達巨怪",
+        "zhCN": "乌尔达巨怪",
         "zhTW": "烏爾達巨怪",
         "sgCN": "乌达兽",
         "sgTW": "烏爾達巨怪"
@@ -1474,7 +1474,7 @@
     "Blunderbore": {
         "Key": "Blunderbore",
         "enUS": "Blunderbore",
-        "zhCN": "蠻力巨怪",
+        "zhCN": "蛮力巨怪",
         "zhTW": "蠻力巨怪",
         "sgCN": "愚笨魔",
         "sgTW": "蠻力巨怪"
@@ -1482,7 +1482,7 @@
     "WorldKillerYoung": {
         "Key": "WorldKillerYoung",
         "enUS": "Blood Maggot Young",
-        "zhCN": "鮮血蛆蟲幼體",
+        "zhCN": "鲜血蛆虫幼体",
         "zhTW": "鮮血蛆蟲幼體",
         "sgCN": "幼年血虫",
         "sgTW": "鮮血蛆蟲幼體"
@@ -1490,7 +1490,7 @@
     "GiantLampreyYoung": {
         "Key": "GiantLampreyYoung",
         "enUS": "Giant Lamprey Young",
-        "zhCN": "吸血巨蟲幼體",
+        "zhCN": "吸血巨虫幼体",
         "zhTW": "吸血巨蟲幼體",
         "sgCN": "幼年八目虫",
         "sgTW": "吸血巨蟲幼體"
@@ -1498,7 +1498,7 @@
     "DevourerYoung": {
         "Key": "DevourerYoung",
         "enUS": "Devourer Young",
-        "zhCN": "吞噬者幼體",
+        "zhCN": "吞噬者幼体",
         "zhTW": "吞噬者幼體",
         "sgCN": "幼年吞食虫",
         "sgTW": "吞噬者幼體"
@@ -1506,7 +1506,7 @@
     "RockWormYoung": {
         "Key": "RockWormYoung",
         "enUS": "Rock Worm Young",
-        "zhCN": "鑽岩蛆蟲幼體",
+        "zhCN": "钻岩蛆虫幼体",
         "zhTW": "鑽岩蛆蟲幼體",
         "sgCN": "幼年岩虫",
         "sgTW": "鑽岩蛆蟲幼體"
@@ -1514,7 +1514,7 @@
     "SandMaggotYoung": {
         "Key": "SandMaggotYoung",
         "enUS": "Sand Maggot Young",
-        "zhCN": "沙漠蛆蟲幼體",
+        "zhCN": "沙漠蛆虫幼体",
         "zhTW": "沙漠蛆蟲幼體",
         "sgCN": "幼年沙虫",
         "sgTW": "沙漠蛆蟲幼體"
@@ -1522,7 +1522,7 @@
     "WorldKillerEgg": {
         "Key": "WorldKillerEgg",
         "enUS": "Blood Maggot Egg",
-        "zhCN": "鮮血蛆蟲之卵",
+        "zhCN": "鲜血蛆虫之卵",
         "zhTW": "鮮血蛆蟲之卵",
         "sgCN": "血虫蛋",
         "sgTW": "鮮血蛆蟲之卵"
@@ -1530,7 +1530,7 @@
     "GiantLampreyEgg": {
         "Key": "GiantLampreyEgg",
         "enUS": "Giant Lamprey Egg",
-        "zhCN": "吸血巨蟲之卵",
+        "zhCN": "吸血巨虫之卵",
         "zhTW": "吸血巨蟲之卵",
         "sgCN": "巨型八目虫蛋",
         "sgTW": "吸血巨蟲之卵"
@@ -1546,7 +1546,7 @@
     "RockWormEgg": {
         "Key": "RockWormEgg",
         "enUS": "Rock Worm Egg",
-        "zhCN": "鑽岩蛆蟲之卵",
+        "zhCN": "钻岩蛆虫之卵",
         "zhTW": "鑽岩蛆蟲之卵",
         "sgCN": "岩虫蛋",
         "sgTW": "鑽岩蛆蟲之卵"
@@ -1554,7 +1554,7 @@
     "SandMaggotEgg": {
         "Key": "SandMaggotEgg",
         "enUS": "Sand Maggot Egg",
-        "zhCN": "沙漠蛆蟲之卵",
+        "zhCN": "沙漠蛆虫之卵",
         "zhTW": "沙漠蛆蟲之卵",
         "sgCN": "沙虫蛋",
         "sgTW": "沙漠蛆蟲之卵"
@@ -1562,7 +1562,7 @@
     "Maggot": {
         "Key": "Maggot",
         "enUS": "Maggot",
-        "zhCN": "蛆蟲",
+        "zhCN": "蛆虫",
         "zhTW": "蛆蟲",
         "sgCN": "蛆虫",
         "sgTW": "蛆蟲"
@@ -1570,7 +1570,7 @@
     "Duriel": {
         "Key": "Duriel",
         "enUS": "Duriel",
-        "zhCN": "都瑞爾",
+        "zhCN": "都瑞尔",
         "zhTW": "都瑞爾",
         "sgCN": "督瑞尔",
         "sgTW": "都瑞爾"
@@ -1578,7 +1578,7 @@
     "BloodHawkNest": {
         "Key": "BloodHawkNest",
         "enUS": "Blood Hawk Nest",
-        "zhCN": "血鷹之巢",
+        "zhCN": "血鹰之巢",
         "zhTW": "血鷹之巢",
         "sgCN": "血鹰巢",
         "sgTW": "血鷹之巢"
@@ -1586,7 +1586,7 @@
     "FlyingScimitar": {
         "Key": "FlyingScimitar",
         "enUS": "Flying Scimitar",
-        "zhCN": "鬼靈彎刀",
+        "zhCN": "鬼灵弯刀",
         "zhTW": "鬼靈彎刀",
         "sgCN": "飞空弯刀",
         "sgTW": "鬼靈彎刀"
@@ -1594,7 +1594,7 @@
     "CloudStalkerNest": {
         "Key": "CloudStalkerNest",
         "enUS": "Cloud Stalker Nest",
-        "zhCN": "雲襲血鷹之巢",
+        "zhCN": "云袭血鹰之巢",
         "zhTW": "雲襲血鷹之巢",
         "sgCN": "烟雾偷袭者巢",
         "sgTW": "雲襲血鷹之巢"
@@ -1610,7 +1610,7 @@
     "FoulCrowNest": {
         "Key": "FoulCrowNest",
         "enUS": "Foul Crow Nest",
-        "zhCN": "惡毒穢鴉之巢",
+        "zhCN": "恶毒秽鸦之巢",
         "zhTW": "惡毒穢鴉之巢",
         "sgCN": "恶臭乌鸦巢",
         "sgTW": "惡毒穢鴉之巢"
@@ -1618,7 +1618,7 @@
     "Diablo": {
         "Key": "Diablo",
         "enUS": "Diablo",
-        "zhCN": "迪亞布羅",
+        "zhCN": "迪亚布罗",
         "zhTW": "迪亞布羅",
         "sgCN": "迪亚波罗",
         "sgTW": "迪亞布羅"
@@ -1626,7 +1626,7 @@
     "Baal": {
         "Key": "Baal",
         "enUS": "Baal",
-        "zhCN": "巴爾",
+        "zhCN": "巴尔",
         "zhTW": "巴爾",
         "sgCN": "巴尔",
         "sgTW": "巴爾"
@@ -1642,7 +1642,7 @@
     "Cantor": {
         "Key": "Cantor",
         "enUS": "Cantor",
-        "zhCN": "領唱者",
+        "zhCN": "领唱者",
         "zhTW": "領唱者",
         "sgCN": "领唱者",
         "sgTW": "領唱者"
@@ -1666,7 +1666,7 @@
     "Zealot": {
         "Key": "Zealot",
         "enUS": "Zealot",
-        "zhCN": "狂熱信徒",
+        "zhCN": "狂热信徒",
         "zhTW": "狂熱信徒",
         "sgCN": "热忱者",
         "sgTW": "狂熱信徒"
@@ -1674,7 +1674,7 @@
     "Faithful": {
         "Key": "Faithful",
         "enUS": "Faithful",
-        "zhCN": "忠誠信徒",
+        "zhCN": "忠诚信徒",
         "zhTW": "忠誠信徒",
         "sgCN": "虔诚者",
         "sgTW": "忠誠信徒"
@@ -1682,7 +1682,7 @@
     "Zakarumite": {
         "Key": "Zakarumite",
         "enUS": "Zakarumite",
-        "zhCN": "撒卡蘭姆信徒",
+        "zhCN": "撒卡兰姆信徒",
         "zhTW": "撒卡蘭姆信徒",
         "sgCN": "萨卡兰姆教徒",
         "sgTW": "撒卡蘭姆信徒"
@@ -1706,7 +1706,7 @@
     "SwampGhost": {
         "Key": "SwampGhost",
         "enUS": "Swamp Ghost",
-        "zhCN": "沼澤鬼魂",
+        "zhCN": "沼泽鬼魂",
         "zhTW": "沼澤鬼魂",
         "sgCN": "沼魂",
         "sgTW": "沼澤鬼魂"
@@ -1722,7 +1722,7 @@
     "WarpedShaman": {
         "Key": "WarpedShaman",
         "enUS": "Warped Shaman",
-        "zhCN": "扭曲薩滿",
+        "zhCN": "扭曲萨满",
         "zhTW": "扭曲薩滿",
         "sgCN": "扭曲魔萨满",
         "sgTW": "扭曲薩滿"
@@ -1730,7 +1730,7 @@
     "DarkShaman": {
         "Key": "DarkShaman",
         "enUS": "Dark Shaman",
-        "zhCN": "暗黑薩滿",
+        "zhCN": "暗黑萨满",
         "zhTW": "暗黑薩滿",
         "sgCN": "黑暗魔萨满",
         "sgTW": "暗黑薩滿"
@@ -1738,7 +1738,7 @@
     "DevilkinShaman": {
         "Key": "DevilkinShaman",
         "enUS": "Devilkin Shaman",
-        "zhCN": "魔妖薩滿",
+        "zhCN": "魔妖萨满",
         "zhTW": "魔妖薩滿",
         "sgCN": "小恶魔萨满",
         "sgTW": "魔妖薩滿"
@@ -1746,7 +1746,7 @@
     "CarverShaman": {
         "Key": "CarverShaman",
         "enUS": "Carver Shaman",
-        "zhCN": "刨肉薩滿",
+        "zhCN": "刨肉萨满",
         "zhTW": "刨肉薩滿",
         "sgCN": "利刃魔萨满",
         "sgTW": "刨肉薩滿"
@@ -1754,7 +1754,7 @@
     "FallenShaman": {
         "Key": "FallenShaman",
         "enUS": "Fallen Shaman",
-        "zhCN": "沉淪魔薩滿",
+        "zhCN": "沉沦魔萨满",
         "zhTW": "沉淪魔薩滿",
         "sgCN": "沉沦魔萨满",
         "sgTW": "沉淪魔薩滿"
@@ -1762,7 +1762,7 @@
     "WarpedFallen": {
         "Key": "WarpedFallen",
         "enUS": "Warped One",
-        "zhCN": "扭曲沉淪魔",
+        "zhCN": "扭曲沉沦魔",
         "zhTW": "扭曲沉淪魔",
         "sgCN": "扭曲魔",
         "sgTW": "扭曲沉淪魔"
@@ -1770,7 +1770,7 @@
     "DarkOne": {
         "Key": "DarkOne",
         "enUS": "Dark One",
-        "zhCN": "暗黑沉淪魔",
+        "zhCN": "暗黑沉沦魔",
         "zhTW": "暗黑沉淪魔",
         "sgCN": "暗魔",
         "sgTW": "暗黑沉淪魔"
@@ -1778,7 +1778,7 @@
     "Devilkin": {
         "Key": "Devilkin",
         "enUS": "Devilkin",
-        "zhCN": "魔妖沉淪魔",
+        "zhCN": "魔妖沉沦魔",
         "zhTW": "魔妖沉淪魔",
         "sgCN": "小恶魔",
         "sgTW": "魔妖沉淪魔"
@@ -1786,7 +1786,7 @@
     "Carver": {
         "Key": "Carver",
         "enUS": "Carver",
-        "zhCN": "刨肉沉淪魔",
+        "zhCN": "刨肉沉沦魔",
         "zhTW": "刨肉沉淪魔",
         "sgCN": "利刃魔",
         "sgTW": "刨肉沉淪魔"
@@ -1794,7 +1794,7 @@
     "Fallen": {
         "Key": "Fallen",
         "enUS": "Fallen",
-        "zhCN": "沉淪魔",
+        "zhCN": "沉沦魔",
         "zhTW": "沉淪魔",
         "sgCN": "沉沦魔",
         "sgTW": "沉淪魔"
@@ -1802,7 +1802,7 @@
     "ReturnedArcher": {
         "Key": "ReturnedArcher",
         "enUS": "Returned Archer",
-        "zhCN": "返世亡靈弓箭手",
+        "zhCN": "返世亡灵弓箭手",
         "zhTW": "返世亡靈弓箭手",
         "sgCN": "回魂弓手",
         "sgTW": "返世亡靈弓箭手"
@@ -1818,7 +1818,7 @@
     "BurningDeadArcher": {
         "Key": "BurningDeadArcher",
         "enUS": "Burning Dead Archer",
-        "zhCN": "烈焰骷髏弓箭手",
+        "zhCN": "烈焰骷髅弓箭手",
         "zhTW": "烈焰骷髏弓箭手",
         "sgCN": "烈焰亡骨弓手",
         "sgTW": "烈焰骷髏弓箭手"
@@ -1834,7 +1834,7 @@
     "CorpseArcher": {
         "Key": "CorpseArcher",
         "enUS": "Corpse Archer",
-        "zhCN": "屍骸弓箭手",
+        "zhCN": "尸骸弓箭手",
         "zhTW": "屍骸弓箭手",
         "sgCN": "尸魔弓手",
         "sgTW": "屍骸弓箭手"
@@ -1842,7 +1842,7 @@
     "SkeletonArcher": {
         "Key": "SkeletonArcher",
         "enUS": "Skeleton Archer",
-        "zhCN": "骷髏弓箭手",
+        "zhCN": "骷髅弓箭手",
         "zhTW": "骷髏弓箭手",
         "sgCN": "骷髅弓手",
         "sgTW": "骷髏弓箭手"
@@ -1850,7 +1850,7 @@
     "FleshLancer": {
         "Key": "FleshLancer",
         "enUS": "Flesh Lancer",
-        "zhCN": "血肉長槍手",
+        "zhCN": "血肉长枪手",
         "zhTW": "血肉長槍手",
         "sgCN": "血肉长枪手",
         "sgTW": "血肉長槍手"
@@ -1858,7 +1858,7 @@
     "BlackLancer": {
         "Key": "BlackLancer",
         "enUS": "Black Lancer",
-        "zhCN": "黑色長槍手",
+        "zhCN": "黑色长枪手",
         "zhTW": "黑色長槍手",
         "sgCN": "黑化长枪手",
         "sgTW": "黑色長槍手"
@@ -1866,7 +1866,7 @@
     "DarkLancer": {
         "Key": "DarkLancer",
         "enUS": "Dark Lancer",
-        "zhCN": "黑暗長槍手",
+        "zhCN": "黑暗长枪手",
         "zhTW": "黑暗長槍手",
         "sgCN": "黑暗长枪手",
         "sgTW": "黑暗長槍手"
@@ -1874,7 +1874,7 @@
     "VileLancer": {
         "Key": "VileLancer",
         "enUS": "Vile Lancer",
-        "zhCN": "兇邪長槍手",
+        "zhCN": "凶邪长枪手",
         "zhTW": "兇邪長槍手",
         "sgCN": "邪恶长枪手",
         "sgTW": "兇邪長槍手"
@@ -1882,7 +1882,7 @@
     "DarkSpearwoman": {
         "Key": "DarkSpearwoman",
         "enUS": "Dark Spearwoman",
-        "zhCN": "黑暗女槍手",
+        "zhCN": "黑暗女枪手",
         "zhTW": "黑暗女槍手",
         "sgCN": "黑暗女矛手",
         "sgTW": "黑暗女槍手"
@@ -1906,7 +1906,7 @@
     "DarkRanger": {
         "Key": "DarkRanger",
         "enUS": "Dark Ranger",
-        "zhCN": "黑暗遊俠",
+        "zhCN": "黑暗游侠",
         "zhTW": "黑暗遊俠",
         "sgCN": "黑暗游侠",
         "sgTW": "黑暗遊俠"
@@ -1922,7 +1922,7 @@
     "Summoner": {
         "Key": "Summoner",
         "enUS": "The Summoner",
-        "zhCN": "召喚師",
+        "zhCN": "召唤师",
         "zhTW": "召喚師",
         "sgCN": "召唤者",
         "sgTW": "召喚師"
@@ -1930,7 +1930,7 @@
     "StygianDollShaman": {
         "Key": "StygianDollShaman",
         "enUS": "Stygian Doll Shaman",
-        "zhCN": "冥河鬼娃薩滿",
+        "zhCN": "冥河鬼娃萨满",
         "zhTW": "冥河鬼娃薩滿",
         "sgCN": "冥河娃娃萨满",
         "sgTW": "冥河鬼娃薩滿"
@@ -1938,7 +1938,7 @@
     "SoulKillerShaman": {
         "Key": "SoulKillerShaman",
         "enUS": "Soul Killer Shaman",
-        "zhCN": "靈魂殺手薩滿",
+        "zhCN": "灵魂杀手萨满",
         "zhTW": "靈魂殺手薩滿",
         "sgCN": "灵魂杀手萨满",
         "sgTW": "靈魂殺手薩滿"
@@ -1946,7 +1946,7 @@
     "FlayerShaman": {
         "Key": "FlayerShaman",
         "enUS": "Flayer Shaman",
-        "zhCN": "剝皮手薩滿",
+        "zhCN": "剥皮手萨满",
         "zhTW": "剝皮手薩滿",
         "sgCN": "剥皮魔萨满",
         "sgTW": "剝皮手薩滿"
@@ -1954,7 +1954,7 @@
     "FetishShaman": {
         "Key": "FetishShaman",
         "enUS": "Fetish Shaman",
-        "zhCN": "鬼娃薩滿",
+        "zhCN": "鬼娃萨满",
         "zhTW": "鬼娃薩滿",
         "sgCN": "鬼娃萨满",
         "sgTW": "鬼娃薩滿"
@@ -1962,7 +1962,7 @@
     "RatManShaman": {
         "Key": "RatManShaman",
         "enUS": "RatMan Shaman",
-        "zhCN": "鼠人薩滿",
+        "zhCN": "鼠人萨满",
         "zhTW": "鼠人薩滿",
         "sgCN": "鼠人萨满",
         "sgTW": "鼠人薩滿"
@@ -1970,7 +1970,7 @@
     "HorrorMage": {
         "Key": "HorrorMage",
         "enUS": "Horror Mage",
-        "zhCN": "恐骨法師",
+        "zhCN": "恐骨法师",
         "zhTW": "恐骨法師",
         "sgCN": "恐怖骸骨法师",
         "sgTW": "恐骨法師"
@@ -1978,7 +1978,7 @@
     "BurningDeadMage": {
         "Key": "BurningDeadMage",
         "enUS": "Burning Dead Mage",
-        "zhCN": "烈焰骷髏法師",
+        "zhCN": "烈焰骷髅法师",
         "zhTW": "烈焰骷髏法師",
         "sgCN": "烈焰亡骨法师",
         "sgTW": "烈焰骷髏法師"
@@ -1986,7 +1986,7 @@
     "BoneMage": {
         "Key": "BoneMage",
         "enUS": "Bone Mage",
-        "zhCN": "骸骨法師",
+        "zhCN": "骸骨法师",
         "zhTW": "骸骨法師",
         "sgCN": "白骨法师",
         "sgTW": "骸骨法師"
@@ -1994,7 +1994,7 @@
     "CorpseMage": {
         "Key": "CorpseMage",
         "enUS": "Corpse Mage",
-        "zhCN": "死屍法師",
+        "zhCN": "死尸法师",
         "zhTW": "死屍法師",
         "sgCN": "尸魔法师",
         "sgTW": "死屍法師"
@@ -2002,7 +2002,7 @@
     "ReturnedMage": {
         "Key": "ReturnedMage",
         "enUS": "Returned Mage",
-        "zhCN": "返世亡靈法師",
+        "zhCN": "返世亡灵法师",
         "zhTW": "返世亡靈法師",
         "sgCN": "回魂法师",
         "sgTW": "返世亡靈法師"
@@ -2018,7 +2018,7 @@
     "Bloodraven": {
         "Key": "Bloodraven",
         "enUS": "Blood Raven",
-        "zhCN": "血鴉",
+        "zhCN": "血鸦",
         "zhTW": "血鴉",
         "sgCN": "血鸦",
         "sgTW": "血鴉"
@@ -2074,7 +2074,7 @@
     "NightMarauder": {
         "Key": "NightMarauder",
         "enUS": "Night Marauder",
-        "zhCN": "暗夜掠奪者",
+        "zhCN": "暗夜掠夺者",
         "zhTW": "暗夜掠奪者",
         "sgCN": "黑夜掠夺者",
         "sgTW": "暗夜掠奪者"
@@ -2082,7 +2082,7 @@
     "WorldKillerQueen": {
         "Key": "WorldKillerQueen",
         "enUS": "Blood Maggot Queen",
-        "zhCN": "鮮血蛆蟲之后",
+        "zhCN": "鲜血蛆虫之后",
         "zhTW": "鮮血蛆蟲之后",
         "sgCN": "血虫后",
         "sgTW": "鮮血蛆蟲之后"
@@ -2090,7 +2090,7 @@
     "GiantLampreyQueen": {
         "Key": "GiantLampreyQueen",
         "enUS": "Giant Lamprey Queen",
-        "zhCN": "吸血巨蟲之后",
+        "zhCN": "吸血巨虫之后",
         "zhTW": "吸血巨蟲之后",
         "sgCN": "巨型八目虫后",
         "sgTW": "吸血巨蟲之后"
@@ -2106,7 +2106,7 @@
     "RockWormQueen": {
         "Key": "RockWormQueen",
         "enUS": "Rock Worm Queen",
-        "zhCN": "鑽岩蛆蟲之后",
+        "zhCN": "钻岩蛆虫之后",
         "zhTW": "鑽岩蛆蟲之后",
         "sgCN": "岩虫后",
         "sgTW": "鑽岩蛆蟲之后"
@@ -2114,7 +2114,7 @@
     "SandMaggotQueen": {
         "Key": "SandMaggotQueen",
         "enUS": "Sand Maggot Queen",
-        "zhCN": "沙漠蛆蟲之后",
+        "zhCN": "沙漠蛆虫之后",
         "zhTW": "沙漠蛆蟲之后",
         "sgCN": "沙虫后",
         "sgTW": "沙漠蛆蟲之后"
@@ -2138,7 +2138,7 @@
     "Swamp Dweller": {
         "Key": "Swamp Dweller",
         "enUS": "Swamp Dweller",
-        "zhCN": "沼澤魔蛙",
+        "zhCN": "沼泽魔蛙",
         "zhTW": "沼澤魔蛙",
         "sgCN": "沼泽蛙魔",
         "sgTW": "沼澤魔蛙"
@@ -2146,7 +2146,7 @@
     "GiantUrchin": {
         "Key": "GiantUrchin",
         "enUS": "Barbed Giant",
-        "zhCN": "倒刺巨獸",
+        "zhCN": "倒刺巨兽",
         "zhTW": "倒刺巨獸",
         "sgCN": "勾刺巨人",
         "sgTW": "倒刺巨獸"
@@ -2154,7 +2154,7 @@
     "RazorBeast": {
         "Key": "RazorBeast",
         "enUS": "Razor Beast",
-        "zhCN": "剃刀獸",
+        "zhCN": "剃刀兽",
         "zhTW": "剃刀獸",
         "sgCN": "剃刀兽",
         "sgTW": "剃刀獸"
@@ -2162,7 +2162,7 @@
     "ThornBrute": {
         "Key": "ThornBrute",
         "enUS": "Thorn Brute",
-        "zhCN": "棘刺獸",
+        "zhCN": "棘刺兽",
         "zhTW": "棘刺獸",
         "sgCN": "荆棘蛮兽",
         "sgTW": "棘刺獸"
@@ -2170,7 +2170,7 @@
     "SpikeGiant": {
         "Key": "SpikeGiant",
         "enUS": "Spike Giant",
-        "zhCN": "尖釘巨獸",
+        "zhCN": "尖钉巨兽",
         "zhTW": "尖釘巨獸",
         "sgCN": "尖刺巨人",
         "sgTW": "尖釘巨獸"
@@ -2186,7 +2186,7 @@
     "Council Member": {
         "Key": "Council Member",
         "enUS": "Council Member",
-        "zhCN": "議會成員",
+        "zhCN": "议会成员",
         "zhTW": "議會成員",
         "sgCN": "理事会成员",
         "sgTW": "議會成員"
@@ -2210,7 +2210,7 @@
     "HellSlinger": {
         "Key": "HellSlinger",
         "enUS": "Hell Slinger",
-        "zhCN": "地獄投擲者",
+        "zhCN": "地狱投掷者",
         "zhTW": "地獄投擲者",
         "sgCN": "地狱投枪手",
         "sgTW": "地獄投擲者"
@@ -2218,7 +2218,7 @@
     "NightSlinger": {
         "Key": "NightSlinger",
         "enUS": "Night Slinger",
-        "zhCN": "暗夜投擲者",
+        "zhCN": "暗夜投掷者",
         "zhTW": "暗夜投擲者",
         "sgCN": "夜幕投枪手",
         "sgTW": "暗夜投擲者"
@@ -2226,7 +2226,7 @@
     "SpearCat": {
         "Key": "SpearCat",
         "enUS": "Spear Cat",
-        "zhCN": "標槍拉庫尼",
+        "zhCN": "标枪拉库尼",
         "zhTW": "標槍拉庫尼",
         "sgCN": "投枪猫",
         "sgTW": "標槍拉庫尼"
@@ -2234,7 +2234,7 @@
     "Slinger": {
         "Key": "Slinger",
         "enUS": "Slinger",
-        "zhCN": "投擲者",
+        "zhCN": "投掷者",
         "zhTW": "投擲者",
         "sgCN": "投枪手",
         "sgTW": "投擲者"
@@ -2250,7 +2250,7 @@
     "LightningSpire": {
         "Key": "LightningSpire",
         "enUS": "Lightning Spire",
-        "zhCN": "閃電塔",
+        "zhCN": "闪电塔",
         "zhTW": "閃電塔",
         "sgCN": "闪电尖塔",
         "sgTW": "閃電塔"
@@ -2258,7 +2258,7 @@
     "PitLord": {
         "Key": "PitLord",
         "enUS": "Pit Lord",
-        "zhCN": "獄淵領主",
+        "zhCN": "狱渊领主",
         "zhTW": "獄淵領主",
         "sgCN": "深渊领主",
         "sgTW": "獄淵領主"
@@ -2274,7 +2274,7 @@
     "VenomLord": {
         "Key": "VenomLord",
         "enUS": "Venom Lord",
-        "zhCN": "毒魔領主",
+        "zhCN": "毒魔领主",
         "zhTW": "毒魔領主",
         "sgCN": "剧毒领主",
         "sgTW": "毒魔領主"
@@ -2282,7 +2282,7 @@
     "Iron Wolf": {
         "Key": "Iron Wolf",
         "enUS": "Iron Wolf",
-        "zhCN": "鐵狼衛士",
+        "zhCN": "铁狼卫士",
         "zhTW": "鐵狼衛士",
         "sgCN": "铁狼",
         "sgTW": "鐵狼衛士"
@@ -2298,7 +2298,7 @@
     "OblivionKnight": {
         "Key": "OblivionKnight",
         "enUS": "Oblivion Knight",
-        "zhCN": "遺忘騎士",
+        "zhCN": "遗忘骑士",
         "zhTW": "遺忘騎士",
         "sgCN": "湮灭骑士",
         "sgTW": "遺忘騎士"
@@ -2306,7 +2306,7 @@
     "Mage": {
         "Key": "Mage",
         "enUS": "Mage",
-        "zhCN": "法師",
+        "zhCN": "法师",
         "zhTW": "法師",
         "sgCN": "法师",
         "sgTW": "法師"
@@ -2314,7 +2314,7 @@
     "AbyssKnight": {
         "Key": "AbyssKnight",
         "enUS": "Abyss Knight",
-        "zhCN": "深淵騎士",
+        "zhCN": "深渊骑士",
         "zhTW": "深淵騎士",
         "sgCN": "深渊骑士",
         "sgTW": "深淵騎士"
@@ -2322,7 +2322,7 @@
     "Fighter Mage": {
         "Key": "Fighter Mage",
         "enUS": "Fighter Mage",
-        "zhCN": "戰士法師",
+        "zhCN": "战士法师",
         "zhTW": "戰士法師",
         "sgCN": "战斗法师",
         "sgTW": "戰士法師"
@@ -2330,7 +2330,7 @@
     "DoomKnight": {
         "Key": "DoomKnight",
         "enUS": "Doom Knight",
-        "zhCN": "末日騎士",
+        "zhCN": "末日骑士",
         "zhTW": "末日騎士",
         "sgCN": "末日骑士",
         "sgTW": "末日騎士"
@@ -2338,7 +2338,7 @@
     "Fighter": {
         "Key": "Fighter",
         "enUS": "Fighter",
-        "zhCN": "戰士",
+        "zhCN": "战士",
         "zhTW": "戰士",
         "sgCN": "斗士",
         "sgTW": "戰士"
@@ -2346,7 +2346,7 @@
     "MawFiend": {
         "Key": "MawFiend",
         "enUS": "Maw Fiend",
-        "zhCN": "魔口吐屍怪",
+        "zhCN": "魔口吐尸怪",
         "zhTW": "魔口吐屍怪",
         "sgCN": "大胃魔",
         "sgTW": "魔口吐屍怪"
@@ -2354,7 +2354,7 @@
     "CorpseSpitter": {
         "Key": "CorpseSpitter",
         "enUS": "Corpse Spitter",
-        "zhCN": "吐屍怪",
+        "zhCN": "吐尸怪",
         "zhTW": "吐屍怪",
         "sgCN": "吐尸魔",
         "sgTW": "吐屍怪"
@@ -2362,7 +2362,7 @@
     "Corpulent": {
         "Key": "Corpulent",
         "enUS": "Corpulent",
-        "zhCN": "臃腫吐屍怪",
+        "zhCN": "臃肿吐尸怪",
         "zhTW": "臃腫吐屍怪",
         "sgCN": "化尸魔",
         "sgTW": "臃腫吐屍怪"
@@ -2370,7 +2370,7 @@
     "StormCaster": {
         "Key": "StormCaster",
         "enUS": "Storm Caster",
-        "zhCN": "暴風施術者",
+        "zhCN": "暴风施术者",
         "zhTW": "暴風施術者",
         "sgCN": "风暴法魔",
         "sgTW": "暴風施術者"
@@ -2378,7 +2378,7 @@
     "Strangler": {
         "Key": "Strangler",
         "enUS": "Strangler",
-        "zhCN": "扼殺者",
+        "zhCN": "扼杀者",
         "zhTW": "扼殺者",
         "sgCN": "扼喉法魔",
         "sgTW": "扼殺者"
@@ -2386,7 +2386,7 @@
     "Groper": {
         "Key": "Groper",
         "enUS": "Doom Caster",
-        "zhCN": "厄運施術者",
+        "zhCN": "厄运施术者",
         "zhTW": "厄運施術者",
         "sgCN": "厄运法魔",
         "sgTW": "厄運施術者"
@@ -2394,7 +2394,7 @@
     "GrotesqueWyrm": {
         "Key": "GrotesqueWyrm",
         "enUS": "Grotesque Wyrm",
-        "zhCN": "異魔鬼子",
+        "zhCN": "异魔鬼子",
         "zhTW": "異魔鬼子",
         "sgCN": "怪诞肉蛆",
         "sgTW": "異魔鬼子"
@@ -2410,7 +2410,7 @@
     "FleshBeast": {
         "Key": "FleshBeast",
         "enUS": "Flesh Beast",
-        "zhCN": "血獸鬼子",
+        "zhCN": "血兽鬼子",
         "zhTW": "血獸鬼子",
         "sgCN": "血肉兽",
         "sgTW": "血獸鬼子"
@@ -2418,7 +2418,7 @@
     "Grotesque": {
         "Key": "Grotesque",
         "enUS": "Grotesque",
-        "zhCN": "異魔鬼母",
+        "zhCN": "异魔鬼母",
         "zhTW": "異魔鬼母",
         "sgCN": "怪诞魔",
         "sgTW": "異魔鬼母"
@@ -2434,7 +2434,7 @@
     "FleshSpawner": {
         "Key": "FleshSpawner",
         "enUS": "Flesh Spawner",
-        "zhCN": "血獸鬼母",
+        "zhCN": "血兽鬼母",
         "zhTW": "血獸鬼母",
         "sgCN": "血肉孵化者",
         "sgTW": "血獸鬼母"
@@ -2442,7 +2442,7 @@
     "RogueScout": {
         "Key": "RogueScout",
         "enUS": "Rogue Scout",
-        "zhCN": "俠盜斥候",
+        "zhCN": "侠盗斥候",
         "zhTW": "俠盜斥候",
         "sgCN": "流亡者斥候",
         "sgTW": "俠盜斥候"
@@ -2458,7 +2458,7 @@
     "BloodHookNest": {
         "Key": "BloodHookNest",
         "enUS": "Blood Hook Nest",
-        "zhCN": "血鉤蚊之巢",
+        "zhCN": "血钩蚊之巢",
         "zhTW": "血鉤蚊之巢",
         "sgCN": "血钩蚊之巢",
         "sgTW": "血鉤蚊之巢"
@@ -2466,7 +2466,7 @@
     "FeederNest": {
         "Key": "FeederNest",
         "enUS": "Feeder Nest",
-        "zhCN": "餵血蚊之巢",
+        "zhCN": "喂血蚊之巢",
         "zhTW": "餵血蚊之巢",
         "sgCN": "捕食蚊之巢",
         "sgTW": "餵血蚊之巢"
@@ -2482,7 +2482,7 @@
     "NecroMage": {
         "Key": "NecroMage",
         "enUS": "Necromage",
-        "zhCN": "死靈師",
+        "zhCN": "死灵师",
         "zhTW": "死靈師",
         "sgCN": "死灵法师",
         "sgTW": "死靈師"
@@ -2490,7 +2490,7 @@
     "NecroSkeleton": {
         "Key": "NecroSkeleton",
         "enUS": "Necroskeleton",
-        "zhCN": "死靈骷髏",
+        "zhCN": "死灵骷髅",
         "zhTW": "死靈骷髏",
         "sgCN": "死灵骷髅",
         "sgTW": "死靈骷髏"
@@ -2498,7 +2498,7 @@
     "TrappedSoul": {
         "Key": "TrappedSoul",
         "enUS": "Trapped Soul",
-        "zhCN": "受困的靈魂",
+        "zhCN": "受困的灵魂",
         "zhTW": "受困的靈魂",
         "sgCN": "被禁锢的灵魂",
         "sgTW": "受困的靈魂"
@@ -2506,7 +2506,7 @@
     "Raises Fetishes": {
         "Key": "Raises Fetishes",
         "enUS": "Raises Fetishes",
-        "zhCN": "復活鬼娃",
+        "zhCN": "复活鬼娃",
         "zhTW": "復活鬼娃",
         "sgCN": "复活鬼娃",
         "sgTW": "復活鬼娃"
@@ -2514,7 +2514,7 @@
     "Raises Undead": {
         "Key": "Raises Undead",
         "enUS": "Raises Undead",
-        "zhCN": "復活不死怪物",
+        "zhCN": "复活不死怪物",
         "zhTW": "復活不死怪物",
         "sgCN": "复活亡灵",
         "sgTW": "復活不死怪物"
@@ -2522,7 +2522,7 @@
     "Lays Eggs": {
         "Key": "Lays Eggs",
         "enUS": "Lays Eggs",
-        "zhCN": "產卵",
+        "zhCN": "产卵",
         "zhTW": "產卵",
         "sgCN": "孵蛋",
         "sgTW": "產卵"
@@ -2530,7 +2530,7 @@
     "Raises Fallen": {
         "Key": "Raises Fallen",
         "enUS": "Raises Fallen",
-        "zhCN": "復活沉淪魔",
+        "zhCN": "复活沉沦魔",
         "zhTW": "復活沉淪魔",
         "sgCN": "复活沉沦魔",
         "sgTW": "復活沉淪魔"
@@ -2538,7 +2538,7 @@
     "heals Zealots and Cantors": {
         "Key": "heals Zealots and Cantors",
         "enUS": "Heals Others",
-        "zhCN": "治療其他同伴",
+        "zhCN": "治疗其他同伴",
         "zhTW": "治療其他同伴",
         "sgCN": "治疗他人",
         "sgTW": "治療其他同伴"
@@ -2570,7 +2570,7 @@
     "stun attack": {
         "Key": "stun attack",
         "enUS": "Stun Attack",
-        "zhCN": "昏迷攻擊",
+        "zhCN": "昏迷攻击",
         "zhTW": "昏迷攻擊",
         "sgCN": "击晕",
         "sgTW": "昏迷攻擊"
@@ -2578,7 +2578,7 @@
     "eats and spits corspes": {
         "Key": "eats and spits corspes",
         "enUS": "Eats and Spits Corspes",
-        "zhCN": "吞食與吐出屍體",
+        "zhCN": "吞食与吐出尸体",
         "zhTW": "吞食與吐出屍體",
         "sgCN": "吃吐尸体",
         "sgTW": "吞食與吐出屍體"
@@ -2586,7 +2586,7 @@
     "homing missiles": {
         "Key": "homing missiles",
         "enUS": "Homing Missiles Drain Mana",
-        "zhCN": "追蹤飛箭吸取法力",
+        "zhCN": "追踪飞箭吸取法力",
         "zhTW": "追蹤飛箭吸取法力",
         "sgCN": "追踪飞弹 吸取法力",
         "sgTW": "追蹤飛箭吸取法力"
@@ -2594,7 +2594,7 @@
     "raises Stygian Dolls": {
         "Key": "raises Stygian Dolls",
         "enUS": "Raises Stygian Dolls",
-        "zhCN": "復活冥河鬼娃",
+        "zhCN": "复活冥河鬼娃",
         "zhTW": "復活冥河鬼娃",
         "sgCN": "复活冥河娃娃",
         "sgTW": "復活冥河鬼娃"
@@ -2602,7 +2602,7 @@
     "raises Soul Killers": {
         "Key": "raises Soul Killers",
         "enUS": "Raises Soul Killers",
-        "zhCN": "復活靈魂殺手",
+        "zhCN": "复活灵魂杀手",
         "zhTW": "復活靈魂殺手",
         "sgCN": "复活灵魂杀手",
         "sgTW": "復活靈魂殺手"
@@ -2610,7 +2610,7 @@
     "raises Flayers": {
         "Key": "raises Flayers",
         "enUS": "Raises Flayers",
-        "zhCN": "復活剝皮手",
+        "zhCN": "复活剥皮手",
         "zhTW": "復活剝皮手",
         "sgCN": "复活剥皮魔",
         "sgTW": "復活剝皮手"
@@ -2618,7 +2618,7 @@
     "raises Fetishes": {
         "Key": "raises Fetishes",
         "enUS": "Raises Fetishes",
-        "zhCN": "復活鬼娃",
+        "zhCN": "复活鬼娃",
         "zhTW": "復活鬼娃",
         "sgCN": "复活鬼娃",
         "sgTW": "復活鬼娃"
@@ -2626,7 +2626,7 @@
     "raises Ratmen": {
         "Key": "raises Ratmen",
         "enUS": "Raises Ratmen",
-        "zhCN": "復活鼠人",
+        "zhCN": "复活鼠人",
         "zhTW": "復活鼠人",
         "sgCN": "复活鼠人",
         "sgTW": "復活鼠人"
@@ -2634,7 +2634,7 @@
     "steals life": {
         "Key": "steals life",
         "enUS": "Steals Life",
-        "zhCN": "生命竊取",
+        "zhCN": "生命窃取",
         "zhTW": "生命竊取",
         "sgCN": "偷取生命",
         "sgTW": "生命竊取"
@@ -2642,7 +2642,7 @@
     "raises undead": {
         "Key": "raises undead",
         "enUS": "Raises Undead",
-        "zhCN": "復活不死怪物",
+        "zhCN": "复活不死怪物",
         "zhTW": "復活不死怪物",
         "sgCN": "复活亡灵",
         "sgTW": "復活不死怪物"
@@ -2650,7 +2650,7 @@
     "raises Dark Ones": {
         "Key": "raises Dark Ones",
         "enUS": "Raises Dark Ones",
-        "zhCN": "復活暗黑沉淪魔",
+        "zhCN": "复活暗黑沉沦魔",
         "zhTW": "復活暗黑沉淪魔",
         "sgCN": "复活暗魔",
         "sgTW": "復活暗黑沉淪魔"
@@ -2658,7 +2658,7 @@
     "raises Devilkin": {
         "Key": "raises Devilkin",
         "enUS": "Raises Devilkin",
-        "zhCN": "復活魔妖沉淪魔",
+        "zhCN": "复活魔妖沉沦魔",
         "zhTW": "復活魔妖沉淪魔",
         "sgCN": "复活小恶魔",
         "sgTW": "復活魔妖沉淪魔"
@@ -2666,7 +2666,7 @@
     "raises Carvers": {
         "Key": "raises Carvers",
         "enUS": "Raises Carvers",
-        "zhCN": "復活刨肉沉淪魔",
+        "zhCN": "复活刨肉沉沦魔",
         "zhTW": "復活刨肉沉淪魔",
         "sgCN": "复活利刃魔",
         "sgTW": "復活刨肉沉淪魔"
@@ -2674,7 +2674,7 @@
     "raises Fallen": {
         "Key": "raises Fallen",
         "enUS": "Raises Fallen",
-        "zhCN": "復活沉淪魔",
+        "zhCN": "复活沉沦魔",
         "zhTW": "復活沉淪魔",
         "sgCN": "复活沉沦魔",
         "sgTW": "復活沉淪魔"
@@ -2682,7 +2682,7 @@
     "raises Warped Fallen": {
         "Key": "raises Warped Fallen",
         "enUS": "Raises The Warped",
-        "zhCN": "復活扭曲沉淪魔",
+        "zhCN": "复活扭曲沉沦魔",
         "zhTW": "復活扭曲沉淪魔",
         "sgCN": "复活扭曲魔",
         "sgTW": "復活扭曲沉淪魔"
@@ -2690,7 +2690,7 @@
     "shocking hit": {
         "Key": "shocking hit",
         "enUS": "shocking hit",
-        "zhCN": "放電攻擊",
+        "zhCN": "放电攻击",
         "zhTW": "放電攻擊",
         "sgCN": "闪电打击",
         "sgTW": "放電攻擊"
@@ -2698,7 +2698,7 @@
     "uniquextrastrong": {
         "Key": "uniquextrastrong",
         "enUS": "Extra Strong",
-        "zhCN": "特別強壯",
+        "zhCN": "特别强壮",
         "zhTW": "特別強壯",
         "sgCN": "额外强壮",
         "sgTW": "特別強壯"
@@ -2706,7 +2706,7 @@
     "uniqueextrafast": {
         "Key": "uniqueextrafast",
         "enUS": "Extra Fast",
-        "zhCN": "特別快速",
+        "zhCN": "特别快速",
         "zhTW": "特別快速",
         "sgCN": "额外快速",
         "sgTW": "特別快速"
@@ -2714,7 +2714,7 @@
     "uniquecursed": {
         "Key": "uniquecursed",
         "enUS": "Cursed",
-        "zhCN": "施加詛咒",
+        "zhCN": "施加诅咒",
         "zhTW": "施加詛咒",
         "sgCN": "诅咒",
         "sgTW": "施加詛咒"
@@ -2730,7 +2730,7 @@
     "uniquefireenchanted": {
         "Key": "uniquefireenchanted",
         "enUS": "Fire Enchanted",
-        "zhCN": "火焰強化",
+        "zhCN": "火焰强化",
         "zhTW": "火焰強化",
         "sgCN": "火焰强化",
         "sgTW": "火焰強化"
@@ -2738,7 +2738,7 @@
     "monsteruniqueprop1": {
         "Key": "monsteruniqueprop1",
         "enUS": "Cold Enchanted",
-        "zhCN": "冰寒強化",
+        "zhCN": "冰寒强化",
         "zhTW": "冰寒強化",
         "sgCN": "冰霜强化",
         "sgTW": "冰寒強化"
@@ -2746,7 +2746,7 @@
     "monsteruniqueprop2": {
         "Key": "monsteruniqueprop2",
         "enUS": "Lightning Enchanted",
-        "zhCN": "電擊強化",
+        "zhCN": "电击强化",
         "zhTW": "電擊強化",
         "sgCN": "闪电强化",
         "sgTW": "電擊強化"
@@ -2754,7 +2754,7 @@
     "monsteruniqueprop3": {
         "Key": "monsteruniqueprop3",
         "enUS": "Mana Burn",
-        "zhCN": "法力燃燒",
+        "zhCN": "法力燃烧",
         "zhTW": "法力燃燒",
         "sgCN": "法力燃烧",
         "sgTW": "法力燃燒"
@@ -2762,7 +2762,7 @@
     "monsteruniqueprop4": {
         "Key": "monsteruniqueprop4",
         "enUS": "Spectral Hit",
-        "zhCN": "灌能打擊",
+        "zhCN": "灌能打击",
         "zhTW": "灌能打擊",
         "sgCN": "鬼魂打击",
         "sgTW": "灌能打擊"
@@ -2778,7 +2778,7 @@
     "monsteruniqueprop7": {
         "Key": "monsteruniqueprop7",
         "enUS": "Multiple Shots",
-        "zhCN": "多重射擊",
+        "zhCN": "多重射击",
         "zhTW": "多重射擊",
         "sgCN": "多重射击",
         "sgTW": "多重射擊"
@@ -2786,7 +2786,7 @@
     "monsteruniqueprop8": {
         "Key": "monsteruniqueprop8",
         "enUS": "Thief",
-        "zhCN": "偷盜",
+        "zhCN": "偷盗",
         "zhTW": "偷盜",
         "sgCN": "偷窃",
         "sgTW": "偷盜"
@@ -2794,7 +2794,7 @@
     "monsteruniqueprop9": {
         "Key": "monsteruniqueprop9",
         "enUS": "Aura Enchanted",
-        "zhCN": "靈氣強化",
+        "zhCN": "灵气强化",
         "zhTW": "靈氣強化",
         "sgCN": "光环强化",
         "sgTW": "靈氣強化"
@@ -2802,7 +2802,7 @@
     "This Cow Bites": {
         "Key": "This Cow Bites",
         "enUS": "This Cow Bites",
-        "zhCN": "這頭牛會咬人",
+        "zhCN": "这头牛会咬人",
         "zhTW": "這頭牛會咬人",
         "sgCN": "这头奶牛咬人",
         "sgTW": "這頭牛會咬人"
@@ -2810,7 +2810,7 @@
     "minion": {
         "Key": "minion",
         "enUS": "Minion",
-        "zhCN": "僕從",
+        "zhCN": "仆从",
         "zhTW": "僕從",
         "sgCN": "爪牙",
         "sgTW": "僕從"
@@ -2826,7 +2826,7 @@
     "skeleton": {
         "Key": "skeleton",
         "enUS": "Skeleton",
-        "zhCN": "骷髏",
+        "zhCN": "骷髅",
         "zhTW": "骷髏",
         "sgCN": "骷髅",
         "sgTW": "骷髏"
@@ -2834,7 +2834,7 @@
     "Corpsefire": {
         "Key": "Corpsefire",
         "enUS": "Corpsefire",
-        "zhCN": "屍火",
+        "zhCN": "尸火",
         "zhTW": "屍火",
         "sgCN": "尸体发火",
         "sgTW": "屍火"
@@ -2842,7 +2842,7 @@
     "Mauler": {
         "Key": "Mauler",
         "enUS": "Mauler",
-        "zhCN": "重擊巨怪",
+        "zhCN": "重击巨怪",
         "zhTW": "重擊巨怪",
         "sgCN": "巨槌魔",
         "sgTW": "重擊巨怪"
@@ -2858,7 +2858,7 @@
     "DemonID": {
         "Key": "DemonID",
         "enUS": "Demon",
-        "zhCN": "惡魔",
+        "zhCN": "恶魔",
         "zhTW": "惡魔",
         "sgCN": "恶魔",
         "sgTW": "惡魔"
@@ -2866,7 +2866,7 @@
     "DarkStalker": {
         "Key": "DarkStalker",
         "enUS": "Dark Stalker",
-        "zhCN": "黑暗潛襲者",
+        "zhCN": "黑暗潜袭者",
         "zhTW": "黑暗潛襲者",
         "sgCN": "黑暗偷袭者",
         "sgTW": "黑暗潛襲者"
@@ -2874,7 +2874,7 @@
     "VileArcher": {
         "Key": "VileArcher",
         "enUS": "Vile Archer",
-        "zhCN": "兇邪弓箭手",
+        "zhCN": "凶邪弓箭手",
         "zhTW": "兇邪弓箭手",
         "sgCN": "邪恶弓手",
         "sgTW": "兇邪弓箭手"
@@ -2882,7 +2882,7 @@
     "TrappDoor": {
         "Key": "TrappDoor",
         "enUS": "Trap Door",
-        "zhCN": "暗門",
+        "zhCN": "暗门",
         "zhTW": "暗門",
         "sgCN": "活板门",
         "sgTW": "暗門"
@@ -2898,7 +2898,7 @@
     "Wraithra": {
         "Key": "Wraithra",
         "enUS": "Wraith",
-        "zhCN": "怨靈",
+        "zhCN": "怨灵",
         "zhTW": "怨靈",
         "sgCN": "怨魂",
         "sgTW": "怨靈"
@@ -2914,7 +2914,7 @@
     "Wraith": {
         "Key": "Wraith",
         "enUS": "Wraith",
-        "zhCN": "怨靈",
+        "zhCN": "怨灵",
         "zhTW": "怨靈",
         "sgCN": "怨魂",
         "sgTW": "怨靈"
@@ -2922,7 +2922,7 @@
     "eats and spits corpses": {
         "Key": "eats and spits corpses",
         "enUS": "Eats and Spits Corpses",
-        "zhCN": "吞食與吐出屍體",
+        "zhCN": "吞食与吐出尸体",
         "zhTW": "吞食與吐出屍體",
         "sgCN": "吃吐尸体",
         "sgTW": "吞食與吐出屍體"
@@ -2930,7 +2930,7 @@
     "Shocking Hit": {
         "Key": "Shocking Hit",
         "enUS": "Shocking Hit",
-        "zhCN": "放電攻擊",
+        "zhCN": "放电攻击",
         "zhTW": "放電攻擊",
         "sgCN": "闪电打击",
         "sgTW": "放電攻擊"
@@ -2938,7 +2938,7 @@
     "champghostlyX": {
         "Key": "champghostlyX",
         "enUS": "Ghostly",
-        "zhCN": "幽靈",
+        "zhCN": "幽灵",
         "zhTW": "幽靈",
         "sgCN": "[厉魂]",
         "sgTW": "幽靈"
@@ -2954,7 +2954,7 @@
     "Lilith": {
         "Key": "Lilith",
         "enUS": "Lilith",
-        "zhCN": "莉莉絲",
+        "zhCN": "莉莉丝",
         "zhTW": "莉莉絲",
         "sgCN": "莉莉丝",
         "sgTW": "莉莉絲"
@@ -2962,7 +2962,7 @@
     "Baal Subject 1": {
         "Key": "Baal Subject 1",
         "enUS": "Colenzo the Annihilator",
-        "zhCN": "破壞者卡蘭索",
+        "zhCN": "破坏者卡兰索",
         "zhTW": "破壞者卡蘭索",
         "sgCN": "卡兰索·破坏者",
         "sgTW": "破壞者卡蘭索"
@@ -2970,7 +2970,7 @@
     "Baal Subject 2": {
         "Key": "Baal Subject 2",
         "enUS": "Achmel the Cursed",
-        "zhCN": "詛咒的阿克姆",
+        "zhCN": "诅咒的阿克姆",
         "zhTW": "詛咒的阿克姆",
         "sgCN": "阿克姆·被诅咒者",
         "sgTW": "詛咒的阿克姆"
@@ -2978,7 +2978,7 @@
     "Baal Subject 3": {
         "Key": "Baal Subject 3",
         "enUS": "Bartuc the Bloody",
-        "zhCN": "血腥的霸圖克",
+        "zhCN": "血腥的霸图克",
         "zhTW": "血腥的霸圖克",
         "sgCN": "嗜血的巴图克",
         "sgTW": "血腥的霸圖克"
@@ -2986,7 +2986,7 @@
     "Baal Subject 4": {
         "Key": "Baal Subject 4",
         "enUS": "Ventar the Unholy",
-        "zhCN": "不潔的凡塔",
+        "zhCN": "不洁的凡塔",
         "zhTW": "不潔的凡塔",
         "sgCN": "温塔尔·不洁者",
         "sgTW": "不潔的凡塔"
@@ -3002,7 +3002,7 @@
     "Baal Crab Clone": {
         "Key": "Baal Crab Clone",
         "enUS": "Baal",
-        "zhCN": "巴爾",
+        "zhCN": "巴尔",
         "zhTW": "巴爾",
         "sgCN": "巴尔",
         "sgTW": "巴爾"
@@ -3010,7 +3010,7 @@
     "Baal Crab to Stairs": {
         "Key": "Baal Crab to Stairs",
         "enUS": "Baal",
-        "zhCN": "巴爾",
+        "zhCN": "巴尔",
         "zhTW": "巴爾",
         "sgCN": "巴尔",
         "sgTW": "巴爾"
@@ -3018,7 +3018,7 @@
     "Baal Subject Mummy": {
         "Key": "Baal Subject Mummy",
         "enUS": "Unraveler",
-        "zhCN": "解繃者",
+        "zhCN": "解绷者",
         "zhTW": "解繃者",
         "sgCN": "剖尸者",
         "sgTW": "解繃者"
@@ -3026,7 +3026,7 @@
     "Baals Minion": {
         "Key": "Baals Minion",
         "enUS": "Minion of Destruction",
-        "zhCN": "毀滅僕從",
+        "zhCN": "毁灭仆从",
         "zhTW": "毀滅僕從",
         "sgCN": "毁灭的爪牙",
         "sgTW": "毀滅僕從"
@@ -3042,7 +3042,7 @@
     "UiRescuedBarUI": {
         "Key": "UiRescuedBarUI",
         "enUS": "Warrior",
-        "zhCN": "戰士",
+        "zhCN": "战士",
         "zhTW": "戰士",
         "sgCN": "战士",
         "sgTW": "戰士"
@@ -3050,7 +3050,7 @@
     "Spike Generator": {
         "Key": "Spike Generator",
         "enUS": "Spike Generator",
-        "zhCN": "尖刺製造機",
+        "zhCN": "尖刺制造机",
         "zhTW": "尖刺製造機",
         "sgCN": "尖刺生成器",
         "sgTW": "尖刺製造機"
@@ -3058,7 +3058,7 @@
     "Invis Pet": {
         "Key": "Invis Pet",
         "enUS": "Pet",
-        "zhCN": "寵物",
+        "zhCN": "宠物",
         "zhTW": "寵物",
         "sgCN": "宠物",
         "sgTW": "寵物"
@@ -3074,7 +3074,7 @@
     "Druid Totem": {
         "Key": "Druid Totem",
         "enUS": "Druid Spirit",
-        "zhCN": "德魯伊魂靈",
+        "zhCN": "德鲁伊魂灵",
         "zhTW": "德魯伊魂靈",
         "sgCN": "德鲁伊灵体",
         "sgTW": "德魯伊魂靈"
@@ -3090,7 +3090,7 @@
     "Druid Spirit Wolf": {
         "Key": "Druid Spirit Wolf",
         "enUS": "Spirit Wolf",
-        "zhCN": "幽靈狼",
+        "zhCN": "幽灵狼",
         "zhTW": "幽靈狼",
         "sgCN": "灵狼",
         "sgTW": "幽靈狼"
@@ -3106,7 +3106,7 @@
     "Druid Plague Poppy": {
         "Key": "Druid Plague Poppy",
         "enUS": "Plague Poppy",
-        "zhCN": "瘟疫罌粟",
+        "zhCN": "瘟疫罂粟",
         "zhTW": "瘟疫罌粟",
         "sgCN": "瘟疫罂粟",
         "sgTW": "瘟疫罌粟"
@@ -3114,7 +3114,7 @@
     "Druid Cycle of Life": {
         "Key": "Druid Cycle of Life",
         "enUS": "Cycle of Life",
-        "zhCN": "生命輪迴",
+        "zhCN": "生命轮回",
         "zhTW": "生命輪迴",
         "sgCN": "生命循环",
         "sgTW": "生命輪迴"
@@ -3130,7 +3130,7 @@
     "Eagleexp": {
         "Key": "Eagleexp",
         "enUS": "Eagle",
-        "zhCN": "老鷹",
+        "zhCN": "老鹰",
         "zhTW": "老鷹",
         "sgCN": "鹰",
         "sgTW": "老鷹"
@@ -3154,7 +3154,7 @@
     "Siege Door": {
         "Key": "Siege Door",
         "enUS": "Siege Door",
-        "zhCN": "攻城門",
+        "zhCN": "攻城门",
         "zhTW": "攻城門",
         "sgCN": "攻城门",
         "sgTW": "攻城門"
@@ -3178,7 +3178,7 @@
     "ReanimatedHorde": {
         "Key": "ReanimatedHorde",
         "enUS": "Reanimated Horde",
-        "zhCN": "再生屍兵",
+        "zhCN": "再生尸兵",
         "zhTW": "再生屍兵",
         "sgCN": "复活行尸",
         "sgTW": "再生屍兵"
@@ -3186,7 +3186,7 @@
     "ProwlingDead": {
         "Key": "ProwlingDead",
         "enUS": "Prowling Dead",
-        "zhCN": "巡行屍兵",
+        "zhCN": "巡行尸兵",
         "zhTW": "巡行屍兵",
         "sgCN": "徘徊亡骨",
         "sgTW": "巡行屍兵"
@@ -3194,7 +3194,7 @@
     "UnholyCorpse": {
         "Key": "UnholyCorpse",
         "enUS": "Unholy Corpse",
-        "zhCN": "穢邪屍兵",
+        "zhCN": "秽邪尸兵",
         "zhTW": "穢邪屍兵",
         "sgCN": "不洁尸骸",
         "sgTW": "穢邪屍兵"
@@ -3202,7 +3202,7 @@
     "DefiledWarrior": {
         "Key": "DefiledWarrior",
         "enUS": "Defiled Warrior",
-        "zhCN": "褻瀆戰士",
+        "zhCN": "亵渎战士",
         "zhTW": "褻瀆戰士",
         "sgCN": "污邪战士",
         "sgTW": "褻瀆戰士"
@@ -3210,7 +3210,7 @@
     "Siege Beast": {
         "Key": "Siege Beast",
         "enUS": "Siege Beast",
-        "zhCN": "攻城獸",
+        "zhCN": "攻城兽",
         "zhTW": "攻城獸",
         "sgCN": "攻城兽",
         "sgTW": "攻城獸"
@@ -3218,7 +3218,7 @@
     "CrushBiest": {
         "Key": "CrushBiest",
         "enUS": "Crush Beast",
-        "zhCN": "重擊攻城獸",
+        "zhCN": "重击攻城兽",
         "zhTW": "重擊攻城獸",
         "sgCN": "破阵兽",
         "sgTW": "重擊攻城獸"
@@ -3226,7 +3226,7 @@
     "BloodBringer": {
         "Key": "BloodBringer",
         "enUS": "Blood Bringer",
-        "zhCN": "血腥攻城獸",
+        "zhCN": "血腥攻城兽",
         "zhTW": "血腥攻城獸",
         "sgCN": "溅血兽",
         "sgTW": "血腥攻城獸"
@@ -3234,7 +3234,7 @@
     "GoreBearer": {
         "Key": "GoreBearer",
         "enUS": "Gore Bearer",
-        "zhCN": "蝕肉獸",
+        "zhCN": "蚀肉兽",
         "zhTW": "蝕肉獸",
         "sgCN": "血污魔",
         "sgTW": "蝕肉獸"
@@ -3242,7 +3242,7 @@
     "DeamonSteed": {
         "Key": "DeamonSteed",
         "enUS": "Demon Steed",
-        "zhCN": "惡魔戰馬",
+        "zhCN": "恶魔战马",
         "zhTW": "惡魔戰馬",
         "sgCN": "恶魔战马",
         "sgTW": "惡魔戰馬"
@@ -3250,7 +3250,7 @@
     "WailingSpirit": {
         "Key": "WailingSpirit",
         "enUS": "Wailing Spirit",
-        "zhCN": "泣靈",
+        "zhCN": "泣灵",
         "zhTW": "泣靈",
         "sgCN": "恸哭之灵",
         "sgTW": "泣靈"
@@ -3282,7 +3282,7 @@
     "BoundSpirit": {
         "Key": "BoundSpirit",
         "enUS": "Bound Spirit",
-        "zhCN": "縛靈",
+        "zhCN": "缚灵",
         "zhTW": "縛靈",
         "sgCN": "束缚之灵",
         "sgTW": "縛靈"
@@ -3306,7 +3306,7 @@
     "Minionexp": {
         "Key": "Minionexp",
         "enUS": "Enslaved",
-        "zhCN": "僕魔",
+        "zhCN": "仆魔",
         "zhTW": "僕魔",
         "sgCN": "仆魔",
         "sgTW": "僕魔"
@@ -3314,7 +3314,7 @@
     "Slayerexp": {
         "Key": "Slayerexp",
         "enUS": "Slayer",
-        "zhCN": "殺戮僕魔",
+        "zhCN": "杀戮仆魔",
         "zhTW": "殺戮僕魔",
         "sgCN": "屠杀者",
         "sgTW": "殺戮僕魔"
@@ -3322,7 +3322,7 @@
     "IceBoar": {
         "Key": "IceBoar",
         "enUS": "Ice Boar",
-        "zhCN": "寒冰僕魔",
+        "zhCN": "寒冰仆魔",
         "zhTW": "寒冰僕魔",
         "sgCN": "冰野猪",
         "sgTW": "寒冰僕魔"
@@ -3330,7 +3330,7 @@
     "FireBoar": {
         "Key": "FireBoar",
         "enUS": "Fire Boar",
-        "zhCN": "火焰僕魔",
+        "zhCN": "火焰仆魔",
         "zhTW": "火焰僕魔",
         "sgCN": "火野猪",
         "sgTW": "火焰僕魔"
@@ -3338,7 +3338,7 @@
     "HellSpawn": {
         "Key": "HellSpawn",
         "enUS": "Hell Spawn",
-        "zhCN": "地獄爪牙",
+        "zhCN": "地狱爪牙",
         "zhTW": "地獄爪牙",
         "sgCN": "地狱恶灵",
         "sgTW": "地獄爪牙"
@@ -3354,7 +3354,7 @@
     "GreaterHellSpawn": {
         "Key": "GreaterHellSpawn",
         "enUS": "Greater Hell Spawn",
-        "zhCN": "高階地獄爪牙",
+        "zhCN": "高阶地狱爪牙",
         "zhTW": "高階地獄爪牙",
         "sgCN": "大型地狱恶灵",
         "sgTW": "高階地獄爪牙"
@@ -3370,7 +3370,7 @@
     "FanaticMinion": {
         "Key": "FanaticMinion",
         "enUS": "Fanatic Enslaved",
-        "zhCN": "狂熱僕魔",
+        "zhCN": "狂热仆魔",
         "zhTW": "狂熱僕魔",
         "sgCN": "狂热仆魔",
         "sgTW": "狂熱僕魔"
@@ -3378,7 +3378,7 @@
     "BerserkSlayer": {
         "Key": "BerserkSlayer",
         "enUS": "Berserker Slayer",
-        "zhCN": "凶暴殺戮僕魔",
+        "zhCN": "凶暴杀戮仆魔",
         "zhTW": "凶暴殺戮僕魔",
         "sgCN": "狂暴屠杀者",
         "sgTW": "凶暴殺戮僕魔"
@@ -3386,7 +3386,7 @@
     "ConsumedFireBoar": {
         "Key": "ConsumedFireBoar",
         "enUS": "Consumed Fire Boar",
-        "zhCN": "狂亂寒冰僕魔",
+        "zhCN": "狂乱寒冰仆魔",
         "zhTW": "狂亂寒冰僕魔",
         "sgCN": "毁灭的冰野猪",
         "sgTW": "狂亂寒冰僕魔"
@@ -3394,7 +3394,7 @@
     "ConsumedIceBoar": {
         "Key": "ConsumedIceBoar",
         "enUS": "Consumed Ice Boar",
-        "zhCN": "狂亂火焰僕魔",
+        "zhCN": "狂乱火焰仆魔",
         "zhTW": "狂亂火焰僕魔",
         "sgCN": "毁灭的火野猪",
         "sgTW": "狂亂火焰僕魔"
@@ -3402,7 +3402,7 @@
     "FrenziedHellSpawn": {
         "Key": "FrenziedHellSpawn",
         "enUS": "Frenzied Hell Spawn",
-        "zhCN": "狂怒地獄爪牙",
+        "zhCN": "狂怒地狱爪牙",
         "zhTW": "狂怒地獄爪牙",
         "sgCN": "狂乱地狱恶灵",
         "sgTW": "狂怒地獄爪牙"
@@ -3418,7 +3418,7 @@
     "InsaneHellSpawn": {
         "Key": "InsaneHellSpawn",
         "enUS": "Insane Hell Spawn",
-        "zhCN": "瘋狂地獄爪牙",
+        "zhCN": "疯狂地狱爪牙",
         "zhTW": "瘋狂地獄爪牙",
         "sgCN": "疯狂地狱恶灵",
         "sgTW": "瘋狂地獄爪牙"
@@ -3426,7 +3426,7 @@
     "InsaneIceSpawn": {
         "Key": "InsaneIceSpawn",
         "enUS": "Insane Ice Spawn",
-        "zhCN": "瘋狂冰封爪牙",
+        "zhCN": "疯狂冰封爪牙",
         "zhTW": "瘋狂冰封爪牙",
         "sgCN": "疯狂寒冰恶灵",
         "sgTW": "瘋狂冰封爪牙"
@@ -3442,7 +3442,7 @@
     "VileTemptress": {
         "Key": "VileTemptress",
         "enUS": "Vile Temptress",
-        "zhCN": "兇邪妖魅",
+        "zhCN": "凶邪妖魅",
         "zhTW": "兇邪妖魅",
         "sgCN": "邪恶妖妇",
         "sgTW": "兇邪妖魅"
@@ -3458,7 +3458,7 @@
     "Hell Temptress": {
         "Key": "Hell Temptress",
         "enUS": "Hell Temptress",
-        "zhCN": "地獄妖魅",
+        "zhCN": "地狱妖魅",
         "zhTW": "地獄妖魅",
         "sgCN": "地狱妖妇",
         "sgTW": "地獄妖魅"
@@ -3474,7 +3474,7 @@
     "Dominus": {
         "Key": "Dominus",
         "enUS": "Siren",
-        "zhCN": "賽蓮女妖",
+        "zhCN": "赛莲女妖",
         "zhTW": "賽蓮女妖",
         "sgCN": "妖女",
         "sgTW": "賽蓮女妖"
@@ -3482,7 +3482,7 @@
     "VileWitch": {
         "Key": "VileWitch",
         "enUS": "Vile Witch",
-        "zhCN": "兇邪女妖",
+        "zhCN": "凶邪女妖",
         "zhTW": "兇邪女妖",
         "sgCN": "邪恶女巫",
         "sgTW": "兇邪女妖"
@@ -3506,7 +3506,7 @@
     "Hell Witch": {
         "Key": "Hell Witch",
         "enUS": "Hell Witch",
-        "zhCN": "地獄女妖",
+        "zhCN": "地狱女妖",
         "zhTW": "地獄女妖",
         "sgCN": "地狱女巫",
         "sgTW": "地獄女妖"
@@ -3514,7 +3514,7 @@
     "OverSeer": {
         "Key": "OverSeer",
         "enUS": "Overseer",
-        "zhCN": "督軍",
+        "zhCN": "督军",
         "zhTW": "督軍",
         "sgCN": "督军",
         "sgTW": "督軍"
@@ -3538,7 +3538,7 @@
     "BloodBoss": {
         "Key": "BloodBoss",
         "enUS": "Blood Boss",
-        "zhCN": "血腥統治者",
+        "zhCN": "血腥统治者",
         "zhTW": "血腥統治者",
         "sgCN": "鲜血统领",
         "sgTW": "血腥統治者"
@@ -3546,7 +3546,7 @@
     "HellWhip": {
         "Key": "HellWhip",
         "enUS": "Hell Whip",
-        "zhCN": "地獄之鞭",
+        "zhCN": "地狱之鞭",
         "zhTW": "地獄之鞭",
         "sgCN": "地狱鞭",
         "sgTW": "地獄之鞭"
@@ -3554,7 +3554,7 @@
     "MinionSpawner": {
         "Key": "MinionSpawner",
         "enUS": "Demon Portal",
-        "zhCN": "惡魔傳送門",
+        "zhCN": "恶魔传送门",
         "zhTW": "惡魔傳送門",
         "sgCN": "恶魔传送门",
         "sgTW": "惡魔傳送門"
@@ -3562,7 +3562,7 @@
     "MinionSlayerSpawner": {
         "Key": "MinionSlayerSpawner",
         "enUS": "Demon Portal",
-        "zhCN": "惡魔傳送門",
+        "zhCN": "恶魔传送门",
         "zhTW": "惡魔傳送門",
         "sgCN": "恶魔传送门",
         "sgTW": "惡魔傳送門"
@@ -3570,7 +3570,7 @@
     "MinionIce/fireBoarSpawner": {
         "Key": "MinionIce/fireBoarSpawner",
         "enUS": "Demon Portal",
-        "zhCN": "惡魔傳送門",
+        "zhCN": "恶魔传送门",
         "zhTW": "惡魔傳送門",
         "sgCN": "恶魔传送门",
         "sgTW": "惡魔傳送門"
@@ -3578,7 +3578,7 @@
     "Minionice/hellSpawnSpawner": {
         "Key": "Minionice/hellSpawnSpawner",
         "enUS": "Demon Portal",
-        "zhCN": "惡魔傳送門",
+        "zhCN": "恶魔传送门",
         "zhTW": "惡魔傳送門",
         "sgCN": "恶魔传送门",
         "sgTW": "惡魔傳送門"
@@ -3586,7 +3586,7 @@
     "MinionGreaterIce/hellSpawnSpawner": {
         "Key": "MinionGreaterIce/hellSpawnSpawner",
         "enUS": "Demon Portal",
-        "zhCN": "惡魔傳送門",
+        "zhCN": "恶魔传送门",
         "zhTW": "惡魔傳送門",
         "sgCN": "恶魔传送门",
         "sgTW": "惡魔傳送門"
@@ -3594,7 +3594,7 @@
     "Imp1": {
         "Key": "Imp1",
         "enUS": "Demon Imp",
-        "zhCN": "惡魔小鬼",
+        "zhCN": "恶魔小鬼",
         "zhTW": "惡魔小鬼",
         "sgCN": "恶魔小鬼",
         "sgTW": "惡魔小鬼"
@@ -3602,7 +3602,7 @@
     "Imp2": {
         "Key": "Imp2",
         "enUS": "Demon Rascal",
-        "zhCN": "嘍囉小鬼",
+        "zhCN": "喽啰小鬼",
         "zhTW": "嘍囉小鬼",
         "sgCN": "恶魔喽啰",
         "sgTW": "嘍囉小鬼"
@@ -3618,7 +3618,7 @@
     "Imp4": {
         "Key": "Imp4",
         "enUS": "Demon Trickster",
-        "zhCN": "欺瞞小鬼",
+        "zhCN": "欺瞒小鬼",
         "zhTW": "欺瞞小鬼",
         "sgCN": "恶魔骗徒",
         "sgTW": "欺瞞小鬼"
@@ -3634,7 +3634,7 @@
     "CatapultN": {
         "Key": "CatapultN",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3642,7 +3642,7 @@
     "CatapultS": {
         "Key": "CatapultS",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3650,7 +3650,7 @@
     "CatapultE": {
         "Key": "CatapultE",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3658,7 +3658,7 @@
     "CatapultW": {
         "Key": "CatapultW",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3682,7 +3682,7 @@
     "Frozen Horror3": {
         "Key": "Frozen Horror3",
         "enUS": "Frozen Scourge",
-        "zhCN": "禍害冰怪",
+        "zhCN": "祸害冰怪",
         "zhTW": "禍害冰怪",
         "sgCN": "冰霜造劫者",
         "sgTW": "禍害冰怪"
@@ -3690,7 +3690,7 @@
     "Frozen Horror4": {
         "Key": "Frozen Horror4",
         "enUS": "Frozen Horror",
-        "zhCN": "驚恐冰怪",
+        "zhCN": "惊恐冰怪",
         "zhTW": "驚恐冰怪",
         "sgCN": "冰霜骇魔",
         "sgTW": "驚恐冰怪"
@@ -3698,7 +3698,7 @@
     "Frozen Horror5": {
         "Key": "Frozen Horror5",
         "enUS": "Frozen Scorch",
-        "zhCN": "焦凍冰怪",
+        "zhCN": "焦冻冰怪",
         "zhTW": "焦凍冰怪",
         "sgCN": "冰霜焦枯魔",
         "sgTW": "焦凍冰怪"
@@ -3706,7 +3706,7 @@
     "Blood Lord1": {
         "Key": "Blood Lord1",
         "enUS": "Moon Lord",
-        "zhCN": "月族統領",
+        "zhCN": "月族统领",
         "zhTW": "月族統領",
         "sgCN": "月王",
         "sgTW": "月族統領"
@@ -3714,7 +3714,7 @@
     "Blood Lord2": {
         "Key": "Blood Lord2",
         "enUS": "Night Lord",
-        "zhCN": "夜族統領",
+        "zhCN": "夜族统领",
         "zhTW": "夜族統領",
         "sgCN": "夜王",
         "sgTW": "夜族統領"
@@ -3722,7 +3722,7 @@
     "Blood Lord3": {
         "Key": "Blood Lord3",
         "enUS": "Blood Lord",
-        "zhCN": "血族統領",
+        "zhCN": "血族统领",
         "zhTW": "血族統領",
         "sgCN": "血王",
         "sgTW": "血族統領"
@@ -3730,7 +3730,7 @@
     "Blood Lord4": {
         "Key": "Blood Lord4",
         "enUS": "Hell Lord",
-        "zhCN": "冥府統領",
+        "zhCN": "冥府统领",
         "zhTW": "冥府統領",
         "sgCN": "地狱王",
         "sgTW": "冥府統領"
@@ -3738,7 +3738,7 @@
     "Blood Lord5": {
         "Key": "Blood Lord5",
         "enUS": "Death Lord",
-        "zhCN": "死族統領",
+        "zhCN": "死族统领",
         "zhTW": "死族統領",
         "sgCN": "煞王",
         "sgTW": "死族統領"
@@ -3746,7 +3746,7 @@
     "Catapult Spotter N": {
         "Key": "Catapult Spotter N",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3754,7 +3754,7 @@
     "Catapult Spotter S": {
         "Key": "Catapult Spotter S",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3762,7 +3762,7 @@
     "Catapult Spotter E": {
         "Key": "Catapult Spotter E",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3770,7 +3770,7 @@
     "Catapult Spotter W": {
         "Key": "Catapult Spotter W",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3778,7 +3778,7 @@
     "Catapult Spotter Siege": {
         "Key": "Catapult Spotter Siege",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3786,7 +3786,7 @@
     "CatapultSiege": {
         "Key": "CatapultSiege",
         "enUS": "Catapult",
-        "zhCN": "投石機",
+        "zhCN": "投石机",
         "zhTW": "投石機",
         "sgCN": "投石器",
         "sgTW": "投石機"
@@ -3794,7 +3794,7 @@
     "Barricade Wall Right": {
         "Key": "Barricade Wall Right",
         "enUS": "Barricade",
-        "zhCN": "防禦工事",
+        "zhCN": "防御工事",
         "zhTW": "防禦工事",
         "sgCN": "壁障",
         "sgTW": "防禦工事"
@@ -3802,7 +3802,7 @@
     "Barricade Wall Left": {
         "Key": "Barricade Wall Left",
         "enUS": "Barricade",
-        "zhCN": "防禦工事",
+        "zhCN": "防御工事",
         "zhTW": "防禦工事",
         "sgCN": "壁障",
         "sgTW": "防禦工事"
@@ -3810,7 +3810,7 @@
     "Barricade Door": {
         "Key": "Barricade Door",
         "enUS": "Barricaded Door",
-        "zhCN": "封住的門",
+        "zhCN": "封住的门",
         "zhTW": "封住的門",
         "sgCN": "封堵的大门",
         "sgTW": "封住的門"
@@ -3818,7 +3818,7 @@
     "Barricade Tower": {
         "Key": "Barricade Tower",
         "enUS": "Barricaded Tower",
-        "zhCN": "防禦塔",
+        "zhCN": "防御塔",
         "zhTW": "防禦塔",
         "sgCN": "封堵的塔楼",
         "sgTW": "防禦塔"
@@ -3826,7 +3826,7 @@
     "Siege Boss": {
         "Key": "Siege Boss",
         "enUS": "Shenk the Overseer",
-        "zhCN": "督軍山克",
+        "zhCN": "督军山克",
         "zhTW": "督軍山克",
         "sgCN": "督军山克",
         "sgTW": "督軍山克"
@@ -3834,7 +3834,7 @@
     "Evil hut": {
         "Key": "Evil hut",
         "enUS": "Evil Demon Hut",
-        "zhCN": "邪惡魔屋",
+        "zhCN": "邪恶魔屋",
         "zhTW": "邪惡魔屋",
         "sgCN": "邪魔小屋",
         "sgTW": "邪惡魔屋"
@@ -3842,7 +3842,7 @@
     "Death Mauler1": {
         "Key": "Death Mauler1",
         "enUS": "Death Mauler",
-        "zhCN": "亡軍重擊魔",
+        "zhCN": "亡军重击魔",
         "zhTW": "亡軍重擊魔",
         "sgCN": "重殴触手魔",
         "sgTW": "亡軍重擊魔"
@@ -3850,7 +3850,7 @@
     "Death Mauler2": {
         "Key": "Death Mauler2",
         "enUS": "Death Brawler",
-        "zhCN": "亡軍征戰者",
+        "zhCN": "亡军征战者",
         "zhTW": "亡軍征戰者",
         "sgCN": "殴斗触手魔",
         "sgTW": "亡軍征戰者"
@@ -3858,7 +3858,7 @@
     "Death Mauler3": {
         "Key": "Death Mauler3",
         "enUS": "Death Slasher",
-        "zhCN": "亡軍斬殺者",
+        "zhCN": "亡军斩杀者",
         "zhTW": "亡軍斬殺者",
         "sgCN": "挥砍触手魔",
         "sgTW": "亡軍斬殺者"
@@ -3866,7 +3866,7 @@
     "Death Mauler4": {
         "Key": "Death Mauler4",
         "enUS": "Death Berserker",
-        "zhCN": "亡軍狂戰士",
+        "zhCN": "亡军狂战士",
         "zhTW": "亡軍狂戰士",
         "sgCN": "狂暴触手魔",
         "sgTW": "亡軍狂戰士"
@@ -3874,7 +3874,7 @@
     "Death Mauler5": {
         "Key": "Death Mauler5",
         "enUS": "Death Brigadier",
-        "zhCN": "亡軍戰將",
+        "zhCN": "亡军战将",
         "zhTW": "亡軍戰將",
         "sgCN": "触手魔头",
         "sgTW": "亡軍戰將"
@@ -3914,7 +3914,7 @@
     "Baal Throne": {
         "Key": "Baal Throne",
         "enUS": "Baal",
-        "zhCN": "巴爾",
+        "zhCN": "巴尔",
         "zhTW": "巴爾",
         "sgCN": "巴尔",
         "sgTW": "巴爾"
@@ -3922,7 +3922,7 @@
     "Baal Crab": {
         "Key": "Baal Crab",
         "enUS": "Baal",
-        "zhCN": "巴爾",
+        "zhCN": "巴尔",
         "zhTW": "巴爾",
         "sgCN": "巴尔",
         "sgTW": "巴爾"
@@ -3930,7 +3930,7 @@
     "Baal Taunt": {
         "Key": "Baal Taunt",
         "enUS": "Baal",
-        "zhCN": "巴爾",
+        "zhCN": "巴尔",
         "zhTW": "巴爾",
         "sgCN": "巴尔",
         "sgTW": "巴爾"
@@ -3938,7 +3938,7 @@
     "Putrid Defiler1": {
         "Key": "Putrid Defiler1",
         "enUS": "Putrid Defiler",
-        "zhCN": "腐敗褻瀆者",
+        "zhCN": "腐败亵渎者",
         "zhTW": "腐敗褻瀆者",
         "sgCN": "腥臭污秽者",
         "sgTW": "腐敗褻瀆者"
@@ -3946,7 +3946,7 @@
     "Putrid Defiler2": {
         "Key": "Putrid Defiler2",
         "enUS": "Wretched Defiler",
-        "zhCN": "卑汙褻瀆者",
+        "zhCN": "卑污亵渎者",
         "zhTW": "卑汙褻瀆者",
         "sgCN": "卑劣污秽者",
         "sgTW": "卑汙褻瀆者"
@@ -3954,7 +3954,7 @@
     "Putrid Defiler3": {
         "Key": "Putrid Defiler3",
         "enUS": "Fetid Defiler",
-        "zhCN": "惡臭褻瀆者",
+        "zhCN": "恶臭亵渎者",
         "zhTW": "惡臭褻瀆者",
         "sgCN": "恶臭污秽者",
         "sgTW": "惡臭褻瀆者"
@@ -3962,7 +3962,7 @@
     "Putrid Defiler4": {
         "Key": "Putrid Defiler4",
         "enUS": "Rancid Defiler",
-        "zhCN": "腐臭褻瀆者",
+        "zhCN": "腐臭亵渎者",
         "zhTW": "腐臭褻瀆者",
         "sgCN": "腐臭污秽者",
         "sgTW": "腐臭褻瀆者"
@@ -3970,7 +3970,7 @@
     "Putrid Defiler5": {
         "Key": "Putrid Defiler5",
         "enUS": "Rank Defiler",
-        "zhCN": "狠劣褻瀆者",
+        "zhCN": "狠劣亵渎者",
         "zhTW": "狠劣褻瀆者",
         "sgCN": "异臭污秽者",
         "sgTW": "狠劣褻瀆者"
@@ -3978,7 +3978,7 @@
     "Pain Worm1": {
         "Key": "Pain Worm1",
         "enUS": "Pain Worm",
-        "zhCN": "苦痛之蟲",
+        "zhCN": "苦痛之虫",
         "zhTW": "苦痛之蟲",
         "sgCN": "痛苦蠕虫",
         "sgTW": "苦痛之蟲"
@@ -3986,7 +3986,7 @@
     "Pain Worm2": {
         "Key": "Pain Worm2",
         "enUS": "Torment Worm",
-        "zhCN": "折磨之蟲",
+        "zhCN": "折磨之虫",
         "zhTW": "折磨之蟲",
         "sgCN": "折磨蠕虫",
         "sgTW": "折磨之蟲"
@@ -3994,7 +3994,7 @@
     "Pain Worm3": {
         "Key": "Pain Worm3",
         "enUS": "Agony Worm",
-        "zhCN": "苦惱之蟲",
+        "zhCN": "苦恼之虫",
         "zhTW": "苦惱之蟲",
         "sgCN": "痛楚蠕虫",
         "sgTW": "苦惱之蟲"
@@ -4002,7 +4002,7 @@
     "Pain Worm4": {
         "Key": "Pain Worm4",
         "enUS": "Menace Worm",
-        "zhCN": "脅迫之蟲",
+        "zhCN": "胁迫之虫",
         "zhTW": "脅迫之蟲",
         "sgCN": "恶痛蠕虫",
         "sgTW": "脅迫之蟲"
@@ -4010,7 +4010,7 @@
     "Pain Worm5": {
         "Key": "Pain Worm5",
         "enUS": "Anguish Worm",
-        "zhCN": "怨慟之蟲   ",
+        "zhCN": "怨恸之虫   ",
         "zhTW": "怨慟之蟲   ",
         "sgCN": "剧痛蠕虫",
         "sgTW": "怨慟之蟲   "
@@ -4018,7 +4018,7 @@
     "WolfRider5": {
         "Key": "WolfRider5",
         "enUS": "Warped Fallen Wolfrider",
-        "zhCN": "扭曲沉淪魔狼騎士",
+        "zhCN": "扭曲沉沦魔狼骑士",
         "zhTW": "扭曲沉淪魔狼騎士",
         "sgCN": "扭曲沉沦魔狼骑手",
         "sgTW": "扭曲沉淪魔狼騎士"
@@ -4026,7 +4026,7 @@
     "WolfRider4": {
         "Key": "WolfRider4",
         "enUS": "Darkone Wolfrider",
-        "zhCN": "暗黑狼騎士",
+        "zhCN": "暗黑狼骑士",
         "zhTW": "暗黑狼騎士",
         "sgCN": "暗魔狼骑手",
         "sgTW": "暗黑狼騎士"
@@ -4034,7 +4034,7 @@
     "WolfRider3": {
         "Key": "WolfRider3",
         "enUS": "Devilkin Wolfrider",
-        "zhCN": "魔妖狼騎士",
+        "zhCN": "魔妖狼骑士",
         "zhTW": "魔妖狼騎士",
         "sgCN": "小恶魔狼骑手",
         "sgTW": "魔妖狼騎士"
@@ -4042,7 +4042,7 @@
     "WolfRider2": {
         "Key": "WolfRider2",
         "enUS": "Carver Wolfrider",
-        "zhCN": "刨肉狼騎士",
+        "zhCN": "刨肉狼骑士",
         "zhTW": "刨肉狼騎士",
         "sgCN": "利刃魔狼骑手",
         "sgTW": "刨肉狼騎士"
@@ -4050,7 +4050,7 @@
     "WolfRider1": {
         "Key": "WolfRider1",
         "enUS": "Fallen Wolfrider",
-        "zhCN": "沉淪魔狼騎士",
+        "zhCN": "沉沦魔狼骑士",
         "zhTW": "沉淪魔狼騎士",
         "sgCN": "沉沦魔狼骑手",
         "sgTW": "沉淪魔狼騎士"
@@ -4058,7 +4058,7 @@
     "Inferno Sentry": {
         "Key": "Inferno Sentry",
         "enUS": "Inferno Sentry",
-        "zhCN": "煉獄衛兵",
+        "zhCN": "炼狱卫兵",
         "zhTW": "煉獄衛兵",
         "sgCN": "炼狱哨兵",
         "sgTW": "煉獄衛兵"
@@ -4074,7 +4074,7 @@
     "Larry": {
         "Key": "Larry",
         "enUS": "Larry",
-        "zhCN": "賴瑞",
+        "zhCN": "赖瑞",
         "zhTW": "賴瑞",
         "sgCN": "拉蕊",
         "sgTW": "賴瑞"
@@ -4090,7 +4090,7 @@
     "Ancient Barbarian 2": {
         "Key": "Ancient Barbarian 2",
         "enUS": "Madawc",
-        "zhCN": "馬道克",
+        "zhCN": "马道克",
         "zhTW": "馬道克",
         "sgCN": "马道克",
         "sgTW": "馬道克"
@@ -4106,7 +4106,7 @@
     "Blaze Ripper": {
         "Key": "Blaze Ripper",
         "enUS": "Blaze Ripper",
-        "zhCN": "刀鋒撕裂者",
+        "zhCN": "刀锋撕裂者",
         "zhTW": "刀鋒撕裂者",
         "sgCN": "炽焰撕裂者",
         "sgTW": "刀鋒撕裂者"
@@ -4122,7 +4122,7 @@
     "Sharp Tooth Sayer": {
         "Key": "Sharp Tooth Sayer",
         "enUS": "Sharptooth Slayer",
-        "zhCN": "利牙殺手",
+        "zhCN": "利牙杀手",
         "zhTW": "利牙殺手",
         "sgCN": "尖牙杀戮者",
         "sgTW": "利牙殺手"
@@ -4130,7 +4130,7 @@
     "Vinvear Molech": {
         "Key": "Vinvear Molech",
         "enUS": "Vinvear Molech",
-        "zhCN": "芬維爾‧摩洛克",
+        "zhCN": "芬维尔‧摩洛克",
         "zhTW": "芬維爾‧摩洛克",
         "sgCN": "温伟尔·摩洛克",
         "sgTW": "芬維爾‧摩洛克"
@@ -4138,7 +4138,7 @@
     "Anodized Elite": {
         "Key": "Anodized Elite",
         "enUS": "Hell's Belle",
-        "zhCN": "地獄佳人",
+        "zhCN": "地狱佳人",
         "zhTW": "地獄佳人",
         "sgCN": "地狱妖姬",
         "sgTW": "地獄佳人"
@@ -4162,7 +4162,7 @@
     "Threash Socket": {
         "Key": "Threash Socket",
         "enUS": "Thresh Socket",
-        "zhCN": "剝孔",
+        "zhCN": "剥孔",
         "zhTW": "剝孔",
         "sgCN": "锤槽",
         "sgTW": "剝孔"
@@ -4170,7 +4170,7 @@
     "Eyeback Unleashed": {
         "Key": "Eyeback Unleashed",
         "enUS": "Eyeback the Unleashed",
-        "zhCN": "爆發者艾巴克",
+        "zhCN": "爆发者艾巴克",
         "zhTW": "爆發者艾巴克",
         "sgCN": "眼魔·狂暴者",
         "sgTW": "爆發者艾巴克"
@@ -4178,7 +4178,7 @@
     "Megaflow Rectifier": {
         "Key": "Megaflow Rectifier",
         "enUS": "Eldritch the Rectifier",
-        "zhCN": "矯正者艾德瑞奇",
+        "zhCN": "矫正者艾德瑞奇",
         "zhTW": "矯正者艾德瑞奇",
         "sgCN": "艾德雷奇·矫正者",
         "sgTW": "矯正者艾德瑞奇"
@@ -4186,7 +4186,7 @@
     "Dac Farren": {
         "Key": "Dac Farren",
         "enUS": "Dac Farren",
-        "zhCN": "達克法恩",
+        "zhCN": "达克法恩",
         "zhTW": "達克法恩",
         "sgCN": "达克·法伦",
         "sgTW": "達克法恩"
@@ -4194,7 +4194,7 @@
     "Bonesaw Breaker": {
         "Key": "Bonesaw Breaker",
         "enUS": "Bonesaw Breaker",
-        "zhCN": "骨鋸破壞者",
+        "zhCN": "骨锯破坏者",
         "zhTW": "骨鋸破壞者",
         "sgCN": "骨锯破坏者",
         "sgTW": "骨鋸破壞者"
@@ -4210,7 +4210,7 @@
     "Frozenstein": {
         "Key": "Frozenstein",
         "enUS": "Frozenstein",
-        "zhCN": "冰凍怪魔",
+        "zhCN": "冰冻怪魔",
         "zhTW": "冰凍怪魔",
         "sgCN": "冰冻怪魔",
         "sgTW": "冰凍怪魔"
@@ -4226,7 +4226,7 @@
     "MonsterCorpseNameFormat": {
         "Key": "MonsterCorpseNameFormat",
         "enUS": "%s Corpse",
-        "zhCN": "%s的屍體",
+        "zhCN": "%s的尸体",
         "zhTW": "%s的屍體",
         "sgCN": "%s残骸",
         "sgTW": "%s的屍體"
@@ -4234,7 +4234,7 @@
     "DefenderSpirit": {
         "Key": "DefenderSpirit",
         "enUS": "Defender Spirit",
-        "zhCN": "防禦者之靈",
+        "zhCN": "防御者之灵",
         "zhTW": "防禦者之靈",
         "sgCN": "防御者之魂",
         "sgTW": "防禦者之靈"
@@ -4242,7 +4242,7 @@
     "GuardianSpirit": {
         "Key": "GuardianSpirit",
         "enUS": "Guardian Spirit",
-        "zhCN": "守護者之靈",
+        "zhCN": "守护者之灵",
         "zhTW": "守護者之靈",
         "sgCN": "守护者之魂",
         "sgTW": "守護者之靈"
@@ -4250,7 +4250,7 @@
     "ProtectorSpirit": {
         "Key": "ProtectorSpirit",
         "enUS": "Protector Spirit",
-        "zhCN": "保衛者之靈",
+        "zhCN": "保卫者之灵",
         "zhTW": "保衛者之靈",
         "sgCN": "保卫者之魂",
         "sgTW": "保衛者之靈"
@@ -4258,7 +4258,7 @@
     "WarGoatman": {
         "Key": "WarGoatman",
         "enUS": "Goatman",
-        "zhCN": "羊頭人",
+        "zhCN": "羊头人",
         "zhTW": "羊頭人",
         "sgCN": "羊头人",
         "sgTW": "羊頭人"
@@ -4266,7 +4266,7 @@
     "WarDefiler": {
         "Key": "WarDefiler",
         "enUS": "Defiler",
-        "zhCN": "褻瀆者",
+        "zhCN": "亵渎者",
         "zhTW": "褻瀆者",
         "sgCN": "污秽者",
         "sgTW": "褻瀆者"

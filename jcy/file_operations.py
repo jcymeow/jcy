@@ -1785,11 +1785,7 @@ class FileOperations:
             data_path = os.path.join(MOD_PATH, r"jcy/config/item-runes.data.json")
             with open(data_path, 'r', encoding='utf-8') as f:
                 data_dict = json.load(f)
-            # 松岗简/繁体, 采用简/繁体数据
-            for key, obj in data_dict.items():
-                obj[Language.SGCN.value] = obj[Language.ZHCN.value]
-                obj[Language.SGTW.value] = obj[Language.ZHTW.value]
-
+            
             # 结果集
             ext_json = {}
 
