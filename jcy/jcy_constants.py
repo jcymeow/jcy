@@ -42,6 +42,16 @@ LOCAL_FILES = [
     "shrines.json",
     "skills.json",
 ]
+# 快速游戏翻译
+QUICK_GAME = {
+    "id": 50003,
+    "Key": "JcyModQuickGame",
+    "enUS": "Click to quickly create the highest difficulty game",
+    "zhTW": "點擊快速建立最高難度遊戲",
+    "zhCN": "点击快速建立最高难度游戏",
+    "sgCN": "点击快速建立最高难度游戏",
+    "sgTW": "點擊快速建立最高難度遊戲"
+}
 
 # 控制器名称
 APP_NAME = "jcy控制器"
@@ -973,6 +983,7 @@ __all__ = [
     'ENUS',
     'LANGUAGES',
     'LOCAL_FILES',
+    'QUICK_GAME',
     'UI_PANEL_HEALTH',
     'UI_PANEL_MANA',
     'APP_NAME',

@@ -700,17 +700,6 @@ class FileOperations:
         return (count, total)
 
 
-    def toggle_quick_game(self, isEnabled: bool = False):
-        """
-        点击角色快速建立最高难度游戏
-        """
-        files_quick_game = [
-            r"data/global/ui/layouts/mainmenupanelhd.json",
-        ]
-
-        return self.common_rename(files_quick_game, isEnabled)
-
-
     def toggle_skill_logo(self, isEnabled: bool = False):
         """
         技能图标
@@ -2709,10 +2698,11 @@ class FileOperations:
         """修改本地化文件列表, 选中语言内容"""
         
         count = 0
-        total = len(LOCAL_FILES)
+        total = len(LOCAL_FILES) + 1
 
         lng = jcy_config.SETTINGS.get(select_language, ZHTW)
 
+        # 修改 本地化文件
         for _file in LOCAL_FILES:
             json_data = None
             json_path = os.path.join(MOD_PATH, "data/local/lng/strings", _file)
@@ -2733,6 +2723,26 @@ class FileOperations:
                 count += 1
             except Exception as e:
                 print(f"[Error] {json_path}: {e}")
+
+        # 修改 快速创建游戏 提示语
+        quick_data = None
+        quick_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/mainmenupanelhd.json")
+        if not os.path.exists(quick_path):
+            quick_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/mainmenupanelhd.json.tmp")
+        try:
+            with open(quick_path, 'r', encoding='utf-8') as f:
+                quick_data = json.load(f)
+
+            for child in quick_data["children"]:
+                if child.get("name") == "GoToHell":
+                    child["fields"]["tooltipString"] = QUICK_GAME.get(lng)
+                            
+            with open(quick_path, 'w', encoding="utf-8") as f:
+                json.dump(quick_data, f, ensure_ascii=False, indent=2)
+
+            count += 1
+        except Exception as e:
+            print(f"[Error] {json_path}: {e}")
 
         return count, total
 
