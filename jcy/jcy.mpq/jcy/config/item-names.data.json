@@ -21977,212 +21977,347 @@
     },
     "wa1": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Normal",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa2": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Normal",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa3": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Normal",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa4": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Normal",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa5": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Normal",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "普",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa6": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Exceptional",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "扩",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "擴",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa7": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Exceptional",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "扩",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "擴",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa8": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Exceptional",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "扩",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "擴",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wa9": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Exceptional",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "扩",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "擴",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "waa": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Exceptional",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "扩",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "擴",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wab": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Elite",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wac": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Elite",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wad": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Elite",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "wae": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Elite",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "waf": {
         "enUS": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "Elite",
+            "weight": "Light",
+            "sockets": "",
+            "defense": ""
         },
         "zhCN": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "轻",
+            "sockets": "",
+            "defense": ""
         },
         "zhTW": {
-            "max": "",
-            "mark": ""
+            "nickname": "",
+            "grade": "精",
+            "weight": "輕",
+            "sockets": "",
+            "defense": ""
         }
     },
     "ua1": {
@@ -22257,253 +22392,253 @@
     },
     "um1": {
         "enUS": {
-            "max": "",
+            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um2": {
         "enUS": {
-            "max": "",
+            "max": "10PSD/-10PR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "10PSD/-10PR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "10PSD/-10PR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um3": {
         "enUS": {
-            "max": "",
+            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um4": {
         "enUS": {
-            "max": "",
+            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um5": {
         "enUS": {
-            "max": "",
+            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um6": {
         "enUS": {
-            "max": "",
+            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Ars Al'Diablolos": {
         "enUS": {
-            "max": "",
+            "max": "25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius",
             "mark": ""
         }
     },
     "Ars Tor'Baalos": {
         "enUS": {
-            "max": "",
+            "max": "3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR",
             "mark": ""
         }
     },
     "Ars Dul'Mephistos": {
         "enUS": {
-            "max": "",
+            "max": "30FCR/115EDmg/70AR/-20MR/170EDef/25MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "30FCR/115EDmg/70AR/-20MR/170EDef/25MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "30FCR/115EDmg/70AR/-20MR/170EDef/25MF",
             "mark": ""
         }
     },
     "Measured Wrath": {
         "enUS": {
-            "max": "",
+            "max": "3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK",
             "mark": ""
         }
     },
     "Dreadfang": {
         "enUS": {
-            "max": "",
+            "max": "166ED/6LM",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "166ED/6LM",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "166ED/6LM",
             "mark": ""
         }
     },
     "Wraithstep": {
         "enUS": {
-            "max": "",
+            "max": "60DEF/15DEX/15ENG",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "60DEF/15DEX/15ENG",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "60DEF/15DEX/15ENG",
             "mark": ""
         }
     },
     "Bloodpact Shard": {
         "enUS": {
-            "max": "",
+            "max": "3束縛惡魔/3沸血術/3血誓/15Max Life/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "3束縛惡魔/3沸血術/3血誓/15Max Life/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "3束縛惡魔/3沸血術/3血誓/15Max Life/35MF",
             "mark": ""
         }
     },
     "Sling": {
         "enUS": {
-            "max": "",
+            "max": "-5MR/15ENG/20MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-5MR/15ENG/20MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-5MR/15ENG/20MF",
             "mark": ""
         }
     },
     "Opalvein": {
         "enUS": {
-            "max": "",
+            "max": "8RES/3EK/3LK",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "8RES/3EK/3LK",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "8RES/3EK/3LK",
             "mark": ""
         }
     },
     "Entropy Locket": {
         "enUS": {
-            "max": "",
+            "max": "10FCR/10MSD/15Max Mana/40LR/12MDR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "10FCR/10MSD/15Max Mana/40LR/12MDR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "10FCR/10MSD/15Max Mana/40LR/12MDR",
             "mark": ""
         }
     },
     "Gheed's Wager": {
         "enUS": {
-            "max": "",
+            "max": "20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG",
             "mark": ""
         }
     },
     "Unique Warlock Helm": {
         "enUS": {
-            "max": "",
+            "max": "-8MR/-8FR/215ED/6EK",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-8MR/-8FR/215ED/6EK",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-8MR/-8FR/215ED/6EK",
             "mark": ""
         }
     },
@@ -22523,15 +22658,15 @@
     },
     "Bane's Wraithskin": {
         "enUS": {
-            "max": "",
+            "max": "DEF74",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "防御74",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "防禦74",
             "mark": ""
         }
     },
@@ -22551,71 +22686,71 @@
     },
     "Horazon's Countenance": {
         "enUS": {
-            "max": "",
+            "max": "20STR/10MDR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "20STR/10MDR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "20STR/10MDR",
             "mark": ""
         }
     },
     "Horazon's Dominion": {
         "enUS": {
-            "max": "",
+            "max": "100ED/100Mana/25CR/25LR/25FR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "100ED/100Mana/25CR/25LR/25FR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "100ED/100Mana/25CR/25LR/25FR",
             "mark": ""
         }
     },
     "Horazon's Hold": {
         "enUS": {
-            "max": "",
+            "max": "150AR/270FD/15DEX/40Life",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "150AR/270FD/15DEX/40Life",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "150AR/270FD/15DEX/40Life",
             "mark": ""
         }
     },
     "Horazon's Legacy": {
         "enUS": {
-            "max": "",
+            "max": "15STR/15DEX/30MR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "15STR/15DEX/30MR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "15STR/15DEX/30MR",
             "mark": ""
         }
     },
     "Horazon's Secrets": {
         "enUS": {
-            "max": "",
+            "max": "30VIT/50Life",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "30VIT/50Life",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "30VIT/50Life",
             "mark": ""
         }
     },
@@ -23349,85 +23484,85 @@
     },
     "Defender's Bile": {
         "enUS": {
-            "max": "",
+            "max": "10PSD/-10PR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "10PSD/-10PR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "10PSD/-10PR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Guardian's Thunder": {
         "enUS": {
-            "max": "",
+            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Protector's Frost": {
         "enUS": {
-            "max": "",
+            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Defender's Fire": {
         "enUS": {
-            "max": "",
+            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Protector's Stone": {
         "enUS": {
-            "max": "",
+            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Guardian's Light": {
         "enUS": {
-            "max": "",
+            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
@@ -23461,15 +23596,15 @@
     },
     "Crafted Cold Rupture": {
         "enUS": {
-            "max": "",
+            "max": "-70CR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-70CR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-70CR",
             "mark": ""
         }
     },
@@ -23489,15 +23624,15 @@
     },
     "Crafted Flame Rift": {
         "enUS": {
-            "max": "",
+            "max": "-70FR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-70FR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-70FR",
             "mark": ""
         }
     },
@@ -23517,15 +23652,15 @@
     },
     "Crafted Crack of the Heavens": {
         "enUS": {
-            "max": "",
+            "max": "-70LR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-70LR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-70LR",
             "mark": ""
         }
     },
@@ -23545,15 +23680,15 @@
     },
     "Crafted Rotting Fissure": {
         "enUS": {
-            "max": "",
+            "max": "-70PR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-70PR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-70PR",
             "mark": ""
         }
     },
@@ -23573,15 +23708,15 @@
     },
     "Crafted Bone Break": {
         "enUS": {
-            "max": "",
+            "max": "-10DR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-10DR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-10DR",
             "mark": ""
         }
     },
@@ -23601,15 +23736,15 @@
     },
     "Crafted Black Cleft": {
         "enUS": {
-            "max": "",
+            "max": "-45MR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "-45MR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "-45MR",
             "mark": ""
         }
     },

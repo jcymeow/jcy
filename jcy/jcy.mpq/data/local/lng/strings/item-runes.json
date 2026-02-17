@@ -4151,7 +4151,7 @@
     "id": 27650,
     "Key": "Runeword180",
     "enUS": "Coven",
-    "zhTW": "巫師會",
+    "zhTW": "ÿc1[50ED/5LK/40MF]\nÿc4巫師會",
     "deDE": "Zirkel",
     "esES": "Aquelarre",
     "frFR": "Cabale",
@@ -4162,13 +4162,13 @@
     "jaJP": "集会",
     "ptBR": "Pacto",
     "ruRU": "Ковен",
-    "zhCN": "巫師會"
+    "zhCN": "ÿc1[50ED/5LK/40MF]\nÿc4巫師會"
   },
   {
     "id": 27651,
     "Key": "Runeword181",
     "enUS": "Vigilance",
-    "zhTW": "戒慎",
+    "zhTW": "ÿc1[100ED/40Life/40Mana/35RES]\nÿc4戒慎",
     "deDE": "Wachsamkeit",
     "esES": "Vigilancia",
     "frFR": "Vigilance",
@@ -4179,13 +4179,13 @@
     "jaJP": "警戒",
     "ptBR": "Vigilância",
     "ruRU": "Бдительность",
-    "zhCN": "戒慎"
+    "zhCN": "ÿc1[100ED/40Life/40Mana/35RES]\nÿc4戒慎"
   },
   {
     "id": 27652,
     "Key": "Runeword182",
     "enUS": "Ritual",
-    "zhTW": "儀式",
+    "zhTW": "ÿc1[320ED/260AR/250DTD/5LK]\nÿc4儀式",
     "deDE": "Ritual",
     "esES": "Ritual",
     "frFR": "Rituel",
@@ -4196,7 +4196,7 @@
     "jaJP": "儀式",
     "ptBR": "Ritual",
     "ruRU": "Ритуал",
-    "zhCN": "儀式"
+    "zhCN": "ÿc1[320ED/260AR/250DTD/5LK]\nÿc4儀式"
   },
   {
     "id": 27974,

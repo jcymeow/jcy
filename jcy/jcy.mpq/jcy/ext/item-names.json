@@ -11225,137 +11225,137 @@
     "wa1": {
         "id": 27587,
         "Key": "wa1",
-        "enUS": "Old Book",
-        "zhTW": "舊書",
-        "zhCN": "古书",
-        "sgCN": "古书",
-        "sgTW": "舊書"
+        "enUS": "Old Book|NormalLight",
+        "zhTW": "舊書|普輕",
+        "zhCN": "古书|普轻",
+        "sgCN": "古书|普轻",
+        "sgTW": "舊書|普輕"
     },
     "wa2": {
         "id": 27588,
         "Key": "wa2",
-        "enUS": "Tome",
-        "zhTW": "秘典",
-        "zhCN": "典籍",
-        "sgCN": "典籍",
-        "sgTW": "秘典"
+        "enUS": "Tome|NormalLight",
+        "zhTW": "秘典|普輕",
+        "zhCN": "典籍|普轻",
+        "sgCN": "典籍|普轻",
+        "sgTW": "秘典|普輕"
     },
     "wa3": {
         "id": 27589,
         "Key": "wa3",
-        "enUS": "Codex",
-        "zhTW": "寶典",
-        "zhCN": "法典",
-        "sgCN": "法典",
-        "sgTW": "寶典"
+        "enUS": "Codex|NormalLight",
+        "zhTW": "寶典|普輕",
+        "zhCN": "法典|普轻",
+        "sgCN": "法典|普轻",
+        "sgTW": "寶典|普輕"
     },
     "wa4": {
         "id": 27590,
         "Key": "wa4",
-        "enUS": "Compendium",
-        "zhTW": "綱要",
-        "zhCN": "纲要",
-        "sgCN": "纲要",
-        "sgTW": "綱要"
+        "enUS": "Compendium|NormalLight",
+        "zhTW": "綱要|普輕",
+        "zhCN": "纲要|普轻",
+        "sgCN": "纲要|普轻",
+        "sgTW": "綱要|普輕"
     },
     "wa5": {
         "id": 27591,
         "Key": "wa5",
-        "enUS": "Grimoire",
-        "zhTW": "魔典",
-        "zhCN": "魔典",
-        "sgCN": "魔典",
-        "sgTW": "魔典"
+        "enUS": "Grimoire|NormalLight",
+        "zhTW": "魔典|普輕",
+        "zhCN": "魔典|普轻",
+        "sgCN": "魔典|普轻",
+        "sgTW": "魔典|普輕"
     },
     "wa6": {
         "id": 27592,
         "Key": "wa6",
-        "enUS": "Burnt Text",
-        "zhTW": "焦灼書冊",
-        "zhCN": "焦黑文本",
-        "sgCN": "焦黑文本",
-        "sgTW": "焦灼書冊"
+        "enUS": "Burnt Text|ExceptionalLight",
+        "zhTW": "焦灼書冊|擴輕",
+        "zhCN": "焦黑文本|扩轻",
+        "sgCN": "焦黑文本|扩轻",
+        "sgTW": "焦灼書冊|擴輕"
     },
     "wa7": {
         "id": 27593,
         "Key": "wa7",
-        "enUS": "Dark Tome",
-        "zhTW": "黑暗秘典",
-        "zhCN": "黑暗典籍",
-        "sgCN": "黑暗典籍",
-        "sgTW": "黑暗秘典"
+        "enUS": "Dark Tome|ExceptionalLight",
+        "zhTW": "黑暗秘典|擴輕",
+        "zhCN": "黑暗典籍|扩轻",
+        "sgCN": "黑暗典籍|扩轻",
+        "sgTW": "黑暗秘典|擴輕"
     },
     "wa8": {
         "id": 27594,
         "Key": "wa8",
-        "enUS": "Dark Codex",
-        "zhTW": "黑暗寶典",
-        "zhCN": "黑暗法典",
-        "sgCN": "黑暗法典",
-        "sgTW": "黑暗寶典"
+        "enUS": "Dark Codex|ExceptionalLight",
+        "zhTW": "黑暗寶典|擴輕",
+        "zhCN": "黑暗法典|扩轻",
+        "sgCN": "黑暗法典|扩轻",
+        "sgTW": "黑暗寶典|擴輕"
     },
     "wa9": {
         "id": 27595,
         "Key": "wa9",
-        "enUS": "Possessed Compendium",
-        "zhTW": "著魔綱要",
-        "zhCN": "魔附纲要",
-        "sgCN": "魔附纲要",
-        "sgTW": "著魔綱要"
+        "enUS": "Possessed Compendium|ExceptionalLight",
+        "zhTW": "著魔綱要|擴輕",
+        "zhCN": "魔附纲要|扩轻",
+        "sgCN": "魔附纲要|扩轻",
+        "sgTW": "著魔綱要|擴輕"
     },
     "waa": {
         "id": 27596,
         "Key": "waa",
-        "enUS": "Possessed Grimoire",
-        "zhTW": "著魔魔典",
-        "zhCN": "魔附魔典",
-        "sgCN": "魔附魔典",
-        "sgTW": "著魔魔典"
+        "enUS": "Possessed Grimoire|ExceptionalLight",
+        "zhTW": "著魔魔典|擴輕",
+        "zhCN": "魔附魔典|扩轻",
+        "sgCN": "魔附魔典|扩轻",
+        "sgTW": "著魔魔典|擴輕"
     },
     "wab": {
         "id": 27597,
         "Key": "wab",
-        "enUS": "Forgotten Volume",
-        "zhTW": "被遺忘的書冊",
-        "zhCN": "遗世卷册",
-        "sgCN": "遗世卷册",
-        "sgTW": "被遺忘的書冊"
+        "enUS": "Forgotten Volume|EliteLight",
+        "zhTW": "被遺忘的書冊|精輕",
+        "zhCN": "遗世卷册|精轻",
+        "sgCN": "遗世卷册|精轻",
+        "sgTW": "被遺忘的書冊|精輕"
     },
     "wac": {
         "id": 27598,
         "Key": "wac",
-        "enUS": "Occult Tome",
-        "zhTW": "神秘秘典",
-        "zhCN": "神秘典籍",
-        "sgCN": "神秘典籍",
-        "sgTW": "神秘秘典"
+        "enUS": "Occult Tome|EliteLight",
+        "zhTW": "神秘秘典|精輕",
+        "zhCN": "神秘典籍|精轻",
+        "sgCN": "神秘典籍|精轻",
+        "sgTW": "神秘秘典|精輕"
     },
     "wad": {
         "id": 27599,
         "Key": "wad",
-        "enUS": "Occult Codex",
-        "zhTW": "神秘寶典",
-        "zhCN": "神秘法典",
-        "sgCN": "神秘法典",
-        "sgTW": "神秘寶典"
+        "enUS": "Occult Codex|EliteLight",
+        "zhTW": "神秘寶典|精輕",
+        "zhCN": "神秘法典|精轻",
+        "sgCN": "神秘法典|精轻",
+        "sgTW": "神秘寶典|精輕"
     },
     "wae": {
         "id": 27600,
         "Key": "wae",
-        "enUS": "Blasphemous Compendium",
-        "zhTW": "褻瀆綱要",
-        "zhCN": "亵渎纲要",
-        "sgCN": "亵渎纲要",
-        "sgTW": "褻瀆綱要"
+        "enUS": "Blasphemous Compendium|EliteLight",
+        "zhTW": "褻瀆綱要|精輕",
+        "zhCN": "亵渎纲要|精轻",
+        "sgCN": "亵渎纲要|精轻",
+        "sgTW": "褻瀆綱要|精輕"
     },
     "waf": {
         "id": 27601,
         "Key": "waf",
-        "enUS": "Blasphemous Grimoire",
-        "zhTW": "褻瀆魔典",
-        "zhCN": "亵渎魔典",
-        "sgCN": "亵渎魔典",
-        "sgTW": "褻瀆魔典"
+        "enUS": "Blasphemous Grimoire|EliteLight",
+        "zhTW": "褻瀆魔典|精輕",
+        "zhCN": "亵渎魔典|精轻",
+        "sgCN": "亵渎魔典|精轻",
+        "sgTW": "褻瀆魔典|精輕"
     },
     "ua1": {
         "id": 27609,
@@ -11459,110 +11459,110 @@
     "Ars Al'Diablolos": {
         "id": 27628,
         "Key": "Ars Al'Diablolos",
-        "enUS": "Ars Al'Diabolos",
-        "zhTW": "艾迪亞布羅斯學術",
-        "zhCN": "迪亚波罗斯之术",
-        "sgCN": "迪亚波罗斯之术",
-        "sgTW": "艾迪亞布羅斯學術"
+        "enUS": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4Ars Al'Diabolos",
+        "zhTW": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4艾迪亞布羅斯學術",
+        "zhCN": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4迪亚波罗斯之术",
+        "sgCN": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4迪亚波罗斯之术",
+        "sgTW": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4艾迪亞布羅斯學術"
     },
     "Ars Tor'Baalos": {
         "id": 27629,
         "Key": "Ars Tor'Baalos",
-        "enUS": "Ars Tor'Baalos",
-        "zhTW": "托巴爾羅斯學術",
-        "zhCN": "巴洛斯之术",
-        "sgCN": "巴洛斯之术",
-        "sgTW": "托巴爾羅斯學術"
+        "enUS": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4Ars Tor'Baalos",
+        "zhTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術",
+        "zhCN": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4巴洛斯之术",
+        "sgCN": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4巴洛斯之术",
+        "sgTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術"
     },
     "Ars Dul'Mephistos": {
         "id": 27630,
         "Key": "Ars Dul'Mephistos",
-        "enUS": "Ars Dul'Mephistos",
-        "zhTW": "杜墨菲斯托斯學術",
-        "zhCN": "墨菲斯托斯之术",
-        "sgCN": "墨菲斯托斯之术",
-        "sgTW": "杜墨菲斯托斯學術"
+        "enUS": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4Ars Dul'Mephistos",
+        "zhTW": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4杜墨菲斯托斯學術",
+        "zhCN": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4墨菲斯托斯之术",
+        "sgCN": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4墨菲斯托斯之术",
+        "sgTW": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4杜墨菲斯托斯學術"
     },
     "Measured Wrath": {
         "id": 27631,
         "Key": "Measured Wrath",
-        "enUS": "Measured Wrath",
-        "zhTW": "審慎之怒",
-        "zhCN": "有度之怒",
-        "sgCN": "有度之怒",
-        "sgTW": "審慎之怒"
+        "enUS": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4Measured Wrath",
+        "zhTW": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒",
+        "zhCN": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
+        "sgCN": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
+        "sgTW": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒"
     },
     "Dreadfang": {
         "id": 27632,
         "Key": "Dreadfang",
-        "enUS": "Dreadfang",
-        "zhTW": "懼牙",
-        "zhCN": "惧牙",
-        "sgCN": "惧牙",
-        "sgTW": "懼牙"
+        "enUS": "ÿc1[166ED/6LM]\nÿc4Dreadfang",
+        "zhTW": "ÿc1[166ED/6LM]\nÿc4懼牙",
+        "zhCN": "ÿc1[166ED/6LM]\nÿc4惧牙",
+        "sgCN": "ÿc1[166ED/6LM]\nÿc4惧牙",
+        "sgTW": "ÿc1[166ED/6LM]\nÿc4懼牙"
     },
     "Wraithstep": {
         "id": 27633,
         "Key": "Wraithstep",
-        "enUS": "Wraithstep",
-        "zhTW": "怨靈步伐",
-        "zhCN": "怨灵步",
-        "sgCN": "怨灵步",
-        "sgTW": "怨靈步伐"
+        "enUS": "ÿc1[60DEF/15DEX/15ENG]\nÿc4Wraithstep",
+        "zhTW": "ÿc1[60DEF/15DEX/15ENG]\nÿc4怨靈步伐",
+        "zhCN": "ÿc1[60DEF/15DEX/15ENG]\nÿc4怨灵步",
+        "sgCN": "ÿc1[60DEF/15DEX/15ENG]\nÿc4怨灵步",
+        "sgTW": "ÿc1[60DEF/15DEX/15ENG]\nÿc4怨靈步伐"
     },
     "Bloodpact Shard": {
         "id": 27634,
         "Key": "Bloodpact Shard",
-        "enUS": "Bloodpact Shard",
-        "zhTW": "血誓碎片",
-        "zhCN": "血契碎片",
-        "sgCN": "血契碎片",
-        "sgTW": "血誓碎片"
+        "enUS": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4Bloodpact Shard",
+        "zhTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片",
+        "zhCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血契碎片",
+        "sgCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血契碎片",
+        "sgTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片"
     },
     "Sling": {
         "id": 27635,
         "Key": "Sling",
-        "enUS": "Sling",
-        "zhTW": "投索",
-        "zhCN": "投石索",
-        "sgCN": "投石索",
-        "sgTW": "投索"
+        "enUS": "ÿc1[-5MR/15ENG/20MF]\nÿc4Sling",
+        "zhTW": "ÿc1[-5MR/15ENG/20MF]\nÿc4投索",
+        "zhCN": "ÿc1[-5MR/15ENG/20MF]\nÿc4投石索",
+        "sgCN": "ÿc1[-5MR/15ENG/20MF]\nÿc4投石索",
+        "sgTW": "ÿc1[-5MR/15ENG/20MF]\nÿc4投索"
     },
     "Opalvein": {
         "id": 27636,
         "Key": "Opalvein",
-        "enUS": "Opalvein",
-        "zhTW": "蛋白石脈",
-        "zhCN": "蛋白石脉",
-        "sgCN": "蛋白石脉",
-        "sgTW": "蛋白石脈"
+        "enUS": "ÿc1[8RES/3EK/3LK]\nÿc4Opalvein",
+        "zhTW": "ÿc1[8RES/3EK/3LK]\nÿc4蛋白石脈",
+        "zhCN": "ÿc1[8RES/3EK/3LK]\nÿc4蛋白石脉",
+        "sgCN": "ÿc1[8RES/3EK/3LK]\nÿc4蛋白石脉",
+        "sgTW": "ÿc1[8RES/3EK/3LK]\nÿc4蛋白石脈"
     },
     "Entropy Locket": {
         "id": 27637,
         "Key": "Entropy Locket",
-        "enUS": "Entropy Locket",
-        "zhTW": "無序墜盒",
-        "zhCN": "熵之护符",
-        "sgCN": "熵之护符",
-        "sgTW": "無序墜盒"
+        "enUS": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4Entropy Locket",
+        "zhTW": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4無序墜盒",
+        "zhCN": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4熵之护符",
+        "sgCN": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4熵之护符",
+        "sgTW": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4無序墜盒"
     },
     "Gheed's Wager": {
         "id": 27638,
         "Key": "Gheed's Wager",
-        "enUS": "Gheed's Wager",
-        "zhTW": "基德的賭注",
-        "zhCN": "基德的赌注",
-        "sgCN": "基德的赌注",
-        "sgTW": "基德的賭注"
+        "enUS": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4Gheed's Wager",
+        "zhTW": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4基德的賭注",
+        "zhCN": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4基德的赌注",
+        "sgCN": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4基德的赌注",
+        "sgTW": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4基德的賭注"
     },
     "Unique Warlock Helm": {
         "id": 27639,
         "Key": "Unique Warlock Helm",
-        "enUS": "Hellwarden's Will",
-        "zhTW": "地獄刑長的意志",
-        "zhCN": "地狱禁卫的意志",
-        "sgCN": "地狱禁卫的意志",
-        "sgTW": "地獄刑長的意志"
+        "enUS": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4Hellwarden's Will",
+        "zhTW": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4地獄刑長的意志",
+        "zhCN": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4地狱禁卫的意志",
+        "sgCN": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4地狱禁卫的意志",
+        "sgTW": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4地獄刑長的意志"
     },
     "Bane's Oathmaker": {
         "id": 27641,
@@ -12107,56 +12107,56 @@
     "Defender's Bile": {
         "id": 27906,
         "Key": "Defender's Bile",
-        "enUS": "Defender's Bile",
-        "zhTW": "防禦者的膽汁",
-        "zhCN": "防御者之怒",
-        "sgCN": "防御者之怒",
-        "sgTW": "防禦者的膽汁"
+        "enUS": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4Defender's Bile",
+        "zhTW": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4防禦者的膽汁",
+        "zhCN": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4防御者之怒",
+        "sgCN": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4防御者之怒",
+        "sgTW": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4防禦者的膽汁"
     },
     "Guardian's Thunder": {
         "id": 27907,
         "Key": "Guardian's Thunder",
-        "enUS": "Guardian's Thunder",
-        "zhTW": "守護者的閃電",
-        "zhCN": "守护者之雷",
-        "sgCN": "守护者之雷",
-        "sgTW": "守護者的閃電"
+        "enUS": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4Guardian's Thunder",
+        "zhTW": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
+        "zhCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷",
+        "sgCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷",
+        "sgTW": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電"
     },
     "Protector's Frost": {
         "id": 27908,
         "Key": "Protector's Frost",
-        "enUS": "Protector's Frost",
-        "zhTW": "保衛者的冰霜",
-        "zhCN": "保卫者之霜",
-        "sgCN": "保卫者之霜",
-        "sgTW": "保卫者之霜"
+        "enUS": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4Protector's Frost",
+        "zhTW": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜",
+        "zhCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
+        "sgCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
+        "sgTW": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜"
     },
     "Defender's Fire": {
         "id": 27909,
         "Key": "Defender's Fire",
-        "enUS": "Defender's Fire",
-        "zhTW": "防禦者的火焰",
-        "zhCN": "防御者之火",
-        "sgCN": "防御者之火",
-        "sgTW": "防禦者的火焰"
+        "enUS": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4Defender's Fire",
+        "zhTW": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
+        "zhCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火",
+        "sgCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火",
+        "sgTW": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰"
     },
     "Protector's Stone": {
         "id": 27910,
         "Key": "Protector's Stone",
-        "enUS": "Protector's Stone",
-        "zhTW": "保衛者的岩石",
-        "zhCN": "保卫者之石",
-        "sgCN": "保卫者之石",
-        "sgTW": "保衛者的岩石"
+        "enUS": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4Protector's Stone",
+        "zhTW": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+        "zhCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保卫者之石",
+        "sgCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保卫者之石",
+        "sgTW": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石"
     },
     "Guardian's Light": {
         "id": 27911,
         "Key": "Guardian's Light",
-        "enUS": "Guardian's Light",
-        "zhTW": "守護者的光芒",
-        "zhCN": "守护者之光",
-        "sgCN": "守护者之光",
-        "sgTW": "守護者的光芒"
+        "enUS": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4Guardian's Light",
+        "zhTW": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
+        "zhCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光",
+        "sgCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光",
+        "sgTW": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒"
     },
     "circl": {
         "id": 27959,
@@ -12179,11 +12179,11 @@
     "Crafted Cold Rupture": {
         "id": 28036,
         "Key": "Crafted Cold Rupture",
-        "enUS": "Renewed Cold Rupture",
-        "zhTW": "新生冰寒裂縫",
-        "zhCN": "焕新的寒冰裂口",
-        "sgCN": "焕新的寒冰裂口",
-        "sgTW": "新生冰寒裂縫"
+        "enUS": "ÿc1[-70CR]\nÿc4Renewed Cold Rupture",
+        "zhTW": "ÿc1[-70CR]\nÿc4新生冰寒裂縫",
+        "zhCN": "ÿc1[-70CR]\nÿc4焕新的寒冰裂口",
+        "sgCN": "ÿc1[-70CR]\nÿc4焕新的寒冰裂口",
+        "sgTW": "ÿc1[-70CR]\nÿc4新生冰寒裂縫"
     },
     "PreCrafted Flame Rift": {
         "id": 28037,
@@ -12197,11 +12197,11 @@
     "Crafted Flame Rift": {
         "id": 28038,
         "Key": "Crafted Flame Rift",
-        "enUS": "Renewed Flame Rift",
-        "zhTW": "新生火焰裂隙",
-        "zhCN": "焕新的火焰裂隙",
-        "sgCN": "焕新的火焰裂隙",
-        "sgTW": "新生火焰裂隙"
+        "enUS": "ÿc1[-70FR]\nÿc4Renewed Flame Rift",
+        "zhTW": "ÿc1[-70FR]\nÿc4新生火焰裂隙",
+        "zhCN": "ÿc1[-70FR]\nÿc4焕新的火焰裂隙",
+        "sgCN": "ÿc1[-70FR]\nÿc4焕新的火焰裂隙",
+        "sgTW": "ÿc1[-70FR]\nÿc4新生火焰裂隙"
     },
     "PreCrafted Crack of the Heavens": {
         "id": 28039,
@@ -12215,11 +12215,11 @@
     "Crafted Crack of the Heavens": {
         "id": 28040,
         "Key": "Crafted Crack of the Heavens",
-        "enUS": "Renewed Crack of the Heavens",
-        "zhTW": "新生天堂裂擊",
-        "zhCN": "焕新的天堂裂痕",
-        "sgCN": "焕新的天堂裂痕",
-        "sgTW": "新生天堂裂擊"
+        "enUS": "ÿc1[-70LR]\nÿc4Renewed Crack of the Heavens",
+        "zhTW": "ÿc1[-70LR]\nÿc4新生天堂裂擊",
+        "zhCN": "ÿc1[-70LR]\nÿc4焕新的天堂裂痕",
+        "sgCN": "ÿc1[-70LR]\nÿc4焕新的天堂裂痕",
+        "sgTW": "ÿc1[-70LR]\nÿc4新生天堂裂擊"
     },
     "PreCrafted Rotting Fissure": {
         "id": 28041,
@@ -12233,11 +12233,11 @@
     "Crafted Rotting Fissure": {
         "id": 28042,
         "Key": "Crafted Rotting Fissure",
-        "enUS": "Renewed Rotting Fissure",
-        "zhTW": "新生腐敗裂痕",
-        "zhCN": "焕新的腐烂裂迹",
-        "sgCN": "焕新的腐烂裂迹",
-        "sgTW": "新生腐敗裂痕"
+        "enUS": "ÿc1[-70PR]\nÿc4Renewed Rotting Fissure",
+        "zhTW": "ÿc1[-70PR]\nÿc4新生腐敗裂痕",
+        "zhCN": "ÿc1[-70PR]\nÿc4焕新的腐烂裂迹",
+        "sgCN": "ÿc1[-70PR]\nÿc4焕新的腐烂裂迹",
+        "sgTW": "ÿc1[-70PR]\nÿc4新生腐敗裂痕"
     },
     "PreCrafted Bone Break": {
         "id": 28043,
@@ -12251,11 +12251,11 @@
     "Crafted Bone Break": {
         "id": 28044,
         "Key": "Crafted Bone Break",
-        "enUS": "Renewed Bone Break",
-        "zhTW": "新生分筋裂骨",
-        "zhCN": "焕新的白骨裂纹",
-        "sgCN": "焕新的白骨裂纹",
-        "sgTW": "新生分筋裂骨"
+        "enUS": "ÿc1[-10DR]\nÿc4Renewed Bone Break",
+        "zhTW": "ÿc1[-10DR]\nÿc4新生分筋裂骨",
+        "zhCN": "ÿc1[-10DR]\nÿc4焕新的白骨裂纹",
+        "sgCN": "ÿc1[-10DR]\nÿc4焕新的白骨裂纹",
+        "sgTW": "ÿc1[-10DR]\nÿc4新生分筋裂骨"
     },
     "PreCrafted Black Cleft": {
         "id": 28045,
@@ -12269,11 +12269,11 @@
     "Crafted Black Cleft": {
         "id": 28046,
         "Key": "Crafted Black Cleft",
-        "enUS": "Renewed Black Cleft",
-        "zhTW": "新生漆黑裂口",
-        "zhCN": "焕新的漆黑裂痕",
-        "sgCN": "焕新的漆黑裂痕",
-        "sgTW": "新生漆黑裂口"
+        "enUS": "ÿc1[-45MR]\nÿc4Renewed Black Cleft",
+        "zhTW": "ÿc1[-45MR]\nÿc4新生漆黑裂口",
+        "zhCN": "ÿc1[-45MR]\nÿc4焕新的漆黑裂痕",
+        "sgCN": "ÿc1[-45MR]\nÿc4焕新的漆黑裂痕",
+        "sgTW": "ÿc1[-45MR]\nÿc4新生漆黑裂口"
     },
     "gemsAbbrev": {
         "id": 28082,

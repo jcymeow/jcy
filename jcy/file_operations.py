@@ -1789,85 +1789,76 @@ class FileOperations:
         runeword_max = "8" in item_rune_setting2
         runeword_mark = "9" in item_rune_setting2
 
-        _languages = [ZHCN, ZHSGCN, ZHTW, ZHSGTW, ENUS]
         _rune = r"^r\d{1,2}$"
         _runeword = r"^Runeword\d{1,3}$"
         
-        # --- item-runes.templet.json + item-runes.data.json -> item-runes.json ---
+        # --- templet + data -> ext ---
         try:
             templet_list = None
-            templet_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-runes.templet.json")
+            templet_path = os.path.join(MOD_PATH, r"jcy/config/item-runes.templet.json")
             with open(templet_path, 'r', encoding='utf-8-sig') as f:
                 templet_list = json.load(f)
 
             data_dict = None
-            data_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-runes.data.json")
+            data_path = os.path.join(MOD_PATH, r"jcy/config/item-runes.data.json")
             with open(data_path, 'r', encoding='utf-8') as f:
                 data_dict = json.load(f)
             # 松岗简/繁体, 采用简/繁体数据
             for key, obj in data_dict.items():
-                if obj.get(ZHSGCN) is None:
-                    obj[ZHSGCN] = obj[ZHCN]
-                if obj.get(ZHSGTW) is None:
-                    obj[ZHSGTW] = obj[ZHTW]
+                obj[Language.SGCN.value] = obj[Language.ZHCN.value]
+                obj[Language.SGTW.value] = obj[Language.ZHTW.value]
 
-            netease = jcy_config.SETTINGS.get(Function.ZHCN.value)
-            battlenet = jcy_config.SETTINGS.get(Function.ZHTW.value)
+            # 结果集
+            ext_json = {}
 
             for item in templet_list:
                 Key = item["Key"]
+                data = data_dict.get(Key)
 
                 if re.match(_rune, Key):
-                    for lng in _languages:
+                    for lang in Language:
+                        lng = lang.value
                         item[lng] = item[lng].replace("{{color}}", "ÿc8" if rune_color else "ÿc5")
-                        item[lng] = item[lng].replace("{{title}}", data_dict.get(Key).get(lng).get("title") if rune_title else "")
+                        item[lng] = item[lng].replace("{{title}}", data.get(lng).get("title") if rune_title else "")
                         item[lng] = item[lng].replace("{{num}}", Key.replace("r", "#") if rune_num else "")
-                        item[lng] = item[lng].replace("{{rune}}", data_dict.get(Key).get(lng).get("rune")+("ÿc8" if rune_color else "ÿc5") if rune_enus else "")
-                        item[lng] = item[lng].replace("{{logo}}", data_dict.get(Key).get(lng).get("logo") if rune_logo else "")
-                        item[lng] = item[lng].replace("{{formula}}", data_dict.get(Key).get(lng).get("formula") if rune_upgrade else "")
+                        item[lng] = item[lng].replace("{{rune}}", data.get(lng).get("rune")+("ÿc8" if rune_color else "ÿc5") if rune_enus else "")
+                        item[lng] = item[lng].replace("{{logo}}", data.get(lng).get("logo") if rune_logo else "")
+                        item[lng] = item[lng].replace("{{formula}}", data.get(lng).get("formula") if rune_upgrade else "")
+
                 elif re.match(_runeword, Key):
-                    for lng in _languages:
+                    for lang in Language:
+                        lng = lang.value
                         arr = []
                         if runeword_max:
-                            max = data_dict.get(Key).get(lng).get("max")
+                            max = data.get(lng).get("max")
                             if max:
-                                arr.append("ÿc1[")
-                                arr.append(max)
-                                arr.append("]\n")
+                                arr.append(f"ÿc1[{max}]\n")
                         if runeword_mark:
-                            mark = data_dict.get(Key).get(lng).get("mark")
+                            mark = data.get(lng).get("mark")
                             if mark:
-                                arr.append("ÿc2")
-                                arr.append(mark)
-                                arr.append("\n")
+                                arr.append(f"ÿc2{mark}\n")
                         if len(arr) > 0:
                             arr.append("ÿc4")
                         arr.append(item.get(lng))
-                        if runeword_enus and lng != ENUS:
-                            arr.append(" ")
-                            arr.append(item.get("enUS"))
+                        if runeword_enus and lng != Language.ENUS.value:
+                            arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
-                
-                # 备份
-                item[ZHCN2] = item[ZHCN]
-                item[ZHTW2] = item[ZHTW]
-                # 国服本地化
-                item[ZHCN] = item[netease]
-                # 国际服本地化
-                item[ZHTW] = item[battlenet]
-                
+                ext_json[Key] = item
 
-            item_runes_tmp = os.path.join(MOD_PATH, r"data/local/lng/strings/item-runes.json.tmp")
-            with open(item_runes_tmp, 'w', encoding="utf-8-sig") as f:
-                json.dump(templet_list, f, ensure_ascii=False, indent=2)
+            # 写ext
+            ext_path = os.path.join(MOD_PATH, r"jcy/ext/item-runes.json")
+            with open(ext_path, 'w', encoding="utf-8") as f:
+                json.dump(ext_json, f, ensure_ascii=False, indent=4)
 
-            item_runes = os.path.join(MOD_PATH, r"data/local/lng/strings/item-runes.json")
-            os.replace(item_runes_tmp, item_runes)
+            jcy_config.LOCAL_EXT_DICT = self.load_local_ext_dicts()
+            self.modify_zhCN_language("")
+            self.modify_zhTW_language("")
+
             count += 1
         except Exception as e:
             print(e)
 
-        return (count, 1)
+        return count, 1
     
 
     def hide_environmental_effects(self, keys: list):

@@ -26285,7 +26285,7 @@
     "id": 27587,
     "Key": "wa1",
     "enUS": "Old Book",
-    "zhTW": "舊書",
+    "zhTW": "舊書|普輕",
     "deDE": "[ns]Altes Buch",
     "esES": "[ms]Libro viejo",
     "frFR": "Livre ancien",
@@ -26296,13 +26296,13 @@
     "jaJP": "古い本",
     "ptBR": "Livro Antigo",
     "ruRU": "[fs]старая книга",
-    "zhCN": "舊書"
+    "zhCN": "舊書|普輕"
   },
   {
     "id": 27588,
     "Key": "wa2",
     "enUS": "Tome",
-    "zhTW": "秘典",
+    "zhTW": "秘典|普輕",
     "deDE": "[ms]Foliant",
     "esES": "[ms]Volumen",
     "frFR": "Tome",
@@ -26313,13 +26313,13 @@
     "jaJP": "書物",
     "ptBR": "Tomo",
     "ruRU": "[ms]фолиант",
-    "zhCN": "秘典"
+    "zhCN": "秘典|普輕"
   },
   {
     "id": 27589,
     "Key": "wa3",
     "enUS": "Codex",
-    "zhTW": "寶典",
+    "zhTW": "寶典|普輕",
     "deDE": "[ms]Kodex",
     "esES": "[ms]Códice",
     "frFR": "Codex",
@@ -26330,13 +26330,13 @@
     "jaJP": "古写本",
     "ptBR": "Códice",
     "ruRU": "[ms]кодекс",
-    "zhCN": "寶典"
+    "zhCN": "寶典|普輕"
   },
   {
     "id": 27590,
     "Key": "wa4",
     "enUS": "Compendium",
-    "zhTW": "綱要",
+    "zhTW": "綱要|普輕",
     "deDE": "[ns]Kompendium",
     "esES": "[ms]Compendio",
     "frFR": "Compendium",
@@ -26347,13 +26347,13 @@
     "jaJP": "抄録",
     "ptBR": "Compêndio",
     "ruRU": "[ms]компендиум",
-    "zhCN": "綱要"
+    "zhCN": "綱要|普輕"
   },
   {
     "id": 27591,
     "Key": "wa5",
     "enUS": "Grimoire",
-    "zhTW": "魔典",
+    "zhTW": "魔典|普輕",
     "deDE": "[ns]Grimoire",
     "esES": "[ms]Grimorio",
     "frFR": "Grimoire",
@@ -26364,13 +26364,13 @@
     "jaJP": "グリモア",
     "ptBR": "Grimório",
     "ruRU": "[ms]гримуар",
-    "zhCN": "魔典"
+    "zhCN": "魔典|普輕"
   },
   {
     "id": 27592,
     "Key": "wa6",
     "enUS": "Burnt Text",
-    "zhTW": "焦灼書冊",
+    "zhTW": "焦灼書冊|擴輕",
     "deDE": "[ms]Verbrannter Text",
     "esES": "[ms]Texto quemado",
     "frFR": "Texte brûlé",
@@ -26381,13 +26381,13 @@
     "jaJP": "焼けた書",
     "ptBR": "Texto Queimado",
     "ruRU": "[ms]обгорелый текст",
-    "zhCN": "焦灼書冊"
+    "zhCN": "焦灼書冊|擴輕"
   },
   {
     "id": 27593,
     "Key": "wa7",
     "enUS": "Dark Tome",
-    "zhTW": "黑暗秘典",
+    "zhTW": "黑暗秘典|擴輕",
     "deDE": "[ms]Dunkler Foliant",
     "esES": "[ms]Volumen oscuro",
     "frFR": "Tome noir",
@@ -26398,13 +26398,13 @@
     "jaJP": "闇の書物",
     "ptBR": "Tomo Antigo",
     "ruRU": "[ms]темный фолиант",
-    "zhCN": "黑暗秘典"
+    "zhCN": "黑暗秘典|擴輕"
   },
   {
     "id": 27594,
     "Key": "wa8",
     "enUS": "Dark Codex",
-    "zhTW": "黑暗寶典",
+    "zhTW": "黑暗寶典|擴輕",
     "deDE": "[ms]Dunkler Kodex",
     "esES": "[ms]Códice oscuro",
     "frFR": "Codex noir",
@@ -26415,13 +26415,13 @@
     "jaJP": "闇の古写本",
     "ptBR": "Códice Sombrio",
     "ruRU": "[ms]темный кодекс",
-    "zhCN": "黑暗寶典"
+    "zhCN": "黑暗寶典|擴輕"
   },
   {
     "id": 27595,
     "Key": "wa9",
     "enUS": "Possessed Compendium",
-    "zhTW": "著魔綱要",
+    "zhTW": "著魔綱要|擴輕",
     "deDE": "[ns]Besessenes Kompendium",
     "esES": "[ms]Compendio poseído",
     "frFR": "Compendium possédé",
@@ -26432,13 +26432,13 @@
     "jaJP": "依代の抄録",
     "ptBR": "Compêndio Possuído",
     "ruRU": "[ms]одержимый компендиум",
-    "zhCN": "著魔綱要"
+    "zhCN": "著魔綱要|擴輕"
   },
   {
     "id": 27596,
     "Key": "waa",
     "enUS": "Possessed Grimoire",
-    "zhTW": "著魔魔典",
+    "zhTW": "著魔魔典|擴輕",
     "deDE": "[ns]Besessenes Grimoire",
     "esES": "[ms]Grimorio poseído",
     "frFR": "Grimoire possédé",
@@ -26449,13 +26449,13 @@
     "jaJP": "依代のグリモア",
     "ptBR": "Grimório Possuído",
     "ruRU": "[ms]одержимый гримуар",
-    "zhCN": "著魔魔典"
+    "zhCN": "著魔魔典|擴輕"
   },
   {
     "id": 27597,
     "Key": "wab",
     "enUS": "Forgotten Volume",
-    "zhTW": "被遺忘的書冊",
+    "zhTW": "被遺忘的書冊|精輕",
     "deDE": "[ms]Vergessener Band",
     "esES": "[ms]Volumen olvidado",
     "frFR": "Ouvrage oublié",
@@ -26466,13 +26466,13 @@
     "jaJP": "忘れ去られし巻",
     "ptBR": "Volume Esquecido",
     "ruRU": "[ms]забытый том",
-    "zhCN": "被遺忘的書冊"
+    "zhCN": "被遺忘的書冊|精輕"
   },
   {
     "id": 27598,
     "Key": "wac",
     "enUS": "Occult Tome",
-    "zhTW": "神秘秘典",
+    "zhTW": "神秘秘典|精輕",
     "deDE": "[ms]Okkulter Foliant",
     "esES": "[ms]Tomo esotérico",
     "frFR": "Tome occulte",
@@ -26483,13 +26483,13 @@
     "jaJP": "神秘の書物",
     "ptBR": "Tomo Oculto",
     "ruRU": "[ms]оккультный фолиант",
-    "zhCN": "神秘秘典"
+    "zhCN": "神秘秘典|精輕"
   },
   {
     "id": 27599,
     "Key": "wad",
     "enUS": "Occult Codex",
-    "zhTW": "神秘寶典",
+    "zhTW": "神秘寶典|精輕",
     "deDE": "[ms]Okkulter Kodex",
     "esES": "[ms]Códice esotérico",
     "frFR": "Codex occulte",
@@ -26500,13 +26500,13 @@
     "jaJP": "神秘の古写本",
     "ptBR": "Códice Oculto",
     "ruRU": "[ms]оккультный кодекс",
-    "zhCN": "神秘寶典"
+    "zhCN": "神秘寶典|精輕"
   },
   {
     "id": 27600,
     "Key": "wae",
     "enUS": "Blasphemous Compendium",
-    "zhTW": "褻瀆綱要",
+    "zhTW": "褻瀆綱要|精輕",
     "deDE": "[ns]Blasphemisches Kompendium",
     "esES": "[ms]Compendio blasfemo",
     "frFR": "Compendium blasphématoire",
@@ -26517,13 +26517,13 @@
     "jaJP": "邪教の抄録",
     "ptBR": "Compêndio Blasfemo",
     "ruRU": "[ms]кощунственный компендиум",
-    "zhCN": "褻瀆綱要"
+    "zhCN": "褻瀆綱要|精輕"
   },
   {
     "id": 27601,
     "Key": "waf",
     "enUS": "Blasphemous Grimoire",
-    "zhTW": "褻瀆魔典",
+    "zhTW": "褻瀆魔典|精輕",
     "deDE": "[ns]Blasphemisches Grimoire",
     "esES": "[ms]Grimorio blasfemo",
     "frFR": "Grimoire blasphématoire",
@@ -26534,12 +26534,12 @@
     "jaJP": "邪教のグリモア",
     "ptBR": "Grimório Blasfemo",
     "ruRU": "[ms]кощунственный гримуар",
-    "zhCN": "褻瀆魔典"
+    "zhCN": "褻瀆魔典|精輕"
   },
   {
     "id": 27609,
     "Key": "ua1",
-    "enUS": "Talic's Anguish",
+    "enUS": "Talic's Anguish|A1",
     "zhTW": "塔力克的怨慟",
     "deDE": "[fs]Talics Qual",
     "esES": "[fs]Angustia de Talic",
@@ -26556,7 +26556,7 @@
   {
     "id": 27610,
     "Key": "ua2",
-    "enUS": "Korlic's Pain",
+    "enUS": "Korlic's Pain|A2",
     "zhTW": "科力克的苦痛",
     "deDE": "[ms]Korlics Schmerz",
     "esES": "[ms]Dolor de Korlic",
@@ -26573,7 +26573,7 @@
   {
     "id": 27611,
     "Key": "ua3",
-    "enUS": "Madawc's Ire",
+    "enUS": "Madawc's Ire|A3",
     "zhTW": "馬道克的怒火",
     "deDE": "[ms]Madawcs Zorn",
     "esES": "[fs]Ira de Madawc",
@@ -26590,7 +26590,7 @@
   {
     "id": 27612,
     "Key": "ua4",
-    "enUS": "Bul-Kathos' Nightmare",
+    "enUS": "Bul-Kathos' Nightmare|A4",
     "zhTW": "布爾凱索的夢魘",
     "deDE": "[ms]Bul-Kathos' Alptraum",
     "esES": "[fs]Pesadilla de Bul-Kathos",
@@ -26607,7 +26607,7 @@
   {
     "id": 27613,
     "Key": "ua5",
-    "enUS": "Worusk's End",
+    "enUS": "Worusk's End|A5",
     "zhTW": "沃魯斯克的終結",
     "deDE": "[ns]Worsuks Ende",
     "esES": "[ms]Fin de Worusk",
@@ -26727,7 +26727,7 @@
     "id": 27628,
     "Key": "Ars Al'Diablolos",
     "enUS": "Ars Al'Diabolos",
-    "zhTW": "艾迪亞布羅斯學術",
+    "zhTW": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4艾迪亞布羅斯學術",
     "deDE": "Ars Al'Diabolos",
     "esES": "Ars Al'Diabolos",
     "frFR": "Ars Al'Diabolos",
@@ -26738,13 +26738,13 @@
     "jaJP": "アルス・アル・ディアボロス",
     "ptBR": "Ars Al'Diabolos",
     "ruRU": "Арс Аль'Диаболос",
-    "zhCN": "艾迪亞布羅斯學術"
+    "zhCN": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4艾迪亞布羅斯學術"
   },
   {
     "id": 27629,
     "Key": "Ars Tor'Baalos",
     "enUS": "Ars Tor'Baalos",
-    "zhTW": "托巴爾羅斯學術",
+    "zhTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術",
     "deDE": "Ars Tor'Baalos",
     "esES": "Ars Tor'Baalos",
     "frFR": "Ars Tor'Baalos",
@@ -26755,13 +26755,13 @@
     "jaJP": "アルス・トル・バーロス",
     "ptBR": "Ars Tor'Baalos",
     "ruRU": "Арс Тор'Баалос",
-    "zhCN": "托巴爾羅斯學術"
+    "zhCN": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術"
   },
   {
     "id": 27630,
     "Key": "Ars Dul'Mephistos",
     "enUS": "Ars Dul'Mephistos",
-    "zhTW": "杜墨菲斯托斯學術",
+    "zhTW": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4杜墨菲斯托斯學術",
     "deDE": "Ars Dul'Mephistos",
     "esES": "Ars Dul'Mephistos",
     "frFR": "Ars Dul'Mephistos",
@@ -26772,13 +26772,13 @@
     "jaJP": "アルス・ドル・メフィストス",
     "ptBR": "Ars Dul'Mephistos",
     "ruRU": "Арс Даль'Мефистос",
-    "zhCN": "杜墨菲斯托斯學術"
+    "zhCN": "ÿc1[30FCR/115EDmg/70AR/-20MR/170EDef/25MF]\nÿc4杜墨菲斯托斯學術"
   },
   {
     "id": 27631,
     "Key": "Measured Wrath",
     "enUS": "Measured Wrath",
-    "zhTW": "審慎之怒",
+    "zhTW": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒",
     "deDE": "Gezügelter Zorn",
     "esES": "[fs]Cólera mesurada",
     "frFR": "Colère mesurée",
@@ -26789,13 +26789,13 @@
     "jaJP": "静かなる憤怒",
     "ptBR": "Ira Moderada",
     "ruRU": "Сдержанный гнев",
-    "zhCN": "審慎之怒"
+    "zhCN": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒"
   },
   {
     "id": 27632,
     "Key": "Dreadfang",
     "enUS": "Dreadfang",
-    "zhTW": "懼牙",
+    "zhTW": "ÿc1[166ED/6LM]\nÿc4懼牙",
     "deDE": "Schreckenszahn",
     "esES": "[ms]Colmilloterror",
     "frFR": "Croc d’effroi",
@@ -26806,13 +26806,13 @@
     "jaJP": "ドレッドファング",
     "ptBR": "Presafria",
     "ruRU": "Жуткоклык",
-    "zhCN": "懼牙"
+    "zhCN": "ÿc1[166ED/6LM]\nÿc4懼牙"
   },
   {
     "id": 27633,
     "Key": "Wraithstep",
     "enUS": "Wraithstep",
-    "zhTW": "怨靈步伐",
+    "zhTW": "ÿc1[60DEF/15DEX/15ENG]\nÿc4怨靈步伐",
     "deDE": "Gespensterschritt",
     "esES": "[ms]Paso de ánima",
     "frFR": "Pas fantomatiques",
@@ -26823,13 +26823,13 @@
     "jaJP": "レイスステップ",
     "ptBR": "Espectrário",
     "ruRU": "Поступь духа",
-    "zhCN": "怨靈步伐"
+    "zhCN": "ÿc1[60DEF/15DEX/15ENG]\nÿc4怨靈步伐"
   },
   {
     "id": 27634,
     "Key": "Bloodpact Shard",
     "enUS": "Bloodpact Shard",
-    "zhTW": "血誓碎片",
+    "zhTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片",
     "deDE": "Blutbundsplitter",
     "esES": "[fs]Esquirla de pacto sangriento",
     "frFR": "Éclat du pacte de sang",
@@ -26840,13 +26840,13 @@
     "jaJP": "ブラッドパクト・シャード",
     "ptBR": "Estilhaço de Pacto Sangrento",
     "ruRU": "Осколок кровавой клятвы",
-    "zhCN": "血誓碎片"
+    "zhCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片"
   },
   {
     "id": 27635,
     "Key": "Sling",
     "enUS": "Sling",
-    "zhTW": "投索",
+    "zhTW": "ÿc1[-5MR/15ENG/20MF]\nÿc4投索",
     "deDE": "Schleuderer",
     "esES": "[ms]Codal",
     "frFR": "Fronde",
@@ -26857,13 +26857,13 @@
     "jaJP": "投石具",
     "ptBR": "Arremessador",
     "ruRU": "Праща",
-    "zhCN": "投索"
+    "zhCN": "ÿc1[-5MR/15ENG/20MF]\nÿc4投索"
   },
   {
     "id": 27636,
     "Key": "Opalvein",
     "enUS": "Opalvein",
-    "zhTW": "蛋白石脈",
+    "zhTW": "ÿc1[8RES/3EK/3LK]\nÿc4蛋白石脈",
     "deDE": "Opalader",
     "esES": "[ms]Vetaópalo",
     "frFR": "Veine opaline",
@@ -26874,13 +26874,13 @@
     "jaJP": "オパールヴェイン",
     "ptBR": "Veia de Opala",
     "ruRU": "Опаловая жила",
-    "zhCN": "蛋白石脈"
+    "zhCN": "ÿc1[8RES/3EK/3LK]\nÿc4蛋白石脈"
   },
   {
     "id": 27637,
     "Key": "Entropy Locket",
     "enUS": "Entropy Locket",
-    "zhTW": "無序墜盒",
+    "zhTW": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4無序墜盒",
     "deDE": "Entropisches Medaillon",
     "esES": "[ms]Relicario entrópico",
     "frFR": "Médaillon entropique",
@@ -26891,13 +26891,13 @@
     "jaJP": "エントロピー・ロケット",
     "ptBR": "Amuleto Entrópico",
     "ruRU": "Медальон энтропии",
-    "zhCN": "無序墜盒"
+    "zhCN": "ÿc1[10FCR/10MSD/15Max Mana/40LR/12MDR]\nÿc4無序墜盒"
   },
   {
     "id": 27638,
     "Key": "Gheed's Wager",
     "enUS": "Gheed's Wager",
-    "zhTW": "基德的賭注",
+    "zhTW": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4基德的賭注",
     "deDE": "Gheeds Wette",
     "esES": "[fs]Apuesta de Gheed",
     "frFR": "Pari de Gheed",
@@ -26908,13 +26908,13 @@
     "jaJP": "ギードの賭け",
     "ptBR": "Aposta de Gheed",
     "ruRU": "Ставка Гида",
-    "zhCN": "基德的賭注"
+    "zhCN": "ÿc1[20FRW/20FCR/20FHR/-7MR/150ED/15RES/75EG]\nÿc4基德的賭注"
   },
   {
     "id": 27639,
     "Key": "Unique Warlock Helm",
     "enUS": "Hellwarden's Will",
-    "zhTW": "地獄刑長的意志",
+    "zhTW": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4地獄刑長的意志",
     "deDE": "Wille des Höllenwärters",
     "esES": "[fs]Voluntad del alcaide infernal",
     "frFR": "Volonté du Garde-enfer",
@@ -26925,7 +26925,7 @@
     "jaJP": "ヘル・ウォーデンの意志",
     "ptBR": "Vontade do Carcereiro Infernal",
     "ruRU": "Воля стража Преисподней",
-    "zhCN": "地獄刑長的意志"
+    "zhCN": "ÿc1[-8MR/-8FR/215ED/6EK]\nÿc4地獄刑長的意志"
   },
   {
     "id": 27641,
@@ -27951,7 +27951,7 @@
     "id": 27906,
     "Key": "Defender's Bile",
     "enUS": "Defender's Bile",
-    "zhTW": "防禦者的膽汁",
+    "zhTW": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4防禦者的膽汁",
     "deDE": "[fs]Galle des Verteidigers",
     "esES": "[fs]Bilis del defensor",
     "frFR": "Bile du Défenseur",
@@ -27962,13 +27962,13 @@
     "jaJP": "防衛者の胆液",
     "ptBR": "Bile do Defensor",
     "ruRU": "Желчь защитника",
-    "zhCN": "防禦者的膽汁"
+    "zhCN": "ÿc1[10PSD/-10PR/5EXP/50EG/35MF]\nÿc4防禦者的膽汁"
   },
   {
     "id": 27907,
     "Key": "Guardian's Thunder",
     "enUS": "Guardian's Thunder",
-    "zhTW": "守護者的閃電",
+    "zhTW": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
     "deDE": "[ms]Donner des Wächters",
     "esES": "[ms]Trueno del guardián",
     "frFR": "Tonnerre du Gardien",
@@ -27979,13 +27979,13 @@
     "jaJP": "守護者の雷鳴",
     "ptBR": "Trovão do Guardião",
     "ruRU": "Гром хранителя",
-    "zhCN": "守護者的閃電"
+    "zhCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電"
   },
   {
     "id": 27908,
     "Key": "Protector's Frost",
     "enUS": "Protector's Frost",
-    "zhTW": "保衛者的冰霜",
+    "zhTW": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜",
     "deDE": "[ms]Frost des Beschützers",
     "esES": "[fs]Escarcha del protector",
     "frFR": "Givre du Protecteur",
@@ -27996,13 +27996,13 @@
     "jaJP": "擁護者の霜",
     "ptBR": "Gelo do Protetor",
     "ruRU": "Мороз покровителя",
-    "zhCN": "保衛者的冰霜"
+    "zhCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜"
   },
   {
     "id": 27909,
     "Key": "Defender's Fire",
     "enUS": "Defender's Fire",
-    "zhTW": "防禦者的火焰",
+    "zhTW": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
     "deDE": "[ns]Feuer des Verteidigers",
     "esES": "[ms]Fuego del defensor",
     "frFR": "Feu du Défenseur",
@@ -28013,13 +28013,13 @@
     "jaJP": "防衛者の炎",
     "ptBR": "Fogo do Defensor",
     "ruRU": "Огонь защитника",
-    "zhCN": "防禦者的火焰"
+    "zhCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰"
   },
   {
     "id": 27910,
     "Key": "Protector's Stone",
     "enUS": "Protector's Stone",
-    "zhTW": "保衛者的岩石",
+    "zhTW": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
     "deDE": "[ms]Stein des Beschützers",
     "esES": "[fs]Piedra del protector",
     "frFR": "Pierre du Protecteur",
@@ -28030,13 +28030,13 @@
     "jaJP": "擁護者の石",
     "ptBR": "Pedra do Protetor",
     "ruRU": "Камень покровителя",
-    "zhCN": "保衛者的岩石"
+    "zhCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石"
   },
   {
     "id": 27911,
     "Key": "Guardian's Light",
     "enUS": "Guardian's Light",
-    "zhTW": "守護者的光芒",
+    "zhTW": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
     "deDE": "[ns]Licht des Wächters",
     "esES": "[fs]Luz del guardián",
     "frFR": "Lumière du Gardien",
@@ -28047,7 +28047,7 @@
     "jaJP": "守護者の光",
     "ptBR": "Luz do Guardião",
     "ruRU": "Свет хранителя",
-    "zhCN": "守護者的光芒"
+    "zhCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒"
   },
   {
     "id": 27959,
@@ -28087,7 +28087,7 @@
     "id": 28036,
     "Key": "Crafted Cold Rupture",
     "enUS": "Renewed Cold Rupture",
-    "zhTW": "新生冰寒裂縫",
+    "zhTW": "ÿc1[-70CR]\nÿc4新生冰寒裂縫",
     "deDE": "[ms]Erneuerter Kältespalt",
     "esES": "Ruptura fría renovada",
     "frFR": "Rupture glaciale renouvelée",
@@ -28098,7 +28098,7 @@
     "jaJP": "再発する甘美なる凍気",
     "ptBR": "Ruptura Gélida Renovada",
     "ruRU": "Обновленный ледяной разлом",
-    "zhCN": "新生冰寒裂縫"
+    "zhCN": "ÿc1[-70CR]\nÿc4新生冰寒裂縫"
   },
   {
     "id": 28037,
@@ -28121,7 +28121,7 @@
     "id": 28038,
     "Key": "Crafted Flame Rift",
     "enUS": "Renewed Flame Rift",
-    "zhTW": "新生火焰裂隙",
+    "zhTW": "ÿc1[-70FR]\nÿc4新生火焰裂隙",
     "deDE": "[ms]Erneuerter Flammenspalt",
     "esES": "Falla de llamas renovada",
     "frFR": "Faille ardente renouvelée",
@@ -28132,7 +28132,7 @@
     "jaJP": "再発する穿つ炎",
     "ptBR": "Fenda Flamejante Renovada",
     "ruRU": "Обновленный пламенный портал",
-    "zhCN": "新生火焰裂隙"
+    "zhCN": "ÿc1[-70FR]\nÿc4新生火焰裂隙"
   },
   {
     "id": 28039,
@@ -28155,7 +28155,7 @@
     "id": 28040,
     "Key": "Crafted Crack of the Heavens",
     "enUS": "Renewed Crack of the Heavens",
-    "zhTW": "新生天堂裂擊",
+    "zhTW": "ÿc1[-70LR]\nÿc4新生天堂裂擊",
     "deDE": "[ms]Erneuerter Himmelsriss",
     "esES": "Chasquido de los cielos renovado",
     "frFR": "Fracture des Cieux renouvelée",
@@ -28166,7 +28166,7 @@
     "jaJP": "再発する天外の亀裂",
     "ptBR": "Rachadura do Paraíso Renovada",
     "ruRU": "Обновленная небесная трещина",
-    "zhCN": "新生天堂裂擊"
+    "zhCN": "ÿc1[-70LR]\nÿc4新生天堂裂擊"
   },
   {
     "id": 28041,
@@ -28189,7 +28189,7 @@
     "id": 28042,
     "Key": "Crafted Rotting Fissure",
     "enUS": "Renewed Rotting Fissure",
-    "zhTW": "新生腐敗裂痕",
+    "zhTW": "ÿc1[-70PR]\nÿc4新生腐敗裂痕",
     "deDE": "[fs]Erneuerte Fäulniskluft",
     "esES": "Fisura putrefacta renovada",
     "frFR": "Fissure putride renouvelée",
@@ -28200,7 +28200,7 @@
     "jaJP": "再発する腐れる傷跡",
     "ptBR": "Fissura Putrefata Renovada",
     "ruRU": "Обновленный гниющий излом",
-    "zhCN": "新生腐敗裂痕"
+    "zhCN": "ÿc1[-70PR]\nÿc4新生腐敗裂痕"
   },
   {
     "id": 28043,
@@ -28223,7 +28223,7 @@
     "id": 28044,
     "Key": "Crafted Bone Break",
     "enUS": "Renewed Bone Break",
-    "zhTW": "新生分筋裂骨",
+    "zhTW": "ÿc1[-10DR]\nÿc4新生分筋裂骨",
     "deDE": "[ms]Erneuerter Knochenbruch",
     "esES": "Rotura de huesos renovada",
     "frFR": "Briseur d’os renouvelé",
@@ -28234,7 +28234,7 @@
     "jaJP": "再発する骨食み",
     "ptBR": "Rompimento de Ossos Renovado",
     "ruRU": "Обновленный перелом костей",
-    "zhCN": "新生分筋裂骨"
+    "zhCN": "ÿc1[-10DR]\nÿc4新生分筋裂骨"
   },
   {
     "id": 28045,
@@ -28257,7 +28257,7 @@
     "id": 28046,
     "Key": "Crafted Black Cleft",
     "enUS": "Renewed Black Cleft",
-    "zhTW": "新生漆黑裂口",
+    "zhTW": "ÿc1[-45MR]\nÿc4新生漆黑裂口",
     "deDE": "[fs]Erneuerte Schwarze Bresche",
     "esES": "Hendidura negra renovada",
     "frFR": "Fente noire renouvelée",
@@ -28268,7 +28268,7 @@
     "jaJP": "再発する黒き裂目",
     "ptBR": "Fratura Sombria Renovada",
     "ruRU": "Обновленная черная расщелина",
-    "zhCN": "新生漆黑裂口"
+    "zhCN": "ÿc1[-45MR]\nÿc4新生漆黑裂口"
   },
   {
     "id": 28082,

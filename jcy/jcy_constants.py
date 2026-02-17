@@ -36,6 +36,7 @@ LOCAL_FILES = [
     "item-runes.json",
     "levels.json",
     "monsters.json",
+    "npcs.json",
     "objects.json",
     "quests.json",
     "shrines.json",
