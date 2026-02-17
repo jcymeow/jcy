@@ -1,2970 +1,1829 @@
 {
-    "priceless": {
-        "Key": "priceless",
-        "enUS": "Item cannot be traded here.",
-        "zhCN": "無法在此交易這項物品。",
-        "zhTW": "無法在此交易這項物品。",
-        "sgCN": "此处无法交易物品。",
-        "sgTW": "無法在此交易這項物品。"
-    },
     "Socketable": {
+        "id": 3453,
         "Key": "Socketable",
         "enUS": "ÿcOSocketed (%i)ÿc3",
-        "zhCN": "ÿcO鑲孔（%i）ÿc3",
         "zhTW": "ÿcO鑲孔（%i）ÿc3",
+        "zhCN": "ÿcO镶孔 (%i)ÿc3",
         "sgCN": "ÿcO镶孔 (%i)ÿc3",
         "sgTW": "ÿcO鑲孔（%i）ÿc3"
     },
-    "ItemStats1a": {
-        "Key": "ItemStats1a",
-        "enUS": "Requirements not met",
-        "zhCN": "不符合需求",
-        "zhTW": "不符合需求",
-        "sgCN": "未满足条件",
-        "sgTW": "不符合需求"
-    },
-    "ItemStats1b": {
-        "Key": "ItemStats1b",
-        "enUS": "Unidentified",
-        "zhCN": "尚未鑑定",
-        "zhTW": "尚未鑑定",
-        "sgCN": "未辨识",
-        "sgTW": "尚未鑑定"
-    },
-    "ItemStats1c": {
-        "Key": "ItemStats1c",
-        "enUS": "Charges:",
-        "zhCN": "使用次數：",
-        "zhTW": "使用次數：",
-        "sgCN": "充能:",
-        "sgTW": "使用次數："
-    },
     "ItemStats1d": {
+        "id": 3457,
         "Key": "ItemStats1d",
         "enUS": "Durability(DUR): %i of %i",
-        "zhCN": "耐久度(DUR)：%i / %i",
         "zhTW": "耐久度(DUR)：%i / %i",
+        "zhCN": "耐久度(DUR): %i / %i",
         "sgCN": "耐久度(DUR): %i / %i",
         "sgTW": "耐久度(DUR)：%i / %i"
     },
-    "ItemStats1e": {
-        "Key": "ItemStats1e",
-        "enUS": "Required Strength: %d",
-        "zhCN": "需要力量：%d",
-        "zhTW": "需要力量：%d",
-        "sgCN": "需要力量: %d",
-        "sgTW": "需要力量：%d"
-    },
-    "ItemStats1f": {
-        "Key": "ItemStats1f",
-        "enUS": "Required Dexterity: %d",
-        "zhCN": "需要敏捷：%d",
-        "zhTW": "需要敏捷：%d",
-        "sgCN": "需要敏捷: %d",
-        "sgTW": "需要敏捷：%d"
-    },
-    "ItemStats1g": {
-        "Key": "ItemStats1g",
-        "enUS": "Damage:",
-        "zhCN": "傷害：",
-        "zhTW": "傷害：",
-        "sgCN": "伤害:",
-        "sgTW": "傷害："
-    },
-    "ItemStats1h": {
-        "Key": "ItemStats1h",
-        "enUS": "Defense: %d",
-        "zhCN": "防禦：%d",
-        "zhTW": "防禦：%d",
-        "sgCN": "防御: %d",
-        "sgTW": "防禦：%d"
-    },
-    "ItemStats1i": {
-        "Key": "ItemStats1i",
-        "enUS": "Quantity: %d of %d",
-        "zhCN": "數量：%d / %d",
-        "zhTW": "數量：%d / %d",
-        "sgCN": "数量: %d/%d",
-        "sgTW": "數量：%d / %d"
-    },
-    "ItemStats1j": {
-        "Key": "ItemStats1j",
-        "enUS": "of",
-        "zhCN": "/",
-        "zhTW": "/",
-        "sgCN": "/",
-        "sgTW": "/"
-    },
-    "ItemStast1k": {
-        "Key": "ItemStast1k",
-        "enUS": "to",
-        "zhCN": "至",
-        "zhTW": "至",
-        "sgCN": "至",
-        "sgTW": "至"
-    },
-    "ItemStats1l": {
-        "Key": "ItemStats1l",
-        "enUS": "One-Hand Damage: %d to %d",
-        "zhCN": "單手傷害：%d - %d 點",
-        "zhTW": "單手傷害：%d - %d 點",
-        "sgCN": "单手伤害: %d - %d",
-        "sgTW": "單手傷害：%d - %d 點"
-    },
-    "ItemStats1m": {
-        "Key": "ItemStats1m",
-        "enUS": "Two-Hand Damage: %d to %d",
-        "zhCN": "雙手傷害：%d - %d 點",
-        "zhTW": "雙手傷害：%d - %d 點",
-        "sgCN": "双手伤害: %d - %d",
-        "sgTW": "雙手傷害：%d - %d 點"
-    },
-    "ItemStats1n": {
-        "Key": "ItemStats1n",
-        "enUS": "Throw Damage: %d",
-        "zhCN": "投擲傷害：%d 點",
-        "zhTW": "投擲傷害：%d 點",
-        "sgCN": "投掷伤害: %d",
-        "sgTW": "投擲傷害：%d 點"
-    },
-    "ItemStats1o": {
-        "Key": "ItemStats1o",
-        "enUS": "Smite Damage: %d to %d",
-        "zhCN": "重擊傷害：%d - %d 點",
-        "zhTW": "重擊傷害：%d - %d 點",
-        "sgCN": "盾击伤害: %d - %d",
-        "sgTW": "重擊傷害：%d - %d 點"
-    },
-    "ItemStats1p": {
-        "Key": "ItemStats1p",
-        "enUS": "Required Level: %d",
-        "zhCN": "需要等級：%d",
-        "zhTW": "需要等級：%d",
-        "sgCN": "需要等级: %d",
-        "sgTW": "需要等級：%d"
-    },
-    "ItemStats1q": {
-        "Key": "ItemStats1q",
-        "enUS": "Points: %d",
-        "zhCN": "點數：%d",
-        "zhTW": "點數：%d",
-        "sgCN": "点数: %d",
-        "sgTW": "點數：%d"
-    },
-    "ItemStatsrejuv1": {
-        "Key": "ItemStatsrejuv1",
-        "enUS": "Heals %d%% Life and Mana",
-        "zhCN": "恢復 %d%% 的生命和法力",
-        "zhTW": "恢復 %d%% 的生命和法力",
-        "sgCN": "治愈 %d%% 生命和法力",
-        "sgTW": "恢復 %d%% 的生命和法力"
-    },
-    "ItemStatsrejuv2": {
-        "Key": "ItemStatsrejuv2",
-        "enUS": "Heals 100% Life and Mana",
-        "zhCN": "恢復 100% 的生命和法力",
-        "zhTW": "恢復 100% 的生命和法力",
-        "sgCN": "治愈 100% 生命和法力",
-        "sgTW": "恢復 100% 的生命和法力"
-    },
     "ModStr1a": {
+        "id": 3473,
         "Key": "ModStr1a",
         "enUS": "%+d to Strength(STR)",
-        "zhCN": "%+d 力量(STR)",
         "zhTW": "%+d 力量(STR)",
+        "zhCN": "%+d 力量(STR)",
         "sgCN": "%+d 力量(STR)",
         "sgTW": "%+d 力量(STR)"
     },
     "ModStr1b": {
+        "id": 3474,
         "Key": "ModStr1b",
         "enUS": "%+d to Dexterity(DEX)",
-        "zhCN": "%+d 敏捷(DEX)",
         "zhTW": "%+d 敏捷(DEX)",
+        "zhCN": "%+d 敏捷(DEX)",
         "sgCN": "%+d 敏捷(DEX)",
         "sgTW": "%+d 敏捷(DEX)"
     },
     "ModStr1c": {
+        "id": 3475,
         "Key": "ModStr1c",
         "enUS": "%+d to Vitality(VIT)",
-        "zhCN": "%+d 體能(VIT)",
         "zhTW": "%+d 體能(VIT)",
+        "zhCN": "%+d 活力(VIT)",
         "sgCN": "%+d 活力(VIT)",
         "sgTW": "%+d 體能(VIT)"
     },
     "ModStr1d": {
+        "id": 3476,
         "Key": "ModStr1d",
         "enUS": "%+d to Energy(ENG)",
-        "zhCN": "%+d 能量(ENG)",
         "zhTW": "%+d 能量(ENG)",
+        "zhCN": "%+d 能量(ENG)",
         "sgCN": "%+d 能量(ENG)",
         "sgTW": "%+d 能量(ENG)"
     },
     "ModStr1e": {
+        "id": 3477,
         "Key": "ModStr1e",
         "enUS": "%+d to Mana(Mana)",
-        "zhCN": "%+d 法力(Mana)",
         "zhTW": "%+d 法力(Mana)",
+        "zhCN": "%+d 法力(Mana)",
         "sgCN": "%+d 法力(Mana)",
         "sgTW": "%+d 法力(Mana)"
     },
     "ModStr1f": {
+        "id": 3478,
         "Key": "ModStr1f",
         "enUS": "%+d to Maximum Damage(MAX)",
-        "zhCN": "%+d 最大傷害(MAX)",
         "zhTW": "%+d 最大傷害(MAX)",
+        "zhCN": "%+d 最大伤害(MAX)",
         "sgCN": "%+d 最大伤害(MAX)",
         "sgTW": "%+d 最大傷害(MAX)"
     },
     "ModStr1g": {
+        "id": 3479,
         "Key": "ModStr1g",
         "enUS": "%+d to Minimum Damage(MIN)",
-        "zhCN": "%+d 最小傷害(MIN)",
         "zhTW": "%+d 最小傷害(MIN)",
+        "zhCN": "%+d 最小伤害(MIN)",
         "sgCN": "%+d 最小伤害(MIN)",
         "sgTW": "%+d 最小傷害(MIN)"
     },
     "ModStr1h": {
+        "id": 3480,
         "Key": "ModStr1h",
         "enUS": "%+d to Attack Rating(AR)",
-        "zhCN": "%+d 準確率(AR)",
         "zhTW": "%+d 準確率(AR)",
+        "zhCN": "%+d 命中值(AR)",
         "sgCN": "%+d 命中值(AR)",
         "sgTW": "%+d 準確率(AR)"
     },
     "ModStr1i": {
+        "id": 3481,
         "Key": "ModStr1i",
         "enUS": "%+d Defense(DEF)",
-        "zhCN": "%+d 防禦(DEF)",
         "zhTW": "%+d 防禦(DEF)",
+        "zhCN": "%+d 防御(DEF)",
         "sgCN": "%+d 防御(DEF)",
         "sgTW": "%+d 防禦(DEF)"
     },
     "ModStr1j": {
+        "id": 3482,
         "Key": "ModStr1j",
         "enUS": "ÿc1Fire Resist(FR) %+d%%ÿc3",
-        "zhCN": "ÿc1火焰抗性(FR) %+d%%ÿc3",
         "zhTW": "ÿc1火焰抗性(FR) %+d%%ÿc3",
+        "zhCN": "ÿc1火焰抗性(FR) %+d%%ÿc3",
         "sgCN": "ÿc1火焰抗性(FR) %+d%%ÿc3",
         "sgTW": "ÿc1火焰抗性(FR) %+d%%ÿc3"
     },
     "ModStr1k": {
+        "id": 3483,
         "Key": "ModStr1k",
         "enUS": "ÿcTCold Resist(CR) %+d%%ÿc3",
-        "zhCN": "ÿcT冰寒抗性(CR) %+d%%ÿc3",
         "zhTW": "ÿcT冰寒抗性(CR) %+d%%ÿc3",
+        "zhCN": "ÿcT冰霜抗性(CR) %+d%%ÿc3",
         "sgCN": "ÿcT冰霜抗性(CR) %+d%%ÿc3",
         "sgTW": "ÿcT冰寒抗性(CR) %+d%%ÿc3"
     },
     "ModStr1l": {
+        "id": 3484,
         "Key": "ModStr1l",
         "enUS": "ÿc9Lightning Resist(LR) %+d%%ÿc3",
-        "zhCN": "ÿc9電擊抗性(LR) %+d%%ÿc3",
         "zhTW": "ÿc9電擊抗性(LR) %+d%%ÿc3",
+        "zhCN": "ÿc9闪电抗性(LR) %+d%%ÿc3",
         "sgCN": "ÿc9闪电抗性(LR) %+d%%ÿc3",
         "sgTW": "ÿc9電擊抗性(LR) %+d%%ÿc3"
     },
     "ModStr1m": {
+        "id": 3485,
         "Key": "ModStr1m",
         "enUS": "Magic Resist(MR) %+d%%",
-        "zhCN": "魔法抗性(MR) %+d%%",
         "zhTW": "魔法抗性(MR) %+d%%",
+        "zhCN": "魔法抗性(MR) %+d%%",
         "sgCN": "魔法抗性(MR) %+d%%",
         "sgTW": "魔法抗性(MR) %+d%%"
     },
     "ModStr1n": {
+        "id": 3486,
         "Key": "ModStr1n",
         "enUS": "ÿc2Poison Resist(PR) %+d%%ÿc3",
-        "zhCN": "ÿc2毒素抗性(PR) %+d%%ÿc3",
         "zhTW": "ÿc2毒素抗性(PR) %+d%%ÿc3",
+        "zhCN": "ÿc2毒素抗性(PR) %+d%%ÿc3",
         "sgCN": "ÿc2毒素抗性(PR) %+d%%ÿc3",
         "sgTW": "ÿc2毒素抗性(PR) %+d%%ÿc3"
     },
     "ModStr1o": {
+        "id": 3487,
         "Key": "ModStr1o",
         "enUS": "%+d to Maximum Fire Damage(Max FD)",
-        "zhCN": "%+d 火焰傷害最大值(Max FD)",
         "zhTW": "%+d 火焰傷害最大值(Max FD)",
+        "zhCN": "%+d 最大火焰伤害(Max FD)",
         "sgCN": "%+d 最大火焰伤害(Max FD)",
         "sgTW": "%+d 火焰傷害最大值(Max FD)"
     },
     "ModStr1p": {
+        "id": 3488,
         "Key": "ModStr1p",
         "enUS": "%+d to Minimum Fire Damage(Min FD)",
-        "zhCN": "%+d 火焰傷害最小值(Min FD)",
         "zhTW": "%+d 火焰傷害最小值(Min FD)",
+        "zhCN": "%+d 最小火焰伤害(Min FD)",
         "sgCN": "%+d 最小火焰伤害(Min FD)",
         "sgTW": "%+d 火焰傷害最小值(Min FD)"
     },
     "ModStr1q": {
+        "id": 3489,
         "Key": "ModStr1q",
         "enUS": "%+d to Maximum Lightning Damage(Max LD)",
-        "zhCN": "%+d 電擊傷害最大值(Max LD)",
         "zhTW": "%+d 電擊傷害最大值(Max LD)",
+        "zhCN": "%+d 最大闪电伤害(Max LD)",
         "sgCN": "%+d 最大闪电伤害(Max LD)",
         "sgTW": "%+d 電擊傷害最大值(Max LD)"
     },
     "ModStr1r": {
+        "id": 3490,
         "Key": "ModStr1r",
         "enUS": "%+d to Minimum Lightning Damage(Min LD)",
-        "zhCN": "%+d 電擊傷害最小值(Min LD)",
         "zhTW": "%+d 電擊傷害最小值(Min LD)",
+        "zhCN": "%+d 最小闪电伤害(Min LD)",
         "sgCN": "%+d 最小闪电伤害(Min LD)",
         "sgTW": "%+d 電擊傷害最小值(Min LD)"
     },
     "ModStr1s": {
+        "id": 3491,
         "Key": "ModStr1s",
         "enUS": "%+d to Maximum Cold Damage(Max CD)",
-        "zhCN": "%+d 冰寒傷害最大值(Max CD)",
         "zhTW": "%+d 冰寒傷害最大值(Max CD)",
+        "zhCN": "%+d 最大冰霜伤害(Max CD)",
         "sgCN": "%+d 最大冰霜伤害(Max CD)",
         "sgTW": "%+d 冰寒傷害最大值(Max CD)"
     },
     "ModStr1t": {
+        "id": 3492,
         "Key": "ModStr1t",
         "enUS": "%+d to Minimum Cold Damage(Min CD)",
-        "zhCN": "%+d 冰寒傷害最小值(Min CD)",
         "zhTW": "%+d 冰寒傷害最小值(Min CD)",
+        "zhCN": "%+d 最小冰霜伤害(Min CD)",
         "sgCN": "%+d 最小冰霜伤害(Min CD)",
         "sgTW": "%+d 冰寒傷害最小值(Min CD)"
     },
     "ModStr1u": {
+        "id": 3493,
         "Key": "ModStr1u",
         "enUS": "%+d to Life(Life)",
-        "zhCN": "%+d 生命(Life)",
         "zhTW": "%+d 生命(Life)",
+        "zhCN": "%+d 生命(Life)",
         "sgCN": "%+d 生命(Life)",
         "sgTW": "%+d 生命(Life)"
     },
     "ModStr1v": {
+        "id": 3494,
         "Key": "ModStr1v",
         "enUS": "Attacker Takes Damage of(ATD) %d",
-        "zhCN": "攻擊者反傷(ATD)：%d",
         "zhTW": "攻擊者反傷(ATD)：%d",
+        "zhCN": "攻击者受到 %d 点伤害(ATD)",
         "sgCN": "攻击者受到 %d 点伤害(ATD)",
         "sgTW": "攻擊者反傷(ATD)：%d"
     },
     "ModStr1y": {
+        "id": 3497,
         "Key": "ModStr1y",
         "enUS": "Knockback(KB)",
-        "zhCN": "擊退(KB)",
         "zhTW": "擊退(KB)",
+        "zhCN": "击退(KB)",
         "sgCN": "击退(KB)",
         "sgTW": "擊退(KB)"
     },
-    "ModStr1z": {
-        "Key": "ModStr1z",
-        "enUS": "Elixir of Strength",
-        "zhCN": "力量靈藥",
-        "zhTW": "力量靈藥",
-        "sgCN": "力量药剂",
-        "sgTW": "力量靈藥"
-    },
-    "ModStr2a": {
-        "Key": "ModStr2a",
-        "enUS": "Elixir of Dexterity",
-        "zhCN": "敏捷靈藥",
-        "zhTW": "敏捷靈藥",
-        "sgCN": "敏捷药剂",
-        "sgTW": "敏捷靈藥"
-    },
-    "ModStr2b": {
-        "Key": "ModStr2b",
-        "enUS": "Elixir of Energy",
-        "zhCN": "能量靈藥",
-        "zhTW": "能量靈藥",
-        "sgCN": "能量药剂",
-        "sgTW": "能量靈藥"
-    },
-    "ModStr2c": {
-        "Key": "ModStr2c",
-        "enUS": "Elixir of Vitality",
-        "zhCN": "體能靈藥",
-        "zhTW": "體能靈藥",
-        "sgCN": "活力药剂",
-        "sgTW": "體能靈藥"
-    },
-    "ModStr2d": {
-        "Key": "ModStr2d",
-        "enUS": "Elixir of Mana",
-        "zhCN": "法力靈藥",
-        "zhTW": "法力靈藥",
-        "sgCN": "法力药剂",
-        "sgTW": "法力靈藥"
-    },
-    "ModStr2e": {
-        "Key": "ModStr2e",
-        "enUS": "Elixir of Life",
-        "zhCN": "生命靈藥",
-        "zhTW": "生命靈藥",
-        "sgCN": "生命药剂",
-        "sgTW": "生命靈藥"
-    },
-    "ModStr2f": {
-        "Key": "ModStr2f",
-        "enUS": "Sec. Duration",
-        "zhCN": "持續秒數",
-        "zhTW": "持續秒數",
-        "sgCN": "秒持续时间",
-        "sgTW": "持續秒數"
-    },
     "ModStr2g": {
+        "id": 3505,
         "Key": "ModStr2g",
         "enUS": "Increase Maximum Life(Max Life) %d%%",
-        "zhCN": "生命上限提高(Max Life) %d%%",
         "zhTW": "生命上限提高(Max Life) %d%%",
+        "zhCN": "+%d%% 生命最大值(Max Life)",
         "sgCN": "+%d%% 生命最大值(Max Life)",
         "sgTW": "生命上限提高(Max Life) %d%%"
     },
     "ModStr2h": {
+        "id": 3506,
         "Key": "ModStr2h",
         "enUS": "Increase Maximum Mana(Max Mana) %d%%",
-        "zhCN": "法力上限提高(Max Mana) %d%%",
         "zhTW": "法力上限提高(Max Mana) %d%%",
+        "zhCN": "+%d%% 法力最大值(Max Mana)",
         "sgCN": "+%d%% 法力最大值(Max Mana)",
         "sgTW": "法力上限提高(Max Mana) %d%%"
     },
     "ModStr2i": {
+        "id": 3507,
         "Key": "ModStr2i",
         "enUS": "Increase Maximum Durability(Max DUR) %d%%",
-        "zhCN": "耐久度上限提高(Max DUR) %d%%",
         "zhTW": "耐久度上限提高(Max DUR) %d%%",
+        "zhCN": "+%d%% 最大耐久度(Max DUR)",
         "sgCN": "+%d%% 最大耐久度(Max DUR)",
         "sgTW": "耐久度上限提高(Max DUR) %d%%"
     },
-    "ModStr2j": {
-        "Key": "ModStr2j",
-        "enUS": "%+d%% Enhanced Maximum Damage",
-        "zhCN": "%+d%% 最大傷害強化",
-        "zhTW": "%+d%% 最大傷害強化",
-        "sgCN": "%+d%% 强化最大伤害",
-        "sgTW": "%+d%% 最大傷害強化"
-    },
-    "ModStr2k": {
-        "Key": "ModStr2k",
-        "enUS": "%+d%% Enhanced Minimum Damage",
-        "zhCN": "%+d%% 最小傷害強化",
-        "zhTW": "%+d%% 最小傷害強化",
-        "sgCN": "%+d%% 强化最小伤害",
-        "sgTW": "%+d%% 最小傷害強化"
-    },
     "ModStr2l": {
+        "id": 3510,
         "Key": "ModStr2l",
         "enUS": "Replenish Life(Life Rep) %+d",
-        "zhCN": "生命回復(Life Rep) %+d",
         "zhTW": "生命回復(Life Rep) %+d",
+        "zhCN": "补充生命(Life Rep) %+d",
         "sgCN": "补充生命(Life Rep) %+d",
         "sgTW": "生命回復(Life Rep) %+d"
     },
     "ModStr2m": {
+        "id": 3511,
         "Key": "ModStr2m",
         "enUS": "Replenish Mana(Mana Rep)",
-        "zhCN": "回復法力(Mana Rep)",
         "zhTW": "回復法力(Mana Rep)",
+        "zhCN": "补充法力(Mana Rep)",
         "sgCN": "补充法力(Mana Rep)",
         "sgTW": "回復法力(Mana Rep)"
     },
-    "ModStr2n": {
-        "Key": "ModStr2n",
-        "enUS": "Heal 1/4 Life",
-        "zhCN": "醫治 1/4 生命",
-        "zhTW": "醫治 1/4 生命",
-        "sgCN": "治愈1/4生命",
-        "sgTW": "醫治 1/4 生命"
-    },
-    "ModStr2o": {
-        "Key": "ModStr2o",
-        "enUS": "Heal 1/2 Life",
-        "zhCN": "醫治 1/2 生命",
-        "zhTW": "醫治 1/2 生命",
-        "sgCN": "治愈1/2生命",
-        "sgTW": "醫治 1/2 生命"
-    },
-    "ModStr2p": {
-        "Key": "ModStr2p",
-        "enUS": "Restore Full Life",
-        "zhCN": "醫治所有生命",
-        "zhTW": "醫治所有生命",
-        "sgCN": "恢复所有生命",
-        "sgTW": "醫治所有生命"
-    },
-    "ModStr2q": {
-        "Key": "ModStr2q",
-        "enUS": "Replenish 1/4 Mana",
-        "zhCN": "回復 1/4 法力",
-        "zhTW": "回復 1/4 法力",
-        "sgCN": "补充1/4法力",
-        "sgTW": "回復 1/4 法力"
-    },
-    "ModStr2r": {
-        "Key": "ModStr2r",
-        "enUS": "Replenish 1/2 Life",
-        "zhCN": "回復 1/2 生命",
-        "zhTW": "回復 1/2 生命",
-        "sgCN": "补充1/2生命",
-        "sgTW": "回復 1/2 生命"
-    },
-    "ModStr2s": {
-        "Key": "ModStr2s",
-        "enUS": "Restore Full Mana",
-        "zhCN": "回復所有法力",
-        "zhTW": "回復所有法力",
-        "sgCN": "恢复所有法力",
-        "sgTW": "回復所有法力"
-    },
     "ModStr2t": {
+        "id": 3518,
         "Key": "ModStr2t",
         "enUS": "Magic Damage Reduced by(MDR) %d",
-        "zhCN": "魔法傷害降低(MDR) %d",
         "zhTW": "魔法傷害降低(MDR) %d",
+        "zhCN": "魔法伤害降低(MDR) %d",
         "sgCN": "魔法伤害降低(MDR) %d",
         "sgTW": "魔法傷害降低(MDR) %d"
     },
     "ModStr2u": {
+        "id": 3519,
         "Key": "ModStr2u",
         "enUS": "Damage Reduced by(DR) %d",
-        "zhCN": "傷害降低(DR) %d",
         "zhTW": "傷害降低(DR) %d",
+        "zhCN": "伤害降低(DR) %d",
         "sgCN": "伤害降低(DR) %d",
         "sgTW": "傷害降低(DR) %d"
     },
     "Modstr2v": {
+        "id": 3520,
         "Key": "Modstr2v",
         "enUS": "%+d%% Enhanced Defense(EDef)",
-        "zhCN": "%+d%% 防禦強化(EDef)",
         "zhTW": "%+d%% 防禦強化(EDef)",
+        "zhCN": "%+d%% 强化防御(EDef)",
         "sgCN": "%+d%% 强化防御(EDef)",
         "sgTW": "%+d%% 防禦強化(EDef)"
     },
-    "ModStr2w": {
-        "Key": "ModStr2w",
-        "enUS": "Drain Life %d",
-        "zhCN": "吸取生命 %d",
-        "zhTW": "吸取生命 %d",
-        "sgCN": "抽取生命 %d",
-        "sgTW": "吸取生命 %d"
-    },
-    "ModStr2x": {
-        "Key": "ModStr2x",
-        "enUS": "Drain Mana",
-        "zhCN": "吸取法力",
-        "zhTW": "吸取法力",
-        "sgCN": "抽取法力",
-        "sgTW": "吸取法力"
-    },
     "ModStr2y": {
+        "id": 3523,
         "Key": "ModStr2y",
         "enUS": "ÿc3%d%% Mana stolen per hit(LM)ÿc3",
-        "zhCN": "ÿc3擊中竊取 %d%% 法力(LM)ÿc3",
         "zhTW": "ÿc3擊中竊取 %d%% 法力(LM)ÿc3",
+        "zhCN": "ÿc3%d%% 击中时偷取法力(LM)ÿc3",
         "sgCN": "ÿc3%d%% 击中时偷取法力(LM)ÿc3",
         "sgTW": "ÿc3擊中竊取 %d%% 法力(LM)ÿc3"
     },
     "ModStr2z": {
+        "id": 3524,
         "Key": "ModStr2z",
         "enUS": "ÿcU%d%% Life stolen per hit(LL)ÿc3",
-        "zhCN": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3",
         "zhTW": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3",
+        "zhCN": "ÿcU%d%% 击中时偷取生命(LL)ÿc3",
         "sgCN": "ÿcU%d%% 击中时偷取生命(LL)ÿc3",
         "sgTW": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3"
     },
     "ModStr3a": {
+        "id": 3525,
         "Key": "ModStr3a",
         "enUS": "ÿc8%+d to Amazon Skill Levels(AMA)ÿc3",
-        "zhCN": "ÿc8%+d 亞馬遜技能等級(AMA)ÿc3",
         "zhTW": "ÿc8%+d 亞馬遜技能等級(AMA)ÿc3",
+        "zhCN": "ÿc8%+d 亚马逊技能等级(AMA)ÿc3",
         "sgCN": "ÿc8%+d 亚马逊技能等级(AMA)ÿc3",
         "sgTW": "ÿc8%+d 亞馬遜技能等級(AMA)ÿc3"
     },
     "ModStr3b": {
+        "id": 3526,
         "Key": "ModStr3b",
         "enUS": "ÿc8%+d to Paladin Skill Levels(PAL)ÿc3",
-        "zhCN": "ÿc8%+d 聖騎士技能等級(PAL)ÿc3",
         "zhTW": "ÿc8%+d 聖騎士技能等級(PAL)ÿc3",
+        "zhCN": "ÿc8%+d 圣骑士技能等级(PAL)ÿc3",
         "sgCN": "ÿc8%+d 圣骑士技能等级(PAL)ÿc3",
         "sgTW": "ÿc8%+d 聖騎士技能等級(PAL)ÿc3"
     },
     "ModStr3c": {
+        "id": 3527,
         "Key": "ModStr3c",
         "enUS": "ÿc8%+d to Necromancer Skill Levels(NEC)ÿc3",
-        "zhCN": "ÿc8%+d 死靈法師技能等級(NEC)ÿc3",
         "zhTW": "ÿc8%+d 死靈法師技能等級(NEC)ÿc3",
+        "zhCN": "ÿc8%+d 死灵法师技能等级(NEC)ÿc3",
         "sgCN": "ÿc8%+d 死灵法师技能等级(NEC)ÿc3",
         "sgTW": "ÿc8%+d 死靈法師技能等級(NEC)ÿc3"
     },
     "ModStr3d": {
+        "id": 3528,
         "Key": "ModStr3d",
         "enUS": "ÿc8%+d to Sorceress Skill Levels(SOR)ÿc3",
-        "zhCN": "ÿc8%+d 魔法使技能等級(SOR)ÿc3",
         "zhTW": "ÿc8%+d 魔法使技能等級(SOR)ÿc3",
+        "zhCN": "ÿc8%+d 巫师技能等级(SOR)ÿc3",
         "sgCN": "ÿc8%+d 巫师技能等级(SOR)ÿc3",
         "sgTW": "ÿc8%+d 魔法使技能等級(SOR)ÿc3"
     },
     "ModStr3e": {
+        "id": 3529,
         "Key": "ModStr3e",
         "enUS": "ÿc8%+d to Barbarian Skill Levels(BAR)ÿc3",
-        "zhCN": "ÿc8%+d 野蠻人技能等級(BAR)ÿc3",
         "zhTW": "ÿc8%+d 野蠻人技能等級(BAR)ÿc3",
+        "zhCN": "ÿc8%+d 野蛮人技能等级(BAR)ÿc3",
         "sgCN": "ÿc8%+d 野蛮人技能等级(BAR)ÿc3",
         "sgTW": "ÿc8%+d 野蠻人技能等級(BAR)ÿc3"
     },
     "ModStr3f": {
+        "id": 3530,
         "Key": "ModStr3f",
         "enUS": "%+d to Light Radius(Light Radius)",
-        "zhCN": "照亮範圍(Light Radius) %+d",
         "zhTW": "照亮範圍(Light Radius) %+d",
+        "zhCN": "%+d 照亮范围(Light Radius)",
         "sgCN": "%+d 照亮范围(Light Radius)",
         "sgTW": "照亮範圍(Light Radius) %+d"
     },
     "ModStr3g": {
+        "id": 3531,
         "Key": "ModStr3g",
         "enUS": "%d%% Increased Chance of Blocking(CTB)",
-        "zhCN": "格擋機率提高(CTB) %d%%",
         "zhTW": "格擋機率提高(CTB) %d%%",
+        "zhCN": "%d%% 格挡几率提高(CTB)",
         "sgCN": "%d%% 格挡几率提高(CTB)",
         "sgTW": "格擋機率提高(CTB) %d%%"
     },
     "ModStr3h": {
+        "id": 3532,
         "Key": "ModStr3h",
         "enUS": "Requirements(REQ) %+d%%",
-        "zhCN": "需求(REQ) %+d%%",
         "zhTW": "需求(REQ) %+d%%",
+        "zhCN": "需求(REQ) %+d%%",
         "sgCN": "需求(REQ) %+d%%",
         "sgTW": "需求(REQ) %+d%%"
     },
     "ModStr3i": {
+        "id": 3533,
         "Key": "ModStr3i",
         "enUS": "ÿc8%+d to Fire Skillsÿc3",
-        "zhCN": "ÿc8%+d 火焰技能ÿc3",
         "zhTW": "ÿc8%+d 火焰技能ÿc3",
+        "zhCN": "ÿc8%+d 火焰技能ÿc3",
         "sgCN": "ÿc8%+d 火焰技能ÿc3",
         "sgTW": "ÿc8%+d 火焰技能ÿc3"
     },
-    "ModStr3j": {
-        "Key": "ModStr3j",
-        "enUS": "Attacker Takes Lightning Damage of %d",
-        "zhCN": "攻擊者受到 %d 點電擊傷害",
-        "zhTW": "攻擊者受到 %d 點電擊傷害",
-        "sgCN": "攻击者受到 %d 点闪电伤害",
-        "sgTW": "攻擊者受到 %d 點電擊傷害"
-    },
     "ModStr3k": {
+        "id": 3535,
         "Key": "ModStr3k",
         "enUS": "ÿc8%+d to All Skills(All Skills)ÿc3",
-        "zhCN": "ÿc8%+d 所有技能(All Skills)ÿc3",
         "zhTW": "ÿc8%+d 所有技能(All Skills)ÿc3",
+        "zhCN": "ÿc8%+d 所有技能(All Skills)ÿc3",
         "sgCN": "ÿc8%+d 所有技能(All Skills)ÿc3",
         "sgTW": "ÿc8%+d 所有技能(All Skills)ÿc3"
     },
     "ModStr3l": {
+        "id": 3536,
         "Key": "ModStr3l",
         "enUS": "Freezes target(FT)",
-        "zhCN": "凍結目標(FT)",
         "zhTW": "凍結目標(FT)",
+        "zhCN": "冻结目标(FT)",
         "sgCN": "冻结目标(FT)",
         "sgTW": "凍結目標(FT)"
     },
     "ModStr3m": {
+        "id": 3537,
         "Key": "ModStr3m",
         "enUS": "%+d%% Chance of Open Wounds(OW)",
-        "zhCN": "%+d%% 機率造成開放傷口(OW)",
         "zhTW": "%+d%% 機率造成開放傷口(OW)",
+        "zhCN": "%+d%% 几率造成开创性伤口(OW)",
         "sgCN": "%+d%% 几率造成开创性伤口(OW)",
         "sgTW": "%+d%% 機率造成開放傷口(OW)"
     },
-    "ModStr3n": {
-        "Key": "ModStr3n",
-        "enUS": "Invisibility",
-        "zhCN": "隱形",
-        "zhTW": "隱形",
-        "sgCN": "隐形",
-        "sgTW": "隱形"
-    },
-    "ModStr3o": {
-        "Key": "ModStr3o",
-        "enUS": "Neutral Invisibility",
-        "zhCN": "天生隱形",
-        "zhTW": "天生隱形",
-        "sgCN": "中立隐形",
-        "sgTW": "天生隱形"
-    },
-    "ModStr3p": {
-        "Key": "ModStr3p",
-        "enUS": "No Mana Healing",
-        "zhCN": "無法力治療",
-        "zhTW": "無法力治療",
-        "sgCN": "无魔法治愈",
-        "sgTW": "無法力治療"
-    },
-    "ModStr3q": {
-        "Key": "ModStr3q",
-        "enUS": "No Life Healing",
-        "zhCN": "無生命治療",
-        "zhTW": "無生命治療",
-        "sgCN": "无生命治愈",
-        "sgTW": "無生命治療"
-    },
     "ModStr3r": {
+        "id": 3542,
         "Key": "ModStr3r",
         "enUS": "Poison Length Reduced by(PLR) %d%%",
-        "zhCN": "中毒的時效縮短(PLR) %d%%",
         "zhTW": "中毒的時效縮短(PLR) %d%%",
+        "zhCN": "中毒时间缩短(PLR) %d%%",
         "sgCN": "中毒时间缩短(PLR) %d%%",
         "sgTW": "中毒的時效縮短(PLR) %d%%"
     },
     "ModStr3v": {
+        "id": 3544,
         "Key": "ModStr3v",
         "enUS": "Heal Stamina Plus(Heal STA) %d%%",
-        "zhCN": "精力恢復(Heal STA) +%d%%",
         "zhTW": "精力恢復(Heal STA) +%d%%",
+        "zhCN": "治愈耐力外加(Heal STA) %d%%",
         "sgCN": "治愈耐力外加(Heal STA) %d%%",
         "sgTW": "精力恢復(Heal STA) +%d%%"
     },
     "ModStr3w": {
+        "id": 3545,
         "Key": "ModStr3w",
         "enUS": "%+d%% Damage Taken Goes To Mana(DTM)",
-        "zhCN": "%+d%% 受到的傷害轉為法力(DTM)",
         "zhTW": "%+d%% 受到的傷害轉為法力(DTM)",
+        "zhCN": "%+d%% 受到的伤害转换为法力(DTM)",
         "sgCN": "%+d%% 受到的伤害转换为法力(DTM)",
         "sgTW": "%+d%% 受到的傷害轉為法力(DTM)"
     },
-    "ModStr3x": {
-        "Key": "ModStr3x",
-        "enUS": "Heal Life Plus",
-        "zhCN": "回復生命加",
-        "zhTW": "回復生命加",
-        "sgCN": "治愈生命外加",
-        "sgTW": "回復生命加"
-    },
     "ModStr3y": {
+        "id": 3547,
         "Key": "ModStr3y",
         "enUS": "Ignore Target's Defense(ITD)",
-        "zhCN": "無視目標防禦(ITD)",
         "zhTW": "無視目標防禦(ITD)",
+        "zhCN": "忽略目标的防御(ITD)",
         "sgCN": "忽略目标的防御(ITD)",
         "sgTW": "無視目標防禦(ITD)"
     },
     "ModStr3z": {
+        "id": 3548,
         "Key": "ModStr3z",
         "enUS": "Half Poison Duration(HPD)",
-        "zhCN": "中毒的時效減半(HPD)",
         "zhTW": "中毒的時效減半(HPD)",
+        "zhCN": "中毒时间减半(HPD)",
         "sgCN": "中毒时间减半(HPD)",
         "sgTW": "中毒的時效減半(HPD)"
     },
     "ModStr4a": {
+        "id": 3549,
         "Key": "ModStr4a",
         "enUS": "Prevent Monster Heal(PMH)",
-        "zhCN": "防止怪物自療(PMH)",
         "zhTW": "防止怪物自療(PMH)",
+        "zhCN": "防止怪物治愈(PMH)",
         "sgCN": "防止怪物治愈(PMH)",
         "sgTW": "防止怪物自療(PMH)"
     },
     "ModStr4b": {
+        "id": 3550,
         "Key": "ModStr4b",
         "enUS": "Half Freeze Duration(HFD)",
-        "zhCN": "被凍結的時效減半(HFD)",
         "zhTW": "被凍結的時效減半(HFD)",
+        "zhCN": "冻结时间减半(HFD)",
         "sgCN": "冻结时间减半(HFD)",
         "sgTW": "被凍結的時效減半(HFD)"
     },
-    "ModStr4d": {
-        "Key": "ModStr4d",
-        "enUS": "%d to Monster Defense Per Hit",
-        "zhCN": "擊中使怪物防禦 %d",
-        "zhTW": "擊中使怪物防禦 %d",
-        "sgCN": "%d 每一击降低的怪物防御",
-        "sgTW": "擊中使怪物防禦 %d"
-    },
     "ModStr4e": {
+        "id": 3553,
         "Key": "ModStr4e",
         "enUS": "%+d%% Damage to Demons(DTD)",
-        "zhCN": "%+d%% 對惡魔的傷害(DTD)",
         "zhTW": "%+d%% 對惡魔的傷害(DTD)",
+        "zhCN": "%+d%% 对恶魔的伤害(DTD)",
         "sgCN": "%+d%% 对恶魔的伤害(DTD)",
         "sgTW": "%+d%% 對惡魔的傷害(DTD)"
     },
     "ModStr4f": {
+        "id": 3554,
         "Key": "ModStr4f",
         "enUS": "%+d%% Damage to Undead(DTU)",
-        "zhCN": "%+d%% 對不死怪物的傷害(DTU)",
         "zhTW": "%+d%% 對不死怪物的傷害(DTU)",
+        "zhCN": "%+d%% 对亡灵的伤害(DTU)",
         "sgCN": "%+d%% 对亡灵的伤害(DTU)",
         "sgTW": "%+d%% 對不死怪物的傷害(DTU)"
     },
     "ModStr4g": {
+        "id": 3555,
         "Key": "ModStr4g",
         "enUS": "Regenerate Mana(Reg Mana) %d%%",
-        "zhCN": "法力恢復(Reg Mana) %d%%",
         "zhTW": "法力恢復(Reg Mana) %d%%",
+        "zhCN": "%d%% 法力回复(Reg Mana)",
         "sgCN": "%d%% 法力回复(Reg Mana)",
         "sgTW": "法力恢復(Reg Mana) %d%%"
     },
     "ModStr4h": {
+        "id": 3556,
         "Key": "ModStr4h",
         "enUS": "%+d to Maximum Poison Damage(Max PD)",
-        "zhCN": "%+d 毒素傷害最大值(Max PD)",
         "zhTW": "%+d 毒素傷害最大值(Max PD)",
+        "zhCN": "%+d 最大毒素伤害(Max PD)",
         "sgCN": "%+d 最大毒素伤害(Max PD)",
         "sgTW": "%+d 毒素傷害最大值(Max PD)"
     },
     "ModStr4i": {
+        "id": 3557,
         "Key": "ModStr4i",
         "enUS": "%+d to Minimum Poison Damage(Min PD)",
-        "zhCN": "%+d 毒素傷害最小值(Min PD)",
         "zhTW": "%+d 毒素傷害最小值(Min PD)",
+        "zhCN": "%+d 最小毒素伤害(Min PD)",
         "sgCN": "%+d 最小毒素伤害(Min PD)",
         "sgTW": "%+d 毒素傷害最小值(Min PD)"
     },
     "ModStr4j": {
+        "id": 3558,
         "Key": "ModStr4j",
         "enUS": "%+d to Attack Rating against Demons(ARD)",
-        "zhCN": "%+d 對惡魔的準確率(ARD)",
         "zhTW": "%+d 對惡魔的準確率(ARD)",
+        "zhCN": "%+d 对恶魔的命中值(ARD)",
         "sgCN": "%+d 对恶魔的命中值(ARD)",
         "sgTW": "%+d 對惡魔的準確率(ARD)"
     },
     "ModStr4k": {
+        "id": 3559,
         "Key": "ModStr4k",
         "enUS": "%+d to Attack Rating against Undead(ARU)",
-        "zhCN": "%+d 對不死怪物的準確率(ARU)",
         "zhTW": "%+d 對不死怪物的準確率(ARU)",
+        "zhCN": "%+d 对亡灵的命中值(ARU)",
         "sgCN": "%+d 对亡灵的命中值(ARU)",
         "sgTW": "%+d 對不死怪物的準確率(ARU)"
     },
     "ModStr4l": {
+        "id": 3560,
         "Key": "ModStr4l",
         "enUS": "ÿc;Slightly Increased Attack Speed(IAS)ÿc3",
-        "zhCN": "ÿc;小幅攻擊速度提高(IAS)ÿc3",
         "zhTW": "ÿc;小幅攻擊速度提高(IAS)ÿc3",
+        "zhCN": "ÿc;轻微提升攻击速度(IAS)ÿc3",
         "sgCN": "ÿc;轻微提升攻击速度(IAS)ÿc3",
         "sgTW": "ÿc;小幅攻擊速度提高(IAS)ÿc3"
     },
     "ModStr4m": {
+        "id": 3561,
         "Key": "ModStr4m",
         "enUS": "ÿc;%+d%% Increased Attack Speed(IAS)ÿc3",
-        "zhCN": "ÿc;攻擊速度(IAS) %+d%%ÿc3",
         "zhTW": "ÿc;攻擊速度(IAS) %+d%%ÿc3",
+        "zhCN": "ÿc;%+d%% 提高攻击速度(IAS)ÿc3",
         "sgCN": "ÿc;%+d%% 提高攻击速度(IAS)ÿc3",
         "sgTW": "ÿc;攻擊速度(IAS) %+d%%ÿc3"
     },
     "ModStr4n": {
+        "id": 3562,
         "Key": "ModStr4n",
         "enUS": "ÿc;Greatly Increased Attack Speed(IAS)ÿc3",
-        "zhCN": "ÿc;大幅攻擊速度提高(IAS)ÿc3",
         "zhTW": "ÿc;大幅攻擊速度提高(IAS)ÿc3",
+        "zhCN": "ÿc;大幅提高攻击速度(IAS)ÿc3",
         "sgCN": "ÿc;大幅提高攻击速度(IAS)ÿc3",
         "sgTW": "ÿc;大幅攻擊速度提高(IAS)ÿc3"
     },
     "ModStr4o": {
+        "id": 3563,
         "Key": "ModStr4o",
         "enUS": "Fast Hit Recovery(FHR)",
-        "zhCN": "快速的打擊恢復(FHR)",
         "zhTW": "快速的打擊恢復(FHR)",
+        "zhCN": "快速打击回复(FHR)",
         "sgCN": "快速打击回复(FHR)",
         "sgTW": "快速的打擊恢復(FHR)"
     },
     "ModStr4p": {
+        "id": 3564,
         "Key": "ModStr4p",
         "enUS": "%+d%% Faster Hit Recovery(FHR)",
-        "zhCN": "%+d%% 打擊恢復(FHR)",
         "zhTW": "%+d%% 打擊恢復(FHR)",
+        "zhCN": "%+d%% 更快速打击回复(FHR)",
         "sgCN": "%+d%% 更快速打击回复(FHR)",
         "sgTW": "%+d%% 打擊恢復(FHR)"
     },
     "ModStr4q": {
+        "id": 3565,
         "Key": "ModStr4q",
         "enUS": "Fastest Hit Recovery(FHR)",
-        "zhCN": "最快的打擊恢復(FHR)",
         "zhTW": "最快的打擊恢復(FHR)",
+        "zhCN": "最快速打击回复(FHR)",
         "sgCN": "最快速打击回复(FHR)",
         "sgTW": "最快的打擊恢復(FHR)"
     },
     "ModStr4r": {
+        "id": 3566,
         "Key": "ModStr4r",
         "enUS": "Fast Run/Walk(FRW)",
-        "zhCN": "快速的跑步 / 行走速度(FRW)",
         "zhTW": "快速的跑步 / 行走速度(FRW)",
+        "zhCN": "跑步/步行(FRW)",
         "sgCN": "跑步/步行(FRW)",
         "sgTW": "快速的跑步 / 行走速度(FRW)"
     },
     "ModStr4s": {
+        "id": 3567,
         "Key": "ModStr4s",
         "enUS": "ÿc;%+d%% Faster Run/Walk(FRW)ÿc3",
-        "zhCN": "ÿc;%+d%% 跑步 / 行走速度(FRW)ÿc3",
         "zhTW": "ÿc;%+d%% 跑步 / 行走速度(FRW)ÿc3",
+        "zhCN": "ÿc;%+d%% 更快速跑步/步行(FRW)ÿc3",
         "sgCN": "ÿc;%+d%% 更快速跑步/步行(FRW)ÿc3",
         "sgTW": "ÿc;%+d%% 跑步 / 行走速度(FRW)ÿc3"
     },
     "ModStr4t": {
+        "id": 3568,
         "Key": "ModStr4t",
         "enUS": "ÿc;Fastest Run/Walk(FRW)ÿc3",
-        "zhCN": "ÿc;最快的跑步 / 行走速度(FRW)ÿc3",
         "zhTW": "ÿc;最快的跑步 / 行走速度(FRW)ÿc3",
+        "zhCN": "ÿc;最快速跑步/步行(FRW)ÿc3",
         "sgCN": "ÿc;最快速跑步/步行(FRW)ÿc3",
         "sgTW": "ÿc;最快的跑步 / 行走速度(FRW)ÿc3"
     },
     "ModStr4u": {
+        "id": 3569,
         "Key": "ModStr4u",
         "enUS": "Fast Cast Rate(FCR)",
-        "zhCN": "快速的施法速度(FCR)",
         "zhTW": "快速的施法速度(FCR)",
+        "zhCN": "快速施法(FCR)",
         "sgCN": "快速施法(FCR)",
         "sgTW": "快速的施法速度(FCR)"
     },
     "ModStr4v": {
+        "id": 3570,
         "Key": "ModStr4v",
         "enUS": "ÿc;%+d%% Faster Cast Rate(FCR)ÿc3",
-        "zhCN": "ÿc;%+d%% 施法速度(FCR)ÿc3",
         "zhTW": "ÿc;%+d%% 施法速度(FCR)ÿc3",
+        "zhCN": "ÿc;%+d%% 更快速施法(FCR)ÿc3",
         "sgCN": "ÿc;%+d%% 更快速施法(FCR)ÿc3",
         "sgTW": "ÿc;%+d%% 施法速度(FCR)ÿc3"
     },
     "ModStr4w": {
+        "id": 3571,
         "Key": "ModStr4w",
         "enUS": "Fastest Cast Rate(FCR)",
-        "zhCN": "最快的施法速度(FCR)",
         "zhTW": "最快的施法速度(FCR)",
+        "zhCN": "最快速施法(FCR)",
         "sgCN": "最快速施法(FCR)",
         "sgTW": "最快的施法速度(FCR)"
     },
     "ModStr4x": {
+        "id": 3572,
         "Key": "ModStr4x",
         "enUS": "Fast Block Rate(FBR)",
-        "zhCN": "快速的格擋速度(FBR)",
         "zhTW": "快速的格擋速度(FBR)",
+        "zhCN": "快速格挡(FBR)",
         "sgCN": "快速格挡(FBR)",
         "sgTW": "快速的格擋速度(FBR)"
     },
     "ModStr4y": {
+        "id": 3573,
         "Key": "ModStr4y",
         "enUS": "%+d%% Faster Block Rate(FBR)",
-        "zhCN": "%+d%% 格擋速度(FBR)",
         "zhTW": "%+d%% 格擋速度(FBR)",
+        "zhCN": "%+d%% 更快速格挡(FBR)",
         "sgCN": "%+d%% 更快速格挡(FBR)",
         "sgTW": "%+d%% 格擋速度(FBR)"
     },
     "ModStr4z": {
+        "id": 3574,
         "Key": "ModStr4z",
         "enUS": "Fastest Block Rate(FBR)",
-        "zhCN": "最快的格擋速度(FBR)",
         "zhTW": "最快的格擋速度(FBR)",
+        "zhCN": "最快速格挡(FBR)",
         "sgCN": "最快速格挡(FBR)",
         "sgTW": "最快的格擋速度(FBR)"
     },
-    "ModStr5a": {
-        "Key": "ModStr5a",
-        "enUS": "Throwable",
-        "zhCN": "可投擲",
-        "zhTW": "可投擲",
-        "sgCN": "可投掷",
-        "sgTW": "可投擲"
-    },
     "ModStr5b": {
+        "id": 3576,
         "Key": "ModStr5b",
         "enUS": "Damage(DMG) %+d",
-        "zhCN": "傷害(DMG) %+d",
         "zhTW": "傷害(DMG) %+d",
+        "zhCN": "伤害(DMG) %+d",
         "sgCN": "伤害(DMG) %+d",
         "sgTW": "傷害(DMG) %+d"
     },
     "ModStr5c": {
+        "id": 3577,
         "Key": "ModStr5c",
         "enUS": "%+d%% Chance of Crushing Blow(CB)",
-        "zhCN": "%+d%% 機率造成粉碎打擊(CB)",
         "zhTW": "%+d%% 機率造成粉碎打擊(CB)",
+        "zhCN": "%+d%% 几率粉碎打击(CB)",
         "sgCN": "%+d%% 几率粉碎打击(CB)",
         "sgTW": "%+d%% 機率造成粉碎打擊(CB)"
     },
-    "ModStr5e": {
-        "Key": "ModStr5e",
-        "enUS": "%+d Kick Damage",
-        "zhCN": "%+d 踢擊傷害",
-        "zhTW": "%+d 踢擊傷害",
-        "sgCN": "%+d 脚踢伤害",
-        "sgTW": "%+d 踢擊傷害"
-    },
     "ModStr5f": {
+        "id": 3580,
         "Key": "ModStr5f",
         "enUS": "%+d to Mana after each Kill(EK)",
-        "zhCN": "%+d 擊殺法力恢復(EK)",
         "zhTW": "%+d 擊殺法力恢復(EK)",
+        "zhCN": "%+d 每次消灭恢复的法力(EK)",
         "sgCN": "%+d 每次消灭恢复的法力(EK)",
         "sgTW": "%+d 擊殺法力恢復(EK)"
     },
     "ModStr5g": {
+        "id": 3581,
         "Key": "ModStr5g",
         "enUS": "Fire Absorb(FA) %+d%%",
-        "zhCN": "火焰吸收(FA) %+d%%",
         "zhTW": "火焰吸收(FA) %+d%%",
+        "zhCN": "火焰伤害吸收(FA) %+d%%",
         "sgCN": "火焰伤害吸收(FA) %+d%%",
         "sgTW": "火焰吸收(FA) %+d%%"
     },
     "ModStr5h": {
+        "id": 3582,
         "Key": "ModStr5h",
         "enUS": "%+d Fire Absorb(FA)",
-        "zhCN": "%+d 火焰吸收(FA)",
         "zhTW": "%+d 火焰吸收(FA)",
+        "zhCN": "%+d 火焰伤害吸收(FA)",
         "sgCN": "%+d 火焰伤害吸收(FA)",
         "sgTW": "%+d 火焰吸收(FA)"
     },
     "ModStr5i": {
+        "id": 3583,
         "Key": "ModStr5i",
         "enUS": "Lightning Absorb(LA) %+d%%",
-        "zhCN": "電擊吸收(LA) %+d%%",
         "zhTW": "電擊吸收(LA) %+d%%",
+        "zhCN": "闪电伤害吸收(LA) %+d%%",
         "sgCN": "闪电伤害吸收(LA) %+d%%",
         "sgTW": "電擊吸收(LA) %+d%%"
     },
     "ModStr5j": {
+        "id": 3584,
         "Key": "ModStr5j",
         "enUS": "%+d Lightning Absorb(LA)",
-        "zhCN": "%+d 電擊吸收(LA)",
         "zhTW": "%+d 電擊吸收(LA)",
+        "zhCN": "%+d 闪电伤害吸收(LA)",
         "sgCN": "%+d 闪电伤害吸收(LA)",
         "sgTW": "%+d 電擊吸收(LA)"
     },
     "ModStr5k": {
+        "id": 3585,
         "Key": "ModStr5k",
         "enUS": "Magic Absorb(MA) %+d%%",
-        "zhCN": "魔法吸收(MA) %+d%%",
         "zhTW": "魔法吸收(MA) %+d%%",
+        "zhCN": "魔法伤害吸收(MA) %+d%%",
         "sgCN": "魔法伤害吸收(MA) %+d%%",
         "sgTW": "魔法吸收(MA) %+d%%"
     },
     "ModStr5l": {
+        "id": 3586,
         "Key": "ModStr5l",
         "enUS": "%+d Magic Absorb(MA)",
-        "zhCN": "%+d 魔法吸收(MA)",
         "zhTW": "%+d 魔法吸收(MA)",
+        "zhCN": "%+d 魔法伤害吸收(MA)",
         "sgCN": "%+d 魔法伤害吸收(MA)",
         "sgTW": "%+d 魔法吸收(MA)"
     },
     "ModStr5m": {
+        "id": 3587,
         "Key": "ModStr5m",
         "enUS": "Cold Absorb(CA) %+d%%",
-        "zhCN": "冰寒吸收(CA) %+d%%",
         "zhTW": "冰寒吸收(CA) %+d%%",
+        "zhCN": "冰霜伤害吸收(CA) %+d%%",
         "sgCN": "冰霜伤害吸收(CA) %+d%%",
         "sgTW": "冰寒吸收(CA) %+d%%"
     },
     "ModStr5n": {
+        "id": 3588,
         "Key": "ModStr5n",
         "enUS": "%+d Cold Absorb(CA)",
-        "zhCN": "%+d 冰寒吸收(CA)",
         "zhTW": "%+d 冰寒吸收(CA)",
+        "zhCN": "%+d 冰霜伤害吸收(CA)",
         "sgCN": "%+d 冰霜伤害吸收(CA)",
         "sgTW": "%+d 冰寒吸收(CA)"
     },
-    "ModStr5o": {
-        "Key": "ModStr5o",
-        "enUS": "-%d%% Target Defense",
-        "zhCN": "-%d%% 目標防禦",
-        "zhTW": "-%d%% 目標防禦",
-        "sgCN": "-%d%% 目标防御",
-        "sgTW": "-%d%% 目標防禦"
-    },
-    "ModStr5p": {
-        "Key": "ModStr5p",
-        "enUS": "Extra Bloody",
-        "zhCN": "額外血腥",
-        "zhTW": "額外血腥",
-        "sgCN": "额外血腥",
-        "sgTW": "額外血腥"
-    },
     "ModStr5q": {
+        "id": 3591,
         "Key": "ModStr5q",
         "enUS": "%+d%% Deadly Strike(DS)",
-        "zhCN": "%+d%% 致命打擊(DS)",
         "zhTW": "%+d%% 致命打擊(DS)",
+        "zhCN": "%+d%% 致死打击(DS)",
         "sgCN": "%+d%% 致死打击(DS)",
         "sgTW": "%+d%% 致命打擊(DS)"
     },
-    "ModStr5s": {
-        "Key": "ModStr5s",
-        "enUS": "Blessed Aim",
-        "zhCN": "精準祝福",
-        "zhTW": "精準祝福",
-        "sgCN": "祝福瞄准",
-        "sgTW": "精準祝福"
-    },
-    "ModStr5t": {
-        "Key": "ModStr5t",
-        "enUS": "Defiance",
-        "zhCN": "反抗",
-        "zhTW": "反抗",
-        "sgCN": "反抗",
-        "sgTW": "反抗"
-    },
     "ModStr5u": {
+        "id": 3595,
         "Key": "ModStr5u",
         "enUS": "%+d%% to Maximum Fire Resist(Max FR)",
-        "zhCN": "火焰抗性上限(Max FR) %+d%%",
         "zhTW": "火焰抗性上限(Max FR) %+d%%",
+        "zhCN": "%+d%% 火焰抗性上限(Max FR)",
         "sgCN": "%+d%% 火焰抗性上限(Max FR)",
         "sgTW": "火焰抗性上限(Max FR) %+d%%"
     },
     "ModStr5v": {
+        "id": 3596,
         "Key": "ModStr5v",
         "enUS": "%+d%% to Maximum Cold Resist(Max CR)",
-        "zhCN": "冰寒抗性上限(Max CR) %+d%%",
         "zhTW": "冰寒抗性上限(Max CR) %+d%%",
+        "zhCN": "%+d%% 冰霜抗性上限(Max CR)",
         "sgCN": "%+d%% 冰霜抗性上限(Max CR)",
         "sgTW": "冰寒抗性上限(Max CR) %+d%%"
     },
     "ModStr5w": {
+        "id": 3597,
         "Key": "ModStr5w",
         "enUS": "%+d%% to Maximum Lightning Resist(Max LR)",
-        "zhCN": "電擊抗性上限(Max LR) %+d%%",
         "zhTW": "電擊抗性上限(Max LR) %+d%%",
+        "zhCN": "%+d%% 闪电抗性上限(Max LR)",
         "sgCN": "%+d%% 闪电抗性上限(Max LR)",
         "sgTW": "電擊抗性上限(Max LR) %+d%%"
     },
     "ModStr5x": {
+        "id": 3598,
         "Key": "ModStr5x",
         "enUS": "%+d%% to Maximum Magic Resist(Max MR)",
-        "zhCN": "魔法抗性上限(Max MR) %+d%%",
         "zhTW": "魔法抗性上限(Max MR) %+d%%",
+        "zhCN": "%+d%% 魔法抗性上限(Max MR)",
         "sgCN": "%+d%% 魔法抗性上限(Max MR)",
         "sgTW": "魔法抗性上限(Max MR) %+d%%"
     },
     "ModStr5y": {
+        "id": 3599,
         "Key": "ModStr5y",
         "enUS": "%+d%% to Maximum Poison Resist(Max PR)",
-        "zhCN": "毒素抗性上限(Max PR) %+d%%",
         "zhTW": "毒素抗性上限(Max PR) %+d%%",
+        "zhCN": "%+d%% 毒素抗性上限(Max PR)",
         "sgCN": "%+d%% 毒素抗性上限(Max PR)",
         "sgTW": "毒素抗性上限(Max PR) %+d%%"
     },
     "ModStr5z": {
+        "id": 3600,
         "Key": "ModStr5z",
         "enUS": "ÿcTCannot Be Frozen(CBF)ÿc3",
-        "zhCN": "ÿcT無法凍結(CBF)ÿc3",
         "zhTW": "ÿcT無法凍結(CBF)ÿc3",
+        "zhCN": "ÿcT无法被冻结(CBF)ÿc3",
         "sgCN": "ÿcT无法被冻结(CBF)ÿc3",
         "sgTW": "ÿcT無法凍結(CBF)ÿc3"
     },
-    "ModStr6a": {
-        "Key": "ModStr6a",
-        "enUS": "%+d Defense vs. Missile",
-        "zhCN": "%+d 對遠程防禦",
-        "zhTW": "%+d 對遠程防禦",
-        "sgCN": "%+d 远程防御",
-        "sgTW": "%+d 對遠程防禦"
-    },
-    "ModStr6b": {
-        "Key": "ModStr6b",
-        "enUS": "%+d Defense vs. Melee",
-        "zhCN": "%+d 對近戰防禦",
-        "zhTW": "%+d 對近戰防禦",
-        "sgCN": "%+d 近战防御",
-        "sgTW": "%+d 對近戰防禦"
-    },
     "ModStr6c": {
+        "id": 3603,
         "Key": "ModStr6c",
         "enUS": "%+d Life after each Demon Kill(DLK)",
-        "zhCN": "%+d 擊殺惡魔生命恢復(DLK)",
         "zhTW": "%+d 擊殺惡魔生命恢復(DLK)",
+        "zhCN": "%+d 每次消灭恶魔恢复的生命(DLK)",
         "sgCN": "%+d 每次消灭恶魔恢复的生命(DLK)",
         "sgTW": "%+d 擊殺惡魔生命恢復(DLK)"
     },
-    "ModStr6g": {
-        "Key": "ModStr6g",
-        "enUS": "%+d%% Piercing Attack",
-        "zhCN": "%+d%% 穿透攻擊",
-        "zhTW": "%+d%% 穿透攻擊",
-        "sgCN": "%+d%% 穿刺攻击",
-        "sgTW": "%+d%% 穿透攻擊"
-    },
-    "ModStr6h": {
-        "Key": "ModStr6h",
-        "enUS": "Fires Magic Arrows",
-        "zhCN": "射出魔法箭矢",
-        "zhTW": "射出魔法箭矢",
-        "sgCN": "射出魔法箭",
-        "sgTW": "射出魔法箭矢"
-    },
-    "ModStr6i": {
-        "Key": "ModStr6i",
-        "enUS": "Fires Explosive Arrows or Bolts",
-        "zhCN": "射出爆炸的弓矢或弩箭",
-        "zhTW": "射出爆炸的弓矢或弩箭",
-        "sgCN": "射出爆炸箭或弩矢",
-        "sgTW": "射出爆炸的弓矢或弩箭"
-    },
-    "improved damage": {
-        "Key": "improved damage",
-        "enUS": "Improved Damage",
-        "zhCN": "加強傷害",
-        "zhTW": "加強傷害",
-        "sgCN": "提高伤害",
-        "sgTW": "加強傷害"
-    },
     "improved to hit": {
+        "id": 3626,
         "Key": "improved to hit",
         "enUS": "Improved Attack Rating(AR)",
-        "zhCN": "加強準確率(AR)",
         "zhTW": "加強準確率(AR)",
+        "zhCN": "提高命中值(AR)",
         "sgCN": "提高命中值(AR)",
         "sgTW": "加強準確率(AR)"
     },
-    "improved armor class": {
-        "Key": "improved armor class",
-        "enUS": "Improved Defense",
-        "zhCN": "加強防禦",
-        "zhTW": "加強防禦",
-        "sgCN": "提高防御",
-        "sgTW": "加強防禦"
-    },
-    "improved durability": {
-        "Key": "improved durability",
-        "enUS": "Improved Durability",
-        "zhCN": "加強耐久度",
-        "zhTW": "加強耐久度",
-        "sgCN": "提高耐久度",
-        "sgTW": "加強耐久度"
-    },
-    "Quick Strike": {
-        "Key": "Quick Strike",
-        "enUS": "Quick Strike",
-        "zhCN": "快速攻擊",
-        "zhTW": "快速攻擊",
-        "sgCN": "快速打击",
-        "sgTW": "快速攻擊"
-    },
-    "strGemPlace1": {
-        "Key": "strGemPlace1",
-        "enUS": "Can Be Inserted in Socketed",
-        "zhCN": "可以放入有鑲孔的",
-        "zhTW": "可以放入有鑲孔的",
-        "sgCN": "可以插入镶孔中",
-        "sgTW": "可以放入有鑲孔的"
-    },
-    "strGemPlace2": {
-        "Key": "strGemPlace2",
-        "enUS": "Weapons, Shields or Helms",
-        "zhCN": "武器、盾牌或頭盔",
-        "zhTW": "武器、盾牌或頭盔",
-        "sgCN": "武器，盾牌或头盔",
-        "sgTW": "武器、盾牌或頭盔"
-    },
-    "WeaponDescMace": {
-        "Key": "WeaponDescMace",
-        "enUS": "Mace Class - %s",
-        "zhCN": "釘鎚類武器 - %s",
-        "zhTW": "釘鎚類武器 - %s",
-        "sgCN": "锤类 - %s",
-        "sgTW": "釘鎚類武器 - %s"
-    },
-    "WeaponDescAxe": {
-        "Key": "WeaponDescAxe",
-        "enUS": "Axe Class - %s",
-        "zhCN": "斧頭類武器 - %s",
-        "zhTW": "斧頭類武器 - %s",
-        "sgCN": "斧类 - %s",
-        "sgTW": "斧頭類武器 - %s"
-    },
-    "WeaponDescSword - %s": {
-        "Key": "WeaponDescSword - %s",
-        "enUS": "Sword Class - %s",
-        "zhCN": "刀劍類武器 - %s",
-        "zhTW": "刀劍類武器 - %s",
-        "sgCN": "剑类 - %s",
-        "sgTW": "刀劍類武器 - %s"
-    },
-    "WeaponDescDagger": {
-        "Key": "WeaponDescDagger",
-        "enUS": "Dagger Class - %s",
-        "zhCN": "匕首類武器 - %s",
-        "zhTW": "匕首類武器 - %s",
-        "sgCN": "匕首类 - %s",
-        "sgTW": "匕首類武器 - %s"
-    },
-    "WeaponDescJavelin": {
-        "Key": "WeaponDescJavelin",
-        "enUS": "Javelin Class - %s",
-        "zhCN": "標槍類武器 - %s",
-        "zhTW": "標槍類武器 - %s",
-        "sgCN": "标枪类 - %s",
-        "sgTW": "標槍類武器 - %s"
-    },
-    "WeaponDescSpear": {
-        "Key": "WeaponDescSpear",
-        "enUS": "Spear Class - %s",
-        "zhCN": "長矛類武器 - %s",
-        "zhTW": "長矛類武器 - %s",
-        "sgCN": "矛类 - %s",
-        "sgTW": "長矛類武器 - %s"
-    },
-    "WeaponDescBow": {
-        "Key": "WeaponDescBow",
-        "enUS": "Bow Class - %s",
-        "zhCN": "弓類武器 - %s",
-        "zhTW": "弓類武器 - %s",
-        "sgCN": "弓类 - %s",
-        "sgTW": "弓類武器 - %s"
-    },
-    "WeaponDescStaff": {
-        "Key": "WeaponDescStaff",
-        "enUS": "Staff Class - %s",
-        "zhCN": "法杖類武器 - %s",
-        "zhTW": "法杖類武器 - %s",
-        "sgCN": "法杖类 - %s",
-        "sgTW": "法杖類武器 - %s"
-    },
-    "WeaponDescPoleArm": {
-        "Key": "WeaponDescPoleArm",
-        "enUS": "Polearm Class - %s",
-        "zhCN": "長柄類武器 - %s",
-        "zhTW": "長柄類武器 - %s",
-        "sgCN": "长柄类 - %s",
-        "sgTW": "長柄類武器 - %s"
-    },
-    "WeaponDescCrossBow": {
-        "Key": "WeaponDescCrossBow",
-        "enUS": "Crossbow Class - %s",
-        "zhCN": "弩類武器 - %s",
-        "zhTW": "弩類武器 - %s",
-        "sgCN": "弩类 - %s",
-        "sgTW": "弩類武器 - %s"
-    },
-    "WeaponAttackFastest": {
-        "Key": "WeaponAttackFastest",
-        "enUS": "Fastest Attack Speed",
-        "zhCN": "最快的攻擊速度",
-        "zhTW": "最快的攻擊速度",
-        "sgCN": "攻击速度 - 最快",
-        "sgTW": "最快的攻擊速度"
-    },
-    "WeaponAttackVeryFast": {
-        "Key": "WeaponAttackVeryFast",
-        "enUS": "Very Fast Attack Speed",
-        "zhCN": "極快的攻擊速度",
-        "zhTW": "極快的攻擊速度",
-        "sgCN": "攻击速度 - 非常快",
-        "sgTW": "極快的攻擊速度"
-    },
-    "WeaponAttackFast": {
-        "Key": "WeaponAttackFast",
-        "enUS": "Fast Attack Speed",
-        "zhCN": "快速的攻擊速度",
-        "zhTW": "快速的攻擊速度",
-        "sgCN": "攻击速度 - 快速",
-        "sgTW": "快速的攻擊速度"
-    },
-    "WeaponAttackNormal": {
-        "Key": "WeaponAttackNormal",
-        "enUS": "Normal Attack Speed",
-        "zhCN": "一般的攻擊速度",
-        "zhTW": "一般的攻擊速度",
-        "sgCN": "攻击速度 - 正常",
-        "sgTW": "一般的攻擊速度"
-    },
-    "WeaponAttackSlow": {
-        "Key": "WeaponAttackSlow",
-        "enUS": "Slow Attack Speed",
-        "zhCN": "緩慢的攻擊速度",
-        "zhTW": "緩慢的攻擊速度",
-        "sgCN": "攻击速度 - 慢速",
-        "sgTW": "緩慢的攻擊速度"
-    },
-    "WeaponAttackVerySlow": {
-        "Key": "WeaponAttackVerySlow",
-        "enUS": "Very Slow Attack Speed",
-        "zhCN": "極慢的攻擊速度",
-        "zhTW": "極慢的攻擊速度",
-        "sgCN": "攻击速度 - 非常慢",
-        "sgTW": "極慢的攻擊速度"
-    },
-    "WeaponAttackSlowest": {
-        "Key": "WeaponAttackSlowest",
-        "enUS": "Slowest Attack Speed",
-        "zhCN": "最慢的攻擊速度",
-        "zhTW": "最慢的攻擊速度",
-        "sgCN": "攻击速度 - 最慢",
-        "sgTW": "最慢的攻擊速度"
-    },
     "ModStr5d": {
+        "id": 10001,
         "Key": "ModStr5d",
         "enUS": "%+d Maximum Stamina(Max STA)",
-        "zhCN": "%+d 精力上限(Max STA)",
         "zhTW": "%+d 精力上限(Max STA)",
+        "zhCN": "%+d 最大耐力(Max STA)",
         "sgCN": "%+d 最大耐力(Max STA)",
         "sgTW": "%+d 精力上限(Max STA)"
     },
-    "ModStr6e": {
-        "Key": "ModStr6e",
-        "enUS": "%d%% Slower Stamina Drain",
-        "zhCN": "精力消耗減緩 %d%%",
-        "zhTW": "精力消耗減緩 %d%%",
-        "sgCN": "%d%% 降低耐力消耗",
-        "sgTW": "精力消耗減緩 %d%%"
-    },
     "strModEnhancedDamage": {
+        "id": 10023,
         "Key": "strModEnhancedDamage",
         "enUS": "ÿcU%+d%% Enhanced Damage(EDmg)ÿc3",
-        "zhCN": "ÿcU%+d%% 傷害強化(EDmg)ÿc3",
         "zhTW": "ÿcU%+d%% 傷害強化(EDmg)ÿc3",
+        "zhCN": "ÿcU%+d%% 强化伤害(EDmg)ÿc3",
         "sgCN": "ÿcU%+d%% 强化伤害(EDmg)ÿc3",
         "sgTW": "ÿcU%+d%% 傷害強化(EDmg)ÿc3"
     },
     "strModAllResistances": {
+        "id": 10024,
         "Key": "strModAllResistances",
         "enUS": "ÿcOAll Resistances(RES) %+dÿc3",
-        "zhCN": "ÿcO所有抗性(RES) %+dÿc3",
         "zhTW": "ÿcO所有抗性(RES) %+dÿc3",
+        "zhCN": "ÿcO%+d 所有抗性(RES)ÿc3",
         "sgCN": "ÿcO%+d 所有抗性(RES)ÿc3",
         "sgTW": "ÿcO所有抗性(RES) %+dÿc3"
     },
     "strModAllSkillLevels": {
+        "id": 10025,
         "Key": "strModAllSkillLevels",
         "enUS": "ÿc8%+d to All Skill Levels(All Skill)ÿc3",
-        "zhCN": "ÿc8%+d 所有技能等級(All Skill)ÿc3",
         "zhTW": "ÿc8%+d 所有技能等級(All Skill)ÿc3",
+        "zhCN": "ÿc8%+d 所有技能等级(All Skill)ÿc3",
         "sgCN": "ÿc8%+d 所有技能等级(All Skill)ÿc3",
         "sgTW": "ÿc8%+d 所有技能等級(All Skill)ÿc3"
     },
     "strModFireDamage": {
+        "id": 10026,
         "Key": "strModFireDamage",
         "enUS": "%+d fire damage(FD)",
-        "zhCN": "%+d 火焰傷害(FD)",
         "zhTW": "%+d 火焰傷害(FD)",
+        "zhCN": "%+d 火焰伤害(FD)",
         "sgCN": "%+d 火焰伤害(FD)",
         "sgTW": "%+d 火焰傷害(FD)"
     },
     "strModFireDamageRange": {
+        "id": 10027,
         "Key": "strModFireDamageRange",
         "enUS": "Adds %d-%d fire damage(FD)",
-        "zhCN": "附加 %d - %d 火焰傷害(FD)",
         "zhTW": "附加 %d - %d 火焰傷害(FD)",
+        "zhCN": "+ %d-%d 火焰伤害(FD)",
         "sgCN": "+ %d-%d 火焰伤害(FD)",
         "sgTW": "附加 %d - %d 火焰傷害(FD)"
     },
     "strModColdDamage": {
+        "id": 10028,
         "Key": "strModColdDamage",
         "enUS": "%+d cold damage(CD)",
-        "zhCN": "%+d 冰寒傷害(CD)",
         "zhTW": "%+d 冰寒傷害(CD)",
+        "zhCN": "%+d 冰霜伤害(CD)",
         "sgCN": "%+d 冰霜伤害(CD)",
         "sgTW": "%+d 冰寒傷害(CD)"
     },
     "strModColdDamageRange": {
+        "id": 10029,
         "Key": "strModColdDamageRange",
         "enUS": "Adds %d-%d cold damage(CD)",
-        "zhCN": "附加 %d - %d 冰寒傷害(CD)",
         "zhTW": "附加 %d - %d 冰寒傷害(CD)",
+        "zhCN": "+ %d-%d 冰霜伤害(CD)",
         "sgCN": "+ %d-%d 冰霜伤害(CD)",
         "sgTW": "附加 %d - %d 冰寒傷害(CD)"
     },
     "strModLightningDamage": {
+        "id": 10030,
         "Key": "strModLightningDamage",
         "enUS": "%+d lightning damage(LD)",
-        "zhCN": "%+d 電擊傷害(LD)",
         "zhTW": "%+d 電擊傷害(LD)",
+        "zhCN": "%+d 闪电伤害(LD)",
         "sgCN": "%+d 闪电伤害(LD)",
         "sgTW": "%+d 電擊傷害(LD)"
     },
     "strModLightningDamageRange": {
+        "id": 10031,
         "Key": "strModLightningDamageRange",
         "enUS": "Adds %d-%d lightning damage(LD)",
-        "zhCN": "附加 %d - %d 電擊傷害(LD)",
         "zhTW": "附加 %d - %d 電擊傷害(LD)",
+        "zhCN": "+ %d-%d 闪电伤害(LD)",
         "sgCN": "+ %d-%d 闪电伤害(LD)",
         "sgTW": "附加 %d - %d 電擊傷害(LD)"
     },
     "strModMagicDamage": {
+        "id": 10032,
         "Key": "strModMagicDamage",
         "enUS": "%+d magic damage(MD)",
-        "zhCN": "%+d 魔法傷害(MD)",
         "zhTW": "%+d 魔法傷害(MD)",
+        "zhCN": "%+d 魔法伤害(MD)",
         "sgCN": "%+d 魔法伤害(MD)",
         "sgTW": "%+d 魔法傷害(MD)"
     },
     "strModMagicDamageRange": {
+        "id": 10033,
         "Key": "strModMagicDamageRange",
         "enUS": "Adds %d-%d magic damage(MD)",
-        "zhCN": "附加 %d - %d 魔法傷害(MD)",
         "zhTW": "附加 %d - %d 魔法傷害(MD)",
+        "zhCN": "+ %d-%d 魔法伤害(MD)",
         "sgCN": "+ %d-%d 魔法伤害(MD)",
         "sgTW": "附加 %d - %d 魔法傷害(MD)"
     },
     "strModPoisonDamage": {
+        "id": 10034,
         "Key": "strModPoisonDamage",
         "enUS": "%+d poison damage(PD) over %d seconds",
-        "zhCN": "%+d 毒素傷害(PD)，時效 %d 秒",
         "zhTW": "%+d 毒素傷害(PD)，時效 %d 秒",
+        "zhCN": "%+d 毒素伤害(PD)，持续%d秒",
         "sgCN": "%+d 毒素伤害(PD)，持续%d秒",
         "sgTW": "%+d 毒素傷害(PD)，時效 %d 秒"
     },
     "strModPoisonDamageRange": {
+        "id": 10035,
         "Key": "strModPoisonDamageRange",
         "enUS": "Adds %d-%d poison damage(PD) over %d seconds",
-        "zhCN": "附加 %d - %d 毒素傷害(PD)，時效 %d 秒",
         "zhTW": "附加 %d - %d 毒素傷害(PD)，時效 %d 秒",
+        "zhCN": "+ %d-%d 毒素伤害(PD)，持续%d秒",
         "sgCN": "+ %d-%d 毒素伤害(PD)，持续%d秒",
         "sgTW": "附加 %d - %d 毒素傷害(PD)，時效 %d 秒"
     },
     "strModMinDamage": {
+        "id": 10036,
         "Key": "strModMinDamage",
         "enUS": "%+d damage(DMG)",
-        "zhCN": "%+d 傷害(DMG)",
         "zhTW": "%+d 傷害(DMG)",
+        "zhCN": "%+d 伤害(DMG)",
         "sgCN": "%+d 伤害(DMG)",
         "sgTW": "%+d 傷害(DMG)"
     },
     "strModMinDamageRange": {
+        "id": 10037,
         "Key": "strModMinDamageRange",
         "enUS": "Adds %d-%d damage(DMG)",
-        "zhCN": "附加 %d - %d 傷害(DMG)",
         "zhTW": "附加 %d - %d 傷害(DMG)",
+        "zhCN": "+ %d-%d 伤害",
         "sgCN": "+ %d-%d 伤害",
         "sgTW": "附加 %d - %d 傷害(DMG)"
     },
     "ModStre9j": {
+        "id": 10039,
         "Key": "ModStre9j",
         "enUS": "Fire Damage Reduced by(FDR)",
-        "zhCN": "火焰傷害降低(FDR)",
         "zhTW": "火焰傷害降低(FDR)",
+        "zhCN": "火焰伤害降低(FDR)",
         "sgCN": "火焰伤害降低(FDR)",
         "sgTW": "火焰傷害降低(FDR)"
     },
     "ModStre9k": {
+        "id": 10040,
         "Key": "ModStre9k",
         "enUS": "Cold Damage Reduced by(CDR)",
-        "zhCN": "冰寒傷害降低(CDR)",
         "zhTW": "冰寒傷害降低(CDR)",
+        "zhCN": "冰霜伤害降低(CDR)",
         "sgCN": "冰霜伤害降低(CDR)",
         "sgTW": "冰寒傷害降低(CDR)"
     },
     "ModStre9l": {
+        "id": 10041,
         "Key": "ModStre9l",
         "enUS": "Lightning Damage Reduced by(LDR)",
-        "zhCN": "電擊傷害降低(LDR)",
         "zhTW": "電擊傷害降低(LDR)",
+        "zhCN": "闪电伤害降低(LDR)",
         "sgCN": "闪电伤害降低(LDR)",
         "sgTW": "電擊傷害降低(LDR)"
     },
     "ModStre9m": {
+        "id": 10042,
         "Key": "ModStre9m",
         "enUS": "Poison Damage Reduced by(PDR)",
-        "zhCN": "毒素傷害降低(PDR)",
         "zhTW": "毒素傷害降低(PDR)",
+        "zhCN": "毒素伤害降低(PDR)",
         "sgCN": "毒素伤害降低(PDR)",
         "sgTW": "毒素傷害降低(PDR)"
     },
     "ModStre9n": {
+        "id": 10043,
         "Key": "ModStre9n",
         "enUS": "%+d Absorbs Magic Damage(MDA)",
-        "zhCN": "%+d 魔法傷害吸收(MDA)",
         "zhTW": "%+d 魔法傷害吸收(MDA)",
+        "zhCN": "%+d 吸收魔法伤害(MDA)",
         "sgCN": "%+d 吸收魔法伤害(MDA)",
         "sgTW": "%+d 魔法傷害吸收(MDA)"
     },
     "ModStre9o": {
+        "id": 10044,
         "Key": "ModStre9o",
         "enUS": "%+d Absorbs Fire Damage(FDA)",
-        "zhCN": "%+d 火焰傷害吸收(FDA)",
         "zhTW": "%+d 火焰傷害吸收(FDA)",
+        "zhCN": "%+d 吸收火焰伤害(FDA)",
         "sgCN": "%+d 吸收火焰伤害(FDA)",
         "sgTW": "%+d 火焰傷害吸收(FDA)"
     },
     "ModStre9p": {
+        "id": 10045,
         "Key": "ModStre9p",
         "enUS": "%+d Absorbs Cold Damage(CDA)",
-        "zhCN": "%+d 冰寒傷害吸收(CDA)",
         "zhTW": "%+d 冰寒傷害吸收(CDA)",
+        "zhCN": "%+d 吸收冰霜伤害(CDA)",
         "sgCN": "%+d 吸收冰霜伤害(CDA)",
         "sgTW": "%+d 冰寒傷害吸收(CDA)"
     },
     "ModStre9q": {
+        "id": 10046,
         "Key": "ModStre9q",
         "enUS": "%+d Absorbs Lightning Damage(LDA)",
-        "zhCN": "%+d 電擊傷害吸收(LDA)",
         "zhTW": "%+d 電擊傷害吸收(LDA)",
+        "zhCN": "%+d 吸收闪电伤害(LDA)",
         "sgCN": "%+d 吸收闪电伤害(LDA)",
         "sgTW": "%+d 電擊傷害吸收(LDA)"
     },
     "ModStre9r": {
+        "id": 10047,
         "Key": "ModStre9r",
         "enUS": "%+d Absorbs Poison Damage(PDA)",
-        "zhCN": "%+d 毒素傷害吸收(PDA)",
         "zhTW": "%+d 毒素傷害吸收(PDA)",
+        "zhCN": "%+d 吸收毒素伤害(PDA)",
         "sgCN": "%+d 吸收毒素伤害(PDA)",
         "sgTW": "%+d 毒素傷害吸收(PDA)"
     },
     "StrSklTabItem1": {
+        "id": 10054,
         "Key": "StrSklTabItem1",
         "enUS": "ÿc8%+d to Javelin and Spear Skillsÿc3",
-        "zhCN": "ÿc8%+d 標槍與長矛技能ÿc3",
         "zhTW": "ÿc8%+d 標槍與長矛技能ÿc3",
+        "zhCN": "ÿc8%+d 标枪和长矛技能ÿc3",
         "sgCN": "ÿc8%+d 标枪和长矛技能ÿc3",
         "sgTW": "ÿc8%+d 標槍與長矛技能ÿc3"
     },
     "StrSklTabItem2": {
+        "id": 10055,
         "Key": "StrSklTabItem2",
         "enUS": "ÿc8%+d to Passive and Magic Skillsÿc3",
-        "zhCN": "ÿc8%+d 被動與魔法技能ÿc3",
         "zhTW": "ÿc8%+d 被動與魔法技能ÿc3",
+        "zhCN": "ÿc8%+d 被动和魔法技能ÿc3",
         "sgCN": "ÿc8%+d 被动和魔法技能ÿc3",
         "sgTW": "ÿc8%+d 被動與魔法技能ÿc3"
     },
     "StrSklTabItem3": {
+        "id": 10056,
         "Key": "StrSklTabItem3",
         "enUS": "ÿc8%+d to Bow and Crossbow Skillsÿc3",
-        "zhCN": "ÿc8%+d 弓與弩技能ÿc3",
         "zhTW": "ÿc8%+d 弓與弩技能ÿc3",
+        "zhCN": "ÿc8%+d 弓和弩技能ÿc3",
         "sgCN": "ÿc8%+d 弓和弩技能ÿc3",
         "sgTW": "ÿc8%+d 弓與弩技能ÿc3"
     },
     "StrSklTabItem4": {
+        "id": 10057,
         "Key": "StrSklTabItem4",
         "enUS": "ÿc8%+d to Defensive Aurasÿc3",
-        "zhCN": "ÿc8%+d 防禦靈氣ÿc3",
         "zhTW": "ÿc8%+d 防禦靈氣ÿc3",
+        "zhCN": "ÿc8%+d 防御光环ÿc3",
         "sgCN": "ÿc8%+d 防御光环ÿc3",
         "sgTW": "ÿc8%+d 防禦靈氣ÿc3"
     },
     "StrSklTabItem5": {
+        "id": 10058,
         "Key": "StrSklTabItem5",
         "enUS": "ÿc8%+d to Offensive Aurasÿc3",
-        "zhCN": "ÿc8%+d 攻擊靈氣ÿc3",
         "zhTW": "ÿc8%+d 攻擊靈氣ÿc3",
+        "zhCN": "ÿc8%+d 攻击光环ÿc3",
         "sgCN": "ÿc8%+d 攻击光环ÿc3",
         "sgTW": "ÿc8%+d 攻擊靈氣ÿc3"
     },
     "StrSklTabItem6": {
+        "id": 10059,
         "Key": "StrSklTabItem6",
         "enUS": "ÿc8%+d to Combat Skillsÿc3",
-        "zhCN": "ÿc8%+d 戰鬥技能ÿc3",
         "zhTW": "ÿc8%+d 戰鬥技能ÿc3",
+        "zhCN": "ÿc8%+d 战斗技能ÿc3",
         "sgCN": "ÿc8%+d 战斗技能ÿc3",
         "sgTW": "ÿc8%+d 戰鬥技能ÿc3"
     },
     "StrSklTabItem7": {
+        "id": 10061,
         "Key": "StrSklTabItem7",
         "enUS": "ÿc8%+d to Poison and Bone Skillsÿc3",
-        "zhCN": "ÿc8%+d 毒素與骸骨技能ÿc3",
         "zhTW": "ÿc8%+d 毒素與骸骨技能ÿc3",
+        "zhCN": "ÿc8%+d 毒素和白骨术ÿc3",
         "sgCN": "ÿc8%+d 毒素和白骨术ÿc3",
         "sgTW": "ÿc8%+d 毒素與骸骨技能ÿc3"
     },
     "StrSklTabItem8": {
+        "id": 10062,
         "Key": "StrSklTabItem8",
         "enUS": "ÿc8%+d to Cursesÿc3",
-        "zhCN": "ÿc8%+d 詛咒ÿc3",
         "zhTW": "ÿc8%+d 詛咒ÿc3",
+        "zhCN": "ÿc8%+d 诅咒术ÿc3",
         "sgCN": "ÿc8%+d 诅咒术ÿc3",
         "sgTW": "ÿc8%+d 詛咒ÿc3"
     },
     "StrSklTabItem10": {
+        "id": 10063,
         "Key": "StrSklTabItem10",
         "enUS": "ÿc8%+d to Warcriesÿc3",
-        "zhCN": "ÿc8%+d 戰吼ÿc3",
         "zhTW": "ÿc8%+d 戰吼ÿc3",
+        "zhCN": "ÿc8%+d 呐喊技能ÿc3",
         "sgCN": "ÿc8%+d 呐喊技能ÿc3",
         "sgTW": "ÿc8%+d 戰吼ÿc3"
     },
     "StrSklTabItem11": {
+        "id": 10064,
         "Key": "StrSklTabItem11",
         "enUS": "ÿc8%+d to Combat Skillsÿc3",
-        "zhCN": "ÿc8%+d 戰鬥技能ÿc3",
         "zhTW": "ÿc8%+d 戰鬥技能ÿc3",
+        "zhCN": "ÿc8%+d 战斗技能ÿc3",
         "sgCN": "ÿc8%+d 战斗技能ÿc3",
         "sgTW": "ÿc8%+d 戰鬥技能ÿc3"
     },
     "StrSklTabItem12": {
+        "id": 10065,
         "Key": "StrSklTabItem12",
         "enUS": "ÿc8%+d to Masteriesÿc3",
-        "zhCN": "ÿc8%+d 戰鬥專精ÿc3",
         "zhTW": "ÿc8%+d 戰鬥專精ÿc3",
+        "zhCN": "ÿc8%+d 精通类技能ÿc3",
         "sgCN": "ÿc8%+d 精通类技能ÿc3",
         "sgTW": "ÿc8%+d 戰鬥專精ÿc3"
     },
     "StrSklTabItem13": {
+        "id": 10066,
         "Key": "StrSklTabItem13",
         "enUS": "ÿc8%+d to Cold Skillsÿc3",
-        "zhCN": "ÿc8%+d 冰寒技能ÿc3",
         "zhTW": "ÿc8%+d 冰寒技能ÿc3",
+        "zhCN": "ÿc8%+d 冰系法术ÿc3",
         "sgCN": "ÿc8%+d 冰系法术ÿc3",
         "sgTW": "ÿc8%+d 冰寒技能ÿc3"
     },
     "StrSklTabItem14": {
+        "id": 10067,
         "Key": "StrSklTabItem14",
         "enUS": "ÿc8%+d to Lightning Skillsÿc3",
-        "zhCN": "ÿc8%+d 閃電技能ÿc3",
         "zhTW": "ÿc8%+d 閃電技能ÿc3",
+        "zhCN": "ÿc8%+d 雷系法术ÿc3",
         "sgCN": "ÿc8%+d 雷系法术ÿc3",
         "sgTW": "ÿc8%+d 閃電技能ÿc3"
     },
     "StrSklTabItem15": {
+        "id": 10068,
         "Key": "StrSklTabItem15",
         "enUS": "ÿc8%+d to Fire Skillsÿc3",
-        "zhCN": "ÿc8%+d 火焰技能ÿc3",
         "zhTW": "ÿc8%+d 火焰技能ÿc3",
+        "zhCN": "ÿc8%+d 火系法术ÿc3",
         "sgCN": "ÿc8%+d 火系法术ÿc3",
         "sgTW": "ÿc8%+d 火焰技能ÿc3"
     },
     "StrSklTabItem16": {
+        "id": 10069,
         "Key": "StrSklTabItem16",
         "enUS": "ÿc8%+d to Summoning Skillsÿc3",
-        "zhCN": "ÿc8%+d 召喚技能ÿc3",
         "zhTW": "ÿc8%+d 召喚技能ÿc3",
+        "zhCN": "ÿc8%+d 召唤技能ÿc3",
         "sgCN": "ÿc8%+d 召唤技能ÿc3",
         "sgTW": "ÿc8%+d 召喚技能ÿc3"
     },
     "StrSklTabItem17": {
+        "id": 10070,
         "Key": "StrSklTabItem17",
         "enUS": "ÿc8%+d to Shape Shifting Skillsÿc3",
-        "zhCN": "ÿc8%+d 變形技能ÿc3",
         "zhTW": "ÿc8%+d 變形技能ÿc3",
+        "zhCN": "ÿc8%+d 变形技能ÿc3",
         "sgCN": "ÿc8%+d 变形技能ÿc3",
         "sgTW": "ÿc8%+d 變形技能ÿc3"
     },
     "StrSklTabItem18": {
+        "id": 10071,
         "Key": "StrSklTabItem18",
         "enUS": "ÿc8%+d to Elemental Skillsÿc3",
-        "zhCN": "ÿc8%+d 元素技能ÿc3",
         "zhTW": "ÿc8%+d 元素技能ÿc3",
+        "zhCN": "ÿc8%+d 元素技能ÿc3",
         "sgCN": "ÿc8%+d 元素技能ÿc3",
         "sgTW": "ÿc8%+d 元素技能ÿc3"
     },
     "StrSklTabItem19": {
+        "id": 10072,
         "Key": "StrSklTabItem19",
         "enUS": "ÿc8%+d to Trapsÿc3",
-        "zhCN": "ÿc8%+d 陷阱ÿc3",
         "zhTW": "ÿc8%+d 陷阱ÿc3",
+        "zhCN": "ÿc8%+d 陷阱ÿc3",
         "sgCN": "ÿc8%+d 陷阱ÿc3",
         "sgTW": "ÿc8%+d 陷阱ÿc3"
     },
     "StrSklTabItem20": {
+        "id": 10073,
         "Key": "StrSklTabItem20",
         "enUS": "ÿc8%+d to Shadow Disciplinesÿc3",
-        "zhCN": "ÿc8%+d 暗影修行ÿc3",
         "zhTW": "ÿc8%+d 暗影修行ÿc3",
+        "zhCN": "ÿc8%+d 影身训练ÿc3",
         "sgCN": "ÿc8%+d 影身训练ÿc3",
         "sgTW": "ÿc8%+d 暗影修行ÿc3"
     },
     "StrSklTabItem21": {
+        "id": 10074,
         "Key": "StrSklTabItem21",
         "enUS": "ÿc8%+d to Martial Artsÿc3",
-        "zhCN": "ÿc8%+d 武學技藝ÿc3",
         "zhTW": "ÿc8%+d 武學技藝ÿc3",
+        "zhCN": "ÿc8%+d 武学技艺ÿc3",
         "sgCN": "ÿc8%+d 武学技艺ÿc3",
         "sgTW": "ÿc8%+d 武學技藝ÿc3"
     },
     "AmaOnly": {
+        "id": 10917,
         "Key": "AmaOnly",
         "enUS": "ÿc8(Amazon Only)ÿc3",
-        "zhCN": "ÿc8（只限亞馬遜）ÿc3",
         "zhTW": "ÿc8（只限亞馬遜）ÿc3",
+        "zhCN": "ÿc8(仅限亚马逊)ÿc3",
         "sgCN": "ÿc8(仅限亚马逊)ÿc3",
         "sgTW": "ÿc8（只限亞馬遜）ÿc3"
     },
     "SorOnly": {
+        "id": 10918,
         "Key": "SorOnly",
         "enUS": "ÿc8(Sorceress Only)ÿc3",
-        "zhCN": "ÿc8（只限魔法使）ÿc3",
         "zhTW": "ÿc8（只限魔法使）ÿc3",
+        "zhCN": "ÿc8(仅限巫师)ÿc3",
         "sgCN": "ÿc8(仅限巫师)ÿc3",
         "sgTW": "ÿc8（只限魔法使）ÿc3"
     },
     "NecOnly": {
+        "id": 10919,
         "Key": "NecOnly",
         "enUS": "ÿc8(Necromancer Only)ÿc3",
-        "zhCN": "ÿc8（只限死靈法師）ÿc3",
         "zhTW": "ÿc8（只限死靈法師）ÿc3",
+        "zhCN": "ÿc8(仅限死灵法师)ÿc3",
         "sgCN": "ÿc8(仅限死灵法师)ÿc3",
         "sgTW": "ÿc8（只限死靈法師）ÿc3"
     },
     "PalOnly": {
+        "id": 10920,
         "Key": "PalOnly",
         "enUS": "ÿc8(Paladin Only)ÿc3",
-        "zhCN": "ÿc8（只限聖騎士）ÿc3",
         "zhTW": "ÿc8（只限聖騎士）ÿc3",
+        "zhCN": "ÿc8(仅限圣骑士)ÿc3",
         "sgCN": "ÿc8(仅限圣骑士)ÿc3",
         "sgTW": "ÿc8（只限聖騎士）ÿc3"
     },
     "BarOnly": {
+        "id": 10921,
         "Key": "BarOnly",
         "enUS": "ÿc8(Barbarian Only)ÿc3",
-        "zhCN": "ÿc8（只限野蠻人）ÿc3",
         "zhTW": "ÿc8（只限野蠻人）ÿc3",
+        "zhCN": "ÿc8(仅限野蛮人)ÿc3",
         "sgCN": "ÿc8(仅限野蛮人)ÿc3",
         "sgTW": "ÿc8（只限野蠻人）ÿc3"
     },
     "DruOnly": {
+        "id": 10922,
         "Key": "DruOnly",
         "enUS": "ÿc8(Druid Only)ÿc3",
-        "zhCN": "ÿc8（只限德魯伊）ÿc3",
         "zhTW": "ÿc8（只限德魯伊）ÿc3",
+        "zhCN": "ÿc8(仅限德鲁伊)ÿc3",
         "sgCN": "ÿc8(仅限德鲁伊)ÿc3",
         "sgTW": "ÿc8（只限德魯伊）ÿc3"
     },
     "AssOnly": {
+        "id": 10923,
         "Key": "AssOnly",
         "enUS": "ÿc8(Assassin Only)ÿc3",
-        "zhCN": "ÿc8（只限刺客）ÿc3",
         "zhTW": "ÿc8（只限刺客）ÿc3",
+        "zhCN": "ÿc8(仅限刺客)ÿc3",
         "sgCN": "ÿc8(仅限刺客)ÿc3",
         "sgTW": "ÿc8（只限刺客）ÿc3"
     },
-    "ModitemAura": {
-        "Key": "ModitemAura",
-        "enUS": "Level %d %s Aura When Equipped",
-        "zhCN": "裝備時賦予等級 %d %s靈氣",
-        "zhTW": "裝備時賦予等級 %d %s靈氣",
-        "sgCN": "装备时获得%d级%s光环",
-        "sgTW": "裝備時賦予等級 %d %s靈氣"
-    },
     "Moditem2allattrib": {
+        "id": 10977,
         "Key": "Moditem2allattrib",
         "enUS": "%+d to all Attributes(ATTR)",
-        "zhCN": "%+d 所有屬性(ATTR)",
         "zhTW": "%+d 所有屬性(ATTR)",
+        "zhCN": "%+d 所有属性(ATTR)",
         "sgCN": "%+d 所有属性(ATTR)",
         "sgTW": "%+d 所有屬性(ATTR)"
     },
     "Moditem2ExpG": {
+        "id": 10978,
         "Key": "Moditem2ExpG",
         "enUS": "%+d%% to Experience Gained(EXP)",
-        "zhCN": "獲得的經驗值(EXP) %+d%%",
         "zhTW": "獲得的經驗值(EXP) %+d%%",
+        "zhCN": "%+d%% 获得的经验(EXP)",
         "sgCN": "%+d%% 获得的经验(EXP)",
         "sgTW": "獲得的經驗值(EXP) %+d%%"
     },
     "ModitemHPaK": {
+        "id": 10979,
         "Key": "ModitemHPaK",
         "enUS": "%+d Life after each Kill(LK)",
-        "zhCN": "%+d 擊殺生命恢復(LK)",
         "zhTW": "%+d 擊殺生命恢復(LK)",
+        "zhCN": "%+d 每次消灭恢复的生命(LK)",
         "sgCN": "%+d 每次消灭恢复的生命(LK)",
         "sgTW": "%+d 擊殺生命恢復(LK)"
     },
     "ModitemRedVendP": {
+        "id": 10980,
         "Key": "ModitemRedVendP",
         "enUS": "Reduces all Vendor Prices(-Price) %d%%",
-        "zhCN": "所有商人的價格降低(-Price) %d%%",
         "zhTW": "所有商人的價格降低(-Price) %d%%",
+        "zhCN": "所有商人的收费减少(-Price) %d%%",
         "sgCN": "所有商人的收费减少(-Price) %d%%",
         "sgTW": "所有商人的價格降低(-Price) %d%%"
     },
     "ModitemSMRIP": {
+        "id": 10981,
         "Key": "ModitemSMRIP",
         "enUS": "Slain Monsters Rest in Peace(RIP)",
-        "zhCN": "殺死的怪物就此安息(RIP)",
         "zhTW": "殺死的怪物就此安息(RIP)",
+        "zhCN": "消灭的怪物就此安息(RIP)",
         "sgCN": "消灭的怪物就此安息(RIP)",
         "sgTW": "殺死的怪物就此安息(RIP)"
     },
     "ModitemAttratvsM": {
+        "id": 10982,
         "Key": "ModitemAttratvsM",
         "enUS": "%d%% to Attack Rating(AR) versus",
-        "zhCN": "%d%% 準確率(AR)，針對",
         "zhTW": "%d%% 準確率(AR)，針對",
+        "zhCN": "%d%% 提高命中值(AR), 对",
         "sgCN": "%d%% 提高命中值(AR), 对",
         "sgTW": "%d%% 準確率(AR)，針對"
     },
     "Moditemdamvsm": {
+        "id": 10983,
         "Key": "Moditemdamvsm",
         "enUS": "%d%% to Damage(DMG) versus",
-        "zhCN": "%d%% 傷害(DMG)，針對",
         "zhTW": "%d%% 傷害(DMG)，針對",
+        "zhCN": "%d%% 提高伤害(DMG), 对",
         "sgCN": "%d%% 提高伤害(DMG), 对",
         "sgTW": "%d%% 傷害(DMG)，針對"
     },
-    "Moditemslayat": {
-        "Key": "Moditemslayat",
-        "enUS": "Slaying:",
-        "zhCN": "殺死：",
-        "zhTW": "殺死：",
-        "sgCN": "杀戮:",
-        "sgTW": "殺死："
-    },
-    "Moditemreanimas": {
-        "Key": "Moditemreanimas",
-        "enUS": "%0%% Reanimate as: %1",
-        "zhCN": "%0%% 機率將目標復生為：%1",
-        "zhTW": "%0%% 機率將目標復生為：%1",
-        "sgCN": "%0%% 复活：%1",
-        "sgTW": "%0%% 機率將目標復生為：%1"
-    },
     "Moditemenrescoldsk": {
+        "id": 10986,
         "Key": "Moditemenrescoldsk",
         "enUS": "-%d%% to Enemy Cold Resistance(-CR)",
-        "zhCN": "敵人冰寒抗性(-CR) -%d%%",
         "zhTW": "敵人冰寒抗性(-CR) -%d%%",
+        "zhCN": "-%d%% 敌人的冰霜抗性(-CR)",
         "sgCN": "-%d%% 敌人的冰霜抗性(-CR)",
         "sgTW": "敵人冰寒抗性(-CR) -%d%%"
     },
     "Moditemenresfiresk": {
+        "id": 10987,
         "Key": "Moditemenresfiresk",
         "enUS": "-%d%% to Enemy Fire Resistance(-FR)",
-        "zhCN": "敵人火焰抗性(-FR) -%d%%",
         "zhTW": "敵人火焰抗性(-FR) -%d%%",
+        "zhCN": "-%d%% 敌人的火焰抗性(-FR)",
         "sgCN": "-%d%% 敌人的火焰抗性(-FR)",
         "sgTW": "敵人火焰抗性(-FR) -%d%%"
     },
     "Moditemenresltngsk": {
+        "id": 10988,
         "Key": "Moditemenresltngsk",
         "enUS": "-%d%% to Enemy Lightning Resistance(-LR)",
-        "zhCN": "敵人電擊抗性(-LR) -%d%%",
         "zhTW": "敵人電擊抗性(-LR) -%d%%",
+        "zhCN": "-%d%% 敌人的闪电抗性(-LR)",
         "sgCN": "-%d%% 敌人的闪电抗性(-LR)",
         "sgTW": "敵人電擊抗性(-LR) -%d%%"
     },
     "Moditemenrespoissk": {
+        "id": 10989,
         "Key": "Moditemenrespoissk",
         "enUS": "-%d%% to Enemy Poison Resistance(-PR)",
-        "zhCN": "敵人毒素抗性(-PR) -%d%%",
         "zhTW": "敵人毒素抗性(-PR) -%d%%",
+        "zhCN": "-%d%% 敌人的毒素抗性(-PR)",
         "sgCN": "-%d%% 敌人的毒素抗性(-PR)",
         "sgTW": "敵人毒素抗性(-PR) -%d%%"
     },
     "ModitemdamFiresk": {
+        "id": 10990,
         "Key": "ModitemdamFiresk",
         "enUS": "%+d%% to Fire Skill Damage(FD)",
-        "zhCN": "%+d%% 火焰技能傷害(FD)",
         "zhTW": "%+d%% 火焰技能傷害(FD)",
+        "zhCN": "%+d%% 火焰技能伤害(FD)",
         "sgCN": "%+d%% 火焰技能伤害(FD)",
         "sgTW": "%+d%% 火焰技能傷害(FD)"
     },
     "ModitemdamColdsk": {
+        "id": 10991,
         "Key": "ModitemdamColdsk",
         "enUS": "%+d%% to Cold Skill Damage(CD)",
-        "zhCN": "%+d%% 冰寒技能傷害(CD)",
         "zhTW": "%+d%% 冰寒技能傷害(CD)",
+        "zhCN": "%+d%% 冰霜技能伤害(CD)",
         "sgCN": "%+d%% 冰霜技能伤害(CD)",
         "sgTW": "%+d%% 冰寒技能傷害(CD)"
     },
     "ModitemdamLtngsk": {
+        "id": 10992,
         "Key": "ModitemdamLtngsk",
         "enUS": "%+d%% to Lightning Skill Damage(LD)",
-        "zhCN": "%+d%% 閃電技能傷害(LD)",
         "zhTW": "%+d%% 閃電技能傷害(LD)",
+        "zhCN": "%+d%% 闪电技能伤害(LD)",
         "sgCN": "%+d%% 闪电技能伤害(LD)",
         "sgTW": "%+d%% 閃電技能傷害(LD)"
     },
     "ModitemdamPoissk": {
+        "id": 10993,
         "Key": "ModitemdamPoissk",
         "enUS": "%+d%% to Poison Skill Damage(PD)",
-        "zhCN": "%+d%% 毒素技能傷害(PD)",
         "zhTW": "%+d%% 毒素技能傷害(PD)",
+        "zhCN": "%+d%% 毒素技能伤害(PD)",
         "sgCN": "%+d%% 毒素技能伤害(PD)",
         "sgTW": "%+d%% 毒素技能傷害(PD)"
     },
-    "Moditemskondeath": {
-        "Key": "Moditemskondeath",
-        "enUS": "%d%% Chance to cast level %d %s when you Die",
-        "zhCN": "當你死亡時有 %d%% 機率施展等級 %d %s",
-        "zhTW": "當你死亡時有 %d%% 機率施展等級 %d %s",
-        "sgCN": "%d%% 几率在死亡时施放%d级%s",
-        "sgTW": "當你死亡時有 %d%% 機率施展等級 %d %s"
-    },
-    "ModitemskonLevel": {
-        "Key": "ModitemskonLevel",
-        "enUS": "%d%% Chance to cast level %d %s when you Level-Up",
-        "zhCN": "當你升級時有 %d%% 機率施展等級 %d %s",
-        "zhTW": "當你升級時有 %d%% 機率施展等級 %d %s",
-        "sgCN": "%d%% 几率在升级时施放%d级%s",
-        "sgTW": "當你升級時有 %d%% 機率施展等級 %d %s"
-    },
-    "ModitemskonKill": {
-        "Key": "ModitemskonKill",
-        "enUS": "%d%% Chance to cast level %d %s when you Kill an Enemy",
-        "zhCN": "當你殺敵時有 %d%% 機率施展等級 %d %s",
-        "zhTW": "當你殺敵時有 %d%% 機率施展等級 %d %s",
-        "sgCN": "%d%% 几率在消灭一名敌人时施放%d级%s",
-        "sgTW": "當你殺敵時有 %d%% 機率施展等級 %d %s"
-    },
     "StrSklTabItem9": {
+        "id": 11003,
         "Key": "StrSklTabItem9",
         "enUS": "+%d to Summoning Skills",
-        "zhCN": "+%d 召喚技能",
         "zhTW": "+%d 召喚技能",
+        "zhCN": "+%d 召唤术",
         "sgCN": "+%d 召唤术",
         "sgTW": "+%d 召喚技能"
     },
     "ItemStats1r": {
+        "id": 11018,
         "Key": "ItemStats1r",
         "enUS": "Chance to Block(CTB): %d%%",
-        "zhCN": "格擋機率(CTB)：%d%%",
         "zhTW": "格擋機率(CTB)：%d%%",
+        "zhCN": "格挡几率(CTB): %d%%",
         "sgCN": "格挡几率(CTB): %d%%",
         "sgTW": "格擋機率(CTB)：%d%%"
     },
     "ModStr1w": {
+        "id": 11032,
         "Key": "ModStr1w",
         "enUS": "ÿc7%d%% Extra Gold from Monsters(EG)ÿc3",
-        "zhCN": "ÿc7怪物金幣掉落量提高(EG) %d%%ÿc3",
         "zhTW": "ÿc7怪物金幣掉落量提高(EG) %d%%ÿc3",
+        "zhCN": "ÿc7%d%% 怪物额外掉落金币(EG)ÿc3",
         "sgCN": "ÿc7%d%% 怪物额外掉落金币(EG)ÿc3",
         "sgTW": "ÿc7怪物金幣掉落量提高(EG) %d%%ÿc3"
     },
     "ModStr1x": {
+        "id": 11033,
         "Key": "ModStr1x",
         "enUS": "ÿc7%d%% Better Chance of Getting Magic Items(MF)ÿc3",
-        "zhCN": "ÿc7尋獲魔法物品機率提高(MF) %d%%ÿc3",
         "zhTW": "ÿc7尋獲魔法物品機率提高(MF) %d%%ÿc3",
+        "zhCN": "ÿc7%d%% 额外几率获得魔法物品(MF)ÿc3",
         "sgCN": "ÿc7%d%% 额外几率获得魔法物品(MF)ÿc3",
         "sgTW": "ÿc7尋獲魔法物品機率提高(MF) %d%%ÿc3"
     },
     "ModStr3u": {
+        "id": 11034,
         "Key": "ModStr3u",
         "enUS": "Hit Causes Monster to Flee(Flee) %+d%%",
-        "zhCN": "%+d%% 機率擊中使怪物逃跑(Flee)",
         "zhTW": "%+d%% 機率擊中使怪物逃跑(Flee)",
+        "zhCN": "%+d%% 几率命中使怪物逃跑(Flee)",
         "sgCN": "%+d%% 几率命中使怪物逃跑(Flee)",
         "sgTW": "%+d%% 機率擊中使怪物逃跑(Flee)"
     },
     "ModStr4c": {
+        "id": 11035,
         "Key": "ModStr4c",
         "enUS": "%d%% Bonus to Attack Rating(AR)",
-        "zhCN": "%d%% 準確率加成(AR)",
         "zhTW": "%d%% 準確率加成(AR)",
+        "zhCN": "%d%% 加成命中值(AR)",
         "sgCN": "%d%% 加成命中值(AR)",
         "sgTW": "%d%% 準確率加成(AR)"
     },
     "ModStr5r": {
+        "id": 11036,
         "Key": "ModStr5r",
         "enUS": "Slows Target by(Slow) %d%%",
-        "zhCN": "使目標減慢(Slow) %d%%",
         "zhTW": "使目標減慢(Slow) %d%%",
+        "zhCN": "使目标减速(Slow) %d%%",
         "sgCN": "使目标减速(Slow) %d%%",
         "sgTW": "使目標減慢(Slow) %d%%"
     },
-    "ModStr6f": {
-        "Key": "ModStr6f",
-        "enUS": "Chance to Reanimate Target",
-        "zhCN": "機率使目標復活",
-        "zhTW": "機率使目標復活",
-        "sgCN": "有机会使目标复活",
-        "sgTW": "機率使目標復活"
-    },
     "ModStr6d": {
+        "id": 11038,
         "Key": "ModStr6d",
         "enUS": "Hit Blinds Target(HBT)",
-        "zhCN": "擊中使目標目盲(HBT)",
         "zhTW": "擊中使目標目盲(HBT)",
+        "zhCN": "命中可致盲目标(HBT)",
         "sgCN": "命中可致盲目标(HBT)",
         "sgTW": "擊中使目標目盲(HBT)"
     },
-    "ExInsertSocketsX": {
-        "Key": "ExInsertSocketsX",
-        "enUS": "Can be Inserted into Socketed Items",
-        "zhCN": "可以放入有鑲孔的物品",
-        "zhTW": "可以放入有鑲孔的物品",
-        "sgCN": "可以被插入有镶孔的物品中",
-        "sgTW": "可以放入有鑲孔的物品"
-    },
-    "increaseswithplaylevelX": {
-        "Key": "increaseswithplaylevelX",
-        "enUS": "(Based on Character Level)",
-        "zhCN": "（依角色等級而定）",
-        "zhTW": "（依角色等級而定）",
-        "sgCN": "(基于角色等级)",
-        "sgTW": "（依角色等級而定）"
-    },
     "ModStre8b": {
+        "id": 11158,
         "Key": "ModStre8b",
         "enUS": "ÿc8%+d to Assassin Skill Levels(ASN)ÿc3",
-        "zhCN": "ÿc8%+d 刺客技能等級(ASN)ÿc3",
         "zhTW": "ÿc8%+d 刺客技能等級(ASN)ÿc3",
+        "zhCN": "ÿc8%+d 刺客技能等级(ASN)ÿc3",
         "sgCN": "ÿc8%+d 刺客技能等级(ASN)ÿc3",
         "sgTW": "ÿc8%+d 刺客技能等級(ASN)ÿc3"
     },
-    "toa": {
-        "Key": "toa",
-        "enUS": "Token of Absolution",
-        "zhCN": "赦免徽章",
-        "zhTW": "赦免徽章",
-        "sgCN": "赦免之证",
-        "sgTW": "赦免徽章"
-    },
-    "Charmdes": {
-        "Key": "Charmdes",
-        "enUS": "Keep in Inventory to Gain Bonus",
-        "zhCN": "放在物品欄以獲得其加成效果",
-        "zhTW": "放在物品欄以獲得其加成效果",
-        "sgCN": "放在物品栏里以享受加成",
-        "sgTW": "放在物品欄以獲得其加成效果"
-    },
-    "ice": {
-        "Key": "ice",
-        "enUS": "Malah's Potion",
-        "zhCN": "瑪拉的藥水",
-        "zhTW": "瑪拉的藥水",
-        "sgCN": "马拉的药水",
-        "sgTW": "瑪拉的藥水"
-    },
     "ModStre8a": {
+        "id": 21205,
         "Key": "ModStre8a",
         "enUS": "ÿc8%+d to Druid Skill Levels(DRU)ÿc3",
-        "zhCN": "ÿc8%+d 德魯伊技能等級(DRU)ÿc3",
         "zhTW": "ÿc8%+d 德魯伊技能等級(DRU)ÿc3",
+        "zhCN": "ÿc8%+d 德鲁伊技能等级(DRU)ÿc3",
         "sgCN": "ÿc8%+d 德鲁伊技能等级(DRU)ÿc3",
         "sgTW": "ÿc8%+d 德魯伊技能等級(DRU)ÿc3"
     },
-    "ModStre8c": {
-        "Key": "ModStre8c",
-        "enUS": " Sockets",
-        "zhCN": "鑲孔",
-        "zhTW": "鑲孔",
-        "sgCN": "镶孔",
-        "sgTW": "鑲孔"
-    },
     "ModStre8d": {
+        "id": 21208,
         "Key": "ModStre8d",
         "enUS": " to Attack Rating vs. Demons(ARD)",
-        "zhCN": "對惡魔的準確率(ARD)",
         "zhTW": "對惡魔的準確率(ARD)",
+        "zhCN": "对恶魔的命中值(ARD)",
         "sgCN": "对恶魔的命中值(ARD)",
         "sgTW": "對惡魔的準確率(ARD)"
     },
     "ModStre8e": {
+        "id": 21209,
         "Key": "ModStre8e",
         "enUS": " to Attack Rating vs. Undead(ARU)",
-        "zhCN": "對不死怪物的準確率(ARU)",
         "zhTW": "對不死怪物的準確率(ARU)",
+        "zhCN": "对亡灵的命中值(ARU)",
         "sgCN": "对亡灵的命中值(ARU)",
         "sgTW": "對不死怪物的準確率(ARU)"
     },
     "ModStre8f": {
+        "id": 21210,
         "Key": "ModStre8f",
         "enUS": " to Damage vs. Demons(DTD)",
-        "zhCN": "對惡魔的傷害(DTD)",
         "zhTW": "對惡魔的傷害(DTD)",
+        "zhCN": "对恶魔的伤害(DTD)",
         "sgCN": "对恶魔的伤害(DTD)",
         "sgTW": "對惡魔的傷害(DTD)"
     },
     "ModStre8g": {
+        "id": 21211,
         "Key": "ModStre8g",
         "enUS": " percent to Attack Rating(AR)",
-        "zhCN": "% 準確率(AR)",
         "zhTW": "% 準確率(AR)",
+        "zhCN": "%到命中值(AR)",
         "sgCN": "%到命中值(AR)",
         "sgTW": "% 準確率(AR)"
     },
     "ModStre8h": {
+        "id": 21212,
         "Key": "ModStre8h",
         "enUS": " to Javelin and Spear Skills",
-        "zhCN": "標槍與長矛技能",
         "zhTW": "標槍與長矛技能",
+        "zhCN": "至标枪和长矛技能",
         "sgCN": "至标枪和长矛技能",
         "sgTW": "標槍與長矛技能"
     },
     "ModStre8i": {
+        "id": 21213,
         "Key": "ModStre8i",
         "enUS": " to Passive and Magic Skills",
-        "zhCN": "被動與魔法技能",
         "zhTW": "被動與魔法技能",
+        "zhCN": "至被动和魔法技能",
         "sgCN": "至被动和魔法技能",
         "sgTW": "被動與魔法技能"
     },
     "ModStre8j": {
+        "id": 21214,
         "Key": "ModStre8j",
         "enUS": " to Bow and Crossbow Skills",
-        "zhCN": "弓與弩技能",
         "zhTW": "弓與弩技能",
+        "zhCN": "至弓和弩技能",
         "sgCN": "至弓和弩技能",
         "sgTW": "弓與弩技能"
     },
     "ModStre8k": {
+        "id": 21215,
         "Key": "ModStre8k",
         "enUS": " to Defensive Aura Skills",
-        "zhCN": "防禦靈氣技能",
         "zhTW": "防禦靈氣技能",
+        "zhCN": "至防御光环技能",
         "sgCN": "至防御光环技能",
         "sgTW": "防禦靈氣技能"
     },
     "ModStre8l": {
+        "id": 21216,
         "Key": "ModStre8l",
         "enUS": " to Offensive Aura Skills",
-        "zhCN": "攻擊靈氣技能",
         "zhTW": "攻擊靈氣技能",
+        "zhCN": "至攻击光环技能",
         "sgCN": "至攻击光环技能",
         "sgTW": "攻擊靈氣技能"
     },
     "ModStre8m": {
+        "id": 21217,
         "Key": "ModStre8m",
         "enUS": " to Combat Skills",
-        "zhCN": "戰鬥技能",
         "zhTW": "戰鬥技能",
+        "zhCN": "至战斗技能",
         "sgCN": "至战斗技能",
         "sgTW": "戰鬥技能"
     },
     "ModStre8n": {
+        "id": 21218,
         "Key": "ModStre8n",
         "enUS": " to Summoning Skills",
-        "zhCN": "召喚技能",
         "zhTW": "召喚技能",
+        "zhCN": "至召唤术",
         "sgCN": "至召唤术",
         "sgTW": "召喚技能"
     },
     "ModStre8o": {
+        "id": 21219,
         "Key": "ModStre8o",
         "enUS": " to Poison and Bone Skills",
-        "zhCN": "毒素與骸骨技能",
         "zhTW": "毒素與骸骨技能",
+        "zhCN": "至毒素和白骨术",
         "sgCN": "至毒素和白骨术",
         "sgTW": "毒素與骸骨技能"
     },
     "ModStre8p": {
+        "id": 21220,
         "Key": "ModStre8p",
         "enUS": " to Curses",
-        "zhCN": "詛咒",
         "zhTW": "詛咒",
+        "zhCN": "至诅咒术",
         "sgCN": "至诅咒术",
         "sgTW": "詛咒"
     },
     "ModStre8q": {
+        "id": 21221,
         "Key": "ModStre8q",
         "enUS": " to Warcry Skills",
-        "zhCN": "戰吼技能",
         "zhTW": "戰吼技能",
+        "zhCN": "至呐喊技能",
         "sgCN": "至呐喊技能",
         "sgTW": "戰吼技能"
     },
     "ModStre8r": {
+        "id": 21222,
         "Key": "ModStre8r",
         "enUS": " to Combat Skills",
-        "zhCN": "戰鬥技能",
         "zhTW": "戰鬥技能",
+        "zhCN": "至战斗技能",
         "sgCN": "至战斗技能",
         "sgTW": "戰鬥技能"
     },
     "ModStre8s": {
+        "id": 21223,
         "Key": "ModStre8s",
         "enUS": " to Masteries Skills",
-        "zhCN": "戰鬥專精技能",
         "zhTW": "戰鬥專精技能",
+        "zhCN": "至精通类技能",
         "sgCN": "至精通类技能",
         "sgTW": "戰鬥專精技能"
     },
     "ModStre8t": {
+        "id": 21224,
         "Key": "ModStre8t",
         "enUS": " to Cold Skills",
-        "zhCN": "冰寒技能",
         "zhTW": "冰寒技能",
+        "zhCN": "至冰系法术",
         "sgCN": "至冰系法术",
         "sgTW": "冰寒技能"
     },
     "ModStre8u": {
+        "id": 21225,
         "Key": "ModStre8u",
         "enUS": " to Lightning Skills",
-        "zhCN": "閃電技能",
         "zhTW": "閃電技能",
+        "zhCN": "至雷系法术",
         "sgCN": "至雷系法术",
         "sgTW": "閃電技能"
     },
     "ModStre8v": {
+        "id": 21226,
         "Key": "ModStre8v",
         "enUS": " to Fire Skills",
-        "zhCN": "火焰技能",
         "zhTW": "火焰技能",
+        "zhCN": "至火系法术",
         "sgCN": "至火系法术",
         "sgTW": "火焰技能"
     },
     "ModStre8w": {
+        "id": 21227,
         "Key": "ModStre8w",
         "enUS": " to Summoning Skills",
-        "zhCN": "召喚技能",
         "zhTW": "召喚技能",
+        "zhCN": "至召唤技能",
         "sgCN": "至召唤技能",
         "sgTW": "召喚技能"
     },
     "ModStre8x": {
+        "id": 21228,
         "Key": "ModStre8x",
         "enUS": " to Shape-Shifting Skills",
-        "zhCN": "變形技能",
         "zhTW": "變形技能",
+        "zhCN": "至变形技能",
         "sgCN": "至变形技能",
         "sgTW": "變形技能"
     },
     "ModStre8y": {
+        "id": 21229,
         "Key": "ModStre8y",
         "enUS": " to Elemental Skills",
-        "zhCN": "元素技能",
         "zhTW": "元素技能",
+        "zhCN": "至元素技能",
         "sgCN": "至元素技能",
         "sgTW": "元素技能"
     },
     "ModStre8z": {
+        "id": 21230,
         "Key": "ModStre8z",
         "enUS": " to Trap Skills",
-        "zhCN": "陷阱技能",
         "zhTW": "陷阱技能",
+        "zhCN": "至陷阱技能",
         "sgCN": "至陷阱技能",
         "sgTW": "陷阱技能"
     },
     "ModStre9a": {
+        "id": 21231,
         "Key": "ModStre9a",
         "enUS": " to Shadow Discipline Skills",
-        "zhCN": "暗影修行技能",
         "zhTW": "暗影修行技能",
+        "zhCN": "至影身训练技能",
         "sgCN": "至影身训练技能",
         "sgTW": "暗影修行技能"
     },
     "ModStre9b": {
+        "id": 21232,
         "Key": "ModStre9b",
         "enUS": " to Martial Art Skills",
-        "zhCN": "武學技藝技能",
         "zhTW": "武學技藝技能",
+        "zhCN": "至武学技艺技能",
         "sgCN": "至武学技艺技能",
         "sgTW": "武學技藝技能"
     },
-    "ModStre9c": {
-        "Key": "ModStre9c",
-        "enUS": "(Based on Character Level)",
-        "zhCN": "（依角色等級而定）",
-        "zhTW": "（依角色等級而定）",
-        "sgCN": "(基于角色等级)",
-        "sgTW": "（依角色等級而定）"
-    },
-    "ModStre9d": {
-        "Key": "ModStre9d",
-        "enUS": "%s (Increases During Nighttime)",
-        "zhCN": "%s（在夜間增加）",
-        "zhTW": "%s（在夜間增加）",
-        "sgCN": "%s (在夜间提高)",
-        "sgTW": "%s（在夜間增加）"
-    },
-    "ModStre9e": {
-        "Key": "ModStre9e",
-        "enUS": "%s (Increases During Daytime)",
-        "zhCN": "%s（在白天增加）",
-        "zhTW": "%s（在白天增加）",
-        "sgCN": "%s (在白天提高)",
-        "sgTW": "%s（在白天增加）"
-    },
-    "ModStre9f": {
-        "Key": "ModStre9f",
-        "enUS": "%s (Increases Near Dawn)",
-        "zhCN": "%s（在黎明增加）",
-        "zhTW": "%s（在黎明增加）",
-        "sgCN": "%s (黎明时提高)",
-        "sgTW": "%s（在黎明增加）"
-    },
-    "ModStre9g": {
-        "Key": "ModStre9g",
-        "enUS": "%s (Increases Near Dusk)",
-        "zhCN": "%s（在黃昏增加）",
-        "zhTW": "%s（在黃昏增加）",
-        "sgCN": "%s (黄昏时提高)",
-        "sgTW": "%s（在黃昏增加）"
-    },
-    "ModStre9h": {
-        "Key": "ModStre9h",
-        "enUS": " Charges of",
-        "zhCN": "次的",
-        "zhTW": "次的",
-        "sgCN": "的充能",
-        "sgTW": "次的"
-    },
-    "ModStre9i": {
-        "Key": "ModStre9i",
-        "enUS": "Increased Stack Size",
-        "zhCN": "堆疊數量提高",
-        "zhTW": "堆疊數量提高",
-        "sgCN": "增加堆叠数量",
-        "sgTW": "堆疊數量提高"
-    },
-    "ModStre9s": {
-        "Key": "ModStre9s",
-        "enUS": "Indestructible",
-        "zhCN": "永不毀損",
-        "zhTW": "永不毀損",
-        "sgCN": "不可摧毁",
-        "sgTW": "永不毀損"
-    },
-    "ModStre9t": {
-        "Key": "ModStre9t",
-        "enUS": "Repairs %d durability per second",
-        "zhCN": "每秒修復 %d 耐久度",
-        "zhTW": "每秒修復 %d 耐久度",
-        "sgCN": "每秒修复 %d 点耐久度",
-        "sgTW": "每秒修復 %d 耐久度"
-    },
-    "ModStre9u": {
-        "Key": "ModStre9u",
-        "enUS": "Repairs %d durability in %d seconds",
-        "zhCN": "每 %1 秒修復 %0 點耐久度",
-        "zhTW": "每 %1 秒修復 %0 點耐久度",
-        "sgCN": "每 %1 秒修复 %0 点耐久度",
-        "sgTW": "每 %1 秒修復 %0 點耐久度"
-    },
-    "ModStre9v": {
-        "Key": "ModStre9v",
-        "enUS": "Replenishes quantity",
-        "zhCN": "回復數量",
-        "zhTW": "回復數量",
-        "sgCN": "补充数量",
-        "sgTW": "回復數量"
-    },
-    "ModStre9w": {
-        "Key": "ModStre9w",
-        "enUS": "Cast a Level %d",
-        "zhCN": "施展等級 %d",
-        "zhTW": "施展等級 %d",
-        "sgCN": "施放%d级",
-        "sgTW": "施展等級 %d"
-    },
-    "ModStre9x": {
-        "Key": "ModStre9x",
-        "enUS": "When You Swing",
-        "zhCN": "當你揮舞時",
-        "zhTW": "當你揮舞時",
-        "sgCN": "当你挥舞",
-        "sgTW": "當你揮舞時"
-    },
-    "ModStre9y": {
-        "Key": "ModStre9y",
-        "enUS": "When You Get Hit",
-        "zhCN": "當你被擊中時",
-        "zhTW": "當你被擊中時",
-        "sgCN": "当你被击中时",
-        "sgTW": "當你被擊中時"
-    },
-    "ModStre9z": {
-        "Key": "ModStre9z",
-        "enUS": "When You Hit an Enemy",
-        "zhCN": "當你擊中敵人時",
-        "zhTW": "當你擊中敵人時",
-        "sgCN": "当你击中敌人时",
-        "sgTW": "當你擊中敵人時"
-    },
-    "ModStre10a": {
-        "Key": "ModStre10a",
-        "enUS": "Charges",
-        "zhCN": "次",
-        "zhTW": "次",
-        "sgCN": "充能",
-        "sgTW": "次"
-    },
-    "ModStre10b": {
-        "Key": "ModStre10b",
-        "enUS": "Level",
-        "zhCN": "等級",
-        "zhTW": "等級",
-        "sgCN": "等级",
-        "sgTW": "等級"
-    },
-    "ModStre10c": {
-        "Key": "ModStre10c",
-        "enUS": "Per Level",
-        "zhCN": "每級",
-        "zhTW": "每級",
-        "sgCN": "每级",
-        "sgTW": "每級"
-    },
-    "ModStre10d": {
-        "Key": "ModStre10d",
-        "enUS": "Level %d %s (%d/%d Charges)",
-        "zhCN": "等級 %d %s（%d/%d 次）",
-        "zhTW": "等級 %d %s（%d/%d 次）",
-        "sgCN": "%d级%s (%d/%d 次充能)",
-        "sgTW": "等級 %d %s（%d/%d 次）"
-    },
-    "ModStre10e": {
-        "Key": "ModStre10e",
-        "enUS": "(",
-        "zhCN": "（",
-        "zhTW": "（",
-        "sgCN": "(",
-        "sgTW": "（"
-    },
-    "ModStre10f": {
-        "Key": "ModStre10f",
-        "enUS": ")",
-        "zhCN": "）",
-        "zhTW": "）",
-        "sgCN": ")",
-        "sgTW": "）"
-    },
-    "ModStre10g": {
-        "Key": "ModStre10g",
-        "enUS": "Stealth",
-        "zhCN": "隱密",
-        "zhTW": "隱密",
-        "sgCN": "潜行",
-        "sgTW": "隱密"
-    },
-    "ModStre10h": {
-        "Key": "ModStre10h",
-        "enUS": "Immunity to Poison",
-        "zhCN": "毒素免疫",
-        "zhTW": "毒素免疫",
-        "sgCN": "免疫毒素",
-        "sgTW": "毒素免疫"
-    },
-    "ModStre10i": {
-        "Key": "ModStre10i",
-        "enUS": "Cursed",
-        "zhCN": "受詛咒",
-        "zhTW": "受詛咒",
-        "sgCN": "被诅咒",
-        "sgTW": "受詛咒"
-    },
-    "ModStre10j": {
-        "Key": "ModStre10j",
-        "enUS": "Per Player in Party",
-        "zhCN": "隊伍中的每個人",
-        "zhTW": "隊伍中的每個人",
-        "sgCN": "队伍中的每名队员",
-        "sgTW": "隊伍中的每個人"
-    },
-    "WeaponDescH2H": {
-        "Key": "WeaponDescH2H",
-        "enUS": "Claw Class - %s",
-        "zhCN": "爪類武器 - %s",
-        "zhTW": "爪類武器 - %s",
-        "sgCN": "利爪类 - %s",
-        "sgTW": "爪類武器 - %s"
-    },
-    "WeaponDescOrb": {
-        "Key": "WeaponDescOrb",
-        "enUS": "Orb Class - %s",
-        "zhCN": "法珠類武器 - %s",
-        "zhTW": "法珠類武器 - %s",
-        "sgCN": "法球类- %s",
-        "sgTW": "法珠類武器 - %s"
-    },
-    "ItemexpED": {
-        "Key": "ItemexpED",
-        "enUS": " Elemental Damage",
-        "zhCN": "元素傷害",
-        "zhTW": "元素傷害",
-        "sgCN": "元素伤害",
-        "sgTW": "元素傷害"
-    },
-    "ModStre10k": {
-        "Key": "ModStre10k",
-        "enUS": "Kick Damage: %d to %d",
-        "zhCN": "踢擊傷害：%d - %d 點",
-        "zhTW": "踢擊傷害：%d - %d 點",
-        "sgCN": "脚踢伤害: %d - %d",
-        "sgTW": "踢擊傷害：%d - %d 點"
-    },
-    "ModStre10L": {
-        "Key": "ModStre10L",
-        "enUS": "Percent Chance to Cast",
-        "zhCN": "% 施展機率",
-        "zhTW": "% 施展機率",
-        "sgCN": "%施法几率",
-        "sgTW": "% 施展機率"
-    },
-    "tr2": {
-        "Key": "tr2",
-        "enUS": "Scroll of Resistance",
-        "zhCN": "抗性卷軸",
-        "zhTW": "抗性卷軸",
-        "sgCN": "抗性卷轴",
-        "sgTW": "抗性卷軸"
-    },
-    "ExInsertSockets": {
-        "Key": "ExInsertSockets",
-        "enUS": "Can be Inserted into Socketed Items",
-        "zhCN": "可以放入有鑲孔的物品",
-        "zhTW": "可以放入有鑲孔的物品",
-        "sgCN": "可以被插入有镶孔的物品中",
-        "sgTW": "可以放入有鑲孔的物品"
-    },
-    "ItemExpansiveChancX": {
-        "Key": "ItemExpansiveChancX",
-        "enUS": "%d%% Chance to cast level %d %s on attack",
-        "zhCN": "攻擊時有 %d%% 機率施展等級 %d %s",
-        "zhTW": "攻擊時有 %d%% 機率施展等級 %d %s",
-        "sgCN": "%d%% 几率在攻击时施放%d级%s",
-        "sgTW": "攻擊時有 %d%% 機率施展等級 %d %s"
-    },
-    "ItemExpansiveChanc1": {
-        "Key": "ItemExpansiveChanc1",
-        "enUS": "%d%% Chance to cast level %d %s on striking",
-        "zhCN": "擊中時有 %d%% 機率施展等級 %d %s",
-        "zhTW": "擊中時有 %d%% 機率施展等級 %d %s",
-        "sgCN": "%d%% 几率在击中时施放%d级%s",
-        "sgTW": "擊中時有 %d%% 機率施展等級 %d %s"
-    },
-    "ItemExpansiveChanc2": {
-        "Key": "ItemExpansiveChanc2",
-        "enUS": "%d%% Chance to cast level %d %s when struck",
-        "zhCN": "被擊中時有 %d%% 機率施展等級 %d %s",
-        "zhTW": "被擊中時有 %d%% 機率施展等級 %d %s",
-        "sgCN": "%d%% 几率在被击中时施放%d级%s",
-        "sgTW": "被擊中時有 %d%% 機率施展等級 %d %s"
-    },
-    "ItemExpcharmdesc": {
-        "Key": "ItemExpcharmdesc",
-        "enUS": "Keep in inventory to gain bonus",
-        "zhCN": "放在物品欄以獲得其加成效果",
-        "zhTW": "放在物品欄以獲得其加成效果",
-        "sgCN": "放在物品栏里以享受加成",
-        "sgTW": "放在物品欄以獲得其加成效果"
-    },
     "strethereal": {
+        "id": 22745,
         "Key": "strethereal",
         "enUS": "Ethereal (Cannot be Repaired)",
-        "zhCN": "無形（無法修復）",
         "zhTW": "無形（無法修復）",
+        "zhCN": "无形的 (无法修复)",
         "sgCN": "无形的 (无法修复)",
         "sgTW": "無形（無法修復）"
     },
-    "stretherealnonrepair": {
-        "Key": "stretherealnonrepair",
-        "enUS": "This item cannot be repaired.",
-        "zhCN": "這項物品無法修復。",
-        "zhTW": "這項物品無法修復。",
-        "sgCN": "此物品无法被修复。",
-        "sgTW": "這項物品無法修復。"
-    },
     "ModStr2uPercent": {
+        "id": 23001,
         "Key": "ModStr2uPercent",
         "enUS": "Physical Damage Received Reduced by(DR) %d%%",
-        "zhCN": "受到的物理傷害降低(DR) %d%%",
         "zhTW": "受到的物理傷害降低(DR) %d%%",
+        "zhCN": "受到的物理伤害降低(DR) %d%%",
         "sgCN": "受到的物理伤害降低(DR) %d%%",
         "sgTW": "受到的物理傷害降低(DR) %d%%"
     },
-    "ItemModifierClassSkill": {
-        "Key": "ItemModifierClassSkill",
-        "enUS": "%+d to %s %s",
-        "zhCN": "%+d 至%s %s",
-        "zhTW": "%+d 至%s %s",
-        "sgCN": "%+d 至%s %s",
-        "sgTW": "%+d 至%s %s"
-    },
-    "ItemModifierNonClassSkill": {
-        "Key": "ItemModifierNonClassSkill",
-        "enUS": "%+d to %s",
-        "zhCN": "%+d 至%s",
-        "zhTW": "%+d 至%s",
-        "sgCN": "%+d 至%s",
-        "sgTW": "%+d 至%s"
-    },
     "strItemModEtherealSocketed": {
+        "id": 23049,
         "Key": "strItemModEtherealSocketed",
         "enUS": "Ethereal (Cannot be Repaired), Socketed (%i)",
-        "zhCN": "無形（無法修復），鑲孔（%i）",
         "zhTW": "無形（無法修復），鑲孔（%i）",
+        "zhCN": "无形的 (无法修复), 镶孔 (%i)",
         "sgCN": "无形的 (无法修复), 镶孔 (%i)",
         "sgTW": "無形（無法修復），鑲孔（%i）"
     },
-    "strItemStatThrowDamageRange": {
-        "Key": "strItemStatThrowDamageRange",
-        "enUS": "Throw Damage: %d to %d",
-        "zhCN": "投擲傷害：%d - %d 點",
-        "zhTW": "投擲傷害：%d - %d 點",
-        "sgCN": "投掷伤害: %d - %d",
-        "sgTW": "投擲傷害：%d - %d 點"
-    },
-    "UseTokenOfAbsolution": {
-        "Key": "UseTokenOfAbsolution",
-        "enUS": "Right Click to reset Stat/Skill Points",
-        "zhCN": "右鍵點擊以重置屬性與技能點數",
-        "zhTW": "右鍵點擊以重置屬性與技能點數",
-        "sgCN": "右键点击重设属性/技能点",
-        "sgTW": "右鍵點擊以重置屬性與技能點數"
-    },
-    "MalahsPotionDescription": {
-        "Key": "MalahsPotionDescription",
-        "enUS": "Keep it to thaw Anya",
-        "zhCN": "融化安亞身上的冰雪",
-        "zhTW": "融化安亞身上的冰雪",
-        "sgCN": "留着它来解救安雅",
-        "sgTW": "融化安亞身上的冰雪"
-    },
-    "ItemModifierPersonalized": {
-        "Key": "ItemModifierPersonalized",
-        "enUS": "Personalized",
-        "zhCN": "冠上名字",
-        "zhTW": "冠上名字",
-        "sgCN": "个性化",
-        "sgTW": "冠上名字"
-    },
-    "ModStr6j": {
-        "Key": "ModStr6j",
-        "enUS": "%+d%% Chance to not consume Quantity",
-        "zhCN": "%+d%% 機率不消耗數量",
-        "zhTW": "%+d%% 機率不消耗數量",
-        "sgCN": "%+d%% 几率不消耗数量",
-        "sgTW": "%+d%% 機率不消耗數量"
-    },
-    "ModItemMonColdSunder": {
-        "Key": "ModItemMonColdSunder",
-        "enUS": "Monster Cold Immunity is Sundered",
-        "zhCN": "破除怪物的冰寒免疫",
-        "zhTW": "破除怪物的冰寒免疫",
-        "sgCN": "已破除怪物冰霜免疫",
-        "sgTW": "破除怪物的冰寒免疫"
-    },
-    "ModItemMonFireSunder": {
-        "Key": "ModItemMonFireSunder",
-        "enUS": "Monster Fire Immunity is Sundered",
-        "zhCN": "破除怪物的火焰免疫",
-        "zhTW": "破除怪物的火焰免疫",
-        "sgCN": "已破除怪物火焰免疫",
-        "sgTW": "破除怪物的火焰免疫"
-    },
-    "ModItemMonLightSunder": {
-        "Key": "ModItemMonLightSunder",
-        "enUS": "Monster Lightning Immunity is Sundered",
-        "zhCN": "破除怪物的閃電免疫",
-        "zhTW": "破除怪物的閃電免疫",
-        "sgCN": "已破除怪物闪电免疫",
-        "sgTW": "破除怪物的閃電免疫"
-    },
-    "ModItemMonPoisonSunder": {
-        "Key": "ModItemMonPoisonSunder",
-        "enUS": "Monster Poison Immunity is Sundered",
-        "zhCN": "破除怪物的毒素免疫",
-        "zhTW": "破除怪物的毒素免疫",
-        "sgCN": "已破除怪物毒素免疫",
-        "sgTW": "破除怪物的毒素免疫"
-    },
-    "ModItemMonPhysicalSunder": {
-        "Key": "ModItemMonPhysicalSunder",
-        "enUS": "Monster Physical Immunity is Sundered",
-        "zhCN": "破除怪物的物理免疫",
-        "zhTW": "破除怪物的物理免疫",
-        "sgCN": "已破除怪物物理免疫",
-        "sgTW": "破除怪物的物理免疫"
-    },
-    "ModItemMonMagicSunder": {
-        "Key": "ModItemMonMagicSunder",
-        "enUS": "Monster Magic Immunity is Sundered",
-        "zhCN": "破除怪物的魔法免疫",
-        "zhTW": "破除怪物的魔法免疫",
-        "sgCN": "已破除怪物魔法免疫",
-        "sgTW": "破除怪物的魔法免疫"
-    },
     "ModStr2uPercentNegative": {
+        "id": 27351,
         "Key": "ModStr2uPercentNegative",
         "enUS": "Physical Damage Received Increased by(DI) %d%%",
-        "zhCN": "受到的物理傷害提高(DI) %d%%",
         "zhTW": "受到的物理傷害提高(DI) %d%%",
+        "zhCN": "受到的物理伤害提高(DI) %d%%",
         "sgCN": "受到的物理伤害提高(DI) %d%%",
         "sgTW": "受到的物理傷害提高(DI) %d%%"
     },
-    "ModStr6k": {
-        "Key": "ModStr6k",
-        "enUS": "%+d%% chance for finishing moves to not consume charges",
-        "zhCN": "%+d%% 機率使終結技不消耗集氣的力量",
-        "zhTW": "%+d%% 機率使終結技不消耗集氣的力量",
-        "sgCN": "%+d%% 几率终结技不消耗充能层数",
-        "sgTW": "%+d%% 機率使終結技不消耗集氣的力量"
-    },
-    "ModStr6l": {
-        "Key": "ModStr6l",
-        "enUS": "%+d%% Attack Speed",
-        "zhCN": "攻擊速度 %+d%% ",
-        "zhTW": "攻擊速度 %+d%% ",
-        "sgCN": "%+d%% 攻击速度",
-        "sgTW": "攻擊速度 %+d%% "
-    },
-    "UseTerrorTokenAct1": {
-        "Key": "UseTerrorTokenAct1",
-        "enUS": "Right Click to terrorize Act 1",
-        "zhCN": "點擊滑鼠右鍵將第一章設為邪惡威脅區域",
-        "zhTW": "點擊滑鼠右鍵將第一章設為邪惡威脅區域",
-        "sgCN": "右键点击恐惧化第一幕",
-        "sgTW": "點擊滑鼠右鍵將第一章設為邪惡威脅區域"
-    },
-    "UseTerrorTokenAct2": {
-        "Key": "UseTerrorTokenAct2",
-        "enUS": "Right Click to terrorize Act 2",
-        "zhCN": "點擊滑鼠右鍵將第二章設為邪惡威脅區域",
-        "zhTW": "點擊滑鼠右鍵將第二章設為邪惡威脅區域",
-        "sgCN": "右键点击恐惧化第二幕",
-        "sgTW": "點擊滑鼠右鍵將第二章設為邪惡威脅區域"
-    },
-    "UseTerrorTokenAct3": {
-        "Key": "UseTerrorTokenAct3",
-        "enUS": "Right Click to terrorize Act 3",
-        "zhCN": "點擊滑鼠右鍵將第三章設為邪惡威脅區域",
-        "zhTW": "點擊滑鼠右鍵將第三章設為邪惡威脅區域",
-        "sgCN": "右键点击恐惧化第三幕",
-        "sgTW": "點擊滑鼠右鍵將第三章設為邪惡威脅區域"
-    },
-    "UseTerrorTokenAct4": {
-        "Key": "UseTerrorTokenAct4",
-        "enUS": "Right Click to terrorize Act 4",
-        "zhCN": "點擊滑鼠右鍵將第四章設為邪惡威脅區域",
-        "zhTW": "點擊滑鼠右鍵將第四章設為邪惡威脅區域",
-        "sgCN": "右键点击恐惧化第四幕",
-        "sgTW": "點擊滑鼠右鍵將第四章設為邪惡威脅區域"
-    },
-    "UseTerrorTokenAct5": {
-        "Key": "UseTerrorTokenAct5",
-        "enUS": "Right Click to terrorize Act 5",
-        "zhCN": "點擊滑鼠右鍵將第五章設為邪惡威脅區域",
-        "zhTW": "點擊滑鼠右鍵將第五章設為邪惡威脅區域",
-        "sgCN": "右键点击恐惧化第五幕",
-        "sgTW": "點擊滑鼠右鍵將第五章設為邪惡威脅區域"
-    },
-    "xa1": {
-        "Key": "xa1",
-        "enUS": "Western Worldstone Shard",
-        "zhCN": "西方的世界之石碎片",
-        "zhTW": "西方的世界之石碎片",
-        "sgCN": "西方世界之石碎片",
-        "sgTW": "西方的世界之石碎片"
-    },
-    "xa2": {
-        "Key": "xa2",
-        "enUS": "Eastern Worldstone Shard",
-        "zhCN": "東方的世界之石碎片",
-        "zhTW": "東方的世界之石碎片",
-        "sgCN": "东方世界之石碎片",
-        "sgTW": "東方的世界之石碎片"
-    },
-    "xa3": {
-        "Key": "xa3",
-        "enUS": "Southern Worldstone Shard",
-        "zhCN": "南方的世界之石碎片",
-        "zhTW": "南方的世界之石碎片",
-        "sgCN": "南方世界之石碎片",
-        "sgTW": "南方的世界之石碎片"
-    },
-    "xa4": {
-        "Key": "xa4",
-        "enUS": "Deep Worldstone Shard",
-        "zhCN": "深處的世界之石碎片",
-        "zhTW": "深處的世界之石碎片",
-        "sgCN": "深层世界之石碎片",
-        "sgTW": "深處的世界之石碎片"
-    },
-    "xa5": {
-        "Key": "xa5",
-        "enUS": "Northern Worldstone Shard",
-        "zhCN": "北方的世界之石碎片",
-        "zhTW": "北方的世界之石碎片",
-        "sgCN": "北方世界之石碎片",
-        "sgTW": "北方的世界之石碎片"
-    },
     "WarOnly": {
+        "id": 27602,
         "Key": "WarOnly",
-        "enUS": "(Warlock Only)",
-        "zhCN": "（只限術士）",
-        "zhTW": "（只限術士）",
-        "sgCN": "（仅限术士）",
-        "sgTW": "（只限術士）"
-    },
-    "ModStrMagMastery": {
-        "Key": "ModStrMagMastery",
-        "enUS": "%+d%% to Magic Skill Damage",
-        "zhCN": "%+d%% 魔法技能傷害",
-        "zhTW": "%+d%% 魔法技能傷害",
-        "sgCN": "%+d%% 魔法技能伤害",
-        "sgTW": "%+d%% 魔法技能傷害"
-    },
-    "ModStrMagPierce": {
-        "Key": "ModStrMagPierce",
-        "enUS": "-%d%% to Enemy Magic Resistance",
-        "zhCN": "敵人魔法抗性 -%d%%",
-        "zhTW": "敵人魔法抗性 -%d%%",
-        "sgCN": "-%d%% 敌人的魔法抗性",
-        "sgTW": "敵人魔法抗性 -%d%%"
-    },
-    "MaxMagDmgPerLvl": {
-        "Key": "MaxMagDmgPerLvl",
-        "enUS": "%+d to Maximum Magic Damage",
-        "zhCN": "%+d 魔法傷害最大值",
-        "zhTW": "%+d 魔法傷害最大值",
-        "sgCN": "+%d 最大魔法伤害",
-        "sgTW": "%+d 魔法傷害最大值"
-    },
-    "ModStrDamPierce": {
-        "Key": "ModStrDamPierce",
-        "enUS": "-%d%% to Enemy Physical Damage Resistance",
-        "zhCN": "敵人物理傷害抗性 -%d%%",
-        "zhTW": "敵人物理傷害抗性 -%d%%",
-        "sgCN": "-%d%% 敌人的物理伤害抗性",
-        "sgTW": "敵人物理傷害抗性 -%d%%"
-    },
-    "StrSklTabItem24": {
-        "Key": "StrSklTabItem24",
-        "enUS": "+%d to Demon Skills",
-        "zhCN": "+%d 惡魔技能",
-        "zhTW": "+%d 惡魔技能",
-        "sgCN": "+%d 恶魔技能",
-        "sgTW": "+%d 惡魔技能"
-    },
-    "StrSklTabItem22": {
-        "Key": "StrSklTabItem22",
-        "enUS": "+%d to Eldritch Skills",
-        "zhCN": "+%d 邪異技能",
-        "zhTW": "+%d 邪異技能",
-        "sgCN": "+%d 邪术技能",
-        "sgTW": "+%d 邪異技能"
-    },
-    "StrSklTabItem23": {
-        "Key": "StrSklTabItem23",
-        "enUS": "+%d to Chaos Skills",
-        "zhCN": "+%d 混沌技能",
-        "zhTW": "+%d 混沌技能",
-        "sgCN": "+%d 混沌技能",
-        "sgTW": "+%d 混沌技能"
-    },
-    "ModStrge9": {
-        "Key": "ModStrge9",
-        "enUS": "+%d to Warlock Skills",
-        "zhCN": "+%d 術士技能",
-        "zhTW": "+%d 術士技能",
-        "sgCN": "+%d 术士技能",
-        "sgTW": "+%d 術士技能"
-    },
-    "ChronicleModifierRange": {
-        "Key": "ChronicleModifierRange",
-        "enUS": "ÿcU(%s-%s)ÿc3",
-        "zhCN": "ÿcT（%s-%s）ÿc3",
-        "zhTW": "ÿcT（%s-%s）ÿc3",
-        "sgCN": "ÿcU(%s-%s)ÿc3",
-        "sgTW": "ÿcT（%s-%s）ÿc3"
-    },
-    "ItemStats1hRange": {
-        "Key": "ItemStats1hRange",
-        "enUS": "Defense: ÿcU(%d-%d)ÿc3",
-        "zhCN": "防禦：ÿcT（%d-%d）ÿc3",
-        "zhTW": "防禦：ÿcT（%d-%d）ÿc3",
-        "sgCN": "防御: ÿcU(%d-%d)ÿc3",
-        "sgTW": "防禦：ÿcT（%d-%d）ÿc3"
-    },
-    "ChronicleRandomClassSkillLevel": {
-        "Key": "ChronicleRandomClassSkillLevel",
-        "enUS": "%+d to a Random Class' Skill Levels",
-        "zhCN": "%+d 隨機職業的技能等級",
-        "zhTW": "%+d 隨機職業的技能等級",
-        "sgCN": "+%d 随机职业技能等级",
-        "sgTW": "%+d 隨機職業的技能等級"
-    },
-    "ChronicleItemModifierClassSkillRandom": {
-        "Key": "ChronicleItemModifierClassSkillRandom",
-        "enUS": "%+d to a random %s Skill %s",
-        "zhCN": "%+d 隨機%s技能%s",
-        "zhTW": "%+d 隨機%s技能%s",
-        "sgCN": "+%d 随机%s技能%s",
-        "sgTW": "%+d 隨機%s技能%s"
-    },
-    "ChroniclePropertyGroupListBullet": {
-        "Key": "ChroniclePropertyGroupListBullet",
-        "enUS": "• ",
-        "zhCN": "",
-        "zhTW": "",
-        "sgCN": "",
-        "sgTW": ""
-    },
-    "ChroniclePropertyGroupListHeader": {
-        "Key": "ChroniclePropertyGroupListHeader",
-        "enUS": "%s of the following:",
-        "zhCN": "以下属性中的%s: ",
-        "zhTW": "下列的%s：",
-        "sgCN": "以下属性中的%s: ",
-        "sgTW": "下列的%s："
-    },
-    "ChronicleModifierRangeNoParen": {
-        "Key": "ChronicleModifierRangeNoParen",
-        "enUS": "ÿcU%s-%sÿc3",
-        "zhCN": "ÿcU%s-%sÿc3",
-        "zhTW": "ÿcU%s-%sÿc3",
-        "sgCN": "ÿcU%s-%sÿc3",
-        "sgTW": "ÿcU%s-%sÿc3"
+        "enUS": "ÿc8(Warlock Only)ÿc3",
+        "zhTW": "ÿc8（只限術士）ÿc3",
+        "zhCN": "ÿc8（仅限术士）ÿc3",
+        "sgCN": "ÿc8（仅限术士）ÿc3",
+        "sgTW": "ÿc8（只限術士）ÿc3"
     }
 }

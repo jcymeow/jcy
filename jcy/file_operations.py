@@ -1474,59 +1474,54 @@ class FileOperations:
         handler_abbr = "1" in keys
         handler_color = "2" in keys
 
+        # --- templet + data -> ext ---
         try:
             # load 词缀模版
-            jcy_item_modifiers_templet = None
-            jcy_item_modifiers_templet_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-modifiers.templet.json")
-            with open(jcy_item_modifiers_templet_path, 'r', encoding='utf-8-sig') as f:
-                jcy_item_modifiers_templet = json.load(f)
+            templet_list = None
+            templet_path = os.path.join(MOD_PATH, r"jcy/config/item-modifiers.templet.json")
+            with open(templet_path, 'r', encoding='utf-8') as f:
+                templet_list = json.load(f)
 
             # load 词缀数据
-            jcy_item_modifiers_data = None
-            jcy_item_modifiers_data_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-modifiers.data.json")
-            with open(jcy_item_modifiers_data_path, 'r', encoding='utf-8') as f:
-                jcy_item_modifiers_data = json.load(f)
+            data_dict = None
+            data_path = os.path.join(MOD_PATH, r"jcy/config/item-modifiers.data.json")
+            with open(data_path, 'r', encoding='utf-8') as f:
+                data_dict = json.load(f)
 
-            netease = jcy_config.SETTINGS.get(Function.ZHCN.value)
-            battlenet = jcy_config.SETTINGS.get(Function.ZHTW.value)
+            # 结果集
+            ext_json = {}
+
             # 词缀数据填充模板
-            for item in jcy_item_modifiers_templet:
+            for item in templet_list:
                 Key = item["Key"]
-                data = jcy_item_modifiers_data.get(Key)
-                if data is not None:
+                data = data_dict.get(Key)
+
+                # 没有模板数据pass
+                if not data:
+                    continue
+                
+                for lang in Language:
+                    lng = lang.value
                     # 英文缩写
                     abbr = data.get("abbr")
-                    if abbr is not None:
-                        item["enUS"] = item["enUS"].replace(r"{{abbr}}", abbr if handler_abbr else "")
-                        item["zhCN"] = item["zhCN"].replace(r"{{abbr}}", abbr if handler_abbr else "")
-                        item["zhTW"] = item["zhTW"].replace(r"{{abbr}}", abbr if handler_abbr else "")
-                        item["zhSGCN"] = item["zhSGCN"].replace(r"{{abbr}}", abbr if handler_abbr else "")
-                        item["zhSGTW"] = item["zhSGTW"].replace(r"{{abbr}}", abbr if handler_abbr else "")
+                    if abbr:
+                        item[lng] = item[lng].replace(r"{{abbr}}", abbr if handler_abbr else "")
                     # 词缀染色
                     color = data.get("color")
-                    if color is not None:
-                        item["enUS"] = item["enUS"].replace(r"{{color0}}", color[0] if handler_color else "").replace(r"{{color1}}", color[1] if handler_color else "")
-                        item["zhCN"] = item["zhCN"].replace(r"{{color0}}", color[0] if handler_color else "").replace(r"{{color1}}", color[1] if handler_color else "")
-                        item["zhTW"] = item["zhTW"].replace(r"{{color0}}", color[0] if handler_color else "").replace(r"{{color1}}", color[1] if handler_color else "")
-                        item["zhSGCN"] = item["zhSGCN"].replace(r"{{color0}}", color[0] if handler_color else "").replace(r"{{color1}}", color[1] if handler_color else "")
-                        item["zhSGTW"] = item["zhSGTW"].replace(r"{{color0}}", color[0] if handler_color else "").replace(r"{{color1}}", color[1] if handler_color else "")
+                    if color:
+                        item[lng] = item[lng].replace(r"{{color0}}", color[0] if handler_color else "").replace(r"{{color1}}", color[1] if handler_color else "")
                         
-                # 本地化
-                item[ZHCN2] = item[ZHCN]
-                item[ZHTW2] = item[ZHTW]
-                # 国服本地化
-                item[ZHCN] = item[netease]
-                # 国际服本地化
-                item[ZHTW] = item[battlenet]
+                ext_json[Key] = item
 
-            # 写临时文件
-            item_modifiers_tmp = os.path.join(MOD_PATH, r"data/local/lng/strings/item-modifiers.json.tmp")
-            with open(item_modifiers_tmp, 'w', encoding="utf-8-sig") as f:
-                json.dump(jcy_item_modifiers_templet, f, ensure_ascii=False, indent=2)
+            # 写ext
+            ext_path = os.path.join(MOD_PATH, r"jcy/ext/item-modifiers.json")
+            with open(ext_path, 'w', encoding="utf-8") as f:
+                json.dump(ext_json, f, ensure_ascii=False, indent=4)
 
-            # 覆盖目标文件
-            item_modifiers = os.path.join(MOD_PATH, r"data/local/lng/strings/item-modifiers.json")
-            os.replace(item_modifiers_tmp, item_modifiers)
+            jcy_config.LOCAL_EXT_DICT = self.load_local_ext_dicts()
+            self.modify_zhCN_language("")
+            self.modify_zhTW_language("")
+
             count += 1
         except Exception as e:
             print(e)
