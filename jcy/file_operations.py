@@ -1671,23 +1671,19 @@ class FileOperations:
 
             for item in templet_list:
                 Key = item["Key"]
-                data = data_dict.get(Key)
+                data = data_dict.get(Key, {})
                 
-                # 没有模板数据pass
-                if not data:
-                    continue
-
                 if Key in jcy_config.UNIQUEITEMS:
                     # ---- 暗金装 ----
                     for lang in Language:
                         lng = lang.value
                         arr = []
                         if unique_max:
-                            max = data[lng].get("max")
+                            max = data.get(lng, {}).get("max")
                             if max:
                                 arr.append(f"ÿc1[{max}]\n")
                         if unique_mark:
-                            mark = data[lng].get("mark")
+                            mark = data.get(lng, {}).get("mark")
                             if mark:
                                 arr.append(f"ÿc2[{mark}]\n")
                         if len(arr) > 0:
@@ -1702,11 +1698,11 @@ class FileOperations:
                         lng = lang.value
                         arr = []
                         if set_max:
-                            max = data[lng].get("max")
+                            max = data.get(lng, {}).get("max")
                             if max:
                                 arr.append(f"ÿc1[{max}]\n")
                         if set_mark:
-                            mark = data[lng].get("mark")
+                            mark = data.get(lng, {}).get("mark")
                             if mark:
                                 arr.append(f"ÿc2{mark}\n")
                         if len(arr) > 0:
@@ -1716,31 +1712,33 @@ class FileOperations:
                             arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
                 elif Key in ITEM_BASE:
+                    # 底材
                     for lang in Language:
                         lng = lang.value
                         arr = [item[lng]]
                         
                         if base_grade:
-                            grade = data[lng].get("grade")
+                            grade = data.get(lng, {}).get("grade")
                             if grade:
                                 arr.append(f"|{grade}")
                         if base_weight:
-                            weight = data[lng].get("weight")
+                            weight = data.get(lng, {}).get("weight")
                             if weight:
                                 if len(arr) == 0:
                                     arr.append("|")
                                 arr.append(weight)
                         if base_sockets:
-                            sockets = data[lng].get("sockets")
+                            sockets = data.get(lng, {}).get("sockets")
                             if sockets:
                                 arr.append(f"[{sockets}]")
                         if base_defense:
-                            defense = data[lng].get("defense")
+                            defense = data.get(lng, {}).get("defense")
                             if defense:
                                 arr.append(f"[{defense}]")
                         if base_enus and lng != Language.ENUS.value:
                             arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
+
                 ext_json[Key] = item
 
             # 写ext
@@ -3360,6 +3358,7 @@ class FileOperations:
         total = len(_files)
 
         _controls = {
+            "1": "OpenMiniBar",
             "2": "OpenMiniHp",
             "3": "OpenMiniCube",
         }

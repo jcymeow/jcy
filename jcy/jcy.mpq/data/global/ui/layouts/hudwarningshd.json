@@ -229,10 +229,11 @@
         },
         {
             "type": "TimerWidget",
-            "name": "TimerClose",
+            "name": "OpenMiniBar",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:hudpanelbuttons"
+                "message": "PanelManager:OpenPanel:hudpanelbuttons",
+                "default": "PanelManager:OpenPanel:hudpanelbuttons"
             }
         },
         {

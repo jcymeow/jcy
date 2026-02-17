@@ -1,4 +1,76 @@
 {
+    "qf1": {
+        "id": 1060,
+        "Key": "qf1",
+        "enUS": "Khalim's Flail",
+        "zhTW": "克林姆的連枷",
+        "zhCN": "卡林姆的连枷",
+        "sgCN": "克林姆的连枷",
+        "sgTW": "克林姆的連枷"
+    },
+    "qf2": {
+        "id": 1061,
+        "Key": "qf2",
+        "enUS": "Khalim's Will",
+        "zhTW": "克林姆的遺願",
+        "zhCN": "卡林姆的意志",
+        "sgCN": "克林姆的遗愿",
+        "sgTW": "克林姆的遺願"
+    },
+    "KhalimFlail": {
+        "id": 1062,
+        "Key": "KhalimFlail",
+        "enUS": "Khalim's Flail",
+        "zhTW": "克林姆的連枷",
+        "zhCN": "卡林姆的连枷",
+        "sgCN": "克林姆的连枷",
+        "sgTW": "克林姆的連枷"
+    },
+    "SuperKhalimFlail": {
+        "id": 1063,
+        "Key": "SuperKhalimFlail",
+        "enUS": "Khalim's Will",
+        "zhTW": "克林姆的遺願",
+        "zhCN": "卡林姆的意志",
+        "sgCN": "克林姆的意志",
+        "sgTW": "克林姆的遺願"
+    },
+    "qey": {
+        "id": 1064,
+        "Key": "qey",
+        "enUS": "Khalim's Eye",
+        "zhTW": "克林姆的眼球",
+        "zhCN": "卡林姆的眼球",
+        "sgCN": "克林姆的眼球",
+        "sgTW": "克林姆的眼球"
+    },
+    "qbr": {
+        "id": 1065,
+        "Key": "qbr",
+        "enUS": "Khalim's Brain",
+        "zhTW": "克林姆的大腦",
+        "zhCN": "卡林姆的大脑",
+        "sgCN": "克林姆的大脑",
+        "sgTW": "克林姆的大腦"
+    },
+    "qhr": {
+        "id": 1066,
+        "Key": "qhr",
+        "enUS": "Khalim's Heart",
+        "zhTW": "克林姆的心臟",
+        "zhCN": "卡林姆的心脏",
+        "sgCN": "克林姆的心脏",
+        "sgTW": "克林姆的心臟"
+    },
+    "Skillful": {
+        "id": 1751,
+        "Key": "Skillful",
+        "enUS": "Skillful",
+        "zhTW": "熟練",
+        "zhCN": "熟练",
+        "sgCN": "熟练之",
+        "sgTW": "熟練之"
+    },
     "cap": {
         "id": 1930,
         "Key": "cap",
@@ -2240,6 +2312,1698 @@
         "sgCN": "哥德剑|扩",
         "sgTW": "哥德劍|擴"
     },
+    "gpl": {
+        "id": 2182,
+        "Key": "gpl",
+        "enUS": "Strangling Gas Potion",
+        "zhTW": "小毒",
+        "zhCN": "小毒",
+        "sgCN": "刺鼻瓦斯药剂（小）",
+        "sgTW": "刺鼻瓦斯藥劑（小）"
+    },
+    "opl": {
+        "id": 2183,
+        "Key": "opl",
+        "enUS": "Fulminating Potion",
+        "zhTW": "小炸",
+        "zhCN": "小炸",
+        "sgCN": "爆炸药剂（小）",
+        "sgTW": "爆性藥劑（小）"
+    },
+    "gpm": {
+        "id": 2184,
+        "Key": "gpm",
+        "enUS": "Choking Gas Potion",
+        "zhTW": "中毒",
+        "zhCN": "中毒",
+        "sgCN": "窒息瓦斯药剂（中）",
+        "sgTW": "窒息瓦斯藥劑（中）"
+    },
+    "opm": {
+        "id": 2185,
+        "Key": "opm",
+        "enUS": "Exploding Potion",
+        "zhTW": "中炸",
+        "zhCN": "中炸",
+        "sgCN": "爆炸药剂（中）",
+        "sgTW": "爆炸藥劑（中）"
+    },
+    "gps": {
+        "id": 2186,
+        "Key": "gps",
+        "enUS": "Rancid Gas Potion",
+        "zhTW": "大毒",
+        "zhCN": "大毒",
+        "sgCN": "恶臭瓦斯药剂（大）",
+        "sgTW": "惡臭瓦斯藥劑（大）"
+    },
+    "ops": {
+        "id": 2187,
+        "Key": "ops",
+        "enUS": "Oil Potion",
+        "zhTW": "大炸",
+        "zhCN": "大炸",
+        "sgCN": "油",
+        "sgTW": "油"
+    },
+    "gidbinn": {
+        "id": 2188,
+        "Key": "gidbinn",
+        "enUS": "Gidbinn",
+        "zhTW": "吉德賓",
+        "zhCN": "吉德宾",
+        "sgCN": "吉德宾",
+        "sgTW": "吉德賓"
+    },
+    "g33": {
+        "id": 2189,
+        "Key": "g33",
+        "enUS": "The Gidbinn",
+        "zhTW": "吉德賓",
+        "zhCN": "吉德宾",
+        "sgCN": "吉德宾",
+        "sgTW": "吉德賓"
+    },
+    "d33": {
+        "id": 2190,
+        "Key": "d33",
+        "enUS": "Decoy Gidbinn",
+        "zhTW": "吉德賓誘餌",
+        "zhCN": "赝品吉德宾",
+        "sgCN": "吉德宾诱饵",
+        "sgTW": "吉德賓誘餌"
+    },
+    "leg": {
+        "id": 2191,
+        "Key": "leg",
+        "enUS": "Wirt's Leg",
+        "zhTW": "維特的腿",
+        "zhCN": "怀特的腿",
+        "sgCN": "维特之脚",
+        "sgTW": "維特之腳"
+    },
+    "Malus": {
+        "id": 2192,
+        "Key": "Malus",
+        "enUS": "Horadric Malus",
+        "zhTW": "赫拉迪姆之鎚",
+        "zhCN": "赫拉迪姆之锤",
+        "sgCN": "赫拉迪姆之锤",
+        "sgTW": "赫拉迪姆之鎚"
+    },
+    "hdm": {
+        "id": 2193,
+        "Key": "hdm",
+        "enUS": "Horadric Malus",
+        "zhTW": "赫拉迪姆之鎚",
+        "zhCN": "赫拉迪姆之锤",
+        "sgCN": "赫拉迪姆之锤",
+        "sgTW": "赫拉迪姆之鎚"
+    },
+    "hfh": {
+        "id": 2194,
+        "Key": "hfh",
+        "enUS": "Hell Forge Hammer",
+        "zhTW": "地獄熔爐之鎚",
+        "zhCN": "地狱熔炉之锤",
+        "sgCN": "地狱熔炉铁锤",
+        "sgTW": "地獄熔爐鐵鎚"
+    },
+    "hst": {
+        "id": 2195,
+        "Key": "hst",
+        "enUS": "Horadric Staff",
+        "zhTW": "赫拉迪姆之杖",
+        "zhCN": "赫拉迪姆法杖",
+        "sgCN": "赫拉迪克之杖",
+        "sgTW": "赫拉迪克之杖"
+    },
+    "msf": {
+        "id": 2196,
+        "Key": "msf",
+        "enUS": "Shaft of the Horadric Staff",
+        "zhTW": "赫拉迪姆之杖的杖身",
+        "zhCN": "赫拉迪姆法杖的杖身",
+        "sgCN": "赫拉迪克之杖的转轴",
+        "sgTW": "赫拉迪克之杖的轉軸"
+    },
+    "elx": {
+        "id": 2198,
+        "Key": "elx",
+        "enUS": "Elixir",
+        "zhTW": "靈藥",
+        "zhCN": "药剂",
+        "sgCN": "灵药",
+        "sgTW": "靈藥"
+    },
+    "tbk": {
+        "id": 2199,
+        "Key": "tbk",
+        "enUS": "Tome of Town Portal",
+        "zhTW": "城鎮傳送之書",
+        "zhCN": "城镇传送之书",
+        "sgCN": "城镇传送之书",
+        "sgTW": "城鎮傳送之書"
+    },
+    "tsc": {
+        "id": 2200,
+        "Key": "tsc",
+        "enUS": "Scroll of Town Portal",
+        "zhTW": "回城",
+        "zhCN": "回城",
+        "sgCN": "城镇传送卷轴",
+        "sgTW": "城鎮傳送卷軸"
+    },
+    "ibk": {
+        "id": 2201,
+        "Key": "ibk",
+        "enUS": "Tome of Identify",
+        "zhTW": "鑑定之書",
+        "zhCN": "鉴定之书",
+        "sgCN": "辨视之书",
+        "sgTW": "辨視之書"
+    },
+    "isc": {
+        "id": 2202,
+        "Key": "isc",
+        "enUS": "Scroll of Identify",
+        "zhTW": "鑒定",
+        "zhCN": "鉴定",
+        "sgCN": "辨视卷轴",
+        "sgTW": "辨視卷軸"
+    },
+    "vps": {
+        "id": 2207,
+        "Key": "vps",
+        "enUS": "Stamina Potion",
+        "zhTW": "耐力",
+        "zhCN": "耐力",
+        "sgCN": "耐力药剂",
+        "sgTW": "耐力藥劑"
+    },
+    "yps": {
+        "id": 2208,
+        "Key": "yps",
+        "enUS": "Antidote Potion",
+        "zhTW": "解毒",
+        "zhCN": "解毒",
+        "sgCN": "解毒药剂",
+        "sgTW": "解毒藥劑"
+    },
+    "rvs": {
+        "id": 2209,
+        "Key": "rvs",
+        "enUS": "ÿc;Rejuvenation Potionÿc0",
+        "zhTW": "ÿc;小紫ÿc0",
+        "zhCN": "ÿc;小紫ÿc0",
+        "sgCN": "ÿc;回复活力药剂ÿc0",
+        "sgTW": "ÿc;回復活力藥劑ÿc0"
+    },
+    "rvl": {
+        "id": 2210,
+        "Key": "rvl",
+        "enUS": "ÿc;Full Rejuvenation Potionÿc0",
+        "zhTW": "ÿc;大紫ÿc0",
+        "zhCN": "ÿc;大紫ÿc0",
+        "sgCN": "ÿc;全面恢复活力药剂ÿc0",
+        "sgTW": "ÿc;全面回復活力藥劑ÿc0"
+    },
+    "wms": {
+        "id": 2211,
+        "Key": "wms",
+        "enUS": "Thawing Potion",
+        "zhTW": "解凍",
+        "zhCN": "解冻",
+        "sgCN": "融解药剂",
+        "sgTW": "融解藥劑"
+    },
+    "amu": {
+        "id": 2212,
+        "Key": "amu",
+        "enUS": "★Amulet★",
+        "zhTW": "★護身符★",
+        "zhCN": "★护符★",
+        "sgCN": "★护身符★",
+        "sgTW": "★護身符★"
+    },
+    "vip": {
+        "id": 2213,
+        "Key": "vip",
+        "enUS": "Top of the Horadric Staff",
+        "zhTW": "赫拉迪姆之杖的杖頂",
+        "zhCN": "赫拉迪姆法杖的杖头",
+        "sgCN": "赫拉迪克之杖的顶端",
+        "sgTW": "赫拉迪克之杖頂端"
+    },
+    "rin": {
+        "id": 2214,
+        "Key": "rin",
+        "enUS": "★Ring★",
+        "zhTW": "★戒指★",
+        "zhCN": "★戒指★",
+        "sgCN": "★戒指★",
+        "sgTW": "★戒指★"
+    },
+    "bks": {
+        "id": 2216,
+        "Key": "bks",
+        "enUS": "Scroll of Inifuss",
+        "zhTW": "艾尼弗斯卷軸",
+        "zhCN": "艾尼弗斯卷轴",
+        "sgCN": "艾尼弗斯卷轴",
+        "sgTW": "艾尼弗斯卷軸"
+    },
+    "bkd": {
+        "id": 2217,
+        "Key": "bkd",
+        "enUS": "Key to the Cairn Stones",
+        "zhTW": "石陣之鑰",
+        "zhCN": "石阵密文",
+        "sgCN": "石塚之钥",
+        "sgTW": "石塚之鑰"
+    },
+    "aqv": {
+        "id": 2218,
+        "Key": "aqv",
+        "enUS": "Arrows",
+        "zhTW": "弓矢",
+        "zhCN": "箭矢",
+        "sgCN": "箭矢",
+        "sgTW": "箭矢"
+    },
+    "tch": {
+        "id": 2219,
+        "Key": "tch",
+        "enUS": "Torch",
+        "zhTW": "火炬",
+        "zhCN": "火把",
+        "sgCN": "火焰",
+        "sgTW": "火焰"
+    },
+    "cqv": {
+        "id": 2220,
+        "Key": "cqv",
+        "enUS": "Bolts",
+        "zhTW": "弩箭",
+        "zhCN": "弩矢",
+        "sgCN": "十字弓弹",
+        "sgTW": "十字弓彈"
+    },
+    "Key": {
+        "id": 2221,
+        "Key": "Key",
+        "enUS": "Key",
+        "zhTW": "鑰匙",
+        "zhCN": "钥匙",
+        "sgCN": "钥匙",
+        "sgTW": "鑰匙"
+    },
+    "key": {
+        "id": 2222,
+        "Key": "key",
+        "enUS": "Key",
+        "zhTW": "鑰匙",
+        "zhCN": "钥匙",
+        "sgCN": "钥匙",
+        "sgTW": "鑰匙"
+    },
+    "luv": {
+        "id": 2223,
+        "Key": "luv",
+        "enUS": "The Black Tower Key",
+        "zhTW": "黑塔之鑰",
+        "zhCN": "黑塔钥匙",
+        "sgCN": "黑塔之钥",
+        "sgTW": "黑塔之鑰"
+    },
+    "j34": {
+        "id": 2227,
+        "Key": "j34",
+        "enUS": "A Jade Figurine",
+        "zhTW": "翠玉塑像",
+        "zhCN": "玉石雕像",
+        "sgCN": "玉制小人",
+        "sgTW": "玉製小人"
+    },
+    "g34": {
+        "id": 2228,
+        "Key": "g34",
+        "enUS": "The Golden Bird",
+        "zhTW": "黃金鳥",
+        "zhCN": "黄金鸟",
+        "sgCN": "黄金鸟",
+        "sgTW": "黃金鳥"
+    },
+    "bbb": {
+        "id": 2229,
+        "Key": "bbb",
+        "enUS": "Lam Esen's Tome",
+        "zhTW": "藍伊森之書",
+        "zhCN": "兰姆·艾森之书",
+        "sgCN": "蓝·依森之书",
+        "sgTW": "藍.依森之書"
+    },
+    "LamTome": {
+        "id": 2230,
+        "Key": "LamTome",
+        "enUS": "Lam Esen's Tome",
+        "zhTW": "藍伊森之書",
+        "zhCN": "兰姆·艾森之书",
+        "sgCN": "蓝·依森之书",
+        "sgTW": "藍.依森之書"
+    },
+    "box": {
+        "id": 2231,
+        "Key": "box",
+        "enUS": "Horadric Cube",
+        "zhTW": "赫拉迪姆方塊",
+        "zhCN": "赫拉迪姆魔盒",
+        "sgCN": "赫拉迪克方块",
+        "sgTW": "赫拉迪克方塊"
+    },
+    "tr1": {
+        "id": 2232,
+        "Key": "tr1",
+        "enUS": "Horadric Scroll",
+        "zhTW": "赫拉迪姆卷軸",
+        "zhCN": "赫拉迪姆卷轴",
+        "sgCN": "赫拉迪克卷轴",
+        "sgTW": "赫拉迪克卷軸"
+    },
+    "mss": {
+        "id": 2233,
+        "Key": "mss",
+        "enUS": "Mephisto's Soulstone",
+        "zhTW": "墨菲斯托的靈魂石",
+        "zhCN": "墨菲斯托的灵魂石",
+        "sgCN": "墨菲斯托的灵魂之石",
+        "sgTW": "墨菲斯托的靈魂之石"
+    },
+    "ear": {
+        "id": 2235,
+        "Key": "ear",
+        "enUS": "Ear",
+        "zhTW": "耳朵",
+        "zhCN": "耳朵",
+        "sgCN": "耳",
+        "sgTW": "耳"
+    },
+    "gcv": {
+        "id": 2236,
+        "Key": "gcv",
+        "enUS": "ÿc1Chipped Amethystÿc0",
+        "zhTW": "ÿc1碎裂紫寶石ÿc0",
+        "zhCN": "ÿc1碎裂的紫宝石ÿc0",
+        "sgCN": "ÿc1碎裂的紫宝石ÿc0",
+        "sgTW": "ÿc1碎裂的紫寶石ÿc0"
+    },
+    "gfv": {
+        "id": 2237,
+        "Key": "gfv",
+        "enUS": "ÿc1Flawed Amethystÿc0",
+        "zhTW": "ÿc1瑕疵紫寶石ÿc0",
+        "zhCN": "ÿc1有瑕疵的紫宝石ÿc0",
+        "sgCN": "ÿc1裂开的紫宝石ÿc0",
+        "sgTW": "ÿc1裂開的紫寶石ÿc0"
+    },
+    "gsv": {
+        "id": 2238,
+        "Key": "gsv",
+        "enUS": "ÿc1Amethystÿc0",
+        "zhTW": "ÿc1紫寶石ÿc0",
+        "zhCN": "ÿc1紫宝石ÿc0",
+        "sgCN": "ÿc1紫宝石ÿc0",
+        "sgTW": "ÿc1紫寶石ÿc0"
+    },
+    "gzv": {
+        "id": 2239,
+        "Key": "gzv",
+        "enUS": "ÿc1Flawless Amethystÿc0",
+        "zhTW": "ÿc1無瑕紫寶石ÿc0",
+        "zhCN": "ÿc1无瑕的紫宝石ÿc0",
+        "sgCN": "ÿc1无瑕疵的紫宝石ÿc0",
+        "sgTW": "ÿc1無暇疵的紫寶石ÿc0"
+    },
+    "gpv": {
+        "id": 2240,
+        "Key": "gpv",
+        "enUS": "ÿc1Perfect Amethystÿc0",
+        "zhTW": "ÿc1完美紫寶石ÿc0",
+        "zhCN": "ÿc1完美的紫宝石ÿc0",
+        "sgCN": "ÿc1完美的紫宝石ÿc0",
+        "sgTW": "ÿc1完美的紫寶石ÿc0"
+    },
+    "gcy": {
+        "id": 2241,
+        "Key": "gcy",
+        "enUS": "ÿc1Chipped Topazÿc0",
+        "zhTW": "ÿc1碎裂黃寶石ÿc0",
+        "zhCN": "ÿc1碎裂的黄宝石ÿc0",
+        "sgCN": "ÿc1碎裂的黄宝石ÿc0",
+        "sgTW": "ÿc1碎裂的黃寶石ÿc0"
+    },
+    "gfy": {
+        "id": 2242,
+        "Key": "gfy",
+        "enUS": "ÿc1Flawed Topazÿc0",
+        "zhTW": "ÿc1瑕疵黃寶石ÿc0",
+        "zhCN": "ÿc1有瑕疵的黄宝石ÿc0",
+        "sgCN": "ÿc1裂开的黄宝石ÿc0",
+        "sgTW": "ÿc1裂開的黃寶石ÿc0"
+    },
+    "gsy": {
+        "id": 2243,
+        "Key": "gsy",
+        "enUS": "ÿc1Topazÿc0",
+        "zhTW": "ÿc1黃寶石ÿc0",
+        "zhCN": "ÿc1黄宝石ÿc0",
+        "sgCN": "ÿc1黄宝石ÿc0",
+        "sgTW": "ÿc1黃寶石ÿc0"
+    },
+    "gly": {
+        "id": 2244,
+        "Key": "gly",
+        "enUS": "ÿc1Flawless Topazÿc0",
+        "zhTW": "ÿc1無瑕黃寶石ÿc0",
+        "zhCN": "ÿc1无瑕的黄宝石ÿc0",
+        "sgCN": "ÿc1无瑕疵的黄宝石ÿc0",
+        "sgTW": "ÿc1無暇疵的黃寶石ÿc0"
+    },
+    "gpy": {
+        "id": 2245,
+        "Key": "gpy",
+        "enUS": "ÿc1Perfect Topazÿc0",
+        "zhTW": "ÿc1完美黃寶石ÿc0",
+        "zhCN": "ÿc1完美的黄宝石ÿc0",
+        "sgCN": "ÿc1完美的黄宝石ÿc0",
+        "sgTW": "ÿc1完美黃寶石ÿc0"
+    },
+    "gcb": {
+        "id": 2246,
+        "Key": "gcb",
+        "enUS": "ÿc1Chipped Sapphireÿc0",
+        "zhTW": "ÿc1碎裂藍寶石ÿc0",
+        "zhCN": "ÿc1碎裂的蓝宝石ÿc0",
+        "sgCN": "ÿc1碎裂的蓝宝石ÿc0",
+        "sgTW": "ÿc1碎裂的藍寶石ÿc0"
+    },
+    "gfb": {
+        "id": 2247,
+        "Key": "gfb",
+        "enUS": "ÿc1Flawed Sapphireÿc0",
+        "zhTW": "ÿc1瑕疵藍寶石ÿc0",
+        "zhCN": "ÿc1有瑕疵的蓝宝石ÿc0",
+        "sgCN": "ÿc1裂开的蓝宝石ÿc0",
+        "sgTW": "ÿc1裂開的藍寶石ÿc0"
+    },
+    "gsb": {
+        "id": 2248,
+        "Key": "gsb",
+        "enUS": "ÿc1Sapphireÿc0",
+        "zhTW": "ÿc1藍寶石ÿc0",
+        "zhCN": "ÿc1蓝宝石ÿc0",
+        "sgCN": "ÿc1蓝宝石ÿc0",
+        "sgTW": "ÿc1藍寶石ÿc0"
+    },
+    "glb": {
+        "id": 2249,
+        "Key": "glb",
+        "enUS": "ÿc1Flawless Sapphireÿc0",
+        "zhTW": "ÿc1無瑕藍寶石ÿc0",
+        "zhCN": "ÿc1无瑕的蓝宝石ÿc0",
+        "sgCN": "ÿc1无瑕疵的蓝宝石ÿc0",
+        "sgTW": "ÿc1無暇疵的藍寶石ÿc0"
+    },
+    "gpb": {
+        "id": 2250,
+        "Key": "gpb",
+        "enUS": "ÿc1Perfect Sapphireÿc0",
+        "zhTW": "ÿc1完美藍寶石ÿc0",
+        "zhCN": "ÿc1完美的蓝宝石ÿc0",
+        "sgCN": "ÿc1完美的蓝宝石ÿc0",
+        "sgTW": "ÿc1完美藍寶石ÿc0"
+    },
+    "gcg": {
+        "id": 2251,
+        "Key": "gcg",
+        "enUS": "ÿc1Chipped Emeraldÿc0",
+        "zhTW": "ÿc1碎裂綠寶石ÿc0",
+        "zhCN": "ÿc1碎裂的绿宝石ÿc0",
+        "sgCN": "ÿc1碎裂的绿宝石ÿc0",
+        "sgTW": "ÿc1碎裂的綠寶石ÿc0"
+    },
+    "gfg": {
+        "id": 2252,
+        "Key": "gfg",
+        "enUS": "ÿc1Flawed Emeraldÿc0",
+        "zhTW": "ÿc1瑕疵綠寶石ÿc0",
+        "zhCN": "ÿc1有瑕疵的绿宝石ÿc0",
+        "sgCN": "ÿc1裂开的绿宝石ÿc0",
+        "sgTW": "ÿc1裂開的綠寶石ÿc0"
+    },
+    "glg": {
+        "id": 2253,
+        "Key": "glg",
+        "enUS": "ÿc1Flawless Emeraldÿc0",
+        "zhTW": "ÿc1無瑕綠寶石ÿc0",
+        "zhCN": "ÿc1无瑕的绿宝石ÿc0",
+        "sgCN": "ÿc1无瑕疵的绿宝石ÿc0",
+        "sgTW": "ÿc1無暇疵的綠寶石ÿc0"
+    },
+    "gsg": {
+        "id": 2254,
+        "Key": "gsg",
+        "enUS": "ÿc1Emeraldÿc0",
+        "zhTW": "ÿc1綠寶石ÿc0",
+        "zhCN": "ÿc1绿宝石ÿc0",
+        "sgCN": "ÿc1绿宝石ÿc0",
+        "sgTW": "ÿc1綠寶石ÿc0"
+    },
+    "gpg": {
+        "id": 2255,
+        "Key": "gpg",
+        "enUS": "ÿc1Perfect Emeraldÿc0",
+        "zhTW": "ÿc1完美綠寶石ÿc0",
+        "zhCN": "ÿc1完美的绿宝石ÿc0",
+        "sgCN": "ÿc1完美的绿宝石ÿc0",
+        "sgTW": "ÿc1完美的綠寶石ÿc0"
+    },
+    "gcr": {
+        "id": 2256,
+        "Key": "gcr",
+        "enUS": "ÿc1Chipped Rubyÿc0",
+        "zhTW": "ÿc1碎裂紅寶石ÿc0",
+        "zhCN": "ÿc1碎裂的红宝石ÿc0",
+        "sgCN": "ÿc1碎裂的红宝石ÿc0",
+        "sgTW": "ÿc1碎裂的紅寶石ÿc0"
+    },
+    "gfr": {
+        "id": 2257,
+        "Key": "gfr",
+        "enUS": "ÿc1Flawed Rubyÿc0",
+        "zhTW": "ÿc1瑕疵紅寶石ÿc0",
+        "zhCN": "ÿc1有瑕疵的红宝石ÿc0",
+        "sgCN": "ÿc1裂开的红宝石ÿc0",
+        "sgTW": "ÿc1裂開的紅寶石ÿc0"
+    },
+    "gsr": {
+        "id": 2258,
+        "Key": "gsr",
+        "enUS": "ÿc1Rubyÿc0",
+        "zhTW": "ÿc1紅寶石ÿc0",
+        "zhCN": "ÿc1红宝石ÿc0",
+        "sgCN": "ÿc1红宝石ÿc0",
+        "sgTW": "ÿc1紅寶石ÿc0"
+    },
+    "glr": {
+        "id": 2259,
+        "Key": "glr",
+        "enUS": "ÿc1Flawless Rubyÿc0",
+        "zhTW": "ÿc1無瑕紅寶石ÿc0",
+        "zhCN": "ÿc1无瑕的红宝石ÿc0",
+        "sgCN": "ÿc1无瑕疵的红宝石ÿc0",
+        "sgTW": "ÿc1無瑕疵的紅寶石ÿc0"
+    },
+    "gpr": {
+        "id": 2260,
+        "Key": "gpr",
+        "enUS": "ÿc1Perfect Rubyÿc0",
+        "zhTW": "ÿc1完美紅寶石ÿc0",
+        "zhCN": "ÿc1完美的红宝石ÿc0",
+        "sgCN": "ÿc1完美的红宝石ÿc0",
+        "sgTW": "ÿc1完美的紅寶石ÿc0"
+    },
+    "gcw": {
+        "id": 2261,
+        "Key": "gcw",
+        "enUS": "ÿc1Chipped Diamondÿc0",
+        "zhTW": "ÿc1碎裂鑽石ÿc0",
+        "zhCN": "ÿc1碎裂的钻石ÿc0",
+        "sgCN": "ÿc1碎裂的钻石ÿc0",
+        "sgTW": "ÿc1碎裂的鑽石ÿc0"
+    },
+    "gfw": {
+        "id": 2262,
+        "Key": "gfw",
+        "enUS": "ÿc1Flawed Diamondÿc0",
+        "zhTW": "ÿc1瑕疵鑽石ÿc0",
+        "zhCN": "ÿc1有瑕疵的钻石ÿc0",
+        "sgCN": "ÿc1裂开的钻石ÿc0",
+        "sgTW": "ÿc1裂開的鑽石ÿc0"
+    },
+    "gsw": {
+        "id": 2263,
+        "Key": "gsw",
+        "enUS": "ÿc1Diamondÿc0",
+        "zhTW": "ÿc1鑽石ÿc0",
+        "zhCN": "ÿc1钻石ÿc0",
+        "sgCN": "ÿc1钻石ÿc0",
+        "sgTW": "ÿc1鑽石ÿc0"
+    },
+    "glw": {
+        "id": 2264,
+        "Key": "glw",
+        "enUS": "ÿc1Flawless Diamondÿc0",
+        "zhTW": "ÿc1無瑕鑽石ÿc0",
+        "zhCN": "ÿc1无瑕的钻石ÿc0",
+        "sgCN": "ÿc1无瑕疵的钻石ÿc0",
+        "sgTW": "ÿc1無暇疵的鑽石ÿc0"
+    },
+    "gpw": {
+        "id": 2265,
+        "Key": "gpw",
+        "enUS": "ÿc1Perfect Diamondÿc0",
+        "zhTW": "ÿc1完美鑽石ÿc0",
+        "zhCN": "ÿc1完美的钻石ÿc0",
+        "sgCN": "ÿc1完美的钻石ÿc0",
+        "sgTW": "ÿc1完美的鑽石ÿc0"
+    },
+    "hp1": {
+        "id": 2266,
+        "Key": "hp1",
+        "enUS": "Minor Healing Potion",
+        "zhTW": "微紅",
+        "zhCN": "微红",
+        "sgCN": "轻微治疗药剂",
+        "sgTW": "輕微治療藥劑"
+    },
+    "hp2": {
+        "id": 2267,
+        "Key": "hp2",
+        "enUS": "Light Healing Potion",
+        "zhTW": "小紅",
+        "zhCN": "小红",
+        "sgCN": "轻型治疗药剂",
+        "sgTW": "輕型治療藥劑"
+    },
+    "hp3": {
+        "id": 2268,
+        "Key": "hp3",
+        "enUS": "Healing Potion",
+        "zhTW": "中紅",
+        "zhCN": "中红",
+        "sgCN": "治疗药剂",
+        "sgTW": "治療藥劑"
+    },
+    "hp4": {
+        "id": 2269,
+        "Key": "hp4",
+        "enUS": "Greater Healing Potion",
+        "zhTW": "大紅",
+        "zhCN": "大红",
+        "sgCN": "强力治疗药剂",
+        "sgTW": "強力治療藥劑"
+    },
+    "hp5": {
+        "id": 2270,
+        "Key": "hp5",
+        "enUS": "Super Healing Potion",
+        "zhTW": "超紅",
+        "zhCN": "超红",
+        "sgCN": "超级治疗药剂",
+        "sgTW": "超級治療藥劑"
+    },
+    "mp1": {
+        "id": 2271,
+        "Key": "mp1",
+        "enUS": "Minor Mana Potion",
+        "zhTW": "微藍",
+        "zhCN": "微蓝",
+        "sgCN": "轻微法力药剂",
+        "sgTW": "輕微法力藥劑"
+    },
+    "mp2": {
+        "id": 2272,
+        "Key": "mp2",
+        "enUS": "Light Mana Potion",
+        "zhTW": "小藍",
+        "zhCN": "小蓝",
+        "sgCN": "轻型法力药剂",
+        "sgTW": "輕型法力藥劑"
+    },
+    "mp3": {
+        "id": 2273,
+        "Key": "mp3",
+        "enUS": "Mana Potion",
+        "zhTW": "中藍",
+        "zhCN": "中蓝",
+        "sgCN": "法力药剂",
+        "sgTW": "法力藥劑"
+    },
+    "mp4": {
+        "id": 2274,
+        "Key": "mp4",
+        "enUS": "Greater Mana Potion",
+        "zhTW": "大藍",
+        "zhCN": "大蓝",
+        "sgCN": "强力法力药剂",
+        "sgTW": "強力法力藥劑"
+    },
+    "mp5": {
+        "id": 2275,
+        "Key": "mp5",
+        "enUS": "Super Mana Potion",
+        "zhTW": "超藍",
+        "zhCN": "超蓝",
+        "sgCN": "超级法力药剂",
+        "sgTW": "超級法力藥劑"
+    },
+    "skc": {
+        "id": 2277,
+        "Key": "skc",
+        "enUS": "ÿc1Chipped Skullÿc0",
+        "zhTW": "ÿc1碎裂骷髏石ÿc0",
+        "zhCN": "ÿc1碎裂的头骨宝石ÿc0",
+        "sgCN": "ÿc1碎裂的骷髅ÿc0",
+        "sgTW": "ÿc1碎裂的骷髏ÿc0"
+    },
+    "skf": {
+        "id": 2278,
+        "Key": "skf",
+        "enUS": "ÿc1Flawed Skullÿc0",
+        "zhTW": "ÿc1瑕疵骷髏石ÿc0",
+        "zhCN": "ÿc1有瑕疵的头骨宝石ÿc0",
+        "sgCN": "ÿc1裂开的骷髅ÿc0",
+        "sgTW": "ÿc1裂開的骷髏ÿc0"
+    },
+    "sku": {
+        "id": 2279,
+        "Key": "sku",
+        "enUS": "ÿc1Skullÿc0",
+        "zhTW": "ÿc1骷髏石ÿc0",
+        "zhCN": "ÿc1头骨宝石ÿc0",
+        "sgCN": "ÿc1骷髅ÿc0",
+        "sgTW": "ÿc1骷髏ÿc0"
+    },
+    "skl": {
+        "id": 2280,
+        "Key": "skl",
+        "enUS": "ÿc1Flawless Skullÿc0",
+        "zhTW": "ÿc1無瑕骷髏石ÿc0",
+        "zhCN": "ÿc1无瑕疵的头骨宝石ÿc0",
+        "sgCN": "ÿc1无瑕疵的骷髅ÿc0",
+        "sgTW": "ÿc1無暇疵的骷髏ÿc0"
+    },
+    "skz": {
+        "id": 2281,
+        "Key": "skz",
+        "enUS": "ÿc1Perfect Skullÿc0",
+        "zhTW": "ÿc1完美骷髏石ÿc0",
+        "zhCN": "ÿc1完美的头骨宝石ÿc0",
+        "sgCN": "ÿc1完美的骷髅ÿc0",
+        "sgTW": "ÿc1完美的骷髏ÿc0"
+    },
+    "Raven": {
+        "id": 2284,
+        "Key": "Raven",
+        "enUS": "Raven",
+        "zhTW": "掠鴉",
+        "zhCN": "渡鸦",
+        "sgCN": "渡鸟之",
+        "sgTW": "渡鳥之"
+    },
+    "Imp": {
+        "id": 2308,
+        "Key": "Imp",
+        "enUS": "Imp",
+        "zhTW": "小惡魔",
+        "zhCN": "顽魔",
+        "sgCN": "小恶魔之",
+        "sgTW": "小惡魔之"
+    },
+    "Holocaust": {
+        "id": 2317,
+        "Key": "Holocaust",
+        "enUS": "Armageddon",
+        "zhTW": "末世",
+        "zhCN": "末日",
+        "sgCN": "世界末日之",
+        "sgTW": "世界末日之"
+    },
+    "saw": {
+        "id": 2334,
+        "Key": "saw",
+        "enUS": "Saw",
+        "zhTW": "之鋸",
+        "zhCN": "利锯",
+        "sgCN": "锯",
+        "sgTW": "鋸"
+    },
+    "cry": {
+        "id": 2379,
+        "Key": "cry",
+        "enUS": "Cry",
+        "zhTW": "哭喊",
+        "zhCN": "哭喊",
+        "sgCN": "哭喊",
+        "sgTW": "哭喊"
+    },
+    "visage": {
+        "id": 2384,
+        "Key": "visage",
+        "enUS": "Visage",
+        "zhTW": "面容",
+        "zhCN": "面罩",
+        "sgCN": "脸",
+        "sgTW": "臉"
+    },
+    "crest": {
+        "id": 2385,
+        "Key": "crest",
+        "enUS": "Crest",
+        "zhTW": "飾章",
+        "zhCN": "头冠",
+        "sgCN": "顶饰",
+        "sgTW": "頂飾"
+    },
+    "circlet": {
+        "id": 2386,
+        "Key": "circlet",
+        "enUS": "Circlet",
+        "zhTW": "飾環",
+        "zhCN": "头环",
+        "sgCN": "饰环",
+        "sgTW": "飾環"
+    },
+    "veil": {
+        "id": 2387,
+        "Key": "veil",
+        "enUS": "Veil",
+        "zhTW": "面紗",
+        "zhCN": "面纱",
+        "sgCN": "面纱",
+        "sgTW": "面紗"
+    },
+    "hood": {
+        "id": 2388,
+        "Key": "hood",
+        "enUS": "Hood",
+        "zhTW": "兜帽",
+        "zhCN": "头罩",
+        "sgCN": "兜帽",
+        "sgTW": "兜帽"
+    },
+    "mask": {
+        "id": 2389,
+        "Key": "mask",
+        "enUS": "Mask",
+        "zhTW": "面具",
+        "zhCN": "覆面甲",
+        "sgCN": "面具",
+        "sgTW": "面具"
+    },
+    "brow": {
+        "id": 2390,
+        "Key": "brow",
+        "enUS": "Brow",
+        "zhTW": "之額",
+        "zhCN": "护额",
+        "sgCN": "额头",
+        "sgTW": "額頭"
+    },
+    "casque": {
+        "id": 2391,
+        "Key": "casque",
+        "enUS": "Casque",
+        "zhTW": "兜盔",
+        "zhCN": "战盔",
+        "sgCN": "盔",
+        "sgTW": "盔"
+    },
+    "visor": {
+        "id": 2392,
+        "Key": "visor",
+        "enUS": "Visor",
+        "zhTW": "護面",
+        "zhCN": "面甲",
+        "sgCN": "面甲",
+        "sgTW": "面甲"
+    },
+    "cowl": {
+        "id": 2393,
+        "Key": "cowl",
+        "enUS": "Cowl",
+        "zhTW": "風帽",
+        "zhCN": "兜帽",
+        "sgCN": "蒙头斗蓬",
+        "sgTW": "蒙頭斗蓬"
+    },
+    "hide": {
+        "id": 2394,
+        "Key": "hide",
+        "enUS": "Hide",
+        "zhTW": "毛皮",
+        "zhCN": "兽皮",
+        "sgCN": "隐藏",
+        "sgTW": "隱藏"
+    },
+    "Pelt": {
+        "id": 2395,
+        "Key": "Pelt",
+        "enUS": "Pelt",
+        "zhTW": "獸皮",
+        "zhCN": "毛皮",
+        "sgCN": "投掷",
+        "sgTW": "投擲"
+    },
+    "carapace": {
+        "id": 2396,
+        "Key": "carapace",
+        "enUS": "Carapace",
+        "zhTW": "甲殼",
+        "zhCN": "甲壳",
+        "sgCN": "甲壳",
+        "sgTW": "甲殼"
+    },
+    "coat": {
+        "id": 2397,
+        "Key": "coat",
+        "enUS": "Coat",
+        "zhTW": "外袍",
+        "zhCN": "外衣",
+        "sgCN": "外袍",
+        "sgTW": "外袍"
+    },
+    "wrap": {
+        "id": 2398,
+        "Key": "wrap",
+        "enUS": "Wrap",
+        "zhTW": "裹護",
+        "zhCN": "罩衣",
+        "sgCN": "包裹",
+        "sgTW": "包裹"
+    },
+    "suit": {
+        "id": 2399,
+        "Key": "suit",
+        "enUS": "Suit",
+        "zhTW": "衣裝",
+        "zhCN": "束衣",
+        "sgCN": "衣",
+        "sgTW": "衣"
+    },
+    "cloak": {
+        "id": 2400,
+        "Key": "cloak",
+        "enUS": "Cloak",
+        "zhTW": "斗蓬",
+        "zhCN": "披风",
+        "sgCN": "斗蓬",
+        "sgTW": "斗蓬"
+    },
+    "shroud": {
+        "id": 2401,
+        "Key": "shroud",
+        "enUS": "Shroud",
+        "zhTW": "罩衣",
+        "zhCN": "罩袍",
+        "sgCN": "罩衣",
+        "sgTW": "罩衣"
+    },
+    "jack": {
+        "id": 2402,
+        "Key": "jack",
+        "enUS": "Jack",
+        "zhTW": "水兵",
+        "zhCN": "夹克",
+        "sgCN": "水兵",
+        "sgTW": "水兵"
+    },
+    "mantle": {
+        "id": 2403,
+        "Key": "mantle",
+        "enUS": "Mantle",
+        "zhTW": "披風",
+        "zhCN": "斗篷",
+        "sgCN": "披风",
+        "sgTW": "披風"
+    },
+    "guard": {
+        "id": 2404,
+        "Key": "guard",
+        "enUS": "Guard",
+        "zhTW": "守衛",
+        "zhCN": "守卫",
+        "sgCN": "守卫",
+        "sgTW": "守衛"
+    },
+    "badge": {
+        "id": 2405,
+        "Key": "badge",
+        "enUS": "Badge",
+        "zhTW": "徽章",
+        "zhCN": "纹章",
+        "sgCN": "徽章",
+        "sgTW": "徽章"
+    },
+    "rock": {
+        "id": 2406,
+        "Key": "rock",
+        "enUS": "Rock",
+        "zhTW": "之岩",
+        "zhCN": "磐石",
+        "sgCN": "石块",
+        "sgTW": "石塊"
+    },
+    "aegis": {
+        "id": 2407,
+        "Key": "aegis",
+        "enUS": "Aegis",
+        "zhTW": "之禦",
+        "zhCN": "壁垒",
+        "sgCN": "庇护",
+        "sgTW": "庇護"
+    },
+    "ward": {
+        "id": 2408,
+        "Key": "ward",
+        "enUS": "Ward",
+        "zhTW": "守護",
+        "zhCN": "守御",
+        "sgCN": "保护",
+        "sgTW": "保護"
+    },
+    "tower": {
+        "id": 2409,
+        "Key": "tower",
+        "enUS": "Tower",
+        "zhTW": "之塔",
+        "zhCN": "塔盾",
+        "sgCN": "塔",
+        "sgTW": "塔"
+    },
+    "shield": {
+        "id": 2410,
+        "Key": "shield",
+        "enUS": "Shield",
+        "zhTW": "之盾",
+        "zhCN": "盾牌",
+        "sgCN": "盾护",
+        "sgTW": "盾護"
+    },
+    "wing": {
+        "id": 2411,
+        "Key": "wing",
+        "enUS": "Wing",
+        "zhTW": "之翼",
+        "zhCN": "飞翼",
+        "sgCN": "翼",
+        "sgTW": "翼"
+    },
+    "mark": {
+        "id": 2412,
+        "Key": "mark",
+        "enUS": "Mark",
+        "zhTW": "標記",
+        "zhCN": "记号",
+        "sgCN": "标记",
+        "sgTW": "標記"
+    },
+    "emblem": {
+        "id": 2413,
+        "Key": "emblem",
+        "enUS": "Emblem",
+        "zhTW": "紋章",
+        "zhCN": "徽章",
+        "sgCN": "象征",
+        "sgTW": "象徵"
+    },
+    "hand": {
+        "id": 2414,
+        "Key": "hand",
+        "enUS": "Hand",
+        "zhTW": "手",
+        "zhCN": "之手",
+        "sgCN": "手",
+        "sgTW": "手"
+    },
+    "fist": {
+        "id": 2415,
+        "Key": "fist",
+        "enUS": "Fist",
+        "zhTW": "之拳",
+        "zhCN": "之拳",
+        "sgCN": "拳",
+        "sgTW": "拳"
+    },
+    "claw": {
+        "id": 2416,
+        "Key": "claw",
+        "enUS": "Claw",
+        "zhTW": "爪",
+        "zhCN": "利爪",
+        "sgCN": "爪",
+        "sgTW": "爪"
+    },
+    "clutches": {
+        "id": 2417,
+        "Key": "clutches",
+        "enUS": "Clutches",
+        "zhTW": "之握",
+        "zhCN": "之扼",
+        "sgCN": "手爪",
+        "sgTW": "手爪"
+    },
+    "grip": {
+        "id": 2418,
+        "Key": "grip",
+        "enUS": "Grip",
+        "zhTW": "抓握",
+        "zhCN": "紧握",
+        "sgCN": "紧握",
+        "sgTW": "緊握"
+    },
+    "grasp": {
+        "id": 2419,
+        "Key": "grasp",
+        "enUS": "Grasp",
+        "zhTW": "之握",
+        "zhCN": "掌握",
+        "sgCN": "抓取",
+        "sgTW": "抓取"
+    },
+    "hold": {
+        "id": 2420,
+        "Key": "hold",
+        "enUS": "Hold",
+        "zhTW": "之握",
+        "zhCN": "之握",
+        "sgCN": "握",
+        "sgTW": "握"
+    },
+    "touch": {
+        "id": 2421,
+        "Key": "touch",
+        "enUS": "Touch",
+        "zhTW": "之觸",
+        "zhCN": "触摸",
+        "sgCN": "触碰",
+        "sgTW": "觸碰"
+    },
+    "finger": {
+        "id": 2422,
+        "Key": "finger",
+        "enUS": "Finger",
+        "zhTW": "手指",
+        "zhCN": "护指",
+        "sgCN": "手指",
+        "sgTW": "手指"
+    },
+    "knuckle": {
+        "id": 2423,
+        "Key": "knuckle",
+        "enUS": "Knuckle",
+        "zhTW": "指節",
+        "zhCN": "指拳",
+        "sgCN": "指节",
+        "sgTW": "指節"
+    },
+    "shank": {
+        "id": 2424,
+        "Key": "shank",
+        "enUS": "Shank",
+        "zhTW": "尖鑽",
+        "zhCN": "护腿",
+        "sgCN": "小腿",
+        "sgTW": "小腿"
+    },
+    "spur": {
+        "id": 2425,
+        "Key": "spur",
+        "enUS": "Spur",
+        "zhTW": "驅刺",
+        "zhCN": "马刺靴",
+        "sgCN": "踢马刺",
+        "sgTW": "踢馬刺"
+    },
+    "tread": {
+        "id": 2426,
+        "Key": "tread",
+        "enUS": "Tread",
+        "zhTW": "步履",
+        "zhCN": "步行鞋",
+        "sgCN": "踏步",
+        "sgTW": "踏步"
+    },
+    "stalker": {
+        "id": 2427,
+        "Key": "stalker",
+        "enUS": "Stalker",
+        "zhTW": "潛獵者",
+        "zhCN": "潜行靴",
+        "sgCN": "潜行者",
+        "sgTW": "潛行者"
+    },
+    "greave": {
+        "id": 2428,
+        "Key": "greave",
+        "enUS": "Greaves",
+        "zhTW": "護脛",
+        "zhCN": "护胫",
+        "sgCN": "油渣",
+        "sgTW": "油渣"
+    },
+    "blazer": {
+        "id": 2429,
+        "Key": "blazer",
+        "enUS": "Blazer",
+        "zhTW": "炎光",
+        "zhCN": "拓荒靴",
+        "sgCN": "发光体",
+        "sgTW": "發光體"
+    },
+    "nails": {
+        "id": 2430,
+        "Key": "nails",
+        "enUS": "Nails",
+        "zhTW": "尖釘",
+        "zhCN": "钉头鞋",
+        "sgCN": "钉",
+        "sgTW": "釘"
+    },
+    "trample": {
+        "id": 2431,
+        "Key": "trample",
+        "enUS": "Trample",
+        "zhTW": "蹂躪",
+        "zhCN": "登山鞋",
+        "sgCN": "蹂躏",
+        "sgTW": "蹂躪"
+    },
+    "Brogues": {
+        "id": 2432,
+        "Key": "Brogues",
+        "enUS": "Brogues",
+        "zhTW": "粗皮鞋",
+        "zhCN": "粗革皮鞋",
+        "sgCN": "粗皮鞋",
+        "sgTW": "粗皮鞋"
+    },
+    "track": {
+        "id": 2433,
+        "Key": "track",
+        "enUS": "Track",
+        "zhTW": "蹤跡",
+        "zhCN": "足履",
+        "sgCN": "追踪",
+        "sgTW": "追蹤"
+    },
+    "slippers": {
+        "id": 2434,
+        "Key": "slippers",
+        "enUS": "Slippers",
+        "zhTW": "便鞋",
+        "zhCN": "便鞋",
+        "sgCN": "便鞋",
+        "sgTW": "便鞋"
+    },
+    "clasp": {
+        "id": 2435,
+        "Key": "clasp",
+        "enUS": "Clasp",
+        "zhTW": "之扣",
+        "zhCN": "扣环",
+        "sgCN": "扣钩",
+        "sgTW": "扣鉤"
+    },
+    "buckle": {
+        "id": 2436,
+        "Key": "buckle",
+        "enUS": "Buckle",
+        "zhTW": "釦帶",
+        "zhCN": "扣带",
+        "sgCN": "扣带",
+        "sgTW": "釦帶"
+    },
+    "harness": {
+        "id": 2437,
+        "Key": "harness",
+        "enUS": "Harness",
+        "zhTW": "裝束",
+        "zhCN": "束带",
+        "sgCN": "挽具",
+        "sgTW": "挽具"
+    },
+    "lock": {
+        "id": 2438,
+        "Key": "lock",
+        "enUS": "Lock",
+        "zhTW": "鎖扣",
+        "zhCN": "扣锁",
+        "sgCN": "锁",
+        "sgTW": "鎖"
+    },
+    "fringe": {
+        "id": 2439,
+        "Key": "fringe",
+        "enUS": "Fringe",
+        "zhTW": "邊飾",
+        "zhCN": "铰链",
+        "sgCN": "边饰",
+        "sgTW": "邊飾"
+    },
+    "winding": {
+        "id": 2440,
+        "Key": "winding",
+        "enUS": "Winding",
+        "zhTW": "繞捲",
+        "zhCN": "缠腰",
+        "sgCN": "绕卷",
+        "sgTW": "繞捲"
+    },
+    "chain": {
+        "id": 2441,
+        "Key": "chain",
+        "enUS": "Chain",
+        "zhTW": "之鏈",
+        "zhCN": "腰链",
+        "sgCN": "链条",
+        "sgTW": "鏈條"
+    },
+    "lash": {
+        "id": 2443,
+        "Key": "lash",
+        "enUS": "Lash",
+        "zhTW": "鞭笞",
+        "zhCN": "腰绳",
+        "sgCN": "抽打",
+        "sgTW": "抽打"
+    },
+    "cord": {
+        "id": 2444,
+        "Key": "cord",
+        "enUS": "Cord",
+        "zhTW": "捆繩",
+        "zhCN": "腰索",
+        "sgCN": "捆绑",
+        "sgTW": "捆綁"
+    },
+    "knot": {
+        "id": 2445,
+        "Key": "knot",
+        "enUS": "Knot",
+        "zhTW": "之結",
+        "zhCN": "绳结",
+        "sgCN": "结",
+        "sgTW": "結"
+    },
+    "circle": {
+        "id": 2446,
+        "Key": "circle",
+        "enUS": "Circle",
+        "zhTW": "之環",
+        "zhCN": "圆圈",
+        "sgCN": "环",
+        "sgTW": "環"
+    },
+    "loop": {
+        "id": 2447,
+        "Key": "loop",
+        "enUS": "Loop",
+        "zhTW": "之圈",
+        "zhCN": "环圈",
+        "sgCN": "圈",
+        "sgTW": "圈"
+    },
+    "eye": {
+        "id": 2448,
+        "Key": "eye",
+        "enUS": "Eye",
+        "zhTW": "之眼",
+        "zhCN": "法瞳",
+        "sgCN": "眼",
+        "sgTW": "眼"
+    },
+    "turn": {
+        "id": 2449,
+        "Key": "turn",
+        "enUS": "Turn",
+        "zhTW": "轉迴",
+        "zhCN": "腰环",
+        "sgCN": "转",
+        "sgTW": "轉"
+    },
+    "spiral": {
+        "id": 2450,
+        "Key": "spiral",
+        "enUS": "Spiral",
+        "zhTW": "螺旋",
+        "zhCN": "螺环",
+        "sgCN": "螺旋",
+        "sgTW": "螺旋"
+    },
+    "coil": {
+        "id": 2451,
+        "Key": "coil",
+        "enUS": "Coil",
+        "zhTW": "盤繞",
+        "zhCN": "线圈",
+        "sgCN": "盘绕",
+        "sgTW": "盤繞"
+    },
+    "gyre": {
+        "id": 2452,
+        "Key": "gyre",
+        "enUS": "Gyre",
+        "zhTW": "旋迴",
+        "zhCN": "环带",
+        "sgCN": "旋回",
+        "sgTW": "旋迴"
+    },
+    "band": {
+        "id": 2453,
+        "Key": "band",
+        "enUS": "Band",
+        "zhTW": "之箍",
+        "zhCN": "指环",
+        "sgCN": "箍",
+        "sgTW": "箍"
+    },
+    "whorl": {
+        "id": 2454,
+        "Key": "whorl",
+        "enUS": "Whorl",
+        "zhTW": "旋螺",
+        "zhCN": "环盘",
+        "sgCN": "螺层",
+        "sgTW": "螺層"
+    },
+    "talisman": {
+        "id": 2455,
+        "Key": "talisman",
+        "enUS": "Talisman",
+        "zhTW": "護符",
+        "zhCN": "护身符",
+        "sgCN": "护符",
+        "sgTW": "護符"
+    },
+    "heart": {
+        "id": 2456,
+        "Key": "heart",
+        "enUS": "Heart",
+        "zhTW": "之心",
+        "zhCN": "之心",
+        "sgCN": "心",
+        "sgTW": "心"
+    },
+    "noose": {
+        "id": 2457,
+        "Key": "noose",
+        "enUS": "Noose",
+        "zhTW": "套索",
+        "zhCN": "绳套",
+        "sgCN": "套索",
+        "sgTW": "套索"
+    },
+    "necklace": {
+        "id": 2458,
+        "Key": "necklace",
+        "enUS": "Necklace",
+        "zhTW": "項鍊",
+        "zhCN": "项链",
+        "sgCN": "项链",
+        "sgTW": "項鍊"
+    },
+    "collar": {
+        "id": 2459,
+        "Key": "collar",
+        "enUS": "Collar",
+        "zhTW": "項圈",
+        "zhCN": "项圈",
+        "sgCN": "项圈",
+        "sgTW": "項圈"
+    },
+    "beads": {
+        "id": 2460,
+        "Key": "beads",
+        "enUS": "Beads",
+        "zhTW": "串珠",
+        "zhCN": "念珠",
+        "sgCN": "串珠",
+        "sgTW": "串珠"
+    },
+    "torc": {
+        "id": 2461,
+        "Key": "torc",
+        "enUS": "Torc",
+        "zhTW": "頸飾",
+        "zhCN": "颈圈",
+        "sgCN": "金丝项圈",
+        "sgTW": "金絲項圈"
+    },
+    "gorget": {
+        "id": 2462,
+        "Key": "gorget",
+        "enUS": "Gorget",
+        "zhTW": "頸甲",
+        "zhCN": "护颈",
+        "sgCN": "颈甲",
+        "sgTW": "頸甲"
+    },
+    "wood": {
+        "id": 2464,
+        "Key": "wood",
+        "enUS": "Wood",
+        "zhTW": "之木",
+        "zhCN": "木头",
+        "sgCN": "木",
+        "sgTW": "木"
+    },
+    "brand": {
+        "id": 2465,
+        "Key": "brand",
+        "enUS": "Brand",
+        "zhTW": "烙印",
+        "zhCN": "烙印",
+        "sgCN": "品牌",
+        "sgTW": "品牌"
+    },
+    "bludgeon": {
+        "id": 2466,
+        "Key": "bludgeon",
+        "enUS": "Bludgeon",
+        "zhTW": "棍棒",
+        "zhCN": "大头棒",
+        "sgCN": "棍棒",
+        "sgTW": "棍棒"
+    },
+    "cudgel": {
+        "id": 2467,
+        "Key": "cudgel",
+        "enUS": "Cudgel",
+        "zhTW": "鬥棍",
+        "zhCN": "大棒",
+        "sgCN": "木棒",
+        "sgTW": "木棒"
+    },
+    "loom": {
+        "id": 2468,
+        "Key": "loom",
+        "enUS": "Loom",
+        "zhTW": "隱現",
+        "zhCN": "隐现",
+        "sgCN": "织布机",
+        "sgTW": "織布機"
+    },
+    "harp": {
+        "id": 2469,
+        "Key": "harp",
+        "enUS": "Harp",
+        "zhTW": "豎琴",
+        "zhCN": "竖琴",
+        "sgCN": "竖琴",
+        "sgTW": "豎琴"
+    },
+    "master": {
+        "id": 2470,
+        "Key": "master",
+        "enUS": "Master",
+        "zhTW": "主宰",
+        "zhCN": "主宰",
+        "sgCN": "专家",
+        "sgTW": "專家"
+    },
+    "barRI": {
+        "id": 2471,
+        "Key": "barRI",
+        "enUS": "Bar",
+        "zhTW": "柵欄",
+        "zhCN": "木条",
+        "sgCN": "酒吧",
+        "sgTW": "酒吧"
+    },
+    "hew": {
+        "id": 2472,
+        "Key": "hew",
+        "enUS": "Hew",
+        "zhTW": "劈斬",
+        "zhCN": "劈砍",
+        "sgCN": "砍",
+        "sgTW": "砍"
+    },
+    "crook": {
+        "id": 2473,
+        "Key": "crook",
+        "enUS": "Crook",
+        "zhTW": "彎鉤",
+        "zhCN": "曲木",
+        "sgCN": "钩",
+        "sgTW": "鉤"
+    },
+    "mar": {
+        "id": 2474,
+        "Key": "mar",
+        "enUS": "Mar",
+        "zhTW": "毀損",
+        "zhCN": "残害",
+        "sgCN": "毁损",
+        "sgTW": "毀損"
+    },
+    "shell": {
+        "id": 2475,
+        "Key": "shell",
+        "enUS": "Shell",
+        "zhTW": "殼甲",
+        "zhCN": "之壳",
+        "sgCN": "壳",
+        "sgTW": "殼"
+    },
+    "stake": {
+        "id": 2476,
+        "Key": "stake",
+        "enUS": "Stake",
+        "zhTW": "樁棍",
+        "zhCN": "木棍",
+        "sgCN": "棍子",
+        "sgTW": "棍子"
+    },
+    "picket": {
+        "id": 2477,
+        "Key": "picket",
+        "enUS": "Picket",
+        "zhTW": "尖樁",
+        "zhCN": "尖桩",
+        "sgCN": "尖木",
+        "sgTW": "尖木"
+    },
+    "pale": {
+        "id": 2478,
+        "Key": "pale",
+        "enUS": "Pale",
+        "zhTW": "蒼白",
+        "zhCN": "栅木",
+        "sgCN": "苍白",
+        "sgTW": "蒼白"
+    },
+    "flange": {
+        "id": 2479,
+        "Key": "flange",
+        "enUS": "Flange",
+        "zhTW": "凸緣",
+        "zhCN": "棱甲",
+        "sgCN": "凸缘",
+        "sgTW": "凸緣"
+    },
     "Civerb's Vestments": {
         "id": 2480,
         "Key": "Civerb's Vestments",
@@ -2383,6 +4147,555 @@
         "zhCN": "阿卡娜的诡计",
         "sgCN": "阿卡娜的诡计",
         "sgTW": "阿卡娜的詭計"
+    },
+    "Ward": {
+        "id": 2512,
+        "Key": "Ward",
+        "enUS": "Ward",
+        "zhTW": "防護",
+        "zhCN": "防护",
+        "sgCN": "囚房",
+        "sgTW": "囚房"
+    },
+    "Iron Heel": {
+        "id": 2513,
+        "Key": "Iron Heel",
+        "enUS": "Iron Heel",
+        "zhTW": "鐵跟",
+        "zhCN": "铁踵",
+        "sgCN": "铁后肿",
+        "sgTW": "鐵後腫"
+    },
+    "Tooth": {
+        "id": 2514,
+        "Key": "Tooth",
+        "enUS": "Tooth",
+        "zhTW": "之牙",
+        "zhCN": "尖牙",
+        "sgCN": "齿",
+        "sgTW": "齒"
+    },
+    "Collar": {
+        "id": 2515,
+        "Key": "Collar",
+        "enUS": "Collar",
+        "zhTW": "項圈",
+        "zhCN": "护颈圈",
+        "sgCN": "项圈",
+        "sgTW": "項圈"
+    },
+    "Lightbrand": {
+        "id": 2516,
+        "Key": "Lightbrand",
+        "enUS": "Lightbrand",
+        "zhTW": "光之烙鐵",
+        "zhCN": "光之烙印",
+        "sgCN": "光之烙印",
+        "sgTW": "光之烙印"
+    },
+    "Barb": {
+        "id": 2517,
+        "Key": "Barb",
+        "enUS": "Barb",
+        "zhTW": "倒刺",
+        "zhCN": "倒刺",
+        "sgCN": "倒刺",
+        "sgTW": "倒刺"
+    },
+    "Orb": {
+        "id": 2518,
+        "Key": "Orb",
+        "enUS": "Orb",
+        "zhTW": "之球",
+        "zhCN": "宝球",
+        "sgCN": "球体",
+        "sgTW": "球體"
+    },
+    "Rule": {
+        "id": 2519,
+        "Key": "Rule",
+        "enUS": "Rule",
+        "zhTW": "尺杖",
+        "zhCN": "统治",
+        "sgCN": "法规",
+        "sgTW": "法規"
+    },
+    "Crowbill": {
+        "id": 2520,
+        "Key": "Crowbill",
+        "enUS": "Crowbill",
+        "zhTW": "鴉嘴鎬",
+        "zhCN": "鸦嘴锄",
+        "sgCN": "喙钳",
+        "sgTW": "喙鉗"
+    },
+    "Visor": {
+        "id": 2521,
+        "Key": "Visor",
+        "enUS": "Visor",
+        "zhTW": "護面",
+        "zhCN": "面甲",
+        "sgCN": "面甲",
+        "sgTW": "面甲"
+    },
+    "Cranium": {
+        "id": 2522,
+        "Key": "Cranium",
+        "enUS": "Cranium",
+        "zhTW": "頭骨",
+        "zhCN": "颅骨",
+        "sgCN": "颅骨",
+        "sgTW": "顱骨"
+    },
+    "Headgear": {
+        "id": 2523,
+        "Key": "Headgear",
+        "enUS": "Headgear",
+        "zhTW": "頭盔",
+        "zhCN": "头盔",
+        "sgCN": "头饰",
+        "sgTW": "頭飾"
+    },
+    "Hand": {
+        "id": 2524,
+        "Key": "Hand",
+        "enUS": "Hand",
+        "zhTW": "之手",
+        "zhCN": "死手",
+        "sgCN": "手",
+        "sgTW": "手"
+    },
+    "Sickle": {
+        "id": 2525,
+        "Key": "Sickle",
+        "enUS": "Sickle",
+        "zhTW": "鐮刀",
+        "zhCN": "镰刀",
+        "sgCN": "小镰刀",
+        "sgTW": "小鐮刀"
+    },
+    "Horn": {
+        "id": 2526,
+        "Key": "Horn",
+        "enUS": "Horn",
+        "zhTW": "號角",
+        "zhCN": "号角",
+        "sgCN": "角",
+        "sgTW": "角"
+    },
+    "Sign": {
+        "id": 2527,
+        "Key": "Sign",
+        "enUS": "Sign",
+        "zhTW": "符印",
+        "zhCN": "印记",
+        "sgCN": "标示",
+        "sgTW": "標示"
+    },
+    "Icon": {
+        "id": 2528,
+        "Key": "Icon",
+        "enUS": "Icon",
+        "zhTW": "聖像",
+        "zhCN": "圣像",
+        "sgCN": "图示",
+        "sgTW": "圖示"
+    },
+    "Iron Fist": {
+        "id": 2529,
+        "Key": "Iron Fist",
+        "enUS": "Iron Fist",
+        "zhTW": "鐵拳",
+        "zhCN": "铁拳",
+        "sgCN": "铁拳",
+        "sgTW": "鐵拳"
+    },
+    "Claw": {
+        "id": 2530,
+        "Key": "Claw",
+        "enUS": "Claw",
+        "zhTW": "爪",
+        "zhCN": "克爪",
+        "sgCN": "爪",
+        "sgTW": "爪"
+    },
+    "Cuff": {
+        "id": 2531,
+        "Key": "Cuff",
+        "enUS": "Cuff",
+        "zhTW": "袖銬",
+        "zhCN": "袖手套",
+        "sgCN": "掌击",
+        "sgTW": "掌擊"
+    },
+    "Parry": {
+        "id": 2532,
+        "Key": "Parry",
+        "enUS": "Parry",
+        "zhTW": "招架",
+        "zhCN": "格挡",
+        "sgCN": "闪避",
+        "sgTW": "閃避"
+    },
+    "Fetlock": {
+        "id": 2533,
+        "Key": "Fetlock",
+        "enUS": "Fetlock",
+        "zhTW": "足距",
+        "zhCN": "扣带靴",
+        "sgCN": "球节",
+        "sgTW": "球節"
+    },
+    "Rod": {
+        "id": 2534,
+        "Key": "Rod",
+        "enUS": "Rod",
+        "zhTW": "節杖",
+        "zhCN": "小杖",
+        "sgCN": "棒",
+        "sgTW": "棒"
+    },
+    "Mesh": {
+        "id": 2535,
+        "Key": "Mesh",
+        "enUS": "Mesh",
+        "zhTW": "網衣",
+        "zhCN": "札甲",
+        "sgCN": "网织",
+        "sgTW": "網織"
+    },
+    "Spine": {
+        "id": 2536,
+        "Key": "Spine",
+        "enUS": "Spine",
+        "zhTW": "脊柱",
+        "zhCN": "脊柱",
+        "sgCN": "山脊",
+        "sgTW": "山脊"
+    },
+    "Shelter": {
+        "id": 2537,
+        "Key": "Shelter",
+        "enUS": "Shelter",
+        "zhTW": "庇護",
+        "zhCN": "遮蔽",
+        "sgCN": "庇护所",
+        "sgTW": "庇護所"
+    },
+    "Torch": {
+        "id": 2538,
+        "Key": "Torch",
+        "enUS": "Torch",
+        "zhTW": "火炬",
+        "zhCN": "火炬",
+        "sgCN": "火炬",
+        "sgTW": "火炬"
+    },
+    "Hauberk": {
+        "id": 2539,
+        "Key": "Hauberk",
+        "enUS": "Hauberk",
+        "zhTW": "鎖子甲",
+        "zhCN": "半身甲",
+        "sgCN": "连环甲",
+        "sgTW": "連環甲"
+    },
+    "Guard": {
+        "id": 2540,
+        "Key": "Guard",
+        "enUS": "Guard",
+        "zhTW": "護",
+        "zhCN": "之御",
+        "sgCN": "守护",
+        "sgTW": "守護"
+    },
+    "Mantle": {
+        "id": 2541,
+        "Key": "Mantle",
+        "enUS": "Mantle",
+        "zhTW": "披風",
+        "zhCN": "斗篷",
+        "sgCN": "披风",
+        "sgTW": "披風"
+    },
+    "Furs": {
+        "id": 2542,
+        "Key": "Furs",
+        "enUS": "Furs",
+        "zhTW": "毛皮",
+        "zhCN": "毛皮",
+        "sgCN": "毛皮",
+        "sgTW": "毛皮"
+    },
+    "Deathwand": {
+        "id": 2543,
+        "Key": "Deathwand",
+        "enUS": "Deathwand",
+        "zhTW": "死亡之杖",
+        "zhCN": "死亡魔杖",
+        "sgCN": "死亡之杖",
+        "sgTW": "死亡之杖"
+    },
+    "CudgelSI3S": {
+        "id": 2544,
+        "Key": "CudgelSI3S",
+        "enUS": "Cudgel",
+        "zhTW": "短棍",
+        "zhCN": "大棒",
+        "sgCN": "棍棒",
+        "sgTW": "棍棒"
+    },
+    "Iron Stay": {
+        "id": 2545,
+        "Key": "Iron Stay",
+        "enUS": "Iron Stay",
+        "zhTW": "鐵扣",
+        "zhCN": "铁固腰",
+        "sgCN": "钢铁支索",
+        "sgTW": "鋼鐵支索"
+    },
+    "Pincers": {
+        "id": 2546,
+        "Key": "Pincers",
+        "enUS": "Pincers",
+        "zhTW": "之鉗",
+        "zhCN": "克钳",
+        "sgCN": "钳脚",
+        "sgTW": "鉗腳"
+    },
+    "Coil": {
+        "id": 2547,
+        "Key": "Coil",
+        "enUS": "Coil",
+        "zhTW": "盤頂",
+        "zhCN": "铁围盔",
+        "sgCN": "线圈",
+        "sgTW": "線圈"
+    },
+    "Case": {
+        "id": 2548,
+        "Key": "Case",
+        "enUS": "Case",
+        "zhTW": "外殼",
+        "zhCN": "胸胄",
+        "sgCN": "外壳",
+        "sgTW": "外殼"
+    },
+    "Ambush": {
+        "id": 2549,
+        "Key": "Ambush",
+        "enUS": "Ambush",
+        "zhTW": "突擊",
+        "zhCN": "突袭",
+        "sgCN": "突袭",
+        "sgTW": "突擊"
+    },
+    "Diadem": {
+        "id": 2550,
+        "Key": "Diadem",
+        "enUS": "Diadem",
+        "zhTW": "權冠",
+        "zhCN": "权冠",
+        "sgCN": "王位",
+        "sgTW": "王位"
+    },
+    "Visage": {
+        "id": 2551,
+        "Key": "Visage",
+        "enUS": "Visage",
+        "zhTW": "容貌",
+        "zhCN": "面罩",
+        "sgCN": "面貌",
+        "sgTW": "面貌"
+    },
+    "Hobnails": {
+        "id": 2552,
+        "Key": "Hobnails",
+        "enUS": "Hobnails",
+        "zhTW": "釘靴",
+        "zhCN": "钉头鞋",
+        "sgCN": "平头钉",
+        "sgTW": "平頭釘"
+    },
+    "Gage": {
+        "id": 2553,
+        "Key": "Gage",
+        "enUS": "Gage",
+        "zhTW": "挑戰",
+        "zhCN": "挑战",
+        "sgCN": "挑战物",
+        "sgTW": "挑戰物"
+    },
+    "SignSI3S": {
+        "id": 2554,
+        "Key": "SignSI3S",
+        "enUS": "Buckle",
+        "zhTW": "扣帶",
+        "zhCN": "腰扣",
+        "sgCN": "扣带",
+        "sgTW": "扣帶"
+    },
+    "Hatchet": {
+        "id": 2555,
+        "Key": "Hatchet",
+        "enUS": "Hatchet",
+        "zhTW": "手斧",
+        "zhCN": "小斧",
+        "sgCN": "手斧",
+        "sgTW": "手斧"
+    },
+    "Touch": {
+        "id": 2556,
+        "Key": "Touch",
+        "enUS": "Touch",
+        "zhTW": "觸",
+        "zhCN": "死触",
+        "sgCN": "接触",
+        "sgTW": "接觸"
+    },
+    "Halo": {
+        "id": 2557,
+        "Key": "Halo",
+        "enUS": "Halo",
+        "zhTW": "光暈",
+        "zhCN": "光环",
+        "sgCN": "光晕",
+        "sgTW": "光暈"
+    },
+    "Binding": {
+        "id": 2558,
+        "Key": "Binding",
+        "enUS": "Binding",
+        "zhTW": "捆索",
+        "zhCN": "束带",
+        "sgCN": "束",
+        "sgTW": "束"
+    },
+    "Head": {
+        "id": 2559,
+        "Key": "Head",
+        "enUS": "Head",
+        "zhTW": "頭",
+        "zhCN": "头",
+        "sgCN": "头",
+        "sgTW": "頭"
+    },
+    "Horns": {
+        "id": 2560,
+        "Key": "Horns",
+        "enUS": "Horns",
+        "zhTW": "角盔",
+        "zhCN": "牛角",
+        "sgCN": "角",
+        "sgTW": "角"
+    },
+    "Snare": {
+        "id": 2561,
+        "Key": "Snare",
+        "enUS": "Snare",
+        "zhTW": "圈套",
+        "zhCN": "陷阱",
+        "sgCN": "陷阱",
+        "sgTW": "陷阱"
+    },
+    "Robe": {
+        "id": 2562,
+        "Key": "Robe",
+        "enUS": "Robe",
+        "zhTW": "外袍",
+        "zhCN": "长袍",
+        "sgCN": "外袍",
+        "sgTW": "外袍"
+    },
+    "Sigil": {
+        "id": 2563,
+        "Key": "Sigil",
+        "enUS": "Sigil",
+        "zhTW": "魔咒",
+        "zhCN": "符徽",
+        "sgCN": "法印",
+        "sgTW": "法印"
+    },
+    "Sabot": {
+        "id": 2565,
+        "Key": "Sabot",
+        "enUS": "Sabot",
+        "zhTW": "硬靴",
+        "zhCN": "木底鞋",
+        "sgCN": "木鞋",
+        "sgTW": "木鞋"
+    },
+    "Wings": {
+        "id": 2566,
+        "Key": "Wings",
+        "enUS": "Wings",
+        "zhTW": "翅膀",
+        "zhCN": "飞翼",
+        "sgCN": "飞翼",
+        "sgTW": "翅膀"
+    },
+    "Mitts": {
+        "id": 2567,
+        "Key": "Mitts",
+        "enUS": "Mitts",
+        "zhTW": "手套",
+        "zhCN": "手套",
+        "sgCN": "无指手套",
+        "sgTW": "無指手套"
+    },
+    "Flesh": {
+        "id": 2568,
+        "Key": "Flesh",
+        "enUS": "Flesh",
+        "zhTW": "血肉",
+        "zhCN": "血肉",
+        "sgCN": "血肉",
+        "sgTW": "血肉"
+    },
+    "Cord": {
+        "id": 2569,
+        "Key": "Cord",
+        "enUS": "Cord",
+        "zhTW": "腰繩",
+        "zhCN": "束带",
+        "sgCN": "细绳",
+        "sgTW": "細繩"
+    },
+    "Seal": {
+        "id": 2570,
+        "Key": "Seal",
+        "enUS": "Seal",
+        "zhTW": "封印",
+        "zhCN": "封印",
+        "sgCN": "封印",
+        "sgTW": "封印"
+    },
+    "SkullSI5S": {
+        "id": 2571,
+        "Key": "SkullSI5S",
+        "enUS": "Skull",
+        "zhTW": "顱骨",
+        "zhCN": "头骨",
+        "sgCN": "头骨",
+        "sgTW": "頭骨"
+    },
+    "Wrap": {
+        "id": 2572,
+        "Key": "Wrap",
+        "enUS": "Wrap",
+        "zhTW": "裹腰",
+        "zhCN": "腰带",
+        "sgCN": "包裹",
+        "sgTW": "包裹"
+    },
+    "GuardSI6S": {
+        "id": 2573,
+        "Key": "GuardSI6S",
+        "enUS": "Guard",
+        "zhTW": "守護",
+        "zhCN": "卫肩",
+        "sgCN": "守护",
+        "sgTW": "守護"
     },
     "The Gnasher": {
         "id": 2574,
@@ -3482,6 +5795,51 @@
         "sgCN": "ÿc1[7LM/8REP]\nÿc4玛那德的治疗",
         "sgTW": "ÿc1[7LM/8REP]\nÿc4瑪那德的治療"
     },
+    "Gorgethroat": {
+        "id": 2696,
+        "Key": "Gorgethroat",
+        "enUS": "Gorgethroat",
+        "zhTW": "吞喉",
+        "zhCN": "护颈圈",
+        "sgCN": "喉部颈甲",
+        "sgTW": "喉部頸甲"
+    },
+    "Amulet of the Viper": {
+        "id": 2697,
+        "Key": "Amulet of the Viper",
+        "enUS": "Amulet of the Viper",
+        "zhTW": "蝮蛇護符",
+        "zhCN": "蝮蛇护符",
+        "sgCN": "蝮蛇护符",
+        "sgTW": "蝮蛇護符"
+    },
+    "Staff of Kings": {
+        "id": 2698,
+        "Key": "Staff of Kings",
+        "enUS": "Staff of Kings",
+        "zhTW": "國王之杖",
+        "zhCN": "列王之杖",
+        "sgCN": "国王之杖",
+        "sgTW": "國王之杖"
+    },
+    "Horadric Staff": {
+        "id": 2699,
+        "Key": "Horadric Staff",
+        "enUS": "Horadric Staff",
+        "zhTW": "赫拉迪姆之杖",
+        "zhCN": "赫拉迪姆法杖",
+        "sgCN": "赫拉迪克法杖",
+        "sgTW": "赫拉迪克法杖"
+    },
+    "Hell Forge Hammer": {
+        "id": 2700,
+        "Key": "Hell Forge Hammer",
+        "enUS": "Hell Forge Hammer",
+        "zhTW": "地獄熔爐之鎚",
+        "zhCN": "地狱熔炉之锤",
+        "sgCN": "地狱熔炉铁锤",
+        "sgTW": "地獄熔爐鐵鎚"
+    },
     "The Stone of Jordan": {
         "id": 2701,
         "Key": "The Stone of Jordan",
@@ -3490,6 +5848,69 @@
         "zhCN": "乔丹之石",
         "sgCN": "乔丹之石",
         "sgTW": "喬丹之石"
+    },
+    "Gibbet": {
+        "id": 3245,
+        "Key": "Gibbet",
+        "enUS": "Cain's Gibbet",
+        "zhTW": "凱恩的絞架",
+        "zhCN": "凯恩的绞刑架",
+        "sgCN": "凯恩的绞架",
+        "sgTW": "凱恩的絞架"
+    },
+    "HorazonsJournal": {
+        "id": 3263,
+        "Key": "HorazonsJournal",
+        "enUS": "Horazon's Journal",
+        "zhTW": "赫拉森的日誌",
+        "zhCN": "霍拉松的日志",
+        "sgCN": "赫拉森的日记",
+        "sgTW": "赫拉森的日記"
+    },
+    "jug": {
+        "id": 3277,
+        "Key": "jug",
+        "enUS": "Jug",
+        "zhTW": "罐子",
+        "zhCN": "壶",
+        "sgCN": "水罐",
+        "sgTW": "水罐"
+    },
+    "ratnest": {
+        "id": 3279,
+        "Key": "ratnest",
+        "enUS": "Rat's Nest",
+        "zhTW": "老鼠窩",
+        "zhCN": "鼠窝",
+        "sgCN": "老鼠窝",
+        "sgTW": "老鼠窩"
+    },
+    "bed": {
+        "id": 3289,
+        "Key": "bed",
+        "enUS": "Bed",
+        "zhTW": "床",
+        "zhCN": "床",
+        "sgCN": "床",
+        "sgTW": "床"
+    },
+    "Tome": {
+        "id": 3304,
+        "Key": "Tome",
+        "enUS": "Horazon's Journal",
+        "zhTW": "赫拉森的日誌",
+        "zhCN": "霍拉松的日志",
+        "sgCN": "赫拉森的日记",
+        "sgTW": "赫拉森的日記"
+    },
+    "wirt's body": {
+        "id": 3314,
+        "Key": "wirt's body",
+        "enUS": "Wirt's body",
+        "zhTW": "維特的屍體",
+        "zhCN": "怀特的身体",
+        "sgCN": "怀特的身体",
+        "sgTW": "維特的屍體"
     },
     "Cutthroat1": {
         "id": 10000,
@@ -4156,6 +6577,42 @@
         "zhCN": "毁灭之钥|A5",
         "sgCN": "毁灭之钥|A5",
         "sgTW": "毀滅之鑰|A5"
+    },
+    "dhn": {
+        "id": 11149,
+        "Key": "dhn",
+        "enUS": "Diablo's Horn",
+        "zhTW": "迪亞布羅之角",
+        "zhCN": "迪亚波罗的角",
+        "sgCN": "暗黑破坏神之角",
+        "sgTW": "暗黑破壞神之角"
+    },
+    "bey": {
+        "id": 11150,
+        "Key": "bey",
+        "enUS": "Baal's Eye",
+        "zhTW": "巴爾之眼",
+        "zhCN": "巴尔的眼睛",
+        "sgCN": "巴尔之眼",
+        "sgTW": "巴爾之眼"
+    },
+    "mbr": {
+        "id": 11151,
+        "Key": "mbr",
+        "enUS": "Mephisto's Brain",
+        "zhTW": "墨菲斯托之腦",
+        "zhCN": "墨菲斯托的大脑",
+        "sgCN": "墨菲斯托之脑",
+        "sgTW": "墨菲斯托之腦"
+    },
+    "std": {
+        "id": 11152,
+        "Key": "std",
+        "enUS": "Standard of Heroes",
+        "zhTW": "英雄旗幟",
+        "zhCN": "英雄的旗帜",
+        "sgCN": "英雄的旗帜",
+        "sgTW": "英雄旗幟"
     },
     "Hellfire Torch": {
         "id": 11153,
@@ -5128,6 +7585,69 @@
         "zhCN": "握扣法珠|普",
         "sgCN": "握扣法珠|普",
         "sgTW": "握扣法珠|普"
+    },
+    "as1": {
+        "id": 20285,
+        "Key": "as1",
+        "enUS": "Wraps",
+        "zhTW": "纏布",
+        "zhCN": "裹腿",
+        "sgCN": "缠布",
+        "sgTW": "纏布"
+    },
+    "as2": {
+        "id": 20286,
+        "Key": "as2",
+        "enUS": "Knuckles",
+        "zhTW": "手指虎",
+        "zhCN": "铁指套",
+        "sgCN": "手指虎",
+        "sgTW": "手指虎"
+    },
+    "as3": {
+        "id": 20287,
+        "Key": "as3",
+        "enUS": "Slashers",
+        "zhTW": "斬刃",
+        "zhCN": "切割刀",
+        "sgCN": "拳刃",
+        "sgTW": "拳刃"
+    },
+    "as4": {
+        "id": 20288,
+        "Key": "as4",
+        "enUS": "Splay",
+        "zhTW": "展戟刃",
+        "zhCN": "锥头刀",
+        "sgCN": "展戟刃",
+        "sgTW": "展戟刃"
+    },
+    "as5": {
+        "id": 20289,
+        "Key": "as5",
+        "enUS": "Hook",
+        "zhTW": "勾",
+        "zhCN": "钩",
+        "sgCN": "勾",
+        "sgTW": "勾"
+    },
+    "as6": {
+        "id": 20290,
+        "Key": "as6",
+        "enUS": "Shank",
+        "zhTW": "鑽",
+        "zhCN": "削骨刀",
+        "sgCN": "钻",
+        "sgTW": "鑽"
+    },
+    "as7": {
+        "id": 20291,
+        "Key": "as7",
+        "enUS": "Claws",
+        "zhTW": "爪",
+        "zhCN": "手爪",
+        "sgCN": "手爪",
+        "sgTW": "爪"
     },
     "am1": {
         "id": 20292,
@@ -6334,6 +8854,159 @@
         "zhCN": "血王颅骨|精轻",
         "sgCN": "血王之骨|精轻",
         "sgTW": "血王之骨|精輕"
+    },
+    "jew": {
+        "id": 20433,
+        "Key": "jew",
+        "enUS": "★Jewel★",
+        "zhTW": "★珠寶★",
+        "zhCN": "★珠宝★",
+        "sgCN": "★珠宝★",
+        "sgTW": "★珠寶★"
+    },
+    "hrb": {
+        "id": 20434,
+        "Key": "hrb",
+        "enUS": "Herb",
+        "zhTW": "藥草",
+        "zhCN": "草药",
+        "sgCN": "药草",
+        "sgTW": "藥草"
+    },
+    "cm1": {
+        "id": 20435,
+        "Key": "cm1",
+        "enUS": "Small Charmÿc;SCÿc3",
+        "zhTW": "小型咒符ÿc;SCÿc3",
+        "zhCN": "小型神符ÿc;SCÿc3",
+        "sgCN": "小护身符ÿc;SCÿc3",
+        "sgTW": "小護身符ÿc;SCÿc3"
+    },
+    "cm2": {
+        "id": 20436,
+        "Key": "cm2",
+        "enUS": "Large Charmÿc;LCÿc3",
+        "zhTW": "大型咒符ÿc;LCÿc3",
+        "zhCN": "大型神符ÿc;LCÿc3",
+        "sgCN": "大型护身符ÿc;LCÿc3",
+        "sgTW": "大型護身符ÿc;LCÿc3"
+    },
+    "cm3": {
+        "id": 20437,
+        "Key": "cm3",
+        "enUS": "Grand Charmÿc;GCÿc3",
+        "zhTW": "特大咒符ÿc;GCÿc3",
+        "zhCN": "巨型神符ÿc;GCÿc3",
+        "sgCN": "超大型护身符ÿc;GCÿc3",
+        "sgTW": "超大型護身符ÿc;GCÿc3"
+    },
+    "spe": {
+        "id": 20676,
+        "Key": "spe",
+        "enUS": "Spleen",
+        "zhTW": "脾臟",
+        "zhCN": "脾脏",
+        "sgCN": "脾脏",
+        "sgTW": "脾臟"
+    },
+    "scz": {
+        "id": 20677,
+        "Key": "scz",
+        "enUS": "Scalp",
+        "zhTW": "頭皮",
+        "zhCN": "头皮",
+        "sgCN": "头皮",
+        "sgTW": "頭皮"
+    },
+    "sol": {
+        "id": 20678,
+        "Key": "sol",
+        "enUS": "Soul",
+        "zhTW": "靈魂",
+        "zhCN": "灵魂",
+        "sgCN": "灵魂",
+        "sgTW": "靈魂"
+    },
+    "qll": {
+        "id": 20679,
+        "Key": "qll",
+        "enUS": "Quill",
+        "zhTW": "刺針",
+        "zhCN": "短匕",
+        "sgCN": "硬毛",
+        "sgTW": "硬毛"
+    },
+    "fng": {
+        "id": 20680,
+        "Key": "fng",
+        "enUS": "Fang",
+        "zhTW": "尖牙",
+        "zhCN": "尖牙",
+        "sgCN": "尖牙",
+        "sgTW": "尖牙"
+    },
+    "flg": {
+        "id": 20681,
+        "Key": "flg",
+        "enUS": "Flag",
+        "zhTW": "旗幟",
+        "zhCN": "旗帜",
+        "sgCN": "旗帜",
+        "sgTW": "旗幟"
+    },
+    "tal": {
+        "id": 20682,
+        "Key": "tal",
+        "enUS": "Tail",
+        "zhTW": "尾巴",
+        "zhCN": "尾巴",
+        "sgCN": "尾巴",
+        "sgTW": "尾巴"
+    },
+    "hrn": {
+        "id": 20683,
+        "Key": "hrn",
+        "enUS": "Horn",
+        "zhTW": "尖角",
+        "zhCN": "尖角",
+        "sgCN": "角",
+        "sgTW": "角"
+    },
+    "eyz": {
+        "id": 20684,
+        "Key": "eyz",
+        "enUS": "Eye",
+        "zhTW": "眼球",
+        "zhCN": "眼球",
+        "sgCN": "眼球",
+        "sgTW": "眼球"
+    },
+    "jaw": {
+        "id": 20685,
+        "Key": "jaw",
+        "enUS": "Jawbone",
+        "zhTW": "顎骨",
+        "zhCN": "颚骨",
+        "sgCN": "颚骨",
+        "sgTW": "顎骨"
+    },
+    "brz": {
+        "id": 20686,
+        "Key": "brz",
+        "enUS": "Brain",
+        "zhTW": "腦",
+        "zhCN": "大脑",
+        "sgCN": "大脑",
+        "sgTW": "腦"
+    },
+    "hrt": {
+        "id": 20687,
+        "Key": "hrt",
+        "enUS": "Heart",
+        "zhTW": "心臟",
+        "zhCN": "心脏",
+        "sgCN": "心脏",
+        "sgTW": "心臟"
     },
     "Coldkill": {
         "id": 21286,
@@ -10700,6 +13373,15 @@
         "sgCN": "冰冻的安亚",
         "sgTW": "冰凍的安亞"
     },
+    "0sc": {
+        "id": 21805,
+        "Key": "0sc",
+        "enUS": "Scroll of Knowledge",
+        "zhTW": "知識卷軸",
+        "zhCN": "知识卷轴",
+        "sgCN": "知识卷轴",
+        "sgTW": "知識卷軸"
+    },
     "Tal Rasha's Wrappings": {
         "id": 21815,
         "Key": "Tal Rasha's Wrappings",
@@ -11113,6 +13795,15 @@
         "zhCN": "山德的愚行",
         "sgCN": "山德的愚行",
         "sgTW": "山德的愚行"
+    },
+    "Moe": {
+        "id": 22485,
+        "Key": "Moe",
+        "enUS": "Moe",
+        "zhTW": "莫",
+        "zhCN": "莫伊",
+        "sgCN": "莫",
+        "sgTW": "莫"
     },
     "Cold Rupture": {
         "id": 27345,
