@@ -14051,47 +14051,47 @@
     "ua1": {
         "id": 27609,
         "Key": "ua1",
-        "enUS": "Talic's Anguish",
-        "zhTW": "塔力克的怨慟",
-        "zhCN": "塔力克的痛苦",
-        "sgCN": "塔力克的痛苦",
-        "sgTW": "塔力克的怨慟"
+        "enUS": "Talic's Anguish|A1",
+        "zhTW": "塔力克的怨慟|A1",
+        "zhCN": "塔力克的痛苦|A1",
+        "sgCN": "塔力克的痛苦|A1",
+        "sgTW": "塔力克的怨慟|A1"
     },
     "ua2": {
         "id": 27610,
         "Key": "ua2",
-        "enUS": "Korlic's Pain",
-        "zhTW": "科力克的苦痛",
-        "zhCN": "科里克的痛楚",
-        "sgCN": "科里克的痛楚",
-        "sgTW": "科力克的苦痛"
+        "enUS": "Korlic's Pain|A2",
+        "zhTW": "科力克的苦痛|A2",
+        "zhCN": "科里克的痛楚|A2",
+        "sgCN": "科里克的痛楚|A2",
+        "sgTW": "科力克的苦痛|A2"
     },
     "ua3": {
         "id": 27611,
         "Key": "ua3",
-        "enUS": "Madawc's Ire",
-        "zhTW": "馬道克的怒火",
-        "zhCN": "马道克的愤怒",
-        "sgCN": "马道克的愤怒",
-        "sgTW": "馬道克的怒火"
+        "enUS": "Madawc's Ire|A3",
+        "zhTW": "馬道克的怒火|A3",
+        "zhCN": "马道克的愤怒|A3",
+        "sgCN": "马道克的愤怒|A3",
+        "sgTW": "馬道克的怒火|A3"
     },
     "ua4": {
         "id": 27612,
         "Key": "ua4",
-        "enUS": "Bul-Kathos' Nightmare",
-        "zhTW": "布爾凱索的夢魘",
-        "zhCN": "布尔凯索的噩梦",
-        "sgCN": "布尔凯索的噩梦",
-        "sgTW": "布爾凱索的夢魘"
+        "enUS": "Bul-Kathos' Nightmare|A4",
+        "zhTW": "布爾凱索的夢魘|A4",
+        "zhCN": "布尔凯索的噩梦|A4",
+        "sgCN": "布尔凯索的噩梦|A4",
+        "sgTW": "布爾凱索的夢魘|A4"
     },
     "ua5": {
         "id": 27613,
         "Key": "ua5",
-        "enUS": "Worusk's End",
-        "zhTW": "沃魯斯克的終結",
-        "zhCN": "沃鲁斯克的终结",
-        "sgCN": "沃鲁斯克的终结",
-        "sgTW": "沃魯斯克的終結"
+        "enUS": "Worusk's End|A5",
+        "zhTW": "沃魯斯克的終結|A5",
+        "zhCN": "沃鲁斯克的终结|A5",
+        "sgCN": "沃鲁斯克的终结|A5",
+        "sgTW": "沃魯斯克的終結|A5"
     },
     "um3": {
         "id": 27614,

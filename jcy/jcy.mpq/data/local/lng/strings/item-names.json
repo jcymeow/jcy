@@ -26540,7 +26540,7 @@
     "id": 27609,
     "Key": "ua1",
     "enUS": "Talic's Anguish|A1",
-    "zhTW": "塔力克的怨慟",
+    "zhTW": "塔力克的怨慟|A1",
     "deDE": "[fs]Talics Qual",
     "esES": "[fs]Angustia de Talic",
     "frFR": "Angoisse de Talic",
@@ -26551,13 +26551,13 @@
     "jaJP": "タリックの苦悶",
     "ptBR": "Angústia de Talic",
     "ruRU": "Мучение Талика",
-    "zhCN": "塔力克的怨慟"
+    "zhCN": "塔力克的怨慟|A1"
   },
   {
     "id": 27610,
     "Key": "ua2",
     "enUS": "Korlic's Pain|A2",
-    "zhTW": "科力克的苦痛",
+    "zhTW": "科力克的苦痛|A2",
     "deDE": "[ms]Korlics Schmerz",
     "esES": "[ms]Dolor de Korlic",
     "frFR": "Douleur de Korlic",
@@ -26568,13 +26568,13 @@
     "jaJP": "コーリックの苦痛",
     "ptBR": "Dor de Korlic",
     "ruRU": "Боль Корлика",
-    "zhCN": "科力克的苦痛"
+    "zhCN": "科力克的苦痛|A2"
   },
   {
     "id": 27611,
     "Key": "ua3",
     "enUS": "Madawc's Ire|A3",
-    "zhTW": "馬道克的怒火",
+    "zhTW": "馬道克的怒火|A3",
     "deDE": "[ms]Madawcs Zorn",
     "esES": "[fs]Ira de Madawc",
     "frFR": "Colère de Madawc",
@@ -26585,13 +26585,13 @@
     "jaJP": "マドウクの激憤",
     "ptBR": "Ira de Madawc",
     "ruRU": "Гнев Мадавка",
-    "zhCN": "馬道克的怒火"
+    "zhCN": "馬道克的怒火|A3"
   },
   {
     "id": 27612,
     "Key": "ua4",
     "enUS": "Bul-Kathos' Nightmare|A4",
-    "zhTW": "布爾凱索的夢魘",
+    "zhTW": "布爾凱索的夢魘|A4",
     "deDE": "[ms]Bul-Kathos' Alptraum",
     "esES": "[fs]Pesadilla de Bul-Kathos",
     "frFR": "Cauchemar de Bul-Kathos",
@@ -26602,13 +26602,13 @@
     "jaJP": "バル=カソスの悪夢",
     "ptBR": "Pesadelo de Bul-Kathos",
     "ruRU": "Кошмар Бул-Катоса",
-    "zhCN": "布爾凱索的夢魘"
+    "zhCN": "布爾凱索的夢魘|A4"
   },
   {
     "id": 27613,
     "Key": "ua5",
     "enUS": "Worusk's End|A5",
-    "zhTW": "沃魯斯克的終結",
+    "zhTW": "沃魯斯克的終結|A5",
     "deDE": "[ns]Worsuks Ende",
     "esES": "[ms]Fin de Worusk",
     "frFR": "Trépas de Worusk",
@@ -26619,7 +26619,7 @@
     "jaJP": "ウォルスクの最期",
     "ptBR": "Fim de Worusk",
     "ruRU": "Погибель Воруска",
-    "zhCN": "沃魯斯克的終結"
+    "zhCN": "沃魯斯克的終結|A5"
   },
   {
     "id": 27614,

@@ -3697,26 +3697,34 @@ class FileOperations:
 
 
     def sync_app_data(self):
-        """同步APP参数到jcymodinfohd.json"""
+        """同步APP参数到游戏json"""
+        count = 0
+        total = 2
         try:
+            # mainmenubuttonribbonhd.json
+            menu_data = None
+            menu_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/mainmenubuttonribbonhd.json")
+            with open(menu_path, 'r', encoding='utf-8') as f:
+                menu_data = json.load(f)
+            menu_data["children"][0]["children"][3]["fields"]["textString"] = f"JCY MOD {APP_VERSION}"
+            with open(menu_path, 'w', encoding='utf-8') as f:
+                json.dump(menu_data, f, ensure_ascii=False, indent=4)
+            count += 1
+
+            # jcymodinfohd.json
             json_data = None
             json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/jcymodinfohd.json")
-            
             with open(json_path, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
-
-            # version
             json_data["children"][0]["children"][0]["fields"]["text"] = f"JCY MOD {APP_VERSION}"
-            # date
             json_data["children"][0]["children"][1]["fields"]["text"] = f"{APP_DATE}"
-
             with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)
-            
-            return 1, 1
+                json.dump(json_data, f, ensure_ascii=False, indent=4)    
+            count += 1
         except Exception as e:
             print(e)
-            return 0, 1
+        
+        return count, total
 
 
     def writeTerrorZone(self, data: str):
