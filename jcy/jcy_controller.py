@@ -56,8 +56,8 @@ class FeatureController:
 
         # 文件操作类
         self.file_operations = FileOperations(self)
-        # 同步APP信息到JSON
-        self.file_operations.sync_app_data()
+        # UI类 占位
+        self.feature_view = None
         # 注册控制器方法
         self._setup_feature_handlers()
         # 加载素材包配置
@@ -78,6 +78,9 @@ class FeatureController:
         # 升级检查
         need_upgrade = ensure_appdata_files()
         if need_upgrade:
+            # 同步APP信息到JSON
+            self.file_operations.sync_app_data()
+
             # 创建升级对话框
             total_steps = 3  # 你可以根据升级流程自定义
             self.upgrade_dialog = UpgradeDialog(master, total_steps)
@@ -178,7 +181,7 @@ class FeatureController:
 
             # 合并配置
             merged_config = merge_configs(default_config, user_config)
-            
+
             # 保存合并后的配置
             self.feature_state_manager.save_settings(merged_config)
             self.feature_state_manager.load_settings()
@@ -216,9 +219,10 @@ class FeatureController:
         """同步配置到 Mod 文件，同时在 dialog 显示日志"""
         for fid, value in self.feature_state_manager.loaded_states.items():
             if handler := self._handlers.get(fid):
+                print(f"[同步] {fid}: {value}")   
                 handler(value)
                 if dialog:
-                    dialog.log(f"[同步] {fid}: {value}")        
+                    dialog.log(f"[同步] {fid}: {value}")
 
     
     def _setup_feature_handlers(self):

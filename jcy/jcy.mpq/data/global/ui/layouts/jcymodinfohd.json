@@ -1,90 +1,139 @@
 {
-    "type": "UKComplianceModal", "name": "jcyModInfo",
+    "type": "UKComplianceModal",
+    "name": "jcyModInfo",
     "fields": {
-        "anchor": { "x": 0.5, "y": 0.5 },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
         "isDismissable": false
     },
     "children": [
         {
-            "type": "NineTileImageWidget", "name": "jcyModInfoTile",
+            "type": "NineTileImageWidget",
+            "name": "jcyModInfoTile",
             "fields": {
-                "rect": { "x": -750, "y": -270, "width": 1600, "height": 850 },
+                "rect": {
+                    "x": -750,
+                    "y": -270,
+                    "width": 1600,
+                    "height": 850
+                },
                 "filename": "PANEL/TooltipBorder/TooltipBorder",
-                "backgroundColor": [ 0.0, 0.0, 0.0, 0.80 ],
+                "backgroundColor": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.8
+                ],
                 "tileScale": 1.0
             },
             "children": [
                 {
-                    "type": "TextBoxWidget", "name": "Title",
+                    "type": "TextBoxWidget",
+                    "name": "Title",
                     "fields": {
-                        "rect": { "x": 0, "y": 0, "width": 1550, "height": 150 },
-                        "style": { 
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 1550,
+                            "height": 150
+                        },
+                        "style": {
                             "fontColor": "$FontColorWhite",
-                            "alignment": { "h": "center", "v": "center" },
-                            "options": { "lineWrap": true, "newlineHandling": "standard" },
+                            "alignment": {
+                                "h": "center",
+                                "v": "center"
+                            },
+                            "options": {
+                                "lineWrap": true,
+                                "newlineHandling": "standard"
+                            },
                             "pointSize": "$MediumLargeFontSize",
                             "spacing": "$ReducedSpacing"
                         },
-                        "text": "jcy Mod @JcyModVersion"
+                        "text": "JCY MOD v1.4.1"
                     }
                 },
                 {
-                    "type": "TextBoxWidget", "name": "PromptParagraph3",
+                    "type": "TextBoxWidget",
+                    "name": "PromptParagraph3",
                     "fields": {
-                        "rect": { "x": 50, "y": 130, "width": 1450, "height": 130 },
+                        "rect": {
+                            "x": 50,
+                            "y": 130,
+                            "width": 1450,
+                            "height": 130
+                        },
                         "style": "$StyleModalDialogDescription",
-                        "text": "@JcyModDate"
+                        "text": "20260217"
                     }
                 },
                 {
-                    "type": "ButtonWidget", "name": "d163Info",
+                    "type": "ButtonWidget",
+                    "name": "d163Info",
                     "fields": {
-                        "rect": {  "x": 510, "y": 250  },
+                        "rect": {
+                            "x": 510,
+                            "y": 250
+                        },
                         "filename": "Panel\\Modals\\ModalButton",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_NoGap_Hover",
                         "hoveredFrame": 3,
                         "onClickMessage": "ModalMessage:Confirm:https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207",
                         "textColor": "$LightButtonTextColor",
-                        "text/style" : "$StyleFEButtonText",
+                        "text/style": "$StyleFEButtonText",
                         "textString": "凯恩之角"
                     }
                 },
-				{
-                    "type": "ButtonWidget", "name": "gitInfo",
+                {
+                    "type": "ButtonWidget",
+                    "name": "gitInfo",
                     "fields": {
-                        "rect": { "x": 510, "y": 400 },
+                        "rect": {
+                            "x": 510,
+                            "y": 400
+                        },
                         "filename": "Panel\\Modals\\ModalButton",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_NoGap_Hover",
                         "hoveredFrame": 3,
                         "onClickMessage": "ModalMessage:Confirm:https://github.com/jcymeow/jcy",
                         "textColor": "$LightButtonTextColor",
-                        "text/style" : "$StyleFEButtonText",
+                        "text/style": "$StyleFEButtonText",
                         "textString": "github"
                     }
                 },
                 {
-                    "type": "ButtonWidget", "name": "qqInfo",
+                    "type": "ButtonWidget",
+                    "name": "qqInfo",
                     "fields": {
-                        "rect": { "x": 510, "y": 550 },
+                        "rect": {
+                            "x": 510,
+                            "y": 550
+                        },
                         "filename": "Panel\\Modals\\ModalButton",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_NoGap_Hover",
                         "hoveredFrame": 3,
                         "onClickMessage": "ModalMessage:Confirm:https://qm.qq.com/cgi-bin/qm/qr?k=rPa6iGbvpa1eq6d_FHTZH9XW5rpOYig1&jump_from=webapi&authKey=x4fktuW57i/UbFnJHjfBDbdWPvllEn4SoszaBm53G9raBOZ9kQPH+xQi3qsRzTSB",
                         "textColor": "$LightButtonTextColor",
-                        "text/style" : "$StyleFEMultiLineButtonText",
+                        "text/style": "$StyleFEMultiLineButtonText",
                         "textString": "QQ Group"
                     }
                 },
                 {
-                    "type": "ButtonWidget", "name": "Close",
+                    "type": "ButtonWidget",
+                    "name": "Close",
                     "fields": {
-                        "rect": { "x": 510, "y": 700 },
+                        "rect": {
+                            "x": 510,
+                            "y": 700
+                        },
                         "filename": "Panel\\Modals\\ModalButton",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_NoGap_Hover",
                         "hoveredFrame": 3,
                         "onClickMessage": "PanelManager:ClosePanel:jcyModInfo",
                         "textColor": "$LightButtonTextColor",
-                        "text/style" : "$StyleFEMultiLineButtonText",
+                        "text/style": "$StyleFEMultiLineButtonText",
                         "textString": "@close"
                     }
                 }

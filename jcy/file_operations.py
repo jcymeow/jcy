@@ -2659,8 +2659,6 @@ class FileOperations:
 
     def select_language(self, radio: str):
         """刷新控制器恐怖地带列表"""
-        self.controller.feature_view.tz_tab.load_and_display_data()
-
         try:
             with open(TERROR_ZONE_PATH, "r", encoding="utf-8") as f:
                 full_data = json.load(f)
@@ -2703,7 +2701,11 @@ class FileOperations:
         except Exception as e:
             print(e)
             return 0, 1
-
+        finally:
+            if self.controller:
+                if self.controller.feature_view:
+                    if self.controller.feature_view.tz_tab:
+                        self.controller.feature_view.tz_tab.load_and_display_data()
 
     def modify_selected_language(self, select_language: str):
         """修改本地化文件列表, 选中语言内容"""
@@ -3686,34 +3688,26 @@ class FileOperations:
 
 
     def sync_app_data(self):
-        """同步APP参数到npcs.json"""
-        
-        json_path = os.path.join(MOD_PATH, r"data/local/lng/strings/npcs.json")
-
+        """同步APP参数到jcymodinfohd.json"""
         try:
             json_data = None
-            with open(json_path, 'r', encoding='utf-8-sig') as f:
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/jcymodinfohd.json")
+            
+            with open(json_path, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
 
-            for npc in json_data:
-                if npc["id"] == 50001:
-                    for key, value in npc.items():
-                        if key not in ["id", "Key"]:
-                            npc[key] = APP_VERSION
+            # version
+            json_data["children"][0]["children"][0]["fields"]["text"] = f"JCY MOD {APP_VERSION}"
+            # date
+            json_data["children"][0]["children"][1]["fields"]["text"] = f"{APP_DATE}"
 
-                if npc["id"] == 50002:
-                    for key, value in npc.items():
-                        if key not in ["id", "Key"]:
-                            npc[key] = APP_DATE
-
-                if npc["id"] > 50002:
-                    break
-
-            with open(json_path, 'w', encoding='utf-8-sig') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=2)
-            return (1, 1)
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            
+            return 1, 1
         except Exception as e:
             print(e)
+            return 0, 1
 
 
     def writeTerrorZone(self, data: str):
