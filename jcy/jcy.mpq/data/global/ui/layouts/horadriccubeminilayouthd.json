@@ -4,12 +4,12 @@
     "fields": {
         "priority": 101,
         "rect": {
-            "x": 400,
-            "y": -430
+            "x": -320,
+            "y": 226
         },
         "anchor": {
-            "x": 0,
-            "y": 1
+            "x": 1,
+            "y": 0.397
         }
     },
     "children": [
@@ -25,8 +25,8 @@
             "name": "convert",
             "fields": {
                 "rect": {
-                    "x": 340,
-                    "y": 100,
+                    "x": 180,
+                    "y": 460,
                     "scale": 0.5
                 },
                 "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
@@ -40,8 +40,8 @@
             "name": "close",
             "fields": {
                 "rect": {
-                    "x": 328,
-                    "y": 160
+                    "x": 240,
+                    "y": 454
                 },
                 "filename": "PANEL\\closebtn_4x",
                 "hoveredFrame": 3,

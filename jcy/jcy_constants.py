@@ -158,8 +158,8 @@ SEPARATOR = "Separator"
 LOCATION = "Location"
 # Controller Type -->
 
-ITEM_ENUS = ["El Rune", "Eld Rune", "Tir Rune", "Nef Rune", "Eth Rune", "Ith Rune", "Tal Rune", "Ral Rune", "Ort Rune", "Thul Rune", "Amn Rune", "Sol Rune", "Shael Rune", "Dol Rune", "Hel Rune", "Io Rune", "Lum Rune", "Ko Rune", "Fal Rune", "Lem Rune", "Pul Rune", "Um Rune", "Mal Rune", "Ist Rune", "Gul Rune", "Vex Rune", "Ohm Rune", "Lo Rune", "Sur Rune", "Ber Rune", "Jah Rune", "Cham Rune", "Zod Rune", "Ring", "Amulet", "Jewel", "Small Charm", "Large Charm", "Grand Charm", "Key of Terror|A1", "Key of Hate|A2", "Key of Destruction|A5"]
-ITEM_ZHTW = ["艾爾#01", "艾德#02", "特爾#03", "那夫#04", "愛斯#05", "伊司#06", "塔爾#07", "拉爾#08", "歐特#09", "書爾#10", "安姆#11", "索爾#12", "夏#13", "多爾#14", "海爾#15", "埃歐#16", "盧姆#17", "科#18", "法爾#19", "藍姆#20", "普爾#21", "烏姆#22", "馬爾#23", "伊司特#24", "古爾#25", "伐克斯#26", "歐姆#27", "羅#28", "瑟#29", "貝#30", "喬#31", "查姆#32", "薩德#33", "戒指", "項鏈", "珠寶", "小型咒符", "大型咒符", "巨型咒符", "恐懼之鑰|A1", "憎恨之鑰|A2", "毀滅之鑰|A5"]
+ITEM_ENUS = ["El Rune", "Eld Rune", "Tir Rune", "Nef Rune", "Eth Rune", "Ith Rune", "Tal Rune", "Ral Rune", "Ort Rune", "Thul Rune", "Amn Rune", "Sol Rune", "Shael Rune", "Dol Rune", "Hel Rune", "Io Rune", "Lum Rune", "Ko Rune", "Fal Rune", "Lem Rune", "Pul Rune", "Um Rune", "Mal Rune", "Ist Rune", "Gul Rune", "Vex Rune", "Ohm Rune", "Lo Rune", "Sur Rune", "Ber Rune", "Jah Rune", "Cham Rune", "Zod Rune", "Ring", "Amulet", "Jewel", "Small Charm", "Large Charm", "Grand Charm", "Key of Terror|A1", "Key of Hate|A2", "Key of Destruction|A5", "Western Worldstone Shard|A1", "Eastern Worldstone Shard|A2", "Southern Worldstone Shard|A3", "Deep Worldstone ShardA4", "Northern Worldstone Shard|A5"]
+ITEM_ZHTW = ["艾爾#01", "艾德#02", "特爾#03", "那夫#04", "愛斯#05", "伊司#06", "塔爾#07", "拉爾#08", "歐特#09", "書爾#10", "安姆#11", "索爾#12", "夏#13", "多爾#14", "海爾#15", "埃歐#16", "盧姆#17", "科#18", "法爾#19", "藍姆#20", "普爾#21", "烏姆#22", "馬爾#23", "伊司特#24", "古爾#25", "伐克斯#26", "歐姆#27", "羅#28", "瑟#29", "貝#30", "喬#31", "查姆#32", "薩德#33", "戒指", "項鏈", "珠寶", "小型咒符", "大型咒符", "巨型咒符", "恐懼之鑰|A1", "憎恨之鑰|A2", "毀滅之鑰|A5", "西方的世界之石碎片|A1", "東方的世界之石碎片|A2", "南方的世界之石碎片|A3", "深處的世界之石碎片|A4", "北方的世界之石碎片|A5"]
 # 本地化文件列表
 LNG_STRINGS = [
     r"data/local/lng/strings/item-gems.json",
@@ -845,6 +845,12 @@ CUSTOM_SOUNDS = {
     "jew":                {True: r"item\jew.flac",                 False: r"item\item_jewel_hd.flac",   "path": "data/hd/global/sfx/item/jew.flac"},
     "diadem":             {True: r"item\diadem.flac",              False: r"item\item_helm_hd.flac",    "path": "data/hd/global/sfx/item/diadem.flac"},
     "mephisto_key":       {True: r"item\torch_key.flac",           False: r"item\item_key_hd.flac",     "path": "data/hd/global/sfx/item/mephisto_key.flac"},
+    "item_worldstone_shard_hd":                {True: r"item\torch_key.flac",                 False: r"item\item_worldstone_shard_hd.flac",             "path": "data/hd/global/sfx/item/item_worldstone_shard_hd.flac"},
+    "item_worldstone_shard_hd":                {True: r"item\torch_key.flac",                 False: r"item\item_worldstone_shard_hd.flac",             "path": "data/hd/global/sfx/item/item_worldstone_shard_hd.flac"},
+    "item_worldstone_shard_hd":                {True: r"item\torch_key.flac",                 False: r"item\item_worldstone_shard_hd.flac",             "path": "data/hd/global/sfx/item/item_worldstone_shard_hd.flac"},
+    "item_worldstone_shard_hd":                {True: r"item\torch_key.flac",                 False: r"item\item_worldstone_shard_hd.flac",             "path": "data/hd/global/sfx/item/item_worldstone_shard_hd.flac"},
+    "item_worldstone_shard_hd":                {True: r"item\torch_key.flac",                 False: r"item\item_worldstone_shard_hd.flac",             "path": "data/hd/global/sfx/item/item_worldstone_shard_hd.flac"},
+    
     # Skill
     "enchant_off":        {True: r"skill\enchant_off.flac",        False: r"none.flac",                 "path": "data/hd/global/sfx/skill/enchant_off.flac"},
     "chillingarmor_off":  {True: r"skill\chillingarmor_off.flac",  False: r"none.flac",                 "path": "data/hd/global/sfx/skill/chillingarmor_off.flac"},

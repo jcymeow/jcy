@@ -2351,42 +2351,153 @@ class FileOperations:
         """修改任务指引样式"""
         
         # 任务对象文件列表
-        _files = [
-            "data/hd/character/enemy/radament.json",
-            "data/hd/character/enemy/maggotqueen1.json",
-            "data/hd/character/enemy/izual.json",
-            "data/hd/character/enemy/prisondoor.json",
-            "data/hd/character/enemy/nihlathakboss.json",
-            "data/hd/character/enemy/Uberandariel.json",
-            "data/hd/character/enemy/Uberduriel.json",
-            "data/hd/objects/armor_weapons/malus.json",
-            "data/hd/objects/env_manmade/soul_stone_forge.json",
-            "data/hd/objects/env_stone/Stone_alpha.json",
-            "data/hd/objects/env_wood/inifuss_tree.json",
-            "data/hd/objects/env_pillars/arcane_tome.json",
-            "data/hd/objects/env_pillars/seven_tombs_receptacle.json",
-            "data/hd/objects/env_organic/gid_b_inn_decoy.json",
-            "data/hd/roomtiles/act_1_wilderness_to_tower.json",
-            "data/hd/roomtiles/act_2_desert_to_tomb_l_2.json",
-            "data/hd/roomtiles/act_2_desert_to_tomb_r_2.json",
-            "data/hd/roomtiles/act_2_desert_to_lair.json",
-            "data/hd/roomtiles/act_3_jungle_to_dungeon_hole.json",
-        ]
-
-        # 指引映射
-        _maps = {
-            "0": [],
-            "1": [],
-            "2": PF_BEACON_QUEST,
-            "3": WAYPOINT_ARROW_LIGHT1,
-            "4": WAYPOINT_ARROW_LIGHT2,
+        _files = {
+            # A1石阵
+            "data/hd/objects/env_stone/Stone_alpha.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": WAYPOINT_ARROW_LIGHT1,
+                "4": WAYPOINT_ARROW_LIGHT2,
+            },
+            # A1古树
+            "data/hd/objects/env_wood/inifuss_tree.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": WAYPOINT_ARROW_LIGHT1,
+                "4": WAYPOINT_ARROW_LIGHT2,
+            },
+            # A1高塔
+            "data/hd/roomtiles/act_1_wilderness_to_tower.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A1铁锤
+            "data/hd/objects/armor_weapons/malus.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": WAYPOINT_ARROW_LIGHT1,
+                "4": WAYPOINT_ARROW_LIGHT2,
+            },
+            # A2罗达门特
+            "data/hd/character/enemy/radament.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A2死亡之殿
+            "data/hd/roomtiles/act_2_desert_to_tomb_l_1.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            "data/hd/roomtiles/act_2_desert_to_tomb_r_1.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A2蛆虫巢穴
+            "data/hd/roomtiles/act_2_desert_to_lair.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A2蛆虫
+            "data/hd/character/enemy/maggotqueen1.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A2日记
+            "data/hd/objects/env_pillars/arcane_tome.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": WAYPOINT_ARROW_LIGHT1,
+                "4": WAYPOINT_ARROW_LIGHT2,
+            },
+            # A2插槽
+            "data/hd/objects/env_pillars/seven_tombs_receptacle.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A3吉德賓
+            "data/hd/objects/env_organic/gid_b_inn_decoy.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": WAYPOINT_ARROW_LIGHT1,
+                "4": WAYPOINT_ARROW_LIGHT2,
+            },
+            # A3剥皮地窖
+            "data/hd/roomtiles/act_3_jungle_to_dungeon_hole.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A4衣卒尔
+            "data/hd/character/enemy/izual.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A4地狱熔炉
+            "data/hd/objects/env_manmade/soul_stone_forge.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": WAYPOINT_ARROW_LIGHT1,
+                "4": WAYPOINT_ARROW_LIGHT2,
+            },
+            # A5牢门
+            "data/hd/character/enemy/prisondoor.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            # A5尼拉塞克
+            "data/hd/character/enemy/nihlathakboss.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            "data/hd/character/enemy/Uberandariel.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },
+            "data/hd/character/enemy/Uberduriel.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },            
         }
+
+        # # 指引映射
+        # _maps = {
+        #     "0": [],
+        #     "1": [],
+        #     "2": PF_BEACON_QUEST,
+        #     "3": WAYPOINT_ARROW_LIGHT1,
+        #     "4": WAYPOINT_ARROW_LIGHT2,
+        # }
 
 
         count = 0
         total = len(_files)
 
-        for _file in _files:
+        for _file, _maps in _files.items():
             try:
                 json_data = None
                 json_path = os.path.join(MOD_PATH, _file)
@@ -2401,7 +2512,10 @@ class FileOperations:
 
                 count += 1
             except Exception as e:
+                print("----------------------------"*2)
+                print(json_path)
                 print(e)
+                print("----------------------------"*2)
 
         return (count, total)
     
@@ -2483,8 +2597,6 @@ class FileOperations:
             "data/hd/roomtiles/act_1_wilderness_to_cave_floor_r.json",
 
             "data/hd/roomtiles/act_2_desert_to_sewer_trap.json",
-            "data/hd/roomtiles/act_2_desert_to_tomb_l_1.json",
-            "data/hd/roomtiles/act_2_desert_to_tomb_r_1.json",
             "data/hd/roomtiles/act_2_lair_down.json",
             "data/hd/roomtiles/act_2_sewer_down.json",
             "data/hd/roomtiles/act_2_tomb_down.json",
@@ -3785,6 +3897,11 @@ class FileOperations:
             "mephisto_key": 39,
             "mephisto_key": 40,
             "mephisto_key": 41,
+            "item_worldstone_shard_hd": 42,
+            "item_worldstone_shard_hd": 43,
+            "item_worldstone_shard_hd": 44,
+            "item_worldstone_shard_hd": 45,
+            "item_worldstone_shard_hd": 46,
         }
 
         rune_files = [
@@ -3834,6 +3951,11 @@ class FileOperations:
             r"data/hd/items/misc/key/mephisto_key1.json",
             r"data/hd/items/misc/key/mephisto_key2.json",
             r"data/hd/items/misc/key/mephisto_key3.json",
+            r"data/hd/items/misc/shard/mote_of_anguish.json",
+            r"data/hd/items/misc/shard/mote_of_pain.json",
+            r"data/hd/items/misc/shard/mote_of_hatred.json",
+            r"data/hd/items/misc/shard/mote_of_terror.json",
+            r"data/hd/items/misc/shard/mote_of_destruction.json",
         ]
 
         count = 0
@@ -4072,16 +4194,6 @@ class FileOperations:
                 return data
             except Exception as e:
                 print(e)
-
-
-    def load_items_name(self):
-        """加载道具名称"""
-        item_names_data = None                     
-        item_names_path = os.path.join(MOD_PATH, r"data/local/lng/strings/jcy/item-names.filter.json")
-        with open(item_names_path, 'r', encoding='utf-8-sig') as f:
-            item_names_data = json.load(f)
-
-        return item_names_data
 
 
     def load_terror_zone_mapper(self):

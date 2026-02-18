@@ -1817,6 +1817,51 @@
         "sgCN": "受到的物理伤害提高(DI) %d%%",
         "sgTW": "受到的物理傷害提高(DI) %d%%"
     },
+    "xa1": {
+        "id": 27579,
+        "Key": "xa1",
+        "enUS": "Western Worldstone Shard|A1",
+        "zhTW": "西方的世界之石碎片|A1",
+        "zhCN": "西方世界之石碎片|A1",
+        "sgCN": "西方世界之石碎片|A1",
+        "sgTW": "西方的世界之石碎片|A1"
+    },
+    "xa2": {
+        "id": 27580,
+        "Key": "xa2",
+        "enUS": "Eastern Worldstone Shard|A2",
+        "zhTW": "東方的世界之石碎片|A2",
+        "zhCN": "东方世界之石碎片|A2",
+        "sgCN": "东方世界之石碎片|A2",
+        "sgTW": "東方的世界之石碎片|A2"
+    },
+    "xa3": {
+        "id": 27581,
+        "Key": "xa3",
+        "enUS": "Southern Worldstone Shard|A3",
+        "zhTW": "南方的世界之石碎片|A3",
+        "zhCN": "南方世界之石碎片|A3",
+        "sgCN": "南方世界之石碎片|A3",
+        "sgTW": "南方的世界之石碎片|A3"
+    },
+    "xa4": {
+        "id": 27582,
+        "Key": "xa4",
+        "enUS": "Deep Worldstone Shard|A4",
+        "zhTW": "深處的世界之石碎片|A4",
+        "zhCN": "深层世界之石碎片|A4",
+        "sgCN": "深层世界之石碎片|A4",
+        "sgTW": "深處的世界之石碎片|A4"
+    },
+    "xa5": {
+        "id": 27583,
+        "Key": "xa5",
+        "enUS": "Northern Worldstone Shard|A5",
+        "zhTW": "北方的世界之石碎片|A5",
+        "zhCN": "北方世界之石碎片|A5",
+        "sgCN": "北方世界之石碎片|A5",
+        "sgTW": "北方的世界之石碎片|A5"
+    },
     "WarOnly": {
         "id": 27602,
         "Key": "WarOnly",
