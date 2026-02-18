@@ -78,7 +78,7 @@
         {
             "type": "Entity",
             "name": "jcy_entity_pointer",
-            "id": 586091851,
+            "id": 586091852,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
@@ -104,7 +104,7 @@
                 {
                     "type": "PrefabPlacementDefinitionComponent",
                     "name": "prefab_PrefabPlacementDefinitionComponent",
-                    "prefab": "data/hd/env/porory/beacon/pf_beacon_downstairs.json"
+                    "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
                 }
             ]
         }

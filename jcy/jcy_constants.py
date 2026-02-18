@@ -57,10 +57,10 @@ QUICK_GAME = {
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.4.1"
+APP_VERSION = "v1.4.2"
 
 # 发布日期
-APP_DATE = "20260217"
+APP_DATE = "20260218"
 
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"

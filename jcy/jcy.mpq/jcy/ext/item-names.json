@@ -2579,7 +2579,7 @@
         "enUS": "Key to the Cairn Stones",
         "zhTW": "石陣之鑰",
         "zhCN": "石阵密文",
-        "sgCN": "石冢之钥",
+        "sgCN": "石塚之钥",
         "sgTW": "石塚之鑰"
     },
     "aqv": {
@@ -9084,10 +9084,10 @@
         "id": 21294,
         "Key": "Stormrider",
         "enUS": "ÿc1[20Charged Bolt(10%)]\nÿc4Stormrider",
-        "zhTW": "ÿc1[20充能彈(10%)]\nÿc4暴風騎士",
-        "zhCN": "ÿc1[20电能弹(10%)]\nÿc4御雷者",
-        "sgCN": "ÿc1[20电能弹(10%)]\nÿc4暴风骑士",
-        "sgTW": "ÿc1[20充能彈(10%)]\nÿc4暴風騎士"
+        "zhTW": "ÿc1[20電能彈(10%)]\nÿc4暴風騎士",
+        "zhCN": "ÿc1[20电荷弹(10%)]\nÿc4御雷者",
+        "sgCN": "ÿc1[20电荷弹(10%)]\nÿc4暴风骑士",
+        "sgTW": "ÿc1[20電能彈(10%)]\nÿc4暴風騎士"
     },
     "Boneslayer Blade": {
         "id": 21295,
@@ -9122,7 +9122,7 @@
         "enUS": "Cairn Shard",
         "zhTW": "凱林碎片",
         "zhCN": "石冢碎片",
-        "sgCN": "石冢碎片",
+        "sgCN": "石塚碎片",
         "sgTW": "石塚碎片"
     },
     "Arm of King Leoric": {
@@ -11334,10 +11334,10 @@
         "id": 21546,
         "Key": "Silkweave",
         "enUS": "ÿc1[DEF194(Elite)/190EDef]\nÿc4Silkweave",
-        "zhTW": "ÿc1[防御194(精)/190EDef]\nÿc4紗織",
+        "zhTW": "ÿc1[防禦194(精)/190EDef]\nÿc4紗織",
         "zhCN": "ÿc1[防御194(精)/190EDef]\nÿc4丝织靴",
         "sgCN": "ÿc1[防御194(精)/190EDef]\nÿc4纱织",
-        "sgTW": "ÿc1[防御194(精)/190EDef]\nÿc4紗織"
+        "sgTW": "ÿc1[防禦194(精)/190EDef]\nÿc4紗織"
     },
     "Wartraveler": {
         "id": 21547,
@@ -14161,8 +14161,8 @@
         "Key": "Ars Tor'Baalos",
         "enUS": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4Ars Tor'Baalos",
         "zhTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術",
-        "zhCN": "ÿc1[3吞噬/4沸血术/3吞食/3恶魔专精/150ED/10DR]\nÿc4巴洛斯之术",
-        "sgCN": "ÿc1[3吞噬/4沸血术/3吞食/3恶魔专精/150ED/10DR]\nÿc4巴洛斯之术",
+        "zhCN": "ÿc1[3吞噬/4红液沸腾/3暴食/3恶魔精通/150ED/10DR]\nÿc4巴洛斯之术",
+        "sgCN": "ÿc1[3吞噬/4红液沸腾/3暴食/3恶魔精通/150ED/10DR]\nÿc4巴洛斯之术",
         "sgTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術"
     },
     "Ars Dul'Mephistos": {
@@ -14179,8 +14179,8 @@
         "Key": "Measured Wrath",
         "enUS": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4Measured Wrath",
         "zhTW": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒",
-        "zhCN": "ÿc1[3烈焰涌浪/3火焰之环/3召唤魔污怪/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
-        "sgCN": "ÿc1[3烈焰涌浪/3火焰之环/3召唤魔污怪/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
+        "zhCN": "ÿc1[3烈焰波/3火焰之环/3召唤污染魔/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
+        "sgCN": "ÿc1[3烈焰波/3火焰之环/3召唤污染魔/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
         "sgTW": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒"
     },
     "Dreadfang": {
@@ -14206,8 +14206,8 @@
         "Key": "Bloodpact Shard",
         "enUS": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4Bloodpact Shard",
         "zhTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片",
-        "zhCN": "ÿc1[3束缚恶魔/3沸血术/3血誓/15Max Life/35MF]\nÿc4血契碎片",
-        "sgCN": "ÿc1[3束缚恶魔/3沸血术/3血誓/15Max Life/35MF]\nÿc4血契碎片",
+        "zhCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血契碎片",
+        "sgCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血契碎片",
         "sgTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片"
     },
     "Sling": {

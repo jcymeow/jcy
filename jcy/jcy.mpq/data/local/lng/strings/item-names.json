@@ -17156,7 +17156,7 @@
     "id": 21294,
     "Key": "Stormrider",
     "enUS": "ÿc1[20Charged Bolt(10%)]\nÿc4Stormrider",
-    "zhTW": "ÿc1[20充能彈(10%)]\nÿc4暴風騎士",
+    "zhTW": "ÿc1[20電能彈(10%)]\nÿc4暴風騎士",
     "deDE": "Sturmreiter",
     "esES": "Jinete de la tormenta",
     "frFR": "Monte-tempête",
@@ -17167,7 +17167,7 @@
     "jaJP": "ストームライダー",
     "ptBR": "Tempestário",
     "ruRU": "Повелитель бури",
-    "zhCN": "ÿc1[20充能彈(10%)]\nÿc4暴風騎士"
+    "zhCN": "ÿc1[20電能彈(10%)]\nÿc4暴風騎士"
   },
   {
     "id": 21295,
@@ -21406,7 +21406,7 @@
     "id": 21546,
     "Key": "Silkweave",
     "enUS": "ÿc1[DEF194(Elite)/190EDef]\nÿc4Silkweave",
-    "zhTW": "ÿc1[防御194(精)/190EDef]\nÿc4紗織",
+    "zhTW": "ÿc1[防禦194(精)/190EDef]\nÿc4紗織",
     "deDE": "Seidenweberei",
     "esES": "Tejido de seda",
     "frFR": "Bottes de soie",
@@ -21417,7 +21417,7 @@
     "jaJP": "シルクウィーブ",
     "ptBR": "Sedatrama",
     "ruRU": "Шелкоплеты",
-    "zhCN": "ÿc1[防御194(精)/190EDef]\nÿc4紗織"
+    "zhCN": "ÿc1[防禦194(精)/190EDef]\nÿc4紗織"
   },
   {
     "id": 21547,
