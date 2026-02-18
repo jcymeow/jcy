@@ -1,0 +1,50 @@
+{
+    "JcyModQuickGame": {
+        "Key": "JcyModQuickGame",
+        "enUS": "Click to quickly create the highest difficulty game",
+        "zhTW": "點擊快速建立最高難度遊戲",
+        "zhCN": "点击快速建立最高难度游戏",
+        "sgCN": "点击快速建立最高难度游戏",
+        "sgTW": "點擊快速建立最高難度遊戲"
+    },
+    "JcyToggleMiniStash": {
+        "Key": "JcyToggleMiniStash",
+        "enUS": "Toggle Stash",
+        "zhTW": "開關儲物箱",
+        "zhCN": "开关储物箱",
+        "sgCN": "开关储物箱",
+        "sgTW": "開關儲物箱"
+    },
+    "JcyToggleMiniCube": {
+        "Key": "JcyToggleMiniCube",
+        "enUS": "Toggle Mini Cube",
+        "zhTW": "開關迷你盒子",
+        "zhCN": "开关迷你盒子",
+        "sgCN": "开关迷你盒子",
+        "sgTW": "開關迷你盒子"
+    },
+    "JcyToggleMiniBar": {
+        "Key": "JcyToggleMiniBar",
+        "enUS": "Toggle MiniHP bar",
+        "zhTW": "開關迷你血條",
+        "zhCN": "开关迷你血条",
+        "sgCN": "开关迷你血条",
+        "sgTW": "開關儲物箱"
+    },
+    "JcyToggleFriendsList": {
+        "Key": "JcyToggleFriendsList",
+        "enUS": "Toggle Friends List",
+        "zhTW": "開關好友列表",
+        "zhCN": "开关好友列表",
+        "sgCN": "开关好友列表",
+        "sgTW": "開關好友列表"
+    },
+    "JcyGameSetting": {
+        "Key": "JcyGameSetting",
+        "enUS": "Game Setting",
+        "zhTW": "遊戲設置",
+        "zhCN": "游戏设置",
+        "sgCN": "游戏设置",
+        "sgTW": "遊戲設置"
+    }
+}

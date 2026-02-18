@@ -2806,7 +2806,7 @@ class FileOperations:
         """修改本地化文件列表, 选中语言内容"""
         
         count = 0
-        total = len(LOCAL_FILES) + 1
+        total = len(LOCAL_FILES) + 2
 
         lng = jcy_config.SETTINGS.get(select_language, ZHTW)
 
@@ -2814,6 +2814,8 @@ class FileOperations:
         for _file in LOCAL_FILES:
             json_data = None
             json_path = os.path.join(MOD_PATH, "data/local/lng/strings", _file)
+            if not os.path.exists(json_path):
+                continue
 
             try:
                 with open(json_path, 'r', encoding='utf-8-sig') as f:
@@ -2843,14 +2845,32 @@ class FileOperations:
 
             for child in quick_data["children"]:
                 if child.get("name") == "GoToHell":
-                    child["fields"]["tooltipString"] = QUICK_GAME.get(lng)
+                    child["fields"]["tooltipString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.QUICK_GAME.value).get(lng)
                             
             with open(quick_path, 'w', encoding="utf-8") as f:
                 json.dump(quick_data, f, ensure_ascii=False, indent=2)
 
             count += 1
         except Exception as e:
-            print(f"[Error] {json_path}: {e}")
+            print(f"[Error] {quick_path}: {e}")
+
+        # 修改迷你按钮Bar 提示语
+        mini_data = None
+        mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
+        try:
+            with open(mini_path, 'r', encoding='utf-8') as f:
+                mini_data = json.load(f)
+
+            for child in mini_data["children"]:
+                key = child["name"]
+                child["fields"]["tooltipString"] = jcy_config.LOCAL_EXT_DICT.get(key).get(lng)
+
+            with open(mini_path, 'w', encoding="utf-8") as f:
+                json.dump(mini_data, f, ensure_ascii=False, indent=2)
+
+            count += 1
+        except Exception as e:
+            print(f"[Error] {mini_path}: {e}")
 
         return count, total
 
@@ -4215,6 +4235,8 @@ class FileOperations:
         for _file in LOCAL_FILES:
             json_data = None
             json_path = os.path.join(MOD_PATH, "jcy/ext", _file)
+            if not os.path.exists(json_path):
+                continue
             with open(json_path, "r", encoding="utf-8") as f:
                 json_data = json.load(f)
             _dict.update(json_data)
@@ -4229,6 +4251,8 @@ class FileOperations:
         for _file in LOCAL_FILES:
             json_data = None
             json_path = os.path.join(MOD_PATH, "original", _file)
+            if not os.path.exists(json_path):
+                continue
             with open(json_path, "r", encoding="utf-8-sig") as f:
                 json_data = json.load(f)
             

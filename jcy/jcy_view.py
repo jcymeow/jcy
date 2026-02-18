@@ -104,12 +104,6 @@ class FeatureView:
         rune_tab = ItemNotificationTable(notebook, config_dict=jcy_config.SETTINGS, config_key=Function.ITEM_NOTIFICATION.value)
         self.add_tab(rune_tab, "道具提醒")
 
-        # --- new道具屏蔽 ---
-        # items_name_data = self.controller.file_operations.load_items_name()
-        # items_name_data.extend(GOLD_NAMES)
-        # ifp = ItemFilterPanel(notebook, ITEMS, items_name_data,controller=self.controller, config_dict=jcy_config.SETTINGS, config_key=Function.ITEM_FILTER.value)
-        # self.add_tab(ifp, "道具屏蔽")
-
         # --- 素材管理 ---
         asset_tab = AssetManagerUI(notebook, self.controller)
         self.add_tab(asset_tab, "素材管理")

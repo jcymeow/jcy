@@ -24,35 +24,6 @@ ZHSGTW = "zhSGTW"
 
 LANGUAGES = [ZHCN2, ZHSGCN, ZHTW2, ZHSGTW, ENUS]
 
-UI_PANEL_HEALTH = {"enUS":"Life:","zhTW":"生命：","deDE":"Leben:","esES":"Vida:","frFR":"Vie :","itIT":"Vita:","koKR":"생명력:","plPL":"Zdrowie:","esMX":"Vida:","jaJP":"ライフ:","ptBR":"Vida:","ruRU":"Здоровье:","zhCN":"生命:"}
-UI_PANEL_MANA = {"enUS":"Mana:","zhTW":"法力：","deDE":"Mana:","esES":"Maná:","frFR":"Mana :","itIT":"Mana:","koKR":"마나:","plPL":"Mana:","esMX":"Maná:","jaJP":"マナ:","ptBR":"Mana:","ruRU":"Мана:","zhCN":"法力:"}
-
-# 本地化文档
-LOCAL_FILES = [
-    "item-gems.json",
-    "item-modifiers.json",
-    "item-nameaffixes.json",
-    "item-names.json",
-    "item-runes.json",
-    "levels.json",
-    "monsters.json",
-    "npcs.json",
-    "objects.json",
-    "quests.json",
-    "shrines.json",
-    "skills.json",
-]
-# 快速游戏翻译
-QUICK_GAME = {
-    "id": 50003,
-    "Key": "JcyModQuickGame",
-    "enUS": "Click to quickly create the highest difficulty game",
-    "zhTW": "點擊快速建立最高難度遊戲",
-    "zhCN": "点击快速建立最高难度游戏",
-    "sgCN": "点击快速建立最高难度游戏",
-    "sgTW": "點擊快速建立最高難度遊戲"
-}
-
 # 控制器名称
 APP_NAME = "jcy控制器"
 
@@ -85,32 +56,21 @@ REGION_NAME_MAP = {
 # Unicode私有区字符 for 屏蔽道具
 UE01A = "" * 41
 
-
-GOLD_NAMES = [
-    {
-        "Key": "gds",
-        "enUS": "1-99 Gold",
-        "zhCN": "1-99 金币",
-        "zhTW": "1-99 金幣"
-    },
-    {
-        "Key": "gdm",
-        "enUS": "100-499 Gold",
-        "zhCN": "100-499 金币",
-        "zhTW": "100-499 金幣"
-    },
-    {
-        "Key": "gdl",
-        "enUS": "500-4999 Gold",
-        "zhCN": "500-4999 金币",
-        "zhTW": "500-4999 金幣"
-    },
-    {
-        "Key": "gdx",
-        "enUS": "5000+ Gold",
-        "zhCN": "5000+ 金币",
-        "zhTW": "5000+ 金幣"
-    }
+# 本地化文档
+LOCAL_FILES = [
+    "item-gems.json",
+    "item-modifiers.json",
+    "item-nameaffixes.json",
+    "item-names.json",
+    "item-runes.json",
+    "levels.json",
+    "monsters.json",
+    "npcs.json",
+    "objects.json",
+    "quests.json",
+    "shrines.json",
+    "skills.json",
+    "jcy.json"
 ]
 
 # Assets
@@ -970,6 +930,15 @@ class DefaultValue(Enum):
         "rect": { "x": 0, "y": -450}
     }
 
+
+class JcyExt(Enum):
+    QUICK_GAME = "JcyModQuickGame"
+    TOGGLE_MINI_STASH = "JcyToggleMiniStash"
+    TOGGLE_MINI_CUBE = "JcyToggleMiniCube"
+    TOGGLE_MINI_BAR = "JcyToggleMiniBar"
+    TOGGLE_FRIENDS_LIST = "JcyToggleFriendsList"
+    GAME_SETTING = "JcyGameSetting"
+
 # 导出所有需要的符号
 __all__ = [
     'Function',
@@ -977,6 +946,7 @@ __all__ = [
     'Operation',
     'Methods',
     'DefaultValue',
+    'JcyExt',
     'MUTEX_NAME',
     'ERROR_ALREADY_EXISTS',
     'WM_SHOW_WINDOW',
@@ -989,15 +959,11 @@ __all__ = [
     'ENUS',
     'LANGUAGES',
     'LOCAL_FILES',
-    'QUICK_GAME',
-    'UI_PANEL_HEALTH',
-    'UI_PANEL_MANA',
     'APP_NAME',
     'APP_VERSION',
     'APP_FULL_NAME',
     'APP_DATE',
     'APP_SIZE',
-    'GOLD_NAMES',
     'ASSET_PATH',
     'ITEM_ENUS',
     'ITEM_ZHTW',
