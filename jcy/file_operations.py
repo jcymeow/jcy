@@ -1486,7 +1486,7 @@ class FileOperations:
                 data = data_dict.get(Key)
 
                 # 没有模板数据pass
-                if not data:
+                if data is None:
                     continue
                 
                 for lang in Language:

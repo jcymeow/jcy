@@ -321,7 +321,7 @@
             "name": "gotomain",
             "fields": {
                 "time": 0.1,
-                "message": "PausePanelMessage:ExitGame"
+                "message": ""
             }
         }
     ]

@@ -206,7 +206,7 @@
             "name": "OpenMiniHp",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:minihp",
+                "message": "",
                 "default": "PanelManager:OpenPanel:minihp"
             }
         },
@@ -215,7 +215,7 @@
             "name": "OpenMiniCube",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:HoradricCubeMiniLayout",
+                "message": "",
                 "default": "PanelManager:OpenPanel:HoradricCubeMiniLayout"
             }
         },
@@ -232,7 +232,7 @@
             "name": "OpenMiniBar",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:hudpanelbuttons",
+                "message": "",
                 "default": "PanelManager:OpenPanel:hudpanelbuttons"
             }
         },

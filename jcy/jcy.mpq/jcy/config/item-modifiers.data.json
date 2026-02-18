@@ -1020,21 +1020,11 @@
     "UseTerrorTokenAct3": {},
     "UseTerrorTokenAct4": {},
     "UseTerrorTokenAct5": {},
-    "xa1": {
-        "pass": true
-    },
-    "xa2": {
-        "pass": true
-    },
-    "xa3": {
-        "pass": true
-    },
-    "xa4": {
-        "pass": true
-    },
-    "xa5": {
-        "pass": true
-    },
+    "xa1": {},
+    "xa2": {},
+    "xa3": {},
+    "xa4": {},
+    "xa5": {},
     "WarOnly": {
         "color": [
             "ÿc8",

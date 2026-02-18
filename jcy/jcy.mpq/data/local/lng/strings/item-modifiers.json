@@ -6191,7 +6191,7 @@
     "id": 27979,
     "Key": "ChronicleModifierRange",
     "enUS": "ÿcU(%s-%s)ÿc3",
-    "zhTW": "ÿcT（%s-%s）ÿc3",
+    "zhTW": "ÿcU（%s-%s）ÿc3",
     "deDE": "ÿcU(%s-%s)ÿc3",
     "esES": "ÿcU(%s-%s)ÿc3",
     "frFR": "ÿcU(%s-%s)ÿc3",
@@ -6202,13 +6202,13 @@
     "jaJP": "ÿcU(%s-%s)ÿc3",
     "ptBR": "ÿcU(%s-%s)ÿc3",
     "ruRU": "ÿcU(%s-%s)ÿc3",
-    "zhCN": "ÿcT（%s-%s）ÿc3"
+    "zhCN": "ÿcU（%s-%s）ÿc3"
   },
   {
     "id": 27998,
     "Key": "ItemStats1hRange",
     "enUS": "Defense: ÿcU(%d-%d)ÿc3",
-    "zhTW": "防禦：ÿcT（%d-%d）ÿc3",
+    "zhTW": "防禦：ÿcU（%d-%d）ÿc3",
     "deDE": "Verteidigung: ÿcT(%d-%d)ÿc3",
     "esES": "Defensa: ÿcT(%d-%d)ÿc3",
     "frFR": "Défense : ÿcU(%d-%d)ÿc3",
@@ -6219,7 +6219,7 @@
     "jaJP": "防御力: ÿcU(%d-%d)ÿc3",
     "ptBR": "Defesa: ÿcU(%d-%d)ÿc3",
     "ruRU": "Защита: ÿcU(%d-%d)ÿc3",
-    "zhCN": "防禦：ÿcT（%d-%d）ÿc3"
+    "zhCN": "防禦：ÿcU（%d-%d）ÿc3"
   },
   {
     "id": 28014,
