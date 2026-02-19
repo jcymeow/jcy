@@ -884,7 +884,7 @@ class Function(Enum):
     MERCENARY_LOCATION = "MercenaryLocation"
     MERCENARY_100 = "Mercenary100"
     MONSTER_SETTING = "MonsterSetting"
-    MONSTER_LIGHTING = "MonsterLighting"
+    MONSTER_LIGHT = "MonsterLight"
     MONSTER_HEALTH = "MonsterHealth"
     MONSTER_MISSILE = "MonsterMissile"
     BASE_EFFECTS = "BaseEffects"

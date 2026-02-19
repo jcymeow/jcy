@@ -450,11 +450,11 @@ ENTITY_ROOT_POSITION = {
     "hide-y": 1000.0
 }
 
-# 怪物光源
-ENTITY_MONSTER_LIGHT = {
+# 怪物-光源-微光
+ENTITY_MONSTER_LIGHT1 = {
     "type": "Entity",
     "name": "entity_monster_light",
-    "id": 7467890050,
+    "id": 7467890901,
     "components": [
         {
             "type": "TransformDefinitionComponent",
@@ -485,8 +485,8 @@ ENTITY_MONSTER_LIGHT = {
                 "y": 1,
                 "z": 1
             },
-            "power": 0,
-            "radius": 150,
+            "power": 150,
+            "radius": 15,
             "attenuation": 1,
             "lightMask": 1,
             "isLocalLight": False,
@@ -495,6 +495,92 @@ ENTITY_MONSTER_LIGHT = {
         }
     ]
 }
+
+# 怪物-光源-柔光
+ENTITY_MONSTER_LIGHT2 = {
+    "type": "Entity",
+    "name": "entity_monster_light",
+    "id": 7467890902,
+    "components": [
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "entity_torso_TransformDefinition",
+            "position": {
+                "x": 0.0,
+                "y": 3.0,
+                "z": 0.0
+            },
+            "orientation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "inheritOnlyPosition": False
+        },
+        {
+            "type": "PointLightDefinitionComponent",
+            "name": "white_light",
+            "color": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "power": 300.0,
+            "radius": 10.0,
+            "attenuation": 1.0,
+            "lightMask": 1,
+            "diffuseContribution": 1.0,
+            "specularContribution": 1.0,
+            "isLocalLight": False
+        }
+    ]
+}
+
+# 怪物-光源-强光
+ENTITY_MONSTER_LIGHT3 = {
+    "type": "Entity",
+    "name": "entity_monster_light",
+    "id": 7467890903,
+    "components": [
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "entity_root_VfxDefinition",
+            "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightning_lightningstrike.particles",
+            "hardKillOnDestroy": True
+        },
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "component_transform1",
+            "position": {
+                "x": 0,
+                "y": 3,
+                "z": 0
+            },
+            "orientation": {
+                "x": 1.2,
+                "y": 0,
+                "z": 0,
+                "w": 1.0
+            },
+            "scale": {
+                "x": 50,
+                "y": 50,
+                "z": 50
+            },
+            "inheritOnlyPosition": False
+        }
+    ]
+}
+
+
+
+
 
 # 怪物危险标记
 ENTITY_MONSTER_DANGEROUS = {

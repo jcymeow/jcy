@@ -202,44 +202,44 @@
         {
             "type": "Entity",
             "name": "entity_monster_light",
-            "id": 7467890050,
+            "id": 7467890902,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
-                    "name": "transform_monster_light",
+                    "name": "entity_torso_TransformDefinition",
                     "position": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
+                        "x": 0.0,
+                        "y": 3.0,
+                        "z": 0.0
                     },
                     "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
                     },
                     "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
                     },
                     "inheritOnlyPosition": false
                 },
                 {
                     "type": "PointLightDefinitionComponent",
-                    "name": "vfx_monster_light",
+                    "name": "white_light",
                     "color": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
                     },
-                    "power": 1500,
-                    "radius": 150,
-                    "attenuation": 1,
+                    "power": 300.0,
+                    "radius": 10.0,
+                    "attenuation": 1.0,
                     "lightMask": 1,
-                    "isLocalLight": false,
-                    "diffuseContribution": 1,
-                    "specularContribution": 1
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0,
+                    "isLocalLight": false
                 }
             ]
         }

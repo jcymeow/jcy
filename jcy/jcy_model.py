@@ -303,15 +303,6 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.NEC_SETTING.value,
-                            "type": CHECK,
-                            "text": "死灵法师",
-                            "colspan": 25,
-                            "params": {
-                                "1": "骷髅火刀圣盾"
-                            }
-                        },
-                        {
                             "fid": Function.DRU_SETTING.value,
                             "type": CHECK,
                             "text": "德鲁伊",
@@ -393,21 +384,24 @@ class FeatureConfig:
                             "fid": Function.MONSTER_SETTING.value,
                             "type": CHECK,
                             "text": "怪物-配置",
-                            "colspan": 70,
+                            "colspan": 100,
                             "params": {
-                                "4": "屏蔽A5督军山克死亡特效",
-                                "5": "蓝色精英随机染色",
+                                "4": "屏蔽 A5督军死亡特效",
+                                "5": "开启 蓝色精英染色",
                                 "6": "开启 危险怪物标识",
+                                "7": "开启 怪物可见",
                             }
                         },
                         {
-                            "fid": Function.MONSTER_LIGHTING.value,
-                            "type": SPIN,
-                            "text": "怪物-光源亮度",
-                            "colspan": 30,
+                            "fid": Function.MONSTER_LIGHT.value,
+                            "type": RADIO,
+                            "text": "怪物-光源",
+                            "colspan": 50,
                             "params": {
-                                "form": 0,
-                                "to": 10
+                                "0": "默认",
+                                "1": "微光",
+                                "2": "柔光",
+                                "3": "强光",
                             }
                         },
                         {

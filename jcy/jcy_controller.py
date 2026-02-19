@@ -280,8 +280,6 @@ class FeatureController:
             Function.ASN_SETTING.value: self.file_operations.assassin_setting,
             # 刺客-聚气图标
             Function.ASN_MARTIAL.value: self.file_operations.assassin_martial,
-            # 死灵法师
-            Function.NEC_SETTING.value: self.file_operations.necromancer_setting,
             # 德鲁伊
             Function.DRU_SETTING.value: self.file_operations.druid_setting,
             # 圣骑士
@@ -295,8 +293,8 @@ class FeatureController:
             Function.MERCENARY_100.value: self.file_operations.mercenary_coordinate,
             # 怪物-配置
             Function.MONSTER_SETTING.value: self.file_operations.select_monster_setting,
-            # 怪物-光源亮度
-            Function.MONSTER_LIGHTING.value: self.file_operations.select_monster_lighting,
+            # 怪物-光源
+            Function.MONSTER_LIGHT.value: self.file_operations.select_monster_light,
             # 怪物-血条样式
             Function.MONSTER_HEALTH.value: self.file_operations.select_monster_health,
             # 怪物-导弹

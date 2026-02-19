@@ -276,15 +276,13 @@ class FileOperations:
         
         funcs = []
         # ---- 怪物光源 ----
-        funcs.append(self.select_asset_monster_lighting())
+        funcs.append(self.select_asset_monster_light())
         # ---- 高危怪物标记 ----
         funcs.append(self.modify_asset_monster_dangerous())
         # ---- Act1兵营指引 ----
         funcs.append(self.modify_act1_barrack_pointer())
         # ---- Act5尼拉塞克指引 ----
         funcs.append(self.modify_act5_nihl_pointer())
-        # ---- 邻区指引 ----
-        # funcs.append(self.modify_asset_nextarea_pointer())
 
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
@@ -300,10 +298,8 @@ class FileOperations:
         funcs = []
         # 佣兵音效
         funcs.append(self.common_modify_excel(file="data/global/excel/sounds.txt", key="Sound", records=hire_sound))
-        print(funcs[-1])
         # 佣兵姓名
         funcs.append(self.common_modify_json(file="data/local/lng/strings/mercenaries.json", records=hire_name))
-        print(funcs[-1])
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
 
@@ -941,10 +937,6 @@ class FileOperations:
 
         # 文件
         _files = {
-            # 危险怪物增加光源&标识 - 废弃
-            "2": [],
-            # BOSS怪物光环指引->环境-任务指引 - 废弃
-            "3": [],
             # 屏蔽A5督军山克死亡特效
             "4": [
                 r"data/global/excel/missiles.txt",
@@ -960,7 +952,11 @@ class FileOperations:
             sub = self.common_rename(files, key in keys)
             funcs.append(sub)
 
+        # 开启 危险怪物标识
         funcs.append(self.modify_monster_dangerous())
+
+        # 开启 怪物可见
+        funcs.append(self.modify_monster_visable())
 
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
@@ -968,69 +964,18 @@ class FileOperations:
         return summary
 
 
-    def select_asset_monster_lighting(self):
-        """修改素材包内怪物光源"""
+    def select_monster_light(self, radio: str):
+        """怪物-光源"""
+        if not radio:
+            radio = jcy_config.SETTINGS.get(Function.MONSTER_LIGHT.value, "0")
         
-        value = jcy_config.SETTINGS.get(Function.MONSTER_LIGHTING.value, 0)
-
-        _files = [
-            r"data/hd/character/enemy/bonefetish1.json",
-            r"data/hd/character/enemy/cr_archer1.json",
-            r"data/hd/character/enemy/cr_lancer1.json",
-            r"data/hd/character/enemy/imp1.json",
-            r"data/hd/character/enemy/reanimatedhorde1.json",
-            r"data/hd/character/enemy/skeleton1.json",
-            r"data/hd/character/enemy/vampire1.json",
-            r"data/hd/character/enemy/venomlord.json",
-            r"data/hd/character/enemy/vilechild1.json",
-            r"data/hd/character/enemy/wraith1.json",
-            r"data/hd/character/enemy/zombie1.json",
-        ]
-
-        count = 0
-        total = len(_files)
-
-        for _file in _files:
-            try:
-                file_data = None
-                file_path = os.path.join(MOD_PATH, _file)
-                if not os.path.exists(file_path):
-                    continue
-
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    file_data = json.load(f)
-                
-                entities = file_data.get("entities", [])
-
-                # 查找光照node
-                targetIndex = None
-                for i, entity in enumerate(entities):
-                    if entity.get("id", 0) == ENTITY_MONSTER_LIGHT.get("id"):
-                        targetIndex = i
-                        break
-                
-                # 没有光照node, 则添加
-                if targetIndex is None:
-                    entities.append(ENTITY_MONSTER_LIGHT)
-                    targetIndex = -1
-
-                node = entities[targetIndex]
-                node["components"][-1]["power"] = value * 300
-                
-                with open(file_path, 'w', encoding="utf-8") as f:
-                    json.dump(file_data, f, ensure_ascii=False, indent=4)              
-                count += 1
-            except Exception as e:
-                print(f"[ERROR] {_file}: {e}")
-        
-        return (count, total)
-
-
-    def select_monster_lighting(self, value: Optional[int] = None):
-        """修改怪物光源"""
-
-        if value is None:
-            value = jcy_config.SETTINGS.get(Function.MONSTER_LIGHTING.value, 0)
+        _params = {
+            "0": None,
+            "1": ENTITY_MONSTER_LIGHT1,
+            "2": ENTITY_MONSTER_LIGHT2,
+            "3": ENTITY_MONSTER_LIGHT3,
+        }
+        _param = _params.get(radio)
 
         _files = [
             r"data/hd/character/enemy/andariel.json",
@@ -1177,29 +1122,89 @@ class FileOperations:
                 
                 entities = file_data.get("entities", [])
 
-                # 查找光照node
-                targetIndex = None
-                for i, entity in enumerate(entities):
-                    if entity.get("id", 0) == ENTITY_MONSTER_LIGHT.get("id"):
-                        targetIndex = i
-                        break
-                
-                # 没有光照node, 则添加
-                if targetIndex is None:
-                    entities.append(ENTITY_MONSTER_LIGHT)
-                    targetIndex = -1
+                # 先过滤掉 entity_monster_light
+                new_entities = [
+                    e for e in entities
+                    if e.get("name") != "entity_monster_light"
+                ]
 
-                node = entities[targetIndex]
-                node["components"][-1]["power"] = value * 300
+                # 否添加怪物光源
+                if _param:
+                    new_entities.append(_param)
                 
+                file_data["entities"] = new_entities
+
                 with open(file_path, 'w', encoding="utf-8") as f:
                     json.dump(file_data, f, ensure_ascii=False, indent=4)              
                 count += 1
             except Exception as e:
                 print(f"[ERROR] {_file}: {e}")
         
-        return (count, total)
-    
+        return count, total
+
+
+    def select_asset_monster_light(self):
+        """素材-怪物-光源"""
+        
+        radio = jcy_config.SETTINGS.get(Function.MONSTER_LIGHT.value, "0")
+        
+        _params = {
+            "0": None,
+            "1": ENTITY_MONSTER_LIGHT1,
+            "2": ENTITY_MONSTER_LIGHT2,
+            "3": ENTITY_MONSTER_LIGHT3,
+        }
+        _param = _params.get(radio)
+        
+        _files = [
+            r"data/hd/character/enemy/bonefetish1.json",
+            r"data/hd/character/enemy/cr_archer1.json",
+            r"data/hd/character/enemy/cr_lancer1.json",
+            r"data/hd/character/enemy/imp1.json",
+            r"data/hd/character/enemy/reanimatedhorde1.json",
+            r"data/hd/character/enemy/skeleton1.json",
+            r"data/hd/character/enemy/vampire1.json",
+            r"data/hd/character/enemy/venomlord.json",
+            r"data/hd/character/enemy/vilechild1.json",
+            r"data/hd/character/enemy/wraith1.json",
+            r"data/hd/character/enemy/zombie1.json",
+        ]
+
+        count = 0
+        total = len(_files)
+
+        for _file in _files:
+            try:
+                file_data = None
+                file_path = os.path.join(MOD_PATH, _file)
+                if not os.path.exists(file_path):
+                    continue
+
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    file_data = json.load(f)
+                
+                entities = file_data.get("entities", [])
+
+                # 先过滤掉 entity_monster_light
+                new_entities = [
+                    e for e in entities
+                    if e.get("name") != "entity_monster_light"
+                ]
+
+                # 否添加怪物光源
+                if _param:
+                    new_entities.append(_param)
+                
+                file_data["entities"] = new_entities
+
+                with open(file_path, 'w', encoding="utf-8") as f:
+                    json.dump(file_data, f, ensure_ascii=False, indent=4)              
+                count += 1
+            except Exception as e:
+                print(f"[ERROR] {_file}: {e}")
+        
+        return count, total
+
 
     def modify_asset_monster_dangerous(self):
         """修改素材包怪物危险标记"""
@@ -1263,7 +1268,7 @@ class FileOperations:
 
         if isEnabled is None:
             configs = jcy_config.SETTINGS.get(Function.MONSTER_SETTING.value, [])
-            isEnabled = "7" in configs
+            isEnabled = "6" in configs
 
         _files = [
             {
@@ -1364,6 +1369,40 @@ class FileOperations:
                 print(f"[ERROR] {_file}: {e}")
         
         return (count, total)
+
+
+    def modify_monster_visable(self, isEnabled: Optional[bool] = None):
+        count = 0
+        total = 1
+        try:
+            if isEnabled is None:
+                configs = jcy_config.SETTINGS.get(Function.MONSTER_SETTING.value, [])
+                isEnabled = "7" in configs
+
+            path = os.path.join(MOD_PATH, r"data/global/excel/levels.txt")
+
+            rows = []
+            with open(path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f, delimiter="\t")
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+
+            for row in rows:
+                if row["Name"] in ("Null", "Expansion"):
+                    continue
+                # LOSDraw [B] 如果等于 1，则关卡会在绘制怪物之前检查玩家的视线。如果等于 0，则忽略此设置。
+                row["LOSDraw"] = 0 if isEnabled else 1
+
+            with open(path, "w", encoding="utf-8", newline="") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t')
+                writer.writeheader()
+                writer.writerows(rows)
+            
+            count += 1
+        except Exception as e:
+            print(f"modify_monster_visable: {e}")
+        
+        return count, total
 
 
     def modify_hireablespanelhd_json(self, location:str, hud_size: str):
@@ -3612,29 +3651,6 @@ class FileOperations:
         return summary
 
 
-    def necromancer_setting(self, keys: list):
-        """死灵法师设置"""
-        if keys is None:
-            return (0, 0)
-        
-        _files = {
-            # 骷髅火刀圣盾
-            "1" : [
-                r"data/hd/character/enemy/necroskeleton.json",
-            ],
-        }
-
-        funcs = []
-        for key, files in _files.items():
-            sub = self.common_rename(files, key in keys)
-            funcs.append(sub)
-
-        results = [f for f in funcs]
-        summary = tuple(sum(values) for values in zip(*results))
-        
-        return summary
-
-
     def druid_setting(self, keys: list):
         """德鲁伊设置"""
         if keys is None:
@@ -4287,7 +4303,7 @@ class FileOperations:
 
         for _file in LOCAL_FILES:
             json_data = None
-            json_path = os.path.join(MOD_PATH, "config/original", _file)
+            json_path = os.path.join(MOD_PATH, "config/original/local", _file)
             if not os.path.exists(json_path):
                 continue
             with open(json_path, "r", encoding="utf-8-sig") as f:
@@ -4301,7 +4317,7 @@ class FileOperations:
     def load_uniqueitems(self):
         uniqueitems = []
         try:
-            path = os.path.join(MOD_PATH, r"config/original/uniqueitems.txt")
+            path = os.path.join(MOD_PATH, r"config/original/excel/uniqueitems.txt")
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
@@ -4321,7 +4337,7 @@ class FileOperations:
     def load_sets(self):
         sets = []
         try:
-            path = os.path.join(MOD_PATH, r"config/original/sets.txt")
+            path = os.path.join(MOD_PATH, r"config/original/excel/sets.txt")
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
@@ -4341,7 +4357,7 @@ class FileOperations:
     def load_setitems(self):
         setitems = []
         try:
-            path = os.path.join(MOD_PATH, r"config/original/setitems.txt")
+            path = os.path.join(MOD_PATH, r"config/original/excel/setitems.txt")
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
