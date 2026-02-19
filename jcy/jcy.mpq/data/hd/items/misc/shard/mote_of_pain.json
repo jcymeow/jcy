@@ -1,1 +1,155 @@
-{"dependencies":{"particles":[],"models":[{"path":"data/hd/items/misc/shard/mote_of_pain/mote_of_pain.model"}],"skeletons":[{"path":"data/hd/items/dropped_items/skeleton/dropped_items.skeleton"}],"animations":[],"textures":[{"path":"data/hd/items/misc/shard/mote_of_pain/misc_mote_of_pain_ALB.texture"},{"path":"data/hd/items/misc/shard/mote_of_pain/misc_mote_of_pain_NRM.texture"},{"path":"data/hd/items/misc/shard/mote_of_pain/misc_mote_of_pain_ORM.texture"}],"physics":[],"json":[{"path":"data/hd/items/dropped_items/dropped_items_helms_flip_nw.json"}],"variantdata":[],"objecteffects":[],"other":[]},"type":"UnitDefinition","name":"mote_of_pain","entities":[{"type":"Entity","name":"root_entity","id":1148957776,"components":[{"type":"UnitRootComponent","name":"root_entity_UnitRootComponent","state_machine_filename":"data/hd/items/dropped_items/dropped_items_helms_flip_nw.json","doNotInheritRotation":false,"rotationOverride":{"x":0.0,"y":0.3826834,"z":0.0,"w":0.9238795},"doNotUseHDHeight":false,"hideAllMeshWhenInOpenedMode":false,"onCreateEventName":"","animations":[]},{"type":"SkeletonDefinitionComponent","name":"root_entity_SkeletonDefinition","filename":"data/hd/items/dropped_items/skeleton/dropped_items.skeleton","enableWeaponAttachInertialization":false}]},{"type":"Entity","name":"model_entity","id":2004281608,"components":[{"type":"ModelDefinitionComponent","name":"model_entity_ModelDefinitionComponent","filename":"data/hd/items/misc/shard/mote_of_pain/mote_of_pain.model","visibleLayers":1,"lightMask":19,"shadowMask":3,"ghostShadows":false,"floorModel":false,"terrainBlendEnableYUpBlend":false,"terrainBlendMode":1}]}]}
+{
+    "dependencies": {
+        "particles": [],
+        "models": [
+            {
+                "path": "data/hd/items/misc/shard/mote_of_pain/mote_of_pain.model"
+            }
+        ],
+        "skeletons": [
+            {
+                "path": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton"
+            }
+        ],
+        "animations": [],
+        "textures": [
+            {
+                "path": "data/hd/items/misc/shard/mote_of_pain/misc_mote_of_pain_ALB.texture"
+            },
+            {
+                "path": "data/hd/items/misc/shard/mote_of_pain/misc_mote_of_pain_NRM.texture"
+            },
+            {
+                "path": "data/hd/items/misc/shard/mote_of_pain/misc_mote_of_pain_ORM.texture"
+            }
+        ],
+        "physics": [],
+        "json": [
+            {
+                "path": "data/hd/items/dropped_items/dropped_items_helms_flip_nw.json"
+            }
+        ],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "UnitDefinition",
+    "name": "mote_of_pain",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "root_entity",
+            "id": 1148957776,
+            "components": [
+                {
+                    "type": "UnitRootComponent",
+                    "name": "root_entity_UnitRootComponent",
+                    "state_machine_filename": "data/hd/items/dropped_items/dropped_items_helms_flip_nw.json",
+                    "doNotInheritRotation": false,
+                    "rotationOverride": {
+                        "x": 0.0,
+                        "y": 0.3826834,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "doNotUseHDHeight": false,
+                    "hideAllMeshWhenInOpenedMode": false,
+                    "onCreateEventName": "",
+                    "animations": []
+                },
+                {
+                    "type": "SkeletonDefinitionComponent",
+                    "name": "root_entity_SkeletonDefinition",
+                    "filename": "data/hd/items/dropped_items/skeleton/dropped_items.skeleton",
+                    "enableWeaponAttachInertialization": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "model_entity",
+            "id": 2004281608,
+            "components": [
+                {
+                    "type": "ModelDefinitionComponent",
+                    "name": "model_entity_ModelDefinitionComponent",
+                    "filename": "data/hd/items/misc/shard/mote_of_pain/mote_of_pain.model",
+                    "visibleLayers": 1,
+                    "lightMask": 19,
+                    "shadowMask": 3,
+                    "ghostShadows": false,
+                    "floorModel": false,
+                    "terrainBlendEnableYUpBlend": false,
+                    "terrainBlendMode": 1
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999888,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_drop_light",
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_drop_light",
+                    "filename": "data/hd/vfx/particles/overlays/object/horadric_light/fx_horadric_light.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 586091855,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "prefab_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 25.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "PrefabPlacementDefinitionComponent",
+                    "name": "prefab_PrefabPlacementDefinitionComponent",
+                    "prefab": "data/hd/env/porory/beacon/pf_beacon_items.json"
+                }
+            ]
+        }
+    ]
+}
