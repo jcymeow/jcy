@@ -1,0 +1,469 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": [
+            {
+                "path": "data/hd/env/lut/default.dds"
+            }
+        ]
+    },
+    "type": "VisualDataDefinition",
+    "name": "act2_town_dawn1",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "vis_data",
+            "id": 4107147366,
+            "components": [
+                {
+                    "type": "VisualDataComponent",
+                    "name": "component_visualdata",
+                    "exposureValue": 4.0,
+                    "iblIntensity": 0.1,
+                    "screenspaceVfx": "",
+                    "keyLightShadowPitchDeg": 47.5,
+                    "unitLightSpecOrientation": {
+                        "x": 0.3826834,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.9238795
+                    },
+                    "characterShadowOrientation": {
+                        "x": 0.3606928,
+                        "y": 0.0913527459,
+                        "z": -0.03552514,
+                        "w": 0.92752
+                    },
+                    "characterShadowDarkness": 0.666,
+                    "characterBrightnessFactor": 0.4,
+                    "characterContrastPoints": {
+                        "x": 0.25,
+                        "y": 0.25,
+                        "z": 0.75,
+                        "w": 0.99
+                    },
+                    "playerUnitLightPower": 2000.0,
+                    "playerUnitLightAttenuation": 5.5,
+                    "playerUnitLightDistanceScaler": 1.333,
+                    "playerUnitLightContributions": {
+                        "x": 1.0,
+                        "y": 0.666
+                    },
+                    "itemBrightnessFactor": 2.0,
+                    "windDirection": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": -1.0
+                    },
+                    "windScale": 0.5,
+                    "bloomCutoff": 1.0,
+                    "bloomIntensity": 1.0,
+                    "bloomSoftness": 0.0,
+                    "bloomSoftnessMultiplier": 1.0,
+                    "fogScale": {
+                        "x": 150.0,
+                        "y": 150.0,
+                        "z": 150.0
+                    },
+                    "fogExtent": {
+                        "x": 50.0,
+                        "y": 50.0,
+                        "z": 700.0
+                    },
+                    "fogDiffuse": {
+                        "x": 0.8156863,
+                        "y": 0.8156863,
+                        "z": 0.5294118
+                    },
+                    "fogEmissive": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "fogDensity": 0.0,
+                    "fogDensityGrain": 1.0,
+                    "fogHeightFade": 0.876,
+                    "fogPlayerRadius": 35.0,
+                    "fogPlayerFade": 1.0,
+                    "fogWispiness": 0.056,
+                    "fogAnisotropy": -0.725,
+                    "fogWind": 0.02,
+                    "fogChurnStrength": 0.25,
+                    "fogChurnRate": 0.25,
+                    "fogChurnGrain": 0.5,
+                    "depthFogColor": {
+                        "x": 0.2039216,
+                        "y": 0.3019608,
+                        "z": 0.5019608
+                    },
+                    "depthFogDensity": 0.4,
+                    "depthFogPlane": 885.0,
+                    "heightFogColor": {
+                        "x": 0.2039216,
+                        "y": 0.3019608,
+                        "z": 0.5019608
+                    },
+                    "heightFogDensity": 0.0,
+                    "heightFogPlane": 20.0,
+                    "gradingLutFile": "data/hd/env/lut/default.dds",
+                    "unitLightPower": 500.0,
+                    "unitLightAttenuation": 5.0,
+                    "unitLightDistanceOffsetRatio": 0.5,
+                    "unitLightDistanceScaler": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "global_key_light",
+            "id": 1216724651,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "component_directionallight1",
+                    "color": {
+                        "x": 0.8431373,
+                        "y": 0.8470588,
+                        "z": 0.8039216
+                    },
+                    "power": 10.0,
+                    "shadowCaster": true,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 9,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "component_transform1",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": -0.401884377,
+                        "y": 0.0598642342,
+                        "z": -0.0263408944,
+                        "w": -0.9133517
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "global_fill_light",
+            "id": 3558057945,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "fill_light_DirectionalLightDefinition",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "power": 0.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 1,
+                    "diffuseContribution": 0.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "fill_light_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.308397323,
+                        "y": 0.360733271,
+                        "z": -0.12774235,
+                        "w": 0.87088716
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "global_back_light",
+            "id": 667569438,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "back_light_DirectionalLightDefinition",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "power": 0.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 1,
+                    "diffuseContribution": 0.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "back_light_TransformDefinition",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.120590478,
+                        "y": 0.379409522,
+                        "z": -0.0499502122,
+                        "w": 0.91597563
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "player_key_light",
+            "id": 763581206,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "player_key_light_components_DirectionalLightDefinitionComponent",
+                    "color": {
+                        "x": 1.0,
+                        "y": 0.9372549,
+                        "z": 0.8784314
+                    },
+                    "power": 30.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 68,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "player_key_light_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": -0.3155095,
+                        "y": 0.632814169,
+                        "z": -0.3155095,
+                        "w": -0.632814169
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "player_fill_light",
+            "id": 1618905038,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "player_fill_light_components_DirectionalLightDefinitionComponent",
+                    "color": {
+                        "x": 0.8980392,
+                        "y": 0.9176471,
+                        "z": 1.0
+                    },
+                    "power": 4.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 4,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "player_fill_light_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.8870108,
+                        "z": 0.0,
+                        "w": 0.4617486
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "player_back_light",
+            "id": 2168125787,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "player_back_light_components_DirectionalLightDefinitionComponent",
+                    "color": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "power": 0.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 4,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "player_back_light_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "monster_fill_light",
+            "id": 4067459403,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "monster_fill_light_components_DirectionalLightDefinitionComponent",
+                    "color": {
+                        "x": 1.0,
+                        "y": 0.9372549,
+                        "z": 0.8784314
+                    },
+                    "power": 30.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 74,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "monster_fill_light_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": -0.3155095,
+                        "y": 0.632814169,
+                        "z": -0.3155095,
+                        "w": -0.632814169
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "monster_back_light",
+            "id": 644199940,
+            "components": [
+                {
+                    "type": "DirectionalLightDefinitionComponent",
+                    "name": "monster_back_light_components_DirectionalLightDefinitionComponent",
+                    "color": {
+                        "x": 0.8980392,
+                        "y": 0.9176471,
+                        "z": 1.0
+                    },
+                    "power": 4.0,
+                    "shadowCaster": false,
+                    "softShadowBlurFactor": 1.5,
+                    "lightMask": 10,
+                    "diffuseContribution": 1.0,
+                    "specularContribution": 1.0
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "monster_back_light_components_TransformDefinitionComponent",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "orientation": {
+                        "x": 0.0,
+                        "y": 0.8870108,
+                        "z": 0.0,
+                        "w": 0.4617486
+                    },
+                    "scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "inheritOnlyPosition": false
+                }
+            ]
+        }
+    ]
+}
