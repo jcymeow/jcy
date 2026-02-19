@@ -1,0 +1,130 @@
+{
+    "presenceMenus": {
+        "Key": "presenceMenus",
+        "enUS": "In Menus",
+        "zhCN": "处于菜单页面",
+        "zhTW": "在選單畫面",
+        "sgCN": "处于菜单页面",
+        "sgTW": "在選單畫面"
+    },
+    "presenceA1Normal": {
+        "Key": "presenceA1Normal",
+        "enUS": "Act I - Normal",
+        "zhCN": "第一幕 - 普通",
+        "zhTW": "第一章 - 普通",
+        "sgCN": "第一幕 - 普通",
+        "sgTW": "第一章 - 普通"
+    },
+    "presenceA2Normal": {
+        "Key": "presenceA2Normal",
+        "enUS": "Act II - Normal",
+        "zhCN": "第二幕 - 普通",
+        "zhTW": "第二章 - 普通",
+        "sgCN": "第二幕 - 普通",
+        "sgTW": "第二章 - 普通"
+    },
+    "presenceA3Normal": {
+        "Key": "presenceA3Normal",
+        "enUS": "Act III - Normal",
+        "zhCN": "第三幕 - 普通",
+        "zhTW": "第三章 - 普通",
+        "sgCN": "第三幕 - 普通",
+        "sgTW": "第三章 - 普通"
+    },
+    "presenceA4Normal": {
+        "Key": "presenceA4Normal",
+        "enUS": "Act IV - Normal",
+        "zhCN": "第四幕 - 普通",
+        "zhTW": "第四章 - 普通",
+        "sgCN": "第四幕 - 普通",
+        "sgTW": "第四章 - 普通"
+    },
+    "presenceA5Normal": {
+        "Key": "presenceA5Normal",
+        "enUS": "Act V - Normal",
+        "zhCN": "第五幕 - 普通",
+        "zhTW": "第五章 - 普通",
+        "sgCN": "第五幕 - 普通",
+        "sgTW": "第五章 - 普通"
+    },
+    "presenceA1Nightmare": {
+        "Key": "presenceA1Nightmare",
+        "enUS": "Act I - Nightmare",
+        "zhCN": "第一幕 - 噩梦",
+        "zhTW": "第一章 - 惡夢",
+        "sgCN": "第一幕 - 噩梦",
+        "sgTW": "第一章 - 惡夢"
+    },
+    "presenceA2Nightmare": {
+        "Key": "presenceA2Nightmare",
+        "enUS": "Act II - Nightmare",
+        "zhCN": "第二幕 - 噩梦",
+        "zhTW": "第二章 - 惡夢",
+        "sgCN": "第二幕 - 噩梦",
+        "sgTW": "第二章 - 惡夢"
+    },
+    "presenceA3Nightmare": {
+        "Key": "presenceA3Nightmare",
+        "enUS": "Act III - Nightmare",
+        "zhCN": "第三幕 - 噩梦",
+        "zhTW": "第三章 - 惡夢",
+        "sgCN": "第三幕 - 噩梦",
+        "sgTW": "第三章 - 惡夢"
+    },
+    "presenceA4Nightmare": {
+        "Key": "presenceA4Nightmare",
+        "enUS": "Act IV - Nightmare",
+        "zhCN": "第四幕 - 噩梦",
+        "zhTW": "第四章 - 惡夢",
+        "sgCN": "第四幕 - 噩梦",
+        "sgTW": "第四章 - 惡夢"
+    },
+    "presenceA5Nightmare": {
+        "Key": "presenceA5Nightmare",
+        "enUS": "Act V - Nightmare",
+        "zhCN": "第五幕 - 噩梦",
+        "zhTW": "第五章 - 惡夢",
+        "sgCN": "第五幕 - 噩梦",
+        "sgTW": "第五章 - 惡夢"
+    },
+    "presenceA1Hell": {
+        "Key": "presenceA1Hell",
+        "enUS": "Act I - Hell",
+        "zhCN": "第一幕 - 地狱",
+        "zhTW": "第一章 - 地獄",
+        "sgCN": "第一幕 - 地狱",
+        "sgTW": "第一章 - 地獄"
+    },
+    "presenceA2Hell": {
+        "Key": "presenceA2Hell",
+        "enUS": "Act II - Hell",
+        "zhCN": "第二幕 - 地狱",
+        "zhTW": "第二章 - 地獄",
+        "sgCN": "第二幕 - 地狱",
+        "sgTW": "第二章 - 地獄"
+    },
+    "presenceA3Hell": {
+        "Key": "presenceA3Hell",
+        "enUS": "Act III - Hell",
+        "zhCN": "第三幕 - 地狱",
+        "zhTW": "第三章 - 地獄",
+        "sgCN": "第三幕 - 地狱",
+        "sgTW": "第三章 - 地獄"
+    },
+    "presenceA4Hell": {
+        "Key": "presenceA4Hell",
+        "enUS": "Act IV - Hell",
+        "zhCN": "第四幕 - 地狱",
+        "zhTW": "第四章 - 地獄",
+        "sgCN": "第四幕 - 地狱",
+        "sgTW": "第四章 - 地獄"
+    },
+    "presenceA5Hell": {
+        "Key": "presenceA5Hell",
+        "enUS": "Act V - Hell",
+        "zhCN": "第五幕 - 地狱",
+        "zhTW": "第五章 - 地獄",
+        "sgCN": "第五幕 - 地狱",
+        "sgTW": "第五章 - 地獄"
+    }
+}

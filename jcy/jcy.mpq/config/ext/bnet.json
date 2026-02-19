@@ -1,0 +1,1482 @@
+{
+    "D2bnetHelp50": {
+        "Key": "D2bnetHelp50",
+        "enUS": "CHAT HELP",
+        "zhCN": "聊天帮助",
+        "zhTW": "聊天說明",
+        "sgCN": "聊天帮助",
+        "sgTW": "聊天說明"
+    },
+    "D2bnetHelp": {
+        "Key": "D2bnetHelp",
+        "enUS": "CHAT COMMANDS",
+        "zhCN": "聊天命令",
+        "zhTW": "聊天指令",
+        "sgCN": "聊天命令",
+        "sgTW": "聊天指令"
+    },
+    "D2bnetHelp2a": {
+        "Key": "D2bnetHelp2a",
+        "enUS": "To select a Character, left-click on the Character portrait to highlight it with an aura. To deselect any highlighted character, left-click on their portrait.",
+        "zhCN": "要选择一个角色，左键点击角色的肖像，被选中的角色周围会亮起光环。要取消选中的角色，请在亮起光环的肖像上左键单击。",
+        "zhTW": "要選擇一個對象，滑鼠左鍵點擊角色的圖像，此時圖像週圍會亮起。要解除角色的選定狀態，點選一下他們的圖像。",
+        "sgCN": "要选择一个角色，左键点击角色的肖像，被选中的角色周围会亮起光环。要取消选中的角色，请在亮起光环的肖像上左键单击。",
+        "sgTW": "要選擇一個對象，滑鼠左鍵點擊角色的圖像，此時圖像週圍會亮起。要解除角色的選定狀態，點選一下他們的圖像。"
+    },
+    "D2bnetHelpa": {
+        "Key": "D2bnetHelpa",
+        "enUS": "The buttons located under the Chat Window on the left side of the screen have the following functions:",
+        "zhCN": "屏幕左侧聊天窗口下面的按钮具有以下功能:",
+        "zhTW": "聊天視窗下方、位於螢幕左側的按鈕具有下列的功能：",
+        "sgCN": "屏幕左侧聊天窗口下面的按钮具有以下功能:",
+        "sgTW": "聊天視窗下方、位於螢幕左側的按鈕具有下列的功能："
+    },
+    "D2bnetHelp1": {
+        "Key": "D2bnetHelp1",
+        "enUS": "SEND displays your message to everyone in your chat Channel, regardless of what character portrait is currently selected. This button is activated as soon as you start typing in the Text Box.",
+        "zhCN": "“发送”将把您的消息显示给聊天频道中的每个人，不管当前选择了怎样的角色头像。当在文本框中开始输入信息时，此按钮将被激活。",
+        "zhTW": "「發送」會把你的訊息發送給目前在你的聊天頻道中的所有人，無論你是否已選擇了誰的圖像。只要你在文字區輸入文字，這個按鈕就會自動亮起來。",
+        "sgCN": "“发送”将把您的消息显示给聊天频道中的每个人，不管当前选择了怎样的角色头像。当在文本框中开始输入信息时，此按钮将被激活。",
+        "sgTW": "「發送」會把你的訊息發送給目前在你的聊天頻道中的所有人，無論你是否已選擇了誰的圖像。只要你在文字區輸入文字，這個按鈕就會自動亮起來。"
+    },
+    "D2bnetHelp2": {
+        "Key": "D2bnetHelp2",
+        "enUS": "WHISPER sends your message only to the character that you have selected. This button is activated as soon as you start typing in the Text Box and have another character selected.",
+        "zhCN": "“密语”只会把您的信息发送给选中的角色。当您选中了一个角色并在文本框中开始输入信息时，此按钮将被激活。",
+        "zhTW": "「悄悄話」會把你的訊息以密語的方式發送給目前選擇的對象。只要在文字區輸入文字，這個按鈕就會自動亮起來。",
+        "sgCN": "“密语”只会把您的信息发送给选中的角色。当您选中了一个角色并在文本框中开始输入信息时，此按钮将被激活。",
+        "sgTW": "「悄悄話」會把你的訊息以密語的方式發送給目前選擇的對象。只要在文字區輸入文字，這個按鈕就會自動亮起來。"
+    },
+    "D2bnetHelp3": {
+        "Key": "D2bnetHelp3",
+        "enUS": "SQUELCH filters out incoming messages from the character that you have selected. Characters that you have squelched are marked with a red X graphic. This button is activated as soon as you select another character.",
+        "zhCN": "“屏蔽”将会屏蔽您选中的角色所发出的信息。被屏蔽的角色会用红色的X图形标记。此按钮会在你选择一个角色时被激活。",
+        "zhTW": "「緘默」會過濾掉你目前選擇對象的訊息。被你標示為緘默的對象，圖像上面會打上一個紅色的大叉。這個按鈕在你選擇了另一個對象之後，就可以再度選用。",
+        "sgCN": "“屏蔽”将会屏蔽您选中的角色所发出的信息。被屏蔽的角色会用红色的X图形标记。此按钮会在你选择一个角色时被激活。",
+        "sgTW": "「緘默」會過濾掉你目前選擇對象的訊息。被你標示為緘默的對象，圖像上面會打上一個紅色的大叉。這個按鈕在你選擇了另一個對象之後，就可以再度選用。"
+    },
+    "D2bnetHelp4": {
+        "Key": "D2bnetHelp4",
+        "enUS": "UNSQUELCH allows you to again receive incoming messages from a character that has been squelched.",
+        "zhCN": "“解除屏蔽”会使您重新开始接收来自被屏蔽的角色的信息。",
+        "zhTW": "「解除緘默」可以讓你再次從設定為緘默的玩家那邊收到訊息。",
+        "sgCN": "“解除屏蔽”会使您重新开始接收来自被屏蔽的角色的信息。",
+        "sgTW": "「解除緘默」可以讓你再次從設定為緘默的玩家那邊收到訊息。"
+    },
+    "D2bnetHelp5": {
+        "Key": "D2bnetHelp5",
+        "enUS": "EMOTE lets you perform an action that the whole room can <see> as represented through text.",
+        "zhCN": "“表情”允许您执行一个动作，整个房间的人都可以<看到>这段通过文本表示的动作。",
+        "zhTW": "「表情」可以讓整個聊天室的人都能透過文字「看」到你的動作。",
+        "sgCN": "“表情”允许您执行一个动作，整个房间的人都可以<看到>这段通过文本表示的动作。",
+        "sgTW": "「表情」可以讓整個聊天室的人都能透過文字「看」到你的動作。"
+    },
+    "D2bnetHelp5a": {
+        "Key": "D2bnetHelp5a",
+        "enUS": "For example, if Doomhammer wants to greet all the players in the chat Channel, he could type, <waves hello.> and then click the EMOTE button. Everyone in the Channel will then receive the message, <Doomhammer waves hello.> This button is activated as soon as you start typing in the Text Box.",
+        "zhCN": "例如，如果Doomhammer想要在聊天频道中问候所有的玩家，他可以输入<打招呼>，然后点击“表情”按钮。频道里的每个人都会收到消息，<Doomhammer打招呼>。当在文本框中开始输入信息时，此按钮将被激活。",
+        "zhTW": "舉例來說，Doomhammer 想和聊天室中的所有人打個招呼，他可以輸入 <waves hello.> 然後點選「表情」按鈕。頻道裡的每個人都會收到 <Doomhammer waves hello.>的訊息。只要你在文字區輸入文字，這個按鈕就會自動亮起來。",
+        "sgCN": "例如，如果Doomhammer想要在聊天频道中问候所有的玩家，他可以输入<打招呼>，然后点击“表情”按钮。频道里的每个人都会收到消息，<Doomhammer打招呼>。当在文本框中开始输入信息时，此按钮将被激活。",
+        "sgTW": "舉例來說，Doomhammer 想和聊天室中的所有人打個招呼，他可以輸入 <waves hello.> 然後點選「表情」按鈕。頻道裡的每個人都會收到 <Doomhammer waves hello.>的訊息。只要你在文字區輸入文字，這個按鈕就會自動亮起來。"
+    },
+    "D2bnetHelp6": {
+        "Key": "D2bnetHelp6",
+        "enUS": "ÿc5Gray Textÿc4 indicates when someone Joins or Leaves the chat Channel.",
+        "zhCN": "ÿc5灰色文字ÿc4代表某人加入或离开了聊天频道。",
+        "zhTW": "ÿc5灰色文字ÿc4表示有人加入或是離開聊天頻道。",
+        "sgCN": "ÿc5灰色文字ÿc4代表某人加入或离开了聊天频道。",
+        "sgTW": "ÿc5灰色文字ÿc4表示有人加入或是離開聊天頻道。"
+    },
+    "D2bnetHelp7": {
+        "Key": "D2bnetHelp7",
+        "enUS": "ÿc7Gold Textÿc4 indicates the name of the player speaking.",
+        "zhCN": "ÿc7金色文字ÿc4代表说话的玩家名字。",
+        "zhTW": "ÿc7金色文字ÿc4表示發言者的名字。",
+        "sgCN": "ÿc7金色文字ÿc4代表说话的玩家名字。",
+        "sgTW": "ÿc7金色文字ÿc4表示發言者的名字。"
+    },
+    "D2bnetHelp8": {
+        "Key": "D2bnetHelp8",
+        "enUS": "ÿc0White Textÿc4 indicates what you or others have said out loud to the entire chat Channel.",
+        "zhCN": "ÿc0白色文字ÿc4代表你或其他人在整个聊天频道的公开发言。",
+        "zhTW": "ÿc0白色文字ÿc4表示你或是其他人對整個頻道的大聲呼喊。",
+        "sgCN": "ÿc0白色文字ÿc4代表你或其他人在整个聊天频道的公开发言。",
+        "sgTW": "ÿc0白色文字ÿc4表示你或是其他人對整個頻道的大聲呼喊。"
+    },
+    "D2bnetHelp9": {
+        "Key": "D2bnetHelp9",
+        "enUS": "ÿc2Green Textÿc4 indicates what you have <whispered> to a specific person, or any message that has been <whispered> to you, in the chat Channel.",
+        "zhCN": "ÿc2绿色文字ÿc4代表你对特定玩家的<密语>，或其他玩家通过聊天频道对你发来的<密语>。",
+        "zhTW": "ÿc2綠色文字ÿc4表示你對特定對象發送的悄悄話密語，或是其他人在這個頻道中對你發送的密語。",
+        "sgCN": "ÿc2绿色文字ÿc4代表你对特定玩家的<密语>，或其他玩家通过聊天频道对你发来的<密语>。",
+        "sgTW": "ÿc2綠色文字ÿc4表示你對特定對象發送的悄悄話密語，或是其他人在這個頻道中對你發送的密語。"
+    },
+    "D2bnetHelp11": {
+        "Key": "D2bnetHelp11",
+        "enUS": "ÿc1Red Textÿc4 represents error messages sent directly from battle.net.",
+        "zhCN": "ÿc1红色文字ÿc4代表直接由战网发布的错误信息。",
+        "zhTW": "ÿc1紅色文字ÿc4代表直接來自 Battle.net 所發送的錯誤訊息。",
+        "sgCN": "ÿc1红色文字ÿc4代表直接由战网发布的错误信息。",
+        "sgTW": "ÿc1紅色文字ÿc4代表直接來自 Battle.net 所發送的錯誤訊息。"
+    },
+    "D2bnetHelp36": {
+        "Key": "D2bnetHelp36",
+        "enUS": "THE DIALOGUE WINDOW",
+        "zhCN": "对话窗口",
+        "zhTW": "對話視窗",
+        "sgCN": "对话窗口",
+        "sgTW": "對話視窗"
+    },
+    "D2bnetHelp36a": {
+        "Key": "D2bnetHelp36a",
+        "enUS": "This window on the right side of the screen is used to display and enter both game and profile information. Unlike the Chat Window, this area changes depending on what function you have activated. The buttons for these functions are discussed in detail in the following section:",
+        "zhCN": "屏幕右边的这个窗口用于显示或进入游戏及资料信息。与聊天窗口不同的是，这个窗口会根据你所激活的功能改变。在接下来的部分中，会详细给您介绍与这些功能相对应的按钮的详细信息。",
+        "zhTW": "這個畫面右側的視窗是用來顯示遊戲的相關訊息，並讓你進入其他人的遊戲。和交談視窗不同的地方是，這個區域視你目前啟用的功能而有所變動。這些按鈕的功能如下所述：",
+        "sgCN": "屏幕右边的这个窗口用于显示或进入游戏及资料信息。与聊天窗口不同的是，这个窗口会根据你所激活的功能改变。在接下来的部分中，会详细给您介绍与这些功能相对应的按钮的详细信息。",
+        "sgTW": "這個畫面右側的視窗是用來顯示遊戲的相關訊息，並讓你進入其他人的遊戲。和交談視窗不同的地方是，這個區域視你目前啟用的功能而有所變動。這些按鈕的功能如下所述："
+    },
+    "D2bnetHelp37": {
+        "Key": "D2bnetHelp37",
+        "enUS": "CREATE",
+        "zhCN": "创建",
+        "zhTW": "創建",
+        "sgCN": "创建",
+        "sgTW": "創建"
+    },
+    "D2bnetHelp37a": {
+        "Key": "D2bnetHelp37a",
+        "enUS": "Lets you form a new game for other players to join. There are several choices listed below that you need to make when creating a new game, although many of them are optional.",
+        "zhCN": "让您可以创建一个新的游戏，供其他玩家加入。下方列出了一些您在创建一个新游戏时需要决定的事项，其中一些不是必选项。",
+        "zhTW": "讓你創建一場新的遊戲，讓其他玩家來加入。下方有好幾個選項，可以隨你的偏好調整這一場遊戲的設定。",
+        "sgCN": "让您可以创建一个新的游戏，供其他玩家加入。下方列出了一些您在创建一个新游戏时需要决定的事项，其中一些不是必选项。",
+        "sgTW": "讓你創建一場新的遊戲，讓其他玩家來加入。下方有好幾個選項，可以隨你的偏好調整這一場遊戲的設定。"
+    },
+    "D2bnetHelp38": {
+        "Key": "D2bnetHelp38",
+        "enUS": "Game Name is how you want your game to be displayed in the Join Game screen. It can be cryptic or descriptive, although certain words and names are restricted.",
+        "zhCN": "“游戏名称”是您的游戏在“加入游戏”窗口中所显示的名称。您可以用此名称描述自己的游戏，也可以在一定限制的基础上，任意自定义游戏名。",
+        "zhTW": "遊戲名稱：是你這場遊戲顯示在「加入遊戲」畫面中的名字。你可以自由使用清楚明白的敘述或是神秘的暗號，不過有些特定的文字或是名稱禁止使用。",
+        "sgCN": "“游戏名称”是您的游戏在“加入游戏”窗口中所显示的名称。您可以用此名称描述自己的游戏，也可以在一定限制的基础上，任意自定义游戏名。",
+        "sgTW": "遊戲名稱：是你這場遊戲顯示在「加入遊戲」畫面中的名字。你可以自由使用清楚明白的敘述或是神秘的暗號，不過有些特定的文字或是名稱禁止使用。"
+    },
+    "D2bnetHelp39": {
+        "Key": "D2bnetHelp39",
+        "enUS": "Password gives you the option to make your game Private. Other players who wish to join your game will need to know the password you have selected.",
+        "zhCN": "设置密码可以让您的游戏变为私人游戏。其他玩家必须知道您所选择的密码才能加入此游戏。",
+        "zhTW": "密碼：讓你可以把這場遊戲設定純私人性質。其他想要加入的玩家得輸入你所設定的密碼。",
+        "sgCN": "设置密码可以让您的游戏变为私人游戏。其他玩家必须知道您所选择的密码才能加入此游戏。",
+        "sgTW": "密碼：讓你可以把這場遊戲設定純私人性質。其他想要加入的玩家得輸入你所設定的密碼。"
+    },
+    "D2bnetHelp40": {
+        "Key": "D2bnetHelp40",
+        "enUS": "Game Description lets you say something about the game you are forming. This is a good way to advertise for the kind of player or character you want to join your game.",
+        "zhCN": "您可以在游戏描述中留下关于您创建的游戏的一些话。可以通过这种方法展示您希望怎样的玩家或角色加入您的游戏。",
+        "zhTW": "遊戲說明：讓你說明或介紹你所創建的這一場遊戲。用來召集某種特定的角色或玩家時十分有用。",
+        "sgCN": "您可以在游戏描述中留下关于您创建的游戏的一些话。可以通过这种方法展示您希望怎样的玩家或角色加入您的游戏。",
+        "sgTW": "遊戲說明：讓你說明或介紹你所創建的這一場遊戲。用來召集某種特定的角色或玩家時十分有用。"
+    },
+    "D2bnetHelp41": {
+        "Key": "D2bnetHelp41",
+        "enUS": "Maximum Number of Players sets a limit as to how many characters can be in your game at any one time. The default setting is 4. You can change the number of players, up to a maximum of 8, by clicking the Up or Down arrows next to the box.",
+        "zhCN": "“最大玩家人数”会设置游戏中最多存在的角色数量。默认设置为4。您可以通过点击数字框旁边的上下箭头自行设置玩家的数量，最大不能超过8名。",
+        "zhTW": "人數上限：限制這一場遊戲能夠參與的最多人數。預設是 4 人，但你可以點選旁邊的上下箭頭調整人數，最多為 8 人。",
+        "sgCN": "“最大玩家人数”会设置游戏中最多存在的角色数量。默认设置为4。您可以通过点击数字框旁边的上下箭头自行设置玩家的数量，最大不能超过8名。",
+        "sgTW": "人數上限：限制這一場遊戲能夠參與的最多人數。預設是 4 人，但你可以點選旁邊的上下箭頭調整人數，最多為 8 人。"
+    },
+    "D2bnetHelp42": {
+        "Key": "D2bnetHelp42",
+        "enUS": "Character Difference sets a range above and below the level of your character that other characters joining your game must fall into. The default setting is set at 4 to determine who can join your game.",
+        "zhCN": "”角色等级差“会设置允许进入游戏的其他角色与您的等级差别。默认设置为4。",
+        "zhTW": "等級差距：限定你的角色和其他欲加入角色在等級上面的差距。預設的數值是 4，但你也可以把這項等級的限制取消。",
+        "sgCN": "”角色等级差“会设置允许进入游戏的其他角色与您的等级差别。默认设置为4。",
+        "sgTW": "等級差距：限定你的角色和其他欲加入角色在等級上面的差距。預設的數值是 4，但你也可以把這項等級的限制取消。"
+    },
+    "D2bnetHelp42a": {
+        "Key": "D2bnetHelp42a",
+        "enUS": "To set no level restrictions, click the check box next to this option. The displayed number 4 means that any character joining your game must be within 4 levels of your character. You can change the level difference by clicking the Up or Down arrows next to the box.",
+        "zhCN": "要想取消等级限制，点击此选项旁边的勾选框。此处显示的数字“4”代表着任何与您的角色相差不超过4级的角色都可以加入您的游戏。您可以点击此文本框旁边的上下箭头来改变等级差限制。",
+        "zhTW": "要把等級限制取消，點選一下這個項目旁邊的勾勾。顯示出來的數字 4 是用來告訴其他玩家，所選用的角色不能和你的角色等級差到四級以上，才能加入這一場遊戲。你可以點選右側的上下箭頭來變更等級限制的數字。",
+        "sgCN": "要想取消等级限制，点击此选项旁边的勾选框。此处显示的数字“4”代表着任何与您的角色相差不超过4级的角色都可以加入您的游戏。您可以点击此文本框旁边的上下箭头来改变等级差限制。",
+        "sgTW": "要把等級限制取消，點選一下這個項目旁邊的勾勾。顯示出來的數字 4 是用來告訴其他玩家，所選用的角色不能和你的角色等級差到四級以上，才能加入這一場遊戲。你可以點選右側的上下箭頭來變更等級限制的數字。"
+    },
+    "D2bnetHelp43": {
+        "Key": "D2bnetHelp43",
+        "enUS": "Normal, Nightmare and Hell sets the difficulty levels at which you can play. The default setting is Normal. Characters must meet certain requirements to start games with the Nightmare and Hell difficulties. Until those requirements are met, these options will be non-selectable.",
+        "zhCN": "您可以将难度设置为“普通”、“噩梦”和“地狱”。默认的设置为“普通”。角色必须达到一定的标准，才能够开启“噩梦”或“地狱”难度的游戏。只有在达到相应的要求之后，才可以选择这些选项。",
+        "zhTW": "普通、惡夢和地獄等選項則是設定遊戲的困難度，預設選項為普通。角色必須符合特定的條件，才能創造惡夢和地獄難度的遊戲。除非符合條件，否則你無法選擇這些項目。",
+        "sgCN": "您可以将难度设置为“普通”、“噩梦”和“地狱”。默认的设置为“普通”。角色必须达到一定的标准，才能够开启“噩梦”或“地狱”难度的游戏。只有在达到相应的要求之后，才可以选择这些选项。",
+        "sgTW": "普通、惡夢和地獄等選項則是設定遊戲的困難度，預設選項為普通。角色必須符合特定的條件，才能創造惡夢和地獄難度的遊戲。除非符合條件，否則你無法選擇這些項目。"
+    },
+    "D2bnetHelp44": {
+        "Key": "D2bnetHelp44",
+        "enUS": "JOIN",
+        "zhCN": "加入",
+        "zhTW": "加入",
+        "sgCN": "加入",
+        "sgTW": "加入"
+    },
+    "D2bnetHelp44ab": {
+        "Key": "D2bnetHelp44ab",
+        "enUS": "Lets you enter an existing game. Games that are listed in this screen are considered Public and can be can be joined any time they have space for a player within them.",
+        "zhCN": "让您加入一个已经存在的游戏。在这个屏幕上列出的游戏被认为是公开的，只要游戏中有空位，玩家就可以在任何时间加入。",
+        "zhTW": "讓你加入一場既存的遊戲。列在這個畫面中的遊戲是公開的，而且只要它還有空間，隨時都可以讓其他玩家加入。",
+        "sgCN": "让您加入一个已经存在的游戏。在这个屏幕上列出的游戏被认为是公开的，只要游戏中有空位，玩家就可以在任何时间加入。",
+        "sgTW": "讓你加入一場既存的遊戲。列在這個畫面中的遊戲是公開的，而且只要它還有空間，隨時都可以讓其他玩家加入。"
+    },
+    "D2bnetHelp44a": {
+        "Key": "D2bnetHelp44a",
+        "enUS": "Selecting a game from this list will display information on the game, including the characters and the elapsed time of the game. To join a Private game, you will be required to enter the name of the game and its assigned password.",
+        "zhCN": "从该列表中选择一个游戏，将会显示此游戏的信息，包括游戏中的角色及此游戏已运行的时间。要加入一个私人游戏，您需要输入游戏名称及创建者所分配的密码。",
+        "zhTW": "從這個列表選擇遊戲，會顯示出這場遊戲的相關資訊，包括參加的角色、目前所在的章節以及遊戲已開始多久的時間。如要加入一場私人的遊戲，你得輸入該場遊戲的名稱，以及它所設定的密碼。",
+        "sgCN": "从该列表中选择一个游戏，将会显示此游戏的信息，包括游戏中的角色及此游戏已运行的时间。要加入一个私人游戏，您需要输入游戏名称及创建者所分配的密码。",
+        "sgTW": "從這個列表選擇遊戲，會顯示出這場遊戲的相關資訊，包括參加的角色、目前所在的章節以及遊戲已開始多久的時間。如要加入一場私人的遊戲，你得輸入該場遊戲的名稱，以及它所設定的密碼。"
+    },
+    "D2bnetHelp45": {
+        "Key": "D2bnetHelp45",
+        "enUS": "CHANNEL",
+        "zhCN": "频道",
+        "zhTW": "頻道",
+        "sgCN": "频道",
+        "sgTW": "頻道"
+    },
+    "D2bnetHelp45b": {
+        "Key": "D2bnetHelp45b",
+        "enUS": "Lets you join an existing chat Channel or gives you the opportunity to create a Channel of your own. To enter an established Public Channel, select one from the Channels list and click the OK button. To enter a Private Channel, you will need to enter the name of the Channel that you wish to enter.",
+        "zhCN": "让您加入一个已有的聊天频道，或者创建一个属于自己的频道。要想加入一个已经建立的公共频道，可以在频道列表中选择一个，然后点击“确认”按钮。要想加入一个私人频道，您需要输入想要加入的频道的名称。",
+        "zhTW": "加入一個既存的聊天頻道，或是自己創建一個全新的頻道。要進入別人創建的公開頻道，在頻道列表選擇並點選「確定」按鈕。如要進入私人頻道，你必須輸入你想進入的頻道名稱。",
+        "sgCN": "让您加入一个已有的聊天频道，或者创建一个属于自己的频道。要想加入一个已经建立的公共频道，可以在频道列表中选择一个，然后点击“确认”按钮。要想加入一个私人频道，您需要输入想要加入的频道的名称。",
+        "sgTW": "加入一個既存的聊天頻道，或是自己創建一個全新的頻道。要進入別人創建的公開頻道，在頻道列表選擇並點選「確定」按鈕。如要進入私人頻道，你必須輸入你想進入的頻道名稱。"
+    },
+    "D2bnetHelp45a": {
+        "Key": "D2bnetHelp45a",
+        "enUS": "If you wish to start your own Channel, enter the name of the Channel that you wish to create in the Channel Name Field. If this channel does not exist, you will automatically create that Channel.",
+        "zhCN": "如果您希望启动自己的频道，请在频道名称字段中输入您希望创建的频道名称。如果此频道尚不存在，您将自动创建该通道。",
+        "zhTW": "若要創建一個自己的頻道，在頻道名稱的欄位中輸入頻道的名字。如果這個頻道目前不存在，新頻道就會自動創建。",
+        "sgCN": "如果您希望启动自己的频道，请在频道名称字段中输入您希望创建的频道名称。如果此频道尚不存在，您将自动创建该通道。",
+        "sgTW": "若要創建一個自己的頻道，在頻道名稱的欄位中輸入頻道的名字。如果這個頻道目前不存在，新頻道就會自動創建。"
+    },
+    "D2bnetHel46": {
+        "Key": "D2bnetHel46",
+        "enUS": "LADDER",
+        "zhCN": "天梯",
+        "zhTW": "天梯",
+        "sgCN": "天梯",
+        "sgTW": "天梯"
+    },
+    "D2bnetHelp46a": {
+        "Key": "D2bnetHelp46a",
+        "enUS": "Allows you to view your character's ranking in the Diablo II Ladders for your Realm.",
+        "zhCN": "可以查看您的角色在您所在服务器的《暗黑破坏神2》天梯中的排名。",
+        "zhTW": "查看你的角色在其伺服器的天梯遊戲排名。",
+        "sgCN": "可以查看您的角色在您所在服务器的《暗黑破坏神2》天梯中的排名。",
+        "sgTW": "查看你的角色在其伺服器的天梯遊戲排名。"
+    },
+    "D2bnetHelp47": {
+        "Key": "D2bnetHelp47",
+        "enUS": "The STANDARD LADDER displays the top characters, ranked by experience. The default setting displays overall rankings, but you can view sorted lists after selecting the By Class option.",
+        "zhCN": "标准天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "zhTW": "「標準天梯」依照經驗值多寡列出最頂尖的角色。預設為顯示整體排名，但你也可以點選「職業」選項來檢視各職業的排名。",
+        "sgCN": "标准天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "sgTW": "「標準天梯」依照經驗值多寡列出最頂尖的角色。預設為顯示整體排名，但你也可以點選「職業」選項來檢視各職業的排名。"
+    },
+    "D2bnetHelp48": {
+        "Key": "D2bnetHelp48",
+        "enUS": "The HARDCORE LADDER displays the top Hardcore characters, ranked by experience. The default setting displays overall rankings, but you can view sorted lists after selecting By Class option.",
+        "zhCN": "专家模式天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "zhTW": "「專家級天梯」依照經驗值多寡列出最頂尖的專家級角色。預設為顯示整體排名，你也可以點選「職業」選項來檢視各職業的排名。",
+        "sgCN": "专家模式天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "sgTW": "「專家級天梯」依照經驗值多寡列出最頂尖的專家級角色。預設為顯示整體排名，你也可以點選「職業」選項來檢視各職業的排名。"
+    },
+    "D2bnetHelp49": {
+        "Key": "D2bnetHelp49",
+        "enUS": "QUIT closes the Battle.net chat interface and returns you to the Character Selection screen. Although you are still connected to Battle.net, you cannot chat or start games until you have selected a character.",
+        "zhCN": "“退出”会关闭战网聊天界面，并让您返回角色选择画面。在此期间，您仍然保持与战网的连接，但在选择一个角色之前，您将无法进行聊天或者开始游戏。",
+        "zhTW": "退出：關掉 Battle.net 聊天介面，回到角色選擇的畫面。雖然你仍然連在Battle.net，但是你無法交談或是創建遊戲，必須先選擇一個角色才能開始止。",
+        "sgCN": "“退出”会关闭战网聊天界面，并让您返回角色选择画面。在此期间，您仍然保持与战网的连接，但在选择一个角色之前，您将无法进行聊天或者开始游戏。",
+        "sgTW": "退出：關掉 Battle.net 聊天介面，回到角色選擇的畫面。雖然你仍然連在Battle.net，但是你無法交談或是創建遊戲，必須先選擇一個角色才能開始止。"
+    },
+    "D2bnetHelp12": {
+        "Key": "D2bnetHelp12",
+        "enUS": "ADVANCED COMMANDS",
+        "zhCN": "高级命令",
+        "zhTW": "進階指令",
+        "sgCN": "高级命令",
+        "sgTW": "進階指令"
+    },
+    "D2bnetHelp12a": {
+        "Key": "D2bnetHelp12a",
+        "enUS": "You can access any of these advanced features by entering the following commands in the Text Box where you normally type messages:",
+        "zhCN": "您可以在通常输入信息的文本框中输入以下命令来使用这些高级功能:",
+        "zhTW": "你可以在文字區塊，也就是你先前輸入訊息的地方，輸入這些進階指令：",
+        "sgCN": "您可以在通常输入信息的文本框中输入以下命令来使用这些高级功能:",
+        "sgTW": "你可以在文字區塊，也就是你先前輸入訊息的地方，輸入這些進階指令："
+    },
+    "D2bnetHelp13a": {
+        "Key": "D2bnetHelp13a",
+        "enUS": "Sends a private message to another user on battle.net",
+        "zhCN": "将一段私人信息发送给战网上的另一个用户",
+        "zhTW": "發送私人訊息給另一位 Battle.net 的使用者。",
+        "sgCN": "将一段私人信息发送给战网上的另一个用户",
+        "sgTW": "發送私人訊息給另一位 Battle.net 的使用者。"
+    },
+    "D2bnetHelp14": {
+        "Key": "D2bnetHelp14",
+        "enUS": "/me, /emote",
+        "zhCN": "/我, /表情",
+        "zhTW": "/me, /emote",
+        "sgCN": "/我, /表情",
+        "sgTW": "/me, /emote"
+    },
+    "D2bnetHelp14a": {
+        "Key": "D2bnetHelp14a",
+        "enUS": "Allows you to perform an action in the chat room.",
+        "zhCN": "此命令可以在聊天室中进行动作。",
+        "zhTW": "可以讓你在聊天室進行一些表情動作。",
+        "sgCN": "此命令可以在聊天室中进行动作。",
+        "sgTW": "可以讓你在聊天室進行一些表情動作。"
+    },
+    "D2bnetHelp15a": {
+        "Key": "D2bnetHelp15a",
+        "enUS": "Allows you to ignore messages from the indicated user.",
+        "zhCN": "此命令可以屏蔽指定用户的信息。",
+        "zhTW": "可以讓你忽略指定使用者所發送的訊息。",
+        "sgCN": "此命令可以屏蔽指定用户的信息。",
+        "sgTW": "可以讓你忽略指定使用者所發送的訊息。"
+    },
+    "D2bnetHelp16a": {
+        "Key": "D2bnetHelp16a",
+        "enUS": "Allows you to again receive messages from this user.",
+        "zhCN": "使您可以重新收到来自此用户的信息。",
+        "zhTW": "可以讓你再次收到該使用者的訊息。",
+        "sgCN": "使您可以重新收到来自此用户的信息。",
+        "sgTW": "可以讓你再次收到該使用者的訊息。"
+    },
+    "D2bnetHelp17": {
+        "Key": "D2bnetHelp17",
+        "enUS": "/away <reason>",
+        "zhCN": "/暂离<缘由>",
+        "zhTW": "/away <理由>",
+        "sgCN": "/暂离<缘由>",
+        "sgTW": "/away <理由>"
+    },
+    "D2bnetHelp17a": {
+        "Key": "D2bnetHelp17a",
+        "enUS": "Lets other people who send you messages know that you are away from your keyboard and cannot respond. You may provide a reason for your absence, by typing it after the /away command. To turn off this auto message when you return to your keyboard, enter just /away by itself.",
+        "zhCN": "让其他给您发送信息的玩家知道您目前不在电脑前，无法回复他们。您可以在“/暂离”命令后面加上自己不在电脑前的理由。等您回到电脑前之后，再次输入“/暂离”命令可以关闭此自动回复的信息。",
+        "zhTW": "讓發送訊息給你的其他人知道你離開電腦，所以無法回覆。你可以為你的缺席提供一個理由，只要在 /away 指令後面接著輸入就行了。當你回到電腦前想要關掉這個自動訊息，只要輸入 /away 即可。",
+        "sgCN": "让其他给您发送信息的玩家知道您目前不在电脑前，无法回复他们。您可以在“/暂离”命令后面加上自己不在电脑前的理由。等您回到电脑前之后，再次输入“/暂离”命令可以关闭此自动回复的信息。",
+        "sgTW": "讓發送訊息給你的其他人知道你離開電腦，所以無法回覆。你可以為你的缺席提供一個理由，只要在 /away 指令後面接著輸入就行了。當你回到電腦前想要關掉這個自動訊息，只要輸入 /away 即可。"
+    },
+    "D2bnetHelp18": {
+        "Key": "D2bnetHelp18",
+        "enUS": "/dnd",
+        "zhCN": "/勿扰",
+        "zhTW": "/dnd",
+        "sgCN": "/勿扰",
+        "sgTW": "/dnd"
+    },
+    "D2bnetHelp18a": {
+        "Key": "D2bnetHelp18a",
+        "enUS": "Lets other people who send you messages know that you do not wish to be disturbed. You may provide a reason for your absence, by typing it after the /dnd command. To turn off this auto message when you return to your keyboard, enter just /dnd by itself.",
+        "zhCN": "让其他给您发送信息的玩家知道您不希望被打扰。您可以在“/勿扰”命令后面加上自己不希望被打扰的理由。再次输入“/勿扰”命令可以关闭此自动回复的信息。",
+        "zhTW": "讓發送訊息給你的其他人知道你現在不希望受到打擾。你可以為你的缺席提供一個理由，只要在 /dnd 指令後面接著輸入就行了。當你回到電腦前想要關掉這個自動訊息，只要輸入 /dnd 即可。",
+        "sgCN": "让其他给您发送信息的玩家知道您不希望被打扰。您可以在“/勿扰”命令后面加上自己不希望被打扰的理由。再次输入“/勿扰”命令可以关闭此自动回复的信息。",
+        "sgTW": "讓發送訊息給你的其他人知道你現在不希望受到打擾。你可以為你的缺席提供一個理由，只要在 /dnd 指令後面接著輸入就行了。當你回到電腦前想要關掉這個自動訊息，只要輸入 /dnd 即可。"
+    },
+    "D2bnetHelp19": {
+        "Key": "D2bnetHelp19",
+        "enUS": "/channel <channelname>, /join <channelname>",
+        "zhCN": "/频道<频道名称>, /加入<频道名称>",
+        "zhTW": "/channel <頻道名稱>, /join <頻道名稱>",
+        "sgCN": "/频道<频道名称>, /加入<频道名称>",
+        "sgTW": "/channel <頻道名稱>, /join <頻道名稱>"
+    },
+    "D2bnetHelp19a": {
+        "Key": "D2bnetHelp19a",
+        "enUS": "Takes you to the battle.net Channel of your choice. If you wanted to enter the technical support Channel, you would simply type /channel technical support. If you attempt to join a Channel that does not exist, you will automatically create that Channel.",
+        "zhCN": "将带您进入您选择的战网频道。如果您想要进入技术支持通道，您只需键入/频道技术支持。如果您试图加入一个不存在的频道，您将自动创建该频道。",
+        "zhTW": "加入你所指定的 Battle.net 頻道。如果你想要進入技術協助頻道，你只要輸入 /channel technical support 即可。如果你嘗試加入不存在的頻道，則會自動創建一個新頻道。",
+        "sgCN": "将带您进入您选择的战网频道。如果您想要进入技术支持通道，您只需键入/频道技术支持。如果您试图加入一个不存在的频道，您将自动创建该频道。",
+        "sgTW": "加入你所指定的 Battle.net 頻道。如果你想要進入技術協助頻道，你只要輸入 /channel technical support 即可。如果你嘗試加入不存在的頻道，則會自動創建一個新頻道。"
+    },
+    "D2bnetHelp20": {
+        "Key": "D2bnetHelp20",
+        "enUS": "/who <channelname>",
+        "zhCN": "/查询<频道名称>",
+        "zhTW": "/who <頻道名稱>",
+        "sgCN": "/查询<频道名称>",
+        "sgTW": "/who <頻道名稱>"
+    },
+    "D2bnetHelp20a": {
+        "Key": "D2bnetHelp20a",
+        "enUS": "Provides you with a list of the battle.net account names of the players that are currently in the requested battle.net Channel.",
+        "zhCN": "提供所请求的战网频道中当前所有玩家的账号名称列表。",
+        "zhTW": "提供一個 Battle.net 的帳號名稱列表，顯示出目前位於你指定 Battle.net 頻道中的所有玩家。",
+        "sgCN": "提供所请求的战网频道中当前所有玩家的账号名称列表。",
+        "sgTW": "提供一個 Battle.net 的帳號名稱列表，顯示出目前位於你指定 Battle.net 頻道中的所有玩家。"
+    },
+    "D2bnetHelp21a": {
+        "Key": "D2bnetHelp21a",
+        "enUS": "Bans an account from entering a private Channel and can only be issued by the Channel operator. Use /unban <accountname> to allow accounts banned from a private Channel back into that Channel.",
+        "zhCN": "禁止一个账户进入私人频道，此命令只能由频道管理者发出。使用/取消拉黑<账户名称>可以允许被禁止的账户重新进入此频道。",
+        "zhTW": "禁止一個帳號進入私人頻道，只有頻道主持者可以使用此一命令。你可以稍後利用 /unban <帳號> 讓剛剛被你禁止進入的帳號，再度回到這個頻道。",
+        "sgCN": "禁止一个账户进入私人频道，此命令只能由频道管理者发出。使用/取消拉黑<账户名称>可以允许被禁止的账户重新进入此频道。",
+        "sgTW": "禁止一個帳號進入私人頻道，只有頻道主持者可以使用此一命令。你可以稍後利用 /unban <帳號> 讓剛剛被你禁止進入的帳號，再度回到這個頻道。"
+    },
+    "D2bnetHelp22": {
+        "Key": "D2bnetHelp22",
+        "enUS": "ctrl+c, ctrl+x ctrl+v",
+        "zhCN": "ctrl+c, ctrl+x ctrl+v",
+        "zhTW": "ctrl+c, ctrl+x ctrl+v",
+        "sgCN": "ctrl+c, ctrl+x ctrl+v",
+        "sgTW": "ctrl+c, ctrl+x ctrl+v"
+    },
+    "D2bnetHelp22a": {
+        "Key": "D2bnetHelp22a",
+        "enUS": "Use these commands to copy, cut, and paste highlighted text. Use ctrl+a to select all text in the text field. Use ctrl+m to toggle music off/on. Use ctrl+n to paste the account name of a selected character.",
+        "zhCN": "使用这些命令可以复制、剪切或粘贴高亮显示的文本。使用ctrl+a可以选择文本字段中的所有文本。使用ctrl+m可以打开/关闭音乐。使用ctrl+n可以粘贴您所选中的角色的账户名称。",
+        "zhTW": "使用這些指令可以複製、剪下或是貼上標記的文字。使用 Ctrl+A 可以選擇文字區中的所有文字。利用 Ctrl+M 可以切換音樂的有 / 無。利用 Ctrl+N 可以貼上選擇的人物帳號名稱。",
+        "sgCN": "使用这些命令可以复制、剪切或粘贴高亮显示的文本。使用ctrl+a可以选择文本字段中的所有文本。使用ctrl+m可以打开/关闭音乐。使用ctrl+n可以粘贴您所选中的角色的账户名称。",
+        "sgTW": "使用這些指令可以複製、剪下或是貼上標記的文字。使用 Ctrl+A 可以選擇文字區中的所有文字。利用 Ctrl+M 可以切換音樂的有 / 無。利用 Ctrl+N 可以貼上選擇的人物帳號名稱。"
+    },
+    "D2bnetHelp23a": {
+        "Key": "D2bnetHelp23a",
+        "enUS": "Designates the player of your choice to become the next Channel operator, which will take effect after the current Channel operator leaves the Channel and can only be issued by the current Channel operator.",
+        "zhCN": "指定您所选择的玩家成为下一任频道管理者，此指令只能由当前频道管理者使用，且将在当前的管理者离开本频道后生效。",
+        "zhTW": "任命你選擇的玩家成為繼任的頻道主持者，只要目前的頻道主持者離開，就可以讓新的頻道主持者接手。只有目前的頻道主持者可以使用這個指令。",
+        "sgCN": "指定您所选择的玩家成为下一任频道管理者，此指令只能由当前频道管理者使用，且将在当前的管理者离开本频道后生效。",
+        "sgTW": "任命你選擇的玩家成為繼任的頻道主持者，只要目前的頻道主持者離開，就可以讓新的頻道主持者接手。只有目前的頻道主持者可以使用這個指令。"
+    },
+    "D2bnetHelp24a": {
+        "Key": "D2bnetHelp24a",
+        "enUS": "Kicks an account from a private Channel and can only be issued by the Channel operator. The kicked player, however, can immediately rejoin the channel.",
+        "zhCN": "从私人频道中踢出账户，只能由频道管理员发出。然而，被踢出的玩家可以立即重新加入频道。",
+        "zhTW": "把一個帳號從私人的頻道踢出去。只有頻道主持者可以使用這個命令。不過，被踢出去的玩家可以馬上重新加入這個頻道。",
+        "sgCN": "从私人频道中踢出账户，只能由频道管理员发出。然而，被踢出的玩家可以立即重新加入频道。",
+        "sgTW": "把一個帳號從私人的頻道踢出去。只有頻道主持者可以使用這個命令。不過，被踢出去的玩家可以馬上重新加入這個頻道。"
+    },
+    "D2bnetHelp25": {
+        "Key": "D2bnetHelp25",
+        "enUS": "/rejoin, resign",
+        "zhCN": "/重新加入, 辞任",
+        "zhTW": "/rejoin, resign",
+        "sgCN": "/重新加入, 辞任",
+        "sgTW": "/rejoin, resign"
+    },
+    "D2bnetHelp25a": {
+        "Key": "D2bnetHelp25a",
+        "enUS": "Causes a Channel operator to rejoin the Channel, appearing at the end/bottom of the list instead of the front/top of the list. Only the Channel operator can issue this command.",
+        "zhCN": "让一个频道的管理者重新加入频道，出现在列表的末尾/最底部而不是开头/最顶部。只有频道管理者可以使用此命令。",
+        "zhTW": "讓頻道的主持者重新加入頻道，出現在列表的最後/底端，而非排在最前方/頂端。只有頻道操作者可以使用這個指令。",
+        "sgCN": "让一个频道的管理者重新加入频道，出现在列表的末尾/最底部而不是开头/最顶部。只有频道管理者可以使用此命令。",
+        "sgTW": "讓頻道的主持者重新加入頻道，出現在列表的最後/底端，而非排在最前方/頂端。只有頻道操作者可以使用這個指令。"
+    },
+    "D2bnetHelp26a": {
+        "Key": "D2bnetHelp26a",
+        "enUS": "Searches for another player in all battle.net Public Chat channels and all Blizzard games, telling you their account name, account number and current location.",
+        "zhCN": "在战网的公共聊天（Public Chat）频道和所有暴雪游戏中搜索另一名玩家，告诉你此玩家的用户名、用户号码和当前的位置。",
+        "zhTW": "在 Battle.net 公眾頻道以及所有暴雪遊戲中找尋特定的玩家，告訴你他們的帳號名稱，帳號號碼以及目前所在的位置。",
+        "sgCN": "在战网的公共聊天（Public Chat）频道和所有暴雪游戏中搜索另一名玩家，告诉你此玩家的用户名、用户号码和当前的位置。",
+        "sgTW": "在 Battle.net 公眾頻道以及所有暴雪遊戲中找尋特定的玩家，告訴你他們的帳號名稱，帳號號碼以及目前所在的位置。"
+    },
+    "D2bnetHelp27": {
+        "Key": "D2bnetHelp27",
+        "enUS": "/whoami",
+        "zhCN": "/我是谁",
+        "zhTW": "/whoami",
+        "sgCN": "/我是谁",
+        "sgTW": "/whoami"
+    },
+    "D2bnetHelp27a": {
+        "Key": "D2bnetHelp27a",
+        "enUS": "Provides you with your current account number and location on battle.net.",
+        "zhCN": "显示您当前的账号号码和在战网中所在的位置。",
+        "zhTW": "告知你目前的帳號號碼和 Battle.net 的地區。",
+        "sgCN": "显示您当前的账号号码和在战网中所在的位置。",
+        "sgTW": "告知你目前的帳號號碼和 Battle.net 的地區。"
+    },
+    "D2bnetHelp28": {
+        "Key": "D2bnetHelp28",
+        "enUS": "/d2notify",
+        "zhCN": "/d2通知",
+        "zhTW": "/d2notify",
+        "sgCN": "/d2通知",
+        "sgTW": "/d2notify"
+    },
+    "D2bnetHelp28a": {
+        "Key": "D2bnetHelp28a",
+        "enUS": "Toggles battle.net Join/Leave notifications in the Chat Channel.",
+        "zhCN": "在聊天频道切换战网的“加入/离开”通知。",
+        "zhTW": "切換 Battle.net 在聊天頻道中加入或離開的提示訊息。",
+        "sgCN": "在聊天频道切换战网的“加入/离开”通知。",
+        "sgTW": "切換 Battle.net 在聊天頻道中加入或離開的提示訊息。"
+    },
+    "D2bnetHelp29": {
+        "Key": "D2bnetHelp29",
+        "enUS": "/help, /?",
+        "zhCN": "/帮助, /?",
+        "zhTW": "/help, /?",
+        "sgCN": "/帮助, /?",
+        "sgTW": "/help, /?"
+    },
+    "D2bnetHelp29a": {
+        "Key": "D2bnetHelp29a",
+        "enUS": "Accesses the general battle.net help text.",
+        "zhCN": "访问战网的帮助文本。",
+        "zhTW": "叫出 Battle.net 的一般協助說明。",
+        "sgCN": "访问战网的帮助文本。",
+        "sgTW": "叫出 Battle.net 的一般協助說明。"
+    },
+    "D2bnetHelp30": {
+        "Key": "D2bnetHelp30",
+        "enUS": "/time",
+        "zhCN": "/时间",
+        "zhTW": "/time",
+        "sgCN": "/时间",
+        "sgTW": "/time"
+    },
+    "D2bnetHelp30a": {
+        "Key": "D2bnetHelp30a",
+        "enUS": "Provides you with the current battle.net time and your current Local time.",
+        "zhCN": "为您提供当前的战网时间和您的当地时间。",
+        "zhTW": "告知你目前 Battle.net 的時間以及你當地時間。",
+        "sgCN": "为您提供当前的战网时间和您的当地时间。",
+        "sgTW": "告知你目前 Battle.net 的時間以及你當地時間。"
+    },
+    "D2bnetHelp31": {
+        "Key": "D2bnetHelp31",
+        "enUS": "/users",
+        "zhCN": "/用户",
+        "zhTW": "/users",
+        "sgCN": "/用户",
+        "sgTW": "/users"
+    },
+    "D2bnetHelp31a": {
+        "Key": "D2bnetHelp31a",
+        "enUS": "Provides the number of users, games, and channels that are currently active across all of battle.net.",
+        "zhCN": "提供当前在整个战网中活跃的用户、游戏和频道的数量。",
+        "zhTW": "告訴你目前 Battle.net 上所有使用者的數量、遊戲和頻道的數量。",
+        "sgCN": "提供当前在整个战网中活跃的用户、游戏和频道的数量。",
+        "sgTW": "告訴你目前 Battle.net 上所有使用者的數量、遊戲和頻道的數量。"
+    },
+    "D2bnetHelp32a": {
+        "Key": "D2bnetHelp32a",
+        "enUS": "Provides you with the Ladder statistics for other Blizzard games supported over battle.net. The program ID for each game is as follows; StarCraft < STAR>, Brood War <STARX>, and Warcraft II: battle.net Edition <W2BN>.",
+        "zhCN": "提供战网支持的其他暴雪游戏的天梯数据。每个游戏的简称如下：星际争霸<STAR>，母巢之战<STARX>，魔兽争霸II战网版本<W2BN>。",
+        "zhTW": "可顯示 Battle.net 上面所支援暴雪遊戲的天梯遊戲狀況。每一個程式的辨識碼如下：星海爭霸<STAR>，怒火燎原<STARX>和魔獸爭霸II：battle.net版<W2BN>。",
+        "sgCN": "提供战网支持的其他暴雪游戏的天梯数据。每个游戏的简称如下：星际争霸<STAR>，母巢之战<STARX>，魔兽争霸II战网版本<W2BN>。",
+        "sgTW": "可顯示 Battle.net 上面所支援暴雪遊戲的天梯遊戲狀況。每一個程式的辨識碼如下：星海爭霸<STAR>，怒火燎原<STARX>和魔獸爭霸II：battle.net版<W2BN>。"
+    },
+    "D2bnetHelp33": {
+        "Key": "D2bnetHelp33",
+        "enUS": "Right Clicking on your own character allows you to edit your own profile.",
+        "zhCN": "右键点击你自己的角色即可编辑你的个人资料。",
+        "zhTW": "右鍵點擊你自己的人物，可以修改你的個人資料。",
+        "sgCN": "右键点击你自己的角色即可编辑你的个人资料。",
+        "sgTW": "右鍵點擊你自己的人物，可以修改你的個人資料。"
+    },
+    "D2bnetHelp34": {
+        "Key": "D2bnetHelp34",
+        "enUS": "Using the 'Tab' key in the battle.net chat room cycles through the last 10 commands you have issued.",
+        "zhCN": "在战网聊天室中可以使用“Tab”键循环浏览你之前发出的最后10个命令。",
+        "zhTW": "在 Battle.net 的交談室中，可使用 Tab 鍵切換你前十個輸入過的指令。",
+        "sgCN": "在战网聊天室中可以使用“Tab”键循环浏览你之前发出的最后10个命令。",
+        "sgTW": "在 Battle.net 的交談室中，可使用 Tab 鍵切換你前十個輸入過的指令。"
+    },
+    "D2bnetHelp35": {
+        "Key": "D2bnetHelp35",
+        "enUS": "If you need further help, please go to the TECHNICAL SUPPORT Channel on battle.net, consult the Diablo II manual or go to the Blizzard technical support page at http://www.blizzard.com/support/",
+        "zhCN": "如果还需要进一步的帮助，请访问https://support.battlenet.com.cn/ld9/获取更多帮助。",
+        "zhTW": "如果你需要進一步的協助，請到 Battle.net 的 TECHNICAL SUPPORT 頻道、參考「暗黑破壞神II」的說明書，或是到 http://www.blizzard.com/support/ 的網址，從 Blizzard公司 尋求技術性的支援。",
+        "sgCN": "如果还需要进一步的帮助，请访问https://support.battlenet.com.cn/ld9/获取更多帮助。",
+        "sgTW": "如果你需要進一步的協助，請到 Battle.net 的 TECHNICAL SUPPORT 頻道、參考「暗黑破壞神II」的說明書，或是到 http://www.blizzard.com/support/ 的網址，從 Blizzard公司 尋求技術性的支援。"
+    },
+    "D2bnetHelp51": {
+        "Key": "D2bnetHelp51",
+        "enUS": "BATTLE.NET COMMANDS",
+        "zhCN": "战网命令",
+        "zhTW": "BATTLE.NET 指令",
+        "sgCN": "战网命令",
+        "sgTW": "BATTLE.NET 指令"
+    },
+    "D2bnetHelp53": {
+        "Key": "D2bnetHelp53",
+        "enUS": "/me",
+        "zhCN": "/我",
+        "zhTW": "/me",
+        "sgCN": "/我",
+        "sgTW": "/me"
+    },
+    "D2bnetHelp54": {
+        "Key": "D2bnetHelp54",
+        "enUS": "/away",
+        "zhCN": "/暂离",
+        "zhTW": "/away",
+        "sgCN": "/暂离",
+        "sgTW": "/away"
+    },
+    "D2bnetHelp55": {
+        "Key": "D2bnetHelp55",
+        "enUS": "/squelch, /unsquelch",
+        "zhCN": "/屏蔽, /取消屏蔽",
+        "zhTW": "/squelch, /unsquelch",
+        "sgCN": "/屏蔽, /取消屏蔽",
+        "sgTW": "/squelch, /unsquelch"
+    },
+    "D2bnetHelp56": {
+        "Key": "D2bnetHelp56",
+        "enUS": "/ban, /unban, /kick",
+        "zhCN": "/拉黑, /取消拉黑, /踢人",
+        "zhTW": "/ban, /unban, /kick",
+        "sgCN": "/拉黑, /取消拉黑, /踢人",
+        "sgTW": "/ban, /unban, /kick"
+    },
+    "D2bnetHelp57": {
+        "Key": "D2bnetHelp57",
+        "enUS": "/channel",
+        "zhCN": "/频道",
+        "zhTW": "/channel",
+        "sgCN": "/频道",
+        "sgTW": "/channel"
+    },
+    "D2bnetHelp58": {
+        "Key": "D2bnetHelp58",
+        "enUS": "/whois, /where, /whoami",
+        "zhCN": "/是何人, /地点, /我是谁",
+        "zhTW": "/whois, /where, /whoami",
+        "sgCN": "/是何人, /地点, /我是谁",
+        "sgTW": "/whois, /where, /whoami"
+    },
+    "D2bnetHelp59": {
+        "Key": "D2bnetHelp59",
+        "enUS": "/d2notify",
+        "zhCN": "/d2通知",
+        "zhTW": "/d2notify",
+        "sgCN": "/d2通知",
+        "sgTW": "/d2notify"
+    },
+    "D2bnetHelp60": {
+        "Key": "D2bnetHelp60",
+        "enUS": "/designate, /rejoin",
+        "zhCN": "/委任, /重新加入",
+        "zhTW": "/designate, /rejoin",
+        "sgCN": "/委任, /重新加入",
+        "sgTW": "/designate, /rejoin"
+    },
+    "D2bnetHelp61": {
+        "Key": "D2bnetHelp61",
+        "enUS": "/time",
+        "zhCN": "/时间",
+        "zhTW": "/time",
+        "sgCN": "/时间",
+        "sgTW": "/time"
+    },
+    "D2bnetHelp62": {
+        "Key": "D2bnetHelp62",
+        "enUS": "/who, /users",
+        "zhCN": "/查询, /用户",
+        "zhTW": "/who, /users",
+        "sgCN": "/查询, /用户",
+        "sgTW": "/who, /users"
+    },
+    "D2bnetHelp63": {
+        "Key": "D2bnetHelp63",
+        "enUS": "/stats",
+        "zhCN": "/数据",
+        "zhTW": "/stats",
+        "sgCN": "/数据",
+        "sgTW": "/stats"
+    },
+    "strBnetConnecting": {
+        "Key": "strBnetConnecting",
+        "enUS": "Connecting to Battle.net",
+        "zhCN": "正在连接战网",
+        "zhTW": "連接到 Battle.net",
+        "sgCN": "正在连接战网",
+        "sgTW": "連接到 Battle.net"
+    },
+    "strBnetQueryGateway": {
+        "Key": "strBnetQueryGateway",
+        "enUS": "Querying gateway",
+        "zhCN": "正在问询网关",
+        "zhTW": "查詢通訊閘",
+        "sgCN": "正在问询网关",
+        "sgTW": "查詢通訊閘"
+    },
+    "strBnetFastestServer": {
+        "Key": "strBnetFastestServer",
+        "enUS": "Connecting to the fastest server",
+        "zhCN": "正在连接到最快的服务器",
+        "zhTW": "連接到最快速的伺服器",
+        "sgCN": "正在连接到最快的服务器",
+        "sgTW": "連接到最快速的伺服器"
+    },
+    "strBnetValidateID": {
+        "Key": "strBnetValidateID",
+        "enUS": "Accessing your account",
+        "zhCN": "正在访问您的账户",
+        "zhTW": "存取你的帳號",
+        "sgCN": "正在访问您的账户",
+        "sgTW": "存取你的帳號"
+    },
+    "strBnetCheckVersions": {
+        "Key": "strBnetCheckVersions",
+        "enUS": "Checking versions",
+        "zhCN": "正在检查版本",
+        "zhTW": "檢查版本",
+        "sgCN": "正在检查版本",
+        "sgTW": "檢查版本"
+    },
+    "strBnetGetProfile": {
+        "Key": "strBnetGetProfile",
+        "enUS": "Getting player profile",
+        "zhCN": "正在获取玩家档案",
+        "zhTW": "取得玩家資料",
+        "sgCN": "正在获取玩家档案",
+        "sgTW": "取得玩家資料"
+    },
+    "strBnetRevertToUpgrade": {
+        "Key": "strBnetRevertToUpgrade",
+        "enUS": "There is a new version of the software available. Please completely uninstall your game program, reinstall from your original CD, and reconnect to Battle.net.",
+        "zhCN": "有新版本的软件可供使用。请完全卸载您的游戏程序，使用原始CD重新安装，再重新连接到战网。",
+        "zhTW": "目前有更新的版本。請把你的遊戲完全移除之後，再從你的原版光碟上面重新安裝，然後再連線到Battle.net。",
+        "sgCN": "有新版本的软件可供使用。请完全卸载您的游戏程序，使用原始CD重新安装，再重新连接到战网。",
+        "sgTW": "目前有更新的版本。請把你的遊戲完全移除之後，再從你的原版光碟上面重新安裝，然後再連線到Battle.net。"
+    },
+    "strBnetMacBadConnection": {
+        "Key": "strBnetMacBadConnection",
+        "enUS": "Unable to connect to Battle.net. If you are using a modem to access your service provider and are not configured for Remote Access, you may have to initiate the connection manually.",
+        "zhCN": "无法连接到战网。如果您正在使用调制解调器接入服务提供商，而非使用远程访问，则可能需要手动启动连接。",
+        "zhTW": "無法連上Battle.net。如果你是使用數據機連到網際網路供應者，而且並沒有使用遠端連線的話，你可以利用手動的方式啟動連線。",
+        "sgCN": "无法连接到战网。如果您正在使用调制解调器接入服务提供商，而非使用远程访问，则可能需要手动启动连接。",
+        "sgTW": "無法連上Battle.net。如果你是使用數據機連到網際網路供應者，而且並沒有使用遠端連線的話，你可以利用手動的方式啟動連線。"
+    },
+    "strBnetBadServiceProvider": {
+        "Key": "strBnetBadServiceProvider",
+        "enUS": "Your Internet connection is either very poor or is not processing UDP packets through port 6112. You will be able to chat but will not be able to play games. Contact your Internet service provider or your system administrator for assistance with opening this port.",
+        "zhCN": "您的互联网连接情况不佳，或是未能通过6112端口处理UDP数据包。您可以聊天，但不能进行游戏。请与因特网服务提供商或系统管理员联系，以获得协助打开此端口。",
+        "zhTW": "你的網際網路連線可能品質很差，或是沒有透過6112 通訊埠進行UDP的動作。你仍然可以和其他人交談，但是無法進行遊戲。請和你的網際網路提供者連繫，或是請你的系統管理員幫助你打開這個通訊埠。",
+        "sgCN": "您的互联网连接情况不佳，或是未能通过6112端口处理UDP数据包。您可以聊天，但不能进行游戏。请与因特网服务提供商或系统管理员联系，以获得协助打开此端口。",
+        "sgTW": "你的網際網路連線可能品質很差，或是沒有透過6112 通訊埠進行UDP的動作。你仍然可以和其他人交談，但是無法進行遊戲。請和你的網際網路提供者連繫，或是請你的系統管理員幫助你打開這個通訊埠。"
+    },
+    "strBnetUnableToUpgrade": {
+        "Key": "strBnetUnableToUpgrade",
+        "enUS": "Battle.net is unable to properly identify your application version.",
+        "zhCN": "战网无法正确识别您的应用程序版本。",
+        "zhTW": "Battle.net 無法辨視你目前應用程式的版本。",
+        "sgCN": "战网无法正确识别您的应用程序版本。",
+        "sgTW": "Battle.net 無法辨視你目前應用程式的版本。"
+    },
+    "strBnetUnableToUpgrade_ext": {
+        "Key": "strBnetUnableToUpgrade_ext",
+        "enUS": "For more information, please visit www.battle.net/support/errormessages/",
+        "zhCN": "若需要更多信息，请访问https://support.battlenet.com.cn/help/article/101044",
+        "zhTW": "想要取得更多資訊，請到 www.battle.net/support/errormessages/",
+        "sgCN": "若需要更多信息，请访问https://support.battlenet.com.cn/help/article/101044",
+        "sgTW": "想要取得更多資訊，請到 www.battle.net/support/errormessages/"
+    },
+    "strBnetBadConnection": {
+        "Key": "strBnetBadConnection",
+        "enUS": "Unable to connect to Battle.net.",
+        "zhCN": "无法连接到战网。",
+        "zhTW": "無法連上 Battle.net",
+        "sgCN": "无法连接到战网。",
+        "sgTW": "無法連上 Battle.net"
+    },
+    "strBnetBadConnection_ext": {
+        "Key": "strBnetBadConnection_ext",
+        "enUS": "If using a modem, you may need to connect to your Internet Service Provider before connecting to Battle.net. For more information, please visit www.battle.net/support/errormessages/",
+        "zhCN": "如果使用调制解调器，您可能需要先连接到您的互联网服务提供商再尝试连接战网。更多信息，请访问https://support.battlenet.com.cn/help/article/101044",
+        "zhTW": "如果使用數據機，你須要連上你的網際網路提供者，才能連到Battle.net。想知道進一步的訊息，請到www.battle.net/support/errormessages/",
+        "sgCN": "如果使用调制解调器，您可能需要先连接到您的互联网服务提供商再尝试连接战网。更多信息，请访问https://support.battlenet.com.cn/help/article/101044",
+        "sgTW": "如果使用數據機，你須要連上你的網際網路提供者，才能連到Battle.net。想知道進一步的訊息，請到www.battle.net/support/errormessages/"
+    },
+    "strBnetNoWinsock32": {
+        "Key": "strBnetNoWinsock32",
+        "enUS": "You are using a 16-bit connection to your Internet Service Provider.",
+        "zhCN": "您正在使用16位数据连接接入因特网服务提供商。",
+        "zhTW": "你連到網際網路提供者時用的是 16 位元模式。",
+        "sgCN": "您正在使用16位数据连接接入因特网服务提供商。",
+        "sgTW": "你連到網際網路提供者時用的是 16 位元模式。"
+    },
+    "strBnetNoWinsock32_ext": {
+        "Key": "strBnetNoWinsock32_ext",
+        "enUS": "Battle.net requires a 32-bit connection to the Internet. Please make sure that you are using the most current connection software from your Internet Service Provider.",
+        "zhCN": "您需要通过32位数据连接才能使用战网。请确保你从互联网服务提供商处获得最新的连接软件。",
+        "zhTW": "Battle.net 需要以 32 位元的連線接上網際網路。請確定你目前使用的連線軟體，是由網際網路提供者所給你的常用軟體。",
+        "sgCN": "您需要通过32位数据连接才能使用战网。请确保你从互联网服务提供商处获得最新的连接软件。",
+        "sgTW": "Battle.net 需要以 32 位元的連線接上網際網路。請確定你目前使用的連線軟體，是由網際網路提供者所給你的常用軟體。"
+    },
+    "strBnetMacNoWinsock32": {
+        "Key": "strBnetMacNoWinsock32",
+        "enUS": "Unable to open a TCP/IP connection. Make sure that OpenTransport is installed correctly. You may also need to connect to your Internet Service Provider before connecting to Battle.net.",
+        "zhCN": "无法打开TCP/IP连接。确保正确安装了OpenTransport。您可能需要先连接到您的互联网服务提供商，才能够连接到战网。",
+        "zhTW": "無法開啟 TCP/IP 連線。確定 OpenTransport 已經安裝完畢。你可能須要和你的網際網路提供者連繫，才能連上Battle.net。",
+        "sgCN": "无法打开TCP/IP连接。确保正确安装了OpenTransport。您可能需要先连接到您的互联网服务提供商，才能够连接到战网。",
+        "sgTW": "無法開啟 TCP/IP 連線。確定 OpenTransport 已經安裝完畢。你可能須要和你的網際網路提供者連繫，才能連上Battle.net。"
+    },
+    "strBnetAskUpdate": {
+        "Key": "strBnetAskUpdate",
+        "enUS": "There is a new version of software available. Battle.net requires that you use the latest version. Your software will be updated now.",
+        "zhCN": "有一个新版本的软件可供使用。战网要求您使用最新版本。您的软件现在将被更新。",
+        "zhTW": "目前有更新的版本。Battle.net 需要使用最新版來進行遊戲，你的軟體即將開始更新。",
+        "sgCN": "有一个新版本的软件可供使用。战网要求您使用最新版本。您的软件现在将被更新。",
+        "sgTW": "目前有更新的版本。Battle.net 需要使用最新版來進行遊戲，你的軟體即將開始更新。"
+    },
+    "strBnetPrepRestart": {
+        "Key": "strBnetPrepRestart",
+        "enUS": "The update has been downloaded successfully. Your application will now restart.",
+        "zhCN": "已成功下载更新。您的应用程序现在将重新启动。",
+        "zhTW": "更新檔下載成功，你的應用程式會自動重新啟動。",
+        "sgCN": "已成功下载更新。您的应用程序现在将重新启动。",
+        "sgTW": "更新檔下載成功，你的應用程式會自動重新啟動。"
+    },
+    "strBnetDownloadFailed": {
+        "Key": "strBnetDownloadFailed",
+        "enUS": "The update has been interrupted. No changes were made. Please try this process again.",
+        "zhCN": "更新中断。程序没有变化。请重新尝试此过程。",
+        "zhTW": "更新動作遭到中斷，不會對目前的程式做任何改變。請稍候再重試。",
+        "sgCN": "更新中断。程序没有变化。请重新尝试此过程。",
+        "sgTW": "更新動作遭到中斷，不會對目前的程式做任何改變。請稍候再重試。"
+    },
+    "strBnetDownloadInProgress": {
+        "Key": "strBnetDownloadInProgress",
+        "enUS": "Downloading software upgrade.",
+        "zhCN": "下载软件升级。",
+        "zhTW": "下載更新",
+        "sgCN": "下载软件升级。",
+        "sgTW": "下載更新"
+    },
+    "strBnetRealmsdown": {
+        "Key": "strBnetRealmsdown",
+        "enUS": "The Realm is undergoing renovation. Please try again in 15 minutes.",
+        "zhCN": "服务器正在维护。请在15分钟后再次尝试。",
+        "zhTW": "這個伺服器正在更新，請 15 分鐘後再試一次。",
+        "sgCN": "服务器正在维护。请在15分钟后再次尝试。",
+        "sgTW": "這個伺服器正在更新，請 15 分鐘後再試一次。"
+    },
+    "strBnetAccountBlank": {
+        "Key": "strBnetAccountBlank",
+        "enUS": "User names must be at least two characters in length. Please try again with a different name.",
+        "zhCN": "用户名的长度需要最少两个字符。请用不同的名字再试一次。",
+        "zhTW": "使用者名稱需要至少兩個字元。請試試不同的名字。",
+        "sgCN": "用户名的长度需要最少两个字符。请用不同的名字再试一次。",
+        "sgTW": "使用者名稱需要至少兩個字元。請試試不同的名字。"
+    },
+    "strBnetAccountBadChars": {
+        "Key": "strBnetAccountBadChars",
+        "enUS": "Your user name contained one or more illegal characters.",
+        "zhCN": "您的用户名中包含一个或多个非法字符。",
+        "zhTW": "你的使用者名稱包括了一個或以上的無效字元。",
+        "sgCN": "您的用户名中包含一个或多个非法字符。",
+        "sgTW": "你的使用者名稱包括了一個或以上的無效字元。"
+    },
+    "strBnetAccountBadWord": {
+        "Key": "strBnetAccountBadWord",
+        "enUS": "Your user name contained one or more disallowed words.",
+        "zhCN": "您的用户名中包含一个或多个不被允许的文字。",
+        "zhTW": "你的使用者名稱包括了一個或以上的禁用文字。",
+        "sgCN": "您的用户名中包含一个或多个不被允许的文字。",
+        "sgTW": "你的使用者名稱包括了一個或以上的禁用文字。"
+    },
+    "strBnetAccountActivate": {
+        "Key": "strBnetAccountActivate",
+        "enUS": "Your previous account creation request is still being processed. Please wait a few moments and try logging in with the account you just created.",
+        "zhCN": "您之前的账户创建请求仍在处理中。请稍等片刻，然后尝试用您刚刚创建的账户登录。",
+        "zhTW": "你上一次申請帳戶的要求仍在處理中。請稍等一下，並嘗試利用你剛剛開創的帳戶登錄。",
+        "sgCN": "您之前的账户创建请求仍在处理中。请稍等片刻，然后尝试用您刚刚创建的账户登录。",
+        "sgTW": "你上一次申請帳戶的要求仍在處理中。請稍等一下，並嘗試利用你剛剛開創的帳戶登錄。"
+    },
+    "strBnetAccountNeedAlpha": {
+        "Key": "strBnetAccountNeedAlpha",
+        "enUS": "Your name did not have enough alpha-numeric characters in it.",
+        "zhCN": "您的名字中没有足够的字母-数字类字符。",
+        "zhTW": "你的名字中沒有足夠的字母與數字。",
+        "sgCN": "您的名字中没有足够的字母-数字类字符。",
+        "sgTW": "你的名字中沒有足夠的字母與數字。"
+    },
+    "strBnetAccountAdjPunct": {
+        "Key": "strBnetAccountAdjPunct",
+        "enUS": "Your name contained too many adjacent punctuation characters in it.",
+        "zhCN": "你的名字中包含了太多相邻的符号。",
+        "zhTW": "你的名字包含了太多相鄰的標點符號。",
+        "sgCN": "你的名字中包含了太多相邻的符号。",
+        "sgTW": "你的名字包含了太多相鄰的標點符號。"
+    },
+    "strBnetAccountTooManyPunct": {
+        "Key": "strBnetAccountTooManyPunct",
+        "enUS": "Your name contained too many punctuation characters in it.",
+        "zhCN": "您的名字里的符号太多了。",
+        "zhTW": "你的名字包含了太多的標點符號。",
+        "sgCN": "您的名字里的符号太多了。",
+        "sgTW": "你的名字包含了太多的標點符號。"
+    },
+    "strBnetPasswordMismatch": {
+        "Key": "strBnetPasswordMismatch",
+        "enUS": "The passwords you have typed do not match. Please enter the same password twice.",
+        "zhCN": "您两次输入的密码不匹配。请输入两次相同的密码。",
+        "zhTW": "你輸入的密碼不符，請輸入相同的密碼二次。",
+        "sgCN": "您两次输入的密码不匹配。请输入两次相同的密码。",
+        "sgTW": "你輸入的密碼不符，請輸入相同的密碼二次。"
+    },
+    "strBnetNewAccountFail": {
+        "Key": "strBnetNewAccountFail",
+        "enUS": "An account already exists with the name you have chosen.  Please try again with a different name.",
+        "zhCN": "您选择的账户名已经存在。请用不同的名字再试一次。",
+        "zhTW": "你所選擇的名字已經有其他的帳戶使用了。請再試一次，並輸入不同的名字。",
+        "sgCN": "您选择的账户名已经存在。请用不同的名字再试一次。",
+        "sgTW": "你所選擇的名字已經有其他的帳戶使用了。請再試一次，並輸入不同的名字。"
+    },
+    "strBnetInvalidBNETID": {
+        "Key": "strBnetInvalidBNETID",
+        "enUS": "You have entered an invalid ID.",
+        "zhCN": "您输入的ID无效。",
+        "zhTW": "你輸入了一個無法使用的名字。",
+        "sgCN": "您输入的ID无效。",
+        "sgTW": "你輸入了一個無法使用的名字。"
+    },
+    "strBnetInvalidPassword": {
+        "Key": "strBnetInvalidPassword",
+        "enUS": "You have entered an incorrect password. If your character has not been on Battle.net for 3 months, or if you forgot your password, you can select ",
+        "zhCN": "您输入了错误的密码。如果您的角色已经3个月没有登陆战网，或者您忘记了密码，可以选择",
+        "zhTW": "你輸入了一個錯誤的密碼。如果你的人物沒有在三個月之內連上 Battle.net，或是你忘掉你的密碼，你可以選擇「新帳戶」來設定一個新的名稱或是密碼。",
+        "sgCN": "您输入了错误的密码。如果您的角色已经3个月没有登陆战网，或者您忘记了密码，可以选择",
+        "sgTW": "你輸入了一個錯誤的密碼。如果你的人物沒有在三個月之內連上 Battle.net，或是你忘掉你的密碼，你可以選擇「新帳戶」來設定一個新的名稱或是密碼。"
+    },
+    "strBnetChangePasswordErr": {
+        "Key": "strBnetChangePasswordErr",
+        "enUS": "Unable to change password. You have specified an invalid name or password.",
+        "zhCN": "无法更改密码。指定的账户名或密码无效。",
+        "zhTW": "無法變更密碼。你輸入了錯誤的名稱或密碼。",
+        "sgCN": "无法更改密码。指定的账户名或密码无效。",
+        "sgTW": "無法變更密碼。你輸入了錯誤的名稱或密碼。"
+    },
+    "strBnetTitleloginerror": {
+        "Key": "strBnetTitleloginerror",
+        "enUS": "Login Error",
+        "zhCN": "登录错误",
+        "zhTW": "登入錯誤",
+        "sgCN": "登录错误",
+        "sgTW": "登入錯誤"
+    },
+    "strBnetTitlebadversion": {
+        "Key": "strBnetTitlebadversion",
+        "enUS": "Unable to Identify Version",
+        "zhCN": "无法识别版本",
+        "zhTW": "無法辨別版本",
+        "sgCN": "无法识别版本",
+        "sgTW": "無法辨別版本"
+    },
+    "strBnetTitleRevertVersion": {
+        "Key": "strBnetTitleRevertVersion",
+        "enUS": "Reinstall to Upgrade",
+        "zhCN": "重新安装升级",
+        "zhTW": "重新安裝以進行升級",
+        "sgCN": "重新安装升级",
+        "sgTW": "重新安裝以進行升級"
+    },
+    "strBnetTitleConnectErr": {
+        "Key": "strBnetTitleConnectErr",
+        "enUS": "Unable to Connect",
+        "zhCN": "无法连接",
+        "zhTW": "無法連線",
+        "sgCN": "无法连接",
+        "sgTW": "無法連線"
+    },
+    "strBnetTitleBattleNet": {
+        "Key": "strBnetTitleBattleNet",
+        "enUS": "Battle.net",
+        "zhCN": "战网",
+        "zhTW": "Battle.net",
+        "sgCN": "战网",
+        "sgTW": "Battle.net"
+    },
+    "strBnetTitleBadAccount": {
+        "Key": "strBnetTitleBadAccount",
+        "enUS": "Unable to Create Account",
+        "zhCN": "无法创建账户",
+        "zhTW": "無法創建帳戶",
+        "sgCN": "无法创建账户",
+        "sgTW": "無法創建帳戶"
+    },
+    "strBnetPlayerProfile": {
+        "Key": "strBnetPlayerProfile",
+        "enUS": "PLAYER PROFILE",
+        "zhCN": "玩家资料",
+        "zhTW": "玩家資料",
+        "sgCN": "玩家资料",
+        "sgTW": "玩家資料"
+    },
+    "strBnetPPName": {
+        "Key": "strBnetPPName",
+        "enUS": "Name",
+        "zhCN": "名字",
+        "zhTW": "名稱",
+        "sgCN": "名字",
+        "sgTW": "名稱"
+    },
+    "strBnetPPGender": {
+        "Key": "strBnetPPGender",
+        "enUS": "Gender",
+        "zhCN": "性别",
+        "zhTW": "性別",
+        "sgCN": "性别",
+        "sgTW": "性別"
+    },
+    "strBnetPPAge": {
+        "Key": "strBnetPPAge",
+        "enUS": "Age",
+        "zhCN": "年龄",
+        "zhTW": "年齡",
+        "sgCN": "年龄",
+        "sgTW": "年齡"
+    },
+    "strBnetPPLocation": {
+        "Key": "strBnetPPLocation",
+        "enUS": "Location",
+        "zhCN": "地址",
+        "zhTW": "地區",
+        "sgCN": "地址",
+        "sgTW": "地區"
+    },
+    "strBnetPPDescription": {
+        "Key": "strBnetPPDescription",
+        "enUS": "Description",
+        "zhCN": "描述",
+        "zhTW": "說明",
+        "sgCN": "描述",
+        "sgTW": "說明"
+    },
+    "strEnterBnet": {
+        "Key": "strEnterBnet",
+        "enUS": "LOG IN",
+        "zhCN": "登录",
+        "zhTW": "登錄",
+        "sgCN": "登录",
+        "sgTW": "登錄"
+    },
+    "strbnetshortThousand": {
+        "Key": "strbnetshortThousand",
+        "enUS": "K",
+        "zhCN": "千",
+        "zhTW": "K",
+        "sgCN": "千",
+        "sgTW": "K"
+    },
+    "strbnetshortMillion": {
+        "Key": "strbnetshortMillion",
+        "enUS": "M",
+        "zhCN": "百万",
+        "zhTW": "M",
+        "sgCN": "百万",
+        "sgTW": "M"
+    },
+    "strbnetshortBillion": {
+        "Key": "strbnetshortBillion",
+        "enUS": "B",
+        "zhCN": "十亿",
+        "zhTW": "B",
+        "sgCN": "十亿",
+        "sgTW": "B"
+    },
+    "strbnetshortTrillion": {
+        "Key": "strbnetshortTrillion",
+        "enUS": "T",
+        "zhCN": "兆",
+        "zhTW": "T",
+        "sgCN": "兆",
+        "sgTW": "T"
+    },
+    "strbnetchatFrom": {
+        "Key": "strbnetchatFrom",
+        "enUS": "From %s: %s",
+        "zhCN": "来自%s：%s",
+        "zhTW": "來自%s的訊息：%s",
+        "sgCN": "来自%s：%s",
+        "sgTW": "來自%s的訊息：%s"
+    },
+    "strbnetchatSentto": {
+        "Key": "strbnetchatSentto",
+        "enUS": "Sent to %s: %s",
+        "zhCN": "发送到%s: %s",
+        "zhTW": "發送給%s：%s",
+        "sgCN": "发送到%s: %s",
+        "sgTW": "發送給%s：%s"
+    },
+    "strBnetChannelNameInvalid": {
+        "Key": "strBnetChannelNameInvalid",
+        "enUS": "Invalid channel name. A channel name cannot contain reserved characters.",
+        "zhCN": "无效的频道名称。频道名称中不能包含保留字符。",
+        "zhTW": "無效的頻道名稱。頻道名稱不能包括保留字元。",
+        "sgCN": "无效的频道名称。频道名称中不能包含保留字符。",
+        "sgTW": "無效的頻道名稱。頻道名稱不能包括保留字元。"
+    },
+    "strBnetQueryBrowseWeb": {
+        "Key": "strBnetQueryBrowseWeb",
+        "enUS": "You have clicked on a link to the Internet. Your web browser will now be launched. You can use the Windows Taskbar to return to Battle.net.",
+        "zhCN": "您点击了一个因特网链接，将会启动网络浏览器。您可以使用Windows的任务栏返回战网。",
+        "zhTW": "你點選了一個打開網際網路的連結。你的瀏覽器會自動執行，你可以使用 Windows 的工作列回到 Battle.net。",
+        "sgCN": "您点击了一个因特网链接，将会启动网络浏览器。您可以使用Windows的任务栏返回战网。",
+        "sgTW": "你點選了一個打開網際網路的連結。你的瀏覽器會自動執行，你可以使用 Windows 的工作列回到 Battle.net。"
+    },
+    "strBnetQueryDisconnect": {
+        "Key": "strBnetQueryDisconnect",
+        "enUS": "You have disconnected from Battle.net. Press OK to hangup the connection to %s. Press Cancel to stay connected.",
+        "zhCN": "您与战网的连接已断开。按下“确认”可以挂起到%s的连接，按“取消”则保持连接。",
+        "zhTW": "你己經和 Battle.net 中斷連線了。按下「確定」掛斷與%s的連線，或按下「取消」保持連線。",
+        "sgCN": "您与战网的连接已断开。按下“确认”可以挂起到%s的连接，按“取消”则保持连接。",
+        "sgTW": "你己經和 Battle.net 中斷連線了。按下「確定」掛斷與%s的連線，或按下「取消」保持連線。"
+    },
+    "strBnetBrowserError": {
+        "Key": "strBnetBrowserError",
+        "enUS": "Battle.net was unable to launch your default browser.",
+        "zhCN": "战网无法启动默认浏览器。",
+        "zhTW": "Battle.net 無法啟動你預設的瀏覽器。",
+        "sgCN": "战网无法启动默认浏览器。",
+        "sgTW": "Battle.net 無法啟動你預設的瀏覽器。"
+    },
+    "strBnetBadURL": {
+        "Key": "strBnetBadURL",
+        "enUS": "Couldn't open this URL. The URL appears to be invalid.",
+        "zhCN": "无法打开此URL。此URL似乎无效。",
+        "zhTW": "無法開啟網址，目前的網址無效。",
+        "sgCN": "无法打开此URL。此URL似乎无效。",
+        "sgTW": "無法開啟網址，目前的網址無效。"
+    },
+    "strBnetNoInternetConfig": {
+        "Key": "strBnetNoInternetConfig",
+        "enUS": "Launching a web browser from Battle.net requires Internet Config 1.1 or newer.  Make sure Internet Config is installed on your computer.",
+        "zhCN": "从战网启动网络浏览器需要您的计算机上安装了1.1或者更新版本的因特网配置。",
+        "zhTW": "要從 Battle.Net 來啟動網頁瀏覽器，你需要有 Internet Config 1.1 或更新的版本。請確定你的電腦上面安裝了 Internet Config。",
+        "sgCN": "从战网启动网络浏览器需要您的计算机上安装了1.1或者更新版本的因特网配置。",
+        "sgTW": "要從 Battle.Net 來啟動網頁瀏覽器，你需要有 Internet Config 1.1 或更新的版本。請確定你的電腦上面安裝了 Internet Config。"
+    },
+    "strBnetMacNoBrowser": {
+        "Key": "strBnetMacNoBrowser",
+        "enUS": "The default web browser selected in Internet Config or the Internet control panel could not be located on your hard drive.",
+        "zhCN": "因特网配置或因特网控制面板中所选择的默认网络浏览器无法在您的硬盘上找到。",
+        "zhTW": "在 Internet Config 或控制台的 Internet 中，所預設的網頁瀏覽器並不存在於你的硬碟之中。",
+        "sgCN": "因特网配置或因特网控制面板中所选择的默认网络浏览器无法在您的硬盘上找到。",
+        "sgTW": "在 Internet Config 或控制台的 Internet 中，所預設的網頁瀏覽器並不存在於你的硬碟之中。"
+    },
+    "strBnetMacErrLowMemory": {
+        "Key": "strBnetMacErrLowMemory",
+        "enUS": "There is not enough free memory available to launch the web browser.",
+        "zhCN": "没有足够的可用内存来启动网络浏览器。",
+        "zhTW": "記憶體不足，無法執行網頁瀏覽器。",
+        "sgCN": "没有足够的可用内存来启动网络浏览器。",
+        "sgTW": "記憶體不足，無法執行網頁瀏覽器。"
+    },
+    "strBnetMacQueryBrowseWeb": {
+        "Key": "strBnetMacQueryBrowseWeb",
+        "enUS": "You have clicked on a link to the Internet. Your web browser will now be launched. Use ",
+        "zhCN": "你已经点击了一个到因特网的链接。您的web浏览器现在将被启动。使用",
+        "zhTW": "你點選了一個打開網際網路的連結，你的瀏覽器會自動執行。",
+        "sgCN": "你已经点击了一个到因特网的链接。您的web浏览器现在将被启动。使用",
+        "sgTW": "你點選了一個打開網際網路的連結，你的瀏覽器會自動執行。"
+    },
+    "strbnetchannelrestricted": {
+        "Key": "strbnetchannelrestricted",
+        "enUS": "That channel is restricted",
+        "zhCN": "此频道受到限制",
+        "zhTW": "這個頻道目前禁用",
+        "sgCN": "此频道受到限制",
+        "sgTW": "這個頻道目前禁用"
+    },
+    "strdiconfrombnet": {
+        "Key": "strdiconfrombnet",
+        "enUS": "You were disconnected from battle.net.  Please reconnect.",
+        "zhCN": "您与战网断开了连接。请重新连接。",
+        "zhTW": "你和 Battle.net 的連線已中斷。請重新連線。",
+        "sgCN": "您与战网断开了连接。请重新连接。",
+        "sgTW": "你和 Battle.net 的連線已中斷。請重新連線。"
+    },
+    "strbnetdown": {
+        "Key": "strbnetdown",
+        "enUS": "Battle.net is down. Reconnect later.",
+        "zhCN": "战网已关闭。请稍后重新连接。",
+        "zhTW": "無法連上 Battle.net。請稍後再試一次。",
+        "sgCN": "战网已关闭。请稍后重新连接。",
+        "sgTW": "無法連上 Battle.net。請稍後再試一次。"
+    },
+    "strbnetdownsory": {
+        "Key": "strbnetdownsory",
+        "enUS": "Battle.net is down. Reconnect later.",
+        "zhCN": "战网已关闭。请稍后重新连接。",
+        "zhTW": "無法連上 Battle.net。請稍後再試一次。",
+        "sgCN": "战网已关闭。请稍后重新连接。",
+        "sgTW": "無法連上 Battle.net。請稍後再試一次。"
+    },
+    "strlostbnetcons": {
+        "Key": "strlostbnetcons",
+        "enUS": "Lost Connection to battle.net.",
+        "zhCN": "与战网失去连接。",
+        "zhTW": "與 Battle.net 失去連線。",
+        "sgCN": "与战网失去连接。",
+        "sgTW": "與 Battle.net 失去連線。"
+    },
+    "strBnetConnectionLost": {
+        "Key": "strBnetConnectionLost",
+        "enUS": "Your connection to Battle.net has been lost.",
+        "zhCN": "您与战网的连接中断了。",
+        "zhTW": "你和 Battle.net 的連線已經中斷。",
+        "sgCN": "您与战网的连接中断了。",
+        "sgTW": "你和 Battle.net 的連線已經中斷。"
+    },
+    "strBnetUnreachable": {
+        "Key": "strBnetUnreachable",
+        "enUS": "Battle.net is not responding. Please try connecting again in a few minutes.",
+        "zhCN": "战网没有响应。请等候几分钟，再重新尝试连接。",
+        "zhTW": "Battle.net 沒有回應，請稍候數分鐘之後再重試。",
+        "sgCN": "战网没有响应。请等候几分钟，再重新尝试连接。",
+        "sgTW": "Battle.net 沒有回應，請稍候數分鐘之後再重試。"
+    },
+    "strBnetIsUnreachable": {
+        "Key": "strBnetIsUnreachable",
+        "enUS": "Battle.net is not responding. Please try connecting again in a few minutes.",
+        "zhCN": "战网没有响应。请等候几分钟，再重新尝试连接。",
+        "zhTW": "Battle.net 沒有回應，請稍候數分鐘之後再重試。",
+        "sgCN": "战网没有响应。请等候几分钟，再重新尝试连接。",
+        "sgTW": "Battle.net 沒有回應，請稍候數分鐘之後再重試。"
+    },
+    "strBnetNotResponding": {
+        "Key": "strBnetNotResponding",
+        "enUS": "The connection to Battle.net has been interrupted. Please try again later.",
+        "zhCN": "战网连接已中断。请稍后再试。",
+        "zhTW": "和 Battle.net 的連線已經中斷。請稍後再試一次。",
+        "sgCN": "战网连接已中断。请稍后再试。",
+        "sgTW": "和 Battle.net 的連線已經中斷。請稍後再試一次。"
+    },
+    "D2bnetHelp13": {
+        "Key": "D2bnetHelp13",
+        "enUS": "/whisper <*accountname>, /w <*accountname>",
+        "zhCN": "/密语<*accountname>, /w<*accountname>",
+        "zhTW": "/whisper <*帳號名稱>, /w <*帳號名稱>",
+        "sgCN": "/密语<*accountname>, /w<*accountname>",
+        "sgTW": "/whisper <*帳號名稱>, /w <*帳號名稱>"
+    },
+    "D2bnetHelp13b": {
+        "Key": "D2bnetHelp13b",
+        "enUS": "/msg <*accountname>, /m <*accountname>",
+        "zhCN": "/消息<*accountname>, /m<*accountname>",
+        "zhTW": "/msg <*帳號名稱>, /m <*帳號名稱>",
+        "sgCN": "/消息<*accountname>, /m<*accountname>",
+        "sgTW": "/msg <*帳號名稱>, /m <*帳號名稱>"
+    },
+    "D2bnetHelp15": {
+        "Key": "D2bnetHelp15",
+        "enUS": "/squelch <*accountname>",
+        "zhCN": "/屏蔽<*accountname>",
+        "zhTW": "/squelch <*帳號名稱>",
+        "sgCN": "/屏蔽<*accountname>",
+        "sgTW": "/squelch <*帳號名稱>"
+    },
+    "D2bnetHelp15b": {
+        "Key": "D2bnetHelp15b",
+        "enUS": "/ignore <*accountname>",
+        "zhCN": "/无视<*accountname>",
+        "zhTW": "/ignore <*帳號名稱>",
+        "sgCN": "/无视<*accountname>",
+        "sgTW": "/ignore <*帳號名稱>"
+    },
+    "D2bnetHelp16": {
+        "Key": "D2bnetHelp16",
+        "enUS": "/unsquelch <*accountname>",
+        "zhCN": "/取消屏蔽<*accountname>",
+        "zhTW": "/unsquelch <*帳號名稱>",
+        "sgCN": "/取消屏蔽<*accountname>",
+        "sgTW": "/unsquelch <*帳號名稱>"
+    },
+    "D2bnetHelp16b": {
+        "Key": "D2bnetHelp16b",
+        "enUS": "/unignore <*accountname>",
+        "zhCN": "/取消无视<*accountname>",
+        "zhTW": "/unignore <*帳號名稱>",
+        "sgCN": "/取消无视<*accountname>",
+        "sgTW": "/unignore <*帳號名稱>"
+    },
+    "D2bnetHelp21": {
+        "Key": "D2bnetHelp21",
+        "enUS": "/ban <*accountname>",
+        "zhCN": "/拉黑<*accountname>",
+        "zhTW": "/ban <*帳號名稱>",
+        "sgCN": "/拉黑<*accountname>",
+        "sgTW": "/ban <*帳號名稱>"
+    },
+    "D2bnetHelp23": {
+        "Key": "D2bnetHelp23",
+        "enUS": "/designate <*accountname>",
+        "zhCN": "/任命<*accountname>",
+        "zhTW": "/designate <*帳號名稱>",
+        "sgCN": "/任命<*accountname>",
+        "sgTW": "/designate <*帳號名稱>"
+    },
+    "D2bnetHelp24": {
+        "Key": "D2bnetHelp24",
+        "enUS": "/kick <*accountname>",
+        "zhCN": "/踢人<*accountname>",
+        "zhTW": "/kick <*帳號名稱>",
+        "sgCN": "/踢人<*accountname>",
+        "sgTW": "/kick <*帳號名稱>"
+    },
+    "D2bnetHelp26": {
+        "Key": "D2bnetHelp26",
+        "enUS": "/whois <*accountname>, /where <*accountname>",
+        "zhCN": "/是何人<*accountname>, /地点<*accountname>",
+        "zhTW": "/whois <*帳號名稱>, /where <*帳號名稱>",
+        "sgCN": "/是何人<*accountname>, /地点<*accountname>",
+        "sgTW": "/whois <*帳號名稱>, /where <*帳號名稱>"
+    },
+    "D2bnetHelp26b": {
+        "Key": "D2bnetHelp26b",
+        "enUS": "/whereis <*accountname>",
+        "zhCN": "/在何处<*accountname>",
+        "zhTW": "/whereis <*帳號名稱>",
+        "sgCN": "/在何处<*accountname>",
+        "sgTW": "/whereis <*帳號名稱>"
+    },
+    "D2bnetHelp32": {
+        "Key": "D2bnetHelp32",
+        "enUS": "/stats <*accountname> <programID>",
+        "zhCN": "/数据<*accountname> <programID>",
+        "zhTW": "/stats <*帳號名稱> <程式ID>",
+        "sgCN": "/数据<*accountname> <programID>",
+        "sgTW": "/stats <*帳號名稱> <程式ID>"
+    },
+    "D2bnetHelp47a": {
+        "Key": "D2bnetHelp47a",
+        "enUS": "The EXPANSION LADDER displays the top characters, ranked by experience. The default setting displays overall rankings, but you can view sorted lists after selecting the By Class option.",
+        "zhCN": "资料片天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "zhTW": "「資料片天梯」依照經驗值多寡列出最頂尖的角色。預設為顯示整體排名，但你也可以點選「職業」選項來檢視各職業的排名。",
+        "sgCN": "资料片天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "sgTW": "「資料片天梯」依照經驗值多寡列出最頂尖的角色。預設為顯示整體排名，但你也可以點選「職業」選項來檢視各職業的排名。"
+    },
+    "D2bnetHelp48a": {
+        "Key": "D2bnetHelp48a",
+        "enUS": "The EXPANSION HARDCORE LADDER displays the top Hardcore characters, ranked by experience. The default setting displays overall rankings, but you can view sorted lists after selecting By Class option.",
+        "zhCN": "资料片专家模式天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "zhTW": "「資料片專家級天梯」依照經驗值多寡列出最頂尖的專家級角色。預設為顯示整體排名，你也可以點選「職業」選項來檢視各職業的排名。",
+        "sgCN": "资料片专家模式天梯会根据经验值显示排名最高的角色。默认设置下会显示所有排名，您也可以选择“根据职业”查看分类排名。",
+        "sgTW": "「資料片專家級天梯」依照經驗值多寡列出最頂尖的專家級角色。預設為顯示整體排名，你也可以點選「職業」選項來檢視各職業的排名。"
+    },
+    "D2bnetHelp10": {
+        "Key": "D2bnetHelp10",
+        "enUS": "ÿc3Blue Textÿc4 represents actions that have been taken by people in the chat Channel.",
+        "zhCN": "ÿc3蓝色文字ÿc4代表聊天频道中的玩家所做出的行动。",
+        "zhTW": "ÿc3藍色文字ÿc4代表聊天頻道中其他人的行動。",
+        "sgCN": "ÿc3蓝色文字ÿc4代表聊天频道中的玩家所做出的行动。",
+        "sgTW": "ÿc3藍色文字ÿc4代表聊天頻道中其他人的行動。"
+    },
+    "D2bnetHelp13c": {
+        "Key": "D2bnetHelp13c",
+        "enUS": "/reply",
+        "zhCN": "/回复",
+        "zhTW": "/reply",
+        "sgCN": "/回复",
+        "sgTW": "/reply"
+    },
+    "D2bnethelp13d": {
+        "Key": "D2bnethelp13d",
+        "enUS": "Allows you to reply to a whisper without typing the account name",
+        "zhCN": "此命令可以在不输入账户名称的情况下回复一条密语",
+        "zhTW": "可直接回覆密語，不需鍵入帳戶名稱",
+        "sgCN": "此命令可以在不输入账户名称的情况下回复一条密语",
+        "sgTW": "可直接回覆密語，不需鍵入帳戶名稱"
+    },
+    "D2bnetHelp52": {
+        "Key": "D2bnetHelp52",
+        "enUS": "/whisper, /msg, /reply",
+        "zhCN": "/密语, /消息, /回复",
+        "zhTW": "/whisper, /msg, /reply",
+        "sgCN": "/密语, /消息, /回复",
+        "sgTW": "/whisper, /msg, /reply"
+    },
+    "D2bnetHelp10a": {
+        "Key": "D2bnetHelp10a",
+        "enUS": "ÿc9 Yellow Textÿc4 represents special messages sent directly from battle.net",
+        "zhCN": "ÿc9黄色文字ÿc4代表由战网发送的特殊信息",
+        "zhTW": "ÿc9黃色文字ÿc4代表從 Battle.net 直接發送的特別訊息",
+        "sgCN": "ÿc9黄色文字ÿc4代表由战网发送的特殊信息",
+        "sgTW": "ÿc9黃色文字ÿc4代表從 Battle.net 直接發送的特別訊息"
+    },
+    "BnetnewGameTime": {
+        "Key": "BnetnewGameTime",
+        "enUS": "Game Time:",
+        "zhCN": "游戏时间：",
+        "zhTW": "遊戲時間：",
+        "sgCN": "游戏时间：",
+        "sgTW": "遊戲時間："
+    },
+    "D2bnetHelp12c": {
+        "Key": "D2bnetHelp12c",
+        "enUS": "When using advanced commands, you may also use character names for people in the same Realm, and character names @Realm for people in another Realm.",
+        "zhCN": "在使用高级命令时，您可以使用同一服务器中玩家的角色名称，或者通过“@服务器”来指定其他服务器中玩家的角色名称。",
+        "zhTW": "當使用進階指令時，你可以直接使用角色名稱聯絡同一伺服器的人，或是使用「角色名稱@伺服器」的方式聯絡其他伺服器的玩家。",
+        "sgCN": "在使用高级命令时，您可以使用同一服务器中玩家的角色名称，或者通过“@服务器”来指定其他服务器中玩家的角色名称。",
+        "sgTW": "當使用進階指令時，你可以直接使用角色名稱聯絡同一伺服器的人，或是使用「角色名稱@伺服器」的方式聯絡其他伺服器的玩家。"
+    },
+    "D2bnetHelp12d": {
+        "Key": "D2bnetHelp12d",
+        "enUS": "You must use *account names for anyone on battle.net including people in a different game such as Starcraft.",
+        "zhCN": "对于登陆战网的玩家，包括正处于其他游戏（如《星际争霸》）中的玩家使用命令时，须用*账号名来指定。",
+        "zhTW": "對於 Battle.net 上的任何人，包含譬如在《星海爭霸》等其他遊戲中的玩家，則必須使用*帳戶名稱的表示方法。",
+        "sgCN": "对于登陆战网的玩家，包括正处于其他游戏（如《星际争霸》）中的玩家使用命令时，须用*账号名来指定。",
+        "sgTW": "對於 Battle.net 上的任何人，包含譬如在《星海爭霸》等其他遊戲中的玩家，則必須使用*帳戶名稱的表示方法。"
+    },
+    "D2bnetHelp12b": {
+        "Key": "D2bnetHelp12b",
+        "enUS": "Wherever a command below calls for the use of <accountname>, please use either <charactername>, <charactername@Realm>, or <*accountname>.",
+        "zhCN": "当以下命令中要求使用<账号名>时，请使用<角色名>、<角色名@服务器>或<*账号名>的格式。",
+        "zhTW": "當有指令要求使用<帳戶名稱>時，請使用下列的方式：<角色名稱>、<角色名稱@伺服器>或<*帳戶名稱>。",
+        "sgCN": "当以下命令中要求使用<账号名>时，请使用<角色名>、<角色名@服务器>或<*账号名>的格式。",
+        "sgTW": "當有指令要求使用<帳戶名稱>時，請使用下列的方式：<角色名稱>、<角色名稱@伺服器>或<*帳戶名稱>。"
+    },
+    "D2bnetHelp6a": {
+        "Key": "D2bnetHelp6a",
+        "enUS": "ÿc5Gray Textÿc4 also represents actions that have been taken by people in the chat Channel.",
+        "zhCN": "ÿc5灰色文字ÿc4也代表聊天频道中的玩家所做出的行动。",
+        "zhTW": "ÿc5灰色文字ÿc4同樣代表聊天頻道中其他人的行動。",
+        "sgCN": "ÿc5灰色文字ÿc4也代表聊天频道中的玩家所做出的行动。",
+        "sgTW": "ÿc5灰色文字ÿc4同樣代表聊天頻道中其他人的行動。"
+    },
+    "D2bnetHelp10aPatch": {
+        "Key": "D2bnetHelp10aPatch",
+        "enUS": "ÿc3Blue Textÿc4 represents special messages sent directly from battle.net or messages from a Blizzard Representative.",
+        "zhCN": "ÿc3蓝色文字ÿc4代表战网或暴雪工作人员直接向你发送的特殊信息。",
+        "zhTW": "ÿc3藍色文字ÿc4代表由 Battle.net 或暴雪工作人員直接發送的特別訊息。",
+        "sgCN": "ÿc3蓝色文字ÿc4代表战网或暴雪工作人员直接向你发送的特殊信息。",
+        "sgTW": "ÿc3藍色文字ÿc4代表由 Battle.net 或暴雪工作人員直接發送的特別訊息。"
+    },
+    "LogonQueuePositionInQueue": {
+        "Key": "LogonQueuePositionInQueue",
+        "enUS": "Position in Queue: %d",
+        "zhCN": "队列中的位置：%d",
+        "zhTW": "佇列順位：%d",
+        "sgCN": "队列中的位置：%d",
+        "sgTW": "佇列順位：%d"
+    },
+    "LogonQueueCancel": {
+        "Key": "LogonQueueCancel",
+        "enUS": "Press %s to Play Offline",
+        "zhCN": "按下%s开始离线游戏",
+        "zhTW": "按下 %s 進行離線遊戲",
+        "sgCN": "按下%s开始离线游戏",
+        "sgTW": "按下 %s 進行離線遊戲"
+    },
+    "LogonQueueCancelConfirmText": {
+        "Key": "LogonQueueCancelConfirmText",
+        "enUS": "You will now play offline and will lose your position in the queue.",
+        "zhCN": "开始以离线模式进行游戏，这样会失去您在队列中的位置。",
+        "zhTW": "你會離開佇列，然後以離線狀態進行遊戲。",
+        "sgCN": "开始以离线模式进行游戏，这样会失去您在队列中的位置。",
+        "sgTW": "你會離開佇列，然後以離線狀態進行遊戲。"
+    },
+    "UnderAuthAgeError": {
+        "Key": "UnderAuthAgeError",
+        "enUS": "You must be at least 18 years old to play Diablo II Resurrected",
+        "zhCN": "你至少要满18周岁才能玩《暗黑破坏神2》：重制版",
+        "zhTW": "必須年滿18歲才能遊玩《暗黑破壞神II：獄火重生》",
+        "sgCN": "你至少要满18周岁才能玩《暗黑破坏神2》：重制版",
+        "sgTW": "必須年滿18歲才能遊玩《暗黑破壞神II：獄火重生》"
+    }
+}

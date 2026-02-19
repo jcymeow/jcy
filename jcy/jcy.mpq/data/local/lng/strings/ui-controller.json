@@ -2,87 +2,87 @@
   {
     "id": 23007,
     "Key": "comparisonTooltipController",
-    "enUS": "Hold \uE016 to compare",
-    "zhTW": "按住 \uE016 比較",
-    "deDE": "\uE016 halten zum Vergleichen",
-    "esES": "Mantén pulsado \uE016 para comparar",
-    "frFR": "Maintenez \uE016 enfoncé pour comparer",
-    "itIT": "Tieni premuto \uE016 per confrontare",
-    "koKR": "\uE016 버튼을 길게 눌러 비교",
-    "plPL": "Przytrzymaj \uE016, aby porównać",
-    "esMX": "Mantén pulsado \uE016 para comparar",
-    "jaJP": "\uE016長押しで比較",
-    "ptBR": "Segure \uE016 para comparar",
-    "ruRU": "Удерживайте \uE016, чтобы сравнить",
-    "zhCN": "按住\uE016来比较"
+    "enUS": "Hold  to compare",
+    "zhTW": "按住  比較",
+    "deDE": " halten zum Vergleichen",
+    "esES": "Mantén pulsado  para comparar",
+    "frFR": "Maintenez  enfoncé pour comparer",
+    "itIT": "Tieni premuto  per confrontare",
+    "koKR": " 버튼을 길게 눌러 비교",
+    "plPL": "Przytrzymaj , aby porównać",
+    "esMX": "Mantén pulsado  para comparar",
+    "jaJP": "長押しで比較",
+    "ptBR": "Segure  para comparar",
+    "ruRU": "Удерживайте , чтобы сравнить",
+    "zhCN": "按住  比較"
   },
   {
     "id": 23008,
     "Key": "UseItemController",
-    "enUS": "Hold \uE013 to Use",
-    "zhTW": "按住 \uE013 使用",
-    "deDE": "\uE013 halten zum Benutzen",
-    "esES": "Mantén pulsado \uE013 para usar",
-    "frFR": "Maintenez \uE013 enfoncé pour utiliser",
-    "itIT": "Tieni premuto \uE013 per usare",
-    "koKR": "\uE013 버튼을 길게 눌러 사용",
-    "plPL": "Przytrzymaj \uE013, aby użyć",
-    "esMX": "Mantén pulsado \uE013 para usar",
-    "jaJP": "\uE013長押しで使用",
-    "ptBR": "Segure \uE013 para usar",
-    "ruRU": "Удерживайте \uE013, чтобы использовать",
-    "zhCN": "按住\uE013来使用"
+    "enUS": "Hold  to Use",
+    "zhTW": "按住  使用",
+    "deDE": " halten zum Benutzen",
+    "esES": "Mantén pulsado  para usar",
+    "frFR": "Maintenez  enfoncé pour utiliser",
+    "itIT": "Tieni premuto  per usare",
+    "koKR": " 버튼을 길게 눌러 사용",
+    "plPL": "Przytrzymaj , aby użyć",
+    "esMX": "Mantén pulsado  para usar",
+    "jaJP": "長押しで使用",
+    "ptBR": "Segure  para usar",
+    "ruRU": "Удерживайте , чтобы использовать",
+    "zhCN": "按住  使用"
   },
   {
     "id": 23009,
     "Key": "OpenHoradricCubeController",
-    "enUS": "Hold \uE013 to Open",
-    "zhTW": "按住 \uE013 開啟",
-    "deDE": "\uE013 zum Öffnen",
-    "esES": "Mantén pulsado \uE013 para abrir",
-    "frFR": "Maintenez \uE013 enfoncé pour ouvrir",
-    "itIT": "Tieni premuto \uE013 per aprire",
-    "koKR": "\uE013 버튼을 길게 눌러 열기",
-    "plPL": "Przytrzymaj \uE013, aby otworzyć",
-    "esMX": "Mantén pulsado \uE013 para abrir",
-    "jaJP": "\uE013長押しで開ける",
-    "ptBR": "Segure \uE013 para abrir",
-    "ruRU": "Удерживайте \uE013, чтобы открыть",
-    "zhCN": "按住\uE013来打开"
+    "enUS": "Hold  to Open",
+    "zhTW": "按住  開啟",
+    "deDE": " zum Öffnen",
+    "esES": "Mantén pulsado  para abrir",
+    "frFR": "Maintenez  enfoncé pour ouvrir",
+    "itIT": "Tieni premuto  per aprire",
+    "koKR": " 버튼을 길게 눌러 열기",
+    "plPL": "Przytrzymaj , aby otworzyć",
+    "esMX": "Mantén pulsado  para abrir",
+    "jaJP": "長押しで開ける",
+    "ptBR": "Segure  para abrir",
+    "ruRU": "Удерживайте , чтобы открыть",
+    "zhCN": "按住  開啟"
   },
   {
     "id": 23010,
     "Key": "ReadScrollController",
-    "enUS": "Hold \uE013 to Read",
-    "zhTW": "按住 \uE013 閱讀",
-    "deDE": "\uE013 zum Lesen",
-    "esES": "Mantén pulsado \uE013 para leer",
-    "frFR": "Maintenez \uE013 enfoncé pour lire",
-    "itIT": "Tieni premuto \uE013 per leggere",
-    "koKR": "\uE013 버튼을 길게 눌러 읽기",
-    "plPL": "Przytrzymaj \uE013, aby przeczytać",
-    "esMX": "Mantén pulsado \uE013 para leer",
-    "jaJP": "\uE013長押しで読む",
-    "ptBR": "Segure \uE013 para ler",
-    "ruRU": "Удерживайте \uE013, чтобы читать",
-    "zhCN": "按住\uE013来阅读"
+    "enUS": "Hold  to Read",
+    "zhTW": "按住  閱讀",
+    "deDE": " zum Lesen",
+    "esES": "Mantén pulsado  para leer",
+    "frFR": "Maintenez  enfoncé pour lire",
+    "itIT": "Tieni premuto  per leggere",
+    "koKR": " 버튼을 길게 눌러 읽기",
+    "plPL": "Przytrzymaj , aby przeczytać",
+    "esMX": "Mantén pulsado  para leer",
+    "jaJP": "長押しで読む",
+    "ptBR": "Segure  para ler",
+    "ruRU": "Удерживайте , чтобы читать",
+    "zhCN": "按住  閱讀"
   },
   {
     "id": 23011,
     "Key": "StrYouDiedConsole",
-    "enUS": "You have died\nPress \uE01D to continue.",
-    "zhTW": "你已經死了\n按下 \uE01D 繼續",
-    "deDE": "Ihr seid gestorben.\nDrückt \uE01D zum Fortfahren.",
-    "esES": "Has muerto\nPulsa \uE01D para continuar",
-    "frFR": "Vous êtes mort(e).\nAppuyez sur \uE01D pour continuer",
-    "itIT": "La morte ti ha colto\nPremi \uE01D per continuare.",
-    "koKR": "죽었습니다.\n\uE01D 버튼을 눌러 계속하십시오.",
-    "plPL": "Nie żyjesz\nNaciśnij \uE01D, aby kontynuować.",
-    "esMX": "Has muerto\nPulsa \uE01D para continuar.",
-    "jaJP": "力尽きてしまった\n\uE01Dで復活。",
-    "ptBR": "Você morreu\nPressione \uE01D para continuar.",
-    "ruRU": "Вы погибли.\nНажмите \uE01D, чтобы продолжить.",
-    "zhCN": "你挂了\n按\uE01D继续。"
+    "enUS": "You have died\nPress  to continue.",
+    "zhTW": "你已經死了\n按下  繼續",
+    "deDE": "Ihr seid gestorben.\nDrückt  zum Fortfahren.",
+    "esES": "Has muerto\nPulsa  para continuar",
+    "frFR": "Vous êtes mort(e).\nAppuyez sur  pour continuer",
+    "itIT": "La morte ti ha colto\nPremi  per continuare.",
+    "koKR": "죽었습니다.\n 버튼을 눌러 계속하십시오.",
+    "plPL": "Nie żyjesz\nNaciśnij , aby kontynuować.",
+    "esMX": "Has muerto\nPulsa  para continuar.",
+    "jaJP": "力尽きてしまった\nで復活。",
+    "ptBR": "Você morreu\nPressione  para continuar.",
+    "ruRU": "Вы погибли.\nНажмите , чтобы продолжить.",
+    "zhCN": "你已經死了\n按下  繼續"
   },
   {
     "id": 23961,
@@ -99,160 +99,160 @@
     "jaJP": "%dゴールドですべての装備を修理しますか？",
     "ptBR": "Reparar todos os equipamentos por %d de ouro?",
     "ruRU": "Починить снаряжение за %d золота?",
-    "zhCN": "花费%d金币修复所有装备?"
+    "zhCN": "你要花費 %d 枚金幣修復所有裝備嗎？"
   },
   {
     "id": 23981,
     "Key": "FireImmunityIcon",
-    "enUS": "\uE031",
-    "zhTW": "\uE031",
-    "deDE": "\uE031",
-    "esES": "\uE031",
-    "frFR": "\uE031",
-    "itIT": "\uE031",
-    "koKR": "\uE031",
-    "plPL": "\uE031",
-    "esMX": "\uE031",
-    "jaJP": "\uE031",
-    "ptBR": "\uE031",
-    "ruRU": "\uE031",
-    "zhCN": "\uE031"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 23982,
     "Key": "ColdImmunityIcon",
-    "enUS": "\uE032",
-    "zhTW": "\uE032",
-    "deDE": "\uE032",
-    "esES": "\uE032",
-    "frFR": "\uE032",
-    "itIT": "\uE032",
-    "koKR": "\uE032",
-    "plPL": "\uE032",
-    "esMX": "\uE032",
-    "jaJP": "\uE032",
-    "ptBR": "\uE032",
-    "ruRU": "\uE032",
-    "zhCN": "\uE032"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 23983,
     "Key": "LightningImmunityIcon",
-    "enUS": "\uE033",
-    "zhTW": "\uE033",
-    "deDE": "\uE033",
-    "esES": "\uE033",
-    "frFR": "\uE033",
-    "itIT": "\uE033",
-    "koKR": "\uE033",
-    "plPL": "\uE033",
-    "esMX": "\uE033",
-    "jaJP": "\uE033",
-    "ptBR": "\uE033",
-    "ruRU": "\uE033",
-    "zhCN": "\uE033"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 23984,
     "Key": "PoisonImmunityIcon",
-    "enUS": "\uE034",
-    "zhTW": "\uE034",
-    "deDE": "\uE034",
-    "esES": "\uE034",
-    "frFR": "\uE034",
-    "itIT": "\uE034",
-    "koKR": "\uE034",
-    "plPL": "\uE034",
-    "esMX": "\uE034",
-    "jaJP": "\uE034",
-    "ptBR": "\uE034",
-    "ruRU": "\uE034",
-    "zhCN": "\uE034"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 23985,
     "Key": "PhysicalImmunityIcon",
-    "enUS": "\uE035",
-    "zhTW": "\uE035",
-    "deDE": "\uE035",
-    "esES": "\uE035",
-    "frFR": "\uE035",
-    "itIT": "\uE035",
-    "koKR": "\uE035",
-    "plPL": "\uE035",
-    "esMX": "\uE035",
-    "jaJP": "\uE035",
-    "ptBR": "\uE035",
-    "ruRU": "\uE035",
-    "zhCN": "\uE035"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 23986,
     "Key": "MagicImmunityIcon",
-    "enUS": "\uE036",
-    "zhTW": "\uE036",
-    "deDE": "\uE036",
-    "esES": "\uE036",
-    "frFR": "\uE036",
-    "itIT": "\uE036",
-    "koKR": "\uE036",
-    "plPL": "\uE036",
-    "esMX": "\uE036",
-    "jaJP": "\uE036",
-    "ptBR": "\uE036",
-    "ruRU": "\uE036",
-    "zhCN": "\uE036"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 24001,
     "Key": "UsePotionOfLifeController",
-    "enUS": "Hold \uE013 to permanently add 20 to Life",
-    "zhTW": "按住 \uE013 可永久提高 20 點生命值",
-    "deDE": "\uE013 halten, um permanent 20 Leben zu erhalten",
-    "esES": "Mantén pulsado \uE013 para conseguir 20 p. de vida permanentes",
-    "frFR": "Maintenez \uE013 enfoncé pour ajouter 20 PV de façon permanente",
-    "itIT": "Tieni premuto \uE013 per +20 vita permanente",
-    "koKR": "\uE013 버튼을 길게 눌러 생명력 영구적으로 20 추가하기",
-    "plPL": "Przytrzymaj \uE013, aby na stałe zyskać 20 pkt. zdrowia",
-    "esMX": "Mantén pulsado \uE013 para agregar 20 a tu vida permanentemente",
-    "jaJP": "\uE013長押しでライフの基本値が20増加",
-    "ptBR": "Segure \uE013 para adicionar 20 pontos de vida permanentemente",
-    "ruRU": "Удерживайте \uE013, чтобы добавить 20 единиц здоровья",
-    "zhCN": "按住\uE013永久增加20点生命值"
+    "enUS": "Hold  to permanently add 20 to Life",
+    "zhTW": "按住  可永久提高 20 點生命值",
+    "deDE": " halten, um permanent 20 Leben zu erhalten",
+    "esES": "Mantén pulsado  para conseguir 20 p. de vida permanentes",
+    "frFR": "Maintenez  enfoncé pour ajouter 20 PV de façon permanente",
+    "itIT": "Tieni premuto  per +20 vita permanente",
+    "koKR": " 버튼을 길게 눌러 생명력 영구적으로 20 추가하기",
+    "plPL": "Przytrzymaj , aby na stałe zyskać 20 pkt. zdrowia",
+    "esMX": "Mantén pulsado  para agregar 20 a tu vida permanentemente",
+    "jaJP": "長押しでライフの基本値が20増加",
+    "ptBR": "Segure  para adicionar 20 pontos de vida permanentemente",
+    "ruRU": "Удерживайте , чтобы добавить 20 единиц здоровья",
+    "zhCN": "按住  可永久提高 20 點生命值"
   },
   {
     "id": 24002,
     "Key": "UseBookOfSkillController",
-    "enUS": "Hold \uE013 to learn skill of your choice",
-    "zhTW": "按住 \uE013 以增加 1 點技能點數",
-    "deDE": "\uE013 halten, um einen Fertigkeitspunkt zu erhalten",
-    "esES": "Mantén pulsado \uE013 para aprender una habilidad",
-    "frFR": "Maintenez \uE013 enfoncé pour apprendre une compétence",
-    "itIT": "Tieni premuto \uE013 per una nuova abilità a scelta",
-    "koKR": "\uE013 버튼을 길게 눌러 원하는 기술 습득하기",
-    "plPL": "Naciśnij \uE013, aby nauczyć się wybranej umiejętności",
-    "esMX": "Mantén pulsado \uE013 para aprender una habilidad a elección",
-    "jaJP": "\uE013長押しで選んだスキルの習得",
-    "ptBR": "Segure \uE013 para aprender uma habilidade à sua escolha",
-    "ruRU": "Удерживайте \uE013, чтобы выучить умение",
-    "zhCN": "按住\uE013来增加你的技能点"
+    "enUS": "Hold  to learn skill of your choice",
+    "zhTW": "按住  以增加 1 點技能點數",
+    "deDE": " halten, um einen Fertigkeitspunkt zu erhalten",
+    "esES": "Mantén pulsado  para aprender una habilidad",
+    "frFR": "Maintenez  enfoncé pour apprendre une compétence",
+    "itIT": "Tieni premuto  per una nuova abilità a scelta",
+    "koKR": " 버튼을 길게 눌러 원하는 기술 습득하기",
+    "plPL": "Naciśnij , aby nauczyć się wybranej umiejętności",
+    "esMX": "Mantén pulsado  para aprender una habilidad a elección",
+    "jaJP": "長押しで選んだスキルの習得",
+    "ptBR": "Segure  para aprender uma habilidade à sua escolha",
+    "ruRU": "Удерживайте , чтобы выучить умение",
+    "zhCN": "按住  以增加 1 點技能點數"
   },
   {
     "id": 24003,
     "Key": "UseScrollOfResistanceController",
-    "enUS": "Hold \uE013 to Cast",
-    "zhTW": "按住 \uE013 施放",
-    "deDE": "\uE013 halten zum Einsetzen",
-    "esES": "Mantén pulsado \uE013 para lanzar",
-    "frFR": "Maintenez \uE013 enfoncé pour lancer un sort",
-    "itIT": "Tieni premuto \uE013 per lanciare",
-    "koKR": "\uE013 버튼을 길게 눌러 시전",
-    "plPL": "Przytrzymaj \uE013, aby użyć",
-    "esMX": "Mantén pulsado \uE013 para activar",
-    "jaJP": "\uE013長押しで使用",
-    "ptBR": "Segure \uE013 para lançar",
-    "ruRU": "Удерживайте \uE013, чтобы применить",
-    "zhCN": "按住\uE013来施法"
+    "enUS": "Hold  to Cast",
+    "zhTW": "按住  施放",
+    "deDE": " halten zum Einsetzen",
+    "esES": "Mantén pulsado  para lanzar",
+    "frFR": "Maintenez  enfoncé pour lancer un sort",
+    "itIT": "Tieni premuto  per lanciare",
+    "koKR": " 버튼을 길게 눌러 시전",
+    "plPL": "Przytrzymaj , aby użyć",
+    "esMX": "Mantén pulsado  para activar",
+    "jaJP": "長押しで使用",
+    "ptBR": "Segure  para lançar",
+    "ruRU": "Удерживайте , чтобы применить",
+    "zhCN": "按住  施放"
   },
   {
     "id": 24045,
@@ -269,7 +269,7 @@
     "jaJP": "ボタンを押してスキルを割り当て",
     "ptBR": "Botão para reatribuir a habilidade",
     "ruRU": "Назначьте клавишу для умения",
-    "zhCN": "重新绑定技能"
+    "zhCN": "重新綁定技能"
   },
   {
     "id": 24053,
@@ -286,7 +286,7 @@
     "jaJP": "インタラクト",
     "ptBR": "Interagir",
     "ruRU": "Взаимодействие",
-    "zhCN": "交互"
+    "zhCN": "互動"
   },
   {
     "id": 24054,
@@ -320,7 +320,7 @@
     "jaJP": "環境にある要素を操作する",
     "ptBR": "Interaja com elementos do mundo",
     "ruRU": "Взаимодействие с окружением.",
-    "zhCN": "与世界里的各种元素互动"
+    "zhCN": "和世界中的物件互動"
   },
   {
     "id": 24056,
@@ -337,7 +337,7 @@
     "jaJP": "アイテム、武器、防具を入手する",
     "ptBR": "Colete itens, armas e armaduras",
     "ruRU": "Сбор предметов, оружия и доспехов.",
-    "zhCN": "捡起物品、武器和护甲"
+    "zhCN": "撿拾物品、武器和護甲"
   },
   {
     "id": 24075,
@@ -354,7 +354,7 @@
     "jaJP": "カーソル感度",
     "ptBR": "Sensibilidade do cursor",
     "ruRU": "Чувствительность указателя",
-    "zhCN": "鼠标灵敏度"
+    "zhCN": "游標靈敏度"
   },
   {
     "id": 24076,
@@ -371,7 +371,7 @@
     "jaJP": "攻撃ミスの表示",
     "ptBR": "Indicador de erro de ataque",
     "ruRU": "Индикатор промахов",
-    "zhCN": "攻击未中提示"
+    "zhCN": "攻擊未命中訊息"
   },
   {
     "id": 24077,
@@ -388,7 +388,7 @@
     "jaJP": "武器切り替えの個別スキルボタン",
     "ptBR": "Botões de habilidade separados de troca de armas",
     "ruRU": "Раздельные клавиши навыков для смены оружия",
-    "zhCN": "切换武器时更换技能键"
+    "zhCN": "切換武器有獨立的技能按鍵設定"
   },
   {
     "id": 26013,
@@ -405,7 +405,7 @@
     "jaJP": "１ステータス・ポイントを振る",
     "ptBR": "Atribuir um ponto de atributo",
     "ruRU": "Потратить очко характеристик",
-    "zhCN": "分配一个属性点"
+    "zhCN": "分配一點屬性點數"
   },
   {
     "id": 26014,
@@ -422,7 +422,7 @@
     "jaJP": "スキル・ポイントを振る",
     "ptBR": "Atribuir pontos de habilidades",
     "ruRU": "Потратьте очки умений",
-    "zhCN": "分配技能点"
+    "zhCN": "分配技能點數"
   },
   {
     "id": 26015,
@@ -439,7 +439,7 @@
     "jaJP": "雇う",
     "ptBR": "Contratar",
     "ruRU": "Нанять",
-    "zhCN": "雇佣"
+    "zhCN": "雇用"
   },
   {
     "id": 26016,
@@ -456,7 +456,7 @@
     "jaJP": "比較",
     "ptBR": "Comparar",
     "ruRU": "Сравнить",
-    "zhCN": "比较"
+    "zhCN": "比較"
   },
   {
     "id": 26017,
@@ -473,7 +473,7 @@
     "jaJP": "ベルトに割り当てる",
     "ptBR": "Atribuir ao cinto",
     "ruRU": "Поместить на пояс",
-    "zhCN": "分配到腰带"
+    "zhCN": "指定至腰帶"
   },
   {
     "id": 26018,
@@ -490,7 +490,7 @@
     "jaJP": "捨てる",
     "ptBR": "Largar",
     "ruRU": "Выбросить",
-    "zhCN": "丢弃"
+    "zhCN": "丟下"
   },
   {
     "id": 26019,
@@ -507,7 +507,7 @@
     "jaJP": "装備",
     "ptBR": "Equipar",
     "ruRU": "Использовать",
-    "zhCN": "装备"
+    "zhCN": "裝備"
   },
   {
     "id": 26020,
@@ -524,7 +524,7 @@
     "jaJP": "傭兵に装備",
     "ptBR": "Equipar no mercenário",
     "ruRU": "Отдать наемнику",
-    "zhCN": "装备给佣兵"
+    "zhCN": "為傭兵裝備"
   },
   {
     "id": 26021,
@@ -558,7 +558,7 @@
     "jaJP": "拾う",
     "ptBR": "Pegar",
     "ruRU": "Взять",
-    "zhCN": "捡起"
+    "zhCN": "拿取"
   },
   {
     "id": 26023,
@@ -575,7 +575,7 @@
     "jaJP": "所持品に移す",
     "ptBR": "Mover para o inventário",
     "ruRU": "Положить в снаряжение",
-    "zhCN": "移动到物品栏"
+    "zhCN": "移到物品欄"
   },
   {
     "id": 26024,
@@ -592,7 +592,7 @@
     "jaJP": "ホラドリムのキューブに移す",
     "ptBR": "Mover para o Cubo Horádrico",
     "ruRU": "Положить в хорадримский куб",
-    "zhCN": "移动到赫拉迪姆魔盒"
+    "zhCN": "移到赫拉迪姆方塊"
   },
   {
     "id": 26025,
@@ -609,7 +609,7 @@
     "jaJP": "共有用保管箱に移す",
     "ptBR": "Mover para o baú compartilhado",
     "ruRU": "Положить в общий тайник",
-    "zhCN": "移动到共享储藏箱"
+    "zhCN": "轉移到共用儲物箱"
   },
   {
     "id": 26026,
@@ -626,7 +626,7 @@
     "jaJP": "自分用保管箱に移す",
     "ptBR": "Mover para o baú pessoal",
     "ruRU": "Положить в личный тайник",
-    "zhCN": "移动到私人储藏箱"
+    "zhCN": "轉移到個人儲物箱"
   },
   {
     "id": 26027,
@@ -643,7 +643,7 @@
     "jaJP": "読む",
     "ptBR": "Ler",
     "ruRU": "Прочесть",
-    "zhCN": "阅读"
+    "zhCN": "閱讀"
   },
   {
     "id": 26028,
@@ -660,7 +660,7 @@
     "jaJP": "開ける",
     "ptBR": "Abrir",
     "ruRU": "Открыть",
-    "zhCN": "打开"
+    "zhCN": "打開"
   },
   {
     "id": 26029,
@@ -694,7 +694,7 @@
     "jaJP": " （長押しで%s）",
     "ptBR": " (Segure para %s)",
     "ruRU": " (Удерживайте – %s)",
-    "zhCN": "(按住%s)"
+    "zhCN": "（按住以%s）"
   },
   {
     "id": 26031,
@@ -711,7 +711,7 @@
     "jaJP": "長押しで並べ替え",
     "ptBR": "Segure para organizar",
     "ruRU": "Удерживайте, чтобы сортировать",
-    "zhCN": "按住排序"
+    "zhCN": "按住以排列物品"
   },
   {
     "id": 26032,
@@ -728,7 +728,7 @@
     "jaJP": "詳しいステータスを見る",
     "ptBR": "Ver atributos avançados",
     "ruRU": "Подробные характеристики",
-    "zhCN": "查看高级属性"
+    "zhCN": "檢視進階屬性"
   },
   {
     "id": 26033,
@@ -745,7 +745,7 @@
     "jaJP": "移動",
     "ptBR": "Viajar",
     "ruRU": "Перенестись",
-    "zhCN": "传送"
+    "zhCN": "移動"
   },
   {
     "id": 26034,
@@ -762,7 +762,7 @@
     "jaJP": "クラスを見る",
     "ptBR": "Ver classe",
     "ruRU": "Просмотреть класс",
-    "zhCN": "查看职业"
+    "zhCN": "檢視職業"
   },
   {
     "id": 26035,
@@ -779,7 +779,7 @@
     "jaJP": "クラスを選択",
     "ptBR": "Selecionar classe",
     "ruRU": "Выбрать класс",
-    "zhCN": "选择职业"
+    "zhCN": "選擇職業"
   },
   {
     "id": 26036,
@@ -796,7 +796,7 @@
     "jaJP": "メインメニューに戻る",
     "ptBR": "Voltar ao menu principal",
     "ruRU": "Вернуться в главное меню",
-    "zhCN": "返回主菜单"
+    "zhCN": "返回主選單"
   },
   {
     "id": 26037,
@@ -813,7 +813,7 @@
     "jaJP": "クラスを変更",
     "ptBR": "Alterar classe",
     "ruRU": "Сменить класс",
-    "zhCN": "更换职业"
+    "zhCN": "更換職業"
   },
   {
     "id": 26038,
@@ -830,7 +830,7 @@
     "jaJP": "名前を自動生成",
     "ptBR": "Gerar nome",
     "ruRU": "Создать имя",
-    "zhCN": "生成名称"
+    "zhCN": "產生名稱"
   },
   {
     "id": 26039,
@@ -847,7 +847,7 @@
     "jaJP": "オリジナル版の切り替え",
     "ptBR": "Modo Legacy",
     "ruRU": "Классический режим",
-    "zhCN": "切换经典版"
+    "zhCN": "切換懷舊模式"
   },
   {
     "id": 26040,
@@ -864,7 +864,7 @@
     "jaJP": "選択",
     "ptBR": "Selecionar",
     "ruRU": "Выбрать",
-    "zhCN": "选择"
+    "zhCN": "選擇"
   },
   {
     "id": 26041,
@@ -881,7 +881,7 @@
     "jaJP": "キャラクターを削除",
     "ptBR": "Excluir personagem",
     "ruRU": "Удалить персонажа",
-    "zhCN": "删除角色"
+    "zhCN": "刪除角色"
   },
   {
     "id": 26042,
@@ -898,7 +898,7 @@
     "jaJP": "キャラクター変更",
     "ptBR": "Alterar personagem",
     "ruRU": "Сменить персонажа",
-    "zhCN": "更换角色"
+    "zhCN": "更改角色"
   },
   {
     "id": 26043,
@@ -932,7 +932,7 @@
     "jaJP": "メニューを閉じる",
     "ptBR": "Fechar menu",
     "ruRU": "Закрыть меню",
-    "zhCN": "关闭菜单"
+    "zhCN": "關閉選單"
   },
   {
     "id": 26045,
@@ -983,7 +983,7 @@
     "jaJP": "スキルを割り当てる",
     "ptBR": "Atribuir habilidade",
     "ruRU": "Назначить умение",
-    "zhCN": "绑定技能"
+    "zhCN": "綁定技能"
   },
   {
     "id": 26064,
@@ -1000,7 +1000,7 @@
     "jaJP": "オプション",
     "ptBR": "Opções",
     "ruRU": "Настройки",
-    "zhCN": "选项"
+    "zhCN": "選項"
   },
   {
     "id": 26066,
@@ -1017,7 +1017,7 @@
     "jaJP": "傭兵に使う",
     "ptBR": "Usar no mercenário",
     "ruRU": "Применить к наемнику",
-    "zhCN": "用在佣兵身上"
+    "zhCN": "對傭兵使用"
   },
   {
     "id": 26075,
@@ -1034,7 +1034,7 @@
     "jaJP": "ベルトの割り当てを解除",
     "ptBR": "Retirar do cinto",
     "ruRU": "Убрать с пояса",
-    "zhCN": "从腰带上撤销指定"
+    "zhCN": "解除腰帶裝備"
   },
   {
     "id": 26080,
@@ -1051,7 +1051,7 @@
     "jaJP": "ゴールドの自動回収",
     "ptBR": "Coleta automática de ouro",
     "ruRU": "Автоматический сбор золота",
-    "zhCN": "自动拾取金币"
+    "zhCN": "自動收集金幣"
   },
   {
     "id": 26081,
@@ -1068,7 +1068,7 @@
     "jaJP": "スキルの弾数を表示",
     "ptBR": "Mostrar quantidade de munição nas habilidades",
     "ruRU": "Показывать заряды для умений",
-    "zhCN": "显示技能上的弹药数量"
+    "zhCN": "在技能顯示彈藥數"
   },
   {
     "id": 26091,
@@ -1136,7 +1136,7 @@
     "jaJP": "こっちだ",
     "ptBR": "Siga-me",
     "ruRU": "За мной",
-    "zhCN": "跟随我"
+    "zhCN": "跟我走"
   },
   {
     "id": 26095,
@@ -1153,7 +1153,7 @@
     "jaJP": "これをやる",
     "ptBR": "Para você",
     "ruRU": "Для тебя",
-    "zhCN": "给你的"
+    "zhCN": "這是給你的"
   },
   {
     "id": 26096,
@@ -1170,7 +1170,7 @@
     "jaJP": "ありがとう",
     "ptBR": "Obrigado",
     "ruRU": "Спасибо",
-    "zhCN": "谢谢"
+    "zhCN": "謝謝"
   },
   {
     "id": 26097,
@@ -1187,7 +1187,7 @@
     "jaJP": "ごめん",
     "ptBR": "Desculpa",
     "ruRU": "Извини",
-    "zhCN": "抱歉"
+    "zhCN": "道歉"
   },
   {
     "id": 26098,
@@ -1204,7 +1204,7 @@
     "jaJP": "さようなら！",
     "ptBR": "Tchau!",
     "ruRU": "Пока!",
-    "zhCN": "再见！"
+    "zhCN": "再會！"
   },
   {
     "id": 26099,
@@ -1238,7 +1238,7 @@
     "jaJP": "走れ！",
     "ptBR": "Corra!",
     "ruRU": "Беги!",
-    "zhCN": "快跑！"
+    "zhCN": "快逃！"
   },
   {
     "id": 26101,
@@ -1272,7 +1272,7 @@
     "jaJP": "タウン・ポータルが必要",
     "ptBR": "Preciso teleportar",
     "ruRU": "Нужен телепорт",
-    "zhCN": "需要回城"
+    "zhCN": "需要傳送門"
   },
   {
     "id": 26103,
@@ -1289,7 +1289,7 @@
     "jaJP": "荷物が一杯",
     "ptBR": "Bolsa cheia",
     "ruRU": "Сумка полна",
-    "zhCN": "包满了"
+    "zhCN": "背包滿了"
   },
   {
     "id": 26104,
@@ -1306,7 +1306,7 @@
     "jaJP": "必要か？",
     "ptBR": "Precisa disso?",
     "ruRU": "Нужно?",
-    "zhCN": "要这个吗？"
+    "zhCN": "你要這個嗎？"
   },
   {
     "id": 26105,
@@ -1323,7 +1323,7 @@
     "jaJP": "ラダーはオンライン・キャラクターでのみプレイ可能です。",
     "ptBR": "Só é possível jogar a Competição com um personagem online.",
     "ruRU": "Рейтинговый режим доступен только персонажам, играющим по сети.",
-    "zhCN": "必须用线上角色才能体验天梯。"
+    "zhCN": "只能以線上角色進行天梯遊戲。"
   },
   {
     "id": 26106,
@@ -1340,7 +1340,7 @@
     "jaJP": "選択したクラスは拡張版でのみ使用可能です。",
     "ptBR": "Só é possível jogar a classe escolhida com um personagem da expansão.",
     "ruRU": "Выбранный класс доступен только персонажам из дополнения.",
-    "zhCN": "只有资料片角色才能够使用所选的职业。"
+    "zhCN": "該職業只能是資料片角色。"
   },
   {
     "id": 26107,
@@ -1357,7 +1357,7 @@
     "jaJP": "エンチャント枠に移す",
     "ptBR": "Mover para imbuir",
     "ruRU": "Перетащите, чтобы усилить",
-    "zhCN": "移动到灌魔"
+    "zhCN": "移動以進行灌注"
   },
   {
     "id": 26114,
@@ -1374,58 +1374,58 @@
     "jaJP": "装備解除",
     "ptBR": "Desequipar",
     "ruRU": "Отменить",
-    "zhCN": "卸除装备"
+    "zhCN": "解除裝備"
   },
   {
     "id": 26175,
     "Key": "hireComparisonTooltipController",
-    "enUS": "Hold \uE016 to Compare",
-    "zhTW": "按住 \uE016 鍵進行比較",
-    "deDE": "\uE016 gedrückt halten, um zu vergleichen",
-    "esES": "Mantén pulsado \uE016 para comparar",
-    "frFR": "Maintenez \uE016 enfoncé pour comparer",
-    "itIT": "Tieni premuto \uE016 per confrontare",
-    "koKR": "\uE016 버튼을 길게 눌러 비교",
-    "plPL": "Przytrzymaj \uE016, aby porównać",
-    "esMX": "Mantén pulsado \uE016 para comparar",
-    "jaJP": "\uE016長押しで比較",
-    "ptBR": "Segure \uE016 para comparar",
-    "ruRU": "Зажмите \uE016, чтобы сравнить.",
-    "zhCN": "长按\uE016进行对比"
+    "enUS": "Hold  to Compare",
+    "zhTW": "按住  鍵進行比較",
+    "deDE": " gedrückt halten, um zu vergleichen",
+    "esES": "Mantén pulsado  para comparar",
+    "frFR": "Maintenez  enfoncé pour comparer",
+    "itIT": "Tieni premuto  per confrontare",
+    "koKR": " 버튼을 길게 눌러 비교",
+    "plPL": "Przytrzymaj , aby porównać",
+    "esMX": "Mantén pulsado  para comparar",
+    "jaJP": "長押しで比較",
+    "ptBR": "Segure  para comparar",
+    "ruRU": "Зажмите , чтобы сравнить.",
+    "zhCN": "按住  鍵進行比較"
   },
   {
     "id": 26179,
     "Key": "ControllerHelpToggleSkills",
-    "enUS": "Skill toggle  \uE00D",
-    "zhTW": "技能切換 \uE00D",
-    "deDE": "Fertigkeiten umschalten  \uE00D",
-    "esES": "Alternar habilidades \uE00D",
-    "frFR": "Activer/désactiver la compétence  \uE00D",
-    "itIT": "Attiva/Disattiva  \uE00D",
-    "koKR": "기술 전환  \uE00D",
-    "plPL": "Przełącz umiejętności  \uE00D",
-    "esMX": "Alternar habilidad  \uE00D",
-    "jaJP": "スキル切り替え  \uE00D",
-    "ptBR": "Alternar habilidades  \uE00D",
-    "ruRU": "Переключить умения  \uE00D",
-    "zhCN": "技能开关 \uE00D"
+    "enUS": "Skill toggle  ",
+    "zhTW": "技能切換 ",
+    "deDE": "Fertigkeiten umschalten  ",
+    "esES": "Alternar habilidades ",
+    "frFR": "Activer/désactiver la compétence  ",
+    "itIT": "Attiva/Disattiva  ",
+    "koKR": "기술 전환  ",
+    "plPL": "Przełącz umiejętności  ",
+    "esMX": "Alternar habilidad  ",
+    "jaJP": "スキル切り替え  ",
+    "ptBR": "Alternar habilidades  ",
+    "ruRU": "Переключить умения  ",
+    "zhCN": "技能切換 "
   },
   {
     "id": 26180,
     "Key": "ControllerHelpHighItems",
-    "enUS": "Show item labels  \uE00B",
-    "zhTW": "顯示物品名稱 \uE00B",
-    "deDE": "Gegenstände anzeigen  \uE00B",
-    "esES": "Mostrar etiquetas de los objetos \uE00B",
-    "frFR": "Afficher les noms d’objets  \uE00B",
-    "itIT": "Mostra nomi oggetti  \uE00B",
-    "koKR": "아이템 이름 표시  \uE00B",
-    "plPL": "Pokaż etykiety przedmiotów  \uE00B",
-    "esMX": "Mostrar etiquetas de objetos  \uE00B",
-    "jaJP": "アイテム表示  \uE00B",
-    "ptBR": "Mostrar legendas de itens  \uE00B",
-    "ruRU": "Показать названия предметов  \uE00B",
-    "zhCN": "显示物品标签 \uE00B"
+    "enUS": "Show item labels  ",
+    "zhTW": "顯示物品名稱 ",
+    "deDE": "Gegenstände anzeigen  ",
+    "esES": "Mostrar etiquetas de los objetos ",
+    "frFR": "Afficher les noms d’objets  ",
+    "itIT": "Mostra nomi oggetti  ",
+    "koKR": "아이템 이름 표시  ",
+    "plPL": "Pokaż etykiety przedmiotów  ",
+    "esMX": "Mostrar etiquetas de objetos  ",
+    "jaJP": "アイテム表示  ",
+    "ptBR": "Mostrar legendas de itens  ",
+    "ruRU": "Показать названия предметов  ",
+    "zhCN": "顯示物品名稱 "
   },
   {
     "id": 26181,
@@ -1442,75 +1442,75 @@
     "jaJP": "移動\n（押す） 走り/歩きの切り替え",
     "ptBR": "Mover\n(PRESSIONE) Ativar correr/andar",
     "ruRU": "Передвижение\nНажмите для переключения между ходьбой и бегом",
-    "zhCN": "移动\n(按下) 奔跑/行走切换"
+    "zhCN": "移動 \n（按下）切換跑步 / 行走"
   },
   {
     "id": 26182,
     "Key": "ControllerHelpBelt1",
-    "enUS": "Belt slot 1  \uE003",
-    "zhTW": "腰帶欄位 1 \uE003",
-    "deDE": "Gürtelplatz 1  \uE003",
-    "esES": "Casilla de cinturón 1 \uE003",
-    "frFR": "Emplacement ceinture 1  \uE003",
-    "itIT": "Scomparto cintura 1  \uE003",
-    "koKR": "허리띠 칸 1  \uE003",
-    "plPL": "Miejsce na pasie 1  \uE003",
-    "esMX": "Casilla 1  \uE003",
-    "jaJP": "ベルトスロット1  \uE003",
-    "ptBR": "Espaço do cinto 1  \uE003",
-    "ruRU": "Ячейка пояса 1  \uE003",
-    "zhCN": "腰带栏1 \uE003"
+    "enUS": "Belt slot 1  ",
+    "zhTW": "腰帶欄位 1 ",
+    "deDE": "Gürtelplatz 1  ",
+    "esES": "Casilla de cinturón 1 ",
+    "frFR": "Emplacement ceinture 1  ",
+    "itIT": "Scomparto cintura 1  ",
+    "koKR": "허리띠 칸 1  ",
+    "plPL": "Miejsce na pasie 1  ",
+    "esMX": "Casilla 1  ",
+    "jaJP": "ベルトスロット1  ",
+    "ptBR": "Espaço do cinto 1  ",
+    "ruRU": "Ячейка пояса 1  ",
+    "zhCN": "腰帶欄位 1 "
   },
   {
     "id": 26183,
     "Key": "ControllerHelpBelt2",
-    "enUS": "Belt slot 2  \uE001",
-    "zhTW": "腰帶欄位 2 \uE001",
-    "deDE": "Gürtelplatz 2  \uE001",
-    "esES": "Casilla de cinturón 2 \uE001",
-    "frFR": "Emplacement ceinture 2  \uE001",
-    "itIT": "Scomparto cintura 2  \uE001",
-    "koKR": "허리띠 칸 2  \uE001",
-    "plPL": "Miejsce na pasie 2  \uE001",
-    "esMX": "Casilla 2  \uE001",
-    "jaJP": "ベルトスロット2  \uE001",
-    "ptBR": "Espaço do cinto 2  \uE001",
-    "ruRU": "Ячейка пояса 2  \uE001",
-    "zhCN": "腰带栏2 \uE001"
+    "enUS": "Belt slot 2  ",
+    "zhTW": "腰帶欄位 2 ",
+    "deDE": "Gürtelplatz 2  ",
+    "esES": "Casilla de cinturón 2 ",
+    "frFR": "Emplacement ceinture 2  ",
+    "itIT": "Scomparto cintura 2  ",
+    "koKR": "허리띠 칸 2  ",
+    "plPL": "Miejsce na pasie 2  ",
+    "esMX": "Casilla 2  ",
+    "jaJP": "ベルトスロット2  ",
+    "ptBR": "Espaço do cinto 2  ",
+    "ruRU": "Ячейка пояса 2  ",
+    "zhCN": "腰帶欄位 2 "
   },
   {
     "id": 26184,
     "Key": "ControllerHelpBelt3",
-    "enUS": "Belt slot 3  \uE002",
-    "zhTW": "腰帶欄位 3 \uE002",
-    "deDE": "Gürtelplatz 3  \uE002",
-    "esES": "Casilla de cinturón 3 \uE002",
-    "frFR": "Emplacement ceinture 3  \uE002",
-    "itIT": "Scomparto cintura 3  \uE002",
-    "koKR": "허리띠 칸 3  \uE002",
-    "plPL": "Miejsce na pasie 3  \uE002",
-    "esMX": "Casilla 3  \uE002",
-    "jaJP": "ベルトスロット3  \uE002",
-    "ptBR": "Espaço do cinto 3  \uE002",
-    "ruRU": "Ячейка пояса 3  \uE002",
-    "zhCN": "腰带栏3 \uE002"
+    "enUS": "Belt slot 3  ",
+    "zhTW": "腰帶欄位 3 ",
+    "deDE": "Gürtelplatz 3  ",
+    "esES": "Casilla de cinturón 3 ",
+    "frFR": "Emplacement ceinture 3  ",
+    "itIT": "Scomparto cintura 3  ",
+    "koKR": "허리띠 칸 3  ",
+    "plPL": "Miejsce na pasie 3  ",
+    "esMX": "Casilla 3  ",
+    "jaJP": "ベルトスロット3  ",
+    "ptBR": "Espaço do cinto 3  ",
+    "ruRU": "Ячейка пояса 3  ",
+    "zhCN": "腰帶欄位 3 "
   },
   {
     "id": 26185,
     "Key": "ControllerHelpBelt4",
-    "enUS": "Belt slot 4  \uE004",
-    "zhTW": "腰帶欄位 4 \uE004",
-    "deDE": "Gürtelplatz 4  \uE004",
-    "esES": "Casilla de cinturón 4 \uE004",
-    "frFR": "Emplacement ceinture 4  \uE004",
-    "itIT": "Scomparto cintura 4  \uE004",
-    "koKR": "허리띠 칸 4  \uE004",
-    "plPL": "Miejsce na pasie 4  \uE004",
-    "esMX": "Casilla 4  \uE004",
-    "jaJP": "ベルトスロット4  \uE004",
-    "ptBR": "Espaço do cinto 4  \uE004",
-    "ruRU": "Ячейка пояса 4  \uE004",
-    "zhCN": "腰带栏4 \uE004"
+    "enUS": "Belt slot 4  ",
+    "zhTW": "腰帶欄位 4 ",
+    "deDE": "Gürtelplatz 4  ",
+    "esES": "Casilla de cinturón 4 ",
+    "frFR": "Emplacement ceinture 4  ",
+    "itIT": "Scomparto cintura 4  ",
+    "koKR": "허리띠 칸 4  ",
+    "plPL": "Miejsce na pasie 4  ",
+    "esMX": "Casilla 4  ",
+    "jaJP": "ベルトスロット4  ",
+    "ptBR": "Espaço do cinto 4  ",
+    "ruRU": "Ячейка пояса 4  ",
+    "zhCN": "腰帶欄位 4 "
   },
   {
     "id": 26186,
@@ -1527,109 +1527,109 @@
     "jaJP": "オートマップ",
     "ptBR": "Mapa automático",
     "ruRU": "Автоматическая карта",
-    "zhCN": "透视地图"
+    "zhCN": "自動地圖"
   },
   {
     "id": 26187,
     "Key": "ControllerHelpSkill6",
-    "enUS": "\uE00E  Skill 6",
-    "zhTW": "\uE00E 技能 6",
-    "deDE": "\uE00E  Fertigkeit 6",
-    "esES": "\uE00E Habilidad 6",
-    "frFR": "\uE00E  Compétence 6",
-    "itIT": "\uE00E  Abilità 6",
-    "koKR": "\uE00E  기술 6",
-    "plPL": "\uE00E  Umiejętność 6",
-    "esMX": "\uE00E  Habilidad 6",
-    "jaJP": "\uE00E  スキル6",
-    "ptBR": "\uE00E  Habilidade 6",
-    "ruRU": "\uE00E  Умение 6",
-    "zhCN": "\uE00E  技能 6"
+    "enUS": "  Skill 6",
+    "zhTW": " 技能 6",
+    "deDE": "  Fertigkeit 6",
+    "esES": " Habilidad 6",
+    "frFR": "  Compétence 6",
+    "itIT": "  Abilità 6",
+    "koKR": "  기술 6",
+    "plPL": "  Umiejętność 6",
+    "esMX": "  Habilidad 6",
+    "jaJP": "  スキル6",
+    "ptBR": "  Habilidade 6",
+    "ruRU": "  Умение 6",
+    "zhCN": " 技能 6"
   },
   {
     "id": 26188,
     "Key": "ControllerHelpSkill5",
-    "enUS": "\uE00C  Skill 5",
-    "zhTW": "\uE00C 技能 5",
-    "deDE": "\uE00C  Fertigkeit 5",
-    "esES": "\uE00C Habilidad 5",
-    "frFR": "\uE00C  Compétence 5",
-    "itIT": "\uE00C  Abilità 5",
-    "koKR": "\uE00C  기술 5",
-    "plPL": "\uE00C  Umiejętność 5",
-    "esMX": "\uE00C  Habilidad 5",
-    "jaJP": "\uE00C  スキル5",
-    "ptBR": "\uE00C  Habilidade 5",
-    "ruRU": "\uE00C  Умение 5",
-    "zhCN": "\uE00C  技能 5"
+    "enUS": "  Skill 5",
+    "zhTW": " 技能 5",
+    "deDE": "  Fertigkeit 5",
+    "esES": " Habilidad 5",
+    "frFR": "  Compétence 5",
+    "itIT": "  Abilità 5",
+    "koKR": "  기술 5",
+    "plPL": "  Umiejętność 5",
+    "esMX": "  Habilidad 5",
+    "jaJP": "  スキル5",
+    "ptBR": "  Habilidade 5",
+    "ruRU": "  Умение 5",
+    "zhCN": " 技能 5"
   },
   {
     "id": 26189,
     "Key": "ControllerHelpSkill4",
-    "enUS": "\uE012  Skill 4",
-    "zhTW": "\uE012 技能 4",
-    "deDE": "\uE012  Fertigkeit 4",
-    "esES": "\uE012 Habilidad 4",
-    "frFR": "\uE012  Compétence 4",
-    "itIT": "\uE012  Abilità 4",
-    "koKR": "\uE012  기술 4",
-    "plPL": "\uE012  Umiejętność 4",
-    "esMX": "\uE012  Habilidad 4",
-    "jaJP": "\uE012  スキル4",
-    "ptBR": "\uE012  Habilidade 4",
-    "ruRU": "\uE012  Умение 4",
-    "zhCN": "\uE012  技能 4"
+    "enUS": "  Skill 4",
+    "zhTW": " 技能 4",
+    "deDE": "  Fertigkeit 4",
+    "esES": " Habilidad 4",
+    "frFR": "  Compétence 4",
+    "itIT": "  Abilità 4",
+    "koKR": "  기술 4",
+    "plPL": "  Umiejętność 4",
+    "esMX": "  Habilidad 4",
+    "jaJP": "  スキル4",
+    "ptBR": "  Habilidade 4",
+    "ruRU": "  Умение 4",
+    "zhCN": " 技能 4"
   },
   {
     "id": 26190,
     "Key": "ControllerHelpSkill3",
-    "enUS": "\uE010  Skill 3",
-    "zhTW": "\uE010 技能 3",
-    "deDE": "\uE010  Fertigkeit 3",
-    "esES": "\uE010 Habilidad 3",
-    "frFR": "\uE010  Compétence 3",
-    "itIT": "\uE010  Abilità 3",
-    "koKR": "\uE010  기술 3",
-    "plPL": "\uE010  Umiejętność 3",
-    "esMX": "\uE010  Habilidad 3",
-    "jaJP": "\uE010  スキル3",
-    "ptBR": "\uE010  Habilidade 3",
-    "ruRU": "\uE010  Умение 3",
-    "zhCN": "\uE010  技能 3"
+    "enUS": "  Skill 3",
+    "zhTW": " 技能 3",
+    "deDE": "  Fertigkeit 3",
+    "esES": " Habilidad 3",
+    "frFR": "  Compétence 3",
+    "itIT": "  Abilità 3",
+    "koKR": "  기술 3",
+    "plPL": "  Umiejętność 3",
+    "esMX": "  Habilidad 3",
+    "jaJP": "  スキル3",
+    "ptBR": "  Habilidade 3",
+    "ruRU": "  Умение 3",
+    "zhCN": " 技能 3"
   },
   {
     "id": 26191,
     "Key": "ControllerHelpSkill2",
-    "enUS": "\uE011  Skill 2",
-    "zhTW": "\uE011 技能 2",
-    "deDE": "\uE011  Fertigkeit 2",
-    "esES": "\uE011 Habilidad 2",
-    "frFR": "\uE011  Compétence 2",
-    "itIT": "\uE011  Abilità 2",
-    "koKR": "\uE011  기술 2",
-    "plPL": "\uE011  Umiejętność 2",
-    "esMX": "\uE011  Habilidad 2",
-    "jaJP": "\uE011  スキル2",
-    "ptBR": "\uE011  Habilidade 2",
-    "ruRU": "\uE011  Умение 2",
-    "zhCN": "\uE011  技能2"
+    "enUS": "  Skill 2",
+    "zhTW": " 技能 2",
+    "deDE": "  Fertigkeit 2",
+    "esES": " Habilidad 2",
+    "frFR": "  Compétence 2",
+    "itIT": "  Abilità 2",
+    "koKR": "  기술 2",
+    "plPL": "  Umiejętność 2",
+    "esMX": "  Habilidad 2",
+    "jaJP": "  スキル2",
+    "ptBR": "  Habilidade 2",
+    "ruRU": "  Умение 2",
+    "zhCN": " 技能 2"
   },
   {
     "id": 26192,
     "Key": "ControllerHelpSkill1",
-    "enUS": "\uE00F  Skill 1",
-    "zhTW": "\uE00F 技能 1",
-    "deDE": "\uE00F  Fertigkeit 1",
-    "esES": "\uE00F Habilidad 1",
-    "frFR": "\uE00F  Compétence 1",
-    "itIT": "\uE00F  Abilità 1",
-    "koKR": "\uE00F  기술 1",
-    "plPL": "\uE00F  Umiejętność 1",
-    "esMX": "\uE00F  Habilidad 1",
-    "jaJP": "\uE00F  スキル1",
-    "ptBR": "\uE00F  Habilidade 1",
-    "ruRU": "\uE00F  Умение 1",
-    "zhCN": "\uE00F  技能1"
+    "enUS": "  Skill 1",
+    "zhTW": " 技能 1",
+    "deDE": "  Fertigkeit 1",
+    "esES": " Habilidad 1",
+    "frFR": "  Compétence 1",
+    "itIT": "  Abilità 1",
+    "koKR": "  기술 1",
+    "plPL": "  Umiejętność 1",
+    "esMX": "  Habilidad 1",
+    "jaJP": "  スキル1",
+    "ptBR": "  Habilidade 1",
+    "ruRU": "  Умение 1",
+    "zhCN": " 技能 1"
   },
   {
     "id": 26193,
@@ -1646,7 +1646,7 @@
     "jaJP": "ゲームメニュー",
     "ptBR": "Menu do jogo",
     "ruRU": "Меню",
-    "zhCN": "游戏菜单"
+    "zhCN": "遊戲選單"
   },
   {
     "id": 26194,
@@ -1663,7 +1663,7 @@
     "jaJP": "（押す） 武器の切り替え\n（長押し） エモートメニュー",
     "ptBR": "(PRESSIONE) Trocar de arma \n(SEGURE) Roda de emotes",
     "ruRU": "Нажмите для смены оружия \nЗажмите для выбора эмоций",
-    "zhCN": "(按下) 交替武器 \n(按住) 表情滚轮"
+    "zhCN": "（按下）切換武器\n（按住）表情轉盤"
   },
   {
     "id": 26195,
@@ -1680,7 +1680,7 @@
     "jaJP": "スキルバー",
     "ptBR": "Barra de habilidades",
     "ruRU": "Панель умений",
-    "zhCN": "技能栏"
+    "zhCN": "技能面板"
   },
   {
     "id": 26196,
@@ -1697,24 +1697,24 @@
     "jaJP": "スキルの切り替え",
     "ptBR": "Barra de habilidades secundária",
     "ruRU": "Доп. панель умений",
-    "zhCN": "备选技能栏"
+    "zhCN": "非主要技能面板"
   },
   {
     "id": 26313,
     "Key": "ControllerCycleComparisonTooltips",
-    "enUS": "Press \uE00D to Cycle",
-    "zhTW": "按下 \uE00D 切換",
-    "deDE": "\uE00D drücken, um durchzuwechseln",
-    "esES": "Pulsa \uE00D para cambiar",
-    "frFR": "Appuyez sur \uE00D pour naviguer",
-    "itIT": "Premi \uE00D per scorrere",
-    "koKR": "\uE00D 버튼을 눌러 전환",
-    "plPL": "Naciśnij \uE00D, aby przewinąć",
-    "esMX": "Pulsa \uE013 para comparar",
-    "jaJP": "\uE00Dで切り替え",
-    "ptBR": "Pressione \uE00D para alternar",
-    "ruRU": "Нажмите \uE00D для прокрутки",
-    "zhCN": "按\uE00D循环"
+    "enUS": "Press  to Cycle",
+    "zhTW": "按下  切換",
+    "deDE": " drücken, um durchzuwechseln",
+    "esES": "Pulsa  para cambiar",
+    "frFR": "Appuyez sur  pour naviguer",
+    "itIT": "Premi  per scorrere",
+    "koKR": " 버튼을 눌러 전환",
+    "plPL": "Naciśnij , aby przewinąć",
+    "esMX": "Pulsa  para comparar",
+    "jaJP": "で切り替え",
+    "ptBR": "Pressione  para alternar",
+    "ruRU": "Нажмите  для прокрутки",
+    "zhCN": "按下  切換"
   },
   {
     "id": 26327,
@@ -1731,126 +1731,126 @@
     "jaJP": "長押しでベルトに装着",
     "ptBR": "Preencher o cinto",
     "ruRU": "Удерживайте, чтобы заполнить ячейки на поясе",
-    "zhCN": "按住自动装入腰带"
+    "zhCN": "按住以移至腰帶"
   },
   {
     "id": 26334,
     "Key": "UseTokenOfAbsolutionController",
-    "enUS": "Hold \uE013 to reset Stat/Skill Points",
-    "zhTW": "按住 \uE013 以重置屬性與技能點數",
-    "deDE": "\uE013 halten, um Werte und Fertigkeitspunkte zurückzusetzen",
-    "esES": "Mantén pulsado \uE013 para reiniciar los puntos de estadísticas/habilidades",
-    "frFR": "Maintenez \uE013 enfoncé pour réinitialiser les points de stat/compétence",
-    "itIT": "Tieni premuto \uE013 per azzerare abilità e caratteristiche",
-    "koKR": "\uE013 버튼을 길게 눌러 능력치/기술 포인트 초기화",
-    "plPL": "Przytrzymaj \uE013, aby zresetować atrybuty/umiejętności",
-    "esMX": "Mantén pulsado \uE013 para restablecer los puntos de atributo/habilidad",
-    "jaJP": "\uE013長押しでステータスとスキル・ポイントをリセット",
-    "ptBR": "Segure \uE013 para redefinir pontos de habilidades/atributos",
-    "ruRU": "Удерживайте \uE013, чтобы сбросить очки характеристик/умений",
-    "zhCN": "按住\uE013重设属性技能点"
+    "enUS": "Hold  to reset Stat/Skill Points",
+    "zhTW": "按住  以重置屬性與技能點數",
+    "deDE": " halten, um Werte und Fertigkeitspunkte zurückzusetzen",
+    "esES": "Mantén pulsado  para reiniciar los puntos de estadísticas/habilidades",
+    "frFR": "Maintenez  enfoncé pour réinitialiser les points de stat/compétence",
+    "itIT": "Tieni premuto  per azzerare abilità e caratteristiche",
+    "koKR": " 버튼을 길게 눌러 능력치/기술 포인트 초기화",
+    "plPL": "Przytrzymaj , aby zresetować atrybuty/umiejętności",
+    "esMX": "Mantén pulsado  para restablecer los puntos de atributo/habilidad",
+    "jaJP": "長押しでステータスとスキル・ポイントをリセット",
+    "ptBR": "Segure  para redefinir pontos de habilidades/atributos",
+    "ruRU": "Удерживайте , чтобы сбросить очки характеристик/умений",
+    "zhCN": "按住  以重置屬性與技能點數"
   },
   {
     "id": 26339,
     "Key": "ControllerTitleScreenPrompt",
-    "enUS": "Press \uE013 to Begin",
-    "zhTW": "按下 \uE013 開始",
-    "deDE": "\uE013 drücken, um zu beginnen",
-    "esES": "Pulsa \uE013 para empezar",
-    "frFR": "Appuyez sur \uE013 pour commencer",
-    "itIT": "Premi \uE013 per iniziare",
-    "koKR": "\uE013 버튼을 눌러 시작",
-    "plPL": "Naciśnij \uE013, aby rozpocząć",
-    "esMX": "Pulsa \uE013 para comenzar",
-    "jaJP": "\uE013で開始",
-    "ptBR": "Pressione \uE013 para começar",
-    "ruRU": "Нажмите \uE013, чтобы начать",
-    "zhCN": "按\uE013开始"
+    "enUS": "Press  to Begin",
+    "zhTW": "按下  開始",
+    "deDE": " drücken, um zu beginnen",
+    "esES": "Pulsa  para empezar",
+    "frFR": "Appuyez sur  pour commencer",
+    "itIT": "Premi  per iniziare",
+    "koKR": " 버튼을 눌러 시작",
+    "plPL": "Naciśnij , aby rozpocząć",
+    "esMX": "Pulsa  para comenzar",
+    "jaJP": "で開始",
+    "ptBR": "Pressione  para começar",
+    "ruRU": "Нажмите , чтобы начать",
+    "zhCN": "按下  開始"
   },
   {
     "id": 26350,
     "Key": "ControllerInteractButton",
-    "enUS": "\uE013",
-    "zhTW": "\uE013",
-    "deDE": "\uE013",
-    "esES": "\uE013",
-    "frFR": "\uE013",
-    "itIT": "\uE013",
-    "koKR": "\uE013",
-    "plPL": "\uE013",
-    "esMX": "\uE013",
-    "jaJP": "\uE013",
-    "ptBR": "\uE013",
-    "ruRU": "\uE013",
-    "zhCN": "\uE013"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 26356,
     "Key": "ControllerHelpSkill4Switch",
-    "enUS": "\uE015  Skill 4",
-    "zhTW": "\uE015 技能 4",
-    "deDE": "\uE015  Fertigkeit 4",
-    "esES": "\uE015 Habilidad 4",
-    "frFR": "\uE015  Compétence 4",
-    "itIT": "\uE015  Abilità 4",
-    "koKR": "\uE015  기술 4",
-    "plPL": "\uE015  Umiejętność 4",
-    "esMX": "\uE015  Habilidad 4",
-    "jaJP": "\uE015  スキル4",
-    "ptBR": "\uE015  Habilidade 4",
-    "ruRU": "\uE015  Умение 4",
-    "zhCN": "\uE015  技能 4"
+    "enUS": "  Skill 4",
+    "zhTW": " 技能 4",
+    "deDE": "  Fertigkeit 4",
+    "esES": " Habilidad 4",
+    "frFR": "  Compétence 4",
+    "itIT": "  Abilità 4",
+    "koKR": "  기술 4",
+    "plPL": "  Umiejętność 4",
+    "esMX": "  Habilidad 4",
+    "jaJP": "  スキル4",
+    "ptBR": "  Habilidade 4",
+    "ruRU": "  Умение 4",
+    "zhCN": " 技能 4"
   },
   {
     "id": 26357,
     "Key": "ControllerHelpSkill3Switch",
-    "enUS": "\uE016  Skill 3",
-    "zhTW": "\uE016 技能 3",
-    "deDE": "\uE016  Fertigkeit 3",
-    "esES": "\uE016 Habilidad 3",
-    "frFR": "\uE016  Compétence 3",
-    "itIT": "\uE016  Abilità 3",
-    "koKR": "\uE016  기술 3",
-    "plPL": "\uE016  Umiejętność 3",
-    "esMX": "\uE016  Habilidad 3",
-    "jaJP": "\uE016  スキル3",
-    "ptBR": "\uE016  Habilidade 3",
-    "ruRU": "\uE016  Умение 3",
-    "zhCN": "\uE016  技能 3"
+    "enUS": "  Skill 3",
+    "zhTW": " 技能 3",
+    "deDE": "  Fertigkeit 3",
+    "esES": " Habilidad 3",
+    "frFR": "  Compétence 3",
+    "itIT": "  Abilità 3",
+    "koKR": "  기술 3",
+    "plPL": "  Umiejętność 3",
+    "esMX": "  Habilidad 3",
+    "jaJP": "  スキル3",
+    "ptBR": "  Habilidade 3",
+    "ruRU": "  Умение 3",
+    "zhCN": " 技能 3"
   },
   {
     "id": 26358,
     "Key": "ControllerHelpSkill2Switch",
-    "enUS": "\uE014  Skill 2",
-    "zhTW": "\uE014 技能 2",
-    "deDE": "\uE014  Fertigkeit 2",
-    "esES": "\uE014 Habilidad 2",
-    "frFR": "\uE014  Compétence 2",
-    "itIT": "\uE014  Abilità 2",
-    "koKR": "\uE014  기술 2",
-    "plPL": "\uE014  Umiejętność 2",
-    "esMX": "\uE014  Habilidad 2",
-    "jaJP": "\uE014  スキル2",
-    "ptBR": "\uE014  Habilidade 2",
-    "ruRU": "\uE014  Умение 2",
-    "zhCN": "\uE014  技能 2"
+    "enUS": "  Skill 2",
+    "zhTW": " 技能 2",
+    "deDE": "  Fertigkeit 2",
+    "esES": " Habilidad 2",
+    "frFR": "  Compétence 2",
+    "itIT": "  Abilità 2",
+    "koKR": "  기술 2",
+    "plPL": "  Umiejętność 2",
+    "esMX": "  Habilidad 2",
+    "jaJP": "  スキル2",
+    "ptBR": "  Habilidade 2",
+    "ruRU": "  Умение 2",
+    "zhCN": " 技能 2"
   },
   {
     "id": 26359,
     "Key": "ControllerHelpSkill1Switch",
-    "enUS": "\uE013  Skill 1",
-    "zhTW": "\uE013 技能 1",
-    "deDE": "\uE013  Fertigkeit 1",
-    "esES": "\uE013 Habilidad 1",
-    "frFR": "\uE013  Compétence 1",
-    "itIT": "\uE013  Abilità 1",
-    "koKR": "\uE013  기술 1",
-    "plPL": "\uE013  Umiejętność 1",
-    "esMX": "\uE013  Habilidad 1",
-    "jaJP": "\uE013  スキル1",
-    "ptBR": "\uE013  Habilidade 1",
-    "ruRU": "\uE013  Умение 1",
-    "zhCN": "\uE013  技能 1"
+    "enUS": "  Skill 1",
+    "zhTW": " 技能 1",
+    "deDE": "  Fertigkeit 1",
+    "esES": " Habilidad 1",
+    "frFR": "  Compétence 1",
+    "itIT": "  Abilità 1",
+    "koKR": "  기술 1",
+    "plPL": "  Umiejętność 1",
+    "esMX": "  Habilidad 1",
+    "jaJP": "  スキル1",
+    "ptBR": "  Habilidade 1",
+    "ruRU": "  Умение 1",
+    "zhCN": " 技能 1"
   },
   {
     "id": 26382,
@@ -1867,7 +1867,7 @@
     "jaJP": "武器を切り替えると、スキルの割り当てが\n個別になります。",
     "ptBR": "Associações de habilidades serão separadas ao\ntrocar de armas.",
     "ruRU": "Для смены оружия будут назначены\nотдельные кнопки.",
-    "zhCN": "切换武器时技能绑定独立\n不受影响"
+    "zhCN": "切換武器時會切換個別技能設定。"
   },
   {
     "id": 26404,
@@ -1884,7 +1884,7 @@
     "jaJP": "参加をキャンセル",
     "ptBR": "Cancelar entrada",
     "ruRU": "Отмена подключения",
-    "zhCN": "取消加入"
+    "zhCN": "取消"
   },
   {
     "id": 26405,
@@ -1901,24 +1901,24 @@
     "jaJP": "長押しで%s",
     "ptBR": "Segure para %s",
     "ruRU": "Удерживайте – %s",
-    "zhCN": "按住%s"
+    "zhCN": "按住以%s"
   },
   {
     "id": 26411,
     "Key": "EnterCharacterName",
-    "enUS": "Press \uE013 to Enter Name",
-    "zhTW": "按  \uE013 輸入角色名稱",
-    "deDE": "\uE013 drücken, um Charakternamen einzugeben",
-    "esES": "Pulsa \uE013 para introducir un nombre",
-    "frFR": "Appuyez sur \uE013 pour saisir un nom",
-    "itIT": "Premi \uE013 per inserire un nome",
-    "koKR": "\uE013 버튼을 눌러 이름 입력",
-    "plPL": "Naciśnij \uE013, aby wpisać nazwę",
-    "esMX": "Pulsa \uE013 para ingresar un nombre",
-    "jaJP": "\uE013で名前を入力",
-    "ptBR": "Pressione \uE013 para inserir um nome",
-    "ruRU": "Нажмите \uE013, чтобы ввести имя",
-    "zhCN": "按 \uE013输入名称"
+    "enUS": "Press  to Enter Name",
+    "zhTW": "按   輸入角色名稱",
+    "deDE": " drücken, um Charakternamen einzugeben",
+    "esES": "Pulsa  para introducir un nombre",
+    "frFR": "Appuyez sur  pour saisir un nom",
+    "itIT": "Premi  per inserire un nome",
+    "koKR": " 버튼을 눌러 이름 입력",
+    "plPL": "Naciśnij , aby wpisać nazwę",
+    "esMX": "Pulsa  para ingresar un nombre",
+    "jaJP": "で名前を入力",
+    "ptBR": "Pressione  para inserir um nome",
+    "ruRU": "Нажмите , чтобы ввести имя",
+    "zhCN": "按   輸入角色名稱"
   },
   {
     "id": 26415,
@@ -1935,7 +1935,7 @@
     "jaJP": "エモートメニュー",
     "ptBR": "Roda de emotes",
     "ruRU": "Колесо эмоций",
-    "zhCN": "表情滚轮"
+    "zhCN": "表情指令轉盤"
   },
   {
     "id": 26416,
@@ -1952,7 +1952,7 @@
     "jaJP": "エモートメニューを開く",
     "ptBR": "Abrir a roda de emotes",
     "ruRU": "Открыть колесо эмоций",
-    "zhCN": "打开表情滚轮"
+    "zhCN": "開啟表情指令轉盤"
   },
   {
     "id": 26461,
@@ -1969,7 +1969,7 @@
     "jaJP": "ユーザーインターフェイス上のカーソル感度を\n調整します。",
     "ptBR": "Define a sensibilidade do cursor\nna interface de usuário.",
     "ruRU": "Настройка чувствительности указателя\nпри навигации в интерфейсе.",
-    "zhCN": "定义指针在用户界面上的灵敏度。"
+    "zhCN": "在使用者介面的游標靈敏度。"
   },
   {
     "id": 26467,
@@ -1986,7 +1986,7 @@
     "jaJP": "その他",
     "ptBR": "Mais",
     "ruRU": "Еще",
-    "zhCN": "更多"
+    "zhCN": "其他"
   },
   {
     "id": 26468,
@@ -2020,7 +2020,7 @@
     "jaJP": "アイテムのリンク",
     "ptBR": "Compartilhar item",
     "ruRU": "Создать ссылку на предмет",
-    "zhCN": "物品链接"
+    "zhCN": "物品連結"
   },
   {
     "id": 26470,
@@ -2037,7 +2037,7 @@
     "jaJP": "チャットにアイテムのリンクを貼る",
     "ptBR": "Compartilhar item no bate-papo",
     "ruRU": "Разместить ссылку на предмет в чате",
-    "zhCN": "在聊天框中附上物品链接"
+    "zhCN": "在聊天視窗中顯示物品連結"
   },
   {
     "id": 26591,
@@ -2054,7 +2054,7 @@
     "jaJP": "コントローラーを再接続してください",
     "ptBR": "Reconecte o controle",
     "ruRU": "Подключите контроллер повторно",
-    "zhCN": "请重新连接控制器"
+    "zhCN": "請重新連接控制器"
   },
   {
     "id": 26620,
@@ -2071,7 +2071,7 @@
     "jaJP": "プロフィール表示",
     "ptBR": "Mostrar perfil",
     "ruRU": "Профиль",
-    "zhCN": "显示档案"
+    "zhCN": "顯示設定檔"
   },
   {
     "id": 26636,
@@ -2105,7 +2105,7 @@
     "jaJP": "デフォルト",
     "ptBR": "Padrão",
     "ruRU": "По умолчанию",
-    "zhCN": "默认"
+    "zhCN": "預設"
   },
   {
     "id": 26639,
@@ -2122,7 +2122,7 @@
     "jaJP": "フォールンの呪術師を先に倒そう",
     "ptBR": "Concentre-se nos Xamãs Decaídos",
     "ruRU": "Атакуйте падших-шаманов в первую очередь",
-    "zhCN": "集火沉沦魔萨满"
+    "zhCN": "優先擊殺沉淪魔薩滿"
   },
   {
     "id": 26640,
@@ -2139,7 +2139,7 @@
     "jaJP": "フォールンの呪術師を放っておくと仲間のフォールンを蘇生させてしまう。",
     "ptBR": "Se não forem derrotados, os Xamãs Decaídos reviverão os demais Decaídos.",
     "ruRU": "Если падшим-шаманам не помешать, они могут воскресить других падших.",
-    "zhCN": "如果放任不管，沉沦魔萨满会不断地复活阵亡的沉落魔。"
+    "zhCN": "若是置之不理，沉淪魔薩滿會不斷復活死亡的沉淪魔。"
   },
   {
     "id": 26641,
@@ -2156,7 +2156,7 @@
     "jaJP": "ブラッド・レイヴンの動きを鈍らせよう",
     "ptBR": "Desacelere a Rapina Sangrenta",
     "ruRU": "Замедляйте Кровавого Ворона",
-    "zhCN": "减速血鸦"
+    "zhCN": "減緩血鴉的速度"
   },
   {
     "id": 26642,
@@ -2173,7 +2173,7 @@
     "jaJP": "ブラッド・レイヴンに冷気ダメージを与えると攻撃を当てやすくなる。",
     "ptBR": "Dano gélido pode desacelerar a Rapina Sangrenta, tornando-a um alvo mais fácil.",
     "ruRU": "Урон от льда помогает замедлить Кровавого Ворона, благодаря чему по ней становится проще попасть.",
-    "zhCN": "冰霜伤害可以有效减速血鸦，使其更容易被击中。"
+    "zhCN": "冰寒傷害有助於減緩血鴉的速度，這樣比較容易命中對方。"
   },
   {
     "id": 26643,
@@ -2190,7 +2190,7 @@
     "jaJP": "ケルン・ストーンを探そう",
     "ptBR": "Encontre as Pedras Monumentais",
     "ruRU": "Найдите круг камней",
-    "zhCN": "找到石阵"
+    "zhCN": "尋找石陣"
   },
   {
     "id": 26644,
@@ -2207,7 +2207,7 @@
     "jaJP": "イニファスの巻物の解読をアカラが終えたら、石の原野でケルン・ストーンを探すことになる。原野にすぐ移動できるようウェイポイントを起動しておこう。",
     "ptBR": "Quando Akara decifrar o Pergaminho de Inifuss, você precisará encontrar as Pedras Monumentais no Campo Rochoso. Certifique-se de ter acesso ao marco de senda para chegar lá rapidamente.",
     "ruRU": "Когда Акара расшифрует свиток Инифусс, вам понадобится найти круг камней в Каменистом поле. Не забудьте открыть врата странствий в этой области, чтобы быстро добраться туда.",
-    "zhCN": "等阿卡拉破译艾尼弗斯卷轴后，你要找到石块旷野中的石阵。记得使用传送点可以快速前往那里。"
+    "zhCN": "在阿卡拉解讀艾尼弗斯卷軸之後，你必須前往亂石曠野找出石陣。別忘記，傳送平台可以讓你快速抵達那裡。"
   },
   {
     "id": 26645,
@@ -2241,7 +2241,7 @@
     "jaJP": "伯爵夫人は火炎の力を秘めており、攻撃で火炎ダメージを与えてくる。さらに、伯爵夫人は死ぬと爆発する。",
     "ptBR": "A Condessa tem Encantamento Ígneo: os ataques dela causam dano ígneo e o cadáver explode quando ela morre.",
     "ruRU": "Графиня владеет чарами огня, поэтому ее атаки наносят урон от огня, а ее труп взрывается.",
-    "zhCN": "女伯爵的攻击不仅附带火焰伤害，她死亡后的残骸也会爆炸产生火焰伤害。"
+    "zhCN": "女伯爵不光是攻擊會造成火焰傷害，就連屍體也會在死亡後爆炸。"
   },
   {
     "id": 26647,
@@ -2258,7 +2258,7 @@
     "jaJP": "毒物耐性を高めよう",
     "ptBR": "Aumente a resistência a veneno",
     "ruRU": "Повысьте сопротивление яду",
-    "zhCN": "堆高毒素抗性"
+    "zhCN": "提高毒素抗性"
   },
   {
     "id": 26648,
@@ -2275,7 +2275,7 @@
     "jaJP": "アンダリエルは強力な毒ダメージを与えてくる。毒物耐性を高めるか、解毒のポーションを用意しておこう。",
     "ptBR": "Andariel pode causar muito dano venenoso. Use resistência a veneno ou poções de antídoto para ajudar na batalha.",
     "ruRU": "Андариэль может наносить большой урон от яда. Не забудьте повысить свое сопротивление яду или захватить с собой противоядия.",
-    "zhCN": "安达莉尔会造成大量的毒素伤害。最好拥有一定的毒抗或者带上解毒药剂来对付她。"
+    "zhCN": "安達莉爾會造成大量毒素傷害，開戰前記得先加強毒素抗性，或是準備足夠的解毒藥。"
   },
   {
     "id": 26649,
@@ -2292,7 +2292,7 @@
     "jaJP": "ラダメントの死体蘇生を防ごう",
     "ptBR": "Impeça o acesso de Radament a cadáveres",
     "ruRU": "Не позволяйте Радаманту оживлять трупы",
-    "zhCN": "不给罗达门特留尸体"
+    "zhCN": "別讓羅達門特復活屍體"
   },
   {
     "id": 26650,
@@ -2309,7 +2309,7 @@
     "jaJP": "敵を凍結させると死ぬときに砕け散り、ラダメントによる死体蘇生を防ぐことができる。また、ラダメントよりも先に敵の死体を利用するのもいいだろう。",
     "ptBR": "Congelar os inimigos faz com que estilhacem ao morrer, o que não deixa cadáveres para serem revividos por Radament. Também é possível usar os cadáveres antes de Radament!",
     "ruRU": "Замороженные противники при гибели разбиваются на части, в результате чего Радамант не может поднять их из мертвых. Еще вы можете сами воспользоваться их трупами, опередив его!",
-    "zhCN": "冻结的敌人会在死亡后粉碎，不会给罗达门特留下可以复活的躯体。你也可以抢在罗达门特之前用掉敌人的躯体。"
+    "zhCN": "冰凍的敵人在死亡後會碎裂，不會留下屍體，這樣羅達門特就沒屍體可以復活。或者，你得搶先用掉那些屍體！"
   },
   {
     "id": 26651,
@@ -2326,7 +2326,7 @@
     "jaJP": "冷気耐性を高めよう",
     "ptBR": "Proteja-se do frio",
     "ruRU": "Защищайтесь от льда",
-    "zhCN": "抵御冰霜"
+    "zhCN": "防寒措施"
   },
   {
     "id": 26652,
@@ -2343,7 +2343,7 @@
     "jaJP": "冷気耐性を高めると召喚師の攻撃のダメージを軽減できる。",
     "ptBR": "A resistência a gelo pode tornar os ataques do Evocador menos letais.",
     "ruRU": "Сопротивление льду поможет ослабить атаки призывателя.",
-    "zhCN": "冰抗能让召唤者的攻击变得疲软无力。"
+    "zhCN": "冰寒抗性能夠降低召喚師攻擊的致命程度。"
   },
   {
     "id": 26653,
@@ -2360,7 +2360,7 @@
     "jaJP": "ポータルを開こう（必要であれば）",
     "ptBR": "Saia por um portal se necessário",
     "ruRU": "При необходимости отступайте через порталы",
-    "zhCN": "必要时可以传送脱逃"
+    "zhCN": "危急時就用傳送門逃走"
   },
   {
     "id": 26654,
@@ -2377,7 +2377,7 @@
     "jaJP": "タウン・ポータルは戦闘中でも開くことができる。ポーションを使い切ったときは、ポータルで街に戻って補充しよう。",
     "ptBR": "É possível criar Portais da Cidade durante as batalhas, permitindo retornar à cidade para comprar mais poções se necessário.",
     "ruRU": "«Портал в город» можно создавать прямо посреди битвы, чтобы вернуться в город и пополнить запас зелий.",
-    "zhCN": "必要时，你可以在战斗中途打开城镇传送门，返回城镇补给药水。"
+    "zhCN": "在戰鬥中還是可以開啟城鎮傳送門，這樣你就可以返回城鎮補給。"
   },
   {
     "id": 26655,
@@ -2394,7 +2394,7 @@
     "jaJP": "ユニークモンスターを倒そう",
     "ptBR": "Cace um monstro único",
     "ruRU": "Разыщите уникального монстра",
-    "zhCN": "狩猎暗金怪"
+    "zhCN": "獵殺獨特怪物"
   },
   {
     "id": 26656,
@@ -2411,7 +2411,7 @@
     "jaJP": "クラスト港を出てから最初に遭遇するユニークモンスターは、翡翠の小像をドロップする。",
     "ptBR": "A Estatueta de Jade é obtida do primeiro monstro único que você encontrar depois de sair das Docas de Kurast.",
     "ruRU": "За победу над первым уникальным монстром, которого вы встретите после того, как покинете доки Кураста, вы получите нефритовую статуэтку.",
-    "zhCN": "你离开库拉斯特海港后遇到的第一个暗金怪会掉玉石雕像。"
+    "zhCN": "離開庫拉斯特碼頭之後，你遇到的第一個獨特怪物會掉落翠玉塑像。"
   },
   {
     "id": 26657,
@@ -2428,7 +2428,7 @@
     "jaJP": "分断して倒そう",
     "ptBR": "Dividir e conquistar",
     "ruRU": "Разделяйте и властвуйте",
-    "zhCN": "分而歼之"
+    "zhCN": "各個擊破"
   },
   {
     "id": 26658,
@@ -2445,7 +2445,7 @@
     "jaJP": "高等評議会のメンバーを誘い出して引き離すと、戦いやすくなる。",
     "ptBR": "É possível afastar os membros do Alto Conselho para deixar a luta mais fácil.",
     "ruRU": "Членов Верховного совета можно выманить по отдельности, чтобы получить преимущество в бою с ними.",
-    "zhCN": "你可以将高庭理事会的成员诱出，将其逐一解决。"
+    "zhCN": "小心誘敵分散最高議會的成員，藉此降低戰鬥難度。"
   },
   {
     "id": 26659,
@@ -2462,7 +2462,7 @@
     "jaJP": "接近して戦おう",
     "ptBR": "De pertinho",
     "ruRU": "Лицом к лицу",
-    "zhCN": "近墨者下手要黑"
+    "zhCN": "近身作戰"
   },
   {
     "id": 26660,
@@ -2479,7 +2479,7 @@
     "jaJP": "メフィストは遠距離攻撃が得意だ。接近して戦うことで受けるダメージを減らすことができる。",
     "ptBR": "Mefisto tem ataques poderosos de longo alcance, então mantê-lo por perto pode ajudar a reduzir o dano.",
     "ruRU": "Мефисто лучше всего сражается на расстоянии – подойдите к нему поближе, чтобы получать меньше урона.",
-    "zhCN": "墨菲斯托擅长远程攻击，离他越近越能减轻其伤害能力。"
+    "zhCN": "墨菲斯托擅長遠距離戰鬥，因此逼近他身邊有助於減緩傷害。"
   },
   {
     "id": 26661,
@@ -2496,7 +2496,7 @@
     "jaJP": "冷気耐性を高めよう",
     "ptBR": "Aumente a resistência a gelo",
     "ruRU": "Повысьте сопротивление льду",
-    "zhCN": "堆高冰霜抗性"
+    "zhCN": "加強冰寒抗性"
   },
   {
     "id": 26662,
@@ -2513,7 +2513,7 @@
     "jaJP": "イズアルは冷気属性の攻撃を行ってくる。冷気耐性を高めるか、解氷のポーションを用意しておこう。",
     "ptBR": "Izual tem ataques gélidos. Use resistência a gelo ou poções descongelantes para ajudar na batalha.",
     "ruRU": "Атаки Изуала наносят урон от льда. Не забудьте повысить свое сопротивление льду или захватить с собой зелья оттаивания.",
-    "zhCN": "衣卒尔使用冰霜攻击。最好要有一定的冰抗或带上解冻药水来对付他。"
+    "zhCN": "伊卒爾的攻擊帶有冰寒屬性，開戰前記得提高冰寒抗性，或是攜帶融冰藥水。"
   },
   {
     "id": 26663,
@@ -2530,7 +2530,7 @@
     "jaJP": "へファストを孤立させよう",
     "ptBR": "Isole Hefasto",
     "ruRU": "Изолируйте Гефасто",
-    "zhCN": "使赫法斯托孤立无援"
+    "zhCN": "孤立海法斯特"
   },
   {
     "id": 26664,
@@ -2547,7 +2547,7 @@
     "jaJP": "へファストは炉から誘い出して孤立させることができる。",
     "ptBR": "É possível atrair Hefasto para longe da forja para isolá-lo.",
     "ruRU": "Гефасто можно увести подальше от кузни и сразиться с ним в одиночку.",
-    "zhCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。"
+    "zhCN": "你可以引開海法斯特遠離熔爐，這樣他就獨立無援了。"
   },
   {
     "id": 26665,
@@ -2564,7 +2564,7 @@
     "jaJP": "ポータルを設置する場所に注意しよう",
     "ptBR": "Cuidado com o posicionamento do portal",
     "ruRU": "Размещайте порталы с осторожностью",
-    "zhCN": "小心传送门放置"
+    "zhCN": "注意傳送門的位置"
   },
   {
     "id": 26666,
@@ -2581,7 +2581,7 @@
     "jaJP": "戦いから逃げ出すときは、タウン・ポータルがディアブロの視界に入らないようにしよう。視界に入るとポータルにボーンプリズンを使ってくる可能性がある。",
     "ptBR": "Se você precisar recuar da luta, certifique-se de que o Portal da Cidade esteja fora do campo de visão de Diablo ou ele poderá lançar Prisão de Ossos no portal.",
     "ruRU": "Если вам требуется отступить, постарайтесь открыть портал вне поля зрения Диабло, чтобы он не мог применить «Костяную клетку» в этой области.",
-    "zhCN": "如果你需要从战斗中撤退，一定要将你的城镇传送门放置在迪亚波罗的视野之外，否则他会对其释放骨牢。"
+    "zhCN": "如果你需要從戰鬥中撤退，記得把城鎮傳送門放在迪亞布羅的視線之外，否則他可能會對傳送門施放骨牢。"
   },
   {
     "id": 26667,
@@ -2598,7 +2598,7 @@
     "jaJP": "オーバーシアーを先に倒そう",
     "ptBR": "Concentre-se nos Capatazes",
     "ruRU": "В первую очередь атакуйте надзирателей",
-    "zhCN": "集火督军"
+    "zhCN": "優先對付督軍"
   },
   {
     "id": 26668,
@@ -2615,7 +2615,7 @@
     "jaJP": "オーバーシアーは手下を狂乱状態にし、こちらへ突撃させて爆発させてくる。",
     "ptBR": "Os Capatazes podem fazer os lacaios entrarem em frenesi, investindo contra você e explodindo.",
     "ruRU": "Надзиратели могут вызвать у своих прислужников неистовство, отчего те устремятся к вам и взорвутся.",
-    "zhCN": "督军们会使爪牙陷入狂乱，逼迫其向你发动自杀式冲锋。"
+    "zhCN": "督軍能讓小兵陷入狂亂，衝向你自爆。"
   },
   {
     "id": 26669,
@@ -2632,7 +2632,7 @@
     "jaJP": "マドウクを先に倒そう",
     "ptBR": "Concentre-se em Madawc",
     "ruRU": "Атакуйте Мадавка в первую очередь",
-    "zhCN": "集火马道克"
+    "zhCN": "優先對付馬道克"
   },
   {
     "id": 26670,
@@ -2649,7 +2649,7 @@
     "jaJP": "マドウクのダブルスローをくらうと、スタンして敵から集中攻撃を浴びてしまう可能性がある。マドウクを最初に狙おう。",
     "ptBR": "O arremesso duplo de Madawc pode atordoar por tempo o bastante para que outros inimigos desfiram golpes fatais. Tente atacá-lo primeiro.",
     "ruRU": "Мадавк может оглушить вас двойным броском и позволить своим соратникам нанести смертельный урон. Постарайтесь атаковать его первым.",
-    "zhCN": "马道克的双手投掷会击晕你，让你无法躲避其他先祖的致命打击。最好先解决他。"
+    "zhCN": "馬道克的雙手投擲技能會使你昏迷，讓另外兩人能趁機對你造成致命傷害。盡量優先打敗他。"
   },
   {
     "id": 26681,
@@ -2666,7 +2666,7 @@
     "jaJP": "コントローラーの振動",
     "ptBR": "Vibração do controle",
     "ruRU": "Вибрация контроллера",
-    "zhCN": "控制器震动"
+    "zhCN": "控制器震動功能"
   },
   {
     "id": 26682,
@@ -2683,7 +2683,7 @@
     "jaJP": "コントローラーの振動機能を有効化します。",
     "ptBR": "Ative a vibração do controle.",
     "ruRU": "Включает вибрацию контроллера.",
-    "zhCN": "启用控制器震动"
+    "zhCN": "開啟控制器震動功能。"
   },
   {
     "id": 26691,
@@ -2700,7 +2700,7 @@
     "jaJP": "武器の切り替え",
     "ptBR": "Trocar de arma",
     "ruRU": "Сменить оружие",
-    "zhCN": "切换武器"
+    "zhCN": "更換武器"
   },
   {
     "id": 26692,
@@ -2717,7 +2717,7 @@
     "jaJP": "武器を切り替える",
     "ptBR": "Trocar de arma",
     "ruRU": "Сменить оружие",
-    "zhCN": "切换武器"
+    "zhCN": "更換武器"
   },
   {
     "id": 26693,
@@ -2734,7 +2734,7 @@
     "jaJP": "オートマップ",
     "ptBR": "Mapa automático",
     "ruRU": "Карта",
-    "zhCN": "透视地图"
+    "zhCN": "自動地圖"
   },
   {
     "id": 26694,
@@ -2751,7 +2751,7 @@
     "jaJP": "オートマップを表示する",
     "ptBR": "Mapa automático",
     "ruRU": "Карта",
-    "zhCN": "透视地图"
+    "zhCN": "自動地圖"
   },
   {
     "id": 26695,
@@ -2768,7 +2768,7 @@
     "jaJP": "アイテム表示",
     "ptBR": "Mostrar itens",
     "ruRU": "Показать предметы",
-    "zhCN": "显示物品"
+    "zhCN": "顯示物品"
   },
   {
     "id": 26696,
@@ -2785,7 +2785,7 @@
     "jaJP": "アイテム・ラベルの表示を切り替える",
     "ptBR": "Ativar/desativar legendas de itens",
     "ruRU": "Названия предметов",
-    "zhCN": "打开/关闭物品标签"
+    "zhCN": "切換物品名稱"
   },
   {
     "id": 26697,
@@ -2802,7 +2802,7 @@
     "jaJP": "走り/歩きの切り替え",
     "ptBR": "Ativar/desativar correr",
     "ruRU": "Бег",
-    "zhCN": "奔跑切换"
+    "zhCN": "跑步切換"
   },
   {
     "id": 26698,
@@ -2819,7 +2819,7 @@
     "jaJP": "走り/歩きを切り替える",
     "ptBR": "Alternar caminhada/corrida",
     "ruRU": "Ходьба/бег",
-    "zhCN": "切换行走或奔跑"
+    "zhCN": "切換行走 / 跑步"
   },
   {
     "id": 26700,
@@ -2836,24 +2836,24 @@
     "jaJP": "インタラクト",
     "ptBR": "Interagir",
     "ruRU": "Взаимодействие",
-    "zhCN": "交互"
+    "zhCN": "互動"
   },
   {
     "id": 26728,
     "Key": "SelectButtonNoteText",
-    "enUS": "Note: Pressing\uE013interacts/loots in addition to performing bound skill",
-    "zhTW": "請注意：按下\uE013會進行綁定技能，或是互動及拾取",
-    "deDE": "Hinweis: \uE013 löst zusätzlich zur belegten Fertigkeit Interagieren/Plündern aus.",
-    "esES": "Nota: pulsar \uE013 recoge botín e interactúa, además de realizar la habilidad vinculada",
-    "frFR": "Remarque : appuyer sur\uE013interagit/dérobe en plus de lancer la compétence liée au raccourci.",
-    "itIT": "Nota: premere\uE013interagisce/depreda oltre a lanciare l'abilità impostata",
-    "koKR": "참고: \uE013 버튼은 지정된 기술 사용 외에도 교류 및 아이템 획득 용도로도 사용됩니다.",
-    "plPL": "Uwaga: Naciśnięcie\uE013powoduje interakcję/zebranie łupów oprócz użycia przypisanej umiejętności",
-    "esMX": "Nota: Pulsar \uE013 interactúa/saquea además de realizar la habilidad vinculada",
-    "jaJP": "注意: \uE013を押すと割り当てられたスキルに加えて、インタラクト、漁るの動作を行います",
-    "ptBR": "Observação: Pressionar\uE013interage/saqueia além de realizar a habilidade associada",
-    "ruRU": "Примечание: \uE013 отвечает за взаимодействие и сбор добычи (вдобавок к назначенному умению).",
-    "zhCN": "提示：按\uE013交互/拾取还可以施放绑定的技能"
+    "enUS": "Note: Pressinginteracts/loots in addition to performing bound skill",
+    "zhTW": "請注意：按下會進行綁定技能，或是互動及拾取",
+    "deDE": "Hinweis:  löst zusätzlich zur belegten Fertigkeit Interagieren/Plündern aus.",
+    "esES": "Nota: pulsar  recoge botín e interactúa, además de realizar la habilidad vinculada",
+    "frFR": "Remarque : appuyer surinteragit/dérobe en plus de lancer la compétence liée au raccourci.",
+    "itIT": "Nota: premereinteragisce/depreda oltre a lanciare l'abilità impostata",
+    "koKR": "참고:  버튼은 지정된 기술 사용 외에도 교류 및 아이템 획득 용도로도 사용됩니다.",
+    "plPL": "Uwaga: Naciśnięciepowoduje interakcję/zebranie łupów oprócz użycia przypisanej umiejętności",
+    "esMX": "Nota: Pulsar  interactúa/saquea además de realizar la habilidad vinculada",
+    "jaJP": "注意: を押すと割り当てられたスキルに加えて、インタラクト、漁るの動作を行います",
+    "ptBR": "Observação: Pressionarinterage/saqueia além de realizar a habilidade associada",
+    "ruRU": "Примечание:  отвечает за взаимодействие и сбор добычи (вдобавок к назначенному умению).",
+    "zhCN": "請注意：按下會進行綁定技能，或是互動及拾取"
   },
   {
     "id": 26789,
@@ -2870,7 +2870,7 @@
     "jaJP": "グラフィックモード",
     "ptBR": "Modo de gráficos",
     "ruRU": "Графический режим",
-    "zhCN": "画质模式"
+    "zhCN": "影像模式"
   },
   {
     "id": 26790,
@@ -2887,7 +2887,7 @@
     "jaJP": "グラフィック優先",
     "ptBR": "Qualidade",
     "ruRU": "Качество",
-    "zhCN": "质量"
+    "zhCN": "品質"
   },
   {
     "id": 26791,
@@ -2904,41 +2904,41 @@
     "jaJP": "パフォーマンス優先",
     "ptBR": "Desempenho",
     "ruRU": "Быстродействие",
-    "zhCN": "性能表现"
+    "zhCN": "效能"
   },
   {
     "id": 26803,
     "Key": "ControllerHelpRunIcon",
-    "enUS": "\uE007",
-    "zhTW": "\uE007",
-    "deDE": "\uE007",
-    "esES": "\uE007",
-    "frFR": "\uE007",
-    "itIT": "\uE007",
-    "koKR": "\uE007",
-    "plPL": "\uE007",
-    "esMX": "\uE007",
-    "jaJP": "\uE007",
-    "ptBR": "\uE007",
-    "ruRU": "\uE007",
-    "zhCN": "\uE007"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 26804,
     "Key": "ControllerHelpEmoteIcon",
-    "enUS": "\uE009",
-    "zhTW": "\uE009",
-    "deDE": "\uE009",
-    "esES": "\uE009",
-    "frFR": "\uE009",
-    "itIT": "\uE00A",
-    "koKR": "\uE009",
-    "plPL": "\uE009",
-    "esMX": "\uE009",
-    "jaJP": "\uE009",
-    "ptBR": "\uE009",
-    "ruRU": "\uE009",
-    "zhCN": "\uE009"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 26844,
@@ -2955,7 +2955,7 @@
     "jaJP": "ボタンスキル",
     "ptBR": "Habilidade do mouse",
     "ruRU": "Клавиша навыка",
-    "zhCN": "按钮技能"
+    "zhCN": "技能"
   },
   {
     "id": 26845,
@@ -2972,7 +2972,7 @@
     "jaJP": "ボタンを押してスキルを割り当て",
     "ptBR": "Botão para reatribuir a habilidade",
     "ruRU": "Назначьте кнопку для умения",
-    "zhCN": "重新绑定技能"
+    "zhCN": "重新綁定技能"
   },
   {
     "id": 26846,
@@ -2989,7 +2989,7 @@
     "jaJP": "キー/ボタン 1",
     "ptBR": "Tecla/botão 1",
     "ruRU": "Клавиша/кнопка 1",
-    "zhCN": "键/按钮一"
+    "zhCN": "按鍵 / 按鈕1"
   },
   {
     "id": 26847,
@@ -3006,7 +3006,7 @@
     "jaJP": "キー/ボタン 2",
     "ptBR": "Tecla/botão 2",
     "ruRU": "Клавиша/кнопка 2",
-    "zhCN": "键/按钮二"
+    "zhCN": "按鍵 / 按鈕2"
   },
   {
     "id": 26848,
@@ -3023,7 +3023,7 @@
     "jaJP": "パーティーの表示",
     "ptBR": "MOSTRAR GRUPO",
     "ruRU": "ПОКАЗЫВАТЬ ГРУППУ",
-    "zhCN": "显示队伍"
+    "zhCN": "顯示隊伍"
   },
   {
     "id": 26849,
@@ -3040,7 +3040,7 @@
     "jaJP": "パーティーメンバーの表示",
     "ptBR": "Mostrar membros do grupo",
     "ruRU": "Показывать участников группы",
-    "zhCN": "显示队伍成员"
+    "zhCN": "顯示隊伍成員"
   },
   {
     "id": 26850,
@@ -3057,7 +3057,7 @@
     "jaJP": "パーティー",
     "ptBR": "Grupo",
     "ruRU": "Группа",
-    "zhCN": "队伍"
+    "zhCN": "隊伍"
   },
   {
     "id": 26851,
@@ -3074,7 +3074,7 @@
     "jaJP": " がパーティーの申し込みを取り消しました。",
     "ptBR": " cancelou o convite para o grupo.",
     "ruRU": " отклоняет приглашение.",
-    "zhCN": "取消了队伍邀请。"
+    "zhCN": "取消了加入隊伍的邀請。"
   },
   {
     "id": 26852,
@@ -3091,7 +3091,7 @@
     "jaJP": "が悪の軍勢に立ち向かうパーティーに加わりました。",
     "ptBR": " entrou no seu grupo para lutar contra as forças do mal.",
     "ruRU": " присоединяется к группе, чтобы вместе бороться с силами зла.",
-    "zhCN": "已加入你的队伍，一起对抗邪恶。"
+    "zhCN": "加入你的隊伍一起對抗邪惡勢力。"
   },
   {
     "id": 26853,
@@ -3108,7 +3108,7 @@
     "jaJP": " がパーティーから抜けました。",
     "ptBR": " saiu do seu grupo.",
     "ruRU": " покидает группу.",
-    "zhCN": "离开了你的队伍。"
+    "zhCN": "離開了你的隊伍。"
   },
   {
     "id": 26854,
@@ -3125,7 +3125,7 @@
     "jaJP": "パーティーに誘います。",
     "ptBR": "para entrar no seu grupo.",
     "ruRU": "в группу.",
-    "zhCN": "加入你的队伍"
+    "zhCN": "加入你的隊伍。"
   },
   {
     "id": 26855,
@@ -3142,7 +3142,7 @@
     "jaJP": "パーティーへの誘いを受けます。",
     "ptBR": "para formar um grupo.",
     "ruRU": "создать группу.",
-    "zhCN": "组队邀请"
+    "zhCN": "加入其隊伍。"
   },
   {
     "id": 26856,
@@ -3159,7 +3159,7 @@
     "jaJP": "現在のパーティーから脱退します。",
     "ptBR": "Clique para sair do grupo.",
     "ruRU": "Выйдите из группы.",
-    "zhCN": "退出队伍"
+    "zhCN": "將自己從隊伍中移除。"
   },
   {
     "id": 26857,
@@ -3176,7 +3176,7 @@
     "jaJP": "あなたのパーティー",
     "ptBR": "No seu grupo",
     "ruRU": "В вашей группе",
-    "zhCN": "在你的队伍中"
+    "zhCN": "在你的隊伍中"
   },
   {
     "id": 26858,
@@ -3193,7 +3193,7 @@
     "jaJP": "他のパーティー",
     "ptBR": "Em um grupo",
     "ruRU": "В группе",
-    "zhCN": "在队伍中"
+    "zhCN": "在隊伍中"
   },
   {
     "id": 26859,
@@ -3210,7 +3210,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26860,
@@ -3227,7 +3227,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26861,
@@ -3244,7 +3244,7 @@
     "jaJP": "マップのパーティー表示",
     "ptBR": "Grupo no mapa automático",
     "ruRU": "Группа на карте",
-    "zhCN": "透视地图上的队伍"
+    "zhCN": "自動地圖上的隊伍"
   },
   {
     "id": 26862,
@@ -3261,7 +3261,7 @@
     "jaJP": "コントローラーのスティック入れ替え",
     "ptBR": "Trocar controles",
     "ruRU": "Переключить джойстики",
-    "zhCN": "交替摇杆"
+    "zhCN": "切換搖桿"
   },
   {
     "id": 26863,
@@ -3278,7 +3278,7 @@
     "jaJP": "コントローラーのスティックの左右を入れ替えます。",
     "ptBR": "Ative para trocar as entradas dos controles esquerdo e direito.",
     "ruRU": "Этот параметр переключает функции ввода левого и правого джойстиков.",
-    "zhCN": "启用后可以交替左右摇杆的输入。"
+    "zhCN": "開啟可切換左右搖桿的輸入。"
   },
   {
     "id": 26864,
@@ -3295,7 +3295,7 @@
     "jaJP": "ボタンスキル",
     "ptBR": "Habilidade do mouse",
     "ruRU": "Клавиша навыка",
-    "zhCN": "键技能"
+    "zhCN": "技能"
   },
   {
     "id": 26865,
@@ -3312,7 +3312,7 @@
     "jaJP": "ボタンを押してスキルを割り当て",
     "ptBR": "Botão para reatribuir a habilidade",
     "ruRU": "Назначьте кнопку для умения",
-    "zhCN": "重新绑定技能"
+    "zhCN": "重新綁定技能"
   },
   {
     "id": 26866,
@@ -3329,7 +3329,7 @@
     "jaJP": "キー/ボタン 1",
     "ptBR": "Tecla/botão 1",
     "ruRU": "Клавиша/кнопка 1",
-    "zhCN": "键/按钮一"
+    "zhCN": "按鍵 / 按鈕1"
   },
   {
     "id": 26867,
@@ -3346,7 +3346,7 @@
     "jaJP": "キー/ボタン 2",
     "ptBR": "Tecla/botão 2",
     "ruRU": "Клавиша/кнопка 2",
-    "zhCN": "键/按钮二"
+    "zhCN": "按鍵 / 按鈕2"
   },
   {
     "id": 26868,
@@ -3363,7 +3363,7 @@
     "jaJP": "パーティーの表示",
     "ptBR": "MOSTRAR GRUPO",
     "ruRU": "ПОКАЗЫВАТЬ ГРУППУ",
-    "zhCN": "显示队伍"
+    "zhCN": "顯示隊伍"
   },
   {
     "id": 26869,
@@ -3380,7 +3380,7 @@
     "jaJP": "パーティーメンバーの表示",
     "ptBR": "Mostrar membros do grupo",
     "ruRU": "Показывать участников группы",
-    "zhCN": "显示队伍成员"
+    "zhCN": "顯示隊伍成員"
   },
   {
     "id": 26870,
@@ -3397,7 +3397,7 @@
     "jaJP": "パーティー",
     "ptBR": "Grupo",
     "ruRU": "Группа",
-    "zhCN": "队伍"
+    "zhCN": "隊伍"
   },
   {
     "id": 26871,
@@ -3414,7 +3414,7 @@
     "jaJP": " がパーティーの申し込みを取り消しました。",
     "ptBR": " cancelou o convite para o grupo.",
     "ruRU": "отклоняет приглашение.",
-    "zhCN": "取消了队伍邀请。"
+    "zhCN": "取消了加入隊伍的邀請。"
   },
   {
     "id": 26872,
@@ -3431,7 +3431,7 @@
     "jaJP": "が悪の軍勢に立ち向かうパーティーに加わりました。",
     "ptBR": " entrou no seu grupo para lutar contra as forças do mal.",
     "ruRU": "присоединяется к группе, чтобы вместе бороться с силами зла.",
-    "zhCN": "已加入你的队伍，一起对抗邪恶。"
+    "zhCN": "加入你的隊伍一起對抗邪惡勢力。"
   },
   {
     "id": 26873,
@@ -3448,7 +3448,7 @@
     "jaJP": " がパーティーから抜けました。",
     "ptBR": " saiu do seu grupo.",
     "ruRU": "покидает группу.",
-    "zhCN": "离开了你的队伍。"
+    "zhCN": "離開了你的隊伍。"
   },
   {
     "id": 26874,
@@ -3465,7 +3465,7 @@
     "jaJP": "パーティーに誘います。",
     "ptBR": "para entrar no seu grupo.",
     "ruRU": "в группу.",
-    "zhCN": "加入你的队伍。"
+    "zhCN": "加入你的隊伍。"
   },
   {
     "id": 26875,
@@ -3482,7 +3482,7 @@
     "jaJP": "パーティーへの誘いを受けます。",
     "ptBR": "para formar um grupo.",
     "ruRU": "создать группу.",
-    "zhCN": "组队邀请"
+    "zhCN": "加入其隊伍。"
   },
   {
     "id": 26876,
@@ -3499,7 +3499,7 @@
     "jaJP": "現在のパーティーから脱退します。",
     "ptBR": "Clique para sair do grupo.",
     "ruRU": "Выйдите из группы.",
-    "zhCN": "退出队伍"
+    "zhCN": "將自己從隊伍中移除。"
   },
   {
     "id": 26877,
@@ -3516,7 +3516,7 @@
     "jaJP": "あなたのパーティー",
     "ptBR": "No seu grupo",
     "ruRU": "В вашей группе",
-    "zhCN": "在你的队伍中"
+    "zhCN": "在你的隊伍中"
   },
   {
     "id": 26878,
@@ -3533,7 +3533,7 @@
     "jaJP": "他のパーティー",
     "ptBR": "Em um grupo",
     "ruRU": "В группе",
-    "zhCN": "在队伍中"
+    "zhCN": "在隊伍中"
   },
   {
     "id": 26879,
@@ -3550,7 +3550,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26880,
@@ -3567,7 +3567,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26881,
@@ -3584,7 +3584,7 @@
     "jaJP": "マップのパーティー表示",
     "ptBR": "Grupo no mapa automático",
     "ruRU": "Группа на карте",
-    "zhCN": "透视地图上的队伍"
+    "zhCN": "自動地圖上的隊伍"
   },
   {
     "id": 26882,
@@ -3601,7 +3601,7 @@
     "jaJP": "左右スティックの入れ替え",
     "ptBR": "Trocar controle direito/esquerdo",
     "ruRU": "Поменять местами левый/правый джойстик",
-    "zhCN": "交替左/右操作杆"
+    "zhCN": "左右操作桿對調"
   },
   {
     "id": 26883,
@@ -3618,7 +3618,7 @@
     "jaJP": "コントローラーのスティックの左右を入れ替えます。",
     "ptBR": "Ative para trocar as entradas dos controles esquerdo e direito.",
     "ruRU": "Этот параметр переключает функции ввода левого и правого джойстиков.",
-    "zhCN": "启用后可以交替左右操作杆的输入。"
+    "zhCN": "開啟可切換左右操作桿的輸入。"
   },
   {
     "id": 26884,
@@ -3635,7 +3635,7 @@
     "jaJP": "ボタンスキル",
     "ptBR": "Habilidade do mouse",
     "ruRU": "Клавиша навыка",
-    "zhCN": "键技能"
+    "zhCN": "技能"
   },
   {
     "id": 26885,
@@ -3652,7 +3652,7 @@
     "jaJP": "ボタンを押してスキルを割り当て",
     "ptBR": "Botão para reatribuir a habilidade",
     "ruRU": "Назначьте кнопку для умения",
-    "zhCN": "重新绑定技能"
+    "zhCN": "重新綁定技能"
   },
   {
     "id": 26886,
@@ -3669,7 +3669,7 @@
     "jaJP": "キー/ボタン 1",
     "ptBR": "Tecla/botão 1",
     "ruRU": "Клавиша/кнопка 1",
-    "zhCN": "键/按钮一"
+    "zhCN": "按鍵 / 按鈕1"
   },
   {
     "id": 26887,
@@ -3686,7 +3686,7 @@
     "jaJP": "キー/ボタン 2",
     "ptBR": "Tecla/botão 2",
     "ruRU": "Клавиша/кнопка 2",
-    "zhCN": "键/按钮二"
+    "zhCN": "按鍵 / 按鈕2"
   },
   {
     "id": 26888,
@@ -3703,7 +3703,7 @@
     "jaJP": "パーティーの表示",
     "ptBR": "MOSTRAR GRUPO",
     "ruRU": "ПОКАЗЫВАТЬ ГРУППУ",
-    "zhCN": "显示队伍"
+    "zhCN": "顯示隊伍"
   },
   {
     "id": 26889,
@@ -3720,7 +3720,7 @@
     "jaJP": "パーティーメンバーの表示",
     "ptBR": "Mostrar membros do grupo",
     "ruRU": "Показывать участников группы",
-    "zhCN": "显示队伍成员"
+    "zhCN": "顯示隊伍成員"
   },
   {
     "id": 26890,
@@ -3737,7 +3737,7 @@
     "jaJP": "パーティー",
     "ptBR": "Grupo",
     "ruRU": "Группа",
-    "zhCN": "队伍"
+    "zhCN": "隊伍"
   },
   {
     "id": 26891,
@@ -3754,7 +3754,7 @@
     "jaJP": " がパーティーの申し込みを取り消しました。",
     "ptBR": " cancelou o convite para o grupo.",
     "ruRU": "отклоняет приглашение.",
-    "zhCN": "取消了队伍邀请。"
+    "zhCN": "取消了加入隊伍的邀請。"
   },
   {
     "id": 26892,
@@ -3771,7 +3771,7 @@
     "jaJP": "が悪の軍勢に立ち向かうパーティーに加わりました。",
     "ptBR": " entrou no seu grupo para lutar contra as forças do mal.",
     "ruRU": "присоединяется к группе, чтобы вместе бороться с силами зла.",
-    "zhCN": "已加入你的队伍，一起对抗邪恶。"
+    "zhCN": "加入你的隊伍一起對抗邪惡勢力。"
   },
   {
     "id": 26893,
@@ -3788,7 +3788,7 @@
     "jaJP": " がパーティーから抜けました。",
     "ptBR": " saiu do seu grupo.",
     "ruRU": "покидает группу.",
-    "zhCN": "离开了你的队伍。"
+    "zhCN": "離開了你的隊伍。"
   },
   {
     "id": 26894,
@@ -3805,7 +3805,7 @@
     "jaJP": "パーティーに誘います。",
     "ptBR": "para entrar no seu grupo.",
     "ruRU": "в группу.",
-    "zhCN": "加入你的队伍。"
+    "zhCN": "加入你的隊伍。"
   },
   {
     "id": 26895,
@@ -3822,7 +3822,7 @@
     "jaJP": "パーティーへの誘いを受けます。",
     "ptBR": "para formar um grupo.",
     "ruRU": "создать группу.",
-    "zhCN": "组队邀请"
+    "zhCN": "加入其隊伍。"
   },
   {
     "id": 26896,
@@ -3839,7 +3839,7 @@
     "jaJP": "現在のパーティーから脱退します。",
     "ptBR": "Clique para sair do grupo.",
     "ruRU": "Выйдите из группы.",
-    "zhCN": "退出队伍"
+    "zhCN": "將自己從隊伍中移除。"
   },
   {
     "id": 26897,
@@ -3856,7 +3856,7 @@
     "jaJP": "あなたのパーティー",
     "ptBR": "No seu grupo",
     "ruRU": "В вашей группе",
-    "zhCN": "在你的队伍中"
+    "zhCN": "在你的隊伍中"
   },
   {
     "id": 26898,
@@ -3873,7 +3873,7 @@
     "jaJP": "他のパーティー",
     "ptBR": "Em um grupo",
     "ruRU": "В группе",
-    "zhCN": "在队伍中"
+    "zhCN": "在隊伍中"
   },
   {
     "id": 26899,
@@ -3890,7 +3890,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26900,
@@ -3907,7 +3907,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26901,
@@ -3924,7 +3924,7 @@
     "jaJP": "マップのパーティー表示",
     "ptBR": "Grupo no mapa automático",
     "ruRU": "Группа на карте",
-    "zhCN": "透视地图上的队伍"
+    "zhCN": "自動地圖上的隊伍"
   },
   {
     "id": 26902,
@@ -3941,7 +3941,7 @@
     "jaJP": "左右スティックの入れ替え",
     "ptBR": "Trocar controle analógico direito/esquerdo",
     "ruRU": "Поменять местами левый/правый джойстик",
-    "zhCN": "交替左/右操作杆"
+    "zhCN": "左右操作桿對調"
   },
   {
     "id": 26903,
@@ -3958,7 +3958,7 @@
     "jaJP": "コントローラーのスティックの左右を入れ替えます。",
     "ptBR": "Ative para trocar as entradas dos controles analógicos esquerdo e direito.",
     "ruRU": "Этот параметр переключает функции ввода левого и правого джойстиков.",
-    "zhCN": "启用后可以交替左右操作杆的输入。"
+    "zhCN": "開啟可切換左右操作桿的輸入。"
   },
   {
     "id": 26904,
@@ -3975,7 +3975,7 @@
     "jaJP": "ボタンスキル",
     "ptBR": "Habilidade do mouse",
     "ruRU": "Клавиша навыка",
-    "zhCN": "键技能"
+    "zhCN": "技能"
   },
   {
     "id": 26905,
@@ -3992,7 +3992,7 @@
     "jaJP": "ボタンを押してスキルを割り当て",
     "ptBR": "Botão para reatribuir a habilidade",
     "ruRU": "Назначьте кнопку для умения",
-    "zhCN": "重新绑定技能"
+    "zhCN": "重新綁定技能"
   },
   {
     "id": 26906,
@@ -4009,7 +4009,7 @@
     "jaJP": "キー/ボタン 1",
     "ptBR": "Tecla/botão 1",
     "ruRU": "Клавиша/кнопка 1",
-    "zhCN": "键/按钮一"
+    "zhCN": "按鍵 / 按鈕1"
   },
   {
     "id": 26907,
@@ -4026,7 +4026,7 @@
     "jaJP": "キー/ボタン 2",
     "ptBR": "Tecla/botão 2",
     "ruRU": "Клавиша/кнопка 2",
-    "zhCN": "键/按钮二"
+    "zhCN": "按鍵 / 按鈕2"
   },
   {
     "id": 26908,
@@ -4043,7 +4043,7 @@
     "jaJP": "パーティーの表示",
     "ptBR": "MOSTRAR GRUPO",
     "ruRU": "ПОКАЗЫВАТЬ ГРУППУ",
-    "zhCN": "显示队伍"
+    "zhCN": "顯示隊伍"
   },
   {
     "id": 26909,
@@ -4060,7 +4060,7 @@
     "jaJP": "パーティーメンバーの表示",
     "ptBR": "Mostrar membros do grupo",
     "ruRU": "Показывать участников группы",
-    "zhCN": "显示队伍成员"
+    "zhCN": "顯示隊伍成員"
   },
   {
     "id": 26910,
@@ -4077,7 +4077,7 @@
     "jaJP": "パーティー",
     "ptBR": "Grupo",
     "ruRU": "Группа",
-    "zhCN": "队伍"
+    "zhCN": "隊伍"
   },
   {
     "id": 26911,
@@ -4094,7 +4094,7 @@
     "jaJP": " がパーティーの申し込みを取り消しました。",
     "ptBR": " cancelou o convite para o grupo.",
     "ruRU": "отклоняет приглашение.",
-    "zhCN": "取消了队伍邀请。"
+    "zhCN": "取消了加入隊伍的邀請。"
   },
   {
     "id": 26912,
@@ -4111,7 +4111,7 @@
     "jaJP": "が悪の軍勢に立ち向かうパーティーに加わりました。",
     "ptBR": " entrou no seu grupo para lutar contra as forças do mal.",
     "ruRU": "присоединяется к группе, чтобы вместе бороться с силами зла.",
-    "zhCN": "已加入你的队伍，一起对抗邪恶。"
+    "zhCN": "加入你的隊伍一起對抗邪惡勢力。"
   },
   {
     "id": 26913,
@@ -4128,7 +4128,7 @@
     "jaJP": " がパーティーから抜けました。",
     "ptBR": " saiu do seu grupo.",
     "ruRU": "покидает группу.",
-    "zhCN": "离开了你的队伍。"
+    "zhCN": "離開了你的隊伍。"
   },
   {
     "id": 26914,
@@ -4145,7 +4145,7 @@
     "jaJP": "パーティーに誘います。",
     "ptBR": "para entrar no seu grupo.",
     "ruRU": "в группу.",
-    "zhCN": "加入你的队伍。"
+    "zhCN": "加入你的隊伍。"
   },
   {
     "id": 26915,
@@ -4162,7 +4162,7 @@
     "jaJP": "パーティーへの誘いを受けます。",
     "ptBR": "para formar um grupo.",
     "ruRU": "создать группу.",
-    "zhCN": "组队邀请"
+    "zhCN": "加入其隊伍。"
   },
   {
     "id": 26916,
@@ -4179,7 +4179,7 @@
     "jaJP": "現在のパーティーから脱退します。",
     "ptBR": "Clique para sair do grupo.",
     "ruRU": "Выйдите из группы.",
-    "zhCN": "退出队伍"
+    "zhCN": "將自己從隊伍中移除。"
   },
   {
     "id": 26917,
@@ -4196,7 +4196,7 @@
     "jaJP": "あなたのパーティー",
     "ptBR": "No seu grupo",
     "ruRU": "В вашей группе",
-    "zhCN": "在你的队伍中"
+    "zhCN": "在你的隊伍中"
   },
   {
     "id": 26918,
@@ -4213,7 +4213,7 @@
     "jaJP": "他のパーティー",
     "ptBR": "Em um grupo",
     "ruRU": "В группе",
-    "zhCN": "在队伍中"
+    "zhCN": "在隊伍中"
   },
   {
     "id": 26919,
@@ -4230,7 +4230,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26920,
@@ -4247,7 +4247,7 @@
     "jaJP": "パーティー画面",
     "ptBR": "Menu de grupo",
     "ruRU": "Меню группы",
-    "zhCN": "队伍界面"
+    "zhCN": "隊伍畫面"
   },
   {
     "id": 26921,
@@ -4264,7 +4264,7 @@
     "jaJP": "マップのパーティー表示",
     "ptBR": "Grupo no mapa automático",
     "ruRU": "Группа на карте",
-    "zhCN": "透视地图上的队伍"
+    "zhCN": "自動地圖上的隊伍"
   },
   {
     "id": 26922,
@@ -4281,7 +4281,7 @@
     "jaJP": "コントローラーのスティック入れ替え",
     "ptBR": "Trocar botões",
     "ruRU": "Переключить мини-джойстики",
-    "zhCN": "交替摇杆"
+    "zhCN": "切換操控搖桿"
   },
   {
     "id": 26923,
@@ -4298,7 +4298,7 @@
     "jaJP": "LスティックとRスティックを入れ替えます。",
     "ptBR": "Ative para trocar a entrada do botão esquerdo pela do botão direito e vice-versa.",
     "ruRU": "Этот параметр переключает функции ввода левого и правого мини-джойстиков.",
-    "zhCN": "启用后可以交替L摇杆和R摇杆的输入。"
+    "zhCN": "開啟可切換L操控搖桿和R操控搖桿的輸入。"
   },
   {
     "id": 26959,
@@ -4315,7 +4315,7 @@
     "jaJP": "招待を送りました",
     "ptBR": "Convite enviado",
     "ruRU": "Приглашение отправлено",
-    "zhCN": "邀请已发送"
+    "zhCN": "已送出邀請"
   },
   {
     "id": 26977,
@@ -4332,7 +4332,7 @@
     "jaJP": "アイテム説明で表示される\nボタンの表示/非表示を設定します",
     "ptBR": "Mostrar/ocultar prompts de botão\nanexados em dicas de tela para itens.",
     "ruRU": "Включить/выключить отображение\nназначенных горячих кнопок\nв подсказках к предметам.",
-    "zhCN": "显示或关闭物品说明条中\n附加的热键提示。"
+    "zhCN": "顯示或隱藏物品資訊的提示按鈕。"
   },
   {
     "id": 26978,
@@ -4349,7 +4349,7 @@
     "jaJP": "「アイテムを表示」のボタンを\n押した際の挙動を設定します",
     "ptBR": "Ajusta o funcionamento do botão \"Mostrar itens\nno chão\" quando pressionado.",
     "ruRU": "Изменить принцип действия горячей кнопки,\nназначенной для отображения лежащих\nна земле предметов.",
-    "zhCN": "设置按下“在地面上显示物品”绑定按钮时的行为。"
+    "zhCN": "調整按下「顯示地面物品」按鈕時的顯示時間。"
   },
   {
     "id": 26979,
@@ -4366,7 +4366,7 @@
     "jaJP": "武器切り替えの個別スキルボタン",
     "ptBR": "Botões de habilidade separados de troca de armas",
     "ruRU": "Раздельные кнопки навыков для смены оружия",
-    "zhCN": "切换武器时更换技能按钮"
+    "zhCN": "切換武器有獨立的技能按鈕設定"
   },
   {
     "id": 26980,
@@ -4383,7 +4383,7 @@
     "jaJP": "オフライン・キャラクターを作成し、お使いのシステムに保存します。オンライン・キャラクターとプレイすることはできませんが、インターネット接続なしでプレイできます。",
     "ptBR": "Isso criará um personagem offline. Personagens offline são armazenados no seu sistema como arquivos. Não é possível usar personagens offline para jogar com personagens online. Não é necessário ter uma conexão de Internet para jogar com personagens offline.",
     "ruRU": "Вы создадите локального персонажа. Локальные персонажи сохраняются в вашей системе. Играть локальными персонажами вместе с сетевыми персонажами нельзя. Для игры локальными персонажами интернет-соединение не требуется.",
-    "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
+    "zhCN": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
   },
   {
     "id": 26981,
@@ -4400,7 +4400,7 @@
     "jaJP": "ゲーム中に時刻を表示するか\n設定できます",
     "ptBR": "Ativa/desativa a exibição da hora\nlocal do seu sistema no jogo.",
     "ruRU": "Включает отображение \nсистемных часов.",
-    "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
+    "zhCN": "切換遊戲內顯示的本機系統時鐘。"
   },
   {
     "id": 26982,
@@ -4417,7 +4417,7 @@
     "jaJP": "ボタン長押しでスキップ",
     "ptBR": "Segure qualquer botão para pular",
     "ruRU": "Удерживайте любую кнопку, чтобы пропустить",
-    "zhCN": "长按任意按钮跳过"
+    "zhCN": "按住任意按鈕以略過"
   },
   {
     "id": 26983,
@@ -4434,7 +4434,7 @@
     "jaJP": "アイテム説明で表示される\nボタンの表示/非表示を設定します",
     "ptBR": "Mostrar/ocultar prompts de botão\nanexados em dicas de tela para itens.",
     "ruRU": "Включить/выключить отображение\nназначенных горячих кнопок\nв подсказках к предметам.",
-    "zhCN": "显示或关闭物品说明条中\n附加的热键提示。"
+    "zhCN": "顯示或隱藏物品資訊的提示按鈕。"
   },
   {
     "id": 26984,
@@ -4451,7 +4451,7 @@
     "jaJP": "「アイテムを表示」のボタンを\n押した際の挙動を設定します",
     "ptBR": "Ajusta o funcionamento do botão \"Mostrar itens\nno chão\" quando pressionado.",
     "ruRU": "Изменить принцип действия горячей кнопки,\nназначенной для отображения лежащих\nна земле предметов.",
-    "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。"
+    "zhCN": "調整按下「顯示地面物品」按鈕時的顯示時間。"
   },
   {
     "id": 26985,
@@ -4468,7 +4468,7 @@
     "jaJP": "武器切り替えの個別スキルボタン",
     "ptBR": "Botões de habilidade separados de troca de armas",
     "ruRU": "Раздельные кнопки навыков для смены оружия",
-    "zhCN": "切换武器时更换技能键"
+    "zhCN": "切換武器有獨立的技能按鈕設定"
   },
   {
     "id": 26986,
@@ -4485,7 +4485,7 @@
     "jaJP": "オフライン・キャラクターを作成し、お使いのシステムに保存します。オンライン・キャラクターとプレイすることはできませんが、インターネット接続なしでプレイできます。",
     "ptBR": "Isso criará um personagem offline. Personagens offline são armazenados no seu sistema como arquivos. Não é possível usar personagens offline para jogar com personagens online. Não é necessário ter uma conexão de Internet para jogar com personagens offline.",
     "ruRU": "Вы создадите локального персонажа. Локальные персонажи сохраняются в вашей системе. Играть локальными персонажами вместе с сетевыми персонажами нельзя. Для игры локальными персонажами интернет-соединение не требуется.",
-    "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
+    "zhCN": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
   },
   {
     "id": 26987,
@@ -4502,7 +4502,7 @@
     "jaJP": "ゲーム中に時刻を表示するか\n設定できます",
     "ptBR": "Ativa/desativa a exibição da hora\nlocal do seu sistema no jogo.",
     "ruRU": "Включает отображение \nсистемных часов.",
-    "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
+    "zhCN": "切換遊戲內顯示的本機系統時鐘。"
   },
   {
     "id": 26988,
@@ -4519,7 +4519,7 @@
     "jaJP": "ボタン長押しでスキップ",
     "ptBR": "Segure qualquer botão para pular",
     "ruRU": "Удерживайте любую кнопку, чтобы пропустить",
-    "zhCN": "长按任意键跳过"
+    "zhCN": "按住任意按鈕以略過"
   },
   {
     "id": 26989,
@@ -4536,7 +4536,7 @@
     "jaJP": "アイテム説明で表示される\nボタンの表示/非表示を設定します",
     "ptBR": "Mostrar/ocultar prompts de botão\nanexados em dicas de tela para itens.",
     "ruRU": "Включить/выключить отображение\nназначенных горячих кнопок\nв подсказках к предметам.",
-    "zhCN": "显示或关闭物品说明条中\n附加的热键提示。"
+    "zhCN": "顯示或隱藏物品資訊的提示按鈕。"
   },
   {
     "id": 26990,
@@ -4553,7 +4553,7 @@
     "jaJP": "「アイテムを表示」のボタンを\n押した際の挙動を設定します",
     "ptBR": "Ajusta o funcionamento do botão \"Mostrar itens\nno chão\" quando pressionado.",
     "ruRU": "Изменить принцип действия горячей кнопки,\nназначенной для отображения лежащих\nна земле предметов.",
-    "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。"
+    "zhCN": "調整按下「顯示地面物品」按鈕時的顯示時間。"
   },
   {
     "id": 26991,
@@ -4570,7 +4570,7 @@
     "jaJP": "武器切り替えの個別スキルボタン",
     "ptBR": "Botões de habilidade separados de troca de armas",
     "ruRU": "Раздельные кнопки навыков для смены оружия",
-    "zhCN": "切换武器时更换技能键"
+    "zhCN": "切換武器有獨立的技能按鈕設定"
   },
   {
     "id": 26992,
@@ -4587,7 +4587,7 @@
     "jaJP": "オフライン・キャラクターを作成し、お使いのシステムに保存します。オンライン・キャラクターとプレイすることはできませんが、インターネット接続なしでプレイできます。",
     "ptBR": "Isso criará um personagem offline. Personagens offline são armazenados no seu sistema como arquivos. Não é possível usar personagens offline para jogar com personagens online. Não é necessário ter uma conexão de Internet para jogar com personagens offline.",
     "ruRU": "Вы создадите локального персонажа. Локальные персонажи сохраняются в вашей системе. Играть локальными персонажами вместе с сетевыми персонажами нельзя. Для игры локальными персонажами интернет-соединение не требуется.",
-    "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
+    "zhCN": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
   },
   {
     "id": 26993,
@@ -4604,7 +4604,7 @@
     "jaJP": "ゲーム中に時刻を表示するか\n設定できます",
     "ptBR": "Ativa/desativa a exibição da hora\nlocal do seu sistema no jogo.",
     "ruRU": "Включает отображение \nсистемных часов.",
-    "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
+    "zhCN": "切換遊戲內顯示的本機系統時鐘。"
   },
   {
     "id": 26994,
@@ -4621,7 +4621,7 @@
     "jaJP": "ボタン長押しでスキップ",
     "ptBR": "Segure qualquer botão para pular",
     "ruRU": "Удерживайте любую кнопку, чтобы пропустить",
-    "zhCN": "长按任意键跳过"
+    "zhCN": "按住任意按鈕以略過"
   },
   {
     "id": 26995,
@@ -4638,7 +4638,7 @@
     "jaJP": "アイテム説明で表示される\nボタンの表示/非表示を設定します",
     "ptBR": "Mostrar/ocultar prompts de botão\nanexados em dicas de tela para itens.",
     "ruRU": "Включить/выключить отображение\nназначенных горячих кнопок\nв подсказках к предметам.",
-    "zhCN": "显示或关闭物品说明条中\n附加的热键提示。"
+    "zhCN": "顯示或隱藏物品資訊的提示鍵。"
   },
   {
     "id": 26996,
@@ -4655,7 +4655,7 @@
     "jaJP": "「アイテムを表示」のボタンを\n押した際の挙動を設定します",
     "ptBR": "Ajusta o funcionamento do botão \"Mostrar itens\nno chão\" quando pressionado.",
     "ruRU": "Изменить принцип действия горячей кнопки,\nназначенной для отображения лежащих\nна земле предметов.",
-    "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。"
+    "zhCN": "調整按下「顯示地面物品」鍵時的顯示時間。"
   },
   {
     "id": 26997,
@@ -4672,7 +4672,7 @@
     "jaJP": "武器切り替えの個別スキルボタン",
     "ptBR": "Botões de habilidade separados de troca de armas",
     "ruRU": "Раздельные кнопки навыков для смены оружия",
-    "zhCN": "切换武器时更换技能键"
+    "zhCN": "切換武器有獨立的技能按鍵設定"
   },
   {
     "id": 26998,
@@ -4689,7 +4689,7 @@
     "jaJP": "オフライン・キャラクターを作成し、お使いのシステムに保存します。オンライン・キャラクターとプレイすることはできませんが、インターネット接続なしでプレイできます。",
     "ptBR": "Isso criará um personagem offline. Personagens offline são armazenados no seu sistema como arquivos. Não é possível usar personagens offline para jogar com personagens online. Não é necessário ter uma conexão de Internet para jogar com personagens offline.",
     "ruRU": "Вы создадите локального персонажа. Локальные персонажи сохраняются в вашей системе. Играть локальными персонажами вместе с сетевыми персонажами нельзя. Для игры локальными персонажами интернет-соединение не требуется.",
-    "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
+    "zhCN": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
   },
   {
     "id": 26999,
@@ -4706,7 +4706,7 @@
     "jaJP": "ゲーム中に時刻を表示するか\n設定できます",
     "ptBR": "Ativa/desativa a exibição da hora\nlocal do seu sistema no jogo.",
     "ruRU": "Включает отображение \nсистемных часов.",
-    "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
+    "zhCN": "切換遊戲內顯示的本機系統時鐘。"
   },
   {
     "id": 27000,
@@ -4723,7 +4723,7 @@
     "jaJP": "ボタン長押しでスキップ",
     "ptBR": "Segure qualquer botão para pular",
     "ruRU": "Удерживайте любую кнопку, чтобы пропустить",
-    "zhCN": "长按任意键跳过"
+    "zhCN": "按住任意鍵以略過"
   },
   {
     "id": 27010,
@@ -4740,7 +4740,7 @@
     "jaJP": "画面端のスペースを画面に合わせて調整してください。",
     "ptBR": "Ajuste os cantos da imagem com o direcional ou controles\n até que correspondam aos cantos da tela",
     "ruRU": "Изменяйте размеры изображения с помощью крестовины\nили джойстиков и выровняйте его по краям экрана.",
-    "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
+    "zhCN": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
   },
   {
     "id": 27011,
@@ -4757,7 +4757,7 @@
     "jaJP": "画面端のスペースを方向パッドか左スティックで画面に合わせて調整してください。",
     "ptBR": "Ajuste os cantos da imagem com o direcional ou controles\n até que correspondam aos cantos da tela",
     "ruRU": "Изменяйте размеры изображения с помощью крестовины\nили джойстиков и выровняйте его по краям экрана.",
-    "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
+    "zhCN": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
   },
   {
     "id": 27012,
@@ -4774,7 +4774,7 @@
     "jaJP": "画面端のスペースを方向キーか左スティックで画面に合わせて調整してください。",
     "ptBR": "Ajuste os cantos da imagem com o direcional ou controles\n até que correspondam aos cantos da tela",
     "ruRU": "Изменяйте размеры изображения с помощью крестовины\nили джойстиков и выровняйте его по краям экрана. ZZZZZZZZ",
-    "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐 ZZZZZZZZ"
+    "zhCN": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
   },
   {
     "id": 27013,
@@ -4791,7 +4791,7 @@
     "jaJP": "画面端のスペースを方向キーか左スティックで画面に合わせて調整してください。",
     "ptBR": "Ajuste os cantos da imagem com o direcional ou controles\n até que correspondam aos cantos da tela",
     "ruRU": "Изменяйте размеры изображения с помощью крестовины\nили джойстиков и выровняйте его по краям экрана.",
-    "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
+    "zhCN": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
   },
   {
     "id": 27014,
@@ -4808,7 +4808,7 @@
     "jaJP": "画面端のスペースを方向ボタンかＬスティックで画面に合わせて調整してください。",
     "ptBR": "Ajuste os cantos da imagem com os botões direcionais ou botões esquerdo e direito até que correspondam aos cantos da tela",
     "ruRU": "Изменяйте размеры изображения с помощью клавиш направления\nили джойстиков и выровняйте его по краям экрана.",
-    "zhCN": "使用方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
+    "zhCN": "使用方向鍵或操控搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
   },
   {
     "id": 27015,
@@ -4825,7 +4825,7 @@
     "jaJP": "キャンペーン",
     "ptBR": "Campanha",
     "ruRU": "Кампания",
-    "zhCN": "战役"
+    "zhCN": "劇情模式"
   },
   {
     "id": 27016,
@@ -4842,7 +4842,7 @@
     "jaJP": "長押しでプロフィール表示",
     "ptBR": "Segure para mostrar o perfil",
     "ruRU": "Удерживайте, чтобы посмотреть личные данные",
-    "zhCN": "按住显示个人资料"
+    "zhCN": "按住來顯示玩家資料"
   },
   {
     "id": 27019,
@@ -4876,7 +4876,7 @@
     "jaJP": "傭兵のスキル表示",
     "ptBR": "Mostrar habilidades de mercenário",
     "ruRU": "Показать умения наемников",
-    "zhCN": "显示佣兵技能"
+    "zhCN": "顯示傭兵技能"
   },
   {
     "id": 27023,
@@ -4893,7 +4893,7 @@
     "jaJP": "まだ足りない",
     "ptBR": "Insuficiente",
     "ruRU": "Недостаточно",
-    "zhCN": "还不够"
+    "zhCN": "不夠"
   },
   {
     "id": 27106,
@@ -4910,7 +4910,7 @@
     "jaJP": "PlayStation™Networkリーダーボードを表示",
     "ptBR": "Mostrar classificações da PlayStation™Network",
     "ruRU": "Показать рейтинги PlayStation™Network",
-    "zhCN": "索尼PlayStation™Network天梯榜"
+    "zhCN": "僅顯示 PlayStation™Network 的天梯榜"
   },
   {
     "id": 27143,
@@ -4927,7 +4927,7 @@
     "jaJP": "リーダーボードをPlayStation™Networkのユーザーのみで表示します。",
     "ptBR": "Faz os placares exibirem somente usuários da PlayStation™Network.",
     "ruRU": "Позволяет отображать в рейтинговых таблицах только пользователей PlayStation™Network.",
-    "zhCN": "只在天梯榜上显示PlayStation™Network的用户。"
+    "zhCN": "讓天梯榜只顯示 PlayStation™Network 的玩家。"
   },
   {
     "id": 27203,
@@ -4944,7 +4944,7 @@
     "jaJP": "ベルトに移す",
     "ptBR": "Mover para o cinto",
     "ruRU": "Переместить на пояс",
-    "zhCN": "移至腰带"
+    "zhCN": "移至腰帶"
   },
   {
     "id": 27224,
@@ -4961,7 +4961,7 @@
     "jaJP": "５ステータス・ポイントを割り振る",
     "ptBR": "Atribuir cinco pontos de atributos",
     "ruRU": "Потратить пять очков характеристик",
-    "zhCN": "分配五个属性点"
+    "zhCN": "分配五點屬性點數"
   },
   {
     "id": 27225,
@@ -4978,7 +4978,7 @@
     "jaJP": "全てのステータス・ポイントを割り振る",
     "ptBR": "Atribuir todos os pontos de atributos",
     "ruRU": "Потратить все очки характеристик",
-    "zhCN": "分配所有属性点"
+    "zhCN": "分配全部屬性點數"
   },
   {
     "id": 27241,
@@ -4995,7 +4995,7 @@
     "jaJP": "キューブに収納",
     "ptBR": "Saquear para o Cubo",
     "ruRU": "Поместить в куб",
-    "zhCN": "捡入魔盒"
+    "zhCN": "拾取進方塊"
   },
   {
     "id": 27242,
@@ -5012,7 +5012,7 @@
     "jaJP": "手に入れるアイテムをホラドリムのキューブ内に移動する",
     "ptBR": "Colete itens, armas e armaduras\ne coloque-os no Cubo Horádrico",
     "ruRU": "Подобрать предметы, оружие и доспехи\nи поместить их в хорадримский куб",
-    "zhCN": "拾取物品、武器和护甲\n并将它们放进赫拉迪姆魔盒"
+    "zhCN": "撿起物品、武器和防具並直接將放進赫拉迪姆方塊"
   },
   {
     "id": 27244,
@@ -5029,109 +5029,109 @@
     "jaJP": "キューブを開く",
     "ptBR": "Abrir Cubo",
     "ruRU": "Открыть куб",
-    "zhCN": "打开魔盒"
+    "zhCN": "開啟方塊"
   },
   {
     "id": 27336,
     "Key": "DesecratedIcon",
-    "enUS": "\uE037",
-    "zhTW": "\uE037",
-    "deDE": "\uE037",
-    "esES": "\uE037",
-    "frFR": "\uE037",
-    "itIT": "\uE037",
-    "koKR": "\uE037",
-    "plPL": "\uE037",
-    "esMX": "\uE037",
-    "jaJP": "\uE037",
-    "ptBR": "\uE037",
-    "ruRU": "\uE037",
-    "zhCN": "\uE037"
+    "enUS": "",
+    "zhTW": "",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": ""
   },
   {
     "id": 27569,
     "Key": "UseTerrorTokenAct1Controller",
-    "enUS": "Hold \uE013 to terrorize Act 1",
-    "zhTW": "按住 \uE013 以將第一章設為邪惡威脅區域",
-    "deDE": "\uE013 halten zum Terrorisieren (Akt 1)",
-    "esES": "Mantén pulsado \uE013 para aterrorizar el Acto I",
-    "frFR": "Maintenez \uE013 pour terroriser l’acte I",
-    "itIT": "Tieni premuto \uE013 per terrorizzare l'Atto 1",
-    "koKR": "\uE013 길게 눌러 1막에 공포의 마수 뻗기",
-    "plPL": "Przytrzymaj \uE013, aby Aktem I owładnęła Groza",
-    "esMX": "Mantén pulsado \uE013 para aterrorizar el Acto 1",
-    "jaJP": "\uE013長押しで恐慌化（第1章）",
-    "ptBR": "Segure \uE013 para aterrorizar o Ato 1",
-    "ruRU": "Удерживайте \uE013, чтобы ввергнуть ужас в 1-й акт",
-    "zhCN": "按住\uE013恐惧化第一幕"
+    "enUS": "Hold  to terrorize Act 1",
+    "zhTW": "按住  以將第一章設為邪惡威脅區域",
+    "deDE": " halten zum Terrorisieren (Akt 1)",
+    "esES": "Mantén pulsado  para aterrorizar el Acto I",
+    "frFR": "Maintenez  pour terroriser l’acte I",
+    "itIT": "Tieni premuto  per terrorizzare l'Atto 1",
+    "koKR": " 길게 눌러 1막에 공포의 마수 뻗기",
+    "plPL": "Przytrzymaj , aby Aktem I owładnęła Groza",
+    "esMX": "Mantén pulsado  para aterrorizar el Acto 1",
+    "jaJP": "長押しで恐慌化（第1章）",
+    "ptBR": "Segure  para aterrorizar o Ato 1",
+    "ruRU": "Удерживайте , чтобы ввергнуть ужас в 1-й акт",
+    "zhCN": "按住  以將第一章設為邪惡威脅區域"
   },
   {
     "id": 27570,
     "Key": "UseTerrorTokenAct2Controller",
-    "enUS": "Hold \uE013 to terrorize Act 2",
-    "zhTW": "按住 \uE013 以將第二章設為邪惡威脅區域",
-    "deDE": "\uE013 halten zum Terrorisieren (Akt 2)",
-    "esES": "Mantén pulsado \uE013 para aterrorizar el Acto II",
-    "frFR": "Maintenez \uE013 pour terroriser l’acte II",
-    "itIT": "Tieni premuto \uE013 per terrorizzare l'Atto 2",
-    "koKR": "\uE013 길게 눌러 2막에 공포의 마수 뻗기",
-    "plPL": "Przytrzymaj \uE013, aby Aktem II owładnęła Groza",
-    "esMX": "Mantén pulsado \uE013 para aterrorizar el Acto 2",
-    "jaJP": "\uE013長押しで恐慌化（第2章）",
-    "ptBR": "Segure \uE013 para aterrorizar o Ato 2",
-    "ruRU": "Удерживайте \uE013, чтобы ввергнуть ужас во 2-й акт",
-    "zhCN": "按住\uE013恐惧化第二幕"
+    "enUS": "Hold  to terrorize Act 2",
+    "zhTW": "按住  以將第二章設為邪惡威脅區域",
+    "deDE": " halten zum Terrorisieren (Akt 2)",
+    "esES": "Mantén pulsado  para aterrorizar el Acto II",
+    "frFR": "Maintenez  pour terroriser l’acte II",
+    "itIT": "Tieni premuto  per terrorizzare l'Atto 2",
+    "koKR": " 길게 눌러 2막에 공포의 마수 뻗기",
+    "plPL": "Przytrzymaj , aby Aktem II owładnęła Groza",
+    "esMX": "Mantén pulsado  para aterrorizar el Acto 2",
+    "jaJP": "長押しで恐慌化（第2章）",
+    "ptBR": "Segure  para aterrorizar o Ato 2",
+    "ruRU": "Удерживайте , чтобы ввергнуть ужас во 2-й акт",
+    "zhCN": "按住  以將第二章設為邪惡威脅區域"
   },
   {
     "id": 27571,
     "Key": "UseTerrorTokenAct3Controller",
-    "enUS": "Hold \uE013 to terrorize Act 3",
-    "zhTW": "按住 \uE013 以將第三章設為邪惡威脅區域",
-    "deDE": "\uE013 halten zum Terrorisieren (Akt 3)",
-    "esES": "Mantén pulsado \uE013 para aterrorizar el Acto III",
-    "frFR": "Maintenez \uE013 pour terroriser l’acte III",
-    "itIT": "Tieni premuto \uE013 per terrorizzare l'Atto 3",
-    "koKR": "\uE013 길게 눌러 3막에 공포의 마수 뻗기",
-    "plPL": "Przytrzymaj \uE013, aby Aktem III owładnęła Groza",
-    "esMX": "Mantén pulsado \uE013 para aterrorizar el Acto 3",
-    "jaJP": "\uE013長押しで恐慌化（第3章）",
-    "ptBR": "Segure \uE013 para aterrorizar o Ato 3",
-    "ruRU": "Удерживайте \uE013, чтобы ввергнуть ужас в 3-й акт",
-    "zhCN": "按住\uE013恐惧化第三幕"
+    "enUS": "Hold  to terrorize Act 3",
+    "zhTW": "按住  以將第三章設為邪惡威脅區域",
+    "deDE": " halten zum Terrorisieren (Akt 3)",
+    "esES": "Mantén pulsado  para aterrorizar el Acto III",
+    "frFR": "Maintenez  pour terroriser l’acte III",
+    "itIT": "Tieni premuto  per terrorizzare l'Atto 3",
+    "koKR": " 길게 눌러 3막에 공포의 마수 뻗기",
+    "plPL": "Przytrzymaj , aby Aktem III owładnęła Groza",
+    "esMX": "Mantén pulsado  para aterrorizar el Acto 3",
+    "jaJP": "長押しで恐慌化（第3章）",
+    "ptBR": "Segure  para aterrorizar o Ato 3",
+    "ruRU": "Удерживайте , чтобы ввергнуть ужас в 3-й акт",
+    "zhCN": "按住  以將第三章設為邪惡威脅區域"
   },
   {
     "id": 27572,
     "Key": "UseTerrorTokenAct4Controller",
-    "enUS": "Hold \uE013 to terrorize Act 4",
-    "zhTW": "按住 \uE013 以將第四章設為邪惡威脅區域",
-    "deDE": "\uE013 halten zum Terrorisieren (Akt 4)",
-    "esES": "Mantén pulsado \uE013 para aterrorizar el Acto IV",
-    "frFR": "Maintenez \uE013 pour terroriser l’acte IV",
-    "itIT": "Tieni premuto \uE013 per terrorizzare l'Atto 4",
-    "koKR": "\uE013 길게 눌러 4막에 공포의 마수 뻗기",
-    "plPL": "Przytrzymaj \uE013, aby Aktem IV owładnęła Groza",
-    "esMX": "Mantén pulsado \uE013 para aterrorizar el Acto 4",
-    "jaJP": "\uE013長押しで恐慌化（第4章）",
-    "ptBR": "Segure \uE013 para aterrorizar o Ato 4",
-    "ruRU": "Удерживайте \uE013, чтобы ввергнуть ужас в 4-й акт",
-    "zhCN": "按住\uE013恐惧化第四幕"
+    "enUS": "Hold  to terrorize Act 4",
+    "zhTW": "按住  以將第四章設為邪惡威脅區域",
+    "deDE": " halten zum Terrorisieren (Akt 4)",
+    "esES": "Mantén pulsado  para aterrorizar el Acto IV",
+    "frFR": "Maintenez  pour terroriser l’acte IV",
+    "itIT": "Tieni premuto  per terrorizzare l'Atto 4",
+    "koKR": " 길게 눌러 4막에 공포의 마수 뻗기",
+    "plPL": "Przytrzymaj , aby Aktem IV owładnęła Groza",
+    "esMX": "Mantén pulsado  para aterrorizar el Acto 4",
+    "jaJP": "長押しで恐慌化（第4章）",
+    "ptBR": "Segure  para aterrorizar o Ato 4",
+    "ruRU": "Удерживайте , чтобы ввергнуть ужас в 4-й акт",
+    "zhCN": "按住  以將第四章設為邪惡威脅區域"
   },
   {
     "id": 27573,
     "Key": "UseTerrorTokenAct5Controller",
-    "enUS": "Hold \uE013 to terrorize Act 5",
-    "zhTW": "按住 \uE013 以將第五章設為邪惡威脅區域",
-    "deDE": "\uE013 halten zum Terrorisieren (Akt 5)",
-    "esES": "Mantén pulsado \uE013 para aterrorizar el Acto V",
-    "frFR": "Maintenez \uE013 pour terroriser l’acte V",
-    "itIT": "Tieni premuto \uE013 per terrorizzare l'Atto 5",
-    "koKR": "\uE013 길게 눌러 5막에 공포의 마수 뻗기",
-    "plPL": "Przytrzymaj \uE013, aby Aktem V owładnęła Groza",
-    "esMX": "Mantén pulsado \uE013 para aterrorizar el Acto 5",
-    "jaJP": "\uE013長押しで恐慌化（第5章）",
-    "ptBR": "Segure \uE013 para aterrorizar o Ato 5",
-    "ruRU": "Удерживайте \uE013, чтобы ввергнуть ужас в 5-й акт",
-    "zhCN": "按住\uE013恐惧化第五幕"
+    "enUS": "Hold  to terrorize Act 5",
+    "zhTW": "按住  以將第五章設為邪惡威脅區域",
+    "deDE": " halten zum Terrorisieren (Akt 5)",
+    "esES": "Mantén pulsado  para aterrorizar el Acto V",
+    "frFR": "Maintenez  pour terroriser l’acte V",
+    "itIT": "Tieni premuto  per terrorizzare l'Atto 5",
+    "koKR": " 길게 눌러 5막에 공포의 마수 뻗기",
+    "plPL": "Przytrzymaj , aby Aktem V owładnęła Groza",
+    "esMX": "Mantén pulsado  para aterrorizar el Acto 5",
+    "jaJP": "長押しで恐慌化（第5章）",
+    "ptBR": "Segure  para aterrorizar o Ato 5",
+    "ruRU": "Удерживайте , чтобы ввергнуть ужас в 5-й акт",
+    "zhCN": "按住  以將第五章設為邪惡威脅區域"
   },
   {
     "id": 28011,
@@ -5148,7 +5148,7 @@
     "jaJP": "スタックのタブに移動",
     "ptBR": "Mover para a aba de acúmulo",
     "ruRU": "Перенести во вкладку складываемых предметов",
-    "zhCN": "移动到堆叠栏"
+    "zhCN": "移到儲物箱分頁"
   },
   {
     "id": 28012,
@@ -5165,7 +5165,7 @@
     "jaJP": "%uを移動",
     "ptBR": "Mover %u",
     "ruRU": "Перенести %u",
-    "zhCN": "移动%u个"
+    "zhCN": "移動%u"
   },
   {
     "id": 28053,
@@ -5182,7 +5182,7 @@
     "jaJP": "DUALSHOCK®4ワイヤレスコントローラー",
     "ptBR": "Controle sem fio DUALSHOCK®4",
     "ruRU": "Беспроводной контроллер DUALSHOCK®4",
-    "zhCN": "DUALSHOCK®4 无线控制器"
+    "zhCN": "DUALSHOCK®4 無線控制器"
   },
   {
     "id": 28054,
@@ -5199,7 +5199,7 @@
     "jaJP": "DualSense™ワイヤレスコントローラー",
     "ptBR": "Controle sem fio DualSense™",
     "ruRU": "Беспроводной контроллер DualSense™",
-    "zhCN": "DualSense™ 无线控制器"
+    "zhCN": "DualSense™ 無線控制器"
   },
   {
     "id": 28055,
@@ -5216,7 +5216,7 @@
     "jaJP": "DUALSHOCK®4ワイヤレスコントローラーを再接続してください",
     "ptBR": "Reconecte o controle sem fio DUALSHOCK®4",
     "ruRU": "Пожалуйста, подключите беспроводной контроллер DUALSHOCK®4 повторно",
-    "zhCN": "请重新连接DUALSHOCK®4 无线控制器"
+    "zhCN": "請重新連接 DUALSHOCK®4 無線控制器"
   },
   {
     "id": 28056,
@@ -5233,7 +5233,7 @@
     "jaJP": "DualSense™ワイヤレスコントローラーを再接続してください",
     "ptBR": "Reconecte o controle sem fio DualSense™",
     "ruRU": "Пожалуйста, подключите беспроводной контроллер DualSense™ повторно",
-    "zhCN": "请重新连接DualSense™ 无线控制器"
+    "zhCN": "請重新連接 DualSense™ 無線控制器"
   },
   {
     "id": 28087,
@@ -5250,7 +5250,7 @@
     "jaJP": "アイテム説明のボタンを表示",
     "ptBR": "Mostrar comandos de botão de dicas de itens",
     "ruRU": "Горячие кнопки в подсказках к предметам",
-    "zhCN": "显示物品说明条热键"
+    "zhCN": "顯示物品資訊提示鍵"
   },
   {
     "id": 28088,
@@ -5267,7 +5267,7 @@
     "jaJP": "アイテム説明のボタンを表示",
     "ptBR": "Mostrar comandos de botão de dicas de itens",
     "ruRU": "Горячие кнопки в подсказках к предметам",
-    "zhCN": "显示物品说明条热键"
+    "zhCN": "顯示物品資訊提示按鈕"
   },
   {
     "id": 28089,
@@ -5284,7 +5284,7 @@
     "jaJP": "アイテム説明のボタンを表示",
     "ptBR": "Mostrar comandos de botão de dicas de itens",
     "ruRU": "Горячие кнопки в подсказках к предметам",
-    "zhCN": "显示物品说明条热键"
+    "zhCN": "顯示物品資訊提示按鈕"
   },
   {
     "id": 28090,
@@ -5301,7 +5301,7 @@
     "jaJP": "アイテム説明のボタンを表示",
     "ptBR": "Mostrar comandos de botão de dicas de itens",
     "ruRU": "Горячие кнопки в подсказках к предметам",
-    "zhCN": "显示物品说明条热键"
+    "zhCN": "顯示物品資訊提示按鈕"
   },
   {
     "id": 28091,
@@ -5318,7 +5318,7 @@
     "jaJP": "プロフィールルールを作成して\n「アイテムを表示」ボタンを押した時の挙動を調整します。",
     "ptBR": "Crie um perfil de regras que afeta quais itens\n aparecem quando o botão \"Mostrar itens\" estiver pressionado.",
     "ruRU": "Создайте профиль правил для отображения предметов\nпри нажатии кнопки \"Показать предметы\".",
-    "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
+    "zhCN": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。"
   },
   {
     "id": 28092,
@@ -5335,7 +5335,7 @@
     "jaJP": "プロフィールルールを作成して\n「アイテムを表示」ボタンを押した時の挙動を調整します。",
     "ptBR": "Crie um perfil de regras que afeta quais itens\n aparecem quando o botão \"Mostrar itens\" estiver pressionado.",
     "ruRU": "Создайте профиль правил для отображения предметов\nпри нажатии кнопки \"Показать предметы\".",
-    "zhCN": "创建规则配置，影响按下“显示物品”按钮时\n显示的物品。"
+    "zhCN": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
   },
   {
     "id": 28093,
@@ -5352,7 +5352,7 @@
     "jaJP": "プロフィールルールを作成して\n「アイテムを表示」ボタンを押した時の挙動を調整します。",
     "ptBR": "Crie um perfil de regras que afeta quais itens\n aparecem quando o botão \"Mostrar itens\" estiver pressionado.",
     "ruRU": "Создайте профиль правил для отображения предметов\nпри нажатии кнопки \"Показать предметы\".",
-    "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
+    "zhCN": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
   },
   {
     "id": 28094,
@@ -5369,6 +5369,6 @@
     "jaJP": "プロフィールルールを作成して\n「アイテムを表示」ボタンを押した時の挙動を調整します。",
     "ptBR": "Crie um perfil de regras que afeta quais itens\n aparecem quando o botão \"Mostrar itens\" estiver pressionado.",
     "ruRU": "Создайте профиль правил для отображения предметов\nпри нажатии кнопки \"Показать предметы\".",
-    "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
+    "zhCN": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
   }
 ]

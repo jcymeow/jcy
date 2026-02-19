@@ -4258,8 +4258,7 @@ class FileOperations:
             
             for entity in json_data:
                 _dict[entity.get("Key")] = entity
-
-        return _dict     
+        return _dict
 
 
     def load_uniqueitems(self):

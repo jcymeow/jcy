@@ -18,7 +18,7 @@ class FeatureConfig:
                         {
                             "fid": Function.ZHCN.value,
                             "type": RADIO,
-                            "text": "网易国服-本地化(装备/道具/符文/符文之语/词缀/技能/地图)",
+                            "text": "网易国服-本地化",
                             "colspan": 100,
                             "params": {
                                 Language.ZHCN.value: "简中翻译",
@@ -31,7 +31,7 @@ class FeatureConfig:
                         {
                             "fid": Function.ZHTW.value,
                             "type": RADIO,
-                            "text": "暴雪國際服-本地化(裝備/道具/符文/符文之語/詞綴/技能/地图)",
+                            "text": "暴雪國際服-本地化",
                             "colspan": 100,
                             "params": {
                                 Language.ZHCN.value: "简中翻译",

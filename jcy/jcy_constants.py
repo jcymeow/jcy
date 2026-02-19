@@ -58,19 +58,27 @@ UE01A = "" * 41
 
 # 本地化文档
 LOCAL_FILES = [
+    "bnet.json",
+    "commands.json",
     "item-gems.json",
     "item-modifiers.json",
     "item-nameaffixes.json",
     "item-names.json",
     "item-runes.json",
+    "jcy.json",
+    "keybinds.json",
     "levels.json",
+    "mercenaries.json",
     "monsters.json",
     "npcs.json",
     "objects.json",
+    "presence-states.json",
     "quests.json",
     "shrines.json",
     "skills.json",
-    "jcy.json"
+    "ui.json",
+    "ui-controller.json",
+    "vo.json",
 ]
 
 # Assets

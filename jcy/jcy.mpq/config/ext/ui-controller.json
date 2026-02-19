@@ -1,0 +1,2530 @@
+{
+    "comparisonTooltipController": {
+        "Key": "comparisonTooltipController",
+        "enUS": "Hold  to compare",
+        "zhCN": "按住来比较",
+        "zhTW": "按住  比較",
+        "sgCN": "按住来比较",
+        "sgTW": "按住  比較"
+    },
+    "UseItemController": {
+        "Key": "UseItemController",
+        "enUS": "Hold  to Use",
+        "zhCN": "按住来使用",
+        "zhTW": "按住  使用",
+        "sgCN": "按住来使用",
+        "sgTW": "按住  使用"
+    },
+    "OpenHoradricCubeController": {
+        "Key": "OpenHoradricCubeController",
+        "enUS": "Hold  to Open",
+        "zhCN": "按住来打开",
+        "zhTW": "按住  開啟",
+        "sgCN": "按住来打开",
+        "sgTW": "按住  開啟"
+    },
+    "ReadScrollController": {
+        "Key": "ReadScrollController",
+        "enUS": "Hold  to Read",
+        "zhCN": "按住来阅读",
+        "zhTW": "按住  閱讀",
+        "sgCN": "按住来阅读",
+        "sgTW": "按住  閱讀"
+    },
+    "StrYouDiedConsole": {
+        "Key": "StrYouDiedConsole",
+        "enUS": "You have died\nPress  to continue.",
+        "zhCN": "你挂了\n按继续。",
+        "zhTW": "你已經死了\n按下  繼續",
+        "sgCN": "你挂了\n按继续。",
+        "sgTW": "你已經死了\n按下  繼續"
+    },
+    "RepairAllConfirmation": {
+        "Key": "RepairAllConfirmation",
+        "enUS": "Repair all equipment for %d gold?",
+        "zhCN": "花费%d金币修复所有装备?",
+        "zhTW": "你要花費 %d 枚金幣修復所有裝備嗎？",
+        "sgCN": "花费%d金币修复所有装备?",
+        "sgTW": "你要花費 %d 枚金幣修復所有裝備嗎？"
+    },
+    "FireImmunityIcon": {
+        "Key": "FireImmunityIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "ColdImmunityIcon": {
+        "Key": "ColdImmunityIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "LightningImmunityIcon": {
+        "Key": "LightningImmunityIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "PoisonImmunityIcon": {
+        "Key": "PoisonImmunityIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "PhysicalImmunityIcon": {
+        "Key": "PhysicalImmunityIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "MagicImmunityIcon": {
+        "Key": "MagicImmunityIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "UsePotionOfLifeController": {
+        "Key": "UsePotionOfLifeController",
+        "enUS": "Hold  to permanently add 20 to Life",
+        "zhCN": "按住永久增加20点生命值",
+        "zhTW": "按住  可永久提高 20 點生命值",
+        "sgCN": "按住永久增加20点生命值",
+        "sgTW": "按住  可永久提高 20 點生命值"
+    },
+    "UseBookOfSkillController": {
+        "Key": "UseBookOfSkillController",
+        "enUS": "Hold  to learn skill of your choice",
+        "zhCN": "按住来增加你的技能点",
+        "zhTW": "按住  以增加 1 點技能點數",
+        "sgCN": "按住来增加你的技能点",
+        "sgTW": "按住  以增加 1 點技能點數"
+    },
+    "UseScrollOfResistanceController": {
+        "Key": "UseScrollOfResistanceController",
+        "enUS": "Hold  to Cast",
+        "zhCN": "按住来施法",
+        "zhTW": "按住  施放",
+        "sgCN": "按住来施法",
+        "sgTW": "按住  施放"
+    },
+    "RebindSkill": {
+        "Key": "RebindSkill",
+        "enUS": "Press button to rebind skill",
+        "zhCN": "重新绑定技能",
+        "zhTW": "重新綁定技能",
+        "sgCN": "重新绑定技能",
+        "sgTW": "重新綁定技能"
+    },
+    "SkillNameInteract": {
+        "Key": "SkillNameInteract",
+        "enUS": "Interact",
+        "zhCN": "交互",
+        "zhTW": "互動",
+        "sgCN": "交互",
+        "sgTW": "互動"
+    },
+    "SkillNameLoot": {
+        "Key": "SkillNameLoot",
+        "enUS": "Loot",
+        "zhCN": "拾取",
+        "zhTW": "拾取",
+        "sgCN": "拾取",
+        "sgTW": "拾取"
+    },
+    "SkillDescInteract": {
+        "Key": "SkillDescInteract",
+        "enUS": "Interact with elements in the world",
+        "zhCN": "与世界里的各种元素互动",
+        "zhTW": "和世界中的物件互動",
+        "sgCN": "与世界里的各种元素互动",
+        "sgTW": "和世界中的物件互動"
+    },
+    "SkillDescLoot": {
+        "Key": "SkillDescLoot",
+        "enUS": "Pick up Items, weapons, and armor",
+        "zhCN": "捡起物品、武器和护甲",
+        "zhTW": "撿拾物品、武器和護甲",
+        "sgCN": "捡起物品、武器和护甲",
+        "sgTW": "撿拾物品、武器和護甲"
+    },
+    "ControllerCursorSpeedSetting": {
+        "Key": "ControllerCursorSpeedSetting",
+        "enUS": "Cursor Sensitivity",
+        "zhCN": "鼠标灵敏度",
+        "zhTW": "游標靈敏度",
+        "sgCN": "鼠标灵敏度",
+        "sgTW": "游標靈敏度"
+    },
+    "CombatFeedbackTextSetting": {
+        "Key": "CombatFeedbackTextSetting",
+        "enUS": "Attack Miss Indicator",
+        "zhCN": "攻击未中提示",
+        "zhTW": "攻擊未命中訊息",
+        "sgCN": "攻击未中提示",
+        "sgTW": "攻擊未命中訊息"
+    },
+    "ControllerWeaponSwapSeparateBindingsSetting": {
+        "Key": "ControllerWeaponSwapSeparateBindingsSetting",
+        "enUS": "Weapon Swap Separate Skill Buttons",
+        "zhCN": "切换武器时更换技能键",
+        "zhTW": "切換武器有獨立的技能按鍵設定",
+        "sgCN": "切换武器时更换技能键",
+        "sgTW": "切換武器有獨立的技能按鍵設定"
+    },
+    "ControllerPromptAssignStatPoint": {
+        "Key": "ControllerPromptAssignStatPoint",
+        "enUS": "Assign One Stat Point",
+        "zhCN": "分配一个属性点",
+        "zhTW": "分配一點屬性點數",
+        "sgCN": "分配一个属性点",
+        "sgTW": "分配一點屬性點數"
+    },
+    "ControllerPromptAssignSkillPoint": {
+        "Key": "ControllerPromptAssignSkillPoint",
+        "enUS": "Assign Skill Point(s)",
+        "zhCN": "分配技能点",
+        "zhTW": "分配技能點數",
+        "sgCN": "分配技能点",
+        "sgTW": "分配技能點數"
+    },
+    "ControllerPromptHire": {
+        "Key": "ControllerPromptHire",
+        "enUS": "Hire",
+        "zhCN": "雇佣",
+        "zhTW": "雇用",
+        "sgCN": "雇佣",
+        "sgTW": "雇用"
+    },
+    "ControllerPromptItemCompare": {
+        "Key": "ControllerPromptItemCompare",
+        "enUS": "Compare",
+        "zhCN": "比较",
+        "zhTW": "比較",
+        "sgCN": "比较",
+        "sgTW": "比較"
+    },
+    "ControllerPromptItemAssignToBelt": {
+        "Key": "ControllerPromptItemAssignToBelt",
+        "enUS": "Assign to Belt",
+        "zhCN": "分配到腰带",
+        "zhTW": "指定至腰帶",
+        "sgCN": "分配到腰带",
+        "sgTW": "指定至腰帶"
+    },
+    "ControllerPromptItemDropOnGround": {
+        "Key": "ControllerPromptItemDropOnGround",
+        "enUS": "Drop",
+        "zhCN": "丢弃",
+        "zhTW": "丟下",
+        "sgCN": "丢弃",
+        "sgTW": "丟下"
+    },
+    "ControllerPromptItemEquipOnSelf": {
+        "Key": "ControllerPromptItemEquipOnSelf",
+        "enUS": "Equip",
+        "zhCN": "装备",
+        "zhTW": "裝備",
+        "sgCN": "装备",
+        "sgTW": "裝備"
+    },
+    "ControllerPromptItemEquipOnHireling": {
+        "Key": "ControllerPromptItemEquipOnHireling",
+        "enUS": "Equip on Mercenary",
+        "zhCN": "装备给佣兵",
+        "zhTW": "為傭兵裝備",
+        "sgCN": "装备给佣兵",
+        "sgTW": "為傭兵裝備"
+    },
+    "ControllerPromptItemPlaceInInventory": {
+        "Key": "ControllerPromptItemPlaceInInventory",
+        "enUS": "Place",
+        "zhCN": "放置",
+        "zhTW": "放置",
+        "sgCN": "放置",
+        "sgTW": "放置"
+    },
+    "ControllerPromptItemPickUpFromInventory": {
+        "Key": "ControllerPromptItemPickUpFromInventory",
+        "enUS": "Pick Up",
+        "zhCN": "捡起",
+        "zhTW": "拿取",
+        "sgCN": "捡起",
+        "sgTW": "拿取"
+    },
+    "ControllerPromptItemMoveToInventory": {
+        "Key": "ControllerPromptItemMoveToInventory",
+        "enUS": "Move to Inventory",
+        "zhCN": "移动到物品栏",
+        "zhTW": "移到物品欄",
+        "sgCN": "移动到物品栏",
+        "sgTW": "移到物品欄"
+    },
+    "ControllerPromptItemMoveToHoradricCube": {
+        "Key": "ControllerPromptItemMoveToHoradricCube",
+        "enUS": "Move to Horadric Cube",
+        "zhCN": "移动到赫拉迪姆魔盒",
+        "zhTW": "移到赫拉迪姆方塊",
+        "sgCN": "移动到赫拉迪姆魔盒",
+        "sgTW": "移到赫拉迪姆方塊"
+    },
+    "ControllerPromptItemMoveToSharedStash": {
+        "Key": "ControllerPromptItemMoveToSharedStash",
+        "enUS": "Move to Shared Stash",
+        "zhCN": "移动到共享储藏箱",
+        "zhTW": "轉移到共用儲物箱",
+        "sgCN": "移动到共享储藏箱",
+        "sgTW": "轉移到共用儲物箱"
+    },
+    "ControllerPromptItemMoveToPrivateStash": {
+        "Key": "ControllerPromptItemMoveToPrivateStash",
+        "enUS": "Move to Private Stash",
+        "zhCN": "移动到私人储藏箱",
+        "zhTW": "轉移到個人儲物箱",
+        "sgCN": "移动到私人储藏箱",
+        "sgTW": "轉移到個人儲物箱"
+    },
+    "ControllerPromptItemRead": {
+        "Key": "ControllerPromptItemRead",
+        "enUS": "Read",
+        "zhCN": "阅读",
+        "zhTW": "閱讀",
+        "sgCN": "阅读",
+        "sgTW": "閱讀"
+    },
+    "ControllerPromptItemOpen": {
+        "Key": "ControllerPromptItemOpen",
+        "enUS": "Open",
+        "zhCN": "打开",
+        "zhTW": "打開",
+        "sgCN": "打开",
+        "sgTW": "打開"
+    },
+    "ControllerPromptItemUse": {
+        "Key": "ControllerPromptItemUse",
+        "enUS": "Use",
+        "zhCN": "使用",
+        "zhTW": "使用",
+        "sgCN": "使用",
+        "sgTW": "使用"
+    },
+    "ControllerPromptHoldFormatString": {
+        "Key": "ControllerPromptHoldFormatString",
+        "enUS": " (Hold to %s)",
+        "zhCN": "(按住%s)",
+        "zhTW": "（按住以%s）",
+        "sgCN": "(按住%s)",
+        "sgTW": "（按住以%s）"
+    },
+    "ControllerPromptHoldToSortInventory": {
+        "Key": "ControllerPromptHoldToSortInventory",
+        "enUS": "Hold to Sort",
+        "zhCN": "按住排序",
+        "zhTW": "按住以排列物品",
+        "sgCN": "按住排序",
+        "sgTW": "按住以排列物品"
+    },
+    "ControllerPromptViewAdvancedStats": {
+        "Key": "ControllerPromptViewAdvancedStats",
+        "enUS": "View Advanced Stats",
+        "zhCN": "查看高级属性",
+        "zhTW": "檢視進階屬性",
+        "sgCN": "查看高级属性",
+        "sgTW": "檢視進階屬性"
+    },
+    "ControllerPromptTravelToWaypoint": {
+        "Key": "ControllerPromptTravelToWaypoint",
+        "enUS": "Travel",
+        "zhCN": "传送",
+        "zhTW": "移動",
+        "sgCN": "传送",
+        "sgTW": "移動"
+    },
+    "ControllerPromptCharacterCreateViewClass": {
+        "Key": "ControllerPromptCharacterCreateViewClass",
+        "enUS": "View Class",
+        "zhCN": "查看职业",
+        "zhTW": "檢視職業",
+        "sgCN": "查看职业",
+        "sgTW": "檢視職業"
+    },
+    "ControllerPromptCharacterCreateSelectClass": {
+        "Key": "ControllerPromptCharacterCreateSelectClass",
+        "enUS": "Select Class",
+        "zhCN": "选择职业",
+        "zhTW": "選擇職業",
+        "sgCN": "选择职业",
+        "sgTW": "選擇職業"
+    },
+    "ControllerPromptCharacterCreateReturnToMainMenu": {
+        "Key": "ControllerPromptCharacterCreateReturnToMainMenu",
+        "enUS": "Return to Main Menu",
+        "zhCN": "返回主菜单",
+        "zhTW": "返回主選單",
+        "sgCN": "返回主菜单",
+        "sgTW": "返回主選單"
+    },
+    "ControllerPromptCharacterCreateChangeClass": {
+        "Key": "ControllerPromptCharacterCreateChangeClass",
+        "enUS": "Change Class",
+        "zhCN": "更换职业",
+        "zhTW": "更換職業",
+        "sgCN": "更换职业",
+        "sgTW": "更換職業"
+    },
+    "ControllerPromptCharacterCreateGenerateName": {
+        "Key": "ControllerPromptCharacterCreateGenerateName",
+        "enUS": "Generate Name",
+        "zhCN": "生成名称",
+        "zhTW": "產生名稱",
+        "sgCN": "生成名称",
+        "sgTW": "產生名稱"
+    },
+    "ControllerPromptToggleHDMode": {
+        "Key": "ControllerPromptToggleHDMode",
+        "enUS": "Legacy Toggle",
+        "zhCN": "切换经典版",
+        "zhTW": "切換懷舊模式",
+        "sgCN": "切换经典版",
+        "sgTW": "切換懷舊模式"
+    },
+    "ControllerPromptSelectCharacter": {
+        "Key": "ControllerPromptSelectCharacter",
+        "enUS": "Select",
+        "zhCN": "选择",
+        "zhTW": "選擇",
+        "sgCN": "选择",
+        "sgTW": "選擇"
+    },
+    "ControllerPromptDeleteCharacter": {
+        "Key": "ControllerPromptDeleteCharacter",
+        "enUS": "Delete Character",
+        "zhCN": "删除角色",
+        "zhTW": "刪除角色",
+        "sgCN": "删除角色",
+        "sgTW": "刪除角色"
+    },
+    "ControllerPromptChangeCharacter": {
+        "Key": "ControllerPromptChangeCharacter",
+        "enUS": "Change Character",
+        "zhCN": "更换角色",
+        "zhTW": "更改角色",
+        "sgCN": "更换角色",
+        "sgTW": "更改角色"
+    },
+    "ControllerPromptCharacterSelectReturnToMainMenu": {
+        "Key": "ControllerPromptCharacterSelectReturnToMainMenu",
+        "enUS": "Back",
+        "zhCN": "返回",
+        "zhTW": "返回",
+        "sgCN": "返回",
+        "sgTW": "返回"
+    },
+    "ControllerPromptCloseMenu": {
+        "Key": "ControllerPromptCloseMenu",
+        "enUS": "Close Menu",
+        "zhCN": "关闭菜单",
+        "zhTW": "關閉選單",
+        "sgCN": "关闭菜单",
+        "sgTW": "關閉選單"
+    },
+    "ControllerPromptModalAccept": {
+        "Key": "ControllerPromptModalAccept",
+        "enUS": "Accept",
+        "zhCN": "接受",
+        "zhTW": "接受",
+        "sgCN": "接受",
+        "sgTW": "接受"
+    },
+    "ControllerPromptModalCancel": {
+        "Key": "ControllerPromptModalCancel",
+        "enUS": "Back",
+        "zhCN": "返回",
+        "zhTW": "返回",
+        "sgCN": "返回",
+        "sgTW": "返回"
+    },
+    "ControllerPromptBindSkillButton": {
+        "Key": "ControllerPromptBindSkillButton",
+        "enUS": "Bind Skill",
+        "zhCN": "绑定技能",
+        "zhTW": "綁定技能",
+        "sgCN": "绑定技能",
+        "sgTW": "綁定技能"
+    },
+    "ControllerPauseMenuTitle": {
+        "Key": "ControllerPauseMenuTitle",
+        "enUS": "Options",
+        "zhCN": "选项",
+        "zhTW": "選項",
+        "sgCN": "选项",
+        "sgTW": "選項"
+    },
+    "ControllerPromptUseOnHireling": {
+        "Key": "ControllerPromptUseOnHireling",
+        "enUS": "Use on Mercenary",
+        "zhCN": "用在佣兵身上",
+        "zhTW": "對傭兵使用",
+        "sgCN": "用在佣兵身上",
+        "sgTW": "對傭兵使用"
+    },
+    "ControllerPromptItemUnassignFromBelt": {
+        "Key": "ControllerPromptItemUnassignFromBelt",
+        "enUS": "Unassign from Belt",
+        "zhCN": "从腰带上撤销指定",
+        "zhTW": "解除腰帶裝備",
+        "sgCN": "从腰带上撤销指定",
+        "sgTW": "解除腰帶裝備"
+    },
+    "AutoGoldTextSetting": {
+        "Key": "AutoGoldTextSetting",
+        "enUS": "Auto-Gold Pickup",
+        "zhCN": "自动拾取金币",
+        "zhTW": "自動收集金幣",
+        "sgCN": "自动拾取金币",
+        "sgTW": "自動收集金幣"
+    },
+    "SkillAmmoFeedbackText": {
+        "Key": "SkillAmmoFeedbackText",
+        "enUS": "Show Ammo Count on Skills",
+        "zhCN": "显示技能上的弹药数量",
+        "zhTW": "在技能顯示彈藥數",
+        "sgCN": "显示技能上的弹药数量",
+        "sgTW": "在技能顯示彈藥數"
+    },
+    "ControllerPromptSpellUse": {
+        "Key": "ControllerPromptSpellUse",
+        "enUS": "Use %s",
+        "zhCN": "使用%s",
+        "zhTW": "使用%s",
+        "sgCN": "使用%s",
+        "sgTW": "使用%s"
+    },
+    "ControllerPromptSpellCancel": {
+        "Key": "ControllerPromptSpellCancel",
+        "enUS": "Cancel",
+        "zhCN": "取消",
+        "zhTW": "取消",
+        "sgCN": "取消",
+        "sgTW": "取消"
+    },
+    "EmoteHelp": {
+        "Key": "EmoteHelp",
+        "enUS": "Help!",
+        "zhCN": "救命！",
+        "zhTW": "救命！",
+        "sgCN": "救命！",
+        "sgTW": "救命！"
+    },
+    "EmoteFollowMe": {
+        "Key": "EmoteFollowMe",
+        "enUS": "Follow Me",
+        "zhCN": "跟随我",
+        "zhTW": "跟我走",
+        "sgCN": "跟随我",
+        "sgTW": "跟我走"
+    },
+    "EmoteForYou": {
+        "Key": "EmoteForYou",
+        "enUS": "For You",
+        "zhCN": "给你的",
+        "zhTW": "這是給你的",
+        "sgCN": "给你的",
+        "sgTW": "這是給你的"
+    },
+    "EmoteThanks": {
+        "Key": "EmoteThanks",
+        "enUS": "Thanks",
+        "zhCN": "谢谢",
+        "zhTW": "謝謝",
+        "sgCN": "谢谢",
+        "sgTW": "謝謝"
+    },
+    "EmoteSorry": {
+        "Key": "EmoteSorry",
+        "enUS": "Sorry",
+        "zhCN": "抱歉",
+        "zhTW": "道歉",
+        "sgCN": "抱歉",
+        "sgTW": "道歉"
+    },
+    "EmoteBye": {
+        "Key": "EmoteBye",
+        "enUS": "Bye!",
+        "zhCN": "再见！",
+        "zhTW": "再會！",
+        "sgCN": "再见！",
+        "sgTW": "再會！"
+    },
+    "EmoteDie": {
+        "Key": "EmoteDie",
+        "enUS": "Die!",
+        "zhCN": "死吧！",
+        "zhTW": "死吧！",
+        "sgCN": "死吧！",
+        "sgTW": "死吧！"
+    },
+    "EmoteRun": {
+        "Key": "EmoteRun",
+        "enUS": "Run!",
+        "zhCN": "快跑！",
+        "zhTW": "快逃！",
+        "sgCN": "快跑！",
+        "sgTW": "快逃！"
+    },
+    "EmoteGG": {
+        "Key": "EmoteGG",
+        "enUS": "GG",
+        "zhCN": "GG",
+        "zhTW": "GG",
+        "sgCN": "GG",
+        "sgTW": "GG"
+    },
+    "EmoteNeedToTP": {
+        "Key": "EmoteNeedToTP",
+        "enUS": "Need to TP",
+        "zhCN": "需要回城",
+        "zhTW": "需要傳送門",
+        "sgCN": "需要回城",
+        "sgTW": "需要傳送門"
+    },
+    "EmoteBagFull": {
+        "Key": "EmoteBagFull",
+        "enUS": "Bag's Full",
+        "zhCN": "包满了",
+        "zhTW": "背包滿了",
+        "sgCN": "包满了",
+        "sgTW": "背包滿了"
+    },
+    "EmoteNeedThat": {
+        "Key": "EmoteNeedThat",
+        "enUS": "Need That?",
+        "zhCN": "要这个吗？",
+        "zhTW": "你要這個嗎？",
+        "sgCN": "要这个吗？",
+        "sgTW": "你要這個嗎？"
+    },
+    "CharacterCreateLadderDisabled": {
+        "Key": "CharacterCreateLadderDisabled",
+        "enUS": "Ladder can only be played with an online character.",
+        "zhCN": "必须用线上角色才能体验天梯。",
+        "zhTW": "只能以線上角色進行天梯遊戲。",
+        "sgCN": "必须用线上角色才能体验天梯。",
+        "sgTW": "只能以線上角色進行天梯遊戲。"
+    },
+    "CharacterCreateExpansionDisabled": {
+        "Key": "CharacterCreateExpansionDisabled",
+        "enUS": "The chosen class can only be played as an expansion character.",
+        "zhCN": "只有资料片角色才能够使用所选的职业。",
+        "zhTW": "該職業只能是資料片角色。",
+        "sgCN": "只有资料片角色才能够使用所选的职业。",
+        "sgTW": "該職業只能是資料片角色。"
+    },
+    "ControllerPromptItemMoveToImbue": {
+        "Key": "ControllerPromptItemMoveToImbue",
+        "enUS": "Move to Imbue",
+        "zhCN": "移动到灌魔",
+        "zhTW": "移動以進行灌注",
+        "sgCN": "移动到灌魔",
+        "sgTW": "移動以進行灌注"
+    },
+    "ControllerPromptItemUnequip": {
+        "Key": "ControllerPromptItemUnequip",
+        "enUS": "Unequip",
+        "zhCN": "卸除装备",
+        "zhTW": "解除裝備",
+        "sgCN": "卸除装备",
+        "sgTW": "解除裝備"
+    },
+    "hireComparisonTooltipController": {
+        "Key": "hireComparisonTooltipController",
+        "enUS": "Hold  to Compare",
+        "zhCN": "长按进行对比",
+        "zhTW": "按住  鍵進行比較",
+        "sgCN": "长按进行对比",
+        "sgTW": "按住  鍵進行比較"
+    },
+    "ControllerHelpToggleSkills": {
+        "Key": "ControllerHelpToggleSkills",
+        "enUS": "Skill toggle  ",
+        "zhCN": "技能开关 ",
+        "zhTW": "技能切換 ",
+        "sgCN": "技能开关 ",
+        "sgTW": "技能切換 "
+    },
+    "ControllerHelpHighItems": {
+        "Key": "ControllerHelpHighItems",
+        "enUS": "Show item labels  ",
+        "zhCN": "显示物品标签 ",
+        "zhTW": "顯示物品名稱 ",
+        "sgCN": "显示物品标签 ",
+        "sgTW": "顯示物品名稱 "
+    },
+    "ControllerHelpRun": {
+        "Key": "ControllerHelpRun",
+        "enUS": "Move\n(PRESS) Run / Walk Toggle",
+        "zhCN": "移动\n(按下) 奔跑/行走切换",
+        "zhTW": "移動 \n（按下）切換跑步 / 行走",
+        "sgCN": "移动\n(按下) 奔跑/行走切换",
+        "sgTW": "移動 \n（按下）切換跑步 / 行走"
+    },
+    "ControllerHelpBelt1": {
+        "Key": "ControllerHelpBelt1",
+        "enUS": "Belt slot 1  ",
+        "zhCN": "腰带栏1 ",
+        "zhTW": "腰帶欄位 1 ",
+        "sgCN": "腰带栏1 ",
+        "sgTW": "腰帶欄位 1 "
+    },
+    "ControllerHelpBelt2": {
+        "Key": "ControllerHelpBelt2",
+        "enUS": "Belt slot 2  ",
+        "zhCN": "腰带栏2 ",
+        "zhTW": "腰帶欄位 2 ",
+        "sgCN": "腰带栏2 ",
+        "sgTW": "腰帶欄位 2 "
+    },
+    "ControllerHelpBelt3": {
+        "Key": "ControllerHelpBelt3",
+        "enUS": "Belt slot 3  ",
+        "zhCN": "腰带栏3 ",
+        "zhTW": "腰帶欄位 3 ",
+        "sgCN": "腰带栏3 ",
+        "sgTW": "腰帶欄位 3 "
+    },
+    "ControllerHelpBelt4": {
+        "Key": "ControllerHelpBelt4",
+        "enUS": "Belt slot 4  ",
+        "zhCN": "腰带栏4 ",
+        "zhTW": "腰帶欄位 4 ",
+        "sgCN": "腰带栏4 ",
+        "sgTW": "腰帶欄位 4 "
+    },
+    "ControllerHelpAutoMap": {
+        "Key": "ControllerHelpAutoMap",
+        "enUS": "Automap",
+        "zhCN": "透视地图",
+        "zhTW": "自動地圖",
+        "sgCN": "透视地图",
+        "sgTW": "自動地圖"
+    },
+    "ControllerHelpSkill6": {
+        "Key": "ControllerHelpSkill6",
+        "enUS": "  Skill 6",
+        "zhCN": "  技能 6",
+        "zhTW": " 技能 6",
+        "sgCN": "  技能 6",
+        "sgTW": " 技能 6"
+    },
+    "ControllerHelpSkill5": {
+        "Key": "ControllerHelpSkill5",
+        "enUS": "  Skill 5",
+        "zhCN": "  技能 5",
+        "zhTW": " 技能 5",
+        "sgCN": "  技能 5",
+        "sgTW": " 技能 5"
+    },
+    "ControllerHelpSkill4": {
+        "Key": "ControllerHelpSkill4",
+        "enUS": "  Skill 4",
+        "zhCN": "  技能 4",
+        "zhTW": " 技能 4",
+        "sgCN": "  技能 4",
+        "sgTW": " 技能 4"
+    },
+    "ControllerHelpSkill3": {
+        "Key": "ControllerHelpSkill3",
+        "enUS": "  Skill 3",
+        "zhCN": "  技能 3",
+        "zhTW": " 技能 3",
+        "sgCN": "  技能 3",
+        "sgTW": " 技能 3"
+    },
+    "ControllerHelpSkill2": {
+        "Key": "ControllerHelpSkill2",
+        "enUS": "  Skill 2",
+        "zhCN": "  技能2",
+        "zhTW": " 技能 2",
+        "sgCN": "  技能2",
+        "sgTW": " 技能 2"
+    },
+    "ControllerHelpSkill1": {
+        "Key": "ControllerHelpSkill1",
+        "enUS": "  Skill 1",
+        "zhCN": "  技能1",
+        "zhTW": " 技能 1",
+        "sgCN": "  技能1",
+        "sgTW": " 技能 1"
+    },
+    "ControllerHelpGameMenu": {
+        "Key": "ControllerHelpGameMenu",
+        "enUS": "Game Menu",
+        "zhCN": "游戏菜单",
+        "zhTW": "遊戲選單",
+        "sgCN": "游戏菜单",
+        "sgTW": "遊戲選單"
+    },
+    "ControllerHelpEmote": {
+        "Key": "ControllerHelpEmote",
+        "enUS": "(PRESS) Swap Weapons \n(HOLD) Emote wheel",
+        "zhCN": "(按下) 交替武器 \n(按住) 表情滚轮",
+        "zhTW": "（按下）切換武器\n（按住）表情轉盤",
+        "sgCN": "(按下) 交替武器 \n(按住) 表情滚轮",
+        "sgTW": "（按下）切換武器\n（按住）表情轉盤"
+    },
+    "ControllerHelpSkillsBar": {
+        "Key": "ControllerHelpSkillsBar",
+        "enUS": "Skills Bar",
+        "zhCN": "技能栏",
+        "zhTW": "技能面板",
+        "sgCN": "技能栏",
+        "sgTW": "技能面板"
+    },
+    "ControllerHelpSkillsBackBar": {
+        "Key": "ControllerHelpSkillsBackBar",
+        "enUS": "Skills Back Bar",
+        "zhCN": "备选技能栏",
+        "zhTW": "非主要技能面板",
+        "sgCN": "备选技能栏",
+        "sgTW": "非主要技能面板"
+    },
+    "ControllerCycleComparisonTooltips": {
+        "Key": "ControllerCycleComparisonTooltips",
+        "enUS": "Press  to Cycle",
+        "zhCN": "按循环",
+        "zhTW": "按下  切換",
+        "sgCN": "按循环",
+        "sgTW": "按下  切換"
+    },
+    "ControllerPromptHoldToPopulateBelt": {
+        "Key": "ControllerPromptHoldToPopulateBelt",
+        "enUS": "Hold to Populate Belt",
+        "zhCN": "按住自动装入腰带",
+        "zhTW": "按住以移至腰帶",
+        "sgCN": "按住自动装入腰带",
+        "sgTW": "按住以移至腰帶"
+    },
+    "UseTokenOfAbsolutionController": {
+        "Key": "UseTokenOfAbsolutionController",
+        "enUS": "Hold  to reset Stat/Skill Points",
+        "zhCN": "按住重设属性技能点",
+        "zhTW": "按住  以重置屬性與技能點數",
+        "sgCN": "按住重设属性技能点",
+        "sgTW": "按住  以重置屬性與技能點數"
+    },
+    "ControllerTitleScreenPrompt": {
+        "Key": "ControllerTitleScreenPrompt",
+        "enUS": "Press  to Begin",
+        "zhCN": "按开始",
+        "zhTW": "按下  開始",
+        "sgCN": "按开始",
+        "sgTW": "按下  開始"
+    },
+    "ControllerInteractButton": {
+        "Key": "ControllerInteractButton",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "ControllerHelpSkill4Switch": {
+        "Key": "ControllerHelpSkill4Switch",
+        "enUS": "  Skill 4",
+        "zhCN": "  技能 4",
+        "zhTW": " 技能 4",
+        "sgCN": "  技能 4",
+        "sgTW": " 技能 4"
+    },
+    "ControllerHelpSkill3Switch": {
+        "Key": "ControllerHelpSkill3Switch",
+        "enUS": "  Skill 3",
+        "zhCN": "  技能 3",
+        "zhTW": " 技能 3",
+        "sgCN": "  技能 3",
+        "sgTW": " 技能 3"
+    },
+    "ControllerHelpSkill2Switch": {
+        "Key": "ControllerHelpSkill2Switch",
+        "enUS": "  Skill 2",
+        "zhCN": "  技能 2",
+        "zhTW": " 技能 2",
+        "sgCN": "  技能 2",
+        "sgTW": " 技能 2"
+    },
+    "ControllerHelpSkill1Switch": {
+        "Key": "ControllerHelpSkill1Switch",
+        "enUS": "  Skill 1",
+        "zhCN": "  技能 1",
+        "zhTW": " 技能 1",
+        "sgCN": "  技能 1",
+        "sgTW": " 技能 1"
+    },
+    "OptionsMenuWeaponSwapUniqueBindingsTooltip": {
+        "Key": "OptionsMenuWeaponSwapUniqueBindingsTooltip",
+        "enUS": "Skill bindings will be separate when\nswapping weapons.",
+        "zhCN": "切换武器时技能绑定独立\n不受影响",
+        "zhTW": "切換武器時會切換個別技能設定。",
+        "sgCN": "切换武器时技能绑定独立\n不受影响",
+        "sgTW": "切換武器時會切換個別技能設定。"
+    },
+    "ControllerPromptCancelJoin": {
+        "Key": "ControllerPromptCancelJoin",
+        "enUS": "Cancel Join",
+        "zhCN": "取消加入",
+        "zhTW": "取消",
+        "sgCN": "取消加入",
+        "sgTW": "取消"
+    },
+    "ControllerPromptHoldFormatStringStandalone": {
+        "Key": "ControllerPromptHoldFormatStringStandalone",
+        "enUS": "Hold to %s",
+        "zhCN": "按住%s",
+        "zhTW": "按住以%s",
+        "sgCN": "按住%s",
+        "sgTW": "按住以%s"
+    },
+    "EnterCharacterName": {
+        "Key": "EnterCharacterName",
+        "enUS": "Press  to Enter Name",
+        "zhCN": "按 输入名称",
+        "zhTW": "按   輸入角色名稱",
+        "sgCN": "按 输入名称",
+        "sgTW": "按   輸入角色名稱"
+    },
+    "SkillNameEmoteWheel": {
+        "Key": "SkillNameEmoteWheel",
+        "enUS": "Emote Wheel",
+        "zhCN": "表情滚轮",
+        "zhTW": "表情指令轉盤",
+        "sgCN": "表情滚轮",
+        "sgTW": "表情指令轉盤"
+    },
+    "SkillDescEmoteWheel": {
+        "Key": "SkillDescEmoteWheel",
+        "enUS": "Open the Emote Wheel",
+        "zhCN": "打开表情滚轮",
+        "zhTW": "開啟表情指令轉盤",
+        "sgCN": "打开表情滚轮",
+        "sgTW": "開啟表情指令轉盤"
+    },
+    "OptionsMenuControllerCursorSpeedTooltip": {
+        "Key": "OptionsMenuControllerCursorSpeedTooltip",
+        "enUS": "Determines the cursor sensitivity on\nthe user interface.",
+        "zhCN": "定义指针在用户界面上的灵敏度。",
+        "zhTW": "在使用者介面的游標靈敏度。",
+        "sgCN": "定义指针在用户界面上的灵敏度。",
+        "sgTW": "在使用者介面的游標靈敏度。"
+    },
+    "EmoteMore": {
+        "Key": "EmoteMore",
+        "enUS": "More",
+        "zhCN": "更多",
+        "zhTW": "其他",
+        "sgCN": "更多",
+        "sgTW": "其他"
+    },
+    "EmoteSelling": {
+        "Key": "EmoteSelling",
+        "enUS": "Selling",
+        "zhCN": "出售",
+        "zhTW": "出售",
+        "sgCN": "出售",
+        "sgTW": "出售"
+    },
+    "EmoteLinkItem": {
+        "Key": "EmoteLinkItem",
+        "enUS": "Link Item",
+        "zhCN": "物品链接",
+        "zhTW": "物品連結",
+        "sgCN": "物品链接",
+        "sgTW": "物品連結"
+    },
+    "itemLinkTooltipController": {
+        "Key": "itemLinkTooltipController",
+        "enUS": "Link Item in Chat",
+        "zhCN": "在聊天框中附上物品链接",
+        "zhTW": "在聊天視窗中顯示物品連結",
+        "sgCN": "在聊天框中附上物品链接",
+        "sgTW": "在聊天視窗中顯示物品連結"
+    },
+    "ControllerReconnectMessage": {
+        "Key": "ControllerReconnectMessage",
+        "enUS": "Please Reconnect Controller",
+        "zhCN": "请重新连接控制器",
+        "zhTW": "請重新連接控制器",
+        "sgCN": "请重新连接控制器",
+        "sgTW": "請重新連接控制器"
+    },
+    "ShowProfile": {
+        "Key": "ShowProfile",
+        "enUS": "Show Profile",
+        "zhCN": "显示档案",
+        "zhTW": "顯示設定檔",
+        "sgCN": "显示档案",
+        "sgTW": "顯示設定檔"
+    },
+    "ControllerSettingsAcceptAll": {
+        "Key": "ControllerSettingsAcceptAll",
+        "enUS": "Accept All",
+        "zhCN": "全部接受",
+        "zhTW": "全部接受",
+        "sgCN": "全部接受",
+        "sgTW": "全部接受"
+    },
+    "ControllerSettingsDefault": {
+        "Key": "ControllerSettingsDefault",
+        "enUS": "Default",
+        "zhCN": "默认",
+        "zhTW": "預設",
+        "sgCN": "默认",
+        "sgTW": "預設"
+    },
+    "PlayStationActivityHintDenOfEvilHeader": {
+        "Key": "PlayStationActivityHintDenOfEvilHeader",
+        "enUS": "Focus the Fallen Shamans",
+        "zhCN": "集火沉沦魔萨满",
+        "zhTW": "優先擊殺沉淪魔薩滿",
+        "sgCN": "集火沉沦魔萨满",
+        "sgTW": "優先擊殺沉淪魔薩滿"
+    },
+    "PlayStationActivityHintDenOfEvilDescription": {
+        "Key": "PlayStationActivityHintDenOfEvilDescription",
+        "enUS": "If left alone, Fallen Shamans will resurrect their fellow Fallen.",
+        "zhCN": "如果放任不管，沉沦魔萨满会不断地复活阵亡的沉落魔。",
+        "zhTW": "若是置之不理，沉淪魔薩滿會不斷復活死亡的沉淪魔。",
+        "sgCN": "如果放任不管，沉沦魔萨满会不断地复活阵亡的沉落魔。",
+        "sgTW": "若是置之不理，沉淪魔薩滿會不斷復活死亡的沉淪魔。"
+    },
+    "PlayStationActivityHintSistersBurialGroundHeader": {
+        "Key": "PlayStationActivityHintSistersBurialGroundHeader",
+        "enUS": "Slow Blood Raven",
+        "zhCN": "减速血鸦",
+        "zhTW": "減緩血鴉的速度",
+        "sgCN": "减速血鸦",
+        "sgTW": "減緩血鴉的速度"
+    },
+    "PlayStationActivityHintSistersBurialGroundDescription": {
+        "Key": "PlayStationActivityHintSistersBurialGroundDescription",
+        "enUS": "Cold damage can help slow Blood Raven making her easier to hit.",
+        "zhCN": "冰霜伤害可以有效减速血鸦，使其更容易被击中。",
+        "zhTW": "冰寒傷害有助於減緩血鴉的速度，這樣比較容易命中對方。",
+        "sgCN": "冰霜伤害可以有效减速血鸦，使其更容易被击中。",
+        "sgTW": "冰寒傷害有助於減緩血鴉的速度，這樣比較容易命中對方。"
+    },
+    "PlayStationActivityHintSearchForCainHeader": {
+        "Key": "PlayStationActivityHintSearchForCainHeader",
+        "enUS": "Find the Cairn Stones",
+        "zhCN": "找到石阵",
+        "zhTW": "尋找石陣",
+        "sgCN": "找到石阵",
+        "sgTW": "尋找石陣"
+    },
+    "PlayStationActivityHintSearchForCainDescription": {
+        "Key": "PlayStationActivityHintSearchForCainDescription",
+        "enUS": "Once Akara deciphers the Scroll of Inifuss, you will need to find the Cairn Stones in the Stony Fields. Make sure that you have the waypoint to get there quickly.",
+        "zhCN": "等阿卡拉破译艾尼弗斯卷轴后，你要找到石块旷野中的石阵。记得使用传送点可以快速前往那里。",
+        "zhTW": "在阿卡拉解讀艾尼弗斯卷軸之後，你必須前往亂石曠野找出石陣。別忘記，傳送平台可以讓你快速抵達那裡。",
+        "sgCN": "等阿卡拉破译艾尼弗斯卷轴后，你要找到石块旷野中的石阵。记得使用传送点可以快速前往那里。",
+        "sgTW": "在阿卡拉解讀艾尼弗斯卷軸之後，你必須前往亂石曠野找出石陣。別忘記，傳送平台可以讓你快速抵達那裡。"
+    },
+    "PlayStationActivityHintTheForgottenTowerHeader": {
+        "Key": "PlayStationActivityHintTheForgottenTowerHeader",
+        "enUS": "Beware the Countess' fire",
+        "zhCN": "小心女伯爵的火焰",
+        "zhTW": "小心女伯爵的火焰",
+        "sgCN": "小心女伯爵的火焰",
+        "sgTW": "小心女伯爵的火焰"
+    },
+    "PlayStationActivityHintTheForgottenTowerDescription": {
+        "Key": "PlayStationActivityHintTheForgottenTowerDescription",
+        "enUS": "The Countess is Fire Enchanted so not only do her attacks deal fire damage, but her corpse will explode when she dies.",
+        "zhCN": "女伯爵的攻击不仅附带火焰伤害，她死亡后的残骸也会爆炸产生火焰伤害。",
+        "zhTW": "女伯爵不光是攻擊會造成火焰傷害，就連屍體也會在死亡後爆炸。",
+        "sgCN": "女伯爵的攻击不仅附带火焰伤害，她死亡后的残骸也会爆炸产生火焰伤害。",
+        "sgTW": "女伯爵不光是攻擊會造成火焰傷害，就連屍體也會在死亡後爆炸。"
+    },
+    "PlayStationActivityHintSistersToTheSlaughterHeader": {
+        "Key": "PlayStationActivityHintSistersToTheSlaughterHeader",
+        "enUS": "Boost poison resistance",
+        "zhCN": "堆高毒素抗性",
+        "zhTW": "提高毒素抗性",
+        "sgCN": "堆高毒素抗性",
+        "sgTW": "提高毒素抗性"
+    },
+    "PlayStationActivityHintSistersToTheSlaughterDescription": {
+        "Key": "PlayStationActivityHintSistersToTheSlaughterDescription",
+        "enUS": "Andariel can deal large amounts of poison damage. Be sure to have poison resistance or Antidote Potions to aid in the fight.",
+        "zhCN": "安达莉尔会造成大量的毒素伤害。最好拥有一定的毒抗或者带上解毒药剂来对付她。",
+        "zhTW": "安達莉爾會造成大量毒素傷害，開戰前記得先加強毒素抗性，或是準備足夠的解毒藥。",
+        "sgCN": "安达莉尔会造成大量的毒素伤害。最好拥有一定的毒抗或者带上解毒药剂来对付她。",
+        "sgTW": "安達莉爾會造成大量毒素傷害，開戰前記得先加強毒素抗性，或是準備足夠的解毒藥。"
+    },
+    "PlayStationActivityHintRadamentsLairHeader": {
+        "Key": "PlayStationActivityHintRadamentsLairHeader",
+        "enUS": "Deny Radament corpses",
+        "zhCN": "不给罗达门特留残骸",
+        "zhTW": "別讓羅達門特復活屍體",
+        "sgCN": "不给罗达门特留残骸",
+        "sgTW": "別讓羅達門特復活屍體"
+    },
+    "PlayStationActivityHintRadamentsLairDescription": {
+        "Key": "PlayStationActivityHintRadamentsLairDescription",
+        "enUS": "Freezing enemies will cause them to shatter on death, leaving no corpse for Radament to raise. Alternatively, make use of the corpses before Radament can!",
+        "zhCN": "冻结的敌人会在死亡后粉碎，不会给罗达门特留下可以复活的躯体。你也可以抢在罗达门特之前用掉敌人的躯体。",
+        "zhTW": "冰凍的敵人在死亡後會碎裂，不會留下屍體，這樣羅達門特就沒屍體可以復活。或者，你得搶先用掉那些屍體！",
+        "sgCN": "冻结的敌人会在死亡后粉碎，不会给罗达门特留下可以复活的躯体。你也可以抢在罗达门特之前用掉敌人的躯体。",
+        "sgTW": "冰凍的敵人在死亡後會碎裂，不會留下屍體，這樣羅達門特就沒屍體可以復活。或者，你得搶先用掉那些屍體！"
+    },
+    "PlayStationActivityHintTheSummonerHeader": {
+        "Key": "PlayStationActivityHintTheSummonerHeader",
+        "enUS": "Protect against cold",
+        "zhCN": "抵御冰霜",
+        "zhTW": "防寒措施",
+        "sgCN": "抵御冰霜",
+        "sgTW": "防寒措施"
+    },
+    "PlayStationActivityHintTheSummonerDescription": {
+        "Key": "PlayStationActivityHintTheSummonerDescription",
+        "enUS": "Cold resist can make the Summoner's attacks less lethal.",
+        "zhCN": "冰抗能让召唤者的攻击变得疲软无力。",
+        "zhTW": "冰寒抗性能夠降低召喚師攻擊的致命程度。",
+        "sgCN": "冰抗能让召唤者的攻击变得疲软无力。",
+        "sgTW": "冰寒抗性能夠降低召喚師攻擊的致命程度。"
+    },
+    "PlayStationActivityHintTheSevenTombsHeader": {
+        "Key": "PlayStationActivityHintTheSevenTombsHeader",
+        "enUS": "Portal away if necessary",
+        "zhCN": "必要时可以传送脱逃",
+        "zhTW": "危急時就用傳送門逃走",
+        "sgCN": "必要时可以传送脱逃",
+        "sgTW": "危急時就用傳送門逃走"
+    },
+    "PlayStationActivityHintTheSevenTombsDescription": {
+        "Key": "PlayStationActivityHintTheSevenTombsDescription",
+        "enUS": "Town Portals can be created mid battle, allowing you to return to town to restock on potions if necessary.",
+        "zhCN": "必要时，你可以在战斗中途打开城镇传送门，返回城镇补给药水。",
+        "zhTW": "在戰鬥中還是可以開啟城鎮傳送門，這樣你就可以返回城鎮補給。",
+        "sgCN": "必要时，你可以在战斗中途打开城镇传送门，返回城镇补给药水。",
+        "sgTW": "在戰鬥中還是可以開啟城鎮傳送門，這樣你就可以返回城鎮補給。"
+    },
+    "PlayStationActivityHintTheGoldenBirdHeader": {
+        "Key": "PlayStationActivityHintTheGoldenBirdHeader",
+        "enUS": "Hunt a unique monster",
+        "zhCN": "狩猎暗金怪",
+        "zhTW": "獵殺獨特怪物",
+        "sgCN": "狩猎暗金怪",
+        "sgTW": "獵殺獨特怪物"
+    },
+    "PlayStationActivityHintTheGoldenBirdDescription": {
+        "Key": "PlayStationActivityHintTheGoldenBirdDescription",
+        "enUS": "The Jade Figurine is dropped from the first unique monster you encounter after leaving the Kurast Docks.",
+        "zhCN": "你离开库拉斯特海港后遇到的第一个暗金怪会掉玉石雕像。",
+        "zhTW": "離開庫拉斯特碼頭之後，你遇到的第一個獨特怪物會掉落翠玉塑像。",
+        "sgCN": "你离开库拉斯特海港后遇到的第一个暗金怪会掉玉石雕像。",
+        "sgTW": "離開庫拉斯特碼頭之後，你遇到的第一個獨特怪物會掉落翠玉塑像。"
+    },
+    "PlayStationActivityHintTheBlackenedTempleHeader": {
+        "Key": "PlayStationActivityHintTheBlackenedTempleHeader",
+        "enUS": "Divide and conquer",
+        "zhCN": "分而歼之",
+        "zhTW": "各個擊破",
+        "sgCN": "分而歼之",
+        "sgTW": "各個擊破"
+    },
+    "PlayStationActivityHintTheBlackenedTempleDescription": {
+        "Key": "PlayStationActivityHintTheBlackenedTempleDescription",
+        "enUS": "Members of the High Council can be lured away making for easier fights.",
+        "zhCN": "你可以将高庭理事会的成员诱出，将其逐一解决。",
+        "zhTW": "小心誘敵分散最高議會的成員，藉此降低戰鬥難度。",
+        "sgCN": "你可以将高庭理事会的成员诱出，将其逐一解决。",
+        "sgTW": "小心誘敵分散最高議會的成員，藉此降低戰鬥難度。"
+    },
+    "PlayStationActivityHintTheGuardianHeader": {
+        "Key": "PlayStationActivityHintTheGuardianHeader",
+        "enUS": "Up close and personal",
+        "zhCN": "近墨者下手要黑",
+        "zhTW": "近身作戰",
+        "sgCN": "近墨者下手要黑",
+        "sgTW": "近身作戰"
+    },
+    "PlayStationActivityHintTheGuardianDescription": {
+        "Key": "PlayStationActivityHintTheGuardianDescription",
+        "enUS": "Mephisto excels at range so keeping him close can help mitigate his damage.",
+        "zhCN": "墨菲斯托擅长远程攻击，离他越近越能减轻其伤害能力。",
+        "zhTW": "墨菲斯托擅長遠距離戰鬥，因此逼近他身邊有助於減緩傷害。",
+        "sgCN": "墨菲斯托擅长远程攻击，离他越近越能减轻其伤害能力。",
+        "sgTW": "墨菲斯托擅長遠距離戰鬥，因此逼近他身邊有助於減緩傷害。"
+    },
+    "PlayStationActivityHintFallenAngelHeader": {
+        "Key": "PlayStationActivityHintFallenAngelHeader",
+        "enUS": "Boost cold resistance",
+        "zhCN": "堆高冰霜抗性",
+        "zhTW": "加強冰寒抗性",
+        "sgCN": "堆高冰霜抗性",
+        "sgTW": "加強冰寒抗性"
+    },
+    "PlayStationActivityHintFallenAngelDescription": {
+        "Key": "PlayStationActivityHintFallenAngelDescription",
+        "enUS": "Izual has cold attacks. Be sure to have cold resistance or Thawing Potions to aid in the fight.",
+        "zhCN": "衣卒尔使用冰霜攻击。最好要有一定的冰抗或带上解冻药水来对付他。",
+        "zhTW": "伊卒爾的攻擊帶有冰寒屬性，開戰前記得提高冰寒抗性，或是攜帶融冰藥水。",
+        "sgCN": "衣卒尔使用冰霜攻击。最好要有一定的冰抗或带上解冻药水来对付他。",
+        "sgTW": "伊卒爾的攻擊帶有冰寒屬性，開戰前記得提高冰寒抗性，或是攜帶融冰藥水。"
+    },
+    "PlayStationActivityHintHellsForgeHeader": {
+        "Key": "PlayStationActivityHintHellsForgeHeader",
+        "enUS": "Isolate Hephasto",
+        "zhCN": "使赫法斯托孤立无援",
+        "zhTW": "孤立海法斯特",
+        "sgCN": "使赫法斯托孤立无援",
+        "sgTW": "孤立海法斯特"
+    },
+    "PlayStationActivityHintHellsForgeDescription": {
+        "Key": "PlayStationActivityHintHellsForgeDescription",
+        "enUS": "Hephasto can be lured away from his forge so that he is alone.",
+        "zhCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。",
+        "zhTW": "你可以引開海法斯特遠離熔爐，這樣他就獨立無援了。",
+        "sgCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。",
+        "sgTW": "你可以引開海法斯特遠離熔爐，這樣他就獨立無援了。"
+    },
+    "PlayStationActivityHintTerrorsEndHeader": {
+        "Key": "PlayStationActivityHintTerrorsEndHeader",
+        "enUS": "Be cautious with portal placement",
+        "zhCN": "小心传送门放置",
+        "zhTW": "注意傳送門的位置",
+        "sgCN": "小心传送门放置",
+        "sgTW": "注意傳送門的位置"
+    },
+    "PlayStationActivityHintTerrorsEndDescription": {
+        "Key": "PlayStationActivityHintTerrorsEndDescription",
+        "enUS": "If you need to retreat from the fight, then make sure that your Town Portal is out of Diablo's vision or he might cast Bone Prison on them.",
+        "zhCN": "如果你需要从战斗中撤退，一定要将你的城镇传送门放置在迪亚波罗的视野之外，否则他会对其释放骨牢。",
+        "zhTW": "如果你需要從戰鬥中撤退，記得把城鎮傳送門放在迪亞布羅的視線之外，否則他可能會對傳送門施放骨牢。",
+        "sgCN": "如果你需要从战斗中撤退，一定要将你的城镇传送门放置在迪亚波罗的视野之外，否则他会对其释放骨牢。",
+        "sgTW": "如果你需要從戰鬥中撤退，記得把城鎮傳送門放在迪亞布羅的視線之外，否則他可能會對傳送門施放骨牢。"
+    },
+    "PlayStationActivityHintSiegeOfHarrogathHeader": {
+        "Key": "PlayStationActivityHintSiegeOfHarrogathHeader",
+        "enUS": "Focus the Overseers",
+        "zhCN": "集火督军",
+        "zhTW": "優先對付督軍",
+        "sgCN": "集火督军",
+        "sgTW": "優先對付督軍"
+    },
+    "PlayStationActivityHintSiegeOfHarrogathDescription": {
+        "Key": "PlayStationActivityHintSiegeOfHarrogathDescription",
+        "enUS": "Overseers can cause minions to go into a frenzy, making them charge you and explode.",
+        "zhCN": "督军们会使爪牙陷入狂乱，逼迫其向你发动自杀式冲锋。",
+        "zhTW": "督軍能讓小兵陷入狂亂，衝向你自爆。",
+        "sgCN": "督军们会使爪牙陷入狂乱，逼迫其向你发动自杀式冲锋。",
+        "sgTW": "督軍能讓小兵陷入狂亂，衝向你自爆。"
+    },
+    "PlayStationActivityHintRiteOfPassageHeader": {
+        "Key": "PlayStationActivityHintRiteOfPassageHeader",
+        "enUS": "Focus Madawc",
+        "zhCN": "集火马道克",
+        "zhTW": "優先對付馬道克",
+        "sgCN": "集火马道克",
+        "sgTW": "優先對付馬道克"
+    },
+    "PlayStationActivityHintRiteOfPassageDescription": {
+        "Key": "PlayStationActivityHintRiteOfPassageDescription",
+        "enUS": "Madawc’s double throw can stun you long enough for the others to land fatal blows. Try targeting him first.",
+        "zhCN": "马道克的双手投掷会击晕你，让你无法躲避其他先祖的致命打击。最好先解决他。",
+        "zhTW": "馬道克的雙手投擲技能會使你昏迷，讓另外兩人能趁機對你造成致命傷害。盡量優先打敗他。",
+        "sgCN": "马道克的双手投掷会击晕你，让你无法躲避其他先祖的致命打击。最好先解决他。",
+        "sgTW": "馬道克的雙手投擲技能會使你昏迷，讓另外兩人能趁機對你造成致命傷害。盡量優先打敗他。"
+    },
+    "OptionsMenuControllerRumbleEnabledText": {
+        "Key": "OptionsMenuControllerRumbleEnabledText",
+        "enUS": "Controller Vibration",
+        "zhCN": "控制器震动",
+        "zhTW": "控制器震動功能",
+        "sgCN": "控制器震动",
+        "sgTW": "控制器震動功能"
+    },
+    "OptionsMenuControllerRumbleEnabledTooltip": {
+        "Key": "OptionsMenuControllerRumbleEnabledTooltip",
+        "enUS": "Enable controller vibration.",
+        "zhCN": "启用控制器震动",
+        "zhTW": "開啟控制器震動功能。",
+        "sgCN": "启用控制器震动",
+        "sgTW": "開啟控制器震動功能。"
+    },
+    "SkillNameSwapWeapons": {
+        "Key": "SkillNameSwapWeapons",
+        "enUS": "Swap Weapons",
+        "zhCN": "切换武器",
+        "zhTW": "更換武器",
+        "sgCN": "切换武器",
+        "sgTW": "更換武器"
+    },
+    "SkillDescSwapWeapons": {
+        "Key": "SkillDescSwapWeapons",
+        "enUS": "Swap Weapons",
+        "zhCN": "切换武器",
+        "zhTW": "更換武器",
+        "sgCN": "切换武器",
+        "sgTW": "更換武器"
+    },
+    "SkillNameMap": {
+        "Key": "SkillNameMap",
+        "enUS": "Automap",
+        "zhCN": "透视地图",
+        "zhTW": "自動地圖",
+        "sgCN": "透视地图",
+        "sgTW": "自動地圖"
+    },
+    "SkillDescMap": {
+        "Key": "SkillDescMap",
+        "enUS": "Automap",
+        "zhCN": "透视地图",
+        "zhTW": "自動地圖",
+        "sgCN": "透视地图",
+        "sgTW": "自動地圖"
+    },
+    "SkillNameShowItems": {
+        "Key": "SkillNameShowItems",
+        "enUS": "Show Items",
+        "zhCN": "显示物品",
+        "zhTW": "顯示物品",
+        "sgCN": "显示物品",
+        "sgTW": "顯示物品"
+    },
+    "SkillDescShowItems": {
+        "Key": "SkillDescShowItems",
+        "enUS": "Toggle Item Labels",
+        "zhCN": "打开/关闭物品标签",
+        "zhTW": "切換物品名稱",
+        "sgCN": "打开/关闭物品标签",
+        "sgTW": "切換物品名稱"
+    },
+    "SkillNameRunToggle": {
+        "Key": "SkillNameRunToggle",
+        "enUS": "Run Toggle",
+        "zhCN": "奔跑切换",
+        "zhTW": "跑步切換",
+        "sgCN": "奔跑切换",
+        "sgTW": "跑步切換"
+    },
+    "SkillDescRunToggle": {
+        "Key": "SkillDescRunToggle",
+        "enUS": "Toggle Walk/Run",
+        "zhCN": "切换行走或奔跑",
+        "zhTW": "切換行走 / 跑步",
+        "sgCN": "切换行走或奔跑",
+        "sgTW": "切換行走 / 跑步"
+    },
+    "ControllerHelpInteract": {
+        "Key": "ControllerHelpInteract",
+        "enUS": "Interact",
+        "zhCN": "交互",
+        "zhTW": "互動",
+        "sgCN": "交互",
+        "sgTW": "互動"
+    },
+    "SelectButtonNoteText": {
+        "Key": "SelectButtonNoteText",
+        "enUS": "Note: Pressinginteracts/loots in addition to performing bound skill",
+        "zhCN": "提示：按交互/拾取还可以施放绑定的技能",
+        "zhTW": "請注意：按下會進行綁定技能，或是互動及拾取",
+        "sgCN": "提示：按交互/拾取还可以施放绑定的技能",
+        "sgTW": "請注意：按下會進行綁定技能，或是互動及拾取"
+    },
+    "GraphicsMode": {
+        "Key": "GraphicsMode",
+        "enUS": "Graphics Mode",
+        "zhCN": "画质模式",
+        "zhTW": "影像模式",
+        "sgCN": "画质模式",
+        "sgTW": "影像模式"
+    },
+    "GraphicsModeQuality": {
+        "Key": "GraphicsModeQuality",
+        "enUS": "Quality",
+        "zhCN": "质量",
+        "zhTW": "品質",
+        "sgCN": "质量",
+        "sgTW": "品質"
+    },
+    "GraphicsModePerformance": {
+        "Key": "GraphicsModePerformance",
+        "enUS": "Performance",
+        "zhCN": "性能表现",
+        "zhTW": "效能",
+        "sgCN": "性能表现",
+        "sgTW": "效能"
+    },
+    "ControllerHelpRunIcon": {
+        "Key": "ControllerHelpRunIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "ControllerHelpEmoteIcon": {
+        "Key": "ControllerHelpEmoteIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "StrHelp11_xbox": {
+        "Key": "StrHelp11_xbox",
+        "enUS": "Button Skill",
+        "zhCN": "按钮技能",
+        "zhTW": "技能",
+        "sgCN": "按钮技能",
+        "sgTW": "技能"
+    },
+    "RebindSkill_xbox": {
+        "Key": "RebindSkill_xbox",
+        "enUS": "Press button to rebind skill",
+        "zhCN": "重新绑定技能",
+        "zhTW": "重新綁定技能",
+        "sgCN": "重新绑定技能",
+        "sgTW": "重新綁定技能"
+    },
+    "CfgPrimaryKey_xbox": {
+        "Key": "CfgPrimaryKey_xbox",
+        "enUS": "Key/Button One",
+        "zhCN": "键/按钮一",
+        "zhTW": "按鍵 / 按鈕1",
+        "sgCN": "键/按钮一",
+        "sgTW": "按鍵 / 按鈕1"
+    },
+    "CfgSecondaryKey_xbox": {
+        "Key": "CfgSecondaryKey_xbox",
+        "enUS": "Key/Button Two",
+        "zhCN": "键/按钮二",
+        "zhTW": "按鍵 / 按鈕2",
+        "sgCN": "键/按钮二",
+        "sgTW": "按鍵 / 按鈕2"
+    },
+    "ShowPartySD_xbox": {
+        "Key": "ShowPartySD_xbox",
+        "enUS": "SHOW PARTY",
+        "zhCN": "显示队伍",
+        "zhTW": "顯示隊伍",
+        "sgCN": "显示队伍",
+        "sgTW": "顯示隊伍"
+    },
+    "ShowPartyHD_xbox": {
+        "Key": "ShowPartyHD_xbox",
+        "enUS": "Show Party Members",
+        "zhCN": "显示队伍成员",
+        "zhTW": "顯示隊伍成員",
+        "sgCN": "显示队伍成员",
+        "sgTW": "顯示隊伍成員"
+    },
+    "PartyScreenTitle_xbox": {
+        "Key": "PartyScreenTitle_xbox",
+        "enUS": "Party",
+        "zhCN": "队伍",
+        "zhTW": "隊伍",
+        "sgCN": "队伍",
+        "sgTW": "隊伍"
+    },
+    "Party6_xbox": {
+        "Key": "Party6_xbox",
+        "enUS": " has cancelled the party invite.",
+        "zhCN": "取消了队伍邀请。",
+        "zhTW": "取消了加入隊伍的邀請。",
+        "sgCN": "取消了队伍邀请。",
+        "sgTW": "取消了加入隊伍的邀請。"
+    },
+    "Party7_xbox": {
+        "Key": "Party7_xbox",
+        "enUS": " has joined your party to fight the forces of evil.",
+        "zhCN": "已加入你的队伍，一起对抗邪恶。",
+        "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "sgCN": "已加入你的队伍，一起对抗邪恶。",
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+    },
+    "Party9_xbox": {
+        "Key": "Party9_xbox",
+        "enUS": " has left your party.",
+        "zhCN": "离开了你的队伍。",
+        "zhTW": "離開了你的隊伍。",
+        "sgCN": "离开了你的队伍。",
+        "sgTW": "離開了你的隊伍。"
+    },
+    "strParty2_xbox": {
+        "Key": "strParty2_xbox",
+        "enUS": "to join your party.",
+        "zhCN": "加入你的队伍",
+        "zhTW": "加入你的隊伍。",
+        "sgCN": "加入你的队伍",
+        "sgTW": "加入你的隊伍。"
+    },
+    "strParty4_xbox": {
+        "Key": "strParty4_xbox",
+        "enUS": "invitation to form a party.",
+        "zhCN": "组队邀请",
+        "zhTW": "加入其隊伍。",
+        "sgCN": "组队邀请",
+        "sgTW": "加入其隊伍。"
+    },
+    "strParty24_xbox": {
+        "Key": "strParty24_xbox",
+        "enUS": "Remove yourself from party.",
+        "zhCN": "退出队伍",
+        "zhTW": "將自己從隊伍中移除。",
+        "sgCN": "退出队伍",
+        "sgTW": "將自己從隊伍中移除。"
+    },
+    "Yourparty_xbox": {
+        "Key": "Yourparty_xbox",
+        "enUS": "In your party",
+        "zhCN": "在你的队伍中",
+        "zhTW": "在你的隊伍中",
+        "sgCN": "在你的队伍中",
+        "sgTW": "在你的隊伍中"
+    },
+    "Inparty_xbox": {
+        "Key": "Inparty_xbox",
+        "enUS": "In a party",
+        "zhCN": "在队伍中",
+        "zhTW": "在隊伍中",
+        "sgCN": "在队伍中",
+        "sgTW": "在隊伍中"
+    },
+    "minipanelparty_xbox": {
+        "Key": "minipanelparty_xbox",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgParty_xbox": {
+        "Key": "CfgParty_xbox",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgAutoMapParty_xbox": {
+        "Key": "CfgAutoMapParty_xbox",
+        "enUS": "Party on Automap",
+        "zhCN": "透视地图上的队伍",
+        "zhTW": "自動地圖上的隊伍",
+        "sgCN": "透视地图上的队伍",
+        "sgTW": "自動地圖上的隊伍"
+    },
+    "OptionsMenuSettingSwapThumbsticks_xbox": {
+        "Key": "OptionsMenuSettingSwapThumbsticks_xbox",
+        "enUS": "Swap Sticks",
+        "zhCN": "交替摇杆",
+        "zhTW": "切換搖桿",
+        "sgCN": "交替摇杆",
+        "sgTW": "切換搖桿"
+    },
+    "OptionsMenuSettingSwapThumbsticksTooltip_xbox": {
+        "Key": "OptionsMenuSettingSwapThumbsticksTooltip_xbox",
+        "enUS": "Enable to swap the left and right stick inputs.",
+        "zhCN": "启用后可以交替左右摇杆的输入。",
+        "zhTW": "開啟可切換左右搖桿的輸入。",
+        "sgCN": "启用后可以交替左右摇杆的输入。",
+        "sgTW": "開啟可切換左右搖桿的輸入。"
+    },
+    "StrHelp11_ps4": {
+        "Key": "StrHelp11_ps4",
+        "enUS": "Button Skill",
+        "zhCN": "键技能",
+        "zhTW": "技能",
+        "sgCN": "键技能",
+        "sgTW": "技能"
+    },
+    "RebindSkill_ps4": {
+        "Key": "RebindSkill_ps4",
+        "enUS": "Press button to rebind skill",
+        "zhCN": "重新绑定技能",
+        "zhTW": "重新綁定技能",
+        "sgCN": "重新绑定技能",
+        "sgTW": "重新綁定技能"
+    },
+    "CfgPrimaryKey_ps4": {
+        "Key": "CfgPrimaryKey_ps4",
+        "enUS": "Key/Button One",
+        "zhCN": "键/按钮一",
+        "zhTW": "按鍵 / 按鈕1",
+        "sgCN": "键/按钮一",
+        "sgTW": "按鍵 / 按鈕1"
+    },
+    "CfgSecondaryKey_ps4": {
+        "Key": "CfgSecondaryKey_ps4",
+        "enUS": "Key/Button Two",
+        "zhCN": "键/按钮二",
+        "zhTW": "按鍵 / 按鈕2",
+        "sgCN": "键/按钮二",
+        "sgTW": "按鍵 / 按鈕2"
+    },
+    "ShowPartySD_ps4": {
+        "Key": "ShowPartySD_ps4",
+        "enUS": "SHOW PARTY",
+        "zhCN": "显示队伍",
+        "zhTW": "顯示隊伍",
+        "sgCN": "显示队伍",
+        "sgTW": "顯示隊伍"
+    },
+    "ShowPartyHD_ps4": {
+        "Key": "ShowPartyHD_ps4",
+        "enUS": "Show Party Members",
+        "zhCN": "显示队伍成员",
+        "zhTW": "顯示隊伍成員",
+        "sgCN": "显示队伍成员",
+        "sgTW": "顯示隊伍成員"
+    },
+    "PartyScreenTitle_ps4": {
+        "Key": "PartyScreenTitle_ps4",
+        "enUS": "Party",
+        "zhCN": "队伍",
+        "zhTW": "隊伍",
+        "sgCN": "队伍",
+        "sgTW": "隊伍"
+    },
+    "Party6_ps4": {
+        "Key": "Party6_ps4",
+        "enUS": " has cancelled the party invite.",
+        "zhCN": "取消了队伍邀请。",
+        "zhTW": "取消了加入隊伍的邀請。",
+        "sgCN": "取消了队伍邀请。",
+        "sgTW": "取消了加入隊伍的邀請。"
+    },
+    "Party7_ps4": {
+        "Key": "Party7_ps4",
+        "enUS": " has joined your party to fight the forces of evil.",
+        "zhCN": "已加入你的队伍，一起对抗邪恶。",
+        "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "sgCN": "已加入你的队伍，一起对抗邪恶。",
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+    },
+    "Party9_ps4": {
+        "Key": "Party9_ps4",
+        "enUS": " has left your party.",
+        "zhCN": "离开了你的队伍。",
+        "zhTW": "離開了你的隊伍。",
+        "sgCN": "离开了你的队伍。",
+        "sgTW": "離開了你的隊伍。"
+    },
+    "strParty2_ps4": {
+        "Key": "strParty2_ps4",
+        "enUS": "to join your party.",
+        "zhCN": "加入你的队伍。",
+        "zhTW": "加入你的隊伍。",
+        "sgCN": "加入你的队伍。",
+        "sgTW": "加入你的隊伍。"
+    },
+    "strParty4_ps4": {
+        "Key": "strParty4_ps4",
+        "enUS": "invitation to form a party.",
+        "zhCN": "组队邀请",
+        "zhTW": "加入其隊伍。",
+        "sgCN": "组队邀请",
+        "sgTW": "加入其隊伍。"
+    },
+    "strParty24_ps4": {
+        "Key": "strParty24_ps4",
+        "enUS": "Remove yourself from party.",
+        "zhCN": "退出队伍",
+        "zhTW": "將自己從隊伍中移除。",
+        "sgCN": "退出队伍",
+        "sgTW": "將自己從隊伍中移除。"
+    },
+    "Yourparty_ps4": {
+        "Key": "Yourparty_ps4",
+        "enUS": "In your party",
+        "zhCN": "在你的队伍中",
+        "zhTW": "在你的隊伍中",
+        "sgCN": "在你的队伍中",
+        "sgTW": "在你的隊伍中"
+    },
+    "Inparty_ps4": {
+        "Key": "Inparty_ps4",
+        "enUS": "In a party",
+        "zhCN": "在队伍中",
+        "zhTW": "在隊伍中",
+        "sgCN": "在队伍中",
+        "sgTW": "在隊伍中"
+    },
+    "minipanelparty_ps4": {
+        "Key": "minipanelparty_ps4",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgParty_ps4": {
+        "Key": "CfgParty_ps4",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgAutoMapParty_ps4": {
+        "Key": "CfgAutoMapParty_ps4",
+        "enUS": "Party on Automap",
+        "zhCN": "透视地图上的队伍",
+        "zhTW": "自動地圖上的隊伍",
+        "sgCN": "透视地图上的队伍",
+        "sgTW": "自動地圖上的隊伍"
+    },
+    "OptionsMenuSettingSwapThumbsticks_ps4": {
+        "Key": "OptionsMenuSettingSwapThumbsticks_ps4",
+        "enUS": "Swap Right/Left Stick",
+        "zhCN": "交替左/右操作杆",
+        "zhTW": "左右操作桿對調",
+        "sgCN": "交替左/右操作杆",
+        "sgTW": "左右操作桿對調"
+    },
+    "OptionsMenuSettingSwapThumbsticksTooltip_ps4": {
+        "Key": "OptionsMenuSettingSwapThumbsticksTooltip_ps4",
+        "enUS": "Enable to swap the left and right stick inputs.",
+        "zhCN": "启用后可以交替左右操作杆的输入。",
+        "zhTW": "開啟可切換左右操作桿的輸入。",
+        "sgCN": "启用后可以交替左右操作杆的输入。",
+        "sgTW": "開啟可切換左右操作桿的輸入。"
+    },
+    "StrHelp11_ps5": {
+        "Key": "StrHelp11_ps5",
+        "enUS": "Button Skill",
+        "zhCN": "键技能",
+        "zhTW": "技能",
+        "sgCN": "键技能",
+        "sgTW": "技能"
+    },
+    "RebindSkill_ps5": {
+        "Key": "RebindSkill_ps5",
+        "enUS": "Press button to rebind skill",
+        "zhCN": "重新绑定技能",
+        "zhTW": "重新綁定技能",
+        "sgCN": "重新绑定技能",
+        "sgTW": "重新綁定技能"
+    },
+    "CfgPrimaryKey_ps5": {
+        "Key": "CfgPrimaryKey_ps5",
+        "enUS": "Key/Button One",
+        "zhCN": "键/按钮一",
+        "zhTW": "按鍵 / 按鈕1",
+        "sgCN": "键/按钮一",
+        "sgTW": "按鍵 / 按鈕1"
+    },
+    "CfgSecondaryKey_ps5": {
+        "Key": "CfgSecondaryKey_ps5",
+        "enUS": "Key/Button Two",
+        "zhCN": "键/按钮二",
+        "zhTW": "按鍵 / 按鈕2",
+        "sgCN": "键/按钮二",
+        "sgTW": "按鍵 / 按鈕2"
+    },
+    "ShowPartySD_ps5": {
+        "Key": "ShowPartySD_ps5",
+        "enUS": "SHOW PARTY",
+        "zhCN": "显示队伍",
+        "zhTW": "顯示隊伍",
+        "sgCN": "显示队伍",
+        "sgTW": "顯示隊伍"
+    },
+    "ShowPartyHD_ps5": {
+        "Key": "ShowPartyHD_ps5",
+        "enUS": "Show Party Members",
+        "zhCN": "显示队伍成员",
+        "zhTW": "顯示隊伍成員",
+        "sgCN": "显示队伍成员",
+        "sgTW": "顯示隊伍成員"
+    },
+    "PartyScreenTitle_ps5": {
+        "Key": "PartyScreenTitle_ps5",
+        "enUS": "Party",
+        "zhCN": "队伍",
+        "zhTW": "隊伍",
+        "sgCN": "队伍",
+        "sgTW": "隊伍"
+    },
+    "Party6_ps5": {
+        "Key": "Party6_ps5",
+        "enUS": " has cancelled the party invite.",
+        "zhCN": "取消了队伍邀请。",
+        "zhTW": "取消了加入隊伍的邀請。",
+        "sgCN": "取消了队伍邀请。",
+        "sgTW": "取消了加入隊伍的邀請。"
+    },
+    "Party7_ps5": {
+        "Key": "Party7_ps5",
+        "enUS": " has joined your party to fight the forces of evil.",
+        "zhCN": "已加入你的队伍，一起对抗邪恶。",
+        "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "sgCN": "已加入你的队伍，一起对抗邪恶。",
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+    },
+    "Party9_ps5": {
+        "Key": "Party9_ps5",
+        "enUS": " has left your party.",
+        "zhCN": "离开了你的队伍。",
+        "zhTW": "離開了你的隊伍。",
+        "sgCN": "离开了你的队伍。",
+        "sgTW": "離開了你的隊伍。"
+    },
+    "strParty2_ps5": {
+        "Key": "strParty2_ps5",
+        "enUS": "to join your party.",
+        "zhCN": "加入你的队伍。",
+        "zhTW": "加入你的隊伍。",
+        "sgCN": "加入你的队伍。",
+        "sgTW": "加入你的隊伍。"
+    },
+    "strParty4_ps5": {
+        "Key": "strParty4_ps5",
+        "enUS": "invitation to form a party.",
+        "zhCN": "组队邀请",
+        "zhTW": "加入其隊伍。",
+        "sgCN": "组队邀请",
+        "sgTW": "加入其隊伍。"
+    },
+    "strParty24_ps5": {
+        "Key": "strParty24_ps5",
+        "enUS": "Remove yourself from party.",
+        "zhCN": "退出队伍",
+        "zhTW": "將自己從隊伍中移除。",
+        "sgCN": "退出队伍",
+        "sgTW": "將自己從隊伍中移除。"
+    },
+    "Yourparty_ps5": {
+        "Key": "Yourparty_ps5",
+        "enUS": "In your party",
+        "zhCN": "在你的队伍中",
+        "zhTW": "在你的隊伍中",
+        "sgCN": "在你的队伍中",
+        "sgTW": "在你的隊伍中"
+    },
+    "Inparty_ps5": {
+        "Key": "Inparty_ps5",
+        "enUS": "In a party",
+        "zhCN": "在队伍中",
+        "zhTW": "在隊伍中",
+        "sgCN": "在队伍中",
+        "sgTW": "在隊伍中"
+    },
+    "minipanelparty_ps5": {
+        "Key": "minipanelparty_ps5",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgParty_ps5": {
+        "Key": "CfgParty_ps5",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgAutoMapParty_ps5": {
+        "Key": "CfgAutoMapParty_ps5",
+        "enUS": "Party on Automap",
+        "zhCN": "透视地图上的队伍",
+        "zhTW": "自動地圖上的隊伍",
+        "sgCN": "透视地图上的队伍",
+        "sgTW": "自動地圖上的隊伍"
+    },
+    "OptionsMenuSettingSwapThumbsticks_ps5": {
+        "Key": "OptionsMenuSettingSwapThumbsticks_ps5",
+        "enUS": "Swap Right/Left Stick",
+        "zhCN": "交替左/右操作杆",
+        "zhTW": "左右操作桿對調",
+        "sgCN": "交替左/右操作杆",
+        "sgTW": "左右操作桿對調"
+    },
+    "OptionsMenuSettingSwapThumbsticksTooltip_ps5": {
+        "Key": "OptionsMenuSettingSwapThumbsticksTooltip_ps5",
+        "enUS": "Enable to swap the left and right stick inputs.",
+        "zhCN": "启用后可以交替左右操作杆的输入。",
+        "zhTW": "開啟可切換左右操作桿的輸入。",
+        "sgCN": "启用后可以交替左右操作杆的输入。",
+        "sgTW": "開啟可切換左右操作桿的輸入。"
+    },
+    "StrHelp11_switch": {
+        "Key": "StrHelp11_switch",
+        "enUS": "Button Skill",
+        "zhCN": "键技能",
+        "zhTW": "技能",
+        "sgCN": "键技能",
+        "sgTW": "技能"
+    },
+    "RebindSkill_switch": {
+        "Key": "RebindSkill_switch",
+        "enUS": "Press button to rebind skill",
+        "zhCN": "重新绑定技能",
+        "zhTW": "重新綁定技能",
+        "sgCN": "重新绑定技能",
+        "sgTW": "重新綁定技能"
+    },
+    "CfgPrimaryKey_switch": {
+        "Key": "CfgPrimaryKey_switch",
+        "enUS": "Key/Button One",
+        "zhCN": "键/按钮一",
+        "zhTW": "按鍵 / 按鈕1",
+        "sgCN": "键/按钮一",
+        "sgTW": "按鍵 / 按鈕1"
+    },
+    "CfgSecondaryKey_switch": {
+        "Key": "CfgSecondaryKey_switch",
+        "enUS": "Key/Button Two",
+        "zhCN": "键/按钮二",
+        "zhTW": "按鍵 / 按鈕2",
+        "sgCN": "键/按钮二",
+        "sgTW": "按鍵 / 按鈕2"
+    },
+    "ShowPartySD_switch": {
+        "Key": "ShowPartySD_switch",
+        "enUS": "SHOW PARTY",
+        "zhCN": "显示队伍",
+        "zhTW": "顯示隊伍",
+        "sgCN": "显示队伍",
+        "sgTW": "顯示隊伍"
+    },
+    "ShowPartyHD_switch": {
+        "Key": "ShowPartyHD_switch",
+        "enUS": "Show Party Members",
+        "zhCN": "显示队伍成员",
+        "zhTW": "顯示隊伍成員",
+        "sgCN": "显示队伍成员",
+        "sgTW": "顯示隊伍成員"
+    },
+    "PartyScreenTitle_switch": {
+        "Key": "PartyScreenTitle_switch",
+        "enUS": "Party",
+        "zhCN": "队伍",
+        "zhTW": "隊伍",
+        "sgCN": "队伍",
+        "sgTW": "隊伍"
+    },
+    "Party6_switch": {
+        "Key": "Party6_switch",
+        "enUS": " has cancelled the party invite.",
+        "zhCN": "取消了队伍邀请。",
+        "zhTW": "取消了加入隊伍的邀請。",
+        "sgCN": "取消了队伍邀请。",
+        "sgTW": "取消了加入隊伍的邀請。"
+    },
+    "Party7_switch": {
+        "Key": "Party7_switch",
+        "enUS": " has joined your party to fight the forces of evil.",
+        "zhCN": "已加入你的队伍，一起对抗邪恶。",
+        "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "sgCN": "已加入你的队伍，一起对抗邪恶。",
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+    },
+    "Party9_switch": {
+        "Key": "Party9_switch",
+        "enUS": " has left your party.",
+        "zhCN": "离开了你的队伍。",
+        "zhTW": "離開了你的隊伍。",
+        "sgCN": "离开了你的队伍。",
+        "sgTW": "離開了你的隊伍。"
+    },
+    "strParty2_switch": {
+        "Key": "strParty2_switch",
+        "enUS": "to join your party.",
+        "zhCN": "加入你的队伍。",
+        "zhTW": "加入你的隊伍。",
+        "sgCN": "加入你的队伍。",
+        "sgTW": "加入你的隊伍。"
+    },
+    "strParty4_switch": {
+        "Key": "strParty4_switch",
+        "enUS": "invitation to form a party.",
+        "zhCN": "组队邀请",
+        "zhTW": "加入其隊伍。",
+        "sgCN": "组队邀请",
+        "sgTW": "加入其隊伍。"
+    },
+    "strParty24_switch": {
+        "Key": "strParty24_switch",
+        "enUS": "Remove yourself from party.",
+        "zhCN": "退出队伍",
+        "zhTW": "將自己從隊伍中移除。",
+        "sgCN": "退出队伍",
+        "sgTW": "將自己從隊伍中移除。"
+    },
+    "Yourparty_switch": {
+        "Key": "Yourparty_switch",
+        "enUS": "In your party",
+        "zhCN": "在你的队伍中",
+        "zhTW": "在你的隊伍中",
+        "sgCN": "在你的队伍中",
+        "sgTW": "在你的隊伍中"
+    },
+    "Inparty_switch": {
+        "Key": "Inparty_switch",
+        "enUS": "In a party",
+        "zhCN": "在队伍中",
+        "zhTW": "在隊伍中",
+        "sgCN": "在队伍中",
+        "sgTW": "在隊伍中"
+    },
+    "minipanelparty_switch": {
+        "Key": "minipanelparty_switch",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgParty_switch": {
+        "Key": "CfgParty_switch",
+        "enUS": "Party Screen",
+        "zhCN": "队伍界面",
+        "zhTW": "隊伍畫面",
+        "sgCN": "队伍界面",
+        "sgTW": "隊伍畫面"
+    },
+    "CfgAutoMapParty_switch": {
+        "Key": "CfgAutoMapParty_switch",
+        "enUS": "Party on Automap",
+        "zhCN": "透视地图上的队伍",
+        "zhTW": "自動地圖上的隊伍",
+        "sgCN": "透视地图上的队伍",
+        "sgTW": "自動地圖上的隊伍"
+    },
+    "OptionsMenuSettingSwapThumbsticks_switch": {
+        "Key": "OptionsMenuSettingSwapThumbsticks_switch",
+        "enUS": "Swap Sticks",
+        "zhCN": "交替摇杆",
+        "zhTW": "切換操控搖桿",
+        "sgCN": "交替摇杆",
+        "sgTW": "切換操控搖桿"
+    },
+    "OptionsMenuSettingSwapThumbsticksTooltip_switch": {
+        "Key": "OptionsMenuSettingSwapThumbsticksTooltip_switch",
+        "enUS": "Enable to swap the left and right stick inputs.",
+        "zhCN": "启用后可以交替L摇杆和R摇杆的输入。",
+        "zhTW": "開啟可切換L操控搖桿和R操控搖桿的輸入。",
+        "sgCN": "启用后可以交替L摇杆和R摇杆的输入。",
+        "sgTW": "開啟可切換L操控搖桿和R操控搖桿的輸入。"
+    },
+    "InvitationSent": {
+        "Key": "InvitationSent",
+        "enUS": "Invitation Sent",
+        "zhCN": "邀请已发送",
+        "zhTW": "已送出邀請",
+        "sgCN": "邀请已发送",
+        "sgTW": "已送出邀請"
+    },
+    "OptionsMenuItemTooltipHotkeyAppenderDescription_xbox": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_xbox",
+        "enUS": "Show/Hide appended button\nprompts on item tooltips.",
+        "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "zhTW": "顯示或隱藏物品資訊的提示按鈕。",
+        "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "sgTW": "顯示或隱藏物品資訊的提示按鈕。"
+    },
+    "ItemNameDisplayModeTooltip_xbox": {
+        "Key": "ItemNameDisplayModeTooltip_xbox",
+        "enUS": "Adjust the behavior of the 'Show Items\non Ground' button when pressed.",
+        "zhCN": "设置按下“在地面上显示物品”绑定按钮时的行为。",
+        "zhTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
+        "sgCN": "设置按下“在地面上显示物品”绑定按钮时的行为。",
+        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。"
+    },
+    "ControllerWeaponSwapSeparateBindingsSetting_xbox": {
+        "Key": "ControllerWeaponSwapSeparateBindingsSetting_xbox",
+        "enUS": "Weapon Swap Separate Skill Buttons",
+        "zhCN": "切换武器时更换技能按钮",
+        "zhTW": "切換武器有獨立的技能按鈕設定",
+        "sgCN": "切换武器时更换技能按钮",
+        "sgTW": "切換武器有獨立的技能按鈕設定"
+    },
+    "TutorialToolTipOfflineConsole_xbox": {
+        "Key": "TutorialToolTipOfflineConsole_xbox",
+        "enUS": "This will create an Offline character. Offline characters are saved as files to your system. Offline characters cannot play with Online characters. Offline characters can be played without an internet connection.",
+        "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+    },
+    "OptionsMenuShowClockDescription_xbox": {
+        "Key": "OptionsMenuShowClockDescription_xbox",
+        "enUS": "Toggles the in-game display of\nyour local system clock.",
+        "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "zhTW": "切換遊戲內顯示的本機系統時鐘。",
+        "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+    },
+    "MoviePlaybackHoldToSkip_xbox": {
+        "Key": "MoviePlaybackHoldToSkip_xbox",
+        "enUS": "Hold Any Button to Skip",
+        "zhCN": "长按任意按钮跳过",
+        "zhTW": "按住任意按鈕以略過",
+        "sgCN": "长按任意按钮跳过",
+        "sgTW": "按住任意按鈕以略過"
+    },
+    "OptionsMenuItemTooltipHotkeyAppenderDescription_ps4": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_ps4",
+        "enUS": "Show/Hide appended button\nprompts on item tooltips.",
+        "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "zhTW": "顯示或隱藏物品資訊的提示按鈕。",
+        "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "sgTW": "顯示或隱藏物品資訊的提示按鈕。"
+    },
+    "ItemNameDisplayModeTooltip_ps4": {
+        "Key": "ItemNameDisplayModeTooltip_ps4",
+        "enUS": "Adjust the behavior of the 'Show Items\non Ground' button when pressed.",
+        "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。",
+        "zhTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
+        "sgCN": "设置按下“在地面上显示物品”绑定键时的行为。",
+        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。"
+    },
+    "ControllerWeaponSwapSeparateBindingsSetting_ps4": {
+        "Key": "ControllerWeaponSwapSeparateBindingsSetting_ps4",
+        "enUS": "Weapon Swap Separate Skill Buttons",
+        "zhCN": "切换武器时更换技能键",
+        "zhTW": "切換武器有獨立的技能按鈕設定",
+        "sgCN": "切换武器时更换技能键",
+        "sgTW": "切換武器有獨立的技能按鈕設定"
+    },
+    "TutorialToolTipOfflineConsole_ps4": {
+        "Key": "TutorialToolTipOfflineConsole_ps4",
+        "enUS": "This will create an Offline character. Offline characters are saved as files to your system. Offline characters cannot play with Online characters. Offline characters can be played without an internet connection.",
+        "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+    },
+    "OptionsMenuShowClockDescription_ps4": {
+        "Key": "OptionsMenuShowClockDescription_ps4",
+        "enUS": "Toggles the in-game display of\nyour local system clock.",
+        "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "zhTW": "切換遊戲內顯示的本機系統時鐘。",
+        "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+    },
+    "MoviePlaybackHoldToSkip_ps4": {
+        "Key": "MoviePlaybackHoldToSkip_ps4",
+        "enUS": "Hold Any Button to Skip",
+        "zhCN": "长按任意键跳过",
+        "zhTW": "按住任意按鈕以略過",
+        "sgCN": "长按任意键跳过",
+        "sgTW": "按住任意按鈕以略過"
+    },
+    "OptionsMenuItemTooltipHotkeyAppenderDescription_ps5": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_ps5",
+        "enUS": "Show/Hide appended button\nprompts on item tooltips.",
+        "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "zhTW": "顯示或隱藏物品資訊的提示按鈕。",
+        "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "sgTW": "顯示或隱藏物品資訊的提示按鈕。"
+    },
+    "ItemNameDisplayModeTooltip_ps5": {
+        "Key": "ItemNameDisplayModeTooltip_ps5",
+        "enUS": "Adjust the behavior of the 'Show Items\non Ground' button when pressed.",
+        "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。",
+        "zhTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
+        "sgCN": "设置按下“在地面上显示物品”绑定键时的行为。",
+        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。"
+    },
+    "ControllerWeaponSwapSeparateBindingsSetting_ps5": {
+        "Key": "ControllerWeaponSwapSeparateBindingsSetting_ps5",
+        "enUS": "Weapon Swap Separate Skill Buttons",
+        "zhCN": "切换武器时更换技能键",
+        "zhTW": "切換武器有獨立的技能按鈕設定",
+        "sgCN": "切换武器时更换技能键",
+        "sgTW": "切換武器有獨立的技能按鈕設定"
+    },
+    "TutorialToolTipOfflineConsole_ps5": {
+        "Key": "TutorialToolTipOfflineConsole_ps5",
+        "enUS": "This will create an Offline character. Offline characters are saved as files to your system. Offline characters cannot play with Online characters. Offline characters can be played without an internet connection.",
+        "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+    },
+    "OptionsMenuShowClockDescription_ps5": {
+        "Key": "OptionsMenuShowClockDescription_ps5",
+        "enUS": "Toggles the in-game display of\nyour local system clock.",
+        "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "zhTW": "切換遊戲內顯示的本機系統時鐘。",
+        "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+    },
+    "MoviePlaybackHoldToSkip_ps5": {
+        "Key": "MoviePlaybackHoldToSkip_ps5",
+        "enUS": "Hold Any Button to Skip",
+        "zhCN": "长按任意键跳过",
+        "zhTW": "按住任意按鈕以略過",
+        "sgCN": "长按任意键跳过",
+        "sgTW": "按住任意按鈕以略過"
+    },
+    "OptionsMenuItemTooltipHotkeyAppenderDescription_switch": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_switch",
+        "enUS": "Show/Hide appended button\nprompts on item tooltips.",
+        "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "zhTW": "顯示或隱藏物品資訊的提示鍵。",
+        "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
+        "sgTW": "顯示或隱藏物品資訊的提示鍵。"
+    },
+    "ItemNameDisplayModeTooltip_switch": {
+        "Key": "ItemNameDisplayModeTooltip_switch",
+        "enUS": "Adjust the behavior of the 'Show Items\non Ground' button when pressed.",
+        "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。",
+        "zhTW": "調整按下「顯示地面物品」鍵時的顯示時間。",
+        "sgCN": "设置按下“在地面上显示物品”绑定键时的行为。",
+        "sgTW": "調整按下「顯示地面物品」鍵時的顯示時間。"
+    },
+    "ControllerWeaponSwapSeparateBindingsSetting_switch": {
+        "Key": "ControllerWeaponSwapSeparateBindingsSetting_switch",
+        "enUS": "Weapon Swap Separate Skill Buttons",
+        "zhCN": "切换武器时更换技能键",
+        "zhTW": "切換武器有獨立的技能按鍵設定",
+        "sgCN": "切换武器时更换技能键",
+        "sgTW": "切換武器有獨立的技能按鍵設定"
+    },
+    "TutorialToolTipOfflineConsole_switch": {
+        "Key": "TutorialToolTipOfflineConsole_switch",
+        "enUS": "This will create an Offline character. Offline characters are saved as files to your system. Offline characters cannot play with Online characters. Offline characters can be played without an internet connection.",
+        "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+    },
+    "OptionsMenuShowClockDescription_switch": {
+        "Key": "OptionsMenuShowClockDescription_switch",
+        "enUS": "Toggles the in-game display of\nyour local system clock.",
+        "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "zhTW": "切換遊戲內顯示的本機系統時鐘。",
+        "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+    },
+    "MoviePlaybackHoldToSkip_switch": {
+        "Key": "MoviePlaybackHoldToSkip_switch",
+        "enUS": "Hold Any Button to Skip",
+        "zhCN": "长按任意键跳过",
+        "zhTW": "按住任意鍵以略過",
+        "sgCN": "长按任意键跳过",
+        "sgTW": "按住任意鍵以略過"
+    },
+    "ScreenSpaceControllerMessage": {
+        "Key": "ScreenSpaceControllerMessage",
+        "enUS": "Adjust the corners using the d-pad or sticks\n until they are at the edges of your screen",
+        "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+    },
+    "ScreenSpaceControllerMessage_xbox": {
+        "Key": "ScreenSpaceControllerMessage_xbox",
+        "enUS": "Adjust the corners using the d-pad or sticks\n until they are at the edges of your screen",
+        "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+    },
+    "ScreenSpaceControllerMessage_ps4": {
+        "Key": "ScreenSpaceControllerMessage_ps4",
+        "enUS": "Adjust the corners using the d-pad or sticks\n until they are at the edges of your screen ZZZZZZZZ",
+        "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐 ZZZZZZZZ",
+        "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐 ZZZZZZZZ",
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+    },
+    "ScreenSpaceControllerMessage_ps5": {
+        "Key": "ScreenSpaceControllerMessage_ps5",
+        "enUS": "Adjust the corners using the d-pad or sticks\n until they are at the edges of your screen",
+        "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+    },
+    "ScreenSpaceControllerMessage_switch": {
+        "Key": "ScreenSpaceControllerMessage_switch",
+        "enUS": "Adjust the corners using the directional buttons or sticks\n until they are at the edges of your screen",
+        "zhCN": "使用方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "zhTW": "使用方向鍵或操控搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "sgCN": "使用方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
+        "sgTW": "使用方向鍵或操控搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+    },
+    "ActivityCampaign": {
+        "Key": "ActivityCampaign",
+        "enUS": "Campaign",
+        "zhCN": "战役",
+        "zhTW": "劇情模式",
+        "sgCN": "战役",
+        "sgTW": "劇情模式"
+    },
+    "PartyPanelShowProfileMessage": {
+        "Key": "PartyPanelShowProfileMessage",
+        "enUS": "Hold to Show Profile",
+        "zhCN": "按住显示个人资料",
+        "zhTW": "按住來顯示玩家資料",
+        "sgCN": "按住显示个人资料",
+        "sgTW": "按住來顯示玩家資料"
+    },
+    "EmoteWheelAcceptButton": {
+        "Key": "EmoteWheelAcceptButton",
+        "enUS": "Accept",
+        "zhCN": "接受",
+        "zhTW": "接受",
+        "sgCN": "接受",
+        "sgTW": "接受"
+    },
+    "ShowMercSkills": {
+        "Key": "ShowMercSkills",
+        "enUS": "Show Mercenary Skills",
+        "zhCN": "显示佣兵技能",
+        "zhTW": "顯示傭兵技能",
+        "sgCN": "显示佣兵技能",
+        "sgTW": "顯示傭兵技能"
+    },
+    "EmoteNotEnough": {
+        "Key": "EmoteNotEnough",
+        "enUS": "Not Enough",
+        "zhCN": "还不够",
+        "zhTW": "不夠",
+        "sgCN": "还不够",
+        "sgTW": "不夠"
+    },
+    "OptionsShowSonyOnlyLeaderboards": {
+        "Key": "OptionsShowSonyOnlyLeaderboards",
+        "enUS": "Show PlayStation™Network Leaderboards",
+        "zhCN": "索尼PlayStation™Network天梯榜",
+        "zhTW": "僅顯示 PlayStation™Network 的天梯榜",
+        "sgCN": "索尼PlayStation™Network天梯榜",
+        "sgTW": "僅顯示 PlayStation™Network 的天梯榜"
+    },
+    "OptionsShowSonyOnlyLeaderboardsTooltip": {
+        "Key": "OptionsShowSonyOnlyLeaderboardsTooltip",
+        "enUS": "Makes leaderboards display only PlayStation™Network users.",
+        "zhCN": "只在天梯榜上显示PlayStation™Network的用户。",
+        "zhTW": "讓天梯榜只顯示 PlayStation™Network 的玩家。",
+        "sgCN": "只在天梯榜上显示PlayStation™Network的用户。",
+        "sgTW": "讓天梯榜只顯示 PlayStation™Network 的玩家。"
+    },
+    "ControllerPromptItemMoveToBelt": {
+        "Key": "ControllerPromptItemMoveToBelt",
+        "enUS": "Move to Belt",
+        "zhCN": "移至腰带",
+        "zhTW": "移至腰帶",
+        "sgCN": "移至腰带",
+        "sgTW": "移至腰帶"
+    },
+    "ControllerPromptAssignFiveStatPoints": {
+        "Key": "ControllerPromptAssignFiveStatPoints",
+        "enUS": "Assign Five Stat Points",
+        "zhCN": "分配五个属性点",
+        "zhTW": "分配五點屬性點數",
+        "sgCN": "分配五个属性点",
+        "sgTW": "分配五點屬性點數"
+    },
+    "ControllerPromptAssignAllStatPoints": {
+        "Key": "ControllerPromptAssignAllStatPoints",
+        "enUS": "Assign All Stat Points",
+        "zhCN": "分配所有属性点",
+        "zhTW": "分配全部屬性點數",
+        "sgCN": "分配所有属性点",
+        "sgTW": "分配全部屬性點數"
+    },
+    "SkillNameCubeLoot": {
+        "Key": "SkillNameCubeLoot",
+        "enUS": "Loot to Cube",
+        "zhCN": "捡入魔盒",
+        "zhTW": "拾取進方塊",
+        "sgCN": "捡入魔盒",
+        "sgTW": "拾取進方塊"
+    },
+    "SkillDescCubeLoot": {
+        "Key": "SkillDescCubeLoot",
+        "enUS": "Pick up Items, weapons, and armor\nand place them in the Horadric Cube",
+        "zhCN": "拾取物品、武器和护甲\n并将它们放进赫拉迪姆魔盒",
+        "zhTW": "撿起物品、武器和防具並直接將放進赫拉迪姆方塊",
+        "sgCN": "拾取物品、武器和护甲\n并将它们放进赫拉迪姆魔盒",
+        "sgTW": "撿起物品、武器和防具並直接將放進赫拉迪姆方塊"
+    },
+    "ControllerPromptOpenCube": {
+        "Key": "ControllerPromptOpenCube",
+        "enUS": "Open Cube",
+        "zhCN": "打开魔盒",
+        "zhTW": "開啟方塊",
+        "sgCN": "打开魔盒",
+        "sgTW": "開啟方塊"
+    },
+    "DesecratedIcon": {
+        "Key": "DesecratedIcon",
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": ""
+    },
+    "UseTerrorTokenAct1Controller": {
+        "Key": "UseTerrorTokenAct1Controller",
+        "enUS": "Hold  to terrorize Act 1",
+        "zhCN": "按住恐惧化第一幕",
+        "zhTW": "按住  以將第一章設為邪惡威脅區域",
+        "sgCN": "按住恐惧化第一幕",
+        "sgTW": "按住  以將第一章設為邪惡威脅區域"
+    },
+    "UseTerrorTokenAct2Controller": {
+        "Key": "UseTerrorTokenAct2Controller",
+        "enUS": "Hold  to terrorize Act 2",
+        "zhCN": "按住恐惧化第二幕",
+        "zhTW": "按住  以將第二章設為邪惡威脅區域",
+        "sgCN": "按住恐惧化第二幕",
+        "sgTW": "按住  以將第二章設為邪惡威脅區域"
+    },
+    "UseTerrorTokenAct3Controller": {
+        "Key": "UseTerrorTokenAct3Controller",
+        "enUS": "Hold  to terrorize Act 3",
+        "zhCN": "按住恐惧化第三幕",
+        "zhTW": "按住  以將第三章設為邪惡威脅區域",
+        "sgCN": "按住恐惧化第三幕",
+        "sgTW": "按住  以將第三章設為邪惡威脅區域"
+    },
+    "UseTerrorTokenAct4Controller": {
+        "Key": "UseTerrorTokenAct4Controller",
+        "enUS": "Hold  to terrorize Act 4",
+        "zhCN": "按住恐惧化第四幕",
+        "zhTW": "按住  以將第四章設為邪惡威脅區域",
+        "sgCN": "按住恐惧化第四幕",
+        "sgTW": "按住  以將第四章設為邪惡威脅區域"
+    },
+    "UseTerrorTokenAct5Controller": {
+        "Key": "UseTerrorTokenAct5Controller",
+        "enUS": "Hold  to terrorize Act 5",
+        "zhCN": "按住恐惧化第五幕",
+        "zhTW": "按住  以將第五章設為邪惡威脅區域",
+        "sgCN": "按住恐惧化第五幕",
+        "sgTW": "按住  以將第五章設為邪惡威脅區域"
+    },
+    "ControllerPromptItemMoveToAdvancedStash": {
+        "Key": "ControllerPromptItemMoveToAdvancedStash",
+        "enUS": "Move to Stack Tab",
+        "zhCN": "移动到堆叠栏",
+        "zhTW": "移到儲物箱分頁",
+        "sgCN": "移动到堆叠栏",
+        "sgTW": "移到儲物箱分頁"
+    },
+    "ControllerPromptItemBulkMove": {
+        "Key": "ControllerPromptItemBulkMove",
+        "enUS": "Move %u",
+        "zhCN": "移动%u个",
+        "zhTW": "移動%u",
+        "sgCN": "移动%u个",
+        "sgTW": "移動%u"
+    },
+    "OptionsMenuController_ps4": {
+        "Key": "OptionsMenuController_ps4",
+        "enUS": "DUALSHOCK®4 wireless controller",
+        "zhCN": "DUALSHOCK®4 无线控制器",
+        "zhTW": "DUALSHOCK®4 無線控制器",
+        "sgCN": "DUALSHOCK®4 无线控制器",
+        "sgTW": "DUALSHOCK®4 無線控制器"
+    },
+    "OptionsMenuController_ps5": {
+        "Key": "OptionsMenuController_ps5",
+        "enUS": "DualSense™ wireless controller",
+        "zhCN": "DualSense™ 无线控制器",
+        "zhTW": "DualSense™ 無線控制器",
+        "sgCN": "DualSense™ 无线控制器",
+        "sgTW": "DualSense™ 無線控制器"
+    },
+    "ControllerReconnectMessage_ps4": {
+        "Key": "ControllerReconnectMessage_ps4",
+        "enUS": "Please Reconnect DUALSHOCK®4 wireless controller",
+        "zhCN": "请重新连接DUALSHOCK®4 无线控制器",
+        "zhTW": "請重新連接 DUALSHOCK®4 無線控制器",
+        "sgCN": "请重新连接DUALSHOCK®4 无线控制器",
+        "sgTW": "請重新連接 DUALSHOCK®4 無線控制器"
+    },
+    "ControllerReconnectMessage_ps5": {
+        "Key": "ControllerReconnectMessage_ps5",
+        "enUS": "Please Reconnect DualSense™ wireless controller",
+        "zhCN": "请重新连接DualSense™ 无线控制器",
+        "zhTW": "請重新連接 DualSense™ 無線控制器",
+        "sgCN": "请重新连接DualSense™ 无线控制器",
+        "sgTW": "請重新連接 DualSense™ 無線控制器"
+    },
+    "OptionsMenuItemTooltipHotkeyAppender_switch": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppender_switch",
+        "enUS": "Show Item Tooltip Button Prompts",
+        "zhCN": "显示物品说明条热键",
+        "zhTW": "顯示物品資訊提示鍵",
+        "sgCN": "显示物品说明条热键",
+        "sgTW": "顯示物品資訊提示鍵"
+    },
+    "OptionsMenuItemTooltipHotkeyAppender_xbox": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppender_xbox",
+        "enUS": "Show Item Tooltip Button Prompts",
+        "zhCN": "显示物品说明条热键",
+        "zhTW": "顯示物品資訊提示按鈕",
+        "sgCN": "显示物品说明条热键",
+        "sgTW": "顯示物品資訊提示按鈕"
+    },
+    "OptionsMenuItemTooltipHotkeyAppender_ps5": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppender_ps5",
+        "enUS": "Show Item Tooltip Button Prompts",
+        "zhCN": "显示物品说明条热键",
+        "zhTW": "顯示物品資訊提示按鈕",
+        "sgCN": "显示物品说明条热键",
+        "sgTW": "顯示物品資訊提示按鈕"
+    },
+    "OptionsMenuItemTooltipHotkeyAppender_ps4": {
+        "Key": "OptionsMenuItemTooltipHotkeyAppender_ps4",
+        "enUS": "Show Item Tooltip Button Prompts",
+        "zhCN": "显示物品说明条热键",
+        "zhTW": "顯示物品資訊提示按鈕",
+        "sgCN": "显示物品说明条热键",
+        "sgTW": "顯示物品資訊提示按鈕"
+    },
+    "LootFilterProfileHelpTooltip_switch": {
+        "Key": "LootFilterProfileHelpTooltip_switch",
+        "enUS": "Create a profile of rules that affect what items\n appear when the 'Show Items' button is pressed.",
+        "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
+        "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。",
+        "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。"
+    },
+    "LootFilterProfileHelpTooltip_xbox": {
+        "Key": "LootFilterProfileHelpTooltip_xbox",
+        "enUS": "Create a profile of rules that affect what items\n appear when the 'Show Items' button is pressed.",
+        "zhCN": "创建规则配置，影响按下“显示物品”按钮时\n显示的物品。",
+        "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
+        "sgCN": "创建规则配置，影响按下“显示物品”按钮时\n显示的物品。",
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
+    },
+    "LootFilterProfileHelpTooltip_ps4": {
+        "Key": "LootFilterProfileHelpTooltip_ps4",
+        "enUS": "Create a profile of rules that affect what items\n appear when the 'Show Items' button is pressed.",
+        "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
+        "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
+        "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
+    },
+    "LootFilterProfileHelpTooltip_ps5": {
+        "Key": "LootFilterProfileHelpTooltip_ps5",
+        "enUS": "Create a profile of rules that affect what items\n appear when the 'Show Items' button is pressed.",
+        "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
+        "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
+        "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
+    }
+}
