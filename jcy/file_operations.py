@@ -1467,13 +1467,13 @@ class FileOperations:
         try:
             # load 词缀模版
             templet_list = None
-            templet_path = os.path.join(MOD_PATH, r"jcy/config/item-modifiers.templet.json")
+            templet_path = os.path.join(MOD_PATH, r"config/templet/item-modifiers.templet.json")
             with open(templet_path, 'r', encoding='utf-8') as f:
                 templet_list = json.load(f)
 
             # load 词缀数据
             data_dict = None
-            data_path = os.path.join(MOD_PATH, r"jcy/config/item-modifiers.data.json")
+            data_path = os.path.join(MOD_PATH, r"config/data/item-modifiers.data.json")
             with open(data_path, 'r', encoding='utf-8') as f:
                 data_dict = json.load(f)
 
@@ -1503,7 +1503,7 @@ class FileOperations:
                 ext_json[Key] = item
 
             # 写ext
-            ext_path = os.path.join(MOD_PATH, r"jcy/ext/item-modifiers.json")
+            ext_path = os.path.join(MOD_PATH, r"config/ext/item-modifiers.json")
             with open(ext_path, 'w', encoding="utf-8") as f:
                 json.dump(ext_json, f, ensure_ascii=False, indent=4)
 
@@ -1642,12 +1642,12 @@ class FileOperations:
         # --- templet + data -> ext ---
         try:
             templet_list = None
-            templet_path = os.path.join(MOD_PATH, r"jcy/config/item-names.templet.json")
+            templet_path = os.path.join(MOD_PATH, r"config/templet/item-names.templet.json")
             with open(templet_path, 'r', encoding='utf-8') as f:
                 templet_list = json.load(f)
 
             data_dict = None
-            data_path = os.path.join(MOD_PATH, r"jcy/config/item-names.data.json")
+            data_path = os.path.join(MOD_PATH, r"config/data/item-names.data.json")
             with open(data_path, 'r', encoding='utf-8') as f:
                 data_dict = json.load(f)
             # 松岗简/繁体, 采用简/繁体数据
@@ -1731,7 +1731,7 @@ class FileOperations:
                 ext_json[Key] = item
 
             # 写ext
-            ext_path = os.path.join(MOD_PATH, r"jcy/ext/item-names.json")
+            ext_path = os.path.join(MOD_PATH, r"config/ext/item-names.json")
             with open(ext_path, 'w', encoding="utf-8") as f:
                 json.dump(ext_json, f, ensure_ascii=False, indent=4)
             
@@ -1777,12 +1777,12 @@ class FileOperations:
         # --- templet + data -> ext ---
         try:
             templet_list = None
-            templet_path = os.path.join(MOD_PATH, r"jcy/config/item-runes.templet.json")
+            templet_path = os.path.join(MOD_PATH, r"config/templet/item-runes.templet.json")
             with open(templet_path, 'r', encoding='utf-8-sig') as f:
                 templet_list = json.load(f)
 
             data_dict = None
-            data_path = os.path.join(MOD_PATH, r"jcy/config/item-runes.data.json")
+            data_path = os.path.join(MOD_PATH, r"config/data/item-runes.data.json")
             with open(data_path, 'r', encoding='utf-8') as f:
                 data_dict = json.load(f)
             
@@ -1824,7 +1824,7 @@ class FileOperations:
                 ext_json[Key] = item
 
             # 写ext
-            ext_path = os.path.join(MOD_PATH, r"jcy/ext/item-runes.json")
+            ext_path = os.path.join(MOD_PATH, r"config/ext/item-runes.json")
             with open(ext_path, 'w', encoding="utf-8") as f:
                 json.dump(ext_json, f, ensure_ascii=False, indent=4)
 
@@ -4217,7 +4217,7 @@ class FileOperations:
 
 
     def load_terror_zone_mapper(self):
-        file_path = os.path.join(MOD_PATH, r"jcy/levels.mapper.json")
+        file_path = os.path.join(MOD_PATH, r"config/mapper/levels.mapper.json")
         with open(file_path, 'r', encoding='utf-8') as f:
             return json.load(f)
 
@@ -4234,7 +4234,7 @@ class FileOperations:
 
         for _file in LOCAL_FILES:
             json_data = None
-            json_path = os.path.join(MOD_PATH, "jcy/ext", _file)
+            json_path = os.path.join(MOD_PATH, "config/ext", _file)
             if not os.path.exists(json_path):
                 continue
             with open(json_path, "r", encoding="utf-8") as f:
@@ -4250,7 +4250,7 @@ class FileOperations:
 
         for _file in LOCAL_FILES:
             json_data = None
-            json_path = os.path.join(MOD_PATH, "original", _file)
+            json_path = os.path.join(MOD_PATH, "config/original", _file)
             if not os.path.exists(json_path):
                 continue
             with open(json_path, "r", encoding="utf-8-sig") as f:
@@ -4262,34 +4262,10 @@ class FileOperations:
         return _dict     
 
 
-    def load_dicts(self):
-        """加载字典"""
-
-        _files = [
-            r"original/item-names.json",
-            r"original/item-runes.json",
-            r"original/levels.json",
-            r"original/skills.json",
-        ]
-
-        _dict = {}
-
-        for _file in _files:
-            json_data = None
-            json_path = os.path.join(MOD_PATH, _file)
-            with open(json_path, "r", encoding="utf-8-sig") as f:
-                json_data = json.load(f)
-            
-            for entity in json_data:
-                _dict[entity.get("Key")] = entity
-
-        return _dict        
-
-
     def load_uniqueitems(self):
         uniqueitems = []
         try:
-            path = os.path.join(MOD_PATH, r"original/uniqueitems.txt")
+            path = os.path.join(MOD_PATH, r"config/original/uniqueitems.txt")
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
@@ -4309,7 +4285,7 @@ class FileOperations:
     def load_sets(self):
         sets = []
         try:
-            path = os.path.join(MOD_PATH, r"original/sets.txt")
+            path = os.path.join(MOD_PATH, r"config/original/sets.txt")
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
@@ -4329,7 +4305,7 @@ class FileOperations:
     def load_setitems(self):
         setitems = []
         try:
-            path = os.path.join(MOD_PATH, r"original/setitems.txt")
+            path = os.path.join(MOD_PATH, r"config/original/setitems.txt")
 
             rows = []
             with open(path, "r", encoding="utf-8") as f:
