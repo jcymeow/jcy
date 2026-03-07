@@ -387,7 +387,7 @@ class FeatureConfig:
                             "colspan": 100,
                             "params": {
                                 "4": "屏蔽 A5督军死亡特效",
-                                "5": "开启 精英怪白色高亮",
+                                # "5": "开启 精英怪白色高亮",
                                 "6": "开启 危险怪物标识",
                                 "7": "开启 怪物可见",
                             }
@@ -417,15 +417,14 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.MONSTER_MISSILE.value,
+                            "fid": Function.MONSTER_COLOR.value,
                             "type": RADIO,
-                            "text": "老鼠刺针/剥皮吹箭样式",
+                            "text": "怪物-精英染色",
                             "colspan": 50,
                             "params": {
                                 "0": "默认",
-                                "1": "魔法箭",
-                                "2": "冷霜箭",
-                                "3": "火焰箭"
+                                "1": "随机染色",
+                                "2": "白色高亮",
                             }
                         },
                         {
@@ -436,6 +435,18 @@ class FeatureConfig:
                             "params": {
                                 "0": "默认",
                                 "1": "开启",
+                            }
+                        },
+                        {
+                            "fid": Function.MONSTER_MISSILE.value,
+                            "type": RADIO,
+                            "text": "老鼠刺针/剥皮吹箭样式",
+                            "colspan": 50,
+                            "params": {
+                                "0": "默认",
+                                "1": "魔法箭",
+                                "2": "冷霜箭",
+                                "3": "火焰箭"
                             }
                         },
                     ]

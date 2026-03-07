@@ -299,6 +299,8 @@ class FeatureController:
             Function.MONSTER_HEALTH.value: self.file_operations.select_monster_health,
             # 怪物-导弹
             Function.MONSTER_MISSILE.value: self.file_operations.select_enemy_arrow_skin,
+            # 怪物-精英染色
+            Function.MONSTER_COLOR.value: self.file_operations.select_monster_color,
             # 怪物-词缀染色
             Function.MONSTER_AFFIXES.value: self.file_operations.select_monster_affixes,
 
