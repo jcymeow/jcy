@@ -3242,38 +3242,38 @@
     {
         "id": 27888,
         "Key": "StrSklTabItem24",
-        "enUS": "+%d to Demon Skills",
-        "zhTW": "+%d 惡魔技能",
-        "zhCN": "+%d 恶魔技能",
-        "sgCN": "+%d 恶魔技能",
-        "sgTW": "+%d 惡魔技能"
+        "enUS": "{{color0}}+%d to Demon Skills{{color1}}",
+        "zhTW": "{{color0}}+%d 惡魔技能{{color1}}",
+        "zhCN": "{{color0}}+%d 恶魔技能{{color1}}",
+        "sgCN": "{{color0}}+%d 恶魔技能{{color1}}",
+        "sgTW": "{{color0}}+%d 惡魔技能{{color1}}"
     },
     {
         "id": 27889,
         "Key": "StrSklTabItem22",
-        "enUS": "+%d to Eldritch Skills",
-        "zhTW": "+%d 邪異技能",
-        "zhCN": "+%d 邪术技能",
-        "sgCN": "+%d 邪术技能",
-        "sgTW": "+%d 邪異技能"
+        "enUS": "{{color0}}+%d to Eldritch Skills{{color1}}",
+        "zhTW": "{{color0}}+%d 邪異技能{{color1}}",
+        "zhCN": "{{color0}}+%d 邪术技能{{color1}}",
+        "sgCN": "{{color0}}+%d 邪术技能{{color1}}",
+        "sgTW": "{{color0}}+%d 邪異技能{{color1}}"
     },
     {
         "id": 27890,
         "Key": "StrSklTabItem23",
-        "enUS": "+%d to Chaos Skills",
-        "zhTW": "+%d 混沌技能",
-        "zhCN": "+%d 混沌技能",
-        "sgCN": "+%d 混沌技能",
-        "sgTW": "+%d 混沌技能"
+        "enUS": "{{color0}}+%d to Chaos Skills{{color1}}",
+        "zhTW": "{{color0}}+%d 混沌技能{{color1}}",
+        "zhCN": "{{color0}}+%d 混沌技能{{color1}}",
+        "sgCN": "{{color0}}+%d 混沌技能{{color1}}",
+        "sgTW": "{{color0}}+%d 混沌技能{{color1}}"
     },
     {
         "id": 27891,
         "Key": "ModStrge9",
-        "enUS": "+%d to Warlock Skills",
-        "zhTW": "+%d 術士技能",
-        "zhCN": "+%d 术士技能",
-        "sgCN": "+%d 术士技能",
-        "sgTW": "+%d 術士技能"
+        "enUS": "{{color0}}+%d to Warlock Skills{{color1}}",
+        "zhTW": "{{color0}}+%d 術士技能{{color1}}",
+        "zhCN": "{{color0}}+%d 术士技能{{color1}}",
+        "sgCN": "{{color0}}+%d 术士技能{{color1}}",
+        "sgTW": "{{color0}}+%d 術士技能{{color1}}"
     },
     {
         "id": 27979,

@@ -1,7 +1,7 @@
 {
     "Socketable": {
         "color": [
-            "ÿcO",
+            "ÿcP",
             "ÿc3"
         ]
     },
@@ -45,7 +45,7 @@
     "ModStr1k": {
         "abbr": "(CR)",
         "color": [
-            "ÿcT",
+            "ÿcU",
             "ÿc3"
         ]
     },
@@ -127,7 +127,7 @@
     "ModStr2z": {
         "abbr": "(LL)",
         "color": [
-            "ÿcU",
+            "ÿcV",
             "ÿc3"
         ]
     },
@@ -363,7 +363,7 @@
     "ModStr5z": {
         "abbr": "(CBF)",
         "color": [
-            "ÿcT",
+            "ÿcU",
             "ÿc3"
         ]
     },
@@ -379,14 +379,14 @@
     "strModEnhancedDamage": {
         "abbr": "(EDmg)",
         "color": [
-            "ÿcU",
+            "ÿcV",
             "ÿc3"
         ]
     },
     "strModAllResistances": {
         "abbr": "(RES)",
         "color": [
-            "ÿcO",
+            "ÿcP",
             "ÿc3"
         ]
     },
@@ -856,7 +856,7 @@
     },
     "strethereal": {
         "color": [
-            "ÿcO",
+            "ÿcP",
             "ÿc3"
         ]
     },
@@ -865,7 +865,7 @@
     },
     "strItemModEtherealSocketed": {
         "color": [
-            "ÿcO",
+            "ÿcP",
             "ÿc3"
         ]
     },
@@ -1035,10 +1035,30 @@
     "ModStrMagPierce": {},
     "MaxMagDmgPerLvl": {},
     "ModStrDamPierce": {},
-    "StrSklTabItem24": {},
-    "StrSklTabItem22": {},
-    "StrSklTabItem23": {},
-    "ModStrge9": {},
+    "StrSklTabItem24": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem22": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "StrSklTabItem23": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
+    "ModStrge9": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
     "ChronicleModifierRange": {},
     "ItemStats1hRange": {},
     "ChronicleRandomClassSkillLevel": {},

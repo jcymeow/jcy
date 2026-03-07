@@ -20,7 +20,7 @@
     "id": 3453,
     "Key": "Socketable",
     "enUS": "ÿcOSocketed (%i)ÿc3",
-    "zhTW": "ÿcO鑲孔（%i）ÿc3",
+    "zhTW": "ÿcP鑲孔（%i）ÿc3",
     "deDE": "Gesockelt (%i)",
     "esES": "Con huecos (%i)",
     "frFR": "Serti (%i)",
@@ -31,7 +31,7 @@
     "jaJP": "ソケット（%i）",
     "ptBR": "Engastes (%i)",
     "ruRU": "С гнездами (%i)",
-    "zhCN": "ÿcO鑲孔（%i）ÿc3"
+    "zhCN": "ÿcP鑲孔（%i）ÿc3"
   },
   {
     "id": 3454,
@@ -530,7 +530,7 @@
     "id": 3483,
     "Key": "ModStr1k",
     "enUS": "ÿcTCold Resist(CR) %+d%%ÿc3",
-    "zhTW": "ÿcT冰寒抗性(CR) %+d%%ÿc3",
+    "zhTW": "ÿcU冰寒抗性(CR) %+d%%ÿc3",
     "deDE": "Kältewiderstand %+d%%",
     "esES": "%+d%% de resistencia al frío",
     "frFR": "Résistance au Froid : %+d%%",
@@ -541,7 +541,7 @@
     "jaJP": "冷気耐性（%+d%%）",
     "ptBR": "Resistência a gelo %+d%%",
     "ruRU": "%+d%% к сопротивлению льду",
-    "zhCN": "ÿcT冰寒抗性(CR) %+d%%ÿc3"
+    "zhCN": "ÿcU冰寒抗性(CR) %+d%%ÿc3"
   },
   {
     "id": 3484,
@@ -1193,7 +1193,7 @@
     "id": 3524,
     "Key": "ModStr2z",
     "enUS": "ÿcU%d%% Life stolen per hit(LL)ÿc3",
-    "zhTW": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3",
+    "zhTW": "ÿcV擊中竊取 %d%% 生命(LL)ÿc3",
     "deDE": "%d%% abgesaugtes Leben pro Treffer",
     "esES": "%d%% de vida robada por golpe",
     "frFR": "%d%% de vie volée à chaque coup",
@@ -1204,7 +1204,7 @@
     "jaJP": "攻撃命中でライフを吸収（与ダメージの%d%%）",
     "ptBR": "%d%% de pontos de vida roubados por acerto",
     "ruRU": "Похищает %d%% здоровья за удар",
-    "zhCN": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3"
+    "zhCN": "ÿcV擊中竊取 %d%% 生命(LL)ÿc3"
   },
   {
     "id": 3525,
@@ -2417,7 +2417,7 @@
     "id": 3600,
     "Key": "ModStr5z",
     "enUS": "ÿcTCannot Be Frozen(CBF)ÿc3",
-    "zhTW": "ÿcT無法凍結(CBF)ÿc3",
+    "zhTW": "ÿcU無法凍結(CBF)ÿc3",
     "deDE": "Einfrieren nicht möglich",
     "esES": "No te pueden congelar",
     "frFR": "Ne peut pas être gelé",
@@ -2428,7 +2428,7 @@
     "jaJP": "凍結しなくなる",
     "ptBR": "Não pode ser congelado",
     "ruRU": "Нельзя заморозить",
-    "zhCN": "ÿcT無法凍結(CBF)ÿc3"
+    "zhCN": "ÿcU無法凍結(CBF)ÿc3"
   },
   {
     "id": 3601,
@@ -2978,7 +2978,7 @@
     "id": 10023,
     "Key": "strModEnhancedDamage",
     "enUS": "ÿcU%+d%% Enhanced Damage(EDmg)ÿc3",
-    "zhTW": "ÿcU%+d%% 傷害強化(EDmg)ÿc3",
+    "zhTW": "ÿcV%+d%% 傷害強化(EDmg)ÿc3",
     "deDE": "%+d%% erhöhter Schaden",
     "esES": "%+d%% de daño mejorado",
     "frFR": "%+d%% de dégâts supplémentaires",
@@ -2989,13 +2989,13 @@
     "jaJP": "ダメージを強化（%+d%%）",
     "ptBR": "%+d%% de dano aprimorado",
     "ruRU": "%+d%% к урону",
-    "zhCN": "ÿcU%+d%% 傷害強化(EDmg)ÿc3"
+    "zhCN": "ÿcV%+d%% 傷害強化(EDmg)ÿc3"
   },
   {
     "id": 10024,
     "Key": "strModAllResistances",
     "enUS": "ÿcOAll Resistances(RES) %+dÿc3",
-    "zhTW": "ÿcO所有抗性(RES) %+dÿc3",
+    "zhTW": "ÿcP所有抗性(RES) %+dÿc3",
     "deDE": "Alle Widerstände %+d",
     "esES": "%+d a todas las resistencias",
     "frFR": "%+d à toutes les résistances",
@@ -3006,7 +3006,7 @@
     "jaJP": "全属性耐性（%+d）",
     "ptBR": "%+d para todas as resistências",
     "ruRU": "%+d к сопротивлению всем видам урона",
-    "zhCN": "ÿcO所有抗性(RES) %+dÿc3"
+    "zhCN": "ÿcP所有抗性(RES) %+dÿc3"
   },
   {
     "id": 10025,
@@ -6123,7 +6123,7 @@
     "id": 27888,
     "Key": "StrSklTabItem24",
     "enUS": "+%d to Demon Skills",
-    "zhTW": "+%d 惡魔技能",
+    "zhTW": "ÿc8+%d 惡魔技能ÿc3",
     "deDE": "+%d zu Dämonenfertigkeiten",
     "esES": "+%d a las habilidades demoníacas",
     "frFR": "+%d aux compétences démoniaques",
@@ -6134,13 +6134,13 @@
     "jaJP": "悪魔スキル向上（+%d）",
     "ptBR": "+%d para habilidades de demônio",
     "ruRU": "+%d к демоническим умениям",
-    "zhCN": "+%d 惡魔技能"
+    "zhCN": "ÿc8+%d 惡魔技能ÿc3"
   },
   {
     "id": 27889,
     "Key": "StrSklTabItem22",
     "enUS": "+%d to Eldritch Skills",
-    "zhTW": "+%d 邪異技能",
+    "zhTW": "ÿc8+%d 邪異技能ÿc3",
     "deDE": "+%d zu abscheuliche Fertigkeiten",
     "esES": "+%d a las habilidades sobrenaturales",
     "frFR": "+%d aux compétences sinistres",
@@ -6151,13 +6151,13 @@
     "jaJP": "エルドリッチスキル向上（+%d）",
     "ptBR": "+%d para habilidades sobrenaturais",
     "ruRU": "+%d к потусторонним умениям",
-    "zhCN": "+%d 邪異技能"
+    "zhCN": "ÿc8+%d 邪異技能ÿc3"
   },
   {
     "id": 27890,
     "Key": "StrSklTabItem23",
     "enUS": "+%d to Chaos Skills",
-    "zhTW": "+%d 混沌技能",
+    "zhTW": "ÿc8+%d 混沌技能ÿc3",
     "deDE": "+%d zu Chaosfertigkeiten",
     "esES": "+%d a las habilidades del caos",
     "frFR": "+%d aux compétences chaotiques",
@@ -6168,13 +6168,13 @@
     "jaJP": "混沌スキル向上（+%d）",
     "ptBR": "+%d para habilidades de caos",
     "ruRU": "+%d к хаотическим умениям",
-    "zhCN": "+%d 混沌技能"
+    "zhCN": "ÿc8+%d 混沌技能ÿc3"
   },
   {
     "id": 27891,
     "Key": "ModStrge9",
     "enUS": "+%d to Warlock Skills",
-    "zhTW": "+%d 術士技能",
+    "zhTW": "ÿc8+%d 術士技能ÿc3",
     "deDE": "+%d zu Hexenmeisterfertigkeiten",
     "esES": "+%d a las habilidades de brujo",
     "frFR": "+%d aux compétences de démoniste",
@@ -6185,7 +6185,7 @@
     "jaJP": "ウォーロックスキル向上（+%d）",
     "ptBR": "+%d para habilidades de bruxo",
     "ruRU": "+%d к умениям чернокнижника",
-    "zhCN": "+%d 術士技能"
+    "zhCN": "ÿc8+%d 術士技能ÿc3"
   },
   {
     "id": 27979,

@@ -11,11 +11,11 @@
     "Socketable": {
         "id": 3453,
         "Key": "Socketable",
-        "enUS": "ÿcOSocketed (%i)ÿc3",
-        "zhTW": "ÿcO鑲孔（%i）ÿc3",
-        "zhCN": "ÿcO镶孔 (%i)ÿc3",
-        "sgCN": "ÿcO镶孔 (%i)ÿc3",
-        "sgTW": "ÿcO鑲孔（%i）ÿc3"
+        "enUS": "ÿcPSocketed (%i)ÿc3",
+        "zhTW": "ÿcP鑲孔（%i）ÿc3",
+        "zhCN": "ÿcP镶孔 (%i)ÿc3",
+        "sgCN": "ÿcP镶孔 (%i)ÿc3",
+        "sgTW": "ÿcP鑲孔（%i）ÿc3"
     },
     "ItemStats1a": {
         "id": 3454,
@@ -281,11 +281,11 @@
     "ModStr1k": {
         "id": 3483,
         "Key": "ModStr1k",
-        "enUS": "ÿcTCold Resist(CR) %+d%%ÿc3",
-        "zhTW": "ÿcT冰寒抗性(CR) %+d%%ÿc3",
-        "zhCN": "ÿcT冰霜抗性(CR) %+d%%ÿc3",
-        "sgCN": "ÿcT冰霜抗性(CR) %+d%%ÿc3",
-        "sgTW": "ÿcT冰寒抗性(CR) %+d%%ÿc3"
+        "enUS": "ÿcUCold Resist(CR) %+d%%ÿc3",
+        "zhTW": "ÿcU冰寒抗性(CR) %+d%%ÿc3",
+        "zhCN": "ÿcU冰霜抗性(CR) %+d%%ÿc3",
+        "sgCN": "ÿcU冰霜抗性(CR) %+d%%ÿc3",
+        "sgTW": "ÿcU冰寒抗性(CR) %+d%%ÿc3"
     },
     "ModStr1l": {
         "id": 3484,
@@ -632,11 +632,11 @@
     "ModStr2z": {
         "id": 3524,
         "Key": "ModStr2z",
-        "enUS": "ÿcU%d%% Life stolen per hit(LL)ÿc3",
-        "zhTW": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3",
-        "zhCN": "ÿcU%d%% 击中时偷取生命(LL)ÿc3",
-        "sgCN": "ÿcU%d%% 击中时偷取生命(LL)ÿc3",
-        "sgTW": "ÿcU擊中竊取 %d%% 生命(LL)ÿc3"
+        "enUS": "ÿcV%d%% Life stolen per hit(LL)ÿc3",
+        "zhTW": "ÿcV擊中竊取 %d%% 生命(LL)ÿc3",
+        "zhCN": "ÿcV%d%% 击中时偷取生命(LL)ÿc3",
+        "sgCN": "ÿcV%d%% 击中时偷取生命(LL)ÿc3",
+        "sgTW": "ÿcV擊中竊取 %d%% 生命(LL)ÿc3"
     },
     "ModStr3a": {
         "id": 3525,
@@ -1280,11 +1280,11 @@
     "ModStr5z": {
         "id": 3600,
         "Key": "ModStr5z",
-        "enUS": "ÿcTCannot Be Frozen(CBF)ÿc3",
-        "zhTW": "ÿcT無法凍結(CBF)ÿc3",
-        "zhCN": "ÿcT无法被冻结(CBF)ÿc3",
-        "sgCN": "ÿcT无法被冻结(CBF)ÿc3",
-        "sgTW": "ÿcT無法凍結(CBF)ÿc3"
+        "enUS": "ÿcUCannot Be Frozen(CBF)ÿc3",
+        "zhTW": "ÿcU無法凍結(CBF)ÿc3",
+        "zhCN": "ÿcU无法被冻结(CBF)ÿc3",
+        "sgCN": "ÿcU无法被冻结(CBF)ÿc3",
+        "sgTW": "ÿcU無法凍結(CBF)ÿc3"
     },
     "ModStr6a": {
         "id": 3601,
@@ -1577,20 +1577,20 @@
     "strModEnhancedDamage": {
         "id": 10023,
         "Key": "strModEnhancedDamage",
-        "enUS": "ÿcU%+d%% Enhanced Damage(EDmg)ÿc3",
-        "zhTW": "ÿcU%+d%% 傷害強化(EDmg)ÿc3",
-        "zhCN": "ÿcU%+d%% 强化伤害(EDmg)ÿc3",
-        "sgCN": "ÿcU%+d%% 强化伤害(EDmg)ÿc3",
-        "sgTW": "ÿcU%+d%% 傷害強化(EDmg)ÿc3"
+        "enUS": "ÿcV%+d%% Enhanced Damage(EDmg)ÿc3",
+        "zhTW": "ÿcV%+d%% 傷害強化(EDmg)ÿc3",
+        "zhCN": "ÿcV%+d%% 强化伤害(EDmg)ÿc3",
+        "sgCN": "ÿcV%+d%% 强化伤害(EDmg)ÿc3",
+        "sgTW": "ÿcV%+d%% 傷害強化(EDmg)ÿc3"
     },
     "strModAllResistances": {
         "id": 10024,
         "Key": "strModAllResistances",
-        "enUS": "ÿcOAll Resistances(RES) %+dÿc3",
-        "zhTW": "ÿcO所有抗性(RES) %+dÿc3",
-        "zhCN": "ÿcO%+d 所有抗性(RES)ÿc3",
-        "sgCN": "ÿcO%+d 所有抗性(RES)ÿc3",
-        "sgTW": "ÿcO所有抗性(RES) %+dÿc3"
+        "enUS": "ÿcPAll Resistances(RES) %+dÿc3",
+        "zhTW": "ÿcP所有抗性(RES) %+dÿc3",
+        "zhCN": "ÿcP%+d 所有抗性(RES)ÿc3",
+        "sgCN": "ÿcP%+d 所有抗性(RES)ÿc3",
+        "sgTW": "ÿcP所有抗性(RES) %+dÿc3"
     },
     "strModAllSkillLevels": {
         "id": 10025,
@@ -3242,38 +3242,38 @@
     "StrSklTabItem24": {
         "id": 27888,
         "Key": "StrSklTabItem24",
-        "enUS": "+%d to Demon Skills",
-        "zhTW": "+%d 惡魔技能",
-        "zhCN": "+%d 恶魔技能",
-        "sgCN": "+%d 恶魔技能",
-        "sgTW": "+%d 惡魔技能"
+        "enUS": "ÿc8+%d to Demon Skillsÿc3",
+        "zhTW": "ÿc8+%d 惡魔技能ÿc3",
+        "zhCN": "ÿc8+%d 恶魔技能ÿc3",
+        "sgCN": "ÿc8+%d 恶魔技能ÿc3",
+        "sgTW": "ÿc8+%d 惡魔技能ÿc3"
     },
     "StrSklTabItem22": {
         "id": 27889,
         "Key": "StrSklTabItem22",
-        "enUS": "+%d to Eldritch Skills",
-        "zhTW": "+%d 邪異技能",
-        "zhCN": "+%d 邪术技能",
-        "sgCN": "+%d 邪术技能",
-        "sgTW": "+%d 邪異技能"
+        "enUS": "ÿc8+%d to Eldritch Skillsÿc3",
+        "zhTW": "ÿc8+%d 邪異技能ÿc3",
+        "zhCN": "ÿc8+%d 邪术技能ÿc3",
+        "sgCN": "ÿc8+%d 邪术技能ÿc3",
+        "sgTW": "ÿc8+%d 邪異技能ÿc3"
     },
     "StrSklTabItem23": {
         "id": 27890,
         "Key": "StrSklTabItem23",
-        "enUS": "+%d to Chaos Skills",
-        "zhTW": "+%d 混沌技能",
-        "zhCN": "+%d 混沌技能",
-        "sgCN": "+%d 混沌技能",
-        "sgTW": "+%d 混沌技能"
+        "enUS": "ÿc8+%d to Chaos Skillsÿc3",
+        "zhTW": "ÿc8+%d 混沌技能ÿc3",
+        "zhCN": "ÿc8+%d 混沌技能ÿc3",
+        "sgCN": "ÿc8+%d 混沌技能ÿc3",
+        "sgTW": "ÿc8+%d 混沌技能ÿc3"
     },
     "ModStrge9": {
         "id": 27891,
         "Key": "ModStrge9",
-        "enUS": "+%d to Warlock Skills",
-        "zhTW": "+%d 術士技能",
-        "zhCN": "+%d 术士技能",
-        "sgCN": "+%d 术士技能",
-        "sgTW": "+%d 術士技能"
+        "enUS": "ÿc8+%d to Warlock Skillsÿc3",
+        "zhTW": "ÿc8+%d 術士技能ÿc3",
+        "zhCN": "ÿc8+%d 术士技能ÿc3",
+        "sgCN": "ÿc8+%d 术士技能ÿc3",
+        "sgTW": "ÿc8+%d 術士技能ÿc3"
     },
     "ChronicleModifierRange": {
         "id": 27979,
