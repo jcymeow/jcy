@@ -29,15 +29,15 @@
     },
     "Runeword3": {
         "enUS": {
-            "max": "",
+            "max": "60ED",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "60ED",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "60ED",
             "mark": ""
         }
     },
@@ -117,11 +117,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "21荆棘光环/50PD",
+            "max": "21荆棘/50PD",
             "mark": "不如TP甲有用，土豪玩物"
         },
         "zhTW": {
-            "max": "21荊棘光環/50PD",
+            "max": "21荊棘/50PD",
             "mark": "不如TP甲有用，土豪玩物"
         }
     },
@@ -407,15 +407,15 @@
     },
     "Runeword30": {
         "enUS": {
-            "max": "20EDmg/200EDef",
+            "max": "20ED/200EDef",
             "mark": ""
         },
         "zhCN": {
-            "max": "20EDmg/200EDef",
+            "max": "20ED/200EDef",
             "mark": "Kboss常用，人称小刚毅，穷人米山可穿它"
         },
         "zhTW": {
-            "max": "20EDmg/200EDef",
+            "max": "20ED/200EDef",
             "mark": "Kboss常用，人稱小剛毅，窮人米山可穿它"
         }
     },
@@ -509,11 +509,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "16反抗光環/260ED",
+            "max": "16反抗/260ED",
             "mark": "PK或者K6盾击最常用，PVC不如饰金盾"
         },
         "zhTW": {
-            "max": "16反抗光環/260ED",
+            "max": "16反抗/260ED",
             "mark": "PK或者K6盾擊最常用，PVC不如飾金盾"
         }
     },
@@ -523,11 +523,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "15狂熱光環/2Skill",
+            "max": "15狂热/2Skill",
             "mark": "弓马进阶必备，可手抓也可给京子"
         },
         "zhTW": {
-            "max": "15狂熱光環/2Skill",
+            "max": "15狂熱/2Skill",
             "mark": "弓馬進階必備，可手抓也可給京子"
         }
     },
@@ -561,15 +561,15 @@
     },
     "Runeword41": {
         "enUS": {
-            "max": "1.485Life(LV)/30RES",
+            "max": "1.5Life(LV)/30RES",
             "mark": ""
         },
         "zhCN": {
-            "max": "1.485Life(LV)/30RES",
+            "max": "1.5Life(LV)/30RES",
             "mark": "物理甲之魁首，权杖界之至尊"
         },
         "zhTW": {
-            "max": "1.485Life(LV)/30RES",
+            "max": "1.5Life(LV)/30RES",
             "mark": "物理甲之魁首，權杖界之至尊"
         }
     },
@@ -677,11 +677,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "275ED/6女武神召喚",
+            "max": "275ED/6女武神",
             "mark": "跑步弓，多用于副手"
         },
         "zhTW": {
-            "max": "275ED/6女武神召喚",
+            "max": "275ED/6女武神",
             "mark": "跑步弓，多用於副手"
         }
     },
@@ -855,15 +855,15 @@
     },
     "Runeword62": {
         "enUS": {
-            "max": "17Meditation/260ED/250AR/6Critical Strike",
+            "max": "17Meditation/260ED/250AR/6CS",
             "mark": ""
         },
         "zhCN": {
-            "max": "17冥想光環/260ED/250AR/6致命攻勢",
+            "max": "17冥思/260ED/250AR/6CS",
             "mark": "性价比最高的RW之二，续航神器，6CS输出也是杠杠的"
         },
         "zhTW": {
-            "max": "17冥想光環/260ED/250AR/6致命攻勢",
+            "max": "17冥想/260ED/250AR/6CS",
             "mark": "性價比最高的RW之二，續航神器，6CS輸出也是杠杠的"
         }
     },
@@ -985,11 +985,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "18庇護光環/250遠程防禦",
+            "max": "18庇护之光/250远程防御",
             "mark": "城管剑，破物免用，通常开荒放副手"
         },
         "zhTW": {
-            "max": "18庇護光環/250遠程防禦",
+            "max": "18庇護/250遠程防禦",
             "mark": "城管劍，破物免用，通常開荒放副手"
         }
     },
@@ -1153,11 +1153,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "12專注光環/375ED",
+            "max": "12专注/375ED",
             "mark": "五孔弓的救世主，弓马与A1PET新选择"
         },
         "zhTW": {
-            "max": "12專注光環/375ED",
+            "max": "12專注/375ED",
             "mark": "五孔弓的救世主，弓馬與A1PET新選擇"
         }
     },
@@ -1289,15 +1289,15 @@
     },
     "Runeword94": {
         "enUS": {
-            "max": "25Life/30RegMana/70RES",
+            "max": "25MaxLife/30RegMana/70RES",
             "mark": ""
         },
         "zhCN": {
-            "max": "25Life/30RegMana/70RES",
+            "max": "25MaxLife/30RegMana/70RES",
             "mark": "弃盾法师的终极神器"
         },
         "zhTW": {
-            "max": "25Life/30RegMana/70RES",
+            "max": "25MaxLife/30RegMana/70RES",
             "mark": "棄盾法師的終極神器"
         }
     },
@@ -1419,11 +1419,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "15救贖光環/400ED/400遠程防禦/21FA",
+            "max": "15救赎/400ED/400远程防御/21FA",
             "mark": "续航神器，火法或者武学刺要带它"
         },
         "zhTW": {
-            "max": "15救贖光環/400ED/400遠程防禦/21FA",
+            "max": "15救贖/400ED/400遠程防禦/21FA",
             "mark": "續航神器，火法或者武學刺要帶它"
         }
     },
@@ -1461,11 +1461,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "17淨化光環/2Skill/320ED",
+            "max": "17净化/2Skill/320ED",
             "mark": "旧时代刺客爪的毕业装，也可以给A5 PET做降低抗性触发器"
         },
         "zhTW": {
-            "max": "17淨化光環/2Skill/320ED",
+            "max": "17淨化/2Skill/320ED",
             "mark": "舊時代刺客爪的畢業裝，也可以給A5 PET做降低抗性觸發器"
         }
     },
@@ -1503,11 +1503,11 @@
             "mark": ""
         },
         "zhCN": {
-            "max": "20專注光環/300AR",
+            "max": "20专注/300AR",
             "mark": "土豪弓马米山拿，土豪纯招做铁魔，五环死灵其一"
         },
         "zhTW": {
-            "max": "20專注光環/300AR",
+            "max": "20專注/300AR",
             "mark": "土豪弓馬米山拿，土豪純招做鐵魔，五環死靈其一"
         }
     },
@@ -2171,15 +2171,15 @@
     },
     "Runeword157": {
         "enUS": {
-            "max": "",
+            "max": "15MSD/3Abyss/12ATTR",
             "mark": ""
         },
         "zhCN": {
-            "max": "",
+            "max": "15MSD/3深淵裂口/12ATTR",
             "mark": ""
         },
         "zhTW": {
-            "max": "",
+            "max": "15MSD/3深淵裂口/12ATTR",
             "mark": ""
         }
     },

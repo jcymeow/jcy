@@ -1244,7 +1244,7 @@
     "id": 1711,
     "Key": "HiqualityFormat",
     "enUS": "%1%0",
-    "zhTW": "%0%1",
+    "zhTW": "%1%0",
     "deDE": "a0n1:%0 %1",
     "esES": "a0n1:%1 %0",
     "frFR": "a0n1:%1 %0",

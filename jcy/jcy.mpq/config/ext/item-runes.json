@@ -632,11 +632,11 @@
     "Runeword3": {
         "id": 20509,
         "Key": "Runeword3",
-        "enUS": "Authority",
-        "zhTW": "權威",
-        "zhCN": "权威",
-        "sgCN": "权威",
-        "sgTW": "權威"
+        "enUS": "ÿc1[60ED]\nÿc4Authority",
+        "zhTW": "ÿc1[60ED]\nÿc4權威",
+        "zhCN": "ÿc1[60ED]\nÿc4权威",
+        "sgCN": "ÿc1[60ED]\nÿc4权威",
+        "sgTW": "ÿc1[60ED]\nÿc4權威"
     },
     "Runeword4": {
         "id": 20510,
@@ -687,10 +687,10 @@
         "id": 20515,
         "Key": "Runeword9",
         "enUS": "ÿc1[21Thorns/50PD]\nÿc4Bramble",
-        "zhTW": "ÿc1[21荊棘光環/50PD]\nÿc4刺藤",
-        "zhCN": "ÿc1[21荆棘光环/50PD]\nÿc4荆棘",
-        "sgCN": "ÿc1[21荆棘光环/50PD]\nÿc4野蔷薇",
-        "sgTW": "ÿc1[21荊棘光環/50PD]\nÿc4野薔薇"
+        "zhTW": "ÿc1[21荊棘/50PD]\nÿc4刺藤",
+        "zhCN": "ÿc1[21荆棘/50PD]\nÿc4荆棘",
+        "sgCN": "ÿc1[21荆棘/50PD]\nÿc4野蔷薇",
+        "sgTW": "ÿc1[21荊棘/50PD]\nÿc4野薔薇"
     },
     "Runeword10": {
         "id": 20516,
@@ -866,18 +866,18 @@
     "Runeword30": {
         "id": 20536,
         "Key": "Runeword30",
-        "enUS": "ÿc1[20EDmg/200EDef]\nÿc4Duress",
-        "zhTW": "ÿc1[20EDmg/200EDef]\nÿc4強制",
-        "zhCN": "ÿc1[20EDmg/200EDef]\nÿc4强压",
-        "sgCN": "ÿc1[20EDmg/200EDef]\nÿc4强制",
-        "sgTW": "ÿc1[20EDmg/200EDef]\nÿc4強制"
+        "enUS": "ÿc1[20ED/200EDef]\nÿc4Duress",
+        "zhTW": "ÿc1[20ED/200EDef]\nÿc4強制",
+        "zhCN": "ÿc1[20ED/200EDef]\nÿc4强压",
+        "sgCN": "ÿc1[20ED/200EDef]\nÿc4强制",
+        "sgTW": "ÿc1[20ED/200EDef]\nÿc4強制"
     },
     "Runeword31": {
         "id": 20537,
         "Key": "Runeword31",
         "enUS": "ÿc1[380DTD/10ATTR]\nÿc4Edge",
         "zhTW": "ÿc1[380DTD/10ATTR]\nÿc4邊緣",
-        "zhCN": "ÿc1[380DTD/10ATTR]\nÿc4边缘",
+        "zhCN": "ÿc1[380DTD/10ATTR]\nÿc4邊緣",
         "sgCN": "ÿc1[380DTD/10ATTR]\nÿc4锐锋",
         "sgTW": "ÿc1[380DTD/10ATTR]\nÿc4邊緣"
     },
@@ -930,19 +930,19 @@
         "id": 20543,
         "Key": "Runeword37",
         "enUS": "ÿc1[16Defiance/260ED]\nÿc4Exile",
-        "zhTW": "ÿc1[16反抗光環/260ED]\nÿc4流亡",
-        "zhCN": "ÿc1[16反抗光环/260ED]\nÿc4流放",
-        "sgCN": "ÿc1[16反抗光环/260ED]\nÿc4流亡",
-        "sgTW": "ÿc1[16反抗光環/260ED]\nÿc4流亡"
+        "zhTW": "ÿc1[16反抗/260ED]\nÿc4流亡",
+        "zhCN": "ÿc1[16反抗/260ED]\nÿc4流放",
+        "sgCN": "ÿc1[16反抗/260ED]\nÿc4流亡",
+        "sgTW": "ÿc1[16反抗/260ED]\nÿc4流亡"
     },
     "Runeword38": {
         "id": 20544,
         "Key": "Runeword38",
         "enUS": "ÿc1[15Fanaticism/2Skill]\nÿc4Faith",
-        "zhTW": "ÿc1[15狂熱光環/2Skill]\nÿc4信心",
-        "zhCN": "ÿc1[15狂热光环/2Skill]\nÿc4信念",
-        "sgCN": "ÿc1[15狂热光环/2Skill]\nÿc4信心",
-        "sgTW": "ÿc1[15狂熱光環/2Skill]\nÿc4信心"
+        "zhTW": "ÿc1[15狂熱/2Skill]\nÿc4信心",
+        "zhCN": "ÿc1[15狂热/2Skill]\nÿc4信念",
+        "sgCN": "ÿc1[15狂热/2Skill]\nÿc4信心",
+        "sgTW": "ÿc1[15狂熱/2Skill]\nÿc4信心"
     },
     "Runeword39": {
         "id": 20545,
@@ -965,11 +965,11 @@
     "Runeword41": {
         "id": 20547,
         "Key": "Runeword41",
-        "enUS": "ÿc1[1.485Life(LV)/30RES]\nÿc4Fortitude",
-        "zhTW": "ÿc1[1.485Life(LV)/30RES]\nÿc4剛毅",
-        "zhCN": "ÿc1[1.485Life(LV)/30RES]\nÿc4刚毅",
-        "sgCN": "ÿc1[1.485Life(LV)/30RES]\nÿc4刚毅",
-        "sgTW": "ÿc1[1.485Life(LV)/30RES]\nÿc4剛毅"
+        "enUS": "ÿc1[1.5Life(LV)/30RES]\nÿc4Fortitude",
+        "zhTW": "ÿc1[1.5Life(LV)/30RES]\nÿc4剛毅",
+        "zhCN": "ÿc1[1.5Life(LV)/30RES]\nÿc4刚毅",
+        "sgCN": "ÿc1[1.5Life(LV)/30RES]\nÿc4刚毅",
+        "sgTW": "ÿc1[1.5Life(LV)/30RES]\nÿc4剛毅"
     },
     "Runeword42": {
         "id": 20548,
@@ -1038,10 +1038,10 @@
         "id": 20555,
         "Key": "Runeword49",
         "enUS": "ÿc1[275ED/6Valkyrie]\nÿc4Harmony",
-        "zhTW": "ÿc1[275ED/6女武神召喚]\nÿc4和諧",
-        "zhCN": "ÿc1[275ED/6女武神召唤]\nÿc4和谐",
-        "sgCN": "ÿc1[275ED/6女武神召唤]\nÿc4和谐",
-        "sgTW": "ÿc1[275ED/6女武神召喚]\nÿc4和諧"
+        "zhTW": "ÿc1[275ED/6女武神]\nÿc4和諧",
+        "zhCN": "ÿc1[275ED/6女武神]\nÿc4和谐",
+        "sgCN": "ÿc1[275ED/6女武神]\nÿc4和谐",
+        "sgTW": "ÿc1[275ED/6女武神]\nÿc4和諧"
     },
     "Runeword50": {
         "id": 20556,
@@ -1154,11 +1154,11 @@
     "Runeword62": {
         "id": 20568,
         "Key": "Runeword62",
-        "enUS": "ÿc1[17Meditation/260ED/250AR/6Critical Strike]\nÿc4Insight",
-        "zhTW": "ÿc1[17冥想光環/260ED/250AR/6致命攻勢]\nÿc4靈光",
-        "zhCN": "ÿc1[17冥想光环/260ED/250AR/6致命攻势]\nÿc4眼光",
-        "sgCN": "ÿc1[17冥想光环/260ED/250AR/6致命攻势]\nÿc4眼光",
-        "sgTW": "ÿc1[17冥想光環/260ED/250AR/6致命攻勢]\nÿc4眼光"
+        "enUS": "ÿc1[17Meditation/260ED/250AR/6CS]\nÿc4Insight",
+        "zhTW": "ÿc1[17冥想/260ED/250AR/6CS]\nÿc4靈光",
+        "zhCN": "ÿc1[17冥思/260ED/250AR/6CS]\nÿc4眼光",
+        "sgCN": "ÿc1[17冥思/260ED/250AR/6CS]\nÿc4眼光",
+        "sgTW": "ÿc1[17冥想/260ED/250AR/6CS]\nÿc4眼光"
     },
     "Runeword63": {
         "id": 20569,
@@ -1236,10 +1236,10 @@
         "id": 20577,
         "Key": "Runeword71",
         "enUS": "ÿc1[18Sanctuary/250Defense vs. Missiles]\nÿc4Lawbringer",
-        "zhTW": "ÿc1[18庇護光環/250遠程防禦]\nÿc4執法者",
-        "zhCN": "ÿc1[18庇护光环/250远程防御]\nÿc4执法者",
-        "sgCN": "ÿc1[18庇护光环/250远程防御]\nÿc4执法者",
-        "sgTW": "ÿc1[18庇護光環/250遠程防禦]\nÿc4執法者"
+        "zhTW": "ÿc1[18庇護/250遠程防禦]\nÿc4執法者",
+        "zhCN": "ÿc1[18庇护之光/250远程防御]\nÿc4执法者",
+        "sgCN": "ÿc1[18庇护之光/250远程防御]\nÿc4执法者",
+        "sgTW": "ÿc1[18庇護/250遠程防禦]\nÿc4執法者"
     },
     "Runeword72": {
         "id": 20578,
@@ -1344,10 +1344,10 @@
         "id": 20589,
         "Key": "Runeword84",
         "enUS": "ÿc1[12Concentration/375ED]\nÿc4Mist",
-        "zhTW": "ÿc1[12專注光環/375ED]\nÿc4迷霧",
-        "zhCN": "ÿc1[12专注光环/375ED]\nÿc4迷雾",
-        "sgCN": "ÿc1[12专注光环/375ED]\nÿc4迷雾",
-        "sgTW": "ÿc1[12專注光環/375ED]\nÿc4迷霧"
+        "zhTW": "ÿc1[12專注/375ED]\nÿc4迷霧",
+        "zhCN": "ÿc1[12专注/375ED]\nÿc4迷雾",
+        "sgCN": "ÿc1[12专注/375ED]\nÿc4迷雾",
+        "sgTW": "ÿc1[12專注/375ED]\nÿc4迷霧"
     },
     "Runeword85": {
         "id": 20590,
@@ -1433,11 +1433,11 @@
     "Runeword94": {
         "id": 20599,
         "Key": "Runeword94",
-        "enUS": "ÿc1[25Life/30RegMana/70RES]\nÿc4Obsession",
-        "zhTW": "ÿc1[25Life/30RegMana/70RES]\nÿc4執念",
-        "zhCN": "ÿc1[25Life/30RegMana/70RES]\nÿc4执着",
-        "sgCN": "ÿc1[25Life/30RegMana/70RES]\nÿc4着魔",
-        "sgTW": "ÿc1[25Life/30RegMana/70RES]\nÿc4著魔"
+        "enUS": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4Obsession",
+        "zhTW": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4執念",
+        "zhCN": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4执着",
+        "sgCN": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4着魔",
+        "sgTW": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4著魔"
     },
     "Runeword95": {
         "id": 20600,
@@ -1515,10 +1515,10 @@
         "id": 20608,
         "Key": "Runeword103",
         "enUS": "ÿc1[15Redemption/400ED/400Defense vs. Missiles/21FA]\nÿc4Phoenix",
-        "zhTW": "ÿc1[15救贖光環/400ED/400遠程防禦/21FA]\nÿc4鳳凰",
-        "zhCN": "ÿc1[15救赎光环/400ED/400远程防御/21FA]\nÿc4凤凰",
-        "sgCN": "ÿc1[15救赎光环/400ED/400远程防御/21FA]\nÿc4凤凰",
-        "sgTW": "ÿc1[15救贖光環/400ED/400遠程防禦/21FA]\nÿc4鳳凰"
+        "zhTW": "ÿc1[15救贖/400ED/400遠程防禦/21FA]\nÿc4鳳凰",
+        "zhCN": "ÿc1[15救赎/400ED/400远程防御/21FA]\nÿc4凤凰",
+        "sgCN": "ÿc1[15救赎/400ED/400远程防御/21FA]\nÿc4凤凰",
+        "sgTW": "ÿc1[15救贖/400ED/400遠程防禦/21FA]\nÿc4鳳凰"
     },
     "Runeword104": {
         "id": 20609,
@@ -1542,10 +1542,10 @@
         "id": 20611,
         "Key": "Runeword106",
         "enUS": "ÿc1[17Cleansing/2Skill/320ED]\nÿc4Plague",
-        "zhTW": "ÿc1[17淨化光環/2Skill/320ED]\nÿc4瘟疫",
-        "zhCN": "ÿc1[17净化光环/2Skill/320ED]\nÿc4瘟疫",
-        "sgCN": "ÿc1[17净化光环/2Skill/320ED]\nÿc4瘟疫",
-        "sgTW": "ÿc1[17淨化光環/2Skill/320ED]\nÿc4瘟疫"
+        "zhTW": "ÿc1[17淨化/2Skill/320ED]\nÿc4瘟疫",
+        "zhCN": "ÿc1[17净化/2Skill/320ED]\nÿc4瘟疫",
+        "sgCN": "ÿc1[17净化/2Skill/320ED]\nÿc4瘟疫",
+        "sgTW": "ÿc1[17淨化/2Skill/320ED]\nÿc4瘟疫"
     },
     "Runeword107": {
         "id": 20612,
@@ -1569,10 +1569,10 @@
         "id": 20614,
         "Key": "Runeword109",
         "enUS": "ÿc1[20Concentration/300AR]\nÿc4Pride",
-        "zhTW": "ÿc1[20專注光環/300AR]\nÿc4驕傲",
-        "zhCN": "ÿc1[20专注光环/300AR]\nÿc4骄傲",
-        "sgCN": "ÿc1[20专注光环/300AR]\nÿc4骄傲",
-        "sgTW": "ÿc1[20專注光環/300AR]\nÿc4驕傲"
+        "zhTW": "ÿc1[20專注/300AR]\nÿc4驕傲",
+        "zhCN": "ÿc1[20专注/300AR]\nÿc4骄傲",
+        "sgCN": "ÿc1[20专注/300AR]\nÿc4骄傲",
+        "sgTW": "ÿc1[20專注/300AR]\nÿc4驕傲"
     },
     "Runeword110": {
         "id": 20615,
@@ -2000,11 +2000,11 @@
     "Runeword157": {
         "id": 20662,
         "Key": "Runeword157",
-        "enUS": "Void",
-        "zhTW": "虛無",
-        "zhCN": "虚空",
-        "sgCN": "虚无之",
-        "sgTW": "虛無之"
+        "enUS": "ÿc1[15MSD/3Abyss/12ATTR]\nÿc4Void",
+        "zhTW": "ÿc1[15MSD/3深淵裂口/12ATTR]\nÿc4虛無",
+        "zhCN": "ÿc1[15MSD/3深淵裂口/12ATTR]\nÿc4虚空",
+        "sgCN": "ÿc1[15MSD/3深淵裂口/12ATTR]\nÿc4虚无之",
+        "sgTW": "ÿc1[15MSD/3深淵裂口/12ATTR]\nÿc4虛無之"
     },
     "Runeword158": {
         "id": 20663,

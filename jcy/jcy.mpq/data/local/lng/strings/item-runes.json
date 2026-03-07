@@ -1193,7 +1193,7 @@
     "id": 20509,
     "Key": "Runeword3",
     "enUS": "Authority",
-    "zhTW": "權威",
+    "zhTW": "ÿc1[60ED]\nÿc4權威",
     "deDE": "Macht",
     "esES": "Autoridad",
     "frFR": "Autorité",
@@ -1204,7 +1204,7 @@
     "jaJP": "権威",
     "ptBR": "Autoridade",
     "ruRU": "Власть",
-    "zhCN": "權威"
+    "zhCN": "ÿc1[60ED]\nÿc4權威"
   },
   {
     "id": 20510,
@@ -1295,7 +1295,7 @@
     "id": 20515,
     "Key": "Runeword9",
     "enUS": "ÿc1[21Thorns/50PD]\nÿc4Bramble",
-    "zhTW": "ÿc1[21荊棘光環/50PD]\nÿc4刺藤",
+    "zhTW": "ÿc1[21荊棘/50PD]\nÿc4刺藤",
     "deDE": "Dornen",
     "esES": "Zarza",
     "frFR": "Barbelé",
@@ -1306,7 +1306,7 @@
     "jaJP": "茨",
     "ptBR": "Espinho",
     "ruRU": "Терновник",
-    "zhCN": "ÿc1[21荊棘光環/50PD]\nÿc4刺藤"
+    "zhCN": "ÿc1[21荊棘/50PD]\nÿc4刺藤"
   },
   {
     "id": 20516,
@@ -1635,7 +1635,7 @@
     "id": 20536,
     "Key": "Runeword30",
     "enUS": "ÿc1[20EDmg/200EDef]\nÿc4Duress",
-    "zhTW": "ÿc1[20EDmg/200EDef]\nÿc4強制",
+    "zhTW": "ÿc1[20ED/200EDef]\nÿc4強制",
     "deDE": "Nötigung",
     "esES": "Coacción",
     "frFR": "Domination",
@@ -1646,7 +1646,7 @@
     "jaJP": "威圧",
     "ptBR": "Coerção",
     "ruRU": "Принуждение",
-    "zhCN": "ÿc1[20EDmg/200EDef]\nÿc4強制"
+    "zhCN": "ÿc1[20ED/200EDef]\nÿc4強制"
   },
   {
     "id": 20537,
@@ -1754,7 +1754,7 @@
     "id": 20543,
     "Key": "Runeword37",
     "enUS": "ÿc1[16Defiance/260ED]\nÿc4Exile",
-    "zhTW": "ÿc1[16反抗光環/260ED]\nÿc4流亡",
+    "zhTW": "ÿc1[16反抗/260ED]\nÿc4流亡",
     "deDE": "Exil",
     "esES": "Exilio",
     "frFR": "Exil",
@@ -1765,13 +1765,13 @@
     "jaJP": "追放",
     "ptBR": "Exílio",
     "ruRU": "Изгнание",
-    "zhCN": "ÿc1[16反抗光環/260ED]\nÿc4流亡"
+    "zhCN": "ÿc1[16反抗/260ED]\nÿc4流亡"
   },
   {
     "id": 20544,
     "Key": "Runeword38",
     "enUS": "ÿc1[15Fanaticism/2Skill]\nÿc4Faith",
-    "zhTW": "ÿc1[15狂熱光環/2Skill]\nÿc4信心",
+    "zhTW": "ÿc1[15狂熱/2Skill]\nÿc4信心",
     "deDE": "Glaube",
     "esES": "Fe",
     "frFR": "Foi",
@@ -1782,7 +1782,7 @@
     "jaJP": "信念",
     "ptBR": "Fé",
     "ruRU": "Вера",
-    "zhCN": "ÿc1[15狂熱光環/2Skill]\nÿc4信心"
+    "zhCN": "ÿc1[15狂熱/2Skill]\nÿc4信心"
   },
   {
     "id": 20545,
@@ -1822,7 +1822,7 @@
     "id": 20547,
     "Key": "Runeword41",
     "enUS": "ÿc1[1.485Life(LV)/30RES]\nÿc4Fortitude",
-    "zhTW": "ÿc1[1.485Life(LV)/30RES]\nÿc4剛毅",
+    "zhTW": "ÿc1[1.5Life(LV)/30RES]\nÿc4剛毅",
     "deDE": "Stärke",
     "esES": "Fortaleza",
     "frFR": "Fortitude",
@@ -1833,7 +1833,7 @@
     "jaJP": "不屈",
     "ptBR": "Fortitude",
     "ruRU": "Сила духа",
-    "zhCN": "ÿc1[1.485Life(LV)/30RES]\nÿc4剛毅"
+    "zhCN": "ÿc1[1.5Life(LV)/30RES]\nÿc4剛毅"
   },
   {
     "id": 20548,
@@ -1958,7 +1958,7 @@
     "id": 20555,
     "Key": "Runeword49",
     "enUS": "ÿc1[275ED/6Valkyrie]\nÿc4Harmony",
-    "zhTW": "ÿc1[275ED/6女武神召喚]\nÿc4和諧",
+    "zhTW": "ÿc1[275ED/6女武神]\nÿc4和諧",
     "deDE": "Harmonie",
     "esES": "Armonía",
     "frFR": "Harmonie",
@@ -1969,7 +1969,7 @@
     "jaJP": "調和",
     "ptBR": "Harmonia",
     "ruRU": "Гармония",
-    "zhCN": "ÿc1[275ED/6女武神召喚]\nÿc4和諧"
+    "zhCN": "ÿc1[275ED/6女武神]\nÿc4和諧"
   },
   {
     "id": 20556,
@@ -2179,7 +2179,7 @@
     "id": 20568,
     "Key": "Runeword62",
     "enUS": "ÿc1[17Meditation/260ED/250AR/6Critical Strike]\nÿc4Insight",
-    "zhTW": "ÿc1[17冥想光環/260ED/250AR/6致命攻勢]\nÿc4靈光",
+    "zhTW": "ÿc1[17冥想/260ED/250AR/6CS]\nÿc4靈光",
     "deDE": "Einsicht",
     "esES": "Perspicacia",
     "frFR": "Spiritualité",
@@ -2190,7 +2190,7 @@
     "jaJP": "洞察",
     "ptBR": "Intuição",
     "ruRU": "Прозрение",
-    "zhCN": "ÿc1[17冥想光環/260ED/250AR/6致命攻勢]\nÿc4靈光"
+    "zhCN": "ÿc1[17冥想/260ED/250AR/6CS]\nÿc4靈光"
   },
   {
     "id": 20569,
@@ -2332,7 +2332,7 @@
     "id": 20577,
     "Key": "Runeword71",
     "enUS": "ÿc1[18Sanctuary/250Defense vs. Missiles]\nÿc4Lawbringer",
-    "zhTW": "ÿc1[18庇護光環/250遠程防禦]\nÿc4執法者",
+    "zhTW": "ÿc1[18庇護/250遠程防禦]\nÿc4執法者",
     "deDE": "Gesetzesbringer",
     "esES": "Jurista",
     "frFR": "Législateur",
@@ -2343,7 +2343,7 @@
     "jaJP": "法の番人",
     "ptBR": "Justiceiro",
     "ruRU": "Судия",
-    "zhCN": "ÿc1[18庇護光環/250遠程防禦]\nÿc4執法者"
+    "zhCN": "ÿc1[18庇護/250遠程防禦]\nÿc4執法者"
   },
   {
     "id": 20578,
@@ -2536,7 +2536,7 @@
     "id": 20589,
     "Key": "Runeword84",
     "enUS": "ÿc1[12Concentration/375ED]\nÿc4Mist",
-    "zhTW": "ÿc1[12專注光環/375ED]\nÿc4迷霧",
+    "zhTW": "ÿc1[12專注/375ED]\nÿc4迷霧",
     "deDE": "Nebel",
     "esES": "Bruma",
     "frFR": "Brume",
@@ -2547,7 +2547,7 @@
     "jaJP": "霧",
     "ptBR": "Névoa",
     "ruRU": "Туман",
-    "zhCN": "ÿc1[12專注光環/375ED]\nÿc4迷霧"
+    "zhCN": "ÿc1[12專注/375ED]\nÿc4迷霧"
   },
   {
     "id": 20590,
@@ -2706,7 +2706,7 @@
     "id": 20599,
     "Key": "Runeword94",
     "enUS": "ÿc1[25Life/30RegMana/70RES]\nÿc4Obsession",
-    "zhTW": "ÿc1[25Life/30RegMana/70RES]\nÿc4執念",
+    "zhTW": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4執念",
     "deDE": "Besessenheit",
     "esES": "Obsesión",
     "frFR": "Obsession",
@@ -2717,7 +2717,7 @@
     "jaJP": "執着",
     "ptBR": "Obsessão",
     "ruRU": "Помешательство",
-    "zhCN": "ÿc1[25Life/30RegMana/70RES]\nÿc4執念"
+    "zhCN": "ÿc1[25MaxLife/30RegMana/70RES]\nÿc4執念"
   },
   {
     "id": 20600,
@@ -2859,7 +2859,7 @@
     "id": 20608,
     "Key": "Runeword103",
     "enUS": "ÿc1[15Redemption/400ED/400Defense vs. Missiles/21FA]\nÿc4Phoenix",
-    "zhTW": "ÿc1[15救贖光環/400ED/400遠程防禦/21FA]\nÿc4鳳凰",
+    "zhTW": "ÿc1[15救贖/400ED/400遠程防禦/21FA]\nÿc4鳳凰",
     "deDE": "Phönix",
     "esES": "Fénix",
     "frFR": "Phénix",
@@ -2870,7 +2870,7 @@
     "jaJP": "不死鳥",
     "ptBR": "Fênix",
     "ruRU": "Феникс",
-    "zhCN": "ÿc1[15救贖光環/400ED/400遠程防禦/21FA]\nÿc4鳳凰"
+    "zhCN": "ÿc1[15救贖/400ED/400遠程防禦/21FA]\nÿc4鳳凰"
   },
   {
     "id": 20609,
@@ -2910,7 +2910,7 @@
     "id": 20611,
     "Key": "Runeword106",
     "enUS": "ÿc1[17Cleansing/2Skill/320ED]\nÿc4Plague",
-    "zhTW": "ÿc1[17淨化光環/2Skill/320ED]\nÿc4瘟疫",
+    "zhTW": "ÿc1[17淨化/2Skill/320ED]\nÿc4瘟疫",
     "deDE": "Pest",
     "esES": "Peste",
     "frFR": "Peste",
@@ -2921,7 +2921,7 @@
     "jaJP": "災厄",
     "ptBR": "Peste",
     "ruRU": "Чума",
-    "zhCN": "ÿc1[17淨化光環/2Skill/320ED]\nÿc4瘟疫"
+    "zhCN": "ÿc1[17淨化/2Skill/320ED]\nÿc4瘟疫"
   },
   {
     "id": 20612,
@@ -2961,7 +2961,7 @@
     "id": 20614,
     "Key": "Runeword109",
     "enUS": "ÿc1[20Concentration/300AR]\nÿc4Pride",
-    "zhTW": "ÿc1[20專注光環/300AR]\nÿc4驕傲",
+    "zhTW": "ÿc1[20專注/300AR]\nÿc4驕傲",
     "deDE": "Stolz",
     "esES": "Orgullo",
     "frFR": "Fierté",
@@ -2972,7 +2972,7 @@
     "jaJP": "誇り",
     "ptBR": "Orgulho",
     "ruRU": "Гордость",
-    "zhCN": "ÿc1[20專注光環/300AR]\nÿc4驕傲"
+    "zhCN": "ÿc1[20專注/300AR]\nÿc4驕傲"
   },
   {
     "id": 20615,
@@ -3777,7 +3777,7 @@
     "id": 20662,
     "Key": "Runeword157",
     "enUS": "Void",
-    "zhTW": "虛無",
+    "zhTW": "ÿc1[15MSD/3深淵裂口/12ATTR]\nÿc4虛無",
     "deDE": "[ms]leerer[fs]leere[ns]leeres[pl]leere",
     "esES": "Vacío",
     "frFR": "Vide",
@@ -3788,7 +3788,7 @@
     "jaJP": "虚無",
     "ptBR": "Vazio",
     "ruRU": "Бездна",
-    "zhCN": "虛無"
+    "zhCN": "ÿc1[15MSD/3深淵裂口/12ATTR]\nÿc4虛無"
   },
   {
     "id": 20663,
