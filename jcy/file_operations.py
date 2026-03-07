@@ -907,7 +907,68 @@ class FileOperations:
                     os.remove(temp_path)
         return (count, total)
 
-    
+
+    def select_monster_affixes(self, radio: str = "0"):
+        """怪物-词缀染色"""
+        
+        count = 0
+        total = 1
+
+        try:
+            # 怪物词缀 (Key -> 中文说明)
+            affixes = {
+                "uniquecursed": "施加诅咒",
+                "monsteruniqueprop9": "光环强化",
+            }
+
+            # D2R 颜色控制码 (紫)
+            color = "ÿc;"
+
+            json_path = os.path.join(MOD_PATH, "config/ext/monsters.json")
+
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+
+            for affix, desc in affixes.items():
+
+                if affix not in json_data:
+                    continue
+
+                entry = json_data[affix]
+
+                # 处理所有语言字段
+                for lang in ["enUS", "zhCN", "zhTW", "sgCN", "sgTW"]:
+                    if lang not in entry:
+                        continue
+
+                    text = entry[lang]
+
+                    if radio == "1":
+                        # 开启染色：如果没有颜色前缀就添加
+                        if not text.startswith(color):
+                            entry[lang] = color + text
+                    else:
+                        # 关闭染色：如果有颜色前缀就移除
+                        if text.startswith(color):
+                            entry[lang] = text[len(color):]
+
+            # 写回文件
+            with open(json_path, "w", encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            count += 1
+
+            # 更新内存中的扩展字典
+            jcy_config.LOCAL_EXT_DICT = self.load_local_ext_dicts()
+
+            # 更新本地化文件
+            self.modify_zhCN_language("")
+            self.modify_zhTW_language("")
+        except Exception as e:
+            print(e)
+
+        return count, total
+
+
     def select_equipment_setting(self, keys: list):
         """装备-设置"""
         if keys is None:

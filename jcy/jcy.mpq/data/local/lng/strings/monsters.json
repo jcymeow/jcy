@@ -5766,7 +5766,7 @@
     "id": 3207,
     "Key": "uniquecursed",
     "enUS": "Cursed",
-    "zhTW": "施加詛咒",
+    "zhTW": "ÿc;施加詛咒",
     "deDE": "Verflucht",
     "esES": "Maldito",
     "frFR": "Maudit",
@@ -5777,7 +5777,7 @@
     "jaJP": "呪い",
     "ptBR": "Amaldiçoado",
     "ruRU": "Проклятие",
-    "zhCN": "施加詛咒"
+    "zhCN": "ÿc;施加詛咒"
   },
   {
     "id": 3208,
@@ -5936,7 +5936,7 @@
     "id": 3218,
     "Key": "monsteruniqueprop9",
     "enUS": "Aura Enchanted",
-    "zhTW": "靈氣強化",
+    "zhTW": "ÿc;靈氣強化",
     "deDE": "verzauberte Aura",
     "esES": "Encantamiento de aura",
     "frFR": "Enchanté par l’aura",
@@ -5947,7 +5947,7 @@
     "jaJP": "オーラ強化",
     "ptBR": "Encantamento de Aura",
     "ruRU": "Зачарованная аура",
-    "zhCN": "靈氣強化"
+    "zhCN": "ÿc;靈氣強化"
   },
   {
     "id": 3219,

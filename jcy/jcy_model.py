@@ -427,7 +427,17 @@ class FeatureConfig:
                                 "2": "冷霜箭",
                                 "3": "火焰箭"
                             }
-                        }
+                        },
+                        {
+                            "fid": Function.MONSTER_AFFIXES.value,
+                            "type": RADIO,
+                            "text": "怪物-词缀染色",
+                            "colspan": 25,
+                            "params": {
+                                "0": "默认",
+                                "1": "开启",
+                            }
+                        },
                     ]
                 },
                 {
