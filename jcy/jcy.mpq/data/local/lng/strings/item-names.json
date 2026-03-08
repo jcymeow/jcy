@@ -11189,7 +11189,7 @@
     "id": 10021,
     "Key": "xhm",
     "enUS": "Winged Helm|Normal",
-    "zhTW": "翼盔|普",
+    "zhTW": "翼盔|擴",
     "deDE": "Flügelhelm",
     "esES": "[ms]Yelmo alado",
     "frFR": "[ms]Heaume ailé",
@@ -11200,7 +11200,7 @@
     "jaJP": "ウィングド・ヘルム",
     "ptBR": "[ms]Elmo Alado",
     "ruRU": "[ms]крылатый шлем",
-    "zhCN": "翼盔|普"
+    "zhCN": "翼盔|擴"
   },
   {
     "id": 10022,
@@ -28070,7 +28070,7 @@
     "id": 28035,
     "Key": "PreCrafted Cold Rupture",
     "enUS": "Latent Cold Rupture",
-    "zhTW": "潛伏冰寒裂縫",
+    "zhTW": "ÿc1[-70CR]\nÿc4潛伏冰寒裂縫",
     "deDE": "[ms]Latenter Kältespalt",
     "esES": "Ruptura fría latente",
     "frFR": "Rupture glaciale latente",
@@ -28081,13 +28081,13 @@
     "jaJP": "潜在する甘美なる凍気",
     "ptBR": "Ruptura Gélida Latente",
     "ruRU": "Скрытый ледяной разлом",
-    "zhCN": "潛伏冰寒裂縫"
+    "zhCN": "ÿc1[-70CR]\nÿc4潛伏冰寒裂縫"
   },
   {
     "id": 28036,
     "Key": "Crafted Cold Rupture",
     "enUS": "Renewed Cold Rupture",
-    "zhTW": "ÿc1[-70CR]\nÿc4新生冰寒裂縫",
+    "zhTW": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生冰寒裂縫",
     "deDE": "[ms]Erneuerter Kältespalt",
     "esES": "Ruptura fría renovada",
     "frFR": "Rupture glaciale renouvelée",
@@ -28098,13 +28098,13 @@
     "jaJP": "再発する甘美なる凍気",
     "ptBR": "Ruptura Gélida Renovada",
     "ruRU": "Обновленный ледяной разлом",
-    "zhCN": "ÿc1[-70CR]\nÿc4新生冰寒裂縫"
+    "zhCN": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生冰寒裂縫"
   },
   {
     "id": 28037,
     "Key": "PreCrafted Flame Rift",
     "enUS": "Latent Flame Rift",
-    "zhTW": "潛伏火焰裂隙",
+    "zhTW": "ÿc1[-70FR]\nÿc4潛伏火焰裂隙",
     "deDE": "[ms]Latenter Flammenspalt",
     "esES": "Falla de llamas latente",
     "frFR": "Faille ardente latente",
@@ -28115,13 +28115,13 @@
     "jaJP": "潜在する穿つ炎",
     "ptBR": "Fenda Flamejante Latente",
     "ruRU": "Скрытый пламенный портал",
-    "zhCN": "潛伏火焰裂隙"
+    "zhCN": "ÿc1[-70FR]\nÿc4潛伏火焰裂隙"
   },
   {
     "id": 28038,
     "Key": "Crafted Flame Rift",
     "enUS": "Renewed Flame Rift",
-    "zhTW": "ÿc1[-70FR]\nÿc4新生火焰裂隙",
+    "zhTW": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生火焰裂隙",
     "deDE": "[ms]Erneuerter Flammenspalt",
     "esES": "Falla de llamas renovada",
     "frFR": "Faille ardente renouvelée",
@@ -28132,13 +28132,13 @@
     "jaJP": "再発する穿つ炎",
     "ptBR": "Fenda Flamejante Renovada",
     "ruRU": "Обновленный пламенный портал",
-    "zhCN": "ÿc1[-70FR]\nÿc4新生火焰裂隙"
+    "zhCN": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生火焰裂隙"
   },
   {
     "id": 28039,
     "Key": "PreCrafted Crack of the Heavens",
     "enUS": "Latent Crack of the Heavens",
-    "zhTW": "潛伏天堂裂擊",
+    "zhTW": "ÿc1[-70LR]\nÿc4潛伏天堂裂擊",
     "deDE": "[ms]Latenter Himmelsriss",
     "esES": "Chasquido de los cielos latente",
     "frFR": "Fracture des Cieux latente",
@@ -28149,13 +28149,13 @@
     "jaJP": "潜在する天外の亀裂",
     "ptBR": "Rachadura do Paraíso Latente",
     "ruRU": "Скрытая небесная трещина",
-    "zhCN": "潛伏天堂裂擊"
+    "zhCN": "ÿc1[-70LR]\nÿc4潛伏天堂裂擊"
   },
   {
     "id": 28040,
     "Key": "Crafted Crack of the Heavens",
     "enUS": "Renewed Crack of the Heavens",
-    "zhTW": "ÿc1[-70LR]\nÿc4新生天堂裂擊",
+    "zhTW": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生天堂裂擊",
     "deDE": "[ms]Erneuerter Himmelsriss",
     "esES": "Chasquido de los cielos renovado",
     "frFR": "Fracture des Cieux renouvelée",
@@ -28166,13 +28166,13 @@
     "jaJP": "再発する天外の亀裂",
     "ptBR": "Rachadura do Paraíso Renovada",
     "ruRU": "Обновленная небесная трещина",
-    "zhCN": "ÿc1[-70LR]\nÿc4新生天堂裂擊"
+    "zhCN": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生天堂裂擊"
   },
   {
     "id": 28041,
     "Key": "PreCrafted Rotting Fissure",
     "enUS": "Latent Rotting Fissure",
-    "zhTW": "潛伏腐敗裂痕",
+    "zhTW": "ÿc1[-70PR]\nÿc4潛伏腐敗裂痕",
     "deDE": "[fs]Latente Fäulniskluft",
     "esES": "Fisura putrefacta latente",
     "frFR": "Fissure putride latente",
@@ -28183,13 +28183,13 @@
     "jaJP": "潜在する腐れる傷跡",
     "ptBR": "Fissura Putrefata Latente",
     "ruRU": "Скрытый гниющий излом",
-    "zhCN": "潛伏腐敗裂痕"
+    "zhCN": "ÿc1[-70PR]\nÿc4潛伏腐敗裂痕"
   },
   {
     "id": 28042,
     "Key": "Crafted Rotting Fissure",
     "enUS": "Renewed Rotting Fissure",
-    "zhTW": "ÿc1[-70PR]\nÿc4新生腐敗裂痕",
+    "zhTW": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生腐敗裂痕",
     "deDE": "[fs]Erneuerte Fäulniskluft",
     "esES": "Fisura putrefacta renovada",
     "frFR": "Fissure putride renouvelée",
@@ -28200,13 +28200,13 @@
     "jaJP": "再発する腐れる傷跡",
     "ptBR": "Fissura Putrefata Renovada",
     "ruRU": "Обновленный гниющий излом",
-    "zhCN": "ÿc1[-70PR]\nÿc4新生腐敗裂痕"
+    "zhCN": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生腐敗裂痕"
   },
   {
     "id": 28043,
     "Key": "PreCrafted Bone Break",
     "enUS": "Latent Bone Break",
-    "zhTW": "潛伏分筋裂骨",
+    "zhTW": "ÿc1[-10DR]\nÿc4潛伏分筋裂骨",
     "deDE": "[ms]Latenter Knochenbruch",
     "esES": "Rotura de huesos latente",
     "frFR": "Briseur d’os latent",
@@ -28217,13 +28217,13 @@
     "jaJP": "潜在する骨食み",
     "ptBR": "Rompimento de Ossos Latente",
     "ruRU": "Скрытый перелом костей",
-    "zhCN": "潛伏分筋裂骨"
+    "zhCN": "ÿc1[-10DR]\nÿc4潛伏分筋裂骨"
   },
   {
     "id": 28044,
     "Key": "Crafted Bone Break",
     "enUS": "Renewed Bone Break",
-    "zhTW": "ÿc1[-10DR]\nÿc4新生分筋裂骨",
+    "zhTW": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
     "deDE": "[ms]Erneuerter Knochenbruch",
     "esES": "Rotura de huesos renovada",
     "frFR": "Briseur d’os renouvelé",
@@ -28234,13 +28234,13 @@
     "jaJP": "再発する骨食み",
     "ptBR": "Rompimento de Ossos Renovado",
     "ruRU": "Обновленный перелом костей",
-    "zhCN": "ÿc1[-10DR]\nÿc4新生分筋裂骨"
+    "zhCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨"
   },
   {
     "id": 28045,
     "Key": "PreCrafted Black Cleft",
     "enUS": "Latent Black Cleft",
-    "zhTW": "潛伏漆黑裂口",
+    "zhTW": "ÿc1[-45MR]\nÿc4潛伏漆黑裂口",
     "deDE": "[fs]Latente Schwarze Bresche",
     "esES": "Hendidura negra latente",
     "frFR": "Fente noire latente",
@@ -28251,13 +28251,13 @@
     "jaJP": "潜在する黒き裂目",
     "ptBR": "Fratura Sombria Latente",
     "ruRU": "Скрытая черная расщелина",
-    "zhCN": "潛伏漆黑裂口"
+    "zhCN": "ÿc1[-45MR]\nÿc4潛伏漆黑裂口"
   },
   {
     "id": 28046,
     "Key": "Crafted Black Cleft",
     "enUS": "Renewed Black Cleft",
-    "zhTW": "ÿc1[-45MR]\nÿc4新生漆黑裂口",
+    "zhTW": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生漆黑裂口",
     "deDE": "[fs]Erneuerte Schwarze Bresche",
     "esES": "Hendidura negra renovada",
     "frFR": "Fente noire renouvelée",
@@ -28268,7 +28268,7 @@
     "jaJP": "再発する黒き裂目",
     "ptBR": "Fratura Sombria Renovada",
     "ruRU": "Обновленная черная расщелина",
-    "zhCN": "ÿc1[-45MR]\nÿc4新生漆黑裂口"
+    "zhCN": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生漆黑裂口"
   },
   {
     "id": 28082,

@@ -5924,11 +5924,11 @@
     "xhm": {
         "id": 10021,
         "Key": "xhm",
-        "enUS": "Winged Helm|Normal",
-        "zhTW": "翼盔|普",
-        "zhCN": "翼盔|普",
-        "sgCN": "翼盔|普",
-        "sgTW": "翼盔|普"
+        "enUS": "Winged Helm|Exceptional",
+        "zhTW": "翼盔|擴",
+        "zhCN": "翼盔|扩",
+        "sgCN": "翼盔|扩",
+        "sgTW": "翼盔|擴"
     },
     "Hsarus' Defense": {
         "id": 10022,
@@ -14150,19 +14150,19 @@
     "Ars Al'Diablolos": {
         "id": 27628,
         "Key": "Ars Al'Diablolos",
-        "enUS": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4Ars Al'Diabolos",
+        "enUS": "ÿc1[25FSD/5Apocalypse/200ED/30FR/10EK/10Light Radius]\nÿc4Ars Al'Diabolos",
         "zhTW": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4艾迪亞布羅斯學術",
-        "zhCN": "ÿc1[25FSD/5天启末日/200ED/30FR/10EK/10Light Radius]\nÿc4迪亚波罗斯之术",
-        "sgCN": "ÿc1[25FSD/5天启末日/200ED/30FR/10EK/10Light Radius]\nÿc4迪亚波罗斯之术",
+        "zhCN": "ÿc1[25FSD/5末日/200ED/30FR/10EK/10Light Radius]\nÿc4迪亚波罗斯之术",
+        "sgCN": "ÿc1[25FSD/5末日/200ED/30FR/10EK/10Light Radius]\nÿc4迪亚波罗斯之术",
         "sgTW": "ÿc1[25FSD/5天啟末日/200ED/30FR/10EK/10Light Radius]\nÿc4艾迪亞布羅斯學術"
     },
     "Ars Tor'Baalos": {
         "id": 27629,
         "Key": "Ars Tor'Baalos",
-        "enUS": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4Ars Tor'Baalos",
+        "enUS": "ÿc1[3/4/3/3/150ED/10DR]\nÿc4Ars Tor'Baalos",
         "zhTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術",
-        "zhCN": "ÿc1[3吞噬/4红液沸腾/3暴食/3恶魔精通/150ED/10DR]\nÿc4巴洛斯之术",
-        "sgCN": "ÿc1[3吞噬/4红液沸腾/3暴食/3恶魔精通/150ED/10DR]\nÿc4巴洛斯之术",
+        "zhCN": "ÿc1[3吞噬/4沸血术/3暴食/3恶魔精通/150ED/10DR]\nÿc4巴洛斯之术",
+        "sgCN": "ÿc1[3吞噬/4沸血术/3暴食/3恶魔精通/150ED/10DR]\nÿc4巴洛斯之术",
         "sgTW": "ÿc1[3吞噬/4沸血術/3吞食/3惡魔專精/150ED/10DR]\nÿc4托巴爾羅斯學術"
     },
     "Ars Dul'Mephistos": {
@@ -14177,7 +14177,7 @@
     "Measured Wrath": {
         "id": 27631,
         "Key": "Measured Wrath",
-        "enUS": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4Measured Wrath",
+        "enUS": "ÿc1[3/3/3/180ED/20VIT/30RES/5LK]\nÿc4Measured Wrath",
         "zhTW": "ÿc1[3烈焰湧浪/3火焰之環/3召喚魔汙怪/180ED/20VIT/30RES/5LK]\nÿc4審慎之怒",
         "zhCN": "ÿc1[3烈焰波/3火焰之环/3召唤污染魔/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
         "sgCN": "ÿc1[3烈焰波/3火焰之环/3召唤污染魔/180ED/20VIT/30RES/5LK]\nÿc4有度之怒",
@@ -14204,10 +14204,10 @@
     "Bloodpact Shard": {
         "id": 27634,
         "Key": "Bloodpact Shard",
-        "enUS": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4Bloodpact Shard",
+        "enUS": "ÿc1[3/3/3/15Max Life/35MF]\nÿc4Bloodpact Shard",
         "zhTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片",
-        "zhCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血契碎片",
-        "sgCN": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血契碎片",
+        "zhCN": "ÿc1[3束缚恶魔/3沸血术/3血誓/15Max Life/35MF]\nÿc4血契碎片",
+        "sgCN": "ÿc1[3束缚恶魔/3沸血术/3血誓/15Max Life/35MF]\nÿc4血契碎片",
         "sgTW": "ÿc1[3束縛惡魔/3沸血術/3血誓/15Max Life/35MF]\nÿc4血誓碎片"
     },
     "Sling": {
@@ -14861,110 +14861,110 @@
     "PreCrafted Cold Rupture": {
         "id": 28035,
         "Key": "PreCrafted Cold Rupture",
-        "enUS": "Latent Cold Rupture",
-        "zhTW": "潛伏冰寒裂縫",
-        "zhCN": "潜在的寒冰裂口",
-        "sgCN": "潜在的寒冰裂口",
-        "sgTW": "潛伏冰寒裂縫"
+        "enUS": "ÿc1[-70CR]\nÿc4Latent Cold Rupture",
+        "zhTW": "ÿc1[-70CR]\nÿc4潛伏冰寒裂縫",
+        "zhCN": "ÿc1[-70CR]\nÿc4潜在的寒冰裂口",
+        "sgCN": "ÿc1[-70CR]\nÿc4潜在的寒冰裂口",
+        "sgTW": "ÿc1[-70CR]\nÿc4潛伏冰寒裂縫"
     },
     "Crafted Cold Rupture": {
         "id": 28036,
         "Key": "Crafted Cold Rupture",
-        "enUS": "ÿc1[-70CR]\nÿc4Renewed Cold Rupture",
-        "zhTW": "ÿc1[-70CR]\nÿc4新生冰寒裂縫",
-        "zhCN": "ÿc1[-70CR]\nÿc4焕新的寒冰裂口",
-        "sgCN": "ÿc1[-70CR]\nÿc4焕新的寒冰裂口",
-        "sgTW": "ÿc1[-70CR]\nÿc4新生冰寒裂縫"
+        "enUS": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Cold Rupture",
+        "zhTW": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生冰寒裂縫",
+        "zhCN": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的寒冰裂口",
+        "sgCN": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的寒冰裂口",
+        "sgTW": "ÿc1[-10CR|15CSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生冰寒裂縫"
     },
     "PreCrafted Flame Rift": {
         "id": 28037,
         "Key": "PreCrafted Flame Rift",
-        "enUS": "Latent Flame Rift",
-        "zhTW": "潛伏火焰裂隙",
-        "zhCN": "潜在的火焰裂隙",
-        "sgCN": "潜在的火焰裂隙",
-        "sgTW": "潛伏火焰裂隙"
+        "enUS": "ÿc1[-70FR]\nÿc4Latent Flame Rift",
+        "zhTW": "ÿc1[-70FR]\nÿc4潛伏火焰裂隙",
+        "zhCN": "ÿc1[-70FR]\nÿc4潜在的火焰裂隙",
+        "sgCN": "ÿc1[-70FR]\nÿc4潜在的火焰裂隙",
+        "sgTW": "ÿc1[-70FR]\nÿc4潛伏火焰裂隙"
     },
     "Crafted Flame Rift": {
         "id": 28038,
         "Key": "Crafted Flame Rift",
-        "enUS": "ÿc1[-70FR]\nÿc4Renewed Flame Rift",
-        "zhTW": "ÿc1[-70FR]\nÿc4新生火焰裂隙",
-        "zhCN": "ÿc1[-70FR]\nÿc4焕新的火焰裂隙",
-        "sgCN": "ÿc1[-70FR]\nÿc4焕新的火焰裂隙",
-        "sgTW": "ÿc1[-70FR]\nÿc4新生火焰裂隙"
+        "enUS": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Flame Rift",
+        "zhTW": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生火焰裂隙",
+        "zhCN": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的火焰裂隙",
+        "sgCN": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的火焰裂隙",
+        "sgTW": "ÿc1[-10FR|15FSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生火焰裂隙"
     },
     "PreCrafted Crack of the Heavens": {
         "id": 28039,
         "Key": "PreCrafted Crack of the Heavens",
-        "enUS": "Latent Crack of the Heavens",
-        "zhTW": "潛伏天堂裂擊",
-        "zhCN": "潜在的天堂裂痕",
-        "sgCN": "潜在的天堂裂痕",
-        "sgTW": "潛伏天堂裂擊"
+        "enUS": "ÿc1[-70LR]\nÿc4Latent Crack of the Heavens",
+        "zhTW": "ÿc1[-70LR]\nÿc4潛伏天堂裂擊",
+        "zhCN": "ÿc1[-70LR]\nÿc4潜在的天堂裂痕",
+        "sgCN": "ÿc1[-70LR]\nÿc4潜在的天堂裂痕",
+        "sgTW": "ÿc1[-70LR]\nÿc4潛伏天堂裂擊"
     },
     "Crafted Crack of the Heavens": {
         "id": 28040,
         "Key": "Crafted Crack of the Heavens",
-        "enUS": "ÿc1[-70LR]\nÿc4Renewed Crack of the Heavens",
-        "zhTW": "ÿc1[-70LR]\nÿc4新生天堂裂擊",
-        "zhCN": "ÿc1[-70LR]\nÿc4焕新的天堂裂痕",
-        "sgCN": "ÿc1[-70LR]\nÿc4焕新的天堂裂痕",
-        "sgTW": "ÿc1[-70LR]\nÿc4新生天堂裂擊"
+        "enUS": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Crack of the Heavens",
+        "zhTW": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生天堂裂擊",
+        "zhCN": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的天堂裂痕",
+        "sgCN": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的天堂裂痕",
+        "sgTW": "ÿc1[-10LR|15LSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生天堂裂擊"
     },
     "PreCrafted Rotting Fissure": {
         "id": 28041,
         "Key": "PreCrafted Rotting Fissure",
-        "enUS": "Latent Rotting Fissure",
-        "zhTW": "潛伏腐敗裂痕",
-        "zhCN": "潜在的腐烂裂迹",
-        "sgCN": "潜在的腐烂裂迹",
-        "sgTW": "潛伏腐敗裂痕"
+        "enUS": "ÿc1[-70PR]\nÿc4Latent Rotting Fissure",
+        "zhTW": "ÿc1[-70PR]\nÿc4潛伏腐敗裂痕",
+        "zhCN": "ÿc1[-70PR]\nÿc4潜在的腐烂裂迹",
+        "sgCN": "ÿc1[-70PR]\nÿc4潜在的腐烂裂迹",
+        "sgTW": "ÿc1[-70PR]\nÿc4潛伏腐敗裂痕"
     },
     "Crafted Rotting Fissure": {
         "id": 28042,
         "Key": "Crafted Rotting Fissure",
-        "enUS": "ÿc1[-70PR]\nÿc4Renewed Rotting Fissure",
-        "zhTW": "ÿc1[-70PR]\nÿc4新生腐敗裂痕",
-        "zhCN": "ÿc1[-70PR]\nÿc4焕新的腐烂裂迹",
-        "sgCN": "ÿc1[-70PR]\nÿc4焕新的腐烂裂迹",
-        "sgTW": "ÿc1[-70PR]\nÿc4新生腐敗裂痕"
+        "enUS": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Rotting Fissure",
+        "zhTW": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生腐敗裂痕",
+        "zhCN": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的腐烂裂迹",
+        "sgCN": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的腐烂裂迹",
+        "sgTW": "ÿc1[-10PR|15PSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生腐敗裂痕"
     },
     "PreCrafted Bone Break": {
         "id": 28043,
         "Key": "PreCrafted Bone Break",
-        "enUS": "Latent Bone Break",
-        "zhTW": "潛伏分筋裂骨",
-        "zhCN": "潜在的白骨裂纹",
-        "sgCN": "潜在的白骨裂纹",
-        "sgTW": "潛伏分筋裂骨"
+        "enUS": "ÿc1[-10DR]\nÿc4Latent Bone Break",
+        "zhTW": "ÿc1[-10DR]\nÿc4潛伏分筋裂骨",
+        "zhCN": "ÿc1[-10DR]\nÿc4潜在的白骨裂纹",
+        "sgCN": "ÿc1[-10DR]\nÿc4潜在的白骨裂纹",
+        "sgTW": "ÿc1[-10DR]\nÿc4潛伏分筋裂骨"
     },
     "Crafted Bone Break": {
         "id": 28044,
         "Key": "Crafted Bone Break",
-        "enUS": "ÿc1[-10DR]\nÿc4Renewed Bone Break",
-        "zhTW": "ÿc1[-10DR]\nÿc4新生分筋裂骨",
-        "zhCN": "ÿc1[-10DR]\nÿc4焕新的白骨裂纹",
-        "sgCN": "ÿc1[-10DR]\nÿc4焕新的白骨裂纹",
-        "sgTW": "ÿc1[-10DR]\nÿc4新生分筋裂骨"
+        "enUS": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Bone Break",
+        "zhTW": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
+        "zhCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹",
+        "sgCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹",
+        "sgTW": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨"
     },
     "PreCrafted Black Cleft": {
         "id": 28045,
         "Key": "PreCrafted Black Cleft",
-        "enUS": "Latent Black Cleft",
-        "zhTW": "潛伏漆黑裂口",
-        "zhCN": "潜在的漆黑裂痕",
-        "sgCN": "潜在的漆黑裂痕",
-        "sgTW": "潛伏漆黑裂口"
+        "enUS": "ÿc1[-45MR]\nÿc4Latent Black Cleft",
+        "zhTW": "ÿc1[-45MR]\nÿc4潛伏漆黑裂口",
+        "zhCN": "ÿc1[-45MR]\nÿc4潜在的漆黑裂痕",
+        "sgCN": "ÿc1[-45MR]\nÿc4潜在的漆黑裂痕",
+        "sgTW": "ÿc1[-45MR]\nÿc4潛伏漆黑裂口"
     },
     "Crafted Black Cleft": {
         "id": 28046,
         "Key": "Crafted Black Cleft",
-        "enUS": "ÿc1[-45MR]\nÿc4Renewed Black Cleft",
-        "zhTW": "ÿc1[-45MR]\nÿc4新生漆黑裂口",
-        "zhCN": "ÿc1[-45MR]\nÿc4焕新的漆黑裂痕",
-        "sgCN": "ÿc1[-45MR]\nÿc4焕新的漆黑裂痕",
-        "sgTW": "ÿc1[-45MR]\nÿc4新生漆黑裂口"
+        "enUS": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Black Cleft",
+        "zhTW": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生漆黑裂口",
+        "zhCN": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的漆黑裂痕",
+        "sgCN": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的漆黑裂痕",
+        "sgTW": "ÿc1[-10MR|15MSD/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生漆黑裂口"
     },
     "gemsAbbrev": {
         "id": 28082,
