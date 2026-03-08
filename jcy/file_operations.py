@@ -702,6 +702,7 @@ class FileOperations:
         """
         files_skill_logo = [
             r"data/global/excel/overlay.txt",
+            r"data/hd/overlays/sorceress/enchant.json",
             r"data/hd/overlays/assassin/fade.json",
             r"data/hd/overlays/assassin/quickness.json",
             r"data/hd/overlays/common/markbear.json",
