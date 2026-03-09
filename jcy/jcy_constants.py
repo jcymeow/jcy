@@ -865,6 +865,7 @@ class Function(Enum):
     DRU_SETTING = "DruidSetting"
     ASN_SETTING = "AssassinSetting"
     ASN_MARTIAL = "AssassinMartial"
+    WAR_SETTING = "WarlockSetting"
     SKILL_OFF_SOUNDS = "SkillOffSounds"
     MERCENARY_LOCATION = "MercenaryLocation"
     MERCENARY_100 = "Mercenary100"

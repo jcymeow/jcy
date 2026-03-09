@@ -284,6 +284,8 @@ class FeatureController:
             Function.DRU_SETTING.value: self.file_operations.druid_setting,
             # 圣骑士
             Function.PAL_SETTING.value: self.file_operations.paladin_setting,
+            # 术士
+            Function.WAR_SETTING.value: self.file_operations.warlock_setting,
             # 技能结束提示音
             Function.SKILL_OFF_SOUNDS.value: self.file_operations.skill_off_sounds,
 

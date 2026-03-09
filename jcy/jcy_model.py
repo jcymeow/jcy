@@ -321,6 +321,16 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.WAR_SETTING.value,
+                            "type": CHECK,
+                            "text": "术士",
+                            "columns": 4,
+                            "colspan": 25,
+                            "params": {
+                                "1": "紫色 火焰技能",
+                            }
+                        },
+                        {
                             "fid": Function.SKILL_OFF_SOUNDS.value,
                             "type": CHECK,
                             "text": "技能结束提示音",
