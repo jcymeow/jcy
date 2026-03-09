@@ -893,11 +893,7 @@
     },
     "SettingsSliderValueFields": {
         "rect": "$OptionsSliderValueRect",
-        "style": {
-            "alignment": {
-                "h": "right"
-            }
-        }
+        "style": "$StyleSettingsNumericSlider"
     },
     "SettingsSliderTooltipRect": {
         "x": -75,
