@@ -909,6 +909,49 @@ class FileOperations:
         return (count, total)
 
 
+    def select_herald_setting(self, keys: list):
+        """使者设置"""
+
+        if keys is None:
+            return (0, 0)
+       
+        count = 0
+        total = 1
+        
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, "data/hd/overlays/common/herald.json")
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+            
+            # 移除所有 jcy_entity_pointer 元素
+            json_data["entities"] = [item for item in json_data["entities"] if item.get("name") != "jcy_entity_pointer"]
+            
+            # 根据配置添加 jcy_entity_pointer 元素
+            if "1" in keys:
+                # "1": "光柱",
+                json_data["entities"].append(ENTITY_DROP_LIGHT)
+
+            if "2" in keys:
+                # "2": "巴尔环",
+                json_data["entities"].extend(ENTITY_BAAL_SHIELD)
+
+            if "3" in keys:
+                # "3": "紫色光圈",
+                json_data["entities"].extend(PF_BEACON_PURPLE)
+
+            if "4" in keys:
+                # "4": "钻石十字架",
+                json_data["entities"].extend(ENTITY_STAR_CROSS)
+
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            count += 1
+        except Exception as e:
+            print(e)
+
+        return count, total
+
     def select_monster_color(self, radio: str = "0"):
         """怪物-精英染色"""
         # 删除随机染色文件 

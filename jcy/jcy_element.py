@@ -185,6 +185,43 @@ PF_BEACON_ITEMS = [
     }
 ]
 
+# 使者=紫色圆环
+PF_BEACON_PURPLE = [
+    {
+        "type": "Entity",
+        "name": "jcy_entity_pointer",
+        "id": 586091856,
+        "components": [
+            {
+                "type": "TransformDefinitionComponent",
+                "name": "prefab_TransformDefinitionComponent",
+                "position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 25.0,
+                    "z": 1.0
+                },
+                "inheritOnlyPosition": False
+            },
+            {
+                "type": "PrefabPlacementDefinitionComponent",
+                "name": "prefab_PrefabPlacementDefinitionComponent",
+                "prefab": "data/hd/env/porory/beacon/pf_beacon_herald.json"
+            }
+        ]
+    }
+]
+
 # 出入口指引 长箭头
 ROOMTILES_ARROW_LIGHT1 = [
     {"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_entrance_light","position":{"x":0.0,"y":200.0,"z":346.4102},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False},{"type":"VfxDefinitionComponent","name":"vfx_will_entrance_light","filename":"data/hd/vfx2/particles/common/fx_horadric_light_WP.particles","hardKillOnDestroy":False}]},
@@ -578,8 +615,98 @@ ENTITY_MONSTER_LIGHT3 = {
     ]
 }
 
+# 巴尔环
+ENTITY_BAAL_SHIELD = [
+    {
+        "type": "Entity",
+        "name": "jcy_entity_pointer",
+        "id": 1731987216,
+        "components": [
+            {
+                "type": "VfxDefinitionComponent",
+                "name": "vfx_entity_VfxDefinition",
+                "filename": "data/hd/vfx/particles/overlays/common/baal_on_throne/baalshield.particles",
+                "hardKillOnDestroy": False
+            },
+            {
+                "type": "TransformDefinitionComponent",
+                "name": "vfx_entity_TransformDefinition",
+                "position": {
+                    "x": 0.0,
+                    "y": 2.0,
+                    "z": 0.0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "inheritOnlyPosition": False
+            }
+        ]
+    }
+]
 
-
+# 钻石十字架
+ENTITY_STAR_CROSS = [
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":32.3,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":31.0,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":30.3,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":29.6,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":28.9,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":28.2,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":27.5,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":26.8,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":26.1,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":25.4,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":24.7,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":24.0,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":23.3,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":22.6,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":21.9,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":21.2,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":20.5,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":19.8,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":19.1,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":18.4,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":17.7,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":17.0,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":16.3,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":15.6,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":14.9,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":14.2,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":13.5,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":12.8,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":12.1,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":11.4,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":10.7,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":10.0,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":9.3,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":8.6,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":7.9,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":7.2,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.0,"y":6.5,"z":0.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":0.5,"y":24.7,"z":-0.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":1.0,"y":24.7,"z":-1.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":1.5,"y":24.7,"z":-1.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":2.0,"y":24.7,"z":-2.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":2.5,"y":24.7,"z":-2.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":3.0,"y":24.7,"z":-3.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":3.5,"y":24.7,"z":-3.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-0.5,"y":24.7,"z":0.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-1.0,"y":24.7,"z":1.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-1.5,"y":24.7,"z":1.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-2.0,"y":24.7,"z":2.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-2.5,"y":24.7,"z":2.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-3.0,"y":24.7,"z":3.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
+    {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-3.5,"y":24.7,"z":3.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]}
+]
 
 
 # 怪物危险标记

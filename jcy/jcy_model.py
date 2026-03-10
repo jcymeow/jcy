@@ -459,6 +459,18 @@ class FeatureConfig:
                                 "3": "火焰箭"
                             }
                         },
+                        {
+                            "fid": Function.HERALD_SETTING.value,
+                            "type": CHECK,
+                            "text": "使者指引",
+                            "colspan": 50,
+                            "params": {
+                                "1": "光柱",
+                                "2": "巴尔环",
+                                "3": "紫色光环",
+                                "4": "冰星十字架",
+                            }
+                        },
                     ]
                 },
                 {

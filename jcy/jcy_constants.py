@@ -873,6 +873,7 @@ class Function(Enum):
     MONSTER_LIGHT = "MonsterLight"
     MONSTER_HEALTH = "MonsterHealth"
     MONSTER_MISSILE = "MonsterMissile"
+    HERALD_SETTING = "HeraldSetting"
     MONSTER_COLOR = "MonsterColor"
     MONSTER_AFFIXES = "MonsterAffixes"
     BASE_EFFECTS = "BaseEffects"
