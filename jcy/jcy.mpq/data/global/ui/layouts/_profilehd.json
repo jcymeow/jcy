@@ -1391,118 +1391,74 @@
             "v": "center"
         }
     },
-    "DictionaryModCreditRect": {
-        "x": 12,
-        "y": 12
-    },
-    "DictionaryModCreditText": "@dictCredit",
-    "DictionaryModCreditStyle": {
-        "fontColor": "$FontColorGoldYellow",
-        "pointSize": "$MediumLargeFontSize",
-        "alignment": {
-            "h": "left"
-        },
-        "options": {
-            "newlineHandling": "standard"
+    "StandardToolTipStyle": {
+        "fontStyle": {
+            "options": {
+                "newlineHandling": "standard"
+            }
         }
     },
-    "StyleDictionaryDefaultImageRect": {
-        "x": 16,
-        "y": 16
+        "MonstersinfoToolTipStyle": {
+        "fontStyle": {
+            "alignment": {
+                "h": "left",
+                "v": "center"
+            },
+            "options": {
+                "newlineHandling": "standard"
+            }
+        }
     },
-    "DictionaryOptionScrollImage": "items/misc/quest/bark_scroll",
-    "StyleDictionaryNotice": {
-        "fontColor": "$FontColorGreen",
-        "pointSize": "$XMediumFontSize",
+    "RuneWordFirstRuneRect": {
+        "x": 66,
+        "y": -5,
+        "scale": 0.8
+    },
+    "RuneWordSecondRuneRect": {
+        "x": 136,
+        "y": -5,
+        "scale": 0.8
+    },
+    "RuneWordThirdRuneRect": {
+        "x": 206,
+        "y": -5,
+        "scale": 0.8
+    },
+    "RuneWordForthRuneRect": {
+        "x": 276,
+        "y": -5,
+        "scale": 0.8
+    },
+    "RuneWordFifthRuneRect": {
+        "x": 346,
+        "y": -5,
+        "scale": 0.8
+    },
+    "RuneWordSixRuneRect": {
+        "x": 416,
+        "y": -5,
+        "scale": 0.8
+    },
+    "RuneWordNameWidgetRect": {
+        "x": 0,
+        "y": 0,
+        "width": 240,
+        "height": 70,
+        "scale": 0.9
+    },
+    "RuneWordRunesWidgetRect": {
+        "x": 250,
+        "y": 0,
+        "scale": 0.8
+    },
+    "RuneWordTextBoxWidgetStyle": {
+        "pointSize": "$XMediumLargeFontSize",
         "alignment": {
             "h": "left",
             "v": "center"
         },
         "options": {
-            "newlineHandling": "standard"
-        },
-        "spacing": {
-            "kerning": 0.9
+            "pipeCharacterBehavior": "handle"
         }
-    },
-    "StyleDictionaryCategory": {
-        "fontColor": "$FontColorGoldYellow",
-        "pointSize": "$LargeFontSize",
-        "alignment": {
-            "h": "left",
-            "v": "top"
-        },
-        "options": {
-            "newlineHandling": "standard"
-        },
-        "spacing": {
-            "kerning": 0.9
-        },
-        "dropShadow": "$DefaultDropShadow"
-    },
-    "StyleDictionaryItemDescription": {
-        "fontColor": "$FontColorWhite",
-        "pointSize": "$XMediumFontSize",
-        "alignment": {
-            "h": "left",
-            "v": "top"
-        },
-        "options": {
-            "newlineHandling": "standard"
-        },
-        "spacing": {
-            "kerning": 0.9
-        }
-    },
-    "StyleDictionaryRunewordRune": {
-        "fontColor": "$FontColorWhite",
-        "pointSize": "$MediumLargeFontSize",
-        "alignment": {
-            "h": "center",
-            "v": "top"
-        },
-        "options": {
-            "newlineHandling": "standard"
-        },
-        "spacing": {
-            "kerning": 0.9
-        },
-        "dropShadow": "$DefaultDropShadow"
-    },
-    "StyleDictionaryRunewordDescription": {
-        "fontColor": "$FontColorWhite",
-        "pointSize": "$XMediumFontSize",
-        "alignment": {
-            "h": "left",
-            "v": "top"
-        },
-        "options": {
-            "newlineHandling": "standard"
-        },
-        "spacing": {
-            "kerning": 0.9
-        }
-    },
-    "DictionaryNormalItemTableColumnLeft": {
-        "width": 500,
-        "alignment": {
-            "h": "left",
-            "v": "fit"
-        }
-    },
-    "DictionaryNormalItemTableColumnCenter": {
-        "width": 500,
-        "alignment": {
-            "h": "center",
-            "v": "fit"
-        }
-    },
-    "DictionaryNormalItemTableColumnRight": {
-        "width": 500,
-        "alignment": {
-            "h": "right",
-            "v": "fit"
-        }
-    },
-    "DictionaryNormalItemRowHeight": 110
+    }
 }

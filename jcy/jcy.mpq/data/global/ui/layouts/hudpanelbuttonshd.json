@@ -92,6 +92,22 @@
         "focusIndicatorVisible": true,
         "hoveredFrame": 2
       }
+    },
+    {
+      "type": "ButtonWidget",
+      "name": "JcyKnowledge",
+      "fields": {
+        "rect": {
+          "x": 325.0,
+          "y": 0,
+          "scale": 0.8
+        },
+        "filename": "PANEL\\HUD_02\\QuestLog",
+        "tooltipString": "知識卷軸",
+        "onClickMessage": "PanelManager:TogglePanel:messagePanel",
+        "focusIndicatorVisible": true,
+        "hoveredFrame": 2
+      }
     }
   ]
 }
