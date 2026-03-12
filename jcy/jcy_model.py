@@ -44,33 +44,33 @@ class FeatureConfig:
                         {
                             "type": SEPARATOR
                         },
-                        {
-                            "fid": Function.TERROR_ZONE_LANGUAGE.value,
-                            "type": RADIO,
-                            "text": "恐怖区域-语言",
-                            "colspan": 60,
-                            "params": {
-                                "zhCN": "简体中文-zhCN",
-                                "zhTW": "繁體中文-zhTW",
-                                "enUS": "英文-enUS"
-                            }
-                        },
-                        {
-                            "fid": Function.TERROR_ZONE_NEXT.value,
-                            "type": CHECK,
-                            "text": "恐怖区域-预告",
-                            "colspan": 40,
-                            "params": {
-                                "1": "Win系统通知",
-                                "2": "游戏内预告"
-                            }
-                        },
-                        {
-                            "fid": Function.TERROR_ZONE_TABLE.value,
-                            "type": Function.TERROR_ZONE_TABLE.value,
-                            "text": "恐怖区域",
-                            "colspan": 100
-                        },
+                        # {
+                        #     "fid": Function.TERROR_ZONE_LANGUAGE.value,
+                        #     "type": RADIO,
+                        #     "text": "恐怖区域-语言",
+                        #     "colspan": 60,
+                        #     "params": {
+                        #         "zhCN": "简体中文-zhCN",
+                        #         "zhTW": "繁體中文-zhTW",
+                        #         "enUS": "英文-enUS"
+                        #     }
+                        # },
+                        # {
+                        #     "fid": Function.TERROR_ZONE_NEXT.value,
+                        #     "type": CHECK,
+                        #     "text": "恐怖区域-预告",
+                        #     "colspan": 40,
+                        #     "params": {
+                        #         "1": "Win系统通知",
+                        #         "2": "游戏内预告"
+                        #     }
+                        # },
+                        # {
+                        #     "fid": Function.TERROR_ZONE_TABLE.value,
+                        #     "type": Function.TERROR_ZONE_TABLE.value,
+                        #     "text": "恐怖区域",
+                        #     "colspan": 100
+                        # },
                     ]
                 },
                 {

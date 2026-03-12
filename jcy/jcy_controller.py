@@ -152,8 +152,8 @@ class FeatureController:
                 print("[通知构造异常]", e)
 
         # ---------------- 初始化恐怖区域抓取器 ----------------
-        self.terror_zone_fetcher = TerrorZoneFetcher(self)
-        self.terror_zone_fetcher.start_auto_fetch_thread(notify_fetch_success)
+        # self.terror_zone_fetcher = TerrorZoneFetcher(self)
+        # self.terror_zone_fetcher.start_auto_fetch_thread(notify_fetch_success)
 
         # 初始化 UI (根据jcy_model, 并设置默认值)
         self.feature_config.all_features_config
