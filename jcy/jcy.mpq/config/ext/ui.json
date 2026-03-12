@@ -2937,19 +2937,19 @@
     },
     "panelhealth": {
         "Key": "panelhealth",
-        "enUS": "Life: %d / %d",
-        "zhCN": "生命: %d / %d",
-        "zhTW": "生命：%d / %d",
-        "sgCN": "生命: %d / %d",
-        "sgTW": "生命：%d / %d"
+        "enUS": "%d / %d",
+        "zhCN": "%d / %d",
+        "zhTW": "%d / %d",
+        "sgCN": "%d / %d",
+        "sgTW": "%d / %d"
     },
     "panelmana": {
         "Key": "panelmana",
-        "enUS": "Mana: %d / %d",
-        "zhCN": "法力: %d / %d",
-        "zhTW": "法力：%d / %d",
-        "sgCN": "法力: %d / %d",
-        "sgTW": "法力：%d / %d"
+        "enUS": "%d / %d",
+        "zhCN": "%d / %d",
+        "zhTW": "%d / %d",
+        "sgCN": "%d / %d",
+        "sgTW": "%d / %d"
     },
     "panelmini": {
         "Key": "panelmini",
