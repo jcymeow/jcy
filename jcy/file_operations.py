@@ -2965,7 +2965,10 @@ class FileOperations:
         """修改本地化文件列表, 选中语言内容"""
         
         count = 0
-        total = len(LOCAL_FILES) + 2
+        # - data/local/lng/strings/jcy.json
+        # + data/global/ui/layouts/mainmenupanelhd.json
+        # + data/global/ui/layouts/hudpanelbuttonshd.json
+        total = len(LOCAL_FILES) -1 + 2
 
         lng = jcy_config.SETTINGS.get(select_language, ZHTW)
 
