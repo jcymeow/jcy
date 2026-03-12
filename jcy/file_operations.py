@@ -3326,12 +3326,12 @@ class FileOperations:
         if keys is None:
             return (0, 0)
         
+        funcs = []
+
         _files = [
             r"data/global/ui/layouts/hudwarningshd.json",
         ]
-        count = 0
-        total = len(_files)
-
+        
         _controls = {
             "1": "OpenMiniBar",
             "2": "OpenMiniHp",
@@ -3353,15 +3353,15 @@ class FileOperations:
         # 3.write
         with open(json_path, 'w', encoding="utf-8") as f:
             json.dump(json_data, f, ensure_ascii=False, indent=4)
+        funcs.append((1, len(_files)))
 
-        count += 1
+        # --- 开启 宝石/材料/符文页3合1 ---
+        banks = [r"data/global/ui/layouts/bankexpansionlayouthd.json"]
+        funcs.append(self.common_rename(banks, "5" in keys))
 
-        # 帮助面板 + 字典
-        result = self.common_rename([r"data/global/ui/layouts/helppanelhd.json"], "4" in keys)
-        count += result[0]
-        total += result[1]
-
-        return (count, total)
+        results = [f for f in funcs]
+        summary = tuple(sum(values) for values in zip(*results))
+        return summary
 
     
     def sorceress_setting(self, keys: list):
