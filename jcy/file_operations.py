@@ -1864,13 +1864,11 @@ class FileOperations:
                         if base_grade:
                             grade = data.get(lng, {}).get("grade")
                             if grade:
-                                arr.append(f"|{grade}")
+                                arr.append(f"{grade}")
                         if base_weight:
                             weight = data.get(lng, {}).get("weight")
                             if weight:
-                                if len(arr) == 0:
-                                    arr.append("|")
-                                arr.append(weight)
+                                arr.append(f"|{weight}")
                         if base_sockets:
                             sockets = data.get(lng, {}).get("sockets")
                             if sockets:
