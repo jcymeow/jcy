@@ -232,7 +232,7 @@
             "name": "OpenMiniBar",
             "fields": {
                 "time": 1,
-                "message": "",
+                "message": "PanelManager:OpenPanel:hudpanelbuttons",
                 "default": "PanelManager:OpenPanel:hudpanelbuttons"
             }
         },

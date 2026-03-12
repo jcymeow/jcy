@@ -1398,7 +1398,7 @@
             }
         }
     },
-        "MonstersinfoToolTipStyle": {
+    "MonstersinfoToolTipStyle": {
         "fontStyle": {
             "alignment": {
                 "h": "left",
