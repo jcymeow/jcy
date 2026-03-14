@@ -2162,38 +2162,38 @@
     "ModitemdamFiresk": {
         "id": 10990,
         "Key": "ModitemdamFiresk",
-        "enUS": "%+d%% to Fire Skill Damage(FD)",
-        "zhTW": "%+d%% 火焰技能傷害(FD)",
-        "zhCN": "%+d%% 火焰技能伤害(FD)",
-        "sgCN": "%+d%% 火焰技能伤害(FD)",
-        "sgTW": "%+d%% 火焰技能傷害(FD)"
+        "enUS": "%+d%% to Fire Skill Damage(FSD)",
+        "zhTW": "%+d%% 火焰技能傷害(FSD)",
+        "zhCN": "%+d%% 火焰技能伤害(FSD)",
+        "sgCN": "%+d%% 火焰技能伤害(FSD)",
+        "sgTW": "%+d%% 火焰技能傷害(FSD)"
     },
     "ModitemdamColdsk": {
         "id": 10991,
         "Key": "ModitemdamColdsk",
-        "enUS": "%+d%% to Cold Skill Damage(CD)",
-        "zhTW": "%+d%% 冰寒技能傷害(CD)",
-        "zhCN": "%+d%% 冰霜技能伤害(CD)",
-        "sgCN": "%+d%% 冰霜技能伤害(CD)",
-        "sgTW": "%+d%% 冰寒技能傷害(CD)"
+        "enUS": "%+d%% to Cold Skill Damage(CSD)",
+        "zhTW": "%+d%% 冰寒技能傷害(CSD)",
+        "zhCN": "%+d%% 冰霜技能伤害(CSD)",
+        "sgCN": "%+d%% 冰霜技能伤害(CSD)",
+        "sgTW": "%+d%% 冰寒技能傷害(CSD)"
     },
     "ModitemdamLtngsk": {
         "id": 10992,
         "Key": "ModitemdamLtngsk",
-        "enUS": "%+d%% to Lightning Skill Damage(LD)",
-        "zhTW": "%+d%% 閃電技能傷害(LD)",
-        "zhCN": "%+d%% 闪电技能伤害(LD)",
-        "sgCN": "%+d%% 闪电技能伤害(LD)",
-        "sgTW": "%+d%% 閃電技能傷害(LD)"
+        "enUS": "%+d%% to Lightning Skill Damage(LSD)",
+        "zhTW": "%+d%% 閃電技能傷害(LSD)",
+        "zhCN": "%+d%% 闪电技能伤害(LSD)",
+        "sgCN": "%+d%% 闪电技能伤害(LSD)",
+        "sgTW": "%+d%% 閃電技能傷害(LSD)"
     },
     "ModitemdamPoissk": {
         "id": 10993,
         "Key": "ModitemdamPoissk",
-        "enUS": "%+d%% to Poison Skill Damage(PD)",
-        "zhTW": "%+d%% 毒素技能傷害(PD)",
-        "zhCN": "%+d%% 毒素技能伤害(PD)",
-        "sgCN": "%+d%% 毒素技能伤害(PD)",
-        "sgTW": "%+d%% 毒素技能傷害(PD)"
+        "enUS": "%+d%% to Poison Skill Damage(PSD)",
+        "zhTW": "%+d%% 毒素技能傷害(PSD)",
+        "zhCN": "%+d%% 毒素技能伤害(PSD)",
+        "sgCN": "%+d%% 毒素技能伤害(PSD)",
+        "sgTW": "%+d%% 毒素技能傷害(PSD)"
     },
     "Moditemskondeath": {
         "id": 10994,
@@ -3206,11 +3206,11 @@
     "ModStrMagMastery": {
         "id": 27678,
         "Key": "ModStrMagMastery",
-        "enUS": "%+d%% to Magic Skill Damage",
-        "zhTW": "%+d%% 魔法技能傷害",
-        "zhCN": "%+d%% 魔法技能伤害",
-        "sgCN": "%+d%% 魔法技能伤害",
-        "sgTW": "%+d%% 魔法技能傷害"
+        "enUS": "%+d%% to Magic Skill Damage(MSD)",
+        "zhTW": "%+d%% 魔法技能傷害(MSD)",
+        "zhCN": "%+d%% 魔法技能伤害(MSD)",
+        "sgCN": "%+d%% 魔法技能伤害(MSD)",
+        "sgTW": "%+d%% 魔法技能傷害(MSD)"
     },
     "ModStrMagPierce": {
         "id": 27679,

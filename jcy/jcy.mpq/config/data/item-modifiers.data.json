@@ -656,16 +656,16 @@
         "abbr": "(-PR)"
     },
     "ModitemdamFiresk": {
-        "abbr": "(FD)"
+        "abbr": "(FSD)"
     },
     "ModitemdamColdsk": {
-        "abbr": "(CD)"
+        "abbr": "(CSD)"
     },
     "ModitemdamLtngsk": {
-        "abbr": "(LD)"
+        "abbr": "(LSD)"
     },
     "ModitemdamPoissk": {
-        "abbr": "(PD)"
+        "abbr": "(PSD)"
     },
     "StrSklTabItem9": {
         "color": [
@@ -1031,7 +1031,9 @@
             "ÿc3"
         ]
     },
-    "ModStrMagMastery": {},
+    "ModStrMagMastery": {
+        "abbr": "(MSD)"
+    },
     "ModStrMagPierce": {},
     "MaxMagDmgPerLvl": {},
     "ModStrDamPierce": {},

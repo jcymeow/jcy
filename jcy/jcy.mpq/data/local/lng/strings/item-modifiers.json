@@ -4083,7 +4083,7 @@
     "id": 10990,
     "Key": "ModitemdamFiresk",
     "enUS": "%+d%% to Fire Skill Damage(FD)",
-    "zhTW": "%+d%% 火焰技能傷害(FD)",
+    "zhTW": "%+d%% 火焰技能傷害(FSD)",
     "deDE": "%+d%% zu Feuerfertigkeitsschaden",
     "esES": "%+d%% de daño con habilidades de fuego",
     "frFR": "%+d%% aux dégâts de Feu",
@@ -4094,13 +4094,13 @@
     "jaJP": "火炎スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade ígnea",
     "ruRU": "%+d%% к урону от умений огня",
-    "zhCN": "%+d%% 火焰技能傷害(FD)"
+    "zhCN": "%+d%% 火焰技能傷害(FSD)"
   },
   {
     "id": 10991,
     "Key": "ModitemdamColdsk",
     "enUS": "%+d%% to Cold Skill Damage(CD)",
-    "zhTW": "%+d%% 冰寒技能傷害(CD)",
+    "zhTW": "%+d%% 冰寒技能傷害(CSD)",
     "deDE": "%+d%% zu Kältefertigkeitsschaden",
     "esES": "%+d%% de daño con habilidades de frío",
     "frFR": "%+d%% aux dégâts de Froid",
@@ -4111,13 +4111,13 @@
     "jaJP": "冷気スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade gélida",
     "ruRU": "%+d%% к урону от умений льда",
-    "zhCN": "%+d%% 冰寒技能傷害(CD)"
+    "zhCN": "%+d%% 冰寒技能傷害(CSD)"
   },
   {
     "id": 10992,
     "Key": "ModitemdamLtngsk",
     "enUS": "%+d%% to Lightning Skill Damage(LD)",
-    "zhTW": "%+d%% 閃電技能傷害(LD)",
+    "zhTW": "%+d%% 閃電技能傷害(LSD)",
     "deDE": "%+d%% zu Blitzfertigkeitsschaden",
     "esES": "%+d%% de daño con habilidades de rayos",
     "frFR": "%+d%% aux dégâts de Foudre",
@@ -4128,13 +4128,13 @@
     "jaJP": "電撃スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade elétrica",
     "ruRU": "%+d%% к урону от умений молнии",
-    "zhCN": "%+d%% 閃電技能傷害(LD)"
+    "zhCN": "%+d%% 閃電技能傷害(LSD)"
   },
   {
     "id": 10993,
     "Key": "ModitemdamPoissk",
     "enUS": "%+d%% to Poison Skill Damage(PD)",
-    "zhTW": "%+d%% 毒素技能傷害(PD)",
+    "zhTW": "%+d%% 毒素技能傷害(PSD)",
     "deDE": "%+d%% zu Giftfertigkeitschaden",
     "esES": "%+d%% de daño con habilidades de veneno",
     "frFR": "%+d%% aux dégâts de Poison",
@@ -4145,7 +4145,7 @@
     "jaJP": "毒スキルダメージ（%+d%%）",
     "ptBR": "%+d%% de dano de habilidade venenosa",
     "ruRU": "%+d%% к урону от умений яда",
-    "zhCN": "%+d%% 毒素技能傷害(PD)"
+    "zhCN": "%+d%% 毒素技能傷害(PSD)"
   },
   {
     "id": 10994,
@@ -6055,7 +6055,7 @@
     "id": 27678,
     "Key": "ModStrMagMastery",
     "enUS": "%+d%% to Magic Skill Damage",
-    "zhTW": "%+d%% 魔法技能傷害",
+    "zhTW": "%+d%% 魔法技能傷害(MSD)",
     "deDE": "%+d%% zu Magiefertigskeitschaden",
     "esES": "%+d%% de daño con habilidades mágicas",
     "frFR": "%+d%% aux dégâts magiques",
@@ -6066,7 +6066,7 @@
     "jaJP": "魔法スキルダメージ向上（%+d%%）",
     "ptBR": "%+d%% para dano de habilidade mágica",
     "ruRU": "%+d%% к урону от магических умений",
-    "zhCN": "%+d%% 魔法技能傷害"
+    "zhCN": "%+d%% 魔法技能傷害(MSD)"
   },
   {
     "id": 27679,

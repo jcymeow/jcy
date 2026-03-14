@@ -3206,11 +3206,11 @@
     {
         "id": 27678,
         "Key": "ModStrMagMastery",
-        "enUS": "%+d%% to Magic Skill Damage",
-        "zhTW": "%+d%% 魔法技能傷害",
-        "zhCN": "%+d%% 魔法技能伤害",
-        "sgCN": "%+d%% 魔法技能伤害",
-        "sgTW": "%+d%% 魔法技能傷害"
+        "enUS": "%+d%% to Magic Skill Damage{{abbr}}",
+        "zhTW": "%+d%% 魔法技能傷害{{abbr}}",
+        "zhCN": "%+d%% 魔法技能伤害{{abbr}}",
+        "sgCN": "%+d%% 魔法技能伤害{{abbr}}",
+        "sgTW": "%+d%% 魔法技能傷害{{abbr}}"
     },
     {
         "id": 27679,
