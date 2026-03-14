@@ -1183,6 +1183,24 @@ ASSETS = [
             "data/hd/ui/fonts/blizzardglobal-v5_81.ttf",
         ]
     },
+    {
+        "id": 303,
+        "name": "OPPO Sans 3.0",
+        "category": FONT_TYPE,
+        "type": FONT_TYPE,
+        "author": "OPPO",
+        "description": "OPPO Sans 3.0 Medium",
+        "source": "https://www.coloros.com/article/A00000050/",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.3/303.zip",
+        "file": "303.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/303/303.png",
+        "size": 12274924,
+        "md5": "907071CD8C59DAC89C4F35632ACC5D0E",
+        "list": [
+            "data/hd/ui/fonts/arfangxinshuh7c95b5_eb_t.ttf",
+            "data/hd/ui/fonts/blizzardglobal-v5_81.ttf",
+        ]
+    },
     # A1佣兵皮肤(400, 500)
     {
         "id": 401,
