@@ -326,9 +326,6 @@ class FeatureController:
 
             # 道具-提醒
             Function.ITEM_NOTIFICATION.value: self.file_operations.modify_item_notification,
-
-             # 道具屏蔽
-            Function.ITEM_FILTER.value: self.file_operations.modify_item_filter,
         }
 
 
