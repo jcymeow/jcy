@@ -1260,7 +1260,7 @@
   {
     "id": 1712,
     "Key": "LowqualityFormat",
-    "enUS": "",
+    "enUS": "%0%1",
     "zhTW": "%0%1",
     "deDE": "a0n1:%0 %1",
     "esES": "a0n1:%1 %0",

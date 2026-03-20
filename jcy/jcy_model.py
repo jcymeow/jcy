@@ -533,7 +533,6 @@ class FeatureConfig:
                             "text": "装备-设置",
                             "colspan": 50,
                             "params": {
-                                "1": "屏蔽 劣质武器装备底材",
                                 "2": "开启 蓝色装备染色"
                             }
                         },

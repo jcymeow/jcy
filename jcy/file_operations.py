@@ -559,51 +559,6 @@ class FileOperations:
         return (count, len(files))
     
 
-    def toggle_low_quality(self, isEnabled: bool = False):
-        """
-        屏蔽 劣等的/損壞的/破舊的 武器装备
-        """
-        paths = [
-            r"data/local/lng/strings/ui.json",
-        ]
-
-        count = 0
-        total = len(paths)
-        for path in paths:
-            target_path = os.path.join(MOD_PATH, path)
-            temp_path = target_path + ".tmp"
-            try:
-                # 1.load
-                json_data = None
-                with open(target_path, 'r', encoding='utf-8-sig') as f:
-                    json_data = json.load(f)
-
-                # 2.modify
-                for i, item in enumerate(json_data):
-                    if item["id"] == 1712:
-                        item["enUS"] = "" if isEnabled else "%0%1"
-                        item["zhTW"] = "" if isEnabled else "%0%1"
-                        item["zhCN"] = "" if isEnabled else "%0%1"
-                
-                # 3. dump & encode
-                json_string = json.dumps(json_data, ensure_ascii=False, indent=2)
-                json_string = self.common_encode_private_use_chars(json_string)
-
-                # 4.write
-                with open(temp_path, 'w', encoding="utf-8-sig") as f:
-                    f.write(json_string)
-
-                # 5.replace
-                os.replace(temp_path, target_path)
-                count += 1
-            except Exception as e:
-                print(e)
-            finally:
-                if os.path.exists(temp_path):
-                    os.remove(temp_path)
-        return (count, total)
-
-
     def toggle_escape(self, isEnabled: bool = False):
         """
         开关 Esc退出
@@ -1034,16 +989,11 @@ class FileOperations:
         if keys is None:
             return (0, 0)
 
-        # 屏蔽 劣等的/損壞的/破舊的 武器装备
-        toggle1 = "1" in keys
-        res1 = self.toggle_low_quality(toggle1)
-
         # 开启 蓝装染色
         toggle2 = "2" in keys
         res2 = self.toggle_global_excel_affixes(toggle2)
         
         funcs = []
-        funcs.append(res1)
         funcs.append(res2)
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
