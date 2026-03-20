@@ -1158,7 +1158,7 @@ ASSETS = [
         "source": "https://www.alibabafonts.com/#/font",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/%E9%98%BF%E9%87%8C%E6%99%AE%E6%83%A03_Medium.zip",
         "file": "阿里普惠3_Medium.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/%E9%98%BF%E9%87%8C%E6%99%AE%E6%83%A03_Medium.png",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/301/301.png",
         "size": 11394853,
         "md5": "0F0345BCCEEDD0124C8A44F2F38CC34A",
         "list": [
@@ -1176,7 +1176,7 @@ ASSETS = [
         "source": "https://fonts.google.com/?query=Noto+Sans",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93_Medium.zip",
         "file": "思源黑体_Medium.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/%E6%80%9D%E6%BA%90%E9%BB%91%E4%BD%93_Medium.png",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/302/302.png",
         "size": 11320324,
         "md5": "31096ABF2304024628F83948406571D8",
         "list": [

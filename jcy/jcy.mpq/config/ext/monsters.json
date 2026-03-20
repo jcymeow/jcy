@@ -3053,11 +3053,11 @@
     "uniquecursed": {
         "Key": "uniquecursed",
         "enUS": "ÿc;Cursed",
-        "zhCN": "诅咒",
+        "zhCN": "ÿc;诅咒",
         "zhTW": "ÿc;施加詛咒",
         "sgCN": "ÿc;诅咒",
         "sgTW": "ÿc;施加詛咒",
-        "bnCN": "诅咒"
+        "bnCN": "ÿc;诅咒"
     },
     "uniquemagicresistance": {
         "Key": "uniquemagicresistance",
@@ -3143,11 +3143,11 @@
     "monsteruniqueprop9": {
         "Key": "monsteruniqueprop9",
         "enUS": "ÿc;Aura Enchanted",
-        "zhCN": "光环强化",
+        "zhCN": "ÿc;光环强化",
         "zhTW": "ÿc;靈氣強化",
         "sgCN": "ÿc;光环强化",
         "sgTW": "ÿc;靈氣強化",
-        "bnCN": "光环强化"
+        "bnCN": "ÿc;光环强化"
     },
     "This Cow Bites": {
         "Key": "This Cow Bites",

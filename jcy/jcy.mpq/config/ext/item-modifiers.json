@@ -17,7 +17,7 @@
         "zhCN": "ÿcP镶孔 (%i)ÿc3",
         "sgCN": "ÿcP镶孔 (%i)ÿc3",
         "sgTW": "ÿcP鑲孔（%i）ÿc3",
-        "bnCN": "镶孔 (%i)"
+        "bnCN": "ÿcP镶孔 (%i)ÿc3"
     },
     "ItemStats1a": {
         "id": 3454,
@@ -57,7 +57,7 @@
         "zhCN": "耐久度(DUR): %i / %i",
         "sgCN": "耐久度(DUR): %i / %i",
         "sgTW": "耐久度(DUR)：%i / %i",
-        "bnCN": "耐久度: %i / %i"
+        "bnCN": "耐久度(DUR): %i / %i"
     },
     "ItemStats1e": {
         "id": 3458,
@@ -217,7 +217,7 @@
         "zhCN": "%+d 力量(STR)",
         "sgCN": "%+d 力量(STR)",
         "sgTW": "%+d 力量(STR)",
-        "bnCN": "%+d 力量"
+        "bnCN": "%+d 力量(STR)"
     },
     "ModStr1b": {
         "id": 3474,
@@ -227,7 +227,7 @@
         "zhCN": "%+d 敏捷(DEX)",
         "sgCN": "%+d 敏捷(DEX)",
         "sgTW": "%+d 敏捷(DEX)",
-        "bnCN": "%+d 敏捷"
+        "bnCN": "%+d 敏捷(DEX)"
     },
     "ModStr1c": {
         "id": 3475,
@@ -237,7 +237,7 @@
         "zhCN": "%+d 活力(VIT)",
         "sgCN": "%+d 活力(VIT)",
         "sgTW": "%+d 體能(VIT)",
-        "bnCN": "%+d 活力"
+        "bnCN": "%+d 活力(VIT)"
     },
     "ModStr1d": {
         "id": 3476,
@@ -247,7 +247,7 @@
         "zhCN": "%+d 能量(ENG)",
         "sgCN": "%+d 能量(ENG)",
         "sgTW": "%+d 能量(ENG)",
-        "bnCN": "%+d 能量"
+        "bnCN": "%+d 能量(ENG)"
     },
     "ModStr1e": {
         "id": 3477,
@@ -257,7 +257,7 @@
         "zhCN": "%+d 法力(Mana)",
         "sgCN": "%+d 法力(Mana)",
         "sgTW": "%+d 法力(Mana)",
-        "bnCN": "%+d 法力"
+        "bnCN": "%+d 法力(Mana)"
     },
     "ModStr1f": {
         "id": 3478,
@@ -267,7 +267,7 @@
         "zhCN": "%+d 最大伤害(MAX)",
         "sgCN": "%+d 最大伤害(MAX)",
         "sgTW": "%+d 最大傷害(MAX)",
-        "bnCN": "%+d 最大伤害"
+        "bnCN": "%+d 最大伤害(MAX)"
     },
     "ModStr1g": {
         "id": 3479,
@@ -277,7 +277,7 @@
         "zhCN": "%+d 最小伤害(MIN)",
         "sgCN": "%+d 最小伤害(MIN)",
         "sgTW": "%+d 最小傷害(MIN)",
-        "bnCN": "%+d 最小伤害"
+        "bnCN": "%+d 最小伤害(MIN)"
     },
     "ModStr1h": {
         "id": 3480,
@@ -287,7 +287,7 @@
         "zhCN": "%+d 命中值(AR)",
         "sgCN": "%+d 命中值(AR)",
         "sgTW": "%+d 準確率(AR)",
-        "bnCN": "%+d 命中值"
+        "bnCN": "%+d 命中值(AR)"
     },
     "ModStr1i": {
         "id": 3481,
@@ -297,7 +297,7 @@
         "zhCN": "%+d 防御(DEF)",
         "sgCN": "%+d 防御(DEF)",
         "sgTW": "%+d 防禦(DEF)",
-        "bnCN": "%+d 防御"
+        "bnCN": "%+d 防御(DEF)"
     },
     "ModStr1j": {
         "id": 3482,
@@ -307,7 +307,7 @@
         "zhCN": "ÿc1火焰抗性(FR) %+d%%ÿc3",
         "sgCN": "ÿc1火焰抗性(FR) %+d%%ÿc3",
         "sgTW": "ÿc1火焰抗性(FR) %+d%%ÿc3",
-        "bnCN": "火焰抗性 %+d%%"
+        "bnCN": "ÿc1火焰抗性(FR) %+d%%ÿc3"
     },
     "ModStr1k": {
         "id": 3483,
@@ -317,7 +317,7 @@
         "zhCN": "ÿcU冰霜抗性(CR) %+d%%ÿc3",
         "sgCN": "ÿcU冰霜抗性(CR) %+d%%ÿc3",
         "sgTW": "ÿcU冰寒抗性(CR) %+d%%ÿc3",
-        "bnCN": "冰霜抗性 %+d%%"
+        "bnCN": "ÿcU冰霜抗性(CR) %+d%%ÿc3"
     },
     "ModStr1l": {
         "id": 3484,
@@ -327,7 +327,7 @@
         "zhCN": "ÿc9闪电抗性(LR) %+d%%ÿc3",
         "sgCN": "ÿc9闪电抗性(LR) %+d%%ÿc3",
         "sgTW": "ÿc9電擊抗性(LR) %+d%%ÿc3",
-        "bnCN": "闪电抗性 %+d%%"
+        "bnCN": "ÿc9闪电抗性(LR) %+d%%ÿc3"
     },
     "ModStr1m": {
         "id": 3485,
@@ -337,7 +337,7 @@
         "zhCN": "魔法抗性(MR) %+d%%",
         "sgCN": "魔法抗性(MR) %+d%%",
         "sgTW": "魔法抗性(MR) %+d%%",
-        "bnCN": "魔法抗性 %+d%%"
+        "bnCN": "魔法抗性(MR) %+d%%"
     },
     "ModStr1n": {
         "id": 3486,
@@ -347,7 +347,7 @@
         "zhCN": "ÿc2毒素抗性(PR) %+d%%ÿc3",
         "sgCN": "ÿc2毒素抗性(PR) %+d%%ÿc3",
         "sgTW": "ÿc2毒素抗性(PR) %+d%%ÿc3",
-        "bnCN": "毒素抗性 %+d%%"
+        "bnCN": "ÿc2毒素抗性(PR) %+d%%ÿc3"
     },
     "ModStr1o": {
         "id": 3487,
@@ -357,7 +357,7 @@
         "zhCN": "%+d 最大火焰伤害(Max FD)",
         "sgCN": "%+d 最大火焰伤害(Max FD)",
         "sgTW": "%+d 火焰傷害最大值(Max FD)",
-        "bnCN": "%+d 最大火焰伤害"
+        "bnCN": "%+d 最大火焰伤害(Max FD)"
     },
     "ModStr1p": {
         "id": 3488,
@@ -367,7 +367,7 @@
         "zhCN": "%+d 最小火焰伤害(Min FD)",
         "sgCN": "%+d 最小火焰伤害(Min FD)",
         "sgTW": "%+d 火焰傷害最小值(Min FD)",
-        "bnCN": "%+d 最小火焰伤害"
+        "bnCN": "%+d 最小火焰伤害(Min FD)"
     },
     "ModStr1q": {
         "id": 3489,
@@ -377,7 +377,7 @@
         "zhCN": "%+d 最大闪电伤害(Max LD)",
         "sgCN": "%+d 最大闪电伤害(Max LD)",
         "sgTW": "%+d 電擊傷害最大值(Max LD)",
-        "bnCN": "%+d 最大闪电伤害"
+        "bnCN": "%+d 最大闪电伤害(Max LD)"
     },
     "ModStr1r": {
         "id": 3490,
@@ -387,7 +387,7 @@
         "zhCN": "%+d 最小闪电伤害(Min LD)",
         "sgCN": "%+d 最小闪电伤害(Min LD)",
         "sgTW": "%+d 電擊傷害最小值(Min LD)",
-        "bnCN": "%+d 最小闪电伤害"
+        "bnCN": "%+d 最小闪电伤害(Min LD)"
     },
     "ModStr1s": {
         "id": 3491,
@@ -397,7 +397,7 @@
         "zhCN": "%+d 最大冰霜伤害(Max CD)",
         "sgCN": "%+d 最大冰霜伤害(Max CD)",
         "sgTW": "%+d 冰寒傷害最大值(Max CD)",
-        "bnCN": "%+d 最大冰霜伤害"
+        "bnCN": "%+d 最大冰霜伤害(Max CD)"
     },
     "ModStr1t": {
         "id": 3492,
@@ -407,7 +407,7 @@
         "zhCN": "%+d 最小冰霜伤害(Min CD)",
         "sgCN": "%+d 最小冰霜伤害(Min CD)",
         "sgTW": "%+d 冰寒傷害最小值(Min CD)",
-        "bnCN": "%+d 最小冰霜伤害"
+        "bnCN": "%+d 最小冰霜伤害(Min CD)"
     },
     "ModStr1u": {
         "id": 3493,
@@ -417,7 +417,7 @@
         "zhCN": "%+d 生命(Life)",
         "sgCN": "%+d 生命(Life)",
         "sgTW": "%+d 生命(Life)",
-        "bnCN": "%+d 生命"
+        "bnCN": "%+d 生命(Life)"
     },
     "ModStr1v": {
         "id": 3494,
@@ -427,7 +427,7 @@
         "zhCN": "攻击者受到 %d 点伤害(ATD)",
         "sgCN": "攻击者受到 %d 点伤害(ATD)",
         "sgTW": "攻擊者反傷(ATD)：%d",
-        "bnCN": "攻击者受到 %d 点伤害"
+        "bnCN": "攻击者受到(ATD) %d 点伤害"
     },
     "ModStr1y": {
         "id": 3497,
@@ -437,7 +437,7 @@
         "zhCN": "击退(KB)",
         "sgCN": "击退(KB)",
         "sgTW": "擊退(KB)",
-        "bnCN": "击退"
+        "bnCN": "击退(KB)"
     },
     "ModStr1z": {
         "id": 3498,
@@ -517,7 +517,7 @@
         "zhCN": "+%d%% 生命最大值(Max Life)",
         "sgCN": "+%d%% 生命最大值(Max Life)",
         "sgTW": "生命上限提高(Max Life) %d%%",
-        "bnCN": "+%d%% 生命最大值"
+        "bnCN": "+%d%% 生命最大值(Max Life)"
     },
     "ModStr2h": {
         "id": 3506,
@@ -527,7 +527,7 @@
         "zhCN": "+%d%% 法力最大值(Max Mana)",
         "sgCN": "+%d%% 法力最大值(Max Mana)",
         "sgTW": "法力上限提高(Max Mana) %d%%",
-        "bnCN": "+%d%% 法力最大值"
+        "bnCN": "+%d%% 法力最大值(Max Mana)"
     },
     "ModStr2i": {
         "id": 3507,
@@ -537,7 +537,7 @@
         "zhCN": "+%d%% 最大耐久度(Max DUR)",
         "sgCN": "+%d%% 最大耐久度(Max DUR)",
         "sgTW": "耐久度上限提高(Max DUR) %d%%",
-        "bnCN": "+%d%% 最大耐久度"
+        "bnCN": "+%d%% 最大耐久度(Max DUR)"
     },
     "ModStr2j": {
         "id": 3508,
@@ -567,7 +567,7 @@
         "zhCN": "补充生命(Life Rep) %+d",
         "sgCN": "补充生命(Life Rep) %+d",
         "sgTW": "生命回復(Life Rep) %+d",
-        "bnCN": "补充生命 %+d"
+        "bnCN": "补充生命(Life Rep) %+d"
     },
     "ModStr2m": {
         "id": 3511,
@@ -577,7 +577,7 @@
         "zhCN": "补充法力(Mana Rep)",
         "sgCN": "补充法力(Mana Rep)",
         "sgTW": "回復法力(Mana Rep)",
-        "bnCN": "补充法力"
+        "bnCN": "补充法力(Mana Rep)"
     },
     "ModStr2n": {
         "id": 3512,
@@ -647,7 +647,7 @@
         "zhCN": "魔法伤害降低(MDR) %d",
         "sgCN": "魔法伤害降低(MDR) %d",
         "sgTW": "魔法傷害降低(MDR) %d",
-        "bnCN": "魔法伤害降低 %d"
+        "bnCN": "魔法伤害降低(MDR) %d"
     },
     "ModStr2u": {
         "id": 3519,
@@ -657,7 +657,7 @@
         "zhCN": "伤害降低(DR) %d",
         "sgCN": "伤害降低(DR) %d",
         "sgTW": "傷害降低(DR) %d",
-        "bnCN": "伤害降低 %d"
+        "bnCN": "伤害降低(DR) %d"
     },
     "Modstr2v": {
         "id": 3520,
@@ -667,7 +667,7 @@
         "zhCN": "%+d%% 强化防御(EDef)",
         "sgCN": "%+d%% 强化防御(EDef)",
         "sgTW": "%+d%% 防禦強化(EDef)",
-        "bnCN": "%+d%% 强化防御"
+        "bnCN": "%+d%% 强化防御(EDef)"
     },
     "ModStr2w": {
         "id": 3521,
@@ -697,7 +697,7 @@
         "zhCN": "ÿc3%d%% 击中时偷取法力(LM)ÿc3",
         "sgCN": "ÿc3%d%% 击中时偷取法力(LM)ÿc3",
         "sgTW": "ÿc3擊中竊取 %d%% 法力(LM)ÿc3",
-        "bnCN": "%d%% 击中时偷取法力"
+        "bnCN": "ÿc3%d%% 击中时偷取法力(LM)ÿc3"
     },
     "ModStr2z": {
         "id": 3524,
@@ -707,7 +707,7 @@
         "zhCN": "ÿcV%d%% 击中时偷取生命(LL)ÿc3",
         "sgCN": "ÿcV%d%% 击中时偷取生命(LL)ÿc3",
         "sgTW": "ÿcV擊中竊取 %d%% 生命(LL)ÿc3",
-        "bnCN": "%d%% 击中时偷取生命"
+        "bnCN": "ÿcV%d%% 击中时偷取生命(LL)ÿc3"
     },
     "ModStr3a": {
         "id": 3525,
@@ -717,7 +717,7 @@
         "zhCN": "ÿc8%+d 亚马逊技能等级(AMA)ÿc3",
         "sgCN": "ÿc8%+d 亚马逊技能等级(AMA)ÿc3",
         "sgTW": "ÿc8%+d 亞馬遜技能等級(AMA)ÿc3",
-        "bnCN": "%+d 亚马逊技能等级"
+        "bnCN": "ÿc8%+d 亚马逊技能等级(AMA)ÿc3"
     },
     "ModStr3b": {
         "id": 3526,
@@ -727,7 +727,7 @@
         "zhCN": "ÿc8%+d 圣骑士技能等级(PAL)ÿc3",
         "sgCN": "ÿc8%+d 圣骑士技能等级(PAL)ÿc3",
         "sgTW": "ÿc8%+d 聖騎士技能等級(PAL)ÿc3",
-        "bnCN": "%+d 圣骑士技能等级"
+        "bnCN": "ÿc8%+d 圣骑士技能等级(PAL)ÿc3"
     },
     "ModStr3c": {
         "id": 3527,
@@ -737,7 +737,7 @@
         "zhCN": "ÿc8%+d 死灵法师技能等级(NEC)ÿc3",
         "sgCN": "ÿc8%+d 死灵法师技能等级(NEC)ÿc3",
         "sgTW": "ÿc8%+d 死靈法師技能等級(NEC)ÿc3",
-        "bnCN": "%+d 死灵法师技能等级"
+        "bnCN": "ÿc8%+d 死灵法师技能等级(NEC)ÿc3"
     },
     "ModStr3d": {
         "id": 3528,
@@ -747,7 +747,7 @@
         "zhCN": "ÿc8%+d 巫师技能等级(SOR)ÿc3",
         "sgCN": "ÿc8%+d 巫师技能等级(SOR)ÿc3",
         "sgTW": "ÿc8%+d 魔法使技能等級(SOR)ÿc3",
-        "bnCN": "%+d 巫师技能等级"
+        "bnCN": "ÿc8%+d 巫师技能等级(SOR)ÿc3"
     },
     "ModStr3e": {
         "id": 3529,
@@ -757,7 +757,7 @@
         "zhCN": "ÿc8%+d 野蛮人技能等级(BAR)ÿc3",
         "sgCN": "ÿc8%+d 野蛮人技能等级(BAR)ÿc3",
         "sgTW": "ÿc8%+d 野蠻人技能等級(BAR)ÿc3",
-        "bnCN": "%+d 野蛮人技能等级"
+        "bnCN": "ÿc8%+d 野蛮人技能等级(BAR)ÿc3"
     },
     "ModStr3f": {
         "id": 3530,
@@ -767,7 +767,7 @@
         "zhCN": "%+d 照亮范围(Light Radius)",
         "sgCN": "%+d 照亮范围(Light Radius)",
         "sgTW": "照亮範圍(Light Radius) %+d",
-        "bnCN": "%+d 照亮范围"
+        "bnCN": "%+d 照亮范围(Light Radius)"
     },
     "ModStr3g": {
         "id": 3531,
@@ -777,7 +777,7 @@
         "zhCN": "%d%% 格挡几率提高(CTB)",
         "sgCN": "%d%% 格挡几率提高(CTB)",
         "sgTW": "格擋機率提高(CTB) %d%%",
-        "bnCN": "%d%% 格挡几率提高"
+        "bnCN": "%d%% 格挡几率提高(CTB)"
     },
     "ModStr3h": {
         "id": 3532,
@@ -787,7 +787,7 @@
         "zhCN": "需求(REQ) %+d%%",
         "sgCN": "需求(REQ) %+d%%",
         "sgTW": "需求(REQ) %+d%%",
-        "bnCN": "需求 %+d%%"
+        "bnCN": "需求(REQ) %+d%%"
     },
     "ModStr3i": {
         "id": 3533,
@@ -797,7 +797,7 @@
         "zhCN": "ÿc8%+d 火焰技能ÿc3",
         "sgCN": "ÿc8%+d 火焰技能ÿc3",
         "sgTW": "ÿc8%+d 火焰技能ÿc3",
-        "bnCN": "%+d 火焰技能"
+        "bnCN": "ÿc8%+d 火焰技能ÿc3"
     },
     "ModStr3j": {
         "id": 3534,
@@ -817,7 +817,7 @@
         "zhCN": "ÿc8%+d 所有技能(All Skills)ÿc3",
         "sgCN": "ÿc8%+d 所有技能(All Skills)ÿc3",
         "sgTW": "ÿc8%+d 所有技能(All Skills)ÿc3",
-        "bnCN": "%+d 所有技能"
+        "bnCN": "ÿc8%+d 所有技能(All Skills)ÿc3"
     },
     "ModStr3l": {
         "id": 3536,
@@ -827,7 +827,7 @@
         "zhCN": "冻结目标(FT)",
         "sgCN": "冻结目标(FT)",
         "sgTW": "凍結目標(FT)",
-        "bnCN": "冻结目标"
+        "bnCN": "冻结目标(FT)"
     },
     "ModStr3m": {
         "id": 3537,
@@ -837,7 +837,7 @@
         "zhCN": "%+d%% 几率造成开创性伤口(OW)",
         "sgCN": "%+d%% 几率造成开创性伤口(OW)",
         "sgTW": "%+d%% 機率造成開放傷口(OW)",
-        "bnCN": "%+d%% 几率造成开创性伤口"
+        "bnCN": "%+d%% 几率造成开创性伤口(OW)"
     },
     "ModStr3n": {
         "id": 3538,
@@ -887,7 +887,7 @@
         "zhCN": "中毒时间缩短(PLR) %d%%",
         "sgCN": "中毒时间缩短(PLR) %d%%",
         "sgTW": "中毒的時效縮短(PLR) %d%%",
-        "bnCN": "中毒时间缩短 %d%%"
+        "bnCN": "中毒时间缩短(PLR) %d%%"
     },
     "ModStr3v": {
         "id": 3544,
@@ -897,7 +897,7 @@
         "zhCN": "治愈耐力外加(Heal STA) %d%%",
         "sgCN": "治愈耐力外加(Heal STA) %d%%",
         "sgTW": "精力恢復(Heal STA) +%d%%",
-        "bnCN": "治愈耐力外加 %d%%"
+        "bnCN": "治愈耐力外加(Heal STA) %d%%"
     },
     "ModStr3w": {
         "id": 3545,
@@ -907,7 +907,7 @@
         "zhCN": "%+d%% 受到的伤害转换为法力(DTM)",
         "sgCN": "%+d%% 受到的伤害转换为法力(DTM)",
         "sgTW": "%+d%% 受到的傷害轉為法力(DTM)",
-        "bnCN": "%+d%% 受到的伤害转换为法力"
+        "bnCN": "%+d%% 受到的伤害转换为法力(DTM)"
     },
     "ModStr3x": {
         "id": 3546,
@@ -927,7 +927,7 @@
         "zhCN": "忽略目标的防御(ITD)",
         "sgCN": "忽略目标的防御(ITD)",
         "sgTW": "無視目標防禦(ITD)",
-        "bnCN": "忽略目标的防御"
+        "bnCN": "忽略目标的防御(ITD)"
     },
     "ModStr3z": {
         "id": 3548,
@@ -937,7 +937,7 @@
         "zhCN": "中毒时间减半(HPD)",
         "sgCN": "中毒时间减半(HPD)",
         "sgTW": "中毒的時效減半(HPD)",
-        "bnCN": "中毒时间减半"
+        "bnCN": "中毒时间减半(HPD)"
     },
     "ModStr4a": {
         "id": 3549,
@@ -947,7 +947,7 @@
         "zhCN": "防止怪物治愈(PMH)",
         "sgCN": "防止怪物治愈(PMH)",
         "sgTW": "防止怪物自療(PMH)",
-        "bnCN": "防止怪物治愈"
+        "bnCN": "防止怪物治愈(PMH)"
     },
     "ModStr4b": {
         "id": 3550,
@@ -957,7 +957,7 @@
         "zhCN": "冻结时间减半(HFD)",
         "sgCN": "冻结时间减半(HFD)",
         "sgTW": "被凍結的時效減半(HFD)",
-        "bnCN": "冻结时间减半"
+        "bnCN": "冻结时间减半(HFD)"
     },
     "ModStr4d": {
         "id": 3552,
@@ -977,7 +977,7 @@
         "zhCN": "%+d%% 对恶魔的伤害(DTD)",
         "sgCN": "%+d%% 对恶魔的伤害(DTD)",
         "sgTW": "%+d%% 對惡魔的傷害(DTD)",
-        "bnCN": "%+d%% 对恶魔的伤害"
+        "bnCN": "%+d%% 对恶魔的伤害(DTD)"
     },
     "ModStr4f": {
         "id": 3554,
@@ -987,7 +987,7 @@
         "zhCN": "%+d%% 对亡灵的伤害(DTU)",
         "sgCN": "%+d%% 对亡灵的伤害(DTU)",
         "sgTW": "%+d%% 對不死怪物的傷害(DTU)",
-        "bnCN": "%+d%% 对亡灵的伤害"
+        "bnCN": "%+d%% 对亡灵的伤害(DTU)"
     },
     "ModStr4g": {
         "id": 3555,
@@ -997,7 +997,7 @@
         "zhCN": "%d%% 法力回复(Reg Mana)",
         "sgCN": "%d%% 法力回复(Reg Mana)",
         "sgTW": "法力恢復(Reg Mana) %d%%",
-        "bnCN": "%d%% 法力回复"
+        "bnCN": "%d%% 法力回复(Reg Mana)"
     },
     "ModStr4h": {
         "id": 3556,
@@ -1007,7 +1007,7 @@
         "zhCN": "%+d 最大毒素伤害(Max PD)",
         "sgCN": "%+d 最大毒素伤害(Max PD)",
         "sgTW": "%+d 毒素傷害最大值(Max PD)",
-        "bnCN": "%+d 最大毒素伤害"
+        "bnCN": "%+d 最大毒素伤害(Max PD)"
     },
     "ModStr4i": {
         "id": 3557,
@@ -1017,7 +1017,7 @@
         "zhCN": "%+d 最小毒素伤害(Min PD)",
         "sgCN": "%+d 最小毒素伤害(Min PD)",
         "sgTW": "%+d 毒素傷害最小值(Min PD)",
-        "bnCN": "%+d 最小毒素伤害"
+        "bnCN": "%+d 最小毒素伤害(Min PD)"
     },
     "ModStr4j": {
         "id": 3558,
@@ -1027,7 +1027,7 @@
         "zhCN": "%+d 对恶魔的命中值(ARD)",
         "sgCN": "%+d 对恶魔的命中值(ARD)",
         "sgTW": "%+d 對惡魔的準確率(ARD)",
-        "bnCN": "%+d 对恶魔的命中值"
+        "bnCN": "%+d 对恶魔的命中值(ARD)"
     },
     "ModStr4k": {
         "id": 3559,
@@ -1037,7 +1037,7 @@
         "zhCN": "%+d 对亡灵的命中值(ARU)",
         "sgCN": "%+d 对亡灵的命中值(ARU)",
         "sgTW": "%+d 對不死怪物的準確率(ARU)",
-        "bnCN": "%+d 对亡灵的命中值"
+        "bnCN": "%+d 对亡灵的命中值(ARU)"
     },
     "ModStr4l": {
         "id": 3560,
@@ -1047,7 +1047,7 @@
         "zhCN": "ÿc;轻微提升攻击速度(IAS)ÿc3",
         "sgCN": "ÿc;轻微提升攻击速度(IAS)ÿc3",
         "sgTW": "ÿc;小幅攻擊速度提高(IAS)ÿc3",
-        "bnCN": "轻微提升攻击速度"
+        "bnCN": "ÿc;轻微提升攻击速度(IAS)ÿc3"
     },
     "ModStr4m": {
         "id": 3561,
@@ -1057,7 +1057,7 @@
         "zhCN": "ÿc;%+d%% 提高攻击速度(IAS)ÿc3",
         "sgCN": "ÿc;%+d%% 提高攻击速度(IAS)ÿc3",
         "sgTW": "ÿc;攻擊速度(IAS) %+d%%ÿc3",
-        "bnCN": "%+d%% 提高攻击速度"
+        "bnCN": "ÿc;%+d%% 提高攻击速度(IAS)ÿc3"
     },
     "ModStr4n": {
         "id": 3562,
@@ -1067,7 +1067,7 @@
         "zhCN": "ÿc;大幅提高攻击速度(IAS)ÿc3",
         "sgCN": "ÿc;大幅提高攻击速度(IAS)ÿc3",
         "sgTW": "ÿc;大幅攻擊速度提高(IAS)ÿc3",
-        "bnCN": "大幅提高攻击速度"
+        "bnCN": "ÿc;大幅提高攻击速度(IAS)ÿc3"
     },
     "ModStr4o": {
         "id": 3563,
@@ -1077,7 +1077,7 @@
         "zhCN": "快速打击回复(FHR)",
         "sgCN": "快速打击回复(FHR)",
         "sgTW": "快速的打擊恢復(FHR)",
-        "bnCN": "快速打击回复"
+        "bnCN": "快速打击回复(FHR)"
     },
     "ModStr4p": {
         "id": 3564,
@@ -1087,7 +1087,7 @@
         "zhCN": "%+d%% 更快速打击回复(FHR)",
         "sgCN": "%+d%% 更快速打击回复(FHR)",
         "sgTW": "%+d%% 打擊恢復(FHR)",
-        "bnCN": "%+d%% 更快速打击回复"
+        "bnCN": "%+d%% 更快速打击回复(FHR)"
     },
     "ModStr4q": {
         "id": 3565,
@@ -1097,7 +1097,7 @@
         "zhCN": "最快速打击回复(FHR)",
         "sgCN": "最快速打击回复(FHR)",
         "sgTW": "最快的打擊恢復(FHR)",
-        "bnCN": "最快速打击回复"
+        "bnCN": "最快速打击回复(FHR)"
     },
     "ModStr4r": {
         "id": 3566,
@@ -1107,7 +1107,7 @@
         "zhCN": "跑步/步行(FRW)",
         "sgCN": "跑步/步行(FRW)",
         "sgTW": "快速的跑步 / 行走速度(FRW)",
-        "bnCN": "跑步/步行"
+        "bnCN": "跑步/步行(FRW)"
     },
     "ModStr4s": {
         "id": 3567,
@@ -1117,7 +1117,7 @@
         "zhCN": "ÿc;%+d%% 更快速跑步/步行(FRW)ÿc3",
         "sgCN": "ÿc;%+d%% 更快速跑步/步行(FRW)ÿc3",
         "sgTW": "ÿc;%+d%% 跑步 / 行走速度(FRW)ÿc3",
-        "bnCN": "%+d%% 更快速跑步/步行"
+        "bnCN": "ÿc;%+d%% 更快速跑步/步行(FRW)ÿc3"
     },
     "ModStr4t": {
         "id": 3568,
@@ -1127,7 +1127,7 @@
         "zhCN": "ÿc;最快速跑步/步行(FRW)ÿc3",
         "sgCN": "ÿc;最快速跑步/步行(FRW)ÿc3",
         "sgTW": "ÿc;最快的跑步 / 行走速度(FRW)ÿc3",
-        "bnCN": "最快速跑步/步行"
+        "bnCN": "ÿc;最快速跑步/步行(FRW)ÿc3"
     },
     "ModStr4u": {
         "id": 3569,
@@ -1137,7 +1137,7 @@
         "zhCN": "快速施法(FCR)",
         "sgCN": "快速施法(FCR)",
         "sgTW": "快速的施法速度(FCR)",
-        "bnCN": "快速施法"
+        "bnCN": "快速施法(FCR)"
     },
     "ModStr4v": {
         "id": 3570,
@@ -1147,7 +1147,7 @@
         "zhCN": "ÿc;%+d%% 更快速施法(FCR)ÿc3",
         "sgCN": "ÿc;%+d%% 更快速施法(FCR)ÿc3",
         "sgTW": "ÿc;%+d%% 施法速度(FCR)ÿc3",
-        "bnCN": "%+d%% 更快速施法"
+        "bnCN": "ÿc;%+d%% 更快速施法(FCR)ÿc3"
     },
     "ModStr4w": {
         "id": 3571,
@@ -1157,7 +1157,7 @@
         "zhCN": "最快速施法(FCR)",
         "sgCN": "最快速施法(FCR)",
         "sgTW": "最快的施法速度(FCR)",
-        "bnCN": "最快速施法"
+        "bnCN": "最快速施法(FCR)"
     },
     "ModStr4x": {
         "id": 3572,
@@ -1167,7 +1167,7 @@
         "zhCN": "快速格挡(FBR)",
         "sgCN": "快速格挡(FBR)",
         "sgTW": "快速的格擋速度(FBR)",
-        "bnCN": "快速格挡"
+        "bnCN": "快速格挡(FBR)"
     },
     "ModStr4y": {
         "id": 3573,
@@ -1177,7 +1177,7 @@
         "zhCN": "%+d%% 更快速格挡(FBR)",
         "sgCN": "%+d%% 更快速格挡(FBR)",
         "sgTW": "%+d%% 格擋速度(FBR)",
-        "bnCN": "%+d%% 更快速格挡"
+        "bnCN": "%+d%% 更快速格挡(FBR)"
     },
     "ModStr4z": {
         "id": 3574,
@@ -1187,7 +1187,7 @@
         "zhCN": "最快速格挡(FBR)",
         "sgCN": "最快速格挡(FBR)",
         "sgTW": "最快的格擋速度(FBR)",
-        "bnCN": "最快速格挡"
+        "bnCN": "最快速格挡(FBR)"
     },
     "ModStr5a": {
         "id": 3575,
@@ -1207,7 +1207,7 @@
         "zhCN": "伤害(DMG) %+d",
         "sgCN": "伤害(DMG) %+d",
         "sgTW": "傷害(DMG) %+d",
-        "bnCN": "伤害 %+d"
+        "bnCN": "伤害(DMG) %+d"
     },
     "ModStr5c": {
         "id": 3577,
@@ -1217,7 +1217,7 @@
         "zhCN": "%+d%% 几率粉碎打击(CB)",
         "sgCN": "%+d%% 几率粉碎打击(CB)",
         "sgTW": "%+d%% 機率造成粉碎打擊(CB)",
-        "bnCN": "%+d%% 几率粉碎打击"
+        "bnCN": "%+d%% 几率粉碎打击(CB)"
     },
     "ModStr5e": {
         "id": 3579,
@@ -1237,7 +1237,7 @@
         "zhCN": "%+d 每次消灭恢复的法力(EK)",
         "sgCN": "%+d 每次消灭恢复的法力(EK)",
         "sgTW": "%+d 擊殺法力恢復(EK)",
-        "bnCN": "%+d 每次消灭恢复的法力"
+        "bnCN": "%+d 每次消灭恢复的法力(EK)"
     },
     "ModStr5g": {
         "id": 3581,
@@ -1247,7 +1247,7 @@
         "zhCN": "火焰伤害吸收(FA) %+d%%",
         "sgCN": "火焰伤害吸收(FA) %+d%%",
         "sgTW": "火焰吸收(FA) %+d%%",
-        "bnCN": "火焰伤害吸收 %+d%%"
+        "bnCN": "火焰伤害吸收(FA) %+d%%"
     },
     "ModStr5h": {
         "id": 3582,
@@ -1257,7 +1257,7 @@
         "zhCN": "%+d 火焰伤害吸收(FA)",
         "sgCN": "%+d 火焰伤害吸收(FA)",
         "sgTW": "%+d 火焰吸收(FA)",
-        "bnCN": "%+d 火焰伤害吸收"
+        "bnCN": "%+d 火焰伤害吸收(FA)"
     },
     "ModStr5i": {
         "id": 3583,
@@ -1267,7 +1267,7 @@
         "zhCN": "闪电伤害吸收(LA) %+d%%",
         "sgCN": "闪电伤害吸收(LA) %+d%%",
         "sgTW": "電擊吸收(LA) %+d%%",
-        "bnCN": "闪电伤害吸收 %+d%%"
+        "bnCN": "闪电伤害吸收(LA) %+d%%"
     },
     "ModStr5j": {
         "id": 3584,
@@ -1277,7 +1277,7 @@
         "zhCN": "%+d 闪电伤害吸收(LA)",
         "sgCN": "%+d 闪电伤害吸收(LA)",
         "sgTW": "%+d 電擊吸收(LA)",
-        "bnCN": "%+d 闪电伤害吸收"
+        "bnCN": "%+d 闪电伤害吸收(LA)"
     },
     "ModStr5k": {
         "id": 3585,
@@ -1287,7 +1287,7 @@
         "zhCN": "魔法伤害吸收(MA) %+d%%",
         "sgCN": "魔法伤害吸收(MA) %+d%%",
         "sgTW": "魔法吸收(MA) %+d%%",
-        "bnCN": "魔法伤害吸收 %+d%%"
+        "bnCN": "魔法伤害吸收(MA) %+d%%"
     },
     "ModStr5l": {
         "id": 3586,
@@ -1297,7 +1297,7 @@
         "zhCN": "%+d 魔法伤害吸收(MA)",
         "sgCN": "%+d 魔法伤害吸收(MA)",
         "sgTW": "%+d 魔法吸收(MA)",
-        "bnCN": "%+d 魔法伤害吸收"
+        "bnCN": "%+d 魔法伤害吸收(MA)"
     },
     "ModStr5m": {
         "id": 3587,
@@ -1307,7 +1307,7 @@
         "zhCN": "冰霜伤害吸收(CA) %+d%%",
         "sgCN": "冰霜伤害吸收(CA) %+d%%",
         "sgTW": "冰寒吸收(CA) %+d%%",
-        "bnCN": "冰霜伤害吸收 %+d%%"
+        "bnCN": "冰霜伤害吸收(CA) %+d%%"
     },
     "ModStr5n": {
         "id": 3588,
@@ -1317,7 +1317,7 @@
         "zhCN": "%+d 冰霜伤害吸收(CA)",
         "sgCN": "%+d 冰霜伤害吸收(CA)",
         "sgTW": "%+d 冰寒吸收(CA)",
-        "bnCN": "%+d 冰霜伤害吸收"
+        "bnCN": "%+d 冰霜伤害吸收(CA)"
     },
     "ModStr5o": {
         "id": 3589,
@@ -1347,7 +1347,7 @@
         "zhCN": "%+d%% 致死打击(DS)",
         "sgCN": "%+d%% 致死打击(DS)",
         "sgTW": "%+d%% 致命打擊(DS)",
-        "bnCN": "%+d%% 致死打击"
+        "bnCN": "%+d%% 致死打击(DS)"
     },
     "ModStr5s": {
         "id": 3593,
@@ -1377,7 +1377,7 @@
         "zhCN": "%+d%% 火焰抗性上限(Max FR)",
         "sgCN": "%+d%% 火焰抗性上限(Max FR)",
         "sgTW": "火焰抗性上限(Max FR) %+d%%",
-        "bnCN": "%+d%% 火焰抗性上限"
+        "bnCN": "%+d%% 火焰抗性上限(Max FR)"
     },
     "ModStr5v": {
         "id": 3596,
@@ -1387,7 +1387,7 @@
         "zhCN": "%+d%% 冰霜抗性上限(Max CR)",
         "sgCN": "%+d%% 冰霜抗性上限(Max CR)",
         "sgTW": "冰寒抗性上限(Max CR) %+d%%",
-        "bnCN": "%+d%% 冰霜抗性上限"
+        "bnCN": "%+d%% 冰霜抗性上限(Max CR)"
     },
     "ModStr5w": {
         "id": 3597,
@@ -1397,7 +1397,7 @@
         "zhCN": "%+d%% 闪电抗性上限(Max LR)",
         "sgCN": "%+d%% 闪电抗性上限(Max LR)",
         "sgTW": "電擊抗性上限(Max LR) %+d%%",
-        "bnCN": "%+d%% 闪电抗性上限"
+        "bnCN": "%+d%% 闪电抗性上限(Max LR)"
     },
     "ModStr5x": {
         "id": 3598,
@@ -1407,7 +1407,7 @@
         "zhCN": "%+d%% 魔法抗性上限(Max MR)",
         "sgCN": "%+d%% 魔法抗性上限(Max MR)",
         "sgTW": "魔法抗性上限(Max MR) %+d%%",
-        "bnCN": "%+d%% 魔法抗性上限"
+        "bnCN": "%+d%% 魔法抗性上限(Max MR)"
     },
     "ModStr5y": {
         "id": 3599,
@@ -1417,7 +1417,7 @@
         "zhCN": "%+d%% 毒素抗性上限(Max PR)",
         "sgCN": "%+d%% 毒素抗性上限(Max PR)",
         "sgTW": "毒素抗性上限(Max PR) %+d%%",
-        "bnCN": "%+d%% 毒素抗性上限"
+        "bnCN": "%+d%% 毒素抗性上限(Max PR)"
     },
     "ModStr5z": {
         "id": 3600,
@@ -1427,7 +1427,7 @@
         "zhCN": "ÿcU无法被冻结(CBF)ÿc3",
         "sgCN": "ÿcU无法被冻结(CBF)ÿc3",
         "sgTW": "ÿcU無法凍結(CBF)ÿc3",
-        "bnCN": "无法被冻结"
+        "bnCN": "ÿcU无法被冻结(CBF)ÿc3"
     },
     "ModStr6a": {
         "id": 3601,
@@ -1457,7 +1457,7 @@
         "zhCN": "%+d 每次消灭恶魔恢复的生命(DLK)",
         "sgCN": "%+d 每次消灭恶魔恢复的生命(DLK)",
         "sgTW": "%+d 擊殺惡魔生命恢復(DLK)",
-        "bnCN": "%+d 每次消灭恶魔恢复的生命"
+        "bnCN": "%+d 每次消灭恶魔恢复的生命(DLK)"
     },
     "ModStr6g": {
         "id": 3607,
@@ -1507,7 +1507,7 @@
         "zhCN": "提高命中值(AR)",
         "sgCN": "提高命中值(AR)",
         "sgTW": "加強準確率(AR)",
-        "bnCN": "提高命中值"
+        "bnCN": "提高命中值(AR)"
     },
     "improved armor class": {
         "id": 3627,
@@ -1737,7 +1737,7 @@
         "zhCN": "%+d 最大耐力(Max STA)",
         "sgCN": "%+d 最大耐力(Max STA)",
         "sgTW": "%+d 精力上限(Max STA)",
-        "bnCN": "%+d 最大耐力"
+        "bnCN": "%+d 最大耐力(Max STA)"
     },
     "ModStr6e": {
         "id": 10020,
@@ -1757,7 +1757,7 @@
         "zhCN": "ÿcV%+d%% 强化伤害(EDmg)ÿc3",
         "sgCN": "ÿcV%+d%% 强化伤害(EDmg)ÿc3",
         "sgTW": "ÿcV%+d%% 傷害強化(EDmg)ÿc3",
-        "bnCN": "%+d%% 强化伤害"
+        "bnCN": "ÿcV%+d%% 强化伤害(EDmg)ÿc3"
     },
     "strModAllResistances": {
         "id": 10024,
@@ -1767,7 +1767,7 @@
         "zhCN": "ÿcP%+d 所有抗性(RES)ÿc3",
         "sgCN": "ÿcP%+d 所有抗性(RES)ÿc3",
         "sgTW": "ÿcP所有抗性(RES) %+dÿc3",
-        "bnCN": "%+d 所有抗性"
+        "bnCN": "ÿcP%+d 所有抗性(RES)ÿc3"
     },
     "strModAllSkillLevels": {
         "id": 10025,
@@ -1777,7 +1777,7 @@
         "zhCN": "ÿc8%+d 所有技能等级(All Skill)ÿc3",
         "sgCN": "ÿc8%+d 所有技能等级(All Skill)ÿc3",
         "sgTW": "ÿc8%+d 所有技能等級(All Skill)ÿc3",
-        "bnCN": "%+d 所有技能等级"
+        "bnCN": "ÿc8%+d 所有技能等级(All Skill)ÿc3"
     },
     "strModFireDamage": {
         "id": 10026,
@@ -1787,7 +1787,7 @@
         "zhCN": "%+d 火焰伤害(FD)",
         "sgCN": "%+d 火焰伤害(FD)",
         "sgTW": "%+d 火焰傷害(FD)",
-        "bnCN": "%+d 火焰伤害"
+        "bnCN": "%+d 火焰伤害(FD)"
     },
     "strModFireDamageRange": {
         "id": 10027,
@@ -1797,7 +1797,7 @@
         "zhCN": "+ %d-%d 火焰伤害(FD)",
         "sgCN": "+ %d-%d 火焰伤害(FD)",
         "sgTW": "附加 %d - %d 火焰傷害(FD)",
-        "bnCN": "+ %d-%d 火焰伤害"
+        "bnCN": "+ %d-%d 火焰伤害(FD)"
     },
     "strModColdDamage": {
         "id": 10028,
@@ -1807,7 +1807,7 @@
         "zhCN": "%+d 冰霜伤害(CD)",
         "sgCN": "%+d 冰霜伤害(CD)",
         "sgTW": "%+d 冰寒傷害(CD)",
-        "bnCN": "%+d 冰霜伤害"
+        "bnCN": "%+d 冰霜伤害(CD)"
     },
     "strModColdDamageRange": {
         "id": 10029,
@@ -1817,7 +1817,7 @@
         "zhCN": "+ %d-%d 冰霜伤害(CD)",
         "sgCN": "+ %d-%d 冰霜伤害(CD)",
         "sgTW": "附加 %d - %d 冰寒傷害(CD)",
-        "bnCN": "+ %d-%d 冰霜伤害"
+        "bnCN": "+ %d-%d 冰霜伤害(CD)"
     },
     "strModLightningDamage": {
         "id": 10030,
@@ -1827,7 +1827,7 @@
         "zhCN": "%+d 闪电伤害(LD)",
         "sgCN": "%+d 闪电伤害(LD)",
         "sgTW": "%+d 電擊傷害(LD)",
-        "bnCN": "%+d 闪电伤害"
+        "bnCN": "%+d 闪电伤害(LD)"
     },
     "strModLightningDamageRange": {
         "id": 10031,
@@ -1837,7 +1837,7 @@
         "zhCN": "+ %d-%d 闪电伤害(LD)",
         "sgCN": "+ %d-%d 闪电伤害(LD)",
         "sgTW": "附加 %d - %d 電擊傷害(LD)",
-        "bnCN": "+ %d-%d 闪电伤害"
+        "bnCN": "+ %d-%d 闪电伤害(LD)"
     },
     "strModMagicDamage": {
         "id": 10032,
@@ -1847,7 +1847,7 @@
         "zhCN": "%+d 魔法伤害(MD)",
         "sgCN": "%+d 魔法伤害(MD)",
         "sgTW": "%+d 魔法傷害(MD)",
-        "bnCN": "%+d 魔法伤害"
+        "bnCN": "%+d 魔法伤害(MD)"
     },
     "strModMagicDamageRange": {
         "id": 10033,
@@ -1857,7 +1857,7 @@
         "zhCN": "+ %d-%d 魔法伤害(MD)",
         "sgCN": "+ %d-%d 魔法伤害(MD)",
         "sgTW": "附加 %d - %d 魔法傷害(MD)",
-        "bnCN": "+ %d-%d 魔法伤害"
+        "bnCN": "+ %d-%d 魔法伤害(MD)"
     },
     "strModPoisonDamage": {
         "id": 10034,
@@ -1867,7 +1867,7 @@
         "zhCN": "%+d 毒素伤害(PD)，持续%d秒",
         "sgCN": "%+d 毒素伤害(PD)，持续%d秒",
         "sgTW": "%+d 毒素傷害(PD)，時效 %d 秒",
-        "bnCN": "%+d 毒素伤害，持续%d秒"
+        "bnCN": "%+d 毒素伤害(PD)，持续%d秒"
     },
     "strModPoisonDamageRange": {
         "id": 10035,
@@ -1877,7 +1877,7 @@
         "zhCN": "+ %d-%d 毒素伤害(PD)，持续%d秒",
         "sgCN": "+ %d-%d 毒素伤害(PD)，持续%d秒",
         "sgTW": "附加 %d - %d 毒素傷害(PD)，時效 %d 秒",
-        "bnCN": "+ %d-%d 毒素伤害，持续%d秒"
+        "bnCN": "+ %d-%d 毒素伤害(PD)，持续%d秒"
     },
     "strModMinDamage": {
         "id": 10036,
@@ -1887,7 +1887,7 @@
         "zhCN": "%+d 伤害(DMG)",
         "sgCN": "%+d 伤害(DMG)",
         "sgTW": "%+d 傷害(DMG)",
-        "bnCN": "%+d 伤害"
+        "bnCN": "%+d 伤害(DMG)"
     },
     "strModMinDamageRange": {
         "id": 10037,
@@ -1897,7 +1897,7 @@
         "zhCN": "+ %d-%d 伤害",
         "sgCN": "+ %d-%d 伤害",
         "sgTW": "附加 %d - %d 傷害(DMG)",
-        "bnCN": "+ %d-%d 伤害"
+        "bnCN": "+ %d-%d 伤害(DMG)"
     },
     "ModStre9j": {
         "id": 10039,
@@ -1907,7 +1907,7 @@
         "zhCN": "火焰伤害降低(FDR)",
         "sgCN": "火焰伤害降低(FDR)",
         "sgTW": "火焰傷害降低(FDR)",
-        "bnCN": "火焰伤害降低"
+        "bnCN": "火焰伤害降低(FDR)"
     },
     "ModStre9k": {
         "id": 10040,
@@ -1917,7 +1917,7 @@
         "zhCN": "冰霜伤害降低(CDR)",
         "sgCN": "冰霜伤害降低(CDR)",
         "sgTW": "冰寒傷害降低(CDR)",
-        "bnCN": "冰霜伤害降低"
+        "bnCN": "冰霜伤害降低(CDR)"
     },
     "ModStre9l": {
         "id": 10041,
@@ -1927,7 +1927,7 @@
         "zhCN": "闪电伤害降低(LDR)",
         "sgCN": "闪电伤害降低(LDR)",
         "sgTW": "電擊傷害降低(LDR)",
-        "bnCN": "闪电伤害降低"
+        "bnCN": "闪电伤害降低(LDR)"
     },
     "ModStre9m": {
         "id": 10042,
@@ -1937,7 +1937,7 @@
         "zhCN": "毒素伤害降低(PDR)",
         "sgCN": "毒素伤害降低(PDR)",
         "sgTW": "毒素傷害降低(PDR)",
-        "bnCN": "毒素伤害降低"
+        "bnCN": "毒素伤害降低(PDR)"
     },
     "ModStre9n": {
         "id": 10043,
@@ -1947,7 +1947,7 @@
         "zhCN": "%+d 吸收魔法伤害(MDA)",
         "sgCN": "%+d 吸收魔法伤害(MDA)",
         "sgTW": "%+d 魔法傷害吸收(MDA)",
-        "bnCN": "%+d 吸收魔法伤害"
+        "bnCN": "%+d 吸收魔法伤害(MDA)"
     },
     "ModStre9o": {
         "id": 10044,
@@ -1957,7 +1957,7 @@
         "zhCN": "%+d 吸收火焰伤害(FDA)",
         "sgCN": "%+d 吸收火焰伤害(FDA)",
         "sgTW": "%+d 火焰傷害吸收(FDA)",
-        "bnCN": "%+d 吸收火焰伤害"
+        "bnCN": "%+d 吸收火焰伤害(FDA)"
     },
     "ModStre9p": {
         "id": 10045,
@@ -1967,7 +1967,7 @@
         "zhCN": "%+d 吸收冰霜伤害(CDA)",
         "sgCN": "%+d 吸收冰霜伤害(CDA)",
         "sgTW": "%+d 冰寒傷害吸收(CDA)",
-        "bnCN": "%+d 吸收冰霜伤害"
+        "bnCN": "%+d 吸收冰霜伤害(CDA)"
     },
     "ModStre9q": {
         "id": 10046,
@@ -1977,7 +1977,7 @@
         "zhCN": "%+d 吸收闪电伤害(LDA)",
         "sgCN": "%+d 吸收闪电伤害(LDA)",
         "sgTW": "%+d 電擊傷害吸收(LDA)",
-        "bnCN": "%+d 吸收闪电伤害"
+        "bnCN": "%+d 吸收闪电伤害(LDA)"
     },
     "ModStre9r": {
         "id": 10047,
@@ -1987,7 +1987,7 @@
         "zhCN": "%+d 吸收毒素伤害(PDA)",
         "sgCN": "%+d 吸收毒素伤害(PDA)",
         "sgTW": "%+d 毒素傷害吸收(PDA)",
-        "bnCN": "%+d 吸收毒素伤害"
+        "bnCN": "%+d 吸收毒素伤害(PDA)"
     },
     "StrSklTabItem1": {
         "id": 10054,
@@ -1997,7 +1997,7 @@
         "zhCN": "ÿc8%+d 标枪和长矛技能ÿc3",
         "sgCN": "ÿc8%+d 标枪和长矛技能ÿc3",
         "sgTW": "ÿc8%+d 標槍與長矛技能ÿc3",
-        "bnCN": "%+d 标枪和长矛技能"
+        "bnCN": "ÿc8%+d 标枪和长矛技能ÿc3"
     },
     "StrSklTabItem2": {
         "id": 10055,
@@ -2007,7 +2007,7 @@
         "zhCN": "ÿc8%+d 被动和魔法技能ÿc3",
         "sgCN": "ÿc8%+d 被动和魔法技能ÿc3",
         "sgTW": "ÿc8%+d 被動與魔法技能ÿc3",
-        "bnCN": "%+d 被动和魔法技能"
+        "bnCN": "ÿc8%+d 被动和魔法技能ÿc3"
     },
     "StrSklTabItem3": {
         "id": 10056,
@@ -2017,7 +2017,7 @@
         "zhCN": "ÿc8%+d 弓和弩技能ÿc3",
         "sgCN": "ÿc8%+d 弓和弩技能ÿc3",
         "sgTW": "ÿc8%+d 弓與弩技能ÿc3",
-        "bnCN": "%+d 弓和弩技能"
+        "bnCN": "ÿc8%+d 弓和弩技能ÿc3"
     },
     "StrSklTabItem4": {
         "id": 10057,
@@ -2027,7 +2027,7 @@
         "zhCN": "ÿc8%+d 防御光环ÿc3",
         "sgCN": "ÿc8%+d 防御光环ÿc3",
         "sgTW": "ÿc8%+d 防禦靈氣ÿc3",
-        "bnCN": "%+d 防御光环"
+        "bnCN": "ÿc8%+d 防御光环ÿc3"
     },
     "StrSklTabItem5": {
         "id": 10058,
@@ -2037,7 +2037,7 @@
         "zhCN": "ÿc8%+d 攻击光环ÿc3",
         "sgCN": "ÿc8%+d 攻击光环ÿc3",
         "sgTW": "ÿc8%+d 攻擊靈氣ÿc3",
-        "bnCN": "%+d 攻击光环"
+        "bnCN": "ÿc8%+d 攻击光环ÿc3"
     },
     "StrSklTabItem6": {
         "id": 10059,
@@ -2047,7 +2047,7 @@
         "zhCN": "ÿc8%+d 战斗技能ÿc3",
         "sgCN": "ÿc8%+d 战斗技能ÿc3",
         "sgTW": "ÿc8%+d 戰鬥技能ÿc3",
-        "bnCN": "%+d 战斗技能"
+        "bnCN": "ÿc8%+d 战斗技能ÿc3"
     },
     "StrSklTabItem7": {
         "id": 10061,
@@ -2057,7 +2057,7 @@
         "zhCN": "ÿc8%+d 毒素和白骨术ÿc3",
         "sgCN": "ÿc8%+d 毒素和白骨术ÿc3",
         "sgTW": "ÿc8%+d 毒素與骸骨技能ÿc3",
-        "bnCN": "%+d 毒素和白骨术"
+        "bnCN": "ÿc8%+d 毒素和白骨术ÿc3"
     },
     "StrSklTabItem8": {
         "id": 10062,
@@ -2067,7 +2067,7 @@
         "zhCN": "ÿc8%+d 诅咒术ÿc3",
         "sgCN": "ÿc8%+d 诅咒术ÿc3",
         "sgTW": "ÿc8%+d 詛咒ÿc3",
-        "bnCN": "%+d 诅咒术"
+        "bnCN": "ÿc8%+d 诅咒术ÿc3"
     },
     "StrSklTabItem10": {
         "id": 10063,
@@ -2077,7 +2077,7 @@
         "zhCN": "ÿc8%+d 呐喊技能ÿc3",
         "sgCN": "ÿc8%+d 呐喊技能ÿc3",
         "sgTW": "ÿc8%+d 戰吼ÿc3",
-        "bnCN": "%+d 呐喊技能"
+        "bnCN": "ÿc8%+d 呐喊技能ÿc3"
     },
     "StrSklTabItem11": {
         "id": 10064,
@@ -2087,7 +2087,7 @@
         "zhCN": "ÿc8%+d 战斗技能ÿc3",
         "sgCN": "ÿc8%+d 战斗技能ÿc3",
         "sgTW": "ÿc8%+d 戰鬥技能ÿc3",
-        "bnCN": "%+d 战斗技能"
+        "bnCN": "ÿc8%+d 战斗技能ÿc3"
     },
     "StrSklTabItem12": {
         "id": 10065,
@@ -2097,7 +2097,7 @@
         "zhCN": "ÿc8%+d 精通类技能ÿc3",
         "sgCN": "ÿc8%+d 精通类技能ÿc3",
         "sgTW": "ÿc8%+d 戰鬥專精ÿc3",
-        "bnCN": "%+d 精通类技能"
+        "bnCN": "ÿc8%+d 精通类技能ÿc3"
     },
     "StrSklTabItem13": {
         "id": 10066,
@@ -2107,7 +2107,7 @@
         "zhCN": "ÿc8%+d 冰系法术ÿc3",
         "sgCN": "ÿc8%+d 冰系法术ÿc3",
         "sgTW": "ÿc8%+d 冰寒技能ÿc3",
-        "bnCN": "%+d 冰系法术"
+        "bnCN": "ÿc8%+d 冰系法术ÿc3"
     },
     "StrSklTabItem14": {
         "id": 10067,
@@ -2117,7 +2117,7 @@
         "zhCN": "ÿc8%+d 雷系法术ÿc3",
         "sgCN": "ÿc8%+d 雷系法术ÿc3",
         "sgTW": "ÿc8%+d 閃電技能ÿc3",
-        "bnCN": "%+d 雷系法术"
+        "bnCN": "ÿc8%+d 雷系法术ÿc3"
     },
     "StrSklTabItem15": {
         "id": 10068,
@@ -2127,7 +2127,7 @@
         "zhCN": "ÿc8%+d 火系法术ÿc3",
         "sgCN": "ÿc8%+d 火系法术ÿc3",
         "sgTW": "ÿc8%+d 火焰技能ÿc3",
-        "bnCN": "%+d 火系法术"
+        "bnCN": "ÿc8%+d 火系法术ÿc3"
     },
     "StrSklTabItem16": {
         "id": 10069,
@@ -2137,7 +2137,7 @@
         "zhCN": "ÿc8%+d 召唤技能ÿc3",
         "sgCN": "ÿc8%+d 召唤技能ÿc3",
         "sgTW": "ÿc8%+d 召喚技能ÿc3",
-        "bnCN": "%+d 召唤技能"
+        "bnCN": "ÿc8%+d 召唤技能ÿc3"
     },
     "StrSklTabItem17": {
         "id": 10070,
@@ -2147,7 +2147,7 @@
         "zhCN": "ÿc8%+d 变形技能ÿc3",
         "sgCN": "ÿc8%+d 变形技能ÿc3",
         "sgTW": "ÿc8%+d 變形技能ÿc3",
-        "bnCN": "%+d 变形技能"
+        "bnCN": "ÿc8%+d 变形技能ÿc3"
     },
     "StrSklTabItem18": {
         "id": 10071,
@@ -2157,7 +2157,7 @@
         "zhCN": "ÿc8%+d 元素技能ÿc3",
         "sgCN": "ÿc8%+d 元素技能ÿc3",
         "sgTW": "ÿc8%+d 元素技能ÿc3",
-        "bnCN": "%+d 元素技能"
+        "bnCN": "ÿc8%+d 元素技能ÿc3"
     },
     "StrSklTabItem19": {
         "id": 10072,
@@ -2167,7 +2167,7 @@
         "zhCN": "ÿc8%+d 陷阱ÿc3",
         "sgCN": "ÿc8%+d 陷阱ÿc3",
         "sgTW": "ÿc8%+d 陷阱ÿc3",
-        "bnCN": "%+d 陷阱"
+        "bnCN": "ÿc8%+d 陷阱ÿc3"
     },
     "StrSklTabItem20": {
         "id": 10073,
@@ -2177,7 +2177,7 @@
         "zhCN": "ÿc8%+d 影身训练ÿc3",
         "sgCN": "ÿc8%+d 影身训练ÿc3",
         "sgTW": "ÿc8%+d 暗影修行ÿc3",
-        "bnCN": "%+d 影身训练"
+        "bnCN": "ÿc8%+d 影身训练ÿc3"
     },
     "StrSklTabItem21": {
         "id": 10074,
@@ -2187,7 +2187,7 @@
         "zhCN": "ÿc8%+d 武学技艺ÿc3",
         "sgCN": "ÿc8%+d 武学技艺ÿc3",
         "sgTW": "ÿc8%+d 武學技藝ÿc3",
-        "bnCN": "%+d 武学技艺"
+        "bnCN": "ÿc8%+d 武学技艺ÿc3"
     },
     "AmaOnly": {
         "id": 10917,
@@ -2197,7 +2197,7 @@
         "zhCN": "ÿc8(仅限亚马逊)ÿc3",
         "sgCN": "ÿc8(仅限亚马逊)ÿc3",
         "sgTW": "ÿc8（只限亞馬遜）ÿc3",
-        "bnCN": "(仅限亚马逊)"
+        "bnCN": "ÿc8(仅限亚马逊)ÿc3"
     },
     "SorOnly": {
         "id": 10918,
@@ -2207,7 +2207,7 @@
         "zhCN": "ÿc8(仅限巫师)ÿc3",
         "sgCN": "ÿc8(仅限巫师)ÿc3",
         "sgTW": "ÿc8（只限魔法使）ÿc3",
-        "bnCN": "(仅限巫师)"
+        "bnCN": "ÿc8(仅限巫师)ÿc3"
     },
     "NecOnly": {
         "id": 10919,
@@ -2217,7 +2217,7 @@
         "zhCN": "ÿc8(仅限死灵法师)ÿc3",
         "sgCN": "ÿc8(仅限死灵法师)ÿc3",
         "sgTW": "ÿc8（只限死靈法師）ÿc3",
-        "bnCN": "(仅限死灵法师)"
+        "bnCN": "ÿc8(仅限死灵法师)ÿc3"
     },
     "PalOnly": {
         "id": 10920,
@@ -2227,7 +2227,7 @@
         "zhCN": "ÿc8(仅限圣骑士)ÿc3",
         "sgCN": "ÿc8(仅限圣骑士)ÿc3",
         "sgTW": "ÿc8（只限聖騎士）ÿc3",
-        "bnCN": "(仅限圣骑士)"
+        "bnCN": "ÿc8(仅限圣骑士)ÿc3"
     },
     "BarOnly": {
         "id": 10921,
@@ -2237,7 +2237,7 @@
         "zhCN": "ÿc8(仅限野蛮人)ÿc3",
         "sgCN": "ÿc8(仅限野蛮人)ÿc3",
         "sgTW": "ÿc8（只限野蠻人）ÿc3",
-        "bnCN": "(仅限野蛮人)"
+        "bnCN": "ÿc8(仅限野蛮人)ÿc3"
     },
     "DruOnly": {
         "id": 10922,
@@ -2247,7 +2247,7 @@
         "zhCN": "ÿc8(仅限德鲁伊)ÿc3",
         "sgCN": "ÿc8(仅限德鲁伊)ÿc3",
         "sgTW": "ÿc8（只限德魯伊）ÿc3",
-        "bnCN": "(仅限德鲁伊)"
+        "bnCN": "ÿc8(仅限德鲁伊)ÿc3"
     },
     "AssOnly": {
         "id": 10923,
@@ -2257,7 +2257,7 @@
         "zhCN": "ÿc8(仅限刺客)ÿc3",
         "sgCN": "ÿc8(仅限刺客)ÿc3",
         "sgTW": "ÿc8（只限刺客）ÿc3",
-        "bnCN": "(仅限刺客)"
+        "bnCN": "ÿc8(仅限刺客)ÿc3"
     },
     "ModitemAura": {
         "id": 10976,
@@ -2277,7 +2277,7 @@
         "zhCN": "%+d 所有属性(ATTR)",
         "sgCN": "%+d 所有属性(ATTR)",
         "sgTW": "%+d 所有屬性(ATTR)",
-        "bnCN": "%+d 所有属性"
+        "bnCN": "%+d 所有属性(ATTR)"
     },
     "Moditem2ExpG": {
         "id": 10978,
@@ -2287,7 +2287,7 @@
         "zhCN": "%+d%% 获得的经验(EXP)",
         "sgCN": "%+d%% 获得的经验(EXP)",
         "sgTW": "獲得的經驗值(EXP) %+d%%",
-        "bnCN": "%+d%% 获得的经验"
+        "bnCN": "%+d%% 获得的经验(EXP)"
     },
     "ModitemHPaK": {
         "id": 10979,
@@ -2297,7 +2297,7 @@
         "zhCN": "%+d 每次消灭恢复的生命(LK)",
         "sgCN": "%+d 每次消灭恢复的生命(LK)",
         "sgTW": "%+d 擊殺生命恢復(LK)",
-        "bnCN": "%+d 每次消灭恢复的生命"
+        "bnCN": "%+d 每次消灭恢复的生命(LK)"
     },
     "ModitemRedVendP": {
         "id": 10980,
@@ -2307,7 +2307,7 @@
         "zhCN": "所有商人的收费减少(-Price) %d%%",
         "sgCN": "所有商人的收费减少(-Price) %d%%",
         "sgTW": "所有商人的價格降低(-Price) %d%%",
-        "bnCN": "所有商人的收费减少 %d%%"
+        "bnCN": "所有商人的收费减少(-Price) %d%%"
     },
     "ModitemSMRIP": {
         "id": 10981,
@@ -2317,7 +2317,7 @@
         "zhCN": "消灭的怪物就此安息(RIP)",
         "sgCN": "消灭的怪物就此安息(RIP)",
         "sgTW": "殺死的怪物就此安息(RIP)",
-        "bnCN": "消灭的怪物就此安息"
+        "bnCN": "消灭的怪物就此安息(RIP)"
     },
     "ModitemAttratvsM": {
         "id": 10982,
@@ -2327,7 +2327,7 @@
         "zhCN": "%d%% 提高命中值(AR), 对",
         "sgCN": "%d%% 提高命中值(AR), 对",
         "sgTW": "%d%% 準確率(AR)，針對",
-        "bnCN": "%d%% 提高命中值, 对"
+        "bnCN": "%d%% 提高命中值(AR), 对"
     },
     "Moditemdamvsm": {
         "id": 10983,
@@ -2337,7 +2337,7 @@
         "zhCN": "%d%% 提高伤害(DMG), 对",
         "sgCN": "%d%% 提高伤害(DMG), 对",
         "sgTW": "%d%% 傷害(DMG)，針對",
-        "bnCN": "%d%% 提高伤害, 对"
+        "bnCN": "%d%% 提高伤害(DMG), 对"
     },
     "Moditemslayat": {
         "id": 10984,
@@ -2367,7 +2367,7 @@
         "zhCN": "-%d%% 敌人的冰霜抗性(-CR)",
         "sgCN": "-%d%% 敌人的冰霜抗性(-CR)",
         "sgTW": "敵人冰寒抗性(-CR) -%d%%",
-        "bnCN": "-%d%% 敌人的冰霜抗性"
+        "bnCN": "-%d%% 敌人的冰霜抗性(-CR)"
     },
     "Moditemenresfiresk": {
         "id": 10987,
@@ -2377,7 +2377,7 @@
         "zhCN": "-%d%% 敌人的火焰抗性(-FR)",
         "sgCN": "-%d%% 敌人的火焰抗性(-FR)",
         "sgTW": "敵人火焰抗性(-FR) -%d%%",
-        "bnCN": "-%d%% 敌人的火焰抗性"
+        "bnCN": "-%d%% 敌人的火焰抗性(-FR)"
     },
     "Moditemenresltngsk": {
         "id": 10988,
@@ -2387,7 +2387,7 @@
         "zhCN": "-%d%% 敌人的闪电抗性(-LR)",
         "sgCN": "-%d%% 敌人的闪电抗性(-LR)",
         "sgTW": "敵人電擊抗性(-LR) -%d%%",
-        "bnCN": "-%d%% 敌人的闪电抗性"
+        "bnCN": "-%d%% 敌人的闪电抗性(-LR)"
     },
     "Moditemenrespoissk": {
         "id": 10989,
@@ -2397,7 +2397,7 @@
         "zhCN": "-%d%% 敌人的毒素抗性(-PR)",
         "sgCN": "-%d%% 敌人的毒素抗性(-PR)",
         "sgTW": "敵人毒素抗性(-PR) -%d%%",
-        "bnCN": "-%d%% 敌人的毒素抗性"
+        "bnCN": "-%d%% 敌人的毒素抗性(-PR)"
     },
     "ModitemdamFiresk": {
         "id": 10990,
@@ -2407,7 +2407,7 @@
         "zhCN": "%+d%% 火焰技能伤害(FSD)",
         "sgCN": "%+d%% 火焰技能伤害(FSD)",
         "sgTW": "%+d%% 火焰技能傷害(FSD)",
-        "bnCN": "%+d%% 火焰技能伤害"
+        "bnCN": "%+d%% 火焰技能伤害(FSD)"
     },
     "ModitemdamColdsk": {
         "id": 10991,
@@ -2417,7 +2417,7 @@
         "zhCN": "%+d%% 冰霜技能伤害(CSD)",
         "sgCN": "%+d%% 冰霜技能伤害(CSD)",
         "sgTW": "%+d%% 冰寒技能傷害(CSD)",
-        "bnCN": "%+d%% 冰霜技能伤害"
+        "bnCN": "%+d%% 冰霜技能伤害(CSD)"
     },
     "ModitemdamLtngsk": {
         "id": 10992,
@@ -2427,7 +2427,7 @@
         "zhCN": "%+d%% 闪电技能伤害(LSD)",
         "sgCN": "%+d%% 闪电技能伤害(LSD)",
         "sgTW": "%+d%% 閃電技能傷害(LSD)",
-        "bnCN": "%+d%% 闪电技能伤害"
+        "bnCN": "%+d%% 闪电技能伤害(LSD)"
     },
     "ModitemdamPoissk": {
         "id": 10993,
@@ -2437,7 +2437,7 @@
         "zhCN": "%+d%% 毒素技能伤害(PSD)",
         "sgCN": "%+d%% 毒素技能伤害(PSD)",
         "sgTW": "%+d%% 毒素技能傷害(PSD)",
-        "bnCN": "%+d%% 毒素技能伤害"
+        "bnCN": "%+d%% 毒素技能伤害(PSD)"
     },
     "Moditemskondeath": {
         "id": 10994,
@@ -2487,7 +2487,7 @@
         "zhCN": "格挡几率(CTB): %d%%",
         "sgCN": "格挡几率(CTB): %d%%",
         "sgTW": "格擋機率(CTB)：%d%%",
-        "bnCN": "格挡几率: %d%%"
+        "bnCN": "格挡几率(CTB): %d%%"
     },
     "ModStr1w": {
         "id": 11032,
@@ -2497,7 +2497,7 @@
         "zhCN": "ÿc7%d%% 怪物额外掉落金币(EG)ÿc3",
         "sgCN": "ÿc7%d%% 怪物额外掉落金币(EG)ÿc3",
         "sgTW": "ÿc7怪物金幣掉落量提高(EG) %d%%ÿc3",
-        "bnCN": "%d%% 怪物额外掉落金币"
+        "bnCN": "ÿc7%d%% 怪物额外掉落金币(EG)ÿc3"
     },
     "ModStr1x": {
         "id": 11033,
@@ -2507,7 +2507,7 @@
         "zhCN": "ÿc7%d%% 额外几率获得魔法物品(MF)ÿc3",
         "sgCN": "ÿc7%d%% 额外几率获得魔法物品(MF)ÿc3",
         "sgTW": "ÿc7尋獲魔法物品機率提高(MF) %d%%ÿc3",
-        "bnCN": "%d%% 额外几率获得魔法物品"
+        "bnCN": "ÿc7%d%% 额外几率获得魔法物品(MF)ÿc3"
     },
     "ModStr3u": {
         "id": 11034,
@@ -2517,7 +2517,7 @@
         "zhCN": "%+d%% 几率命中使怪物逃跑(Flee)",
         "sgCN": "%+d%% 几率命中使怪物逃跑(Flee)",
         "sgTW": "%+d%% 機率擊中使怪物逃跑(Flee)",
-        "bnCN": "%+d%% 几率命中使怪物逃跑"
+        "bnCN": "%+d%% 几率命中使怪物逃跑(Flee)"
     },
     "ModStr4c": {
         "id": 11035,
@@ -2527,7 +2527,7 @@
         "zhCN": "%d%% 加成命中值(AR)",
         "sgCN": "%d%% 加成命中值(AR)",
         "sgTW": "%d%% 準確率加成(AR)",
-        "bnCN": "%d%% 加成命中值"
+        "bnCN": "%d%% 加成命中值(AR)"
     },
     "ModStr5r": {
         "id": 11036,
@@ -2537,7 +2537,7 @@
         "zhCN": "使目标减速(Slow) %d%%",
         "sgCN": "使目标减速(Slow) %d%%",
         "sgTW": "使目標減慢(Slow) %d%%",
-        "bnCN": "使目标减速 %d%%"
+        "bnCN": "使目标减速(Slow) %d%%"
     },
     "ModStr6f": {
         "id": 11037,
@@ -2557,7 +2557,7 @@
         "zhCN": "命中可致盲目标(HBT)",
         "sgCN": "命中可致盲目标(HBT)",
         "sgTW": "擊中使目標目盲(HBT)",
-        "bnCN": "命中可致盲目标"
+        "bnCN": "命中可致盲目标(HBT)"
     },
     "ExInsertSocketsX": {
         "id": 11080,
@@ -2587,7 +2587,7 @@
         "zhCN": "ÿc8%+d 刺客技能等级(ASN)ÿc3",
         "sgCN": "ÿc8%+d 刺客技能等级(ASN)ÿc3",
         "sgTW": "ÿc8%+d 刺客技能等級(ASN)ÿc3",
-        "bnCN": "%+d 刺客技能等级"
+        "bnCN": "ÿc8%+d 刺客技能等级(ASN)ÿc3"
     },
     "toa": {
         "id": 11163,
@@ -2627,7 +2627,7 @@
         "zhCN": "ÿc8%+d 德鲁伊技能等级(DRU)ÿc3",
         "sgCN": "ÿc8%+d 德鲁伊技能等级(DRU)ÿc3",
         "sgTW": "ÿc8%+d 德魯伊技能等級(DRU)ÿc3",
-        "bnCN": "%+d 德鲁伊技能等级"
+        "bnCN": "ÿc8%+d 德鲁伊技能等级(DRU)ÿc3"
     },
     "ModStre8c": {
         "id": 21207,
@@ -2647,7 +2647,7 @@
         "zhCN": "对恶魔的命中值(ARD)",
         "sgCN": "对恶魔的命中值(ARD)",
         "sgTW": "對惡魔的準確率(ARD)",
-        "bnCN": "对恶魔的命中值"
+        "bnCN": "对恶魔的命中值(ARD)"
     },
     "ModStre8e": {
         "id": 21209,
@@ -2657,7 +2657,7 @@
         "zhCN": "对亡灵的命中值(ARU)",
         "sgCN": "对亡灵的命中值(ARU)",
         "sgTW": "對不死怪物的準確率(ARU)",
-        "bnCN": "对亡灵的命中值"
+        "bnCN": "对亡灵的命中值(ARU)"
     },
     "ModStre8f": {
         "id": 21210,
@@ -2667,7 +2667,7 @@
         "zhCN": "对恶魔的伤害(DTD)",
         "sgCN": "对恶魔的伤害(DTD)",
         "sgTW": "對惡魔的傷害(DTD)",
-        "bnCN": "对恶魔的伤害"
+        "bnCN": "对恶魔的伤害(DTD)"
     },
     "ModStre8g": {
         "id": 21211,
@@ -2677,7 +2677,7 @@
         "zhCN": "%到命中值(AR)",
         "sgCN": "%到命中值(AR)",
         "sgTW": "% 準確率(AR)",
-        "bnCN": "%到命中值"
+        "bnCN": "%到命中值(AR)"
     },
     "ModStre8h": {
         "id": 21212,
@@ -3277,7 +3277,7 @@
         "zhCN": "受到的物理伤害降低(DR) %d%%",
         "sgCN": "受到的物理伤害降低(DR) %d%%",
         "sgTW": "受到的物理傷害降低(DR) %d%%",
-        "bnCN": "受到的物理伤害降低 %d%%"
+        "bnCN": "受到的物理伤害降低(DR) %d%%"
     },
     "ItemModifierClassSkill": {
         "id": 23004,
@@ -3427,7 +3427,7 @@
         "zhCN": "受到的物理伤害提高(DI) %d%%",
         "sgCN": "受到的物理伤害提高(DI) %d%%",
         "sgTW": "受到的物理傷害提高(DI) %d%%",
-        "bnCN": "受到的物理伤害提高 %d%%"
+        "bnCN": "受到的物理伤害提高(DI) %d%%"
     },
     "ModStr6k": {
         "id": 27371,
