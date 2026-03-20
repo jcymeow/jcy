@@ -92,6 +92,7 @@ PAL = "Pal"
 BAR = "Bar"
 DRU = "Dru"
 ASN = "Asn"
+WAR = "War"
 
 METHOD = "method"
 PARAMS = "params"
@@ -988,6 +989,7 @@ __all__ = [
     'BAR',
     'DRU',
     'ASN',
+    'WAR',
     'METHOD',
     'PARAMS',
     'PREPROCESS_METHOD',
