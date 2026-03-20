@@ -258,7 +258,7 @@
     "id": 1937,
     "Key": "qui",
     "enUS": "Quilted Armor|NormalLight",
-    "zhTW": "棉布甲¹|輕",
+    "zhTW": "棉布甲¹[輕]",
     "deDE": "[fs]leichte Rüstung",
     "esES": "[fs]Armadura acolchada",
     "frFR": "[fs]Armure matelassée",
@@ -269,13 +269,13 @@
     "jaJP": "キルテッド・アーマー",
     "ptBR": "[fs]Armadura Acolchoada",
     "ruRU": "[ms]стеганый доспех",
-    "zhCN": "棉布甲¹|輕"
+    "zhCN": "棉布甲¹[輕]"
   },
   {
     "id": 1938,
     "Key": "lea",
     "enUS": "Leather Armor|NormalLight",
-    "zhTW": "皮革甲¹|輕",
+    "zhTW": "皮革甲¹[輕]",
     "deDE": "[fs]Lederrüstung",
     "esES": "[fs]Armadura de cuero",
     "frFR": "[fs]Armure de cuir",
@@ -286,13 +286,13 @@
     "jaJP": "レザーアーマー",
     "ptBR": "[fs]Armadura de Couro",
     "ruRU": "[ms]кожаный доспех",
-    "zhCN": "皮革甲¹|輕"
+    "zhCN": "皮革甲¹[輕]"
   },
   {
     "id": 1939,
     "Key": "hla",
     "enUS": "Hard Leather Armor|NormalLight",
-    "zhTW": "硬皮甲¹|輕",
+    "zhTW": "硬皮甲¹[輕]",
     "deDE": "[ns]gehärtetes Leder",
     "esES": "[fs]Armadura de cuero duro",
     "frFR": "[fs]Armure de cuir bouilli",
@@ -303,13 +303,13 @@
     "jaJP": "ハードレザーアーマー",
     "ptBR": "[fs]Armadura de Couro Rígido",
     "ruRU": "[ms]плотный кожаный доспех",
-    "zhCN": "硬皮甲¹|輕"
+    "zhCN": "硬皮甲¹[輕]"
   },
   {
     "id": 1940,
     "Key": "stu",
     "enUS": "Studded Leather|NormalLight",
-    "zhTW": "鑲釘皮甲¹|輕",
+    "zhTW": "鑲釘皮甲¹[輕]",
     "deDE": "[ns]beschlagenes Leder",
     "esES": "[ms]Cuero tachonado",
     "frFR": "[fs]Armure en cuir clouté",
@@ -320,13 +320,13 @@
     "jaJP": "スタデッド・レザーアーマー",
     "ptBR": "[ms]Couro Cravejado",
     "ruRU": "[ms]клепаный кожаный доспех",
-    "zhCN": "鑲釘皮甲¹|輕"
+    "zhCN": "鑲釘皮甲¹[輕]"
   },
   {
     "id": 1941,
     "Key": "rng",
     "enUS": "Ring Mail|NormalMedium",
-    "zhTW": "環甲¹|中",
+    "zhTW": "環甲¹[中]",
     "deDE": "[ms]Ringpanzer",
     "esES": "[fs]Cota de anillos",
     "frFR": "[fs]Cotte de mailles",
@@ -337,13 +337,13 @@
     "jaJP": "リング・メイル",
     "ptBR": "[fs]Malha Anelada",
     "ruRU": "[ms]кольчатый доспех",
-    "zhCN": "環甲¹|中"
+    "zhCN": "環甲¹[中]"
   },
   {
     "id": 1942,
     "Key": "scl",
     "enUS": "Scale Mail|NormalHeavy",
-    "zhTW": "鱗甲¹|重",
+    "zhTW": "鱗甲¹[重]",
     "deDE": "[ms]Schuppenpanzer",
     "esES": "[fs]Cota de escamas",
     "frFR": "[fs]Armure en écaille",
@@ -354,13 +354,13 @@
     "jaJP": "スケイル・メイル",
     "ptBR": "[fs]Malha Escamada",
     "ruRU": "[ms]чешуйчатый доспех",
-    "zhCN": "鱗甲¹|重"
+    "zhCN": "鱗甲¹[重]"
   },
   {
     "id": 1943,
     "Key": "chn",
     "enUS": "Chain Mail|NormalMedium",
-    "zhTW": "鎖鍊甲¹|中",
+    "zhTW": "鎖鍊甲¹[中]",
     "deDE": "[ms]Kettenpanzer",
     "esES": "[fs]Cota de malla",
     "frFR": "[fs]Tunique de mailles",
@@ -371,13 +371,13 @@
     "jaJP": "チェイン・メイル",
     "ptBR": "[fs]Cota de Malha",
     "ruRU": "[ms]кольчужный доспех",
-    "zhCN": "鎖鍊甲¹|中"
+    "zhCN": "鎖鍊甲¹[中]"
   },
   {
     "id": 1944,
     "Key": "brs",
     "enUS": "Breast Plate|NormalLight",
-    "zhTW": "胸鎧¹|輕",
+    "zhTW": "胸鎧¹[輕]",
     "deDE": "[ms]Brustpanzer",
     "esES": "[fs]Coraza blindada",
     "frFR": "[fs]Cuirasse",
@@ -388,13 +388,13 @@
     "jaJP": "胸当て",
     "ptBR": "[fs]Placa Peitoral",
     "ruRU": "[fs]кираса",
-    "zhCN": "胸鎧¹|輕"
+    "zhCN": "胸鎧¹[輕]"
   },
   {
     "id": 1945,
     "Key": "spl",
     "enUS": "Splint Mail|NormalMedium",
-    "zhTW": "板甲¹|中",
+    "zhTW": "板甲¹[中]",
     "deDE": "[fs]Bänderrüstung",
     "esES": "[fs]Cota de láminas",
     "frFR": "[fs]Brigandine",
@@ -405,13 +405,13 @@
     "jaJP": "スプリント・メイル",
     "ptBR": "[fs]Armadura Escamada",
     "ruRU": "[ms]пластинчатый доспех",
-    "zhCN": "板甲¹|中"
+    "zhCN": "板甲¹[中]"
   },
   {
     "id": 1946,
     "Key": "plt",
     "enUS": "Plate Mail|NormalHeavy",
-    "zhTW": "鎧甲¹|重",
+    "zhTW": "鎧甲¹[重]",
     "deDE": "[ms]Plattenharnisch",
     "esES": "[fs]Cota de placas",
     "frFR": "[ms]Harnois en plaques",
@@ -422,13 +422,13 @@
     "jaJP": "プレート・メイル",
     "ptBR": "[fs]Armadura de Placas",
     "ruRU": "[ms]латный доспех",
-    "zhCN": "鎧甲¹|重"
+    "zhCN": "鎧甲¹[重]"
   },
   {
     "id": 1947,
     "Key": "fld",
     "enUS": "Field Plate|NormalMedium",
-    "zhTW": "野戰鎧甲¹|中",
+    "zhTW": "野戰鎧甲¹[中]",
     "deDE": "[ms]Feldharnisch",
     "esES": "[fs]Coraza de campaña",
     "frFR": "[ms]Harnois de guerre",
@@ -439,13 +439,13 @@
     "jaJP": "フィールド・プレート",
     "ptBR": "[fs]Armadura de Campo",
     "ruRU": "[ms]полевой латный доспех",
-    "zhCN": "野戰鎧甲¹|中"
+    "zhCN": "野戰鎧甲¹[中]"
   },
   {
     "id": 1948,
     "Key": "gth",
     "enUS": "Gothic Plate|NormalMedium",
-    "zhTW": "哥德鎧甲¹|中",
+    "zhTW": "哥德鎧甲¹[中]",
     "deDE": "[ms]Prunkharnisch",
     "esES": "[fs]Coraza gótica",
     "frFR": "[ms]Harnois gothique",
@@ -456,13 +456,13 @@
     "jaJP": "ゴシック・プレート",
     "ptBR": "[fs]Armadura Gótica",
     "ruRU": "[ms]готический доспех",
-    "zhCN": "哥德鎧甲¹|中"
+    "zhCN": "哥德鎧甲¹[中]"
   },
   {
     "id": 1949,
     "Key": "ful",
     "enUS": "Full Plate Mail|NormalHeavy",
-    "zhTW": "全身鎧甲¹|重",
+    "zhTW": "全身鎧甲¹[重]",
     "deDE": "[ms]voller Harnisch",
     "esES": "[fs]Cota de placas completa",
     "frFR": "[ms]Harnois complet",
@@ -473,13 +473,13 @@
     "jaJP": "フルプレート・メイル",
     "ptBR": "[fs]Armadura de Placas Integral",
     "ruRU": "[ms]полный латный доспех",
-    "zhCN": "全身鎧甲¹|重"
+    "zhCN": "全身鎧甲¹[重]"
   },
   {
     "id": 1950,
     "Key": "aar",
     "enUS": "Ancient Armor|NormalMedium",
-    "zhTW": "上古鎧甲¹|中",
+    "zhTW": "上古鎧甲¹[中]",
     "deDE": "[fs]alte Rüstung",
     "esES": "[fs]Armadura antigua",
     "frFR": "[fs]Armure ancienne",
@@ -490,13 +490,13 @@
     "jaJP": "エンシェント・アーマー",
     "ptBR": "[fs]Armadura Ancestral",
     "ruRU": "[ms]древний доспех",
-    "zhCN": "上古鎧甲¹|中"
+    "zhCN": "上古鎧甲¹[中]"
   },
   {
     "id": 1951,
     "Key": "ltp",
     "enUS": "Light Plate|NormalLight",
-    "zhTW": "輕型鎧甲¹|輕",
+    "zhTW": "輕型鎧甲¹[輕]",
     "deDE": "[fs]leichte Plattenrüstung",
     "esES": "[fs]Coraza ligera",
     "frFR": "[ms]Harnois léger",
@@ -507,13 +507,13 @@
     "jaJP": "ライトプレート",
     "ptBR": "[fs]Armadura Leve",
     "ruRU": "[ms]легкий латный доспех",
-    "zhCN": "輕型鎧甲¹|輕"
+    "zhCN": "輕型鎧甲¹[輕]"
   },
   {
     "id": 1952,
     "Key": "buc",
     "enUS": "Buckler|NormalLight",
-    "zhTW": "小圓盾¹|輕",
+    "zhTW": "小圓盾¹[輕]",
     "deDE": "[ms]Beschützer",
     "esES": "[ms]Broquel",
     "frFR": "[ms]Écu",
@@ -524,13 +524,13 @@
     "jaJP": "バックラー",
     "ptBR": "[ms]Broquel",
     "ruRU": "[ms]баклер",
-    "zhCN": "小圓盾¹|輕"
+    "zhCN": "小圓盾¹[輕]"
   },
   {
     "id": 1953,
     "Key": "sml",
     "enUS": "Small Shield|NormalLight",
-    "zhTW": "小型盾¹|輕",
+    "zhTW": "小型盾¹[輕]",
     "deDE": "[ms]kleiner Schild",
     "esES": "[ms]Escudo pequeño",
     "frFR": "[ms]Petit bouclier",
@@ -541,13 +541,13 @@
     "jaJP": "小盾",
     "ptBR": "[ms]Escudo Pequeno",
     "ruRU": "[ms]маленький щит",
-    "zhCN": "小型盾¹|輕"
+    "zhCN": "小型盾¹[輕]"
   },
   {
     "id": 1954,
     "Key": "lrg",
     "enUS": "Large Shield|NormalMedium",
-    "zhTW": "大型盾¹|中",
+    "zhTW": "大型盾¹[中]",
     "deDE": "[ms]großer Schild",
     "esES": "[ms]Escudo grande",
     "frFR": "[ms]Grand bouclier",
@@ -558,13 +558,13 @@
     "jaJP": "大盾",
     "ptBR": "[ms]Escudo Grande",
     "ruRU": "[ms]большой щит",
-    "zhCN": "大型盾¹|中"
+    "zhCN": "大型盾¹[中]"
   },
   {
     "id": 1955,
     "Key": "kit",
     "enUS": "Kite Shield|NormalLight",
-    "zhTW": "鳶盾¹|輕",
+    "zhTW": "鳶盾¹[輕]",
     "deDE": "[ms]eckiger Schild",
     "esES": "[ms]Escudo de lágrima",
     "frFR": "[ms]Grand écu",
@@ -575,13 +575,13 @@
     "jaJP": "カイト・シールド",
     "ptBR": "[ms]Escudo Reforçado",
     "ruRU": "[ms]каплевидный щит",
-    "zhCN": "鳶盾¹|輕"
+    "zhCN": "鳶盾¹[輕]"
   },
   {
     "id": 1956,
     "Key": "tow",
     "enUS": "Tower Shield|NormalHeavy",
-    "zhTW": "塔盾¹|重",
+    "zhTW": "塔盾¹[重]",
     "deDE": "[ms]hoher Schild",
     "esES": "[fs]Tarja",
     "frFR": "[ms]Bouclier rectangulaire",
@@ -592,13 +592,13 @@
     "jaJP": "タワー・シールド",
     "ptBR": "[ms]Escudo Torre",
     "ruRU": "[ms]осадный щит",
-    "zhCN": "塔盾¹|重"
+    "zhCN": "塔盾¹[重]"
   },
   {
     "id": 1957,
     "Key": "gts",
     "enUS": "Gothic Shield|NormalMedium",
-    "zhTW": "哥德盾¹|中",
+    "zhTW": "哥德盾¹[中]",
     "deDE": "[ms]Prunkschild",
     "esES": "[ms]Escudo gótico",
     "frFR": "[ms]Bouclier gothique",
@@ -609,7 +609,7 @@
     "jaJP": "ゴシック・シールド",
     "ptBR": "[ms]Escudo Gótico",
     "ruRU": "[ms]готический щит",
-    "zhCN": "哥德盾¹|中"
+    "zhCN": "哥德盾¹[中]"
   },
   {
     "id": 1958,
@@ -887,7 +887,7 @@
     "id": 1974,
     "Key": "bsh",
     "enUS": "Bone Shield|NormalLight",
-    "zhTW": "骨盾¹|輕",
+    "zhTW": "骨盾¹[輕]",
     "deDE": "[ms]Knochenschild",
     "esES": "[ms]Escudo de hueso",
     "frFR": "[ms]Bouclier en os",
@@ -898,13 +898,13 @@
     "jaJP": "ボーン・シールド",
     "ptBR": "[ms]Escudo Ósseo",
     "ruRU": "[ms]костяной щит",
-    "zhCN": "骨盾¹|輕"
+    "zhCN": "骨盾¹[輕]"
   },
   {
     "id": 1975,
     "Key": "spk",
     "enUS": "Spiked Shield|NormalLight",
-    "zhTW": "尖刺盾¹|輕",
+    "zhTW": "尖刺盾¹[輕]",
     "deDE": "[ms]Dornenschild",
     "esES": "[ms]Escudo con pinchos",
     "frFR": "[ms]Bouclier à pointes",
@@ -915,7 +915,7 @@
     "jaJP": "スパイク・シールド",
     "ptBR": "[ms]Escudo com Espetos",
     "ruRU": "[ms]шипастый щит",
-    "zhCN": "尖刺盾¹|輕"
+    "zhCN": "尖刺盾¹[輕]"
   },
   {
     "id": 1976,
@@ -2281,7 +2281,7 @@
     "id": 2056,
     "Key": "xpk",
     "enUS": "Barbed Shield|ExceptionalLight",
-    "zhTW": "倒刺盾²|輕",
+    "zhTW": "倒刺盾²[輕]",
     "deDE": "[ms]Stachelschild",
     "esES": "[ms]Escudo con púas",
     "frFR": "[ms]Bouclier barbelé",
@@ -2292,13 +2292,13 @@
     "jaJP": "バーブド・シールド",
     "ptBR": "[ms]Escudo Farpado",
     "ruRU": "[ms]колючий щит",
-    "zhCN": "倒刺盾²|輕"
+    "zhCN": "倒刺盾²[輕]"
   },
   {
     "id": 2057,
     "Key": "xsh",
     "enUS": "Grim Shield|ExceptionalLight",
-    "zhTW": "陰森盾牌²|輕",
+    "zhTW": "陰森盾牌²[輕]",
     "deDE": "[ms]Kampfschild",
     "esES": "[ms]Escudo lúgubre",
     "frFR": "[ms]Bouclier macabre",
@@ -2309,7 +2309,7 @@
     "jaJP": "グリム・シールド",
     "ptBR": "[ms]Escudo Sinistro",
     "ruRU": "[ms]жуткий щит",
-    "zhCN": "陰森盾牌²|輕"
+    "zhCN": "陰森盾牌²[輕]"
   },
   {
     "id": 2058,
@@ -2570,7 +2570,7 @@
     "id": 2074,
     "Key": "xts",
     "enUS": "Ancient Shield|ExceptionalMedium",
-    "zhTW": "上古盾²|中",
+    "zhTW": "上古盾²[中]",
     "deDE": "[ms]alter Schild",
     "esES": "[ms]Escudo antiguo",
     "frFR": "[ms]Bouclier ancien",
@@ -2581,13 +2581,13 @@
     "jaJP": "エンシェント・シールド",
     "ptBR": "[ms]Escudo Ancestral",
     "ruRU": "[ms]древний щит",
-    "zhCN": "上古盾²|中"
+    "zhCN": "上古盾²[中]"
   },
   {
     "id": 2075,
     "Key": "xow",
     "enUS": "Pavise|ExceptionalHeavy",
-    "zhTW": "大盾²|重",
+    "zhTW": "大盾²[重]",
     "deDE": "[ms]Pavese",
     "esES": "[ms]Pavés",
     "frFR": "[ms]Pavois",
@@ -2598,13 +2598,13 @@
     "jaJP": "パヴィース",
     "ptBR": "[ms]Pavis",
     "ruRU": "[fs]павеза",
-    "zhCN": "大盾²|重"
+    "zhCN": "大盾²[重]"
   },
   {
     "id": 2076,
     "Key": "xit",
     "enUS": "Dragon Shield|ExceptionalLight",
-    "zhTW": "龍盾²|輕",
+    "zhTW": "龍盾²[輕]",
     "deDE": "[ms]Drachenschild",
     "esES": "[ms]Escudo de dragón",
     "frFR": "[ms]Bouclier de dragon",
@@ -2615,13 +2615,13 @@
     "jaJP": "ドラゴン・シールド",
     "ptBR": "[ms]Escudo Dracônico",
     "ruRU": "[ms]драконий щит",
-    "zhCN": "龍盾²|輕"
+    "zhCN": "龍盾²[輕]"
   },
   {
     "id": 2077,
     "Key": "xrg",
     "enUS": "Scutum|ExceptionalMedium",
-    "zhTW": "大圓盾²|中",
+    "zhTW": "大圓盾²[中]",
     "deDE": "[ms]Scutum",
     "esES": "[ms]Scutum",
     "frFR": "[ms]Scutum",
@@ -2632,13 +2632,13 @@
     "jaJP": "スクトゥム",
     "ptBR": "[ms]Scutum",
     "ruRU": "[ms]скутум",
-    "zhCN": "大圓盾²|中"
+    "zhCN": "大圓盾²[中]"
   },
   {
     "id": 2078,
     "Key": "xml",
     "enUS": "Round Shield|ExceptionalLight",
-    "zhTW": "圓型盾²|輕",
+    "zhTW": "圓型盾²[輕]",
     "deDE": "[ms]Rundschild",
     "esES": "[ms]Escudo redondo",
     "frFR": "[ms]Bouclier rond",
@@ -2649,13 +2649,13 @@
     "jaJP": "ラウンド・シールド",
     "ptBR": "[ms]Escudo Redondo",
     "ruRU": "[ms]круглый щит",
-    "zhCN": "圓型盾²|輕"
+    "zhCN": "圓型盾²[輕]"
   },
   {
     "id": 2079,
     "Key": "xuc",
     "enUS": "Defender|ExceptionalLight",
-    "zhTW": "防禦盾²|輕",
+    "zhTW": "防禦盾²[輕]",
     "deDE": "[ms]Verteidiger",
     "esES": "[ms]Defensor",
     "frFR": "[ms]Défenseur",
@@ -2666,13 +2666,13 @@
     "jaJP": "ディフェンダー",
     "ptBR": "[ms]Defensor",
     "ruRU": "[ms]защитник",
-    "zhCN": "防禦盾²|輕"
+    "zhCN": "防禦盾²[輕]"
   },
   {
     "id": 2080,
     "Key": "xtp",
     "enUS": "Mage Plate|ExceptionalLight[③][261]",
-    "zhTW": "法師鎧甲²|輕[③][261]",
+    "zhTW": "法師鎧甲²[輕][③][261]",
     "deDE": "[fs]Magierplattenrüstung",
     "esES": "[fs]Coraza de mago",
     "frFR": "[fs]Harnois de mage",
@@ -2683,13 +2683,13 @@
     "jaJP": "メイジ・プレート",
     "ptBR": "[fs]Armadura de Mago",
     "ruRU": "[ms]магический доспех",
-    "zhCN": "法師鎧甲²|輕[③][261]"
+    "zhCN": "法師鎧甲²[輕][③][261]"
   },
   {
     "id": 2081,
     "Key": "xar",
     "enUS": "Ornate Plate|ExceptionalMedium",
-    "zhTW": "華麗戰甲²|中",
+    "zhTW": "華麗戰甲²[中]",
     "deDE": "[fs]verzierte Plattenrüstung",
     "esES": "[fs]Coraza ornada",
     "frFR": "[ms]Harnois orné",
@@ -2700,13 +2700,13 @@
     "jaJP": "オーネイト・プレート",
     "ptBR": "[fs]Armadura Ornamentada",
     "ruRU": "[ms]изукрашенный доспех",
-    "zhCN": "華麗戰甲²|中"
+    "zhCN": "華麗戰甲²[中]"
   },
   {
     "id": 2082,
     "Key": "xul",
     "enUS": "Chaos Armor|ExceptionalHeavy",
-    "zhTW": "混沌戰甲²|重",
+    "zhTW": "混沌戰甲²[重]",
     "deDE": "[fs]Chaosrüstung",
     "esES": "[fs]Armadura del caos",
     "frFR": "[fs]Armure de chaos",
@@ -2717,13 +2717,13 @@
     "jaJP": "カオス・アーマー",
     "ptBR": "[fs]Armadura do Caos",
     "ruRU": "[ms]хаотический доспех",
-    "zhCN": "混沌戰甲²|重"
+    "zhCN": "混沌戰甲²[重]"
   },
   {
     "id": 2083,
     "Key": "xth",
     "enUS": "Embossed Plate|ExceptionalMedium",
-    "zhTW": "雕紋戰甲²|中",
+    "zhTW": "雕紋戰甲²[中]",
     "deDE": "[fs]gravierte Plattenrüstung",
     "esES": "[fs]Coraza repujada",
     "frFR": "[ms]Harnois estampé",
@@ -2734,13 +2734,13 @@
     "jaJP": "エンボス・プレート",
     "ptBR": "[fs]Armadura em Relevo",
     "ruRU": "[ms]гравированный доспех",
-    "zhCN": "雕紋戰甲²|中"
+    "zhCN": "雕紋戰甲²[中]"
   },
   {
     "id": 2084,
     "Key": "xld",
     "enUS": "Sharktooth Armor|ExceptionalMedium",
-    "zhTW": "鯊齒戰甲²|中",
+    "zhTW": "鯊齒戰甲²[中]",
     "deDE": "[fs]Haizahnrüstung",
     "esES": "[fs]Armadura de dientes de tiburón",
     "frFR": "[fs]Armure en dents de requin",
@@ -2751,13 +2751,13 @@
     "jaJP": "シャークトゥース・アーマー",
     "ptBR": "[fs]Armadura de Dente de Tubarão",
     "ruRU": "[ms]акулий доспех",
-    "zhCN": "鯊齒戰甲²|中"
+    "zhCN": "鯊齒戰甲²[中]"
   },
   {
     "id": 2085,
     "Key": "xlt",
     "enUS": "Templar Coat|ExceptionalHeavy",
-    "zhTW": "聖堂騎士戰甲²|重",
+    "zhTW": "聖堂騎士戰甲²[重]",
     "deDE": "[ms]Templermantel",
     "esES": "[fs]Cota templaria",
     "frFR": "[fs]Cotte de templier",
@@ -2768,13 +2768,13 @@
     "jaJP": "テンペラー・コート",
     "ptBR": "[fs]Cota Templária",
     "ruRU": "[ms]тамплиерский мундир",
-    "zhCN": "聖堂騎士戰甲²|重"
+    "zhCN": "聖堂騎士戰甲²[重]"
   },
   {
     "id": 2086,
     "Key": "xpl",
     "enUS": "Russet Armor|ExceptionalMedium",
-    "zhTW": "赤褐戰甲²|中",
+    "zhTW": "赤褐戰甲²[中]",
     "deDE": "[fs]Eisenrüstung",
     "esES": "[fs]Armadura rojiza",
     "frFR": "[fs]Armure rousse",
@@ -2785,13 +2785,13 @@
     "jaJP": "ラセット・アーマー",
     "ptBR": "[fs]Armadura Avermelhada",
     "ruRU": "[ms]терракотовый доспех",
-    "zhCN": "赤褐戰甲²|中"
+    "zhCN": "赤褐戰甲²[中]"
   },
   {
     "id": 2087,
     "Key": "xrs",
     "enUS": "Cuirass|ExceptionalLight",
-    "zhTW": "護胸甲²|輕",
+    "zhTW": "護胸甲²[輕]",
     "deDE": "[ms]Harnisch",
     "esES": "[ms]Peto",
     "frFR": "[fs]Cuirasse",
@@ -2802,13 +2802,13 @@
     "jaJP": "キュイラス",
     "ptBR": "[fs]Couraça",
     "ruRU": "[fs]кираса",
-    "zhCN": "護胸甲²|輕"
+    "zhCN": "護胸甲²[輕]"
   },
   {
     "id": 2088,
     "Key": "xhn",
     "enUS": "Mesh Armor|ExceptionalMedium",
-    "zhTW": "鐵網戰甲²|中",
+    "zhTW": "鐵網戰甲²[中]",
     "deDE": "[fs]Kettenrüstung",
     "esES": "[fs]Armadura mallada",
     "frFR": "[fs]Armure maillée",
@@ -2819,13 +2819,13 @@
     "jaJP": "メッシュ・アーマー",
     "ptBR": "[fs]Armadura de Malha",
     "ruRU": "[ms]сетчатый доспех",
-    "zhCN": "鐵網戰甲²|中"
+    "zhCN": "鐵網戰甲²[中]"
   },
   {
     "id": 2089,
     "Key": "xcl",
     "enUS": "Tigulated Mail|ExceptionalHeavy",
-    "zhTW": "鎖鱗戰甲²|重",
+    "zhTW": "鎖鱗戰甲²[重]",
     "deDE": "[ns]Komplettpanzerhemd",
     "esES": "[fs]Cota articulada",
     "frFR": "[fs]Cotte de mailles tigulée",
@@ -2836,13 +2836,13 @@
     "jaJP": "ティギュレイテッド・メイル",
     "ptBR": "[fs]Malha Grumosa",
     "ruRU": "[ms]черепичный доспех",
-    "zhCN": "鎖鱗戰甲²|重"
+    "zhCN": "鎖鱗戰甲²[重]"
   },
   {
     "id": 2090,
     "Key": "xng",
     "enUS": "Linked Mail|ExceptionalMedium",
-    "zhTW": "鍊扣戰甲²|中",
+    "zhTW": "鍊扣戰甲²[中]",
     "deDE": "[ns]Verbundkettenhemd",
     "esES": "[fs]Cota eslabonada",
     "frFR": "[fs]Cotte de mailles liée",
@@ -2853,13 +2853,13 @@
     "jaJP": "リンクド・メイル",
     "ptBR": "[fs]Malha Articulada",
     "ruRU": "[fs]клепаная кольчуга",
-    "zhCN": "鍊扣戰甲²|中"
+    "zhCN": "鍊扣戰甲²[中]"
   },
   {
     "id": 2091,
     "Key": "xtu",
     "enUS": "Trellised Armor|ExceptionalLight",
-    "zhTW": "格網護甲²|輕",
+    "zhTW": "格網護甲²[輕]",
     "deDE": "[fs]Bänderrüstung",
     "esES": "[fs]Armadura enrejada",
     "frFR": "[fs]Armure treillissée",
@@ -2870,13 +2870,13 @@
     "jaJP": "トレリスド・アーマー",
     "ptBR": "[fs]Armadura Trançada",
     "ruRU": "[ms]сетчатый доспех",
-    "zhCN": "格網護甲²|輕"
+    "zhCN": "格網護甲²[輕]"
   },
   {
     "id": 2092,
     "Key": "xla",
     "enUS": "Demonhide Armor|ExceptionalLight",
-    "zhTW": "魔皮護甲²|輕",
+    "zhTW": "魔皮護甲²[輕]",
     "deDE": "[fs]Dämonenlederrüstung",
     "esES": "[fs]Armadura de cuero de demonio",
     "frFR": "[fs]Armure en cuir de démon",
@@ -2887,13 +2887,13 @@
     "jaJP": "魔獣革アーマー",
     "ptBR": "[fs]Armadura de Couro de Demônio",
     "ruRU": "[ms]демонический кожаный доспех",
-    "zhCN": "魔皮護甲²|輕"
+    "zhCN": "魔皮護甲²[輕]"
   },
   {
     "id": 2093,
     "Key": "xea",
     "enUS": "Serpentskin Armor|ExceptionalLight",
-    "zhTW": "海蛇皮甲²|輕",
+    "zhTW": "海蛇皮甲²[輕]",
     "deDE": "[fs]Schlangenlederrüstung",
     "esES": "[fs]Armadura de piel de serpiente",
     "frFR": "[fs]Armure en peau de serpent",
@@ -2904,13 +2904,13 @@
     "jaJP": "蛇革アーマー",
     "ptBR": "[fs]Armadura de Couro de Serpente",
     "ruRU": "[ms]змеиный доспех",
-    "zhCN": "海蛇皮甲²|輕"
+    "zhCN": "海蛇皮甲²[輕]"
   },
   {
     "id": 2094,
     "Key": "xui",
     "enUS": "Ghost Armor|ExceptionalLight",
-    "zhTW": "鬼魂戰衣²|輕",
+    "zhTW": "鬼魂戰衣²[輕]",
     "deDE": "[fs]Geisterrüstung",
     "esES": "[fs]Armadura fantasmal",
     "frFR": "[fs]Armure fantôme",
@@ -2921,7 +2921,7 @@
     "jaJP": "ゴースト・アーマー",
     "ptBR": "[fs]Armadura Fantasma",
     "ruRU": "[ms]призрачный доспех",
-    "zhCN": "鬼魂戰衣²|輕"
+    "zhCN": "鬼魂戰衣²[輕]"
   },
   {
     "id": 2095,
@@ -12294,7 +12294,7 @@
     "id": 11006,
     "Key": "neg",
     "enUS": "Hellspawn Skull|EliteLight",
-    "zhTW": "地獄爪牙顱骨³|輕",
+    "zhTW": "地獄爪牙顱骨³[輕]",
     "deDE": "[ms]Höllenbrutschädel",
     "esES": "[ms]Cráneo del averno",
     "frFR": "[ms]Crâne de l’engeance infernale",
@@ -12305,7 +12305,7 @@
     "jaJP": "ヘルスポーン・スカル",
     "ptBR": "[fs]Caveira de Cria Infernal",
     "ruRU": "[ms]череп отродья Тьмы",
-    "zhCN": "地獄爪牙顱骨³|輕"
+    "zhCN": "地獄爪牙顱骨³[輕]"
   },
   {
     "id": 11008,
@@ -15048,7 +15048,7 @@
     "id": 20327,
     "Key": "pa1",
     "enUS": "Targe|NormalLight",
-    "zhTW": "小盾¹|輕",
+    "zhTW": "小盾¹[輕]",
     "deDE": "[fs]Targe",
     "esES": "[fs]Adarga",
     "frFR": "[fs]Targe",
@@ -15059,13 +15059,13 @@
     "jaJP": "タージ",
     "ptBR": "[fs]Targa",
     "ruRU": "[ms]тарджет",
-    "zhCN": "小盾¹|輕"
+    "zhCN": "小盾¹[輕]"
   },
   {
     "id": 20328,
     "Key": "pa2",
     "enUS": "Rondache|NormalLight",
-    "zhTW": "輕圓盾¹|輕",
+    "zhTW": "輕圓盾¹[輕]",
     "deDE": "[fs]Rondache",
     "esES": "[fs]Rodela",
     "frFR": "[fs]Rondache",
@@ -15076,13 +15076,13 @@
     "jaJP": "ロンダッシュ",
     "ptBR": "[ms]Rondache",
     "ruRU": "[ms]рондаш",
-    "zhCN": "輕圓盾¹|輕"
+    "zhCN": "輕圓盾¹[輕]"
   },
   {
     "id": 20329,
     "Key": "pa3",
     "enUS": "Heraldic Shield|NormalLight",
-    "zhTW": "紋章盾¹|輕",
+    "zhTW": "紋章盾¹[輕]",
     "deDE": "[ms]Wappenschild",
     "esES": "[ms]Escudo heráldico",
     "frFR": "[ms]Bouclier héraldique",
@@ -15093,13 +15093,13 @@
     "jaJP": "ヘラルディック・シールド",
     "ptBR": "[ms]Escudo Heráldico",
     "ruRU": "[ms]геральдический щит",
-    "zhCN": "紋章盾¹|輕"
+    "zhCN": "紋章盾¹[輕]"
   },
   {
     "id": 20330,
     "Key": "pa4",
     "enUS": "Aerin Shield|NormalLight",
-    "zhTW": "艾文之盾¹|輕",
+    "zhTW": "艾文之盾¹[輕]",
     "deDE": "[ms]Aerins Schild",
     "esES": "[ms]Escudo aerin",
     "frFR": "[ms]Bouclier d’Aerin",
@@ -15110,13 +15110,13 @@
     "jaJP": "エアリン・シールド",
     "ptBR": "[ms]Escudo Aerin",
     "ruRU": "[ms]Эринов щит",
-    "zhCN": "艾文之盾¹|輕"
+    "zhCN": "艾文之盾¹[輕]"
   },
   {
     "id": 20331,
     "Key": "pa5",
     "enUS": "Crown Shield|NormalLight",
-    "zhTW": "冠冕之盾¹|輕",
+    "zhTW": "冠冕之盾¹[輕]",
     "deDE": "[ms]Kronenschild",
     "esES": "[ms]Escudo de la corona",
     "frFR": "[ms]Bouclier de la couronne",
@@ -15127,13 +15127,13 @@
     "jaJP": "クラウン・シールド",
     "ptBR": "[ms]Escudo da Coroa",
     "ruRU": "[ms]королевский щит",
-    "zhCN": "冠冕之盾¹|輕"
+    "zhCN": "冠冕之盾¹[輕]"
   },
   {
     "id": 20332,
     "Key": "ne1",
     "enUS": "Preserved Head|NormalLight",
-    "zhTW": "防腐頭顱¹|輕",
+    "zhTW": "防腐頭顱¹[輕]",
     "deDE": "[ms]Konservierter Kopf",
     "esES": "[fs]Cabeza preservada",
     "frFR": "[fs]Tête préservée",
@@ -15144,13 +15144,13 @@
     "jaJP": "プリザーブド・ヘッド",
     "ptBR": "[fs]Cabeça Preservada",
     "ruRU": "[fs]забальзамированная голова",
-    "zhCN": "防腐頭顱¹|輕"
+    "zhCN": "防腐頭顱¹[輕]"
   },
   {
     "id": 20333,
     "Key": "ne2",
     "enUS": "Zombie Head|NormalLight",
-    "zhTW": "殭屍頭顱¹|輕",
+    "zhTW": "殭屍頭顱¹[輕]",
     "deDE": "[ms]Zombiekopf",
     "esES": "[fs]Cabeza de zombi",
     "frFR": "[fs]Tête de zombie",
@@ -15161,13 +15161,13 @@
     "jaJP": "ゾンビ・ヘッド",
     "ptBR": "[fs]Cabeça Zumbi",
     "ruRU": "[fs]голова зомби",
-    "zhCN": "殭屍頭顱¹|輕"
+    "zhCN": "殭屍頭顱¹[輕]"
   },
   {
     "id": 20334,
     "Key": "ne3",
     "enUS": "Unraveller Head|NormalLight",
-    "zhTW": "解繃者頭顱¹|輕",
+    "zhTW": "解繃者頭顱¹[輕]",
     "deDE": "[ms]Zersetzerkopf",
     "esES": "[fs]Cabeza de desenredador",
     "frFR": "[fs]Tête décomposée",
@@ -15178,13 +15178,13 @@
     "jaJP": "アンラヴェラー・ヘッド",
     "ptBR": "[fs]Cabeça de Desfiador",
     "ruRU": "[fs]голова развоплотителя",
-    "zhCN": "解繃者頭顱¹|輕"
+    "zhCN": "解繃者頭顱¹[輕]"
   },
   {
     "id": 20335,
     "Key": "ne4",
     "enUS": "Gargoyle Head|NormalLight",
-    "zhTW": "石像鬼頭顱¹|輕",
+    "zhTW": "石像鬼頭顱¹[輕]",
     "deDE": "[ms]Gargoylekopf",
     "esES": "[fs]Cabeza de gárgola",
     "frFR": "[fs]Tête de gargouille",
@@ -15195,13 +15195,13 @@
     "jaJP": "ガーゴイル・ヘッド",
     "ptBR": "[fs]Cabeça de Gárgula",
     "ruRU": "[fs]голова горгульи",
-    "zhCN": "石像鬼頭顱¹|輕"
+    "zhCN": "石像鬼頭顱¹[輕]"
   },
   {
     "id": 20336,
     "Key": "ne5",
     "enUS": "Demon Head|NormalLight",
-    "zhTW": "惡魔頭顱¹|輕",
+    "zhTW": "惡魔頭顱¹[輕]",
     "deDE": "[ms]Dämonenkopf",
     "esES": "[fs]Cabeza de demonio",
     "frFR": "[fs]Tête de démon",
@@ -15212,7 +15212,7 @@
     "jaJP": "デーモン・ヘッド",
     "ptBR": "[fs]Cabeça de Demônio",
     "ruRU": "[fs]голова демона",
-    "zhCN": "惡魔頭顱¹|輕"
+    "zhCN": "惡魔頭顱¹[輕]"
   },
   {
     "id": 20337,
@@ -15405,7 +15405,7 @@
     "id": 20348,
     "Key": "uui",
     "enUS": "Dusk Shroud|EliteLight[③④][467/E700]",
-    "zhTW": "灰暮罩衣³|輕[③④][467/E700]",
+    "zhTW": "灰暮罩衣³[輕][③④][467/E700]",
     "deDE": "[ms]Dämmerschleier",
     "esES": "[fs]Mortaja del crepúsculo",
     "frFR": "[ms]Linceul crépusculaire",
@@ -15416,13 +15416,13 @@
     "jaJP": "ダスク・シュラウド",
     "ptBR": "[fs]Mortalha Crepuscular",
     "ruRU": "[fs]сумеречная пелена",
-    "zhCN": "灰暮罩衣³|輕[③④][467/E700]"
+    "zhCN": "灰暮罩衣³[輕][③④][467/E700]"
   },
   {
     "id": 20349,
     "Key": "uea",
     "enUS": "Wyrmhide|EliteLight[③④][470/E705]",
-    "zhTW": "龍皮甲³|輕[③④][470/E705]",
+    "zhTW": "龍皮甲³[輕][③④][470/E705]",
     "deDE": "[ns]Wyrmleder",
     "esES": "[ms]Cuero de vermis",
     "frFR": "[fs]Peau de wyrm",
@@ -15433,13 +15433,13 @@
     "jaJP": "ウィルムハイド",
     "ptBR": "[ms]Couro de Serpe",
     "ruRU": "[fs]змеиная кожа",
-    "zhCN": "龍皮甲³|輕[③④][470/E705]"
+    "zhCN": "龍皮甲³[輕][③④][470/E705]"
   },
   {
     "id": 20350,
     "Key": "ula",
     "enUS": "Scarab Husk|EliteLight[③④][474/E711]",
-    "zhTW": "聖甲蟲殼皮甲³|輕[③④][474/E711]",
+    "zhTW": "聖甲蟲殼皮甲³[輕][③④][474/E711]",
     "deDE": "[fs]Skarabäusschale",
     "esES": "[mp]Élitros de alfazaque",
     "frFR": "[fs]Carapace de scarabée",
@@ -15450,13 +15450,13 @@
     "jaJP": "スカラベ・ハスク",
     "ptBR": "[fs]Casca de Escaravelho",
     "ruRU": "[ms]панцирь скарабея",
-    "zhCN": "聖甲蟲殼皮甲³|輕[③④][474/E711]"
+    "zhCN": "聖甲蟲殼皮甲³[輕][③④][474/E711]"
   },
   {
     "id": 20351,
     "Key": "utu",
     "enUS": "Wire Fleece|EliteLight[③④][481/E721]",
-    "zhTW": "鋼線毛皮甲³|輕[③④][481/E721]",
+    "zhTW": "鋼線毛皮甲³[輕][③④][481/E721]",
     "deDE": "[ns]Drahtvlies",
     "esES": "[fs]Lana de alambre",
     "frFR": "[fs]Toison métallique",
@@ -15467,13 +15467,13 @@
     "jaJP": "ワイヤー・フリース",
     "ptBR": "[fs]Trama Interligada",
     "ruRU": "[fs]плетеная безрукавка",
-    "zhCN": "鋼線毛皮甲³|輕[③④][481/E721]"
+    "zhCN": "鋼線毛皮甲³[輕][③④][481/E721]"
   },
   {
     "id": 20352,
     "Key": "ung",
     "enUS": "Diamond Mail|EliteMedium[③④][489/E733]",
-    "zhTW": "鑽石鎖甲³|中[③④][489/E733]",
+    "zhTW": "鑽石鎖甲³[中][③④][489/E733]",
     "deDE": "[ns]Diamantpanzerhemd",
     "esES": "[fs]Cota de diamante",
     "frFR": "[fs]Cotte de mailles diamantine",
@@ -15484,13 +15484,13 @@
     "jaJP": "ダイヤモンド・メイル",
     "ptBR": "[fs]Malha Diamante",
     "ruRU": "[fs]алмазная кольчуга",
-    "zhCN": "鑽石鎖甲³|中[③④][489/E733]"
+    "zhCN": "鑽石鎖甲³[中][③④][489/E733]"
   },
   {
     "id": 20353,
     "Key": "ucl",
     "enUS": "Loricated Mail|EliteHeavy[③④][496/E744]",
-    "zhTW": "綴鱗戰甲³|重[③④][496/E744]",
+    "zhTW": "綴鱗戰甲³[重][③④][496/E744]",
     "deDE": "[ns]Kürasspanzerhemd",
     "esES": "[fs]Cota lorigada",
     "frFR": "[fs]Lorica de mailles",
@@ -15501,13 +15501,13 @@
     "jaJP": "ロリケイテッド・メイル",
     "ptBR": "[fs]Malha Revestida",
     "ruRU": "[ms]панцирный доспех",
-    "zhCN": "綴鱗戰甲³|重[③④][496/E744]"
+    "zhCN": "綴鱗戰甲³[重][③④][496/E744]"
   },
   {
     "id": 20354,
     "Key": "uhn",
     "enUS": "Boneweave|EliteMedium[③④][505/E757]",
-    "zhTW": "骸骨網甲³|中[③④][505/E757]",
+    "zhTW": "骸骨網甲³[中][③④][505/E757]",
     "deDE": "[ns]Knochengespinst",
     "esES": "[ms]Malla de hueso",
     "frFR": "[fs]Armure en plaques d’os",
@@ -15518,13 +15518,13 @@
     "jaJP": "ボーンウィーブ",
     "ptBR": "[fs]Osteotrama",
     "ruRU": "[fs]плетеная кость",
-    "zhCN": "骸骨網甲³|中[③④][505/E757]"
+    "zhCN": "骸骨網甲³[中][③④][505/E757]"
   },
   {
     "id": 20355,
     "Key": "urs",
     "enUS": "Great Hauberk|EliteLight[③④][501/E751]",
-    "zhTW": "鱗鎧胸甲³|輕[③④][501/E751]",
+    "zhTW": "鱗鎧胸甲³[輕][③④][501/E751]",
     "deDE": "[fs]Große Halsberge",
     "esES": "[fs]Gran loriga",
     "frFR": "[ms]Grand haubert",
@@ -15535,13 +15535,13 @@
     "jaJP": "グレート・ホーバーク",
     "ptBR": "[fs]Grande Cota de Malha",
     "ruRU": "[ms]тяжелый панцирь",
-    "zhCN": "鱗鎧胸甲³|輕[③④][501/E751]"
+    "zhCN": "鱗鎧胸甲³[輕][③④][501/E751]"
   },
   {
     "id": 20356,
     "Key": "upl",
     "enUS": "Balrog Skin|EliteMedium[③④][517/E775]",
-    "zhTW": "炎魔皮板甲³|中[③④][517/E775]",
+    "zhTW": "炎魔皮板甲³[中][③④][517/E775]",
     "deDE": "[ns]Balrogleder",
     "esES": "[fs]Piel de Balrog",
     "frFR": "[fs]Peau de Balrog",
@@ -15552,13 +15552,13 @@
     "jaJP": "バルログ・スキン",
     "ptBR": "[fs]Pele de Balrog",
     "ruRU": "[fs]Балрогова шкура",
-    "zhCN": "炎魔皮板甲³|中[③④][517/E775]"
+    "zhCN": "炎魔皮板甲³[中][③④][517/E775]"
   },
   {
     "id": 20357,
     "Key": "ult",
     "enUS": "Hellforge Plate|EliteHeavy[③④][530/E795]",
-    "zhTW": "地獄鍛甲³|重[③④][530/E795]",
+    "zhTW": "地獄鍛甲³[重][③④][530/E795]",
     "deDE": "[fs]Höllenschmiedenplattenrüstung",
     "esES": "[fs]Coraza de la Fragua del Infierno",
     "frFR": "[ms]Harnois des Enfers",
@@ -15569,13 +15569,13 @@
     "jaJP": "ヘルフォージ・プレート",
     "ptBR": "[fs]Armadura da Forja Infernal",
     "ruRU": "[pl]латы из Адской кузни",
-    "zhCN": "地獄鍛甲³|重[③④][530/E795]"
+    "zhCN": "地獄鍛甲³[重][③④][530/E795]"
   },
   {
     "id": 20358,
     "Key": "uld",
     "enUS": "Kraken Shell|EliteMedium[③④][523/E784]",
-    "zhTW": "海怪之殼³|中[③④][523/E784]",
+    "zhTW": "海怪之殼³[中][③④][523/E784]",
     "deDE": "[fs]Krakenschale",
     "esES": "[fs]Concha de kraken",
     "frFR": "[fs]Carapace de kraken",
@@ -15586,13 +15586,13 @@
     "jaJP": "クラーケン・シェル",
     "ptBR": "[ms]Casco do Kraken",
     "ruRU": "[fs]раковина кракена",
-    "zhCN": "海怪之殼³|中[③④][523/E784]"
+    "zhCN": "海怪之殼³[中][③④][523/E784]"
   },
   {
     "id": 20359,
     "Key": "uth",
     "enUS": "Lacquered Plate|EliteMedium[③④][541/E811]",
-    "zhTW": "漆護鎧甲³|中[③④][541/E811]",
+    "zhTW": "漆護鎧甲³[中][③④][541/E811]",
     "deDE": "[fs]Lackierte Plattenrüstung",
     "esES": "[fs]Coraza lacada",
     "frFR": "[ms]Harnois laqué",
@@ -15603,13 +15603,13 @@
     "jaJP": "ラッカード・プレート",
     "ptBR": "[fs]Armadura Laqueada",
     "ruRU": "[ms]лакированный доспех",
-    "zhCN": "漆護鎧甲³|中[③④][541/E811]"
+    "zhCN": "漆護鎧甲³[中][③④][541/E811]"
   },
   {
     "id": 20360,
     "Key": "uul",
     "enUS": "Shadow Plate|EliteHeavy[③④][557/E835]",
-    "zhTW": "暗影鎧甲³|重[③④][557/E835]",
+    "zhTW": "暗影鎧甲³[重][③④][557/E835]",
     "deDE": "[fs]Schattenplattenrüstung",
     "esES": "[fs]Coraza sombría",
     "frFR": "[ms]Harnois d’ombre",
@@ -15620,13 +15620,13 @@
     "jaJP": "シャドウ・プレート",
     "ptBR": "[fs]Armadura Sombria",
     "ruRU": "[ms]сумрачный доспех",
-    "zhCN": "暗影鎧甲³|重[③④][557/E835]"
+    "zhCN": "暗影鎧甲³[重][③④][557/E835]"
   },
   {
     "id": 20361,
     "Key": "uar",
     "enUS": "Sacred Armor|EliteMedium[③④][600/E900]",
-    "zhTW": "神聖戰甲³|中[③④][600/E900]",
+    "zhTW": "神聖戰甲³[中][③④][600/E900]",
     "deDE": "[fs]Heilige Rüstung",
     "esES": "[fs]Armadura sacra",
     "frFR": "[fs]Armure sacrée",
@@ -15637,13 +15637,13 @@
     "jaJP": "セイクレッド・アーマー",
     "ptBR": "[fs]Armadura Sagrada",
     "ruRU": "[ms]священный доспех",
-    "zhCN": "神聖戰甲³|中[③④][600/E900]"
+    "zhCN": "神聖戰甲³[中][③④][600/E900]"
   },
   {
     "id": 20362,
     "Key": "utp",
     "enUS": "Archon Plate|EliteLight[③④][524/E786]",
-    "zhTW": "統御者鎧甲³|輕[③④][524/E786]",
+    "zhTW": "統御者鎧甲³[輕][③④][524/E786]",
     "deDE": "[fs]Archonplattenrüstung",
     "esES": "[fs]Coraza de arconte",
     "frFR": "[ms]Harnois d’Archonte",
@@ -15654,13 +15654,13 @@
     "jaJP": "アルコン・プレート",
     "ptBR": "[fs]Armadura do Arconte",
     "ruRU": "[fs]архонтова броня",
-    "zhCN": "統御者鎧甲³|輕[③④][524/E786]"
+    "zhCN": "統御者鎧甲³[輕][③④][524/E786]"
   },
   {
     "id": 20363,
     "Key": "uuc",
     "enUS": "Heater|EliteLight",
-    "zhTW": "斗盾³|輕",
+    "zhTW": "斗盾³[輕]",
     "deDE": "[ms]Manesseschild",
     "esES": "[ms]Calentador",
     "frFR": "[ms]Écu incandescent",
@@ -15671,13 +15671,13 @@
     "jaJP": "ヒーター",
     "ptBR": "[ms]Aquecedor",
     "ruRU": "[ms]клиновидный щит",
-    "zhCN": "斗盾³|輕"
+    "zhCN": "斗盾³[輕]"
   },
   {
     "id": 20364,
     "Key": "uml",
     "enUS": "Luna|EliteLight",
-    "zhTW": "圓月盾³|輕",
+    "zhTW": "圓月盾³[輕]",
     "deDE": "[fs]Luna",
     "esES": "[fs]Luna",
     "frFR": "[fs]Lune",
@@ -15688,13 +15688,13 @@
     "jaJP": "ルナ",
     "ptBR": "[fs]Luna",
     "ruRU": "[fs]луна",
-    "zhCN": "圓月盾³|輕"
+    "zhCN": "圓月盾³[輕]"
   },
   {
     "id": 20365,
     "Key": "urg",
     "enUS": "Hyperion|EliteMedium",
-    "zhTW": "亥伯龍盾³|中",
+    "zhTW": "亥伯龍盾³[中]",
     "deDE": "[ms]Hyperion",
     "esES": "[ms]Hiperión",
     "frFR": "[ms]Hypérion",
@@ -15705,13 +15705,13 @@
     "jaJP": "ハイペリオン",
     "ptBR": "[ms]Hipérion",
     "ruRU": "[ms]гиперион",
-    "zhCN": "亥伯龍盾³|中"
+    "zhCN": "亥伯龍盾³[中]"
   },
   {
     "id": 20366,
     "Key": "uit",
     "enUS": "Monarch|EliteLight[④][148/E222]",
-    "zhTW": "君主盾³|輕[④][148/E222]",
+    "zhTW": "君主盾³[輕][④][148/E222]",
     "deDE": "[ms]Monarch",
     "esES": "[ms]Monarca",
     "frFR": "[ms]Bouclier de monarque",
@@ -15722,13 +15722,13 @@
     "jaJP": "モナーク",
     "ptBR": "[ms]Monarca",
     "ruRU": "[ms]монарх",
-    "zhCN": "君主盾³|輕[④][148/E222]"
+    "zhCN": "君主盾³[輕][④][148/E222]"
   },
   {
     "id": 20367,
     "Key": "uow",
     "enUS": "Aegis|EliteHeavy",
-    "zhTW": "禦塔盾³|重",
+    "zhTW": "禦塔盾³[重]",
     "deDE": "[fs]Ägis",
     "esES": "[fs]Égida",
     "frFR": "[fs]Égide",
@@ -15739,13 +15739,13 @@
     "jaJP": "アイギス",
     "ptBR": "[fs]Égide",
     "ruRU": "[fs]эгида",
-    "zhCN": "禦塔盾³|重"
+    "zhCN": "禦塔盾³[重]"
   },
   {
     "id": 20368,
     "Key": "uts",
     "enUS": "Ward|EliteMedium",
-    "zhTW": "庇護盾³|中",
+    "zhTW": "庇護盾³[中]",
     "deDE": "[ms]Schutz",
     "esES": "[fs]Custodia",
     "frFR": "[fs]Parade",
@@ -15756,7 +15756,7 @@
     "jaJP": "ウォード",
     "ptBR": "[fs]Proteção",
     "ruRU": "[ms]охранитель",
-    "zhCN": "庇護盾³|中"
+    "zhCN": "庇護盾³[中]"
   },
   {
     "id": 20369,
@@ -16034,7 +16034,7 @@
     "id": 20385,
     "Key": "ush",
     "enUS": "Troll Nest|EliteLight[③][173]",
-    "zhTW": "食人妖骨盾³|輕[③][173]",
+    "zhTW": "食人妖骨盾³[輕][③][173]",
     "deDE": "[ns]Trollnest",
     "esES": "[ms]Nido de troles",
     "frFR": "[ms]Repaire troll",
@@ -16045,13 +16045,13 @@
     "jaJP": "トロール・ネスト",
     "ptBR": "[ms]Ninho Trólico",
     "ruRU": "[ns]троллье гнездо",
-    "zhCN": "食人妖骨盾³|輕[③][173]"
+    "zhCN": "食人妖骨盾³[輕][③][173]"
   },
   {
     "id": 20386,
     "Key": "upk",
     "enUS": "Blade Barrier|EliteLight",
-    "zhTW": "刀刃刺盾³|輕",
+    "zhTW": "刀刃刺盾³[輕]",
     "deDE": "[fs]Klingenbarriere",
     "esES": "[fs]Barrera tajante",
     "frFR": "[fs]Barrière de lames",
@@ -16062,7 +16062,7 @@
     "jaJP": "ブレイド・バリア",
     "ptBR": "[fs]Barreira de Lâminas",
     "ruRU": "[fs]клинковая ограда",
-    "zhCN": "刀刃刺盾³|輕"
+    "zhCN": "刀刃刺盾³[輕]"
   },
   {
     "id": 20387,
@@ -16238,7 +16238,7 @@
     "id": 20397,
     "Key": "pa6",
     "enUS": "Akaran Targe|ExceptionalLight",
-    "zhTW": "阿卡拉圓盾²|輕",
+    "zhTW": "阿卡拉圓盾²[輕]",
     "deDE": "Akarantarge",
     "esES": "[fs]Adarga de Akaran",
     "frFR": "[fs]Targe d’Akaran",
@@ -16249,13 +16249,13 @@
     "jaJP": "アカラン・タージ",
     "ptBR": "[fs]Targa de Akaran",
     "ruRU": "[ms]акаранский тарджет",
-    "zhCN": "阿卡拉圓盾²|輕"
+    "zhCN": "阿卡拉圓盾²[輕]"
   },
   {
     "id": 20398,
     "Key": "pa7",
     "enUS": "Akaran Rondache|ExceptionalLight",
-    "zhTW": "阿卡拉輕圓盾²|輕",
+    "zhTW": "阿卡拉輕圓盾²[輕]",
     "deDE": "[fs]Akaranrondache",
     "esES": "[fs]Rodela de Akaran",
     "frFR": "[fs]Rondache d’Akaran",
@@ -16266,13 +16266,13 @@
     "jaJP": "アカラン・ロンダッシュ",
     "ptBR": "[ms]Rondache de Akaran",
     "ruRU": "[ms]акаранский рондаш",
-    "zhCN": "阿卡拉輕圓盾²|輕"
+    "zhCN": "阿卡拉輕圓盾²[輕]"
   },
   {
     "id": 20399,
     "Key": "pa8",
     "enUS": "Protector Shield|ExceptionalLight",
-    "zhTW": "守護之盾²|輕",
+    "zhTW": "守護之盾²[輕]",
     "deDE": "[ms]Schutzschild",
     "esES": "[ms]Escudo protector",
     "frFR": "[ms]Bouclier protecteur",
@@ -16283,13 +16283,13 @@
     "jaJP": "プロテクター・シールド",
     "ptBR": "[ms]Escudo Protetor",
     "ruRU": "[ms]покровительский щит",
-    "zhCN": "守護之盾²|輕"
+    "zhCN": "守護之盾²[輕]"
   },
   {
     "id": 20400,
     "Key": "pa9",
     "enUS": "Gilded Shield|ExceptionalLight",
-    "zhTW": "金紋盾²|輕",
+    "zhTW": "金紋盾²[輕]",
     "deDE": "[ms]Vergoldeter Schild",
     "esES": "[ms]Escudo dorado",
     "frFR": "[ms]Bouclier doré",
@@ -16300,13 +16300,13 @@
     "jaJP": "ギルデッド・シールド",
     "ptBR": "[ms]Escudo Dourado",
     "ruRU": "[ms]золоченый щит",
-    "zhCN": "金紋盾²|輕"
+    "zhCN": "金紋盾²[輕]"
   },
   {
     "id": 20401,
     "Key": "paa",
     "enUS": "Royal Shield|ExceptionalLight",
-    "zhTW": "皇家盾²|輕",
+    "zhTW": "皇家盾²[輕]",
     "deDE": "[ms]Königlicher Schild",
     "esES": "[ms]Escudo real",
     "frFR": "[ms]Bouclier royal",
@@ -16317,13 +16317,13 @@
     "jaJP": "ロイヤル・シールド",
     "ptBR": "[ms]Escudo Régio",
     "ruRU": "[ms]монарший щит",
-    "zhCN": "皇家盾²|輕"
+    "zhCN": "皇家盾²[輕]"
   },
   {
     "id": 20402,
     "Key": "ne6",
     "enUS": "Mummified Trophy|ExceptionalLight",
-    "zhTW": "木乃伊首級²|輕",
+    "zhTW": "木乃伊首級²[輕]",
     "deDE": "[fs]Mumifizierte Trophäe",
     "esES": "[ms]Trofeo momificado",
     "frFR": "[ms]Trophée momifié",
@@ -16334,13 +16334,13 @@
     "jaJP": "マミファイド・トロフィー",
     "ptBR": "[ms]Troféu Mumificado",
     "ruRU": "[ms]засушенный трофей",
-    "zhCN": "木乃伊首級²|輕"
+    "zhCN": "木乃伊首級²[輕]"
   },
   {
     "id": 20403,
     "Key": "ne7",
     "enUS": "Fetish Trophy|ExceptionalLight",
-    "zhTW": "鬼娃首級²|輕",
+    "zhTW": "鬼娃首級²[輕]",
     "deDE": "[fs]Fetischtrophäe",
     "esES": "[ms]Trofeo de fetiche",
     "frFR": "[ms]Trophée fétiche",
@@ -16351,13 +16351,13 @@
     "jaJP": "フェティッシュ・トロフィー",
     "ptBR": "[ms]Troféu Carranco",
     "ruRU": "[ms]трофей-фетиш",
-    "zhCN": "鬼娃首級²|輕"
+    "zhCN": "鬼娃首級²[輕]"
   },
   {
     "id": 20404,
     "Key": "ne8",
     "enUS": "Sexton Trophy|ExceptionalLight",
-    "zhTW": "司事首級²|輕",
+    "zhTW": "司事首級²[輕]",
     "deDE": "[fs]Sextontrophäe",
     "esES": "[ms]Trofeo de sacristán",
     "frFR": "[ms]Trophée de sacristain",
@@ -16368,13 +16368,13 @@
     "jaJP": "セクストン・トロフィー",
     "ptBR": "[ms]Troféu Sexton",
     "ruRU": "[ms]алтарный трофей",
-    "zhCN": "司事首級²|輕"
+    "zhCN": "司事首級²[輕]"
   },
   {
     "id": 20405,
     "Key": "ne9",
     "enUS": "Cantor Trophy|ExceptionalLight",
-    "zhTW": "領唱者首級²|輕",
+    "zhTW": "領唱者首級²[輕]",
     "deDE": "[fs]Kantortrophäe",
     "esES": "[ms]Trofeo de cantor",
     "frFR": "[ms]Trophée de chantre",
@@ -16385,13 +16385,13 @@
     "jaJP": "キャンター・トロフィー",
     "ptBR": "[ms]Troféu Cantor",
     "ruRU": "[ms]хоровой трофей",
-    "zhCN": "領唱者首級²|輕"
+    "zhCN": "領唱者首級²[輕]"
   },
   {
     "id": 20406,
     "Key": "nea",
     "enUS": "Hierophant Trophy|ExceptionalLight",
-    "zhTW": "祭司首級²|輕",
+    "zhTW": "祭司首級²[輕]",
     "deDE": "Hierophanttrophäe",
     "esES": "[ms]Trofeo de hierofante",
     "frFR": "[ms]Trophée de hiérophante",
@@ -16402,7 +16402,7 @@
     "jaJP": "ハイエロファント・トロフィー",
     "ptBR": "[ms]Troféu Hierofante",
     "ruRU": "[ms]жреческий трофей",
-    "zhCN": "祭司首級²|輕"
+    "zhCN": "祭司首級²[輕]"
   },
   {
     "id": 20407,
@@ -16578,7 +16578,7 @@
     "id": 20417,
     "Key": "pab",
     "enUS": "Sacred Targe|EliteLight[③④][158/E237]",
-    "zhTW": "神聖小盾³|輕[③④][158/E237]",
+    "zhTW": "神聖小盾³[輕][③④][158/E237]",
     "deDE": "[fs]Heilige Targe",
     "esES": "[fs]Adarga sacra",
     "frFR": "[fs]Targe sacrée",
@@ -16589,13 +16589,13 @@
     "jaJP": "セイクレッド・タージ",
     "ptBR": "[fs]Targa Sagrada",
     "ruRU": "[ms]священный тарджет",
-    "zhCN": "神聖小盾³|輕[③④][158/E237]"
+    "zhCN": "神聖小盾³[輕][③④][158/E237]"
   },
   {
     "id": 20418,
     "Key": "pac",
     "enUS": "Sacred Rondache|EliteLight[③④][164/E246]",
-    "zhTW": "神聖輕圓盾³|輕[③④][164/E246]",
+    "zhTW": "神聖輕圓盾³[輕][③④][164/E246]",
     "deDE": "[fs]Heilige Rondache",
     "esES": "[fs]Rodela sacra",
     "frFR": "[fs]Rondache sacrée",
@@ -16606,13 +16606,13 @@
     "jaJP": "セイクレッド・ロンダッシュ",
     "ptBR": "[ms]Rondache Sagrado",
     "ruRU": "[ms]священный рондаш",
-    "zhCN": "神聖輕圓盾³|輕[③④][164/E246]"
+    "zhCN": "神聖輕圓盾³[輕][③④][164/E246]"
   },
   {
     "id": 20419,
     "Key": "pae",
     "enUS": "Zakarum Shield|EliteLight[③④][193/E289]",
-    "zhTW": "撒卡蘭姆盾³|輕[③④][193/E289]",
+    "zhTW": "撒卡蘭姆盾³[輕][③④][193/E289]",
     "deDE": "[ms]Zakarumschild",
     "esES": "[ms]Escudo de Zakarum",
     "frFR": "[ms]Bouclier de Zakarum",
@@ -16623,13 +16623,13 @@
     "jaJP": "ザカラム・シールド",
     "ptBR": "[ms]Escudo Zakarum",
     "ruRU": "[ms]закарумский щит",
-    "zhCN": "撒卡蘭姆盾³|輕[③④][193/E289]"
+    "zhCN": "撒卡蘭姆盾³[輕][③④][193/E289]"
   },
   {
     "id": 20420,
     "Key": "paf",
     "enUS": "Vortex Shield|EliteLight[③④][225/E337]",
-    "zhTW": "渦旋盾³|輕[③④][225/E337]",
+    "zhTW": "渦旋盾³[輕][③④][225/E337]",
     "deDE": "[ms]Wirbelschild",
     "esES": "[ms]Escudo vórtice",
     "frFR": "[ms]Bouclier du vortex",
@@ -16640,13 +16640,13 @@
     "jaJP": "ボルテックス・シールド",
     "ptBR": "[ms]Escudo do Vórtice",
     "ruRU": "[ms]ураганный щит",
-    "zhCN": "渦旋盾³|輕[③④][225/E337]"
+    "zhCN": "渦旋盾³[輕][③④][225/E337]"
   },
   {
     "id": 20421,
     "Key": "neb",
     "enUS": "Minion Skull|EliteLight",
-    "zhTW": "僕從顱骨³|輕",
+    "zhTW": "僕從顱骨³[輕]",
     "deDE": "[ms]Dienerschädel",
     "esES": "[ms]Cráneo de esbirro",
     "frFR": "[ms]Crâne de serviteur",
@@ -16657,7 +16657,7 @@
     "jaJP": "ミニオン・スカル",
     "ptBR": "[fs]Caveira de Lacaio",
     "ruRU": "[ms]прислужничий череп",
-    "zhCN": "僕從顱骨³|輕"
+    "zhCN": "僕從顱骨³[輕]"
   },
   {
     "id": 20422,
@@ -16680,7 +16680,7 @@
     "id": 20423,
     "Key": "ned",
     "enUS": "Overseer Skull|EliteLight",
-    "zhTW": "督軍顱骨³|輕",
+    "zhTW": "督軍顱骨³[輕]",
     "deDE": "[ms]Aufseherschädel",
     "esES": "[ms]Cráneo de supervisor",
     "frFR": "[ms]Crâne de prophète",
@@ -16691,13 +16691,13 @@
     "jaJP": "オーバーシアー・スカル",
     "ptBR": "[fs]Caveira de Capataz",
     "ruRU": "[ms]надзирательский череп",
-    "zhCN": "督軍顱骨³|輕"
+    "zhCN": "督軍顱骨³[輕]"
   },
   {
     "id": 20424,
     "Key": "nee",
     "enUS": "Succubus Skull|EliteLight",
-    "zhTW": "魅魔顱骨³|輕",
+    "zhTW": "魅魔顱骨³[輕]",
     "deDE": "Sukkubusschädel",
     "esES": "[ms]Cráneo de súcubo",
     "frFR": "[ms]Crâne de succube",
@@ -16708,13 +16708,13 @@
     "jaJP": "サキュバス・スカル",
     "ptBR": "[fs]Caveira de Súcubo",
     "ruRU": "[ms]суккубский череп",
-    "zhCN": "魅魔顱骨³|輕"
+    "zhCN": "魅魔顱骨³[輕]"
   },
   {
     "id": 20425,
     "Key": "nef",
     "enUS": "Bloodlord Skull|EliteLight",
-    "zhTW": "鮮血之王顱骨³|輕",
+    "zhTW": "鮮血之王顱骨³[輕]",
     "deDE": "[ms]Blutlordschädel",
     "esES": "[ms]Cráneo de señor de la sangre",
     "frFR": "[ms]Crâne de seigneur de sang",
@@ -16725,7 +16725,7 @@
     "jaJP": "ブラッドロード・スカル",
     "ptBR": "[fs]Caveira de Senhor Sangrento",
     "ruRU": "[ms]владыческий череп",
-    "zhCN": "鮮血之王顱骨³|輕"
+    "zhCN": "鮮血之王顱骨³[輕]"
   },
   {
     "id": 20433,
@@ -25197,7 +25197,7 @@
     "id": 21779,
     "Key": "pad",
     "enUS": "Kurast Shield|EliteLight[③④][172/E258]",
-    "zhTW": "庫拉斯特盾³|輕[③④][172/E258]",
+    "zhTW": "庫拉斯特盾³[輕][③④][172/E258]",
     "deDE": "Kurastschild",
     "esES": "Escudo de Kurast",
     "frFR": "Bouclier de Kurast",
@@ -25208,7 +25208,7 @@
     "jaJP": "クラスト・シールド",
     "ptBR": "[ms]Escudo de Kurast",
     "ruRU": "Щит Кураста",
-    "zhCN": "庫拉斯特盾³|輕[③④][172/E258]"
+    "zhCN": "庫拉斯特盾³[輕][③④][172/E258]"
   },
   {
     "id": 21780,
@@ -26285,7 +26285,7 @@
     "id": 27587,
     "Key": "wa1",
     "enUS": "Old Book",
-    "zhTW": "舊書¹|輕",
+    "zhTW": "舊書¹[輕]",
     "deDE": "[ns]Altes Buch",
     "esES": "[ms]Libro viejo",
     "frFR": "Livre ancien",
@@ -26296,13 +26296,13 @@
     "jaJP": "古い本",
     "ptBR": "Livro Antigo",
     "ruRU": "[fs]старая книга",
-    "zhCN": "舊書¹|輕"
+    "zhCN": "舊書¹[輕]"
   },
   {
     "id": 27588,
     "Key": "wa2",
     "enUS": "Tome",
-    "zhTW": "秘典¹|輕",
+    "zhTW": "秘典¹[輕]",
     "deDE": "[ms]Foliant",
     "esES": "[ms]Volumen",
     "frFR": "Tome",
@@ -26313,13 +26313,13 @@
     "jaJP": "書物",
     "ptBR": "Tomo",
     "ruRU": "[ms]фолиант",
-    "zhCN": "秘典¹|輕"
+    "zhCN": "秘典¹[輕]"
   },
   {
     "id": 27589,
     "Key": "wa3",
     "enUS": "Codex",
-    "zhTW": "寶典¹|輕",
+    "zhTW": "寶典¹[輕]",
     "deDE": "[ms]Kodex",
     "esES": "[ms]Códice",
     "frFR": "Codex",
@@ -26330,13 +26330,13 @@
     "jaJP": "古写本",
     "ptBR": "Códice",
     "ruRU": "[ms]кодекс",
-    "zhCN": "寶典¹|輕"
+    "zhCN": "寶典¹[輕]"
   },
   {
     "id": 27590,
     "Key": "wa4",
     "enUS": "Compendium",
-    "zhTW": "綱要¹|輕",
+    "zhTW": "綱要¹[輕]",
     "deDE": "[ns]Kompendium",
     "esES": "[ms]Compendio",
     "frFR": "Compendium",
@@ -26347,13 +26347,13 @@
     "jaJP": "抄録",
     "ptBR": "Compêndio",
     "ruRU": "[ms]компендиум",
-    "zhCN": "綱要¹|輕"
+    "zhCN": "綱要¹[輕]"
   },
   {
     "id": 27591,
     "Key": "wa5",
     "enUS": "Grimoire",
-    "zhTW": "魔典¹|輕",
+    "zhTW": "魔典¹[輕]",
     "deDE": "[ns]Grimoire",
     "esES": "[ms]Grimorio",
     "frFR": "Grimoire",
@@ -26364,13 +26364,13 @@
     "jaJP": "グリモア",
     "ptBR": "Grimório",
     "ruRU": "[ms]гримуар",
-    "zhCN": "魔典¹|輕"
+    "zhCN": "魔典¹[輕]"
   },
   {
     "id": 27592,
     "Key": "wa6",
     "enUS": "Burnt Text",
-    "zhTW": "焦灼書冊²|輕",
+    "zhTW": "焦灼書冊²[輕]",
     "deDE": "[ms]Verbrannter Text",
     "esES": "[ms]Texto quemado",
     "frFR": "Texte brûlé",
@@ -26381,13 +26381,13 @@
     "jaJP": "焼けた書",
     "ptBR": "Texto Queimado",
     "ruRU": "[ms]обгорелый текст",
-    "zhCN": "焦灼書冊²|輕"
+    "zhCN": "焦灼書冊²[輕]"
   },
   {
     "id": 27593,
     "Key": "wa7",
     "enUS": "Dark Tome",
-    "zhTW": "黑暗秘典²|輕",
+    "zhTW": "黑暗秘典²[輕]",
     "deDE": "[ms]Dunkler Foliant",
     "esES": "[ms]Volumen oscuro",
     "frFR": "Tome noir",
@@ -26398,13 +26398,13 @@
     "jaJP": "闇の書物",
     "ptBR": "Tomo Antigo",
     "ruRU": "[ms]темный фолиант",
-    "zhCN": "黑暗秘典²|輕"
+    "zhCN": "黑暗秘典²[輕]"
   },
   {
     "id": 27594,
     "Key": "wa8",
     "enUS": "Dark Codex",
-    "zhTW": "黑暗寶典²|輕",
+    "zhTW": "黑暗寶典²[輕]",
     "deDE": "[ms]Dunkler Kodex",
     "esES": "[ms]Códice oscuro",
     "frFR": "Codex noir",
@@ -26415,13 +26415,13 @@
     "jaJP": "闇の古写本",
     "ptBR": "Códice Sombrio",
     "ruRU": "[ms]темный кодекс",
-    "zhCN": "黑暗寶典²|輕"
+    "zhCN": "黑暗寶典²[輕]"
   },
   {
     "id": 27595,
     "Key": "wa9",
     "enUS": "Possessed Compendium",
-    "zhTW": "著魔綱要²|輕",
+    "zhTW": "著魔綱要²[輕]",
     "deDE": "[ns]Besessenes Kompendium",
     "esES": "[ms]Compendio poseído",
     "frFR": "Compendium possédé",
@@ -26432,13 +26432,13 @@
     "jaJP": "依代の抄録",
     "ptBR": "Compêndio Possuído",
     "ruRU": "[ms]одержимый компендиум",
-    "zhCN": "著魔綱要²|輕"
+    "zhCN": "著魔綱要²[輕]"
   },
   {
     "id": 27596,
     "Key": "waa",
     "enUS": "Possessed Grimoire",
-    "zhTW": "著魔魔典²|輕",
+    "zhTW": "著魔魔典²[輕]",
     "deDE": "[ns]Besessenes Grimoire",
     "esES": "[ms]Grimorio poseído",
     "frFR": "Grimoire possédé",
@@ -26449,13 +26449,13 @@
     "jaJP": "依代のグリモア",
     "ptBR": "Grimório Possuído",
     "ruRU": "[ms]одержимый гримуар",
-    "zhCN": "著魔魔典²|輕"
+    "zhCN": "著魔魔典²[輕]"
   },
   {
     "id": 27597,
     "Key": "wab",
     "enUS": "Forgotten Volume",
-    "zhTW": "被遺忘的書冊³|輕",
+    "zhTW": "被遺忘的書冊³[輕]",
     "deDE": "[ms]Vergessener Band",
     "esES": "[ms]Volumen olvidado",
     "frFR": "Ouvrage oublié",
@@ -26466,13 +26466,13 @@
     "jaJP": "忘れ去られし巻",
     "ptBR": "Volume Esquecido",
     "ruRU": "[ms]забытый том",
-    "zhCN": "被遺忘的書冊³|輕"
+    "zhCN": "被遺忘的書冊³[輕]"
   },
   {
     "id": 27598,
     "Key": "wac",
     "enUS": "Occult Tome",
-    "zhTW": "神秘秘典³|輕",
+    "zhTW": "神秘秘典³[輕]",
     "deDE": "[ms]Okkulter Foliant",
     "esES": "[ms]Tomo esotérico",
     "frFR": "Tome occulte",
@@ -26483,13 +26483,13 @@
     "jaJP": "神秘の書物",
     "ptBR": "Tomo Oculto",
     "ruRU": "[ms]оккультный фолиант",
-    "zhCN": "神秘秘典³|輕"
+    "zhCN": "神秘秘典³[輕]"
   },
   {
     "id": 27599,
     "Key": "wad",
     "enUS": "Occult Codex",
-    "zhTW": "神秘寶典³|輕",
+    "zhTW": "神秘寶典³[輕]",
     "deDE": "[ms]Okkulter Kodex",
     "esES": "[ms]Códice esotérico",
     "frFR": "Codex occulte",
@@ -26500,13 +26500,13 @@
     "jaJP": "神秘の古写本",
     "ptBR": "Códice Oculto",
     "ruRU": "[ms]оккультный кодекс",
-    "zhCN": "神秘寶典³|輕"
+    "zhCN": "神秘寶典³[輕]"
   },
   {
     "id": 27600,
     "Key": "wae",
     "enUS": "Blasphemous Compendium",
-    "zhTW": "褻瀆綱要³|輕",
+    "zhTW": "褻瀆綱要³[輕]",
     "deDE": "[ns]Blasphemisches Kompendium",
     "esES": "[ms]Compendio blasfemo",
     "frFR": "Compendium blasphématoire",
@@ -26517,13 +26517,13 @@
     "jaJP": "邪教の抄録",
     "ptBR": "Compêndio Blasfemo",
     "ruRU": "[ms]кощунственный компендиум",
-    "zhCN": "褻瀆綱要³|輕"
+    "zhCN": "褻瀆綱要³[輕]"
   },
   {
     "id": 27601,
     "Key": "waf",
     "enUS": "Blasphemous Grimoire",
-    "zhTW": "褻瀆魔典³|輕",
+    "zhTW": "褻瀆魔典³[輕]",
     "deDE": "[ns]Blasphemisches Grimoire",
     "esES": "[ms]Grimorio blasfemo",
     "frFR": "Grimoire blasphématoire",
@@ -26534,7 +26534,7 @@
     "jaJP": "邪教のグリモア",
     "ptBR": "Grimório Blasfemo",
     "ruRU": "[ms]кощунственный гримуар",
-    "zhCN": "褻瀆魔典³|輕"
+    "zhCN": "褻瀆魔典³[輕]"
   },
   {
     "id": 27609,

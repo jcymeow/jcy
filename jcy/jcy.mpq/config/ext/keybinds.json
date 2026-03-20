@@ -5,7 +5,8 @@
         "zhCN": "键位控制设置",
         "zhTW": "操作設定",
         "sgCN": "键位控制设置",
-        "sgTW": "操作設定"
+        "sgTW": "操作設定",
+        "bnCN": "键位控制设置"
     },
     "KeyNone": {
         "Key": "KeyNone",
@@ -13,7 +14,8 @@
         "zhCN": "无",
         "zhTW": "無",
         "sgCN": "无",
-        "sgTW": "無"
+        "sgTW": "無",
+        "bnCN": "无"
     },
     "KeyLButton": {
         "Key": "KeyLButton",
@@ -21,7 +23,8 @@
         "zhCN": "鼠标 1",
         "zhTW": "滑鼠按鍵 1",
         "sgCN": "鼠标 1",
-        "sgTW": "滑鼠按鍵 1"
+        "sgTW": "滑鼠按鍵 1",
+        "bnCN": "鼠标 1"
     },
     "KeyRButton": {
         "Key": "KeyRButton",
@@ -29,7 +32,8 @@
         "zhCN": "鼠标 2",
         "zhTW": "滑鼠按鍵 2",
         "sgCN": "鼠标 2",
-        "sgTW": "滑鼠按鍵 2"
+        "sgTW": "滑鼠按鍵 2",
+        "bnCN": "鼠标 2"
     },
     "KeyCancel": {
         "Key": "KeyCancel",
@@ -37,7 +41,8 @@
         "zhCN": "取消",
         "zhTW": "取消",
         "sgCN": "取消",
-        "sgTW": "取消"
+        "sgTW": "取消",
+        "bnCN": "取消"
     },
     "KeyMButton": {
         "Key": "KeyMButton",
@@ -45,7 +50,8 @@
         "zhCN": "鼠标 3",
         "zhTW": "滑鼠按鍵 3",
         "sgCN": "鼠标 3",
-        "sgTW": "滑鼠按鍵 3"
+        "sgTW": "滑鼠按鍵 3",
+        "bnCN": "鼠标 3"
     },
     "Key4Button": {
         "Key": "Key4Button",
@@ -53,7 +59,8 @@
         "zhCN": "鼠标 4",
         "zhTW": "滑鼠按鍵 4",
         "sgCN": "鼠标 4",
-        "sgTW": "滑鼠按鍵 4"
+        "sgTW": "滑鼠按鍵 4",
+        "bnCN": "鼠标 4"
     },
     "Key5Button": {
         "Key": "Key5Button",
@@ -61,7 +68,8 @@
         "zhCN": "鼠标 5",
         "zhTW": "滑鼠按鍵 5",
         "sgCN": "鼠标 5",
-        "sgTW": "滑鼠按鍵 5"
+        "sgTW": "滑鼠按鍵 5",
+        "bnCN": "鼠标 5"
     },
     "KeyWheelUp": {
         "Key": "KeyWheelUp",
@@ -69,7 +77,8 @@
         "zhCN": "鼠标滚轮向上滚动",
         "zhTW": "滑鼠滾輪向上",
         "sgCN": "鼠标滚轮向上滚动",
-        "sgTW": "滑鼠滾輪向上"
+        "sgTW": "滑鼠滾輪向上",
+        "bnCN": "鼠标滚轮向上滚动"
     },
     "KeyWheelDown": {
         "Key": "KeyWheelDown",
@@ -77,7 +86,8 @@
         "zhCN": "鼠标滚轮向下滚动",
         "zhTW": "滑鼠滾輪向下",
         "sgCN": "鼠标滚轮向下滚动",
-        "sgTW": "滑鼠滾輪向下"
+        "sgTW": "滑鼠滾輪向下",
+        "bnCN": "鼠标滚轮向下滚动"
     },
     "KeyKana": {
         "Key": "KeyKana",
@@ -85,7 +95,8 @@
         "zhCN": "Kana",
         "zhTW": "Kana",
         "sgCN": "Kana",
-        "sgTW": "Kana"
+        "sgTW": "Kana",
+        "bnCN": "Kana"
     },
     "KeyJunja": {
         "Key": "KeyJunja",
@@ -93,7 +104,8 @@
         "zhCN": "Junja",
         "zhTW": "Junja",
         "sgCN": "Junja",
-        "sgTW": "Junja"
+        "sgTW": "Junja",
+        "bnCN": "Junja"
     },
     "KeyFinal": {
         "Key": "KeyFinal",
@@ -101,7 +113,8 @@
         "zhCN": "Final",
         "zhTW": "Final",
         "sgCN": "Final",
-        "sgTW": "Final"
+        "sgTW": "Final",
+        "bnCN": "Final"
     },
     "KeyKanji": {
         "Key": "KeyKanji",
@@ -109,7 +122,8 @@
         "zhCN": "Kanji",
         "zhTW": "Kanji",
         "sgCN": "Kanji",
-        "sgTW": "Kanji"
+        "sgTW": "Kanji",
+        "bnCN": "Kanji"
     },
     "KeyEscape": {
         "Key": "KeyEscape",
@@ -117,7 +131,8 @@
         "zhCN": "Esc",
         "zhTW": "ESC",
         "sgCN": "Esc",
-        "sgTW": "ESC"
+        "sgTW": "ESC",
+        "bnCN": "Esc"
     },
     "KeyConvert": {
         "Key": "KeyConvert",
@@ -125,7 +140,8 @@
         "zhCN": "反向",
         "zhTW": "Convert",
         "sgCN": "反向",
-        "sgTW": "Convert"
+        "sgTW": "Convert",
+        "bnCN": "反向"
     },
     "KeyNonConvert": {
         "Key": "KeyNonConvert",
@@ -133,7 +149,8 @@
         "zhCN": "不反向",
         "zhTW": "Non-Convert",
         "sgCN": "不反向",
-        "sgTW": "Non-Convert"
+        "sgTW": "Non-Convert",
+        "bnCN": "不反向"
     },
     "KeyAccept": {
         "Key": "KeyAccept",
@@ -141,7 +158,8 @@
         "zhCN": "接受",
         "zhTW": "確定",
         "sgCN": "接受",
-        "sgTW": "確定"
+        "sgTW": "確定",
+        "bnCN": "接受"
     },
     "KeyModeChange": {
         "Key": "KeyModeChange",
@@ -149,7 +167,8 @@
         "zhCN": "更换模式",
         "zhTW": "模式改變",
         "sgCN": "更换模式",
-        "sgTW": "模式改變"
+        "sgTW": "模式改變",
+        "bnCN": "更换模式"
     },
     "KeyLeft": {
         "Key": "KeyLeft",
@@ -157,7 +176,8 @@
         "zhCN": "左",
         "zhTW": "左",
         "sgCN": "左",
-        "sgTW": "左"
+        "sgTW": "左",
+        "bnCN": "左"
     },
     "KeyUp": {
         "Key": "KeyUp",
@@ -165,7 +185,8 @@
         "zhCN": "上",
         "zhTW": "上",
         "sgCN": "上",
-        "sgTW": "上"
+        "sgTW": "上",
+        "bnCN": "上"
     },
     "KeyRight": {
         "Key": "KeyRight",
@@ -173,7 +194,8 @@
         "zhCN": "右",
         "zhTW": "右",
         "sgCN": "右",
-        "sgTW": "右"
+        "sgTW": "右",
+        "bnCN": "右"
     },
     "KeyDown": {
         "Key": "KeyDown",
@@ -181,7 +203,8 @@
         "zhCN": "下",
         "zhTW": "下",
         "sgCN": "下",
-        "sgTW": "下"
+        "sgTW": "下",
+        "bnCN": "下"
     },
     "KeySelect": {
         "Key": "KeySelect",
@@ -189,7 +212,8 @@
         "zhCN": "选择",
         "zhTW": "選擇",
         "sgCN": "选择",
-        "sgTW": "選擇"
+        "sgTW": "選擇",
+        "bnCN": "选择"
     },
     "KeyExecute": {
         "Key": "KeyExecute",
@@ -197,7 +221,8 @@
         "zhCN": "执行",
         "zhTW": "執行",
         "sgCN": "执行",
-        "sgTW": "執行"
+        "sgTW": "執行",
+        "bnCN": "执行"
     },
     "KeyLWin": {
         "Key": "KeyLWin",
@@ -205,7 +230,8 @@
         "zhCN": "左窗口",
         "zhTW": "左視窗",
         "sgCN": "左窗口",
-        "sgTW": "左視窗"
+        "sgTW": "左視窗",
+        "bnCN": "左窗口"
     },
     "KeyRWin": {
         "Key": "KeyRWin",
@@ -213,7 +239,8 @@
         "zhCN": "右窗口",
         "zhTW": "右視窗",
         "sgCN": "右窗口",
-        "sgTW": "右視窗"
+        "sgTW": "右視窗",
+        "bnCN": "右窗口"
     },
     "KeyApps": {
         "Key": "KeyApps",
@@ -221,7 +248,8 @@
         "zhCN": "程序菜单",
         "zhTW": "Apps Menu",
         "sgCN": "程序菜单",
-        "sgTW": "Apps Menu"
+        "sgTW": "Apps Menu",
+        "bnCN": "程序菜单"
     },
     "KeyNumLock": {
         "Key": "KeyNumLock",
@@ -229,7 +257,8 @@
         "zhCN": "Num Lock",
         "zhTW": "Num Lock",
         "sgCN": "Num Lock",
-        "sgTW": "Num Lock"
+        "sgTW": "Num Lock",
+        "bnCN": "Num Lock"
     },
     "KeyBack": {
         "Key": "KeyBack",
@@ -237,7 +266,8 @@
         "zhCN": "Backspace",
         "zhTW": "倒退鍵",
         "sgCN": "Backspace",
-        "sgTW": "倒退鍵"
+        "sgTW": "倒退鍵",
+        "bnCN": "Backspace"
     },
     "KeyTab": {
         "Key": "KeyTab",
@@ -245,7 +275,8 @@
         "zhCN": "Tab",
         "zhTW": "Tab",
         "sgCN": "Tab",
-        "sgTW": "Tab"
+        "sgTW": "Tab",
+        "bnCN": "Tab"
     },
     "KeyClear": {
         "Key": "KeyClear",
@@ -253,7 +284,8 @@
         "zhCN": "Clear",
         "zhTW": "清除",
         "sgCN": "Clear",
-        "sgTW": "清除"
+        "sgTW": "清除",
+        "bnCN": "Clear"
     },
     "KeyReturn": {
         "Key": "KeyReturn",
@@ -261,7 +293,8 @@
         "zhCN": "回车",
         "zhTW": "Enter",
         "sgCN": "回车",
-        "sgTW": "Enter"
+        "sgTW": "Enter",
+        "bnCN": "回车"
     },
     "KeyShift": {
         "Key": "KeyShift",
@@ -269,7 +302,8 @@
         "zhCN": "Shift",
         "zhTW": "Shift",
         "sgCN": "Shift",
-        "sgTW": "Shift"
+        "sgTW": "Shift",
+        "bnCN": "Shift"
     },
     "KeyControl": {
         "Key": "KeyControl",
@@ -277,7 +311,8 @@
         "zhCN": "Ctrl",
         "zhTW": "Ctrl",
         "sgCN": "Ctrl",
-        "sgTW": "Ctrl"
+        "sgTW": "Ctrl",
+        "bnCN": "Ctrl"
     },
     "KeyMenu": {
         "Key": "KeyMenu",
@@ -285,7 +320,8 @@
         "zhCN": "Alt",
         "zhTW": "Alt",
         "sgCN": "Alt",
-        "sgTW": "Alt"
+        "sgTW": "Alt",
+        "bnCN": "Alt"
     },
     "KeyPause": {
         "Key": "KeyPause",
@@ -293,7 +329,8 @@
         "zhCN": "Pause",
         "zhTW": "Pause",
         "sgCN": "Pause",
-        "sgTW": "Pause"
+        "sgTW": "Pause",
+        "bnCN": "Pause"
     },
     "KeyCapital": {
         "Key": "KeyCapital",
@@ -301,7 +338,8 @@
         "zhCN": "Caps Lock",
         "zhTW": "Caps Lock",
         "sgCN": "Caps Lock",
-        "sgTW": "Caps Lock"
+        "sgTW": "Caps Lock",
+        "bnCN": "Caps Lock"
     },
     "KeySpace": {
         "Key": "KeySpace",
@@ -309,7 +347,8 @@
         "zhCN": "空格",
         "zhTW": "空白鍵",
         "sgCN": "空格",
-        "sgTW": "空白鍵"
+        "sgTW": "空白鍵",
+        "bnCN": "空格"
     },
     "KeyPrior": {
         "Key": "KeyPrior",
@@ -317,7 +356,8 @@
         "zhCN": "Page Up",
         "zhTW": "Page Up",
         "sgCN": "Page Up",
-        "sgTW": "Page Up"
+        "sgTW": "Page Up",
+        "bnCN": "Page Up"
     },
     "KeyNext": {
         "Key": "KeyNext",
@@ -325,7 +365,8 @@
         "zhCN": "Page Down",
         "zhTW": "Page Down",
         "sgCN": "Page Down",
-        "sgTW": "Page Down"
+        "sgTW": "Page Down",
+        "bnCN": "Page Down"
     },
     "KeyEnd": {
         "Key": "KeyEnd",
@@ -333,7 +374,8 @@
         "zhCN": "End",
         "zhTW": "End",
         "sgCN": "End",
-        "sgTW": "End"
+        "sgTW": "End",
+        "bnCN": "End"
     },
     "KeyHome": {
         "Key": "KeyHome",
@@ -341,7 +383,8 @@
         "zhCN": "Home",
         "zhTW": "Home",
         "sgCN": "Home",
-        "sgTW": "Home"
+        "sgTW": "Home",
+        "bnCN": "Home"
     },
     "KeyPrint": {
         "Key": "KeyPrint",
@@ -349,7 +392,8 @@
         "zhCN": "P - Tell Ken",
         "zhTW": "P - Tell Ken",
         "sgCN": "P - Tell Ken",
-        "sgTW": "P - Tell Ken"
+        "sgTW": "P - Tell Ken",
+        "bnCN": "P - Tell Ken"
     },
     "KeySnapshot": {
         "Key": "KeySnapshot",
@@ -357,7 +401,8 @@
         "zhCN": "Print Screen",
         "zhTW": "Print Screen",
         "sgCN": "Print Screen",
-        "sgTW": "Print Screen"
+        "sgTW": "Print Screen",
+        "bnCN": "Print Screen"
     },
     "KeyInsert": {
         "Key": "KeyInsert",
@@ -365,7 +410,8 @@
         "zhCN": "Insert",
         "zhTW": "Insert",
         "sgCN": "Insert",
-        "sgTW": "Insert"
+        "sgTW": "Insert",
+        "bnCN": "Insert"
     },
     "KeyDelete": {
         "Key": "KeyDelete",
@@ -373,7 +419,8 @@
         "zhCN": "Delete",
         "zhTW": "Delete",
         "sgCN": "Delete",
-        "sgTW": "Delete"
+        "sgTW": "Delete",
+        "bnCN": "Delete"
     },
     "KeyHelp": {
         "Key": "KeyHelp",
@@ -381,7 +428,8 @@
         "zhCN": "帮助",
         "zhTW": "說明",
         "sgCN": "帮助",
-        "sgTW": "說明"
+        "sgTW": "說明",
+        "bnCN": "帮助"
     },
     "KeyNumPad0": {
         "Key": "KeyNumPad0",
@@ -389,7 +437,8 @@
         "zhCN": "数字键盘 0",
         "zhTW": "數字鍵盤 0",
         "sgCN": "数字键盘 0",
-        "sgTW": "數字鍵盤 0"
+        "sgTW": "數字鍵盤 0",
+        "bnCN": "数字键盘 0"
     },
     "KeyNumPad1": {
         "Key": "KeyNumPad1",
@@ -397,7 +446,8 @@
         "zhCN": "数字键盘 1",
         "zhTW": "數字鍵盤 1",
         "sgCN": "数字键盘 1",
-        "sgTW": "數字鍵盤 1"
+        "sgTW": "數字鍵盤 1",
+        "bnCN": "数字键盘 1"
     },
     "KeyNumPad2": {
         "Key": "KeyNumPad2",
@@ -405,7 +455,8 @@
         "zhCN": "数字键盘 2",
         "zhTW": "數字鍵盤 2",
         "sgCN": "数字键盘 2",
-        "sgTW": "數字鍵盤 2"
+        "sgTW": "數字鍵盤 2",
+        "bnCN": "数字键盘 2"
     },
     "KeyNumPad3": {
         "Key": "KeyNumPad3",
@@ -413,7 +464,8 @@
         "zhCN": "数字键盘 3",
         "zhTW": "數字鍵盤 3",
         "sgCN": "数字键盘 3",
-        "sgTW": "數字鍵盤 3"
+        "sgTW": "數字鍵盤 3",
+        "bnCN": "数字键盘 3"
     },
     "KeyNumPad4": {
         "Key": "KeyNumPad4",
@@ -421,7 +473,8 @@
         "zhCN": "数字键盘 4",
         "zhTW": "數字鍵盤 4",
         "sgCN": "数字键盘 4",
-        "sgTW": "數字鍵盤 4"
+        "sgTW": "數字鍵盤 4",
+        "bnCN": "数字键盘 4"
     },
     "KeyNumPad5": {
         "Key": "KeyNumPad5",
@@ -429,7 +482,8 @@
         "zhCN": "数字键盘 5",
         "zhTW": "數字鍵盤 5",
         "sgCN": "数字键盘 5",
-        "sgTW": "數字鍵盤 5"
+        "sgTW": "數字鍵盤 5",
+        "bnCN": "数字键盘 5"
     },
     "KeyNumPad6": {
         "Key": "KeyNumPad6",
@@ -437,7 +491,8 @@
         "zhCN": "数字键盘 6",
         "zhTW": "數字鍵盤 6",
         "sgCN": "数字键盘 6",
-        "sgTW": "數字鍵盤 6"
+        "sgTW": "數字鍵盤 6",
+        "bnCN": "数字键盘 6"
     },
     "KeyNumPad7": {
         "Key": "KeyNumPad7",
@@ -445,7 +500,8 @@
         "zhCN": "数字键盘 7",
         "zhTW": "數字鍵盤 7",
         "sgCN": "数字键盘 7",
-        "sgTW": "數字鍵盤 7"
+        "sgTW": "數字鍵盤 7",
+        "bnCN": "数字键盘 7"
     },
     "KeyNumPad8": {
         "Key": "KeyNumPad8",
@@ -453,7 +509,8 @@
         "zhCN": "数字键盘 8",
         "zhTW": "數字鍵盤 8",
         "sgCN": "数字键盘 8",
-        "sgTW": "數字鍵盤 8"
+        "sgTW": "數字鍵盤 8",
+        "bnCN": "数字键盘 8"
     },
     "KeyNumPad9": {
         "Key": "KeyNumPad9",
@@ -461,7 +518,8 @@
         "zhCN": "数字键盘 9",
         "zhTW": "數字鍵盤 9",
         "sgCN": "数字键盘 9",
-        "sgTW": "數字鍵盤 9"
+        "sgTW": "數字鍵盤 9",
+        "bnCN": "数字键盘 9"
     },
     "KeyMultiply": {
         "Key": "KeyMultiply",
@@ -469,7 +527,8 @@
         "zhCN": "数字键盘*",
         "zhTW": "數字鍵盤 *",
         "sgCN": "数字键盘*",
-        "sgTW": "數字鍵盤 *"
+        "sgTW": "數字鍵盤 *",
+        "bnCN": "数字键盘*"
     },
     "KeyAdd": {
         "Key": "KeyAdd",
@@ -477,7 +536,8 @@
         "zhCN": "数字键盘+",
         "zhTW": "數字鍵盤 +",
         "sgCN": "数字键盘+",
-        "sgTW": "數字鍵盤 +"
+        "sgTW": "數字鍵盤 +",
+        "bnCN": "数字键盘+"
     },
     "KeySeparator": {
         "Key": "KeySeparator",
@@ -485,7 +545,8 @@
         "zhCN": "分隔符",
         "zhTW": "分離鍵",
         "sgCN": "分隔符",
-        "sgTW": "分離鍵"
+        "sgTW": "分離鍵",
+        "bnCN": "分隔符"
     },
     "KeySubtract": {
         "Key": "KeySubtract",
@@ -493,7 +554,8 @@
         "zhCN": "数字键盘-",
         "zhTW": "數字鍵盤 -",
         "sgCN": "数字键盘-",
-        "sgTW": "數字鍵盤 -"
+        "sgTW": "數字鍵盤 -",
+        "bnCN": "数字键盘-"
     },
     "KeyDecimal": {
         "Key": "KeyDecimal",
@@ -501,7 +563,8 @@
         "zhCN": "数字键盘.",
         "zhTW": "數字鍵盤 .",
         "sgCN": "数字键盘.",
-        "sgTW": "數字鍵盤 ."
+        "sgTW": "數字鍵盤 .",
+        "bnCN": "数字键盘."
     },
     "KeyDivide": {
         "Key": "KeyDivide",
@@ -509,7 +572,8 @@
         "zhCN": "数字键盘/",
         "zhTW": "數字鍵盤 /",
         "sgCN": "数字键盘/",
-        "sgTW": "數字鍵盤 /"
+        "sgTW": "數字鍵盤 /",
+        "bnCN": "数字键盘/"
     },
     "KeyF1": {
         "Key": "KeyF1",
@@ -517,7 +581,8 @@
         "zhCN": "F1",
         "zhTW": "F1",
         "sgCN": "F1",
-        "sgTW": "F1"
+        "sgTW": "F1",
+        "bnCN": "F1"
     },
     "KeyF2": {
         "Key": "KeyF2",
@@ -525,7 +590,8 @@
         "zhCN": "F2",
         "zhTW": "F2",
         "sgCN": "F2",
-        "sgTW": "F2"
+        "sgTW": "F2",
+        "bnCN": "F2"
     },
     "KeyF3": {
         "Key": "KeyF3",
@@ -533,7 +599,8 @@
         "zhCN": "F3",
         "zhTW": "F3",
         "sgCN": "F3",
-        "sgTW": "F3"
+        "sgTW": "F3",
+        "bnCN": "F3"
     },
     "KeyF4": {
         "Key": "KeyF4",
@@ -541,7 +608,8 @@
         "zhCN": "F4",
         "zhTW": "F4",
         "sgCN": "F4",
-        "sgTW": "F4"
+        "sgTW": "F4",
+        "bnCN": "F4"
     },
     "KeyF5": {
         "Key": "KeyF5",
@@ -549,7 +617,8 @@
         "zhCN": "F5",
         "zhTW": "F5",
         "sgCN": "F5",
-        "sgTW": "F5"
+        "sgTW": "F5",
+        "bnCN": "F5"
     },
     "KeyF6": {
         "Key": "KeyF6",
@@ -557,7 +626,8 @@
         "zhCN": "F6",
         "zhTW": "F6",
         "sgCN": "F6",
-        "sgTW": "F6"
+        "sgTW": "F6",
+        "bnCN": "F6"
     },
     "KeyF7": {
         "Key": "KeyF7",
@@ -565,7 +635,8 @@
         "zhCN": "F7",
         "zhTW": "F7",
         "sgCN": "F7",
-        "sgTW": "F7"
+        "sgTW": "F7",
+        "bnCN": "F7"
     },
     "KeyF8": {
         "Key": "KeyF8",
@@ -573,7 +644,8 @@
         "zhCN": "F8",
         "zhTW": "F8",
         "sgCN": "F8",
-        "sgTW": "F8"
+        "sgTW": "F8",
+        "bnCN": "F8"
     },
     "KeyF9": {
         "Key": "KeyF9",
@@ -581,7 +653,8 @@
         "zhCN": "F9",
         "zhTW": "F9",
         "sgCN": "F9",
-        "sgTW": "F9"
+        "sgTW": "F9",
+        "bnCN": "F9"
     },
     "KeyF10": {
         "Key": "KeyF10",
@@ -589,7 +662,8 @@
         "zhCN": "F10",
         "zhTW": "F10",
         "sgCN": "F10",
-        "sgTW": "F10"
+        "sgTW": "F10",
+        "bnCN": "F10"
     },
     "KeyF11": {
         "Key": "KeyF11",
@@ -597,7 +671,8 @@
         "zhCN": "F11",
         "zhTW": "F11",
         "sgCN": "F11",
-        "sgTW": "F11"
+        "sgTW": "F11",
+        "bnCN": "F11"
     },
     "KeyF12": {
         "Key": "KeyF12",
@@ -605,7 +680,8 @@
         "zhCN": "F12",
         "zhTW": "F12",
         "sgCN": "F12",
-        "sgTW": "F12"
+        "sgTW": "F12",
+        "bnCN": "F12"
     },
     "KeyF13": {
         "Key": "KeyF13",
@@ -613,7 +689,8 @@
         "zhCN": "F13",
         "zhTW": "F13",
         "sgCN": "F13",
-        "sgTW": "F13"
+        "sgTW": "F13",
+        "bnCN": "F13"
     },
     "KeyF14": {
         "Key": "KeyF14",
@@ -621,7 +698,8 @@
         "zhCN": "F14",
         "zhTW": "F14",
         "sgCN": "F14",
-        "sgTW": "F14"
+        "sgTW": "F14",
+        "bnCN": "F14"
     },
     "KeyF15": {
         "Key": "KeyF15",
@@ -629,7 +707,8 @@
         "zhCN": "F15",
         "zhTW": "F15",
         "sgCN": "F15",
-        "sgTW": "F15"
+        "sgTW": "F15",
+        "bnCN": "F15"
     },
     "KeyF16": {
         "Key": "KeyF16",
@@ -637,7 +716,8 @@
         "zhCN": "F16",
         "zhTW": "F16",
         "sgCN": "F16",
-        "sgTW": "F16"
+        "sgTW": "F16",
+        "bnCN": "F16"
     },
     "KeyF17": {
         "Key": "KeyF17",
@@ -645,7 +725,8 @@
         "zhCN": "F17",
         "zhTW": "F17",
         "sgCN": "F17",
-        "sgTW": "F17"
+        "sgTW": "F17",
+        "bnCN": "F17"
     },
     "KeyF18": {
         "Key": "KeyF18",
@@ -653,7 +734,8 @@
         "zhCN": "F18",
         "zhTW": "F18",
         "sgCN": "F18",
-        "sgTW": "F18"
+        "sgTW": "F18",
+        "bnCN": "F18"
     },
     "KeyF19": {
         "Key": "KeyF19",
@@ -661,7 +743,8 @@
         "zhCN": "F19",
         "zhTW": "F19",
         "sgCN": "F19",
-        "sgTW": "F19"
+        "sgTW": "F19",
+        "bnCN": "F19"
     },
     "KeyF20": {
         "Key": "KeyF20",
@@ -669,7 +752,8 @@
         "zhCN": "F20",
         "zhTW": "F20",
         "sgCN": "F20",
-        "sgTW": "F20"
+        "sgTW": "F20",
+        "bnCN": "F20"
     },
     "KeyF21": {
         "Key": "KeyF21",
@@ -677,7 +761,8 @@
         "zhCN": "F21",
         "zhTW": "F21",
         "sgCN": "F21",
-        "sgTW": "F21"
+        "sgTW": "F21",
+        "bnCN": "F21"
     },
     "KeyF22": {
         "Key": "KeyF22",
@@ -685,7 +770,8 @@
         "zhCN": "F22",
         "zhTW": "F22",
         "sgCN": "F22",
-        "sgTW": "F22"
+        "sgTW": "F22",
+        "bnCN": "F22"
     },
     "KeyF23": {
         "Key": "KeyF23",
@@ -693,7 +779,8 @@
         "zhCN": "F23",
         "zhTW": "F23",
         "sgCN": "F23",
-        "sgTW": "F23"
+        "sgTW": "F23",
+        "bnCN": "F23"
     },
     "KeyF24": {
         "Key": "KeyF24",
@@ -701,7 +788,8 @@
         "zhCN": "F24",
         "zhTW": "F24",
         "sgCN": "F24",
-        "sgTW": "F24"
+        "sgTW": "F24",
+        "bnCN": "F24"
     },
     "KeyScroll": {
         "Key": "KeyScroll",
@@ -709,7 +797,8 @@
         "zhCN": "Scroll Lock",
         "zhTW": "Scroll Lock",
         "sgCN": "Scroll Lock",
-        "sgTW": "Scroll Lock"
+        "sgTW": "Scroll Lock",
+        "bnCN": "Scroll Lock"
     },
     "KeySemicolon": {
         "Key": "KeySemicolon",
@@ -717,7 +806,8 @@
         "zhCN": ";",
         "zhTW": ";",
         "sgCN": ";",
-        "sgTW": ";"
+        "sgTW": ";",
+        "bnCN": ";"
     },
     "KeyEqual": {
         "Key": "KeyEqual",
@@ -725,7 +815,8 @@
         "zhCN": "=",
         "zhTW": "=",
         "sgCN": "=",
-        "sgTW": "="
+        "sgTW": "=",
+        "bnCN": "="
     },
     "KeyComma": {
         "Key": "KeyComma",
@@ -733,7 +824,8 @@
         "zhCN": ",",
         "zhTW": ",",
         "sgCN": ",",
-        "sgTW": ","
+        "sgTW": ",",
+        "bnCN": ","
     },
     "KeyMinus": {
         "Key": "KeyMinus",
@@ -741,7 +833,8 @@
         "zhCN": "-",
         "zhTW": "-",
         "sgCN": "-",
-        "sgTW": "-"
+        "sgTW": "-",
+        "bnCN": "-"
     },
     "KeyPeriod": {
         "Key": "KeyPeriod",
@@ -749,7 +842,8 @@
         "zhCN": ".",
         "zhTW": ".",
         "sgCN": ".",
-        "sgTW": "."
+        "sgTW": ".",
+        "bnCN": "."
     },
     "KeySlash": {
         "Key": "KeySlash",
@@ -757,7 +851,8 @@
         "zhCN": "/",
         "zhTW": "/",
         "sgCN": "/",
-        "sgTW": "/"
+        "sgTW": "/",
+        "bnCN": "/"
     },
     "KeyTilde": {
         "Key": "KeyTilde",
@@ -765,7 +860,8 @@
         "zhCN": "~",
         "zhTW": "~",
         "sgCN": "~",
-        "sgTW": "~"
+        "sgTW": "~",
+        "bnCN": "~"
     },
     "KeyLBracket": {
         "Key": "KeyLBracket",
@@ -773,7 +869,8 @@
         "zhCN": "[",
         "zhTW": "[",
         "sgCN": "[",
-        "sgTW": "["
+        "sgTW": "[",
+        "bnCN": "["
     },
     "KeyBackslash": {
         "Key": "KeyBackslash",
@@ -781,7 +878,8 @@
         "zhCN": "\\",
         "zhTW": "\\",
         "sgCN": "\\",
-        "sgTW": "\\"
+        "sgTW": "\\",
+        "bnCN": "\\"
     },
     "KeyRBracket": {
         "Key": "KeyRBracket",
@@ -789,7 +887,8 @@
         "zhCN": "]",
         "zhTW": "]",
         "sgCN": "]",
-        "sgTW": "]"
+        "sgTW": "]",
+        "bnCN": "]"
     },
     "KeyApostrophe": {
         "Key": "KeyApostrophe",
@@ -797,7 +896,8 @@
         "zhCN": "'",
         "zhTW": "'",
         "sgCN": "'",
-        "sgTW": "'"
+        "sgTW": "'",
+        "bnCN": "'"
     },
     "ShorthandKeyMButton": {
         "Key": "ShorthandKeyMButton",
@@ -805,7 +905,8 @@
         "zhCN": "鼠标3",
         "zhTW": "m3",
         "sgCN": "鼠标3",
-        "sgTW": "m3"
+        "sgTW": "m3",
+        "bnCN": "鼠标3"
     },
     "ShorthandKey4Button": {
         "Key": "ShorthandKey4Button",
@@ -813,7 +914,8 @@
         "zhCN": "鼠标4",
         "zhTW": "m4",
         "sgCN": "鼠标4",
-        "sgTW": "m4"
+        "sgTW": "m4",
+        "bnCN": "鼠标4"
     },
     "ShorthandKey5Button": {
         "Key": "ShorthandKey5Button",
@@ -821,7 +923,8 @@
         "zhCN": "鼠标5",
         "zhTW": "m5",
         "sgCN": "鼠标5",
-        "sgTW": "m5"
+        "sgTW": "m5",
+        "bnCN": "鼠标5"
     },
     "ShorthandKeyWheelUp": {
         "Key": "ShorthandKeyWheelUp",
@@ -829,7 +932,8 @@
         "zhCN": "鼠标上滚",
         "zhTW": "mwu",
         "sgCN": "鼠标上滚",
-        "sgTW": "mwu"
+        "sgTW": "mwu",
+        "bnCN": "鼠标上滚"
     },
     "ShorthandKeyWheelDown": {
         "Key": "ShorthandKeyWheelDown",
@@ -837,7 +941,8 @@
         "zhCN": "鼠标下滚",
         "zhTW": "mwd",
         "sgCN": "鼠标下滚",
-        "sgTW": "mwd"
+        "sgTW": "mwd",
+        "bnCN": "鼠标下滚"
     },
     "ShorthandKeyKana": {
         "Key": "ShorthandKeyKana",
@@ -845,7 +950,8 @@
         "zhCN": "kna",
         "zhTW": "kna",
         "sgCN": "kna",
-        "sgTW": "kna"
+        "sgTW": "kna",
+        "bnCN": "kna"
     },
     "ShorthandKeyJunja": {
         "Key": "ShorthandKeyJunja",
@@ -853,7 +959,8 @@
         "zhCN": "jun",
         "zhTW": "jun",
         "sgCN": "jun",
-        "sgTW": "jun"
+        "sgTW": "jun",
+        "bnCN": "jun"
     },
     "ShorthandKeyFinal": {
         "Key": "ShorthandKeyFinal",
@@ -861,7 +968,8 @@
         "zhCN": "fin",
         "zhTW": "fin",
         "sgCN": "fin",
-        "sgTW": "fin"
+        "sgTW": "fin",
+        "bnCN": "fin"
     },
     "ShorthandKeyKanji": {
         "Key": "ShorthandKeyKanji",
@@ -869,7 +977,8 @@
         "zhCN": "kji",
         "zhTW": "kji",
         "sgCN": "kji",
-        "sgTW": "kji"
+        "sgTW": "kji",
+        "bnCN": "kji"
     },
     "ShorthandKeyEscape": {
         "Key": "ShorthandKeyEscape",
@@ -877,7 +986,8 @@
         "zhCN": "esc",
         "zhTW": "ESC",
         "sgCN": "esc",
-        "sgTW": "ESC"
+        "sgTW": "ESC",
+        "bnCN": "esc"
     },
     "ShorthandKeyConvert": {
         "Key": "ShorthandKeyConvert",
@@ -885,7 +995,8 @@
         "zhCN": "con",
         "zhTW": "con",
         "sgCN": "con",
-        "sgTW": "con"
+        "sgTW": "con",
+        "bnCN": "con"
     },
     "ShorthandKeyNonConvert": {
         "Key": "ShorthandKeyNonConvert",
@@ -893,7 +1004,8 @@
         "zhCN": "ncn",
         "zhTW": "ncn",
         "sgCN": "ncn",
-        "sgTW": "ncn"
+        "sgTW": "ncn",
+        "bnCN": "ncn"
     },
     "ShorthandKeyAccept": {
         "Key": "ShorthandKeyAccept",
@@ -901,7 +1013,8 @@
         "zhCN": "acc",
         "zhTW": "acc",
         "sgCN": "acc",
-        "sgTW": "acc"
+        "sgTW": "acc",
+        "bnCN": "acc"
     },
     "ShorthandKeyModeChange": {
         "Key": "ShorthandKeyModeChange",
@@ -909,7 +1022,8 @@
         "zhCN": "mdc",
         "zhTW": "mdc",
         "sgCN": "mdc",
-        "sgTW": "mdc"
+        "sgTW": "mdc",
+        "bnCN": "mdc"
     },
     "ShorthandKeyLeft": {
         "Key": "ShorthandKeyLeft",
@@ -917,7 +1031,8 @@
         "zhCN": "lft",
         "zhTW": "左",
         "sgCN": "lft",
-        "sgTW": "左"
+        "sgTW": "左",
+        "bnCN": "lft"
     },
     "ShorthandKeyRight": {
         "Key": "ShorthandKeyRight",
@@ -925,7 +1040,8 @@
         "zhCN": "rgt",
         "zhTW": "右",
         "sgCN": "rgt",
-        "sgTW": "右"
+        "sgTW": "右",
+        "bnCN": "rgt"
     },
     "ShorthandKeyDown": {
         "Key": "ShorthandKeyDown",
@@ -933,7 +1049,8 @@
         "zhCN": "Dwn",
         "zhTW": "下",
         "sgCN": "Dwn",
-        "sgTW": "下"
+        "sgTW": "下",
+        "bnCN": "Dwn"
     },
     "ShorthandKeySelect": {
         "Key": "ShorthandKeySelect",
@@ -941,7 +1058,8 @@
         "zhCN": "Slt",
         "zhTW": "Slt",
         "sgCN": "Slt",
-        "sgTW": "Slt"
+        "sgTW": "Slt",
+        "bnCN": "Slt"
     },
     "ShorthandKeyExecute": {
         "Key": "ShorthandKeyExecute",
@@ -949,7 +1067,8 @@
         "zhCN": "exc",
         "zhTW": "exc",
         "sgCN": "exc",
-        "sgTW": "exc"
+        "sgTW": "exc",
+        "bnCN": "exc"
     },
     "ShorthandKeyLeftWindows": {
         "Key": "ShorthandKeyLeftWindows",
@@ -957,7 +1076,8 @@
         "zhCN": "lwn",
         "zhTW": "lwn",
         "sgCN": "lwn",
-        "sgTW": "lwn"
+        "sgTW": "lwn",
+        "bnCN": "lwn"
     },
     "ShorthandKeyRightWindows": {
         "Key": "ShorthandKeyRightWindows",
@@ -965,7 +1085,8 @@
         "zhCN": "rwn",
         "zhTW": "rwn",
         "sgCN": "rwn",
-        "sgTW": "rwn"
+        "sgTW": "rwn",
+        "bnCN": "rwn"
     },
     "ShorthandKeyApps": {
         "Key": "ShorthandKeyApps",
@@ -973,7 +1094,8 @@
         "zhCN": "apm",
         "zhTW": "apm",
         "sgCN": "apm",
-        "sgTW": "apm"
+        "sgTW": "apm",
+        "bnCN": "apm"
     },
     "ShorthandKeyNumLock": {
         "Key": "ShorthandKeyNumLock",
@@ -981,7 +1103,8 @@
         "zhCN": "nml",
         "zhTW": "nml",
         "sgCN": "nml",
-        "sgTW": "nml"
+        "sgTW": "nml",
+        "bnCN": "nml"
     },
     "ShorthandKeyBackspace": {
         "Key": "ShorthandKeyBackspace",
@@ -989,7 +1112,8 @@
         "zhCN": "bks",
         "zhTW": "bks",
         "sgCN": "bks",
-        "sgTW": "bks"
+        "sgTW": "bks",
+        "bnCN": "bks"
     },
     "ShorthandKeyClear": {
         "Key": "ShorthandKeyClear",
@@ -997,7 +1121,8 @@
         "zhCN": "clr",
         "zhTW": "clr",
         "sgCN": "clr",
-        "sgTW": "clr"
+        "sgTW": "clr",
+        "bnCN": "clr"
     },
     "ShorthandKeyEnter": {
         "Key": "ShorthandKeyEnter",
@@ -1005,7 +1130,8 @@
         "zhCN": "ent",
         "zhTW": "ent",
         "sgCN": "ent",
-        "sgTW": "ent"
+        "sgTW": "ent",
+        "bnCN": "ent"
     },
     "ShorthandKeyShift": {
         "Key": "ShorthandKeyShift",
@@ -1013,7 +1139,8 @@
         "zhCN": "sft",
         "zhTW": "sft",
         "sgCN": "sft",
-        "sgTW": "sft"
+        "sgTW": "sft",
+        "bnCN": "sft"
     },
     "ShorthandKeyControl": {
         "Key": "ShorthandKeyControl",
@@ -1021,7 +1148,8 @@
         "zhCN": "ctl",
         "zhTW": "ctl",
         "sgCN": "ctl",
-        "sgTW": "ctl"
+        "sgTW": "ctl",
+        "bnCN": "ctl"
     },
     "ShorthandKeyPause": {
         "Key": "ShorthandKeyPause",
@@ -1029,7 +1157,8 @@
         "zhCN": "pse",
         "zhTW": "pse",
         "sgCN": "pse",
-        "sgTW": "pse"
+        "sgTW": "pse",
+        "bnCN": "pse"
     },
     "ShorthandKeyCapsLock": {
         "Key": "ShorthandKeyCapsLock",
@@ -1037,7 +1166,8 @@
         "zhCN": "clk",
         "zhTW": "clk",
         "sgCN": "clk",
-        "sgTW": "clk"
+        "sgTW": "clk",
+        "bnCN": "clk"
     },
     "ShorthandKeySpace": {
         "Key": "ShorthandKeySpace",
@@ -1045,7 +1175,8 @@
         "zhCN": "spc",
         "zhTW": "spc",
         "sgCN": "spc",
-        "sgTW": "spc"
+        "sgTW": "spc",
+        "bnCN": "spc"
     },
     "ShorthandKeyPageUp": {
         "Key": "ShorthandKeyPageUp",
@@ -1053,7 +1184,8 @@
         "zhCN": "pup",
         "zhTW": "pup",
         "sgCN": "pup",
-        "sgTW": "pup"
+        "sgTW": "pup",
+        "bnCN": "pup"
     },
     "ShorthandKeyPageDown": {
         "Key": "ShorthandKeyPageDown",
@@ -1061,7 +1193,8 @@
         "zhCN": "pdn",
         "zhTW": "pdn",
         "sgCN": "pdn",
-        "sgTW": "pdn"
+        "sgTW": "pdn",
+        "bnCN": "pdn"
     },
     "ShorthandKeyHome": {
         "Key": "ShorthandKeyHome",
@@ -1069,7 +1202,8 @@
         "zhCN": "hme",
         "zhTW": "hme",
         "sgCN": "hme",
-        "sgTW": "hme"
+        "sgTW": "hme",
+        "bnCN": "hme"
     },
     "ShorthandKeyPrintScreen": {
         "Key": "ShorthandKeyPrintScreen",
@@ -1077,7 +1211,8 @@
         "zhCN": "psn",
         "zhTW": "psn",
         "sgCN": "psn",
-        "sgTW": "psn"
+        "sgTW": "psn",
+        "bnCN": "psn"
     },
     "ShorthandKeyInsert": {
         "Key": "ShorthandKeyInsert",
@@ -1085,7 +1220,8 @@
         "zhCN": "ins",
         "zhTW": "ins",
         "sgCN": "ins",
-        "sgTW": "ins"
+        "sgTW": "ins",
+        "bnCN": "ins"
     },
     "ShorthandKeyDelete": {
         "Key": "ShorthandKeyDelete",
@@ -1093,7 +1229,8 @@
         "zhCN": "del",
         "zhTW": "del",
         "sgCN": "del",
-        "sgTW": "del"
+        "sgTW": "del",
+        "bnCN": "del"
     },
     "ShorthandKeyHelp": {
         "Key": "ShorthandKeyHelp",
@@ -1101,7 +1238,8 @@
         "zhCN": "hel",
         "zhTW": "hel",
         "sgCN": "hel",
-        "sgTW": "hel"
+        "sgTW": "hel",
+        "bnCN": "hel"
     },
     "ShorthandKeyNumPad0": {
         "Key": "ShorthandKeyNumPad0",
@@ -1109,7 +1247,8 @@
         "zhCN": "np0",
         "zhTW": "np0",
         "sgCN": "np0",
-        "sgTW": "np0"
+        "sgTW": "np0",
+        "bnCN": "np0"
     },
     "ShorthandKeyNumPad1": {
         "Key": "ShorthandKeyNumPad1",
@@ -1117,7 +1256,8 @@
         "zhCN": "np1",
         "zhTW": "np1",
         "sgCN": "np1",
-        "sgTW": "np1"
+        "sgTW": "np1",
+        "bnCN": "np1"
     },
     "ShorthandKeyNumPad2": {
         "Key": "ShorthandKeyNumPad2",
@@ -1125,7 +1265,8 @@
         "zhCN": "np2",
         "zhTW": "np2",
         "sgCN": "np2",
-        "sgTW": "np2"
+        "sgTW": "np2",
+        "bnCN": "np2"
     },
     "ShorthandKeyNumPad3": {
         "Key": "ShorthandKeyNumPad3",
@@ -1133,7 +1274,8 @@
         "zhCN": "np3",
         "zhTW": "np3",
         "sgCN": "np3",
-        "sgTW": "np3"
+        "sgTW": "np3",
+        "bnCN": "np3"
     },
     "ShorthandKeyNumPad4": {
         "Key": "ShorthandKeyNumPad4",
@@ -1141,7 +1283,8 @@
         "zhCN": "np4",
         "zhTW": "np4",
         "sgCN": "np4",
-        "sgTW": "np4"
+        "sgTW": "np4",
+        "bnCN": "np4"
     },
     "ShorthandKeyNumPad5": {
         "Key": "ShorthandKeyNumPad5",
@@ -1149,7 +1292,8 @@
         "zhCN": "np5",
         "zhTW": "np5",
         "sgCN": "np5",
-        "sgTW": "np5"
+        "sgTW": "np5",
+        "bnCN": "np5"
     },
     "ShorthandKeyNumPad6": {
         "Key": "ShorthandKeyNumPad6",
@@ -1157,7 +1301,8 @@
         "zhCN": "np6",
         "zhTW": "np6",
         "sgCN": "np6",
-        "sgTW": "np6"
+        "sgTW": "np6",
+        "bnCN": "np6"
     },
     "ShorthandKeyNumPad7": {
         "Key": "ShorthandKeyNumPad7",
@@ -1165,7 +1310,8 @@
         "zhCN": "np7",
         "zhTW": "np7",
         "sgCN": "np7",
-        "sgTW": "np7"
+        "sgTW": "np7",
+        "bnCN": "np7"
     },
     "ShorthandKeyNumPad8": {
         "Key": "ShorthandKeyNumPad8",
@@ -1173,7 +1319,8 @@
         "zhCN": "np8",
         "zhTW": "np8",
         "sgCN": "np8",
-        "sgTW": "np8"
+        "sgTW": "np8",
+        "bnCN": "np8"
     },
     "ShorthandKeyNumPad9": {
         "Key": "ShorthandKeyNumPad9",
@@ -1181,7 +1328,8 @@
         "zhCN": "np9",
         "zhTW": "np9",
         "sgCN": "np9",
-        "sgTW": "np9"
+        "sgTW": "np9",
+        "bnCN": "np9"
     },
     "ShorthandKeyNumPad*": {
         "Key": "ShorthandKeyNumPad*",
@@ -1189,7 +1337,8 @@
         "zhCN": "np*",
         "zhTW": "np*",
         "sgCN": "np*",
-        "sgTW": "np*"
+        "sgTW": "np*",
+        "bnCN": "np*"
     },
     "ShorthandKeyNumPad+": {
         "Key": "ShorthandKeyNumPad+",
@@ -1197,7 +1346,8 @@
         "zhCN": "np+",
         "zhTW": "np+",
         "sgCN": "np+",
-        "sgTW": "np+"
+        "sgTW": "np+",
+        "bnCN": "np+"
     },
     "ShorthandKeyNumPad-": {
         "Key": "ShorthandKeyNumPad-",
@@ -1205,7 +1355,8 @@
         "zhCN": "np-",
         "zhTW": "np-",
         "sgCN": "np-",
-        "sgTW": "np-"
+        "sgTW": "np-",
+        "bnCN": "np-"
     },
     "ShorthandKeyNumPad.": {
         "Key": "ShorthandKeyNumPad.",
@@ -1213,7 +1364,8 @@
         "zhCN": "np.",
         "zhTW": "np.",
         "sgCN": "np.",
-        "sgTW": "np."
+        "sgTW": "np.",
+        "bnCN": "np."
     },
     "ShorthandKeyNumPad/": {
         "Key": "ShorthandKeyNumPad/",
@@ -1221,7 +1373,8 @@
         "zhCN": "np/",
         "zhTW": "np/",
         "sgCN": "np/",
-        "sgTW": "np/"
+        "sgTW": "np/",
+        "bnCN": "np/"
     },
     "ShorthandKeyScroll": {
         "Key": "ShorthandKeyScroll",
@@ -1229,7 +1382,8 @@
         "zhCN": "slk",
         "zhTW": "slk",
         "sgCN": "slk",
-        "sgTW": "slk"
+        "sgTW": "slk",
+        "bnCN": "slk"
     },
     "KeyMacOption": {
         "Key": "KeyMacOption",
@@ -1237,7 +1391,8 @@
         "zhCN": "Option",
         "zhTW": "選項",
         "sgCN": "Option",
-        "sgTW": "選項"
+        "sgTW": "選項",
+        "bnCN": "Option"
     },
     "KeyMacCommand": {
         "Key": "KeyMacCommand",
@@ -1245,7 +1400,8 @@
         "zhCN": "命令",
         "zhTW": "指令",
         "sgCN": "命令",
-        "sgTW": "指令"
+        "sgTW": "指令",
+        "bnCN": "命令"
     },
     "KeyMacNumPad=": {
         "Key": "KeyMacNumPad=",
@@ -1253,7 +1409,8 @@
         "zhCN": "Num Pad =",
         "zhTW": "數字鍵盤 =",
         "sgCN": "Num Pad =",
-        "sgTW": "數字鍵盤 ="
+        "sgTW": "數字鍵盤 =",
+        "bnCN": "Num Pad ="
     },
     "ShorthandKeyMacOption": {
         "Key": "ShorthandKeyMacOption",
@@ -1261,7 +1418,8 @@
         "zhCN": "Opt",
         "zhTW": "選項",
         "sgCN": "Opt",
-        "sgTW": "選項"
+        "sgTW": "選項",
+        "bnCN": "Opt"
     },
     "ShorthandKeyMacCommand": {
         "Key": "ShorthandKeyMacCommand",
@@ -1269,7 +1427,8 @@
         "zhCN": "Cmd",
         "zhTW": "指令",
         "sgCN": "Cmd",
-        "sgTW": "指令"
+        "sgTW": "指令",
+        "bnCN": "Cmd"
     },
     "ShorthandKeyMacNumPad=": {
         "Key": "ShorthandKeyMacNumPad=",
@@ -1277,7 +1436,8 @@
         "zhCN": "NP=",
         "zhTW": "NP=",
         "sgCN": "NP=",
-        "sgTW": "NP="
+        "sgTW": "NP=",
+        "bnCN": "NP="
     },
     "CfgFunction": {
         "Key": "CfgFunction",
@@ -1285,7 +1445,8 @@
         "zhCN": "功能键",
         "zhTW": "功能",
         "sgCN": "功能键",
-        "sgTW": "功能"
+        "sgTW": "功能",
+        "bnCN": "功能键"
     },
     "CfgPrimaryKey": {
         "Key": "CfgPrimaryKey",
@@ -1293,7 +1454,8 @@
         "zhCN": "键/按钮一",
         "zhTW": "按鍵 / 按鈕1",
         "sgCN": "键/按钮一",
-        "sgTW": "按鍵 / 按鈕1"
+        "sgTW": "按鍵 / 按鈕1",
+        "bnCN": "键/按钮一"
     },
     "CfgSecondaryKey": {
         "Key": "CfgSecondaryKey",
@@ -1301,7 +1463,8 @@
         "zhCN": "键/按钮二",
         "zhTW": "按鍵 / 按鈕2",
         "sgCN": "键/按钮二",
-        "sgTW": "按鍵 / 按鈕2"
+        "sgTW": "按鍵 / 按鈕2",
+        "bnCN": "键/按钮二"
     },
     "CfgCharacter": {
         "Key": "CfgCharacter",
@@ -1309,7 +1472,8 @@
         "zhCN": "角色界面",
         "zhTW": "角色畫面",
         "sgCN": "角色界面",
-        "sgTW": "角色畫面"
+        "sgTW": "角色畫面",
+        "bnCN": "角色界面"
     },
     "CfgInventory": {
         "Key": "CfgInventory",
@@ -1317,7 +1481,8 @@
         "zhCN": "物品栏界面",
         "zhTW": "物品畫面",
         "sgCN": "物品栏界面",
-        "sgTW": "物品畫面"
+        "sgTW": "物品畫面",
+        "bnCN": "物品栏界面"
     },
     "CfgParty": {
         "Key": "CfgParty",
@@ -1325,7 +1490,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgMessageLog": {
         "Key": "CfgMessageLog",
@@ -1333,7 +1499,8 @@
         "zhCN": "消息记录",
         "zhTW": "訊息記錄",
         "sgCN": "消息记录",
-        "sgTW": "訊息記錄"
+        "sgTW": "訊息記錄",
+        "bnCN": "消息记录"
     },
     "CfgQuestLog": {
         "Key": "CfgQuestLog",
@@ -1341,7 +1508,8 @@
         "zhCN": "任务日志",
         "zhTW": "任務記錄",
         "sgCN": "任务日志",
-        "sgTW": "任務記錄"
+        "sgTW": "任務記錄",
+        "bnCN": "任务日志"
     },
     "CfgChat": {
         "Key": "CfgChat",
@@ -1349,7 +1517,8 @@
         "zhCN": "聊天",
         "zhTW": "交談",
         "sgCN": "聊天",
-        "sgTW": "交談"
+        "sgTW": "交談",
+        "bnCN": "聊天"
     },
     "CfgAutoMap": {
         "Key": "CfgAutoMap",
@@ -1357,7 +1526,8 @@
         "zhCN": "透视地图",
         "zhTW": "自動地圖",
         "sgCN": "透视地图",
-        "sgTW": "自動地圖"
+        "sgTW": "自動地圖",
+        "bnCN": "透视地图"
     },
     "CfgAutoMapCenter": {
         "Key": "CfgAutoMapCenter",
@@ -1365,7 +1535,8 @@
         "zhCN": "居中透视地图",
         "zhTW": "自動地圖置中",
         "sgCN": "居中透视地图",
-        "sgTW": "自動地圖置中"
+        "sgTW": "自動地圖置中",
+        "bnCN": "居中透视地图"
     },
     "CfgMiniMap": {
         "Key": "CfgMiniMap",
@@ -1373,7 +1544,8 @@
         "zhCN": "小地图",
         "zhTW": "小地圖",
         "sgCN": "小地图",
-        "sgTW": "小地圖"
+        "sgTW": "小地圖",
+        "bnCN": "小地图"
     },
     "CfgHelp": {
         "Key": "CfgHelp",
@@ -1381,7 +1553,8 @@
         "zhCN": "帮助界面",
         "zhTW": "協助畫面",
         "sgCN": "帮助界面",
-        "sgTW": "協助畫面"
+        "sgTW": "協助畫面",
+        "bnCN": "帮助界面"
     },
     "CfgSkillTree": {
         "Key": "CfgSkillTree",
@@ -1389,7 +1562,8 @@
         "zhCN": "技能树",
         "zhTW": "技能樹",
         "sgCN": "技能树",
-        "sgTW": "技能樹"
+        "sgTW": "技能樹",
+        "bnCN": "技能树"
     },
     "CfgSkill1": {
         "Key": "CfgSkill1",
@@ -1397,7 +1571,8 @@
         "zhCN": "技能1",
         "zhTW": "技能 1",
         "sgCN": "技能1",
-        "sgTW": "技能 1"
+        "sgTW": "技能 1",
+        "bnCN": "技能1"
     },
     "CfgSkill2": {
         "Key": "CfgSkill2",
@@ -1405,7 +1580,8 @@
         "zhCN": "技能2",
         "zhTW": "技能 2",
         "sgCN": "技能2",
-        "sgTW": "技能 2"
+        "sgTW": "技能 2",
+        "bnCN": "技能2"
     },
     "CfgSkill3": {
         "Key": "CfgSkill3",
@@ -1413,7 +1589,8 @@
         "zhCN": "技能3",
         "zhTW": "技能 3",
         "sgCN": "技能3",
-        "sgTW": "技能 3"
+        "sgTW": "技能 3",
+        "bnCN": "技能3"
     },
     "CfgSkill4": {
         "Key": "CfgSkill4",
@@ -1421,7 +1598,8 @@
         "zhCN": "技能4",
         "zhTW": "技能 4",
         "sgCN": "技能4",
-        "sgTW": "技能 4"
+        "sgTW": "技能 4",
+        "bnCN": "技能4"
     },
     "CfgSkill5": {
         "Key": "CfgSkill5",
@@ -1429,7 +1607,8 @@
         "zhCN": "技能5",
         "zhTW": "技能 5",
         "sgCN": "技能5",
-        "sgTW": "技能 5"
+        "sgTW": "技能 5",
+        "bnCN": "技能5"
     },
     "CfgSkill6": {
         "Key": "CfgSkill6",
@@ -1437,7 +1616,8 @@
         "zhCN": "技能6",
         "zhTW": "技能 6",
         "sgCN": "技能6",
-        "sgTW": "技能 6"
+        "sgTW": "技能 6",
+        "bnCN": "技能6"
     },
     "CfgSkill7": {
         "Key": "CfgSkill7",
@@ -1445,7 +1625,8 @@
         "zhCN": "技能7",
         "zhTW": "技能 7",
         "sgCN": "技能7",
-        "sgTW": "技能 7"
+        "sgTW": "技能 7",
+        "bnCN": "技能7"
     },
     "CfgSkill8": {
         "Key": "CfgSkill8",
@@ -1453,7 +1634,8 @@
         "zhCN": "技能8",
         "zhTW": "技能 8",
         "sgCN": "技能8",
-        "sgTW": "技能 8"
+        "sgTW": "技能 8",
+        "bnCN": "技能8"
     },
     "Cfgskillup": {
         "Key": "Cfgskillup",
@@ -1461,7 +1643,8 @@
         "zhCN": "选择前一项技能",
         "zhTW": "選擇前一項技能",
         "sgCN": "选择前一项技能",
-        "sgTW": "選擇前一項技能"
+        "sgTW": "選擇前一項技能",
+        "bnCN": "选择前一项技能"
     },
     "Cfgskilldown": {
         "Key": "Cfgskilldown",
@@ -1469,7 +1652,8 @@
         "zhCN": "选择后一项技能",
         "zhTW": "選擇下一項技能",
         "sgCN": "选择后一项技能",
-        "sgTW": "選擇下一項技能"
+        "sgTW": "選擇下一項技能",
+        "bnCN": "选择后一项技能"
     },
     "CfgBeltShow": {
         "Key": "CfgBeltShow",
@@ -1477,7 +1661,8 @@
         "zhCN": "显示腰带",
         "zhTW": "顯示腰帶",
         "sgCN": "显示腰带",
-        "sgTW": "顯示腰帶"
+        "sgTW": "顯示腰帶",
+        "bnCN": "显示腰带"
     },
     "CfgBelt1": {
         "Key": "CfgBelt1",
@@ -1485,7 +1670,8 @@
         "zhCN": "使用腰带1",
         "zhTW": "使用腰帶 1",
         "sgCN": "使用腰带1",
-        "sgTW": "使用腰帶 1"
+        "sgTW": "使用腰帶 1",
+        "bnCN": "使用腰带1"
     },
     "CfgBelt2": {
         "Key": "CfgBelt2",
@@ -1493,7 +1679,8 @@
         "zhCN": "使用腰带2",
         "zhTW": "使用腰帶 2",
         "sgCN": "使用腰带2",
-        "sgTW": "使用腰帶 2"
+        "sgTW": "使用腰帶 2",
+        "bnCN": "使用腰带2"
     },
     "CfgBelt3": {
         "Key": "CfgBelt3",
@@ -1501,7 +1688,8 @@
         "zhCN": "使用腰带3",
         "zhTW": "使用腰帶 3",
         "sgCN": "使用腰带3",
-        "sgTW": "使用腰帶 3"
+        "sgTW": "使用腰帶 3",
+        "bnCN": "使用腰带3"
     },
     "CfgBelt4": {
         "Key": "CfgBelt4",
@@ -1509,7 +1697,8 @@
         "zhCN": "使用腰带4",
         "zhTW": "使用腰帶 4",
         "sgCN": "使用腰带4",
-        "sgTW": "使用腰帶 4"
+        "sgTW": "使用腰帶 4",
+        "bnCN": "使用腰带4"
     },
     "CfgBelt5": {
         "Key": "CfgBelt5",
@@ -1517,7 +1706,8 @@
         "zhCN": "使用腰带5",
         "zhTW": "使用腰帶 5",
         "sgCN": "使用腰带5",
-        "sgTW": "使用腰帶 5"
+        "sgTW": "使用腰帶 5",
+        "bnCN": "使用腰带5"
     },
     "CfgBelt6": {
         "Key": "CfgBelt6",
@@ -1525,7 +1715,8 @@
         "zhCN": "使用腰带6",
         "zhTW": "使用腰帶 6",
         "sgCN": "使用腰带6",
-        "sgTW": "使用腰帶 6"
+        "sgTW": "使用腰帶 6",
+        "bnCN": "使用腰带6"
     },
     "CfgBelt7": {
         "Key": "CfgBelt7",
@@ -1533,7 +1724,8 @@
         "zhCN": "使用腰带7",
         "zhTW": "使用腰帶 7",
         "sgCN": "使用腰带7",
-        "sgTW": "使用腰帶 7"
+        "sgTW": "使用腰帶 7",
+        "bnCN": "使用腰带7"
     },
     "CfgBelt8": {
         "Key": "CfgBelt8",
@@ -1541,7 +1733,8 @@
         "zhCN": "使用腰带8",
         "zhTW": "使用腰帶 8",
         "sgCN": "使用腰带8",
-        "sgTW": "使用腰帶 8"
+        "sgTW": "使用腰帶 8",
+        "bnCN": "使用腰带8"
     },
     "CfgBelt9": {
         "Key": "CfgBelt9",
@@ -1549,7 +1742,8 @@
         "zhCN": "使用腰带9",
         "zhTW": "使用腰帶 9",
         "sgCN": "使用腰带9",
-        "sgTW": "使用腰帶 9"
+        "sgTW": "使用腰帶 9",
+        "bnCN": "使用腰带9"
     },
     "CfgBelt10": {
         "Key": "CfgBelt10",
@@ -1557,7 +1751,8 @@
         "zhCN": "使用腰带10",
         "zhTW": "使用腰帶 10",
         "sgCN": "使用腰带10",
-        "sgTW": "使用腰帶 10"
+        "sgTW": "使用腰帶 10",
+        "bnCN": "使用腰带10"
     },
     "CfgBelt11": {
         "Key": "CfgBelt11",
@@ -1565,7 +1760,8 @@
         "zhCN": "使用腰带11",
         "zhTW": "使用腰帶 11",
         "sgCN": "使用腰带11",
-        "sgTW": "使用腰帶 11"
+        "sgTW": "使用腰帶 11",
+        "bnCN": "使用腰带11"
     },
     "CfgBelt12": {
         "Key": "CfgBelt12",
@@ -1573,7 +1769,8 @@
         "zhCN": "使用腰带12",
         "zhTW": "使用腰帶 12",
         "sgCN": "使用腰带12",
-        "sgTW": "使用腰帶 12"
+        "sgTW": "使用腰帶 12",
+        "bnCN": "使用腰带12"
     },
     "CfgSay0": {
         "Key": "CfgSay0",
@@ -1581,7 +1778,8 @@
         "zhCN": "说 '救命'",
         "zhTW": "說「救命」",
         "sgCN": "说 '救命'",
-        "sgTW": "說「救命」"
+        "sgTW": "說「救命」",
+        "bnCN": "说 '救命'"
     },
     "CfgSay1": {
         "Key": "CfgSay1",
@@ -1589,7 +1787,8 @@
         "zhCN": "说 '跟我来'",
         "zhTW": "說「跟我走」",
         "sgCN": "说 '跟我来'",
-        "sgTW": "說「跟我走」"
+        "sgTW": "說「跟我走」",
+        "bnCN": "说 '跟我来'"
     },
     "CfgSay2": {
         "Key": "CfgSay2",
@@ -1597,7 +1796,8 @@
         "zhCN": "说 '这是给你的'",
         "zhTW": "說「這是給你的」",
         "sgCN": "说 '这是给你的'",
-        "sgTW": "說「這是給你的」"
+        "sgTW": "說「這是給你的」",
+        "bnCN": "说 '这是给你的'"
     },
     "CfgSay3": {
         "Key": "CfgSay3",
@@ -1605,7 +1805,8 @@
         "zhCN": "说 '谢谢'",
         "zhTW": "說「謝謝」",
         "sgCN": "说 '谢谢'",
-        "sgTW": "說「謝謝」"
+        "sgTW": "說「謝謝」",
+        "bnCN": "说 '谢谢'"
     },
     "CfgSay4": {
         "Key": "CfgSay4",
@@ -1613,7 +1814,8 @@
         "zhCN": "说 '对不起'",
         "zhTW": "說「抱歉」",
         "sgCN": "说 '对不起'",
-        "sgTW": "說「抱歉」"
+        "sgTW": "說「抱歉」",
+        "bnCN": "说 '对不起'"
     },
     "CfgSay5": {
         "Key": "CfgSay5",
@@ -1621,7 +1823,8 @@
         "zhCN": "说 '再见'",
         "zhTW": "說「再見」",
         "sgCN": "说 '再见'",
-        "sgTW": "說「再見」"
+        "sgTW": "說「再見」",
+        "bnCN": "说 '再见'"
     },
     "CfgSay6": {
         "Key": "CfgSay6",
@@ -1629,7 +1832,8 @@
         "zhCN": "说 '死期到了'",
         "zhTW": "說「死吧」",
         "sgCN": "说 '死期到了'",
-        "sgTW": "說「死吧」"
+        "sgTW": "說「死吧」",
+        "bnCN": "说 '死期到了'"
     },
     "CfgRun": {
         "Key": "CfgRun",
@@ -1637,7 +1841,8 @@
         "zhCN": "奔跑",
         "zhTW": "跑步",
         "sgCN": "奔跑",
-        "sgTW": "跑步"
+        "sgTW": "跑步",
+        "bnCN": "奔跑"
     },
     "CfgRunLock": {
         "Key": "CfgRunLock",
@@ -1645,7 +1850,8 @@
         "zhCN": "切换跑步/步行",
         "zhTW": "切換跑步 / 行走",
         "sgCN": "切换跑步/步行",
-        "sgTW": "切換跑步 / 行走"
+        "sgTW": "切換跑步 / 行走",
+        "bnCN": "切换跑步/步行"
     },
     "CfgStandStill": {
         "Key": "CfgStandStill",
@@ -1653,7 +1859,8 @@
         "zhCN": "站立不动",
         "zhTW": "站立不動",
         "sgCN": "站立不动",
-        "sgTW": "站立不動"
+        "sgTW": "站立不動",
+        "bnCN": "站立不动"
     },
     "CfgShowItems": {
         "Key": "CfgShowItems",
@@ -1661,7 +1868,8 @@
         "zhCN": "显示物品",
         "zhTW": "顯示物品",
         "sgCN": "显示物品",
-        "sgTW": "顯示物品"
+        "sgTW": "顯示物品",
+        "bnCN": "显示物品"
     },
     "CfgClearScreen": {
         "Key": "CfgClearScreen",
@@ -1669,7 +1877,8 @@
         "zhCN": "清理界面",
         "zhTW": "清除畫面",
         "sgCN": "清理界面",
-        "sgTW": "清除畫面"
+        "sgTW": "清除畫面",
+        "bnCN": "清理界面"
     },
     "CfgSnapshot": {
         "Key": "CfgSnapshot",
@@ -1677,7 +1886,8 @@
         "zhCN": "截图",
         "zhTW": "遊戲擷圖",
         "sgCN": "截图",
-        "sgTW": "遊戲擷圖"
+        "sgTW": "遊戲擷圖",
+        "bnCN": "截图"
     },
     "CfgDefault": {
         "Key": "CfgDefault",
@@ -1685,7 +1895,8 @@
         "zhCN": "默认",
         "zhTW": "預設",
         "sgCN": "默认",
-        "sgTW": "預設"
+        "sgTW": "預設",
+        "bnCN": "默认"
     },
     "CfgAccept": {
         "Key": "CfgAccept",
@@ -1693,7 +1904,8 @@
         "zhCN": "接受",
         "zhTW": "確定",
         "sgCN": "接受",
-        "sgTW": "確定"
+        "sgTW": "確定",
+        "bnCN": "接受"
     },
     "CfgCancel": {
         "Key": "CfgCancel",
@@ -1701,7 +1913,8 @@
         "zhCN": "取消",
         "zhTW": "取消",
         "sgCN": "取消",
-        "sgTW": "取消"
+        "sgTW": "取消",
+        "bnCN": "取消"
     },
     "KeysAssigned": {
         "Key": "KeysAssigned",
@@ -1709,7 +1922,8 @@
         "zhCN": "键位已分配。",
         "zhTW": "按鍵已指定。",
         "sgCN": "键位已分配。",
-        "sgTW": "按鍵已指定。"
+        "sgTW": "按鍵已指定。",
+        "bnCN": "键位已分配。"
     },
     "CfgClearKey": {
         "Key": "CfgClearKey",
@@ -1717,7 +1931,8 @@
         "zhCN": "清理键位",
         "zhTW": "清除按鍵",
         "sgCN": "清理键位",
-        "sgTW": "清除按鍵"
+        "sgTW": "清除按鍵",
+        "bnCN": "清理键位"
     },
     "Cfgcleartextmsg": {
         "Key": "Cfgcleartextmsg",
@@ -1725,7 +1940,8 @@
         "zhCN": "清理消息",
         "zhTW": "清除訊息",
         "sgCN": "清理消息",
-        "sgTW": "清除訊息"
+        "sgTW": "清除訊息",
+        "bnCN": "清理消息"
     },
     "CfgTogglePortraits": {
         "Key": "CfgTogglePortraits",
@@ -1733,7 +1949,8 @@
         "zhCN": "显示头像",
         "zhTW": "顯示頭像",
         "sgCN": "显示头像",
-        "sgTW": "顯示頭像"
+        "sgTW": "顯示頭像",
+        "bnCN": "显示头像"
     },
     "CfgAutoMapFade": {
         "Key": "CfgAutoMapFade",
@@ -1741,7 +1958,8 @@
         "zhCN": "透视地图透明度",
         "zhTW": "自動地圖淡化",
         "sgCN": "透视地图透明度",
-        "sgTW": "自動地圖淡化"
+        "sgTW": "自動地圖淡化",
+        "bnCN": "透视地图透明度"
     },
     "CfgAutoMapNames": {
         "Key": "CfgAutoMapNames",
@@ -1749,7 +1967,8 @@
         "zhCN": "透视地图上的名字",
         "zhTW": "自動地圖上的名稱",
         "sgCN": "透视地图上的名字",
-        "sgTW": "自動地圖上的名稱"
+        "sgTW": "自動地圖上的名稱",
+        "bnCN": "透视地图上的名字"
     },
     "CfgAutoMapParty": {
         "Key": "CfgAutoMapParty",
@@ -1757,7 +1976,8 @@
         "zhCN": "透视地图上的队伍",
         "zhTW": "自動地圖上的隊伍",
         "sgCN": "透视地图上的队伍",
-        "sgTW": "自動地圖上的隊伍"
+        "sgTW": "自動地圖上的隊伍",
+        "bnCN": "透视地图上的队伍"
     },
     "space": {
         "Key": "space",
@@ -1765,7 +1985,8 @@
         "zhCN": " ",
         "zhTW": " ",
         "sgCN": " ",
-        "sgTW": " "
+        "sgTW": " ",
+        "bnCN": " "
     },
     "dash": {
         "Key": "dash",
@@ -1773,7 +1994,8 @@
         "zhCN": "-",
         "zhTW": "-",
         "sgCN": "-",
-        "sgTW": "-"
+        "sgTW": "-",
+        "bnCN": "-"
     },
     "colon": {
         "Key": "colon",
@@ -1781,7 +2003,8 @@
         "zhCN": ":",
         "zhTW": ":",
         "sgCN": ":",
-        "sgTW": ":"
+        "sgTW": ":",
+        "bnCN": ":"
     },
     "newline": {
         "Key": "newline",
@@ -1789,7 +2012,8 @@
         "zhCN": "\n",
         "zhTW": "\n",
         "sgCN": "\n",
-        "sgTW": "\n"
+        "sgTW": "\n",
+        "bnCN": "\n"
     },
     "pipe": {
         "Key": "pipe",
@@ -1797,7 +2021,8 @@
         "zhCN": "|",
         "zhTW": "|",
         "sgCN": "|",
-        "sgTW": "|"
+        "sgTW": "|",
+        "bnCN": "|"
     },
     "slash": {
         "Key": "slash",
@@ -1805,7 +2030,8 @@
         "zhCN": "/",
         "zhTW": "/",
         "sgCN": "/",
-        "sgTW": "/"
+        "sgTW": "/",
+        "bnCN": "/"
     },
     "percent": {
         "Key": "percent",
@@ -1813,7 +2039,8 @@
         "zhCN": "%",
         "zhTW": "%",
         "sgCN": "%",
-        "sgTW": "%"
+        "sgTW": "%",
+        "bnCN": "%"
     },
     "plus": {
         "Key": "plus",
@@ -1821,7 +2048,8 @@
         "zhCN": "+",
         "zhTW": "+",
         "sgCN": "+",
-        "sgTW": "+"
+        "sgTW": "+",
+        "bnCN": "+"
     },
     "CfgSkillPick": {
         "Key": "CfgSkillPick",
@@ -1829,7 +2057,8 @@
         "zhCN": "快捷技能条",
         "zhTW": "技能快捷列",
         "sgCN": "快捷技能条",
-        "sgTW": "技能快捷列"
+        "sgTW": "技能快捷列",
+        "bnCN": "快捷技能条"
     },
     "CfgSay7X": {
         "Key": "CfgSay7X",
@@ -1837,7 +2066,8 @@
         "zhCN": "说 '撤退'",
         "zhTW": "說「撤退」",
         "sgCN": "说 '撤退'",
-        "sgTW": "說「撤退」"
+        "sgTW": "說「撤退」",
+        "bnCN": "说 '撤退'"
     },
     "CfgSay7": {
         "Key": "CfgSay7",
@@ -1845,7 +2075,8 @@
         "zhCN": "说 '撤退'",
         "zhTW": "說「撤退」",
         "sgCN": "说 '撤退'",
-        "sgTW": "說「撤退」"
+        "sgTW": "說「撤退」",
+        "bnCN": "说 '撤退'"
     },
     "CfgSkill9": {
         "Key": "CfgSkill9",
@@ -1853,7 +2084,8 @@
         "zhCN": "技能9",
         "zhTW": "技能 9",
         "sgCN": "技能9",
-        "sgTW": "技能 9"
+        "sgTW": "技能 9",
+        "bnCN": "技能9"
     },
     "CfgSkill10": {
         "Key": "CfgSkill10",
@@ -1861,7 +2093,8 @@
         "zhCN": "技能10",
         "zhTW": "技能 10",
         "sgCN": "技能10",
-        "sgTW": "技能 10"
+        "sgTW": "技能 10",
+        "bnCN": "技能10"
     },
     "CfgSkill11": {
         "Key": "CfgSkill11",
@@ -1869,7 +2102,8 @@
         "zhCN": "技能11",
         "zhTW": "技能 11",
         "sgCN": "技能11",
-        "sgTW": "技能 11"
+        "sgTW": "技能 11",
+        "bnCN": "技能11"
     },
     "CfgSkill12": {
         "Key": "CfgSkill12",
@@ -1877,7 +2111,8 @@
         "zhCN": "技能12",
         "zhTW": "技能 12",
         "sgCN": "技能12",
-        "sgTW": "技能 12"
+        "sgTW": "技能 12",
+        "bnCN": "技能12"
     },
     "CfgSkill13": {
         "Key": "CfgSkill13",
@@ -1885,7 +2120,8 @@
         "zhCN": "技能13",
         "zhTW": "技能 13",
         "sgCN": "技能13",
-        "sgTW": "技能 13"
+        "sgTW": "技能 13",
+        "bnCN": "技能13"
     },
     "CfgSkill14": {
         "Key": "CfgSkill14",
@@ -1893,7 +2129,8 @@
         "zhCN": "技能14",
         "zhTW": "技能 14",
         "sgCN": "技能14",
-        "sgTW": "技能 14"
+        "sgTW": "技能 14",
+        "bnCN": "技能14"
     },
     "CfgSkill15": {
         "Key": "CfgSkill15",
@@ -1901,7 +2138,8 @@
         "zhCN": "技能15",
         "zhTW": "技能 15",
         "sgCN": "技能15",
-        "sgTW": "技能 15"
+        "sgTW": "技能 15",
+        "bnCN": "技能15"
     },
     "CfgSkill16": {
         "Key": "CfgSkill16",
@@ -1909,7 +2147,8 @@
         "zhCN": "技能16",
         "zhTW": "技能 16",
         "sgCN": "技能16",
-        "sgTW": "技能 16"
+        "sgTW": "技能 16",
+        "bnCN": "技能16"
     },
     "CfgToggleminimap": {
         "Key": "CfgToggleminimap",
@@ -1917,7 +2156,8 @@
         "zhCN": "切换小地图位置",
         "zhTW": "切換小地圖",
         "sgCN": "切换小地图位置",
-        "sgTW": "切換小地圖"
+        "sgTW": "切換小地圖",
+        "bnCN": "切换小地图位置"
     },
     "Cfgswapweapons": {
         "Key": "Cfgswapweapons",
@@ -1925,7 +2165,8 @@
         "zhCN": "切换武器",
         "zhTW": "更換武器",
         "sgCN": "切换武器",
-        "sgTW": "更換武器"
+        "sgTW": "更換武器",
+        "bnCN": "切换武器"
     },
     "Cfghireling": {
         "Key": "Cfghireling",
@@ -1933,7 +2174,8 @@
         "zhCN": "佣兵界面",
         "zhTW": "傭兵畫面",
         "sgCN": "佣兵界面",
-        "sgTW": "傭兵畫面"
+        "sgTW": "傭兵畫面",
+        "bnCN": "佣兵界面"
     },
     "CfgCycleStashLeft": {
         "Key": "CfgCycleStashLeft",

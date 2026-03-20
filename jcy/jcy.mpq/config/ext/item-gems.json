@@ -2,58 +2,65 @@
     "gemeffect1": {
         "Key": "gemeffect1",
         "enUS": "Helm: adds to strength\nShield: adds to shield's defense\nWeapon: adds to attack rating\n",
-        "zhCN": "头盔：提高力量\n盾牌：提高盾牌的防御\n武器：提高准确率\n",
+        "zhCN": "头盔: 增加力量\n盾牌: 增加盾牌的防御值\n武器: 增加命中值",
         "zhTW": "頭盔：提高力量\n盾牌：提高盾牌的防禦\n武器：提高準確率\n",
         "sgCN": "头盔: 增加力量\n盾牌: 增加盾牌的防御值\n武器: 增加命中值",
-        "sgTW": "頭盔：增加力量\n護盾：提昇護盾的防禦等級\n武器：增加準確率\n"
+        "sgTW": "頭盔：增加力量\n護盾：提昇護盾的防禦等級\n武器：增加準確率\n",
+        "bnCN": "头盔: 增加力量\n盾牌: 增加盾牌的防御值\n武器: 增加命中值"
     },
     "gemeffect2": {
         "Key": "gemeffect2",
         "enUS": "Helm: adds to maximum mana\nShield: adds resistance to cold\nWeapon: adds cold damage to attack\n",
-        "zhCN": "头盔：提高法力上限\n护盾：提高冰寒抗性\n武器：攻击附加冰寒伤害",
+        "zhCN": "头盔: 增加最大法力\n盾牌: 增加冰霜抗性\n武器: 增加攻击时的冰霜伤害",
         "zhTW": "頭盔：提高法力上限\n護盾：提高冰寒抗性\n武器：攻擊附加冰寒傷害",
         "sgCN": "头盔: 增加最大法力\n盾牌: 增加冰霜抗性\n武器: 增加攻击时的冰霜伤害",
-        "sgTW": "頭盔：增加法力上限\n護盾：增加抗冰冷能力\n武器：攻擊時附加冰寒傷害"
+        "sgTW": "頭盔：增加法力上限\n護盾：增加抗冰冷能力\n武器：攻擊時附加冰寒傷害",
+        "bnCN": "头盔: 增加最大法力\n盾牌: 增加冰霜抗性\n武器: 增加攻击时的冰霜伤害"
     },
     "gemeffect3": {
         "Key": "gemeffect3",
         "enUS": "Helm: adds to dexterity\nShield: adds resistance to poison\nWeapon: adds poison damage to attack\n",
-        "zhCN": "头盔：提高敏捷\n护盾：提高毒素抗性\n武器：攻击附加毒素伤害\n",
+        "zhCN": "头盔: 增加敏捷\n盾牌: 增加毒素抗性\n武器: 增加攻击时的毒素伤害",
         "zhTW": "頭盔：提高敏捷\n護盾：提高毒素抗性\n武器：攻擊附加毒素傷害\n",
         "sgCN": "头盔: 增加敏捷\n盾牌: 增加毒素抗性\n武器: 增加攻击时的毒素伤害",
-        "sgTW": "頭盔：增加敏捷\n護盾：增加對抗毒能力\n武器：攻擊時附加毒素傷害\n"
+        "sgTW": "頭盔：增加敏捷\n護盾：增加對抗毒能力\n武器：攻擊時附加毒素傷害\n",
+        "bnCN": "头盔: 增加敏捷\n盾牌: 增加毒素抗性\n武器: 增加攻击时的毒素伤害"
     },
     "gemeffect4": {
         "Key": "gemeffect4",
         "enUS": "Helm: adds to maximum life\nShield: adds resistance to fire\nWeapon: adds fire damage to attack\n",
-        "zhCN": "头盔：提高生命上限\n护盾：提高火焰抗性\n武器：攻击附加火焰伤害\n",
+        "zhCN": "头盔: 增加最大生命\n盾牌: 增加火焰抗性\n武器: 增加攻击时的火焰伤害",
         "zhTW": "頭盔：提高生命上限\n護盾：提高火焰抗性\n武器：攻擊附加火焰傷害\n",
         "sgCN": "头盔: 增加最大生命\n盾牌: 增加火焰抗性\n武器: 增加攻击时的火焰伤害",
-        "sgTW": "頭盔：增加生命上限\n護盾：增加對抗火能力\n武器：攻擊時附加火焰傷害\n"
+        "sgTW": "頭盔：增加生命上限\n護盾：增加對抗火能力\n武器：攻擊時附加火焰傷害\n",
+        "bnCN": "头盔: 增加最大生命\n盾牌: 增加火焰抗性\n武器: 增加攻击时的火焰伤害"
     },
     "gemeffect5": {
         "Key": "gemeffect5",
         "enUS": "Helm: adds to attack rating\nShield: adds to all resistances\nWeapon: adds to damage vs. undead\n",
-        "zhCN": "头盔：提高准确率\n护盾：提高所有抗性\n武器：提高对不死怪物的伤害",
+        "zhCN": "头盔: 增加命中值\n盾牌: 增加所有抗性\n武器: 增加对亡灵的伤害",
         "zhTW": "頭盔：提高準確率\n護盾：提高所有抗性\n武器：提高對不死怪物的傷害",
         "sgCN": "头盔: 增加命中值\n盾牌: 增加所有抗性\n武器: 增加对亡灵的伤害",
-        "sgTW": "頭盔：增加準確率\n護盾：增加對所有傷害的抗性\n武器：對不死生物具有額外傷害\n"
+        "sgTW": "頭盔：增加準確率\n護盾：增加對所有傷害的抗性\n武器：對不死生物具有額外傷害\n",
+        "bnCN": "头盔: 增加命中值\n盾牌: 增加所有抗性\n武器: 增加对亡灵的伤害"
     },
     "gemeffect6": {
         "Key": "gemeffect6",
         "enUS": "Helm: adds to chance to find magic items\nShield: adds resistance to lightning\nWeapon: adds lightning damage to attack\n",
-        "zhCN": "头盔：提高魔法物品寻获机率\n护盾：提高电击抗性\n武器：攻击附加电击伤害\n",
+        "zhCN": "头盔: 增加找到魔法物品几率\n盾牌: 增加闪电抗性\n武器: 增加攻击时的闪电伤害",
         "zhTW": "頭盔：提高魔法物品尋獲機率\n護盾：提高電擊抗性\n武器：攻擊附加電擊傷害\n",
         "sgCN": "头盔: 增加找到魔法物品几率\n盾牌: 增加闪电抗性\n武器: 增加攻击时的闪电伤害",
-        "sgTW": "頭盔：增加找到魔法物品的機率\n護盾：增加抗電擊能力\n武器：攻擊時附加閃電傷害\n"
+        "sgTW": "頭盔：增加找到魔法物品的機率\n護盾：增加抗電擊能力\n武器：攻擊時附加閃電傷害\n",
+        "bnCN": "头盔: 增加找到魔法物品几率\n盾牌: 增加闪电抗性\n武器: 增加攻击时的闪电伤害"
     },
     "gemeffect7": {
         "Key": "gemeffect7",
         "enUS": "Helm: adds mana and life regeneration\nShield: adds attacker takes damage\nWeapon: adds mana and life steal to attack\n",
-        "zhCN": "头盔：提高法力和生命恢复率\n护盾：提高攻击者反伤\n武器：攻击附加法力和生命窃取\n",
+        "zhCN": "头盔: 增加法力和生命回复\n盾牌: 增加攻击者受到的伤害\n武器: 增加攻击时偷取的法力和生命",
         "zhTW": "頭盔：提高法力和生命恢復率\n護盾：提高攻擊者反傷\n武器：攻擊附加法力和生命竊取\n",
         "sgCN": "头盔: 增加法力和生命回复\n盾牌: 增加攻击者受到的伤害\n武器: 增加攻击时偷取的法力和生命",
-        "sgTW": "頭盔：增加法力和生命的回復速度\n護盾：增加攻擊者受傷特性\n武器：增加從攻擊者身上偷取法力和生命的特性\n"
+        "sgTW": "頭盔：增加法力和生命的回復速度\n護盾：增加攻擊者受傷特性\n武器：增加從攻擊者身上偷取法力和生命的特性\n",
+        "bnCN": "头盔: 增加法力和生命回复\n盾牌: 增加攻击者受到的伤害\n武器: 增加攻击时偷取的法力和生命"
     },
     "Use": {
         "Key": "Use",
@@ -61,206 +68,232 @@
         "zhCN": "使用宝石",
         "zhTW": "使用寶石",
         "sgCN": "使用宝石",
-        "sgTW": "使用寶石"
+        "sgTW": "使用寶石",
+        "bnCN": "使用宝石"
     },
     "GemXp1": {
         "Key": "GemXp1",
         "enUS": "Helms:",
-        "zhCN": "头盔：",
+        "zhCN": "头盔:",
         "zhTW": "頭盔：",
         "sgCN": "头盔:",
-        "sgTW": "頭盔："
+        "sgTW": "頭盔：",
+        "bnCN": "头盔:"
     },
     "GemXp2": {
         "Key": "GemXp2",
         "enUS": "Shields:",
-        "zhCN": "盾牌：",
+        "zhCN": "盾牌:",
         "zhTW": "盾牌：",
         "sgCN": "盾牌:",
-        "sgTW": "盾牌："
+        "sgTW": "盾牌：",
+        "bnCN": "盾牌:"
     },
     "GemXp3": {
         "Key": "GemXp3",
         "enUS": "Weapons:",
-        "zhCN": "武器：",
+        "zhCN": "武器:",
         "zhTW": "武器：",
         "sgCN": "武器:",
-        "sgTW": "武器："
+        "sgTW": "武器：",
+        "bnCN": "武器:"
     },
     "GemXp4": {
         "Key": "GemXp4",
         "enUS": "Armor:",
-        "zhCN": "护甲：",
+        "zhCN": "护甲:",
         "zhTW": "護甲：",
         "sgCN": "护甲:",
-        "sgTW": "裝甲："
+        "sgTW": "裝甲：",
+        "bnCN": "护甲:"
     },
     "GemeffectX11": {
         "Key": "GemeffectX11",
         "enUS": "Adds to Strength",
-        "zhCN": "提高力量",
+        "zhCN": "增加力量",
         "zhTW": "提高力量",
         "sgCN": "增加力量",
-        "sgTW": "增加力量"
+        "sgTW": "增加力量",
+        "bnCN": "增加力量"
     },
     "GemeffectX12": {
         "Key": "GemeffectX12",
         "enUS": "Adds to Defense",
-        "zhCN": "提高防御",
+        "zhCN": "增加防御",
         "zhTW": "提高防禦",
         "sgCN": "增加防御",
-        "sgTW": "增加防禦力"
+        "sgTW": "增加防禦力",
+        "bnCN": "增加防御"
     },
     "GemeffectX13": {
         "Key": "GemeffectX13",
         "enUS": "Adds to Attack Rating",
-        "zhCN": "提高准确率",
+        "zhCN": "增加命中值",
         "zhTW": "提高準確率",
         "sgCN": "增加命中值",
-        "sgTW": "增加準確率"
+        "sgTW": "增加準確率",
+        "bnCN": "增加命中值"
     },
     "GemeffectX21": {
         "Key": "GemeffectX21",
         "enUS": "Adds to Maximum Mana",
-        "zhCN": "提高法力上限",
+        "zhCN": "增加最大法力",
         "zhTW": "提高法力上限",
         "sgCN": "增加最大法力",
-        "sgTW": "增加法力上限"
+        "sgTW": "增加法力上限",
+        "bnCN": "增加最大法力"
     },
     "GemeffectX22": {
         "Key": "GemeffectX22",
         "enUS": "Adds Resistance to Cold",
-        "zhCN": "提高冰寒抗性",
+        "zhCN": "增加冰霜抗性",
         "zhTW": "提高冰寒抗性",
         "sgCN": "增加冰霜抗性",
-        "sgTW": "增加抗冰冷能力"
+        "sgTW": "增加抗冰冷能力",
+        "bnCN": "增加冰霜抗性"
     },
     "GemeffectX23": {
         "Key": "GemeffectX23",
         "enUS": "Adds Cold Damage to Attack",
-        "zhCN": "攻击附加冰寒伤害",
+        "zhCN": "增加攻击时的冰霜伤害",
         "zhTW": "攻擊附加冰寒傷害",
         "sgCN": "增加攻击时的冰霜伤害",
-        "sgTW": "攻擊時增加冰寒傷害"
+        "sgTW": "攻擊時增加冰寒傷害",
+        "bnCN": "增加攻击时的冰霜伤害"
     },
     "GemeffectX31": {
         "Key": "GemeffectX31",
         "enUS": "Adds to Dexterity",
-        "zhCN": "提高敏捷",
+        "zhCN": "增加敏捷",
         "zhTW": "提高敏捷",
         "sgCN": "增加敏捷",
-        "sgTW": "增加靈敏度"
+        "sgTW": "增加靈敏度",
+        "bnCN": "增加敏捷"
     },
     "GemeffectX32": {
         "Key": "GemeffectX32",
         "enUS": "Adds Resistance to Poison",
-        "zhCN": "提高毒素抗性",
+        "zhCN": "增加毒素抗性",
         "zhTW": "提高毒素抗性",
         "sgCN": "增加毒素抗性",
-        "sgTW": "增加抗毒能力"
+        "sgTW": "增加抗毒能力",
+        "bnCN": "增加毒素抗性"
     },
     "GemeffectX33": {
         "Key": "GemeffectX33",
         "enUS": "Adds Poison Damage to Attack",
-        "zhCN": "攻击附加毒素伤害",
+        "zhCN": "增加攻击时的毒素伤害",
         "zhTW": "攻擊附加毒素傷害",
         "sgCN": "增加攻击时的毒素伤害",
-        "sgTW": "攻擊時增加毒素傷害"
+        "sgTW": "攻擊時增加毒素傷害",
+        "bnCN": "增加攻击时的毒素伤害"
     },
     "GemeffectX41": {
         "Key": "GemeffectX41",
         "enUS": "Adds to Maximum Life",
-        "zhCN": "提高生命上限",
+        "zhCN": "增加最大生命",
         "zhTW": "提高生命上限",
         "sgCN": "增加最大生命",
-        "sgTW": "增加生命上限"
+        "sgTW": "增加生命上限",
+        "bnCN": "增加最大生命"
     },
     "GemeffectX42": {
         "Key": "GemeffectX42",
         "enUS": "Adds Resistance to Fire",
-        "zhCN": "提高火焰抗性",
+        "zhCN": "增加火焰抗性",
         "zhTW": "提高火焰抗性",
         "sgCN": "增加火焰抗性",
-        "sgTW": "增加抗火能力"
+        "sgTW": "增加抗火能力",
+        "bnCN": "增加火焰抗性"
     },
     "GemeffectX43": {
         "Key": "GemeffectX43",
         "enUS": "Adds Fire Damage to Attack",
-        "zhCN": "攻击附加火焰伤害",
+        "zhCN": "增加攻击时的火焰伤害",
         "zhTW": "攻擊附加火焰傷害",
         "sgCN": "增加攻击时的火焰伤害",
-        "sgTW": "攻擊時增加火焰傷害"
+        "sgTW": "攻擊時增加火焰傷害",
+        "bnCN": "增加攻击时的火焰伤害"
     },
     "GemeffectX51": {
         "Key": "GemeffectX51",
         "enUS": "Adds to Attack Rating",
-        "zhCN": "提高准确率",
+        "zhCN": "增加命中值",
         "zhTW": "提高準確率",
         "sgCN": "增加命中值",
-        "sgTW": "增加準確率"
+        "sgTW": "增加準確率",
+        "bnCN": "增加命中值"
     },
     "GemeffectX52": {
         "Key": "GemeffectX52",
         "enUS": "Adds to All Resistances",
-        "zhCN": "提高所有抗性",
+        "zhCN": "增加所有抗性",
         "zhTW": "提高所有抗性",
         "sgCN": "增加所有抗性",
-        "sgTW": "增加所有抗性"
+        "sgTW": "增加所有抗性",
+        "bnCN": "增加所有抗性"
     },
     "GemeffectX53": {
         "Key": "GemeffectX53",
         "enUS": "Adds to Damage vs. Undead",
-        "zhCN": "提高对不死怪物的伤害",
+        "zhCN": "增加对亡灵的伤害",
         "zhTW": "提高對不死怪物的傷害",
         "sgCN": "增加对亡灵的伤害",
-        "sgTW": "對付不死系生物時會增加傷害"
+        "sgTW": "對付不死系生物時會增加傷害",
+        "bnCN": "增加对亡灵的伤害"
     },
     "GemeffectX61": {
         "Key": "GemeffectX61",
         "enUS": "Adds to Chance to Find Magic Items",
-        "zhCN": "提高魔法物品寻获机率",
+        "zhCN": "增加找到魔法物品几率",
         "zhTW": "提高魔法物品尋獲機率",
         "sgCN": "增加找到魔法物品几率",
-        "sgTW": "增加找到魔法物品的機率"
+        "sgTW": "增加找到魔法物品的機率",
+        "bnCN": "增加找到魔法物品几率"
     },
     "GemeffectX62": {
         "Key": "GemeffectX62",
         "enUS": "Adds Resistance to Lightning",
-        "zhCN": "提高电击抗性",
+        "zhCN": "增加闪电抗性",
         "zhTW": "提高電擊抗性",
         "sgCN": "增加闪电抗性",
-        "sgTW": "增加抗電擊能力"
+        "sgTW": "增加抗電擊能力",
+        "bnCN": "增加闪电抗性"
     },
     "GemeffectX63": {
         "Key": "GemeffectX63",
         "enUS": "Adds Lightning Damage to Attack",
-        "zhCN": "攻击附加电击伤害",
+        "zhCN": "增加攻击时的闪电伤害",
         "zhTW": "攻擊附加電擊傷害",
         "sgCN": "增加攻击时的闪电伤害",
-        "sgTW": "攻擊時增加閃電傷害"
+        "sgTW": "攻擊時增加閃電傷害",
+        "bnCN": "增加攻击时的闪电伤害"
     },
     "GemeffectX71": {
         "Key": "GemeffectX71",
         "enUS": "Adds Mana and Life Regeneration",
-        "zhCN": "提高法力和生命恢复率",
+        "zhCN": "增加法力和生命回复",
         "zhTW": "提高法力和生命恢復率",
         "sgCN": "增加法力和生命回复",
-        "sgTW": "增加法力和生命的回復速度"
+        "sgTW": "增加法力和生命的回復速度",
+        "bnCN": "增加法力和生命回复"
     },
     "GemeffectX72": {
         "Key": "GemeffectX72",
         "enUS": "Adds Attacker Takes Damage",
-        "zhCN": "提高攻击者反伤",
+        "zhCN": "增加攻击者受到的伤害",
         "zhTW": "提高攻擊者反傷",
         "sgCN": "增加攻击者受到的伤害",
-        "sgTW": "攻擊者反受傷害"
+        "sgTW": "攻擊者反受傷害",
+        "bnCN": "增加攻击者受到的伤害"
     },
     "GemeffectX73": {
         "Key": "GemeffectX73",
         "enUS": "Adds Mana and Life Steal to Attack",
-        "zhCN": "攻击附加法力和生命窃取",
+        "zhCN": "增加攻击时偷取的法力和生命",
         "zhTW": "攻擊附加法力和生命竊取",
         "sgCN": "增加攻击时偷取的法力和生命",
-        "sgTW": "攻擊時增加偷取法力和生命"
+        "sgTW": "攻擊時增加偷取法力和生命",
+        "bnCN": "增加攻击时偷取的法力和生命"
     }
 }

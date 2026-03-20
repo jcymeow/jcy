@@ -5,7 +5,8 @@
         "zhCN": "按住来比较",
         "zhTW": "按住  比較",
         "sgCN": "按住来比较",
-        "sgTW": "按住  比較"
+        "sgTW": "按住  比較",
+        "bnCN": "按住来比较"
     },
     "UseItemController": {
         "Key": "UseItemController",
@@ -13,7 +14,8 @@
         "zhCN": "按住来使用",
         "zhTW": "按住  使用",
         "sgCN": "按住来使用",
-        "sgTW": "按住  使用"
+        "sgTW": "按住  使用",
+        "bnCN": "按住来使用"
     },
     "OpenHoradricCubeController": {
         "Key": "OpenHoradricCubeController",
@@ -21,7 +23,8 @@
         "zhCN": "按住来打开",
         "zhTW": "按住  開啟",
         "sgCN": "按住来打开",
-        "sgTW": "按住  開啟"
+        "sgTW": "按住  開啟",
+        "bnCN": "按住来打开"
     },
     "ReadScrollController": {
         "Key": "ReadScrollController",
@@ -29,7 +32,8 @@
         "zhCN": "按住来阅读",
         "zhTW": "按住  閱讀",
         "sgCN": "按住来阅读",
-        "sgTW": "按住  閱讀"
+        "sgTW": "按住  閱讀",
+        "bnCN": "按住来阅读"
     },
     "StrYouDiedConsole": {
         "Key": "StrYouDiedConsole",
@@ -37,7 +41,8 @@
         "zhCN": "你挂了\n按继续。",
         "zhTW": "你已經死了\n按下  繼續",
         "sgCN": "你挂了\n按继续。",
-        "sgTW": "你已經死了\n按下  繼續"
+        "sgTW": "你已經死了\n按下  繼續",
+        "bnCN": "你挂了\n按继续。"
     },
     "RepairAllConfirmation": {
         "Key": "RepairAllConfirmation",
@@ -45,7 +50,8 @@
         "zhCN": "花费%d金币修复所有装备?",
         "zhTW": "你要花費 %d 枚金幣修復所有裝備嗎？",
         "sgCN": "花费%d金币修复所有装备?",
-        "sgTW": "你要花費 %d 枚金幣修復所有裝備嗎？"
+        "sgTW": "你要花費 %d 枚金幣修復所有裝備嗎？",
+        "bnCN": "花费%d金币修复所有装备?"
     },
     "FireImmunityIcon": {
         "Key": "FireImmunityIcon",
@@ -53,7 +59,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "ColdImmunityIcon": {
         "Key": "ColdImmunityIcon",
@@ -61,7 +68,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "LightningImmunityIcon": {
         "Key": "LightningImmunityIcon",
@@ -69,7 +77,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "PoisonImmunityIcon": {
         "Key": "PoisonImmunityIcon",
@@ -77,7 +86,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "PhysicalImmunityIcon": {
         "Key": "PhysicalImmunityIcon",
@@ -85,7 +95,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "MagicImmunityIcon": {
         "Key": "MagicImmunityIcon",
@@ -93,7 +104,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "UsePotionOfLifeController": {
         "Key": "UsePotionOfLifeController",
@@ -101,7 +113,8 @@
         "zhCN": "按住永久增加20点生命值",
         "zhTW": "按住  可永久提高 20 點生命值",
         "sgCN": "按住永久增加20点生命值",
-        "sgTW": "按住  可永久提高 20 點生命值"
+        "sgTW": "按住  可永久提高 20 點生命值",
+        "bnCN": "按住永久增加20点生命值"
     },
     "UseBookOfSkillController": {
         "Key": "UseBookOfSkillController",
@@ -109,7 +122,8 @@
         "zhCN": "按住来增加你的技能点",
         "zhTW": "按住  以增加 1 點技能點數",
         "sgCN": "按住来增加你的技能点",
-        "sgTW": "按住  以增加 1 點技能點數"
+        "sgTW": "按住  以增加 1 點技能點數",
+        "bnCN": "按住来增加你的技能点"
     },
     "UseScrollOfResistanceController": {
         "Key": "UseScrollOfResistanceController",
@@ -117,7 +131,8 @@
         "zhCN": "按住来施法",
         "zhTW": "按住  施放",
         "sgCN": "按住来施法",
-        "sgTW": "按住  施放"
+        "sgTW": "按住  施放",
+        "bnCN": "按住来施法"
     },
     "RebindSkill": {
         "Key": "RebindSkill",
@@ -125,7 +140,8 @@
         "zhCN": "重新绑定技能",
         "zhTW": "重新綁定技能",
         "sgCN": "重新绑定技能",
-        "sgTW": "重新綁定技能"
+        "sgTW": "重新綁定技能",
+        "bnCN": "重新绑定技能"
     },
     "SkillNameInteract": {
         "Key": "SkillNameInteract",
@@ -133,7 +149,8 @@
         "zhCN": "交互",
         "zhTW": "互動",
         "sgCN": "交互",
-        "sgTW": "互動"
+        "sgTW": "互動",
+        "bnCN": "交互"
     },
     "SkillNameLoot": {
         "Key": "SkillNameLoot",
@@ -141,7 +158,8 @@
         "zhCN": "拾取",
         "zhTW": "拾取",
         "sgCN": "拾取",
-        "sgTW": "拾取"
+        "sgTW": "拾取",
+        "bnCN": "拾取"
     },
     "SkillDescInteract": {
         "Key": "SkillDescInteract",
@@ -149,7 +167,8 @@
         "zhCN": "与世界里的各种元素互动",
         "zhTW": "和世界中的物件互動",
         "sgCN": "与世界里的各种元素互动",
-        "sgTW": "和世界中的物件互動"
+        "sgTW": "和世界中的物件互動",
+        "bnCN": "与世界里的各种元素互动"
     },
     "SkillDescLoot": {
         "Key": "SkillDescLoot",
@@ -157,7 +176,8 @@
         "zhCN": "捡起物品、武器和护甲",
         "zhTW": "撿拾物品、武器和護甲",
         "sgCN": "捡起物品、武器和护甲",
-        "sgTW": "撿拾物品、武器和護甲"
+        "sgTW": "撿拾物品、武器和護甲",
+        "bnCN": "捡起物品、武器和护甲"
     },
     "ControllerCursorSpeedSetting": {
         "Key": "ControllerCursorSpeedSetting",
@@ -165,7 +185,8 @@
         "zhCN": "鼠标灵敏度",
         "zhTW": "游標靈敏度",
         "sgCN": "鼠标灵敏度",
-        "sgTW": "游標靈敏度"
+        "sgTW": "游標靈敏度",
+        "bnCN": "鼠标灵敏度"
     },
     "CombatFeedbackTextSetting": {
         "Key": "CombatFeedbackTextSetting",
@@ -173,7 +194,8 @@
         "zhCN": "攻击未中提示",
         "zhTW": "攻擊未命中訊息",
         "sgCN": "攻击未中提示",
-        "sgTW": "攻擊未命中訊息"
+        "sgTW": "攻擊未命中訊息",
+        "bnCN": "攻击未中提示"
     },
     "ControllerWeaponSwapSeparateBindingsSetting": {
         "Key": "ControllerWeaponSwapSeparateBindingsSetting",
@@ -181,7 +203,8 @@
         "zhCN": "切换武器时更换技能键",
         "zhTW": "切換武器有獨立的技能按鍵設定",
         "sgCN": "切换武器时更换技能键",
-        "sgTW": "切換武器有獨立的技能按鍵設定"
+        "sgTW": "切換武器有獨立的技能按鍵設定",
+        "bnCN": "切换武器时更换技能键"
     },
     "ControllerPromptAssignStatPoint": {
         "Key": "ControllerPromptAssignStatPoint",
@@ -189,7 +212,8 @@
         "zhCN": "分配一个属性点",
         "zhTW": "分配一點屬性點數",
         "sgCN": "分配一个属性点",
-        "sgTW": "分配一點屬性點數"
+        "sgTW": "分配一點屬性點數",
+        "bnCN": "分配一个属性点"
     },
     "ControllerPromptAssignSkillPoint": {
         "Key": "ControllerPromptAssignSkillPoint",
@@ -197,7 +221,8 @@
         "zhCN": "分配技能点",
         "zhTW": "分配技能點數",
         "sgCN": "分配技能点",
-        "sgTW": "分配技能點數"
+        "sgTW": "分配技能點數",
+        "bnCN": "分配技能点"
     },
     "ControllerPromptHire": {
         "Key": "ControllerPromptHire",
@@ -205,7 +230,8 @@
         "zhCN": "雇佣",
         "zhTW": "雇用",
         "sgCN": "雇佣",
-        "sgTW": "雇用"
+        "sgTW": "雇用",
+        "bnCN": "雇佣"
     },
     "ControllerPromptItemCompare": {
         "Key": "ControllerPromptItemCompare",
@@ -213,7 +239,8 @@
         "zhCN": "比较",
         "zhTW": "比較",
         "sgCN": "比较",
-        "sgTW": "比較"
+        "sgTW": "比較",
+        "bnCN": "比较"
     },
     "ControllerPromptItemAssignToBelt": {
         "Key": "ControllerPromptItemAssignToBelt",
@@ -221,7 +248,8 @@
         "zhCN": "分配到腰带",
         "zhTW": "指定至腰帶",
         "sgCN": "分配到腰带",
-        "sgTW": "指定至腰帶"
+        "sgTW": "指定至腰帶",
+        "bnCN": "分配到腰带"
     },
     "ControllerPromptItemDropOnGround": {
         "Key": "ControllerPromptItemDropOnGround",
@@ -229,7 +257,8 @@
         "zhCN": "丢弃",
         "zhTW": "丟下",
         "sgCN": "丢弃",
-        "sgTW": "丟下"
+        "sgTW": "丟下",
+        "bnCN": "丢弃"
     },
     "ControllerPromptItemEquipOnSelf": {
         "Key": "ControllerPromptItemEquipOnSelf",
@@ -237,7 +266,8 @@
         "zhCN": "装备",
         "zhTW": "裝備",
         "sgCN": "装备",
-        "sgTW": "裝備"
+        "sgTW": "裝備",
+        "bnCN": "装备"
     },
     "ControllerPromptItemEquipOnHireling": {
         "Key": "ControllerPromptItemEquipOnHireling",
@@ -245,7 +275,8 @@
         "zhCN": "装备给佣兵",
         "zhTW": "為傭兵裝備",
         "sgCN": "装备给佣兵",
-        "sgTW": "為傭兵裝備"
+        "sgTW": "為傭兵裝備",
+        "bnCN": "装备给佣兵"
     },
     "ControllerPromptItemPlaceInInventory": {
         "Key": "ControllerPromptItemPlaceInInventory",
@@ -253,7 +284,8 @@
         "zhCN": "放置",
         "zhTW": "放置",
         "sgCN": "放置",
-        "sgTW": "放置"
+        "sgTW": "放置",
+        "bnCN": "放置"
     },
     "ControllerPromptItemPickUpFromInventory": {
         "Key": "ControllerPromptItemPickUpFromInventory",
@@ -261,7 +293,8 @@
         "zhCN": "捡起",
         "zhTW": "拿取",
         "sgCN": "捡起",
-        "sgTW": "拿取"
+        "sgTW": "拿取",
+        "bnCN": "捡起"
     },
     "ControllerPromptItemMoveToInventory": {
         "Key": "ControllerPromptItemMoveToInventory",
@@ -269,7 +302,8 @@
         "zhCN": "移动到物品栏",
         "zhTW": "移到物品欄",
         "sgCN": "移动到物品栏",
-        "sgTW": "移到物品欄"
+        "sgTW": "移到物品欄",
+        "bnCN": "移动到物品栏"
     },
     "ControllerPromptItemMoveToHoradricCube": {
         "Key": "ControllerPromptItemMoveToHoradricCube",
@@ -277,7 +311,8 @@
         "zhCN": "移动到赫拉迪姆魔盒",
         "zhTW": "移到赫拉迪姆方塊",
         "sgCN": "移动到赫拉迪姆魔盒",
-        "sgTW": "移到赫拉迪姆方塊"
+        "sgTW": "移到赫拉迪姆方塊",
+        "bnCN": "移动到赫拉迪姆魔盒"
     },
     "ControllerPromptItemMoveToSharedStash": {
         "Key": "ControllerPromptItemMoveToSharedStash",
@@ -285,7 +320,8 @@
         "zhCN": "移动到共享储藏箱",
         "zhTW": "轉移到共用儲物箱",
         "sgCN": "移动到共享储藏箱",
-        "sgTW": "轉移到共用儲物箱"
+        "sgTW": "轉移到共用儲物箱",
+        "bnCN": "移动到共享储藏箱"
     },
     "ControllerPromptItemMoveToPrivateStash": {
         "Key": "ControllerPromptItemMoveToPrivateStash",
@@ -293,7 +329,8 @@
         "zhCN": "移动到私人储藏箱",
         "zhTW": "轉移到個人儲物箱",
         "sgCN": "移动到私人储藏箱",
-        "sgTW": "轉移到個人儲物箱"
+        "sgTW": "轉移到個人儲物箱",
+        "bnCN": "移动到私人储藏箱"
     },
     "ControllerPromptItemRead": {
         "Key": "ControllerPromptItemRead",
@@ -301,7 +338,8 @@
         "zhCN": "阅读",
         "zhTW": "閱讀",
         "sgCN": "阅读",
-        "sgTW": "閱讀"
+        "sgTW": "閱讀",
+        "bnCN": "阅读"
     },
     "ControllerPromptItemOpen": {
         "Key": "ControllerPromptItemOpen",
@@ -309,7 +347,8 @@
         "zhCN": "打开",
         "zhTW": "打開",
         "sgCN": "打开",
-        "sgTW": "打開"
+        "sgTW": "打開",
+        "bnCN": "打开"
     },
     "ControllerPromptItemUse": {
         "Key": "ControllerPromptItemUse",
@@ -317,7 +356,8 @@
         "zhCN": "使用",
         "zhTW": "使用",
         "sgCN": "使用",
-        "sgTW": "使用"
+        "sgTW": "使用",
+        "bnCN": "使用"
     },
     "ControllerPromptHoldFormatString": {
         "Key": "ControllerPromptHoldFormatString",
@@ -325,7 +365,8 @@
         "zhCN": "(按住%s)",
         "zhTW": "（按住以%s）",
         "sgCN": "(按住%s)",
-        "sgTW": "（按住以%s）"
+        "sgTW": "（按住以%s）",
+        "bnCN": "(按住%s)"
     },
     "ControllerPromptHoldToSortInventory": {
         "Key": "ControllerPromptHoldToSortInventory",
@@ -333,7 +374,8 @@
         "zhCN": "按住排序",
         "zhTW": "按住以排列物品",
         "sgCN": "按住排序",
-        "sgTW": "按住以排列物品"
+        "sgTW": "按住以排列物品",
+        "bnCN": "按住排序"
     },
     "ControllerPromptViewAdvancedStats": {
         "Key": "ControllerPromptViewAdvancedStats",
@@ -341,7 +383,8 @@
         "zhCN": "查看高级属性",
         "zhTW": "檢視進階屬性",
         "sgCN": "查看高级属性",
-        "sgTW": "檢視進階屬性"
+        "sgTW": "檢視進階屬性",
+        "bnCN": "查看高级属性"
     },
     "ControllerPromptTravelToWaypoint": {
         "Key": "ControllerPromptTravelToWaypoint",
@@ -349,7 +392,8 @@
         "zhCN": "传送",
         "zhTW": "移動",
         "sgCN": "传送",
-        "sgTW": "移動"
+        "sgTW": "移動",
+        "bnCN": "传送"
     },
     "ControllerPromptCharacterCreateViewClass": {
         "Key": "ControllerPromptCharacterCreateViewClass",
@@ -357,7 +401,8 @@
         "zhCN": "查看职业",
         "zhTW": "檢視職業",
         "sgCN": "查看职业",
-        "sgTW": "檢視職業"
+        "sgTW": "檢視職業",
+        "bnCN": "查看职业"
     },
     "ControllerPromptCharacterCreateSelectClass": {
         "Key": "ControllerPromptCharacterCreateSelectClass",
@@ -365,7 +410,8 @@
         "zhCN": "选择职业",
         "zhTW": "選擇職業",
         "sgCN": "选择职业",
-        "sgTW": "選擇職業"
+        "sgTW": "選擇職業",
+        "bnCN": "选择职业"
     },
     "ControllerPromptCharacterCreateReturnToMainMenu": {
         "Key": "ControllerPromptCharacterCreateReturnToMainMenu",
@@ -373,7 +419,8 @@
         "zhCN": "返回主菜单",
         "zhTW": "返回主選單",
         "sgCN": "返回主菜单",
-        "sgTW": "返回主選單"
+        "sgTW": "返回主選單",
+        "bnCN": "返回主菜单"
     },
     "ControllerPromptCharacterCreateChangeClass": {
         "Key": "ControllerPromptCharacterCreateChangeClass",
@@ -381,7 +428,8 @@
         "zhCN": "更换职业",
         "zhTW": "更換職業",
         "sgCN": "更换职业",
-        "sgTW": "更換職業"
+        "sgTW": "更換職業",
+        "bnCN": "更换职业"
     },
     "ControllerPromptCharacterCreateGenerateName": {
         "Key": "ControllerPromptCharacterCreateGenerateName",
@@ -389,7 +437,8 @@
         "zhCN": "生成名称",
         "zhTW": "產生名稱",
         "sgCN": "生成名称",
-        "sgTW": "產生名稱"
+        "sgTW": "產生名稱",
+        "bnCN": "生成名称"
     },
     "ControllerPromptToggleHDMode": {
         "Key": "ControllerPromptToggleHDMode",
@@ -397,7 +446,8 @@
         "zhCN": "切换经典版",
         "zhTW": "切換懷舊模式",
         "sgCN": "切换经典版",
-        "sgTW": "切換懷舊模式"
+        "sgTW": "切換懷舊模式",
+        "bnCN": "切换经典版"
     },
     "ControllerPromptSelectCharacter": {
         "Key": "ControllerPromptSelectCharacter",
@@ -405,7 +455,8 @@
         "zhCN": "选择",
         "zhTW": "選擇",
         "sgCN": "选择",
-        "sgTW": "選擇"
+        "sgTW": "選擇",
+        "bnCN": "选择"
     },
     "ControllerPromptDeleteCharacter": {
         "Key": "ControllerPromptDeleteCharacter",
@@ -413,7 +464,8 @@
         "zhCN": "删除角色",
         "zhTW": "刪除角色",
         "sgCN": "删除角色",
-        "sgTW": "刪除角色"
+        "sgTW": "刪除角色",
+        "bnCN": "删除角色"
     },
     "ControllerPromptChangeCharacter": {
         "Key": "ControllerPromptChangeCharacter",
@@ -421,7 +473,8 @@
         "zhCN": "更换角色",
         "zhTW": "更改角色",
         "sgCN": "更换角色",
-        "sgTW": "更改角色"
+        "sgTW": "更改角色",
+        "bnCN": "更换角色"
     },
     "ControllerPromptCharacterSelectReturnToMainMenu": {
         "Key": "ControllerPromptCharacterSelectReturnToMainMenu",
@@ -429,7 +482,8 @@
         "zhCN": "返回",
         "zhTW": "返回",
         "sgCN": "返回",
-        "sgTW": "返回"
+        "sgTW": "返回",
+        "bnCN": "返回"
     },
     "ControllerPromptCloseMenu": {
         "Key": "ControllerPromptCloseMenu",
@@ -437,7 +491,8 @@
         "zhCN": "关闭菜单",
         "zhTW": "關閉選單",
         "sgCN": "关闭菜单",
-        "sgTW": "關閉選單"
+        "sgTW": "關閉選單",
+        "bnCN": "关闭菜单"
     },
     "ControllerPromptModalAccept": {
         "Key": "ControllerPromptModalAccept",
@@ -445,7 +500,8 @@
         "zhCN": "接受",
         "zhTW": "接受",
         "sgCN": "接受",
-        "sgTW": "接受"
+        "sgTW": "接受",
+        "bnCN": "接受"
     },
     "ControllerPromptModalCancel": {
         "Key": "ControllerPromptModalCancel",
@@ -453,7 +509,8 @@
         "zhCN": "返回",
         "zhTW": "返回",
         "sgCN": "返回",
-        "sgTW": "返回"
+        "sgTW": "返回",
+        "bnCN": "返回"
     },
     "ControllerPromptBindSkillButton": {
         "Key": "ControllerPromptBindSkillButton",
@@ -461,7 +518,8 @@
         "zhCN": "绑定技能",
         "zhTW": "綁定技能",
         "sgCN": "绑定技能",
-        "sgTW": "綁定技能"
+        "sgTW": "綁定技能",
+        "bnCN": "绑定技能"
     },
     "ControllerPauseMenuTitle": {
         "Key": "ControllerPauseMenuTitle",
@@ -469,7 +527,8 @@
         "zhCN": "选项",
         "zhTW": "選項",
         "sgCN": "选项",
-        "sgTW": "選項"
+        "sgTW": "選項",
+        "bnCN": "选项"
     },
     "ControllerPromptUseOnHireling": {
         "Key": "ControllerPromptUseOnHireling",
@@ -477,7 +536,8 @@
         "zhCN": "用在佣兵身上",
         "zhTW": "對傭兵使用",
         "sgCN": "用在佣兵身上",
-        "sgTW": "對傭兵使用"
+        "sgTW": "對傭兵使用",
+        "bnCN": "用在佣兵身上"
     },
     "ControllerPromptItemUnassignFromBelt": {
         "Key": "ControllerPromptItemUnassignFromBelt",
@@ -485,7 +545,8 @@
         "zhCN": "从腰带上撤销指定",
         "zhTW": "解除腰帶裝備",
         "sgCN": "从腰带上撤销指定",
-        "sgTW": "解除腰帶裝備"
+        "sgTW": "解除腰帶裝備",
+        "bnCN": "从腰带上撤销指定"
     },
     "AutoGoldTextSetting": {
         "Key": "AutoGoldTextSetting",
@@ -493,7 +554,8 @@
         "zhCN": "自动拾取金币",
         "zhTW": "自動收集金幣",
         "sgCN": "自动拾取金币",
-        "sgTW": "自動收集金幣"
+        "sgTW": "自動收集金幣",
+        "bnCN": "自动拾取金币"
     },
     "SkillAmmoFeedbackText": {
         "Key": "SkillAmmoFeedbackText",
@@ -501,7 +563,8 @@
         "zhCN": "显示技能上的弹药数量",
         "zhTW": "在技能顯示彈藥數",
         "sgCN": "显示技能上的弹药数量",
-        "sgTW": "在技能顯示彈藥數"
+        "sgTW": "在技能顯示彈藥數",
+        "bnCN": "显示技能上的弹药数量"
     },
     "ControllerPromptSpellUse": {
         "Key": "ControllerPromptSpellUse",
@@ -509,7 +572,8 @@
         "zhCN": "使用%s",
         "zhTW": "使用%s",
         "sgCN": "使用%s",
-        "sgTW": "使用%s"
+        "sgTW": "使用%s",
+        "bnCN": "使用%s"
     },
     "ControllerPromptSpellCancel": {
         "Key": "ControllerPromptSpellCancel",
@@ -517,7 +581,8 @@
         "zhCN": "取消",
         "zhTW": "取消",
         "sgCN": "取消",
-        "sgTW": "取消"
+        "sgTW": "取消",
+        "bnCN": "取消"
     },
     "EmoteHelp": {
         "Key": "EmoteHelp",
@@ -525,7 +590,8 @@
         "zhCN": "救命！",
         "zhTW": "救命！",
         "sgCN": "救命！",
-        "sgTW": "救命！"
+        "sgTW": "救命！",
+        "bnCN": "救命！"
     },
     "EmoteFollowMe": {
         "Key": "EmoteFollowMe",
@@ -533,7 +599,8 @@
         "zhCN": "跟随我",
         "zhTW": "跟我走",
         "sgCN": "跟随我",
-        "sgTW": "跟我走"
+        "sgTW": "跟我走",
+        "bnCN": "跟随我"
     },
     "EmoteForYou": {
         "Key": "EmoteForYou",
@@ -541,7 +608,8 @@
         "zhCN": "给你的",
         "zhTW": "這是給你的",
         "sgCN": "给你的",
-        "sgTW": "這是給你的"
+        "sgTW": "這是給你的",
+        "bnCN": "给你的"
     },
     "EmoteThanks": {
         "Key": "EmoteThanks",
@@ -549,7 +617,8 @@
         "zhCN": "谢谢",
         "zhTW": "謝謝",
         "sgCN": "谢谢",
-        "sgTW": "謝謝"
+        "sgTW": "謝謝",
+        "bnCN": "谢谢"
     },
     "EmoteSorry": {
         "Key": "EmoteSorry",
@@ -557,7 +626,8 @@
         "zhCN": "抱歉",
         "zhTW": "道歉",
         "sgCN": "抱歉",
-        "sgTW": "道歉"
+        "sgTW": "道歉",
+        "bnCN": "抱歉"
     },
     "EmoteBye": {
         "Key": "EmoteBye",
@@ -565,7 +635,8 @@
         "zhCN": "再见！",
         "zhTW": "再會！",
         "sgCN": "再见！",
-        "sgTW": "再會！"
+        "sgTW": "再會！",
+        "bnCN": "再见！"
     },
     "EmoteDie": {
         "Key": "EmoteDie",
@@ -573,7 +644,8 @@
         "zhCN": "死吧！",
         "zhTW": "死吧！",
         "sgCN": "死吧！",
-        "sgTW": "死吧！"
+        "sgTW": "死吧！",
+        "bnCN": "死吧！"
     },
     "EmoteRun": {
         "Key": "EmoteRun",
@@ -581,7 +653,8 @@
         "zhCN": "快跑！",
         "zhTW": "快逃！",
         "sgCN": "快跑！",
-        "sgTW": "快逃！"
+        "sgTW": "快逃！",
+        "bnCN": "快跑！"
     },
     "EmoteGG": {
         "Key": "EmoteGG",
@@ -589,7 +662,8 @@
         "zhCN": "GG",
         "zhTW": "GG",
         "sgCN": "GG",
-        "sgTW": "GG"
+        "sgTW": "GG",
+        "bnCN": "GG"
     },
     "EmoteNeedToTP": {
         "Key": "EmoteNeedToTP",
@@ -597,7 +671,8 @@
         "zhCN": "需要回城",
         "zhTW": "需要傳送門",
         "sgCN": "需要回城",
-        "sgTW": "需要傳送門"
+        "sgTW": "需要傳送門",
+        "bnCN": "需要回城"
     },
     "EmoteBagFull": {
         "Key": "EmoteBagFull",
@@ -605,7 +680,8 @@
         "zhCN": "包满了",
         "zhTW": "背包滿了",
         "sgCN": "包满了",
-        "sgTW": "背包滿了"
+        "sgTW": "背包滿了",
+        "bnCN": "包满了"
     },
     "EmoteNeedThat": {
         "Key": "EmoteNeedThat",
@@ -613,7 +689,8 @@
         "zhCN": "要这个吗？",
         "zhTW": "你要這個嗎？",
         "sgCN": "要这个吗？",
-        "sgTW": "你要這個嗎？"
+        "sgTW": "你要這個嗎？",
+        "bnCN": "要这个吗？"
     },
     "CharacterCreateLadderDisabled": {
         "Key": "CharacterCreateLadderDisabled",
@@ -621,7 +698,8 @@
         "zhCN": "必须用线上角色才能体验天梯。",
         "zhTW": "只能以線上角色進行天梯遊戲。",
         "sgCN": "必须用线上角色才能体验天梯。",
-        "sgTW": "只能以線上角色進行天梯遊戲。"
+        "sgTW": "只能以線上角色進行天梯遊戲。",
+        "bnCN": "必须用线上角色才能体验天梯。"
     },
     "CharacterCreateExpansionDisabled": {
         "Key": "CharacterCreateExpansionDisabled",
@@ -629,7 +707,8 @@
         "zhCN": "只有资料片角色才能够使用所选的职业。",
         "zhTW": "該職業只能是資料片角色。",
         "sgCN": "只有资料片角色才能够使用所选的职业。",
-        "sgTW": "該職業只能是資料片角色。"
+        "sgTW": "該職業只能是資料片角色。",
+        "bnCN": "只有资料片角色才能够使用所选的职业。"
     },
     "ControllerPromptItemMoveToImbue": {
         "Key": "ControllerPromptItemMoveToImbue",
@@ -637,7 +716,8 @@
         "zhCN": "移动到灌魔",
         "zhTW": "移動以進行灌注",
         "sgCN": "移动到灌魔",
-        "sgTW": "移動以進行灌注"
+        "sgTW": "移動以進行灌注",
+        "bnCN": "移动到灌魔"
     },
     "ControllerPromptItemUnequip": {
         "Key": "ControllerPromptItemUnequip",
@@ -645,7 +725,8 @@
         "zhCN": "卸除装备",
         "zhTW": "解除裝備",
         "sgCN": "卸除装备",
-        "sgTW": "解除裝備"
+        "sgTW": "解除裝備",
+        "bnCN": "卸除装备"
     },
     "hireComparisonTooltipController": {
         "Key": "hireComparisonTooltipController",
@@ -653,7 +734,8 @@
         "zhCN": "长按进行对比",
         "zhTW": "按住  鍵進行比較",
         "sgCN": "长按进行对比",
-        "sgTW": "按住  鍵進行比較"
+        "sgTW": "按住  鍵進行比較",
+        "bnCN": "长按进行对比"
     },
     "ControllerHelpToggleSkills": {
         "Key": "ControllerHelpToggleSkills",
@@ -661,7 +743,8 @@
         "zhCN": "技能开关 ",
         "zhTW": "技能切換 ",
         "sgCN": "技能开关 ",
-        "sgTW": "技能切換 "
+        "sgTW": "技能切換 ",
+        "bnCN": "技能开关 "
     },
     "ControllerHelpHighItems": {
         "Key": "ControllerHelpHighItems",
@@ -669,7 +752,8 @@
         "zhCN": "显示物品标签 ",
         "zhTW": "顯示物品名稱 ",
         "sgCN": "显示物品标签 ",
-        "sgTW": "顯示物品名稱 "
+        "sgTW": "顯示物品名稱 ",
+        "bnCN": "显示物品标签 "
     },
     "ControllerHelpRun": {
         "Key": "ControllerHelpRun",
@@ -677,7 +761,8 @@
         "zhCN": "移动\n(按下) 奔跑/行走切换",
         "zhTW": "移動 \n（按下）切換跑步 / 行走",
         "sgCN": "移动\n(按下) 奔跑/行走切换",
-        "sgTW": "移動 \n（按下）切換跑步 / 行走"
+        "sgTW": "移動 \n（按下）切換跑步 / 行走",
+        "bnCN": "移动\n(按下) 奔跑/行走切换"
     },
     "ControllerHelpBelt1": {
         "Key": "ControllerHelpBelt1",
@@ -685,7 +770,8 @@
         "zhCN": "腰带栏1 ",
         "zhTW": "腰帶欄位 1 ",
         "sgCN": "腰带栏1 ",
-        "sgTW": "腰帶欄位 1 "
+        "sgTW": "腰帶欄位 1 ",
+        "bnCN": "腰带栏1 "
     },
     "ControllerHelpBelt2": {
         "Key": "ControllerHelpBelt2",
@@ -693,7 +779,8 @@
         "zhCN": "腰带栏2 ",
         "zhTW": "腰帶欄位 2 ",
         "sgCN": "腰带栏2 ",
-        "sgTW": "腰帶欄位 2 "
+        "sgTW": "腰帶欄位 2 ",
+        "bnCN": "腰带栏2 "
     },
     "ControllerHelpBelt3": {
         "Key": "ControllerHelpBelt3",
@@ -701,7 +788,8 @@
         "zhCN": "腰带栏3 ",
         "zhTW": "腰帶欄位 3 ",
         "sgCN": "腰带栏3 ",
-        "sgTW": "腰帶欄位 3 "
+        "sgTW": "腰帶欄位 3 ",
+        "bnCN": "腰带栏3 "
     },
     "ControllerHelpBelt4": {
         "Key": "ControllerHelpBelt4",
@@ -709,7 +797,8 @@
         "zhCN": "腰带栏4 ",
         "zhTW": "腰帶欄位 4 ",
         "sgCN": "腰带栏4 ",
-        "sgTW": "腰帶欄位 4 "
+        "sgTW": "腰帶欄位 4 ",
+        "bnCN": "腰带栏4 "
     },
     "ControllerHelpAutoMap": {
         "Key": "ControllerHelpAutoMap",
@@ -717,7 +806,8 @@
         "zhCN": "透视地图",
         "zhTW": "自動地圖",
         "sgCN": "透视地图",
-        "sgTW": "自動地圖"
+        "sgTW": "自動地圖",
+        "bnCN": "透视地图"
     },
     "ControllerHelpSkill6": {
         "Key": "ControllerHelpSkill6",
@@ -725,7 +815,8 @@
         "zhCN": "  技能 6",
         "zhTW": " 技能 6",
         "sgCN": "  技能 6",
-        "sgTW": " 技能 6"
+        "sgTW": " 技能 6",
+        "bnCN": "  技能 6"
     },
     "ControllerHelpSkill5": {
         "Key": "ControllerHelpSkill5",
@@ -733,7 +824,8 @@
         "zhCN": "  技能 5",
         "zhTW": " 技能 5",
         "sgCN": "  技能 5",
-        "sgTW": " 技能 5"
+        "sgTW": " 技能 5",
+        "bnCN": "  技能 5"
     },
     "ControllerHelpSkill4": {
         "Key": "ControllerHelpSkill4",
@@ -741,7 +833,8 @@
         "zhCN": "  技能 4",
         "zhTW": " 技能 4",
         "sgCN": "  技能 4",
-        "sgTW": " 技能 4"
+        "sgTW": " 技能 4",
+        "bnCN": "  技能 4"
     },
     "ControllerHelpSkill3": {
         "Key": "ControllerHelpSkill3",
@@ -749,7 +842,8 @@
         "zhCN": "  技能 3",
         "zhTW": " 技能 3",
         "sgCN": "  技能 3",
-        "sgTW": " 技能 3"
+        "sgTW": " 技能 3",
+        "bnCN": "  技能 3"
     },
     "ControllerHelpSkill2": {
         "Key": "ControllerHelpSkill2",
@@ -757,7 +851,8 @@
         "zhCN": "  技能2",
         "zhTW": " 技能 2",
         "sgCN": "  技能2",
-        "sgTW": " 技能 2"
+        "sgTW": " 技能 2",
+        "bnCN": "  技能2"
     },
     "ControllerHelpSkill1": {
         "Key": "ControllerHelpSkill1",
@@ -765,7 +860,8 @@
         "zhCN": "  技能1",
         "zhTW": " 技能 1",
         "sgCN": "  技能1",
-        "sgTW": " 技能 1"
+        "sgTW": " 技能 1",
+        "bnCN": "  技能1"
     },
     "ControllerHelpGameMenu": {
         "Key": "ControllerHelpGameMenu",
@@ -773,7 +869,8 @@
         "zhCN": "游戏菜单",
         "zhTW": "遊戲選單",
         "sgCN": "游戏菜单",
-        "sgTW": "遊戲選單"
+        "sgTW": "遊戲選單",
+        "bnCN": "游戏菜单"
     },
     "ControllerHelpEmote": {
         "Key": "ControllerHelpEmote",
@@ -781,7 +878,8 @@
         "zhCN": "(按下) 交替武器 \n(按住) 表情滚轮",
         "zhTW": "（按下）切換武器\n（按住）表情轉盤",
         "sgCN": "(按下) 交替武器 \n(按住) 表情滚轮",
-        "sgTW": "（按下）切換武器\n（按住）表情轉盤"
+        "sgTW": "（按下）切換武器\n（按住）表情轉盤",
+        "bnCN": "(按下) 交替武器 \n(按住) 表情滚轮"
     },
     "ControllerHelpSkillsBar": {
         "Key": "ControllerHelpSkillsBar",
@@ -789,7 +887,8 @@
         "zhCN": "技能栏",
         "zhTW": "技能面板",
         "sgCN": "技能栏",
-        "sgTW": "技能面板"
+        "sgTW": "技能面板",
+        "bnCN": "技能栏"
     },
     "ControllerHelpSkillsBackBar": {
         "Key": "ControllerHelpSkillsBackBar",
@@ -797,7 +896,8 @@
         "zhCN": "备选技能栏",
         "zhTW": "非主要技能面板",
         "sgCN": "备选技能栏",
-        "sgTW": "非主要技能面板"
+        "sgTW": "非主要技能面板",
+        "bnCN": "备选技能栏"
     },
     "ControllerCycleComparisonTooltips": {
         "Key": "ControllerCycleComparisonTooltips",
@@ -805,7 +905,8 @@
         "zhCN": "按循环",
         "zhTW": "按下  切換",
         "sgCN": "按循环",
-        "sgTW": "按下  切換"
+        "sgTW": "按下  切換",
+        "bnCN": "按循环"
     },
     "ControllerPromptHoldToPopulateBelt": {
         "Key": "ControllerPromptHoldToPopulateBelt",
@@ -813,7 +914,8 @@
         "zhCN": "按住自动装入腰带",
         "zhTW": "按住以移至腰帶",
         "sgCN": "按住自动装入腰带",
-        "sgTW": "按住以移至腰帶"
+        "sgTW": "按住以移至腰帶",
+        "bnCN": "按住自动装入腰带"
     },
     "UseTokenOfAbsolutionController": {
         "Key": "UseTokenOfAbsolutionController",
@@ -821,7 +923,8 @@
         "zhCN": "按住重设属性技能点",
         "zhTW": "按住  以重置屬性與技能點數",
         "sgCN": "按住重设属性技能点",
-        "sgTW": "按住  以重置屬性與技能點數"
+        "sgTW": "按住  以重置屬性與技能點數",
+        "bnCN": "按住重设属性技能点"
     },
     "ControllerTitleScreenPrompt": {
         "Key": "ControllerTitleScreenPrompt",
@@ -829,7 +932,8 @@
         "zhCN": "按开始",
         "zhTW": "按下  開始",
         "sgCN": "按开始",
-        "sgTW": "按下  開始"
+        "sgTW": "按下  開始",
+        "bnCN": "按开始"
     },
     "ControllerInteractButton": {
         "Key": "ControllerInteractButton",
@@ -837,7 +941,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "ControllerHelpSkill4Switch": {
         "Key": "ControllerHelpSkill4Switch",
@@ -845,7 +950,8 @@
         "zhCN": "  技能 4",
         "zhTW": " 技能 4",
         "sgCN": "  技能 4",
-        "sgTW": " 技能 4"
+        "sgTW": " 技能 4",
+        "bnCN": "  技能 4"
     },
     "ControllerHelpSkill3Switch": {
         "Key": "ControllerHelpSkill3Switch",
@@ -853,7 +959,8 @@
         "zhCN": "  技能 3",
         "zhTW": " 技能 3",
         "sgCN": "  技能 3",
-        "sgTW": " 技能 3"
+        "sgTW": " 技能 3",
+        "bnCN": "  技能 3"
     },
     "ControllerHelpSkill2Switch": {
         "Key": "ControllerHelpSkill2Switch",
@@ -861,7 +968,8 @@
         "zhCN": "  技能 2",
         "zhTW": " 技能 2",
         "sgCN": "  技能 2",
-        "sgTW": " 技能 2"
+        "sgTW": " 技能 2",
+        "bnCN": "  技能 2"
     },
     "ControllerHelpSkill1Switch": {
         "Key": "ControllerHelpSkill1Switch",
@@ -869,7 +977,8 @@
         "zhCN": "  技能 1",
         "zhTW": " 技能 1",
         "sgCN": "  技能 1",
-        "sgTW": " 技能 1"
+        "sgTW": " 技能 1",
+        "bnCN": "  技能 1"
     },
     "OptionsMenuWeaponSwapUniqueBindingsTooltip": {
         "Key": "OptionsMenuWeaponSwapUniqueBindingsTooltip",
@@ -877,7 +986,8 @@
         "zhCN": "切换武器时技能绑定独立\n不受影响",
         "zhTW": "切換武器時會切換個別技能設定。",
         "sgCN": "切换武器时技能绑定独立\n不受影响",
-        "sgTW": "切換武器時會切換個別技能設定。"
+        "sgTW": "切換武器時會切換個別技能設定。",
+        "bnCN": "切换武器时技能绑定独立\n不受影响"
     },
     "ControllerPromptCancelJoin": {
         "Key": "ControllerPromptCancelJoin",
@@ -885,7 +995,8 @@
         "zhCN": "取消加入",
         "zhTW": "取消",
         "sgCN": "取消加入",
-        "sgTW": "取消"
+        "sgTW": "取消",
+        "bnCN": "取消加入"
     },
     "ControllerPromptHoldFormatStringStandalone": {
         "Key": "ControllerPromptHoldFormatStringStandalone",
@@ -893,7 +1004,8 @@
         "zhCN": "按住%s",
         "zhTW": "按住以%s",
         "sgCN": "按住%s",
-        "sgTW": "按住以%s"
+        "sgTW": "按住以%s",
+        "bnCN": "按住%s"
     },
     "EnterCharacterName": {
         "Key": "EnterCharacterName",
@@ -901,7 +1013,8 @@
         "zhCN": "按 输入名称",
         "zhTW": "按   輸入角色名稱",
         "sgCN": "按 输入名称",
-        "sgTW": "按   輸入角色名稱"
+        "sgTW": "按   輸入角色名稱",
+        "bnCN": "按 输入名称"
     },
     "SkillNameEmoteWheel": {
         "Key": "SkillNameEmoteWheel",
@@ -909,7 +1022,8 @@
         "zhCN": "表情滚轮",
         "zhTW": "表情指令轉盤",
         "sgCN": "表情滚轮",
-        "sgTW": "表情指令轉盤"
+        "sgTW": "表情指令轉盤",
+        "bnCN": "表情滚轮"
     },
     "SkillDescEmoteWheel": {
         "Key": "SkillDescEmoteWheel",
@@ -917,7 +1031,8 @@
         "zhCN": "打开表情滚轮",
         "zhTW": "開啟表情指令轉盤",
         "sgCN": "打开表情滚轮",
-        "sgTW": "開啟表情指令轉盤"
+        "sgTW": "開啟表情指令轉盤",
+        "bnCN": "打开表情滚轮"
     },
     "OptionsMenuControllerCursorSpeedTooltip": {
         "Key": "OptionsMenuControllerCursorSpeedTooltip",
@@ -925,7 +1040,8 @@
         "zhCN": "定义指针在用户界面上的灵敏度。",
         "zhTW": "在使用者介面的游標靈敏度。",
         "sgCN": "定义指针在用户界面上的灵敏度。",
-        "sgTW": "在使用者介面的游標靈敏度。"
+        "sgTW": "在使用者介面的游標靈敏度。",
+        "bnCN": "定义指针在用户界面上的灵敏度。"
     },
     "EmoteMore": {
         "Key": "EmoteMore",
@@ -933,7 +1049,8 @@
         "zhCN": "更多",
         "zhTW": "其他",
         "sgCN": "更多",
-        "sgTW": "其他"
+        "sgTW": "其他",
+        "bnCN": "更多"
     },
     "EmoteSelling": {
         "Key": "EmoteSelling",
@@ -941,7 +1058,8 @@
         "zhCN": "出售",
         "zhTW": "出售",
         "sgCN": "出售",
-        "sgTW": "出售"
+        "sgTW": "出售",
+        "bnCN": "出售"
     },
     "EmoteLinkItem": {
         "Key": "EmoteLinkItem",
@@ -949,7 +1067,8 @@
         "zhCN": "物品链接",
         "zhTW": "物品連結",
         "sgCN": "物品链接",
-        "sgTW": "物品連結"
+        "sgTW": "物品連結",
+        "bnCN": "物品链接"
     },
     "itemLinkTooltipController": {
         "Key": "itemLinkTooltipController",
@@ -957,7 +1076,8 @@
         "zhCN": "在聊天框中附上物品链接",
         "zhTW": "在聊天視窗中顯示物品連結",
         "sgCN": "在聊天框中附上物品链接",
-        "sgTW": "在聊天視窗中顯示物品連結"
+        "sgTW": "在聊天視窗中顯示物品連結",
+        "bnCN": "在聊天框中附上物品链接"
     },
     "ControllerReconnectMessage": {
         "Key": "ControllerReconnectMessage",
@@ -965,7 +1085,8 @@
         "zhCN": "请重新连接控制器",
         "zhTW": "請重新連接控制器",
         "sgCN": "请重新连接控制器",
-        "sgTW": "請重新連接控制器"
+        "sgTW": "請重新連接控制器",
+        "bnCN": "请重新连接手柄"
     },
     "ShowProfile": {
         "Key": "ShowProfile",
@@ -973,7 +1094,8 @@
         "zhCN": "显示档案",
         "zhTW": "顯示設定檔",
         "sgCN": "显示档案",
-        "sgTW": "顯示設定檔"
+        "sgTW": "顯示設定檔",
+        "bnCN": "显示档案"
     },
     "ControllerSettingsAcceptAll": {
         "Key": "ControllerSettingsAcceptAll",
@@ -981,7 +1103,8 @@
         "zhCN": "全部接受",
         "zhTW": "全部接受",
         "sgCN": "全部接受",
-        "sgTW": "全部接受"
+        "sgTW": "全部接受",
+        "bnCN": "全部接受"
     },
     "ControllerSettingsDefault": {
         "Key": "ControllerSettingsDefault",
@@ -989,7 +1112,8 @@
         "zhCN": "默认",
         "zhTW": "預設",
         "sgCN": "默认",
-        "sgTW": "預設"
+        "sgTW": "預設",
+        "bnCN": "默认"
     },
     "PlayStationActivityHintDenOfEvilHeader": {
         "Key": "PlayStationActivityHintDenOfEvilHeader",
@@ -997,7 +1121,8 @@
         "zhCN": "集火沉沦魔萨满",
         "zhTW": "優先擊殺沉淪魔薩滿",
         "sgCN": "集火沉沦魔萨满",
-        "sgTW": "優先擊殺沉淪魔薩滿"
+        "sgTW": "優先擊殺沉淪魔薩滿",
+        "bnCN": "集火沉沦魔萨满"
     },
     "PlayStationActivityHintDenOfEvilDescription": {
         "Key": "PlayStationActivityHintDenOfEvilDescription",
@@ -1005,7 +1130,8 @@
         "zhCN": "如果放任不管，沉沦魔萨满会不断地复活阵亡的沉落魔。",
         "zhTW": "若是置之不理，沉淪魔薩滿會不斷復活死亡的沉淪魔。",
         "sgCN": "如果放任不管，沉沦魔萨满会不断地复活阵亡的沉落魔。",
-        "sgTW": "若是置之不理，沉淪魔薩滿會不斷復活死亡的沉淪魔。"
+        "sgTW": "若是置之不理，沉淪魔薩滿會不斷復活死亡的沉淪魔。",
+        "bnCN": "如果放任不管，沉沦魔萨满会不断地复活阵亡的沉落魔。"
     },
     "PlayStationActivityHintSistersBurialGroundHeader": {
         "Key": "PlayStationActivityHintSistersBurialGroundHeader",
@@ -1013,7 +1139,8 @@
         "zhCN": "减速血鸦",
         "zhTW": "減緩血鴉的速度",
         "sgCN": "减速血鸦",
-        "sgTW": "減緩血鴉的速度"
+        "sgTW": "減緩血鴉的速度",
+        "bnCN": "减速血鸦"
     },
     "PlayStationActivityHintSistersBurialGroundDescription": {
         "Key": "PlayStationActivityHintSistersBurialGroundDescription",
@@ -1021,7 +1148,8 @@
         "zhCN": "冰霜伤害可以有效减速血鸦，使其更容易被击中。",
         "zhTW": "冰寒傷害有助於減緩血鴉的速度，這樣比較容易命中對方。",
         "sgCN": "冰霜伤害可以有效减速血鸦，使其更容易被击中。",
-        "sgTW": "冰寒傷害有助於減緩血鴉的速度，這樣比較容易命中對方。"
+        "sgTW": "冰寒傷害有助於減緩血鴉的速度，這樣比較容易命中對方。",
+        "bnCN": "冰霜伤害可以有效减速血鸦，使其更容易被击中。"
     },
     "PlayStationActivityHintSearchForCainHeader": {
         "Key": "PlayStationActivityHintSearchForCainHeader",
@@ -1029,7 +1157,8 @@
         "zhCN": "找到石阵",
         "zhTW": "尋找石陣",
         "sgCN": "找到石阵",
-        "sgTW": "尋找石陣"
+        "sgTW": "尋找石陣",
+        "bnCN": "找到石阵"
     },
     "PlayStationActivityHintSearchForCainDescription": {
         "Key": "PlayStationActivityHintSearchForCainDescription",
@@ -1037,7 +1166,8 @@
         "zhCN": "等阿卡拉破译艾尼弗斯卷轴后，你要找到石块旷野中的石阵。记得使用传送点可以快速前往那里。",
         "zhTW": "在阿卡拉解讀艾尼弗斯卷軸之後，你必須前往亂石曠野找出石陣。別忘記，傳送平台可以讓你快速抵達那裡。",
         "sgCN": "等阿卡拉破译艾尼弗斯卷轴后，你要找到石块旷野中的石阵。记得使用传送点可以快速前往那里。",
-        "sgTW": "在阿卡拉解讀艾尼弗斯卷軸之後，你必須前往亂石曠野找出石陣。別忘記，傳送平台可以讓你快速抵達那裡。"
+        "sgTW": "在阿卡拉解讀艾尼弗斯卷軸之後，你必須前往亂石曠野找出石陣。別忘記，傳送平台可以讓你快速抵達那裡。",
+        "bnCN": "等阿卡拉破译艾尼弗斯卷轴后，你要找到石块旷野中的石阵。记得使用传送点可以快速前往那里。"
     },
     "PlayStationActivityHintTheForgottenTowerHeader": {
         "Key": "PlayStationActivityHintTheForgottenTowerHeader",
@@ -1045,7 +1175,8 @@
         "zhCN": "小心女伯爵的火焰",
         "zhTW": "小心女伯爵的火焰",
         "sgCN": "小心女伯爵的火焰",
-        "sgTW": "小心女伯爵的火焰"
+        "sgTW": "小心女伯爵的火焰",
+        "bnCN": "小心女伯爵的火焰"
     },
     "PlayStationActivityHintTheForgottenTowerDescription": {
         "Key": "PlayStationActivityHintTheForgottenTowerDescription",
@@ -1053,7 +1184,8 @@
         "zhCN": "女伯爵的攻击不仅附带火焰伤害，她死亡后的残骸也会爆炸产生火焰伤害。",
         "zhTW": "女伯爵不光是攻擊會造成火焰傷害，就連屍體也會在死亡後爆炸。",
         "sgCN": "女伯爵的攻击不仅附带火焰伤害，她死亡后的残骸也会爆炸产生火焰伤害。",
-        "sgTW": "女伯爵不光是攻擊會造成火焰傷害，就連屍體也會在死亡後爆炸。"
+        "sgTW": "女伯爵不光是攻擊會造成火焰傷害，就連屍體也會在死亡後爆炸。",
+        "bnCN": "女伯爵的攻击不仅附带火焰伤害，她死亡后的残骸也会爆炸产生火焰伤害。"
     },
     "PlayStationActivityHintSistersToTheSlaughterHeader": {
         "Key": "PlayStationActivityHintSistersToTheSlaughterHeader",
@@ -1061,7 +1193,8 @@
         "zhCN": "堆高毒素抗性",
         "zhTW": "提高毒素抗性",
         "sgCN": "堆高毒素抗性",
-        "sgTW": "提高毒素抗性"
+        "sgTW": "提高毒素抗性",
+        "bnCN": "堆高毒素抗性"
     },
     "PlayStationActivityHintSistersToTheSlaughterDescription": {
         "Key": "PlayStationActivityHintSistersToTheSlaughterDescription",
@@ -1069,7 +1202,8 @@
         "zhCN": "安达莉尔会造成大量的毒素伤害。最好拥有一定的毒抗或者带上解毒药剂来对付她。",
         "zhTW": "安達莉爾會造成大量毒素傷害，開戰前記得先加強毒素抗性，或是準備足夠的解毒藥。",
         "sgCN": "安达莉尔会造成大量的毒素伤害。最好拥有一定的毒抗或者带上解毒药剂来对付她。",
-        "sgTW": "安達莉爾會造成大量毒素傷害，開戰前記得先加強毒素抗性，或是準備足夠的解毒藥。"
+        "sgTW": "安達莉爾會造成大量毒素傷害，開戰前記得先加強毒素抗性，或是準備足夠的解毒藥。",
+        "bnCN": "安达莉尔会造成大量的毒素伤害。最好拥有一定的毒抗或者带上解毒药剂来对付她。"
     },
     "PlayStationActivityHintRadamentsLairHeader": {
         "Key": "PlayStationActivityHintRadamentsLairHeader",
@@ -1077,7 +1211,8 @@
         "zhCN": "不给罗达门特留残骸",
         "zhTW": "別讓羅達門特復活屍體",
         "sgCN": "不给罗达门特留残骸",
-        "sgTW": "別讓羅達門特復活屍體"
+        "sgTW": "別讓羅達門特復活屍體",
+        "bnCN": "不给罗达门特留尸体"
     },
     "PlayStationActivityHintRadamentsLairDescription": {
         "Key": "PlayStationActivityHintRadamentsLairDescription",
@@ -1085,7 +1220,8 @@
         "zhCN": "冻结的敌人会在死亡后粉碎，不会给罗达门特留下可以复活的躯体。你也可以抢在罗达门特之前用掉敌人的躯体。",
         "zhTW": "冰凍的敵人在死亡後會碎裂，不會留下屍體，這樣羅達門特就沒屍體可以復活。或者，你得搶先用掉那些屍體！",
         "sgCN": "冻结的敌人会在死亡后粉碎，不会给罗达门特留下可以复活的躯体。你也可以抢在罗达门特之前用掉敌人的躯体。",
-        "sgTW": "冰凍的敵人在死亡後會碎裂，不會留下屍體，這樣羅達門特就沒屍體可以復活。或者，你得搶先用掉那些屍體！"
+        "sgTW": "冰凍的敵人在死亡後會碎裂，不會留下屍體，這樣羅達門特就沒屍體可以復活。或者，你得搶先用掉那些屍體！",
+        "bnCN": "冻结的敌人会在死亡后粉碎，不会给罗达门特留下可以复活的躯体。你也可以抢在罗达门特之前用掉敌人的躯体。"
     },
     "PlayStationActivityHintTheSummonerHeader": {
         "Key": "PlayStationActivityHintTheSummonerHeader",
@@ -1093,7 +1229,8 @@
         "zhCN": "抵御冰霜",
         "zhTW": "防寒措施",
         "sgCN": "抵御冰霜",
-        "sgTW": "防寒措施"
+        "sgTW": "防寒措施",
+        "bnCN": "抵御冰霜"
     },
     "PlayStationActivityHintTheSummonerDescription": {
         "Key": "PlayStationActivityHintTheSummonerDescription",
@@ -1101,7 +1238,8 @@
         "zhCN": "冰抗能让召唤者的攻击变得疲软无力。",
         "zhTW": "冰寒抗性能夠降低召喚師攻擊的致命程度。",
         "sgCN": "冰抗能让召唤者的攻击变得疲软无力。",
-        "sgTW": "冰寒抗性能夠降低召喚師攻擊的致命程度。"
+        "sgTW": "冰寒抗性能夠降低召喚師攻擊的致命程度。",
+        "bnCN": "冰抗能让召唤者的攻击变得疲软无力。"
     },
     "PlayStationActivityHintTheSevenTombsHeader": {
         "Key": "PlayStationActivityHintTheSevenTombsHeader",
@@ -1109,7 +1247,8 @@
         "zhCN": "必要时可以传送脱逃",
         "zhTW": "危急時就用傳送門逃走",
         "sgCN": "必要时可以传送脱逃",
-        "sgTW": "危急時就用傳送門逃走"
+        "sgTW": "危急時就用傳送門逃走",
+        "bnCN": "必要时可以传送脱逃"
     },
     "PlayStationActivityHintTheSevenTombsDescription": {
         "Key": "PlayStationActivityHintTheSevenTombsDescription",
@@ -1117,7 +1256,8 @@
         "zhCN": "必要时，你可以在战斗中途打开城镇传送门，返回城镇补给药水。",
         "zhTW": "在戰鬥中還是可以開啟城鎮傳送門，這樣你就可以返回城鎮補給。",
         "sgCN": "必要时，你可以在战斗中途打开城镇传送门，返回城镇补给药水。",
-        "sgTW": "在戰鬥中還是可以開啟城鎮傳送門，這樣你就可以返回城鎮補給。"
+        "sgTW": "在戰鬥中還是可以開啟城鎮傳送門，這樣你就可以返回城鎮補給。",
+        "bnCN": "必要时，你可以在战斗中途打开城镇传送门，返回城镇补给药水。"
     },
     "PlayStationActivityHintTheGoldenBirdHeader": {
         "Key": "PlayStationActivityHintTheGoldenBirdHeader",
@@ -1125,7 +1265,8 @@
         "zhCN": "狩猎暗金怪",
         "zhTW": "獵殺獨特怪物",
         "sgCN": "狩猎暗金怪",
-        "sgTW": "獵殺獨特怪物"
+        "sgTW": "獵殺獨特怪物",
+        "bnCN": "狩猎暗金怪"
     },
     "PlayStationActivityHintTheGoldenBirdDescription": {
         "Key": "PlayStationActivityHintTheGoldenBirdDescription",
@@ -1133,7 +1274,8 @@
         "zhCN": "你离开库拉斯特海港后遇到的第一个暗金怪会掉玉石雕像。",
         "zhTW": "離開庫拉斯特碼頭之後，你遇到的第一個獨特怪物會掉落翠玉塑像。",
         "sgCN": "你离开库拉斯特海港后遇到的第一个暗金怪会掉玉石雕像。",
-        "sgTW": "離開庫拉斯特碼頭之後，你遇到的第一個獨特怪物會掉落翠玉塑像。"
+        "sgTW": "離開庫拉斯特碼頭之後，你遇到的第一個獨特怪物會掉落翠玉塑像。",
+        "bnCN": "你离开库拉斯特海港后遇到的第一个暗金怪会掉玉石雕像。"
     },
     "PlayStationActivityHintTheBlackenedTempleHeader": {
         "Key": "PlayStationActivityHintTheBlackenedTempleHeader",
@@ -1141,7 +1283,8 @@
         "zhCN": "分而歼之",
         "zhTW": "各個擊破",
         "sgCN": "分而歼之",
-        "sgTW": "各個擊破"
+        "sgTW": "各個擊破",
+        "bnCN": "分而歼之"
     },
     "PlayStationActivityHintTheBlackenedTempleDescription": {
         "Key": "PlayStationActivityHintTheBlackenedTempleDescription",
@@ -1149,7 +1292,8 @@
         "zhCN": "你可以将高庭理事会的成员诱出，将其逐一解决。",
         "zhTW": "小心誘敵分散最高議會的成員，藉此降低戰鬥難度。",
         "sgCN": "你可以将高庭理事会的成员诱出，将其逐一解决。",
-        "sgTW": "小心誘敵分散最高議會的成員，藉此降低戰鬥難度。"
+        "sgTW": "小心誘敵分散最高議會的成員，藉此降低戰鬥難度。",
+        "bnCN": "你可以将高庭理事会的成员诱出，将其逐一解决。"
     },
     "PlayStationActivityHintTheGuardianHeader": {
         "Key": "PlayStationActivityHintTheGuardianHeader",
@@ -1157,7 +1301,8 @@
         "zhCN": "近墨者下手要黑",
         "zhTW": "近身作戰",
         "sgCN": "近墨者下手要黑",
-        "sgTW": "近身作戰"
+        "sgTW": "近身作戰",
+        "bnCN": "近墨者下手要黑"
     },
     "PlayStationActivityHintTheGuardianDescription": {
         "Key": "PlayStationActivityHintTheGuardianDescription",
@@ -1165,7 +1310,8 @@
         "zhCN": "墨菲斯托擅长远程攻击，离他越近越能减轻其伤害能力。",
         "zhTW": "墨菲斯托擅長遠距離戰鬥，因此逼近他身邊有助於減緩傷害。",
         "sgCN": "墨菲斯托擅长远程攻击，离他越近越能减轻其伤害能力。",
-        "sgTW": "墨菲斯托擅長遠距離戰鬥，因此逼近他身邊有助於減緩傷害。"
+        "sgTW": "墨菲斯托擅長遠距離戰鬥，因此逼近他身邊有助於減緩傷害。",
+        "bnCN": "墨菲斯托擅长远程攻击，离他越近越能减轻其伤害能力。"
     },
     "PlayStationActivityHintFallenAngelHeader": {
         "Key": "PlayStationActivityHintFallenAngelHeader",
@@ -1173,7 +1319,8 @@
         "zhCN": "堆高冰霜抗性",
         "zhTW": "加強冰寒抗性",
         "sgCN": "堆高冰霜抗性",
-        "sgTW": "加強冰寒抗性"
+        "sgTW": "加強冰寒抗性",
+        "bnCN": "堆高冰霜抗性"
     },
     "PlayStationActivityHintFallenAngelDescription": {
         "Key": "PlayStationActivityHintFallenAngelDescription",
@@ -1181,7 +1328,8 @@
         "zhCN": "衣卒尔使用冰霜攻击。最好要有一定的冰抗或带上解冻药水来对付他。",
         "zhTW": "伊卒爾的攻擊帶有冰寒屬性，開戰前記得提高冰寒抗性，或是攜帶融冰藥水。",
         "sgCN": "衣卒尔使用冰霜攻击。最好要有一定的冰抗或带上解冻药水来对付他。",
-        "sgTW": "伊卒爾的攻擊帶有冰寒屬性，開戰前記得提高冰寒抗性，或是攜帶融冰藥水。"
+        "sgTW": "伊卒爾的攻擊帶有冰寒屬性，開戰前記得提高冰寒抗性，或是攜帶融冰藥水。",
+        "bnCN": "衣卒尔使用冰霜攻击。最好要有一定的冰抗或带上解冻药水来对付他。"
     },
     "PlayStationActivityHintHellsForgeHeader": {
         "Key": "PlayStationActivityHintHellsForgeHeader",
@@ -1189,7 +1337,8 @@
         "zhCN": "使赫法斯托孤立无援",
         "zhTW": "孤立海法斯特",
         "sgCN": "使赫法斯托孤立无援",
-        "sgTW": "孤立海法斯特"
+        "sgTW": "孤立海法斯特",
+        "bnCN": "使赫法斯托孤立无援"
     },
     "PlayStationActivityHintHellsForgeDescription": {
         "Key": "PlayStationActivityHintHellsForgeDescription",
@@ -1197,7 +1346,8 @@
         "zhCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。",
         "zhTW": "你可以引開海法斯特遠離熔爐，這樣他就獨立無援了。",
         "sgCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。",
-        "sgTW": "你可以引開海法斯特遠離熔爐，這樣他就獨立無援了。"
+        "sgTW": "你可以引開海法斯特遠離熔爐，這樣他就獨立無援了。",
+        "bnCN": "将赫法斯托从他的锻炉处引走，使其孤立无援。"
     },
     "PlayStationActivityHintTerrorsEndHeader": {
         "Key": "PlayStationActivityHintTerrorsEndHeader",
@@ -1205,7 +1355,8 @@
         "zhCN": "小心传送门放置",
         "zhTW": "注意傳送門的位置",
         "sgCN": "小心传送门放置",
-        "sgTW": "注意傳送門的位置"
+        "sgTW": "注意傳送門的位置",
+        "bnCN": "小心传送门放置"
     },
     "PlayStationActivityHintTerrorsEndDescription": {
         "Key": "PlayStationActivityHintTerrorsEndDescription",
@@ -1213,7 +1364,8 @@
         "zhCN": "如果你需要从战斗中撤退，一定要将你的城镇传送门放置在迪亚波罗的视野之外，否则他会对其释放骨牢。",
         "zhTW": "如果你需要從戰鬥中撤退，記得把城鎮傳送門放在迪亞布羅的視線之外，否則他可能會對傳送門施放骨牢。",
         "sgCN": "如果你需要从战斗中撤退，一定要将你的城镇传送门放置在迪亚波罗的视野之外，否则他会对其释放骨牢。",
-        "sgTW": "如果你需要從戰鬥中撤退，記得把城鎮傳送門放在迪亞布羅的視線之外，否則他可能會對傳送門施放骨牢。"
+        "sgTW": "如果你需要從戰鬥中撤退，記得把城鎮傳送門放在迪亞布羅的視線之外，否則他可能會對傳送門施放骨牢。",
+        "bnCN": "如果你需要从战斗中撤退，一定要将你的城镇传送门放置在迪亚波罗的视野之外，否则他会对其释放骨牢。"
     },
     "PlayStationActivityHintSiegeOfHarrogathHeader": {
         "Key": "PlayStationActivityHintSiegeOfHarrogathHeader",
@@ -1221,7 +1373,8 @@
         "zhCN": "集火督军",
         "zhTW": "優先對付督軍",
         "sgCN": "集火督军",
-        "sgTW": "優先對付督軍"
+        "sgTW": "優先對付督軍",
+        "bnCN": "集火督军"
     },
     "PlayStationActivityHintSiegeOfHarrogathDescription": {
         "Key": "PlayStationActivityHintSiegeOfHarrogathDescription",
@@ -1229,7 +1382,8 @@
         "zhCN": "督军们会使爪牙陷入狂乱，逼迫其向你发动自杀式冲锋。",
         "zhTW": "督軍能讓小兵陷入狂亂，衝向你自爆。",
         "sgCN": "督军们会使爪牙陷入狂乱，逼迫其向你发动自杀式冲锋。",
-        "sgTW": "督軍能讓小兵陷入狂亂，衝向你自爆。"
+        "sgTW": "督軍能讓小兵陷入狂亂，衝向你自爆。",
+        "bnCN": "督军们会使爪牙陷入狂乱，逼迫其向你发动自杀式冲锋。"
     },
     "PlayStationActivityHintRiteOfPassageHeader": {
         "Key": "PlayStationActivityHintRiteOfPassageHeader",
@@ -1237,7 +1391,8 @@
         "zhCN": "集火马道克",
         "zhTW": "優先對付馬道克",
         "sgCN": "集火马道克",
-        "sgTW": "優先對付馬道克"
+        "sgTW": "優先對付馬道克",
+        "bnCN": "集火马道克"
     },
     "PlayStationActivityHintRiteOfPassageDescription": {
         "Key": "PlayStationActivityHintRiteOfPassageDescription",
@@ -1245,7 +1400,8 @@
         "zhCN": "马道克的双手投掷会击晕你，让你无法躲避其他先祖的致命打击。最好先解决他。",
         "zhTW": "馬道克的雙手投擲技能會使你昏迷，讓另外兩人能趁機對你造成致命傷害。盡量優先打敗他。",
         "sgCN": "马道克的双手投掷会击晕你，让你无法躲避其他先祖的致命打击。最好先解决他。",
-        "sgTW": "馬道克的雙手投擲技能會使你昏迷，讓另外兩人能趁機對你造成致命傷害。盡量優先打敗他。"
+        "sgTW": "馬道克的雙手投擲技能會使你昏迷，讓另外兩人能趁機對你造成致命傷害。盡量優先打敗他。",
+        "bnCN": "马道克的双手投掷会击晕你，让你无法躲避其他先祖的致命打击。最好先解决他。"
     },
     "OptionsMenuControllerRumbleEnabledText": {
         "Key": "OptionsMenuControllerRumbleEnabledText",
@@ -1253,7 +1409,8 @@
         "zhCN": "控制器震动",
         "zhTW": "控制器震動功能",
         "sgCN": "控制器震动",
-        "sgTW": "控制器震動功能"
+        "sgTW": "控制器震動功能",
+        "bnCN": "手柄震动"
     },
     "OptionsMenuControllerRumbleEnabledTooltip": {
         "Key": "OptionsMenuControllerRumbleEnabledTooltip",
@@ -1261,7 +1418,8 @@
         "zhCN": "启用控制器震动",
         "zhTW": "開啟控制器震動功能。",
         "sgCN": "启用控制器震动",
-        "sgTW": "開啟控制器震動功能。"
+        "sgTW": "開啟控制器震動功能。",
+        "bnCN": "启用手柄震动"
     },
     "SkillNameSwapWeapons": {
         "Key": "SkillNameSwapWeapons",
@@ -1269,7 +1427,8 @@
         "zhCN": "切换武器",
         "zhTW": "更換武器",
         "sgCN": "切换武器",
-        "sgTW": "更換武器"
+        "sgTW": "更換武器",
+        "bnCN": "切换武器"
     },
     "SkillDescSwapWeapons": {
         "Key": "SkillDescSwapWeapons",
@@ -1277,7 +1436,8 @@
         "zhCN": "切换武器",
         "zhTW": "更換武器",
         "sgCN": "切换武器",
-        "sgTW": "更換武器"
+        "sgTW": "更換武器",
+        "bnCN": "切换武器"
     },
     "SkillNameMap": {
         "Key": "SkillNameMap",
@@ -1285,7 +1445,8 @@
         "zhCN": "透视地图",
         "zhTW": "自動地圖",
         "sgCN": "透视地图",
-        "sgTW": "自動地圖"
+        "sgTW": "自動地圖",
+        "bnCN": "透视地图"
     },
     "SkillDescMap": {
         "Key": "SkillDescMap",
@@ -1293,7 +1454,8 @@
         "zhCN": "透视地图",
         "zhTW": "自動地圖",
         "sgCN": "透视地图",
-        "sgTW": "自動地圖"
+        "sgTW": "自動地圖",
+        "bnCN": "透视地图"
     },
     "SkillNameShowItems": {
         "Key": "SkillNameShowItems",
@@ -1301,7 +1463,8 @@
         "zhCN": "显示物品",
         "zhTW": "顯示物品",
         "sgCN": "显示物品",
-        "sgTW": "顯示物品"
+        "sgTW": "顯示物品",
+        "bnCN": "显示物品"
     },
     "SkillDescShowItems": {
         "Key": "SkillDescShowItems",
@@ -1309,7 +1472,8 @@
         "zhCN": "打开/关闭物品标签",
         "zhTW": "切換物品名稱",
         "sgCN": "打开/关闭物品标签",
-        "sgTW": "切換物品名稱"
+        "sgTW": "切換物品名稱",
+        "bnCN": "打开/关闭物品标签"
     },
     "SkillNameRunToggle": {
         "Key": "SkillNameRunToggle",
@@ -1317,7 +1481,8 @@
         "zhCN": "奔跑切换",
         "zhTW": "跑步切換",
         "sgCN": "奔跑切换",
-        "sgTW": "跑步切換"
+        "sgTW": "跑步切換",
+        "bnCN": "奔跑切换"
     },
     "SkillDescRunToggle": {
         "Key": "SkillDescRunToggle",
@@ -1325,7 +1490,8 @@
         "zhCN": "切换行走或奔跑",
         "zhTW": "切換行走 / 跑步",
         "sgCN": "切换行走或奔跑",
-        "sgTW": "切換行走 / 跑步"
+        "sgTW": "切換行走 / 跑步",
+        "bnCN": "切换行走或奔跑"
     },
     "ControllerHelpInteract": {
         "Key": "ControllerHelpInteract",
@@ -1333,7 +1499,8 @@
         "zhCN": "交互",
         "zhTW": "互動",
         "sgCN": "交互",
-        "sgTW": "互動"
+        "sgTW": "互動",
+        "bnCN": "交互"
     },
     "SelectButtonNoteText": {
         "Key": "SelectButtonNoteText",
@@ -1341,7 +1508,8 @@
         "zhCN": "提示：按交互/拾取还可以施放绑定的技能",
         "zhTW": "請注意：按下會進行綁定技能，或是互動及拾取",
         "sgCN": "提示：按交互/拾取还可以施放绑定的技能",
-        "sgTW": "請注意：按下會進行綁定技能，或是互動及拾取"
+        "sgTW": "請注意：按下會進行綁定技能，或是互動及拾取",
+        "bnCN": "提示：按交互/拾取还可以施放绑定的技能"
     },
     "GraphicsMode": {
         "Key": "GraphicsMode",
@@ -1349,7 +1517,8 @@
         "zhCN": "画质模式",
         "zhTW": "影像模式",
         "sgCN": "画质模式",
-        "sgTW": "影像模式"
+        "sgTW": "影像模式",
+        "bnCN": "画质模式"
     },
     "GraphicsModeQuality": {
         "Key": "GraphicsModeQuality",
@@ -1357,7 +1526,8 @@
         "zhCN": "质量",
         "zhTW": "品質",
         "sgCN": "质量",
-        "sgTW": "品質"
+        "sgTW": "品質",
+        "bnCN": "质量"
     },
     "GraphicsModePerformance": {
         "Key": "GraphicsModePerformance",
@@ -1365,7 +1535,8 @@
         "zhCN": "性能表现",
         "zhTW": "效能",
         "sgCN": "性能表现",
-        "sgTW": "效能"
+        "sgTW": "效能",
+        "bnCN": "性能表现"
     },
     "ControllerHelpRunIcon": {
         "Key": "ControllerHelpRunIcon",
@@ -1373,7 +1544,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "ControllerHelpEmoteIcon": {
         "Key": "ControllerHelpEmoteIcon",
@@ -1381,7 +1553,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrHelp11_xbox": {
         "Key": "StrHelp11_xbox",
@@ -1389,7 +1562,8 @@
         "zhCN": "按钮技能",
         "zhTW": "技能",
         "sgCN": "按钮技能",
-        "sgTW": "技能"
+        "sgTW": "技能",
+        "bnCN": "按钮技能"
     },
     "RebindSkill_xbox": {
         "Key": "RebindSkill_xbox",
@@ -1397,7 +1571,8 @@
         "zhCN": "重新绑定技能",
         "zhTW": "重新綁定技能",
         "sgCN": "重新绑定技能",
-        "sgTW": "重新綁定技能"
+        "sgTW": "重新綁定技能",
+        "bnCN": "重新绑定技能"
     },
     "CfgPrimaryKey_xbox": {
         "Key": "CfgPrimaryKey_xbox",
@@ -1405,7 +1580,8 @@
         "zhCN": "键/按钮一",
         "zhTW": "按鍵 / 按鈕1",
         "sgCN": "键/按钮一",
-        "sgTW": "按鍵 / 按鈕1"
+        "sgTW": "按鍵 / 按鈕1",
+        "bnCN": "键/按钮一"
     },
     "CfgSecondaryKey_xbox": {
         "Key": "CfgSecondaryKey_xbox",
@@ -1413,7 +1589,8 @@
         "zhCN": "键/按钮二",
         "zhTW": "按鍵 / 按鈕2",
         "sgCN": "键/按钮二",
-        "sgTW": "按鍵 / 按鈕2"
+        "sgTW": "按鍵 / 按鈕2",
+        "bnCN": "键/按钮二"
     },
     "ShowPartySD_xbox": {
         "Key": "ShowPartySD_xbox",
@@ -1421,7 +1598,8 @@
         "zhCN": "显示队伍",
         "zhTW": "顯示隊伍",
         "sgCN": "显示队伍",
-        "sgTW": "顯示隊伍"
+        "sgTW": "顯示隊伍",
+        "bnCN": "显示队伍"
     },
     "ShowPartyHD_xbox": {
         "Key": "ShowPartyHD_xbox",
@@ -1429,7 +1607,8 @@
         "zhCN": "显示队伍成员",
         "zhTW": "顯示隊伍成員",
         "sgCN": "显示队伍成员",
-        "sgTW": "顯示隊伍成員"
+        "sgTW": "顯示隊伍成員",
+        "bnCN": "显示队伍成员"
     },
     "PartyScreenTitle_xbox": {
         "Key": "PartyScreenTitle_xbox",
@@ -1437,7 +1616,8 @@
         "zhCN": "队伍",
         "zhTW": "隊伍",
         "sgCN": "队伍",
-        "sgTW": "隊伍"
+        "sgTW": "隊伍",
+        "bnCN": "队伍"
     },
     "Party6_xbox": {
         "Key": "Party6_xbox",
@@ -1445,7 +1625,8 @@
         "zhCN": "取消了队伍邀请。",
         "zhTW": "取消了加入隊伍的邀請。",
         "sgCN": "取消了队伍邀请。",
-        "sgTW": "取消了加入隊伍的邀請。"
+        "sgTW": "取消了加入隊伍的邀請。",
+        "bnCN": "取消了队伍邀请。"
     },
     "Party7_xbox": {
         "Key": "Party7_xbox",
@@ -1453,7 +1634,8 @@
         "zhCN": "已加入你的队伍，一起对抗邪恶。",
         "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
         "sgCN": "已加入你的队伍，一起对抗邪恶。",
-        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "bnCN": "已加入你的队伍，一起对抗邪恶。"
     },
     "Party9_xbox": {
         "Key": "Party9_xbox",
@@ -1461,7 +1643,8 @@
         "zhCN": "离开了你的队伍。",
         "zhTW": "離開了你的隊伍。",
         "sgCN": "离开了你的队伍。",
-        "sgTW": "離開了你的隊伍。"
+        "sgTW": "離開了你的隊伍。",
+        "bnCN": "离开了你的队伍。"
     },
     "strParty2_xbox": {
         "Key": "strParty2_xbox",
@@ -1469,7 +1652,8 @@
         "zhCN": "加入你的队伍",
         "zhTW": "加入你的隊伍。",
         "sgCN": "加入你的队伍",
-        "sgTW": "加入你的隊伍。"
+        "sgTW": "加入你的隊伍。",
+        "bnCN": "加入你的队伍"
     },
     "strParty4_xbox": {
         "Key": "strParty4_xbox",
@@ -1477,7 +1661,8 @@
         "zhCN": "组队邀请",
         "zhTW": "加入其隊伍。",
         "sgCN": "组队邀请",
-        "sgTW": "加入其隊伍。"
+        "sgTW": "加入其隊伍。",
+        "bnCN": "组队邀请"
     },
     "strParty24_xbox": {
         "Key": "strParty24_xbox",
@@ -1485,7 +1670,8 @@
         "zhCN": "退出队伍",
         "zhTW": "將自己從隊伍中移除。",
         "sgCN": "退出队伍",
-        "sgTW": "將自己從隊伍中移除。"
+        "sgTW": "將自己從隊伍中移除。",
+        "bnCN": "退出队伍"
     },
     "Yourparty_xbox": {
         "Key": "Yourparty_xbox",
@@ -1493,7 +1679,8 @@
         "zhCN": "在你的队伍中",
         "zhTW": "在你的隊伍中",
         "sgCN": "在你的队伍中",
-        "sgTW": "在你的隊伍中"
+        "sgTW": "在你的隊伍中",
+        "bnCN": "在你的队伍中"
     },
     "Inparty_xbox": {
         "Key": "Inparty_xbox",
@@ -1501,7 +1688,8 @@
         "zhCN": "在队伍中",
         "zhTW": "在隊伍中",
         "sgCN": "在队伍中",
-        "sgTW": "在隊伍中"
+        "sgTW": "在隊伍中",
+        "bnCN": "在队伍中"
     },
     "minipanelparty_xbox": {
         "Key": "minipanelparty_xbox",
@@ -1509,7 +1697,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgParty_xbox": {
         "Key": "CfgParty_xbox",
@@ -1517,7 +1706,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgAutoMapParty_xbox": {
         "Key": "CfgAutoMapParty_xbox",
@@ -1525,7 +1715,8 @@
         "zhCN": "透视地图上的队伍",
         "zhTW": "自動地圖上的隊伍",
         "sgCN": "透视地图上的队伍",
-        "sgTW": "自動地圖上的隊伍"
+        "sgTW": "自動地圖上的隊伍",
+        "bnCN": "透视地图上的队伍"
     },
     "OptionsMenuSettingSwapThumbsticks_xbox": {
         "Key": "OptionsMenuSettingSwapThumbsticks_xbox",
@@ -1533,7 +1724,8 @@
         "zhCN": "交替摇杆",
         "zhTW": "切換搖桿",
         "sgCN": "交替摇杆",
-        "sgTW": "切換搖桿"
+        "sgTW": "切換搖桿",
+        "bnCN": "交替拇指摇杆"
     },
     "OptionsMenuSettingSwapThumbsticksTooltip_xbox": {
         "Key": "OptionsMenuSettingSwapThumbsticksTooltip_xbox",
@@ -1541,7 +1733,8 @@
         "zhCN": "启用后可以交替左右摇杆的输入。",
         "zhTW": "開啟可切換左右搖桿的輸入。",
         "sgCN": "启用后可以交替左右摇杆的输入。",
-        "sgTW": "開啟可切換左右搖桿的輸入。"
+        "sgTW": "開啟可切換左右搖桿的輸入。",
+        "bnCN": "启用后可以交替左右拇指摇杆的输入。"
     },
     "StrHelp11_ps4": {
         "Key": "StrHelp11_ps4",
@@ -1549,7 +1742,8 @@
         "zhCN": "键技能",
         "zhTW": "技能",
         "sgCN": "键技能",
-        "sgTW": "技能"
+        "sgTW": "技能",
+        "bnCN": "按钮技能"
     },
     "RebindSkill_ps4": {
         "Key": "RebindSkill_ps4",
@@ -1557,7 +1751,8 @@
         "zhCN": "重新绑定技能",
         "zhTW": "重新綁定技能",
         "sgCN": "重新绑定技能",
-        "sgTW": "重新綁定技能"
+        "sgTW": "重新綁定技能",
+        "bnCN": "重新绑定技能"
     },
     "CfgPrimaryKey_ps4": {
         "Key": "CfgPrimaryKey_ps4",
@@ -1565,7 +1760,8 @@
         "zhCN": "键/按钮一",
         "zhTW": "按鍵 / 按鈕1",
         "sgCN": "键/按钮一",
-        "sgTW": "按鍵 / 按鈕1"
+        "sgTW": "按鍵 / 按鈕1",
+        "bnCN": "键/按钮一"
     },
     "CfgSecondaryKey_ps4": {
         "Key": "CfgSecondaryKey_ps4",
@@ -1573,7 +1769,8 @@
         "zhCN": "键/按钮二",
         "zhTW": "按鍵 / 按鈕2",
         "sgCN": "键/按钮二",
-        "sgTW": "按鍵 / 按鈕2"
+        "sgTW": "按鍵 / 按鈕2",
+        "bnCN": "键/按钮二"
     },
     "ShowPartySD_ps4": {
         "Key": "ShowPartySD_ps4",
@@ -1581,7 +1778,8 @@
         "zhCN": "显示队伍",
         "zhTW": "顯示隊伍",
         "sgCN": "显示队伍",
-        "sgTW": "顯示隊伍"
+        "sgTW": "顯示隊伍",
+        "bnCN": "显示队伍"
     },
     "ShowPartyHD_ps4": {
         "Key": "ShowPartyHD_ps4",
@@ -1589,7 +1787,8 @@
         "zhCN": "显示队伍成员",
         "zhTW": "顯示隊伍成員",
         "sgCN": "显示队伍成员",
-        "sgTW": "顯示隊伍成員"
+        "sgTW": "顯示隊伍成員",
+        "bnCN": "显示队伍成员"
     },
     "PartyScreenTitle_ps4": {
         "Key": "PartyScreenTitle_ps4",
@@ -1597,7 +1796,8 @@
         "zhCN": "队伍",
         "zhTW": "隊伍",
         "sgCN": "队伍",
-        "sgTW": "隊伍"
+        "sgTW": "隊伍",
+        "bnCN": "队伍"
     },
     "Party6_ps4": {
         "Key": "Party6_ps4",
@@ -1605,7 +1805,8 @@
         "zhCN": "取消了队伍邀请。",
         "zhTW": "取消了加入隊伍的邀請。",
         "sgCN": "取消了队伍邀请。",
-        "sgTW": "取消了加入隊伍的邀請。"
+        "sgTW": "取消了加入隊伍的邀請。",
+        "bnCN": "取消了队伍邀请。"
     },
     "Party7_ps4": {
         "Key": "Party7_ps4",
@@ -1613,7 +1814,8 @@
         "zhCN": "已加入你的队伍，一起对抗邪恶。",
         "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
         "sgCN": "已加入你的队伍，一起对抗邪恶。",
-        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "bnCN": "已加入你的队伍，一起对抗邪恶。"
     },
     "Party9_ps4": {
         "Key": "Party9_ps4",
@@ -1621,7 +1823,8 @@
         "zhCN": "离开了你的队伍。",
         "zhTW": "離開了你的隊伍。",
         "sgCN": "离开了你的队伍。",
-        "sgTW": "離開了你的隊伍。"
+        "sgTW": "離開了你的隊伍。",
+        "bnCN": "离开了你的队伍。"
     },
     "strParty2_ps4": {
         "Key": "strParty2_ps4",
@@ -1629,7 +1832,8 @@
         "zhCN": "加入你的队伍。",
         "zhTW": "加入你的隊伍。",
         "sgCN": "加入你的队伍。",
-        "sgTW": "加入你的隊伍。"
+        "sgTW": "加入你的隊伍。",
+        "bnCN": "加入你的队伍。"
     },
     "strParty4_ps4": {
         "Key": "strParty4_ps4",
@@ -1637,7 +1841,8 @@
         "zhCN": "组队邀请",
         "zhTW": "加入其隊伍。",
         "sgCN": "组队邀请",
-        "sgTW": "加入其隊伍。"
+        "sgTW": "加入其隊伍。",
+        "bnCN": "组队邀请"
     },
     "strParty24_ps4": {
         "Key": "strParty24_ps4",
@@ -1645,7 +1850,8 @@
         "zhCN": "退出队伍",
         "zhTW": "將自己從隊伍中移除。",
         "sgCN": "退出队伍",
-        "sgTW": "將自己從隊伍中移除。"
+        "sgTW": "將自己從隊伍中移除。",
+        "bnCN": "退出队伍"
     },
     "Yourparty_ps4": {
         "Key": "Yourparty_ps4",
@@ -1653,7 +1859,8 @@
         "zhCN": "在你的队伍中",
         "zhTW": "在你的隊伍中",
         "sgCN": "在你的队伍中",
-        "sgTW": "在你的隊伍中"
+        "sgTW": "在你的隊伍中",
+        "bnCN": "在你的队伍中"
     },
     "Inparty_ps4": {
         "Key": "Inparty_ps4",
@@ -1661,7 +1868,8 @@
         "zhCN": "在队伍中",
         "zhTW": "在隊伍中",
         "sgCN": "在队伍中",
-        "sgTW": "在隊伍中"
+        "sgTW": "在隊伍中",
+        "bnCN": "在队伍中"
     },
     "minipanelparty_ps4": {
         "Key": "minipanelparty_ps4",
@@ -1669,7 +1877,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgParty_ps4": {
         "Key": "CfgParty_ps4",
@@ -1677,7 +1886,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgAutoMapParty_ps4": {
         "Key": "CfgAutoMapParty_ps4",
@@ -1685,7 +1895,8 @@
         "zhCN": "透视地图上的队伍",
         "zhTW": "自動地圖上的隊伍",
         "sgCN": "透视地图上的队伍",
-        "sgTW": "自動地圖上的隊伍"
+        "sgTW": "自動地圖上的隊伍",
+        "bnCN": "透视地图上的队伍"
     },
     "OptionsMenuSettingSwapThumbsticks_ps4": {
         "Key": "OptionsMenuSettingSwapThumbsticks_ps4",
@@ -1693,7 +1904,8 @@
         "zhCN": "交替左/右操作杆",
         "zhTW": "左右操作桿對調",
         "sgCN": "交替左/右操作杆",
-        "sgTW": "左右操作桿對調"
+        "sgTW": "左右操作桿對調",
+        "bnCN": "交替左/右摇杆"
     },
     "OptionsMenuSettingSwapThumbsticksTooltip_ps4": {
         "Key": "OptionsMenuSettingSwapThumbsticksTooltip_ps4",
@@ -1701,7 +1913,8 @@
         "zhCN": "启用后可以交替左右操作杆的输入。",
         "zhTW": "開啟可切換左右操作桿的輸入。",
         "sgCN": "启用后可以交替左右操作杆的输入。",
-        "sgTW": "開啟可切換左右操作桿的輸入。"
+        "sgTW": "開啟可切換左右操作桿的輸入。",
+        "bnCN": "启用后可以交替左右摇杆的输入。"
     },
     "StrHelp11_ps5": {
         "Key": "StrHelp11_ps5",
@@ -1709,7 +1922,8 @@
         "zhCN": "键技能",
         "zhTW": "技能",
         "sgCN": "键技能",
-        "sgTW": "技能"
+        "sgTW": "技能",
+        "bnCN": "按钮技能"
     },
     "RebindSkill_ps5": {
         "Key": "RebindSkill_ps5",
@@ -1717,7 +1931,8 @@
         "zhCN": "重新绑定技能",
         "zhTW": "重新綁定技能",
         "sgCN": "重新绑定技能",
-        "sgTW": "重新綁定技能"
+        "sgTW": "重新綁定技能",
+        "bnCN": "重新绑定技能"
     },
     "CfgPrimaryKey_ps5": {
         "Key": "CfgPrimaryKey_ps5",
@@ -1725,7 +1940,8 @@
         "zhCN": "键/按钮一",
         "zhTW": "按鍵 / 按鈕1",
         "sgCN": "键/按钮一",
-        "sgTW": "按鍵 / 按鈕1"
+        "sgTW": "按鍵 / 按鈕1",
+        "bnCN": "键/按钮一"
     },
     "CfgSecondaryKey_ps5": {
         "Key": "CfgSecondaryKey_ps5",
@@ -1733,7 +1949,8 @@
         "zhCN": "键/按钮二",
         "zhTW": "按鍵 / 按鈕2",
         "sgCN": "键/按钮二",
-        "sgTW": "按鍵 / 按鈕2"
+        "sgTW": "按鍵 / 按鈕2",
+        "bnCN": "键/按钮二"
     },
     "ShowPartySD_ps5": {
         "Key": "ShowPartySD_ps5",
@@ -1741,7 +1958,8 @@
         "zhCN": "显示队伍",
         "zhTW": "顯示隊伍",
         "sgCN": "显示队伍",
-        "sgTW": "顯示隊伍"
+        "sgTW": "顯示隊伍",
+        "bnCN": "显示队伍"
     },
     "ShowPartyHD_ps5": {
         "Key": "ShowPartyHD_ps5",
@@ -1749,7 +1967,8 @@
         "zhCN": "显示队伍成员",
         "zhTW": "顯示隊伍成員",
         "sgCN": "显示队伍成员",
-        "sgTW": "顯示隊伍成員"
+        "sgTW": "顯示隊伍成員",
+        "bnCN": "显示队伍成员"
     },
     "PartyScreenTitle_ps5": {
         "Key": "PartyScreenTitle_ps5",
@@ -1757,7 +1976,8 @@
         "zhCN": "队伍",
         "zhTW": "隊伍",
         "sgCN": "队伍",
-        "sgTW": "隊伍"
+        "sgTW": "隊伍",
+        "bnCN": "队伍"
     },
     "Party6_ps5": {
         "Key": "Party6_ps5",
@@ -1765,7 +1985,8 @@
         "zhCN": "取消了队伍邀请。",
         "zhTW": "取消了加入隊伍的邀請。",
         "sgCN": "取消了队伍邀请。",
-        "sgTW": "取消了加入隊伍的邀請。"
+        "sgTW": "取消了加入隊伍的邀請。",
+        "bnCN": "取消了队伍邀请。"
     },
     "Party7_ps5": {
         "Key": "Party7_ps5",
@@ -1773,7 +1994,8 @@
         "zhCN": "已加入你的队伍，一起对抗邪恶。",
         "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
         "sgCN": "已加入你的队伍，一起对抗邪恶。",
-        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "bnCN": "已加入你的队伍，一起对抗邪恶。"
     },
     "Party9_ps5": {
         "Key": "Party9_ps5",
@@ -1781,7 +2003,8 @@
         "zhCN": "离开了你的队伍。",
         "zhTW": "離開了你的隊伍。",
         "sgCN": "离开了你的队伍。",
-        "sgTW": "離開了你的隊伍。"
+        "sgTW": "離開了你的隊伍。",
+        "bnCN": "离开了你的队伍。"
     },
     "strParty2_ps5": {
         "Key": "strParty2_ps5",
@@ -1789,7 +2012,8 @@
         "zhCN": "加入你的队伍。",
         "zhTW": "加入你的隊伍。",
         "sgCN": "加入你的队伍。",
-        "sgTW": "加入你的隊伍。"
+        "sgTW": "加入你的隊伍。",
+        "bnCN": "加入你的队伍。"
     },
     "strParty4_ps5": {
         "Key": "strParty4_ps5",
@@ -1797,7 +2021,8 @@
         "zhCN": "组队邀请",
         "zhTW": "加入其隊伍。",
         "sgCN": "组队邀请",
-        "sgTW": "加入其隊伍。"
+        "sgTW": "加入其隊伍。",
+        "bnCN": "组队邀请"
     },
     "strParty24_ps5": {
         "Key": "strParty24_ps5",
@@ -1805,7 +2030,8 @@
         "zhCN": "退出队伍",
         "zhTW": "將自己從隊伍中移除。",
         "sgCN": "退出队伍",
-        "sgTW": "將自己從隊伍中移除。"
+        "sgTW": "將自己從隊伍中移除。",
+        "bnCN": "退出队伍"
     },
     "Yourparty_ps5": {
         "Key": "Yourparty_ps5",
@@ -1813,7 +2039,8 @@
         "zhCN": "在你的队伍中",
         "zhTW": "在你的隊伍中",
         "sgCN": "在你的队伍中",
-        "sgTW": "在你的隊伍中"
+        "sgTW": "在你的隊伍中",
+        "bnCN": "在你的队伍中"
     },
     "Inparty_ps5": {
         "Key": "Inparty_ps5",
@@ -1821,7 +2048,8 @@
         "zhCN": "在队伍中",
         "zhTW": "在隊伍中",
         "sgCN": "在队伍中",
-        "sgTW": "在隊伍中"
+        "sgTW": "在隊伍中",
+        "bnCN": "在队伍中"
     },
     "minipanelparty_ps5": {
         "Key": "minipanelparty_ps5",
@@ -1829,7 +2057,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgParty_ps5": {
         "Key": "CfgParty_ps5",
@@ -1837,7 +2066,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgAutoMapParty_ps5": {
         "Key": "CfgAutoMapParty_ps5",
@@ -1845,7 +2075,8 @@
         "zhCN": "透视地图上的队伍",
         "zhTW": "自動地圖上的隊伍",
         "sgCN": "透视地图上的队伍",
-        "sgTW": "自動地圖上的隊伍"
+        "sgTW": "自動地圖上的隊伍",
+        "bnCN": "透视地图上的队伍"
     },
     "OptionsMenuSettingSwapThumbsticks_ps5": {
         "Key": "OptionsMenuSettingSwapThumbsticks_ps5",
@@ -1853,7 +2084,8 @@
         "zhCN": "交替左/右操作杆",
         "zhTW": "左右操作桿對調",
         "sgCN": "交替左/右操作杆",
-        "sgTW": "左右操作桿對調"
+        "sgTW": "左右操作桿對調",
+        "bnCN": "交替左/右摇杆"
     },
     "OptionsMenuSettingSwapThumbsticksTooltip_ps5": {
         "Key": "OptionsMenuSettingSwapThumbsticksTooltip_ps5",
@@ -1861,7 +2093,8 @@
         "zhCN": "启用后可以交替左右操作杆的输入。",
         "zhTW": "開啟可切換左右操作桿的輸入。",
         "sgCN": "启用后可以交替左右操作杆的输入。",
-        "sgTW": "開啟可切換左右操作桿的輸入。"
+        "sgTW": "開啟可切換左右操作桿的輸入。",
+        "bnCN": "启用后可以交替左右摇杆的输入。"
     },
     "StrHelp11_switch": {
         "Key": "StrHelp11_switch",
@@ -1869,7 +2102,8 @@
         "zhCN": "键技能",
         "zhTW": "技能",
         "sgCN": "键技能",
-        "sgTW": "技能"
+        "sgTW": "技能",
+        "bnCN": "按钮技能"
     },
     "RebindSkill_switch": {
         "Key": "RebindSkill_switch",
@@ -1877,7 +2111,8 @@
         "zhCN": "重新绑定技能",
         "zhTW": "重新綁定技能",
         "sgCN": "重新绑定技能",
-        "sgTW": "重新綁定技能"
+        "sgTW": "重新綁定技能",
+        "bnCN": "重新绑定技能"
     },
     "CfgPrimaryKey_switch": {
         "Key": "CfgPrimaryKey_switch",
@@ -1885,7 +2120,8 @@
         "zhCN": "键/按钮一",
         "zhTW": "按鍵 / 按鈕1",
         "sgCN": "键/按钮一",
-        "sgTW": "按鍵 / 按鈕1"
+        "sgTW": "按鍵 / 按鈕1",
+        "bnCN": "键/按钮一"
     },
     "CfgSecondaryKey_switch": {
         "Key": "CfgSecondaryKey_switch",
@@ -1893,7 +2129,8 @@
         "zhCN": "键/按钮二",
         "zhTW": "按鍵 / 按鈕2",
         "sgCN": "键/按钮二",
-        "sgTW": "按鍵 / 按鈕2"
+        "sgTW": "按鍵 / 按鈕2",
+        "bnCN": "键/按钮二"
     },
     "ShowPartySD_switch": {
         "Key": "ShowPartySD_switch",
@@ -1901,7 +2138,8 @@
         "zhCN": "显示队伍",
         "zhTW": "顯示隊伍",
         "sgCN": "显示队伍",
-        "sgTW": "顯示隊伍"
+        "sgTW": "顯示隊伍",
+        "bnCN": "显示队伍"
     },
     "ShowPartyHD_switch": {
         "Key": "ShowPartyHD_switch",
@@ -1909,7 +2147,8 @@
         "zhCN": "显示队伍成员",
         "zhTW": "顯示隊伍成員",
         "sgCN": "显示队伍成员",
-        "sgTW": "顯示隊伍成員"
+        "sgTW": "顯示隊伍成員",
+        "bnCN": "显示队伍成员"
     },
     "PartyScreenTitle_switch": {
         "Key": "PartyScreenTitle_switch",
@@ -1917,7 +2156,8 @@
         "zhCN": "队伍",
         "zhTW": "隊伍",
         "sgCN": "队伍",
-        "sgTW": "隊伍"
+        "sgTW": "隊伍",
+        "bnCN": "队伍"
     },
     "Party6_switch": {
         "Key": "Party6_switch",
@@ -1925,7 +2165,8 @@
         "zhCN": "取消了队伍邀请。",
         "zhTW": "取消了加入隊伍的邀請。",
         "sgCN": "取消了队伍邀请。",
-        "sgTW": "取消了加入隊伍的邀請。"
+        "sgTW": "取消了加入隊伍的邀請。",
+        "bnCN": "取消了队伍邀请。"
     },
     "Party7_switch": {
         "Key": "Party7_switch",
@@ -1933,7 +2174,8 @@
         "zhCN": "已加入你的队伍，一起对抗邪恶。",
         "zhTW": "加入你的隊伍一起對抗邪惡勢力。",
         "sgCN": "已加入你的队伍，一起对抗邪恶。",
-        "sgTW": "加入你的隊伍一起對抗邪惡勢力。"
+        "sgTW": "加入你的隊伍一起對抗邪惡勢力。",
+        "bnCN": "已加入你的队伍，一起对抗邪恶。"
     },
     "Party9_switch": {
         "Key": "Party9_switch",
@@ -1941,7 +2183,8 @@
         "zhCN": "离开了你的队伍。",
         "zhTW": "離開了你的隊伍。",
         "sgCN": "离开了你的队伍。",
-        "sgTW": "離開了你的隊伍。"
+        "sgTW": "離開了你的隊伍。",
+        "bnCN": "离开了你的队伍。"
     },
     "strParty2_switch": {
         "Key": "strParty2_switch",
@@ -1949,7 +2192,8 @@
         "zhCN": "加入你的队伍。",
         "zhTW": "加入你的隊伍。",
         "sgCN": "加入你的队伍。",
-        "sgTW": "加入你的隊伍。"
+        "sgTW": "加入你的隊伍。",
+        "bnCN": "加入你的队伍。"
     },
     "strParty4_switch": {
         "Key": "strParty4_switch",
@@ -1957,7 +2201,8 @@
         "zhCN": "组队邀请",
         "zhTW": "加入其隊伍。",
         "sgCN": "组队邀请",
-        "sgTW": "加入其隊伍。"
+        "sgTW": "加入其隊伍。",
+        "bnCN": "组队邀请"
     },
     "strParty24_switch": {
         "Key": "strParty24_switch",
@@ -1965,7 +2210,8 @@
         "zhCN": "退出队伍",
         "zhTW": "將自己從隊伍中移除。",
         "sgCN": "退出队伍",
-        "sgTW": "將自己從隊伍中移除。"
+        "sgTW": "將自己從隊伍中移除。",
+        "bnCN": "退出队伍"
     },
     "Yourparty_switch": {
         "Key": "Yourparty_switch",
@@ -1973,7 +2219,8 @@
         "zhCN": "在你的队伍中",
         "zhTW": "在你的隊伍中",
         "sgCN": "在你的队伍中",
-        "sgTW": "在你的隊伍中"
+        "sgTW": "在你的隊伍中",
+        "bnCN": "在你的队伍中"
     },
     "Inparty_switch": {
         "Key": "Inparty_switch",
@@ -1981,7 +2228,8 @@
         "zhCN": "在队伍中",
         "zhTW": "在隊伍中",
         "sgCN": "在队伍中",
-        "sgTW": "在隊伍中"
+        "sgTW": "在隊伍中",
+        "bnCN": "在队伍中"
     },
     "minipanelparty_switch": {
         "Key": "minipanelparty_switch",
@@ -1989,7 +2237,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgParty_switch": {
         "Key": "CfgParty_switch",
@@ -1997,7 +2246,8 @@
         "zhCN": "队伍界面",
         "zhTW": "隊伍畫面",
         "sgCN": "队伍界面",
-        "sgTW": "隊伍畫面"
+        "sgTW": "隊伍畫面",
+        "bnCN": "队伍界面"
     },
     "CfgAutoMapParty_switch": {
         "Key": "CfgAutoMapParty_switch",
@@ -2005,7 +2255,8 @@
         "zhCN": "透视地图上的队伍",
         "zhTW": "自動地圖上的隊伍",
         "sgCN": "透视地图上的队伍",
-        "sgTW": "自動地圖上的隊伍"
+        "sgTW": "自動地圖上的隊伍",
+        "bnCN": "透视地图上的队伍"
     },
     "OptionsMenuSettingSwapThumbsticks_switch": {
         "Key": "OptionsMenuSettingSwapThumbsticks_switch",
@@ -2013,7 +2264,8 @@
         "zhCN": "交替摇杆",
         "zhTW": "切換操控搖桿",
         "sgCN": "交替摇杆",
-        "sgTW": "切換操控搖桿"
+        "sgTW": "切換操控搖桿",
+        "bnCN": "交替摇杆"
     },
     "OptionsMenuSettingSwapThumbsticksTooltip_switch": {
         "Key": "OptionsMenuSettingSwapThumbsticksTooltip_switch",
@@ -2021,7 +2273,8 @@
         "zhCN": "启用后可以交替L摇杆和R摇杆的输入。",
         "zhTW": "開啟可切換L操控搖桿和R操控搖桿的輸入。",
         "sgCN": "启用后可以交替L摇杆和R摇杆的输入。",
-        "sgTW": "開啟可切換L操控搖桿和R操控搖桿的輸入。"
+        "sgTW": "開啟可切換L操控搖桿和R操控搖桿的輸入。",
+        "bnCN": "启用后可以交替左右摇杆的输入。"
     },
     "InvitationSent": {
         "Key": "InvitationSent",
@@ -2029,7 +2282,8 @@
         "zhCN": "邀请已发送",
         "zhTW": "已送出邀請",
         "sgCN": "邀请已发送",
-        "sgTW": "已送出邀請"
+        "sgTW": "已送出邀請",
+        "bnCN": "邀请已发送"
     },
     "OptionsMenuItemTooltipHotkeyAppenderDescription_xbox": {
         "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_xbox",
@@ -2037,7 +2291,8 @@
         "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
         "zhTW": "顯示或隱藏物品資訊的提示按鈕。",
         "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
-        "sgTW": "顯示或隱藏物品資訊的提示按鈕。"
+        "sgTW": "顯示或隱藏物品資訊的提示按鈕。",
+        "bnCN": "显示或关闭物品说明条中\n附加的热键提示。"
     },
     "ItemNameDisplayModeTooltip_xbox": {
         "Key": "ItemNameDisplayModeTooltip_xbox",
@@ -2045,7 +2300,8 @@
         "zhCN": "设置按下“在地面上显示物品”绑定按钮时的行为。",
         "zhTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
         "sgCN": "设置按下“在地面上显示物品”绑定按钮时的行为。",
-        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。"
+        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
+        "bnCN": "设置按下“在地面上显示物品”绑定键时的行为。"
     },
     "ControllerWeaponSwapSeparateBindingsSetting_xbox": {
         "Key": "ControllerWeaponSwapSeparateBindingsSetting_xbox",
@@ -2053,7 +2309,8 @@
         "zhCN": "切换武器时更换技能按钮",
         "zhTW": "切換武器有獨立的技能按鈕設定",
         "sgCN": "切换武器时更换技能按钮",
-        "sgTW": "切換武器有獨立的技能按鈕設定"
+        "sgTW": "切換武器有獨立的技能按鈕設定",
+        "bnCN": "切换武器时更换技能键"
     },
     "TutorialToolTipOfflineConsole_xbox": {
         "Key": "TutorialToolTipOfflineConsole_xbox",
@@ -2061,7 +2318,8 @@
         "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
         "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
         "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
-        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "bnCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
     },
     "OptionsMenuShowClockDescription_xbox": {
         "Key": "OptionsMenuShowClockDescription_xbox",
@@ -2069,7 +2327,8 @@
         "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
         "zhTW": "切換遊戲內顯示的本機系統時鐘。",
         "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
-        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。",
+        "bnCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
     },
     "MoviePlaybackHoldToSkip_xbox": {
         "Key": "MoviePlaybackHoldToSkip_xbox",
@@ -2077,7 +2336,8 @@
         "zhCN": "长按任意按钮跳过",
         "zhTW": "按住任意按鈕以略過",
         "sgCN": "长按任意按钮跳过",
-        "sgTW": "按住任意按鈕以略過"
+        "sgTW": "按住任意按鈕以略過",
+        "bnCN": "长按任意键跳过"
     },
     "OptionsMenuItemTooltipHotkeyAppenderDescription_ps4": {
         "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_ps4",
@@ -2085,7 +2345,8 @@
         "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
         "zhTW": "顯示或隱藏物品資訊的提示按鈕。",
         "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
-        "sgTW": "顯示或隱藏物品資訊的提示按鈕。"
+        "sgTW": "顯示或隱藏物品資訊的提示按鈕。",
+        "bnCN": "显示或关闭物品说明条中\n附加的热键提示。"
     },
     "ItemNameDisplayModeTooltip_ps4": {
         "Key": "ItemNameDisplayModeTooltip_ps4",
@@ -2093,7 +2354,8 @@
         "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。",
         "zhTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
         "sgCN": "设置按下“在地面上显示物品”绑定键时的行为。",
-        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。"
+        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
+        "bnCN": "设置按下“在地面上显示物品”绑定键时的行为。"
     },
     "ControllerWeaponSwapSeparateBindingsSetting_ps4": {
         "Key": "ControllerWeaponSwapSeparateBindingsSetting_ps4",
@@ -2101,7 +2363,8 @@
         "zhCN": "切换武器时更换技能键",
         "zhTW": "切換武器有獨立的技能按鈕設定",
         "sgCN": "切换武器时更换技能键",
-        "sgTW": "切換武器有獨立的技能按鈕設定"
+        "sgTW": "切換武器有獨立的技能按鈕設定",
+        "bnCN": "切换武器时更换技能键"
     },
     "TutorialToolTipOfflineConsole_ps4": {
         "Key": "TutorialToolTipOfflineConsole_ps4",
@@ -2109,7 +2372,8 @@
         "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
         "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
         "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
-        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "bnCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
     },
     "OptionsMenuShowClockDescription_ps4": {
         "Key": "OptionsMenuShowClockDescription_ps4",
@@ -2117,7 +2381,8 @@
         "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
         "zhTW": "切換遊戲內顯示的本機系統時鐘。",
         "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
-        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。",
+        "bnCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
     },
     "MoviePlaybackHoldToSkip_ps4": {
         "Key": "MoviePlaybackHoldToSkip_ps4",
@@ -2125,7 +2390,8 @@
         "zhCN": "长按任意键跳过",
         "zhTW": "按住任意按鈕以略過",
         "sgCN": "长按任意键跳过",
-        "sgTW": "按住任意按鈕以略過"
+        "sgTW": "按住任意按鈕以略過",
+        "bnCN": "长按任意键跳过"
     },
     "OptionsMenuItemTooltipHotkeyAppenderDescription_ps5": {
         "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_ps5",
@@ -2133,7 +2399,8 @@
         "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
         "zhTW": "顯示或隱藏物品資訊的提示按鈕。",
         "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
-        "sgTW": "顯示或隱藏物品資訊的提示按鈕。"
+        "sgTW": "顯示或隱藏物品資訊的提示按鈕。",
+        "bnCN": "显示或关闭物品说明条中\n附加的热键提示。"
     },
     "ItemNameDisplayModeTooltip_ps5": {
         "Key": "ItemNameDisplayModeTooltip_ps5",
@@ -2141,7 +2408,8 @@
         "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。",
         "zhTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
         "sgCN": "设置按下“在地面上显示物品”绑定键时的行为。",
-        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。"
+        "sgTW": "調整按下「顯示地面物品」按鈕時的顯示時間。",
+        "bnCN": "设置按下“在地面上显示物品”绑定键时的行为。"
     },
     "ControllerWeaponSwapSeparateBindingsSetting_ps5": {
         "Key": "ControllerWeaponSwapSeparateBindingsSetting_ps5",
@@ -2149,7 +2417,8 @@
         "zhCN": "切换武器时更换技能键",
         "zhTW": "切換武器有獨立的技能按鈕設定",
         "sgCN": "切换武器时更换技能键",
-        "sgTW": "切換武器有獨立的技能按鈕設定"
+        "sgTW": "切換武器有獨立的技能按鈕設定",
+        "bnCN": "切换武器时更换技能键"
     },
     "TutorialToolTipOfflineConsole_ps5": {
         "Key": "TutorialToolTipOfflineConsole_ps5",
@@ -2157,7 +2426,8 @@
         "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
         "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
         "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
-        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "bnCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
     },
     "OptionsMenuShowClockDescription_ps5": {
         "Key": "OptionsMenuShowClockDescription_ps5",
@@ -2165,7 +2435,8 @@
         "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
         "zhTW": "切換遊戲內顯示的本機系統時鐘。",
         "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
-        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。",
+        "bnCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
     },
     "MoviePlaybackHoldToSkip_ps5": {
         "Key": "MoviePlaybackHoldToSkip_ps5",
@@ -2173,7 +2444,8 @@
         "zhCN": "长按任意键跳过",
         "zhTW": "按住任意按鈕以略過",
         "sgCN": "长按任意键跳过",
-        "sgTW": "按住任意按鈕以略過"
+        "sgTW": "按住任意按鈕以略過",
+        "bnCN": "长按任意键跳过"
     },
     "OptionsMenuItemTooltipHotkeyAppenderDescription_switch": {
         "Key": "OptionsMenuItemTooltipHotkeyAppenderDescription_switch",
@@ -2181,7 +2453,8 @@
         "zhCN": "显示或关闭物品说明条中\n附加的热键提示。",
         "zhTW": "顯示或隱藏物品資訊的提示鍵。",
         "sgCN": "显示或关闭物品说明条中\n附加的热键提示。",
-        "sgTW": "顯示或隱藏物品資訊的提示鍵。"
+        "sgTW": "顯示或隱藏物品資訊的提示鍵。",
+        "bnCN": "显示或关闭物品说明条中\n附加的热键提示。"
     },
     "ItemNameDisplayModeTooltip_switch": {
         "Key": "ItemNameDisplayModeTooltip_switch",
@@ -2189,7 +2462,8 @@
         "zhCN": "设置按下“在地面上显示物品”绑定键时的行为。",
         "zhTW": "調整按下「顯示地面物品」鍵時的顯示時間。",
         "sgCN": "设置按下“在地面上显示物品”绑定键时的行为。",
-        "sgTW": "調整按下「顯示地面物品」鍵時的顯示時間。"
+        "sgTW": "調整按下「顯示地面物品」鍵時的顯示時間。",
+        "bnCN": "设置按下“在地面上显示物品”绑定键时的行为。"
     },
     "ControllerWeaponSwapSeparateBindingsSetting_switch": {
         "Key": "ControllerWeaponSwapSeparateBindingsSetting_switch",
@@ -2197,7 +2471,8 @@
         "zhCN": "切换武器时更换技能键",
         "zhTW": "切換武器有獨立的技能按鍵設定",
         "sgCN": "切换武器时更换技能键",
-        "sgTW": "切換武器有獨立的技能按鍵設定"
+        "sgTW": "切換武器有獨立的技能按鍵設定",
+        "bnCN": "切换武器时更换技能键"
     },
     "TutorialToolTipOfflineConsole_switch": {
         "Key": "TutorialToolTipOfflineConsole_switch",
@@ -2205,7 +2480,8 @@
         "zhCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
         "zhTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
         "sgCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。",
-        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。"
+        "sgTW": "這樣會建立一個離線角色。離線角色會以檔案形式儲存在你的系統。離線角色無法與線上角色一同遊玩。離線角色可以在沒有網路連線的狀況下遊玩。",
+        "bnCN": "这会创建一个离线角色。离线角色会以文件的形式保存到你的系统中。离线角色无法与线上角色一同游戏。离线角色无需连接网络也能游戏。"
     },
     "OptionsMenuShowClockDescription_switch": {
         "Key": "OptionsMenuShowClockDescription_switch",
@@ -2213,7 +2489,8 @@
         "zhCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
         "zhTW": "切換遊戲內顯示的本機系統時鐘。",
         "sgCN": "打开或关闭在游戏内\n显示你的本地系统时钟。",
-        "sgTW": "切換遊戲內顯示的本機系統時鐘。"
+        "sgTW": "切換遊戲內顯示的本機系統時鐘。",
+        "bnCN": "打开或关闭在游戏内\n显示你的本地系统时钟。"
     },
     "MoviePlaybackHoldToSkip_switch": {
         "Key": "MoviePlaybackHoldToSkip_switch",
@@ -2221,7 +2498,8 @@
         "zhCN": "长按任意键跳过",
         "zhTW": "按住任意鍵以略過",
         "sgCN": "长按任意键跳过",
-        "sgTW": "按住任意鍵以略過"
+        "sgTW": "按住任意鍵以略過",
+        "bnCN": "长按任意键跳过"
     },
     "ScreenSpaceControllerMessage": {
         "Key": "ScreenSpaceControllerMessage",
@@ -2229,7 +2507,8 @@
         "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
         "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
         "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
-        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "bnCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
     },
     "ScreenSpaceControllerMessage_xbox": {
         "Key": "ScreenSpaceControllerMessage_xbox",
@@ -2237,7 +2516,8 @@
         "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
         "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
         "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
-        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "bnCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
     },
     "ScreenSpaceControllerMessage_ps4": {
         "Key": "ScreenSpaceControllerMessage_ps4",
@@ -2245,7 +2525,8 @@
         "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐 ZZZZZZZZ",
         "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
         "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐 ZZZZZZZZ",
-        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "bnCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐 ZZZZZZZZ"
     },
     "ScreenSpaceControllerMessage_ps5": {
         "Key": "ScreenSpaceControllerMessage_ps5",
@@ -2253,7 +2534,8 @@
         "zhCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
         "zhTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
         "sgCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
-        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+        "sgTW": "使用十字鍵或搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "bnCN": "使用十字方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
     },
     "ScreenSpaceControllerMessage_switch": {
         "Key": "ScreenSpaceControllerMessage_switch",
@@ -2261,7 +2543,8 @@
         "zhCN": "使用方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
         "zhTW": "使用方向鍵或操控搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
         "sgCN": "使用方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐",
-        "sgTW": "使用方向鍵或操控搖桿來調整，讓四個角落跟你的螢幕邊緣切齊"
+        "sgTW": "使用方向鍵或操控搖桿來調整，讓四個角落跟你的螢幕邊緣切齊",
+        "bnCN": "使用方向键或摇杆调整画面角落\n直至其与您的屏幕边缘对齐"
     },
     "ActivityCampaign": {
         "Key": "ActivityCampaign",
@@ -2269,7 +2552,8 @@
         "zhCN": "战役",
         "zhTW": "劇情模式",
         "sgCN": "战役",
-        "sgTW": "劇情模式"
+        "sgTW": "劇情模式",
+        "bnCN": "战役"
     },
     "PartyPanelShowProfileMessage": {
         "Key": "PartyPanelShowProfileMessage",
@@ -2277,7 +2561,8 @@
         "zhCN": "按住显示个人资料",
         "zhTW": "按住來顯示玩家資料",
         "sgCN": "按住显示个人资料",
-        "sgTW": "按住來顯示玩家資料"
+        "sgTW": "按住來顯示玩家資料",
+        "bnCN": "按住显示个人资料"
     },
     "EmoteWheelAcceptButton": {
         "Key": "EmoteWheelAcceptButton",
@@ -2285,7 +2570,8 @@
         "zhCN": "接受",
         "zhTW": "接受",
         "sgCN": "接受",
-        "sgTW": "接受"
+        "sgTW": "接受",
+        "bnCN": "接受"
     },
     "ShowMercSkills": {
         "Key": "ShowMercSkills",
@@ -2293,7 +2579,8 @@
         "zhCN": "显示佣兵技能",
         "zhTW": "顯示傭兵技能",
         "sgCN": "显示佣兵技能",
-        "sgTW": "顯示傭兵技能"
+        "sgTW": "顯示傭兵技能",
+        "bnCN": "显示佣兵技能"
     },
     "EmoteNotEnough": {
         "Key": "EmoteNotEnough",
@@ -2301,7 +2588,8 @@
         "zhCN": "还不够",
         "zhTW": "不夠",
         "sgCN": "还不够",
-        "sgTW": "不夠"
+        "sgTW": "不夠",
+        "bnCN": "还不够"
     },
     "OptionsShowSonyOnlyLeaderboards": {
         "Key": "OptionsShowSonyOnlyLeaderboards",
@@ -2309,7 +2597,8 @@
         "zhCN": "索尼PlayStation™Network天梯榜",
         "zhTW": "僅顯示 PlayStation™Network 的天梯榜",
         "sgCN": "索尼PlayStation™Network天梯榜",
-        "sgTW": "僅顯示 PlayStation™Network 的天梯榜"
+        "sgTW": "僅顯示 PlayStation™Network 的天梯榜",
+        "bnCN": "索尼PlayStation™Network天梯榜"
     },
     "OptionsShowSonyOnlyLeaderboardsTooltip": {
         "Key": "OptionsShowSonyOnlyLeaderboardsTooltip",
@@ -2317,7 +2606,8 @@
         "zhCN": "只在天梯榜上显示PlayStation™Network的用户。",
         "zhTW": "讓天梯榜只顯示 PlayStation™Network 的玩家。",
         "sgCN": "只在天梯榜上显示PlayStation™Network的用户。",
-        "sgTW": "讓天梯榜只顯示 PlayStation™Network 的玩家。"
+        "sgTW": "讓天梯榜只顯示 PlayStation™Network 的玩家。",
+        "bnCN": "只在天梯榜上显示PlayStation™Network的用户。"
     },
     "ControllerPromptItemMoveToBelt": {
         "Key": "ControllerPromptItemMoveToBelt",
@@ -2325,7 +2615,8 @@
         "zhCN": "移至腰带",
         "zhTW": "移至腰帶",
         "sgCN": "移至腰带",
-        "sgTW": "移至腰帶"
+        "sgTW": "移至腰帶",
+        "bnCN": "移至腰带"
     },
     "ControllerPromptAssignFiveStatPoints": {
         "Key": "ControllerPromptAssignFiveStatPoints",
@@ -2333,7 +2624,8 @@
         "zhCN": "分配五个属性点",
         "zhTW": "分配五點屬性點數",
         "sgCN": "分配五个属性点",
-        "sgTW": "分配五點屬性點數"
+        "sgTW": "分配五點屬性點數",
+        "bnCN": "分配五个属性点"
     },
     "ControllerPromptAssignAllStatPoints": {
         "Key": "ControllerPromptAssignAllStatPoints",
@@ -2341,7 +2633,8 @@
         "zhCN": "分配所有属性点",
         "zhTW": "分配全部屬性點數",
         "sgCN": "分配所有属性点",
-        "sgTW": "分配全部屬性點數"
+        "sgTW": "分配全部屬性點數",
+        "bnCN": "分配所有属性点"
     },
     "SkillNameCubeLoot": {
         "Key": "SkillNameCubeLoot",
@@ -2349,7 +2642,8 @@
         "zhCN": "捡入魔盒",
         "zhTW": "拾取進方塊",
         "sgCN": "捡入魔盒",
-        "sgTW": "拾取進方塊"
+        "sgTW": "拾取進方塊",
+        "bnCN": "捡入魔盒"
     },
     "SkillDescCubeLoot": {
         "Key": "SkillDescCubeLoot",
@@ -2357,7 +2651,8 @@
         "zhCN": "拾取物品、武器和护甲\n并将它们放进赫拉迪姆魔盒",
         "zhTW": "撿起物品、武器和防具並直接將放進赫拉迪姆方塊",
         "sgCN": "拾取物品、武器和护甲\n并将它们放进赫拉迪姆魔盒",
-        "sgTW": "撿起物品、武器和防具並直接將放進赫拉迪姆方塊"
+        "sgTW": "撿起物品、武器和防具並直接將放進赫拉迪姆方塊",
+        "bnCN": "拾取物品、武器和护甲\n并将它们放进赫拉迪姆魔盒"
     },
     "ControllerPromptOpenCube": {
         "Key": "ControllerPromptOpenCube",
@@ -2365,7 +2660,8 @@
         "zhCN": "打开魔盒",
         "zhTW": "開啟方塊",
         "sgCN": "打开魔盒",
-        "sgTW": "開啟方塊"
+        "sgTW": "開啟方塊",
+        "bnCN": "打开魔盒"
     },
     "DesecratedIcon": {
         "Key": "DesecratedIcon",
@@ -2373,7 +2669,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "UseTerrorTokenAct1Controller": {
         "Key": "UseTerrorTokenAct1Controller",

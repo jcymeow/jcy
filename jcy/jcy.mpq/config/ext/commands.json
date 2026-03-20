@@ -5,7 +5,8 @@
         "zhCN": "好友",
         "zhTW": "好友",
         "sgCN": "好友",
-        "sgTW": "好友"
+        "sgTW": "好友",
+        "bnCN": "好友"
     },
     "D2CommandsFriendsList": {
         "Key": "D2CommandsFriendsList",
@@ -13,7 +14,8 @@
         "zhCN": "列表",
         "zhTW": "列表",
         "sgCN": "列表",
-        "sgTW": "列表"
+        "sgTW": "列表",
+        "bnCN": "列表"
     },
     "D2CommandsFriendsListHelp": {
         "Key": "D2CommandsFriendsListHelp",
@@ -21,7 +23,8 @@
         "zhCN": "列出所有的战网好友。",
         "zhTW": "列出所有 Battle.net 好友。",
         "sgCN": "列出所有的战网好友。",
-        "sgTW": "列出所有 Battle.net 好友。"
+        "sgTW": "列出所有 Battle.net 好友。",
+        "bnCN": "列出所有的战网好友。"
     },
     "D2CommandsFriendsAdd": {
         "Key": "D2CommandsFriendsAdd",
@@ -29,7 +32,8 @@
         "zhCN": "添加",
         "zhTW": "新增",
         "sgCN": "添加",
-        "sgTW": "新增"
+        "sgTW": "新增",
+        "bnCN": "添加"
     },
     "D2CommandsFriendsAddHelp": {
         "Key": "D2CommandsFriendsAddHelp",
@@ -37,7 +41,8 @@
         "zhCN": "向另一名玩家发出邀请，申请成为其战网好友。",
         "zhTW": "向另一位玩家送出 Battle.net 好友邀請。",
         "sgCN": "向另一名玩家发出邀请，申请成为其战网好友。",
-        "sgTW": "向另一位玩家送出 Battle.net 好友邀請。"
+        "sgTW": "向另一位玩家送出 Battle.net 好友邀請。",
+        "bnCN": "向另一名玩家发出邀请，申请成为其战网好友。"
     },
     "D2CommandsFriendsRemove": {
         "Key": "D2CommandsFriendsRemove",
@@ -45,7 +50,8 @@
         "zhCN": "移除",
         "zhTW": "移除",
         "sgCN": "移除",
-        "sgTW": "移除"
+        "sgTW": "移除",
+        "bnCN": "移除"
     },
     "D2CommandsFriendsRemoveHelp": {
         "Key": "D2CommandsFriendsRemoveHelp",
@@ -53,7 +59,8 @@
         "zhCN": "将一个账号从你的战网好友列表中移除。",
         "zhTW": "移除 Battle.net 好友名單中的帳號。",
         "sgCN": "将一个账号从你的战网好友列表中移除。",
-        "sgTW": "移除 Battle.net 好友名單中的帳號。"
+        "sgTW": "移除 Battle.net 好友名單中的帳號。",
+        "bnCN": "将一个账号从你的战网好友列表中移除。"
     },
     "D2CommandsFriendsMsg": {
         "Key": "D2CommandsFriendsMsg",
@@ -61,7 +68,8 @@
         "zhCN": "消息",
         "zhTW": "廣播",
         "sgCN": "消息",
-        "sgTW": "廣播"
+        "sgTW": "廣播",
+        "bnCN": "消息"
     },
     "D2CommandsFriendsMsgHelp": {
         "Key": "D2CommandsFriendsMsgHelp",
@@ -69,7 +77,8 @@
         "zhCN": "向好友列表里的每个人发送一条信息。",
         "zhTW": "向好友名單中的所有好友送出訊息。",
         "sgCN": "向好友列表里的每个人发送一条信息。",
-        "sgTW": "向好友名單中的所有好友送出訊息。"
+        "sgTW": "向好友名單中的所有好友送出訊息。",
+        "bnCN": "向好友列表里的每个人发送一条信息。"
     },
     "D2CommandsFriendsAccept": {
         "Key": "D2CommandsFriendsAccept",
@@ -77,7 +86,8 @@
         "zhCN": "接受",
         "zhTW": "接受",
         "sgCN": "接受",
-        "sgTW": "接受"
+        "sgTW": "接受",
+        "bnCN": "接受"
     },
     "D2CommandsFriendsReject": {
         "Key": "D2CommandsFriendsReject",
@@ -85,7 +95,8 @@
         "zhCN": "拒绝",
         "zhTW": "拒絕",
         "sgCN": "拒绝",
-        "sgTW": "拒絕"
+        "sgTW": "拒絕",
+        "bnCN": "拒绝"
     },
     "D2CommandsFriendsRevoke": {
         "Key": "D2CommandsFriendsRevoke",
@@ -93,7 +104,8 @@
         "zhCN": "撤回",
         "zhTW": "撤回",
         "sgCN": "撤回",
-        "sgTW": "撤回"
+        "sgTW": "撤回",
+        "bnCN": "撤回"
     },
     "D2CommandsFriendsListSent": {
         "Key": "D2CommandsFriendsListSent",
@@ -101,7 +113,8 @@
         "zhCN": "发送",
         "zhTW": "送出",
         "sgCN": "发送",
-        "sgTW": "送出"
+        "sgTW": "送出",
+        "bnCN": "发送"
     },
     "D2CommandsFriendsListRecv": {
         "Key": "D2CommandsFriendsListRecv",
@@ -109,7 +122,8 @@
         "zhCN": "接收",
         "zhTW": "收到",
         "sgCN": "接收",
-        "sgTW": "收到"
+        "sgTW": "收到",
+        "bnCN": "接收"
     },
     "D2CommandsFriendsResponseFriendsList": {
         "Key": "D2CommandsFriendsResponseFriendsList",
@@ -117,7 +131,8 @@
         "zhCN": "好友：",
         "zhTW": "好友：",
         "sgCN": "好友：",
-        "sgTW": "好友："
+        "sgTW": "好友：",
+        "bnCN": "好友："
     },
     "D2CommandsFriendsResponseNoFriends": {
         "Key": "D2CommandsFriendsResponseNoFriends",
@@ -125,7 +140,8 @@
         "zhCN": "你尚未添加好友。",
         "zhTW": "你沒有任何好友。",
         "sgCN": "你尚未添加好友。",
-        "sgTW": "你沒有任何好友。"
+        "sgTW": "你沒有任何好友。",
+        "bnCN": "你尚未添加好友。"
     },
     "D2CommandsFriendsResponseNoFriendByName": {
         "Key": "D2CommandsFriendsResponseNoFriendByName",
@@ -133,7 +149,8 @@
         "zhCN": "你没有叫这个名字的好友。",
         "zhTW": "你沒有該名稱的好友。",
         "sgCN": "你没有叫这个名字的好友。",
-        "sgTW": "你沒有該名稱的好友。"
+        "sgTW": "你沒有該名稱的好友。",
+        "bnCN": "你没有叫这个名字的好友。"
     },
     "D2CommandsFriendsResponsePlayerNameExpected": {
         "Key": "D2CommandsFriendsResponsePlayerNameExpected",
@@ -141,7 +158,8 @@
         "zhCN": "缺少玩家名字。",
         "zhTW": "請輸入玩家名稱。",
         "sgCN": "缺少玩家名字。",
-        "sgTW": "請輸入玩家名稱。"
+        "sgTW": "請輸入玩家名稱。",
+        "bnCN": "缺少玩家名字。"
     },
     "D2CommandsFriendsResponseMessageExpected": {
         "Key": "D2CommandsFriendsResponseMessageExpected",
@@ -149,7 +167,8 @@
         "zhCN": "缺少消息内容。",
         "zhTW": "請輸入訊息。",
         "sgCN": "缺少消息内容。",
-        "sgTW": "請輸入訊息。"
+        "sgTW": "請輸入訊息。",
+        "bnCN": "缺少消息内容。"
     },
     "D2CommandsFriendsResponseInviteSent": {
         "Key": "D2CommandsFriendsResponseInviteSent",
@@ -157,7 +176,8 @@
         "zhCN": "已向%s发送好友请求。",
         "zhTW": "已向%s發送好友邀請。",
         "sgCN": "已向%s发送好友请求。",
-        "sgTW": "已向%s發送好友邀請。"
+        "sgTW": "已向%s發送好友邀請。",
+        "bnCN": "已向%s发送好友请求。"
     },
     "D2CommandsFriendsResponseInviteSendFail": {
         "Key": "D2CommandsFriendsResponseInviteSendFail",
@@ -165,7 +185,8 @@
         "zhCN": "向%s发送请求失败。",
         "zhTW": "無法向%s發送好友邀請。",
         "sgCN": "向%s发送请求失败。",
-        "sgTW": "無法向%s發送好友邀請。"
+        "sgTW": "無法向%s發送好友邀請。",
+        "bnCN": "向%s发送请求失败。"
     },
     "D2CommandsFriendsResponseTargetMaxInvites": {
         "Key": "D2CommandsFriendsResponseTargetMaxInvites",
@@ -173,7 +194,8 @@
         "zhCN": "%s有太多尚未处理的邀请。",
         "zhTW": "%s有太多尚未回覆的邀請。",
         "sgCN": "%s有太多尚未处理的邀请。",
-        "sgTW": "%s有太多尚未回覆的邀請。"
+        "sgTW": "%s有太多尚未回覆的邀請。",
+        "bnCN": "%s有太多尚未处理的邀请。"
     },
     "D2CommandsFriendsResponseUserMaxInvites": {
         "Key": "D2CommandsFriendsResponseUserMaxInvites",
@@ -181,7 +203,8 @@
         "zhCN": "你有太多尚未处理的邀请。",
         "zhTW": "你有太多尚未回覆的邀請。",
         "sgCN": "你有太多尚未处理的邀请。",
-        "sgTW": "你有太多尚未回覆的邀請。"
+        "sgTW": "你有太多尚未回覆的邀請。",
+        "bnCN": "你有太多尚未处理的邀请。"
     },
     "D2CommandsFriendsResponseAlreadyFriend": {
         "Key": "D2CommandsFriendsResponseAlreadyFriend",
@@ -189,7 +212,8 @@
         "zhCN": "你和%s已经是好友了。",
         "zhTW": "%s和你已經是好友。",
         "sgCN": "你和%s已经是好友了。",
-        "sgTW": "%s和你已經是好友。"
+        "sgTW": "%s和你已經是好友。",
+        "bnCN": "你和%s已经是好友了。"
     },
     "D2CommandsFriendsInviteExists": {
         "Key": "D2CommandsFriendsInviteExists",
@@ -197,7 +221,8 @@
         "zhCN": "你已经邀请了%s。",
         "zhTW": "你已經邀請了%s。",
         "sgCN": "你已经邀请了%s。",
-        "sgTW": "你已經邀請了%s。"
+        "sgTW": "你已經邀請了%s。",
+        "bnCN": "你已经邀请了%s。"
     },
     "D2CommandsFriendsUserMaxFriends": {
         "Key": "D2CommandsFriendsUserMaxFriends",
@@ -205,7 +230,8 @@
         "zhCN": "你无法添加更多的好友。",
         "zhTW": "你無法新增更多好友。",
         "sgCN": "你无法添加更多的好友。",
-        "sgTW": "你無法新增更多好友。"
+        "sgTW": "你無法新增更多好友。",
+        "bnCN": "你无法添加更多的好友。"
     },
     "D2CommandsFriendsTargetMaxFriends": {
         "Key": "D2CommandsFriendsTargetMaxFriends",
@@ -213,7 +239,8 @@
         "zhCN": "%s无法添加更多的好友。",
         "zhTW": "%s無法新增更多好友。",
         "sgCN": "%s无法添加更多的好友。",
-        "sgTW": "%s無法新增更多好友。"
+        "sgTW": "%s無法新增更多好友。",
+        "bnCN": "%s无法添加更多的好友。"
     },
     "D2CommandsFriendsInviteInvalid": {
         "Key": "D2CommandsFriendsInviteInvalid",
@@ -221,7 +248,8 @@
         "zhCN": "该份邀请已失效。",
         "zhTW": "送出的邀請已失效。",
         "sgCN": "该份邀请已失效。",
-        "sgTW": "送出的邀請已失效。"
+        "sgTW": "送出的邀請已失效。",
+        "bnCN": "该份邀请已失效。"
     },
     "D2CommandsAccountIsBlocked": {
         "Key": "D2CommandsAccountIsBlocked",
@@ -229,7 +257,8 @@
         "zhCN": "你屏蔽了%s。",
         "zhTW": "你封鎖了%s。",
         "sgCN": "你屏蔽了%s。",
-        "sgTW": "你封鎖了%s。"
+        "sgTW": "你封鎖了%s。",
+        "bnCN": "你屏蔽了%s。"
     },
     "D2CommandsFriendsResponseRecvInvitesPending": {
         "Key": "D2CommandsFriendsResponseRecvInvitesPending",
@@ -237,7 +266,8 @@
         "zhCN": "尚待处理的邀请：",
         "zhTW": "尚未確認的邀請：",
         "sgCN": "尚待处理的邀请：",
-        "sgTW": "尚未確認的邀請："
+        "sgTW": "尚未確認的邀請：",
+        "bnCN": "尚待处理的邀请："
     },
     "D2CommandsFriendsResponseSentInvitesPending": {
         "Key": "D2CommandsFriendsResponseSentInvitesPending",
@@ -245,7 +275,8 @@
         "zhCN": "尚待处理的已发送邀请：",
         "zhTW": "邀請等待確認：",
         "sgCN": "尚待处理的已发送邀请：",
-        "sgTW": "邀請等待確認："
+        "sgTW": "邀請等待確認：",
+        "bnCN": "尚待处理的已发送邀请："
     },
     "D2CommandsFriendsResponseNoPendingRecvInvites": {
         "Key": "D2CommandsFriendsResponseNoPendingRecvInvites",
@@ -253,7 +284,8 @@
         "zhCN": "你没有尚未处理的邀请。",
         "zhTW": "你沒有尚未確認的邀請。",
         "sgCN": "你没有尚未处理的邀请。",
-        "sgTW": "你沒有尚未確認的邀請。"
+        "sgTW": "你沒有尚未確認的邀請。",
+        "bnCN": "你没有尚未处理的邀请。"
     },
     "D2CommandsFriendsResponseNoPendingSentInvites": {
         "Key": "D2CommandsFriendsResponseNoPendingSentInvites",
@@ -261,7 +293,8 @@
         "zhCN": "你没有尚未处理的已发送邀请。",
         "zhTW": "你沒有等待確認的邀請。",
         "sgCN": "你没有尚未处理的已发送邀请。",
-        "sgTW": "你沒有等待確認的邀請。"
+        "sgTW": "你沒有等待確認的邀請。",
+        "bnCN": "你没有尚未处理的已发送邀请。"
     },
     "D2CommandsFriendsResponseNoPendingInviteFrom": {
         "Key": "D2CommandsFriendsResponseNoPendingInviteFrom",
@@ -269,7 +302,8 @@
         "zhCN": "没有来自%s的尚未处理的邀请",
         "zhTW": "沒有從%s送出的未回覆邀請。",
         "sgCN": "没有来自%s的尚未处理的邀请",
-        "sgTW": "沒有從%s送出的未回覆邀請。"
+        "sgTW": "沒有從%s送出的未回覆邀請。",
+        "bnCN": "没有来自%s的尚未处理的邀请"
     },
     "D2CommandsFriendsResponseNoPendingInviteTo": {
         "Key": "D2CommandsFriendsResponseNoPendingInviteTo",
@@ -277,7 +311,8 @@
         "zhCN": "没有发送给%s的尚未处理的邀请",
         "zhTW": "沒有送至%s的未回覆邀請。",
         "sgCN": "没有发送给%s的尚未处理的邀请",
-        "sgTW": "沒有送至%s的未回覆邀請。"
+        "sgTW": "沒有送至%s的未回覆邀請。",
+        "bnCN": "没有发送给%s的尚未处理的邀请"
     },
     "D2CommandsChannel": {
         "Key": "D2CommandsChannel",
@@ -285,7 +320,8 @@
         "zhCN": "频道",
         "zhTW": "頻道",
         "sgCN": "频道",
-        "sgTW": "頻道"
+        "sgTW": "頻道",
+        "bnCN": "频道"
     },
     "D2CommandsJoin": {
         "Key": "D2CommandsJoin",
@@ -293,7 +329,8 @@
         "zhCN": "加入",
         "zhTW": "加入",
         "sgCN": "加入",
-        "sgTW": "加入"
+        "sgTW": "加入",
+        "bnCN": "加入"
     },
     "D2CommandsDesignate": {
         "Key": "D2CommandsDesignate",
@@ -301,7 +338,8 @@
         "zhCN": "任命",
         "zhTW": "指定",
         "sgCN": "任命",
-        "sgTW": "指定"
+        "sgTW": "指定",
+        "bnCN": "任命"
     },
     "D2CommandsInvite": {
         "Key": "D2CommandsInvite",
@@ -309,7 +347,8 @@
         "zhCN": "邀请",
         "zhTW": "邀請",
         "sgCN": "邀请",
-        "sgTW": "邀請"
+        "sgTW": "邀請",
+        "bnCN": "邀请"
     },
     "D2CommandsKick": {
         "Key": "D2CommandsKick",
@@ -317,7 +356,8 @@
         "zhCN": "踢人",
         "zhTW": "踢出",
         "sgCN": "踢人",
-        "sgTW": "踢出"
+        "sgTW": "踢出",
+        "bnCN": "踢人"
     },
     "D2CommandsLeave": {
         "Key": "D2CommandsLeave",
@@ -325,7 +365,8 @@
         "zhCN": "离开",
         "zhTW": "離開",
         "sgCN": "离开",
-        "sgTW": "離開"
+        "sgTW": "離開",
+        "bnCN": "离开"
     },
     "D2CommandsPrivate": {
         "Key": "D2CommandsPrivate",
@@ -333,7 +374,8 @@
         "zhCN": "私人",
         "zhTW": "私人",
         "sgCN": "私人",
-        "sgTW": "私人"
+        "sgTW": "私人",
+        "bnCN": "私人"
     },
     "D2CommandsWho": {
         "Key": "D2CommandsWho",
@@ -341,7 +383,8 @@
         "zhCN": "查询",
         "zhTW": "誰在",
         "sgCN": "查询",
-        "sgTW": "誰在"
+        "sgTW": "誰在",
+        "bnCN": "查询"
     },
     "D2CommandsChannelResponseChannelNameExpected": {
         "Key": "D2CommandsChannelResponseChannelNameExpected",
@@ -349,7 +392,8 @@
         "zhCN": "缺少频道名称。",
         "zhTW": "請輸入頻道名稱。",
         "sgCN": "缺少频道名称。",
-        "sgTW": "請輸入頻道名稱。"
+        "sgTW": "請輸入頻道名稱。",
+        "bnCN": "缺少频道名称。"
     },
     "D2CommandsChannelResponseNotInChannel": {
         "Key": "D2CommandsChannelResponseNotInChannel",
@@ -357,7 +401,8 @@
         "zhCN": "必须指定频道名称或在频道中。",
         "zhTW": "必須指定頻道名稱或已在一個頻道中。",
         "sgCN": "必须指定频道名称或在频道中。",
-        "sgTW": "必須指定頻道名稱或已在一個頻道中。"
+        "sgTW": "必須指定頻道名稱或已在一個頻道中。",
+        "bnCN": "必须指定频道名称或在频道中。"
     },
     "D2CommandsChannelResponseMembersInChannel": {
         "Key": "D2CommandsChannelResponseMembersInChannel",
@@ -365,7 +410,8 @@
         "zhCN": "频道中的成员[%s]:",
         "zhTW": "[%s]頻道的成員：",
         "sgCN": "频道中的成员[%s]:",
-        "sgTW": "[%s]頻道的成員："
+        "sgTW": "[%s]頻道的成員：",
+        "bnCN": "频道中的成员[%s]:"
     },
     "D2CommandsChannelResponseCantInviteNotPrivate": {
         "Key": "D2CommandsChannelResponseCantInviteNotPrivate",
@@ -373,7 +419,8 @@
         "zhCN": "玩家只能被邀请加入私人频道。",
         "zhTW": "玩家必須透過邀請才能進入私人頻道。",
         "sgCN": "玩家只能被邀请加入私人频道。",
-        "sgTW": "玩家必須透過邀請才能進入私人頻道。"
+        "sgTW": "玩家必須透過邀請才能進入私人頻道。",
+        "bnCN": "玩家只能被邀请加入私人频道。"
     },
     "D2CommandsChannelResponseCantKickNotPrivate": {
         "Key": "D2CommandsChannelResponseCantKickNotPrivate",
@@ -381,7 +428,8 @@
         "zhCN": "玩家只能被从私人频道中踢除。",
         "zhTW": "只能移除私人頻道中的玩家。",
         "sgCN": "玩家只能被从私人频道中踢除。",
-        "sgTW": "只能移除私人頻道中的玩家。"
+        "sgTW": "只能移除私人頻道中的玩家。",
+        "bnCN": "玩家只能被从私人频道中踢除。"
     },
     "D2CommandsChannelResponseCantDesignateNotPrivate": {
         "Key": "D2CommandsChannelResponseCantDesignateNotPrivate",
@@ -389,7 +437,8 @@
         "zhCN": "玩家只能成为私人频道中的管理员。",
         "zhTW": "玩家只能擔任私人頻道的管理員。",
         "sgCN": "玩家只能成为私人频道中的管理员。",
-        "sgTW": "玩家只能擔任私人頻道的管理員。"
+        "sgTW": "玩家只能擔任私人頻道的管理員。",
+        "bnCN": "玩家只能成为私人频道中的管理员。"
     },
     "D2CommandsWhisper": {
         "Key": "D2CommandsWhisper",
@@ -397,7 +446,8 @@
         "zhCN": "密语",
         "zhTW": "悄悄話",
         "sgCN": "密语",
-        "sgTW": "悄悄話"
+        "sgTW": "悄悄話",
+        "bnCN": "密语"
     },
     "D2CommandsMessage": {
         "Key": "D2CommandsMessage",
@@ -405,7 +455,8 @@
         "zhCN": "消息",
         "zhTW": "訊息",
         "sgCN": "消息",
-        "sgTW": "訊息"
+        "sgTW": "訊息",
+        "bnCN": "消息"
     },
     "D2CommandsDnd": {
         "Key": "D2CommandsDnd",
@@ -413,7 +464,8 @@
         "zhCN": "勿扰",
         "zhTW": "勿擾",
         "sgCN": "勿扰",
-        "sgTW": "勿擾"
+        "sgTW": "勿擾",
+        "bnCN": "勿扰"
     },
     "D2CommandsDndDescription": {
         "Key": "D2CommandsDndDescription",
@@ -421,7 +473,8 @@
         "zhCN": "将你的在线状态设置为忙碌",
         "zhTW": "將你的狀態設為忙碌",
         "sgCN": "将你的在线状态设置为忙碌",
-        "sgTW": "將你的狀態設為忙碌"
+        "sgTW": "將你的狀態設為忙碌",
+        "bnCN": "将你的在线状态设置为忙碌"
     },
     "D2CommandsAway": {
         "Key": "D2CommandsAway",
@@ -429,7 +482,8 @@
         "zhCN": "暂离",
         "zhTW": "暫離",
         "sgCN": "暂离",
-        "sgTW": "暫離"
+        "sgTW": "暫離",
+        "bnCN": "暂离"
     },
     "D2CommandsAwayDescription": {
         "Key": "D2CommandsAwayDescription",
@@ -437,7 +491,8 @@
         "zhCN": "将你的在线状态设置为离开",
         "zhTW": "將你的狀態設為暫離",
         "sgCN": "将你的在线状态设置为离开",
-        "sgTW": "將你的狀態設為暫離"
+        "sgTW": "將你的狀態設為暫離",
+        "bnCN": "将你的在线状态设置为离开"
     },
     "D2CommandsOnline": {
         "Key": "D2CommandsOnline",
@@ -445,7 +500,8 @@
         "zhCN": "在线",
         "zhTW": "上線",
         "sgCN": "在线",
-        "sgTW": "上線"
+        "sgTW": "上線",
+        "bnCN": "在线"
     },
     "D2CommandsOnlineDescription": {
         "Key": "D2CommandsOnlineDescription",
@@ -453,7 +509,8 @@
         "zhCN": "将你的在线状态设置为在线",
         "zhTW": "將你的狀態設為上線",
         "sgCN": "将你的在线状态设置为在线",
-        "sgTW": "將你的狀態設為上線"
+        "sgTW": "將你的狀態設為上線",
+        "bnCN": "将你的在线状态设置为在线"
     },
     "D2CommandsSetAvailability": {
         "Key": "D2CommandsSetAvailability",
@@ -461,7 +518,8 @@
         "zhCN": "设置在线状态",
         "zhTW": "線上狀態",
         "sgCN": "设置在线状态",
-        "sgTW": "線上狀態"
+        "sgTW": "線上狀態",
+        "bnCN": "设置在线状态"
     },
     "D2CommandsSetAvailabilityDescription": {
         "Key": "D2CommandsSetAvailabilityDescription",
@@ -469,7 +527,8 @@
         "zhCN": "设置你的在线状态",
         "zhTW": "設定你的線上狀態",
         "sgCN": "设置你的在线状态",
-        "sgTW": "設定你的線上狀態"
+        "sgTW": "設定你的線上狀態",
+        "bnCN": "设置你的在线状态"
     },
     "D2CommandsOption": {
         "Key": "D2CommandsOption",
@@ -477,7 +536,8 @@
         "zhCN": "选项",
         "zhTW": "選項",
         "sgCN": "选项",
-        "sgTW": "選項"
+        "sgTW": "選項",
+        "bnCN": "选项"
     },
     "D2CommandsOptionDescription": {
         "Key": "D2CommandsOptionDescription",
@@ -485,7 +545,8 @@
         "zhCN": "设置或清除一个选项",
         "zhTW": "設定或清除選項。",
         "sgCN": "设置或清除一个选项",
-        "sgTW": "設定或清除選項。"
+        "sgTW": "設定或清除選項。",
+        "bnCN": "设置或清除一个选项"
     },
     "D2CommandsOptionSet": {
         "Key": "D2CommandsOptionSet",
@@ -493,7 +554,8 @@
         "zhCN": "设置",
         "zhTW": "設定",
         "sgCN": "设置",
-        "sgTW": "設定"
+        "sgTW": "設定",
+        "bnCN": "设置"
     },
     "D2CommandsOptionSetDescription": {
         "Key": "D2CommandsOptionSetDescription",
@@ -501,7 +563,8 @@
         "zhCN": "启用指定选项",
         "zhTW": "啟用指定的選項。",
         "sgCN": "启用指定选项",
-        "sgTW": "啟用指定的選項。"
+        "sgTW": "啟用指定的選項。",
+        "bnCN": "启用指定选项"
     },
     "D2CommandsOptionClear": {
         "Key": "D2CommandsOptionClear",
@@ -509,7 +572,8 @@
         "zhCN": "清除",
         "zhTW": "清除",
         "sgCN": "清除",
-        "sgTW": "清除"
+        "sgTW": "清除",
+        "bnCN": "清除"
     },
     "D2CommandsOptionClearDescription": {
         "Key": "D2CommandsOptionClearDescription",
@@ -517,7 +581,8 @@
         "zhCN": "禁用指定选项",
         "zhTW": "停用指定的選項",
         "sgCN": "禁用指定选项",
-        "sgTW": "停用指定的選項"
+        "sgTW": "停用指定的選項",
+        "bnCN": "禁用指定选项"
     },
     "D2CommandsD2Notify": {
         "Key": "D2CommandsD2Notify",
@@ -525,7 +590,8 @@
         "zhCN": "D2通知",
         "zhTW": "D2通知",
         "sgCN": "D2通知",
-        "sgTW": "D2通知"
+        "sgTW": "D2通知",
+        "bnCN": "D2通知"
     },
     "D2CommandsD2NotifyDescription": {
         "Key": "D2CommandsD2NotifyDescription",
@@ -533,7 +599,8 @@
         "zhCN": "决定玩家进入或退出频道时是否要通知你的选项。",
         "zhTW": "此選項可設定當玩家進入或離開頻道時，是否通知你。",
         "sgCN": "决定玩家进入或退出频道时是否要通知你的选项。",
-        "sgTW": "此選項可設定當玩家進入或離開頻道時，是否通知你。"
+        "sgTW": "此選項可設定當玩家進入或離開頻道時，是否通知你。",
+        "bnCN": "决定玩家进入或退出频道时是否要通知你的选项。"
     },
     "D2CommandsIgnoreWhisper": {
         "Key": "D2CommandsIgnoreWhisper",
@@ -541,7 +608,8 @@
         "zhCN": "屏蔽密语",
         "zhTW": "忽略悄悄話",
         "sgCN": "屏蔽密语",
-        "sgTW": "忽略悄悄話"
+        "sgTW": "忽略悄悄話",
+        "bnCN": "屏蔽密语"
     },
     "D2CommandsIgnoreWhisperDescription": {
         "Key": "D2CommandsIgnoreWhisperDescription",
@@ -549,7 +617,8 @@
         "zhCN": "屏蔽密语信息。",
         "zhTW": "忽略悄悄話密語訊息。",
         "sgCN": "屏蔽密语信息。",
-        "sgTW": "忽略悄悄話密語訊息。"
+        "sgTW": "忽略悄悄話密語訊息。",
+        "bnCN": "屏蔽密语信息。"
     },
     "D2CommandsUnignoreWhisper": {
         "Key": "D2CommandsUnignoreWhisper",
@@ -557,7 +626,8 @@
         "zhCN": "取消屏蔽密语",
         "zhTW": "取消忽略悄悄話",
         "sgCN": "取消屏蔽密语",
-        "sgTW": "取消忽略悄悄話"
+        "sgTW": "取消忽略悄悄話",
+        "bnCN": "取消屏蔽密语"
     },
     "D2CommandsUnignoreWhisperDescription": {
         "Key": "D2CommandsUnignoreWhisperDescription",
@@ -565,7 +635,8 @@
         "zhCN": "接收密语信息。",
         "zhTW": "接受悄悄話密語訊息。",
         "sgCN": "接收密语信息。",
-        "sgTW": "接受悄悄話密語訊息。"
+        "sgTW": "接受悄悄話密語訊息。",
+        "bnCN": "接收密语信息。"
     },
     "D2CommandsIgnorePrivate": {
         "Key": "D2CommandsIgnorePrivate",
@@ -573,7 +644,8 @@
         "zhCN": "屏蔽私人",
         "zhTW": "忽略私頻",
         "sgCN": "屏蔽私人",
-        "sgTW": "忽略私頻"
+        "sgTW": "忽略私頻",
+        "bnCN": "屏蔽私人"
     },
     "D2CommandsIgnorePrivateDescription": {
         "Key": "D2CommandsIgnorePrivateDescription",
@@ -581,7 +653,8 @@
         "zhCN": "屏蔽私人频道的信息。",
         "zhTW": "忽略私人頻道訊息。",
         "sgCN": "屏蔽私人频道的信息。",
-        "sgTW": "忽略私人頻道訊息。"
+        "sgTW": "忽略私人頻道訊息。",
+        "bnCN": "屏蔽私人频道的信息。"
     },
     "D2CommandsUnignorePrivate": {
         "Key": "D2CommandsUnignorePrivate",
@@ -589,7 +662,8 @@
         "zhCN": "取消屏蔽私人",
         "zhTW": "取消忽略私頻",
         "sgCN": "取消屏蔽私人",
-        "sgTW": "取消忽略私頻"
+        "sgTW": "取消忽略私頻",
+        "bnCN": "取消屏蔽私人"
     },
     "D2CommandsUnignorePrivateDescription": {
         "Key": "D2CommandsUnignorePrivateDescription",
@@ -597,7 +671,8 @@
         "zhCN": "接收私人频道的信息。",
         "zhTW": "接受私人頻道訊息。",
         "sgCN": "接收私人频道的信息。",
-        "sgTW": "接受私人頻道訊息。"
+        "sgTW": "接受私人頻道訊息。",
+        "bnCN": "接收私人频道的信息。"
     },
     "D2CommandsIgnorePublic": {
         "Key": "D2CommandsIgnorePublic",
@@ -605,7 +680,8 @@
         "zhCN": "屏蔽公开",
         "zhTW": "忽略公頻",
         "sgCN": "屏蔽公开",
-        "sgTW": "忽略公頻"
+        "sgTW": "忽略公頻",
+        "bnCN": "屏蔽公开"
     },
     "D2CommandsIgnorePublicDescription": {
         "Key": "D2CommandsIgnorePublicDescription",
@@ -613,7 +689,8 @@
         "zhCN": "屏蔽公开频道的信息。",
         "zhTW": "忽略公開頻道訊息。",
         "sgCN": "屏蔽公开频道的信息。",
-        "sgTW": "忽略公開頻道訊息。"
+        "sgTW": "忽略公開頻道訊息。",
+        "bnCN": "屏蔽公开频道的信息。"
     },
     "D2CommandsUnignorePublic": {
         "Key": "D2CommandsUnignorePublic",
@@ -621,7 +698,8 @@
         "zhCN": "取消屏蔽公开",
         "zhTW": "取消忽略公頻",
         "sgCN": "取消屏蔽公开",
-        "sgTW": "取消忽略公頻"
+        "sgTW": "取消忽略公頻",
+        "bnCN": "取消屏蔽公开"
     },
     "D2CommandsUnignorePublicDescription": {
         "Key": "D2CommandsUnignorePublicDescription",
@@ -629,7 +707,8 @@
         "zhCN": "接收公开频道的信息。",
         "zhTW": "接受公開頻道訊息。",
         "sgCN": "接收公开频道的信息。",
-        "sgTW": "接受公開頻道訊息。"
+        "sgTW": "接受公開頻道訊息。",
+        "bnCN": "接收公开频道的信息。"
     },
     "D2CommandsTime": {
         "Key": "D2CommandsTime",
@@ -637,7 +716,8 @@
         "zhCN": "时间",
         "zhTW": "時間",
         "sgCN": "时间",
-        "sgTW": "時間"
+        "sgTW": "時間",
+        "bnCN": "时间"
     },
     "D2CommandsTimeDescription": {
         "Key": "D2CommandsTimeDescription",
@@ -645,7 +725,8 @@
         "zhCN": "报告当前时间。",
         "zhTW": "回報當前時間。",
         "sgCN": "报告当前时间。",
-        "sgTW": "回報當前時間。"
+        "sgTW": "回報當前時間。",
+        "bnCN": "报告当前时间。"
     },
     "D2CommandsWhisperIgnoredResponse": {
         "Key": "D2CommandsWhisperIgnoredResponse",
@@ -653,7 +734,8 @@
         "zhCN": "我当前已禁用密语，请稍后再试。",
         "zhTW": "我目前關閉了悄悄話密語功能，請稍後再試。",
         "sgCN": "我当前已禁用密语，请稍后再试。",
-        "sgTW": "我目前關閉了悄悄話密語功能，請稍後再試。"
+        "sgTW": "我目前關閉了悄悄話密語功能，請稍後再試。",
+        "bnCN": "我当前已禁用密语，请稍后再试。"
     },
     "D2CommandsFriendsResponseAcceptedInvite": {
         "Key": "D2CommandsFriendsResponseAcceptedInvite",
@@ -661,7 +743,8 @@
         "zhCN": "已接受来自%s的好友请求。",
         "zhTW": "接受%s的好友邀請。",
         "sgCN": "已接受来自%s的好友请求。",
-        "sgTW": "接受%s的好友邀請。"
+        "sgTW": "接受%s的好友邀請。",
+        "bnCN": "已接受来自%s的好友请求。"
     },
     "D2CommandsFriendsResponseFailedToAcceptInvite": {
         "Key": "D2CommandsFriendsResponseFailedToAcceptInvite",
@@ -669,7 +752,8 @@
         "zhCN": "接受来自%s的好友请求失败。",
         "zhTW": "無法接受%s的好友邀請。",
         "sgCN": "接受来自%s的好友请求失败。",
-        "sgTW": "無法接受%s的好友邀請。"
+        "sgTW": "無法接受%s的好友邀請。",
+        "bnCN": "接受来自%s的好友请求失败。"
     },
     "D2CommandsFriendsResponseRejectedInvite": {
         "Key": "D2CommandsFriendsResponseRejectedInvite",
@@ -677,7 +761,8 @@
         "zhCN": "已拒绝来自%s的好友请求。",
         "zhTW": "拒絕%s的好友邀請。",
         "sgCN": "已拒绝来自%s的好友请求。",
-        "sgTW": "拒絕%s的好友邀請。"
+        "sgTW": "拒絕%s的好友邀請。",
+        "bnCN": "已拒绝来自%s的好友请求。"
     },
     "D2CommandsFriendsFailedToRejectInvite": {
         "Key": "D2CommandsFriendsFailedToRejectInvite",
@@ -685,7 +770,8 @@
         "zhCN": "拒绝来自%s的好友请求失败。",
         "zhTW": "無法拒絕%s的好友邀請。",
         "sgCN": "拒绝来自%s的好友请求失败。",
-        "sgTW": "無法拒絕%s的好友邀請。"
+        "sgTW": "無法拒絕%s的好友邀請。",
+        "bnCN": "拒绝来自%s的好友请求失败。"
     },
     "D2CommandsFriendsResponseRemove": {
         "Key": "D2CommandsFriendsResponseRemove",
@@ -693,7 +779,8 @@
         "zhCN": "已移除好友%s。",
         "zhTW": "移除好友%s。",
         "sgCN": "已移除好友%s。",
-        "sgTW": "移除好友%s。"
+        "sgTW": "移除好友%s。",
+        "bnCN": "已移除好友%s。"
     },
     "D2CommandsFriendsResponseRemoveFailed": {
         "Key": "D2CommandsFriendsResponseRemoveFailed",
@@ -701,7 +788,8 @@
         "zhCN": "未能成功移除好友%s。",
         "zhTW": "無法移除好友%s。",
         "sgCN": "未能成功移除好友%s。",
-        "sgTW": "無法移除好友%s。"
+        "sgTW": "無法移除好友%s。",
+        "bnCN": "未能成功移除好友%s。"
     },
     "D2CommandsBug": {
         "Key": "D2CommandsBug",
@@ -709,7 +797,8 @@
         "zhCN": "bug",
         "zhTW": "錯誤",
         "sgCN": "bug",
-        "sgTW": "錯誤"
+        "sgTW": "錯誤",
+        "bnCN": "bug"
     },
     "D2CommandsBugDescription": {
         "Key": "D2CommandsBugDescription",
@@ -717,7 +806,8 @@
         "zhCN": "提交bug或反馈。",
         "zhTW": "回報錯誤或意見。",
         "sgCN": "提交bug或反馈。",
-        "sgTW": "回報錯誤或意見。"
+        "sgTW": "回報錯誤或意見。",
+        "bnCN": "提交bug或反馈。"
     },
     "D2CommandsIgnore": {
         "Key": "D2CommandsIgnore",
@@ -725,7 +815,8 @@
         "zhCN": "屏蔽",
         "zhTW": "忽略",
         "sgCN": "屏蔽",
-        "sgTW": "忽略"
+        "sgTW": "忽略",
+        "bnCN": "屏蔽"
     },
     "D2CommandsIgnoreDescription": {
         "Key": "D2CommandsIgnoreDescription",
@@ -733,7 +824,8 @@
         "zhCN": "屏蔽来自一位玩家的所有沟通信息。",
         "zhTW": "忽略特定玩家的所有訊息。",
         "sgCN": "屏蔽来自一位玩家的所有沟通信息。",
-        "sgTW": "忽略特定玩家的所有訊息。"
+        "sgTW": "忽略特定玩家的所有訊息。",
+        "bnCN": "屏蔽来自一位玩家的所有沟通信息。"
     },
     "D2CommandsUnignore": {
         "Key": "D2CommandsUnignore",
@@ -741,7 +833,8 @@
         "zhCN": "取消屏蔽",
         "zhTW": "取消忽略",
         "sgCN": "取消屏蔽",
-        "sgTW": "取消忽略"
+        "sgTW": "取消忽略",
+        "bnCN": "取消屏蔽"
     },
     "D2CommandsUnignoreDescription": {
         "Key": "D2CommandsUnignoreDescription",
@@ -749,7 +842,8 @@
         "zhCN": "将玩家移出你的屏蔽列表。",
         "zhTW": "將一名玩家從你的忽略名單上移除。",
         "sgCN": "将玩家移出你的屏蔽列表。",
-        "sgTW": "將一名玩家從你的忽略名單上移除。"
+        "sgTW": "將一名玩家從你的忽略名單上移除。",
+        "bnCN": "将玩家移出你的屏蔽列表。"
     },
     "D2CommandsWhoAmI": {
         "Key": "D2CommandsWhoAmI",
@@ -757,7 +851,8 @@
         "zhCN": "我是谁",
         "zhTW": "我是誰",
         "sgCN": "我是谁",
-        "sgTW": "我是誰"
+        "sgTW": "我是誰",
+        "bnCN": "我是谁"
     },
     "D2CommandsWhoAmIDescription": {
         "Key": "D2CommandsWhoAmIDescription",
@@ -765,7 +860,8 @@
         "zhCN": "显示你的账号信息。",
         "zhTW": "顯示你的帳號資訊",
         "sgCN": "显示你的账号信息。",
-        "sgTW": "顯示你的帳號資訊"
+        "sgTW": "顯示你的帳號資訊",
+        "bnCN": "显示你的账号信息。"
     },
     "D2CommandsWhoIs": {
         "Key": "D2CommandsWhoIs",
@@ -773,7 +869,8 @@
         "zhCN": "是何人",
         "zhTW": "誰是",
         "sgCN": "是何人",
-        "sgTW": "誰是"
+        "sgTW": "誰是",
+        "bnCN": "是何人"
     },
     "D2CommandsWhoIsDescription": {
         "Key": "D2CommandsWhoIsDescription",
@@ -781,7 +878,8 @@
         "zhCN": "显示指定玩家的更多信息。",
         "zhTW": "顯示指定玩家的詳細資訊",
         "sgCN": "显示指定玩家的更多信息。",
-        "sgTW": "顯示指定玩家的詳細資訊"
+        "sgTW": "顯示指定玩家的詳細資訊",
+        "bnCN": "显示指定玩家的更多信息。"
     },
     "D2CommandsReply": {
         "Key": "D2CommandsReply",
@@ -789,7 +887,8 @@
         "zhCN": "回复",
         "zhTW": "回覆",
         "sgCN": "回复",
-        "sgTW": "回覆"
+        "sgTW": "回覆",
+        "bnCN": "回复"
     },
     "D2CommandsReplyDescription": {
         "Key": "D2CommandsReplyDescription",
@@ -797,7 +896,8 @@
         "zhCN": "对最近一个向你发消息的玩家发送消息",
         "zhTW": "回覆訊息給傳過訊息給你的人。",
         "sgCN": "对最近一个向你发消息的玩家发送消息",
-        "sgTW": "回覆訊息給傳過訊息給你的人。"
+        "sgTW": "回覆訊息給傳過訊息給你的人。",
+        "bnCN": "对最近一个向你发消息的玩家发送消息"
     },
     "D2CommandsNoPickUp": {
         "Key": "D2CommandsNoPickUp",
@@ -805,7 +905,8 @@
         "zhCN": "无拾取",
         "zhTW": "撿拾物品",
         "sgCN": "无拾取",
-        "sgTW": "撿拾物品"
+        "sgTW": "撿拾物品",
+        "bnCN": "无拾取"
     },
     "D2CommandsNoPickUpDescription": {
         "Key": "D2CommandsNoPickUpDescription",
@@ -813,7 +914,8 @@
         "zhCN": "切换你是否能拾取物品。",
         "zhTW": "切換是否撿拾物品。",
         "sgCN": "切换你是否能拾取物品。",
-        "sgTW": "切換是否撿拾物品。"
+        "sgTW": "切換是否撿拾物品。",
+        "bnCN": "切换你是否能拾取物品。"
     },
     "D2CommandsPlayers": {
         "Key": "D2CommandsPlayers",
@@ -821,7 +923,8 @@
         "zhCN": "玩家",
         "zhTW": "玩家",
         "sgCN": "玩家",
-        "sgTW": "玩家"
+        "sgTW": "玩家",
+        "bnCN": "玩家"
     },
     "D2CommandsPlayersDescription": {
         "Key": "D2CommandsPlayersDescription",
@@ -829,7 +932,8 @@
         "zhCN": "模拟有更多的玩家在游戏中，以此增加掉落和困难度。",
         "zhTW": "在遊戲中模擬更多玩家以增加掉落物和難度。",
         "sgCN": "模拟有更多的玩家在游戏中，以此增加掉落和困难度。",
-        "sgTW": "在遊戲中模擬更多玩家以增加掉落物和難度。"
+        "sgTW": "在遊戲中模擬更多玩家以增加掉落物和難度。",
+        "bnCN": "模拟有更多的玩家在游戏中，以此增加掉落和困难度。"
     },
     "D2CommandsUsers": {
         "Key": "D2CommandsUsers",
@@ -837,7 +941,8 @@
         "zhCN": "用户",
         "zhTW": "使用者",
         "sgCN": "用户",
-        "sgTW": "使用者"
+        "sgTW": "使用者",
+        "bnCN": "用户"
     },
     "D2CommandsUsersDescription": {
         "Key": "D2CommandsUsersDescription",
@@ -845,7 +950,8 @@
         "zhCN": "显示用户和游戏的数量。",
         "zhTW": "顯示使用者和遊戲的數量。",
         "sgCN": "显示用户和游戏的数量。",
-        "sgTW": "顯示使用者和遊戲的數量。"
+        "sgTW": "顯示使用者和遊戲的數量。",
+        "bnCN": "显示用户和游戏的数量。"
     },
     "D2CommandsResign": {
         "Key": "D2CommandsResign",
@@ -853,7 +959,8 @@
         "zhCN": "辞任",
         "zhTW": "辭退",
         "sgCN": "辞任",
-        "sgTW": "辭退"
+        "sgTW": "辭退",
+        "bnCN": "辞任"
     },
     "D2CommandsResignDescription": {
         "Key": "D2CommandsResignDescription",
@@ -861,7 +968,8 @@
         "zhCN": "放弃担任私人频道的管理员。",
         "zhTW": "辭退私人頻道管理員的身分。",
         "sgCN": "放弃担任私人频道的管理员。",
-        "sgTW": "辭退私人頻道管理員的身分。"
+        "sgTW": "辭退私人頻道管理員的身分。",
+        "bnCN": "放弃担任私人频道的管理员。"
     },
     "D2CommandsIgnoreResponsePlayerAlreadyIgnored": {
         "Key": "D2CommandsIgnoreResponsePlayerAlreadyIgnored",
@@ -869,7 +977,8 @@
         "zhCN": "该玩家已经被屏蔽。",
         "zhTW": "此玩家已被封鎖。",
         "sgCN": "该玩家已经被屏蔽。",
-        "sgTW": "此玩家已被封鎖。"
+        "sgTW": "此玩家已被封鎖。",
+        "bnCN": "该玩家已经被屏蔽。"
     },
     "D2CommandsIgnoreResponsePlayerNotIgnored": {
         "Key": "D2CommandsIgnoreResponsePlayerNotIgnored",
@@ -877,7 +986,8 @@
         "zhCN": "该玩家未被屏蔽。",
         "zhTW": "此玩家沒有被封鎖。",
         "sgCN": "该玩家未被屏蔽。",
-        "sgTW": "此玩家沒有被封鎖。"
+        "sgTW": "此玩家沒有被封鎖。",
+        "bnCN": "该玩家未被屏蔽。"
     },
     "D2CommandsWhoAmIResponse": {
         "Key": "D2CommandsWhoAmIResponse",
@@ -885,7 +995,8 @@
         "zhCN": "你是%s (%s)。",
         "zhTW": "你是%s（%s）。",
         "sgCN": "你是%s (%s)。",
-        "sgTW": "你是%s（%s）。"
+        "sgTW": "你是%s（%s）。",
+        "bnCN": "你是%s (%s)。"
     },
     "D2CommandsResponseAmbiguousUser": {
         "Key": "D2CommandsResponseAmbiguousUser",
@@ -893,7 +1004,8 @@
         "zhCN": "有多名用户匹配名称, %s。请使用一个完整的战网昵称。",
         "zhTW": "符合使用者名稱「%s」的結果不只一個，請使用完整 BattleTag。",
         "sgCN": "有多名用户匹配名称, %s。请使用一个完整的战网昵称。",
-        "sgTW": "符合使用者名稱「%s」的結果不只一個，請使用完整 BattleTag。"
+        "sgTW": "符合使用者名稱「%s」的結果不只一個，請使用完整 BattleTag。",
+        "bnCN": "有多名用户匹配名称, %s。请使用一个完整的战网昵称。"
     },
     "D2CommandsResponseNoUser": {
         "Key": "D2CommandsResponseNoUser",
@@ -901,7 +1013,8 @@
         "zhCN": "没有用户符合提供的信息。请指定一个玩家名称或战网昵称。",
         "zhTW": "找不到符合的使用者，請輸入完整使用者名稱或 BattleTag。",
         "sgCN": "没有用户符合提供的信息。请指定一个玩家名称或战网昵称。",
-        "sgTW": "找不到符合的使用者，請輸入完整使用者名稱或 BattleTag。"
+        "sgTW": "找不到符合的使用者，請輸入完整使用者名稱或 BattleTag。",
+        "bnCN": "没有用户符合提供的信息。请指定一个玩家名称或战网昵称。"
     },
     "D2CommandsResponseD2NotifyEnabled": {
         "Key": "D2CommandsResponseD2NotifyEnabled",
@@ -909,7 +1022,8 @@
         "zhCN": "玩家进入或离开时的通知已开启。",
         "zhTW": "啟用玩家進入或離開的提示訊息。",
         "sgCN": "玩家进入或离开时的通知已开启。",
-        "sgTW": "啟用玩家進入或離開的提示訊息。"
+        "sgTW": "啟用玩家進入或離開的提示訊息。",
+        "bnCN": "玩家进入或离开时的通知已开启。"
     },
     "D2CommandsResponseD2NotifyDisabled": {
         "Key": "D2CommandsResponseD2NotifyDisabled",
@@ -917,7 +1031,8 @@
         "zhCN": "玩家进入或离开时的通知已关闭。",
         "zhTW": "關閉玩家進入或離開的提示訊息。",
         "sgCN": "玩家进入或离开时的通知已关闭。",
-        "sgTW": "關閉玩家進入或離開的提示訊息。"
+        "sgTW": "關閉玩家進入或離開的提示訊息。",
+        "bnCN": "玩家进入或离开时的通知已关闭。"
     },
     "D2CommandChannelDescription": {
         "Key": "D2CommandChannelDescription",
@@ -925,7 +1040,8 @@
         "zhCN": "进入或使用指定名称创建一个公开频道。",
         "zhTW": "進入或創建指定名稱的公開頻道。",
         "sgCN": "进入或使用指定名称创建一个公开频道。",
-        "sgTW": "進入或創建指定名稱的公開頻道。"
+        "sgTW": "進入或創建指定名稱的公開頻道。",
+        "bnCN": "进入或使用指定名称创建一个公开频道。"
     },
     "D2CommandDesignateDescription": {
         "Key": "D2CommandDesignateDescription",
@@ -933,7 +1049,8 @@
         "zhCN": "指定另一名玩家成为私人频道的管理员。 ",
         "zhTW": "指定另一位玩家為私人頻道的管理員。",
         "sgCN": "指定另一名玩家成为私人频道的管理员。 ",
-        "sgTW": "指定另一位玩家為私人頻道的管理員。"
+        "sgTW": "指定另一位玩家為私人頻道的管理員。",
+        "bnCN": "指定另一名玩家成为私人频道的管理员。 "
     },
     "D2CommandFriendsDescription": {
         "Key": "D2CommandFriendsDescription",
@@ -941,7 +1058,8 @@
         "zhCN": "与你的战网好友互动。",
         "zhTW": "和 Battle.net 好友互動。",
         "sgCN": "与你的战网好友互动。",
-        "sgTW": "和 Battle.net 好友互動。"
+        "sgTW": "和 Battle.net 好友互動。",
+        "bnCN": "与你的战网好友互动。"
     },
     "D2CommandFriendsAcceptDescription": {
         "Key": "D2CommandFriendsAcceptDescription",
@@ -949,7 +1067,8 @@
         "zhCN": "接受来自另一名玩家的战网好友请求。使用/好友 列表 接收 命令可以看到所有尚未处理的请求列表。",
         "zhTW": "接受另一位 Battle.net 玩家的好友邀請。使用 /好友 列表 收到 指令即可檢視尚未回覆的好友邀請。",
         "sgCN": "接受来自另一名玩家的战网好友请求。使用/好友 列表 接收 命令可以看到所有尚未处理的请求列表。",
-        "sgTW": "接受另一位 Battle.net 玩家的好友邀請。使用 /好友 列表 收到 指令即可檢視尚未回覆的好友邀請。"
+        "sgTW": "接受另一位 Battle.net 玩家的好友邀請。使用 /好友 列表 收到 指令即可檢視尚未回覆的好友邀請。",
+        "bnCN": "接受来自另一名玩家的战网好友请求。使用/好友 列表 接收 命令可以看到所有尚未处理的请求列表。"
     },
     "D2CommandFriendsRejectDescription": {
         "Key": "D2CommandFriendsRejectDescription",
@@ -957,7 +1076,8 @@
         "zhCN": "拒绝来自另一名玩家的战网好友请求。使用/好友 列表 接收 命令可以看到所有尚未处理的请求列表。",
         "zhTW": "拒絕另一位 Battle.net 玩家的好友邀請。使用 /好友 列表 收到 指令即可檢視尚未回覆的好友邀請。",
         "sgCN": "拒绝来自另一名玩家的战网好友请求。使用/好友 列表 接收 命令可以看到所有尚未处理的请求列表。",
-        "sgTW": "拒絕另一位 Battle.net 玩家的好友邀請。使用 /好友 列表 收到 指令即可檢視尚未回覆的好友邀請。"
+        "sgTW": "拒絕另一位 Battle.net 玩家的好友邀請。使用 /好友 列表 收到 指令即可檢視尚未回覆的好友邀請。",
+        "bnCN": "拒绝来自另一名玩家的战网好友请求。使用/好友 列表 接收 命令可以看到所有尚未处理的请求列表。"
     },
     "D2CommandFriendsRevokeDescription": {
         "Key": "D2CommandFriendsRevokeDescription",
@@ -965,7 +1085,8 @@
         "zhCN": "撤退一条尚未处理的好友请求。",
         "zhTW": "撤回未回覆的好友邀請。",
         "sgCN": "撤退一条尚未处理的好友请求。",
-        "sgTW": "撤回未回覆的好友邀請。"
+        "sgTW": "撤回未回覆的好友邀請。",
+        "bnCN": "撤回发向另一名玩家的战网好友请求。使用/好友 列表 发送 命令可以看到所有好友请求。"
     },
     "D2CommandFriendsListSentDescription": {
         "Key": "D2CommandFriendsListSentDescription",
@@ -973,7 +1094,8 @@
         "zhCN": "列出你发出的所有战网好友请求。",
         "zhTW": "列出所有送出的 Battle.net 好友邀請。",
         "sgCN": "列出你发出的所有战网好友请求。",
-        "sgTW": "列出所有送出的 Battle.net 好友邀請。"
+        "sgTW": "列出所有送出的 Battle.net 好友邀請。",
+        "bnCN": "列出你发出的所有战网好友请求。"
     },
     "D2CommandFriendsListReceivedDescription": {
         "Key": "D2CommandFriendsListReceivedDescription",
@@ -981,7 +1103,8 @@
         "zhCN": "列出你收到的所有战网好友请求。",
         "zhTW": "列出所有收到的 Battle.net 好友邀請。",
         "sgCN": "列出你收到的所有战网好友请求。",
-        "sgTW": "列出所有收到的 Battle.net 好友邀請。"
+        "sgTW": "列出所有收到的 Battle.net 好友邀請。",
+        "bnCN": "列出你收到的所有战网好友请求。"
     },
     "D2CommandInviteDescription": {
         "Key": "D2CommandInviteDescription",
@@ -989,7 +1112,8 @@
         "zhCN": "邀请另一名玩家加入此频道。",
         "zhTW": "邀請另一位玩家加入這個頻道。",
         "sgCN": "邀请另一名玩家加入此频道。",
-        "sgTW": "邀請另一位玩家加入這個頻道。"
+        "sgTW": "邀請另一位玩家加入這個頻道。",
+        "bnCN": "邀请另一名玩家加入此频道。"
     },
     "D2CommandKickDescription": {
         "Key": "D2CommandKickDescription",
@@ -997,7 +1121,8 @@
         "zhCN": "从一个私人频道中移除一名玩家。",
         "zhTW": "從私人頻道移除一位玩家。",
         "sgCN": "从一个私人频道中移除一名玩家。",
-        "sgTW": "從私人頻道移除一位玩家。"
+        "sgTW": "從私人頻道移除一位玩家。",
+        "bnCN": "从一个私人频道中移除一名玩家。"
     },
     "D2CommandLeaveDescription": {
         "Key": "D2CommandLeaveDescription",
@@ -1005,7 +1130,8 @@
         "zhCN": "离开当前频道或指定的频道。",
         "zhTW": "離開目前這個頻道或指定頻道。",
         "sgCN": "离开当前频道或指定的频道。",
-        "sgTW": "離開目前這個頻道或指定頻道。"
+        "sgTW": "離開目前這個頻道或指定頻道。",
+        "bnCN": "离开当前频道或指定的频道。"
     },
     "D2CommandMessageDescription": {
         "Key": "D2CommandMessageDescription",
@@ -1013,7 +1139,8 @@
         "zhCN": "向另一名玩家发出私人信息。",
         "zhTW": "發送私人訊息給另一位玩家。",
         "sgCN": "向另一名玩家发出私人信息。",
-        "sgTW": "發送私人訊息給另一位玩家。"
+        "sgTW": "發送私人訊息給另一位玩家。",
+        "bnCN": "向另一名玩家发出私人信息。"
     },
     "D2CommandsPrivateDescription": {
         "Key": "D2CommandsPrivateDescription",
@@ -1021,7 +1148,8 @@
         "zhCN": "使用指定名称创建一个私人频道。",
         "zhTW": "創建指定名稱的私人頻道。",
         "sgCN": "使用指定名称创建一个私人频道。",
-        "sgTW": "創建指定名稱的私人頻道。"
+        "sgTW": "創建指定名稱的私人頻道。",
+        "bnCN": "使用指定名称创建一个私人频道。"
     },
     "D2CommandsWhoDescription": {
         "Key": "D2CommandsWhoDescription",
@@ -1029,7 +1157,8 @@
         "zhCN": "列出此频道中的玩家。",
         "zhTW": "列出這個頻道的玩家。",
         "sgCN": "列出此频道中的玩家。",
-        "sgTW": "列出這個頻道的玩家。"
+        "sgTW": "列出這個頻道的玩家。",
+        "bnCN": "列出此频道中的玩家。"
     },
     "D2CommandsResponseIgnorePublic": {
         "Key": "D2CommandsResponseIgnorePublic",
@@ -1037,7 +1166,8 @@
         "zhCN": "屏蔽公开频道的所有信息。",
         "zhTW": "開始忽略公開頻道訊息。",
         "sgCN": "屏蔽公开频道的所有信息。",
-        "sgTW": "開始忽略公開頻道訊息。"
+        "sgTW": "開始忽略公開頻道訊息。",
+        "bnCN": "屏蔽公开频道的所有信息。"
     },
     "D2CommandsResponseIgnorePrivate": {
         "Key": "D2CommandsResponseIgnorePrivate",
@@ -1045,7 +1175,8 @@
         "zhCN": "屏蔽私人频道的所有信息。",
         "zhTW": "開始忽略私人頻道訊息。",
         "sgCN": "屏蔽私人频道的所有信息。",
-        "sgTW": "開始忽略私人頻道訊息。"
+        "sgTW": "開始忽略私人頻道訊息。",
+        "bnCN": "屏蔽私人频道的所有信息。"
     },
     "D2CommandsResponseIgnoreWhisper": {
         "Key": "D2CommandsResponseIgnoreWhisper",
@@ -1053,7 +1184,8 @@
         "zhCN": "屏蔽所有密语信息。",
         "zhTW": "開始忽略悄悄話密語訊息。",
         "sgCN": "屏蔽所有密语信息。",
-        "sgTW": "開始忽略悄悄話密語訊息。"
+        "sgTW": "開始忽略悄悄話密語訊息。",
+        "bnCN": "屏蔽所有密语信息。"
     },
     "D2CommandsResponseUnignorePublic": {
         "Key": "D2CommandsResponseUnignorePublic",
@@ -1061,7 +1193,8 @@
         "zhCN": "不再屏蔽公开频道的所有信息。",
         "zhTW": "停止忽略公開頻道訊息。",
         "sgCN": "不再屏蔽公开频道的所有信息。",
-        "sgTW": "停止忽略公開頻道訊息。"
+        "sgTW": "停止忽略公開頻道訊息。",
+        "bnCN": "不再屏蔽公开频道的所有信息。"
     },
     "D2CommandsResponseUnignorePrivate": {
         "Key": "D2CommandsResponseUnignorePrivate",
@@ -1069,7 +1202,8 @@
         "zhCN": "不再屏蔽私人频道的所有信息。",
         "zhTW": "停止忽略私人頻道訊息。",
         "sgCN": "不再屏蔽私人频道的所有信息。",
-        "sgTW": "停止忽略私人頻道訊息。"
+        "sgTW": "停止忽略私人頻道訊息。",
+        "bnCN": "不再屏蔽私人频道的所有信息。"
     },
     "D2CommandsResponseUnignoreWhisper": {
         "Key": "D2CommandsResponseUnignoreWhisper",
@@ -1077,7 +1211,8 @@
         "zhCN": "不再屏蔽所有密语信息。",
         "zhTW": "停止忽略悄悄話密語訊息。",
         "sgCN": "不再屏蔽所有密语信息。",
-        "sgTW": "停止忽略悄悄話密語訊息。"
+        "sgTW": "停止忽略悄悄話密語訊息。",
+        "bnCN": "不再屏蔽所有密语信息。"
     },
     "D2CommandsChannelListDescription": {
         "Key": "D2CommandsChannelListDescription",
@@ -1085,7 +1220,8 @@
         "zhCN": "列出你当前已经加入的所有频道。",
         "zhTW": "列出你目前加入的所有頻道。",
         "sgCN": "列出你当前已经加入的所有频道。",
-        "sgTW": "列出你目前加入的所有頻道。"
+        "sgTW": "列出你目前加入的所有頻道。",
+        "bnCN": "列出你当前已经加入的所有频道。"
     },
     "D2CommandChannelListSentDescription": {
         "Key": "D2CommandChannelListSentDescription",
@@ -1093,7 +1229,8 @@
         "zhCN": "列出你所发送的所有频道邀请。",
         "zhTW": "列出你發出的所有頻道邀請。",
         "sgCN": "列出你所发送的所有频道邀请。",
-        "sgTW": "列出你發出的所有頻道邀請。"
+        "sgTW": "列出你發出的所有頻道邀請。",
+        "bnCN": "列出你所发送的所有频道邀请。"
     },
     "D2CommandChannelListReceivedDescription": {
         "Key": "D2CommandChannelListReceivedDescription",
@@ -1101,7 +1238,8 @@
         "zhCN": "列出你所收到的所有频道邀请。",
         "zhTW": "列出你收到的所有頻道邀請。",
         "sgCN": "列出你所收到的所有频道邀请。",
-        "sgTW": "列出你收到的所有頻道邀請。"
+        "sgTW": "列出你收到的所有頻道邀請。",
+        "bnCN": "列出你所收到的所有频道邀请。"
     },
     "D2CommandChannelAcceptDescription": {
         "Key": "D2CommandChannelAcceptDescription",
@@ -1109,7 +1247,8 @@
         "zhCN": "接受一个频道的邀请。",
         "zhTW": "接受加入頻道的邀請。",
         "sgCN": "接受一个频道的邀请。",
-        "sgTW": "接受加入頻道的邀請。"
+        "sgTW": "接受加入頻道的邀請。",
+        "bnCN": "接受一个频道的邀请。"
     },
     "D2CommandChannelRejectDescription": {
         "Key": "D2CommandChannelRejectDescription",
@@ -1117,7 +1256,8 @@
         "zhCN": "拒绝一个频道的邀请。",
         "zhTW": "拒絕加入頻道的邀請。",
         "sgCN": "拒绝一个频道的邀请。",
-        "sgTW": "拒絕加入頻道的邀請。"
+        "sgTW": "拒絕加入頻道的邀請。",
+        "bnCN": "拒绝一个频道的邀请。"
     },
     "D2CommandChannelResponseListChannels": {
         "Key": "D2CommandChannelResponseListChannels",
@@ -1125,7 +1265,8 @@
         "zhCN": "已激活的频道：",
         "zhTW": "可用頻道：",
         "sgCN": "已激活的频道：",
-        "sgTW": "可用頻道："
+        "sgTW": "可用頻道：",
+        "bnCN": "已激活的频道："
     },
     "D2CommandChannelResponseListReceivedInvites": {
         "Key": "D2CommandChannelResponseListReceivedInvites",
@@ -1133,7 +1274,8 @@
         "zhCN": "收到的频道邀请：",
         "zhTW": "收到的頻道邀請：",
         "sgCN": "收到的频道邀请：",
-        "sgTW": "收到的頻道邀請："
+        "sgTW": "收到的頻道邀請：",
+        "bnCN": "收到的频道邀请："
     },
     "D2CommandChannelResponseListSentInvites": {
         "Key": "D2CommandChannelResponseListSentInvites",
@@ -1141,7 +1283,8 @@
         "zhCN": "发送的频道邀请：",
         "zhTW": "送出的頻道邀請：",
         "sgCN": "发送的频道邀请：",
-        "sgTW": "送出的頻道邀請："
+        "sgTW": "送出的頻道邀請：",
+        "bnCN": "发送的频道邀请："
     },
     "D2CommandChannelTypePublic": {
         "Key": "D2CommandChannelTypePublic",
@@ -1149,7 +1292,8 @@
         "zhCN": "公开",
         "zhTW": "公開",
         "sgCN": "公开",
-        "sgTW": "公開"
+        "sgTW": "公開",
+        "bnCN": "公开"
     },
     "D2CommandChannelTypePrivate": {
         "Key": "D2CommandChannelTypePrivate",
@@ -1157,7 +1301,8 @@
         "zhCN": "私人",
         "zhTW": "私人",
         "sgCN": "私人",
-        "sgTW": "私人"
+        "sgTW": "私人",
+        "bnCN": "私人"
     },
     "D2CommandChannelTypeDefault": {
         "Key": "D2CommandChannelTypeDefault",
@@ -1165,7 +1310,8 @@
         "zhCN": "默认",
         "zhTW": "預設",
         "sgCN": "默认",
-        "sgTW": "預設"
+        "sgTW": "預設",
+        "bnCN": "默认"
     },
     "D2CommandChannelResponseNoReceivedInvites": {
         "Key": "D2CommandChannelResponseNoReceivedInvites",
@@ -1173,7 +1319,8 @@
         "zhCN": "你没有收到任何的频道邀请。",
         "zhTW": "你並未收到任何頻道邀請。",
         "sgCN": "你没有收到任何的频道邀请。",
-        "sgTW": "你並未收到任何頻道邀請。"
+        "sgTW": "你並未收到任何頻道邀請。",
+        "bnCN": "你没有收到任何的频道邀请。"
     },
     "D2CommandChannelResponseCantFindInvite": {
         "Key": "D2CommandChannelResponseCantFindInvite",
@@ -1181,7 +1328,8 @@
         "zhCN": "无法找到与邀请ID对应的频道邀请。请使用/频道 列表 接收 命令查看你收到的所有频道邀请列表，并输入相对应的邀请ID。",
         "zhTW": "找不到符合該ID的頻道邀請。使用 /頻道 列表 收到 指令即可檢視收到的頻道邀請，然後輸入對應的邀請ID。",
         "sgCN": "无法找到与邀请ID对应的频道邀请。请使用/频道 列表 接收 命令查看你收到的所有频道邀请列表，并输入相对应的邀请ID。",
-        "sgTW": "找不到符合該ID的頻道邀請。使用 /頻道 列表 收到 指令即可檢視收到的頻道邀請，然後輸入對應的邀請ID。"
+        "sgTW": "找不到符合該ID的頻道邀請。使用 /頻道 列表 收到 指令即可檢視收到的頻道邀請，然後輸入對應的邀請ID。",
+        "bnCN": "无法找到与邀请ID对应的频道邀请。请使用/频道 列表 接收 命令查看你收到的所有频道邀请列表，并输入相对应的邀请ID。"
     },
     "D2CommandChannelResponseCantKickNoPermissions": {
         "Key": "D2CommandChannelResponseCantKickNoPermissions",
@@ -1189,7 +1337,8 @@
         "zhCN": "只有频道管理员可以将玩家从私人频道中踢出。",
         "zhTW": "只有頻道管理員能從私人頻道移除玩家。",
         "sgCN": "只有频道管理员可以将玩家从私人频道中踢出。",
-        "sgTW": "只有頻道管理員能從私人頻道移除玩家。"
+        "sgTW": "只有頻道管理員能從私人頻道移除玩家。",
+        "bnCN": "只有频道管理员可以将玩家从私人频道中踢出。"
     },
     "D2CommandChannelResponseInviteReceived": {
         "Key": "D2CommandChannelResponseInviteReceived",
@@ -1197,7 +1346,8 @@
         "zhCN": "%s邀请你加入一个%s频道：%s",
         "zhTW": "%s邀請你加入%s頻道：%s",
         "sgCN": "%s邀请你加入一个%s频道：%s",
-        "sgTW": "%s邀請你加入%s頻道：%s"
+        "sgTW": "%s邀請你加入%s頻道：%s",
+        "bnCN": "%s邀请你加入一个%s频道：%s"
     },
     "D2CommandResponseNoReply": {
         "Key": "D2CommandResponseNoReply",
@@ -1205,7 +1355,8 @@
         "zhCN": "非有效的回复接收人",
         "zhTW": "不是正確的訊息回覆對象。",
         "sgCN": "非有效的回复接收人",
-        "sgTW": "不是正確的訊息回覆對象。"
+        "sgTW": "不是正確的訊息回覆對象。",
+        "bnCN": "非有效的回复接收人"
     },
     "D2CommandChannelHelp": {
         "Key": "D2CommandChannelHelp",
@@ -1213,7 +1364,8 @@
         "zhCN": "与其他玩家互动，比如加入、创建或邀请进入聊天频道。",
         "zhTW": "加入、建立和邀請其他玩家到聊天頻道，和他們互相交流。",
         "sgCN": "与其他玩家互动，比如加入、创建或邀请进入聊天频道。",
-        "sgTW": "加入、建立和邀請其他玩家到聊天頻道，和他們互相交流。"
+        "sgTW": "加入、建立和邀請其他玩家到聊天頻道，和他們互相交流。",
+        "bnCN": "与其他玩家互动，比如加入、创建或邀请进入聊天频道。"
     },
     "D2CommandsOffline": {
         "Key": "D2CommandsOffline",
@@ -1221,7 +1373,8 @@
         "zhCN": "离线",
         "zhTW": "離線",
         "sgCN": "离线",
-        "sgTW": "離線"
+        "sgTW": "離線",
+        "bnCN": "离线"
     },
     "D2CommandsOfflineDescription": {
         "Key": "D2CommandsOfflineDescription",
@@ -1229,7 +1382,8 @@
         "zhCN": "将你的在线状态设置为离线",
         "zhTW": "將你的狀態設為離線",
         "sgCN": "将你的在线状态设置为离线",
-        "sgTW": "將你的狀態設為離線"
+        "sgTW": "將你的狀態設為離線",
+        "bnCN": "将你的在线状态设置为离线"
     },
     "D2CommandChannelResponsePlayerKicked": {
         "Key": "D2CommandChannelResponsePlayerKicked",
@@ -1237,7 +1391,8 @@
         "zhCN": "%s已被踢出了%s频道。",
         "zhTW": "%s被踢出%s頻道。",
         "sgCN": "%s已被踢出了%s频道。",
-        "sgTW": "%s被踢出%s頻道。"
+        "sgTW": "%s被踢出%s頻道。",
+        "bnCN": "%s已被踢出了%s频道。"
     },
     "D2CommandChannelResponsePlayerKickFailed": {
         "Key": "D2CommandChannelResponsePlayerKickFailed",
@@ -1245,7 +1400,8 @@
         "zhCN": "无法将%s踢出%s频道。",
         "zhTW": "無法將%s踢出%s頻道。",
         "sgCN": "无法将%s踢出%s频道。",
-        "sgTW": "無法將%s踢出%s頻道。"
+        "sgTW": "無法將%s踢出%s頻道。",
+        "bnCN": "无法将%s踢出%s频道。"
     },
     "D2CommandChannelResponseDesignateSuccess": {
         "Key": "D2CommandChannelResponseDesignateSuccess",
@@ -1253,7 +1409,8 @@
         "zhCN": "你已将%s指定为%s频道的管理员。",
         "zhTW": "你指定%s成為%s頻道的管理員。",
         "sgCN": "你已将%s指定为%s频道的管理员。",
-        "sgTW": "你指定%s成為%s頻道的管理員。"
+        "sgTW": "你指定%s成為%s頻道的管理員。",
+        "bnCN": "你已将%s指定为%s频道的管理员。"
     },
     "D2CommandChannelResponseDesignateFailed": {
         "Key": "D2CommandChannelResponseDesignateFailed",
@@ -1261,7 +1418,8 @@
         "zhCN": "无法将%s指定为%s频道的管理员。",
         "zhTW": "無法指定%s成為%s頻道的管理員。",
         "sgCN": "无法将%s指定为%s频道的管理员。",
-        "sgTW": "無法指定%s成為%s頻道的管理員。"
+        "sgTW": "無法指定%s成為%s頻道的管理員。",
+        "bnCN": "无法将%s指定为%s频道的管理员。"
     },
     "D2CommandChannelResponseRejectSuccess": {
         "Key": "D2CommandChannelResponseRejectSuccess",
@@ -1269,7 +1427,8 @@
         "zhCN": "你拒绝了%s频道的邀请 (来自%s)。",
         "zhTW": "你拒絕加入%s頻道（來自%s的邀請）。",
         "sgCN": "你拒绝了%s频道的邀请 (来自%s)。",
-        "sgTW": "你拒絕加入%s頻道（來自%s的邀請）。"
+        "sgTW": "你拒絕加入%s頻道（來自%s的邀請）。",
+        "bnCN": "你拒绝了%s频道的邀请 (来自%s)。"
     },
     "D2CommandChannelResponseRejectFailed": {
         "Key": "D2CommandChannelResponseRejectFailed",
@@ -1277,7 +1436,8 @@
         "zhCN": "无法拒绝%s频道的邀请 (来自%s)。",
         "zhTW": "無法拒絕加入%s頻道（來自%s的邀請）。",
         "sgCN": "无法拒绝%s频道的邀请 (来自%s)。",
-        "sgTW": "無法拒絕加入%s頻道（來自%s的邀請）。"
+        "sgTW": "無法拒絕加入%s頻道（來自%s的邀請）。",
+        "bnCN": "无法拒绝%s频道的邀请 (来自%s)。"
     },
     "D2CommandChannelResponseAcceptSuccess": {
         "Key": "D2CommandChannelResponseAcceptSuccess",
@@ -1285,7 +1445,8 @@
         "zhCN": "你接受了%s频道的邀请 (来自%s)。",
         "zhTW": "你接受加入%s頻道（來自%s的邀請）。",
         "sgCN": "你接受了%s频道的邀请 (来自%s)。",
-        "sgTW": "你接受加入%s頻道（來自%s的邀請）。"
+        "sgTW": "你接受加入%s頻道（來自%s的邀請）。",
+        "bnCN": "你接受了%s频道的邀请 (来自%s)。"
     },
     "D2CommandChannelResponseAcceptFailed": {
         "Key": "D2CommandChannelResponseAcceptFailed",
@@ -1293,7 +1454,8 @@
         "zhCN": "无法接受%s频道的邀请 (来自%s)。",
         "zhTW": "無法接受加入%s頻道。（來自%s的邀請）。",
         "sgCN": "无法接受%s频道的邀请 (来自%s)。",
-        "sgTW": "無法接受加入%s頻道。（來自%s的邀請）。"
+        "sgTW": "無法接受加入%s頻道。（來自%s的邀請）。",
+        "bnCN": "无法接受%s频道的邀请 (来自%s)。"
     },
     "D2CommandChannelResponseInviteSuccess": {
         "Key": "D2CommandChannelResponseInviteSuccess",
@@ -1301,7 +1463,8 @@
         "zhCN": "你邀请%s加入%s频道。",
         "zhTW": "你邀請%s加入%s頻道。",
         "sgCN": "你邀请%s加入%s频道。",
-        "sgTW": "你邀請%s加入%s頻道。"
+        "sgTW": "你邀請%s加入%s頻道。",
+        "bnCN": "你邀请%s加入%s频道。"
     },
     "D2CommandChannelResponseInviteFailed": {
         "Key": "D2CommandChannelResponseInviteFailed",
@@ -1309,7 +1472,8 @@
         "zhCN": "无法邀请%s加入%s频道。",
         "zhTW": "無法邀請%s加入%s頻道。",
         "sgCN": "无法邀请%s加入%s频道。",
-        "sgTW": "無法邀請%s加入%s頻道。"
+        "sgTW": "無法邀請%s加入%s頻道。",
+        "bnCN": "无法邀请%s加入%s频道。"
     },
     "D2CommandChannelResponseDesignateFailedNoPermissions": {
         "Key": "D2CommandChannelResponseDesignateFailedNoPermissions",
@@ -1317,7 +1481,8 @@
         "zhCN": "在私人频道中只有频道管理员可以指定新的管理员。",
         "zhTW": "只有頻道管理員可以為私人頻道指定新的管理員。",
         "sgCN": "在私人频道中只有频道管理员可以指定新的管理员。",
-        "sgTW": "只有頻道管理員可以為私人頻道指定新的管理員。"
+        "sgTW": "只有頻道管理員可以為私人頻道指定新的管理員。",
+        "bnCN": "在私人频道中只有频道管理员可以指定新的管理员。"
     },
     "D2CommandChannelResponseNewModerator": {
         "Key": "D2CommandChannelResponseNewModerator",
@@ -1325,7 +1490,8 @@
         "zhCN": "%s成为了%s频道的管理员。",
         "zhTW": "%s現在是%s頻道的管理員。",
         "sgCN": "%s成为了%s频道的管理员。",
-        "sgTW": "%s現在是%s頻道的管理員。"
+        "sgTW": "%s現在是%s頻道的管理員。",
+        "bnCN": "%s成为了%s频道的管理员。"
     },
     "D2CommandChannelResponseBadChannelName": {
         "Key": "D2CommandChannelResponseBadChannelName",
@@ -1333,7 +1499,8 @@
         "zhCN": "无效的频道名称。",
         "zhTW": "錯誤的頻道名稱。",
         "sgCN": "无效的频道名称。",
-        "sgTW": "錯誤的頻道名稱。"
+        "sgTW": "錯誤的頻道名稱。",
+        "bnCN": "无效的频道名称。"
     },
     "D2CommandsGameInviteSuccess": {
         "Key": "D2CommandsGameInviteSuccess",
@@ -1341,7 +1508,8 @@
         "zhCN": "你邀请了%s加入游戏。",
         "zhTW": "你邀請%s加入遊戲。",
         "sgCN": "你邀请了%s加入游戏。",
-        "sgTW": "你邀請%s加入遊戲。"
+        "sgTW": "你邀請%s加入遊戲。",
+        "bnCN": "你邀请了%s加入游戏。"
     },
     "D2CommandsGameInviteFailure": {
         "Key": "D2CommandsGameInviteFailure",
@@ -1349,7 +1517,8 @@
         "zhCN": "邀请%s加入游戏失败。",
         "zhTW": "你無法邀請%s加入遊戲。",
         "sgCN": "邀请%s加入游戏失败。",
-        "sgTW": "你無法邀請%s加入遊戲。"
+        "sgTW": "你無法邀請%s加入遊戲。",
+        "bnCN": "邀请%s加入游戏失败。"
     },
     "D2CommandsResponseSetPresenceSuccess": {
         "Key": "D2CommandsResponseSetPresenceSuccess",
@@ -1357,7 +1526,8 @@
         "zhCN": "已将你的在线状态设置为%s。",
         "zhTW": "你的線上狀態設為%s。",
         "sgCN": "已将你的在线状态设置为%s。",
-        "sgTW": "你的線上狀態設為%s。"
+        "sgTW": "你的線上狀態設為%s。",
+        "bnCN": "已将你的在线状态设置为%s。"
     },
     "D2CommandsResponseSetPresenceFailed": {
         "Key": "D2CommandsResponseSetPresenceFailed",
@@ -1365,7 +1535,8 @@
         "zhCN": "无法将你的在线状态设置为%s。",
         "zhTW": "無法將你的線上狀態設為%s。",
         "sgCN": "无法将你的在线状态设置为%s。",
-        "sgTW": "無法將你的線上狀態設為%s。"
+        "sgTW": "無法將你的線上狀態設為%s。",
+        "bnCN": "无法将你的在线状态设置为%s。"
     },
     "D2CommandsResponseSetPresenceAlreadySet": {
         "Key": "D2CommandsResponseSetPresenceAlreadySet",
@@ -1373,7 +1544,8 @@
         "zhCN": "你的在线状态已经设置为%s。",
         "zhTW": "你的線上狀態已經設為%s。",
         "sgCN": "你的在线状态已经设置为%s。",
-        "sgTW": "你的線上狀態已經設為%s。"
+        "sgTW": "你的線上狀態已經設為%s。",
+        "bnCN": "你的在线状态已经设置为%s。"
     },
     "D2CommandsResponsePickupEnabled": {
         "Key": "D2CommandsResponsePickupEnabled",
@@ -1381,7 +1553,8 @@
         "zhCN": "物品拾取已启用",
         "zhTW": "已開啟物品撿拾",
         "sgCN": "物品拾取已启用",
-        "sgTW": "已開啟物品撿拾"
+        "sgTW": "已開啟物品撿拾",
+        "bnCN": "物品拾取已启用"
     },
     "D2CommandsResponsePickupDisabled": {
         "Key": "D2CommandsResponsePickupDisabled",
@@ -1389,7 +1562,8 @@
         "zhCN": "物品拾取已禁用",
         "zhTW": "已關閉物品撿拾",
         "sgCN": "物品拾取已禁用",
-        "sgTW": "已關閉物品撿拾"
+        "sgTW": "已關閉物品撿拾",
+        "bnCN": "物品拾取已禁用"
     },
     "UnknownLeaderboardName": {
         "Key": "UnknownLeaderboardName",
@@ -1397,7 +1571,8 @@
         "zhCN": "",
         "zhTW": " ",
         "sgCN": "",
-        "sgTW": " "
+        "sgTW": " ",
+        "bnCN": ""
     },
     "strFraudWarning": {
         "Key": "strFraudWarning",
@@ -1405,7 +1580,8 @@
         "zhCN": "此账号目前正在审核过程中，聊天功能暂时无法使用。请等待几小时，重新启动应用程序后再进行尝试。在此期间，此账号仍可正常进行游戏。",
         "zhTW": "這個帳號正在接受審查，因此暫時無法使用聊天功能。請在數小時後重新啟動應用程式，然後再試一次。在這段期間，這個帳號依然可以進行遊戲。",
         "sgCN": "此账号目前正在审核过程中，聊天功能暂时无法使用。请等待几小时，重新启动应用程序后再进行尝试。在此期间，此账号仍可正常进行游戏。",
-        "sgTW": "這個帳號正在接受審查，因此暫時無法使用聊天功能。請在數小時後重新啟動應用程式，然後再試一次。在這段期間，這個帳號依然可以進行遊戲。"
+        "sgTW": "這個帳號正在接受審查，因此暫時無法使用聊天功能。請在數小時後重新啟動應用程式，然後再試一次。在這段期間，這個帳號依然可以進行遊戲。",
+        "bnCN": "此账号目前正在审核过程中，聊天功能暂时无法使用。请等待几小时，重新启动应用程序后再进行尝试。在此期间，此账号仍可正常进行游戏。"
     },
     "D2CommandsFriendsResponseRevokedInvite": {
         "Key": "D2CommandsFriendsResponseRevokedInvite",
@@ -1413,7 +1589,8 @@
         "zhCN": "好友请求已撤回。",
         "zhTW": "已撤回好友邀請。",
         "sgCN": "好友请求已撤回。",
-        "sgTW": "已撤回好友邀請。"
+        "sgTW": "已撤回好友邀請。",
+        "bnCN": "好友请求已撤回。"
     },
     "D2CommandsFriendsFailedToRevokeInvite": {
         "Key": "D2CommandsFriendsFailedToRevokeInvite",
@@ -1421,7 +1598,8 @@
         "zhCN": "无法撤回好友请求。",
         "zhTW": "無法撤回好友邀請。",
         "sgCN": "无法撤回好友请求。",
-        "sgTW": "無法撤回好友邀請。"
+        "sgTW": "無法撤回好友邀請。",
+        "bnCN": "无法撤回好友请求。"
     },
     "D2CommandsTimeDisplay": {
         "Key": "D2CommandsTimeDisplay",
@@ -1429,7 +1607,8 @@
         "zhCN": "本地时间：%s\n服务器时间：%s",
         "zhTW": "本地時間：%s\n伺服器時間：%s",
         "sgCN": "本地时间：%s\n服务器时间：%s",
-        "sgTW": "本地時間：%s\n伺服器時間：%s"
+        "sgTW": "本地時間：%s\n伺服器時間：%s",
+        "bnCN": "本地时间：%s\n服务器时间：%s"
     },
     "D2CommandsLadder": {
         "Key": "D2CommandsLadder",
@@ -1437,7 +1616,8 @@
         "zhCN": "天梯",
         "zhTW": "天梯",
         "sgCN": "天梯",
-        "sgTW": "天梯"
+        "sgTW": "天梯",
+        "bnCN": "天梯"
     },
     "D2CommandsLadderSeasonOnly": {
         "Key": "D2CommandsLadderSeasonOnly",
@@ -1445,7 +1625,8 @@
         "zhCN": "当前天梯赛季为第%d赛季。",
         "zhTW": "目前是天梯賽季 %d。",
         "sgCN": "当前天梯赛季为第%d赛季。",
-        "sgTW": "目前是天梯賽季 %d。"
+        "sgTW": "目前是天梯賽季 %d。",
+        "bnCN": "当前天梯赛季为第%d赛季。"
     },
     "D2CommandsLadderSeasonAndDate": {
         "Key": "D2CommandsLadderSeasonAndDate",
@@ -1453,7 +1634,8 @@
         "zhCN": "第%d赛季将于%s结束。",
         "zhTW": "賽季 %d 將於 %s 結束。",
         "sgCN": "第%d赛季将于%s结束。",
-        "sgTW": "賽季 %d 將於 %s 結束。"
+        "sgTW": "賽季 %d 將於 %s 結束。",
+        "bnCN": "第%d赛季将于%s结束。"
     },
     "D2CommandsLadderNoSeason": {
         "Key": "D2CommandsLadderNoSeason",
@@ -1461,7 +1643,8 @@
         "zhCN": "尚无进行中的天梯赛季。",
         "zhTW": "沒有進行中的天梯賽季。",
         "sgCN": "尚无进行中的天梯赛季。",
-        "sgTW": "沒有進行中的天梯賽季。"
+        "sgTW": "沒有進行中的天梯賽季。",
+        "bnCN": "尚无进行中的天梯赛季。"
     },
     "D2CommandsLadderUpcomingSeason": {
         "Key": "D2CommandsLadderUpcomingSeason",
@@ -1469,7 +1652,8 @@
         "zhCN": "下一赛季将于%s开始。",
         "zhTW": "下個賽季將會於 %s 開始。",
         "sgCN": "下一赛季将于%s开始。",
-        "sgTW": "下個賽季將會於 %s 開始。"
+        "sgTW": "下個賽季將會於 %s 開始。",
+        "bnCN": "下一赛季将于%s开始。"
     },
     "D2CommandsLadderDescription": {
         "Key": "D2CommandsLadderDescription",
@@ -1477,7 +1661,8 @@
         "zhCN": "显示当前赛季是否已有确定的结束时间。",
         "zhTW": "顯示當前賽季。若已知道結束時間，同時也會顯示出來。",
         "sgCN": "显示当前赛季是否已有确定的结束时间。",
-        "sgTW": "顯示當前賽季。若已知道結束時間，同時也會顯示出來。"
+        "sgTW": "顯示當前賽季。若已知道結束時間，同時也會顯示出來。",
+        "bnCN": "显示当前赛季是否已有确定的结束时间。"
     },
     "D2CommandsDateHelper": {
         "Key": "D2CommandsDateHelper",
@@ -1485,7 +1670,8 @@
         "zhCN": "%Y/%m/%d %I:%M%p",
         "zhTW": "%Y/%m/%d %I:%M %p",
         "sgCN": "%Y/%m/%d %I:%M%p",
-        "sgTW": "%Y/%m/%d %I:%M %p"
+        "sgTW": "%Y/%m/%d %I:%M %p",
+        "bnCN": "%Y/%m/%d %I:%M%p"
     },
     "D2CommandsUberDiablo": {
         "Key": "D2CommandsUberDiablo",
@@ -1493,7 +1679,8 @@
         "zhCN": "超级迪亚波罗",
         "zhTW": "超級迪亞布羅",
         "sgCN": "超级迪亚波罗",
-        "sgTW": "超級迪亞布羅"
+        "sgTW": "超級迪亞布羅",
+        "bnCN": "超级迪亚波罗"
     },
     "D2CommandsUberDiabloDescription": {
         "Key": "D2CommandsUberDiabloDescription",
@@ -1501,7 +1688,8 @@
         "zhCN": "显示超级迪亚波罗即将在该游戏类型中登场的当前进度。",
         "zhTW": "於當前進行的遊戲模式中，顯示超級迪亞布羅目前的生成進度。",
         "sgCN": "显示超级迪亚波罗即将在该游戏类型中登场的当前进度。",
-        "sgTW": "於當前進行的遊戲模式中，顯示超級迪亞布羅目前的生成進度。"
+        "sgTW": "於當前進行的遊戲模式中，顯示超級迪亞布羅目前的生成進度。",
+        "bnCN": "显示超级迪亚波罗即将在该游戏类型中登场的当前进度。"
     },
     "D2CommandsDesecrated": {
         "Key": "D2CommandsDesecrated",
@@ -1509,7 +1697,8 @@
         "zhCN": "恐惧区域",
         "zhTW": "邪惡威脅",
         "sgCN": "恐惧区域",
-        "sgTW": "邪惡威脅"
+        "sgTW": "邪惡威脅",
+        "bnCN": "恐惧区域"
     },
     "D2CommandsDesecratedDescription": {
         "Key": "D2CommandsDesecratedDescription",
@@ -1517,7 +1706,8 @@
         "zhCN": "显示当前被恐惧的关卡。",
         "zhTW": "顯示當前受到邪惡威脅的區域。",
         "sgCN": "显示当前被恐惧的关卡。",
-        "sgTW": "顯示當前受到邪惡威脅的區域。"
+        "sgTW": "顯示當前受到邪惡威脅的區域。",
+        "bnCN": "显示当前被恐惧的关卡。"
     },
     "D2CommandsDesecratedOnline": {
         "Key": "D2CommandsDesecratedOnline",
@@ -1525,7 +1715,8 @@
         "zhCN": "在线",
         "zhTW": "線上",
         "sgCN": "在线",
-        "sgTW": "線上"
+        "sgTW": "線上",
+        "bnCN": "在线"
     },
     "D2CommandsDesecratedOnlineDescription": {
         "Key": "D2CommandsDesecratedOnlineDescription",
@@ -1533,7 +1724,8 @@
         "zhCN": "显示当前被恐惧的在线关卡。",
         "zhTW": "顯示當前受到邪惡威脅的線上區域。",
         "sgCN": "显示当前被恐惧的在线关卡。",
-        "sgTW": "顯示當前受到邪惡威脅的線上區域。"
+        "sgTW": "顯示當前受到邪惡威脅的線上區域。",
+        "bnCN": "显示当前被恐惧的在线关卡。"
     },
     "D2CommandsDesecratedOffline": {
         "Key": "D2CommandsDesecratedOffline",
@@ -1541,7 +1733,8 @@
         "zhCN": "离线",
         "zhTW": "離線",
         "sgCN": "离线",
-        "sgTW": "離線"
+        "sgTW": "離線",
+        "bnCN": "离线"
     },
     "D2CommandsDesecratedOfflineDescription": {
         "Key": "D2CommandsDesecratedOfflineDescription",
@@ -1549,7 +1742,8 @@
         "zhCN": "显示当前被恐惧的离线关卡。",
         "zhTW": "顯示當前受到邪惡威脅的離線區域。",
         "sgCN": "显示当前被恐惧的离线关卡。",
-        "sgTW": "顯示當前受到邪惡威脅的離線區域。"
+        "sgTW": "顯示當前受到邪惡威脅的離線區域。",
+        "bnCN": "显示当前被恐惧的离线关卡。"
     },
     "D2CommandsHelp": {
         "Key": "D2CommandsHelp",
@@ -1557,7 +1751,8 @@
         "zhCN": "帮助",
         "zhTW": "說明",
         "sgCN": "帮助",
-        "sgTW": "說明"
+        "sgTW": "說明",
+        "bnCN": "帮助"
     },
     "D2CommandsHelpText": {
         "Key": "D2CommandsHelpText",
@@ -1565,7 +1760,8 @@
         "zhCN": "输入 /%s话题 获取指定话题的信息。",
         "zhTW": "輸入 /%s 主題 以取得特定主題的相關資訊。",
         "sgCN": "输入 /%s话题 获取指定话题的信息。",
-        "sgTW": "輸入 /%s 主題 以取得特定主題的相關資訊。"
+        "sgTW": "輸入 /%s 主題 以取得特定主題的相關資訊。",
+        "bnCN": "输入 /%s话题 获取指定话题的信息。"
     },
     "D2CommandsHelpHelp": {
         "Key": "D2CommandsHelpHelp",
@@ -1573,7 +1769,8 @@
         "zhCN": "显示指定话题的帮助",
         "zhTW": "顯示特定主題的說明",
         "sgCN": "显示指定话题的帮助",
-        "sgTW": "顯示特定主題的說明"
+        "sgTW": "顯示特定主題的說明",
+        "bnCN": "显示指定话题的帮助"
     },
     "D2CommandsHelpExample": {
         "Key": "D2CommandsHelpExample",
@@ -1581,7 +1778,8 @@
         "zhCN": "举例：",
         "zhTW": "範例：",
         "sgCN": "举例：",
-        "sgTW": "範例："
+        "sgTW": "範例：",
+        "bnCN": "举例："
     },
     "D2CommandsHelpCommandsAre": {
         "Key": "D2CommandsHelpCommandsAre",
@@ -1589,7 +1787,8 @@
         "zhCN": "命令是：",
         "zhTW": "指令為：",
         "sgCN": "命令是：",
-        "sgTW": "指令為："
+        "sgTW": "指令為：",
+        "bnCN": "命令是："
     },
     "D2CommandsHelpParticularCommand": {
         "Key": "D2CommandsHelpParticularCommand",
@@ -1597,7 +1796,8 @@
         "zhCN": "获取某个具体命令的使用方法",
         "zhTW": "顯示特定指令的說明",
         "sgCN": "获取某个具体命令的使用方法",
-        "sgTW": "顯示特定指令的說明"
+        "sgTW": "顯示特定指令的說明",
+        "bnCN": "获取某个具体命令的使用方法"
     },
     "D2CommandsCommand": {
         "Key": "D2CommandsCommand",
@@ -1605,7 +1805,8 @@
         "zhCN": "命令",
         "zhTW": "指令",
         "sgCN": "命令",
-        "sgTW": "指令"
+        "sgTW": "指令",
+        "bnCN": "命令"
     },
     "DebugDisplayFPS": {
         "Key": "DebugDisplayFPS",
@@ -1613,7 +1814,8 @@
         "zhCN": "FPS: %d",
         "zhTW": "每秒幀數：%d",
         "sgCN": "FPS: %d",
-        "sgTW": "每秒幀數：%d"
+        "sgTW": "每秒幀數：%d",
+        "bnCN": "FPS: %d"
     },
     "DebugDisplayPing": {
         "Key": "DebugDisplayPing",
@@ -1621,7 +1823,8 @@
         "zhCN": "Ping: %d",
         "zhTW": "網路延遲：%d",
         "sgCN": "Ping: %d",
-        "sgTW": "網路延遲：%d"
+        "sgTW": "網路延遲：%d",
+        "bnCN": "Ping: %d"
     },
     "DebugDisplayPhysicalMemory": {
         "Key": "DebugDisplayPhysicalMemory",
@@ -1629,7 +1832,8 @@
         "zhCN": "Phys: %u / %u m",
         "zhTW": "實體記憶體：%u / %u m",
         "sgCN": "Phys: %u / %u m",
-        "sgTW": "實體記憶體：%u / %u m"
+        "sgTW": "實體記憶體：%u / %u m",
+        "bnCN": "Phys: %u / %u m"
     },
     "DebugDisplayMemoryPage": {
         "Key": "DebugDisplayMemoryPage",
@@ -1637,7 +1841,8 @@
         "zhCN": "Page: %u / %u m",
         "zhTW": "記憶體分頁：%u / %u m",
         "sgCN": "Page: %u / %u m",
-        "sgTW": "記憶體分頁：%u / %u m"
+        "sgTW": "記憶體分頁：%u / %u m",
+        "bnCN": "Page: %u / %u m"
     },
     "DebugDisplayVideo": {
         "Key": "DebugDisplayVideo",
@@ -1645,7 +1850,8 @@
         "zhCN": "Video: %s",
         "zhTW": "顯示設定：%s",
         "sgCN": "Video: %s",
-        "sgTW": "顯示設定：%s"
+        "sgTW": "顯示設定：%s",
+        "bnCN": "Video: %s"
     },
     "DebugDisplayGFXMemory": {
         "Key": "DebugDisplayGFXMemory",
@@ -1653,7 +1859,8 @@
         "zhCN": "GFX Memory -> %i",
         "zhTW": "GFX 記憶體 -> %i",
         "sgCN": "GFX Memory -> %i",
-        "sgTW": "GFX 記憶體 -> %i"
+        "sgTW": "GFX 記憶體 -> %i",
+        "bnCN": "GFX Memory -> %i"
     },
     "DebugDisplayCOFMemory": {
         "Key": "DebugDisplayCOFMemory",
@@ -1661,7 +1868,8 @@
         "zhCN": "COF Memory -> %i of %i",
         "zhTW": "COF 記憶體 -> %i / %i",
         "sgCN": "COF Memory -> %i of %i",
-        "sgTW": "COF 記憶體 -> %i / %i"
+        "sgTW": "COF 記憶體 -> %i / %i",
+        "bnCN": "COF Memory -> %i of %i"
     },
     "DebugDisplaySpriteCacheMemory": {
         "Key": "DebugDisplaySpriteCacheMemory",
@@ -1669,7 +1877,8 @@
         "zhCN": "Sprite Cache Memory -> %u of %u",
         "zhTW": "Sprite 暫存記憶體 -> %u / %u",
         "sgCN": "Sprite Cache Memory -> %u of %u",
-        "sgTW": "Sprite 暫存記憶體 -> %u / %u"
+        "sgTW": "Sprite 暫存記憶體 -> %u / %u",
+        "bnCN": "Sprite Cache Memory -> %u of %u"
     },
     "DebugDisplayCELDataCacheMemory": {
         "Key": "DebugDisplayCELDataCacheMemory",
@@ -1677,7 +1886,8 @@
         "zhCN": "CEL Data Cache Memory -> %u of %u",
         "zhTW": "CEL 資料暫存記憶體 -> %u / %u",
         "sgCN": "CEL Data Cache Memory -> %u of %u",
-        "sgTW": "CEL 資料暫存記憶體 -> %u / %u"
+        "sgTW": "CEL 資料暫存記憶體 -> %u / %u",
+        "bnCN": "CEL Data Cache Memory -> %u of %u"
     },
     "DebugDisplayTileCache": {
         "Key": "DebugDisplayTileCache",
@@ -1685,7 +1895,8 @@
         "zhCN": "Tile Cache: (%.2fK) %3.2f%%, Misses: %d, %d percent utilized",
         "zhTW": "Tile Cache：(%.2fK) %3.2f%%，丟失：%d，已利用百分之%d",
         "sgCN": "Tile Cache: (%.2fK) %3.2f%%, Misses: %d, %d percent utilized",
-        "sgTW": "Tile Cache：(%.2fK) %3.2f%%，丟失：%d，已利用百分之%d"
+        "sgTW": "Tile Cache：(%.2fK) %3.2f%%，丟失：%d，已利用百分之%d",
+        "bnCN": "Tile Cache: (%.2fK) %3.2f%%, Misses: %d, %d percent utilized"
     },
     "strSpamWarning": {
         "Key": "strSpamWarning",
@@ -1693,7 +1904,8 @@
         "zhCN": "请稍等片刻再发送新的消息。",
         "zhTW": "請稍待片刻，再發送其他訊息。",
         "sgCN": "请稍等片刻再发送新的消息。",
-        "sgTW": "請稍待片刻，再發送其他訊息。"
+        "sgTW": "請稍待片刻，再發送其他訊息。",
+        "bnCN": "请稍等片刻再发送新的消息。"
     },
     "D2CommandsChannelResponseCantInvite": {
         "Key": "D2CommandsChannelResponseCantInvite",
@@ -1701,7 +1913,8 @@
         "zhCN": "你不能邀请玩家加入该频道。",
         "zhTW": "你無法邀請玩家進入該頻道。",
         "sgCN": "你不能邀请玩家加入该频道。",
-        "sgTW": "你無法邀請玩家進入該頻道。"
+        "sgTW": "你無法邀請玩家進入該頻道。",
+        "bnCN": "你不能邀请玩家加入该频道。"
     },
     "D2CommandsFriendsNoInviteTo": {
         "Key": "D2CommandsFriendsNoInviteTo",
@@ -1709,6 +1922,7 @@
         "zhCN": "没有发送给%s的尚未处理的请求",
         "zhTW": "沒有發給%s的未回覆邀請。",
         "sgCN": "没有发送给%s的尚未处理的请求",
-        "sgTW": "沒有發給%s的未回覆邀請。"
+        "sgTW": "沒有發給%s的未回覆邀請。",
+        "bnCN": "没有发送给%s的尚未处理的请求"
     }
 }

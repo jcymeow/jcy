@@ -5,7 +5,8 @@
         "zhCN": "处于菜单页面",
         "zhTW": "在選單畫面",
         "sgCN": "处于菜单页面",
-        "sgTW": "在選單畫面"
+        "sgTW": "在選單畫面",
+        "bnCN": "处于菜单页面"
     },
     "presenceA1Normal": {
         "Key": "presenceA1Normal",
@@ -13,7 +14,8 @@
         "zhCN": "第一幕 - 普通",
         "zhTW": "第一章 - 普通",
         "sgCN": "第一幕 - 普通",
-        "sgTW": "第一章 - 普通"
+        "sgTW": "第一章 - 普通",
+        "bnCN": "第一幕 - 普通"
     },
     "presenceA2Normal": {
         "Key": "presenceA2Normal",
@@ -21,7 +23,8 @@
         "zhCN": "第二幕 - 普通",
         "zhTW": "第二章 - 普通",
         "sgCN": "第二幕 - 普通",
-        "sgTW": "第二章 - 普通"
+        "sgTW": "第二章 - 普通",
+        "bnCN": "第二幕 - 普通"
     },
     "presenceA3Normal": {
         "Key": "presenceA3Normal",
@@ -29,7 +32,8 @@
         "zhCN": "第三幕 - 普通",
         "zhTW": "第三章 - 普通",
         "sgCN": "第三幕 - 普通",
-        "sgTW": "第三章 - 普通"
+        "sgTW": "第三章 - 普通",
+        "bnCN": "第三幕 - 普通"
     },
     "presenceA4Normal": {
         "Key": "presenceA4Normal",
@@ -37,7 +41,8 @@
         "zhCN": "第四幕 - 普通",
         "zhTW": "第四章 - 普通",
         "sgCN": "第四幕 - 普通",
-        "sgTW": "第四章 - 普通"
+        "sgTW": "第四章 - 普通",
+        "bnCN": "第四幕 - 普通"
     },
     "presenceA5Normal": {
         "Key": "presenceA5Normal",
@@ -45,7 +50,8 @@
         "zhCN": "第五幕 - 普通",
         "zhTW": "第五章 - 普通",
         "sgCN": "第五幕 - 普通",
-        "sgTW": "第五章 - 普通"
+        "sgTW": "第五章 - 普通",
+        "bnCN": "第五幕 - 普通"
     },
     "presenceA1Nightmare": {
         "Key": "presenceA1Nightmare",
@@ -53,7 +59,8 @@
         "zhCN": "第一幕 - 噩梦",
         "zhTW": "第一章 - 惡夢",
         "sgCN": "第一幕 - 噩梦",
-        "sgTW": "第一章 - 惡夢"
+        "sgTW": "第一章 - 惡夢",
+        "bnCN": "第一幕 - 噩梦"
     },
     "presenceA2Nightmare": {
         "Key": "presenceA2Nightmare",
@@ -61,7 +68,8 @@
         "zhCN": "第二幕 - 噩梦",
         "zhTW": "第二章 - 惡夢",
         "sgCN": "第二幕 - 噩梦",
-        "sgTW": "第二章 - 惡夢"
+        "sgTW": "第二章 - 惡夢",
+        "bnCN": "第二幕 - 噩梦"
     },
     "presenceA3Nightmare": {
         "Key": "presenceA3Nightmare",
@@ -69,7 +77,8 @@
         "zhCN": "第三幕 - 噩梦",
         "zhTW": "第三章 - 惡夢",
         "sgCN": "第三幕 - 噩梦",
-        "sgTW": "第三章 - 惡夢"
+        "sgTW": "第三章 - 惡夢",
+        "bnCN": "第三幕 - 噩梦"
     },
     "presenceA4Nightmare": {
         "Key": "presenceA4Nightmare",
@@ -77,7 +86,8 @@
         "zhCN": "第四幕 - 噩梦",
         "zhTW": "第四章 - 惡夢",
         "sgCN": "第四幕 - 噩梦",
-        "sgTW": "第四章 - 惡夢"
+        "sgTW": "第四章 - 惡夢",
+        "bnCN": "第四幕 - 噩梦"
     },
     "presenceA5Nightmare": {
         "Key": "presenceA5Nightmare",
@@ -85,7 +95,8 @@
         "zhCN": "第五幕 - 噩梦",
         "zhTW": "第五章 - 惡夢",
         "sgCN": "第五幕 - 噩梦",
-        "sgTW": "第五章 - 惡夢"
+        "sgTW": "第五章 - 惡夢",
+        "bnCN": "第五幕 - 噩梦"
     },
     "presenceA1Hell": {
         "Key": "presenceA1Hell",
@@ -93,7 +104,8 @@
         "zhCN": "第一幕 - 地狱",
         "zhTW": "第一章 - 地獄",
         "sgCN": "第一幕 - 地狱",
-        "sgTW": "第一章 - 地獄"
+        "sgTW": "第一章 - 地獄",
+        "bnCN": "第一幕 - 地狱"
     },
     "presenceA2Hell": {
         "Key": "presenceA2Hell",
@@ -101,7 +113,8 @@
         "zhCN": "第二幕 - 地狱",
         "zhTW": "第二章 - 地獄",
         "sgCN": "第二幕 - 地狱",
-        "sgTW": "第二章 - 地獄"
+        "sgTW": "第二章 - 地獄",
+        "bnCN": "第二幕 - 地狱"
     },
     "presenceA3Hell": {
         "Key": "presenceA3Hell",
@@ -109,7 +122,8 @@
         "zhCN": "第三幕 - 地狱",
         "zhTW": "第三章 - 地獄",
         "sgCN": "第三幕 - 地狱",
-        "sgTW": "第三章 - 地獄"
+        "sgTW": "第三章 - 地獄",
+        "bnCN": "第三幕 - 地狱"
     },
     "presenceA4Hell": {
         "Key": "presenceA4Hell",
@@ -117,7 +131,8 @@
         "zhCN": "第四幕 - 地狱",
         "zhTW": "第四章 - 地獄",
         "sgCN": "第四幕 - 地狱",
-        "sgTW": "第四章 - 地獄"
+        "sgTW": "第四章 - 地獄",
+        "bnCN": "第四幕 - 地狱"
     },
     "presenceA5Hell": {
         "Key": "presenceA5Hell",
@@ -125,6 +140,7 @@
         "zhCN": "第五幕 - 地狱",
         "zhTW": "第五章 - 地獄",
         "sgCN": "第五幕 - 地狱",
-        "sgTW": "第五章 - 地獄"
+        "sgTW": "第五章 - 地獄",
+        "bnCN": "第五幕 - 地狱"
     }
 }
