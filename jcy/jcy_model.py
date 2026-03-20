@@ -21,7 +21,8 @@ class FeatureConfig:
                             "text": "网易国服-本地化",
                             "colspan": 100,
                             "params": {
-                                Language.ZHCN.value: "简中翻译",
+                                Language.ZHCN.value: "国服简中",
+                                Language.BNCN.value: "亚服简中",
                                 Language.SGCN.value: "松岗简体",
                                 Language.ENUS.value: "enUS",
                                 Language.ZHTW.value: "繁中翻译",
@@ -34,7 +35,8 @@ class FeatureConfig:
                             "text": "暴雪國際服-本地化",
                             "colspan": 100,
                             "params": {
-                                Language.ZHCN.value: "简中翻译",
+                                Language.ZHCN.value: "国服简中",
+                                Language.BNCN.value: "亚服简中",
                                 Language.SGCN.value: "松岗简体",
                                 Language.ENUS.value: "enUS",
                                 Language.ZHTW.value: "繁中翻译",
@@ -482,23 +484,14 @@ class FeatureConfig:
                             "fid": Function.BASE_EFFECTS.value,
                             "type": CHECK,
                             "text": "装备-底材特效",
-                            "colspan": 60,
+                            "colspan": 100,
                             "params": {
-                                "0": "底材阶级",
+                                "5": "底材阶级[¹²³]",
+                                "0": "底材阶级[普扩精]",
                                 "1": "底材重量",
                                 "2": "底材推荐孔数",
                                 "3": "防御底材MAX防御",
                                 "4": "附带英文",
-                            }
-                        },
-                        {
-                            "fid": Function.AFFIX_EFFECTS.value,
-                            "type": CHECK,
-                            "text": "装备-词缀特效",
-                            "colspan": 40,
-                            "params": {
-                                "1": "英文缩写",
-                                "2": "词缀着色"
                             }
                         },
                         {
@@ -564,6 +557,16 @@ class FeatureConfig:
                             "params": {
                                 "2": "标枪类-闪电枪",
                                 "3": "飞斧类-闪电拖尾"
+                            }
+                        },
+                        {
+                            "fid": Function.AFFIX_EFFECTS.value,
+                            "type": CHECK,
+                            "text": "装备-词缀特效",
+                            "colspan": 40,
+                            "params": {
+                                "1": "英文缩写",
+                                "2": "词缀着色"
                             }
                         },
                         {

@@ -996,20 +996,21 @@ class FileOperations:
                 entry = json_data[affix]
 
                 # 处理所有语言字段
-                for lang in ["enUS", "zhCN", "zhTW", "sgCN", "sgTW"]:
-                    if lang not in entry:
+                for lang in Language:
+                    lng = lang.value
+                    if lng not in entry:
                         continue
 
-                    text = entry[lang]
+                    text = entry[lng]
 
                     if radio == "1":
                         # 开启染色：如果没有颜色前缀就添加
                         if not text.startswith(color):
-                            entry[lang] = color + text
+                            entry[lng] = color + text
                     else:
                         # 关闭染色：如果有颜色前缀就移除
                         if text.startswith(color):
-                            entry[lang] = text[len(color):]
+                            entry[lng] = text[len(color):]
 
             # 写回文件
             with open(json_path, "w", encoding="utf-8") as f:
@@ -1785,6 +1786,7 @@ class FileOperations:
         base_sockets = "2" in base_dict
         base_defense = "3" in base_dict
         base_enus = "4" in base_dict
+        base_grade_n = "5" in base_dict
 
         unique_enus = "4" in unique_dict
         unique_max = "5" in unique_dict
@@ -1808,6 +1810,7 @@ class FileOperations:
             # 松岗简/繁体, 采用简/繁体数据
             for key, obj in data_dict.items():
                 obj[Language.SGCN.value] = obj[Language.ZHCN.value]
+                obj[Language.BNCN.value] = obj[Language.ZHCN.value]
                 obj[Language.SGTW.value] = obj[Language.ZHTW.value]
 
             # 结果集
@@ -1861,14 +1864,19 @@ class FileOperations:
                         lng = lang.value
                         arr = [item[lng]]
                         
+                        if base_grade_n:
+                            grade = data.get(lng, {}).get("grade")
+                            grade_n = grade_dict.get(grade)
+                            if grade_n:
+                                arr.append(f"{grade_n}")
                         if base_grade:
                             grade = data.get(lng, {}).get("grade")
                             if grade:
-                                arr.append(f"{grade}")
+                                arr.append(f"[{grade}]")
                         if base_weight:
                             weight = data.get(lng, {}).get("weight")
                             if weight:
-                                arr.append(f"|{weight}")
+                                arr.append(f"[{weight}]")
                         if base_sockets:
                             sockets = data.get(lng, {}).get("sockets")
                             if sockets:
@@ -1941,7 +1949,9 @@ class FileOperations:
             # 松岗简/繁体, 采用简/繁体数据
             for key, obj in data_dict.items():
                 obj[Language.SGCN.value] = obj[Language.ZHCN.value]
+                obj[Language.BNCN.value] = obj[Language.ZHCN.value]
                 obj[Language.SGTW.value] = obj[Language.ZHTW.value]
+
             
             # 结果集
             ext_json = {}
@@ -2884,7 +2894,7 @@ class FileOperations:
         # + data/global/ui/layouts/hudpanelbuttonshd.json
         total = len(LOCAL_FILES) -1 + 2
 
-        lng = jcy_config.SETTINGS.get(select_language, ZHTW)
+        lng = jcy_config.SETTINGS.get(select_language, Language.ZHTW.value)
 
         # 修改 本地化文件
         for _file in LOCAL_FILES:
@@ -2953,12 +2963,12 @@ class FileOperations:
 
     def modify_zhCN_language(self, radio: str):
         """网易国服-本地化"""
-        return self.modify_selected_language(ZHCN)
+        return self.modify_selected_language(Language.ZHCN.value)
 
 
     def modify_zhTW_language(self, radio: str):
         """国际服文字选择"""
-        return self.modify_selected_language(ZHTW)
+        return self.modify_selected_language(Language.ZHTW.value)
 
 
     def select_game_setting(self, keys: list):

@@ -13,17 +13,6 @@ ERROR_ALREADY_EXISTS = 183
 # 自定义消息ID(通知已有实例, restore窗口)
 WM_SHOW_WINDOW = 0x5000
 
-# 语言
-ENUS = 'enUS'
-ZHCN = 'zhCN'
-ZHCN2 = 'zhCN2'
-ZHTW = 'zhTW'
-ZHTW2 = 'zhTW2'
-ZHSGCN = "zhSGCN"
-ZHSGTW = "zhSGTW"
-
-LANGUAGES = [ZHCN2, ZHSGCN, ZHTW2, ZHSGTW, ENUS]
-
 # 控制器名称
 APP_NAME = "jcy控制器"
 
@@ -892,11 +881,21 @@ class Function(Enum):
 
 class Language(Enum):
     ZHCN = "zhCN"
-    ZHTW = "zhTW"
+    BNCN = "bnCN"
     SGCN = "sgCN"
+    ZHTW = "zhTW"
     SGTW = "sgTW"
     ENUS = "enUS"
 
+grade_dict = {
+    "Normal": "¹",
+    "Exceptional": "²",
+    "Elite": "³",
+    "普": "¹",
+    "扩": "²",
+    "擴": "²",
+    "精": "³",
+}
 
 class Operation(Enum):
     RESOTRE = 0
@@ -940,6 +939,7 @@ class JcyExt(Enum):
 __all__ = [
     'Function',
     'Language',
+    'grade_dict',
     'Operation',
     'Methods',
     'DefaultValue',
@@ -947,14 +947,6 @@ __all__ = [
     'MUTEX_NAME',
     'ERROR_ALREADY_EXISTS',
     'WM_SHOW_WINDOW',
-    'ZHCN',
-    'ZHCN2',
-    'ZHTW',
-    'ZHTW2',
-    'ZHSGCN',
-    'ZHSGTW',
-    'ENUS',
-    'LANGUAGES',
     'LOCAL_FILES',
     'APP_NAME',
     'APP_VERSION',

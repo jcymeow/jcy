@@ -41,7 +41,7 @@ def translate(text: str) -> str:
     if isinstance(text, str) and text.startswith('@'):
         key = text[1:]  # 去掉@
         _dict =  jcy_config.LOCAL_ORIGINAL_DICT.get(key, {})
-        return _dict.get(ZHTW, f"未知翻译({key})")
+        return _dict.get(Language.ZHTW.value, f"未知翻译({key})")
     return text
 
 class FeatureView:
