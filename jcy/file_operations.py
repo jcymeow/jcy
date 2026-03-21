@@ -1878,6 +1878,8 @@ class FileOperations:
         rune_enus = "4" in item_rune_setting1
         rune_logo = "5" in item_rune_setting1
         rune_upgrade = "6" in item_rune_setting1
+        rune_line = "7" in item_rune_setting1
+
         runeword_enus = "7" in item_rune_setting2
         runeword_max = "8" in item_rune_setting2
         runeword_mark = "9" in item_rune_setting2
@@ -1919,6 +1921,8 @@ class FileOperations:
                         item[lng] = item[lng].replace("{{rune}}", data.get(lng).get("rune")+("ÿc8" if rune_color else "ÿc5") if rune_enus else "")
                         item[lng] = item[lng].replace("{{logo}}", data.get(lng).get("logo") if rune_logo else "")
                         item[lng] = item[lng].replace("{{formula}}", data.get(lng).get("formula") if rune_upgrade else "")
+                        item[lng] = item[lng].replace("{{line}}", "\n" if rune_line else "")
+
 
                 elif re.match(_runeword, Key):
                     for lang in Language:

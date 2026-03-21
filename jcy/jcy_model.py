@@ -26,7 +26,7 @@ class FeatureConfig:
                                 Language.SGCN.value: "松岗简体",
                                 Language.ENUS.value: "enUS",
                                 Language.ZHTW.value: "繁中翻译",
-                                Language.SGTW.value: "松崗繁體"
+                                Language.SGTW.value: "松崗繁體",
                             }
                         },
                         {
@@ -40,7 +40,7 @@ class FeatureConfig:
                                 Language.SGCN.value: "松岗简体",
                                 Language.ENUS.value: "enUS",
                                 Language.ZHTW.value: "繁中翻译",
-                                Language.SGTW.value: "松崗繁體"
+                                Language.SGTW.value: "松崗繁體",
                             }
                         },
                         {
@@ -583,6 +583,7 @@ class FeatureConfig:
                                 "4": "附带英文",
                                 "5": "Logo",
                                 "6": "升级公式",
+                                "7": "大号加高",
                             }
                         },
                         

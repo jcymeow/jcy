@@ -7,7 +7,7 @@
         "zhCN": "ÿc8艾欧 ÿcIIoÿc8#16",
         "sgCN": "ÿc8艾欧 ÿcIIoÿc8#16",
         "sgTW": "ÿc8破 ÿcIIoÿc8#16",
-        "bnCN": "艾欧符文"
+        "bnCN": "ÿc8艾欧 ÿcIIoÿc8#16"
     },
     "r16L": {
         "id": 10903,
@@ -17,7 +17,7 @@
         "zhCN": "艾欧#16",
         "sgCN": "破#16",
         "sgTW": "破#16",
-        "bnCN": "艾欧"
+        "bnCN": "艾欧#16"
     },
     "r13": {
         "id": 10904,
@@ -27,7 +27,7 @@
         "zhCN": "ÿc8沙伊 ÿcIShaelÿc8#13",
         "sgCN": "ÿc8夏 ÿcIShaelÿc8#13",
         "sgTW": "ÿc8夏 ÿcIShaelÿc8#13",
-        "bnCN": "沙伊符文"
+        "bnCN": "ÿc8沙伊 ÿcIShaelÿc8#13"
     },
     "r13L": {
         "id": 10905,
@@ -37,17 +37,17 @@
         "zhCN": "沙伊#13",
         "sgCN": "夏#13",
         "sgTW": "夏#13",
-        "bnCN": "沙伊"
+        "bnCN": "沙伊#13"
     },
     "r31": {
         "id": 10906,
         "Key": "r31",
-        "enUS": "ÿc8Jahÿc8#31",
-        "zhTW": "ÿc8喬 ÿcIJahÿc8#31",
-        "zhCN": "ÿc8扎哈 ÿcIJahÿc8#31",
-        "sgCN": "ÿc8乔 ÿcIJahÿc8#31",
-        "sgTW": "ÿc8喬 ÿcIJahÿc8#31",
-        "bnCN": "扎哈符文"
+        "enUS": "\n\nÿc8Jahÿc8#31\n\n",
+        "zhTW": "\n\nÿc8喬 ÿcIJahÿc8#31\n\n",
+        "zhCN": "\n\nÿc8扎哈 ÿcIJahÿc8#31\n\n",
+        "sgCN": "\n\nÿc8乔 ÿcIJahÿc8#31\n\n",
+        "sgTW": "\n\nÿc8喬 ÿcIJahÿc8#31\n\n",
+        "bnCN": "\n\nÿc8扎哈 ÿcIJahÿc8#31\n\n"
     },
     "r31L": {
         "id": 10907,
@@ -57,7 +57,7 @@
         "zhCN": "扎哈#31",
         "sgCN": "乔#31",
         "sgTW": "喬#31",
-        "bnCN": "扎哈"
+        "bnCN": "扎哈#31"
     },
     "Runeword22": {
         "id": 10910,
@@ -72,112 +72,112 @@
     "r33": {
         "id": 20440,
         "Key": "r33",
-        "enUS": "ÿc8Zodÿc8#33",
-        "zhTW": "ÿc8薩德 ÿcIZodÿc8#33",
-        "zhCN": "ÿc8佐德 ÿcIZodÿc8#33",
-        "sgCN": "ÿc8萨德 ÿcIZodÿc8#33",
-        "sgTW": "ÿc8薩德 ÿcIZodÿc8#33",
-        "bnCN": "佐德符文"
+        "enUS": "\n\nÿc8Zodÿc8#33\n\n",
+        "zhTW": "\n\nÿc8薩德 ÿcIZodÿc8#33\n\n",
+        "zhCN": "\n\nÿc8佐德 ÿcIZodÿc8#33\n\n",
+        "sgCN": "\n\nÿc8萨德 ÿcIZodÿc8#33\n\n",
+        "sgTW": "\n\nÿc8薩德 ÿcIZodÿc8#33\n\n",
+        "bnCN": "\n\nÿc8佐德 ÿcIZodÿc8#33\n\n"
     },
     "r32": {
         "id": 20441,
         "Key": "r32",
-        "enUS": "ÿc8Chamÿc8#32",
-        "zhTW": "ÿc8查姆 ÿcIChamÿc8#32",
-        "zhCN": "ÿc8查姆 ÿcIChamÿc8#32",
-        "sgCN": "ÿc8查姆 ÿcIChamÿc8#32",
-        "sgTW": "ÿc8查姆 ÿcIChamÿc8#32",
-        "bnCN": "查姆符文"
+        "enUS": "\n\nÿc8Chamÿc8#32\n\n",
+        "zhTW": "\n\nÿc8查姆 ÿcIChamÿc8#32\n\n",
+        "zhCN": "\n\nÿc8查姆 ÿcIChamÿc8#32\n\n",
+        "sgCN": "\n\nÿc8查姆 ÿcIChamÿc8#32\n\n",
+        "sgTW": "\n\nÿc8查姆 ÿcIChamÿc8#32\n\n",
+        "bnCN": "\n\nÿc8查姆 ÿcIChamÿc8#32\n\n"
     },
     "r30": {
         "id": 20443,
         "Key": "r30",
-        "enUS": "ÿc8Berÿc8#30",
-        "zhTW": "ÿc8貝 ÿcIBerÿc8#30",
-        "zhCN": "ÿc8贝 ÿcIBerÿc8#30",
-        "sgCN": "ÿc8贝 ÿcIBerÿc8#30",
-        "sgTW": "ÿc8貝 ÿcIBerÿc8#30",
-        "bnCN": "贝符文"
+        "enUS": "\n\nÿc8Berÿc8#30\n\n",
+        "zhTW": "\n\nÿc8貝 ÿcIBerÿc8#30\n\n",
+        "zhCN": "\n\nÿc8贝 ÿcIBerÿc8#30\n\n",
+        "sgCN": "\n\nÿc8贝 ÿcIBerÿc8#30\n\n",
+        "sgTW": "\n\nÿc8貝 ÿcIBerÿc8#30\n\n",
+        "bnCN": "\n\nÿc8贝 ÿcIBerÿc8#30\n\n"
     },
     "r29": {
         "id": 20444,
         "Key": "r29",
-        "enUS": "ÿc8Surÿc8#29",
-        "zhTW": "ÿc8瑟 ÿcISurÿc8#29",
-        "zhCN": "ÿc8瑟 ÿcISurÿc8#29",
-        "sgCN": "ÿc8瑟 ÿcISurÿc8#29",
-        "sgTW": "ÿc8瑟 ÿcISurÿc8#29",
-        "bnCN": "瑟符文"
+        "enUS": "\n\nÿc8Surÿc8#29\n\n",
+        "zhTW": "\n\nÿc8瑟 ÿcISurÿc8#29\n\n",
+        "zhCN": "\n\nÿc8瑟 ÿcISurÿc8#29\n\n",
+        "sgCN": "\n\nÿc8瑟 ÿcISurÿc8#29\n\n",
+        "sgTW": "\n\nÿc8瑟 ÿcISurÿc8#29\n\n",
+        "bnCN": "\n\nÿc8瑟 ÿcISurÿc8#29\n\n"
     },
     "r28": {
         "id": 20445,
         "Key": "r28",
-        "enUS": "ÿc8Loÿc8#28",
-        "zhTW": "ÿc8羅 ÿcILoÿc8#28",
-        "zhCN": "ÿc8罗 ÿcILoÿc8#28",
-        "sgCN": "ÿc8罗 ÿcILoÿc8#28",
-        "sgTW": "ÿc8羅 ÿcILoÿc8#28",
-        "bnCN": "罗符文"
+        "enUS": "\n\nÿc8Loÿc8#28\n\n",
+        "zhTW": "\n\nÿc8羅 ÿcILoÿc8#28\n\n",
+        "zhCN": "\n\nÿc8罗 ÿcILoÿc8#28\n\n",
+        "sgCN": "\n\nÿc8罗 ÿcILoÿc8#28\n\n",
+        "sgTW": "\n\nÿc8羅 ÿcILoÿc8#28\n\n",
+        "bnCN": "\n\nÿc8罗 ÿcILoÿc8#28\n\n"
     },
     "r27": {
         "id": 20446,
         "Key": "r27",
-        "enUS": "ÿc8Ohmÿc8#27",
-        "zhTW": "ÿc8歐姆 ÿcIOhmÿc8#27",
-        "zhCN": "ÿc8欧姆 ÿcIOhmÿc8#27",
-        "sgCN": "ÿc8欧姆 ÿcIOhmÿc8#27",
-        "sgTW": "ÿc8歐姆 ÿcIOhmÿc8#27",
-        "bnCN": "欧姆符文"
+        "enUS": "\nÿc8Ohmÿc8#27\n",
+        "zhTW": "\nÿc8歐姆 ÿcIOhmÿc8#27\n",
+        "zhCN": "\nÿc8欧姆 ÿcIOhmÿc8#27\n",
+        "sgCN": "\nÿc8欧姆 ÿcIOhmÿc8#27\n",
+        "sgTW": "\nÿc8歐姆 ÿcIOhmÿc8#27\n",
+        "bnCN": "\nÿc8欧姆 ÿcIOhmÿc8#27\n"
     },
     "r26": {
         "id": 20447,
         "Key": "r26",
-        "enUS": "ÿc8Vexÿc8#26",
-        "zhTW": "ÿc8伐克斯 ÿcIVexÿc8#26",
-        "zhCN": "ÿc8伐克斯 ÿcIVexÿc8#26",
-        "sgCN": "ÿc8伐克斯 ÿcIVexÿc8#26",
-        "sgTW": "ÿc8伐克斯 ÿcIVexÿc8#26",
-        "bnCN": "伐克斯符文"
+        "enUS": "\nÿc8Vexÿc8#26\n",
+        "zhTW": "\nÿc8伐克斯 ÿcIVexÿc8#26\n",
+        "zhCN": "\nÿc8伐克斯 ÿcIVexÿc8#26\n",
+        "sgCN": "\nÿc8伐克斯 ÿcIVexÿc8#26\n",
+        "sgTW": "\nÿc8伐克斯 ÿcIVexÿc8#26\n",
+        "bnCN": "\nÿc8伐克斯 ÿcIVexÿc8#26\n"
     },
     "r25": {
         "id": 20448,
         "Key": "r25",
-        "enUS": "ÿc8Gulÿc8#25",
-        "zhTW": "ÿc8古爾 ÿcIGulÿc8#25",
-        "zhCN": "ÿc8古尔 ÿcIGulÿc8#25",
-        "sgCN": "ÿc8古尔 ÿcIGulÿc8#25",
-        "sgTW": "ÿc8古爾 ÿcIGulÿc8#25",
-        "bnCN": "古尔符文"
+        "enUS": "\nÿc8Gulÿc8#25\n",
+        "zhTW": "\nÿc8古爾 ÿcIGulÿc8#25\n",
+        "zhCN": "\nÿc8古尔 ÿcIGulÿc8#25\n",
+        "sgCN": "\nÿc8古尔 ÿcIGulÿc8#25\n",
+        "sgTW": "\nÿc8古爾 ÿcIGulÿc8#25\n",
+        "bnCN": "\nÿc8古尔 ÿcIGulÿc8#25\n"
     },
     "r24": {
         "id": 20449,
         "Key": "r24",
-        "enUS": "ÿc8Istÿc8#24",
-        "zhTW": "ÿc8伊司特 ÿcIIstÿc8#24",
-        "zhCN": "ÿc8伊司特 ÿcIIstÿc8#24",
-        "sgCN": "ÿc8伊司特 ÿcIIstÿc8#24",
-        "sgTW": "ÿc8伊司特 ÿcIIstÿc8#24",
-        "bnCN": "伊司特符文"
+        "enUS": "\nÿc8Istÿc8#24\n",
+        "zhTW": "\nÿc8伊司特 ÿcIIstÿc8#24\n",
+        "zhCN": "\nÿc8伊司特 ÿcIIstÿc8#24\n",
+        "sgCN": "\nÿc8伊司特 ÿcIIstÿc8#24\n",
+        "sgTW": "\nÿc8伊司特 ÿcIIstÿc8#24\n",
+        "bnCN": "\nÿc8伊司特 ÿcIIstÿc8#24\n"
     },
     "r23": {
         "id": 20450,
         "Key": "r23",
-        "enUS": "ÿc8Malÿc8#23",
-        "zhTW": "ÿc8馬爾 ÿcIMalÿc8#23",
-        "zhCN": "ÿc8玛尔 ÿcIMalÿc8#23",
-        "sgCN": "ÿc8马尔 ÿcIMalÿc8#23",
-        "sgTW": "ÿc8馬爾 ÿcIMalÿc8#23",
-        "bnCN": "玛尔符文"
+        "enUS": "\nÿc8Malÿc8#23\n",
+        "zhTW": "\nÿc8馬爾 ÿcIMalÿc8#23\n",
+        "zhCN": "\nÿc8玛尔 ÿcIMalÿc8#23\n",
+        "sgCN": "\nÿc8马尔 ÿcIMalÿc8#23\n",
+        "sgTW": "\nÿc8馬爾 ÿcIMalÿc8#23\n",
+        "bnCN": "\nÿc8玛尔 ÿcIMalÿc8#23\n"
     },
     "r22": {
         "id": 20451,
         "Key": "r22",
-        "enUS": "ÿc8Umÿc8#22",
-        "zhTW": "ÿc8烏姆 ÿcIUmÿc8#22",
-        "zhCN": "ÿc8乌姆 ÿcIUmÿc8#22",
-        "sgCN": "ÿc8乌姆 ÿcIUmÿc8#22",
-        "sgTW": "ÿc8烏姆 ÿcIUmÿc8#22",
-        "bnCN": "乌姆符文"
+        "enUS": "\nÿc8Umÿc8#22\n",
+        "zhTW": "\nÿc8烏姆 ÿcIUmÿc8#22\n",
+        "zhCN": "\nÿc8乌姆 ÿcIUmÿc8#22\n",
+        "sgCN": "\nÿc8乌姆 ÿcIUmÿc8#22\n",
+        "sgTW": "\nÿc8烏姆 ÿcIUmÿc8#22\n",
+        "bnCN": "\nÿc8乌姆 ÿcIUmÿc8#22\n"
     },
     "r21": {
         "id": 20452,
@@ -187,7 +187,7 @@
         "zhCN": "ÿc8普尔 ÿcIPulÿc8#21",
         "sgCN": "ÿc8普尔 ÿcIPulÿc8#21",
         "sgTW": "ÿc8普爾 ÿcIPulÿc8#21",
-        "bnCN": "普尔符文"
+        "bnCN": "ÿc8普尔 ÿcIPulÿc8#21"
     },
     "r20": {
         "id": 20453,
@@ -197,7 +197,7 @@
         "zhCN": "ÿc8兰姆 ÿcILemÿc8#20",
         "sgCN": "ÿc8蓝姆 ÿcILemÿc8#20",
         "sgTW": "ÿc8藍姆 ÿcILemÿc8#20",
-        "bnCN": "兰姆符文"
+        "bnCN": "ÿc8兰姆 ÿcILemÿc8#20"
     },
     "r19": {
         "id": 20454,
@@ -207,7 +207,7 @@
         "zhCN": "ÿc8法尔 ÿcIFalÿc8#19",
         "sgCN": "ÿc8法尔 ÿcIFalÿc8#19",
         "sgTW": "ÿc8法爾 ÿcIFalÿc8#19",
-        "bnCN": "法尔符文"
+        "bnCN": "ÿc8法尔 ÿcIFalÿc8#19"
     },
     "r18": {
         "id": 20455,
@@ -217,7 +217,7 @@
         "zhCN": "ÿc8科 ÿcIKoÿc8#18",
         "sgCN": "ÿc8科 ÿcIKoÿc8#18",
         "sgTW": "ÿc8科 ÿcIKoÿc8#18",
-        "bnCN": "科符文"
+        "bnCN": "ÿc8科 ÿcIKoÿc8#18"
     },
     "r17": {
         "id": 20456,
@@ -227,7 +227,7 @@
         "zhCN": "ÿc8卢姆 ÿcILumÿc8#17",
         "sgCN": "ÿc8卢姆 ÿcILumÿc8#17",
         "sgTW": "ÿc8盧姆 ÿcILumÿc8#17",
-        "bnCN": "卢姆符文"
+        "bnCN": "ÿc8卢姆 ÿcILumÿc8#17"
     },
     "r15": {
         "id": 20458,
@@ -237,7 +237,7 @@
         "zhCN": "ÿc8海尔 ÿcIHelÿc8#15",
         "sgCN": "ÿc8海尔 ÿcIHelÿc8#15",
         "sgTW": "ÿc8海爾 ÿcIHelÿc8#15",
-        "bnCN": "海尔符文"
+        "bnCN": "ÿc8海尔 ÿcIHelÿc8#15"
     },
     "r14": {
         "id": 20459,
@@ -247,7 +247,7 @@
         "zhCN": "ÿc8多尔 ÿcIDolÿc8#14",
         "sgCN": "ÿc8多尔 ÿcIDolÿc8#14",
         "sgTW": "ÿc8多爾 ÿcIDolÿc8#14",
-        "bnCN": "多尔符文"
+        "bnCN": "ÿc8多尔 ÿcIDolÿc8#14"
     },
     "r12": {
         "id": 20461,
@@ -257,7 +257,7 @@
         "zhCN": "ÿc8索尔 ÿcISolÿc8#12",
         "sgCN": "ÿc8索尔 ÿcISolÿc8#12",
         "sgTW": "ÿc8索爾 ÿcISolÿc8#12",
-        "bnCN": "索尔符文"
+        "bnCN": "ÿc8索尔 ÿcISolÿc8#12"
     },
     "r11": {
         "id": 20462,
@@ -267,7 +267,7 @@
         "zhCN": "ÿc8安姆 ÿcIAmnÿc8#11",
         "sgCN": "ÿc8安姆 ÿcIAmnÿc8#11",
         "sgTW": "ÿc8安姆 ÿcIAmnÿc8#11",
-        "bnCN": "安姆符文"
+        "bnCN": "ÿc8安姆 ÿcIAmnÿc8#11"
     },
     "r10": {
         "id": 20463,
@@ -277,7 +277,7 @@
         "zhCN": "ÿc8图尔 ÿcIThulÿc8#10",
         "sgCN": "ÿc8书尔 ÿcIThulÿc8#10",
         "sgTW": "ÿc8書爾 ÿcIThulÿc8#10",
-        "bnCN": "图尔符文"
+        "bnCN": "ÿc8图尔 ÿcIThulÿc8#10"
     },
     "r09": {
         "id": 20464,
@@ -287,7 +287,7 @@
         "zhCN": "ÿc8欧特 ÿcIOrtÿc8#09",
         "sgCN": "ÿc8欧特 ÿcIOrtÿc8#09",
         "sgTW": "ÿc8歐特 ÿcIOrtÿc8#09",
-        "bnCN": "欧特符文"
+        "bnCN": "ÿc8欧特 ÿcIOrtÿc8#09"
     },
     "r08": {
         "id": 20465,
@@ -297,7 +297,7 @@
         "zhCN": "ÿc8拉尔 ÿcIRalÿc8#08",
         "sgCN": "ÿc8拉尔 ÿcIRalÿc8#08",
         "sgTW": "ÿc8拉爾 ÿcIRalÿc8#08",
-        "bnCN": "拉尔符文"
+        "bnCN": "ÿc8拉尔 ÿcIRalÿc8#08"
     },
     "r07": {
         "id": 20466,
@@ -307,7 +307,7 @@
         "zhCN": "ÿc8塔尔 ÿcITalÿc8#07",
         "sgCN": "ÿc8塔尔 ÿcITalÿc8#07",
         "sgTW": "ÿc8塔爾 ÿcITalÿc8#07",
-        "bnCN": "塔尔符文"
+        "bnCN": "ÿc8塔尔 ÿcITalÿc8#07"
     },
     "r06": {
         "id": 20467,
@@ -317,7 +317,7 @@
         "zhCN": "ÿc8伊司 ÿcIIthÿc8#06",
         "sgCN": "ÿc8伊司 ÿcIIthÿc8#06",
         "sgTW": "ÿc8伊司 ÿcIIthÿc8#06",
-        "bnCN": "伊司符文"
+        "bnCN": "ÿc8伊司 ÿcIIthÿc8#06"
     },
     "r05": {
         "id": 20468,
@@ -327,7 +327,7 @@
         "zhCN": "ÿc8艾斯 ÿcIEthÿc8#05",
         "sgCN": "ÿc8爱斯 ÿcIEthÿc8#05",
         "sgTW": "ÿc8愛斯 ÿcIEthÿc8#05",
-        "bnCN": "艾斯符文"
+        "bnCN": "ÿc8艾斯 ÿcIEthÿc8#05"
     },
     "r04": {
         "id": 20469,
@@ -337,7 +337,7 @@
         "zhCN": "ÿc8奈夫 ÿcINefÿc8#04",
         "sgCN": "ÿc8那夫 ÿcINefÿc8#04",
         "sgTW": "ÿc8那夫 ÿcINefÿc8#04",
-        "bnCN": "奈夫符文"
+        "bnCN": "ÿc8奈夫 ÿcINefÿc8#04"
     },
     "r03": {
         "id": 20470,
@@ -347,7 +347,7 @@
         "zhCN": "ÿc8提尔 ÿcITirÿc8#03",
         "sgCN": "ÿc8特尔 ÿcITirÿc8#03",
         "sgTW": "ÿc8特爾 ÿcITirÿc8#03",
-        "bnCN": "提尔符文"
+        "bnCN": "ÿc8提尔 ÿcITirÿc8#03"
     },
     "r02": {
         "id": 20471,
@@ -357,7 +357,7 @@
         "zhCN": "ÿc8艾德 ÿcIEldÿc8#02",
         "sgCN": "ÿc8艾德 ÿcIEldÿc8#02",
         "sgTW": "ÿc8艾德 ÿcIEldÿc8#02",
-        "bnCN": "艾德符文"
+        "bnCN": "ÿc8艾德 ÿcIEldÿc8#02"
     },
     "r01": {
         "id": 20472,
@@ -367,7 +367,7 @@
         "zhCN": "ÿc8艾尔 ÿcIElÿc8#01",
         "sgCN": "ÿc8艾尔 ÿcIElÿc8#01",
         "sgTW": "ÿc8艾爾 ÿcIElÿc8#01",
-        "bnCN": "艾尔符文"
+        "bnCN": "ÿc8艾尔 ÿcIElÿc8#01"
     },
     "r33L": {
         "id": 20473,
@@ -377,7 +377,7 @@
         "zhCN": "佐德#33",
         "sgCN": "萨德#33",
         "sgTW": "薩德#33",
-        "bnCN": "佐德"
+        "bnCN": "佐德#33"
     },
     "r32L": {
         "id": 20474,
@@ -387,7 +387,7 @@
         "zhCN": "查姆#32",
         "sgCN": "查姆#32",
         "sgTW": "查姆#32",
-        "bnCN": "查姆"
+        "bnCN": "查姆#32"
     },
     "r30L": {
         "id": 20476,
@@ -397,7 +397,7 @@
         "zhCN": "贝#30",
         "sgCN": "贝#30",
         "sgTW": "貝#30",
-        "bnCN": "贝"
+        "bnCN": "贝#30"
     },
     "r29L": {
         "id": 20477,
@@ -407,7 +407,7 @@
         "zhCN": "瑟#29",
         "sgCN": "瑟#29",
         "sgTW": "瑟#29",
-        "bnCN": "瑟"
+        "bnCN": "瑟#29"
     },
     "r28L": {
         "id": 20478,
@@ -417,7 +417,7 @@
         "zhCN": "罗#28",
         "sgCN": "罗#28",
         "sgTW": "羅#28",
-        "bnCN": "罗"
+        "bnCN": "罗#28"
     },
     "r27L": {
         "id": 20479,
@@ -427,7 +427,7 @@
         "zhCN": "欧姆#27",
         "sgCN": "欧姆#27",
         "sgTW": "歐姆#27",
-        "bnCN": "欧姆"
+        "bnCN": "欧姆#27"
     },
     "r26L": {
         "id": 20480,
@@ -437,7 +437,7 @@
         "zhCN": "伐克斯#26",
         "sgCN": "伐克斯#26",
         "sgTW": "伐克斯#26",
-        "bnCN": "伐克斯"
+        "bnCN": "伐克斯#26"
     },
     "r25L": {
         "id": 20481,
@@ -447,7 +447,7 @@
         "zhCN": "古尔#25",
         "sgCN": "古尔#25",
         "sgTW": "古爾#25",
-        "bnCN": "古尔"
+        "bnCN": "古尔#25"
     },
     "r24L": {
         "id": 20482,
@@ -457,7 +457,7 @@
         "zhCN": "伊司特#24",
         "sgCN": "伊司特#24",
         "sgTW": "伊司特#24",
-        "bnCN": "伊司特"
+        "bnCN": "伊司特#24"
     },
     "r23L": {
         "id": 20483,
@@ -467,7 +467,7 @@
         "zhCN": "玛尔#23",
         "sgCN": "马尔#23",
         "sgTW": "馬爾#23",
-        "bnCN": "玛尔"
+        "bnCN": "玛尔#23"
     },
     "r22L": {
         "id": 20484,
@@ -477,7 +477,7 @@
         "zhCN": "乌姆#22",
         "sgCN": "乌姆#22",
         "sgTW": "烏姆#22",
-        "bnCN": "乌姆"
+        "bnCN": "乌姆#22"
     },
     "r21L": {
         "id": 20485,
@@ -487,7 +487,7 @@
         "zhCN": "普尔#21",
         "sgCN": "普尔#21",
         "sgTW": "普爾#21",
-        "bnCN": "普尔"
+        "bnCN": "普尔#21"
     },
     "r20L": {
         "id": 20486,
@@ -497,7 +497,7 @@
         "zhCN": "兰姆#20",
         "sgCN": "蓝姆#20",
         "sgTW": "藍姆#20",
-        "bnCN": "兰姆"
+        "bnCN": "兰姆#20"
     },
     "r19L": {
         "id": 20487,
@@ -507,7 +507,7 @@
         "zhCN": "法尔#19",
         "sgCN": "法尔#19",
         "sgTW": "法爾#19",
-        "bnCN": "法尔"
+        "bnCN": "法尔#19"
     },
     "r18L": {
         "id": 20488,
@@ -517,7 +517,7 @@
         "zhCN": "科#18",
         "sgCN": "科#18",
         "sgTW": "科#18",
-        "bnCN": "科"
+        "bnCN": "科#18"
     },
     "r17L": {
         "id": 20489,
@@ -527,7 +527,7 @@
         "zhCN": "卢姆#17",
         "sgCN": "卢姆#17",
         "sgTW": "盧姆#17",
-        "bnCN": "卢姆"
+        "bnCN": "卢姆#17"
     },
     "r15L": {
         "id": 20491,
@@ -537,7 +537,7 @@
         "zhCN": "海尔#15",
         "sgCN": "海尔#15",
         "sgTW": "海爾#15",
-        "bnCN": "海尔"
+        "bnCN": "海尔#15"
     },
     "r14L": {
         "id": 20492,
@@ -547,7 +547,7 @@
         "zhCN": "多尔#14",
         "sgCN": "多尔#14",
         "sgTW": "多爾#14",
-        "bnCN": "多尔"
+        "bnCN": "多尔#14"
     },
     "r12L": {
         "id": 20494,
@@ -557,7 +557,7 @@
         "zhCN": "索尔#12",
         "sgCN": "索尔#12",
         "sgTW": "索爾#12",
-        "bnCN": "索尔"
+        "bnCN": "索尔#12"
     },
     "r11L": {
         "id": 20495,
@@ -567,7 +567,7 @@
         "zhCN": "安姆#11",
         "sgCN": "安姆#11",
         "sgTW": "安姆#11",
-        "bnCN": "安姆"
+        "bnCN": "安姆#11"
     },
     "r10L": {
         "id": 20496,
@@ -577,7 +577,7 @@
         "zhCN": "图尔#10",
         "sgCN": "书尔#10",
         "sgTW": "書爾#10",
-        "bnCN": "图尔"
+        "bnCN": "图尔#10"
     },
     "r09L": {
         "id": 20497,
@@ -587,7 +587,7 @@
         "zhCN": "欧特#09",
         "sgCN": "欧特#09",
         "sgTW": "歐特#09",
-        "bnCN": "欧特"
+        "bnCN": "欧特#09"
     },
     "r08L": {
         "id": 20498,
@@ -597,7 +597,7 @@
         "zhCN": "拉尔#08",
         "sgCN": "拉尔#08",
         "sgTW": "拉爾#08",
-        "bnCN": "拉尔"
+        "bnCN": "拉尔#08"
     },
     "r07L": {
         "id": 20499,
@@ -607,7 +607,7 @@
         "zhCN": "塔尔#07",
         "sgCN": "塔尔#07",
         "sgTW": "塔爾#07",
-        "bnCN": "塔尔"
+        "bnCN": "塔尔#07"
     },
     "r06L": {
         "id": 20500,
@@ -617,7 +617,7 @@
         "zhCN": "伊司#06",
         "sgCN": "伊司#06",
         "sgTW": "伊司#06",
-        "bnCN": "伊司"
+        "bnCN": "伊司#06"
     },
     "r05L": {
         "id": 20501,
@@ -627,7 +627,7 @@
         "zhCN": "艾斯#05",
         "sgCN": "爱斯#05",
         "sgTW": "愛斯#05",
-        "bnCN": "艾斯"
+        "bnCN": "艾斯#05"
     },
     "r04L": {
         "id": 20502,
@@ -637,7 +637,7 @@
         "zhCN": "奈夫#04",
         "sgCN": "那夫#04",
         "sgTW": "那夫#04",
-        "bnCN": "奈夫"
+        "bnCN": "奈夫#04"
     },
     "r03L": {
         "id": 20503,
@@ -647,7 +647,7 @@
         "zhCN": "提尔#03",
         "sgCN": "特尔#03",
         "sgTW": "特爾#03",
-        "bnCN": "提尔"
+        "bnCN": "提尔#03"
     },
     "r02L": {
         "id": 20504,
@@ -657,7 +657,7 @@
         "zhCN": "艾德#02",
         "sgCN": "艾德#02",
         "sgTW": "艾德#02",
-        "bnCN": "艾德"
+        "bnCN": "艾德#02"
     },
     "r01L": {
         "id": 20505,
@@ -667,7 +667,7 @@
         "zhCN": "艾尔#01",
         "sgCN": "艾尔#01",
         "sgTW": "艾爾#01",
-        "bnCN": "艾尔"
+        "bnCN": "艾尔#01"
     },
     "RuneQuote": {
         "id": 20506,
