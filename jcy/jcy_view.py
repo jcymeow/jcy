@@ -25,7 +25,6 @@ from jcy_assets import *
 from jcy_utils import *
 from PIL import Image, ImageTk
 from tkinter import filedialog, messagebox, scrolledtext, ttk
-from jcy_item import ITEM_LANGUAGE, ITEM_CATEGORY, ITEM_TYPE, ITEM_TIER, ITEM_COLUMN, ITEMS
 import jcy_config
 import subprocess  # 用系统默认播放器播放 flac
 
