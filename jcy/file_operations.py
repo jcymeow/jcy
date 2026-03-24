@@ -499,7 +499,7 @@ class FileOperations:
 
             with open(json_path, 'w', encoding='utf-8') as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
-            return ok_result()
+            return ok_result("")
         except Exception as e:
             return err_result(e)
 

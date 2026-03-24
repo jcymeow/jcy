@@ -1,113 +1,113 @@
 {
-  "type": "TooltipsPanel",
-  "name": "hudpanelbuttons",
-  "fields": {
-    "priority": 99,
-    "anchor": {
-      "x": 0.7,
-      "y": 1
-    },
-    "rect": {
-      "x": 0,
-      "y": -450
-    }
-  },
-  "children": [
-    {
-      "type": "ButtonWidget",
-      "name": "JcyToggleMiniStash",
-      "fields": {
-        "rect": {
-          "x": 0,
-          "y": 0,
-          "scale": 0.65
+    "type": "TooltipsPanel",
+    "name": "hudpanelbuttons",
+    "fields": {
+        "priority": 99,
+        "anchor": {
+            "x": 0.7,
+            "y": 1
         },
-        "filename": "panel\\mini\\stash",
-        "tooltipString": "開關儲物箱",
-        "onClickMessage": "PanelManager:TogglePanel:BankExpansionLayout",
-        "focusIndicatorVisible": true,
-        "hoveredFrame": 2
-      }
-    },
-    {
-      "type": "ButtonWidget",
-      "name": "JcyToggleMiniCube",
-      "fields": {
         "rect": {
-          "x": 65.0,
-          "y": 0,
-          "scale": 0.65
-        },
-        "filename": "panel\\mini\\cube",
-        "tooltipString": "開關迷你盒子",
-        "onClickMessage": "PanelManager:TogglePanel:HoradricCubeMiniLayout",
-        "hoveredFrame": 2
-      }
+            "x": 0,
+            "y": -450
+        }
     },
-    {
-      "type": "ButtonWidget",
-      "name": "JcyToggleMiniBar",
-      "fields": {
-        "rect": {
-          "x": 130.0,
-          "y": 0,
-          "scale": 0.65
+    "children": [
+        {
+            "type": "ButtonWidget",
+            "name": "JcyToggleMiniStash",
+            "fields": {
+                "rect": {
+                    "x": 0,
+                    "y": 0,
+                    "scale": 0.65
+                },
+                "filename": "panel\\mini\\stash",
+                "tooltipString": "開關儲物箱",
+                "onClickMessage": "PanelManager:TogglePanel:BankExpansionLayout",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
         },
-        "filename": "panel\\mini\\hpmp",
-        "tooltipString": "開關迷你血條",
-        "onClickMessage": "PanelManager:TogglePanel:minihp",
-        "focusIndicatorVisible": true,
-        "hoveredFrame": 2,
-        "pressedFrame": 0
-      }
-    },
-    {
-      "type": "ButtonWidget",
-      "name": "JcyToggleFriendsList",
-      "fields": {
-        "rect": {
-          "x": 195.0,
-          "y": 0,
-          "scale": 0.8
+        {
+            "type": "ButtonWidget",
+            "name": "JcyToggleMiniCube",
+            "fields": {
+                "rect": {
+                    "x": 65.0,
+                    "y": 0,
+                    "scale": 0.65
+                },
+                "filename": "panel\\mini\\cube",
+                "tooltipString": "開關迷你盒子",
+                "onClickMessage": "PanelManager:TogglePanel:HoradricCubeMiniLayout",
+                "hoveredFrame": 2
+            }
         },
-        "filename": "panel\\hud_02\\messages",
-        "tooltipString": "開關好友列表",
-        "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
-        "focusIndicatorVisible": true,
-        "hoveredFrame": 2
-      }
-    },
-    {
-      "type": "ButtonWidget",
-      "name": "JcyGameSetting",
-      "fields": {
-        "rect": {
-          "x": 260.0,
-          "y": 0,
-          "scale": 0.8
+        {
+            "type": "ButtonWidget",
+            "name": "JcyToggleMiniBar",
+            "fields": {
+                "rect": {
+                    "x": 130.0,
+                    "y": 0,
+                    "scale": 0.65
+                },
+                "filename": "panel\\mini\\hpmp",
+                "tooltipString": "開關迷你血條",
+                "onClickMessage": "PanelManager:TogglePanel:minihp",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2,
+                "pressedFrame": 0
+            }
         },
-        "filename": "panel\\hud_02\\pausemenu",
-        "tooltipString": "遊戲設置",
-        "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
-        "focusIndicatorVisible": true,
-        "hoveredFrame": 2
-      }
-    },
-    {
-      "type": "ButtonWidget",
-      "name": "JcyKnowledge",
-      "fields": {
-        "rect": {
-          "x": 325.0,
-          "y": 0,
-          "scale": 0.8
+        {
+            "type": "ButtonWidget",
+            "name": "JcyToggleFriendsList",
+            "fields": {
+                "rect": {
+                    "x": 195.0,
+                    "y": 0,
+                    "scale": 0.8
+                },
+                "filename": "panel\\hud_02\\messages",
+                "tooltipString": "開關好友列表",
+                "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
         },
-        "filename": "PANEL\\HUD_02\\QuestLog",
-        "tooltipString": "知識卷軸",
-        "onClickMessage": "PanelManager:TogglePanel:messagePanel",
-        "focusIndicatorVisible": true,
-        "hoveredFrame": 2
-      }
-    }
-  ]
+        {
+            "type": "ButtonWidget",
+            "name": "JcyGameSetting",
+            "fields": {
+                "rect": {
+                    "x": 260.0,
+                    "y": 0,
+                    "scale": 0.8
+                },
+                "filename": "panel\\hud_02\\pausemenu",
+                "tooltipString": "遊戲設置",
+                "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "JcyKnowledge",
+            "fields": {
+                "rect": {
+                    "x": 325.0,
+                    "y": 0,
+                    "scale": 0.8
+                },
+                "filename": "PANEL\\HUD_02\\QuestLog",
+                "tooltipString": "知識卷軸",
+                "onClickMessage": "PanelManager:TogglePanel:messagePanel",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
+        }
+    ]
 }

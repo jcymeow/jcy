@@ -1,1218 +1,318 @@
 {
-    "dependencies": {
-        "particles": [],
-        "models": [],
-        "skeletons": [],
-        "animations": [],
-        "textures": [],
-        "physics": [],
-        "json": [],
-        "variantdata": [],
-        "objecteffects": [],
-        "other": []
-    },
-    "type": "VariantColorTransform",
-    "name": "RandomColorTransform",
-    "transforms": [
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_000",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_001",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_002",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_003",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_004",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_005",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_006",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_007",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_008",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_009",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_010",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_011",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_012",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_013",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_014",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_015",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_016",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_017",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_018",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_019",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_020",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_021",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_022",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_023",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_024",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_025",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_026",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_027",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_028",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        },
-        {
-            "type": "ColorTransform",
-            "name": "ColorTransform_029",
-            "colorAdjustment": {
-                "x": 0,
-                "y": -100,
-                "z": 100,
-                "w": 100
-            },
-            "hueAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "hueAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment0": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "satAdjustment1": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "colorTint": {
-                "x": 100,
-                "y": 100,
-                "z": 100,
-                "w": 100
-            }
-        }
-    ]
+	"dependencies": {
+		"particles": [],
+		"models": [],
+		"skeletons": [],
+		"animations": [],
+		"textures": [],
+		"physics": [],
+		"json": [],
+		"variantdata": [],
+		"objecteffects": [],
+		"other": []
+	},
+	"type": "VariantColorTransform",
+	"name": "RandomColorTransform",
+	"transforms": [
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_000",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_001",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_002",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_003",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_004",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_005",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_006",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_007",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_008",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_009",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_010",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_011",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_012",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_013",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_014",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_015",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_016",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_017",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_018",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_019",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_020",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_021",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_022",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_023",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_024",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_025",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_026",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_027",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_028",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		},
+		{
+			"type": "ColorTransform",
+			"name": "ColorTransform_029",
+			"colorAdjustment": {"x": 0, "y": 0, "z": 0, "w": 0},
+			"hueAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"hueAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment0": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"satAdjustment1": {"x": 0.0, "y": 0.0, "z": 0.0, "w": 0.0},
+			"colorTint": {"x": 1.5, "y": 0.1, "z": 2.2, "w": 1}
+		}
+	]
 }

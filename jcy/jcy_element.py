@@ -462,31 +462,6 @@ ENTITY_DROP_LIGHT = {
     ]
 }
 
-# 物品模型
-ENTITY_ROOT_POSITION = {
-    "type": "TransformDefinitionComponent",
-    "name": "entity_root_TransformDefinition",
-    "position": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "orientation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 1.0
-    },  
-    "scale": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.0
-    },
-    "inheritOnlyPosition": False,
-    "block-y": 0.0,
-    "hide-y": 1000.0
-}
-
 # 怪物-光源-微光
 ENTITY_MONSTER_LIGHT1 = {
     "type": "Entity",
@@ -707,7 +682,6 @@ ENTITY_STAR_CROSS = [
     {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-3.0,"y":24.7,"z":3.0},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]},
     {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-3.5,"y":24.7,"z":3.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]}
 ]
-
 
 # 怪物危险标记
 ENTITY_MONSTER_DANGEROUS = {

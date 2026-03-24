@@ -659,11 +659,11 @@
     "HiqualityFormat": {
         "Key": "HiqualityFormat",
         "enUS": "%1 %0",
-        "zhCN": "%0%1",
+        "zhCN": "%1%0",
         "zhTW": "%1%0",
         "sgCN": "%1%0",
         "sgTW": "%1%0",
-        "bnCN": "%0%1"
+        "bnCN": "%1%0"
     },
     "LowqualityFormat": {
         "Key": "LowqualityFormat",
