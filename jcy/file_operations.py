@@ -3725,7 +3725,7 @@ class FileOperations:
         except Exception as e:
             print(e)
         
-        # --- 光柱提示/光圈提示 ---
+        # --- 光柱提示/光圈提示/掉落提示 ---
         for i, rune in enumerate(data):
             try:
                 rune_file = os.path.join(MOD_PATH, rune_files[i])
@@ -3735,11 +3735,15 @@ class FileOperations:
                 # 移除全部 jcy_entity_pointer 节点
                 rune_json["entities"] = [item for item in rune_json["entities"] if item.get("name") != "jcy_entity_pointer"]
 
+                
                 if bool(data[i][1]):
                     rune_json["entities"].append(ENTITY_DROP_LIGHT)
 
                 if bool(data[i][2]):
                     rune_json["entities"].extend(PF_BEACON_ITEMS)
+                
+                if bool(data[i][3]):
+                    rune_json["entities"].append(ENTITY_DROP_EFFECT)
                 
                 # 保存文件
                 with open(rune_file, 'w', encoding='utf-8') as f:

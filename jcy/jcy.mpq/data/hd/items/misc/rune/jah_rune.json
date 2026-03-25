@@ -172,6 +172,40 @@
                     "prefab": "data/hd/env/porory/beacon/pf_beacon_items.json"
                 }
             ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 586091857,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_drop_effect",
+                    "position": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_drop_effect",
+                    "filename": "data/hd/vfx/particles/overlays/common/valkyriestart/valkriestart_overlay.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
         }
     ]
 }

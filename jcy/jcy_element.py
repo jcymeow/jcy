@@ -462,6 +462,43 @@ ENTITY_DROP_LIGHT = {
     ]
 }
 
+# 掉落特效
+ENTITY_DROP_EFFECT = {
+    "type": "Entity",
+    "name": "jcy_entity_pointer",
+    "id": 586091857,
+    "components": [
+        {
+            "type": "TransformDefinitionComponent",
+            "name": "transform_drop_effect",
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+            },
+            "scale": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            },
+            "inheritOnlyPosition": False
+        },
+        {
+            "type": "VfxDefinitionComponent",
+            "name": "vfx_drop_effect",
+            "filename": "data/hd/vfx/particles/overlays/common/valkyriestart/valkriestart_overlay.particles",
+            "hardKillOnDestroy": False
+        }
+    ]
+}
+
+
 # 怪物-光源-微光
 ENTITY_MONSTER_LIGHT1 = {
     "type": "Entity",

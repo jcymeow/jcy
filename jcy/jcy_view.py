@@ -816,7 +816,7 @@ class TableWithCheckbox(tk.Frame):
 
 
 class ItemNotificationTable(tk.Frame):
-    COLUMNS = ["enUS", "名稱", "语音提示", "光柱提示", "光圈提示"]
+    COLUMNS = ["名稱", "語音提示", "光柱提示", "光圈提示", "掉落提示"]
     
     def __init__(self, master, config_dict=None, config_key=None, **kwargs):
         super().__init__(master, **kwargs)
@@ -849,20 +849,23 @@ class ItemNotificationTable(tk.Frame):
 
         # ---------- 表体 ----------
         self.vars = []
-        count = len(ITEM_ENUS)
+        count = len(ITEM_ZHTW)
         settings_values = self.config_dict[self.config_key]
         settings_values_len = len(settings_values)
         for i in range(count):
-            tk.Label(self._tbl, text=ITEM_ENUS[i], borderwidth=1, relief="solid").grid(row=i+1, column=0, sticky="nsew")
-            tk.Label(self._tbl, text=ITEM_ZHTW[i], borderwidth=1, relief="solid").grid(row=i+1, column=1, sticky="nsew")
+            tk.Label(self._tbl, text=ITEM_ZHTW[i], borderwidth=1, relief="solid").grid(row=i+1, column=0, sticky="nsew")
 
             row_vars = []
-            vals = settings_values[i] if i < settings_values_len else [False, False, False]
-            for j in range(3):
+            vars_len = 4
+            vals = settings_values[i] if i < settings_values_len else [False, False, False, False]
+            while len(vals) < vars_len:
+                vals.append(False)
+            
+            for j in range(vars_len):
                 val = vals[j]
                 var = tk.BooleanVar(value=val)
                 cb_frame = tk.Frame(self._tbl, borderwidth=1, relief="solid")
-                cb_frame.grid(row=i+1, column=j+2, sticky="nsew")
+                cb_frame.grid(row=i+1, column=j+1, sticky="nsew")
                 cb = tk.Checkbutton(cb_frame, variable=var, command=self.update_config)
                 cb.pack(expand=True, fill="both")
                 row_vars.append(var)
