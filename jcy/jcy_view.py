@@ -822,6 +822,7 @@ class ItemNotificationTable(tk.Frame):
         super().__init__(master, **kwargs)
         self.config_dict = config_dict or {}
         self.config_key = config_key
+        self._silent = False
 
         # ---------- 滚动区域 ----------
         self.canvas = tk.Canvas(self, highlightthickness=0)
@@ -849,24 +850,37 @@ class ItemNotificationTable(tk.Frame):
 
         # ---------- 表体 ----------
         self.vars = []
-        count = len(ITEM_ZHTW)
-        settings_values = self.config_dict[self.config_key]
-        settings_values_len = len(settings_values)
+        count = len(ITEM_NOTIFICATIONS)
+        settings_values = self.config_dict.setdefault(self.config_key, [])
+
+        # 补齐行数
+        while len(settings_values) < count:
+            settings_values.append([False, False, False, False])
+
+        # 保证每行4列
+        for row in settings_values:
+            while len(row) < 4:
+                row.append(False)
+
+        lng = jcy_config.SETTINGS.get(Language.ZHCN.value, Language.ZHTW.value)
+
         for i in range(count):
-            tk.Label(self._tbl, text=ITEM_ZHTW[i], borderwidth=1, relief="solid").grid(row=i+1, column=0, sticky="nsew")
+            key = ITEM_NOTIFICATIONS[i]
+            ext = jcy_config.LOCAL_EXT_DICT.get(key, {})
+            text = ext.get(lng, key)
+            tk.Label(self._tbl, text=text, borderwidth=1, relief="solid").grid(row=i+1, column=0, sticky="nsew")
 
             row_vars = []
             vars_len = 4
-            vals = settings_values[i] if i < settings_values_len else [False, False, False, False]
-            while len(vals) < vars_len:
-                vals.append(False)
+            vals = settings_values[i]
             
             for j in range(vars_len):
                 val = vals[j]
                 var = tk.BooleanVar(value=val)
                 cb_frame = tk.Frame(self._tbl, borderwidth=1, relief="solid")
                 cb_frame.grid(row=i+1, column=j+1, sticky="nsew")
-                cb = tk.Checkbutton(cb_frame, variable=var, command=self.update_config)
+                cb = tk.Checkbutton(cb_frame, variable=var)
+                var.trace_add("write", lambda *args, i=i, j=j, var=var: self._on_var_changed(i, j, var))
                 cb.pack(expand=True, fill="both")
                 row_vars.append(var)
             self.vars.append(row_vars)
@@ -874,8 +888,10 @@ class ItemNotificationTable(tk.Frame):
         for c in range(5):
             self._tbl.grid_columnconfigure(c, weight=1)
 
-        self.after(1, lambda: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
+        self.update_idletasks()
+        self.canvas.configure(scrollregion=self.canvas.bbox("all"))
         self._enable_mousewheel_scroll()
+        self.update_config()
 
 
     # ---------- 外部接口 ----------
@@ -884,11 +900,15 @@ class ItemNotificationTable(tk.Frame):
         return [[var.get() for var in row] for row in self.vars]
 
     def set(self, state_list):
-        """批量设置勾选状态，直接更新控件和 config_dict"""
+        self._silent = True
+
         for i, row_vars in enumerate(self.vars):
-            for j, val in enumerate(state_list[i]):
-                row_vars[j].set(val)
-                self.config_dict[self.config_key][i][j] = val
+            for j, var in enumerate(row_vars):
+                val = state_list[i][j] if i < len(state_list) and j < len(state_list[i]) else False
+                var.set(val)
+
+        self._silent = False
+        self.update_config()
 
     def update_config(self):
         """同步控件状态到 config_dict"""
@@ -904,8 +924,10 @@ class ItemNotificationTable(tk.Frame):
         self.canvas.bind("<Enter>", lambda e: self.canvas.bind_all("<MouseWheel>", _on_mousewheel))
         self.canvas.bind("<Leave>", lambda e: self.canvas.unbind_all("<MouseWheel>"))
 
-
-
+    def _on_var_changed(self, i, j, var):
+        if self._silent:
+            return
+        self.config_dict[self.config_key][i][j] = var.get()
 
 class D2RLauncherApp(tk.Frame):
     """
@@ -1578,7 +1600,9 @@ class AssetManagerUI(tk.Frame):
 
         
         self.update_idletasks()
-        self.canvas.configure(scrollregion=self.canvas.bbox("all"))
+        bbox = self.canvas.bbox("all")
+        if bbox:
+            self.canvas.configure(scrollregion=bbox)
 
         if update_layout:
             self.canvas.yview_moveto(0)
