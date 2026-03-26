@@ -2822,12 +2822,12 @@
     "amu": {
         "id": 2212,
         "Key": "amu",
-        "enUS": "★Amulet★",
-        "zhTW": "★護身符★",
-        "zhCN": "★护符★",
-        "sgCN": "★护身符★",
-        "sgTW": "★護身符★",
-        "bnCN": "★护符★"
+        "enUS": "Amulet",
+        "zhTW": "護身符",
+        "zhCN": "护符",
+        "sgCN": "护身符",
+        "sgTW": "護身符",
+        "bnCN": "护符"
     },
     "vip": {
         "id": 2213,
@@ -2842,12 +2842,12 @@
     "rin": {
         "id": 2214,
         "Key": "rin",
-        "enUS": "★Ring★",
-        "zhTW": "★戒指★",
-        "zhCN": "★戒指★",
-        "sgCN": "★戒指★",
-        "sgTW": "★戒指★",
-        "bnCN": "★戒指★"
+        "enUS": "Ring",
+        "zhTW": "戒指",
+        "zhCN": "戒指",
+        "sgCN": "戒指",
+        "sgTW": "戒指",
+        "bnCN": "戒指"
     },
     "bks": {
         "id": 2216,
@@ -7287,7 +7287,7 @@
         "zhCN": "恐惧之钥|A1",
         "sgCN": "恐惧之钥|A1",
         "sgTW": "恐懼之鑰|A1",
-        "bnCN": "恐惧之钥|A1"
+        "bnCN": "恐惧之钥"
     },
     "pk2": {
         "id": 11147,
@@ -7297,7 +7297,7 @@
         "zhCN": "憎恨之钥|A2",
         "sgCN": "憎恨之钥|A2",
         "sgTW": "憎恨之鑰|A2",
-        "bnCN": "憎恨之钥|A2"
+        "bnCN": "憎恨之钥"
     },
     "pk3": {
         "id": 11148,
@@ -7307,7 +7307,7 @@
         "zhCN": "毁灭之钥|A5",
         "sgCN": "毁灭之钥|A5",
         "sgTW": "毀滅之鑰|A5",
-        "bnCN": "毁灭之钥|A5"
+        "bnCN": "毁灭之钥"
     },
     "dhn": {
         "id": 11149,
@@ -8952,41 +8952,41 @@
     "ci0": {
         "id": 20337,
         "Key": "ci0",
-        "enUS": "★Circlet★¹",
-        "zhTW": "★頭環★¹",
-        "zhCN": "★头环★¹",
-        "sgCN": "★头饰★¹",
-        "sgTW": "★頭飾★¹",
+        "enUS": "Circlet¹",
+        "zhTW": "頭環¹",
+        "zhCN": "头环¹",
+        "sgCN": "头饰¹",
+        "sgTW": "頭飾¹",
         "bnCN": "头环¹"
     },
     "ci1": {
         "id": 20338,
         "Key": "ci1",
-        "enUS": "★Coronet★¹",
-        "zhTW": "★寶冠★¹",
-        "zhCN": "★头冠★¹",
-        "sgCN": "★宝冠★¹",
-        "sgTW": "★寶冠★¹",
+        "enUS": "Coronet¹",
+        "zhTW": "寶冠¹",
+        "zhCN": "头冠¹",
+        "sgCN": "宝冠¹",
+        "sgTW": "寶冠¹",
         "bnCN": "头冠¹"
     },
     "ci2": {
         "id": 20339,
         "Key": "ci2",
-        "enUS": "★Tiara★²",
-        "zhTW": "★頭冠★²",
-        "zhCN": "★冠冕★²",
-        "sgCN": "★三重冠★²",
-        "sgTW": "★三重冠★²",
+        "enUS": "Tiara²",
+        "zhTW": "頭冠²",
+        "zhCN": "冠冕²",
+        "sgCN": "三重冠²",
+        "sgTW": "三重冠²",
         "bnCN": "冠冕²"
     },
     "ci3": {
         "id": 20340,
         "Key": "ci3",
-        "enUS": "★Diadem★³[③][60/E90]",
-        "zhTW": "★權冠★³[③][60/E90]",
-        "zhCN": "★权冠★³[③][60/E90]",
-        "sgCN": "★权冠★³[③][60/E90]",
-        "sgTW": "★權冠★³[③][60/E90]",
+        "enUS": "Diadem³[③][60/E90]",
+        "zhTW": "權冠³[③][60/E90]",
+        "zhCN": "权冠³[③][60/E90]",
+        "sgCN": "权冠³[③][60/E90]",
+        "sgTW": "權冠³[③][60/E90]",
         "bnCN": "权冠³[③][60/E90]"
     },
     "uap": {
@@ -9842,11 +9842,11 @@
     "jew": {
         "id": 20433,
         "Key": "jew",
-        "enUS": "★Jewel★",
-        "zhTW": "★珠寶★",
-        "zhCN": "★珠宝★",
-        "sgCN": "★珠宝★",
-        "sgTW": "★珠寶★",
+        "enUS": "Jewel",
+        "zhTW": "珠寶",
+        "zhCN": "珠宝",
+        "sgCN": "珠宝",
+        "sgTW": "珠寶",
         "bnCN": "珠宝"
     },
     "hrb": {
@@ -9867,7 +9867,7 @@
         "zhCN": "小型神符ÿc;SCÿc3",
         "sgCN": "小护身符ÿc;SCÿc3",
         "sgTW": "小護身符ÿc;SCÿc3",
-        "bnCN": "小型神符ÿc;SCÿc3"
+        "bnCN": "小型神符"
     },
     "cm2": {
         "id": 20436,
@@ -9877,7 +9877,7 @@
         "zhCN": "大型神符ÿc;LCÿc3",
         "sgCN": "大型护身符ÿc;LCÿc3",
         "sgTW": "大型護身符ÿc;LCÿc3",
-        "bnCN": "大型神符ÿc;LCÿc3"
+        "bnCN": "大型神符"
     },
     "cm3": {
         "id": 20437,
@@ -9887,7 +9887,7 @@
         "zhCN": "巨型神符ÿc;GCÿc3",
         "sgCN": "超大型护身符ÿc;GCÿc3",
         "sgTW": "超大型護身符ÿc;GCÿc3",
-        "bnCN": "巨型神符ÿc;GCÿc3"
+        "bnCN": "巨型神符"
     },
     "spe": {
         "id": 20676,
@@ -11562,12 +11562,12 @@
     "Griffon's Eye": {
         "id": 21442,
         "Key": "Griffon's Eye",
-        "enUS": "ÿc1[DEF260/200DEF/-20LR/15LD]\nÿc4Griffon's Eye",
-        "zhTW": "ÿc1[防禦260/200DEF/-20LR/15LD]\nÿc4獅鷲之眼",
-        "zhCN": "ÿc1[防御260/200DEF/-20LR/15LD]\nÿc4狮鹫之眼",
-        "sgCN": "ÿc1[防御260/200DEF/-20LR/15LD]\nÿc4格利风之眼",
-        "sgTW": "ÿc1[防禦260/200DEF/-20LR/15LD]\nÿc4格利風之眼",
-        "bnCN": "ÿc1[防御260/200DEF/-20LR/15LD]\nÿc4狮鹫之眼"
+        "enUS": "ÿc1[DEF260/200DEF/-20LR/15LSD]\nÿc4Griffon's Eye",
+        "zhTW": "ÿc1[防禦260/200DEF/-20LR/15LSD]\nÿc4獅鷲之眼",
+        "zhCN": "ÿc1[防御260/200DEF/-20LR/15LSD]\nÿc4狮鹫之眼",
+        "sgCN": "ÿc1[防御260/200DEF/-20LR/15LSD]\nÿc4格利风之眼",
+        "sgTW": "ÿc1[防禦260/200DEF/-20LR/15LSD]\nÿc4格利風之眼",
+        "bnCN": "ÿc1[防御260/200DEF/-20LR/15LSD]\nÿc4狮鹫之眼"
     },
     "Eaglewind": {
         "id": 21443,
@@ -12702,12 +12702,12 @@
     "Nightwing's Veil": {
         "id": 21557,
         "Key": "Nightwing's Veil",
-        "enUS": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4Nightwing's Veil",
-        "zhTW": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面紗",
-        "zhCN": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面纱",
-        "sgCN": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面纱",
-        "sgTW": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面紗",
-        "bnCN": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面纱"
+        "enUS": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4Nightwing's Veil",
+        "zhTW": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面紗",
+        "zhCN": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面纱",
+        "sgCN": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面纱",
+        "sgTW": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面紗",
+        "bnCN": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面纱"
     },
     "Hightower's Watch": {
         "id": 21558,
@@ -12842,12 +12842,12 @@
     "Fathom": {
         "id": 21571,
         "Key": "Fathom",
-        "enUS": "ÿc1[30CD/40LR/40FR]\nÿc4Death's Fathom",
-        "zhTW": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深度",
-        "zhCN": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深渊",
-        "sgCN": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深度",
-        "sgTW": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深度",
-        "bnCN": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深渊"
+        "enUS": "ÿc1[30CSD/40LR/40FR]\nÿc4Death's Fathom",
+        "zhTW": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深度",
+        "zhCN": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深渊",
+        "sgCN": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深度",
+        "sgTW": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深度",
+        "bnCN": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深渊"
     },
     "Wolfhowl": {
         "id": 21572,
@@ -12992,12 +12992,12 @@
     "Eschuta's temper": {
         "id": 21586,
         "Key": "Eschuta's temper",
-        "enUS": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4Eschuta's Temper",
-        "zhTW": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾斯屈塔的憤怒",
-        "zhCN": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾丝屈塔的脾气",
-        "sgCN": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾斯屈塔的脾气",
-        "sgTW": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾斯屈塔的脾氣",
-        "bnCN": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾丝屈塔的脾气"
+        "enUS": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4Eschuta's Temper",
+        "zhTW": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾斯屈塔的憤怒",
+        "zhCN": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾丝屈塔的脾气",
+        "sgCN": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾斯屈塔的脾气",
+        "sgTW": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾斯屈塔的脾氣",
+        "bnCN": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾丝屈塔的脾气"
     },
     "Firelizard's Talons": {
         "id": 21587,
@@ -13352,12 +13352,12 @@
     "Ormus' Robes": {
         "id": 21623,
         "Key": "Ormus' Robes",
-        "enUS": "ÿc1[DEF487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4Ormus' Robes",
-        "zhTW": "ÿc1[防禦487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奧瑪斯之袍",
-        "zhCN": "ÿc1[防御487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奥玛斯的法袍",
-        "sgCN": "ÿc1[防御487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奥玛斯的长袍",
-        "sgTW": "ÿc1[防禦487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奧瑪斯的長袍",
-        "bnCN": "ÿc1[防御487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奥玛斯的法袍"
+        "enUS": "ÿc1[DEF487/15CSD/15LSD/15SD/20DEF/15RegMana]\nÿc4Ormus' Robes",
+        "zhTW": "ÿc1[防禦487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奧瑪斯之袍",
+        "zhCN": "ÿc1[防御487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奥玛斯的法袍",
+        "sgCN": "ÿc1[防御487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奥玛斯的长袍",
+        "sgTW": "ÿc1[防禦487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奧瑪斯的長袍",
+        "bnCN": "ÿc1[防御487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奥玛斯的法袍"
     },
     "Arkaine's Valor": {
         "id": 21624,
@@ -16482,12 +16482,12 @@
     "Protector's Stone": {
         "id": 27910,
         "Key": "Protector's Stone",
-        "enUS": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4Protector's Stone",
-        "zhTW": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
-        "zhCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保卫者之石",
-        "sgCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保卫者之石",
-        "sgTW": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
-        "bnCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保卫者之石"
+        "enUS": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4Protector's Stone",
+        "zhTW": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+        "zhCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石",
+        "sgCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石",
+        "sgTW": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+        "bnCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石"
     },
     "Guardian's Light": {
         "id": 27911,
@@ -16602,12 +16602,12 @@
     "Crafted Bone Break": {
         "id": 28044,
         "Key": "Crafted Bone Break",
-        "enUS": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Bone Break",
-        "zhTW": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
-        "zhCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹",
-        "sgCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹",
-        "sgTW": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
-        "bnCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹"
+        "enUS": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4Renewed Bone Break",
+        "zhTW": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
+        "zhCN": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹",
+        "sgCN": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹",
+        "sgTW": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
+        "bnCN": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4焕新的白骨裂纹"
     },
     "PreCrafted Black Cleft": {
         "id": 28045,

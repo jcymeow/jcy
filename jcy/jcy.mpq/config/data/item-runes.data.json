@@ -113,15 +113,15 @@
     },
     "Runeword9": {
         "enUS": {
-            "max": "21Thorns/50PD",
+            "max": "21Thorns/50PSD",
             "mark": ""
         },
         "zhCN": {
-            "max": "21荆棘/50PD",
+            "max": "21荆棘/50PSD",
             "mark": "不如TP甲有用，土豪玩物"
         },
         "zhTW": {
-            "max": "21荊棘/50PD",
+            "max": "21荊棘/50PSD",
             "mark": "不如TP甲有用，土豪玩物"
         }
     },
@@ -813,15 +813,15 @@
     },
     "Runeword59": {
         "enUS": {
-            "max": "210ED/30CD",
+            "max": "210ED/30CSD",
             "mark": ""
         },
         "zhCN": {
-            "max": "210ED/30CD",
+            "max": "210ED/30CSD",
             "mark": "元素弓土豪玩物"
         },
         "zhTW": {
-            "max": "210ED/30CD",
+            "max": "210ED/30CSD",
             "mark": "元素弓土豪玩物"
         }
     },
@@ -2395,15 +2395,15 @@
     },
     "Runeword173": {
         "enUS": {
-            "max": "250ED/15CD/15LD/15FD",
+            "max": "250ED/15CSD/15LSD/15FSD",
             "mark": ""
         },
         "zhCN": {
-            "max": "250ED/15CD/15LD/15FD",
+            "max": "250ED/15CSD/15LSD/15FSD",
             "mark": "武学刺客，今已登神，汝等凡人，休得僭越"
         },
         "zhTW": {
-            "max": "250ED/15CD/15LD/15FD",
+            "max": "250ED/15CSD/15LSD/15FSD",
             "mark": "武學刺客，今已登神，汝等凡人，休得僭越"
         }
     },

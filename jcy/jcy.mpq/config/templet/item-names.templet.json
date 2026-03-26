@@ -2822,11 +2822,11 @@
   {
     "id": 2212,
     "Key": "amu",
-    "enUS": "★Amulet★",
-    "zhTW": "★護身符★",
-    "zhCN": "★护符★",
-    "sgCN": "★护身符★",
-    "sgTW": "★護身符★",
+    "enUS": "Amulet",
+    "zhTW": "護身符",
+    "zhCN": "护符",
+    "sgCN": "护身符",
+    "sgTW": "護身符",
     "bnCN": "护符"
   },
   {
@@ -2842,11 +2842,11 @@
   {
     "id": 2214,
     "Key": "rin",
-    "enUS": "★Ring★",
-    "zhTW": "★戒指★",
-    "zhCN": "★戒指★",
-    "sgCN": "★戒指★",
-    "sgTW": "★戒指★",
+    "enUS": "Ring",
+    "zhTW": "戒指",
+    "zhCN": "戒指",
+    "sgCN": "戒指",
+    "sgTW": "戒指",
     "bnCN": "戒指"
   },
   {
@@ -8952,41 +8952,41 @@
   {
     "id": 20337,
     "Key": "ci0",
-    "enUS": "★Circlet★",
-    "zhTW": "★頭環★",
-    "zhCN": "★头环★",
-    "sgCN": "★头饰★",
-    "sgTW": "★頭飾★",
+    "enUS": "Circlet",
+    "zhTW": "頭環",
+    "zhCN": "头环",
+    "sgCN": "头饰",
+    "sgTW": "頭飾",
     "bnCN": "头环"
   },
   {
     "id": 20338,
     "Key": "ci1",
-    "enUS": "★Coronet★",
-    "zhTW": "★寶冠★",
-    "zhCN": "★头冠★",
-    "sgCN": "★宝冠★",
-    "sgTW": "★寶冠★",
+    "enUS": "Coronet",
+    "zhTW": "寶冠",
+    "zhCN": "头冠",
+    "sgCN": "宝冠",
+    "sgTW": "寶冠",
     "bnCN": "头冠"
   },
   {
     "id": 20339,
     "Key": "ci2",
-    "enUS": "★Tiara★",
-    "zhTW": "★頭冠★",
-    "zhCN": "★冠冕★",
-    "sgCN": "★三重冠★",
-    "sgTW": "★三重冠★",
+    "enUS": "Tiara",
+    "zhTW": "頭冠",
+    "zhCN": "冠冕",
+    "sgCN": "三重冠",
+    "sgTW": "三重冠",
     "bnCN": "冠冕"
   },
   {
     "id": 20340,
     "Key": "ci3",
-    "enUS": "★Diadem★",
-    "zhTW": "★權冠★",
-    "zhCN": "★权冠★",
-    "sgCN": "★权冠★",
-    "sgTW": "★權冠★",
+    "enUS": "Diadem",
+    "zhTW": "權冠",
+    "zhCN": "权冠",
+    "sgCN": "权冠",
+    "sgTW": "權冠",
     "bnCN": "权冠"
   },
   {
@@ -9842,11 +9842,11 @@
   {
     "id": 20433,
     "Key": "jew",
-    "enUS": "★Jewel★",
-    "zhTW": "★珠寶★",
-    "zhCN": "★珠宝★",
-    "sgCN": "★珠宝★",
-    "sgTW": "★珠寶★",
+    "enUS": "Jewel",
+    "zhTW": "珠寶",
+    "zhCN": "珠宝",
+    "sgCN": "珠宝",
+    "sgTW": "珠寶",
     "bnCN": "珠宝"
   },
   {

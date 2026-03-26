@@ -762,12 +762,12 @@
     "Runeword9": {
         "id": 20515,
         "Key": "Runeword9",
-        "enUS": "ÿc1[21Thorns/50PD]\nÿc4Bramble",
-        "zhTW": "ÿc1[21荊棘/50PD]\nÿc4刺藤",
-        "zhCN": "ÿc1[21荆棘/50PD]\nÿc4荆棘",
-        "sgCN": "ÿc1[21荆棘/50PD]\nÿc4野蔷薇",
-        "sgTW": "ÿc1[21荊棘/50PD]\nÿc4野薔薇",
-        "bnCN": "ÿc1[21荆棘/50PD]\nÿc4荆棘"
+        "enUS": "ÿc1[21Thorns/50PSD]\nÿc4Bramble",
+        "zhTW": "ÿc1[21荊棘/50PSD]\nÿc4刺藤",
+        "zhCN": "ÿc1[21荆棘/50PSD]\nÿc4荆棘",
+        "sgCN": "ÿc1[21荆棘/50PSD]\nÿc4野蔷薇",
+        "sgTW": "ÿc1[21荊棘/50PSD]\nÿc4野薔薇",
+        "bnCN": "ÿc1[21荆棘/50PSD]\nÿc4荆棘"
     },
     "Runeword10": {
         "id": 20516,
@@ -1252,12 +1252,12 @@
     "Runeword59": {
         "id": 20565,
         "Key": "Runeword59",
-        "enUS": "ÿc1[210ED/30CD]\nÿc4Ice",
-        "zhTW": "ÿc1[210ED/30CD]\nÿc4寒冰",
-        "zhCN": "ÿc1[210ED/30CD]\nÿc4寒冰",
-        "sgCN": "ÿc1[210ED/30CD]\nÿc4冰冻",
-        "sgTW": "ÿc1[210ED/30CD]\nÿc4冰凍",
-        "bnCN": "ÿc1[210ED/30CD]\nÿc4寒冰"
+        "enUS": "ÿc1[210ED/30CSD]\nÿc4Ice",
+        "zhTW": "ÿc1[210ED/30CSD]\nÿc4寒冰",
+        "zhCN": "ÿc1[210ED/30CSD]\nÿc4寒冰",
+        "sgCN": "ÿc1[210ED/30CSD]\nÿc4冰冻",
+        "sgTW": "ÿc1[210ED/30CSD]\nÿc4冰凍",
+        "bnCN": "ÿc1[210ED/30CSD]\nÿc4寒冰"
     },
     "Runeword60": {
         "id": 20566,
@@ -2382,12 +2382,12 @@
     "Runeword173": {
         "id": 27362,
         "Key": "Runeword173",
-        "enUS": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4Mosaic",
-        "zhTW": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4嵌飾",
-        "zhCN": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4模糊",
-        "sgCN": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4嵌饰",
-        "sgTW": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4嵌飾",
-        "bnCN": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4模糊"
+        "enUS": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4Mosaic",
+        "zhTW": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4嵌飾",
+        "zhCN": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4模糊",
+        "sgCN": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4嵌饰",
+        "sgTW": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4嵌飾",
+        "bnCN": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4模糊"
     },
     "Runeword174": {
         "id": 27363,

@@ -1242,42 +1242,42 @@
     "ModStr5g": {
         "id": 3581,
         "Key": "ModStr5g",
-        "enUS": "Fire Absorb(FA) %+d%%",
-        "zhTW": "火焰吸收(FA) %+d%%",
-        "zhCN": "火焰伤害吸收(FA) %+d%%",
-        "sgCN": "火焰伤害吸收(FA) %+d%%",
-        "sgTW": "火焰吸收(FA) %+d%%",
-        "bnCN": "火焰伤害吸收(FA) %+d%%"
+        "enUS": "Fire Absorb(FDA) %+d%%",
+        "zhTW": "火焰吸收(FDA) %+d%%",
+        "zhCN": "火焰伤害吸收(FDA) %+d%%",
+        "sgCN": "火焰伤害吸收(FDA) %+d%%",
+        "sgTW": "火焰吸收(FDA) %+d%%",
+        "bnCN": "火焰伤害吸收(FDA) %+d%%"
     },
     "ModStr5h": {
         "id": 3582,
         "Key": "ModStr5h",
-        "enUS": "%+d Fire Absorb(FA)",
-        "zhTW": "%+d 火焰吸收(FA)",
-        "zhCN": "%+d 火焰伤害吸收(FA)",
-        "sgCN": "%+d 火焰伤害吸收(FA)",
-        "sgTW": "%+d 火焰吸收(FA)",
-        "bnCN": "%+d 火焰伤害吸收(FA)"
+        "enUS": "%+d Fire Absorb(FDA)",
+        "zhTW": "%+d 火焰吸收(FDA)",
+        "zhCN": "%+d 火焰伤害吸收(FDA)",
+        "sgCN": "%+d 火焰伤害吸收(FDA)",
+        "sgTW": "%+d 火焰吸收(FDA)",
+        "bnCN": "%+d 火焰伤害吸收(FDA)"
     },
     "ModStr5i": {
         "id": 3583,
         "Key": "ModStr5i",
-        "enUS": "Lightning Absorb(LA) %+d%%",
-        "zhTW": "電擊吸收(LA) %+d%%",
-        "zhCN": "闪电伤害吸收(LA) %+d%%",
-        "sgCN": "闪电伤害吸收(LA) %+d%%",
-        "sgTW": "電擊吸收(LA) %+d%%",
-        "bnCN": "闪电伤害吸收(LA) %+d%%"
+        "enUS": "Lightning Absorb(LDA) %+d%%",
+        "zhTW": "電擊吸收(LDA) %+d%%",
+        "zhCN": "闪电伤害吸收(LDA) %+d%%",
+        "sgCN": "闪电伤害吸收(LDA) %+d%%",
+        "sgTW": "電擊吸收(LDA) %+d%%",
+        "bnCN": "闪电伤害吸收(LDA) %+d%%"
     },
     "ModStr5j": {
         "id": 3584,
         "Key": "ModStr5j",
-        "enUS": "%+d Lightning Absorb(LA)",
-        "zhTW": "%+d 電擊吸收(LA)",
-        "zhCN": "%+d 闪电伤害吸收(LA)",
-        "sgCN": "%+d 闪电伤害吸收(LA)",
-        "sgTW": "%+d 電擊吸收(LA)",
-        "bnCN": "%+d 闪电伤害吸收(LA)"
+        "enUS": "%+d Lightning Absorb(LDA)",
+        "zhTW": "%+d 電擊吸收(LDA)",
+        "zhCN": "%+d 闪电伤害吸收(LDA)",
+        "sgCN": "%+d 闪电伤害吸收(LDA)",
+        "sgTW": "%+d 電擊吸收(LDA)",
+        "bnCN": "%+d 闪电伤害吸收(LDA)"
     },
     "ModStr5k": {
         "id": 3585,
@@ -1302,22 +1302,22 @@
     "ModStr5m": {
         "id": 3587,
         "Key": "ModStr5m",
-        "enUS": "Cold Absorb(CA) %+d%%",
-        "zhTW": "冰寒吸收(CA) %+d%%",
-        "zhCN": "冰霜伤害吸收(CA) %+d%%",
-        "sgCN": "冰霜伤害吸收(CA) %+d%%",
-        "sgTW": "冰寒吸收(CA) %+d%%",
-        "bnCN": "冰霜伤害吸收(CA) %+d%%"
+        "enUS": "Cold Absorb(CDA) %+d%%",
+        "zhTW": "冰寒吸收(CDA) %+d%%",
+        "zhCN": "冰霜伤害吸收(CDA) %+d%%",
+        "sgCN": "冰霜伤害吸收(CDA) %+d%%",
+        "sgTW": "冰寒吸收(CDA) %+d%%",
+        "bnCN": "冰霜伤害吸收(CDA) %+d%%"
     },
     "ModStr5n": {
         "id": 3588,
         "Key": "ModStr5n",
-        "enUS": "%+d Cold Absorb(CA)",
-        "zhTW": "%+d 冰寒吸收(CA)",
-        "zhCN": "%+d 冰霜伤害吸收(CA)",
-        "sgCN": "%+d 冰霜伤害吸收(CA)",
-        "sgTW": "%+d 冰寒吸收(CA)",
-        "bnCN": "%+d 冰霜伤害吸收(CA)"
+        "enUS": "%+d Cold Absorb(CDA)",
+        "zhTW": "%+d 冰寒吸收(CDA)",
+        "zhCN": "%+d 冰霜伤害吸收(CDA)",
+        "sgCN": "%+d 冰霜伤害吸收(CDA)",
+        "sgTW": "%+d 冰寒吸收(CDA)",
+        "bnCN": "%+d 冰霜伤害吸收(CDA)"
     },
     "ModStr5o": {
         "id": 3589,

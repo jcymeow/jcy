@@ -1295,7 +1295,7 @@
     "id": 20515,
     "Key": "Runeword9",
     "enUS": "ÿc1[21Thorns/50PD]\nÿc4Bramble",
-    "zhTW": "ÿc1[21荊棘/50PD]\nÿc4刺藤",
+    "zhTW": "ÿc1[21荊棘/50PSD]\nÿc4刺藤",
     "deDE": "Dornen",
     "esES": "Zarza",
     "frFR": "Barbelé",
@@ -1306,7 +1306,7 @@
     "jaJP": "茨",
     "ptBR": "Espinho",
     "ruRU": "Терновник",
-    "zhCN": "ÿc1[21荊棘/50PD]\nÿc4刺藤"
+    "zhCN": "ÿc1[21荊棘/50PSD]\nÿc4刺藤"
   },
   {
     "id": 20516,
@@ -2128,7 +2128,7 @@
     "id": 20565,
     "Key": "Runeword59",
     "enUS": "ÿc1[210ED/30CD]\nÿc4Ice",
-    "zhTW": "ÿc1[210ED/30CD]\nÿc4寒冰",
+    "zhTW": "ÿc1[210ED/30CSD]\nÿc4寒冰",
     "deDE": "Eis",
     "esES": "Hielo",
     "frFR": "Glace",
@@ -2139,7 +2139,7 @@
     "jaJP": "氷",
     "ptBR": "Gelo",
     "ruRU": "Лед",
-    "zhCN": "ÿc1[210ED/30CD]\nÿc4寒冰"
+    "zhCN": "ÿc1[210ED/30CSD]\nÿc4寒冰"
   },
   {
     "id": 20566,
@@ -4049,7 +4049,7 @@
     "id": 27362,
     "Key": "Runeword173",
     "enUS": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4Mosaic",
-    "zhTW": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4嵌飾",
+    "zhTW": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4嵌飾",
     "deDE": "Mosaik",
     "esES": "Mosaico",
     "frFR": "Mosaïque",
@@ -4060,7 +4060,7 @@
     "jaJP": "坩堝",
     "ptBR": "Mosaico",
     "ruRU": "Мозаика",
-    "zhCN": "ÿc1[250ED/15CD/15LD/15FD]\nÿc4嵌飾"
+    "zhCN": "ÿc1[250ED/15CSD/15LSD/15FSD]\nÿc4嵌飾"
   },
   {
     "id": 27363,

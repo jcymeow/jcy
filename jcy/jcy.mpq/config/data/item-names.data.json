@@ -16587,15 +16587,15 @@
     },
     "Griffon's Eye": {
         "enUS": {
-            "max": "DEF260/200DEF/-20LR/15LD",
+            "max": "DEF260/200DEF/-20LR/15LSD",
             "mark": ""
         },
         "zhCN": {
-            "max": "防御260/200DEF/-20LR/15LD",
+            "max": "防御260/200DEF/-20LR/15LSD",
             "mark": "四神器之一，电系练法必备，出了无形请自挂东南枝"
         },
         "zhTW": {
-            "max": "防禦260/200DEF/-20LR/15LD",
+            "max": "防禦260/200DEF/-20LR/15LSD",
             "mark": "四神器之一，電法必備"
         }
     },
@@ -18183,15 +18183,15 @@
     },
     "Nightwing's Veil": {
         "enUS": {
-            "max": "15CD/120EDef/20DEX/9CA",
+            "max": "15CSD/120EDef/20DEX/9CA",
             "mark": ""
         },
         "zhCN": {
-            "max": "15CD/120EDef/20DEX/9CA",
+            "max": "15CSD/120EDef/20DEX/9CA",
             "mark": "冰头，纯冰法师提升伤害必选"
         },
         "zhTW": {
-            "max": "15CD/120EDef/20DEX/9CA",
+            "max": "15CSD/120EDef/20DEX/9CA",
             "mark": "冰頭，純冰法師提升伤害必選"
         }
     },
@@ -18379,15 +18379,15 @@
     },
     "Fathom": {
         "enUS": {
-            "max": "30CD/40LR/40FR",
+            "max": "30CSD/40LR/40FR",
             "mark": ""
         },
         "zhCN": {
-            "max": "30CD/40LR/40FR",
+            "max": "30CSD/40LR/40FR",
             "mark": "四神器之一，常说的次元就是它。纯冰提升伤害必选，但是地位比较尴尬。"
         },
         "zhTW": {
-            "max": "30CD/40LR/40FR",
+            "max": "30CSD/40LR/40FR",
             "mark": "四神器之一，次元就是它。純冰提升伤害，地位尷尬。"
         }
     },
@@ -18589,15 +18589,15 @@
     },
     "Eschuta's temper": {
         "enUS": {
-            "max": "3SOR/20LD/20FD/30ENG",
+            "max": "3SOR/20LSD/20FSD/30ENG",
             "mark": ""
         },
         "zhCN": {
-            "max": "3SOR/20LD/20FD/30ENG",
+            "max": "3SOR/20LSD/20FSD/30ENG",
             "mark": "脾气就是它，电法火法标配"
         },
         "zhTW": {
-            "max": "3SOR/20LD/20FD/30ENG",
+            "max": "3SOR/20LSD/20FSD/30ENG",
             "mark": "脾氣就是它，電法火法標配"
         }
     },
@@ -19093,15 +19093,15 @@
     },
     "Ormus' Robes": {
         "enUS": {
-            "max": "DEF487/15CD/15LD/15FD/20DEF/15RegMana",
+            "max": "DEF487/15CSD/15LSD/15SD/20DEF/15RegMana",
             "mark": ""
         },
         "zhCN": {
-            "max": "防御487/15CD/15LD/15FD/20DEF/15RegMana",
+            "max": "防御487/15CSD/15LSD/15FSD/20DEF/15RegMana",
             "mark": "15增伤合适技能的可用，其他可N"
         },
         "zhTW": {
-            "max": "防禦487/15CD/15LD/15FD/20DEF/15RegMana",
+            "max": "防禦487/15CSD/15LSD/15FSD/20DEF/15RegMana",
             "mark": "15增伤合適技能的可用，其他可N"
         }
     },
@@ -22434,15 +22434,15 @@
     },
     "um4": {
         "enUS": {
-            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
+            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
+            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
+            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
@@ -23540,15 +23540,15 @@
     },
     "Protector's Stone": {
         "enUS": {
-            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
+            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
+            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "30DMG/50ED/-10PhyR/5EXP/50EG/35MF",
+            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
@@ -23708,15 +23708,15 @@
     },
     "Crafted Bone Break": {
         "enUS": {
-            "max": "-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG",
+            "max": "-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG",
             "mark": ""
         },
         "zhCN": {
-            "max": "-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG",
+            "max": "-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG",
             "mark": ""
         },
         "zhTW": {
-            "max": "-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG",
+            "max": "-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG",
             "mark": ""
         }
     },

@@ -4796,8 +4796,8 @@
   {
     "id": 2212,
     "Key": "amu",
-    "enUS": "★Amulet★",
-    "zhTW": "★護身符★",
+    "enUS": "Amulet",
+    "zhTW": "護身符",
     "deDE": "[ns]Amulett",
     "esES": "[ms]Amuleto",
     "frFR": "[fs]Amulette",
@@ -4808,7 +4808,7 @@
     "jaJP": "アミュレット",
     "ptBR": "[ms]Amuleto",
     "ruRU": "[ms]амулет",
-    "zhCN": "★護身符★"
+    "zhCN": "護身符"
   },
   {
     "id": 2213,
@@ -4830,8 +4830,8 @@
   {
     "id": 2214,
     "Key": "rin",
-    "enUS": "★Ring★",
-    "zhTW": "★戒指★",
+    "enUS": "Ring",
+    "zhTW": "戒指",
     "deDE": "[ms]Ring",
     "esES": "[ms]Anillo",
     "frFR": "[ms]Anneau",
@@ -4842,7 +4842,7 @@
     "jaJP": "指輪",
     "ptBR": "[ms]Anel",
     "ruRU": "[ns]кольцо",
-    "zhCN": "★戒指★"
+    "zhCN": "戒指"
   },
   {
     "id": 2216,
@@ -15217,8 +15217,8 @@
   {
     "id": 20337,
     "Key": "ci0",
-    "enUS": "★Circlet★|Normal",
-    "zhTW": "★頭環★¹",
+    "enUS": "Circlet|Normal",
+    "zhTW": "頭環¹",
     "deDE": "[ms]Reif",
     "esES": "[fs]Aureola",
     "frFR": "[ms]Bandeau",
@@ -15229,13 +15229,13 @@
     "jaJP": "サークレット",
     "ptBR": "[ms]Diadema",
     "ruRU": "[ms]венец",
-    "zhCN": "★頭環★¹"
+    "zhCN": "頭環¹"
   },
   {
     "id": 20338,
     "Key": "ci1",
-    "enUS": "★Coronet★|Normal",
-    "zhTW": "★寶冠★¹",
+    "enUS": "Coronet|Normal",
+    "zhTW": "寶冠¹",
     "deDE": "[ns]Krönchen",
     "esES": "[fs]Coronilla",
     "frFR": "[ms]Tortil",
@@ -15246,13 +15246,13 @@
     "jaJP": "コロネット",
     "ptBR": "[fs]Coronilha",
     "ruRU": "[ms]головной обруч",
-    "zhCN": "★寶冠★¹"
+    "zhCN": "寶冠¹"
   },
   {
     "id": 20339,
     "Key": "ci2",
-    "enUS": "★Tiara★|Exceptional",
-    "zhTW": "★頭冠★²",
+    "enUS": "Tiara|Exceptional",
+    "zhTW": "頭冠²",
     "deDE": "[fs]Tiara",
     "esES": "[fs]Tiara",
     "frFR": "[fs]Tiare",
@@ -15263,13 +15263,13 @@
     "jaJP": "ティアラ",
     "ptBR": "[fs]Tiara",
     "ruRU": "[fs]тиара",
-    "zhCN": "★頭冠★²"
+    "zhCN": "頭冠²"
   },
   {
     "id": 20340,
     "Key": "ci3",
-    "enUS": "★Diadem★|Elite[③][60/E90]",
-    "zhTW": "★權冠★³[③][60/E90]",
+    "enUS": "Diadem|Elite[③][60/E90]",
+    "zhTW": "權冠³[③][60/E90]",
     "deDE": "[ns]Diadem",
     "esES": "[fs]Diadema",
     "frFR": "[ms]Diadème",
@@ -15280,7 +15280,7 @@
     "jaJP": "ダイアデム",
     "ptBR": "[fs]Argola",
     "ruRU": "[fs]диадема",
-    "zhCN": "★權冠★³[③][60/E90]"
+    "zhCN": "權冠³[③][60/E90]"
   },
   {
     "id": 20341,
@@ -16730,8 +16730,8 @@
   {
     "id": 20433,
     "Key": "jew",
-    "enUS": "★Jewel★",
-    "zhTW": "★珠寶★",
+    "enUS": "Jewel",
+    "zhTW": "珠寶",
     "deDE": "[ns]Juwel",
     "esES": "[fs]Joya",
     "frFR": "[ms]Joyau",
@@ -16742,7 +16742,7 @@
     "jaJP": "宝玉",
     "ptBR": "[fs]Joia",
     "ruRU": "[ms]cамоцвет",
-    "zhCN": "★珠寶★"
+    "zhCN": "珠寶"
   },
   {
     "id": 20434,
@@ -19655,7 +19655,7 @@
     "id": 21442,
     "Key": "Griffon's Eye",
     "enUS": "ÿc1[DEF260/200DEF/-20LR/15LD]\nÿc4Griffon's Eye",
-    "zhTW": "ÿc1[防禦260/200DEF/-20LR/15LD]\nÿc4獅鷲之眼",
+    "zhTW": "ÿc1[防禦260/200DEF/-20LR/15LSD]\nÿc4獅鷲之眼",
     "deDE": "Greifenauge",
     "esES": "Ojo del grifo",
     "frFR": "Œil du Griffon",
@@ -19666,7 +19666,7 @@
     "jaJP": "グリフォンズ・アイ",
     "ptBR": "Olho de Grifo",
     "ruRU": "Глаз грифона",
-    "zhCN": "ÿc1[防禦260/200DEF/-20LR/15LD]\nÿc4獅鷲之眼"
+    "zhCN": "ÿc1[防禦260/200DEF/-20LR/15LSD]\nÿc4獅鷲之眼"
   },
   {
     "id": 21443,
@@ -21593,7 +21593,7 @@
     "id": 21557,
     "Key": "Nightwing's Veil",
     "enUS": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4Nightwing's Veil",
-    "zhTW": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面紗",
+    "zhTW": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面紗",
     "deDE": "Nachtschwinges Schleier",
     "esES": "Velo de alanoche",
     "frFR": "Voile de la nuit",
@@ -21604,7 +21604,7 @@
     "jaJP": "ナイトウィングのヴェール",
     "ptBR": "Véu do Asa Noturna",
     "ruRU": "Завеса ночного крыла",
-    "zhCN": "ÿc1[15CD/120EDef/20DEX/9CA]\nÿc4夜翼面紗"
+    "zhCN": "ÿc1[15CSD/120EDef/20DEX/9CA]\nÿc4夜翼面紗"
   },
   {
     "id": 21558,
@@ -21831,7 +21831,7 @@
     "id": 21571,
     "Key": "Fathom",
     "enUS": "ÿc1[30CD/40LR/40FR]\nÿc4Death's Fathom",
-    "zhTW": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深度",
+    "zhTW": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深度",
     "deDE": "Klafter des Todes",
     "esES": "Profundidad de la muerte",
     "frFR": "Profondeurs de la Mort",
@@ -21842,7 +21842,7 @@
     "jaJP": "デスズ・ファゾム",
     "ptBR": "Compreensão da Morte",
     "ruRU": "Видение смерти",
-    "zhCN": "ÿc1[30CD/40LR/40FR]\nÿc4死亡深度"
+    "zhCN": "ÿc1[30CSD/40LR/40FR]\nÿc4死亡深度"
   },
   {
     "id": 21572,
@@ -22086,7 +22086,7 @@
     "id": 21586,
     "Key": "Eschuta's temper",
     "enUS": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4Eschuta's Temper",
-    "zhTW": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾斯屈塔的憤怒",
+    "zhTW": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾斯屈塔的憤怒",
     "deDE": "Eschutas Temperament",
     "esES": "Temperamento de Eschuta",
     "frFR": "Ire d’Eschuta",
@@ -22097,7 +22097,7 @@
     "jaJP": "エシュタの癇気",
     "ptBR": "Índole de Eschuta",
     "ruRU": "Буйный нрав Эшуты",
-    "zhCN": "ÿc1[3SOR/20LD/20FD/30ENG]\nÿc4艾斯屈塔的憤怒"
+    "zhCN": "ÿc1[3SOR/20LSD/20FSD/30ENG]\nÿc4艾斯屈塔的憤怒"
   },
   {
     "id": 21587,
@@ -22698,7 +22698,7 @@
     "id": 21623,
     "Key": "Ormus' Robes",
     "enUS": "ÿc1[DEF487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4Ormus' Robes",
-    "zhTW": "ÿc1[防禦487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奧瑪斯之袍",
+    "zhTW": "ÿc1[防禦487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奧瑪斯之袍",
     "deDE": "Ormus' Gewänder",
     "esES": "Togas de Ormus",
     "frFR": "Robe d’Ormus",
@@ -22709,7 +22709,7 @@
     "jaJP": "オーマスのローブ",
     "ptBR": "Vestes de Órmus",
     "ruRU": "Одеяния Ормуса",
-    "zhCN": "ÿc1[防禦487/15CD/15LD/15FD/20DEF/15RegMana]\nÿc4奧瑪斯之袍"
+    "zhCN": "ÿc1[防禦487/15CSD/15LSD/15FSD/20DEF/15RegMana]\nÿc4奧瑪斯之袍"
   },
   {
     "id": 21624,
@@ -28019,7 +28019,7 @@
     "id": 27910,
     "Key": "Protector's Stone",
     "enUS": "Protector's Stone",
-    "zhTW": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+    "zhTW": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
     "deDE": "[ms]Stein des Beschützers",
     "esES": "[fs]Piedra del protector",
     "frFR": "Pierre du Protecteur",
@@ -28030,7 +28030,7 @@
     "jaJP": "擁護者の石",
     "ptBR": "Pedra do Protetor",
     "ruRU": "Камень покровителя",
-    "zhCN": "ÿc1[30DMG/50ED/-10PhyR/5EXP/50EG/35MF]\nÿc4保衛者的岩石"
+    "zhCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石"
   },
   {
     "id": 27911,
@@ -28223,7 +28223,7 @@
     "id": 28044,
     "Key": "Crafted Bone Break",
     "enUS": "Renewed Bone Break",
-    "zhTW": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
+    "zhTW": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨",
     "deDE": "[ms]Erneuerter Knochenbruch",
     "esES": "Rotura de huesos renovada",
     "frFR": "Briseur d’os renouvelé",
@@ -28234,7 +28234,7 @@
     "jaJP": "再発する骨食み",
     "ptBR": "Rompimento de Ossos Renovado",
     "ruRU": "Обновленный перелом костей",
-    "zhCN": "ÿc1[-10PhyR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨"
+    "zhCN": "ÿc1[-10DR|100ED/24FHR|10FRW|8ATTR/65Life|75Mana/10DR|10MDR/25MF|55EG]\nÿc4新生分筋裂骨"
   },
   {
     "id": 28045,
