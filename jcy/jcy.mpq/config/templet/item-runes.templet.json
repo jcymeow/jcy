@@ -42,12 +42,12 @@
   {
     "id": 10906,
     "Key": "r31",
-    "enUS": "{{line}}{{line}}{{formula}}{{color}}{{logo}}Jah{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "zhTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}喬{{rune}}{{num}}{{line}}{{line}}",
-    "zhCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}扎哈{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "sgCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}乔{{rune}}{{num}}{{line}}{{line}}",
-    "sgTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}喬{{rune}}{{num}}{{line}}{{line}}",
-    "bnCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}扎哈{{title}}{{rune}}{{num}}{{line}}{{line}}"
+    "enUS": "{{head1}}{{formula}}{{color}}{{logo}}Jah{{title}}{{rune}}{{num}}{{tail1}}",
+    "zhTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}喬{{rune}}{{num}}{{tail1}}",
+    "zhCN": "{{head1}}{{formula}}{{color}}{{logo}}扎哈{{title}}{{rune}}{{num}}{{tail1}}",
+    "sgCN": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}乔{{rune}}{{num}}{{tail1}}",
+    "sgTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}喬{{rune}}{{num}}{{tail1}}",
+    "bnCN": "{{head1}}{{formula}}{{color}}{{logo}}扎哈{{title}}{{rune}}{{num}}{{tail1}}"
   },
   {
     "id": 10907,
@@ -72,112 +72,112 @@
   {
     "id": 20440,
     "Key": "r33",
-    "enUS": "{{line}}{{line}}{{formula}}{{color}}{{logo}}Zod{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "zhTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}薩德{{rune}}{{num}}{{line}}{{line}}",
-    "zhCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}佐德{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "sgCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}萨德{{rune}}{{num}}{{line}}{{line}}",
-    "sgTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}薩德{{rune}}{{num}}{{line}}{{line}}",
-    "bnCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}佐德{{title}}{{rune}}{{num}}{{line}}{{line}}"
+    "enUS": "{{head1}}{{formula}}{{color}}{{logo}}Zod{{title}}{{rune}}{{num}}{{tail1}}",
+    "zhTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}薩德{{rune}}{{num}}{{tail1}}",
+    "zhCN": "{{head1}}{{formula}}{{color}}{{logo}}佐德{{title}}{{rune}}{{num}}{{tail1}}",
+    "sgCN": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}萨德{{rune}}{{num}}{{tail1}}",
+    "sgTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}薩德{{rune}}{{num}}{{tail1}}",
+    "bnCN": "{{head1}}{{formula}}{{color}}{{logo}}佐德{{title}}{{rune}}{{num}}{{tail1}}"
   },
   {
     "id": 20441,
     "Key": "r32",
-    "enUS": "{{line}}{{line}}{{formula}}{{color}}{{logo}}Cham{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "zhTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}{{line}}{{line}}",
-    "zhCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}查姆{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "sgCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}{{line}}{{line}}",
-    "sgTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}{{line}}{{line}}",
-    "bnCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}查姆{{title}}{{rune}}{{num}}{{line}}{{line}}"
+    "enUS": "{{head1}}{{formula}}{{color}}{{logo}}Cham{{title}}{{rune}}{{num}}{{tail1}}",
+    "zhTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}{{tail1}}",
+    "zhCN": "{{head1}}{{formula}}{{color}}{{logo}}查姆{{title}}{{rune}}{{num}}{{tail1}}",
+    "sgCN": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}{{tail1}}",
+    "sgTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}查姆{{rune}}{{num}}{{tail1}}",
+    "bnCN": "{{head1}}{{formula}}{{color}}{{logo}}查姆{{title}}{{rune}}{{num}}{{tail1}}"
   },
   {
     "id": 20443,
     "Key": "r30",
-    "enUS": "{{line}}{{line}}{{formula}}{{color}}{{logo}}Ber{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "zhTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}貝{{rune}}{{num}}{{line}}{{line}}",
-    "zhCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}贝{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "sgCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}贝{{rune}}{{num}}{{line}}{{line}}",
-    "sgTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}貝{{rune}}{{num}}{{line}}{{line}}",
-    "bnCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}贝{{title}}{{rune}}{{num}}{{line}}{{line}}"
+    "enUS": "{{head1}}{{formula}}{{color}}{{logo}}Ber{{title}}{{rune}}{{num}}{{tail1}}",
+    "zhTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}貝{{rune}}{{num}}{{tail1}}",
+    "zhCN": "{{head1}}{{formula}}{{color}}{{logo}}贝{{title}}{{rune}}{{num}}{{tail1}}",
+    "sgCN": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}贝{{rune}}{{num}}{{tail1}}",
+    "sgTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}貝{{rune}}{{num}}{{tail1}}",
+    "bnCN": "{{head1}}{{formula}}{{color}}{{logo}}贝{{title}}{{rune}}{{num}}{{tail1}}"
   },
   {
     "id": 20444,
     "Key": "r29",
-    "enUS": "{{line}}{{line}}{{formula}}{{color}}{{logo}}Sur{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "zhTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}{{line}}{{line}}",
-    "zhCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}瑟{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "sgCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}{{line}}{{line}}",
-    "sgTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}{{line}}{{line}}",
-    "bnCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}瑟{{title}}{{rune}}{{num}}{{line}}{{line}}"
+    "enUS": "{{head1}}{{formula}}{{color}}{{logo}}Sur{{title}}{{rune}}{{num}}{{tail1}}",
+    "zhTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}{{tail1}}",
+    "zhCN": "{{head1}}{{formula}}{{color}}{{logo}}瑟{{title}}{{rune}}{{num}}{{tail1}}",
+    "sgCN": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}{{tail1}}",
+    "sgTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}瑟{{rune}}{{num}}{{tail1}}",
+    "bnCN": "{{head1}}{{formula}}{{color}}{{logo}}瑟{{title}}{{rune}}{{num}}{{tail1}}"
   },
   {
     "id": 20445,
     "Key": "r28",
-    "enUS": "{{line}}{{line}}{{formula}}{{color}}{{logo}}Lo{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "zhTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}羅{{rune}}{{num}}{{line}}{{line}}",
-    "zhCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}罗{{title}}{{rune}}{{num}}{{line}}{{line}}",
-    "sgCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}罗{{rune}}{{num}}{{line}}{{line}}",
-    "sgTW": "{{line}}{{line}}{{formula}}{{color}}{{logo}}{{title}}羅{{rune}}{{num}}{{line}}{{line}}",
-    "bnCN": "{{line}}{{line}}{{formula}}{{color}}{{logo}}罗{{title}}{{rune}}{{num}}{{line}}{{line}}"
+    "enUS": "{{head1}}{{formula}}{{color}}{{logo}}Lo{{title}}{{rune}}{{num}}{{tail1}}",
+    "zhTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}羅{{rune}}{{num}}{{tail1}}",
+    "zhCN": "{{head1}}{{formula}}{{color}}{{logo}}罗{{title}}{{rune}}{{num}}{{tail1}}",
+    "sgCN": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}罗{{rune}}{{num}}{{tail1}}",
+    "sgTW": "{{head1}}{{formula}}{{color}}{{logo}}{{title}}羅{{rune}}{{num}}{{tail1}}",
+    "bnCN": "{{head1}}{{formula}}{{color}}{{logo}}罗{{title}}{{rune}}{{num}}{{tail1}}"
   },
   {
     "id": 20446,
     "Key": "r27",
-    "enUS": "{{line}}{{formula}}{{color}}{{logo}}Ohm{{title}}{{rune}}{{num}}{{line}}",
-    "zhTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}歐姆{{rune}}{{num}}{{line}}",
-    "zhCN": "{{line}}{{formula}}{{color}}{{logo}}欧姆{{title}}{{rune}}{{num}}{{line}}",
-    "sgCN": "{{line}}{{formula}}{{color}}{{logo}}{{title}}欧姆{{rune}}{{num}}{{line}}",
-    "sgTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}歐姆{{rune}}{{num}}{{line}}",
-    "bnCN": "{{line}}{{formula}}{{color}}{{logo}}欧姆{{title}}{{rune}}{{num}}{{line}}"
+    "enUS": "{{head2}}{{formula}}{{color}}{{logo}}Ohm{{title}}{{rune}}{{num}}{{tail2}}",
+    "zhTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}歐姆{{rune}}{{num}}{{tail2}}",
+    "zhCN": "{{head2}}{{formula}}{{color}}{{logo}}欧姆{{title}}{{rune}}{{num}}{{tail2}}",
+    "sgCN": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}欧姆{{rune}}{{num}}{{tail2}}",
+    "sgTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}歐姆{{rune}}{{num}}{{tail2}}",
+    "bnCN": "{{head2}}{{formula}}{{color}}{{logo}}欧姆{{title}}{{rune}}{{num}}{{tail2}}"
   },
   {
     "id": 20447,
     "Key": "r26",
-    "enUS": "{{line}}{{formula}}{{color}}{{logo}}Vex{{title}}{{rune}}{{num}}{{line}}",
-    "zhTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}{{line}}",
-    "zhCN": "{{line}}{{formula}}{{color}}{{logo}}伐克斯{{title}}{{rune}}{{num}}{{line}}",
-    "sgCN": "{{line}}{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}{{line}}",
-    "sgTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}{{line}}",
-    "bnCN": "{{line}}{{formula}}{{color}}{{logo}}伐克斯{{title}}{{rune}}{{num}}{{line}}"
+    "enUS": "{{head2}}{{formula}}{{color}}{{logo}}Vex{{title}}{{rune}}{{num}}{{tail2}}",
+    "zhTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}{{tail2}}",
+    "zhCN": "{{head2}}{{formula}}{{color}}{{logo}}伐克斯{{title}}{{rune}}{{num}}{{tail2}}",
+    "sgCN": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}{{tail2}}",
+    "sgTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}伐克斯{{rune}}{{num}}{{tail2}}",
+    "bnCN": "{{head2}}{{formula}}{{color}}{{logo}}伐克斯{{title}}{{rune}}{{num}}{{tail2}}"
   },
   {
     "id": 20448,
     "Key": "r25",
-    "enUS": "{{line}}{{formula}}{{color}}{{logo}}Gul{{title}}{{rune}}{{num}}{{line}}",
-    "zhTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}古爾{{rune}}{{num}}{{line}}",
-    "zhCN": "{{line}}{{formula}}{{color}}{{logo}}古尔{{title}}{{rune}}{{num}}{{line}}",
-    "sgCN": "{{line}}{{formula}}{{color}}{{logo}}{{title}}古尔{{rune}}{{num}}{{line}}",
-    "sgTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}古爾{{rune}}{{num}}{{line}}",
-    "bnCN": "{{line}}{{formula}}{{color}}{{logo}}古尔{{title}}{{rune}}{{num}}{{line}}"
+    "enUS": "{{head2}}{{formula}}{{color}}{{logo}}Gul{{title}}{{rune}}{{num}}{{tail2}}",
+    "zhTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}古爾{{rune}}{{num}}{{tail2}}",
+    "zhCN": "{{head2}}{{formula}}{{color}}{{logo}}古尔{{title}}{{rune}}{{num}}{{tail2}}",
+    "sgCN": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}古尔{{rune}}{{num}}{{tail2}}",
+    "sgTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}古爾{{rune}}{{num}}{{tail2}}",
+    "bnCN": "{{head2}}{{formula}}{{color}}{{logo}}古尔{{title}}{{rune}}{{num}}{{tail2}}"
   },
   {
     "id": 20449,
     "Key": "r24",
-    "enUS": "{{line}}{{formula}}{{color}}{{logo}}Ist{{title}}{{rune}}{{num}}{{line}}",
-    "zhTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}{{line}}",
-    "zhCN": "{{line}}{{formula}}{{color}}{{logo}}伊司特{{title}}{{rune}}{{num}}{{line}}",
-    "sgCN": "{{line}}{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}{{line}}",
-    "sgTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}{{line}}",
-    "bnCN": "{{line}}{{formula}}{{color}}{{logo}}伊司特{{title}}{{rune}}{{num}}{{line}}"
+    "enUS": "{{head2}}{{formula}}{{color}}{{logo}}Ist{{title}}{{rune}}{{num}}{{tail2}}",
+    "zhTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}{{tail2}}",
+    "zhCN": "{{head2}}{{formula}}{{color}}{{logo}}伊司特{{title}}{{rune}}{{num}}{{tail2}}",
+    "sgCN": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}{{tail2}}",
+    "sgTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}伊司特{{rune}}{{num}}{{tail2}}",
+    "bnCN": "{{head2}}{{formula}}{{color}}{{logo}}伊司特{{title}}{{rune}}{{num}}{{tail2}}"
   },
   {
     "id": 20450,
     "Key": "r23",
-    "enUS": "{{line}}{{formula}}{{color}}{{logo}}Mal{{title}}{{rune}}{{num}}{{line}}",
-    "zhTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}馬爾{{rune}}{{num}}{{line}}",
-    "zhCN": "{{line}}{{formula}}{{color}}{{logo}}玛尔{{title}}{{rune}}{{num}}{{line}}",
-    "sgCN": "{{line}}{{formula}}{{color}}{{logo}}{{title}}马尔{{rune}}{{num}}{{line}}",
-    "sgTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}馬爾{{rune}}{{num}}{{line}}",
-    "bnCN": "{{line}}{{formula}}{{color}}{{logo}}玛尔{{title}}{{rune}}{{num}}{{line}}"
+    "enUS": "{{head2}}{{formula}}{{color}}{{logo}}Mal{{title}}{{rune}}{{num}}{{tail2}}",
+    "zhTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}馬爾{{rune}}{{num}}{{tail2}}",
+    "zhCN": "{{head2}}{{formula}}{{color}}{{logo}}玛尔{{title}}{{rune}}{{num}}{{tail2}}",
+    "sgCN": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}马尔{{rune}}{{num}}{{tail2}}",
+    "sgTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}馬爾{{rune}}{{num}}{{tail2}}",
+    "bnCN": "{{head2}}{{formula}}{{color}}{{logo}}玛尔{{title}}{{rune}}{{num}}{{tail2}}"
   },
   {
     "id": 20451,
     "Key": "r22",
-    "enUS": "{{line}}{{formula}}{{color}}{{logo}}Um{{title}}{{rune}}{{num}}{{line}}",
-    "zhTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}烏姆{{rune}}{{num}}{{line}}",
-    "zhCN": "{{line}}{{formula}}{{color}}{{logo}}乌姆{{title}}{{rune}}{{num}}{{line}}",
-    "sgCN": "{{line}}{{formula}}{{color}}{{logo}}{{title}}乌姆{{rune}}{{num}}{{line}}",
-    "sgTW": "{{line}}{{formula}}{{color}}{{logo}}{{title}}烏姆{{rune}}{{num}}{{line}}",
-    "bnCN": "{{line}}{{formula}}{{color}}{{logo}}乌姆{{title}}{{rune}}{{num}}{{line}}"
+    "enUS": "{{head2}}{{formula}}{{color}}{{logo}}Um{{title}}{{rune}}{{num}}{{tail2}}",
+    "zhTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}烏姆{{rune}}{{num}}{{tail2}}",
+    "zhCN": "{{head2}}{{formula}}{{color}}{{logo}}乌姆{{title}}{{rune}}{{num}}{{tail2}}",
+    "sgCN": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}乌姆{{rune}}{{num}}{{tail2}}",
+    "sgTW": "{{head2}}{{formula}}{{color}}{{logo}}{{title}}烏姆{{rune}}{{num}}{{tail2}}",
+    "bnCN": "{{head2}}{{formula}}{{color}}{{logo}}乌姆{{title}}{{rune}}{{num}}{{tail2}}"
   },
   {
     "id": 20452,
