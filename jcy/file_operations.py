@@ -2951,7 +2951,9 @@ class FileOperations:
             ],
             # 经验祭坛特效标识
             "7":[
+                r"data/global/excel/shrines.txt",
                 r"data/hd/overlays/common/shrine_experience.json",
+                r"data/hd/overlays/common/shrine_stamina.json",
             ],
         }
 

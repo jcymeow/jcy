@@ -135,7 +135,7 @@ shrine_resist_cold	132							1									1																										shrine_resist_
 shrine_resist_poison	133							1											1																								shrine_resist_poison	shrine_shimmer01						poisonresist																								0
 shrine_skill	134							1																																			shrine_skill	shrine_shimmer00							9	6																						0
 shrine_mana_regen	135							1																																			shrine_mana_regen	shrine_shimmer01																														0
-shrine_stamina	136							1										1																									shrine_stamina	shrine_shimmer01						stamina																								0
+shrine_stamina	136							1										1																										shrine_shimmer01						stamina																								0
 shrine_experience	137							1																																			shrine_experience	shrine_shimmer00																														0
 fenris_rage	138																																										direwolfcharged	direwolfcharged																														0
 wolf	139	3			1					1	1	1																													1										14											druid_morph	wolf_off	1	430									0
