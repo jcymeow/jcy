@@ -105,6 +105,7 @@ HIRE_SKIN_APPLY = "hire_skin_apply"
 HIRE_SKIN_REMOVE = "hire_skin_remove"
 HUD_SKIN_APPLY = "hud_skin_apply"
 HUD_SKIN4_APPLY = "hud_skin4_apply"
+HUD_SKIN5_APPLY = "hud_skin5_apply"
 
 ASSET_PATH = "AssetPath"
 
@@ -1007,4 +1008,5 @@ __all__ = [
     'HIRE_SKIN_REMOVE',
     'HUD_SKIN_APPLY',
     'HUD_SKIN4_APPLY',
+    'HUD_SKIN5_APPLY',
 ]

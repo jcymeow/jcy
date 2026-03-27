@@ -28,6 +28,7 @@ class FileOperations:
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
             HUD_SKIN_APPLY: self.modify_hud_skin,
             HUD_SKIN4_APPLY: self.modify_hud4_skin,
+            HUD_SKIN5_APPLY: self.modify_hud5_skin,
             Methods.MODIFY_HUD_PANEL_BUTTONS: self.modify_hud_panel_buttons,
             Methods.MODIFY_ASN_MARTIAL_BY_HUD: self.modify_asn_martial_by_hud,
         }
@@ -439,6 +440,78 @@ class FileOperations:
                         mp_child["fields"]["rect"]["y"] = mp_fields_rect["height"]//2 if move_down else 0
                         break
                 
+                # 7.生命/魔法球禁止点击
+                health_ball["children"] = [
+                    c for c in health_ball.get("children", [])
+                    if not (
+                        c.get("type") == "ClickCatcherWidget"
+                        and c.get("name") == "donttouch"
+                    )
+                ]
+                mana_ball["children"] = [
+                    c for c in mana_ball.get("children", [])
+                    if not (
+                        c.get("type") == "ClickCatcherWidget"
+                        and c.get("name") == "donttouch"
+                    )
+                ]
+                if dont_touch:
+                    hp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                    hp_dont_touch["fields"]["rect"]["width"] = hp_fields_rect["width"]
+                    hp_dont_touch["fields"]["rect"]["height"] = hp_fields_rect["height"]
+                    health_ball["children"].append(hp_dont_touch)
+                    mp_dont_touch = copy.deepcopy(ENTITY_DONT_TOUCH)
+                    mp_dont_touch["fields"]["rect"]["width"] = mp_fields_rect["width"]
+                    mp_dont_touch["fields"]["rect"]["height"] = mp_fields_rect["height"]
+                    mana_ball["children"].append(mp_dont_touch)
+                
+                with open(hud_path, 'w', encoding='utf-8') as f:
+                    json.dump(hud_json, f, ensure_ascii=False, indent=4)
+
+                return ok_result("apply success")
+        except Exception as e:
+            print(e)
+            return err_result(e)
+
+
+    def modify_hud5_skin(self):
+        # ---- 1/6/7 统一处理, 修改hudpanel.json ----
+        game_setting2 = jcy_config.SETTINGS.get(Function.GAME_SETTING2.value, [])
+        hide_quest = "1" in game_setting2
+        dont_touch = "7" in game_setting2
+
+        try:
+            hud_json = None
+            hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelhd.json")
+            if os.path.exists(hud_path):
+                with open(hud_path, 'r', encoding='utf-8') as f:
+                    hud_json = json.load(f)
+
+                # 1.隐藏任务按钮
+                hud_json["children"] = [
+                    c for c in hud_json.get("children", [])
+                    if not (
+                        c.get("type") == "LevelUpButtonWidget"
+                        and c.get("name") == "QuestAlert"
+                    )
+                ]
+                if not hide_quest:
+                    hud_json["children"].append(copy.deepcopy(ENTITY_HUD_QUEST))
+
+                # 查找health_ball, mana_ball
+                health_ball = None
+                mana_ball = None
+                hp_fields_rect = None
+                mp_fields_rect = None
+                for child in hud_json.get("children", []):
+                    if "AttributeBallWidget" == child.get("type") and "HealthBall" == child.get("name"):
+                        health_ball = child
+                        hp_fields_rect = health_ball["fields"]["rect"]
+
+                    if "AttributeBallWidget" == child.get("type") and "ManaBall" == child.get("name"):
+                        mana_ball = child
+                        mp_fields_rect = mana_ball["fields"]["rect"]
+               
                 # 7.生命/魔法球禁止点击
                 health_ball["children"] = [
                     c for c in health_ball.get("children", [])
@@ -3506,6 +3579,15 @@ class FileOperations:
                         {"x": 	116.00	, "y": 	75.00	, "z": 	136.00	},
                         {"x": 	116.00	, "y": 	79.00	, "z": 	136.00	},
                         {"x": 	117.50	, "y": 	75.00	, "z": 	134.50	},
+                    ]
+                case 805:
+                    _param = [
+                        {"x": 	138.50	, "y": 	78.00	, "z": 	113.50	},
+                        {"x": 	140.00	, "y": 	78.00	, "z": 	112.00	},
+                        {"x": 	141.50	, "y": 	78.00	, "z": 	110.50	},
+                        {"x": 	135.50	, "y": 	78.00	, "z": 	116.50	},
+                        {"x": 	137.00	, "y": 	78.00	, "z": 	115.00	},
+                        {"x": 	134.00	, "y": 	78.00	, "z": 	118.00	},
                     ]
                 case _:
                     _param = [
