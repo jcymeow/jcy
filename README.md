@@ -54,6 +54,48 @@
    Handle 是一个实用工具，用于显示有关系统中任何进程的打开句柄的信息。 可以使用它查看打开了文件的程序，或查看程序的所有句柄的对象类型和名称。
 
 ## 版本
+* v1.4.7
+  更新 道具提醒 增加 掉落提示
+    掉落提示采用女武神闪光 参考 miniS MOD , 道具名称 跟随 王姨国服-本地化 翻译
+  更新 游戏设置1 开启祭坛特效
+    经验/宝石祭坛 特效
+  优化 符文-设置 大号加高
+    22#-27# 28#-33# 增加边框 参考 PY MOD
+  优化 词缀
+    冰霜技能伤害 CD -> CSD
+    火焰技能伤害 FD -> FSD
+    闪电技能伤害 LD -> LSD
+    毒素技能伤害 PD -> PSD
+    魔法技能伤害 MD -> MSD
+    降低敌人物理抗性 -PhyR -> -DR
+    冰寒吸收 CA -> CDA
+    火焰吸收 FA -> FDA
+    闪电吸收 LA -> LDA
+    魔法吸收 MA -> MDA
+    取消 戒指/项链/珠宝 的★星号
+  更新 环境-开启指引
+    A2贤者小站 小站增加方向指引细光线 from miniS MOD
+    A5尼拉塞克 小站增加方向指引细光线 from miniS MOD
+  添加 素材 HUD皮肤
+    效果图 https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/805/805.png
+    来源 https://www.inven.co.kr/board/diablo2/5842/7420
+  修改 生命/魔法读数
+    jcy\jcy.mpq\data\local\lng\strings\ui.json
+    取消抬头, 取消分母
+    原数据 
+      {
+        "id": 4165,
+        "Key": "panelhealth",
+        ...
+        "zhCN": "生命: %d / %d"
+      },
+      {
+        "id": 4166,
+        "Key": "panelmana",
+        ...
+        "zhCN": "法力: %d / %d"
+      },
+
 * v1.4.6A
   添加 素材 字体/术士皮肤
     字体文件 OPPO Sans 3.0 Medium

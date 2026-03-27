@@ -3572,12 +3572,12 @@
   {
     "id": 27679,
     "Key": "ModStrMagPierce",
-    "enUS": "-%d%% to Enemy Magic Resistance",
-    "zhTW": "敵人魔法抗性 -%d%%",
-    "zhCN": "-%d%% 敌人的魔法抗性",
-    "sgCN": "-%d%% 敌人的魔法抗性",
-    "sgTW": "敵人魔法抗性 -%d%%",
-    "bnCN": "-%d%% 敌人的魔法抗性"
+    "enUS": "-%d%% to Enemy Magic Resistance(-MR)",
+    "zhTW": "敵人魔法抗性(-MR) -%d%%",
+    "zhCN": "-%d%% 敌人的魔法抗性(-MR)",
+    "sgCN": "-%d%% 敌人的魔法抗性(-MR)",
+    "sgTW": "敵人魔法抗性(-MR) -%d%%",
+    "bnCN": "-%d%% 敌人的魔法抗性(-MR)"
   },
   {
     "id": 27865,
@@ -3592,12 +3592,12 @@
   {
     "id": 27866,
     "Key": "ModStrDamPierce",
-    "enUS": "-%d%% to Enemy Physical Damage Resistance",
-    "zhTW": "敵人物理傷害抗性 -%d%%",
-    "zhCN": "-%d%% 敌人的物理伤害抗性",
-    "sgCN": "-%d%% 敌人的物理伤害抗性",
-    "sgTW": "敵人物理傷害抗性 -%d%%",
-    "bnCN": "-%d%% 敌人的物理伤害抗性"
+    "enUS": "-%d%% to Enemy Physical Damage Resistance(-DR)",
+    "zhTW": "敵人物理傷害抗性(-DR) -%d%%",
+    "zhCN": "-%d%% 敌人的物理伤害抗性(-DR)",
+    "sgCN": "-%d%% 敌人的物理伤害抗性(-DR)",
+    "sgTW": "敵人物理傷害抗性(-DR) -%d%%",
+    "bnCN": "-%d%% 敌人的物理伤害抗性(-DR)"
   },
   {
     "id": 27888,

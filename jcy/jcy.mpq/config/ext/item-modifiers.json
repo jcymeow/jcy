@@ -1282,22 +1282,22 @@
     "ModStr5k": {
         "id": 3585,
         "Key": "ModStr5k",
-        "enUS": "Magic Absorb(MA) %+d%%",
-        "zhTW": "魔法吸收(MA) %+d%%",
-        "zhCN": "魔法伤害吸收(MA) %+d%%",
-        "sgCN": "魔法伤害吸收(MA) %+d%%",
-        "sgTW": "魔法吸收(MA) %+d%%",
-        "bnCN": "魔法伤害吸收(MA) %+d%%"
+        "enUS": "Magic Absorb(MDA) %+d%%",
+        "zhTW": "魔法吸收(MDA) %+d%%",
+        "zhCN": "魔法伤害吸收(MDA) %+d%%",
+        "sgCN": "魔法伤害吸收(MDA) %+d%%",
+        "sgTW": "魔法吸收(MDA) %+d%%",
+        "bnCN": "魔法伤害吸收(MDA) %+d%%"
     },
     "ModStr5l": {
         "id": 3586,
         "Key": "ModStr5l",
-        "enUS": "%+d Magic Absorb(MA)",
-        "zhTW": "%+d 魔法吸收(MA)",
-        "zhCN": "%+d 魔法伤害吸收(MA)",
-        "sgCN": "%+d 魔法伤害吸收(MA)",
-        "sgTW": "%+d 魔法吸收(MA)",
-        "bnCN": "%+d 魔法伤害吸收(MA)"
+        "enUS": "%+d Magic Absorb(MDA)",
+        "zhTW": "%+d 魔法吸收(MDA)",
+        "zhCN": "%+d 魔法伤害吸收(MDA)",
+        "sgCN": "%+d 魔法伤害吸收(MDA)",
+        "sgTW": "%+d 魔法吸收(MDA)",
+        "bnCN": "%+d 魔法伤害吸收(MDA)"
     },
     "ModStr5m": {
         "id": 3587,

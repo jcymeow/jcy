@@ -2179,7 +2179,7 @@
     "id": 3585,
     "Key": "ModStr5k",
     "enUS": "Magic Absorb(MA) %+d%%",
-    "zhTW": "魔法吸收(MA) %+d%%",
+    "zhTW": "魔法吸收(MDA) %+d%%",
     "deDE": "Magieabsorption %+d%%",
     "esES": "%+d%% de absorción de magia",
     "frFR": "Absorption de la Magie : %+d%%",
@@ -2190,13 +2190,13 @@
     "jaJP": "魔法吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Magia",
     "ruRU": "%+d%% к поглощению магического урона",
-    "zhCN": "魔法吸收(MA) %+d%%"
+    "zhCN": "魔法吸收(MDA) %+d%%"
   },
   {
     "id": 3586,
     "Key": "ModStr5l",
     "enUS": "%+d Magic Absorb(MA)",
-    "zhTW": "%+d 魔法吸收(MA)",
+    "zhTW": "%+d 魔法吸收(MDA)",
     "deDE": "%+d Magieabsorption",
     "esES": "%+d de absorción de magia",
     "frFR": "%+d à l’absorption de la Magie",
@@ -2207,7 +2207,7 @@
     "jaJP": "魔法吸収（%+d）",
     "ptBR": "%+d de Absorve Magia",
     "ruRU": "%+d поглощаемого магического урона",
-    "zhCN": "%+d 魔法吸收(MA)"
+    "zhCN": "%+d 魔法吸收(MDA)"
   },
   {
     "id": 3587,

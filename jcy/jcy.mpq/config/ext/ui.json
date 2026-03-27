@@ -3304,21 +3304,21 @@
     },
     "panelhealth": {
         "Key": "panelhealth",
-        "enUS": "%d / %d",
-        "zhCN": "生命: %d / %d",
-        "zhTW": "%d / %d",
-        "sgCN": "%d / %d",
-        "sgTW": "%d / %d",
-        "bnCN": "生命: %d / %d"
+        "enUS": "%d",
+        "zhCN": "%d",
+        "zhTW": "%d",
+        "sgCN": "%d",
+        "sgTW": "%d",
+        "bnCN": "%d"
     },
     "panelmana": {
         "Key": "panelmana",
-        "enUS": "%d / %d",
-        "zhCN": "法力: %d / %d",
-        "zhTW": "%d / %d",
-        "sgCN": "%d / %d",
-        "sgTW": "%d / %d",
-        "bnCN": "法力: %d / %d"
+        "enUS": "%d",
+        "zhCN": "%d",
+        "zhTW": "%d",
+        "sgCN": "%d",
+        "sgTW": "%d",
+        "bnCN": "%d"
     },
     "panelmini": {
         "Key": "panelmini",
