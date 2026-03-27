@@ -173,7 +173,7 @@ class FeatureConfig:
                             "fid": Function.ENABLE_POINTER.value,
                             "type": CHECK,
                             "text": "环境-开启指引",
-                            "colspan": 70,
+                            "colspan": 100,
                             "params": {
                                 "3": "A1兵营",
                                 "4": "A2贤者小站",

@@ -2367,6 +2367,9 @@ class FileOperations:
         """修改A5尼拉塞克指引"""
 
         _files = [
+            r"data/hd/env/preset/expansion/wildtemple/tempnwway.json",
+            r"data/hd/env/preset/expansion/wildtemple/tempseway.json",
+            r"data/hd/env/preset/expansion/wildtemple/tempswway.json",
             r"data/hd/env/preset/expansion/wildtemple/nihle.json",
             r"data/hd/env/preset/expansion/wildtemple/nihln.json",
             r"data/hd/env/preset/expansion/wildtemple/nihls.json",
