@@ -2877,169 +2877,33 @@
         },
         {
             "type": "Entity",
-            "name": "transform_entrance_rune",
+            "name": "jcy_entity_pointer",
             "id": 9999999666,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
                     "name": "transform_entrance_rune",
                     "position": {
-                        "x": 70,
-                        "y": 17,
-                        "z": 40
+                        "x": 29.7,
+                        "y": 2,
+                        "z": 60.3
                     },
                     "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
                     },
                     "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
                     },
                     "inheritOnlyPosition": false
                 },
                 {
                     "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_1/vfx_arcanerune_1.particles",
-                    "hardKillOnDestroy": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "transform_entrance_rune",
-            "id": 9999999666,
-            "components": [
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "transform_entrance_rune",
-                    "position": {
-                        "x": 60,
-                        "y": 18,
-                        "z": 40
-                    },
-                    "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_3/vfx_arcanerune_3.particles",
-                    "hardKillOnDestroy": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "transform_entrance_rune",
-            "id": 9999999666,
-            "components": [
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "transform_entrance_rune",
-                    "position": {
-                        "x": 50,
-                        "y": 18,
-                        "z": 40
-                    },
-                    "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
-                    "hardKillOnDestroy": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "transform_entrance_rune",
-            "id": 9999999666,
-            "components": [
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "transform_entrance_rune",
-                    "position": {
-                        "x": 40,
-                        "y": 18,
-                        "z": 40
-                    },
-                    "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_7/vfx_arcanerune_7.particles",
-                    "hardKillOnDestroy": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "transform_entrance_rune",
-            "id": 9999999666,
-            "components": [
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "transform_entrance_rune",
-                    "position": {
-                        "x": 40,
-                        "y": 17,
-                        "z": 70
-                    },
-                    "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
+                    "name": "vfx_arcanerune",
                     "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_4/vfx_arcanerune_4.particles",
                     "hardKillOnDestroy": false
                 }
@@ -3047,33 +2911,67 @@
         },
         {
             "type": "Entity",
-            "name": "transform_entrance_rune",
+            "name": "jcy_entity_pointer",
             "id": 9999999666,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
                     "name": "transform_entrance_rune",
                     "position": {
-                        "x": 40,
-                        "y": 18,
-                        "z": 60
+                        "x": 49.7,
+                        "y": 2,
+                        "z": 30.3
                     },
                     "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
                     },
                     "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
                     },
                     "inheritOnlyPosition": false
                 },
                 {
                     "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
+                    "name": "vfx_arcanerune",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_3/vfx_arcanerune_3.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_entrance_rune",
+                    "position": {
+                        "x": 29.7,
+                        "y": 2,
+                        "z": 50.3
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_arcanerune",
                     "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_2/vfx_arcanerune_2.particles",
                     "hardKillOnDestroy": false
                 }
@@ -3081,45 +2979,378 @@
         },
         {
             "type": "Entity",
-            "name": "transform_entrance_rune",
+            "name": "jcy_entity_pointer",
             "id": 9999999666,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
                     "name": "transform_entrance_rune",
                     "position": {
-                        "x": 40,
-                        "y": 18,
-                        "z": 50
+                        "x": 59.7,
+                        "y": 2,
+                        "z": 30.3
                     },
                     "orientation": {
-                        "x": 0.5,
-                        "y": 0.0,
-                        "z": 0.5,
-                        "w": 0.7071
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
                     },
                     "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
                     },
                     "inheritOnlyPosition": false
                 },
                 {
                     "type": "VfxDefinitionComponent",
-                    "name": "vfx_will_entrance_rune",
+                    "name": "vfx_arcanerune",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_1/vfx_arcanerune_1.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_entrance_rune",
+                    "position": {
+                        "x": 39.7,
+                        "y": 2,
+                        "z": 30.3
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_arcanerune",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_entrance_rune",
+                    "position": {
+                        "x": 29.7,
+                        "y": 2,
+                        "z": 40.3
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_arcanerune",
                     "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_6/vfx_arcanerune_6.particles",
                     "hardKillOnDestroy": false
                 }
             ]
         },
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":30,"y":5,"z":30},"orientation":{"x":0,"y":0,"z":0,"w":1},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]},
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":30,"y":5,"z":38},"orientation":{"x":0.2706,"y":0,"z":0.2706,"w":0.9239},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]},
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":30,"y":5,"z":48},"orientation":{"x":0.3725,"y":0,"z":0.3725,"w":0.85},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]},
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":30,"y":5,"z":55},"orientation":{"x":0.5,"y":0,"z":0.5,"w":0.7071},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]},
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":38,"y":5,"z":30},"orientation":{"x":0.2706,"y":0,"z":0.2706,"w":-0.9239},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]},
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":48,"y":5,"z":30},"orientation":{"x":0.4243,"y":0,"z":0.4243,"w":-0.8},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]},
-{"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_thin_light","position":{"x":55,"y":5,"z":30},"orientation":{"x":0.5,"y":0,"z":0.5,"w":-0.7071},"scale":{"x":1,"y":1,"z":1},"inheritOnlyPosition":false},{"type":"VfxDefinitionComponent","name": "vfx_thin_light","filename":"data/hd/vfx2/particles/common/light_thin.particles","hardKillOnDestroy":false}]}
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_entrance_rune",
+                    "position": {
+                        "x": 29.7,
+                        "y": 2,
+                        "z": 30.3
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_arcanerune",
+                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_7/vfx_arcanerune_7.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 30,
+                        "y": 5,
+                        "z": 30
+                    },
+                    "orientation": {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 30,
+                        "y": 5,
+                        "z": 38
+                    },
+                    "orientation": {
+                        "x": 0.2706,
+                        "y": 0,
+                        "z": 0.2706,
+                        "w": 0.9239
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 30,
+                        "y": 5,
+                        "z": 48
+                    },
+                    "orientation": {
+                        "x": 0.3725,
+                        "y": 0,
+                        "z": 0.3725,
+                        "w": 0.85
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 30,
+                        "y": 5,
+                        "z": 55
+                    },
+                    "orientation": {
+                        "x": 0.5,
+                        "y": 0,
+                        "z": 0.5,
+                        "w": 0.7071
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 38,
+                        "y": 5,
+                        "z": 30
+                    },
+                    "orientation": {
+                        "x": 0.2706,
+                        "y": 0,
+                        "z": 0.2706,
+                        "w": -0.9239
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 48,
+                        "y": 5,
+                        "z": 30
+                    },
+                    "orientation": {
+                        "x": 0.4243,
+                        "y": 0,
+                        "z": 0.4243,
+                        "w": -0.8
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "jcy_entity_pointer",
+            "id": 9999999666,
+            "components": [
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "transform_thin_light",
+                    "position": {
+                        "x": 55,
+                        "y": 5,
+                        "z": 30
+                    },
+                    "orientation": {
+                        "x": 0.5,
+                        "y": 0,
+                        "z": 0.5,
+                        "w": -0.7071
+                    },
+                    "scale": {
+                        "x": 1,
+                        "y": 1,
+                        "z": 1
+                    },
+                    "inheritOnlyPosition": false
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_thin_light",
+                    "filename": "data/hd/vfx2/particles/common/light_thin.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        }
     ],
     "terrain": {
         "type": "Entity",
