@@ -18959,7 +18959,8 @@
         "zhCN": "瘴气弹",
         "zhTW": "瘴氣彈",
         "sgCN": "瘴气弹",
-        "sgTW": "瘴氣彈"
+        "sgTW": "瘴氣彈",
+        "bnCN": "瘴气弹"
     },
     "MiasmaBoltShortDesc": {
         "Key": "MiasmaBoltShortDesc",
@@ -18967,7 +18968,8 @@
         "zhCN": "发射一枚黑暗弹丸，释放一片熵之云雾",
         "zhTW": "發射會釋放出無序能量雲霧的黑暗魔彈",
         "sgCN": "发射一枚黑暗弹丸，释放一片熵之云雾",
-        "sgTW": "發射會釋放出無序能量雲霧的黑暗魔彈"
+        "sgTW": "發射會釋放出無序能量雲霧的黑暗魔彈",
+        "bnCN": "发射一枚黑暗弹丸，释放一片熵之云雾"
     },
     "MiasmaBoltLongDesc": {
         "Key": "MiasmaBoltLongDesc",
@@ -18975,7 +18977,8 @@
         "zhCN": "发射一枚黑暗弹丸，释放一片熵之云雾",
         "zhTW": "發射會釋放出無序能量雲霧的黑暗魔彈",
         "sgCN": "发射一枚黑暗弹丸，释放一片熵之云雾",
-        "sgTW": "發射會釋放出無序能量雲霧的黑暗魔彈"
+        "sgTW": "發射會釋放出無序能量雲霧的黑暗魔彈",
+        "bnCN": "发射一枚黑暗弹丸，释放一片熵之云雾"
     },
     "MiasmaBoltAN": {
         "Key": "MiasmaBoltAN",
@@ -18983,7 +18986,8 @@
         "zhCN": "瘴气弹",
         "zhTW": "瘴氣彈",
         "sgCN": "瘴气弹",
-        "sgTW": "瘴氣彈"
+        "sgTW": "瘴氣彈",
+        "bnCN": "瘴气弹"
     },
     "LethargySigilName": {
         "Key": "LethargySigilName",
@@ -18991,7 +18995,8 @@
         "zhCN": "符徽: 迟缓",
         "zhTW": "咒印：昏沉",
         "sgCN": "符徽: 迟缓",
-        "sgTW": "咒印：昏沉"
+        "sgTW": "咒印：昏沉",
+        "bnCN": "符徽: 迟缓"
     },
     "LethargySigilShortDesc": {
         "Key": "LethargySigilShortDesc",
@@ -18999,7 +19004,8 @@
         "zhCN": "在地面放置符徽，减缓并削弱敌人",
         "zhTW": "在地上放置一個咒印，緩速並削弱敵人",
         "sgCN": "在地面放置符徽，减缓并削弱敌人",
-        "sgTW": "在地上放置一個咒印，緩速並削弱敵人"
+        "sgTW": "在地上放置一個咒印，緩速並削弱敵人",
+        "bnCN": "在地面放置符徽，减缓并削弱敌人"
     },
     "LethargySigilLongDesc": {
         "Key": "LethargySigilLongDesc",
@@ -19007,7 +19013,8 @@
         "zhCN": "在地面放置符徽，减缓并削弱敌人",
         "zhTW": "在地上放置一個咒印，緩速並削弱敵人",
         "sgCN": "在地面放置符徽，减缓并削弱敌人",
-        "sgTW": "在地上放置一個咒印，緩速並削弱敵人"
+        "sgTW": "在地上放置一個咒印，緩速並削弱敵人",
+        "bnCN": "在地面放置符徽，减缓并削弱敌人"
     },
     "LethargySigilAN": {
         "Key": "LethargySigilAN",
@@ -19015,7 +19022,8 @@
         "zhCN": "符徽: 迟缓",
         "zhTW": "咒印：昏沉",
         "sgCN": "符徽: 迟缓",
-        "sgTW": "咒印：昏沉"
+        "sgTW": "咒印：昏沉",
+        "bnCN": "符徽: 迟缓"
     },
     "RingOfFireName": {
         "Key": "RingOfFireName",
@@ -19023,7 +19031,8 @@
         "zhCN": "火焰之环",
         "zhTW": "火焰之環",
         "sgCN": "火焰之环",
-        "sgTW": "火焰之環"
+        "sgTW": "火焰之環",
+        "bnCN": "火焰之环"
     },
     "RingOfFireShortDesc": {
         "Key": "RingOfFireShortDesc",
@@ -19031,7 +19040,8 @@
         "zhCN": "向四面八方释放扩散地狱烈火\n将敌人击退",
         "zhTW": "朝所有方向釋放一道持續擴張的地獄火，將敵人擊退",
         "sgCN": "向四面八方释放扩散地狱烈火\n将敌人击退",
-        "sgTW": "朝所有方向釋放一道持續擴張的地獄火，將敵人擊退"
+        "sgTW": "朝所有方向釋放一道持續擴張的地獄火，將敵人擊退",
+        "bnCN": "向四面八方释放扩散地狱烈火\n将敌人击退"
     },
     "RingOfFireLongDesc": {
         "Key": "RingOfFireLongDesc",
@@ -19039,7 +19049,8 @@
         "zhCN": "向四面八方释放扩散地狱烈火\n将敌人击退",
         "zhTW": "朝所有方向釋放一道持續擴張的地獄火，將敵人擊退",
         "sgCN": "向四面八方释放扩散地狱烈火\n将敌人击退",
-        "sgTW": "朝所有方向釋放一道持續擴張的地獄火，將敵人擊退"
+        "sgTW": "朝所有方向釋放一道持續擴張的地獄火，將敵人擊退",
+        "bnCN": "向四面八方释放扩散地狱烈火\n将敌人击退"
     },
     "RingOfFireAN": {
         "Key": "RingOfFireAN",
@@ -19047,7 +19058,8 @@
         "zhCN": "火焰之环",
         "zhTW": "火焰之環",
         "sgCN": "火焰之环",
-        "sgTW": "火焰之環"
+        "sgTW": "火焰之環",
+        "bnCN": "火焰之环"
     },
     "RancorSigilName": {
         "Key": "RancorSigilName",
@@ -19055,7 +19067,8 @@
         "zhCN": "符徽: 怨恨",
         "zhTW": "咒印：冤仇",
         "sgCN": "符徽: 怨恨",
-        "sgTW": "咒印：冤仇"
+        "sgTW": "咒印：冤仇",
+        "bnCN": "符徽: 怨恨"
     },
     "RancorSigilShortDesc": {
         "Key": "RancorSigilShortDesc",
@@ -19063,7 +19076,8 @@
         "zhCN": "在地面放置符徽，使进入者激怒并有几率\n让敌人互相攻击",
         "zhTW": "在地上放置一個咒印，使進入的目標陷入狂怒，\n且敵人有機率互相攻擊",
         "sgCN": "在地面放置符徽，使进入者激怒并有几率\n让敌人互相攻击",
-        "sgTW": "在地上放置一個咒印，使進入的目標陷入狂怒，\n且敵人有機率互相攻擊"
+        "sgTW": "在地上放置一個咒印，使進入的目標陷入狂怒，\n且敵人有機率互相攻擊",
+        "bnCN": "在地面放置符徽，使进入者激怒并有几率\n让敌人互相攻击"
     },
     "RancorSigilLongDesc": {
         "Key": "RancorSigilLongDesc",
@@ -19071,7 +19085,8 @@
         "zhCN": "在地面放置符徽，使进入者激怒并有几率\n让敌人互相攻击",
         "zhTW": "在地上放置一個咒印，使進入的目標陷入狂怒，\n且敵人有機率互相攻擊",
         "sgCN": "在地面放置符徽，使进入者激怒并有几率\n让敌人互相攻击",
-        "sgTW": "在地上放置一個咒印，使進入的目標陷入狂怒，\n且敵人有機率互相攻擊"
+        "sgTW": "在地上放置一個咒印，使進入的目標陷入狂怒，\n且敵人有機率互相攻擊",
+        "bnCN": "在地面放置符徽，使进入者激怒并有几率\n让敌人互相攻击"
     },
     "RancorSigilAN": {
         "Key": "RancorSigilAN",
@@ -19079,7 +19094,8 @@
         "zhCN": "符徽: 怨恨",
         "zhTW": "咒印：冤仇",
         "sgCN": "符徽: 怨恨",
-        "sgTW": "咒印：冤仇"
+        "sgTW": "咒印：冤仇",
+        "bnCN": "符徽: 怨恨"
     },
     "EnhancedEntropyName": {
         "Key": "EnhancedEntropyName",
@@ -19087,7 +19103,8 @@
         "zhCN": "强化之熵",
         "zhTW": "增強混亂",
         "sgCN": "强化之熵",
-        "sgTW": "增強混亂"
+        "sgTW": "增強混亂",
+        "bnCN": "强化之熵"
     },
     "EnhancedEntropyShortDesc": {
         "Key": "EnhancedEntropyShortDesc",
@@ -19095,7 +19112,8 @@
         "zhCN": "被动 - 提升你对暗影魔法\n熵力的掌控",
         "zhTW": "被動 - 強化你對暗影魔法混亂之力的精通能力",
         "sgCN": "被动 - 提升你对暗影魔法\n熵力的掌控",
-        "sgTW": "被動 - 強化你對暗影魔法混亂之力的精通能力"
+        "sgTW": "被動 - 強化你對暗影魔法混亂之力的精通能力",
+        "bnCN": "被动 - 提升你对暗影魔法\n熵力的掌控"
     },
     "EnhancedEntropyLongDesc": {
         "Key": "EnhancedEntropyLongDesc",
@@ -19103,7 +19121,8 @@
         "zhCN": "被动 - 提升你对暗影魔法\n熵力的掌控",
         "zhTW": "被動 - 強化你對暗影魔法混亂之力的精通能力",
         "sgCN": "被动 - 提升你对暗影魔法\n熵力的掌控",
-        "sgTW": "被動 - 強化你對暗影魔法混亂之力的精通能力"
+        "sgTW": "被動 - 強化你對暗影魔法混亂之力的精通能力",
+        "bnCN": "被动 - 提升你对暗影魔法\n熵力的掌控"
     },
     "EnhancedEntropyAN": {
         "Key": "EnhancedEntropyAN",
@@ -19111,7 +19130,8 @@
         "zhCN": "强化之熵",
         "zhTW": "增強混亂",
         "sgCN": "强化之熵",
-        "sgTW": "增強混亂"
+        "sgTW": "增強混亂",
+        "bnCN": "强化之熵"
     },
     "FlameWaveName": {
         "Key": "FlameWaveName",
@@ -19119,7 +19139,8 @@
         "zhCN": "烈焰波",
         "zhTW": "烈焰湧浪",
         "sgCN": "烈焰波",
-        "sgTW": "烈焰湧浪"
+        "sgTW": "烈焰湧浪",
+        "bnCN": "烈焰波"
     },
     "FlameWaveShortDesc": {
         "Key": "FlameWaveShortDesc",
@@ -19127,7 +19148,8 @@
         "zhCN": "释放一道滚滚火墙\n燃烧经过的地面",
         "zhTW": "施放一道翻湧的火焰之牆，燃燒其經過的地面",
         "sgCN": "释放一道滚滚火墙\n燃烧经过的地面",
-        "sgTW": "施放一道翻湧的火焰之牆，燃燒其經過的地面"
+        "sgTW": "施放一道翻湧的火焰之牆，燃燒其經過的地面",
+        "bnCN": "释放一道滚滚火墙\n燃烧经过的地面"
     },
     "FlameWaveLongDesc": {
         "Key": "FlameWaveLongDesc",
@@ -19135,7 +19157,8 @@
         "zhCN": "释放一道滚滚火墙\n燃烧经过的地面",
         "zhTW": "施放一道翻湧的火焰之牆，燃燒其經過的地面",
         "sgCN": "释放一道滚滚火墙\n燃烧经过的地面",
-        "sgTW": "施放一道翻湧的火焰之牆，燃燒其經過的地面"
+        "sgTW": "施放一道翻湧的火焰之牆，燃燒其經過的地面",
+        "bnCN": "释放一道滚滚火墙\n燃烧经过的地面"
     },
     "FlameWaveAN": {
         "Key": "FlameWaveAN",
@@ -19143,7 +19166,8 @@
         "zhCN": "烈焰波",
         "zhTW": "烈焰湧浪",
         "sgCN": "烈焰波",
-        "sgTW": "烈焰湧浪"
+        "sgTW": "烈焰湧浪",
+        "bnCN": "烈焰波"
     },
     "MiasmaChainName": {
         "Key": "MiasmaChainName",
@@ -19151,7 +19175,8 @@
         "zhCN": "瘴气锁链",
         "zhTW": "瘴氣鎖鏈",
         "sgCN": "瘴气锁链",
-        "sgTW": "瘴氣鎖鏈"
+        "sgTW": "瘴氣鎖鏈",
+        "bnCN": "瘴气锁链"
     },
     "MiasmaChainShortDesc": {
         "Key": "MiasmaChainShortDesc",
@@ -19159,7 +19184,8 @@
         "zhCN": "召唤暗影锁链\n在你与目标间释放窒息瘴气",
         "zhTW": "召喚暗影鎖鏈，在你和目標之間散發出窒息瘴氣",
         "sgCN": "召唤暗影锁链\n在你与目标间释放窒息瘴气",
-        "sgTW": "召喚暗影鎖鏈，在你和目標之間散發出窒息瘴氣"
+        "sgTW": "召喚暗影鎖鏈，在你和目標之間散發出窒息瘴氣",
+        "bnCN": "召唤暗影锁链\n在你与目标间释放窒息瘴气"
     },
     "MiasmaChainLongDesc": {
         "Key": "MiasmaChainLongDesc",
@@ -19167,7 +19193,8 @@
         "zhCN": "召唤暗影锁链\n在你与目标间释放窒息瘴气",
         "zhTW": "召喚暗影鎖鏈，在你和目標之間散發出窒息瘴氣",
         "sgCN": "召唤暗影锁链\n在你与目标间释放窒息瘴气",
-        "sgTW": "召喚暗影鎖鏈，在你和目標之間散發出窒息瘴氣"
+        "sgTW": "召喚暗影鎖鏈，在你和目標之間散發出窒息瘴氣",
+        "bnCN": "召唤暗影锁链\n在你与目标间释放窒息瘴气"
     },
     "MiasmaChainAN": {
         "Key": "MiasmaChainAN",
@@ -19175,7 +19202,8 @@
         "zhCN": "瘴气锁链",
         "zhTW": "瘴氣鎖鏈",
         "sgCN": "瘴气锁链",
-        "sgTW": "瘴氣鎖鏈"
+        "sgTW": "瘴氣鎖鏈",
+        "bnCN": "瘴气锁链"
     },
     "DeathSigilName": {
         "Key": "DeathSigilName",
@@ -19183,7 +19211,8 @@
         "zhCN": "符徽: 死亡",
         "zhTW": "咒印：死亡",
         "sgCN": "符徽: 死亡",
-        "sgTW": "咒印：死亡"
+        "sgTW": "咒印：死亡",
+        "bnCN": "符徽: 死亡"
     },
     "DeathSigilShortDesc": {
         "Key": "DeathSigilShortDesc",
@@ -19191,7 +19220,8 @@
         "zhCN": "在地面放置符徽\n使受伤的敌人加速殒灭并引发剧烈爆炸",
         "zhTW": "在地上放置一個咒印，使受傷的敵人\n在猛烈爆炸中加速死亡",
         "sgCN": "在地面放置符徽\n使受伤的敌人加速殒灭并引发剧烈爆炸",
-        "sgTW": "在地上放置一個咒印，使受傷的敵人\n在猛烈爆炸中加速死亡"
+        "sgTW": "在地上放置一個咒印，使受傷的敵人\n在猛烈爆炸中加速死亡",
+        "bnCN": "在地面放置符徽\n使受伤的敌人加速殒灭并引发剧烈爆炸"
     },
     "DeathSigilLongDesc": {
         "Key": "DeathSigilLongDesc",
@@ -19199,7 +19229,8 @@
         "zhCN": "在地面放置符徽\n使受伤的敌人加速殒灭并引发剧烈爆炸",
         "zhTW": "在地上放置一個咒印，使受傷的敵人\n在猛烈爆炸中加速死亡",
         "sgCN": "在地面放置符徽\n使受伤的敌人加速殒灭并引发剧烈爆炸",
-        "sgTW": "在地上放置一個咒印，使受傷的敵人\n在猛烈爆炸中加速死亡"
+        "sgTW": "在地上放置一個咒印，使受傷的敵人\n在猛烈爆炸中加速死亡",
+        "bnCN": "在地面放置符徽\n使受伤的敌人加速殒灭并引发剧烈爆炸"
     },
     "DeathSigilAN": {
         "Key": "DeathSigilAN",
@@ -19207,7 +19238,8 @@
         "zhCN": "符徽: 死亡",
         "zhTW": "咒印：死亡",
         "sgCN": "符徽: 死亡",
-        "sgTW": "咒印：死亡"
+        "sgTW": "咒印：死亡",
+        "bnCN": "符徽: 死亡"
     },
     "ApocalypseName": {
         "Key": "ApocalypseName",
@@ -19215,7 +19247,8 @@
         "zhCN": "末日",
         "zhTW": "天啟末日",
         "sgCN": "末日",
-        "sgTW": "天啟末日"
+        "sgTW": "天啟末日",
+        "bnCN": "末日"
     },
     "ApocalypseShortDesc": {
         "Key": "ApocalypseShortDesc",
@@ -19223,7 +19256,8 @@
         "zhCN": "创造一个五芒星，将所有敌人吞没在地狱烈火中\n降低敌人对末日伤害的火焰抗性",
         "zhTW": "創造一個五芒星，以地獄火吞噬所有敵人\n降低敵人對於天啟末日傷害的火焰抗性",
         "sgCN": "创造一个五芒星，将所有敌人吞没在地狱烈火中\n降低敌人对末日伤害的火焰抗性",
-        "sgTW": "創造一個五芒星，以地獄火吞噬所有敵人\n降低敵人對於天啟末日傷害的火焰抗性"
+        "sgTW": "創造一個五芒星，以地獄火吞噬所有敵人\n降低敵人對於天啟末日傷害的火焰抗性",
+        "bnCN": "创造一个五芒星，将所有敌人吞没在地狱烈火中\n降低敌人对末日伤害的火焰抗性"
     },
     "ApocalypseLongDesc": {
         "Key": "ApocalypseLongDesc",
@@ -19231,7 +19265,8 @@
         "zhCN": "创造一个五芒星，将所有敌人吞没在地狱烈火中\n降低敌人对末日伤害的火焰抗性",
         "zhTW": "創造一個五芒星，以地獄火吞噬所有敵人\n降低敵人對於天啟末日傷害的火焰抗性",
         "sgCN": "创造一个五芒星，将所有敌人吞没在地狱烈火中\n降低敌人对末日伤害的火焰抗性",
-        "sgTW": "創造一個五芒星，以地獄火吞噬所有敵人\n降低敵人對於天啟末日傷害的火焰抗性"
+        "sgTW": "創造一個五芒星，以地獄火吞噬所有敵人\n降低敵人對於天啟末日傷害的火焰抗性",
+        "bnCN": "创造一个五芒星，将所有敌人吞没在地狱烈火中\n降低敌人对末日伤害的火焰抗性"
     },
     "ApocalypseAN": {
         "Key": "ApocalypseAN",
@@ -19239,7 +19274,8 @@
         "zhCN": "末日",
         "zhTW": "天啟末日",
         "sgCN": "末日",
-        "sgTW": "天啟末日"
+        "sgTW": "天啟末日",
+        "bnCN": "末日"
     },
     "AbyssName": {
         "Key": "AbyssName",
@@ -19247,7 +19283,8 @@
         "zhCN": "深渊",
         "zhTW": "深淵裂口",
         "sgCN": "深渊",
-        "sgTW": "深淵裂口"
+        "sgTW": "深淵裂口",
+        "bnCN": "深渊"
     },
     "AbyssShortDesc": {
         "Key": "AbyssShortDesc",
@@ -19255,7 +19292,8 @@
         "zhCN": "在现实结构间撕裂出一道裂口，\n将敌人拉近后猛烈坍塌",
         "zhTW": "在現實空間中撕開一道裂口，將敵人拉近後劇烈崩塌",
         "sgCN": "在现实结构间撕裂出一道裂口，\n将敌人拉近后猛烈坍塌",
-        "sgTW": "在現實空間中撕開一道裂口，將敵人拉近後劇烈崩塌"
+        "sgTW": "在現實空間中撕開一道裂口，將敵人拉近後劇烈崩塌",
+        "bnCN": "在现实结构间撕裂出一道裂口，\n将敌人拉近后猛烈坍塌"
     },
     "AbyssLongDesc": {
         "Key": "AbyssLongDesc",
@@ -19263,7 +19301,8 @@
         "zhCN": "在现实结构间撕裂出一道裂口，\n将敌人拉近后猛烈坍塌",
         "zhTW": "在現實空間中撕開一道裂口，將敵人拉近後劇烈崩塌",
         "sgCN": "在现实结构间撕裂出一道裂口，\n将敌人拉近后猛烈坍塌",
-        "sgTW": "在現實空間中撕開一道裂口，將敵人拉近後劇烈崩塌"
+        "sgTW": "在現實空間中撕開一道裂口，將敵人拉近後劇烈崩塌",
+        "bnCN": "在现实结构间撕裂出一道裂口，\n将敌人拉近后猛烈坍塌"
     },
     "AbyssAN": {
         "Key": "AbyssAN",
@@ -19271,7 +19310,8 @@
         "zhCN": "深渊",
         "zhTW": "深淵裂口",
         "sgCN": "深渊",
-        "sgTW": "深淵裂口"
+        "sgTW": "深淵裂口",
+        "bnCN": "深渊"
     },
     "LevitateName": {
         "Key": "LevitateName",
@@ -19279,7 +19319,8 @@
         "zhCN": "悬浮精通",
         "zhTW": "懸浮精通",
         "sgCN": "悬浮精通",
-        "sgTW": "懸浮精通"
+        "sgTW": "懸浮精通",
+        "bnCN": "悬浮精通"
     },
     "LevitateShortDesc": {
         "Key": "LevitateShortDesc",
@@ -19287,7 +19328,8 @@
         "zhCN": "被动 - 提升你用意念悬浮\n装备武器的能力",
         "zhTW": "被動 - 強化你用意念使裝備的武器懸浮的能力",
         "sgCN": "被动 - 提升你用意念悬浮\n装备武器的能力",
-        "sgTW": "被動 - 強化你用意念使裝備的武器懸浮的能力"
+        "sgTW": "被動 - 強化你用意念使裝備的武器懸浮的能力",
+        "bnCN": "被动 - 提升你用意念悬浮\n装备武器的能力"
     },
     "LevitateLongDesc": {
         "Key": "LevitateLongDesc",
@@ -19295,7 +19337,8 @@
         "zhCN": "被动 - 提升你用意念悬浮\n装备武器的能力",
         "zhTW": "被動 - 強化你用意念使裝備的武器懸浮的能力",
         "sgCN": "被动 - 提升你用意念悬浮\n装备武器的能力",
-        "sgTW": "被動 - 強化你用意念使裝備的武器懸浮的能力"
+        "sgTW": "被動 - 強化你用意念使裝備的武器懸浮的能力",
+        "bnCN": "被动 - 提升你用意念悬浮\n装备武器的能力"
     },
     "LevitateAN": {
         "Key": "LevitateAN",
@@ -19303,7 +19346,8 @@
         "zhCN": "悬浮精通",
         "zhTW": "懸浮精通",
         "sgCN": "悬浮精通",
-        "sgTW": "懸浮精通"
+        "sgTW": "懸浮精通",
+        "bnCN": "悬浮精通"
     },
     "PsychicWardName": {
         "Key": "PsychicWardName",
@@ -19311,7 +19355,8 @@
         "zhCN": "会心守御",
         "zhTW": "靈能護盾",
         "sgCN": "会心守御",
-        "sgTW": "靈能護盾"
+        "sgTW": "靈能護盾",
+        "bnCN": "会心守御"
     },
     "PsychicWardShortDesc": {
         "Key": "PsychicWardShortDesc",
@@ -19319,7 +19364,8 @@
         "zhCN": "创造一个精神护盾，吸收攻击伤害\n并能击晕近战攻击者",
         "zhTW": "創造一面精神護盾，吸收攻擊傷害且能夠\n昏迷近戰攻擊者",
         "sgCN": "创造一个精神护盾，吸收攻击伤害\n并能击晕近战攻击者",
-        "sgTW": "創造一面精神護盾，吸收攻擊傷害且能夠\n昏迷近戰攻擊者"
+        "sgTW": "創造一面精神護盾，吸收攻擊傷害且能夠\n昏迷近戰攻擊者",
+        "bnCN": "创造一个精神护盾，吸收攻击伤害\n并能击晕近战攻击者"
     },
     "PsychicWardLongDesc": {
         "Key": "PsychicWardLongDesc",
@@ -19327,7 +19373,8 @@
         "zhCN": "创造一个精神护盾，吸收攻击伤害\n并能击晕近战攻击者",
         "zhTW": "創造一面精神護盾，吸收攻擊傷害且能夠\n昏迷近戰攻擊者",
         "sgCN": "创造一个精神护盾，吸收攻击伤害\n并能击晕近战攻击者",
-        "sgTW": "創造一面精神護盾，吸收攻擊傷害且能夠\n昏迷近戰攻擊者"
+        "sgTW": "創造一面精神護盾，吸收攻擊傷害且能夠\n昏迷近戰攻擊者",
+        "bnCN": "创造一个精神护盾，吸收攻击伤害\n并能击晕近战攻击者"
     },
     "PsychicWardAN": {
         "Key": "PsychicWardAN",
@@ -19335,7 +19382,8 @@
         "zhCN": "会心守御",
         "zhTW": "靈能護盾",
         "sgCN": "会心守御",
-        "sgTW": "靈能護盾"
+        "sgTW": "靈能護盾",
+        "bnCN": "会心守御"
     },
     "BaneHexName": {
         "Key": "BaneHexName",
@@ -19343,7 +19391,8 @@
         "zhCN": "咒术: 灾祸",
         "zhTW": "邪咒：災禍",
         "sgCN": "咒术: 灾祸",
-        "sgTW": "邪咒：災禍"
+        "sgTW": "邪咒：災禍",
+        "bnCN": "咒术: 灾祸"
     },
     "BaneHexShortDesc": {
         "Key": "BaneHexShortDesc",
@@ -19351,7 +19400,8 @@
         "zhCN": "对武器施加咒术，削弱敌人并增加魔法伤害",
         "zhTW": "為你的武器施加邪咒以削弱敵人並附加魔法傷害",
         "sgCN": "对武器施加咒术，削弱敌人并增加魔法伤害",
-        "sgTW": "為你的武器施加邪咒以削弱敵人並附加魔法傷害"
+        "sgTW": "為你的武器施加邪咒以削弱敵人並附加魔法傷害",
+        "bnCN": "对武器施加咒术，削弱敌人并增加魔法伤害"
     },
     "BaneHexLongDesc": {
         "Key": "BaneHexLongDesc",
@@ -19359,7 +19409,8 @@
         "zhCN": "对武器施加咒术，削弱敌人并增加魔法伤害",
         "zhTW": "為你的武器施加邪咒以削弱敵人並附加魔法傷害",
         "sgCN": "对武器施加咒术，削弱敌人并增加魔法伤害",
-        "sgTW": "為你的武器施加邪咒以削弱敵人並附加魔法傷害"
+        "sgTW": "為你的武器施加邪咒以削弱敵人並附加魔法傷害",
+        "bnCN": "对武器施加咒术，削弱敌人并增加魔法伤害"
     },
     "BaneHexAN": {
         "Key": "BaneHexAN",
@@ -19367,7 +19418,8 @@
         "zhCN": "咒术: 灾祸",
         "zhTW": "邪咒：災禍",
         "sgCN": "咒术: 灾祸",
-        "sgTW": "邪咒：災禍"
+        "sgTW": "邪咒：災禍",
+        "bnCN": "咒术: 灾祸"
     },
     "SiphonHexName": {
         "Key": "SiphonHexName",
@@ -19375,7 +19427,8 @@
         "zhCN": "咒术: 吸取",
         "zhTW": "邪咒：虹吸",
         "sgCN": "咒术: 吸取",
-        "sgTW": "邪咒：虹吸"
+        "sgTW": "邪咒：虹吸",
+        "bnCN": "咒术: 吸取"
     },
     "SiphonHexShortDesc": {
         "Key": "SiphonHexShortDesc",
@@ -19383,7 +19436,8 @@
         "zhCN": "对武器施加咒术，提取被消灭敌人的生命力",
         "zhTW": "為你的武器施加邪咒以吸取擊殺敵人的生命力",
         "sgCN": "对武器施加咒术，提取被消灭敌人的生命力",
-        "sgTW": "為你的武器施加邪咒以吸取擊殺敵人的生命力"
+        "sgTW": "為你的武器施加邪咒以吸取擊殺敵人的生命力",
+        "bnCN": "对武器施加咒术，提取被消灭敌人的生命力"
     },
     "SiphonHexLongDesc": {
         "Key": "SiphonHexLongDesc",
@@ -19391,7 +19445,8 @@
         "zhCN": "对武器施加咒术，提取被消灭敌人的生命力",
         "zhTW": "為你的武器施加邪咒以吸取擊殺敵人的生命力",
         "sgCN": "对武器施加咒术，提取被消灭敌人的生命力",
-        "sgTW": "為你的武器施加邪咒以吸取擊殺敵人的生命力"
+        "sgTW": "為你的武器施加邪咒以吸取擊殺敵人的生命力",
+        "bnCN": "对武器施加咒术，提取被消灭敌人的生命力"
     },
     "SiphonHexAN": {
         "Key": "SiphonHexAN",
@@ -19399,7 +19454,8 @@
         "zhCN": "咒术: 吸取",
         "zhTW": "邪咒：虹吸",
         "sgCN": "咒术: 吸取",
-        "sgTW": "邪咒：虹吸"
+        "sgTW": "邪咒：虹吸",
+        "bnCN": "咒术: 吸取"
     },
     "EldritchBlastName": {
         "Key": "EldritchBlastName",
@@ -19407,7 +19463,8 @@
         "zhCN": "邪术冲击",
         "zhTW": "邪異轟擊",
         "sgCN": "邪术冲击",
-        "sgTW": "邪異轟擊"
+        "sgTW": "邪異轟擊",
+        "bnCN": "邪术冲击"
     },
     "EldritchBlastShortDesc": {
         "Key": "EldritchBlastShortDesc",
@@ -19415,7 +19472,8 @@
         "zhCN": "用汲取性魔法伤害冲击被咒术影响的敌人\n同时刷新咒术持续时间",
         "zhTW": "以消耗性的魔法傷害轟擊受邪咒影響的敵人，\n並重置其作用中邪咒的持續時間",
         "sgCN": "用汲取性魔法伤害冲击被咒术影响的敌人\n同时刷新咒术持续时间",
-        "sgTW": "以消耗性的魔法傷害轟擊受邪咒影響的敵人，\n並重置其作用中邪咒的持續時間"
+        "sgTW": "以消耗性的魔法傷害轟擊受邪咒影響的敵人，\n並重置其作用中邪咒的持續時間",
+        "bnCN": "用汲取性魔法伤害冲击被咒术影响的敌人\n同时刷新咒术持续时间"
     },
     "EldritchBlastLongDesc": {
         "Key": "EldritchBlastLongDesc",
@@ -19423,7 +19481,8 @@
         "zhCN": "用汲取性魔法伤害冲击被咒术影响的敌人\n同时刷新咒术持续时间",
         "zhTW": "以消耗性的魔法傷害轟擊受邪咒影響的敵人，\n並重置其作用中邪咒的持續時間",
         "sgCN": "用汲取性魔法伤害冲击被咒术影响的敌人\n同时刷新咒术持续时间",
-        "sgTW": "以消耗性的魔法傷害轟擊受邪咒影響的敵人，\n並重置其作用中邪咒的持續時間"
+        "sgTW": "以消耗性的魔法傷害轟擊受邪咒影響的敵人，\n並重置其作用中邪咒的持續時間",
+        "bnCN": "用汲取性魔法伤害冲击被咒术影响的敌人\n同时刷新咒术持续时间"
     },
     "EldritchBlastAN": {
         "Key": "EldritchBlastAN",
@@ -19431,7 +19490,8 @@
         "zhCN": "邪术冲击",
         "zhTW": "邪異轟擊",
         "sgCN": "邪术冲击",
-        "sgTW": "邪異轟擊"
+        "sgTW": "邪異轟擊",
+        "bnCN": "邪术冲击"
     },
     "EchoingStrikeName": {
         "Key": "EchoingStrikeName",
@@ -19439,7 +19499,8 @@
         "zhCN": "回响打击",
         "zhTW": "迴響打擊",
         "sgCN": "回响打击",
-        "sgTW": "迴響打擊"
+        "sgTW": "迴響打擊",
+        "bnCN": "回响打击"
     },
     "EchoingStrikeShortDesc": {
         "Key": "EchoingStrikeShortDesc",
@@ -19447,7 +19508,8 @@
         "zhCN": "创造出你近战武器的多个回响，并穿透敌人",
         "zhTW": "創造你近戰武器的迴響，貫穿敵人",
         "sgCN": "创造出你近战武器的多个回响，并穿透敌人",
-        "sgTW": "創造你近戰武器的迴響，貫穿敵人"
+        "sgTW": "創造你近戰武器的迴響，貫穿敵人",
+        "bnCN": "创造出你近战武器的多个回响，并穿透敌人"
     },
     "EchoingStrikeLongDesc": {
         "Key": "EchoingStrikeLongDesc",
@@ -19455,7 +19517,8 @@
         "zhCN": "创造出你近战武器的多个回响，并穿透敌人",
         "zhTW": "創造你近戰武器的迴響，貫穿敵人",
         "sgCN": "创造出你近战武器的多个回响，并穿透敌人",
-        "sgTW": "創造你近戰武器的迴響，貫穿敵人"
+        "sgTW": "創造你近戰武器的迴響，貫穿敵人",
+        "bnCN": "创造出你近战武器的多个回响，并穿透敌人"
     },
     "EchoingStrikeAN": {
         "Key": "EchoingStrikeAN",
@@ -19463,7 +19526,8 @@
         "zhCN": "回响打击",
         "zhTW": "迴響打擊",
         "sgCN": "回响打击",
-        "sgTW": "迴響打擊"
+        "sgTW": "迴響打擊",
+        "bnCN": "回响打击"
     },
     "PurgeHexName": {
         "Key": "PurgeHexName",
@@ -19471,7 +19535,8 @@
         "zhCN": "咒术: 净化",
         "zhTW": "邪咒：消滅",
         "sgCN": "咒术: 净化",
-        "sgTW": "邪咒：消滅"
+        "sgTW": "邪咒：消滅",
+        "bnCN": "咒术: 净化"
     },
     "PurgeHexShortDesc": {
         "Key": "PurgeHexShortDesc",
@@ -19479,7 +19544,8 @@
         "zhCN": "对武器施加咒术，扭曲敌人并有几率\n让其被击中时爆炸",
         "zhTW": "為你的武器施加邪咒以扭曲敵人，使其被擊中時有機率爆炸",
         "sgCN": "对武器施加咒术，扭曲敌人并有几率\n让其被击中时爆炸",
-        "sgTW": "為你的武器施加邪咒以扭曲敵人，使其被擊中時有機率爆炸"
+        "sgTW": "為你的武器施加邪咒以扭曲敵人，使其被擊中時有機率爆炸",
+        "bnCN": "对武器施加咒术，扭曲敌人并有几率\n让其被击中时爆炸"
     },
     "PurgeHexLongDesc": {
         "Key": "PurgeHexLongDesc",
@@ -19487,7 +19553,8 @@
         "zhCN": "对武器施加咒术，扭曲敌人并有几率\n让其被击中时爆炸",
         "zhTW": "為你的武器施加邪咒以扭曲敵人，使其被擊中時有機率爆炸",
         "sgCN": "对武器施加咒术，扭曲敌人并有几率\n让其被击中时爆炸",
-        "sgTW": "為你的武器施加邪咒以扭曲敵人，使其被擊中時有機率爆炸"
+        "sgTW": "為你的武器施加邪咒以扭曲敵人，使其被擊中時有機率爆炸",
+        "bnCN": "对武器施加咒术，扭曲敌人并有几率\n让其被击中时爆炸"
     },
     "PurgeHexAN": {
         "Key": "PurgeHexAN",
@@ -19495,7 +19562,8 @@
         "zhCN": "咒术: 净化",
         "zhTW": "邪咒：消滅",
         "sgCN": "咒术: 净化",
-        "sgTW": "邪咒：消滅"
+        "sgTW": "邪咒：消滅",
+        "bnCN": "咒术: 净化"
     },
     "BladeWarpName": {
         "Key": "BladeWarpName",
@@ -19503,7 +19571,8 @@
         "zhCN": "飞刃传形",
         "zhTW": "飛刃躍傳",
         "sgCN": "飞刃传形",
-        "sgTW": "飛刃躍傳"
+        "sgTW": "飛刃躍傳",
+        "bnCN": "飞刃传形"
     },
     "BladeWarpShortDesc": {
         "Key": "BladeWarpShortDesc",
@@ -19511,7 +19580,8 @@
         "zhCN": "投掷一把星体武器，将你传送到其撞击位置",
         "zhTW": "投出一把星界武器，將你傳送至命中位置",
         "sgCN": "投掷一把星体武器，将你传送到其撞击位置",
-        "sgTW": "投出一把星界武器，將你傳送至命中位置"
+        "sgTW": "投出一把星界武器，將你傳送至命中位置",
+        "bnCN": "投掷一把星体武器，将你传送到其撞击位置"
     },
     "BladeWarpLongDesc": {
         "Key": "BladeWarpLongDesc",
@@ -19519,7 +19589,8 @@
         "zhCN": "投掷一把星体武器，将你传送到其撞击位置",
         "zhTW": "投出一把星界武器，將你傳送至命中位置",
         "sgCN": "投掷一把星体武器，将你传送到其撞击位置",
-        "sgTW": "投出一把星界武器，將你傳送至命中位置"
+        "sgTW": "投出一把星界武器，將你傳送至命中位置",
+        "bnCN": "投掷一把星体武器，将你传送到其撞击位置"
     },
     "BladeWarpAN": {
         "Key": "BladeWarpAN",
@@ -19527,7 +19598,8 @@
         "zhCN": "飞刃传形",
         "zhTW": "飛刃躍傳",
         "sgCN": "飞刃传形",
-        "sgTW": "飛刃躍傳"
+        "sgTW": "飛刃躍傳",
+        "bnCN": "飞刃传形"
     },
     "CleaveName": {
         "Key": "CleaveName",
@@ -19535,7 +19607,8 @@
         "zhCN": "劈斩",
         "zhTW": "斬劈",
         "sgCN": "劈斩",
-        "sgTW": "斬劈"
+        "sgTW": "斬劈",
+        "bnCN": "劈斩"
     },
     "CleaveShortDesc": {
         "Key": "CleaveShortDesc",
@@ -19543,7 +19616,8 @@
         "zhCN": "攻击扩散的弧形范围内的所有敌人",
         "zhTW": "攻擊一片大範圍弧形中的所有敵人",
         "sgCN": "攻击扩散的弧形范围内的所有敌人",
-        "sgTW": "攻擊一片大範圍弧形中的所有敵人"
+        "sgTW": "攻擊一片大範圍弧形中的所有敵人",
+        "bnCN": "攻击扩散的弧形范围内的所有敌人"
     },
     "CleaveLongDesc": {
         "Key": "CleaveLongDesc",
@@ -19551,7 +19625,8 @@
         "zhCN": "攻击扩散的弧形范围内的所有敌人",
         "zhTW": "攻擊一片大範圍弧形中的所有敵人",
         "sgCN": "攻击扩散的弧形范围内的所有敌人",
-        "sgTW": "攻擊一片大範圍弧形中的所有敵人"
+        "sgTW": "攻擊一片大範圍弧形中的所有敵人",
+        "bnCN": "攻击扩散的弧形范围内的所有敌人"
     },
     "CleaveAN": {
         "Key": "CleaveAN",
@@ -19559,7 +19634,8 @@
         "zhCN": "劈斩",
         "zhTW": "斬劈",
         "sgCN": "劈斩",
-        "sgTW": "斬劈"
+        "sgTW": "斬劈",
+        "bnCN": "劈斩"
     },
     "MirroredBladesName": {
         "Key": "MirroredBladesName",
@@ -19567,7 +19643,8 @@
         "zhCN": "镜影锋刃",
         "zhTW": "鏡像之刃",
         "sgCN": "镜影锋刃",
-        "sgTW": "鏡像之刃"
+        "sgTW": "鏡像之刃",
+        "bnCN": "镜影锋刃"
     },
     "MirroredBladesShortDesc": {
         "Key": "MirroredBladesShortDesc",
@@ -19575,7 +19652,8 @@
         "zhCN": "用武器的镜像复制品发动攻击",
         "zhTW": "使用你武器的鏡像複製品進行攻擊",
         "sgCN": "用武器的镜像复制品发动攻击",
-        "sgTW": "使用你武器的鏡像複製品進行攻擊"
+        "sgTW": "使用你武器的鏡像複製品進行攻擊",
+        "bnCN": "用武器的镜像复制品发动攻击"
     },
     "MirroredBladesLongDesc": {
         "Key": "MirroredBladesLongDesc",
@@ -19583,7 +19661,8 @@
         "zhCN": "用武器的镜像复制品发动攻击",
         "zhTW": "使用你武器的鏡像複製品進行攻擊",
         "sgCN": "用武器的镜像复制品发动攻击",
-        "sgTW": "使用你武器的鏡像複製品進行攻擊"
+        "sgTW": "使用你武器的鏡像複製品進行攻擊",
+        "bnCN": "用武器的镜像复制品发动攻击"
     },
     "MirroredBladesAN": {
         "Key": "MirroredBladesAN",
@@ -19591,7 +19670,8 @@
         "zhCN": "镜影锋刃",
         "zhTW": "鏡像之刃",
         "sgCN": "镜影锋刃",
-        "sgTW": "鏡像之刃"
+        "sgTW": "鏡像之刃",
+        "bnCN": "镜影锋刃"
     },
     "SummonGoatmanName": {
         "Key": "SummonGoatmanName",
@@ -19599,7 +19679,8 @@
         "zhCN": "召唤羊头人",
         "zhTW": "召喚羊頭人",
         "sgCN": "召唤羊头人",
-        "sgTW": "召喚羊頭人"
+        "sgTW": "召喚羊頭人",
+        "bnCN": "召唤羊头人"
     },
     "SummonGoatmanShortDesc": {
         "Key": "SummonGoatmanShortDesc",
@@ -19607,7 +19688,8 @@
         "zhCN": "召唤一名羊头人为你而战",
         "zhTW": "召喚一個羊頭人，與你共同作戰",
         "sgCN": "召唤一名羊头人为你而战",
-        "sgTW": "召喚一個羊頭人，與你共同作戰"
+        "sgTW": "召喚一個羊頭人，與你共同作戰",
+        "bnCN": "召唤一名羊头人为你而战"
     },
     "SummonGoatmanLongDesc": {
         "Key": "SummonGoatmanLongDesc",
@@ -19615,7 +19697,8 @@
         "zhCN": "召唤一名羊头人为你而战",
         "zhTW": "召喚一個羊頭人，與你共同作戰",
         "sgCN": "召唤一名羊头人为你而战",
-        "sgTW": "召喚一個羊頭人，與你共同作戰"
+        "sgTW": "召喚一個羊頭人，與你共同作戰",
+        "bnCN": "召唤一名羊头人为你而战"
     },
     "SummonGoatmanAN": {
         "Key": "SummonGoatmanAN",
@@ -19623,7 +19706,8 @@
         "zhCN": "召唤羊头人",
         "zhTW": "召喚羊頭人",
         "sgCN": "召唤羊头人",
-        "sgTW": "召喚羊頭人"
+        "sgTW": "召喚羊頭人",
+        "bnCN": "召唤羊头人"
     },
     "DemonicMasteryName": {
         "Key": "DemonicMasteryName",
@@ -19631,7 +19715,8 @@
         "zhCN": "恶魔精通",
         "zhTW": "惡魔專精",
         "sgCN": "恶魔精通",
-        "sgTW": "惡魔專精"
+        "sgTW": "惡魔專精",
+        "bnCN": "恶魔精通"
     },
     "DemonicMasteryShortDesc": {
         "Key": "DemonicMasteryShortDesc",
@@ -19639,7 +19724,8 @@
         "zhCN": "被动 - 强化你召唤和束缚的恶魔",
         "zhTW": "被動 - 強化你召喚和束縛的惡魔",
         "sgCN": "被动 - 强化你召唤和束缚的恶魔",
-        "sgTW": "被動 - 強化你召喚和束縛的惡魔"
+        "sgTW": "被動 - 強化你召喚和束縛的惡魔",
+        "bnCN": "被动 - 强化你召唤和束缚的恶魔"
     },
     "DemonicMasteryLongDesc": {
         "Key": "DemonicMasteryLongDesc",
@@ -19647,7 +19733,8 @@
         "zhCN": "被动 - 强化你召唤和束缚的恶魔",
         "zhTW": "被動 - 強化你召喚和束縛的惡魔",
         "sgCN": "被动 - 强化你召唤和束缚的恶魔",
-        "sgTW": "被動 - 強化你召喚和束縛的惡魔"
+        "sgTW": "被動 - 強化你召喚和束縛的惡魔",
+        "bnCN": "被动 - 强化你召唤和束缚的恶魔"
     },
     "DemonicMasteryAN": {
         "Key": "DemonicMasteryAN",
@@ -19655,7 +19742,8 @@
         "zhCN": "恶魔精通",
         "zhTW": "惡魔專精",
         "sgCN": "恶魔精通",
-        "sgTW": "惡魔專精"
+        "sgTW": "惡魔專精",
+        "bnCN": "恶魔精通"
     },
     "DeathMarkName": {
         "Key": "DeathMarkName",
@@ -19663,7 +19751,8 @@
         "zhCN": "死亡印记",
         "zhTW": "死亡印記",
         "sgCN": "死亡印记",
-        "sgTW": "死亡印記"
+        "sgTW": "死亡印記",
+        "bnCN": "死亡印记"
     },
     "DeathMarkShortDesc": {
         "Key": "DeathMarkShortDesc",
@@ -19671,7 +19760,8 @@
         "zhCN": "强制使你的恶魔传送并攻击一名敌人",
         "zhTW": "迫使你的惡魔傳送至一個敵人的位置並攻擊",
         "sgCN": "强制使你的恶魔传送并攻击一名敌人",
-        "sgTW": "迫使你的惡魔傳送至一個敵人的位置並攻擊"
+        "sgTW": "迫使你的惡魔傳送至一個敵人的位置並攻擊",
+        "bnCN": "强制使你的恶魔传送并攻击一名敌人"
     },
     "DeathMarkLongDesc": {
         "Key": "DeathMarkLongDesc",
@@ -19679,7 +19769,8 @@
         "zhCN": "强制使你的恶魔传送并攻击一名敌人",
         "zhTW": "迫使你的惡魔傳送至一個敵人的位置並攻擊",
         "sgCN": "强制使你的恶魔传送并攻击一名敌人",
-        "sgTW": "迫使你的惡魔傳送至一個敵人的位置並攻擊"
+        "sgTW": "迫使你的惡魔傳送至一個敵人的位置並攻擊",
+        "bnCN": "强制使你的恶魔传送并攻击一名敌人"
     },
     "DeathMarkAN": {
         "Key": "DeathMarkAN",
@@ -19687,7 +19778,8 @@
         "zhCN": "死亡印记",
         "zhTW": "死亡印記",
         "sgCN": "死亡印记",
-        "sgTW": "死亡印記"
+        "sgTW": "死亡印記",
+        "bnCN": "死亡印记"
     },
     "SummonTaintedName": {
         "Key": "SummonTaintedName",
@@ -19695,7 +19787,8 @@
         "zhCN": "召唤污染魔",
         "zhTW": "召喚魔汙怪",
         "sgCN": "召唤污染魔",
-        "sgTW": "召喚魔汙怪"
+        "sgTW": "召喚魔汙怪",
+        "bnCN": "召唤污染魔"
     },
     "SummonTaintedShortDesc": {
         "Key": "SummonTaintedShortDesc",
@@ -19703,7 +19796,8 @@
         "zhCN": "召唤一只污染魔为你而战",
         "zhTW": "召喚一個魔汙怪，與你共同作戰",
         "sgCN": "召唤一只污染魔为你而战",
-        "sgTW": "召喚一個魔汙怪，與你共同作戰"
+        "sgTW": "召喚一個魔汙怪，與你共同作戰",
+        "bnCN": "召唤一只污染魔为你而战"
     },
     "SummonTaintedLongDesc": {
         "Key": "SummonTaintedLongDesc",
@@ -19711,7 +19805,8 @@
         "zhCN": "召唤一只污染魔为你而战",
         "zhTW": "召喚一個魔汙怪，與你共同作戰",
         "sgCN": "召唤一只污染魔为你而战",
-        "sgTW": "召喚一個魔汙怪，與你共同作戰"
+        "sgTW": "召喚一個魔汙怪，與你共同作戰",
+        "bnCN": "召唤一只污染魔为你而战"
     },
     "SummonTaintedAN": {
         "Key": "SummonTaintedAN",
@@ -19719,7 +19814,8 @@
         "zhCN": "召唤污染魔",
         "zhTW": "召喚魔汙怪",
         "sgCN": "召唤污染魔",
-        "sgTW": "召喚魔汙怪"
+        "sgTW": "召喚魔汙怪",
+        "bnCN": "召唤污染魔"
     },
     "SummonDefilerName": {
         "Key": "SummonDefilerName",
@@ -19727,7 +19823,8 @@
         "zhCN": "召唤污秽者",
         "zhTW": "召喚褻瀆者",
         "sgCN": "召唤污秽者",
-        "sgTW": "召喚褻瀆者"
+        "sgTW": "召喚褻瀆者",
+        "bnCN": "召唤污秽者"
     },
     "SummonDefilerShortDesc": {
         "Key": "SummonDefilerShortDesc",
@@ -19735,7 +19832,8 @@
         "zhCN": "召唤一只污秽者，将敌人灵魂束缚起来\n使其共同承受伤害",
         "zhTW": "召喚褻瀆者，將敵人的靈魂綁定在一起\n以共享受到的傷害",
         "sgCN": "召唤一只污秽者，将敌人灵魂束缚起来\n使其共同承受伤害",
-        "sgTW": "召喚褻瀆者，將敵人的靈魂綁定在一起\n以共享受到的傷害"
+        "sgTW": "召喚褻瀆者，將敵人的靈魂綁定在一起\n以共享受到的傷害",
+        "bnCN": "召唤一只污秽者，将敌人灵魂束缚起来\n使其共同承受伤害"
     },
     "SummonDefilerLongDesc": {
         "Key": "SummonDefilerLongDesc",
@@ -19743,7 +19841,8 @@
         "zhCN": "召唤一只污秽者，将敌人灵魂束缚起来\n使其共同承受伤害",
         "zhTW": "召喚褻瀆者，將敵人的靈魂綁定在一起\n以共享受到的傷害",
         "sgCN": "召唤一只污秽者，将敌人灵魂束缚起来\n使其共同承受伤害",
-        "sgTW": "召喚褻瀆者，將敵人的靈魂綁定在一起\n以共享受到的傷害"
+        "sgTW": "召喚褻瀆者，將敵人的靈魂綁定在一起\n以共享受到的傷害",
+        "bnCN": "召唤一只污秽者，将敌人灵魂束缚起来\n使其共同承受伤害"
     },
     "SummonDefilerAN": {
         "Key": "SummonDefilerAN",
@@ -19751,7 +19850,8 @@
         "zhCN": "召唤污秽者",
         "zhTW": "召喚褻瀆者",
         "sgCN": "召唤污秽者",
-        "sgTW": "召喚褻瀆者"
+        "sgTW": "召喚褻瀆者",
+        "bnCN": "召唤污秽者"
     },
     "BloodOathName": {
         "Key": "BloodOathName",
@@ -19759,7 +19859,8 @@
         "zhCN": "血誓",
         "zhTW": "血誓",
         "sgCN": "血誓",
-        "sgTW": "血誓"
+        "sgTW": "血誓",
+        "bnCN": "血誓"
     },
     "BloodOathLongDesc": {
         "Key": "BloodOathLongDesc",
@@ -19767,7 +19868,8 @@
         "zhCN": "被动 - 将恶魔生命力与你绑定\n以抵御敌人攻击",
         "zhTW": "被動 - 與你惡魔的生命力綁定\n以抵禦敵人的攻擊",
         "sgCN": "被动 - 将恶魔生命力与你绑定\n以抵御敌人攻击",
-        "sgTW": "被動 - 與你惡魔的生命力綁定\n以抵禦敵人的攻擊"
+        "sgTW": "被動 - 與你惡魔的生命力綁定\n以抵禦敵人的攻擊",
+        "bnCN": "被动 - 将恶魔生命力与你绑定\n以抵御敌人攻击"
     },
     "BloodOathAN": {
         "Key": "BloodOathAN",
@@ -19775,7 +19877,8 @@
         "zhCN": "血誓",
         "zhTW": "血誓",
         "sgCN": "血誓",
-        "sgTW": "血誓"
+        "sgTW": "血誓",
+        "bnCN": "血誓"
     },
     "EngorgeName": {
         "Key": "EngorgeName",
@@ -19783,7 +19886,8 @@
         "zhCN": "暴食",
         "zhTW": "吞食",
         "sgCN": "暴食",
-        "sgTW": "吞食"
+        "sgTW": "吞食",
+        "bnCN": "暴食"
     },
     "EngorgeShortDesc": {
         "Key": "EngorgeShortDesc",
@@ -19791,7 +19895,8 @@
         "zhCN": "通过喂食残骸治疗并强化你的恶魔",
         "zhTW": "餵食屍體給你的惡魔以治療和強化它",
         "sgCN": "通过喂食残骸治疗并强化你的恶魔",
-        "sgTW": "餵食屍體給你的惡魔以治療和強化它"
+        "sgTW": "餵食屍體給你的惡魔以治療和強化它",
+        "bnCN": "通过喂食残骸治疗并强化你的恶魔"
     },
     "EngorgeLongDesc": {
         "Key": "EngorgeLongDesc",
@@ -19799,7 +19904,8 @@
         "zhCN": "通过喂食残骸治疗并强化你的恶魔",
         "zhTW": "餵食屍體給你的惡魔以治療和強化它",
         "sgCN": "通过喂食残骸治疗并强化你的恶魔",
-        "sgTW": "餵食屍體給你的惡魔以治療和強化它"
+        "sgTW": "餵食屍體給你的惡魔以治療和強化它",
+        "bnCN": "通过喂食残骸治疗并强化你的恶魔"
     },
     "EngorgeAN": {
         "Key": "EngorgeAN",
@@ -19807,7 +19913,8 @@
         "zhCN": "暴食",
         "zhTW": "吞食",
         "sgCN": "暴食",
-        "sgTW": "吞食"
+        "sgTW": "吞食",
+        "bnCN": "暴食"
     },
     "BloodBoilName": {
         "Key": "BloodBoilName",
@@ -19815,7 +19922,8 @@
         "zhCN": "红液沸腾",
         "zhTW": "沸血術",
         "sgCN": "红液沸腾",
-        "sgTW": "沸血術"
+        "sgTW": "沸血術",
+        "bnCN": "红液沸腾"
     },
     "BloodBoilShortDesc": {
         "Key": "BloodBoilShortDesc",
@@ -19823,7 +19931,8 @@
         "zhCN": "引爆恶魔红液，对附近敌人造成伤害",
         "zhTW": "使你的惡魔爆發鮮血，對附近敵人造成傷害",
         "sgCN": "引爆恶魔红液，对附近敌人造成伤害",
-        "sgTW": "使你的惡魔爆發鮮血，對附近敵人造成傷害"
+        "sgTW": "使你的惡魔爆發鮮血，對附近敵人造成傷害",
+        "bnCN": "引爆恶魔红液，对附近敌人造成伤害"
     },
     "BloodBoilLongDesc": {
         "Key": "BloodBoilLongDesc",
@@ -19831,7 +19940,8 @@
         "zhCN": "引爆恶魔红液，对附近敌人造成伤害",
         "zhTW": "使你的惡魔爆發鮮血，對附近敵人造成傷害",
         "sgCN": "引爆恶魔红液，对附近敌人造成伤害",
-        "sgTW": "使你的惡魔爆發鮮血，對附近敵人造成傷害"
+        "sgTW": "使你的惡魔爆發鮮血，對附近敵人造成傷害",
+        "bnCN": "引爆恶魔红液，对附近敌人造成伤害"
     },
     "BloodBoilAN": {
         "Key": "BloodBoilAN",
@@ -19839,7 +19949,8 @@
         "zhCN": "红液沸腾",
         "zhTW": "沸血術",
         "sgCN": "红液沸腾",
-        "sgTW": "沸血術"
+        "sgTW": "沸血術",
+        "bnCN": "红液沸腾"
     },
     "ConsumeName": {
         "Key": "ConsumeName",
@@ -19847,7 +19958,8 @@
         "zhCN": "吞噬",
         "zhTW": "吞噬",
         "sgCN": "吞噬",
-        "sgTW": "吞噬"
+        "sgTW": "吞噬",
+        "bnCN": "吞噬"
     },
     "ConsumeShortDesc": {
         "Key": "ConsumeShortDesc",
@@ -19855,7 +19967,8 @@
         "zhCN": "牺牲你的恶魔以换取力量",
         "zhTW": "犧牲你的惡魔以換取力量",
         "sgCN": "牺牲你的恶魔以换取力量",
-        "sgTW": "犧牲你的惡魔以換取力量"
+        "sgTW": "犧牲你的惡魔以換取力量",
+        "bnCN": "牺牲你的恶魔以换取力量"
     },
     "ConsumeLongDesc": {
         "Key": "ConsumeLongDesc",
@@ -19863,7 +19976,8 @@
         "zhCN": "牺牲你的恶魔以换取力量",
         "zhTW": "犧牲你的惡魔以換取力量",
         "sgCN": "牺牲你的恶魔以换取力量",
-        "sgTW": "犧牲你的惡魔以換取力量"
+        "sgTW": "犧牲你的惡魔以換取力量",
+        "bnCN": "牺牲你的恶魔以换取力量"
     },
     "ConsumeAN": {
         "Key": "ConsumeAN",
@@ -19871,7 +19985,8 @@
         "zhCN": "吞噬",
         "zhTW": "吞噬",
         "sgCN": "吞噬",
-        "sgTW": "吞噬"
+        "sgTW": "吞噬",
+        "bnCN": "吞噬"
     },
     "BindDemonName": {
         "Key": "BindDemonName",
@@ -19879,7 +19994,8 @@
         "zhCN": "束缚恶魔",
         "zhTW": "束縛惡魔",
         "sgCN": "束缚恶魔",
-        "sgTW": "束縛惡魔"
+        "sgTW": "束縛惡魔",
+        "bnCN": "束缚恶魔"
     },
     "BindDemonDesc": {
         "Key": "BindDemonDesc",
@@ -19887,7 +20003,8 @@
         "zhCN": "强制一只受伤的恶魔为你效命",
         "zhTW": "迫使受傷的惡魔為你效力",
         "sgCN": "强制一只受伤的恶魔为你效命",
-        "sgTW": "迫使受傷的惡魔為你效力"
+        "sgTW": "迫使受傷的惡魔為你效力",
+        "bnCN": "强制一只受伤的恶魔为你效命"
     },
     "BindDemonLongDesc": {
         "Key": "BindDemonLongDesc",
@@ -19895,7 +20012,8 @@
         "zhCN": "强制一只受伤的恶魔为你效命",
         "zhTW": "迫使受傷的惡魔為你效力",
         "sgCN": "强制一只受伤的恶魔为你效命",
-        "sgTW": "迫使受傷的惡魔為你效力"
+        "sgTW": "迫使受傷的惡魔為你效力",
+        "bnCN": "强制一只受伤的恶魔为你效命"
     },
     "BindDemonAN": {
         "Key": "BindDemonAN",
@@ -19903,7 +20021,8 @@
         "zhCN": "束缚恶魔",
         "zhTW": "束縛惡魔",
         "sgCN": "束缚恶魔",
-        "sgTW": "束縛惡魔"
+        "sgTW": "束縛惡魔",
+        "bnCN": "束缚恶魔"
     },
     "StrSkillDemonAllResist": {
         "Key": "StrSkillDemonAllResist",
@@ -19911,7 +20030,8 @@
         "zhCN": "恶魔所有抗性: +%d%%",
         "zhTW": "你惡魔的所有抗性：%+d%%",
         "sgCN": "恶魔所有抗性: +%d%%",
-        "sgTW": "你惡魔的所有抗性：%+d%%"
+        "sgTW": "你惡魔的所有抗性：%+d%%",
+        "bnCN": "恶魔所有抗性: +%d%%"
     },
     "StrSkillShardDamage": {
         "Key": "StrSkillShardDamage",
@@ -19919,7 +20039,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillCrushing": {
         "Key": "StrSkillCrushing",
@@ -19927,7 +20048,8 @@
         "zhCN": "+%d%% 几率粉碎打击",
         "zhTW": "+%d%% 機率造成粉碎打擊",
         "sgCN": "+%d%% 几率粉碎打击",
-        "sgTW": "+%d%% 機率造成粉碎打擊"
+        "sgTW": "+%d%% 機率造成粉碎打擊",
+        "bnCN": "+%d%% 几率粉碎打击"
     },
     "StrSkillMagicDamageAveragePerSecond": {
         "Key": "StrSkillMagicDamageAveragePerSecond",
@@ -19935,7 +20057,8 @@
         "zhCN": "平均魔法伤害: 每秒%d-%d",
         "zhTW": "平均魔法傷害：每秒 %d - %d 點",
         "sgCN": "平均魔法伤害: 每秒%d-%d",
-        "sgTW": "平均魔法傷害：每秒 %d - %d 點"
+        "sgTW": "平均魔法傷害：每秒 %d - %d 點",
+        "bnCN": "平均魔法伤害: 每秒%d-%d"
     },
     "StrSkillAbsorbMissile": {
         "Key": "StrSkillAbsorbMissile",
@@ -19943,7 +20066,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillPullChance": {
         "Key": "StrSkillPullChance",
@@ -19951,7 +20075,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillPull": {
         "Key": "StrSkillPull",
@@ -19959,7 +20084,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillFasterHitRecovery": {
         "Key": "StrSkillFasterHitRecovery",
@@ -19967,7 +20093,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillBaseFive": {
         "Key": "StrSkillBaseFive",
@@ -19975,7 +20102,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillBonusSkillStun": {
         "Key": "StrSkillBonusSkillStun",
@@ -19983,7 +20111,8 @@
         "zhCN": "击晕时间: %d",
         "zhTW": "昏迷時間：%d",
         "sgCN": "击晕时间: %d",
-        "sgTW": "昏迷時間：%d"
+        "sgTW": "昏迷時間：%d",
+        "bnCN": "击晕时间: %d"
     },
     "StrSkillLifeAfterKill": {
         "Key": "StrSkillLifeAfterKill",
@@ -19991,7 +20120,8 @@
         "zhCN": "每次消灭恢复的生命: +%d",
         "zhTW": "擊殺生命恢復：%+d",
         "sgCN": "每次消灭恢复的生命: +%d",
-        "sgTW": "擊殺生命恢復：%+d"
+        "sgTW": "擊殺生命恢復：%+d",
+        "bnCN": "每次消灭恢复的生命: +%d"
     },
     "StrSkillBindSouls": {
         "Key": "StrSkillBindSouls",
@@ -19999,7 +20129,8 @@
         "zhCN": "最大束缚灵魂数: %d",
         "zhTW": "綁定靈魂上限：%d",
         "sgCN": "最大束缚灵魂数: %d",
-        "sgTW": "綁定靈魂上限：%d"
+        "sgTW": "綁定靈魂上限：%d",
+        "bnCN": "最大束缚灵魂数: %d"
     },
     "StrSkillSlayEnemies": {
         "Key": "StrSkillSlayEnemies",
@@ -20007,7 +20138,8 @@
         "zhCN": "消灭生命低于 %d%% 的敌人",
         "zhTW": "殺死生命值低於 %d%% 的敵人",
         "sgCN": "消灭生命低于 %d%% 的敌人",
-        "sgTW": "殺死生命值低於 %d%% 的敵人"
+        "sgTW": "殺死生命值低於 %d%% 的敵人",
+        "bnCN": "消灭生命低于 %d%% 的敌人"
     },
     "StrSkillDemonDamage": {
         "Key": "StrSkillDemonDamage",
@@ -20015,7 +20147,8 @@
         "zhCN": "伤害: %d-%d",
         "zhTW": "傷害：%d-%d 點",
         "sgCN": "伤害: %d-%d",
-        "sgTW": "傷害：%d-%d 點"
+        "sgTW": "傷害：%d-%d 點",
+        "bnCN": "伤害: %d-%d"
     },
     "StrSkillLifeCostDemon": {
         "Key": "StrSkillLifeCostDemon",
@@ -20023,7 +20156,8 @@
         "zhCN": "恶魔生命消耗: %d%%",
         "zhTW": "惡魔的生命值消耗：%d%%",
         "sgCN": "恶魔生命消耗: %d%%",
-        "sgTW": "惡魔的生命值消耗：%d%%"
+        "sgTW": "惡魔的生命值消耗：%d%%",
+        "bnCN": "恶魔生命消耗: %d%%"
     },
     "StrSkillLifeCost": {
         "Key": "StrSkillLifeCost",
@@ -20031,7 +20165,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillPhysicalReduction": {
         "Key": "StrSkillPhysicalReduction",
@@ -20039,7 +20174,8 @@
         "zhCN": "恶魔受到的物理伤害减少%d%%",
         "zhTW": "對你惡魔的物理傷害降低 %d%%",
         "sgCN": "恶魔受到的物理伤害减少%d%%",
-        "sgTW": "對你惡魔的物理傷害降低 %d%%"
+        "sgTW": "對你惡魔的物理傷害降低 %d%%",
+        "bnCN": "恶魔受到的物理伤害减少%d%%"
     },
     "StrSkillMitigationFromMonster": {
         "Key": "StrSkillMitigationFromMonster",
@@ -20047,7 +20183,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillExplode": {
         "Key": "StrSkillExplode",
@@ -20055,7 +20192,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillDuplicates": {
         "Key": "StrSkillDuplicates",
@@ -20063,7 +20201,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillChanceToSucceed": {
         "Key": "StrSkillChanceToSucceed",
@@ -20071,7 +20210,8 @@
         "zhCN": "束缚几率: %d%%",
         "zhTW": "束縛機率：%d%%",
         "sgCN": "束缚几率: %d%%",
-        "sgTW": "束縛機率：%d%%"
+        "sgTW": "束縛機率：%d%%",
+        "bnCN": "束缚几率: %d%%"
     },
     "StrSkillRequiredHealth": {
         "Key": "StrSkillRequiredHealth",
@@ -20079,7 +20219,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillAffixBaseFive": {
         "Key": "StrSkillAffixBaseFive",
@@ -20087,7 +20228,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillBonusAffixes": {
         "Key": "StrSkillBonusAffixes",
@@ -20095,7 +20237,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillAffixes": {
         "Key": "StrSkillAffixes",
@@ -20103,7 +20246,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillDemonicMasteryDemonDamage": {
         "Key": "StrSkillDemonicMasteryDemonDamage",
@@ -20111,7 +20255,8 @@
         "zhCN": "伤害: +%d%%",
         "zhTW": "傷害：%+d%%",
         "sgCN": "伤害: +%d%%",
-        "sgTW": "傷害：%+d%%"
+        "sgTW": "傷害：%+d%%",
+        "bnCN": "伤害: +%d%%"
     },
     "StrSkillDemonicMasteryDemonLife": {
         "Key": "StrSkillDemonicMasteryDemonLife",
@@ -20119,7 +20264,8 @@
         "zhCN": "恶魔生命: +%d%%",
         "zhTW": "你惡魔的生命值：%+d%%",
         "sgCN": "恶魔生命: +%d%%",
-        "sgTW": "你惡魔的生命值：%+d%%"
+        "sgTW": "你惡魔的生命值：%+d%%",
+        "bnCN": "恶魔生命: +%d%%"
     },
     "StrSkillMagicResist": {
         "Key": "StrSkillMagicResist",
@@ -20127,7 +20273,8 @@
         "zhCN": "魔法抗性: +%d%%",
         "zhTW": "魔法抗性：%+d%%",
         "sgCN": "魔法抗性: +%d%%",
-        "sgTW": "魔法抗性：%+d%%"
+        "sgTW": "魔法抗性：%+d%%",
+        "bnCN": "魔法抗性: +%d%%"
     },
     "StrSkillManaAfterKill": {
         "Key": "StrSkillManaAfterKill",
@@ -20135,7 +20282,8 @@
         "zhCN": "每次消灭恢复的法力: +%d",
         "zhTW": "擊殺法力恢復：%+d",
         "sgCN": "每次消灭恢复的法力: +%d",
-        "sgTW": "擊殺法力恢復：%+d"
+        "sgTW": "擊殺法力恢復：%+d",
+        "bnCN": "每次消灭恢复的法力: +%d"
     },
     "StrSkillCritChance": {
         "Key": "StrSkillCritChance",
@@ -20143,7 +20291,8 @@
         "zhCN": "暴击几率: +%d%%",
         "zhTW": "致命一擊機率：%+d%%",
         "sgCN": "暴击几率: +%d%%",
-        "sgTW": "致命一擊機率：%+d%%"
+        "sgTW": "致命一擊機率：%+d%%",
+        "bnCN": "暴击几率: +%d%%"
     },
     "StrSkillPhysicalReductionDemon": {
         "Key": "StrSkillPhysicalReductionDemon",
@@ -20151,7 +20300,8 @@
         "zhCN": "恶魔受到的物理伤害减少%d%%",
         "zhTW": "對你惡魔的物理傷害降低 %d%%",
         "sgCN": "恶魔受到的物理伤害减少%d%%",
-        "sgTW": "對你惡魔的物理傷害降低 %d%%"
+        "sgTW": "對你惡魔的物理傷害降低 %d%%",
+        "bnCN": "恶魔受到的物理伤害减少%d%%"
     },
     "StrSkillHealPercentDemon": {
         "Key": "StrSkillHealPercentDemon",
@@ -20159,7 +20309,8 @@
         "zhCN": "治疗恶魔生命: +%d%%",
         "zhTW": "治療惡魔的生命值：%+d%%",
         "sgCN": "治疗恶魔生命: +%d%%",
-        "sgTW": "治療惡魔的生命值：%+d%%"
+        "sgTW": "治療惡魔的生命值：%+d%%",
+        "bnCN": "治疗恶魔生命: +%d%%"
     },
     "StrSkillConsumeBonus": {
         "Key": "StrSkillConsumeBonus",
@@ -20167,7 +20318,8 @@
         "zhCN": "召唤或束缚恶魔以学习其秘密",
         "zhTW": "召喚或束縛一個惡魔以掌握它的秘密",
         "sgCN": "召唤或束缚恶魔以学习其秘密",
-        "sgTW": "召喚或束縛一個惡魔以掌握它的秘密"
+        "sgTW": "召喚或束縛一個惡魔以掌握它的秘密",
+        "bnCN": "召唤或束缚恶魔以学习其秘密"
     },
     "StrSkillUniqueAffixStrong": {
         "Key": "StrSkillUniqueAffixStrong",
@@ -20175,7 +20327,8 @@
         "zhCN": "被束缚恶魔获得额外强壮",
         "zhTW": "束縛的惡魔獲得特別強壯",
         "sgCN": "被束缚恶魔获得额外强壮",
-        "sgTW": "束縛的惡魔獲得特別強壯"
+        "sgTW": "束縛的惡魔獲得特別強壯",
+        "bnCN": "被束缚恶魔获得额外强壮"
     },
     "StrSkillRequirements": {
         "Key": "StrSkillRequirements",
@@ -20183,7 +20336,8 @@
         "zhCN": "武器需求 %+d%%",
         "zhTW": "%+d%% 武器需求",
         "sgCN": "武器需求 %+d%%",
-        "sgTW": "%+d%% 武器需求"
+        "sgTW": "%+d%% 武器需求",
+        "bnCN": "武器需求 %+d%%"
     },
     "StrSkillEnemyAttackRating": {
         "Key": "StrSkillEnemyAttackRating",
@@ -20191,7 +20345,8 @@
         "zhCN": "+%d%% 敌人命中值",
         "zhTW": "%+d%% 敵人準確率",
         "sgCN": "+%d%% 敌人命中值",
-        "sgTW": "%+d%% 敵人準確率"
+        "sgTW": "%+d%% 敵人準確率",
+        "bnCN": "+%d%% 敌人命中值"
     },
     "StrSkillEnemyDefense": {
         "Key": "StrSkillEnemyDefense",
@@ -20199,7 +20354,8 @@
         "zhCN": "+%d%% 敌人防御值",
         "zhTW": "%+d%% 敵人防禦",
         "sgCN": "+%d%% 敌人防御值",
-        "sgTW": "%+d%% 敵人防禦"
+        "sgTW": "%+d%% 敵人防禦",
+        "bnCN": "+%d%% 敌人防御值"
     },
     "StrSkillEffectLengthSingular": {
         "Key": "StrSkillEffectLengthSingular",
@@ -20207,7 +20363,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillEffectLength": {
         "Key": "StrSkillEffectLength",
@@ -20215,7 +20372,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillEffectWidth": {
         "Key": "StrSkillEffectWidth",
@@ -20223,7 +20381,8 @@
         "zhCN": "宽度: %d码",
         "zhTW": "寬度：%d 碼",
         "sgCN": "宽度: %d码",
-        "sgTW": "寬度：%d 碼"
+        "sgTW": "寬度：%d 碼",
+        "bnCN": "宽度: %d码"
     },
     "StrSkillEffectWidthSingular": {
         "Key": "StrSkillEffectWidthSingular",
@@ -20231,7 +20390,8 @@
         "zhCN": "宽度: %d码",
         "zhTW": "寬度：%d 碼",
         "sgCN": "宽度: %d码",
-        "sgTW": "寬度：%d 碼"
+        "sgTW": "寬度：%d 碼",
+        "bnCN": "宽度: %d码"
     },
     "StrSkillMissileAbsorbChance": {
         "Key": "StrSkillMissileAbsorbChance",
@@ -20239,7 +20399,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "SkillCategoryWa1": {
         "Key": "SkillCategoryWa1",
@@ -20247,7 +20408,8 @@
         "zhCN": "恶魔",
         "zhTW": "惡魔",
         "sgCN": "恶魔",
-        "sgTW": "惡魔"
+        "sgTW": "惡魔",
+        "bnCN": "恶魔"
     },
     "SkillCategoryWa2": {
         "Key": "SkillCategoryWa2",
@@ -20255,7 +20417,8 @@
         "zhCN": "邪术",
         "zhTW": "邪異",
         "sgCN": "邪术",
-        "sgTW": "邪異"
+        "sgTW": "邪異",
+        "bnCN": "邪术"
     },
     "SkillCategoryWa3": {
         "Key": "SkillCategoryWa3",
@@ -20263,7 +20426,8 @@
         "zhCN": "混沌",
         "zhTW": "混沌",
         "sgCN": "混沌",
-        "sgTW": "混沌"
+        "sgTW": "混沌",
+        "bnCN": "混沌"
     },
     "StrSkillKnockbackChance": {
         "Key": "StrSkillKnockbackChance",
@@ -20271,7 +20435,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillConfuseChance": {
         "Key": "StrSkillConfuseChance",
@@ -20279,7 +20444,8 @@
         "zhCN": "激怒几率: +%d%%",
         "zhTW": "陷入狂怒機率：%+d%%",
         "sgCN": "激怒几率: +%d%%",
-        "sgTW": "陷入狂怒機率：%+d%%"
+        "sgTW": "陷入狂怒機率：%+d%%",
+        "bnCN": "激怒几率: +%d%%"
     },
     "StrSkillExplodeChance": {
         "Key": "StrSkillExplodeChance",
@@ -20287,7 +20453,8 @@
         "zhCN": "爆炸几率: +%d%%",
         "zhTW": "爆發機率：%+d%%",
         "sgCN": "爆炸几率: +%d%%",
-        "sgTW": "爆發機率：%+d%%"
+        "sgTW": "爆發機率：%+d%%",
+        "bnCN": "爆炸几率: +%d%%"
     },
     "StrSkillDamageToDemon": {
         "Key": "StrSkillDamageToDemon",
@@ -20295,7 +20462,8 @@
         "zhCN": "受到伤害的%d%%转移给恶魔",
         "zhTW": "%+d%% 受到的傷害轉移至你的惡魔",
         "sgCN": "受到伤害的%d%%转移给恶魔",
-        "sgTW": "%+d%% 受到的傷害轉移至你的惡魔"
+        "sgTW": "%+d%% 受到的傷害轉移至你的惡魔",
+        "bnCN": "受到伤害的%d%%转移给恶魔"
     },
     "StrSkillEffectRadius": {
         "Key": "StrSkillEffectRadius",
@@ -20303,7 +20471,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillEffectRadiusSingular": {
         "Key": "StrSkillEffectRadiusSingular",
@@ -20311,7 +20480,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillEffectChanceToStun": {
         "Key": "StrSkillEffectChanceToStun",
@@ -20319,7 +20489,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "HexPurgeMagicExplosionDamage": {
         "Key": "HexPurgeMagicExplosionDamage",
@@ -20327,7 +20498,8 @@
         "zhCN": "魔法爆炸伤害: %d-%d",
         "zhTW": "魔法爆炸傷害：%d - %d 點",
         "sgCN": "魔法爆炸伤害: %d-%d",
-        "sgTW": "魔法爆炸傷害：%d - %d 點"
+        "sgTW": "魔法爆炸傷害：%d - %d 點",
+        "bnCN": "魔法爆炸伤害: %d-%d"
     },
     "SigilDeathExplosionDamage": {
         "Key": "SigilDeathExplosionDamage",
@@ -20335,7 +20507,8 @@
         "zhCN": "火焰爆炸伤害: 被消灭敌人生命的%d-%d%%",
         "zhTW": "火焰爆炸傷害：擊殺敵人生命值的 %d - %d%%",
         "sgCN": "火焰爆炸伤害: 被消灭敌人生命的%d-%d%%",
-        "sgTW": "火焰爆炸傷害：擊殺敵人生命值的 %d - %d%%"
+        "sgTW": "火焰爆炸傷害：擊殺敵人生命值的 %d - %d%%",
+        "bnCN": "火焰爆炸伤害: 被消灭敌人生命的%d-%d%%"
     },
     "MindBarrierRangedThornsDamage": {
         "Key": "MindBarrierRangedThornsDamage",
@@ -20343,7 +20516,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "ShadowMasteryMiasmaDurationIncrease": {
         "Key": "ShadowMasteryMiasmaDurationIncrease",
@@ -20351,7 +20525,8 @@
         "zhCN": "瘴气持续时间 +%d秒",
         "zhTW": "+%d 秒瘴氣持續時間",
         "sgCN": "+%d 秒瘴气持续时间",
-        "sgTW": "+%d 秒瘴氣持續時間"
+        "sgTW": "+%d 秒瘴氣持續時間",
+        "bnCN": "瘴气持续时间 +%d秒"
     },
     "ShadowMasteryMiasmaRangeIncrease": {
         "Key": "ShadowMasteryMiasmaRangeIncrease",
@@ -20359,7 +20534,8 @@
         "zhCN": "瘴气半径: %d码",
         "zhTW": "瘴氣範圍：%d 碼",
         "sgCN": "瘴气半径: %d码",
-        "sgTW": "瘴氣範圍：%d 碼"
+        "sgTW": "瘴氣範圍：%d 碼",
+        "bnCN": "瘴气半径: %d码"
     },
     "ShadowMasteryMiasmaDamageIncrease": {
         "Key": "ShadowMasteryMiasmaDamageIncrease",
@@ -20367,7 +20543,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "ShadowMasteryAbyssRangeIncrease": {
         "Key": "ShadowMasteryAbyssRangeIncrease",
@@ -20375,7 +20552,8 @@
         "zhCN": "深渊半径加成: +%d码",
         "zhTW": "額外深淵範圍：+%d 碼",
         "sgCN": "深渊半径加成: +%d码",
-        "sgTW": "額外深淵範圍：+%d 碼"
+        "sgTW": "額外深淵範圍：+%d 碼",
+        "bnCN": "深渊半径加成: +%d码"
     },
     "ShadowMasteryAbyssDamageIncrease": {
         "Key": "ShadowMasteryAbyssDamageIncrease",
@@ -20383,7 +20561,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "AMDImm": {
         "Key": "AMDImm",
@@ -20391,7 +20570,8 @@
         "zhCN": "%s: 每等级+%d%%平均每秒魔法伤害 ",
         "zhTW": "%s：每等級 %+d%% 每秒平均魔法傷害",
         "sgCN": "%s: 每等级+%d%%平均每秒魔法伤害 ",
-        "sgTW": "%s：每等級 %+d%% 每秒平均魔法傷害"
+        "sgTW": "%s：每等級 %+d%% 每秒平均魔法傷害",
+        "bnCN": "%s: 每等级+%d%%平均每秒魔法伤害 "
     },
     "SynHealthRegenPerLvl": {
         "Key": "SynHealthRegenPerLvl",
@@ -20399,7 +20579,8 @@
         "zhCN": "%s: 每等级+%d补充生命",
         "zhTW": "%s：每等級 +%d 點回復生命",
         "sgCN": "%s: 每等级+%d补充生命",
-        "sgTW": "%s：每等級 +%d 點回復生命"
+        "sgTW": "%s：每等級 +%d 點回復生命",
+        "bnCN": "%s: 每等级+%d补充生命"
     },
     "SynEnemyHexDuration": {
         "Key": "SynEnemyHexDuration",
@@ -20407,7 +20588,8 @@
         "zhCN": "%s: 每等级 +%d秒咒术持续时间",
         "zhTW": "%s：每等級 +%d 秒邪咒持續時間",
         "sgCN": "%s: 每等级 +%d秒咒术持续时间",
-        "sgTW": "%s：每等級 +%d 秒邪咒持續時間"
+        "sgTW": "%s：每等級 +%d 秒邪咒持續時間",
+        "bnCN": "%s: 每等级 +%d秒咒术持续时间"
     },
     "HexEnemyDuration": {
         "Key": "HexEnemyDuration",
@@ -20415,7 +20597,8 @@
         "zhCN": "咒术持续时间: %d秒",
         "zhTW": "邪咒持續時間：%d 秒",
         "sgCN": "咒术持续时间: %d秒",
-        "sgTW": "邪咒持續時間：%d 秒"
+        "sgTW": "邪咒持續時間：%d 秒",
+        "bnCN": "咒术持续时间: %d秒"
     },
     "SynHexSiphonLifeManaSteal": {
         "Key": "SynHexSiphonLifeManaSteal",
@@ -20423,7 +20606,8 @@
         "zhCN": "%s: 每等级 +%d消灭恢复的生命和法力 ",
         "zhTW": "%s：每等級 +%d 點擊殺生命和法力恢復",
         "sgCN": "%s: 每等级 +%d消灭恢复的生命和法力 ",
-        "sgTW": "%s：每等級 +%d 點擊殺生命和法力恢復"
+        "sgTW": "%s：每等級 +%d 點擊殺生命和法力恢復",
+        "bnCN": "%s: 每等级 +%d消灭恢复的生命和法力 "
     },
     "SynHexPurgeChanceToErupt": {
         "Key": "SynHexPurgeChanceToErupt",
@@ -20431,7 +20615,8 @@
         "zhCN": "%s: 每等级 +%d%%爆炸几率",
         "zhTW": "%s：每等級 %+d%% 爆發機率",
         "sgCN": "%s: 每等级 +%d%%爆炸几率",
-        "sgTW": "%s：每等級 %+d%% 爆發機率"
+        "sgTW": "%s：每等級 %+d%% 爆發機率",
+        "bnCN": "%s: 每等级 +%d%%爆炸几率"
     },
     "SynFlurryChanceToBlock": {
         "Key": "SynFlurryChanceToBlock",
@@ -20439,7 +20624,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "MirroredBladesDamagePercent": {
         "Key": "MirroredBladesDamagePercent",
@@ -20447,7 +20633,8 @@
         "zhCN": "镜影锋刃伤害: %d%%",
         "zhTW": "鏡像之刃傷害：%d%%",
         "sgCN": "镜影锋刃伤害: %d%%",
-        "sgTW": "鏡像之刃傷害：%d%%"
+        "sgTW": "鏡像之刃傷害：%d%%",
+        "bnCN": "镜影锋刃伤害: %d%%"
     },
     "SynGoatmanCrushingBlowPerLevel": {
         "Key": "SynGoatmanCrushingBlowPerLevel",
@@ -20455,7 +20642,8 @@
         "zhCN": "%s: 每等级+%d%%几率粉碎打击",
         "zhTW": "%s：每等級 %+d%% 機率造成粉碎打擊",
         "sgCN": "%s: 每等级+%d%%几率粉碎打击",
-        "sgTW": "%s：每等級 %+d%% 機率造成粉碎打擊"
+        "sgTW": "%s：每等級 %+d%% 機率造成粉碎打擊",
+        "bnCN": "%s: 每等级+%d%%几率粉碎打击"
     },
     "StrSkillDemonicMasteryDemonAC": {
         "Key": "StrSkillDemonicMasteryDemonAC",
@@ -20463,7 +20651,8 @@
         "zhCN": "防御:  %+d",
         "zhTW": "防禦：%+d",
         "sgCN": "防御:  %+d",
-        "sgTW": "防禦：%+d"
+        "sgTW": "防禦：%+d",
+        "bnCN": "防御:  %+d"
     },
     "SynResistAllPerLevel": {
         "Key": "SynResistAllPerLevel",
@@ -20471,7 +20660,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "SynDefenseFlatPerLevel": {
         "Key": "SynDefenseFlatPerLevel",
@@ -20479,7 +20669,8 @@
         "zhCN": "%s: 每等级+%d防御值",
         "zhTW": "%s：每等級 %+d 點防禦",
         "sgCN": "%s: 每等级+%d防御值",
-        "sgTW": "%s：每等級 %+d 點防禦"
+        "sgTW": "%s：每等級 %+d 點防禦",
+        "bnCN": "%s: 每等级+%d防御值"
     },
     "SynMoveSpeedPerLevel": {
         "Key": "SynMoveSpeedPerLevel",
@@ -20487,7 +20678,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "SynCriticalStrikePerLevel": {
         "Key": "SynCriticalStrikePerLevel",
@@ -20495,7 +20687,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillUniqueAffixFast": {
         "Key": "StrSkillUniqueAffixFast",
@@ -20503,7 +20696,8 @@
         "zhCN": "被束缚恶魔获得额外快速",
         "zhTW": "束縛的惡魔獲得特別快速",
         "sgCN": "被束缚恶魔获得额外快速",
-        "sgTW": "束縛的惡魔獲得特別快速"
+        "sgTW": "束縛的惡魔獲得特別快速",
+        "bnCN": "被束缚恶魔获得额外快速"
     },
     "StrSkillUniqueAffixSpectral": {
         "Key": "StrSkillUniqueAffixSpectral",
@@ -20511,7 +20705,8 @@
         "zhCN": "被束缚恶魔获得鬼魂打击",
         "zhTW": "束縛的惡魔獲得灌能打擊",
         "sgCN": "被束缚恶魔获得鬼魂打击",
-        "sgTW": "束縛的惡魔獲得灌能打擊"
+        "sgTW": "束縛的惡魔獲得灌能打擊",
+        "bnCN": "被束缚恶魔获得鬼魂打击"
     },
     "StrSkillUniqueAffixAura": {
         "Key": "StrSkillUniqueAffixAura",
@@ -20519,7 +20714,8 @@
         "zhCN": "被束缚恶魔获得光环强化",
         "zhTW": "束縛的惡魔獲得靈氣強化",
         "sgCN": "被束缚恶魔获得光环强化",
-        "sgTW": "束縛的惡魔獲得靈氣強化"
+        "sgTW": "束縛的惡魔獲得靈氣強化",
+        "bnCN": "被束缚恶魔获得光环强化"
     },
     "SynChanceToBindPerLevel": {
         "Key": "SynChanceToBindPerLevel",
@@ -20527,7 +20723,8 @@
         "zhCN": "%s: 每等级 +%d%%束缚恶魔几率",
         "zhTW": "%s：每等級 +%d%% 束縛惡魔機率",
         "sgCN": "%s: 每等级 +%d%%束缚恶魔几率",
-        "sgTW": "%s：每等級 +%d%% 束縛惡魔機率"
+        "sgTW": "%s：每等級 +%d%% 束縛惡魔機率",
+        "bnCN": "%s: 每等级 +%d%%束缚恶魔几率"
     },
     "StrSkillBonusSkillFrenzy": {
         "Key": "StrSkillBonusSkillFrenzy",
@@ -20535,7 +20732,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillBonusSkillBerserk": {
         "Key": "StrSkillBonusSkillBerserk",
@@ -20543,7 +20741,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillHealthLinkDamageSharePercent": {
         "Key": "StrSkillHealthLinkDamageSharePercent",
@@ -20551,7 +20750,8 @@
         "zhCN": "束缚目标间伤害分担: %d%%",
         "zhTW": "綁定目標共享傷害：%d%%",
         "sgCN": "束缚目标间伤害分担: %d%%",
-        "sgTW": "綁定目標共享傷害：%d%%"
+        "sgTW": "綁定目標共享傷害：%d%%",
+        "bnCN": "束缚目标间伤害分担: %d%%"
     },
     "StrSkillDamageIncreaseFlat": {
         "Key": "StrSkillDamageIncreaseFlat",
@@ -20559,7 +20759,8 @@
         "zhCN": "伤害提升%d",
         "zhTW": "傷害提高 %d",
         "sgCN": "伤害提升%d",
-        "sgTW": "傷害提高 %d"
+        "sgTW": "傷害提高 %d",
+        "bnCN": "伤害提升%d"
     },
     "StrSkillMagicDamageIncreaseFlat": {
         "Key": "StrSkillMagicDamageIncreaseFlat",
@@ -20567,7 +20768,8 @@
         "zhCN": "魔法伤害提升%d",
         "zhTW": "魔法傷害提高 %d",
         "sgCN": "魔法伤害提升%d",
-        "sgTW": "魔法傷害提高 %d"
+        "sgTW": "魔法傷害提高 %d",
+        "bnCN": "魔法伤害提升%d"
     },
     "StrSkillConsumePetBonus": {
         "Key": "StrSkillConsumePetBonus",
@@ -20575,7 +20777,8 @@
         "zhCN": "来自%s的加成: ",
         "zhTW": "來自%s的加成：",
         "sgCN": "来自%s的加成: ",
-        "sgTW": "來自%s的加成："
+        "sgTW": "來自%s的加成：",
+        "bnCN": "来自%s的加成: "
     },
     "StrSkillMiasmaCloudRadius": {
         "Key": "StrSkillMiasmaCloudRadius",
@@ -20583,7 +20786,8 @@
         "zhCN": "瘴气半径: %d",
         "zhTW": "瘴氣範圍：%d",
         "sgCN": "瘴气半径: %d",
-        "sgTW": "瘴氣範圍：%d"
+        "sgTW": "瘴氣範圍：%d",
+        "bnCN": "瘴气半径: %d"
     },
     "StrSkillMiasmaChainsSplashRadius": {
         "Key": "StrSkillMiasmaChainsSplashRadius",
@@ -20591,7 +20795,8 @@
         "zhCN": "",
         "zhTW": "",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": ""
     },
     "StrSkillMirroredBladesDuplicates": {
         "Key": "StrSkillMirroredBladesDuplicates",
@@ -20599,7 +20804,8 @@
         "zhCN": "创造镜像武器数: %d",
         "zhTW": "創造的鏡像武器：%d 把",
         "sgCN": "创造镜像武器数: %d",
-        "sgTW": "創造的鏡像武器：%d 把"
+        "sgTW": "創造的鏡像武器：%d 把",
+        "bnCN": "创造镜像武器数: %d"
     },
     "SynEchoingStrikeDuplicates": {
         "Key": "SynEchoingStrikeDuplicates",
@@ -20607,7 +20813,8 @@
         "zhCN": "%s: 每五级创造额外回响数: %d",
         "zhTW": "%s：每五級創造的額外迴響：%d 次",
         "sgCN": "%s: 每五级创造额外回响数: %d",
-        "sgTW": "%s：每五級創造的額外迴響：%d 次"
+        "sgTW": "%s：每五級創造的額外迴響：%d 次",
+        "bnCN": "%s: 每五级创造额外回响数: %d"
     },
     "SynCleaveArcRadius": {
         "Key": "SynCleaveArcRadius",
@@ -20615,7 +20822,8 @@
         "zhCN": "%s: 每五级劈斩弧度增加: %d度",
         "zhTW": "%s：每五級擴大的斬劈弧形：%d 度",
         "sgCN": "%s: 每五级劈斩弧度增加: %d度",
-        "sgTW": "%s：每五級擴大的斬劈弧形：%d 度"
+        "sgTW": "%s：每五級擴大的斬劈弧形：%d 度",
+        "bnCN": "%s: 每五级劈斩弧度增加: %d度"
     },
     "StrSkillEchoingStrikeTotalDuplicates": {
         "Key": "StrSkillEchoingStrikeTotalDuplicates",
@@ -20623,7 +20831,8 @@
         "zhCN": "%d个回响",
         "zhTW": "%d 次迴響",
         "sgCN": "%d个回响",
-        "sgTW": "%d 次迴響"
+        "sgTW": "%d 次迴響",
+        "bnCN": "%d个回响"
     },
     "StrSkillCleaveArcRadius": {
         "Key": "StrSkillCleaveArcRadius",
@@ -20631,7 +20840,8 @@
         "zhCN": "劈斩弧度: %d度",
         "zhTW": "斬劈弧形：%d 度",
         "sgCN": "劈斩弧度: %d度",
-        "sgTW": "斬劈弧形：%d 度"
+        "sgTW": "斬劈弧形：%d 度",
+        "bnCN": "劈斩弧度: %d度"
     },
     "StrSkillHexPurgeExplosionCount": {
         "Key": "StrSkillHexPurgeExplosionCount",
@@ -20639,7 +20849,8 @@
         "zhCN": "%d次爆炸后移除咒术",
         "zhTW": "邪咒在 %d 次爆炸後移除",
         "sgCN": "%d次爆炸后移除咒术",
-        "sgTW": "邪咒在 %d 次爆炸後移除"
+        "sgTW": "邪咒在 %d 次爆炸後移除",
+        "bnCN": "%d次爆炸后移除咒术"
     },
     "StrSkillDamagePercentage": {
         "Key": "StrSkillDamagePercentage",
@@ -20647,7 +20858,8 @@
         "zhCN": "伤害: +%d%%",
         "zhTW": "傷害：+%d%%",
         "sgCN": "伤害: +%d%%",
-        "sgTW": "傷害：+%d%%"
+        "sgTW": "傷害：+%d%%",
+        "bnCN": "伤害: +%d%%"
     },
     "StrSkillBladeWarpTotalDuplicates": {
         "Key": "StrSkillBladeWarpTotalDuplicates",
@@ -20655,7 +20867,8 @@
         "zhCN": "%d个星体武器",
         "zhTW": "%d 把星界武器",
         "sgCN": "%d个星体武器",
-        "sgTW": "%d 把星界武器"
+        "sgTW": "%d 把星界武器",
+        "bnCN": "%d个星体武器"
     },
     "SynBladeWarpDuplicates": {
         "Key": "SynBladeWarpDuplicates",
@@ -20663,7 +20876,8 @@
         "zhCN": "%s: 每五级创造额外星体武器数: %d",
         "zhTW": "%s：每五級創造的額外星界武器：%d 把",
         "sgCN": "%s: 每五级创造额外星体武器数: %d",
-        "sgTW": "%s：每五級創造的額外星界武器：%d 把"
+        "sgTW": "%s：每五級創造的額外星界武器：%d 把",
+        "bnCN": "%s: 每五级创造额外星体武器数: %d"
     },
     "StrSkillRingOfFireDamagePerFrameBonus": {
         "Key": "StrSkillRingOfFireDamagePerFrameBonus",
@@ -20671,7 +20885,8 @@
         "zhCN": "每码火焰伤害 +%d%%",
         "zhTW": "每碼 +%d%% 火焰傷害",
         "sgCN": "每码火焰伤害 +%d%%",
-        "sgTW": "每碼 +%d%% 火焰傷害"
+        "sgTW": "每碼 +%d%% 火焰傷害",
+        "bnCN": "每码火焰伤害 +%d%%"
     },
     "StrSkillEchoingStrikeTotalDuplicateSingular": {
         "Key": "StrSkillEchoingStrikeTotalDuplicateSingular",
@@ -20679,7 +20894,8 @@
         "zhCN": "%d个回响",
         "zhTW": "%d 次迴響",
         "sgCN": "%d个回响",
-        "sgTW": "%d 次迴響"
+        "sgTW": "%d 次迴響",
+        "bnCN": "%d个回响"
     },
     "StrSkillBladeWarpTotalDuplicatesSingular": {
         "Key": "StrSkillBladeWarpTotalDuplicatesSingular",
@@ -20687,7 +20903,8 @@
         "zhCN": "%d个星体武器",
         "zhTW": "%d 把星界武器",
         "sgCN": "%d个星体武器",
-        "sgTW": "%d 把星界武器"
+        "sgTW": "%d 把星界武器",
+        "bnCN": "%d个星体武器"
     },
     "StrSkillHexPurgeExplosionCountSingular": {
         "Key": "StrSkillHexPurgeExplosionCountSingular",
@@ -20695,7 +20912,8 @@
         "zhCN": "%d次爆炸后移除咒术",
         "zhTW": "邪咒在 %d 次爆炸後移除",
         "sgCN": "%d次爆炸后移除咒术",
-        "sgTW": "邪咒在 %d 次爆炸後移除"
+        "sgTW": "邪咒在 %d 次爆炸後移除",
+        "bnCN": "%d次爆炸后移除咒术"
     },
     "StrSkillDemonMaxCount": {
         "Key": "StrSkillDemonMaxCount",
@@ -20703,6 +20921,7 @@
         "zhCN": "最大恶魔数：%d",
         "zhTW": "惡魔上限：%d",
         "sgCN": "最大恶魔数：%d",
-        "sgTW": "惡魔上限：%d"
+        "sgTW": "惡魔上限：%d",
+        "bnCN": "最大恶魔数：%d"
     }
 }

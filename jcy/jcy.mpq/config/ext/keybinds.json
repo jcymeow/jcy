@@ -2183,7 +2183,8 @@
         "zhCN": "储藏箱上一页",
         "zhTW": "上一個儲物箱頁",
         "sgCN": "储藏箱上一页",
-        "sgTW": "上一個儲物箱頁"
+        "sgTW": "上一個儲物箱頁",
+        "bnCN": "储藏箱上一页"
     },
     "CfgCycleStashRight": {
         "Key": "CfgCycleStashRight",
@@ -2191,7 +2192,8 @@
         "zhCN": "储藏箱下一页",
         "zhTW": "下一個儲物箱頁",
         "sgCN": "储藏箱下一页",
-        "sgTW": "下一個儲物箱頁"
+        "sgTW": "下一個儲物箱頁",
+        "bnCN": "储藏箱下一页"
     },
     "CfgShowItemsUnfiltered": {
         "Key": "CfgShowItemsUnfiltered",
@@ -2199,6 +2201,7 @@
         "zhCN": "显示物品（未过滤）",
         "zhTW": "顯示物品（未篩選）",
         "sgCN": "显示物品（未过滤）",
-        "sgTW": "顯示物品（未篩選）"
+        "sgTW": "顯示物品（未篩選）",
+        "bnCN": "显示物品（未过滤）"
     }
 }

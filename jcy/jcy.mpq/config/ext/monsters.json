@@ -4766,7 +4766,8 @@
         "zhCN": "防御者之魂",
         "zhTW": "防禦者之靈",
         "sgCN": "防御者之魂",
-        "sgTW": "防禦者之靈"
+        "sgTW": "防禦者之靈",
+        "bnCN": "防御者之魂"
     },
     "GuardianSpirit": {
         "Key": "GuardianSpirit",
@@ -4774,7 +4775,8 @@
         "zhCN": "守护者之魂",
         "zhTW": "守護者之靈",
         "sgCN": "守护者之魂",
-        "sgTW": "守護者之靈"
+        "sgTW": "守護者之靈",
+        "bnCN": "守护者之魂"
     },
     "ProtectorSpirit": {
         "Key": "ProtectorSpirit",
@@ -4782,7 +4784,8 @@
         "zhCN": "保卫者之魂",
         "zhTW": "保衛者之靈",
         "sgCN": "保卫者之魂",
-        "sgTW": "保衛者之靈"
+        "sgTW": "保衛者之靈",
+        "bnCN": "保卫者之魂"
     },
     "WarGoatman": {
         "Key": "WarGoatman",
@@ -4790,7 +4793,8 @@
         "zhCN": "羊头人",
         "zhTW": "羊頭人",
         "sgCN": "羊头人",
-        "sgTW": "羊頭人"
+        "sgTW": "羊頭人",
+        "bnCN": "羊头人"
     },
     "WarDefiler": {
         "Key": "WarDefiler",
@@ -4798,6 +4802,7 @@
         "zhCN": "污秽者",
         "zhTW": "褻瀆者",
         "sgCN": "污秽者",
-        "sgTW": "褻瀆者"
+        "sgTW": "褻瀆者",
+        "bnCN": "污秽者"
     }
 }

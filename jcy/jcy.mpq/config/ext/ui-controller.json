@@ -2678,7 +2678,8 @@
         "zhCN": "按住恐惧化第一幕",
         "zhTW": "按住  以將第一章設為邪惡威脅區域",
         "sgCN": "按住恐惧化第一幕",
-        "sgTW": "按住  以將第一章設為邪惡威脅區域"
+        "sgTW": "按住  以將第一章設為邪惡威脅區域",
+        "bnCN": "按住恐惧化第一幕"
     },
     "UseTerrorTokenAct2Controller": {
         "Key": "UseTerrorTokenAct2Controller",
@@ -2686,7 +2687,8 @@
         "zhCN": "按住恐惧化第二幕",
         "zhTW": "按住  以將第二章設為邪惡威脅區域",
         "sgCN": "按住恐惧化第二幕",
-        "sgTW": "按住  以將第二章設為邪惡威脅區域"
+        "sgTW": "按住  以將第二章設為邪惡威脅區域",
+        "bnCN": "按住恐惧化第二幕"
     },
     "UseTerrorTokenAct3Controller": {
         "Key": "UseTerrorTokenAct3Controller",
@@ -2694,7 +2696,8 @@
         "zhCN": "按住恐惧化第三幕",
         "zhTW": "按住  以將第三章設為邪惡威脅區域",
         "sgCN": "按住恐惧化第三幕",
-        "sgTW": "按住  以將第三章設為邪惡威脅區域"
+        "sgTW": "按住  以將第三章設為邪惡威脅區域",
+        "bnCN": "按住恐惧化第三幕"
     },
     "UseTerrorTokenAct4Controller": {
         "Key": "UseTerrorTokenAct4Controller",
@@ -2702,7 +2705,8 @@
         "zhCN": "按住恐惧化第四幕",
         "zhTW": "按住  以將第四章設為邪惡威脅區域",
         "sgCN": "按住恐惧化第四幕",
-        "sgTW": "按住  以將第四章設為邪惡威脅區域"
+        "sgTW": "按住  以將第四章設為邪惡威脅區域",
+        "bnCN": "按住恐惧化第四幕"
     },
     "UseTerrorTokenAct5Controller": {
         "Key": "UseTerrorTokenAct5Controller",
@@ -2710,7 +2714,8 @@
         "zhCN": "按住恐惧化第五幕",
         "zhTW": "按住  以將第五章設為邪惡威脅區域",
         "sgCN": "按住恐惧化第五幕",
-        "sgTW": "按住  以將第五章設為邪惡威脅區域"
+        "sgTW": "按住  以將第五章設為邪惡威脅區域",
+        "bnCN": "按住恐惧化第五幕"
     },
     "ControllerPromptItemMoveToAdvancedStash": {
         "Key": "ControllerPromptItemMoveToAdvancedStash",
@@ -2718,7 +2723,8 @@
         "zhCN": "移动到堆叠栏",
         "zhTW": "移到儲物箱分頁",
         "sgCN": "移动到堆叠栏",
-        "sgTW": "移到儲物箱分頁"
+        "sgTW": "移到儲物箱分頁",
+        "bnCN": "移动到堆叠栏"
     },
     "ControllerPromptItemBulkMove": {
         "Key": "ControllerPromptItemBulkMove",
@@ -2726,7 +2732,8 @@
         "zhCN": "移动%u个",
         "zhTW": "移動%u",
         "sgCN": "移动%u个",
-        "sgTW": "移動%u"
+        "sgTW": "移動%u",
+        "bnCN": "移动%u个"
     },
     "OptionsMenuController_ps4": {
         "Key": "OptionsMenuController_ps4",
@@ -2734,7 +2741,8 @@
         "zhCN": "DUALSHOCK®4 无线控制器",
         "zhTW": "DUALSHOCK®4 無線控制器",
         "sgCN": "DUALSHOCK®4 无线控制器",
-        "sgTW": "DUALSHOCK®4 無線控制器"
+        "sgTW": "DUALSHOCK®4 無線控制器",
+        "bnCN": "DUALSHOCK®4 无线控制器"
     },
     "OptionsMenuController_ps5": {
         "Key": "OptionsMenuController_ps5",
@@ -2742,7 +2750,8 @@
         "zhCN": "DualSense™ 无线控制器",
         "zhTW": "DualSense™ 無線控制器",
         "sgCN": "DualSense™ 无线控制器",
-        "sgTW": "DualSense™ 無線控制器"
+        "sgTW": "DualSense™ 無線控制器",
+        "bnCN": "DualSense™ 无线控制器"
     },
     "ControllerReconnectMessage_ps4": {
         "Key": "ControllerReconnectMessage_ps4",
@@ -2750,7 +2759,8 @@
         "zhCN": "请重新连接DUALSHOCK®4 无线控制器",
         "zhTW": "請重新連接 DUALSHOCK®4 無線控制器",
         "sgCN": "请重新连接DUALSHOCK®4 无线控制器",
-        "sgTW": "請重新連接 DUALSHOCK®4 無線控制器"
+        "sgTW": "請重新連接 DUALSHOCK®4 無線控制器",
+        "bnCN": "请重新连接DUALSHOCK®4 无线控制器"
     },
     "ControllerReconnectMessage_ps5": {
         "Key": "ControllerReconnectMessage_ps5",
@@ -2758,7 +2768,8 @@
         "zhCN": "请重新连接DualSense™ 无线控制器",
         "zhTW": "請重新連接 DualSense™ 無線控制器",
         "sgCN": "请重新连接DualSense™ 无线控制器",
-        "sgTW": "請重新連接 DualSense™ 無線控制器"
+        "sgTW": "請重新連接 DualSense™ 無線控制器",
+        "bnCN": "请重新连接DualSense™ 无线控制器"
     },
     "OptionsMenuItemTooltipHotkeyAppender_switch": {
         "Key": "OptionsMenuItemTooltipHotkeyAppender_switch",
@@ -2766,7 +2777,8 @@
         "zhCN": "显示物品说明条热键",
         "zhTW": "顯示物品資訊提示鍵",
         "sgCN": "显示物品说明条热键",
-        "sgTW": "顯示物品資訊提示鍵"
+        "sgTW": "顯示物品資訊提示鍵",
+        "bnCN": "显示物品说明条热键"
     },
     "OptionsMenuItemTooltipHotkeyAppender_xbox": {
         "Key": "OptionsMenuItemTooltipHotkeyAppender_xbox",
@@ -2774,7 +2786,8 @@
         "zhCN": "显示物品说明条热键",
         "zhTW": "顯示物品資訊提示按鈕",
         "sgCN": "显示物品说明条热键",
-        "sgTW": "顯示物品資訊提示按鈕"
+        "sgTW": "顯示物品資訊提示按鈕",
+        "bnCN": "显示物品说明条热键"
     },
     "OptionsMenuItemTooltipHotkeyAppender_ps5": {
         "Key": "OptionsMenuItemTooltipHotkeyAppender_ps5",
@@ -2782,7 +2795,8 @@
         "zhCN": "显示物品说明条热键",
         "zhTW": "顯示物品資訊提示按鈕",
         "sgCN": "显示物品说明条热键",
-        "sgTW": "顯示物品資訊提示按鈕"
+        "sgTW": "顯示物品資訊提示按鈕",
+        "bnCN": "显示物品说明条热键"
     },
     "OptionsMenuItemTooltipHotkeyAppender_ps4": {
         "Key": "OptionsMenuItemTooltipHotkeyAppender_ps4",
@@ -2790,7 +2804,8 @@
         "zhCN": "显示物品说明条热键",
         "zhTW": "顯示物品資訊提示按鈕",
         "sgCN": "显示物品说明条热键",
-        "sgTW": "顯示物品資訊提示按鈕"
+        "sgTW": "顯示物品資訊提示按鈕",
+        "bnCN": "显示物品说明条热键"
     },
     "LootFilterProfileHelpTooltip_switch": {
         "Key": "LootFilterProfileHelpTooltip_switch",
@@ -2798,7 +2813,8 @@
         "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
         "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。",
         "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
-        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。"
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。",
+        "bnCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
     },
     "LootFilterProfileHelpTooltip_xbox": {
         "Key": "LootFilterProfileHelpTooltip_xbox",
@@ -2806,7 +2822,8 @@
         "zhCN": "创建规则配置，影响按下“显示物品”按钮时\n显示的物品。",
         "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
         "sgCN": "创建规则配置，影响按下“显示物品”按钮时\n显示的物品。",
-        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
+        "bnCN": "创建规则配置，影响按下“显示物品”按钮时\n显示的物品。"
     },
     "LootFilterProfileHelpTooltip_ps4": {
         "Key": "LootFilterProfileHelpTooltip_ps4",
@@ -2814,7 +2831,8 @@
         "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
         "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
         "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
-        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
+        "bnCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
     },
     "LootFilterProfileHelpTooltip_ps5": {
         "Key": "LootFilterProfileHelpTooltip_ps5",
@@ -2822,6 +2840,7 @@
         "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
         "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
         "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
-        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。"
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鈕時出現的物品。",
+        "bnCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
     }
 }

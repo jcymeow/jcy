@@ -15683,7 +15683,8 @@
         "zhCN": "ISBN：7-900614-79-6；审批文号：新出音管（1997）518号；著作权人：Blizzard Entertainment Inc.",
         "zhTW": "ISBN：7-900614-79-6；审批文号：新出音管（1997）518号；著作权人：Blizzard Entertainment Inc.",
         "sgCN": "ISBN：7-900614-79-6；审批文号：新出音管（1997）518号；著作权人：Blizzard Entertainment Inc.",
-        "sgTW": "ISBN：7-900614-79-6；审批文号：新出音管（1997）518号；著作权人：Blizzard Entertainment Inc."
+        "sgTW": "ISBN：7-900614-79-6；审批文号：新出音管（1997）518号；著作权人：Blizzard Entertainment Inc.",
+        "bnCN": "ISBN：7-900614-79-6；审批文号：新出音管（1997）518号；著作权人：Blizzard Entertainment Inc."
     },
     "ChineseWarningsAndDisclaimers": {
         "Key": "ChineseWarningsAndDisclaimers",
@@ -15691,7 +15692,8 @@
         "zhCN": "ÿc5适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。\n\nÿc5本公司积极履行《网络游戏行业防沉迷自律公约》\n\n健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有用户必须用本人身份信息进行实名登记，未成年人将纳入防沉迷限制。",
         "zhTW": "ÿc5适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。\n\nÿc5本公司积极履行《网络游戏行业防沉迷自律公约》\n\n健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有用户必须用本人身份信息进行实名登记，未成年人将纳入防沉迷限制。",
         "sgCN": "ÿc5适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。\n\nÿc5本公司积极履行《网络游戏行业防沉迷自律公约》\n\n健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有用户必须用本人身份信息进行实名登记，未成年人将纳入防沉迷限制。",
-        "sgTW": "ÿc5适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。\n\nÿc5本公司积极履行《网络游戏行业防沉迷自律公约》\n\n健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有用户必须用本人身份信息进行实名登记，未成年人将纳入防沉迷限制。"
+        "sgTW": "ÿc5适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。\n\nÿc5本公司积极履行《网络游戏行业防沉迷自律公约》\n\n健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有用户必须用本人身份信息进行实名登记，未成年人将纳入防沉迷限制。",
+        "bnCN": "ÿc5适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。\n\nÿc5本公司积极履行《网络游戏行业防沉迷自律公约》\n\n健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。\n\n根据国家新闻出版署《关于防止未成年人沉迷网络游戏的通知》《关于进一步严格管理切实防止未成年人沉迷网络游戏的通知》，所有用户必须用本人身份信息进行实名登记，未成年人将纳入防沉迷限制。"
     },
     "ChineseHealthWarning": {
         "Key": "ChineseHealthWarning",
@@ -16995,7 +16997,8 @@
         "zhCN": "+%d个",
         "zhTW": "額外 +%d",
         "sgCN": "+%d个",
-        "sgTW": "額外 +%d"
+        "sgTW": "額外 +%d",
+        "bnCN": "+%d个"
     },
     "DesecratedZoneUniqueTokenGained": {
         "Key": "DesecratedZoneUniqueTokenGained",
@@ -17003,7 +17006,8 @@
         "zhCN": "你引来了使者的怒火！",
         "zhTW": "你引來了使者的怒火！",
         "sgCN": "你引来了使者的怒火！",
-        "sgTW": "你引來了使者的怒火！"
+        "sgTW": "你引來了使者的怒火！",
+        "bnCN": "你引来了使者的怒火！"
     },
     "DesecratedZoneUniqueSpawned": {
         "Key": "DesecratedZoneUniqueSpawned",
@@ -17011,7 +17015,8 @@
         "zhCN": "使者正在追猎你！",
         "zhTW": "一個使者正在獵殺你！",
         "sgCN": "使者正在追猎你！",
-        "sgTW": "一個使者正在獵殺你！"
+        "sgTW": "一個使者正在獵殺你！",
+        "bnCN": "使者正在追猎你！"
     },
     "HeraldName5": {
         "Key": "HeraldName5",
@@ -17019,7 +17024,8 @@
         "zhCN": "恐惧使者",
         "zhTW": "恐懼使者",
         "sgCN": "恐惧使者",
-        "sgTW": "恐懼使者"
+        "sgTW": "恐懼使者",
+        "bnCN": "恐惧使者"
     },
     "DesecratedZoneUniqueSpawnedLevel": {
         "Key": "DesecratedZoneUniqueSpawnedLevel",
@@ -17027,7 +17033,8 @@
         "zhCN": "使者正在%s追猎你！",
         "zhTW": "一個使者正在%s獵殺你！",
         "sgCN": "使者正在%s追猎你！",
-        "sgTW": "一個使者正在%s獵殺你！"
+        "sgTW": "一個使者正在%s獵殺你！",
+        "bnCN": "使者正在%s追猎你！"
     },
     "TerrorZonesEnabled": {
         "Key": "TerrorZonesEnabled",
@@ -17314,7 +17321,8 @@
         "zhCN": "第%u/%u页",
         "zhTW": "第 %u / %u 頁",
         "sgCN": "第%u/%u页",
-        "sgTW": "第 %u / %u 頁"
+        "sgTW": "第 %u / %u 頁",
+        "bnCN": "第%u/%u页"
     },
     "strProfaneGamePassword": {
         "Key": "strProfaneGamePassword",
@@ -17322,7 +17330,8 @@
         "zhCN": "游戏密码包含不当文字。请更改密码。",
         "zhTW": "遊戲密碼含有不雅文字。請嘗試另一個密碼。",
         "sgCN": "游戏密码包含不当文字。请更改密码。",
-        "sgTW": "遊戲密碼含有不雅文字。請嘗試另一個密碼。"
+        "sgTW": "遊戲密碼含有不雅文字。請嘗試另一個密碼。",
+        "bnCN": "游戏密码包含不当文字。请更改密码。"
     },
     "SendFailureAlert": {
         "Key": "SendFailureAlert",
@@ -17330,7 +17339,8 @@
         "zhCN": "信息未成功发送，请重试。",
         "zhTW": "訊息未送出。請再試一次。",
         "sgCN": "信息未成功发送，请重试。",
-        "sgTW": "訊息未送出。請再試一次。"
+        "sgTW": "訊息未送出。請再試一次。",
+        "bnCN": "信息未成功发送，请重试。"
     },
     "SendDeniedAlert": {
         "Key": "SendDeniedAlert",
@@ -17338,7 +17348,8 @@
         "zhCN": "信息包含不当用语，已被屏蔽。",
         "zhTW": "訊息因含有不當言詞而被封鎖。",
         "sgCN": "信息包含不当用语，已被屏蔽。",
-        "sgTW": "訊息因含有不當言詞而被封鎖。"
+        "sgTW": "訊息因含有不當言詞而被封鎖。",
+        "bnCN": "信息包含不当用语，已被屏蔽。"
     },
     "AccelBonus": {
         "Key": "AccelBonus",
@@ -17346,7 +17357,8 @@
         "zhCN": "加速加成",
         "zhTW": "加速加成",
         "sgCN": "加速加成",
-        "sgTW": "加速加成"
+        "sgTW": "加速加成",
+        "bnCN": "加速加成"
     },
     "ChinesePublisherLine2": {
         "Key": "ChinesePublisherLine2",
@@ -17354,7 +17366,8 @@
         "zhCN": "出版单位：华中科技大学电子音像出版社；由上海网之易网络科技发展有限公司运营",
         "zhTW": "出版单位：华中科技大学电子音像出版社；由上海网之易网络科技发展有限公司运营",
         "sgCN": "出版单位：华中科技大学电子音像出版社；由上海网之易网络科技发展有限公司运营",
-        "sgTW": "出版单位：华中科技大学电子音像出版社；由上海网之易网络科技发展有限公司运营"
+        "sgTW": "出版单位：华中科技大学电子音像出版社；由上海网之易网络科技发展有限公司运营",
+        "bnCN": "出版单位：华中科技大学电子音像出版社；由上海网之易网络科技发展有限公司运营"
     },
     "BatterySaver": {
         "Key": "BatterySaver",
@@ -17362,7 +17375,8 @@
         "zhCN": "省电模式",
         "zhTW": "省電模式",
         "sgCN": "省电模式",
-        "sgTW": "省電模式"
+        "sgTW": "省電模式",
+        "bnCN": "省电模式"
     },
     "ShowBatteryLevel": {
         "Key": "ShowBatteryLevel",
@@ -17370,7 +17384,8 @@
         "zhCN": "显示电量",
         "zhTW": "省電模式等級",
         "sgCN": "显示电量",
-        "sgTW": "省電模式等級"
+        "sgTW": "省電模式等級",
+        "bnCN": "显示电量"
     },
     "Warlock": {
         "Key": "Warlock",
@@ -17378,7 +17393,8 @@
         "zhCN": "术士",
         "zhTW": "術士",
         "sgCN": "术士",
-        "sgTW": "術士"
+        "sgTW": "術士",
+        "bnCN": "术士"
     },
     "warlockstr": {
         "Key": "warlockstr",
@@ -17386,7 +17402,8 @@
         "zhCN": "术士",
         "zhTW": "術士",
         "sgCN": "术士",
-        "sgTW": "術士"
+        "sgTW": "術士",
+        "bnCN": "术士"
     },
     "strWarlockDesc": {
         "Key": "strWarlockDesc",
@@ -17394,7 +17411,8 @@
         "zhCN": "掌控禁忌法术，驾驭地狱烈火与暗影，统御诸界恶魔。",
         "zhTW": "他精通禁術，熟練駕馭地獄之火和暗影之力，令惡魔對他俯首稱臣。",
         "sgCN": "掌控禁忌法术，驾驭地狱烈火与暗影，统御诸界恶魔。",
-        "sgTW": "他精通禁術，熟練駕馭地獄之火和暗影之力，令惡魔對他俯首稱臣。"
+        "sgTW": "他精通禁術，熟練駕馭地獄之火和暗影之力，令惡魔對他俯首稱臣。",
+        "bnCN": "掌控禁忌法术，驾驭地狱烈火与暗影，统御诸界恶魔。"
     },
     "LootFilter": {
         "Key": "LootFilter",
@@ -17402,7 +17420,8 @@
         "zhCN": "战利品过滤器",
         "zhTW": "拾取篩選器",
         "sgCN": "战利品过滤器",
-        "sgTW": "拾取篩選器"
+        "sgTW": "拾取篩選器",
+        "bnCN": "战利品过滤器"
     },
     "LootFilterProfile": {
         "Key": "LootFilterProfile",
@@ -17410,7 +17429,8 @@
         "zhCN": "配置: ",
         "zhTW": "設定檔：",
         "sgCN": "配置: ",
-        "sgTW": "設定檔："
+        "sgTW": "設定檔：",
+        "bnCN": "配置: "
     },
     "SelectAProfile": {
         "Key": "SelectAProfile",
@@ -17418,7 +17438,8 @@
         "zhCN": "选择配置",
         "zhTW": "選擇一個設定檔",
         "sgCN": "选择配置",
-        "sgTW": "選擇一個設定檔"
+        "sgTW": "選擇一個設定檔",
+        "bnCN": "选择配置"
     },
     "RenameProfile": {
         "Key": "RenameProfile",
@@ -17426,7 +17447,8 @@
         "zhCN": "重命名配置",
         "zhTW": "重新命名設定檔",
         "sgCN": "重命名配置",
-        "sgTW": "重新命名設定檔"
+        "sgTW": "重新命名設定檔",
+        "bnCN": "重命名配置"
     },
     "ShareProfile": {
         "Key": "ShareProfile",
@@ -17434,7 +17456,8 @@
         "zhCN": "分享配置",
         "zhTW": "分享設定檔",
         "sgCN": "分享配置",
-        "sgTW": "分享設定檔"
+        "sgTW": "分享設定檔",
+        "bnCN": "分享配置"
     },
     "DeleteProfile": {
         "Key": "DeleteProfile",
@@ -17442,7 +17465,8 @@
         "zhCN": "删除",
         "zhTW": "刪除",
         "sgCN": "删除",
-        "sgTW": "刪除"
+        "sgTW": "刪除",
+        "bnCN": "删除"
     },
     "NewRule": {
         "Key": "NewRule",
@@ -17450,7 +17474,8 @@
         "zhCN": "新规则",
         "zhTW": "新規則",
         "sgCN": "新规则",
-        "sgTW": "新規則"
+        "sgTW": "新規則",
+        "bnCN": "新规则"
     },
     "DisableAllRules": {
         "Key": "DisableAllRules",
@@ -17458,7 +17483,8 @@
         "zhCN": "全部禁用",
         "zhTW": "全部停用",
         "sgCN": "全部禁用",
-        "sgTW": "全部停用"
+        "sgTW": "全部停用",
+        "bnCN": "全部禁用"
     },
     "EnableAllRules": {
         "Key": "EnableAllRules",
@@ -17466,7 +17492,8 @@
         "zhCN": "全部启用",
         "zhTW": "全部啟用",
         "sgCN": "全部启用",
-        "sgTW": "全部啟用"
+        "sgTW": "全部啟用",
+        "bnCN": "全部启用"
     },
     "EditRule": {
         "Key": "EditRule",
@@ -17474,7 +17501,8 @@
         "zhCN": "编辑规则",
         "zhTW": "編輯規則",
         "sgCN": "编辑规则",
-        "sgTW": "編輯規則"
+        "sgTW": "編輯規則",
+        "bnCN": "编辑规则"
     },
     "RenameRule": {
         "Key": "RenameRule",
@@ -17482,7 +17510,8 @@
         "zhCN": "重命名",
         "zhTW": "重新命名",
         "sgCN": "重命名",
-        "sgTW": "重新命名"
+        "sgTW": "重新命名",
+        "bnCN": "重命名"
     },
     "CopyRule": {
         "Key": "CopyRule",
@@ -17490,7 +17519,8 @@
         "zhCN": "复制",
         "zhTW": "複製",
         "sgCN": "复制",
-        "sgTW": "複製"
+        "sgTW": "複製",
+        "bnCN": "复制"
     },
     "DeleteRule": {
         "Key": "DeleteRule",
@@ -17498,7 +17528,8 @@
         "zhCN": "删除",
         "zhTW": "刪除",
         "sgCN": "删除",
-        "sgTW": "刪除"
+        "sgTW": "刪除",
+        "bnCN": "删除"
     },
     "ProfileNoRules": {
         "Key": "ProfileNoRules",
@@ -17506,7 +17537,8 @@
         "zhCN": "此配置无规则",
         "zhTW": "這個設定檔沒有規則",
         "sgCN": "此配置无规则",
-        "sgTW": "這個設定檔沒有規則"
+        "sgTW": "這個設定檔沒有規則",
+        "bnCN": "此配置无规则"
     },
     "NoProfileSelected": {
         "Key": "NoProfileSelected",
@@ -17514,7 +17546,8 @@
         "zhCN": "选择配置以查看和编辑规则",
         "zhTW": "選擇一個設定檔以檢視和編輯規則",
         "sgCN": "选择配置以查看和编辑规则",
-        "sgTW": "選擇一個設定檔以檢視和編輯規則"
+        "sgTW": "選擇一個設定檔以檢視和編輯規則",
+        "bnCN": "选择配置以查看和编辑规则"
     },
     "DefaultRuleName": {
         "Key": "DefaultRuleName",
@@ -17522,7 +17555,8 @@
         "zhCN": "规则%d",
         "zhTW": "規則 %d",
         "sgCN": "规则%d",
-        "sgTW": "規則 %d"
+        "sgTW": "規則 %d",
+        "bnCN": "规则%d"
     },
     "ShowRule": {
         "Key": "ShowRule",
@@ -17530,7 +17564,8 @@
         "zhCN": "显示",
         "zhTW": "顯示",
         "sgCN": "显示",
-        "sgTW": "顯示"
+        "sgTW": "顯示",
+        "bnCN": "显示"
     },
     "HideRule": {
         "Key": "HideRule",
@@ -17538,7 +17573,8 @@
         "zhCN": "隐藏",
         "zhTW": "隱藏",
         "sgCN": "隐藏",
-        "sgTW": "隱藏"
+        "sgTW": "隱藏",
+        "bnCN": "隐藏"
     },
     "Chronicle": {
         "Key": "Chronicle",
@@ -17546,7 +17582,8 @@
         "zhCN": "编年史",
         "zhTW": "記事",
         "sgCN": "编年史",
-        "sgTW": "記事"
+        "sgTW": "記事",
+        "bnCN": "编年史"
     },
     "Unique": {
         "Key": "Unique",
@@ -17554,7 +17591,8 @@
         "zhCN": "暗金",
         "zhTW": "獨特",
         "sgCN": "暗金",
-        "sgTW": "獨特"
+        "sgTW": "獨特",
+        "bnCN": "暗金"
     },
     "Sets": {
         "Key": "Sets",
@@ -17562,7 +17600,8 @@
         "zhCN": "套装",
         "zhTW": "套裝",
         "sgCN": "套装",
-        "sgTW": "套裝"
+        "sgTW": "套裝",
+        "bnCN": "套装"
     },
     "Runewords": {
         "Key": "Runewords",
@@ -17570,7 +17609,8 @@
         "zhCN": "符文之语",
         "zhTW": "符文之語",
         "sgCN": "符文之语",
-        "sgTW": "符文之語"
+        "sgTW": "符文之語",
+        "bnCN": "符文之语"
     },
     "NormalQuality": {
         "Key": "NormalQuality",
@@ -17578,7 +17618,8 @@
         "zhCN": "普通",
         "zhTW": "普通",
         "sgCN": "普通",
-        "sgTW": "普通"
+        "sgTW": "普通",
+        "bnCN": "普通"
     },
     "ExceptionalQuality": {
         "Key": "ExceptionalQuality",
@@ -17586,7 +17627,8 @@
         "zhCN": "优异",
         "zhTW": "卓越",
         "sgCN": "优异",
-        "sgTW": "卓越"
+        "sgTW": "卓越",
+        "bnCN": "优异"
     },
     "EliteQuality": {
         "Key": "EliteQuality",
@@ -17594,7 +17636,8 @@
         "zhCN": "精英",
         "zhTW": "精英",
         "sgCN": "精英",
-        "sgTW": "精英"
+        "sgTW": "精英",
+        "bnCN": "精英"
     },
     "ChronicleFilterRemaining": {
         "Key": "ChronicleFilterRemaining",
@@ -17602,7 +17645,8 @@
         "zhCN": "剩余",
         "zhTW": "剩餘",
         "sgCN": "剩余",
-        "sgTW": "剩餘"
+        "sgTW": "剩餘",
+        "bnCN": "剩余"
     },
     "ChronicleEntryCompletePercent": {
         "Key": "ChronicleEntryCompletePercent",
@@ -17610,7 +17654,8 @@
         "zhCN": "%d%%",
         "zhTW": "%d%%",
         "sgCN": "%d%%",
-        "sgTW": "%d%%"
+        "sgTW": "%d%%",
+        "bnCN": "%d%%"
     },
     "ViewRewardsButton": {
         "Key": "ViewRewardsButton",
@@ -17618,7 +17663,8 @@
         "zhCN": "查看奖励",
         "zhTW": "檢視獎勵",
         "sgCN": "查看奖励",
-        "sgTW": "檢視獎勵"
+        "sgTW": "檢視獎勵",
+        "bnCN": "查看奖励"
     },
     "ChronicleEntryFoundBy": {
         "Key": "ChronicleEntryFoundBy",
@@ -17626,7 +17672,8 @@
         "zhCN": "首次发现者: %s",
         "zhTW": "最初發現者：%s",
         "sgCN": "首次发现者: %s",
-        "sgTW": "最初發現者：%s"
+        "sgTW": "最初發現者：%s",
+        "bnCN": "首次发现者: %s"
     },
     "ChronicleEntryFoundTimestampFormat": {
         "Key": "ChronicleEntryFoundTimestampFormat",
@@ -17634,7 +17681,8 @@
         "zhCN": "%m/%d/%Y, %H:%M",
         "zhTW": "%Y/%m/%d，%H:%M",
         "sgCN": "%m/%d/%Y, %H:%M",
-        "sgTW": "%Y/%m/%d，%H:%M"
+        "sgTW": "%Y/%m/%d，%H:%M",
+        "bnCN": "%m/%d/%Y, %H:%M"
     },
     "ChronicleEntryDroppedBy": {
         "Key": "ChronicleEntryDroppedBy",
@@ -17642,7 +17690,8 @@
         "zhCN": "掉落者: %s",
         "zhTW": "掉落者：%s",
         "sgCN": "掉落者: %s",
-        "sgTW": "掉落者：%s"
+        "sgTW": "掉落者：%s",
+        "bnCN": "掉落者: %s"
     },
     "NewProfileTitle": {
         "Key": "NewProfileTitle",
@@ -17650,7 +17699,8 @@
         "zhCN": "新配置",
         "zhTW": "新設定檔",
         "sgCN": "新配置",
-        "sgTW": "新設定檔"
+        "sgTW": "新設定檔",
+        "bnCN": "新配置"
     },
     "NewProfileName": {
         "Key": "NewProfileName",
@@ -17658,7 +17708,8 @@
         "zhCN": "新配置名称",
         "zhTW": "新設定檔名稱",
         "sgCN": "新配置名称",
-        "sgTW": "新設定檔名稱"
+        "sgTW": "新設定檔名稱",
+        "bnCN": "新配置名称"
     },
     "CopyExistingProfile": {
         "Key": "CopyExistingProfile",
@@ -17666,7 +17717,8 @@
         "zhCN": "复制现有配置（可选）",
         "zhTW": "複製現有的設定檔（可選）",
         "sgCN": "复制现有配置（可选）",
-        "sgTW": "複製現有的設定檔（可選）"
+        "sgTW": "複製現有的設定檔（可選）",
+        "bnCN": "复制现有配置（可选）"
     },
     "ImportProfileTitle": {
         "Key": "ImportProfileTitle",
@@ -17674,7 +17726,8 @@
         "zhCN": "导入配置",
         "zhTW": "輸入設定檔",
         "sgCN": "导入配置",
-        "sgTW": "輸入設定檔"
+        "sgTW": "輸入設定檔",
+        "bnCN": "导入配置"
     },
     "ProfileCode": {
         "Key": "ProfileCode",
@@ -17682,7 +17735,8 @@
         "zhCN": "配置代码",
         "zhTW": "設定檔代碼",
         "sgCN": "配置代码",
-        "sgTW": "設定檔代碼"
+        "sgTW": "設定檔代碼",
+        "bnCN": "配置代码"
     },
     "RenameProfileTitle": {
         "Key": "RenameProfileTitle",
@@ -17690,7 +17744,8 @@
         "zhCN": "重命名配置",
         "zhTW": "重新命名設定檔",
         "sgCN": "重命名配置",
-        "sgTW": "重新命名設定檔"
+        "sgTW": "重新命名設定檔",
+        "bnCN": "重命名配置"
     },
     "RenameProfileLabel": {
         "Key": "RenameProfileLabel",
@@ -17698,7 +17753,8 @@
         "zhCN": "\"%s\"的新名称",
         "zhTW": "「%s」的新名稱",
         "sgCN": "\"%s\"的新名称",
-        "sgTW": "「%s」的新名稱"
+        "sgTW": "「%s」的新名稱",
+        "bnCN": "\"%s\"的新名称"
     },
     "ExportProfileTitle": {
         "Key": "ExportProfileTitle",
@@ -17706,7 +17762,8 @@
         "zhCN": "导出配置",
         "zhTW": "輸出設定檔",
         "sgCN": "导出配置",
-        "sgTW": "輸出設定檔"
+        "sgTW": "輸出設定檔",
+        "bnCN": "导出配置"
     },
     "DeleteProfileTitle": {
         "Key": "DeleteProfileTitle",
@@ -17714,7 +17771,8 @@
         "zhCN": "删除配置",
         "zhTW": "刪除設定檔",
         "sgCN": "删除配置",
-        "sgTW": "刪除設定檔"
+        "sgTW": "刪除設定檔",
+        "bnCN": "删除配置"
     },
     "DeleteProfileWarning": {
         "Key": "DeleteProfileWarning",
@@ -17722,7 +17780,8 @@
         "zhCN": "确定要删除配置\"%s\"吗？此操作无法撤销。",
         "zhTW": "你確定要刪除設定檔「%s」嗎？此操作無法還原。",
         "sgCN": "确定要删除配置\"%s\"吗？此操作无法撤销。",
-        "sgTW": "你確定要刪除設定檔「%s」嗎？此操作無法還原。"
+        "sgTW": "你確定要刪除設定檔「%s」嗎？此操作無法還原。",
+        "bnCN": "确定要删除配置\"%s\"吗？此操作无法撤销。"
     },
     "Confirm": {
         "Key": "Confirm",
@@ -17730,7 +17789,8 @@
         "zhCN": "确认",
         "zhTW": "確定",
         "sgCN": "确认",
-        "sgTW": "確定"
+        "sgTW": "確定",
+        "bnCN": "确认"
     },
     "ConfirmDelete": {
         "Key": "ConfirmDelete",
@@ -17738,7 +17798,8 @@
         "zhCN": "确认删除",
         "zhTW": "確定刪除",
         "sgCN": "确认删除",
-        "sgTW": "確定刪除"
+        "sgTW": "確定刪除",
+        "bnCN": "确认删除"
     },
     "ImportFromClipboard": {
         "Key": "ImportFromClipboard",
@@ -17746,7 +17807,8 @@
         "zhCN": "从剪贴板导入",
         "zhTW": "從剪貼簿輸入",
         "sgCN": "从剪贴板导入",
-        "sgTW": "從剪貼簿輸入"
+        "sgTW": "從剪貼簿輸入",
+        "bnCN": "从剪贴板导入"
     },
     "CopyToClipboard": {
         "Key": "CopyToClipboard",
@@ -17754,7 +17816,8 @@
         "zhCN": "复制到剪贴板",
         "zhTW": "複製到剪貼簿",
         "sgCN": "复制到剪贴板",
-        "sgTW": "複製到剪貼簿"
+        "sgTW": "複製到剪貼簿",
+        "bnCN": "复制到剪贴板"
     },
     "LootFilterProfileNameTooLong": {
         "Key": "LootFilterProfileNameTooLong",
@@ -17762,7 +17825,8 @@
         "zhCN": "名称\"%s\"过长。",
         "zhTW": "名稱「%s」過長。",
         "sgCN": "名称\"%s\"过长。",
-        "sgTW": "名稱「%s」過長。"
+        "sgTW": "名稱「%s」過長。",
+        "bnCN": "名称\"%s\"过长。"
     },
     "LootFilterProfileNameDuplicate": {
         "Key": "LootFilterProfileNameDuplicate",
@@ -17770,7 +17834,8 @@
         "zhCN": "已存在名为\"%s\"的配置。",
         "zhTW": "已存在名稱為「%s」的設定檔",
         "sgCN": "已存在名为\"%s\"的配置。",
-        "sgTW": "已存在名稱為「%s」的設定檔"
+        "sgTW": "已存在名稱為「%s」的設定檔",
+        "bnCN": "已存在名为\"%s\"的配置。"
     },
     "HiddenChronicleEntry": {
         "Key": "HiddenChronicleEntry",
@@ -17778,7 +17843,8 @@
         "zhCN": "???",
         "zhTW": "？？？",
         "sgCN": "???",
-        "sgTW": "？？？"
+        "sgTW": "？？？",
+        "bnCN": "???"
     },
     "ChronicleEntryPlayerNameNotFound": {
         "Key": "ChronicleEntryPlayerNameNotFound",
@@ -17786,7 +17852,8 @@
         "zhCN": "无法加载玩家名称",
         "zhTW": "無法載入玩家名稱",
         "sgCN": "无法加载玩家名称",
-        "sgTW": "無法載入玩家名稱"
+        "sgTW": "無法載入玩家名稱",
+        "bnCN": "无法加载玩家名称"
     },
     "LootFilterInvalidJsonTooltip": {
         "Key": "LootFilterInvalidJsonTooltip",
@@ -17794,7 +17861,8 @@
         "zhCN": "配置代码无效",
         "zhTW": "無效的設定檔代碼",
         "sgCN": "配置代码无效",
-        "sgTW": "無效的設定檔代碼"
+        "sgTW": "無效的設定檔代碼",
+        "bnCN": "配置代码无效"
     },
     "ChronicleEntryFoundTimestampText": {
         "Key": "ChronicleEntryFoundTimestampText",
@@ -17802,7 +17870,8 @@
         "zhCN": "首次发现: %s",
         "zhTW": "最初發現於：%s",
         "sgCN": "首次发现: %s",
-        "sgTW": "最初發現於：%s"
+        "sgTW": "最初發現於：%s",
+        "bnCN": "首次发现: %s"
     },
     "LootFilterRuleName": {
         "Key": "LootFilterRuleName",
@@ -17810,7 +17879,8 @@
         "zhCN": "规则名称:",
         "zhTW": "規則名稱：",
         "sgCN": "规则名称:",
-        "sgTW": "規則名稱："
+        "sgTW": "規則名稱：",
+        "bnCN": "规则名称:"
     },
     "LootFilterRuleType": {
         "Key": "LootFilterRuleType",
@@ -17818,7 +17888,8 @@
         "zhCN": "规则类型:",
         "zhTW": "規則類型：",
         "sgCN": "规则类型:",
-        "sgTW": "規則類型："
+        "sgTW": "規則類型：",
+        "bnCN": "规则类型:"
     },
     "LootFilterEquipment": {
         "Key": "LootFilterEquipment",
@@ -17826,7 +17897,8 @@
         "zhCN": "装备",
         "zhTW": "裝備",
         "sgCN": "装备",
-        "sgTW": "裝備"
+        "sgTW": "裝備",
+        "bnCN": "装备"
     },
     "LootFilterMiscItems": {
         "Key": "LootFilterMiscItems",
@@ -17834,7 +17906,8 @@
         "zhCN": "物品",
         "zhTW": "物品",
         "sgCN": "物品",
-        "sgTW": "物品"
+        "sgTW": "物品",
+        "bnCN": "物品"
     },
     "LootFilterGoldTitle": {
         "Key": "LootFilterGoldTitle",
@@ -17842,7 +17915,8 @@
         "zhCN": "金币",
         "zhTW": "金幣",
         "sgCN": "金币",
-        "sgTW": "金幣"
+        "sgTW": "金幣",
+        "bnCN": "金币"
     },
     "LootFilterShowGoldDesc": {
         "Key": "LootFilterShowGoldDesc",
@@ -17850,7 +17924,8 @@
         "zhCN": "大于此数量的金币堆",
         "zhTW": "金幣堆需大於",
         "sgCN": "大于此数量的金币堆",
-        "sgTW": "金幣堆需大於"
+        "sgTW": "金幣堆需大於",
+        "bnCN": "大于此数量的金币堆"
     },
     "LootFilterRarityTitle": {
         "Key": "LootFilterRarityTitle",
@@ -17858,7 +17933,8 @@
         "zhCN": "稀有度",
         "zhTW": "稀有度",
         "sgCN": "稀有度",
-        "sgTW": "稀有度"
+        "sgTW": "稀有度",
+        "bnCN": "稀有度"
     },
     "LootFilterNormalRarity": {
         "Key": "LootFilterNormalRarity",
@@ -17866,7 +17942,8 @@
         "zhCN": "普通/基础",
         "zhTW": "普通 / 基礎",
         "sgCN": "普通/基础",
-        "sgTW": "普通 / 基礎"
+        "sgTW": "普通 / 基礎",
+        "bnCN": "普通/基础"
     },
     "LootFilterInferiorRarity": {
         "Key": "LootFilterInferiorRarity",
@@ -17874,7 +17951,8 @@
         "zhCN": "劣质",
         "zhTW": "次等",
         "sgCN": "劣质",
-        "sgTW": "次等"
+        "sgTW": "次等",
+        "bnCN": "劣质"
     },
     "LootFilterSuperiorRarity": {
         "Key": "LootFilterSuperiorRarity",
@@ -17882,7 +17960,8 @@
         "zhCN": "精良",
         "zhTW": "上等",
         "sgCN": "精良",
-        "sgTW": "上等"
+        "sgTW": "上等",
+        "bnCN": "精良"
     },
     "LootFilterEtherealSocketed": {
         "Key": "LootFilterEtherealSocketed",
@@ -17890,7 +17969,8 @@
         "zhCN": "无形/镶孔",
         "zhTW": "無形 / 鑲孔",
         "sgCN": "无形/镶孔",
-        "sgTW": "無形 / 鑲孔"
+        "sgTW": "無形 / 鑲孔",
+        "bnCN": "无形/镶孔"
     },
     "LootFilterMagicRarity": {
         "Key": "LootFilterMagicRarity",
@@ -17898,7 +17978,8 @@
         "zhCN": "魔法",
         "zhTW": "魔法",
         "sgCN": "魔法",
-        "sgTW": "魔法"
+        "sgTW": "魔法",
+        "bnCN": "魔法"
     },
     "LootFilterRareRarity": {
         "Key": "LootFilterRareRarity",
@@ -17906,7 +17987,8 @@
         "zhCN": "稀有",
         "zhTW": "稀有",
         "sgCN": "稀有",
-        "sgTW": "稀有"
+        "sgTW": "稀有",
+        "bnCN": "稀有"
     },
     "LootFilterUniqueRarity": {
         "Key": "LootFilterUniqueRarity",
@@ -17914,7 +17996,8 @@
         "zhCN": "暗金",
         "zhTW": "獨特",
         "sgCN": "暗金",
-        "sgTW": "獨特"
+        "sgTW": "獨特",
+        "bnCN": "暗金"
     },
     "LootFilterSetRarity": {
         "Key": "LootFilterSetRarity",
@@ -17922,7 +18005,8 @@
         "zhCN": "套装",
         "zhTW": "套裝",
         "sgCN": "套装",
-        "sgTW": "套裝"
+        "sgTW": "套裝",
+        "bnCN": "套装"
     },
     "LootFilterQualityTitle": {
         "Key": "LootFilterQualityTitle",
@@ -17930,7 +18014,8 @@
         "zhCN": "品质",
         "zhTW": "品質",
         "sgCN": "品质",
-        "sgTW": "品質"
+        "sgTW": "品質",
+        "bnCN": "品质"
     },
     "LootFilterNormalQuality": {
         "Key": "LootFilterNormalQuality",
@@ -17938,7 +18023,8 @@
         "zhCN": "普通",
         "zhTW": "普通",
         "sgCN": "普通",
-        "sgTW": "普通"
+        "sgTW": "普通",
+        "bnCN": "普通"
     },
     "LootFilterExceptionalQuality": {
         "Key": "LootFilterExceptionalQuality",
@@ -17946,7 +18032,8 @@
         "zhCN": "优异",
         "zhTW": "卓越",
         "sgCN": "优异",
-        "sgTW": "卓越"
+        "sgTW": "卓越",
+        "bnCN": "优异"
     },
     "LootFilterEliteQuality": {
         "Key": "LootFilterEliteQuality",
@@ -17954,7 +18041,8 @@
         "zhCN": "精英",
         "zhTW": "精英",
         "sgCN": "精英",
-        "sgTW": "精英"
+        "sgTW": "精英",
+        "bnCN": "精英"
     },
     "ChronicleGeneralClass": {
         "Key": "ChronicleGeneralClass",
@@ -17962,7 +18050,8 @@
         "zhCN": "通用",
         "zhTW": "一般",
         "sgCN": "通用",
-        "sgTW": "一般"
+        "sgTW": "一般",
+        "bnCN": "通用"
     },
     "CloseRewardsButton": {
         "Key": "CloseRewardsButton",
@@ -17970,7 +18059,8 @@
         "zhCN": "关闭奖励",
         "zhTW": "關閉獎勵",
         "sgCN": "关闭奖励",
-        "sgTW": "關閉獎勵"
+        "sgTW": "關閉獎勵",
+        "bnCN": "关闭奖励"
     },
     "LootFilterDeleteRuleTitle": {
         "Key": "LootFilterDeleteRuleTitle",
@@ -17978,7 +18068,8 @@
         "zhCN": "删除规则",
         "zhTW": "刪除規則",
         "sgCN": "删除规则",
-        "sgTW": "刪除規則"
+        "sgTW": "刪除規則",
+        "bnCN": "删除规则"
     },
     "LootFilterDeleteRuleWarning": {
         "Key": "LootFilterDeleteRuleWarning",
@@ -17986,7 +18077,8 @@
         "zhCN": "确定要删除规则\"%s\"吗？此操作无法撤销。",
         "zhTW": "你確定要刪除規則「%s」嗎？此操作無法還原。",
         "sgCN": "确定要删除规则\"%s\"吗？此操作无法撤销。",
-        "sgTW": "你確定要刪除規則「%s」嗎？此操作無法還原。"
+        "sgTW": "你確定要刪除規則「%s」嗎？此操作無法還原。",
+        "bnCN": "确定要删除规则\"%s\"吗？此操作无法撤销。"
     },
     "LootFilterRenameRuleTitle": {
         "Key": "LootFilterRenameRuleTitle",
@@ -17994,7 +18086,8 @@
         "zhCN": "重命名规则",
         "zhTW": "重新命名規則",
         "sgCN": "重命名规则",
-        "sgTW": "重新命名規則"
+        "sgTW": "重新命名規則",
+        "bnCN": "重命名规则"
     },
     "LootFilterRenameRuleLabel": {
         "Key": "LootFilterRenameRuleLabel",
@@ -18002,7 +18095,8 @@
         "zhCN": "\"%s\"的新名称",
         "zhTW": "「%s」的新名稱",
         "sgCN": "\"%s\"的新名称",
-        "sgTW": "「%s」的新名稱"
+        "sgTW": "「%s」的新名稱",
+        "bnCN": "\"%s\"的新名称"
     },
     "LootFilterRuleNameTooLong": {
         "Key": "LootFilterRuleNameTooLong",
@@ -18010,7 +18104,8 @@
         "zhCN": "名称\"%s\"过长。",
         "zhTW": "名稱「%s」過長。",
         "sgCN": "名称\"%s\"过长。",
-        "sgTW": "名稱「%s」過長。"
+        "sgTW": "名稱「%s」過長。",
+        "bnCN": "名称\"%s\"过长。"
     },
     "LootFilterEmptyRuleNameWarning": {
         "Key": "LootFilterEmptyRuleNameWarning",
@@ -18018,7 +18113,8 @@
         "zhCN": "规则名称不能为空",
         "zhTW": "規則名稱不能為空",
         "sgCN": "规则名称不能为空",
-        "sgTW": "規則名稱不能為空"
+        "sgTW": "規則名稱不能為空",
+        "bnCN": "规则名称不能为空"
     },
     "LootFilterCopyRuleTitle": {
         "Key": "LootFilterCopyRuleTitle",
@@ -18026,7 +18122,8 @@
         "zhCN": "复制规则",
         "zhTW": "複製規則",
         "sgCN": "复制规则",
-        "sgTW": "複製規則"
+        "sgTW": "複製規則",
+        "bnCN": "复制规则"
     },
     "LootFilterCopyRuleLabel": {
         "Key": "LootFilterCopyRuleLabel",
@@ -18034,7 +18131,8 @@
         "zhCN": "将规则\"%s\"复制到选定配置。",
         "zhTW": "複製規則「%s」至指定的設定檔。",
         "sgCN": "将规则\"%s\"复制到选定配置。",
-        "sgTW": "複製規則「%s」至指定的設定檔。"
+        "sgTW": "複製規則「%s」至指定的設定檔。",
+        "bnCN": "将规则\"%s\"复制到选定配置。"
     },
     "ChronicleExpandListEntry": {
         "Key": "ChronicleExpandListEntry",
@@ -18042,7 +18140,8 @@
         "zhCN": "展开",
         "zhTW": "展開",
         "sgCN": "展开",
-        "sgTW": "展開"
+        "sgTW": "展開",
+        "bnCN": "展开"
     },
     "ChronicleCollapseListEntry": {
         "Key": "ChronicleCollapseListEntry",
@@ -18050,7 +18149,8 @@
         "zhCN": "折叠",
         "zhTW": "收起",
         "sgCN": "折叠",
-        "sgTW": "收起"
+        "sgTW": "收起",
+        "bnCN": "折叠"
     },
     "ChronicleSelectList": {
         "Key": "ChronicleSelectList",
@@ -18058,7 +18158,8 @@
         "zhCN": "选择列表",
         "zhTW": "選擇清單",
         "sgCN": "选择列表",
-        "sgTW": "選擇清單"
+        "sgTW": "選擇清單",
+        "bnCN": "选择列表"
     },
     "ChronicleExitList": {
         "Key": "ChronicleExitList",
@@ -18066,7 +18167,8 @@
         "zhCN": "退出列表",
         "zhTW": "離開清單",
         "sgCN": "退出列表",
-        "sgTW": "離開清單"
+        "sgTW": "離開清單",
+        "bnCN": "退出列表"
     },
     "materials": {
         "Key": "materials",
@@ -18074,7 +18176,8 @@
         "zhCN": "材料",
         "zhTW": "材料",
         "sgCN": "材料",
-        "sgTW": "材料"
+        "sgTW": "材料",
+        "bnCN": "材料"
     },
     "ChronicleRewardsReturnToChronicle": {
         "Key": "ChronicleRewardsReturnToChronicle",
@@ -18082,7 +18185,8 @@
         "zhCN": "返回编年史",
         "zhTW": "返回記事",
         "sgCN": "返回编年史",
-        "sgTW": "返回記事"
+        "sgTW": "返回記事",
+        "bnCN": "返回编年史"
     },
     "ChronicleEligibilityNotice": {
         "Key": "ChronicleEligibilityNotice",
@@ -18090,7 +18194,8 @@
         "zhCN": "符合编年史条件",
         "zhTW": "符合記事資格",
         "sgCN": "符合编年史条件",
-        "sgTW": "符合記事資格"
+        "sgTW": "符合記事資格",
+        "bnCN": "符合编年史条件"
     },
     "LootFilterToggleCheckbox": {
         "Key": "LootFilterToggleCheckbox",
@@ -18098,7 +18203,8 @@
         "zhCN": "切换复选框",
         "zhTW": "切換勾選框",
         "sgCN": "切换复选框",
-        "sgTW": "切換勾選框"
+        "sgTW": "切換勾選框",
+        "bnCN": "切换复选框"
     },
     "LootFilterExpandCategory": {
         "Key": "LootFilterExpandCategory",
@@ -18106,7 +18212,8 @@
         "zhCN": "展开分类",
         "zhTW": "展開類別",
         "sgCN": "展开分类",
-        "sgTW": "展開類別"
+        "sgTW": "展開類別",
+        "bnCN": "展开分类"
     },
     "LootFilterCollapseCategory": {
         "Key": "LootFilterCollapseCategory",
@@ -18114,7 +18221,8 @@
         "zhCN": "折叠分类",
         "zhTW": "收起類別",
         "sgCN": "折叠分类",
-        "sgTW": "收起類別"
+        "sgTW": "收起類別",
+        "bnCN": "折叠分类"
     },
     "StrUIDemonicServant": {
         "Key": "StrUIDemonicServant",
@@ -18122,7 +18230,8 @@
         "zhCN": "恶魔",
         "zhTW": "惡魔",
         "sgCN": "恶魔",
-        "sgTW": "惡魔"
+        "sgTW": "惡魔",
+        "bnCN": "恶魔"
     },
     "ChronicleRewardsRunewordTitle": {
         "Key": "ChronicleRewardsRunewordTitle",
@@ -18130,7 +18239,8 @@
         "zhCN": "城镇传送门",
         "zhTW": "城鎮傳送",
         "sgCN": "城镇传送门",
-        "sgTW": "城鎮傳送"
+        "sgTW": "城鎮傳送",
+        "bnCN": "城镇传送门"
     },
     "ChronicleRewardsRunewordItemType": {
         "Key": "ChronicleRewardsRunewordItemType",
@@ -18138,7 +18248,8 @@
         "zhCN": "符文之语",
         "zhTW": "符文之語",
         "sgCN": "符文之语",
-        "sgTW": "符文之語"
+        "sgTW": "符文之語",
+        "bnCN": "符文之语"
     },
     "ChronicleRewardsRunewordDescription": {
         "Key": "ChronicleRewardsRunewordDescription",
@@ -18146,7 +18257,8 @@
         "zhCN": "创造所有可行的符文之语",
         "zhTW": "創造所有可能的符文之語",
         "sgCN": "创造所有可行的符文之语",
-        "sgTW": "創造所有可能的符文之語"
+        "sgTW": "創造所有可能的符文之語",
+        "bnCN": "创造所有可行的符文之语"
     },
     "ChronicleRewardsSetTitle": {
         "Key": "ChronicleRewardsSetTitle",
@@ -18154,7 +18266,8 @@
         "zhCN": "足迹",
         "zhTW": "腳步",
         "sgCN": "足迹",
-        "sgTW": "腳步"
+        "sgTW": "腳步",
+        "bnCN": "足迹"
     },
     "ChronicleRewardsSetItemType": {
         "Key": "ChronicleRewardsSetItemType",
@@ -18162,7 +18275,8 @@
         "zhCN": "套装",
         "zhTW": "套裝",
         "sgCN": "套装",
-        "sgTW": "套裝"
+        "sgTW": "套裝",
+        "bnCN": "套装"
     },
     "ChronicleRewardsSetDescription": {
         "Key": "ChronicleRewardsSetDescription",
@@ -18170,7 +18284,8 @@
         "zhCN": "鉴定所有套装物品",
         "zhTW": "鑑定所有套裝物品",
         "sgCN": "鉴定所有套装物品",
-        "sgTW": "鑑定所有套裝物品"
+        "sgTW": "鑑定所有套裝物品",
+        "bnCN": "鉴定所有套装物品"
     },
     "ChronicleRewardsUniqueTitle": {
         "Key": "ChronicleRewardsUniqueTitle",
@@ -18178,7 +18293,8 @@
         "zhCN": "背光",
         "zhTW": "背光",
         "sgCN": "背光",
-        "sgTW": "背光"
+        "sgTW": "背光",
+        "bnCN": "背光"
     },
     "ChronicleRewardsUniqueItemType": {
         "Key": "ChronicleRewardsUniqueItemType",
@@ -18186,7 +18302,8 @@
         "zhCN": "暗金",
         "zhTW": "獨特",
         "sgCN": "暗金",
-        "sgTW": "獨特"
+        "sgTW": "獨特",
+        "bnCN": "暗金"
     },
     "ChronicleRewardsUniqueDescription": {
         "Key": "ChronicleRewardsUniqueDescription",
@@ -18194,7 +18311,8 @@
         "zhCN": "鉴定所有暗金物品",
         "zhTW": "鑑定所有獨特物品",
         "sgCN": "鉴定所有暗金物品",
-        "sgTW": "鑑定所有獨特物品"
+        "sgTW": "鑑定所有獨特物品",
+        "bnCN": "鉴定所有暗金物品"
     },
     "InventoryItemTooltipAppenderMoveCube": {
         "Key": "InventoryItemTooltipAppenderMoveCube",
@@ -18202,7 +18320,8 @@
         "zhCN": "%s 移动到赫拉迪姆魔盒",
         "zhTW": "%s以移到赫拉迪姆方塊",
         "sgCN": "%s 移动到赫拉迪姆魔盒",
-        "sgTW": "%s以移到赫拉迪姆方塊"
+        "sgTW": "%s以移到赫拉迪姆方塊",
+        "bnCN": "%s 移动到赫拉迪姆魔盒"
     },
     "TooltipGardenToggle": {
         "Key": "TooltipGardenToggle",
@@ -18210,7 +18329,8 @@
         "zhCN": "切换花园模式\n\n启用花园模式游玩\n《暗黑破坏神2》",
         "zhTW": "切換庭園模式\n\n在庭園模式啟用下遊玩\n《暗黑破壞神 II》",
         "sgCN": "切换花园模式\n\n启用花园模式游玩\n《暗黑破坏神2》",
-        "sgTW": "切換庭園模式\n\n在庭園模式啟用下遊玩\n《暗黑破壞神 II》"
+        "sgTW": "切換庭園模式\n\n在庭園模式啟用下遊玩\n《暗黑破壞神 II》",
+        "bnCN": "切换花园模式\n\n启用花园模式游玩\n《暗黑破坏神2》"
     },
     "LootFilterEnableRule": {
         "Key": "LootFilterEnableRule",
@@ -18218,7 +18338,8 @@
         "zhCN": "启用",
         "zhTW": "啟用",
         "sgCN": "启用",
-        "sgTW": "啟用"
+        "sgTW": "啟用",
+        "bnCN": "启用"
     },
     "LootFilterDisableRule": {
         "Key": "LootFilterDisableRule",
@@ -18226,7 +18347,8 @@
         "zhCN": "禁用",
         "zhTW": "停用",
         "sgCN": "禁用",
-        "sgTW": "停用"
+        "sgTW": "停用",
+        "bnCN": "禁用"
     },
     "LootFilterMoreOptions": {
         "Key": "LootFilterMoreOptions",
@@ -18234,7 +18356,8 @@
         "zhCN": "更多选项",
         "zhTW": "更多選項",
         "sgCN": "更多选项",
-        "sgTW": "更多選項"
+        "sgTW": "更多選項",
+        "bnCN": "更多选项"
     },
     "LootFilterMoveRuleUp": {
         "Key": "LootFilterMoveRuleUp",
@@ -18242,7 +18365,8 @@
         "zhCN": "规则上移",
         "zhTW": "將規則上移",
         "sgCN": "规则上移",
-        "sgTW": "將規則上移"
+        "sgTW": "將規則上移",
+        "bnCN": "规则上移"
     },
     "LootFilterMoveRuleDown": {
         "Key": "LootFilterMoveRuleDown",
@@ -18250,7 +18374,8 @@
         "zhCN": "规则下移",
         "zhTW": "將規則下移",
         "sgCN": "规则下移",
-        "sgTW": "將規則下移"
+        "sgTW": "將規則下移",
+        "bnCN": "规则下移"
     },
     "LootFilterItemCount": {
         "Key": "LootFilterItemCount",
@@ -18258,7 +18383,8 @@
         "zhCN": " (%i)",
         "zhTW": " （%i）",
         "sgCN": " (%i)",
-        "sgTW": " （%i）"
+        "sgTW": " （%i）",
+        "bnCN": " (%i)"
     },
     "LootFilterEmptyProfileName": {
         "Key": "LootFilterEmptyProfileName",
@@ -18266,7 +18392,8 @@
         "zhCN": "配置名称不能为空",
         "zhTW": "設定檔名稱不能為空",
         "sgCN": "配置名称不能为空",
-        "sgTW": "設定檔名稱不能為空"
+        "sgTW": "設定檔名稱不能為空",
+        "bnCN": "配置名称不能为空"
     },
     "LootFilterProfileHelpTooltip": {
         "Key": "LootFilterProfileHelpTooltip",
@@ -18274,7 +18401,8 @@
         "zhCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
         "zhTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。",
         "sgCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。",
-        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。"
+        "sgTW": "建立一個規則設定檔，影響按下\n「顯示物品」按鍵時出現的物品。",
+        "bnCN": "创建规则配置，影响按下“显示物品”键时\n显示的物品。"
     },
     "LootFilterImportHelpTooltip": {
         "Key": "LootFilterImportHelpTooltip",
@@ -18282,7 +18410,8 @@
         "zhCN": "在下方文本框粘贴配置代码\n以导入新配置",
         "zhTW": "在下方的文字方塊中貼上設定檔\n代碼以匯入新的設定檔",
         "sgCN": "在下方文本框粘贴配置代码\n以导入新配置",
-        "sgTW": "在下方的文字方塊中貼上設定檔\n代碼以匯入新的設定檔"
+        "sgTW": "在下方的文字方塊中貼上設定檔\n代碼以匯入新的設定檔",
+        "bnCN": "在下方文本框粘贴配置代码\n以导入新配置"
     },
     "LootFilterExportHelpTooltip": {
         "Key": "LootFilterExportHelpTooltip",
@@ -18290,7 +18419,8 @@
         "zhCN": "复制下方代码块以导出选定配置。",
         "zhTW": "複製下方的代碼方塊以輸出你所選的設定檔。",
         "sgCN": "复制下方代码块以导出选定配置。",
-        "sgTW": "複製下方的代碼方塊以輸出你所選的設定檔。"
+        "sgTW": "複製下方的代碼方塊以輸出你所選的設定檔。",
+        "bnCN": "复制下方代码块以导出选定配置。"
     },
     "LootFilterMaxProfileLimit": {
         "Key": "LootFilterMaxProfileLimit",
@@ -18298,7 +18428,8 @@
         "zhCN": "已达配置数量上限",
         "zhTW": "已達到設定檔數量上限",
         "sgCN": "已达配置数量上限",
-        "sgTW": "已達到設定檔數量上限"
+        "sgTW": "已達到設定檔數量上限",
+        "bnCN": "已达配置数量上限"
     },
     "LootFilterMaxRuleLimit": {
         "Key": "LootFilterMaxRuleLimit",
@@ -18306,7 +18437,8 @@
         "zhCN": "配置已达规则数量上限",
         "zhTW": "設定檔的規則已達到數量上限",
         "sgCN": "配置已达规则数量上限",
-        "sgTW": "設定檔的規則已達到數量上限"
+        "sgTW": "設定檔的規則已達到數量上限",
+        "bnCN": "配置已达规则数量上限"
     },
     "LootFilterInvalidCharacters": {
         "Key": "LootFilterInvalidCharacters",
@@ -18314,7 +18446,8 @@
         "zhCN": "名称包含无效字符",
         "zhTW": "名稱含有無效字元",
         "sgCN": "名称包含无效字符",
-        "sgTW": "名稱含有無效字元"
+        "sgTW": "名稱含有無效字元",
+        "bnCN": "名称包含无效字符"
     },
     "AdvancedStashWithdraw": {
         "Key": "AdvancedStashWithdraw",
@@ -18322,7 +18455,8 @@
         "zhCN": "提取",
         "zhTW": "提領",
         "sgCN": "提取",
-        "sgTW": "提領"
+        "sgTW": "提領",
+        "bnCN": "提取"
     },
     "AdvancedStashWithdrawTooltip": {
         "Key": "AdvancedStashWithdrawTooltip",
@@ -18330,7 +18464,8 @@
         "zhCN": "从上赛季高级储藏箱提取物品。\n无法容纳的物品必须手动移除。",
         "zhTW": "從上一個賽季的進階儲物箱提領物品。\n任何無法放入的物品都必須手動移除。",
         "sgCN": "从上赛季高级储藏箱提取物品。\n无法容纳的物品必须手动移除。",
-        "sgTW": "從上一個賽季的進階儲物箱提領物品。\n任何無法放入的物品都必須手動移除。"
+        "sgTW": "從上一個賽季的進階儲物箱提領物品。\n任何無法放入的物品都必須手動移除。",
+        "bnCN": "从上赛季高级储藏箱提取物品。\n无法容纳的物品必须手动移除。"
     },
     "CharacterGameVersionTooltip": {
         "Key": "CharacterGameVersionTooltip",
@@ -18338,7 +18473,8 @@
         "zhCN": "创建角色的'%s'版本。",
         "zhTW": "建立一個「%s」版本的角色。",
         "sgCN": "创建角色的'%s'版本。",
-        "sgTW": "建立一個「%s」版本的角色。"
+        "sgTW": "建立一個「%s」版本的角色。",
+        "bnCN": "创建角色的'%s'版本。"
     },
     "GameVersionLabel": {
         "Key": "GameVersionLabel",
@@ -18346,7 +18482,8 @@
         "zhCN": "游戏版本",
         "zhTW": "遊戲版本",
         "sgCN": "游戏版本",
-        "sgTW": "遊戲版本"
+        "sgTW": "遊戲版本",
+        "bnCN": "游戏版本"
     },
     "LegacyGameVersionSwitch": {
         "Key": "LegacyGameVersionSwitch",
@@ -18354,7 +18491,8 @@
         "zhCN": "经典版",
         "zhTW": "懷舊模式",
         "sgCN": "经典版",
-        "sgTW": "懷舊模式"
+        "sgTW": "懷舊模式",
+        "bnCN": "经典版"
     },
     "RotWLong": {
         "Key": "RotWLong",
@@ -18362,7 +18500,8 @@
         "zhCN": "术士君临",
         "zhTW": "術士軍臨",
         "sgCN": "术士君临",
-        "sgTW": "術士軍臨"
+        "sgTW": "術士軍臨",
+        "bnCN": "术士君临"
     },
     "RotWShort": {
         "Key": "RotWShort",
@@ -18370,7 +18509,8 @@
         "zhCN": "“术士君临”",
         "zhTW": "術士軍臨",
         "sgCN": "“术士君临”",
-        "sgTW": "術士軍臨"
+        "sgTW": "術士軍臨",
+        "bnCN": "“术士君临”"
     },
     "NoSDSwap": {
         "Key": "NoSDSwap",
@@ -18378,7 +18518,8 @@
         "zhCN": "仅在原版和扩展内容中可用。",
         "zhTW": "僅適用於經典和資料片遊戲。",
         "sgCN": "仅在原版和扩展内容中可用。",
-        "sgTW": "僅適用於經典和資料片遊戲。"
+        "sgTW": "僅適用於經典和資料片遊戲。",
+        "bnCN": "仅在原版和扩展内容中可用。"
     },
     "CharacterSelectPanelConvertCharacterGarden": {
         "Key": "CharacterSelectPanelConvertCharacterGarden",
@@ -18386,7 +18527,8 @@
         "zhCN": "转换为“术士君临”",
         "zhTW": "轉換為術士軍臨角色",
         "sgCN": "转换为“术士君临”",
-        "sgTW": "轉換為術士軍臨角色"
+        "sgTW": "轉換為術士軍臨角色",
+        "bnCN": "转换为“术士君临”"
     },
     "strGardenConvert3": {
         "Key": "strGardenConvert3",
@@ -18394,7 +18536,8 @@
         "zhCN": "警告: 将角色转换到“术士君临”后，就无法在《暗黑破坏神2》扩展内容里游戏。",
         "zhTW": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
         "sgCN": "警告: 将角色转换到“术士君临”后，就无法在《暗黑破坏神2》扩展内容里游戏。",
-        "sgTW": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。"
+        "sgTW": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
+        "bnCN": "警告: 将角色转换到“术士君临”后，就无法在《暗黑破坏神2》扩展内容里游戏。"
     },
     "strGardenConvert5": {
         "Key": "strGardenConvert5",
@@ -18402,7 +18545,8 @@
         "zhCN": "你确定要继续吗？",
         "zhTW": "你確定要繼續？",
         "sgCN": "你确定要继续吗？",
-        "sgTW": "你確定要繼續？"
+        "sgTW": "你確定要繼續？",
+        "bnCN": "你确定要继续吗？"
     },
     "strCharacterCreationErrorRoW": {
         "Key": "strCharacterCreationErrorRoW",
@@ -18410,7 +18554,8 @@
         "zhCN": "创建术士君临角色前，必须先购买“术士君临”",
         "zhTW": "必須購買《術士軍臨》才能創建術士軍臨角色",
         "sgCN": "创建术士君临角色前，必须先购买“术士君临”",
-        "sgTW": "必須購買《術士軍臨》才能創建術士軍臨角色"
+        "sgTW": "必須購買《術士軍臨》才能創建術士軍臨角色",
+        "bnCN": "创建术士君临角色前，必须先购买“术士君临”"
     },
     "strCharacterSelectionErrorRoW": {
         "Key": "strCharacterSelectionErrorRoW",
@@ -18418,7 +18563,8 @@
         "zhCN": "要选择此角色，必须在此平台购买“术士君临”",
         "zhTW": "必須在此平台購買《術士軍臨》才能選擇此角色",
         "sgCN": "要选择此角色，必须在此平台购买“术士君临”",
-        "sgTW": "必須在此平台購買《術士軍臨》才能選擇此角色"
+        "sgTW": "必須在此平台購買《術士軍臨》才能選擇此角色",
+        "bnCN": "要选择此角色，必须在此平台购买“术士君临”"
     },
     "strGardenModeGameJoinFailure": {
         "Key": "strGardenModeGameJoinFailure",
@@ -18426,7 +18572,8 @@
         "zhCN": "无法进入游戏。“术士君临”角色无法加入非“术士君临”角色创建的游戏。",
         "zhTW": "無法進入遊戲。術士軍臨角色無法加入由非術士軍臨角色創建的遊戲。",
         "sgCN": "无法进入游戏。“术士君临”角色无法加入非“术士君临”角色创建的游戏。",
-        "sgTW": "無法進入遊戲。術士軍臨角色無法加入由非術士軍臨角色創建的遊戲。"
+        "sgTW": "無法進入遊戲。術士軍臨角色無法加入由非術士軍臨角色創建的遊戲。",
+        "bnCN": "无法进入游戏。“术士君临”角色无法加入非“术士君临”角色创建的游戏。"
     },
     "strNonGardenModeGameJoinFailure": {
         "Key": "strNonGardenModeGameJoinFailure",
@@ -18434,7 +18581,8 @@
         "zhCN": "无法进入游戏。非“术士君临”角色无法加入“术士君临”角色创建的游戏。",
         "zhTW": "無法進入遊戲。非術士軍臨角色無法加入由術士軍臨角色創建的遊戲。",
         "sgCN": "无法进入游戏。非“术士君临”角色无法加入“术士君临”角色创建的游戏。",
-        "sgTW": "無法進入遊戲。非術士軍臨角色無法加入由術士軍臨角色創建的遊戲。"
+        "sgTW": "無法進入遊戲。非術士軍臨角色無法加入由術士軍臨角色創建的遊戲。",
+        "bnCN": "无法进入游戏。非“术士君临”角色无法加入“术士君临”角色创建的游戏。"
     },
     "InventoryItemTooltipAppenderMoveInventory": {
         "Key": "InventoryItemTooltipAppenderMoveInventory",
@@ -18442,7 +18590,8 @@
         "zhCN": "%s 移动到物品栏",
         "zhTW": "%s以移到物品欄",
         "sgCN": "%s 移动到物品栏",
-        "sgTW": "%s以移到物品欄"
+        "sgTW": "%s以移到物品欄",
+        "bnCN": "%s 移动到物品栏"
     },
     "InventoryItemTooltipAppenderMoveAdvStash": {
         "Key": "InventoryItemTooltipAppenderMoveAdvStash",
@@ -18450,7 +18599,8 @@
         "zhCN": "%s 移动到堆叠栏",
         "zhTW": "%s以移到儲物箱分頁",
         "sgCN": "%s 移动到堆叠栏",
-        "sgTW": "%s以移到儲物箱分頁"
+        "sgTW": "%s以移到儲物箱分頁",
+        "bnCN": "%s 移动到堆叠栏"
     },
     "InventoryItemTooltipKeyComboCtrlLC": {
         "Key": "InventoryItemTooltipKeyComboCtrlLC",
@@ -18458,7 +18608,8 @@
         "zhCN": "Ctrl + 左键点击",
         "zhTW": "Ctrl + 左鍵點擊",
         "sgCN": "Ctrl + 左键点击",
-        "sgTW": "Ctrl + 左鍵點擊"
+        "sgTW": "Ctrl + 左鍵點擊",
+        "bnCN": "Ctrl + 左键点击"
     },
     "InventoryItemTooltipKeyComboCtrlShiftLC": {
         "Key": "InventoryItemTooltipKeyComboCtrlShiftLC",
@@ -18466,7 +18617,8 @@
         "zhCN": "Ctrl + Shift + 左键点击",
         "zhTW": "Ctrl + Shift + 左鍵點擊",
         "sgCN": "Ctrl + Shift + 左键点击",
-        "sgTW": "Ctrl + Shift + 左鍵點擊"
+        "sgTW": "Ctrl + Shift + 左鍵點擊",
+        "bnCN": "Ctrl + Shift + 左键点击"
     },
     "InventoryItemTooltipAppenderBulkMovePostfix": {
         "Key": "InventoryItemTooltipAppenderBulkMovePostfix",
@@ -18474,7 +18626,8 @@
         "zhCN": " （右键点击移动%u个）",
         "zhTW": " （右鍵點擊以移動%u）",
         "sgCN": " （右键点击移动%u个）",
-        "sgTW": " （右鍵點擊以移動%u）"
+        "sgTW": " （右鍵點擊以移動%u）",
+        "bnCN": " （右键点击移动%u个）"
     },
     "LootFilterHideGoldDesc": {
         "Key": "LootFilterHideGoldDesc",
@@ -18482,7 +18635,8 @@
         "zhCN": "小于此数量的金币堆",
         "zhTW": "金幣堆需小於",
         "sgCN": "小于此数量的金币堆",
-        "sgTW": "金幣堆需小於"
+        "sgTW": "金幣堆需小於",
+        "bnCN": "小于此数量的金币堆"
     },
     "LootFilterOpenHotkey": {
         "Key": "LootFilterOpenHotkey",
@@ -18490,7 +18644,8 @@
         "zhCN": "战利品过滤器界面",
         "zhTW": "拾取篩選器畫面",
         "sgCN": "战利品过滤器界面",
-        "sgTW": "拾取篩選器畫面"
+        "sgTW": "拾取篩選器畫面",
+        "bnCN": "战利品过滤器界面"
     },
     "UnfilteredItemNameDisplayModeTooltip": {
         "Key": "UnfilteredItemNameDisplayModeTooltip",
@@ -18498,7 +18653,8 @@
         "zhCN": "设置按下“在地面上显示物品（未过滤）”绑定键时的行为。",
         "zhTW": "調整按下「顯示地面物品\n（未篩選）」按鈕時的顯示時間。",
         "sgCN": "设置按下“在地面上显示物品（未过滤）”绑定键时的行为。",
-        "sgTW": "調整按下「顯示地面物品\n（未篩選）」按鈕時的顯示時間。"
+        "sgTW": "調整按下「顯示地面物品\n（未篩選）」按鈕時的顯示時間。",
+        "bnCN": "设置按下“在地面上显示物品（未过滤）”绑定键时的行为。"
     },
     "LootFilterUndo": {
         "Key": "LootFilterUndo",
@@ -18506,7 +18662,8 @@
         "zhCN": "撤销",
         "zhTW": "復原",
         "sgCN": "撤销",
-        "sgTW": "復原"
+        "sgTW": "復原",
+        "bnCN": "撤销"
     },
     "MissingEntitlement": {
         "Key": "MissingEntitlement",
@@ -18514,7 +18671,8 @@
         "zhCN": "缺少所需的帐户授权",
         "zhTW": "缺乏所需的帳號權限",
         "sgCN": "缺少所需的帐户授权",
-        "sgTW": "缺乏所需的帳號權限"
+        "sgTW": "缺乏所需的帳號權限",
+        "bnCN": "缺少所需的帐户授权"
     },
     "LadderWarlock": {
         "Key": "LadderWarlock",
@@ -18522,7 +18680,8 @@
         "zhCN": "术士",
         "zhTW": "術士",
         "sgCN": "术士",
-        "sgTW": "術士"
+        "sgTW": "術士",
+        "bnCN": "术士"
     },
     "RotW": {
         "Key": "RotW",
@@ -18530,7 +18689,8 @@
         "zhCN": "“术士君临”",
         "zhTW": "術士軍臨",
         "sgCN": "“术士君临”",
-        "sgTW": "術士軍臨"
+        "sgTW": "術士軍臨",
+        "bnCN": "“术士君临”"
     },
     "LadderHardcoreRotWAbbreviated": {
         "Key": "LadderHardcoreRotWAbbreviated",
@@ -18538,7 +18698,8 @@
         "zhCN": "“术士君临”专家",
         "zhTW": "術士軍臨專家模式",
         "sgCN": "“术士君临”专家",
-        "sgTW": "術士軍臨專家模式"
+        "sgTW": "術士軍臨專家模式",
+        "bnCN": "“术士君临”专家"
     },
     "ChronicleFilterSelect": {
         "Key": "ChronicleFilterSelect",
@@ -18546,7 +18707,8 @@
         "zhCN": "全部",
         "zhTW": "全部",
         "sgCN": "全部",
-        "sgTW": "全部"
+        "sgTW": "全部",
+        "bnCN": "全部"
     },
     "ChronicleFilterDiscovered": {
         "Key": "ChronicleFilterDiscovered",
@@ -18554,7 +18716,8 @@
         "zhCN": "已发现",
         "zhTW": "發現",
         "sgCN": "已发现",
-        "sgTW": "發現"
+        "sgTW": "發現",
+        "bnCN": "已发现"
     },
     "ChronicleFilterRecent": {
         "Key": "ChronicleFilterRecent",
@@ -18562,7 +18725,8 @@
         "zhCN": "从新到旧",
         "zhTW": "由新到舊",
         "sgCN": "从新到旧",
-        "sgTW": "由新到舊"
+        "sgTW": "由新到舊",
+        "bnCN": "从新到旧"
     },
     "UnableToJoinGameTypeMismatch": {
         "Key": "UnableToJoinGameTypeMismatch",
@@ -18570,7 +18734,8 @@
         "zhCN": "无法使用当前角色加入此游戏。",
         "zhTW": "無法以目前的角色加入這場遊戲",
         "sgCN": "无法使用当前角色加入此游戏。",
-        "sgTW": "無法以目前的角色加入這場遊戲"
+        "sgTW": "無法以目前的角色加入這場遊戲",
+        "bnCN": "无法使用当前角色加入此游戏。"
     },
     "Game": {
         "Key": "Game",
@@ -18578,7 +18743,8 @@
         "zhCN": "游戏",
         "zhTW": "遊戲",
         "sgCN": "游戏",
-        "sgTW": "遊戲"
+        "sgTW": "遊戲",
+        "bnCN": "游戏"
     },
     "Softcore": {
         "Key": "Softcore",
@@ -18586,7 +18752,8 @@
         "zhCN": "普通",
         "zhTW": "非專家",
         "sgCN": "普通",
-        "sgTW": "非專家"
+        "sgTW": "非專家",
+        "bnCN": "普通"
     },
     "Modern": {
         "Key": "Modern",
@@ -18594,7 +18761,8 @@
         "zhCN": "现代",
         "zhTW": "現代",
         "sgCN": "现代",
-        "sgTW": "現代"
+        "sgTW": "現代",
+        "bnCN": "现代"
     },
     "ChronicleItemFoundPrefix": {
         "Key": "ChronicleItemFoundPrefix",
@@ -18602,7 +18770,8 @@
         "zhCN": "发现编年史物品",
         "zhTW": "發現的記事物品",
         "sgCN": "发现编年史物品",
-        "sgTW": "發現的記事物品"
+        "sgTW": "發現的記事物品",
+        "bnCN": "发现编年史物品"
     },
     "ChronicleSearchPlaceholder": {
         "Key": "ChronicleSearchPlaceholder",
@@ -18610,7 +18779,8 @@
         "zhCN": "搜索……",
         "zhTW": "搜尋…",
         "sgCN": "搜索……",
-        "sgTW": "搜尋…"
+        "sgTW": "搜尋…",
+        "bnCN": "搜索……"
     },
     "SharedStashPreviousSeasonToggleTooltipDelivery": {
         "Key": "SharedStashPreviousSeasonToggleTooltipDelivery",
@@ -18618,7 +18788,8 @@
         "zhCN": "开启此功能后可以查看你上一个天梯赛季的共享储藏箱页。\n你只能从共享储藏箱页中移出物品，无法放入，并且这些物品会在下一个赛季开始时被删除。\n已购买的物品将在赛季重置后保留。",
         "zhTW": "啟用後可瀏覽你上個天梯賽季的共用儲物箱。\n你只能取出這些共用儲物箱分頁裡的物品。等到下個新賽季開始，這些物品將被刪除。\n已購買的物品在賽季重置後仍會保留。",
         "sgCN": "开启此功能后可以查看你上一个天梯赛季的共享储藏箱页。\n你只能从共享储藏箱页中移出物品，无法放入，并且这些物品会在下一个赛季开始时被删除。\n已购买的物品将在赛季重置后保留。",
-        "sgTW": "啟用後可瀏覽你上個天梯賽季的共用儲物箱。\n你只能取出這些共用儲物箱分頁裡的物品。等到下個新賽季開始，這些物品將被刪除。\n已購買的物品在賽季重置後仍會保留。"
+        "sgTW": "啟用後可瀏覽你上個天梯賽季的共用儲物箱。\n你只能取出這些共用儲物箱分頁裡的物品。等到下個新賽季開始，這些物品將被刪除。\n已購買的物品在賽季重置後仍會保留。",
+        "bnCN": "开启此功能后可以查看你上一个天梯赛季的共享储藏箱页。\n你只能从共享储藏箱页中移出物品，无法放入，并且这些物品会在下一个赛季开始时被删除。\n已购买的物品将在赛季重置后保留。"
     },
     "EditValue": {
         "Key": "EditValue",
@@ -18626,7 +18797,8 @@
         "zhCN": "编辑值",
         "zhTW": "編輯值",
         "sgCN": "编辑值",
-        "sgTW": "編輯值"
+        "sgTW": "編輯值",
+        "bnCN": "编辑值"
     },
     "materialsAbbrev": {
         "Key": "materialsAbbrev",
@@ -18634,7 +18806,8 @@
         "zhCN": "材料",
         "zhTW": "素材",
         "sgCN": "材料",
-        "sgTW": "素材"
+        "sgTW": "素材",
+        "bnCN": "材料"
     },
     "partycharwar": {
         "Key": "partycharwar",
@@ -18642,7 +18815,8 @@
         "zhCN": "术士",
         "zhTW": "術士",
         "sgCN": "术士",
-        "sgTW": "術士"
+        "sgTW": "術士",
+        "bnCN": "术士"
     },
     "personalAbbrev": {
         "Key": "personalAbbrev",
@@ -18650,7 +18824,8 @@
         "zhCN": "个人",
         "zhTW": "人物",
         "sgCN": "个人",
-        "sgTW": "人物"
+        "sgTW": "人物",
+        "bnCN": "个人"
     },
     "sharedAbbrev": {
         "Key": "sharedAbbrev",
@@ -18658,7 +18833,8 @@
         "zhCN": "共享",
         "zhTW": "分享",
         "sgCN": "共享",
-        "sgTW": "分享"
+        "sgTW": "分享",
+        "bnCN": "共享"
     },
     "Starter - Amz": {
         "Key": "Starter - Amz",
@@ -18666,7 +18842,8 @@
         "zhCN": "新手 - 亚马逊",
         "zhTW": "初學者 - 亞馬遜",
         "sgCN": "新手 - 亚马逊",
-        "sgTW": "初學者 - 亞馬遜"
+        "sgTW": "初學者 - 亞馬遜",
+        "bnCN": "新手 - 亚马逊"
     },
     "Starter - Asn": {
         "Key": "Starter - Asn",
@@ -18674,7 +18851,8 @@
         "zhCN": "新手 - 刺客",
         "zhTW": "初學者 - 刺客",
         "sgCN": "新手 - 刺客",
-        "sgTW": "初學者 - 刺客"
+        "sgTW": "初學者 - 刺客",
+        "bnCN": "新手 - 刺客"
     },
     "Starter - Barb": {
         "Key": "Starter - Barb",
@@ -18682,7 +18860,8 @@
         "zhCN": "新手 - 野蛮人",
         "zhTW": "初學者 - 野蠻人",
         "sgCN": "新手 - 野蛮人",
-        "sgTW": "初學者 - 野蠻人"
+        "sgTW": "初學者 - 野蠻人",
+        "bnCN": "新手 - 野蛮人"
     },
     "Starter - Dru": {
         "Key": "Starter - Dru",
@@ -18690,7 +18869,8 @@
         "zhCN": "新手 - 德鲁伊",
         "zhTW": "初學者 - 德魯伊",
         "sgCN": "新手 - 德鲁伊",
-        "sgTW": "初學者 - 德魯伊"
+        "sgTW": "初學者 - 德魯伊",
+        "bnCN": "新手 - 德鲁伊"
     },
     "Starter - Nec": {
         "Key": "Starter - Nec",
@@ -18698,7 +18878,8 @@
         "zhCN": "新手 - 死灵法师",
         "zhTW": "初學者 - 死靈",
         "sgCN": "新手 - 死灵法师",
-        "sgTW": "初學者 - 死靈"
+        "sgTW": "初學者 - 死靈",
+        "bnCN": "新手 - 死灵法师"
     },
     "Starter - Pal": {
         "Key": "Starter - Pal",
@@ -18706,7 +18887,8 @@
         "zhCN": "新手 - 圣骑士",
         "zhTW": "初學者 - 聖騎士",
         "sgCN": "新手 - 圣骑士",
-        "sgTW": "初學者 - 聖騎士"
+        "sgTW": "初學者 - 聖騎士",
+        "bnCN": "新手 - 圣骑士"
     },
     "Starter - Sorc": {
         "Key": "Starter - Sorc",
@@ -18714,7 +18896,8 @@
         "zhCN": "新手 - 巫师",
         "zhTW": "初學者 - 魔法使",
         "sgCN": "新手 - 巫师",
-        "sgTW": "初學者 - 魔法使"
+        "sgTW": "初學者 - 魔法使",
+        "bnCN": "新手 - 巫师"
     },
     "Starter - War": {
         "Key": "Starter - War",
@@ -18722,7 +18905,8 @@
         "zhCN": "新手 - 战士",
         "zhTW": "初學者 - 戰士",
         "sgCN": "新手 - 战士",
-        "sgTW": "初學者 - 戰士"
+        "sgTW": "初學者 - 戰士",
+        "bnCN": "新手 - 战士"
     },
     "HIDE ALL": {
         "Key": "HIDE ALL",
@@ -18730,7 +18914,8 @@
         "zhCN": "隐藏全部",
         "zhTW": "隱藏全部",
         "sgCN": "隐藏全部",
-        "sgTW": "隱藏全部"
+        "sgTW": "隱藏全部",
+        "bnCN": "隐藏全部"
     },
     "SHOW Uniques": {
         "Key": "SHOW Uniques",
@@ -18738,7 +18923,8 @@
         "zhCN": "显示暗金",
         "zhTW": "顯示獨特物品",
         "sgCN": "显示暗金",
-        "sgTW": "顯示獨特物品"
+        "sgTW": "顯示獨特物品",
+        "bnCN": "显示暗金"
     },
     "SHOW Runes": {
         "Key": "SHOW Runes",
@@ -18746,7 +18932,8 @@
         "zhCN": "显示符文",
         "zhTW": "顯示符文",
         "sgCN": "显示符文",
-        "sgTW": "顯示符文"
+        "sgTW": "顯示符文",
+        "bnCN": "显示符文"
     },
     "SHOW Sets": {
         "Key": "SHOW Sets",
@@ -18754,7 +18941,8 @@
         "zhCN": "显示套装",
         "zhTW": "顯示套裝",
         "sgCN": "显示套装",
-        "sgTW": "顯示套裝"
+        "sgTW": "顯示套裝",
+        "bnCN": "显示套装"
     },
     "SHOW Socketed and Ethereal Items": {
         "Key": "SHOW Socketed and Ethereal Items",
@@ -18762,7 +18950,8 @@
         "zhCN": "显示镶孔和无形物品",
         "zhTW": "顯示鑲孔和無形物品",
         "sgCN": "显示镶孔和无形物品",
-        "sgTW": "顯示鑲孔和無形物品"
+        "sgTW": "顯示鑲孔和無形物品",
+        "bnCN": "显示镶孔和无形物品"
     },
     "SHOW Rare Items": {
         "Key": "SHOW Rare Items",
@@ -18770,7 +18959,8 @@
         "zhCN": "显示稀有物品",
         "zhTW": "顯示珍貴物品",
         "sgCN": "显示稀有物品",
-        "sgTW": "顯示珍貴物品"
+        "sgTW": "顯示珍貴物品",
+        "bnCN": "显示稀有物品"
     },
     "SHOW Magic Items": {
         "Key": "SHOW Magic Items",
@@ -18778,7 +18968,8 @@
         "zhCN": "显示魔法物品",
         "zhTW": "顯示魔法物品",
         "sgCN": "显示魔法物品",
-        "sgTW": "顯示魔法物品"
+        "sgTW": "顯示魔法物品",
+        "bnCN": "显示魔法物品"
     },
     "SHOW Elite Items": {
         "Key": "SHOW Elite Items",
@@ -18786,7 +18977,8 @@
         "zhCN": "显示精英物品",
         "zhTW": "顯示精英物品",
         "sgCN": "显示精英物品",
-        "sgTW": "顯示精英物品"
+        "sgTW": "顯示精英物品",
+        "bnCN": "显示精英物品"
     },
     "SHOW Exceptional Items": {
         "Key": "SHOW Exceptional Items",
@@ -18794,7 +18986,8 @@
         "zhCN": "显示优异物品",
         "zhTW": "顯示卓越物品",
         "sgCN": "显示优异物品",
-        "sgTW": "顯示卓越物品"
+        "sgTW": "顯示卓越物品",
+        "bnCN": "显示优异物品"
     },
     "Hide Other Class Items": {
         "Key": "Hide Other Class Items",
@@ -18802,7 +18995,8 @@
         "zhCN": "隐藏其他职业物品",
         "zhTW": "顯示其他職業物品",
         "sgCN": "隐藏其他职业物品",
-        "sgTW": "顯示其他職業物品"
+        "sgTW": "顯示其他職業物品",
+        "bnCN": "隐藏其他职业物品"
     },
     "HIDE Ammo": {
         "Key": "HIDE Ammo",
@@ -18810,7 +19004,8 @@
         "zhCN": "隐藏弹药",
         "zhTW": "隱藏彈藥",
         "sgCN": "隐藏弹药",
-        "sgTW": "隱藏彈藥"
+        "sgTW": "隱藏彈藥",
+        "bnCN": "隐藏弹药"
     },
     "HIDE Inferior Gear": {
         "Key": "HIDE Inferior Gear",
@@ -18818,7 +19013,8 @@
         "zhCN": "隐藏劣质装备",
         "zhTW": "隱藏次等裝備",
         "sgCN": "隐藏劣质装备",
-        "sgTW": "隱藏次等裝備"
+        "sgTW": "隱藏次等裝備",
+        "bnCN": "隐藏劣质装备"
     },
     "InventoryItemTooltipAppenderMoveStash": {
         "Key": "InventoryItemTooltipAppenderMoveStash",
@@ -18826,7 +19022,8 @@
         "zhCN": "%s 移动",
         "zhTW": "%s以移動",
         "sgCN": "%s 移动",
-        "sgTW": "%s以移動"
+        "sgTW": "%s以移動",
+        "bnCN": "%s 移动"
     },
     "UIPurchase": {
         "Key": "UIPurchase",
@@ -18834,7 +19031,8 @@
         "zhCN": "购买",
         "zhTW": "購買",
         "sgCN": "购买",
-        "sgTW": "購買"
+        "sgTW": "購買",
+        "bnCN": "购买"
     },
     "ClassRequiresPurchase": {
         "Key": "ClassRequiresPurchase",
@@ -18842,7 +19040,8 @@
         "zhCN": "需要拥有“术士君临”才能解锁此职业",
         "zhTW": "需要購買《術士軍臨》才可使用此職業",
         "sgCN": "需要拥有“术士君临”才能解锁此职业",
-        "sgTW": "需要購買《術士軍臨》才可使用此職業"
+        "sgTW": "需要購買《術士軍臨》才可使用此職業",
+        "bnCN": "需要拥有“术士君临”才能解锁此职业"
     },
     "RotwUpsell": {
         "Key": "RotwUpsell",
@@ -18850,7 +19049,8 @@
         "zhCN": "“术士君临”现已上线！",
         "zhTW": "《術士軍臨》現已推出！",
         "sgCN": "“术士君临”现已上线！",
-        "sgTW": "《術士軍臨》現已推出！"
+        "sgTW": "《術士軍臨》現已推出！",
+        "bnCN": "“术士君临”现已上线！"
     },
     "UpsellRestartGame": {
         "Key": "UpsellRestartGame",
@@ -18858,7 +19058,8 @@
         "zhCN": "若已购买，需重启游戏才能生效。",
         "zhTW": "購買後必須重新啟動遊戲。",
         "sgCN": "若已购买，需重启游戏才能生效。",
-        "sgTW": "購買後必須重新啟動遊戲。"
+        "sgTW": "購買後必須重新啟動遊戲。",
+        "bnCN": "若已购买，需重启游戏才能生效。"
     },
     "ChronicleRewardsTitle": {
         "Key": "ChronicleRewardsTitle",
@@ -18866,7 +19067,8 @@
         "zhCN": "奖励",
         "zhTW": "獎勵",
         "sgCN": "奖励",
-        "sgTW": "獎勵"
+        "sgTW": "獎勵",
+        "bnCN": "奖励"
     },
     "UILearnMore": {
         "Key": "UILearnMore",
@@ -18874,7 +19076,8 @@
         "zhCN": "了解更多",
         "zhTW": "了解更多",
         "sgCN": "了解更多",
-        "sgTW": "了解更多"
+        "sgTW": "了解更多",
+        "bnCN": "了解更多"
     },
     "GameJoinCharacterRequirementGarden": {
         "Key": "GameJoinCharacterRequirementGarden",
@@ -18882,7 +19085,8 @@
         "zhCN": "你必须使用一个“术士君临”角色",
         "zhTW": "必須使用《術士軍臨》角色",
         "sgCN": "你必须使用一个“术士君临”角色",
-        "sgTW": "必須使用《術士軍臨》角色"
+        "sgTW": "必須使用《術士軍臨》角色",
+        "bnCN": "你必须使用一个“术士君临”角色"
     },
     "HeraldName1": {
         "Key": "HeraldName1",
@@ -18890,7 +19094,8 @@
         "zhCN": "惊惧使者",
         "zhTW": "驚駭使者",
         "sgCN": "惊惧使者",
-        "sgTW": "驚駭使者"
+        "sgTW": "驚駭使者",
+        "bnCN": "惊惧使者"
     },
     "HeraldName2": {
         "Key": "HeraldName2",
@@ -18898,7 +19103,8 @@
         "zhCN": "惊悚使者",
         "zhTW": "畏怖使者",
         "sgCN": "惊悚使者",
-        "sgTW": "畏怖使者"
+        "sgTW": "畏怖使者",
+        "bnCN": "惊悚使者"
     },
     "HeraldName3": {
         "Key": "HeraldName3",
@@ -18906,7 +19112,8 @@
         "zhCN": "惊恐使者",
         "zhTW": "驚懼使者",
         "sgCN": "惊恐使者",
-        "sgTW": "驚懼使者"
+        "sgTW": "驚懼使者",
+        "bnCN": "惊恐使者"
     },
     "HeraldName4": {
         "Key": "HeraldName4",
@@ -18914,7 +19121,8 @@
         "zhCN": "惊怖使者",
         "zhTW": "恐怖使者",
         "sgCN": "惊怖使者",
-        "sgTW": "恐怖使者"
+        "sgTW": "恐怖使者",
+        "bnCN": "惊怖使者"
     },
     "strgamefailillegaljoinXG": {
         "Key": "strgamefailillegaljoinXG",
@@ -18922,7 +19130,8 @@
         "zhCN": "无法进入游戏。非“术士君临”角色无法加入“术士君临”角色创建的游戏。",
         "zhTW": "無法進入遊戲。非術士軍臨角色無法加入由術士軍臨角色創建的遊戲。",
         "sgCN": "无法进入游戏。非“术士君临”角色无法加入“术士君临”角色创建的游戏。",
-        "sgTW": "無法進入遊戲。非術士軍臨角色無法加入由術士軍臨角色創建的遊戲。"
+        "sgTW": "無法進入遊戲。非術士軍臨角色無法加入由術士軍臨角色創建的遊戲。",
+        "bnCN": "无法进入游戏。非“术士君临”角色无法加入“术士君临”角色创建的游戏。"
     },
     "LF_NameProfaneOrReserved": {
         "Key": "LF_NameProfaneOrReserved",
@@ -18930,7 +19139,8 @@
         "zhCN": "名称包含不当文字。请更换另一个名称。",
         "zhTW": "名稱中包含不雅字眼或系統保留字。請嘗試其他名稱。",
         "sgCN": "名称包含不当文字。请更换另一个名称。",
-        "sgTW": "名稱中包含不雅字眼或系統保留字。請嘗試其他名稱。"
+        "sgTW": "名稱中包含不雅字眼或系統保留字。請嘗試其他名稱。",
+        "bnCN": "名称包含不当文字。请更换另一个名称。"
     },
     "ChinesePublisher": {
         "bnCN": "由上海网之易网络科技发展有限公司运营"

@@ -3776,7 +3776,8 @@
         "zhCN": "巨像之巅",
         "zhTW": "宏偉山巔",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": "巨像之巅"
     },
     "ToTheColossalSummit": {
         "Key": "ToTheColossalSummit",
@@ -3784,7 +3785,8 @@
         "zhCN": "前往巨像之巅",
         "zhTW": "前往宏偉山巔",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": "前往巨像之巅"
     },
     "EnteringTheColossalSummit": {
         "Key": "EnteringTheColossalSummit",
@@ -3792,7 +3794,8 @@
         "zhCN": "进入巨像之巅",
         "zhTW": "進入宏偉山巔",
         "sgCN": "",
-        "sgTW": ""
+        "sgTW": "",
+        "bnCN": "进入巨像之巅"
     },
     "asheara": {
         "Key": "asheara",
@@ -3800,7 +3803,8 @@
         "zhCN": "艾席拉",
         "zhTW": "艾席拉",
         "sgCN": "艾席拉",
-        "sgTW": "艾席拉"
+        "sgTW": "艾席拉",
+        "bnCN": "艾席拉"
     },
     "hratli": {
         "Key": "hratli",
@@ -3808,7 +3812,8 @@
         "zhCN": "赫拉铁力",
         "zhTW": "赫拉鐵力",
         "sgCN": "赫拉铁力",
-        "sgTW": "赫拉鐵力"
+        "sgTW": "赫拉鐵力",
+        "bnCN": "赫拉铁力"
     },
     "alkor": {
         "Key": "alkor",
@@ -3816,7 +3821,8 @@
         "zhCN": "艾柯",
         "zhTW": "艾柯",
         "sgCN": "奥科",
-        "sgTW": "艾柯"
+        "sgTW": "艾柯",
+        "bnCN": "艾柯"
     },
     "ormus": {
         "Key": "ormus",
@@ -3824,7 +3830,8 @@
         "zhCN": "奥玛斯",
         "zhTW": "奧瑪斯",
         "sgCN": "奥玛斯",
-        "sgTW": "奧瑪斯"
+        "sgTW": "奧瑪斯",
+        "bnCN": "奥玛斯"
     },
     "nikita": {
         "Key": "nikita",
@@ -3832,7 +3839,8 @@
         "zhCN": "娜塔亚",
         "zhTW": "娜塔亞",
         "sgCN": "娜塔亚",
-        "sgTW": "娜塔亞"
+        "sgTW": "娜塔亞",
+        "bnCN": "娜塔亚"
     },
     "tyrael": {
         "Key": "tyrael",
@@ -3840,7 +3848,8 @@
         "zhCN": "泰瑞尔",
         "zhTW": "泰瑞爾",
         "sgCN": "泰瑞尔",
-        "sgTW": "泰瑞爾"
+        "sgTW": "泰瑞爾",
+        "bnCN": "泰瑞尔"
     },
     "Jamella": {
         "Key": "Jamella",
@@ -3848,7 +3857,8 @@
         "zhCN": "贾梅拉",
         "zhTW": "賈梅拉",
         "sgCN": "贾梅拉",
-        "sgTW": "賈梅拉"
+        "sgTW": "賈梅拉",
+        "bnCN": "贾梅拉"
     },
     "halbu": {
         "Key": "halbu",
@@ -3856,7 +3866,8 @@
         "zhCN": "海尔布",
         "zhTW": "海爾布",
         "sgCN": "哈尔布",
-        "sgTW": "海爾布"
+        "sgTW": "海爾布",
+        "bnCN": "海尔布"
     },
     "Malachai": {
         "Key": "Malachai",
@@ -3864,7 +3875,8 @@
         "zhCN": "哈德尔",
         "zhTW": "哈德爾",
         "sgCN": "哈德瑞尔",
-        "sgTW": "哈德爾"
+        "sgTW": "哈德爾",
+        "bnCN": "哈德尔"
     },
     "DeckardCain": {
         "Key": "DeckardCain",
@@ -3872,7 +3884,8 @@
         "zhCN": "迪卡‧凯恩",
         "zhTW": "迪卡‧凱恩",
         "sgCN": "迪卡德·凯恩",
-        "sgTW": "迪卡‧凱恩"
+        "sgTW": "迪卡‧凱恩",
+        "bnCN": "迪卡‧凯恩"
     },
     "Gheed": {
         "Key": "Gheed",
@@ -3880,7 +3893,8 @@
         "zhCN": "基德",
         "zhTW": "基德",
         "sgCN": "基德",
-        "sgTW": "基德"
+        "sgTW": "基德",
+        "bnCN": "基德"
     },
     "Akara": {
         "Key": "Akara",
@@ -3888,7 +3902,8 @@
         "zhCN": "阿卡拉",
         "zhTW": "阿卡拉",
         "sgCN": "阿卡拉",
-        "sgTW": "阿卡拉"
+        "sgTW": "阿卡拉",
+        "bnCN": "阿卡拉"
     },
     "Kashya": {
         "Key": "Kashya",
@@ -3896,7 +3911,8 @@
         "zhCN": "卡夏",
         "zhTW": "卡夏",
         "sgCN": "卡夏",
-        "sgTW": "卡夏"
+        "sgTW": "卡夏",
+        "bnCN": "卡夏"
     },
     "Charsi": {
         "Key": "Charsi",
@@ -3904,7 +3920,8 @@
         "zhCN": "恰西",
         "zhTW": "恰西",
         "sgCN": "恰西",
-        "sgTW": "恰西"
+        "sgTW": "恰西",
+        "bnCN": "恰西"
     },
     "Wariv": {
         "Key": "Wariv",
@@ -3912,7 +3929,8 @@
         "zhCN": "瓦瑞夫",
         "zhTW": "瓦瑞夫",
         "sgCN": "瓦瑞夫",
-        "sgTW": "瓦瑞夫"
+        "sgTW": "瓦瑞夫",
+        "bnCN": "瓦瑞夫"
     },
     "Warriv": {
         "Key": "Warriv",
@@ -3920,7 +3938,8 @@
         "zhCN": "瓦瑞夫",
         "zhTW": "瓦瑞夫",
         "sgCN": "瓦瑞夫",
-        "sgTW": "瓦瑞夫"
+        "sgTW": "瓦瑞夫",
+        "bnCN": "瓦瑞夫"
     },
     "Natalya": {
         "Key": "Natalya",
@@ -3928,7 +3947,8 @@
         "zhCN": "娜塔亚",
         "zhTW": "娜塔亞",
         "sgCN": "娜塔亚",
-        "sgTW": "娜塔亞"
+        "sgTW": "娜塔亞",
+        "bnCN": "娜塔亚"
     },
     "Drognan": {
         "Key": "Drognan",
@@ -3936,7 +3956,8 @@
         "zhCN": "卓格南",
         "zhTW": "卓格南",
         "sgCN": "卓格楠",
-        "sgTW": "卓格南"
+        "sgTW": "卓格南",
+        "bnCN": "卓格南"
     },
     "Atma": {
         "Key": "Atma",
@@ -3944,7 +3965,8 @@
         "zhCN": "亚特玛",
         "zhTW": "亞特瑪",
         "sgCN": "阿特玛",
-        "sgTW": "亞特瑪"
+        "sgTW": "亞特瑪",
+        "bnCN": "亚特玛"
     },
     "Fara": {
         "Key": "Fara",
@@ -3952,7 +3974,8 @@
         "zhCN": "法拉",
         "zhTW": "法拉",
         "sgCN": "法拉",
-        "sgTW": "法拉"
+        "sgTW": "法拉",
+        "bnCN": "法拉"
     },
     "Lysander": {
         "Key": "Lysander",
@@ -3960,7 +3983,8 @@
         "zhCN": "雷山德",
         "zhTW": "雷山德",
         "sgCN": "雷山德",
-        "sgTW": "雷山德"
+        "sgTW": "雷山德",
+        "bnCN": "雷山德"
     },
     "Jerhyn": {
         "Key": "Jerhyn",
@@ -3968,7 +3992,8 @@
         "zhCN": "杰恩",
         "zhTW": "傑恩",
         "sgCN": "耶尔辛",
-        "sgTW": "傑恩"
+        "sgTW": "傑恩",
+        "bnCN": "杰恩"
     },
     "jerhyn": {
         "Key": "jerhyn",
@@ -3976,7 +4001,8 @@
         "zhCN": "杰恩",
         "zhTW": "傑恩",
         "sgCN": "耶尔辛",
-        "sgTW": "傑恩"
+        "sgTW": "傑恩",
+        "bnCN": "杰恩"
     },
     "Geglash": {
         "Key": "Geglash",
@@ -3984,7 +4010,8 @@
         "zhCN": "基格列斯",
         "zhTW": "基格列斯",
         "sgCN": "基格列斯",
-        "sgTW": "基格列斯"
+        "sgTW": "基格列斯",
+        "bnCN": "基格列斯"
     },
     "Elzix": {
         "Key": "Elzix",
@@ -3992,7 +4019,8 @@
         "zhCN": "艾吉斯",
         "zhTW": "艾吉斯",
         "sgCN": "艾吉斯",
-        "sgTW": "艾吉斯"
+        "sgTW": "艾吉斯",
+        "bnCN": "艾吉斯"
     },
     "Greiz": {
         "Key": "Greiz",
@@ -4000,7 +4028,8 @@
         "zhCN": "格雷兹",
         "zhTW": "格雷茲",
         "sgCN": "格雷兹",
-        "sgTW": "格雷茲"
+        "sgTW": "格雷茲",
+        "bnCN": "格雷兹"
     },
     "Meshif": {
         "Key": "Meshif",
@@ -4008,7 +4037,8 @@
         "zhCN": "马席夫",
         "zhTW": "馬席夫",
         "sgCN": "梅席夫",
-        "sgTW": "馬席夫"
+        "sgTW": "馬席夫",
+        "bnCN": "马席夫"
     },
     "navi": {
         "Key": "navi",
@@ -4016,7 +4046,8 @@
         "zhCN": "弗拉维",
         "zhTW": "弗拉維",
         "sgCN": "弗拉维",
-        "sgTW": "弗拉維"
+        "sgTW": "弗拉維",
+        "bnCN": "弗拉维"
     },
     "Kaelan": {
         "Key": "Kaelan",
@@ -4024,7 +4055,8 @@
         "zhCN": "凯蓝",
         "zhTW": "凱藍",
         "sgCN": "凯伦",
-        "sgTW": "凱藍"
+        "sgTW": "凱藍",
+        "bnCN": "凯蓝"
     },
     "meshif": {
         "Key": "meshif",
@@ -4032,7 +4064,8 @@
         "zhCN": "马席夫",
         "zhTW": "馬席夫",
         "sgCN": "梅席夫",
-        "sgTW": "馬席夫"
+        "sgTW": "馬席夫",
+        "bnCN": "马席夫"
     },
     "Larzuk": {
         "Key": "Larzuk",
@@ -4040,7 +4073,8 @@
         "zhCN": "拉苏克",
         "zhTW": "拉蘇克",
         "sgCN": "拉苏克",
-        "sgTW": "拉蘇克"
+        "sgTW": "拉蘇克",
+        "bnCN": "拉苏克"
     },
     "Drehya": {
         "Key": "Drehya",
@@ -4048,7 +4082,8 @@
         "zhCN": "安亚",
         "zhTW": "安亞",
         "sgCN": "安雅",
-        "sgTW": "安亞"
+        "sgTW": "安亞",
+        "bnCN": "安亚"
     },
     "Malah": {
         "Key": "Malah",
@@ -4056,7 +4091,8 @@
         "zhCN": "玛拉",
         "zhTW": "瑪拉",
         "sgCN": "马拉",
-        "sgTW": "瑪拉"
+        "sgTW": "瑪拉",
+        "bnCN": "玛拉"
     },
     "Nihlathak Town": {
         "Key": "Nihlathak Town",
@@ -4064,7 +4100,8 @@
         "zhCN": "尼拉塞克",
         "zhTW": "尼拉塞克",
         "sgCN": "尼拉塞克",
-        "sgTW": "尼拉塞克"
+        "sgTW": "尼拉塞克",
+        "bnCN": "尼拉塞克"
     },
     "Qual-Kehk": {
         "Key": "Qual-Kehk",
@@ -4072,7 +4109,8 @@
         "zhCN": "夸尔凯克",
         "zhTW": "夸爾凱克",
         "sgCN": "夸尔凯克",
-        "sgTW": "夸爾凱克"
+        "sgTW": "夸爾凱克",
+        "bnCN": "夸尔凯克"
     },
     "Act 5 Townguard": {
         "Key": "Act 5 Townguard",
@@ -4080,7 +4118,8 @@
         "zhCN": "守卫",
         "zhTW": "守衛",
         "sgCN": "卫兵",
-        "sgTW": "守衛"
+        "sgTW": "守衛",
+        "bnCN": "守卫"
     },
     "Act 5 Combatant": {
         "Key": "Act 5 Combatant",
@@ -4088,7 +4127,8 @@
         "zhCN": "参战者",
         "zhTW": "參戰者",
         "sgCN": "争斗者",
-        "sgTW": "參戰者"
+        "sgTW": "參戰者",
+        "bnCN": "参战者"
     },
     "Nihlathak": {
         "Key": "Nihlathak",
@@ -4096,7 +4136,8 @@
         "zhCN": "尼拉塞克",
         "zhTW": "尼拉塞克",
         "sgCN": "尼拉塞克",
-        "sgTW": "尼拉塞克"
+        "sgTW": "尼拉塞克",
+        "bnCN": "尼拉塞克"
     },
     "Soldier": {
         "Key": "Soldier",
@@ -4104,6 +4145,7 @@
         "zhCN": "士兵",
         "zhTW": "士兵",
         "sgCN": "士兵",
-        "sgTW": "士兵"
+        "sgTW": "士兵",
+        "bnCN": "士兵"
     }
 }

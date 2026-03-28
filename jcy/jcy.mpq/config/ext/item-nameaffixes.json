@@ -9005,7 +9005,8 @@
         "zhCN": "剧毒",
         "zhTW": "怨毒",
         "sgCN": "剧毒",
-        "sgTW": "怨毒"
+        "sgTW": "怨毒",
+        "bnCN": "剧毒"
     },
     "of Acidity": {
         "Key": "of Acidity",
@@ -9013,7 +9014,8 @@
         "zhCN": "酸蚀之",
         "zhTW": "酸蝕之",
         "sgCN": "酸蚀之",
-        "sgTW": "酸蝕之"
+        "sgTW": "酸蝕之",
+        "bnCN": "酸蚀之"
     },
     "Incendiary": {
         "Key": "Incendiary",
@@ -9021,7 +9023,8 @@
         "zhCN": "焚烧",
         "zhTW": "煽火",
         "sgCN": "焚烧",
-        "sgTW": "煽火"
+        "sgTW": "煽火",
+        "bnCN": "焚烧"
     },
     "of Kindling": {
         "Key": "of Kindling",
@@ -9029,7 +9032,8 @@
         "zhCN": "点燃之",
         "zhTW": "引火之",
         "sgCN": "点燃之",
-        "sgTW": "引火之"
+        "sgTW": "引火之",
+        "bnCN": "点燃之"
     },
     "Gelid": {
         "Key": "Gelid",
@@ -9037,7 +9041,8 @@
         "zhCN": "极寒",
         "zhTW": "嚴寒",
         "sgCN": "极寒",
-        "sgTW": "嚴寒"
+        "sgTW": "嚴寒",
+        "bnCN": "极寒"
     },
     "of Numbing": {
         "Key": "of Numbing",
@@ -9045,7 +9050,8 @@
         "zhCN": "麻痹之",
         "zhTW": "麻木之",
         "sgCN": "麻痹之",
-        "sgTW": "麻木之"
+        "sgTW": "麻木之",
+        "bnCN": "麻痹之"
     },
     "Magnetic": {
         "Key": "Magnetic",
@@ -9053,7 +9059,8 @@
         "zhCN": "磁性",
         "zhTW": "磁性",
         "sgCN": "磁性",
-        "sgTW": "磁性"
+        "sgTW": "磁性",
+        "bnCN": "磁性"
     },
     "of Conductivity": {
         "Key": "of Conductivity",
@@ -9061,7 +9068,8 @@
         "zhCN": "传导之",
         "zhTW": "導電之",
         "sgCN": "传导之",
-        "sgTW": "導電之"
+        "sgTW": "導電之",
+        "bnCN": "传导之"
     },
     "Mystical": {
         "Key": "Mystical",
@@ -9069,7 +9077,8 @@
         "zhCN": "神秘",
         "zhTW": "神秘",
         "sgCN": "神秘",
-        "sgTW": "神秘"
+        "sgTW": "神秘",
+        "bnCN": "神秘"
     },
     "of Thaumaturgy": {
         "Key": "of Thaumaturgy",
@@ -9077,7 +9086,8 @@
         "zhCN": "奇术之",
         "zhTW": "奇術之",
         "sgCN": "奇术之",
-        "sgTW": "奇術之"
+        "sgTW": "奇術之",
+        "bnCN": "奇术之"
     },
     "Breaching": {
         "Key": "Breaching",
@@ -9085,7 +9095,8 @@
         "zhCN": "破甲",
         "zhTW": "突破",
         "sgCN": "破甲",
-        "sgTW": "突破"
+        "sgTW": "突破",
+        "bnCN": "破甲"
     },
     "of Force": {
         "Key": "of Force",
@@ -9093,7 +9104,8 @@
         "zhCN": "力量之",
         "zhTW": "力迫之",
         "sgCN": "力量之",
-        "sgTW": "力迫之"
+        "sgTW": "力迫之",
+        "bnCN": "力量之"
     },
     "Sullied": {
         "Key": "Sullied",
@@ -9101,7 +9113,8 @@
         "zhCN": "污染",
         "zhTW": "玷汙",
         "sgCN": "污染",
-        "sgTW": "玷汙"
+        "sgTW": "玷汙",
+        "bnCN": "污染"
     },
     "Fiendish": {
         "Key": "Fiendish",
@@ -9109,7 +9122,8 @@
         "zhCN": "邪鬼",
         "zhTW": "妖魔",
         "sgCN": "邪鬼",
-        "sgTW": "妖魔"
+        "sgTW": "妖魔",
+        "bnCN": "邪鬼"
     },
     "Erratic": {
         "Key": "Erratic",
@@ -9117,7 +9131,8 @@
         "zhCN": "善变",
         "zhTW": "失序",
         "sgCN": "善变",
-        "sgTW": "失序"
+        "sgTW": "失序",
+        "bnCN": "善变"
     },
     "Torrid": {
         "Key": "Torrid",
@@ -9125,7 +9140,8 @@
         "zhCN": "灼热",
         "zhTW": "熾熱",
         "sgCN": "灼热",
-        "sgTW": "熾熱"
+        "sgTW": "熾熱",
+        "bnCN": "灼热"
     },
     "TaintedAffix": {
         "Key": "TaintedAffix",
@@ -9133,7 +9149,8 @@
         "zhCN": "污染",
         "zhTW": "魔汙",
         "sgCN": "污染",
-        "sgTW": "魔汙"
+        "sgTW": "魔汙",
+        "bnCN": "污染"
     },
     "Forbidden": {
         "Key": "Forbidden",
@@ -9141,7 +9158,8 @@
         "zhCN": "禁忌",
         "zhTW": "封禁",
         "sgCN": "禁忌",
-        "sgTW": "封禁"
+        "sgTW": "封禁",
+        "bnCN": "禁忌"
     },
     "Dreadful": {
         "Key": "Dreadful",
@@ -9149,7 +9167,8 @@
         "zhCN": "可怖",
         "zhTW": "怖懼",
         "sgCN": "可怖",
-        "sgTW": "怖懼"
+        "sgTW": "怖懼",
+        "bnCN": "可怖"
     },
     "Malevolent": {
         "Key": "Malevolent",
@@ -9157,7 +9176,8 @@
         "zhCN": "恶意",
         "zhTW": "惡毒",
         "sgCN": "恶意",
-        "sgTW": "惡毒"
+        "sgTW": "惡毒",
+        "bnCN": "恶意"
     },
     "of Miasma Bolt": {
         "Key": "of Miasma Bolt",
@@ -9165,7 +9185,8 @@
         "zhCN": "瘴气弹之",
         "zhTW": "瘴氣彈之",
         "sgCN": "瘴气弹之",
-        "sgTW": "瘴氣彈之"
+        "sgTW": "瘴氣彈之",
+        "bnCN": "瘴气弹之"
     },
     "of Lethargy": {
         "Key": "of Lethargy",
@@ -9173,7 +9194,8 @@
         "zhCN": "迟缓之",
         "zhTW": "昏沉之",
         "sgCN": "迟缓之",
-        "sgTW": "昏沉之"
+        "sgTW": "昏沉之",
+        "bnCN": "迟缓之"
     },
     "of Rancor": {
         "Key": "of Rancor",
@@ -9181,7 +9203,8 @@
         "zhCN": "怨恨之",
         "zhTW": "冤仇之",
         "sgCN": "怨恨之",
-        "sgTW": "冤仇之"
+        "sgTW": "冤仇之",
+        "bnCN": "怨恨之"
     },
     "of Apocalypse": {
         "Key": "of Apocalypse",
@@ -9189,7 +9212,8 @@
         "zhCN": "末日之",
         "zhTW": "天啟末日之",
         "sgCN": "末日之",
-        "sgTW": "天啟末日之"
+        "sgTW": "天啟末日之",
+        "bnCN": "末日之"
     },
     "Devil's": {
         "Key": "Devil's",
@@ -9197,7 +9221,8 @@
         "zhCN": "恶魔的",
         "zhTW": "妖鬼的",
         "sgCN": "恶魔的",
-        "sgTW": "妖鬼的"
+        "sgTW": "妖鬼的",
+        "bnCN": "恶魔的"
     },
     "Arch-Devil's": {
         "Key": "Arch-Devil's",
@@ -9205,7 +9230,8 @@
         "zhCN": "大恶魔的",
         "zhTW": "大妖鬼",
         "sgCN": "大恶魔的",
-        "sgTW": "大妖鬼"
+        "sgTW": "大妖鬼",
+        "bnCN": "大恶魔的"
     },
     "gsb": {
         "bnCN": "蓝宝石",
