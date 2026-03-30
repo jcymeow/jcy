@@ -27968,7 +27968,7 @@
     "id": 27907,
     "Key": "Guardian's Thunder",
     "enUS": "Guardian's Thunder",
-    "zhTW": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
+    "zhTW": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
     "deDE": "[ms]Donner des Wächters",
     "esES": "[ms]Trueno del guardián",
     "frFR": "Tonnerre du Gardien",
@@ -27979,13 +27979,13 @@
     "jaJP": "守護者の雷鳴",
     "ptBR": "Trovão do Guardião",
     "ruRU": "Гром хранителя",
-    "zhCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電"
+    "zhCN": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電"
   },
   {
     "id": 27908,
     "Key": "Protector's Frost",
     "enUS": "Protector's Frost",
-    "zhTW": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜",
+    "zhTW": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜",
     "deDE": "[ms]Frost des Beschützers",
     "esES": "[fs]Escarcha del protector",
     "frFR": "Givre du Protecteur",
@@ -27996,13 +27996,13 @@
     "jaJP": "擁護者の霜",
     "ptBR": "Gelo do Protetor",
     "ruRU": "Мороз покровителя",
-    "zhCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜"
+    "zhCN": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜"
   },
   {
     "id": 27909,
     "Key": "Defender's Fire",
     "enUS": "Defender's Fire",
-    "zhTW": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
+    "zhTW": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
     "deDE": "[ns]Feuer des Verteidigers",
     "esES": "[ms]Fuego del defensor",
     "frFR": "Feu du Défenseur",
@@ -28013,13 +28013,13 @@
     "jaJP": "防衛者の炎",
     "ptBR": "Fogo do Defensor",
     "ruRU": "Огонь защитника",
-    "zhCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰"
+    "zhCN": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰"
   },
   {
     "id": 27910,
     "Key": "Protector's Stone",
     "enUS": "Protector's Stone",
-    "zhTW": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+    "zhTW": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
     "deDE": "[ms]Stein des Beschützers",
     "esES": "[fs]Piedra del protector",
     "frFR": "Pierre du Protecteur",
@@ -28030,13 +28030,13 @@
     "jaJP": "擁護者の石",
     "ptBR": "Pedra do Protetor",
     "ruRU": "Камень покровителя",
-    "zhCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石"
+    "zhCN": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石"
   },
   {
     "id": 27911,
     "Key": "Guardian's Light",
     "enUS": "Guardian's Light",
-    "zhTW": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
+    "zhTW": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
     "deDE": "[ns]Licht des Wächters",
     "esES": "[fs]Luz del guardián",
     "frFR": "Lumière du Gardien",
@@ -28047,7 +28047,7 @@
     "jaJP": "守護者の光",
     "ptBR": "Luz do Guardião",
     "ruRU": "Свет хранителя",
-    "zhCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒"
+    "zhCN": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒"
   },
   {
     "id": 27959,

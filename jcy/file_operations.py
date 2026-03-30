@@ -2986,7 +2986,7 @@ class FileOperations:
                 child["fields"]["tooltipString"] = jcy_config.LOCAL_EXT_DICT.get(key).get(lng)
 
             with open(mini_path, 'w', encoding="utf-8") as f:
-                json.dump(mini_data, f, ensure_ascii=False, indent=2)
+                json.dump(mini_data, f, ensure_ascii=False, indent=4)
 
             count += 1
         except Exception as e:

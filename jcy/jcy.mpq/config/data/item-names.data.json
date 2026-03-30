@@ -22434,43 +22434,43 @@
     },
     "um4": {
         "enUS": {
-            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
+            "max": "50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
+            "max": "50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
+            "max": "50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um5": {
         "enUS": {
-            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
+            "max": "10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
+            "max": "10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
+            "max": "10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "um6": {
         "enUS": {
-            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
+            "max": "10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
+            "max": "10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
+            "max": "10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
@@ -23498,71 +23498,71 @@
     },
     "Guardian's Thunder": {
         "enUS": {
-            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
+            "max": "10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
+            "max": "10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "75LD/10LSD/-10LR/5EXP/50EG/35MF",
+            "max": "10LSD/-10LR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Protector's Frost": {
         "enUS": {
-            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
+            "max": "10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
+            "max": "10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "30CD/10CSD/-10CR/5EXP/50EG/35MF",
+            "max": "10CSD/-10CR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Defender's Fire": {
         "enUS": {
-            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
+            "max": "10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
+            "max": "10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "60FD/10FSD/-10FR/5EXP/50EG/35MF",
+            "max": "10FSD/-10FR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Protector's Stone": {
         "enUS": {
-            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
+            "max": "50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
+            "max": "50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "30DMG/50ED/-10DR/5EXP/50EG/35MF",
+            "max": "50ED/-10DR/5EXP/50EG/35MF",
             "mark": ""
         }
     },
     "Guardian's Light": {
         "enUS": {
-            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
+            "max": "10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhCN": {
-            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
+            "max": "10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         },
         "zhTW": {
-            "max": "35MD/10MSD/-10MR/5EXP/50EG/35MF",
+            "max": "10MSD/-10MR/5EXP/50EG/35MF",
             "mark": ""
         }
     },

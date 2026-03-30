@@ -16452,52 +16452,52 @@
     "Guardian's Thunder": {
         "id": 27907,
         "Key": "Guardian's Thunder",
-        "enUS": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4Guardian's Thunder",
-        "zhTW": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
-        "zhCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷",
-        "sgCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷",
-        "sgTW": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
-        "bnCN": "ÿc1[75LD/10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷"
+        "enUS": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4Guardian's Thunder",
+        "zhTW": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
+        "zhCN": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷",
+        "sgCN": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷",
+        "sgTW": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守護者的閃電",
+        "bnCN": "ÿc1[10LSD/-10LR/5EXP/50EG/35MF]\nÿc4守护者之雷"
     },
     "Protector's Frost": {
         "id": 27908,
         "Key": "Protector's Frost",
-        "enUS": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4Protector's Frost",
-        "zhTW": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜",
-        "zhCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
-        "sgCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
-        "sgTW": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
-        "bnCN": "ÿc1[30CD/10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜"
+        "enUS": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4Protector's Frost",
+        "zhTW": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保衛者的冰霜",
+        "zhCN": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
+        "sgCN": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
+        "sgTW": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜",
+        "bnCN": "ÿc1[10CSD/-10CR/5EXP/50EG/35MF]\nÿc4保卫者之霜"
     },
     "Defender's Fire": {
         "id": 27909,
         "Key": "Defender's Fire",
-        "enUS": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4Defender's Fire",
-        "zhTW": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
-        "zhCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火",
-        "sgCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火",
-        "sgTW": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
-        "bnCN": "ÿc1[60FD/10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火"
+        "enUS": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4Defender's Fire",
+        "zhTW": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
+        "zhCN": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火",
+        "sgCN": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火",
+        "sgTW": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防禦者的火焰",
+        "bnCN": "ÿc1[10FSD/-10FR/5EXP/50EG/35MF]\nÿc4防御者之火"
     },
     "Protector's Stone": {
         "id": 27910,
         "Key": "Protector's Stone",
-        "enUS": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4Protector's Stone",
-        "zhTW": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
-        "zhCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石",
-        "sgCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石",
-        "sgTW": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
-        "bnCN": "ÿc1[30DMG/50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石"
+        "enUS": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4Protector's Stone",
+        "zhTW": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+        "zhCN": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石",
+        "sgCN": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石",
+        "sgTW": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保衛者的岩石",
+        "bnCN": "ÿc1[50ED/-10DR/5EXP/50EG/35MF]\nÿc4保卫者之石"
     },
     "Guardian's Light": {
         "id": 27911,
         "Key": "Guardian's Light",
-        "enUS": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4Guardian's Light",
-        "zhTW": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
-        "zhCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光",
-        "sgCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光",
-        "sgTW": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
-        "bnCN": "ÿc1[35MD/10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光"
+        "enUS": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4Guardian's Light",
+        "zhTW": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
+        "zhCN": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光",
+        "sgCN": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光",
+        "sgTW": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守護者的光芒",
+        "bnCN": "ÿc1[10MSD/-10MR/5EXP/50EG/35MF]\nÿc4守护者之光"
     },
     "circl": {
         "id": 27959,
