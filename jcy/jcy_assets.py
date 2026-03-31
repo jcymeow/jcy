@@ -13,7 +13,7 @@ ASSET_CATEGORIES = [
     { "category": OTHERS, "zhCN": "杂项"},
     { "category": AMA, "zhCN": "亚马逊皮肤"},
     { "category": SOR, "zhCN": "法师皮肤"},
-    # { "category": NEC, "zhCN": "杂项"},
+    { "category": NEC, "zhCN": "死灵皮肤"},
     # { "category": PAL, "zhCN": "杂项"},
     { "category": BAR, "zhCN": "野蛮人皮肤"},
     { "category": DRU, "zhCN": "德鲁伊皮肤"},
@@ -3095,6 +3095,30 @@ ASSETS = [
         ]
     },
     # 死灵法师(1200, 1300)
+    {
+        "id": 1201,
+        "name": "NEC_皮肤_1",
+        "category": NEC,
+        "type": NEC,
+        "author": "Tuluhan",
+        "description": "青年死灵法师",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7452",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.3/1201.zip",
+        "file": "1201.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/1201/1201.png",
+        "size": 2396637,
+        "md5": "28F3047FE85F74BFE6E3E1AAAFA991BC",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list": [
+            "data/hd/character/player/necromancer/textures/necro_armorhvy_alb.texture",
+            "data/hd/character/player/necromancer/textures/necro_body_alb.texture",
+            "data/hd/character/player/necromancer/textures/necro_body_nrm.texture",
+            "data/hd/character/player/necromancer/textures/necro_hair_alb.texture",
+            "data/hd/character/player/necromancer/textures/necro_head_alb.texture",
+            "data/hd/character/player/necromancer/textures/necro_head_nrm.texture",
+        ]
+    },
     # 圣骑士(1300, 1400)
     # 野蛮人(1400, 1500)
     {
