@@ -886,6 +886,7 @@ class Function(Enum):
     ITEM_NOTIFICATION = "ItemNotification"
     ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
     ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
+    ITEM_NAME_STAR = "ItemNameStar"
     ITEM_FILTER = "ItemFilter"
 
 

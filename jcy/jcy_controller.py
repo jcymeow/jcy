@@ -323,7 +323,8 @@ class FeatureController:
             # 符文&符文之语设置
             Function.ITEM_RUNE_SETTING1.value: self.file_operations.modify_item_rune,
             Function.ITEM_RUNE_SETTING2.value: self.file_operations.modify_item_rune,
-
+            # ★物品名称★
+            Function.ITEM_NAME_STAR.value: self.file_operations.modify_item_name_star,
             # 道具-提醒
             Function.ITEM_NOTIFICATION.value: self.file_operations.modify_item_notification,
         }

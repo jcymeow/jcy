@@ -4796,8 +4796,8 @@
   {
     "id": 2212,
     "Key": "amu",
-    "enUS": "Amulet",
-    "zhTW": "護身符",
+    "enUS": "★Amulet★",
+    "zhTW": "★護身符★",
     "deDE": "[ns]Amulett",
     "esES": "[ms]Amuleto",
     "frFR": "[fs]Amulette",
@@ -4808,7 +4808,7 @@
     "jaJP": "アミュレット",
     "ptBR": "[ms]Amuleto",
     "ruRU": "[ms]амулет",
-    "zhCN": "護身符"
+    "zhCN": "★護身符★"
   },
   {
     "id": 2213,
@@ -4830,8 +4830,8 @@
   {
     "id": 2214,
     "Key": "rin",
-    "enUS": "Ring",
-    "zhTW": "戒指",
+    "enUS": "★Ring★",
+    "zhTW": "★戒指★",
     "deDE": "[ms]Ring",
     "esES": "[ms]Anillo",
     "frFR": "[ms]Anneau",
@@ -4842,7 +4842,7 @@
     "jaJP": "指輪",
     "ptBR": "[ms]Anel",
     "ruRU": "[ns]кольцо",
-    "zhCN": "戒指"
+    "zhCN": "★戒指★"
   },
   {
     "id": 2216,
@@ -15217,8 +15217,8 @@
   {
     "id": 20337,
     "Key": "ci0",
-    "enUS": "Circlet|Normal",
-    "zhTW": "頭環¹",
+    "enUS": "★Circlet|Normal★",
+    "zhTW": "★頭環★¹",
     "deDE": "[ms]Reif",
     "esES": "[fs]Aureola",
     "frFR": "[ms]Bandeau",
@@ -15229,13 +15229,13 @@
     "jaJP": "サークレット",
     "ptBR": "[ms]Diadema",
     "ruRU": "[ms]венец",
-    "zhCN": "頭環¹"
+    "zhCN": "★頭環★¹"
   },
   {
     "id": 20338,
     "Key": "ci1",
-    "enUS": "Coronet|Normal",
-    "zhTW": "寶冠¹",
+    "enUS": "★Coronet|Normal★",
+    "zhTW": "★寶冠★¹",
     "deDE": "[ns]Krönchen",
     "esES": "[fs]Coronilla",
     "frFR": "[ms]Tortil",
@@ -15246,13 +15246,13 @@
     "jaJP": "コロネット",
     "ptBR": "[fs]Coronilha",
     "ruRU": "[ms]головной обруч",
-    "zhCN": "寶冠¹"
+    "zhCN": "★寶冠★¹"
   },
   {
     "id": 20339,
     "Key": "ci2",
-    "enUS": "Tiara|Exceptional",
-    "zhTW": "頭冠²",
+    "enUS": "★Tiara|Exceptional★",
+    "zhTW": "★頭冠★²",
     "deDE": "[fs]Tiara",
     "esES": "[fs]Tiara",
     "frFR": "[fs]Tiare",
@@ -15263,13 +15263,13 @@
     "jaJP": "ティアラ",
     "ptBR": "[fs]Tiara",
     "ruRU": "[fs]тиара",
-    "zhCN": "頭冠²"
+    "zhCN": "★頭冠★²"
   },
   {
     "id": 20340,
     "Key": "ci3",
-    "enUS": "Diadem|Elite[③][60/E90]",
-    "zhTW": "權冠³[③][60/E90]",
+    "enUS": "★Diadem|Elite[③][60/E90]★",
+    "zhTW": "★權冠★³[③][60/E90]",
     "deDE": "[ns]Diadem",
     "esES": "[fs]Diadema",
     "frFR": "[ms]Diadème",
@@ -15280,7 +15280,7 @@
     "jaJP": "ダイアデム",
     "ptBR": "[fs]Argola",
     "ruRU": "[fs]диадема",
-    "zhCN": "權冠³[③][60/E90]"
+    "zhCN": "★權冠★³[③][60/E90]"
   },
   {
     "id": 20341,
@@ -16730,8 +16730,8 @@
   {
     "id": 20433,
     "Key": "jew",
-    "enUS": "Jewel",
-    "zhTW": "珠寶",
+    "enUS": "★Jewel★",
+    "zhTW": "★珠寶★",
     "deDE": "[ns]Juwel",
     "esES": "[fs]Joya",
     "frFR": "[ms]Joyau",
@@ -16742,7 +16742,7 @@
     "jaJP": "宝玉",
     "ptBR": "[fs]Joia",
     "ruRU": "[ms]cамоцвет",
-    "zhCN": "珠寶"
+    "zhCN": "★珠寶★"
   },
   {
     "id": 20434,

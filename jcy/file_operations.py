@@ -250,6 +250,15 @@ class FileOperations:
         return (count, total)
 
 
+    def common_apply_star(self, text: str, enable: bool) -> str:
+        if not isinstance(text, str):
+            return text
+
+        text = text.strip("★")  # 幂等关键
+
+        return f"★{text}★" if enable else text
+
+
     def backup_restore_files(self, params):
         opeartion = params.get("operation")
         files = params.get("files")
@@ -2035,7 +2044,56 @@ class FileOperations:
             print(e)
 
         return count, 1
-    
+
+
+    def modify_item_name_star(self, keys: list):
+        """★物品名称★"""
+        
+        count = 0
+        total = 1
+
+        params = {
+            "rin": False,
+            "amu": False,
+            "jew": False,
+            "ci0": False,
+            "ci1": False,
+            "ci2": False,
+            "ci3": False,
+        }
+
+        for key in params:
+            params[key] = key in keys
+
+        # 修改templet
+        try:
+            templet_data = None
+            templet_path = os.path.join(MOD_PATH, "config/templet/item-names.templet.json")
+            with open(templet_path, 'r', encoding='utf-8') as f:
+                templet_data = json.load(f)
+
+            for record in templet_data:
+                key = record.get("Key")
+                if key in params:
+                    for enu in Language:
+                        lng = enu.value
+                        if lng not in record:
+                            continue
+                        
+                        record[lng] = self.common_apply_star(record[lng], params[key])
+
+            with open(templet_path, 'w', encoding='utf-8') as f:
+                json.dump(templet_data, f, ensure_ascii=False, indent=2)
+            
+            count += 1
+        except Exception as e:
+            print(e)
+
+        # 调用修改 ext -> local
+        self.select_equipment_effects([])
+
+        return count, total
+
 
     def hide_environmental_effects(self, keys: list):
         """屏蔽环境特效"""

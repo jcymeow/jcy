@@ -586,7 +586,21 @@ class FeatureConfig:
                                 "7": "大号加高",
                             }
                         },
-                        
+                        {
+                            "fid": Function.ITEM_NAME_STAR.value,
+                            "type": CHECK,
+                            "text": "★物品名称★",
+                            "colspan": 100,
+                            "params": {
+                                "rin": "@rin",
+                                "amu": "@amu",
+                                "jew": "@jew",
+                                "ci0": "@ci0",
+                                "ci1": "@ci1",
+                                "ci2": "@ci2",
+                                "ci3": "@ci3",
+                            }
+                        },
                     ]
                 }
             ],
