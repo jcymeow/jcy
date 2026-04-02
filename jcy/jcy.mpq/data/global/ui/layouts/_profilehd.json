@@ -465,6 +465,15 @@
             "v": "center"
         }
     },
+    "AltStyleGoldAmount": {
+        "fontColor": "$FontColorCurrencyGold",
+        "pointSize": "$SmallPanelFontSize",
+        "dropShadow": "$DefaultDropShadow",
+        "alignment": {
+            "h": "left",
+            "v": "center"
+        }
+    },
     "StyleGoldMax": {
         "fontColor": "$FontColorWhite",
         "pointSize": "$SmallFontSize",
@@ -1370,6 +1379,15 @@
         "options": {
             "lineWrap": true
         }
+    },
+    "StyleFilterRuleListButtonTextSmall":
+    {
+        "fontColor": "$LightButtonTextColor",
+        "pointSize": "$LootFilterSmallFontSize",
+        "dropShadow": "$DefaultDropShadow",
+        "spacing": "$MinimumSpacing",
+		"alignment": { "v": "center" },
+		"options": { "lineWrap": false }
     },
     "StyleLootFilterAltTitle": {
         "fontColor": "$FontColorGoldYellow",

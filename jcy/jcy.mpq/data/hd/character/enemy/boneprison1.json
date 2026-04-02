@@ -36,6 +36,12 @@
                 "path": "data/hd/character/enemy/boneprison1/textures/boneprison_orm.texture"
             },
             {
+                "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+            },
+            {
+                "path": "data/hd/vfx/textures/common/FX_T_bone_ORM.texture"
+            },
+            {
                 "path": "data/hd/vfx/textures/energy/T_FX_warcrywave_mono_02.texture"
             },
             {
@@ -83,7 +89,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/boneprison1/skeleton/boneprison1.skeleton"
+                    "filename": "data/hd/character/enemy/boneprison1/skeleton/boneprison1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -32,6 +32,9 @@
                 "path": "data/hd/character/enemy/snowyeti1/textures/snowyeti_hair_alb.texture"
             },
             {
+                "path": "data/hd/character/enemy/snowyeti1/textures/snowyeti_hair_alb.texture"
+            },
+            {
                 "path": "data/hd/character/enemy/snowyeti1/textures/snowyeti_hair_hrt.texture"
             },
             {
@@ -88,7 +91,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/snowyeti1/skeleton/snowyeti1.skeleton"
+                    "filename": "data/hd/character/enemy/snowyeti1/skeleton/snowyeti1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -33,6 +33,15 @@
                 "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_body_orm.texture"
             },
             {
+                "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_bodyDeath_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_bodyDeath_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_bodyDeath_ORM.texture"
+            },
+            {
                 "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeleton_alb.texture"
             },
             {
@@ -40,6 +49,30 @@
             },
             {
                 "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeleton_orm.texture"
+            },
+            {
+	            "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeletonDeath_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeletonDeath_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeletonDeath_ORM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/goreCaps_ALB.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/goreCaps_NRM.texture"
+            },
+            {
+                "path": "data/hd/character/enemy/bloodgolem/textures/goreCaps_ORM.texture"
+            },
+            {
+                "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture"
+            },
+            {
+                "path": "data/hd/vfx/textures/fluid/T_FX_BloodDroplet_N.texture"
             },
             {
                 "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve_blinkfix.texture"
@@ -86,7 +119,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/bloodgolem/skeleton/bloodgolem.skeleton"
+                    "filename": "data/hd/character/enemy/bloodgolem/skeleton/bloodgolem.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

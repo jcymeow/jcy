@@ -2,10 +2,10 @@
     "dependencies": {
         "particles": [
             {
-                "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point.particles"
+                "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point_Bone.particles"
             },
             {
-                "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash.particles"
+                "path": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash_Bone.particles"
             }
         ],
         "models": [
@@ -83,7 +83,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/mummy1/skeleton/mummy1.skeleton"
+                    "filename": "data/hd/character/enemy/mummy1/skeleton/mummy1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
@@ -106,8 +107,8 @@
                                 "acceptedHitClasses": 828,
                                 "acceptedVictims": 15,
                                 "acceptedBloodTypes": 7,
-                                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash.particles",
-                                "soundId": "player_impact_gore_hd2"
+                                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Slash_Bone.particles",
+                                "soundId": "player_impact_gore_bone_hd2"
                             },
                             {
                                 "type": "AttackVFXRule",
@@ -115,12 +116,12 @@
                                 "acceptedHitClasses": 7362,
                                 "acceptedVictims": 15,
                                 "acceptedBloodTypes": 7,
-                                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point.particles",
-                                "soundId": "player_impact_gore_hd2"
+                                "vfxFile": "data/hd/vfx/particles/character/hit_react/vfx_AttackSuccess_Point_Bone.particles",
+                                "soundId": "player_impact_gore_bone_hd2"
                             }
                         ],
                         "defaultVfxFile": "",
-                        "defaultSoundId": "player_impact_gore_hd2"
+                        "defaultSoundId": "player_impact_gore_bone_hd2"
                     },
                     "disableSuccessVfx": false,
                     "attackFailVfxOverrides": {},
