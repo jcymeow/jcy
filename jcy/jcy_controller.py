@@ -254,6 +254,8 @@ class FeatureController:
             Function.MINI_CUBE.value: self.file_operations.modify_mini_cube,
             # 传送门皮肤
             Function.PORTAL_SKIN.value: self.file_operations.select_town_portal,
+            # 生命法力格式
+            Function.HEALTH_MANA_FORMAT.value: self.file_operations.select_health_mana_format,
             # 环境-关闭特效
             Function.DISABLE_EFFECTS.value: self.file_operations.hide_environmental_effects,
             # 环境-开启指引

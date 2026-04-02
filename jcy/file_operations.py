@@ -796,6 +796,110 @@ class FileOperations:
         return (count, total)
 
 
+    def select_health_mana_format(self, radio: str = "0"):
+        """生命法力格式"""
+        count = 0
+        total = 2
+        
+        hp = {
+            "0":{
+                "enUS": r"Life: %d / %d",
+                "zhCN": r"生命: %d / %d",
+                "zhTW": r"生命: %d / %d",
+                "sgCN": r"生命: %d / %d",
+                "sgTW": r"生命: %d / %d",
+                "bnCN": r"生命: %d / %d",
+            },
+            "1":{
+                "enUS": r"%d / %d",
+                "zhCN": r"%d / %d",
+                "zhTW": r"%d / %d",
+                "sgCN": r"%d / %d",
+                "sgTW": r"%d / %d",
+                "bnCN": r"%d / %d",
+            },
+            "2":{
+                "enUS": r"%d",
+                "zhCN": r"%d",
+                "zhTW": r"%d",
+                "sgCN": r"%d",
+                "sgTW": r"%d",
+                "bnCN": r"%d",
+            },
+        }
+
+        mp = {
+            "0":{
+                "enUS": r"Mana: %d / %d",
+                "zhCN": r"法力: %d / %d",
+                "zhTW": r"法力: %d / %d",
+                "sgCN": r"法力: %d / %d",
+                "sgTW": r"法力: %d / %d",
+                "bnCN": r"法力: %d / %d",
+            },
+            "1":{
+                "enUS": r"%d / %d",
+                "zhCN": r"%d / %d",
+                "zhTW": r"%d / %d",
+                "sgCN": r"%d / %d",
+                "sgTW": r"%d / %d",
+                "bnCN": r"%d / %d",
+            },
+            "2":{
+                "enUS": r"%d",
+                "zhCN": r"%d",
+                "zhTW": r"%d",
+                "sgCN": r"%d",
+                "sgTW": r"%d",
+                "bnCN": r"%d",
+            },
+        }
+
+        # 扩展文件
+        try:
+            extend_data = None
+            extend_path = os.path.join(MOD_PATH, "config/ext/ui.json")
+            with open(extend_path, 'r', encoding='utf-8') as f:
+                extend_data = json.load(f)
+            
+            for enu in Language:
+                lng = enu.value
+                extend_data["panelhealth"][lng] = hp[radio][lng]
+                extend_data["panelmana"][lng] = mp[radio][lng]
+
+            with open(extend_path, 'w', encoding="utf-8") as f:
+                json.dump(extend_data, f, ensure_ascii=False, indent=4)
+            count += 1
+        except Exception as e:
+            print(e)
+
+        # 本地化文件
+        try:
+            local_data = None
+            local_path = os.path.join(MOD_PATH, "data/local/lng/strings/ui.json")
+            with open(local_path, 'r', encoding='utf-8-sig') as f:
+                local_data = json.load(f)
+            
+            zhTW = jcy_config.SETTINGS.get(Language.ZHTW.value, Language.ZHTW.value)
+            zhCN = jcy_config.SETTINGS.get(Language.ZHCN.value, Language.ZHCN.value)
+
+            for record in local_data:
+                if "panelhealth" == record.get("Key"):
+                    record[Language.ZHTW.value] = hp[radio][zhTW]
+                    record[Language.ZHCN.value] = hp[radio][zhCN]
+                if "panelmana" == record.get("Key"):
+                    record[Language.ZHTW.value] = mp[radio][zhTW]
+                    record[Language.ZHCN.value] = mp[radio][zhCN]
+
+            with open(local_path, 'w', encoding="utf-8-sig") as f:
+                json.dump(local_data, f, ensure_ascii=False, indent=2)
+            count += 1
+        except Exception as e:
+            print(e)
+
+        return count, total
+
+
     def select_teleport_skin(self, radio: str = "0"):
         """
         传送术皮肤

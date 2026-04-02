@@ -154,6 +154,17 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.HEALTH_MANA_FORMAT.value,
+                            "type": RADIO,
+                            "text": "生命法力格式",
+                            "colspan": 40,
+                            "params": {
+                                "0": r"抬头: 分子/分母",
+                                "1": r"分子/分母",
+                                "2": r"分子",
+                            }
+                        },
+                        {
                             "type": SEPARATOR
                         },
                         {

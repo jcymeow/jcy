@@ -847,6 +847,7 @@ class Function(Enum):
     ESC_SETTING = "EscSetting"
     MINI_CUBE = "MiniCube"
     PORTAL_SKIN = "ProtalSkin"
+    HEALTH_MANA_FORMAT = "HealthManaFormat"
     DISABLE_EFFECTS = "DisableEffects"
     ENABLE_POINTER = "EnablePointer"
     WAYPOINT_POINTER = "WayPointPointer"
