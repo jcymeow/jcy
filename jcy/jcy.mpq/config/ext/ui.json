@@ -17677,12 +17677,12 @@
     },
     "ChronicleEntryFoundTimestampFormat": {
         "Key": "ChronicleEntryFoundTimestampFormat",
-        "enUS": "%m/%d/%Y, %H:%M",
-        "zhCN": "%m/%d/%Y, %H:%M",
-        "zhTW": "%Y/%m/%d，%H:%M",
-        "sgCN": "%m/%d/%Y, %H:%M",
-        "sgTW": "%Y/%m/%d，%H:%M",
-        "bnCN": "%m/%d/%Y, %H:%M"
+        "enUS": "%Y-%m-%d %H:%M:%S",
+        "zhCN": "%Y-%m-%d %H:%M:%S",
+        "zhTW": "%Y-%m-%d %H:%M:%S",
+        "sgCN": "%Y-%m-%d %H:%M:%S",
+        "sgTW": "%Y-%m-%d %H:%M:%S",
+        "bnCN": "%Y-%m-%d %H:%M:%S"
     },
     "ChronicleEntryDroppedBy": {
         "Key": "ChronicleEntryDroppedBy",
