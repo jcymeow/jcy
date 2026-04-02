@@ -1380,14 +1380,17 @@
             "lineWrap": true
         }
     },
-    "StyleFilterRuleListButtonTextSmall":
-    {
+    "StyleFilterRuleListButtonTextSmall": {
         "fontColor": "$LightButtonTextColor",
         "pointSize": "$LootFilterSmallFontSize",
         "dropShadow": "$DefaultDropShadow",
         "spacing": "$MinimumSpacing",
-		"alignment": { "v": "center" },
-		"options": { "lineWrap": false }
+        "alignment": {
+            "v": "center"
+        },
+        "options": {
+            "lineWrap": false
+        }
     },
     "StyleLootFilterAltTitle": {
         "fontColor": "$FontColorGoldYellow",

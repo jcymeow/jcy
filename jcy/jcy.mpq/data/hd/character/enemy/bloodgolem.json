@@ -51,7 +51,7 @@
                 "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeleton_orm.texture"
             },
             {
-	            "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeletonDeath_ALB.texture"
+                "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeletonDeath_ALB.texture"
             },
             {
                 "path": "data/hd/character/enemy/bloodgolem/textures/Bloodgolem_skeletonDeath_NRM.texture"
