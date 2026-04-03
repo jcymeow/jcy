@@ -236,6 +236,8 @@ class FeatureController:
             Function.ZHCN.value: self.file_operations.modify_zhCN_language,
             # 暴雪国际服语言翻译(装备/道具/符文/符文之语)
             Function.ZHTW.value: self.file_operations.modify_zhTW_language,
+            # 数据版本
+            Function.DATA_VERSION_BUILD.value: self.file_operations.modify_data_version_build,
             # 恐怖区域-语言
             Function.TERROR_ZONE_LANGUAGE.value: self.file_operations.select_language,
             # 恐怖区域-预告

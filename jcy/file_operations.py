@@ -3165,6 +3165,14 @@ class FileOperations:
     def modify_zhTW_language(self, radio: str):
         """国际服文字选择"""
         return self.modify_selected_language(Language.ZHTW.value)
+    
+
+    def modify_data_version_build(self, value: str):
+        """修改数据版本"""
+        file_path = os.path.join(MOD_PATH, "data/global/dataversionbuild.txt")
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(value)
+        return 1, 1
 
 
     def select_game_setting(self, keys: list):

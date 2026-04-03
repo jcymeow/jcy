@@ -216,6 +216,26 @@ class FeatureView:
                 current_col += colspan
                 self.feature_vars[fid] = spinbox  # 如果你要后面取值
 
+            elif TEXT == type:
+                text = child.get("text")
+                spinbox = LabeledEntry(
+                    master=tab,
+                    feature_id=fid,
+                    text=text,    
+                    default_value="0",
+                    command=self.controller.execute_feature_action
+                )
+                # 如果当前行剩余列不足，换行
+                if current_col + colspan > total_columns:
+                    current_row += 1
+                    current_col = 0
+
+                spinbox.grid(row=current_row, column=current_col, columnspan=colspan, 
+                             sticky="ew", padx=20, pady=5)
+                # 更新当前列索引
+                current_col += colspan
+                self.feature_vars[fid] = spinbox  # 如果你要后面取值
+
             elif LOCATION == child["type"]:
                 group = LabeledCoordinate(
                     tab,
@@ -610,6 +630,61 @@ class LabeledSpinBox(ttk.LabelFrame):
         self.spin.pack(anchor=tk.W, padx=10, pady=2)
 
     def _on_change(self):
+        if self.command:
+            self.command(self.feature_id, self.var.get())
+
+    def get(self):
+        """返回当前值"""
+        return self.var.get()
+
+    def set(self, value):
+        """设置当前值"""
+        self.var.set(value)
+
+
+class LabeledEntry(ttk.LabelFrame):
+    def __init__(self, master, feature_id, text,
+                 default_value="",
+                 command=None,
+                 readonly=False,
+                 width=20,
+                 **kwargs):
+        """
+        :param master: 父容器
+        :param feature_id: 功能id，用于回调
+        :param text: LabelFrame 标题
+        :param default_value: 初始值
+        :param command: 内容变动回调，签名为 command(feature_id, value)
+        :param readonly: 是否只读
+        :param width: 输入框宽度
+        :param kwargs: 传给 ttk.LabelFrame 的其他参数
+        """
+        super().__init__(master, text=text, **kwargs)
+
+        self.feature_id = feature_id
+        self.command = command
+
+        # 容器（统一布局风格）
+        entry_container = ttk.Frame(self)
+        entry_container.pack(fill=tk.X, padx=15, pady=5)
+
+        self.var = tk.StringVar(value=default_value)
+
+        self.entry = ttk.Entry(
+            entry_container,
+            textvariable=self.var,
+            width=width
+        )
+        self.entry.pack(anchor=tk.W, padx=10, pady=2)
+
+        # 只读控制
+        if readonly:
+            self.entry.state(['readonly'])
+
+        # 监听变化（比 Spinbox 更可靠）
+        self.var.trace_add("write", self._on_change)
+
+    def _on_change(self, *args):
         if self.command:
             self.command(self.feature_id, self.var.get())
 

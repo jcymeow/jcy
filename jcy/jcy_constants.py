@@ -113,6 +113,7 @@ ASSET_PATH = "AssetPath"
 RADIO = "RadioGroup"
 CHECK = "CheckGroup"
 SPIN = "SpinBox"
+TEXT = "Text"
 SEPARATOR = "Separator"
 LOCATION = "Location"
 # Controller Type -->
@@ -837,6 +838,7 @@ CUSTOM_SOUNDS = {
 class Function(Enum):
     ZHCN = "zhCN"
     ZHTW = "zhTW"
+    DATA_VERSION_BUILD = "DataVersionBuild"
     TERROR_ZONE_LANGUAGE = "TerrorZoneLanguage"
     TERROR_ZONE_NEXT = "TerrorZoneNext"
     TERROR_ZONE_TABLE = "TerrorZoneTable"
@@ -970,6 +972,7 @@ __all__ = [
     'RADIO',
     'CHECK',
     'SPIN',
+    'TEXT',
     'LOCATION',
     'SEPARATOR',
     'REGION_DOMAIN_MAP',

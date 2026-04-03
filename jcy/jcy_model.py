@@ -44,6 +44,14 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.DATA_VERSION_BUILD.value,
+                            "type": TEXT,
+                            "text": "数据版本",
+                            "colspan": 30,
+                            "params": {
+                            }
+                        },
+                        {
                             "type": SEPARATOR
                         },
                         # {
