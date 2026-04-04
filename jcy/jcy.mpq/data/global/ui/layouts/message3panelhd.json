@@ -1043,11 +1043,308 @@
                         },
                         {
                             "type": "Widget",
+                            "name": "UniqueCharmAffixHead",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": 460
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "UniqueCharmAffix",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 0,
+                                            "y": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "UniqueCharmAffixTitleText",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "width": 300,
+                                                    "height": 80
+                                                },
+                                                "text": "@kanehelp52049NBPLookupTitle",
+                                                "style": {
+                                                    "fontColor": "$FontColorGoldYellow",
+                                                    "pointSize": "$MediumFontSize",
+                                                    "alignment": {
+                                                        "h": "left",
+                                                        "v": "center"
+                                                    }
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "type": "FocusableWidget",
+                                                    "name": "Tooltip",
+                                                    "fields": {
+                                                        "fitToParent": true,
+                                                        "tooltipString": "@kanelp52073NewBreakplateStatsQueryTitletooltip",
+                                                        "tooltipStyle": "$StandardLeftToolTipStyle"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 0,
+                                                    "y": 64,
+                                                    "scale": 0.4
+                                                },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "Row1",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 10,
+                                            "y": 80
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 10,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "items\\misc\\charm\\charm_large",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange"       : {
+                                                    "hue"       : [0.05,  0.06 ],
+                                                    "saturation": [0.5,   0.501],
+                                                    "value"     : [0.585, 0.415]
+                                                },
+                                                "hsvTransform": [ -0.47, 0.2, 0.6, 0.0 ],
+                                                "tintTransform": [ 0.595, 0.96, 0.98, 0.40 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 10,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "jcy\\transparent",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @jcy52064Titletooltip @kanehelp52074NBPTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 110,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "items\\misc\\charm\\charm_large",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange"       : {
+                                                    "hue"       : [0.05,  0.06 ],
+                                                    "saturation": [0.5,   0.501],
+                                                    "value"     : [0.585, 0.415]
+                                                },
+                                                "hsvTransform": [ 0.0, 0.25, 0.55, 0.0 ],
+                                                "tintTransform": [ 1.0, 0.0, 0.0, 0.5 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 110,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "jcy\\transparent",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @jcy52065Titletooltip @kanehelp52075NBPTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 210,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "items\\misc\\charm\\charm_large",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange"       : {
+                                                    "hue"       : [0.05,  0.06 ],
+                                                    "saturation": [0.5,   0.501],
+                                                    "value"     : [0.585, 0.415]
+                                                },
+                                                "hsvTransform": [ 0.065, 0.4, 0.4, 0.0 ],
+                                                "tintTransform": [ 0.8, 0.68, 0.25, 0.8 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 210,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "jcy\\transparent",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @jcy52066Titletooltip @kanehelp52076NBPTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 310,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "items\\misc\\charm\\charm_large",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange"       : {
+                                                    "hue"       : [0.05,  0.06 ],
+                                                    "saturation": [0.5,   0.501],
+                                                    "value"     : [0.585, 0.415]
+                                                },
+                                                "hsvTransform": [ 0.25, 0.25, -0.1, 0.0 ],
+                                                "tintTransform": [ 0.0, 1.0, 0.0, 0.3 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 310,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "jcy\\transparent",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @jcy52067Titletooltip @kanehelp52077NBPTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 410,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "items\\misc\\charm\\charm_large",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange": {
+                                                    "hue"       : [0.05,  0.06 ],
+                                                    "saturation": [0.5,   0.501],
+                                                    "value"     : [0.585, 0.415]
+                                                },
+                                                "hsvTransform": [ 0.0, -0.5, 1.05, 0.0 ],
+                                                "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 410,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "jcy\\transparent",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @jcy52068Titletooltip @kanehelp52078NBPTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 510,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "items\\misc\\charm\\charm_large",
+                                                "useAdvancedColoring": true,
+                                                "recolorRange"       : {
+                                                    "hue"       : [0.05,  0.06 ],
+                                                    "saturation": [0.5,   0.501],
+                                                    "value"     : [0.585, 0.415]
+                                                },
+                                                "hsvTransform": [ 0.0, -0.55, -0.35, 0.0 ],
+                                                "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ]
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "CharmLarge",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 510,
+                                                    "y": 0,
+                                                    "scale": 1.0
+                                                },
+                                                "filename": "jcy\\transparent",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @jcy52069Titletooltip @kanehelp52079NBPTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        }
+                                      
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Widget",
                             "name": "FCRBreakpointLookup",
                             "fields": {
                                 "rect": {
                                     "x": 0,
-                                    "y": 480
+                                    "y": 820
                                 }
                             },
                             "children": [

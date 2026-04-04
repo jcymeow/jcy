@@ -7106,52 +7106,59 @@
     "zhCN": "\nÿc8破免升級ÿcU(限術士君臨)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美紅ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美藍ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4電破免板ÿc5+ÿc1完美黃ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美綠ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#\n"
   },
   {
+    "id": 52049,
+    "Key": "kanehelp52049NBPLookupTitle",
+    "enUS": " •NewBreakplateStatsQuery •",
+    "zhTW": " • 全新破免板属性查询 •",
+    "zhCN": " • 全新破免板属性查询 •"
+  },
+  {
     "id": 52050,
     "Key": "kanelp52050FCRALookupTitle",
     "enUS": " • FCRBreakpointLookup •",
-    "zhTW": " • 施法档位查询 •",
+    "zhTW": " • 施法檔位查詢 •",
     "zhCN": " • 施法檔位查詢 •"
   },
   {
     "id": 52055,
     "Key": "kanelp52055FCRLookupTitletooltip",
     "enUS": "Only briefly introduce the information for the Amazon and Barbarian",
-    "zhTW": "\nÿc5帧数(F)：表示施法速度，帧数越低，施法速度越快\n游戏底层复刻老暗黑设定：每秒是25帧 =25F\n因此1F=0.04秒(s),8F=0.32秒(s)\n\nFCR=快速施法速度\n此表则为查询不同职业，不同施法速度下所对应的施法档位\n在FCR未达到更高档位之前，均按当前档位计算",
+    "zhTW": "\nÿc5幀數(F)：表示施法速度，幀數越低，施法速度越快\n遊戲底層復刻老暗黑設定：每秒2是5幀 =25F\n因此1F=0.04秒(s),8F=0.32秒(s)\n\nFCR=快速施法速度\n此表則為查詢不同職業，不同施法速度下所對應的施法檔位\n在FCR未達到更高檔位之前, 均按當前檔位計算",
     "zhCN": "\nÿc5幀數(F)：表示施法速度，幀數越低，施法速度越快\n遊戲底層復刻老暗黑設定：每秒2是5幀 =25F\n因此1F=0.04秒(s),8F=0.32秒(s)\n\nFCR=快速施法速度\n此表則為查詢不同職業，不同施法速度下所對應的施法檔位\n在FCR未達到更高檔位之前, 均按當前檔位計算"
   },
   {
     "id": 52056,
     "Key": "kanelp52056FCRSORTitletooltip",
     "enUS": "\nÿc8Nova Sorc\n\nÿc2FCR 000 ÿc0=ÿc2 13F Bp\nFCR 009 ÿc0=ÿc2 12F Bp\nFCR 020 ÿc0=ÿc2 11F Bp\nFCR 037 ÿc0=ÿc2 10F Bp\nFCR 063 ÿc0=ÿc2 09F Bp\nFCR 105 ÿc0=ÿc2 08F Bp\nFCR 200 ÿc0=ÿc2 07F Bp\nÿc8Light Sorc\nFCR 000 ÿc0=ÿc2 19F Bp\nFCR 007 ÿc0=ÿc2 18F Bp\nFCR 015 ÿc0=ÿc2 17F Bp\nFCR 023 ÿc0=ÿc2 16F Bp\nFCR 035 ÿc0=ÿc2 15F Bp\nFCR 052 ÿc0=ÿc2 14F Bp\nFCR 078 ÿc0=ÿc2 13F Bp\nFCR 117 ÿc0=ÿc2 12F Bp\nFCR 194 ÿc0=ÿc2 11F Bp",
-    "zhTW": "\nÿc8新星电法\nÿc2FCR 000 ÿc0=ÿc2 13F 档位\nFCR 009 ÿc0=ÿc2 12F 档位\nFCR 020 ÿc0=ÿc2 11F 档位\nFCR 037 ÿc0=ÿc2 10F 档位\nFCR 063 ÿc0=ÿc2 09F 档位\nFCR 105 ÿc0=ÿc2 08F 档位\nFCR 200 ÿc0=ÿc2 07F 档位\nÿc8闪电箭-闪电链\nÿc2FCR 000 ÿc0=ÿc2 19F档位\nFCR 007 ÿc0=ÿc2 18F档位\nFCR 015 ÿc0=ÿc2 17F档位\nFCR 023 ÿc0=ÿc2 16F档位\nFCR 035 ÿc0=ÿc2 15F档位\nFCR 052 ÿc0=ÿc2 14F档位\nFCR 078 ÿc0=ÿc2 13F档位\nFCR 117 ÿc0=ÿc2 12F档位\nFCR 194 ÿc0=ÿc2 11F档位",
+    "zhTW": "\nÿc8新星電法\n\nÿc2FCR 000 ÿc0=ÿc2 13F 檔位\nFCR 009 ÿc0=ÿc2 12F 檔位\nFCR 020 ÿc0=ÿc2 11F 檔位\nFCR 037 ÿc0=ÿc2 10F 檔位\nFCR 063 ÿc0=ÿc2 09F 檔位\nFCR 105 ÿc0=ÿc2 08F 檔位\nFCR 200 ÿc0=ÿc2 07F 檔位\nÿc8闪电箭-闪电链\nÿc2FCR 000 ÿc0=ÿc2 19F檔位\nFCR 007 ÿc0=ÿc2 18F檔位\nFCR 015 ÿc0=ÿc2 17F檔位\nFCR 023 ÿc0=ÿc2 16F檔位\nFCR 035 ÿc0=ÿc2 15F檔位\nFCR 052 ÿc0=ÿc2 14F檔位\nFCR 078 ÿc0=ÿc2 13F檔位\nFCR 117 ÿc0=ÿc2 12F檔位\nFCR 194 ÿc0=ÿc2 11F檔位",
     "zhCN": "\nÿc8新星電法\n\nÿc2FCR 000 ÿc0=ÿc2 13F 檔位\nFCR 009 ÿc0=ÿc2 12F 檔位\nFCR 020 ÿc0=ÿc2 11F 檔位\nFCR 037 ÿc0=ÿc2 10F 檔位\nFCR 063 ÿc0=ÿc2 09F 檔位\nFCR 105 ÿc0=ÿc2 08F 檔位\nFCR 200 ÿc0=ÿc2 07F 檔位\nÿc8闪电箭-闪电链\nÿc2FCR 000 ÿc0=ÿc2 19F檔位\nFCR 007 ÿc0=ÿc2 18F檔位\nFCR 015 ÿc0=ÿc2 17F檔位\nFCR 023 ÿc0=ÿc2 16F檔位\nFCR 035 ÿc0=ÿc2 15F檔位\nFCR 052 ÿc0=ÿc2 14F檔位\nFCR 078 ÿc0=ÿc2 13F檔位\nFCR 117 ÿc0=ÿc2 12F檔位\nFCR 194 ÿc0=ÿc2 11F檔位"
   },
   {
     "id": 52057,
     "Key": "kanelp52057FCRAMATitletooltip",
     "enUS": "\nÿc8amazon\n\nÿc2FCR 0 ÿc0=ÿc2 19F Bp\nFCR 7 ÿc0=ÿc2 18F Bp\nFCR 14 ÿc0=ÿc2 17F Bp\nFCR 22 ÿc0=ÿc2 16F Bp\nFCR 32 ÿc0=ÿc2 15F Bp\nFCR 48 ÿc0=ÿc2 14F Bp\nFCR 68 ÿc0=ÿc2 13F Bp\nFCR 99 ÿc0=ÿc2 12F Bp\nFCR 152 ÿc0=ÿc2 11F Bp",
-    "zhTW": "\nÿc8亚马逊\n\nÿc2FCR 000 ÿc0=ÿc2 19F 档位\nFCR 007 ÿc0=ÿc2 18F 档位\nFCR 014 ÿc0=ÿc2 17F 档位\nFCR 022 ÿc0=ÿc2 16F 档位\nFCR 032 ÿc0=ÿc2 15F 档位\nFCR 048 ÿc0=ÿc2 14F 档位\nFCR 068 ÿc0=ÿc2 13F 档位\nFCR 099 ÿc0=ÿc2 12F 档位\nFCR 152 ÿc0=ÿc2 11F 档位",
+    "zhTW": "\nÿc8亞馬遜\n\nÿc2FCR 000 ÿc0=ÿc2 19F 檔位\nFCR 007 ÿc0=ÿc2 18F 檔位\nFCR 014 ÿc0=ÿc2 17F 檔位\nFCR 022 ÿc0=ÿc2 16F 檔位\nFCR 032 ÿc0=ÿc2 15F 檔位\nFCR 048 ÿc0=ÿc2 14F 檔位\nFCR 068 ÿc0=ÿc2 13F 檔位\nFCR 099 ÿc0=ÿc2 12F 檔位\nFCR 152 ÿc0=ÿc2 11F 檔位",
     "zhCN": "\nÿc8亞馬遜\n\nÿc2FCR 000 ÿc0=ÿc2 19F 檔位\nFCR 007 ÿc0=ÿc2 18F 檔位\nFCR 014 ÿc0=ÿc2 17F 檔位\nFCR 022 ÿc0=ÿc2 16F 檔位\nFCR 032 ÿc0=ÿc2 15F 檔位\nFCR 048 ÿc0=ÿc2 14F 檔位\nFCR 068 ÿc0=ÿc2 13F 檔位\nFCR 099 ÿc0=ÿc2 12F 檔位\nFCR 152 ÿc0=ÿc2 11F 檔位"
   },
   {
     "id": 52058,
     "Key": "kanelp52058FCRBARTitletooltip",
     "enUS": "\nÿc8barbarian\n\nÿc2FCR 000  ÿc0=ÿc2 13F Bp\nFCR 009  ÿc0=ÿc2 12F Bp\nFCR 020  ÿc0=ÿc2 11F Bp\nFCR 037  ÿc0=ÿc2 10F Bp\nFCR 063  ÿc0=ÿc2 09F Bp\nFCR 105  ÿc0=ÿc2 08F Bp\nFCR 200  ÿc0=ÿc2 07F Bp",
-    "zhTW": "\nÿc8野蛮人\n\nÿc2FCR 000  ÿc0=ÿc2 13F档位\nFCR 009  ÿc0=ÿc2 12F档位\nFCR 020  ÿc0=ÿc2 11F档位\nFCR 037  ÿc0=ÿc2 10F档位\nFCR 063  ÿc0=ÿc2 09F档位\nFCR 105  ÿc0=ÿc2 08F档位\nFCR 200  ÿc0=ÿc2 07F档位",
+    "zhTW": "\nÿc8野蠻人\n\nÿc2FCR 000  ÿc0=ÿc2 13F檔位\nFCR 009  ÿc0=ÿc2 12F檔位\nFCR 020  ÿc0=ÿc2 11F檔位\nFCR 037  ÿc0=ÿc2 10F檔位\nFCR 063  ÿc0=ÿc2 09F檔位\nFCR 105  ÿc0=ÿc2 08F檔位\nFCR 200  ÿc0=ÿc2 07F檔位",
     "zhCN": "\nÿc8野蠻人\n\nÿc2FCR 000  ÿc0=ÿc2 13F檔位\nFCR 009  ÿc0=ÿc2 12F檔位\nFCR 020  ÿc0=ÿc2 11F檔位\nFCR 037  ÿc0=ÿc2 10F檔位\nFCR 063  ÿc0=ÿc2 09F檔位\nFCR 105  ÿc0=ÿc2 08F檔位\nFCR 200  ÿc0=ÿc2 07F檔位"
   },
   {
     "id": 52059,
     "Key": "kanelp52059FCRPALTitletooltip",
     "enUS": "\nÿc8paladin\n\nÿc2FCR 0 ÿc0=ÿc2 15F Bp\nFCR 9 ÿc0=ÿc2 14F Bp\nFCR 18 ÿc0=ÿc2= 13F Bp\nFCR 30 ÿc0=ÿc2= 12F Bp\nFCR 48 ÿc0=ÿc2= 11F Bp\nFCR 75 ÿc0=ÿc2= 10F Bp\nFCR 125 ÿc0=ÿc2= 9F Bp",
-    "zhTW": "\nÿc8圣骑士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2= 13F档位\nFCR 030 ÿc0=ÿc2= 12F档位\nFCR 048 ÿc0=ÿc2= 11F档位\nFCR 075 ÿc0=ÿc2= 10F档位\nFCR 125 ÿc0=ÿc2= 09F档位",
+    "zhTW": "\nÿc8圣骑士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位",
     "zhCN": "\nÿc8圣骑士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
   },
   {
     "id": 52060,
     "Key": "kanelp52060FCRNECTitletooltip",
     "enUS": "\nÿc8necromancer\n\nÿc2FCR 000 ÿc0=ÿc2 15F Bp\nFCR 009 ÿc0=ÿc2 14F Bp\nFCR 018 ÿc0=ÿc2 13F Bp\nFCR 030 ÿc0=ÿc2 12F Bp\nFCR 048 ÿc0=ÿc2 11F Bp\nFCR 075 ÿc0=ÿc2 10F Bp\nFCR 125 = 9F Bp",
-    "zhTW": "\nÿc8死灵\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 = 09F档位",
+    "zhTW": "\nÿc8死灵\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位",
     "zhCN": "\nÿc8死灵\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
   },
   {
@@ -7165,14 +7172,105 @@
     "id": 52062,
     "Key": "kanelp52062FCRDRUTitletooltip",
     "enUS": "\nÿc8HD\n\nÿc2FCR 0 = 18F Bp\nFCR 4 = 17F Bp\nFCR 10 = 16F Bp\nFCR 19 = 15F Bp\nFCR 30 = 14F Bp\nFCR 45 = 13F Bp\nFCR 68 = 12F Bp\nFCR 99 = 11F Bp\nFCR 163 = 10F Bp\nFCR 292 = 9F Bp\n\nÿc8WW\n\nÿc2FCR 0 = 16F Bp\nFCR 6 = 15F Bp\nFCR 14 = 14F Bp\nFCR 26 = 13F Bp\nFCR 40 = 12F Bp\nFCR 60 = 11F Bp\nFCR 95 = 10F Bp\nFCR 157 = 9F Bp\n\nÿc8WB\n\nÿc2FCR 0 = 17F Bp\nFCR 7 = 16F Bp\nFCR 15 = 15F Bp\nFCR 26 = 14F Bp\nFCR 40 = 13F Bp\nFCR 63 = 12F Bp\nFCR 99 = 11F Bp\nFCR 163 = 10F Bp\nFCR 330 = 9F Bp",
-    "zhTW": "\nÿc8人德\nÿc2FCR 000  ÿc0=ÿc2 18F档位\nFCR 004  ÿc0=ÿc2 17F档位\nFCR 010  ÿc0=ÿc2 16F档位\nFCR 019  ÿc0=ÿc2 15F档位\nFCR 030  ÿc0=ÿc2 14F档位\nFCR 045  ÿc0=ÿc2 13F档位\nFCR 068  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 292  ÿc0=ÿc2 09F档位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F档位\nFCR 006  ÿc0=ÿc2 15F档位\nFCR 014  ÿc0=ÿc2 14F档位\nFCR 026  ÿc0=ÿc2 13F档位\nFCR 040  ÿc0=ÿc2 12F档位\nFCR 060  ÿc0=ÿc2 11F档位\nFCR 095  ÿc0=ÿc2 10F档位\nFCR 157  ÿc0=ÿc2 09F档位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F档位\nFCR 007  ÿc0=ÿc2 16F档位\nFCR 015  ÿc0=ÿc2 15F档位\nFCR 026  ÿc0=ÿc2 14F档位\nFCR 040  ÿc0=ÿc2 13F档位\nFCR 063  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 330  ÿc0=ÿc2 09F档位",
+    "zhTW": "\nÿc8人德\n\nÿc2FCR 000  ÿc0=ÿc2 18F档位\nFCR 004  ÿc0=ÿc2 17F档位\nFCR 010  ÿc0=ÿc2 16F档位\nFCR 019  ÿc0=ÿc2 15F档位\nFCR 030  ÿc0=ÿc2 14F档位\nFCR 045  ÿc0=ÿc2 13F档位\nFCR 068  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 292  ÿc0=ÿc2 09F档位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F档位\nFCR 006  ÿc0=ÿc2 15F档位\nFCR 014  ÿc0=ÿc2 14F档位\nFCR 026  ÿc0=ÿc2 13F档位\nFCR 040  ÿc0=ÿc2 12F档位\nFCR 060  ÿc0=ÿc2 11F档位\nFCR 095  ÿc0=ÿc2 10F档位\nFCR 157  ÿc0=ÿc2 09F档位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F档位\nFCR 007  ÿc0=ÿc2 16F档位\nFCR 015  ÿc0=ÿc2 15F档位\nFCR 026  ÿc0=ÿc2 14F档位\nFCR 040  ÿc0=ÿc2 13F档位\nFCR 063  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 330  ÿc0=ÿc2 09F档位",
     "zhCN": "\nÿc8人德\n\nÿc2FCR 000  ÿc0=ÿc2 18F档位\nFCR 004  ÿc0=ÿc2 17F档位\nFCR 010  ÿc0=ÿc2 16F档位\nFCR 019  ÿc0=ÿc2 15F档位\nFCR 030  ÿc0=ÿc2 14F档位\nFCR 045  ÿc0=ÿc2 13F档位\nFCR 068  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 292  ÿc0=ÿc2 09F档位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F档位\nFCR 006  ÿc0=ÿc2 15F档位\nFCR 014  ÿc0=ÿc2 14F档位\nFCR 026  ÿc0=ÿc2 13F档位\nFCR 040  ÿc0=ÿc2 12F档位\nFCR 060  ÿc0=ÿc2 11F档位\nFCR 095  ÿc0=ÿc2 10F档位\nFCR 157  ÿc0=ÿc2 09F档位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F档位\nFCR 007  ÿc0=ÿc2 16F档位\nFCR 015  ÿc0=ÿc2 15F档位\nFCR 026  ÿc0=ÿc2 14F档位\nFCR 040  ÿc0=ÿc2 13F档位\nFCR 063  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 330  ÿc0=ÿc2 09F档位"
   },
   {
     "id": 52063,
     "Key": "kanelp52063FCRWARTitletooltip",
     "enUS": "\nÿc8warlock\n\nÿc2FCR 000 ÿc0=ÿc2 15F Bp\nFCR 009 ÿc0=ÿc2 14F Bp\nFCR 018 ÿc0=ÿc2 13F Bp\nFCR 030 ÿc0=ÿc2 12F Bp\nFCR 048 ÿc0=ÿc2 11F Bp\nFCR 075 ÿc0=ÿc2 10F Bp\nFCR 125 = 9F Bp",
-    "zhTW": "\nÿc8术士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 = 09F档位",
+    "zhTW": "\nÿc8术士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位",
     "zhCN": "\nÿc8术士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
+  },
+  {
+    "id": 52064,
+    "Key": "jcy52064Titletooltip",
+    "enUS": "Renewed Cold Rupture",
+    "zhTW": "新生冰寒裂縫",
+    "zhCN": "新生冰寒裂隙"
+  },
+  {
+    "id": 52065,
+    "Key": "jcy52065Titletooltip",
+    "enUS": "Renewed Flame Rift",
+    "zhTW": "新生火焰裂隙",
+    "zhCN": "新生火焰裂隙"
+  },
+  {
+    "id": 52066,
+    "Key": "jcy52066Titletooltip",
+    "enUS": "Renewed Crack of the Heavens",
+    "zhTW": "新生天堂裂擊",
+    "zhCN": "新生天堂裂擊"
+  },
+  {
+    "id": 52067,
+    "Key": "jcy52067Titletooltip",
+    "enUS": "Renewed Rotting Fissure",
+    "zhTW": "新生腐敗裂痕",
+    "zhCN": "新生腐敗裂痕"
+  },
+  {
+    "id": 52068,
+    "Key": "jcy52068Titletooltip",
+    "enUS": "Renewed Bone Break",
+    "zhTW": "新生分筋裂骨",
+    "zhCN": "新生分筋裂骨"
+  },
+  {
+    "id": 52069,
+    "Key": "jcy52069Titletooltip",
+    "enUS": "Renewed Black Cleft",
+    "zhTW": "新生漆黑裂口",
+    "zhCN": "新生漆黑裂口"
+  },
+  {
+    "id": 52073,
+    "Key": "kanelp52073NewBreakplateStatsQueryTitletooltip",
+    "enUS": "Attributes of  Break-immunity Charms in the Warlock Ascendancy version",
+    "zhTW": "\nÿc5術士君臨版本新破免板的屬性介紹",
+    "zhCN": "\nÿc5術士君臨版本新破免板的屬性介紹"
+  },
+  {
+    "id": 52074,
+    "Key": "kanehelp52074NBPTitletooltip",
+    "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Cold Immunity\n -70 Cold Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Cold Skill Damage\n -5%~10% Enemy Cold Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
+    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物冰冷免疫 \n -70 自身冰冷抗性 \nÿcT 下列屬性2選1\nÿc3 +5%~15% 冰冷技能傷害 \n -5%~10% 敵人冰冷抗性 \nÿcT 下列屬性2選1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性2選1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性3 選1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿc8 下列屬性2選1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物冰冷免疫\n -70自身冰冷抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%冰冷技能傷害\n -5%~10%敵人冰冷抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
+  },
+  {
+    "id": 52075,
+    "Key": "kanehelp52075NBPTitletooltip",
+    "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Fire Immunity\n -70 Fire Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Fire Skill Damage\n -5%~10% Enemy Fire Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
+    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物火焰免疫 \n -70 自身火焰抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 火焰技能傷害 \n -5%~10% 敵人火焰抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿc 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物火焰免疫\n -70 自身火焰抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%火焰技能傷害\n -5%~10%敵人火焰抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8 下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
+  },
+  {
+    "id": 52076,
+    "Key": "kanehelp52076NBPTitletooltip",
+    "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Lightning Immunity\n -70 Fire Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Lightning Skill Damage\n -5%~10% Enemy Lightning Resistance\nÿcChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
+    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物閃電免疫 \n -70 自身閃電抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 閃電技能傷害 \n -5%~10% 敵人閃電抗性 \nÿc 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物閃電免疫\n -70 自身閃電抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%閃電技能傷害\n -5%~10%敵人閃電抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
+  },
+  {
+    "id": 52077,
+    "Key": "kanehelp52077NBPTitletooltip",
+    "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Poison Immunity\n -70 Poison Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Poison Skill Damage\n -5%~10% Enemy Poison Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
+    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物毒素免疫 \n -70 自身毒素抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 毒素技能傷害 \n -5%~10% 敵人毒素抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物毒素免疫\n -70 自身毒素抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%毒素技能傷害\n -5%~10%敵人毒素抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
+  },
+  {
+    "id": 52078,
+    "Key": "kanehelp52078NBPTitletooltip",
+    "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Physical Immunity\n -70 Physical Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Physical Skill Damage\n -5%~10% Enemy Physical Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
+    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物物理免疫 \n -70 自身物理抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 物理技能傷害 \n -5%~10% 敵人物理抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物物理免疫\n -70 自身物理抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%物理技能傷害\n -5%~10%敵人物理抗性\nÿc8 下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
+  },
+  {
+    "id": 52079,
+    "Key": "kanehelp52079NBPTitletooltip",
+    "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Magic Immunity\n -70 Magic Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Magic Skill Damage\n -5%~10% Enemy Magic Resistance\nÿcChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
+    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物魔法免疫 \n -70 自身魔法抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 魔法技能傷害 \n -5%~10% 敵人魔法抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物魔法免疫\n -70 自身魔法抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%魔法技能傷害\n -5%~10%敵人魔法抗性\nÿc8 下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8 下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8 下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8 下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   }
 ]
