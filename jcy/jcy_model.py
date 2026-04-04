@@ -461,16 +461,6 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.MONSTER_AFFIXES.value,
-                            "type": RADIO,
-                            "text": "怪物-词缀染色",
-                            "colspan": 25,
-                            "params": {
-                                "0": "默认",
-                                "1": "开启",
-                            }
-                        },
-                        {
                             "fid": Function.MONSTER_MISSILE.value,
                             "type": RADIO,
                             "text": "老鼠刺针/剥皮吹箭样式",
@@ -483,15 +473,26 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.MONSTER_AFFIXES.value,
+                            "type": RADIO,
+                            "text": "怪物-词缀染色",
+                            "colspan": 25,
+                            "params": {
+                                "0": "默认",
+                                "1": "开启",
+                            }
+                        },
+                        {
                             "fid": Function.HERALD_SETTING.value,
                             "type": CHECK,
                             "text": "使者指引",
-                            "colspan": 50,
+                            "colspan": 75,
                             "params": {
                                 "1": "光柱",
                                 "2": "巴尔环",
                                 "3": "紫色光环",
                                 "4": "冰星十字架",
+                                "5": "使者Nickname",
                             }
                         },
                     ]

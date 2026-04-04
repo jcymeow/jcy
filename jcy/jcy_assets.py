@@ -14,7 +14,7 @@ ASSET_CATEGORIES = [
     { "category": AMA, "zhCN": "亚马逊皮肤"},
     { "category": SOR, "zhCN": "法师皮肤"},
     { "category": NEC, "zhCN": "死灵皮肤"},
-    # { "category": PAL, "zhCN": "杂项"},
+    # { "category": PAL, "zhCN": "圣骑士皮肤"},
     { "category": BAR, "zhCN": "野蛮人皮肤"},
     { "category": DRU, "zhCN": "德鲁伊皮肤"},
     { "category": ASN, "zhCN": "刺客皮肤"},

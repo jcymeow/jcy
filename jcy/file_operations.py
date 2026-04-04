@@ -1085,6 +1085,10 @@ class FileOperations:
                 # "4": "钻石十字架",
                 json_data["entities"].extend(ENTITY_STAR_CROSS)
 
+            if "5" in keys:
+                # "5": "使者Nickname",
+                json_data["entities"].extend(ENTITY_NICKNAME_HERALD)
+
             with open(json_path, 'w', encoding="utf-8") as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
             count += 1

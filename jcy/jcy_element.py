@@ -720,6 +720,44 @@ ENTITY_STAR_CROSS = [
     {"type":"Entity","name":"jcy_entity_pointer","id":2101618603,"components":[{"type":"VfxDefinitionComponent","name":"entity_iceglint","filename":"data/hd/vfx/particles/missiles/expansion_iceglint/fx_ice_glint.particles","hardKillOnDestroy":True},{"type":"TransformDefinitionComponent","name":"vfx_transform","position":{"x":-3.5,"y":24.7,"z":3.5},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False}]}
 ]
 
+# 使者Nickname
+ENTITY_NICKNAME_HERALD = [
+    {
+        "type": "Entity",
+        "name": "jcy_entity_pointer",
+        "id": 2238451436,
+        "components": [
+            {
+                "type": "VfxDefinitionComponent",
+                "name": "vfx_VfxDefinition",
+                "filename": "data/hd/vfx2/particles/common/herald.particles",
+                "hardKillOnDestroy": True
+            },
+            {
+                "type": "TransformDefinitionComponent",
+                "name": "vfx_TransformDefinition",
+                "position": {
+                    "x": 0.0,
+                    "y": 10.5,
+                    "z": 0.0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "inheritOnlyPosition": False
+            }
+        ]
+    }
+]
+
 # 怪物危险标记
 ENTITY_MONSTER_DANGEROUS = {
     "type": "Entity",
