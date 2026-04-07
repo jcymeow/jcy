@@ -47,8 +47,19 @@ class FeatureConfig:
                             "fid": Function.DATA_VERSION_BUILD.value,
                             "type": TEXT,
                             "text": "数据版本",
-                            "colspan": 30,
+                            "colspan": 50,
                             "params": {
+                            }
+                        },
+                        {
+                            "fid": Function.BACKGROUND_COLOR.value,
+                            "type": SPIN,
+                            "text": "背景板透明度",
+                            "colspan": 50,
+                            "params": {
+                                "form": 0,
+                                "to": 100,
+                                "default_value": 75
                             }
                         },
                         {

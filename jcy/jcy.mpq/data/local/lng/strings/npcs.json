@@ -7186,7 +7186,7 @@
     "id": 52064,
     "Key": "jcy52064Titletooltip",
     "enUS": "Renewed Cold Rupture",
-    "zhTW": "新生冰寒裂縫",
+    "zhTW": "新生冰寒裂隙",
     "zhCN": "新生冰寒裂隙"
   },
   {
@@ -7235,42 +7235,42 @@
     "id": 52074,
     "Key": "kanehelp52074NBPTitletooltip",
     "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Cold Immunity\n -70 Cold Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Cold Skill Damage\n -5%~10% Enemy Cold Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
-    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物冰冷免疫 \n -70 自身冰冷抗性 \nÿcT 下列屬性2選1\nÿc3 +5%~15% 冰冷技能傷害 \n -5%~10% 敵人冰冷抗性 \nÿcT 下列屬性2選1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性2選1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性3 選1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿc8 下列屬性2選1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhTW": "\nÿc8固定屬性\nÿc3 破除怪物冰冷免疫\n -70自身冰冷抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%冰冷技能傷害\n -5%~10%敵人冰冷抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10",
     "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物冰冷免疫\n -70自身冰冷抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%冰冷技能傷害\n -5%~10%敵人冰冷抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   },
   {
     "id": 52075,
     "Key": "kanehelp52075NBPTitletooltip",
     "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Fire Immunity\n -70 Fire Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Fire Skill Damage\n -5%~10% Enemy Fire Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
-    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物火焰免疫 \n -70 自身火焰抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 火焰技能傷害 \n -5%~10% 敵人火焰抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿc 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhTW": "\nÿc8固定屬性\nÿc3 破除怪物火焰免疫\n -70 自身火焰抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%火焰技能傷害\n -5%~10%敵人火焰抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8 下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10",
     "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物火焰免疫\n -70 自身火焰抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%火焰技能傷害\n -5%~10%敵人火焰抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8 下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   },
   {
     "id": 52076,
     "Key": "kanehelp52076NBPTitletooltip",
     "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Lightning Immunity\n -70 Fire Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Lightning Skill Damage\n -5%~10% Enemy Lightning Resistance\nÿcChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
-    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物閃電免疫 \n -70 自身閃電抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 閃電技能傷害 \n -5%~10% 敵人閃電抗性 \nÿc 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhTW": "\nÿc8固定屬性\nÿc3 破除怪物閃電免疫\n -70 自身閃電抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%閃電技能傷害\n -5%~10%敵人閃電抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10",
     "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物閃電免疫\n -70 自身閃電抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%閃電技能傷害\n -5%~10%敵人閃電抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   },
   {
     "id": 52077,
     "Key": "kanehelp52077NBPTitletooltip",
     "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Poison Immunity\n -70 Poison Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Poison Skill Damage\n -5%~10% Enemy Poison Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
-    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物毒素免疫 \n -70 自身毒素抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 毒素技能傷害 \n -5%~10% 敵人毒素抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhTW": "\nÿc8固定屬性\nÿc3 破除怪物毒素免疫\n -70 自身毒素抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%毒素技能傷害\n -5%~10%敵人毒素抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10",
     "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物毒素免疫\n -70 自身毒素抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%毒素技能傷害\n -5%~10%敵人毒素抗性\nÿc8下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   },
   {
     "id": 52078,
     "Key": "kanehelp52078NBPTitletooltip",
     "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Physical Immunity\n -70 Physical Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Physical Skill Damage\n -5%~10% Enemy Physical Resistance\nÿcTChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
-    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物物理免疫 \n -70 自身物理抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 物理技能傷害 \n -5%~10% 敵人物理抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhTW": "\nÿc8固定屬性\nÿc3 破除怪物物理免疫\n -70 自身物理抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%物理技能傷害\n -5%~10%敵人物理抗性\nÿc8 下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10",
     "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物物理免疫\n -70 自身物理抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%物理技能傷害\n -5%~10%敵人物理抗性\nÿc8 下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   },
   {
     "id": 52079,
     "Key": "kanehelp52079NBPTitletooltip",
     "enUS": "\nÿcTFixed Stats\nÿc3 Ignores Target's Magic Immunity\n -70 Magic Resistance\nÿcTChoose 1 of 2\nÿc3 +5%~15% Magic Skill Damage\n -5%~10% Enemy Magic Resistance\nÿcChoose 1 of 2\nÿc3 +14%~25% Magic Find\n +20%~55% Gold Find\nÿcTChoose 1 of 2\nÿc3 +10~65 Life\n +10~75 Mana\nÿcTChoose 1 of 3\nÿc3 +5%~10% Movement Speed\n +12%~24% Faster Hit Recovery\n +3~8 All Stats\nÿcTChoose 1 of 2\nÿc3 Damage Reduced by 5~10\n Magic Damage Reduced by 5~10",
-    "zhTW": "\nÿcT 固定屬性 \nÿc3 破除怪物魔法免疫 \n -70 自身魔法抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +5%~15% 魔法技能傷害 \n -5%~10% 敵人魔法抗性 \nÿcT 下列屬性 2 選 1\nÿc3 +14%~25% 魔法物品尋找機率 \n +20%~55% 金幣獲得量 \nÿcT 下列屬性 2 選 1\nÿc3 +10~65 生命 \n +10~75 法力 \nÿcT 下列屬性 3 選 1\nÿc3 +5%~10% 移動速度 \n +12%~24% 打擊恢復速度 \n +3~8 所有屬性 \nÿcT 下列屬性 2 選 1\nÿc3 物理傷害減少 5~10\n 魔法傷害減少 5~10",
+    "zhTW": "\nÿc8固定屬性\nÿc3 破除怪物魔法免疫\n -70 自身魔法抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%魔法技能傷害\n -5%~10%敵人魔法抗性\nÿc8 下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8 下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8 下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8 下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10",
     "zhCN": "\nÿc8固定屬性\nÿc3 破除怪物魔法免疫\n -70 自身魔法抗性\nÿc8下列屬性2選1\nÿc3 +5%~15%魔法技能傷害\n -5%~10%敵人魔法抗性\nÿc8 下列屬性2選1\nÿc3 +14%~25%魔法物品尋找機率\n +20%~55%金幣獲得量\nÿc8 下列屬性2選1\nÿc3 +10~65生命\n +10~75法力\nÿc8 下列屬性3選1\nÿc3 +5%~10%移動速度\n +12%~24%打擊恢復速度\n +3~8所有屬性\nÿc8 下列屬性2選1\nÿc3 物理傷害減少5~10\n 魔法傷害減少5~10"
   }
 ]

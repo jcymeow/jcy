@@ -11468,11 +11468,11 @@
     "HUDWarningsShowClockFormat": {
         "Key": "HUDWarningsShowClockFormat",
         "enUS": "%Y-%m-%d %H:%M:%S",
-        "zhCN": "%I:%M %p",
+        "zhCN": "%Y-%m-%d %H:%M:%S",
         "zhTW": "%Y-%m-%d %H:%M:%S",
         "sgCN": "%Y-%m-%d %H:%M:%S",
         "sgTW": "%Y-%m-%d %H:%M:%S",
-        "bnCN": "%I:%M %p"
+        "bnCN": "%Y-%m-%d %H:%M:%S"
     },
     "AnisotropicFiltering": {
         "Key": "AnisotropicFiltering",

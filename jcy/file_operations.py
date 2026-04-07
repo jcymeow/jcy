@@ -3179,6 +3179,22 @@ class FileOperations:
         return 1, 1
 
 
+    def modify_background_color(self, value: int):
+        """修改背景板透明度"""
+        json_data = None
+        json_path = os.path.join(MOD_PATH, "data/global/ui/layouts/_profilehd.json")
+        with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+        val = round(value/100.0, 2)
+        json_data["TooltipStyle"]["backgroundColor"] = [0, 0, 0, val]
+
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, ensure_ascii=False, indent=4)
+        
+        return 1, 1
+
+
     def select_game_setting(self, keys: list):
         """游戏设置"""
         if keys is None:

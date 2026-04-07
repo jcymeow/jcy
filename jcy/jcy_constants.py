@@ -839,6 +839,7 @@ class Function(Enum):
     ZHCN = "zhCN"
     ZHTW = "zhTW"
     DATA_VERSION_BUILD = "DataVersionBuild"
+    BACKGROUND_COLOR = "BackgroundColor"
     TERROR_ZONE_LANGUAGE = "TerrorZoneLanguage"
     TERROR_ZONE_NEXT = "TerrorZoneNext"
     TERROR_ZONE_TABLE = "TerrorZoneTable"

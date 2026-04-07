@@ -238,6 +238,8 @@ class FeatureController:
             Function.ZHTW.value: self.file_operations.modify_zhTW_language,
             # 数据版本
             Function.DATA_VERSION_BUILD.value: self.file_operations.modify_data_version_build,
+            # 数据版本
+            Function.BACKGROUND_COLOR.value: self.file_operations.modify_background_color,
             # 恐怖区域-语言
             Function.TERROR_ZONE_LANGUAGE.value: self.file_operations.select_language,
             # 恐怖区域-预告
