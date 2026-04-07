@@ -43,6 +43,9 @@ def translate(text: str) -> str:
         return _dict.get(Language.ZHTW.value, f"未知翻译({key})")
     return text
 
+def open_browser(url):
+    webbrowser.open(url)
+
 class FeatureView:
     """
     UI控制
@@ -82,11 +85,12 @@ class FeatureView:
         button_frame = ttk.Frame(self.master)
         button_frame.pack(side=tk.BOTTOM, pady=5)
 
-        # 创建并加入“配置路径”按钮
         self.appdata_button = ttk.Button(button_frame, text="配置路径", command=self.controller.open_appdata)
         self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
 
-        # 创建并加入“应用设置”按钮
+        self.appdata_button = ttk.Button(button_frame, text="说明文档", command=lambda: open_browser("https://bbs.d.163.com/forum.php?mod=redirect&goto=findpost&ptid=175119207&pid=218020821&fromuid=994977"))
+        self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
+
         self.apply_button = ttk.Button(button_frame, text="应用设置", command=self.controller.apply_settings_with_loading)
         self.apply_button.pack(side=tk.LEFT, padx=10, ipady=5)
 
@@ -1056,7 +1060,7 @@ class D2RLauncherApp(tk.Frame):
         self.help_img = tk.PhotoImage(file=HELP_PATH)  # 防止被GC回收
         lbl_help = tk.Label(frame_global, image=self.help_img, cursor="hand2")
         lbl_help.grid(row=0, column=3, padx=2)
-        lbl_help.bind("<Button-1>", lambda e: self.open_help_link())
+        lbl_help.bind("<Button-1>", lambda e: open_browser("https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=5#pid218155737"))
 
         # 游戏路径
         ttk.Label(frame_global, text="游戏路径:").grid(row=0, column=0, sticky="w")
@@ -1404,10 +1408,6 @@ class D2RLauncherApp(tk.Frame):
         except InvalidToken:
             return token  # 可能是明文
         
-    def open_help_link(self):
-        url = "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=5#pid218155737"
-        webbrowser.open(url)
-
   
 class TerrorZoneUI(tk.Frame):
     def __init__(self, master, controller):
