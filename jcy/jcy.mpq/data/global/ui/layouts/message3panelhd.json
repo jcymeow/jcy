@@ -1392,14 +1392,14 @@
                                         },
                                         {
                                             "type": "ImageWidget",
-                                            "name": "sorceressi",
+                                            "name": "Divider",
                                             "fields": {
                                                 "rect": {
                                                     "x": 0,
                                                     "y": 64,
                                                     "scale": 0.4
                                                 },
-                                                "text": "PauseMenu\\Divider"
+                                                "filename": "PauseMenu\\Divider"
                                             }
                                         }
                                     ]
@@ -1539,6 +1539,176 @@
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
                                                 "tooltipString": "@colorhuangse 术士 @kanelp52063FCRWARTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Widget",
+                            "name": "UberUniqueJewel",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": 960
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "Widget",
+                                    "name": "UberUniqueJewelLookup",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 0,
+                                            "y": 0
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "TextBoxWidget",
+                                            "name": "UberUniqueJewelLookupTitleText",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 0,
+                                                    "y": 0,
+                                                    "width": 300,
+                                                    "height": 80
+                                                },
+                                                "text": "@wikihelp52080",
+                                                "style": {
+                                                    "fontColor": "$FontColorGoldYellow",
+                                                    "pointSize": "$MediumFontSize",
+                                                    "alignment": {
+                                                        "h": "left",
+                                                        "v": "center"
+                                                    }
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "type": "FocusableWidget",
+                                                    "name": "Tooltip",
+                                                    "fields": {
+                                                        "fitToParent": true,
+                                                        "tooltipString": "@wikihelp52081",
+                                                        "tooltipStyle": "$StandardLeftToolTipStyle"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "ImageWidget",
+                                            "name": "Divider",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 0,
+                                                    "y": 64,
+                                                    "scale": 0.4
+                                                },
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "Row1",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 10,
+                                            "y": 80
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "sorceress",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 10,
+                                                    "y": 0
+                                                },
+                                                "filename": "items\\misc\\body_part\\fragment_cold",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @wikihelp52082 @wikihelp52083",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "amazon",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 110,
+                                                    "y": 0
+                                                },
+                                                "filename": "items\\misc\\body_part\\fragment_fire",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @wikihelp52084 @wikihelp52085",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "barbarian",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 210,
+                                                    "y": 0
+                                                },
+                                                "filename": "items\\misc\\body_part\\fragment_lightning",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @wikihelp52086 @wikihelp52087",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "paladin",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 310,
+                                                    "y": 0
+                                                },
+                                                "filename": "items\\misc\\body_part\\fragment_magic",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @wikihelp52088 @wikihelp52089",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "HelmBar",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 410,
+                                                    "y": 0
+                                                },
+                                                "filename": "items\\misc\\body_part\\fragment_physical",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse @wikihelp52090 @wikihelp52091",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "HelmDru",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 510,
+                                                    "y": 0
+                                                },
+                                                "filename": "items\\misc\\body_part\\fragment_poison",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@coloranjinse  @wikihelp52092 @wikihelp52093",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }
