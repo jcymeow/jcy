@@ -358,9 +358,10 @@ class FeatureConfig:
                             "type": CHECK,
                             "text": "术士",
                             "columns": 4,
-                            "colspan": 25,
+                            "colspan": 50,
                             "params": {
                                 "1": "紫色 火焰技能",
+                                "2": "红色 沸血术"
                             }
                         },
                         {
