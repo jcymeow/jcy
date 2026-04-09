@@ -238,6 +238,15 @@
         },
         {
             "type": "TimerWidget",
+            "name": "OpenAltBtn",
+            "fields": {
+                "time": 0.01,
+                "message": "PanelManager:OpenPanel:ShowItemsPanel",
+                "default": "PanelManager:OpenPanel:ShowItemsPanel"
+            }
+        },
+        {
+            "type": "TimerWidget",
             "name": "TimerClose",
             "fields": {
                 "time": 1,

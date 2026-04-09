@@ -3488,6 +3488,7 @@ class FileOperations:
             "1": "OpenMiniBar",
             "2": "OpenMiniHp",
             "3": "OpenMiniCube",
+            "6": "OpenAltBtn",
         }
         
         # 1.load
@@ -3630,6 +3631,8 @@ class FileOperations:
                 r"data/hd/missiles/ringoffireexplode.json",
             ],
             "2":[
+                r"data/hd/vfx/particles/missiles/blood_boil/vfx_blood_boil.particles",
+            ],
         }
 
         funcs = []
