@@ -46,6 +46,21 @@ def translate(text: str) -> str:
 def open_browser(url):
     webbrowser.open(url)
 
+def readme(notebook):
+    default = "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&fromuid=994977"
+    read_map = {
+        0: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=1#pid218020821",
+        1: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218048713",
+        2: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218048938",
+        3: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218052645",
+        4: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218058724",
+        5: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218060554",
+        6: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218062137",
+        7: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=5#pid218155737",
+    }
+    url = read_map.get(notebook.index("current"), default)
+    open_browser(url)
+
 class FeatureView:
     """
     UI控制
@@ -88,7 +103,7 @@ class FeatureView:
         self.appdata_button = ttk.Button(button_frame, text="配置路径", command=self.controller.open_appdata)
         self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
 
-        self.appdata_button = ttk.Button(button_frame, text="说明文档", command=lambda: open_browser("https://bbs.d.163.com/forum.php?mod=redirect&goto=findpost&ptid=175119207&pid=218020821&fromuid=994977"))
+        self.appdata_button = ttk.Button(button_frame, text="说明文档", command=lambda: readme(self.notebook))
         self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
 
         self.apply_button = ttk.Button(button_frame, text="应用设置", command=self.controller.apply_settings_with_loading)
