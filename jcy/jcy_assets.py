@@ -1784,46 +1784,42 @@ ASSETS = [
         "author": "Icemint, Sandmann, Jhyun0512, Mardok, 살신e",
         "description": "移除天使/恶魔雕像, 经验条刻度, 彩色经验条, 彩色体力条",
         "source": "https://www.inven.co.kr/board/diablo2/5842/6759",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/801.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/801.zip",
         "file": "801.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/801.png",
-        "size": 1402515,
-        "md5": "8C7930A4D535C3AF6C1356CE2F4291E5",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/801/801.png",
+        "size": 1403769,
+        "md5": "DDA7EFC8564CB33E20D84921BD05DDE5",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
         ],
-        APPLY_METHOD: [
-            {
-                METHOD: HUD_SKIN_APPLY,
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
-        ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
+            }
         ],
         "list": [
+            "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
+            "data/global/ui/layouts/showitemspanelhd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
             "data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
@@ -1840,46 +1836,42 @@ ASSETS = [
         "author": "Gous",
         "description": "Diablo III HUD",
         "source": "https://www.nexusmods.com/diablo2resurrected/mods/819",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/802.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/802.zip",
         "file": "802.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/802.webp",
-        "size": 23174169,
-        "md5": "6C6E875823A4044DD8202FEAB58300BC",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/802/802.png",
+        "size": 23175423,
+        "md5": "4AD621F3841903CBEA395EC540C02560",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
         ],
-        APPLY_METHOD: [
-            {
-                METHOD: HUD_SKIN_APPLY,
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
-        ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
+            }
         ],
         "list": [
+            "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
+            "data/global/ui/layouts/showitemspanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_man_idle.lowend.sprite",
@@ -1898,46 +1890,42 @@ ASSETS = [
         "author": "未知",
         "description": "Diablo IV HUD",
         "source": "",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/803.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/803.zip",
         "file": "803.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/803.png",
-        "size": 5579870,
-        "md5": "36547ED9A10109BBDB543BFE774E97C8",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/803/803.png",
+        "size": 5750631,
+        "md5": "6C2DE4855E44CAE6678F36BE4B5D0AAD",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
         ],
-        APPLY_METHOD: [
-            {
-                METHOD: HUD_SKIN_APPLY,
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
-        ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
+            }
         ],
         "list": [
+            "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
+            "data/global/ui/layouts/showitemspanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.sprite",
             "data/hd/global/ui/panel/hud_02/automap.lowend.sprite",
@@ -1966,6 +1954,12 @@ ASSETS = [
             "data/hd/global/ui/panel/hud_02/sprint.sprite",
             "data/hd/global/ui/panel/hud_02/stamina_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/stamina_bar.sprite",
+            "data/hd/global/ui/panel/hud_02/803/messages.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/803/messages.sprite",
+            "data/hd/global/ui/panel/hud_02/803/pausemenu.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/803/pausemenu.sprite",
+            "data/hd/global/ui/panel/hud_02/803/questlog.lowend.sprite",
+            "data/hd/global/ui/panel/hud_02/803/questlog.sprite",
         ]
     },
     {
@@ -1976,57 +1970,42 @@ ASSETS = [
         "author": "NDState",
         "description": "极简风",
         "source": "https://www.nexusmods.com/diablo2resurrected/mods/325",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/804.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/804.zip",
         "file": "804.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/804.png",
-        "size": 153051,
-        "md5": "D15C425E5530944DE2DA0A23239FD3E5",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/804/804.png",
+        "size": 154297,
+        "md5": "591EA22FFAA201A4EC5B1CEC632CCCF5",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_HUD_PANEL_BUTTONS,
-                PARAMS: {
-                    "anchor": { "x": 0.5, "y": 1 },
-                    "rect": { "x": -200, "y": -350 },
-                }
-            },
+            }
         ],
-        APPLY_METHOD: [
-            {
-                METHOD: HUD_SKIN4_APPLY,
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
-        ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
-            {
-                METHOD: Methods.MODIFY_HUD_PANEL_BUTTONS,
-                PARAMS: DefaultValue.HUD_PANEL_BUTTONS.value
-            },
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
+            }
         ],
         "list": [
+            "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
+            "data/global/ui/layouts/showitemspanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.sprite",
@@ -2046,57 +2025,42 @@ ASSETS = [
         "author": "설류혼",
         "description": "HUD_1/2",
         "source": "https://www.inven.co.kr/board/diablo2/5842/7420",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.3/805.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/805.zip",
         "file": "805.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/805/805.png",
-        "size": 952330,
-        "md5": "86A748BAE722D1AFE786B47597C822DF",
+        "size": 953533,
+        "md5": "659AB658D6B1039CDF6A2809487A09AF",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_HUD_PANEL_BUTTONS,
-                PARAMS: {
-                    "anchor": { "x": 0.5, "y": 1 },
-                    "rect": { "x": -200, "y": -400 },
-                }
-            },
+            }
         ],
-        APPLY_METHOD: [
-            {
-                METHOD: HUD_SKIN5_APPLY,
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
-        ],
+        APPLY_METHOD: [],
         REMOVE_METHOD: [
-            {
-                METHOD: Methods.MODIFY_HUD_PANEL_BUTTONS,
-                PARAMS: DefaultValue.HUD_PANEL_BUTTONS.value
-            },
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelhd.json"
+                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
-            },
-            {
-                METHOD: Methods.MODIFY_ASN_MARTIAL_BY_HUD,
-            },
+            }
         ],
         "list": [
+            "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
+            "data/global/ui/layouts/showitemspanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",

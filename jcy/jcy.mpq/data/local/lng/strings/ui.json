@@ -6242,7 +6242,7 @@
     "id": 4165,
     "Key": "panelhealth",
     "enUS": "%d / %d",
-    "zhTW": "%d",
+    "zhTW": "%d / %d",
     "deDE": "%d / %d",
     "esES": "%d / %d",
     "frFR": "%d / %d",
@@ -6253,13 +6253,13 @@
     "jaJP": "%d/%d",
     "ptBR": "%d / %d",
     "ruRU": "%d/%d",
-    "zhCN": "%d"
+    "zhCN": "%d / %d"
   },
   {
     "id": 4166,
     "Key": "panelmana",
     "enUS": "%d / %d",
-    "zhTW": "%d",
+    "zhTW": "%d / %d",
     "deDE": "%d / %d",
     "esES": "%d / %d",
     "frFR": "%d / %d",
@@ -6270,7 +6270,7 @@
     "jaJP": "%d/%d",
     "ptBR": "%d / %d",
     "ruRU": "%d/%d",
-    "zhCN": "%d"
+    "zhCN": "%d / %d"
   },
   {
     "id": 4167,
