@@ -2168,6 +2168,8 @@ class FileOperations:
             "ci1": False,
             "ci2": False,
             "ci3": False,
+            "aqv": False,
+            "cqv": False,
         }
 
         for key in params:

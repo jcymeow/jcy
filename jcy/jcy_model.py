@@ -624,6 +624,7 @@ class FeatureConfig:
                             "type": CHECK,
                             "text": "★物品名称★",
                             "colspan": 100,
+                            "columns": 10,
                             "params": {
                                 "rin": "@rin",
                                 "amu": "@amu",
@@ -632,6 +633,8 @@ class FeatureConfig:
                                 "ci1": "@ci1",
                                 "ci2": "@ci2",
                                 "ci3": "@ci3",
+                                "aqv": "@aqv",
+                                "cqv": "@cqv",
                             }
                         },
                     ]

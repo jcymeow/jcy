@@ -4882,7 +4882,7 @@
     "id": 2218,
     "Key": "aqv",
     "enUS": "Arrows",
-    "zhTW": "弓矢",
+    "zhTW": "★弓矢★",
     "deDE": "Pfeile",
     "esES": "[fp]Flechas",
     "frFR": "[fp]Flèches",
@@ -4893,7 +4893,7 @@
     "jaJP": "矢",
     "ptBR": "Flechas",
     "ruRU": "Стрелы",
-    "zhCN": "弓矢"
+    "zhCN": "★弓矢★"
   },
   {
     "id": 2219,
@@ -4916,7 +4916,7 @@
     "id": 2220,
     "Key": "cqv",
     "enUS": "Bolts",
-    "zhTW": "弩箭",
+    "zhTW": "★弩箭★",
     "deDE": "Bolzen",
     "esES": "[fp]Saetas",
     "frFR": "[mp]Traits",
@@ -4927,7 +4927,7 @@
     "jaJP": "ボルト",
     "ptBR": "Setas",
     "ruRU": "[pl]арбалетные болты",
-    "zhCN": "弩箭"
+    "zhCN": "★弩箭★"
   },
   {
     "id": 2221,
