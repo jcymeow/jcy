@@ -201,9 +201,11 @@ class FeatureController:
                     if result.get("ok"):
                         if dialog:
                             dialog.log(f"{asset.get('name')} 应用成功.")
+                            print(f"{asset.get('name')} 应用成功.")
                     else:
                         if dialog:
                             dialog.log(f"{asset.get('name')} 应用失败, {result.get('message')}")
+                            print(f"{asset.get('name')} 应用失败, {result.get('message')}")
 
             if dialog:
                 dialog.log("✅ 升级完成!")

@@ -1141,22 +1141,22 @@ HIRE_KEYS = {
 HIRE_SOUNDS = {
     2: {
         0:{
-            "guard_death_hd1": {"FileName": r"monster/guard/monster_guard_death_1_hd.flac"},
-            "guard_death_hd2": {"FileName": r"monster/guard/monster_guard_death_2_hd.flac"},
-            "guard_death_hd3": {"FileName": r"monster/guard/monster_guard_death_3_hd.flac"},
-            "guard_hit_hd1": {"FileName": r"monster/guard/monster_guard_gethit_1_hd.flac"},
-            "guard_hit_hd2": {"FileName": r"monster/guard/monster_guard_gethit_2_hd.flac"},
-            "guard_hit_hd3": {"FileName": r"monster/guard/monster_guard_gethit_3_hd.flac"},
-            "guard_hit_hd4": {"FileName": r"monster/guard/monster_guard_gethit_4_hd.flac"},
+            "guard_death_hd1": {"FileName": r"monster\guard\monster_guard_death_1_hd.flac"},
+            "guard_death_hd2": {"FileName": r"monster\guard\monster_guard_death_2_hd.flac"},
+            "guard_death_hd3": {"FileName": r"monster\guard\monster_guard_death_3_hd.flac"},
+            "guard_hit_hd1": {"FileName": r"monster\guard\monster_guard_gethit_1_hd.flac"},
+            "guard_hit_hd2": {"FileName": r"monster\guard\monster_guard_gethit_2_hd.flac"},
+            "guard_hit_hd3": {"FileName": r"monster\guard\monster_guard_gethit_3_hd.flac"},
+            "guard_hit_hd4": {"FileName": r"monster\guard\monster_guard_gethit_4_hd.flac"},
         },
         1:{
-            "guard_death_hd1": {"FileName": r"monster/rogue/death1_hd.flac"},
-            "guard_death_hd2": {"FileName": r"monster/rogue/death2_hd.flac"},
-            "guard_death_hd3": {"FileName": r"monster/rogue/death1_hd.flac"},
-            "guard_hit_hd1": {"FileName": r"monster/rogue/gethit1_hd.flac"},
-            "guard_hit_hd2": {"FileName": r"monster/rogue/gethit2_hd.flac"},
-            "guard_hit_hd3": {"FileName": r"monster/rogue/gethit3_hd.flac"},
-            "guard_hit_hd4": {"FileName": r"monster/rogue/gethit4_hd.flac"},
+            "guard_death_hd1": {"FileName": r"monster\rogue\death1_hd.flac"},
+            "guard_death_hd2": {"FileName": r"monster\rogue\death2_hd.flac"},
+            "guard_death_hd3": {"FileName": r"monster\rogue\death1_hd.flac"},
+            "guard_hit_hd1": {"FileName": r"monster\rogue\gethit1_hd.flac"},
+            "guard_hit_hd2": {"FileName": r"monster\rogue\gethit2_hd.flac"},
+            "guard_hit_hd3": {"FileName": r"monster\rogue\gethit3_hd.flac"},
+            "guard_hit_hd4": {"FileName": r"monster\rogue\gethit4_hd.flac"},
         },
     }
 }

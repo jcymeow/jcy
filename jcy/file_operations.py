@@ -220,7 +220,7 @@ class FileOperations:
         return (count, total)
 
 
-    def common_modify_json(self, file, records):
+    def common_modify_json(self, file, records, encoding="utf-8", space=4):
         count = 0
         total = len(records)
 
@@ -228,7 +228,7 @@ class FileOperations:
             json_data = None
             json_path = os.path.join(MOD_PATH, file)
             
-            with open(json_path, 'r', encoding='utf-8') as f:
+            with open(json_path, 'r', encoding=encoding) as f:
                 json_data = json.load(f)
 
             for item in json_data:
@@ -239,8 +239,8 @@ class FileOperations:
                     item["zhCN"] = record.get("zhCN")
                     item["zhTW"] = record.get("zhTW")
 
-            with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            with open(json_path, 'w', encoding=encoding) as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=space)
         except Exception as e:
             print(e)
         
@@ -259,8 +259,7 @@ class FileOperations:
     def backup_restore_files(self, params):
         opeartion = params.get("operation")
         files = params.get("files")
-        print(opeartion)
-        print(files)
+
         for file in files:
             try:
                 original_file = os.path.join(MOD_PATH, file)
@@ -306,7 +305,7 @@ class FileOperations:
         # 佣兵音效
         funcs.append(self.common_modify_excel(file="data/global/excel/sounds.txt", key="Sound", records=hire_sound))
         # 佣兵姓名
-        funcs.append(self.common_modify_json(file="data/local/lng/strings/mercenaries.json", records=hire_name))
+        funcs.append(self.common_modify_json(file="data/local/lng/strings/mercenaries.json", records=hire_name, encoding="utf-8-sig", space=2))
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
 
