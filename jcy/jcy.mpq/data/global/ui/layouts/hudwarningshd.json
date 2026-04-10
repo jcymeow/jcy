@@ -241,7 +241,7 @@
             "name": "OpenAltBtn",
             "fields": {
                 "time": 0.01,
-                "message": "PanelManager:OpenPanel:ShowItemsPanel",
+                "message": "",
                 "default": "PanelManager:OpenPanel:ShowItemsPanel"
             }
         },
