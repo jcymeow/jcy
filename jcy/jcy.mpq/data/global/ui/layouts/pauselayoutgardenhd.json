@@ -291,6 +291,31 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "TableRowWidget",
+                    "name": "quickremakehellgame",
+                    "children": [
+                        {
+                            "type": "ButtonWidget",
+                            "name": "Exit",
+                            "fields": {
+                                "filename": "PauseMenu\\PauseButton",
+                                "hoveredFrame": 3,
+                                "textString": "重開地獄遊戲",
+                                "pressLabelOffset": [
+                                    0,
+                                    0
+                                ],
+                                "onClickMessage": "PanelManager:OpenPanel:SetHellGame",
+                                "textColor": "$FontColorGreen",
+                                "text/style": "$StyleFEButtonText",
+                                "acceptsReturnKey": true,
+                                "focusOnMouseOver": true,
+                                "sound": "cursor_select"
+                            }
+                        }
+                    ]
                 }
             ]
         },

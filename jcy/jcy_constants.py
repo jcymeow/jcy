@@ -946,6 +946,7 @@ class JcyExt(Enum):
     TOGGLE_MINI_BAR = "JcyToggleMiniBar"
     TOGGLE_FRIENDS_LIST = "JcyToggleFriendsList"
     GAME_SETTING = "JcyGameSetting"
+    REMAKE_HELL_GAME = "JcyRemakeHellGame"
 
 # 导出所有需要的符号
 __all__ = [

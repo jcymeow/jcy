@@ -61,5 +61,14 @@
         "sgCN": "知识卷轴",
         "sgTW": "知識卷軸",
         "bnCN": "知识卷轴"
+    },
+    "JcyRemakeHellGame": {
+        "Key": "JcyRemakeHellGame",
+        "enUS": "Remake Hell Game",
+        "zhTW": "重開地獄遊戲",
+        "sgTW": "重開地獄遊戲",
+        "zhCN": "重开地狱游戏",
+        "sgCN": "重开地狱游戏",
+        "bnCN": "重开地狱游戏"
     }
 }

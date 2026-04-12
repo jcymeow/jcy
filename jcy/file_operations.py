@@ -2863,7 +2863,8 @@ class FileOperations:
         # - data/local/lng/strings/jcy.json
         # + data/global/ui/layouts/mainmenupanelhd.json
         # + data/global/ui/layouts/hudpanelbuttonshd.json
-        total = len(LOCAL_FILES) -1 + 2
+        # + data/global/ui/layouts/pauselayoutgardenhd.json
+        total = len(LOCAL_FILES) + 2
 
         lng = jcy_config.SETTINGS.get(select_language, Language.ZHTW.value)
 
@@ -2928,6 +2929,26 @@ class FileOperations:
             count += 1
         except Exception as e:
             print(f"[Error] {mini_path}: {e}")
+
+        # 修改重开地狱游戏 提示语
+        pause_data = None                    
+        pause_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/pauselayoutgardenhd.json")
+        try:
+            with open(pause_path, 'r', encoding='utf-8') as f:
+                pause_data = json.load(f)
+
+            for child in pause_data["children"]:
+                if "TableWidget" == child.get("type", "") and "PauseTableExtra" == child.get("name", ""):
+                    for grand_child in child["children"]:
+                        if "TableRowWidget" == grand_child.get("type", "") and "quickremakehellgame" == grand_child.get("name", ""):
+                            grand_child["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
+
+            with open(pause_path, 'w', encoding="utf-8") as f:
+                json.dump(pause_data, f, ensure_ascii=False, indent=4)
+
+            count += 1
+        except Exception as e:
+            print(f"[Error] {pause_path}: {e}")
 
         return count, total
 
@@ -3226,6 +3247,33 @@ class FileOperations:
 
             with open(profiledhd_path, 'w', encoding="utf-8") as f:
                 json.dump(profiledhd_data, f, ensure_ascii=False, indent=4)
+
+            funcs.append((1, 1))
+        except Exception as e:
+            funcs.append((0, 1))
+            print(e)
+
+        # 8.添加 重开地狱游戏按钮
+        try:
+            pause_data = None
+            pause_path = os.path.join(MOD_PATH, "data/global/ui/layouts/pauselayoutgardenhd.json")
+            
+            with open(pause_path, 'r', encoding='utf-8') as f:
+                pause_data = json.load(f)
+
+            for child in pause_data["children"]:
+                if "TableWidget" == child.get("type", "") and "PauseTableExtra" == child.get("name", ""):
+                    # 移除 quickremakehellgame 元素
+                    child["children"] = [c for c in child["children"] if c.get("name") != "quickremakehellgame"]
+                    # 添加 quickremakehellgame 元素
+                    if "8" in keys:
+                        lng = jcy_config.SETTINGS.get(Language.ZHCN.value, Language.ZHTW.value)
+                        entity = copy.deepcopy(ENTITY_PAUSE_REMAKE_HELL_GAME)
+                        entity["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
+                        child["children"].append(entity)
+
+            with open(pause_path, 'w', encoding="utf-8") as f:
+                json.dump(pause_data, f, ensure_ascii=False, indent=4)
 
             funcs.append((1, 1))
         except Exception as e:

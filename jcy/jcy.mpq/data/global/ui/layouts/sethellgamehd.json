@@ -1,0 +1,30 @@
+{
+	"type": "MainMenuHDPanel",
+	"name": "SetHellGame",
+	"children": [
+		{
+			"type": "TimerWidget",
+			"name": "exitgame",
+			"fields": {
+				"time": 0.01,
+				"message": "PausePanelMessage:ExitGame"
+			}
+		},
+		{
+			"type": "TimerWidget",
+			"name": "TimerClose",
+			"fields": {
+				"time": 0.01,
+				"message": "CharacterSelect:LoadCharacter:2"
+			}
+		},
+		{
+			"type": "TimerWidget",
+			"name": "TimerClose",
+			"fields": {
+				"time": 0.01,
+				"message": "PanelManager:ClosePanel:SetHellGame"
+			}
+		}
+	]
+}
