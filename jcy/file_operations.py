@@ -2389,9 +2389,23 @@ class FileOperations:
             "2":[],
             # A1兵营 -> modify_act1_barrack_pointer
             "3":[],
-            # A2贤者小站
+            # A2督瑞尔
             "4": [
                 r"data/hd/env/preset/act2/outdoors/kingwarp.json",
+                r"data/hd/objects/vfx_only/arcane_rune_1.json",
+                r"data/hd/objects/vfx_only/arcane_rune_2.json",
+                r"data/hd/objects/vfx_only/arcane_rune_3.json",
+                r"data/hd/objects/vfx_only/arcane_rune_4.json",
+                r"data/hd/objects/vfx_only/arcane_rune_5.json",
+                r"data/hd/objects/vfx_only/arcane_rune_6.json",
+                r"data/hd/objects/vfx_only/arcane_rune_7.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_1.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_2.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_3.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_4.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_5.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_6.json",
+                r"data/hd/roomtiles/act_2_desert_to_tomb_tal_7.json",
             ],
             # A4火焰之河
             "5": [
