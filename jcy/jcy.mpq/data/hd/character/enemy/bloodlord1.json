@@ -799,7 +799,7 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "vxf_monster_dangerous",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
+                    "filename": "data/hd/vfx2/particles/nickname/danger.particles",
                     "hardKillOnDestroy": false
                 },
                 {
@@ -807,7 +807,7 @@
                     "name": "vfx4294962040_component_transform",
                     "position": {
                         "x": 0,
-                        "y": 5,
+                        "y": 12.0,
                         "z": 0
                     },
                     "orientation": {

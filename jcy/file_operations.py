@@ -284,7 +284,7 @@ class FileOperations:
         # ---- 怪物光源 ----
         funcs.append(self.select_asset_monster_light())
         # ---- 高危怪物标记 ----
-        funcs.append(self.modify_asset_monster_dangerous())
+        funcs.append(self.modify_monster_dangerous())
         # ---- Act1兵营指引 ----
         funcs.append(self.modify_act1_barrack_pointer())
         # ---- Act5尼拉塞克指引 ----
@@ -1218,171 +1218,21 @@ class FileOperations:
         return count, total
 
 
-    def modify_asset_monster_dangerous(self):
-        """修改素材包怪物危险标记"""
-
-        configs = jcy_config.SETTINGS.get(Function.MONSTER_SETTING.value, [])
-        is_enabled = "7" in configs
-
-        _files = [
-            {
-                "file": r"data/hd/character/enemy/bonefetish1.json",
-                "position-y": 2.5,
-            },
-        ]
-
-        count = 0
-        total = len(_files)
-
-        for _file in _files:
-            try:
-                _path = _file.get("file")
-                _position_y = _file.get("position-y")
-
-                file_data = None
-                file_path = os.path.join(MOD_PATH, _path)
-
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    file_data = json.load(f)
-                
-                entities = file_data.get("entities", [])
-
-                targetIndex = None
-                for i, entity in enumerate(entities):
-                    if entity["id"] == ENTITY_MONSTER_DANGEROUS["id"]:
-                        targetIndex = i
-                        break
-                
-                modified = False
-
-                if is_enabled is True and targetIndex is None:
-                    entity = copy.deepcopy(ENTITY_MONSTER_DANGEROUS)
-                    entity["components"][-1]["position"]["y"] = _position_y
-                    file_data["entities"].append(entity)
-                    modified = True
-                
-                if is_enabled is False and targetIndex is not None:
-                    file_data["entities"].pop(targetIndex)
-                    modified = True
-
-                count += 1
-                if modified:
-                    with open(file_path, 'w', encoding="utf-8") as f:
-                        json.dump(file_data, f, ensure_ascii=False, indent=4)              
-            except Exception as e:
-                print(f"[ERROR] {_file}: {e}")
-        
-        return (count, total)
-
-
     def modify_monster_dangerous(self, isEnabled: Optional[bool] = None):
         """修改怪物危险标记"""
+        # 危险标记怪物列表 = 娃娃, 电鬼, 牛头
+        # rename危险标记粒子文件, 完成危险标记开关
+        _files = [
+            r"data/hd/vfx2/particles/nickname/danger.particles"
+        ]
 
         if isEnabled is None:
             configs = jcy_config.SETTINGS.get(Function.MONSTER_SETTING.value, [])
             isEnabled = "6" in configs
 
-        _files = [
-            {
-                "file": r"data/hd/character/enemy/andariel.json",
-                "position-y": 12,
-            },
-            {
-                "file": r"data/hd/character/enemy/baalcrab.json",
-                "position-y": 12,
-            },
-            {
-                "file": r"data/hd/character/enemy/bloodlord1.json",
-                "position-y": 5,
-            },
-            {
-                "file": r"data/hd/character/enemy/bloodraven.json",
-                "position-y": 5,
-            },
-            {
-                "file": r"data/hd/character/enemy/cowking.json",
-                "position-y": 12,
-            },
-            {
-                "file": r"data/hd/character/enemy/darkelder.json",
-                "position-y": 5,
-            },
-            {
-                "file": r"data/hd/character/enemy/diablo.json",
-                "position-y": 12,
-            },
-            {
-                "file": r"data/hd/character/enemy/duriel.json",
-                "position-y": 12,
-            },
-            {
-                "file": r"data/hd/character/enemy/griswold.json",
-                "position-y": 5,
-            },
-            {
-                "file": r"data/hd/character/enemy/mephisto.json",
-                "position-y": 12,
-            },
-            {
-                "file": r"data/hd/character/enemy/nihlathakboss.json",
-                "position-y": 10,
-            },
-            {
-                "file": r"data/hd/character/enemy/willowisp1.json",
-                "position-y": 2.5,
-            },
-            {
-                "file": r"data/hd/character/enemy/bonefetish1.json",
-                "position-y": 2.5,
-            },
-        ]
+        return self.common_rename(_files, isEnabled)
 
-        count = 0
-        total = len(_files)
-
-        for _file in _files:
-            try:
-                _path = _file.get("file")
-                _position_y = _file.get("position-y")
-
-                file_data = None
-                file_path = os.path.join(MOD_PATH, _path)
-                if not os.path.exists(file_path):
-                    continue
-
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    file_data = json.load(f)
-                
-                entities = file_data.get("entities", [])
-
-                targetIndex = None
-                for i, entity in enumerate(entities):
-                    if entity["id"] == ENTITY_MONSTER_DANGEROUS["id"]:
-                        targetIndex = i
-                        break
-                
-                modified = False
-
-                if isEnabled is True and targetIndex is None:
-                    entity = copy.deepcopy(ENTITY_MONSTER_DANGEROUS)
-                    entity["components"][-1]["position"]["y"] = _position_y
-                    file_data["entities"].append(entity)
-                    modified = True
-                
-                if isEnabled is False and targetIndex is not None:
-                    file_data["entities"].pop(targetIndex)
-                    modified = True
-
-                if modified:
-                    with open(file_path, 'w', encoding="utf-8") as f:
-                        json.dump(file_data, f, ensure_ascii=False, indent=4)              
-                count += 1
-            except Exception as e:
-                print(f"[ERROR] {_file}: {e}")
-        
-        return (count, total)
-
-
+    
     def modify_monster_visable(self, isEnabled: Optional[bool] = None):
         count = 0
         total = 1

@@ -758,42 +758,6 @@ ENTITY_NICKNAME_HERALD = [
     }
 ]
 
-# 怪物危险标记
-ENTITY_MONSTER_DANGEROUS = {
-    "type": "Entity",
-    "name": "entity_monster_dangerous",
-    "id": 7467890051,
-    "components": [
-        {
-            "type": "VfxDefinitionComponent",
-            "name": "vxf_monster_dangerous",
-            "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
-            "hardKillOnDestroy": False
-        },
-        {
-            "type": "TransformDefinitionComponent",
-            "name": "vfx4294962040_component_transform",
-            "position": {
-                "x": 0,
-                "y": 0,
-                "z": 0
-            },
-            "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-            },
-            "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-            },
-            "inheritOnlyPosition": False
-        }
-    ]
-}
-
 # A1兵营指引
 ENTITY_COURTE_POINTER = {
     "type": "Entity",

@@ -214,47 +214,13 @@
         },
         {
             "type": "Entity",
-            "name": "vfx",
-            "id": 2238451436,
-            "components": [
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "vfx_VfxDefinition",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_7/vfx_arcanerune_7.particles",
-                    "hardKillOnDestroy": true
-                },
-                {
-                    "type": "TransformDefinitionComponent",
-                    "name": "vfx_TransformDefinition",
-                    "position": {
-                        "x": 0,
-                        "y": 2.5,
-                        "z": 0
-                    },
-                    "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
-                    },
-                    "scale": {
-                        "x": 1,
-                        "y": 1,
-                        "z": 1
-                    },
-                    "inheritOnlyPosition": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
             "name": "entity_monster_dangerous",
             "id": 7467890051,
             "components": [
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "vxf_monster_dangerous",
-                    "filename": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles",
+                    "filename": "data/hd/vfx2/particles/nickname/danger.particles",
                     "hardKillOnDestroy": false
                 },
                 {
@@ -262,7 +228,7 @@
                     "name": "vfx4294962040_component_transform",
                     "position": {
                         "x": 0,
-                        "y": 2.5,
+                        "y": 10.0,
                         "z": 0
                     },
                     "orientation": {

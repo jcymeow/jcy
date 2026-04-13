@@ -32,11 +32,11 @@ ASSETS = [
         "author": "桔橙柚",
         "description": "国服:外侧回廊/沃特之厅/怪模模型/反和谐",
         "source": "国服与国际服模型不同, 网易国服请使用这个素材包",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/netease.zip",
-        "file": "netease.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/netease.png",
-        "size": 11220592,
-        "md5": "22FFB2A9CA409619CDED205083E4464B",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/4.zip",
+        "file": "4.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/4/4.png",
+        "size": 11098504,
+        "md5": "5F721333BD756223E7E381E1C434B212",
         APPLY_METHOD: [
             {
                 METHOD: GAME_MODEL_APPLY,
@@ -153,11 +153,11 @@ ASSETS = [
         "author": "桔橙柚",
         "description": "国际服:外侧回廊/沃特之厅/怪物模型",
         "source": "国服与国际服模型不同, 暴雪国际服请使用这个素材包",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.1/battlenet.zip",
-        "file": "battlenet.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/battlenet.png",
-        "size": 1562819,
-        "md5": "DC3AC4E791BFF2C8F018C84449201AF3",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/5.zip",
+        "file": "5.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/5/5.png",
+        "size": 1431013,
+        "md5": "B49BA5C989B889BDB86681E1549A7337",
         APPLY_METHOD: [
             {
                 METHOD: GAME_MODEL_APPLY,
