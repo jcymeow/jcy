@@ -3485,9 +3485,13 @@ class FileOperations:
                 r"data/hd/missiles/ground_fire_small.json",
                 r"data/hd/missiles/missiles.json",
             ],
-            # 取消影散隐身效果
+            # 取消 影散隐身效果
             "2":[
                 r"data/global/excel/itemstatcost.txt",
+            ],
+            # 开启 陷阱佣兵头像
+            "3":[
+                r"data/global/excel/pettype.txt",
             ],
         }
 

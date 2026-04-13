@@ -318,10 +318,11 @@ class FeatureConfig:
                             "fid": Function.ASN_SETTING.value,
                             "type": CHECK,
                             "text": "刺客",
-                            "colspan": 50,
+                            "colspan": 100,
                             "params": {
                                 "1": "马赛克护眼",
-                                "2": "取消影散隐身效果"
+                                "2": "取消 影散隐身效果",
+                                "3": "开启 陷阱佣兵头像",
                             }
                         },
                         {
@@ -332,7 +333,6 @@ class FeatureConfig:
                             "params": {
                                 "0": "默认",
                                 "1": "刺客右侧",
-                                # "2": "HUD右上方",
                                 "3": "刺客下方",
                                 "9": "HUD方案",
                             }
