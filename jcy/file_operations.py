@@ -2405,6 +2405,7 @@ class FileOperations:
             "3":[],
             # A2督瑞尔
             "4": [
+                r"data/global/ui/layouts/questlogpanelexpansionhd.json",
                 r"data/hd/env/preset/act2/outdoors/kingwarp.json",
                 r"data/hd/objects/vfx_only/arcane_rune_1.json",
                 r"data/hd/objects/vfx_only/arcane_rune_2.json",
