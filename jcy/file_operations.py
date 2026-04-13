@@ -1682,6 +1682,7 @@ class FileOperations:
         base_defense = "3" in base_dict
         base_enus = "4" in base_dict
         base_grade_n = "5" in base_dict
+        base_socket_light = "6" in base_dict
 
         unique_enus = "4" in unique_dict
         unique_max = "5" in unique_dict
@@ -1690,6 +1691,16 @@ class FileOperations:
         set_enus = "4" in set_dict
         set_max = "5" in set_dict
         set_mark = "6" in set_dict
+
+        funcs = []
+
+        # 插槽高亮
+        socket_files = [
+            r"data/hd/global/ui/panel/gemsocket.lowend.sprite",
+            r"data/hd/global/ui/panel/gemsocket.sprite",
+        ]
+        result = self.common_rename(socket_files, base_socket_light)
+        funcs.append(result)
 
         # --- templet + data -> ext ---
         try:
@@ -1795,11 +1806,14 @@ class FileOperations:
             self.modify_zhCN_language("")
             self.modify_zhTW_language("")
 
-            count += 1
+            funcs.append((1, 1))
         except Exception as e:
+            funcs.append((0, 1))
             print(e)
 
-        return count, 1
+        results = [f for f in funcs]
+        summary = tuple(sum(values) for values in zip(*results))
+        return summary
 
 
     def modify_item_rune(self, keys: list):

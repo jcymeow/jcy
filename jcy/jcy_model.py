@@ -519,6 +519,7 @@ class FeatureConfig:
                             "type": CHECK,
                             "text": "装备-底材特效",
                             "colspan": 100,
+                            "columns": 5,
                             "params": {
                                 "5": "底材阶级[¹²³]",
                                 "0": "底材阶级[普扩精]",
@@ -526,6 +527,7 @@ class FeatureConfig:
                                 "2": "底材推荐孔数",
                                 "3": "防御底材MAX防御",
                                 "4": "附带英文",
+                                "6": "镶孔高亮",
                             }
                         },
                         {
