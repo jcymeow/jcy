@@ -1202,6 +1202,42 @@ ASSETS = [
             "data/hd/ui/fonts/blizzardglobal-v5_81.ttf",
         ]
     },
+    {
+        "id": 304,
+        "name": "HarmonyOS Sans",
+        "category": FONT_TYPE,
+        "type": FONT_TYPE,
+        "author": "华为, 汉仪字库",
+        "description": "HarmonyOS_Sans_Medium",
+        "source": "https://developer.huawei.com/consumer/cn/design/resource-V1/",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/304.zip",
+        "file": "304.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/304/304.png",
+        "size": 8429154,
+        "md5": "382F52F09C6301369CCE76D9DEA9AF85",
+        "list": [
+            "data/hd/ui/fonts/arfangxinshuh7c95b5_eb_t.ttf",
+            "data/hd/ui/fonts/blizzardglobal-v5_81.ttf",
+        ]
+    },
+    {
+        "id": 305,
+        "name": "寒蝉半圆体",
+        "category": FONT_TYPE,
+        "type": FONT_TYPE,
+        "author": "Warren2060",
+        "description": "基于日本开源字型Zen Maru Gothic進行調整的圆体字型! 更新为符合GB2312標準的字符集，使其應用范圍更广。 修正部分字形和补充部分字形。 調整到更均衡的排版。",
+        "source": "https://github.com/Warren2060/ChillRound",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/305.zip",
+        "file": "305.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/305/305.png",
+        "size": 7140702,
+        "md5": "A523DDAA4A5CDA617D2AC89829540B3C",
+        "list": [
+            "data/hd/ui/fonts/arfangxinshuh7c95b5_eb_t.ttf",
+            "data/hd/ui/fonts/blizzardglobal-v5_81.ttf",
+        ]
+    },
     # A1佣兵皮肤(400, 500)
     {
         "id": 401,
