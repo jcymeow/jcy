@@ -394,7 +394,30 @@ class FileOperations:
                 print(e)
 
         return (count, len(files))
-    
+
+
+    def common_select(self, file_path, selectedValue):
+        """
+        公共方法 从config替换到目标文件
+        """
+        try:
+            # 删除目标文件
+            target_path = os.path.join(MOD_PATH, file_path)
+            if os.path.exists(target_path):
+                os.remove(target_path)
+            print(target_path)
+            # 使用源文件替换
+            file_name = os.path.basename(file_path)
+            source_path = os.path.join(MOD_PATH, "config/select", f"{file_name}.{selectedValue}")
+            print(source_path)
+            if os.path.exists(source_path):
+                shutil.copy2(source_path, target_path)
+            
+            return 1, 1
+        except Exception as e:
+            print(e)
+            return 0, 1
+
 
     def toggle_escape(self, isEnabled: bool = False):
         """
@@ -733,31 +756,8 @@ class FileOperations:
 
     def select_monster_health(self, radio: str = "0"):
         """怪物-血条样式"""
-        src = {
-            "0": r"data/global/ui/layouts/hudmonsterhealthhd.json",
-            "1": r"data/global/ui/layouts/hudmonsterhealthhd.json.ext",
-            "2": r"data/global/ui/layouts/hudmonsterhealthhd.json.d3",
-            "3": r"data/global/ui/layouts/hudmonsterhealthhd.json.jerry",
-        }
-
-        dst = r"data/global/ui/layouts/hudmonsterhealthhd.json"
-
-        src_path = os.path.join(MOD_PATH, src[radio])
-        dst_path = os.path.join(MOD_PATH, dst)
-
-        count = 0
-        total = 1
-
-        try:
-            if "0" == radio:
-                os.remove(dst_path)
-            else:
-                shutil.copy2(src_path, dst_path)
-            count += 1
-        except Exception as e:
-            print(e)
-
-        return (count, total)
+        file_path = r"data/global/ui/layouts/hudmonsterhealthhd.json"
+        return self.common_select(file_path, radio)
 
 
     def select_enemy_arrow_skin(self, radio: str = "0"):
