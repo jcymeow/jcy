@@ -852,19 +852,11 @@ class FileOperations:
 
         return count, total
 
+
     def select_monster_color(self, radio: str = "0"):
         """怪物-精英染色"""
-        # 删除随机染色文件 
-        target_path = os.path.join(MOD_PATH, "data/hd/global/palette/randtransforms.json")
-        if os.path.exists(target_path):
-            os.remove(target_path)
-        
-        # 
-        source_path = os.path.join(MOD_PATH, f"config/select/randtransforms.{radio}.json")
-        if os.path.exists(source_path):
-            shutil.copy2(source_path, target_path)
-            
-        return 1, 1
+        file_path = r"data/hd/global/palette/randtransforms.json"
+        return self.common_select(file_path, radio)
 
 
     def select_monster_affixes(self, radio: str = "0"):
