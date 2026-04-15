@@ -1215,7 +1215,8 @@ class FileOperations:
         # 危险标记怪物列表 = 娃娃, 电鬼, 牛头
         # rename危险标记粒子文件, 完成危险标记开关
         _files = [
-            r"data/hd/vfx2/particles/nickname/danger.particles"
+            r"data/global/excel/monstats2.txt",
+            r"data/hd/vfx2/particles/nickname/danger.particles",
         ]
 
         if isEnabled is None:
