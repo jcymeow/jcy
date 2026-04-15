@@ -405,11 +405,11 @@ class FileOperations:
             target_path = os.path.join(MOD_PATH, file_path)
             if os.path.exists(target_path):
                 os.remove(target_path)
-            print(target_path)
+
             # 使用源文件替换
             file_name = os.path.basename(file_path)
             source_path = os.path.join(MOD_PATH, "config/select", f"{file_name}.{selectedValue}")
-            print(source_path)
+
             if os.path.exists(source_path):
                 shutil.copy2(source_path, target_path)
             
@@ -1309,32 +1309,18 @@ class FileOperations:
         """
         佣兵图标位置
         """
-        count = 0
-        total = 1
-
-        params = {
-            "1": r"data/global/ui/layouts/hireablespanelhd.json.1",
-            "2": r"data/global/ui/layouts/hireablespanelhd.json.2",
-            "3": r"data/global/ui/layouts/hireablespanelhd.json.3",
-            "9": r"data/global/ui/layouts/hireablespanelhd.json.9"
-        }
-
-        dst = r"data/global/ui/layouts/hireablespanelhd.json"
         
-        _dst = os.path.join(MOD_PATH, dst)
-        if "0" == radio:
-            os.remove(_dst)
-        else:
-            _src = os.path.join(MOD_PATH, params[radio])
-            shutil.copy2(_src, _dst)
-        count += 1
+        file_path = r"data/global/ui/layouts/hireablespanelhd.json"
+
+        funcs = []
+        funcs.append(self.common_select(file_path, radio))
 
         # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        result = self.modify_hireablespanelhd_json(radio, "0")
-        count += result[0]
-        total += result[1]
+        funcs.append(self.modify_hireablespanelhd_json(radio, "0"))
+        
+        summary = [sum(column) for column in zip(*funcs)]
 
-        return (count, total)
+        return summary
     
 
     def mercenary_coordinate(self, val: dict):
