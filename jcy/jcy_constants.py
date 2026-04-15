@@ -84,6 +84,7 @@ OTHERS = "Others"
 TOA = "Token of Absolution"
 MK = "Mephisto Key"
 BANK = "Bank"
+AUTOMAP = "Automap"
 
 AMA = "Ama"
 SOR = "Sor"
@@ -994,6 +995,7 @@ __all__ = [
     'TOA',
     'BANK',
     'MK',
+    'AUTOMAP',
     'AMA',
     'SOR',
     'NEC',
