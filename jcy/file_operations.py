@@ -942,19 +942,8 @@ class FileOperations:
         """怪物设置"""
         if keys is None:
             return (0, 0)
-
-        # 文件
-        _files = {
-            # 屏蔽A5督军山克死亡特效
-            "4": [
-                r"data/global/excel/missiles.txt",
-            ],
-        }
-
+        
         funcs = []
-        for key, files in _files.items():
-            sub = self.common_rename(files, key in keys)
-            funcs.append(sub)
 
         # 开启 危险怪物标识
         funcs.append(self.modify_monster_dangerous())
