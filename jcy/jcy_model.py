@@ -367,6 +367,15 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.CAIN_SETTING.value,
+                            "type": CHECK,
+                            "text": "凯恩",
+                            "colspan": 25,
+                            "params": {
+                                "1": "开启 套装光效"
+                            }
+                        },
+                        {
                             "fid": Function.SKILL_OFF_SOUNDS.value,
                             "type": CHECK,
                             "text": "技能结束提示音",

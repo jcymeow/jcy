@@ -3302,6 +3302,33 @@ class FileOperations:
         return summary
 
 
+    def cain_setting(self, keys: list):
+        """凯恩设置"""
+        if keys is None:
+            return (0, 0)
+        
+        _files = {
+            # 套装光效
+            "1":[
+                r"data/hd/character/npc/cain1.json",
+                r"data/hd/character/npc/cain2.json",
+                r"data/hd/character/npc/cain3.json",
+                r"data/hd/character/npc/cain4.json",
+                r"data/hd/character/npc/cain5.json",
+                r"data/hd/character/npc/cain6.json",
+            ]
+        }
+
+        funcs = []
+        for key, files in _files.items():
+            sub = self.common_rename(files, key in keys)
+            funcs.append(sub)
+
+        results = [f for f in funcs]
+        summary = tuple(sum(values) for values in zip(*results))
+        
+        return summary
+
     def assassin_setting(self, keys: list):
         """刺客设置"""
         if keys is None:
