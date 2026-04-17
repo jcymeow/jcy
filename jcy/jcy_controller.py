@@ -10,7 +10,7 @@ import time
 import tkinter as tk
 import tkinter.font as tkFont
 from PIL import Image, ImageTk
-from tkinter import messagebox
+from tkinter import messagebox, filedialog
 from win11toast import toast
 import subprocess
 
@@ -24,6 +24,7 @@ from jcy_view import FeatureView
 from jcy_assets import *
 from jcy_utils import *
 from upgrade_dialog import UpgradeDialog
+from pathlib import Path
 
 
 class FeatureController:
@@ -338,6 +339,54 @@ class FeatureController:
             # 道具-提醒
             Function.ITEM_NOTIFICATION.value: self.file_operations.modify_item_notification,
         }
+
+
+    def run_mklink_process(self):
+        # 源目录
+        source_dir = os.path.dirname(MOD_PATH)
+        link_name = "jcy"
+
+        # 1. 选择目标位置
+        target_parent = filedialog.askdirectory(title="请选择链接创建的 D2R 游戏根目录")
+        if not target_parent:
+            return
+        
+        # 使用 Path 获取文件夹名，不区分大小写判断
+        path_obj = Path(target_parent)
+        
+        if path_obj.name.lower() == "mods":
+            # 如果用户直接选了 mods 文件夹
+            target_path = os.path.join(target_parent, link_name)
+        else:
+            # 如果用户选的是游戏根目录，则拼上 mods
+            target_path = os.path.join(target_parent, "mods", link_name)
+        
+        # 自动创建中间的 mods 文件夹（如果不存在）
+        # mklink 要求其父目录必须存在，否则会失败
+        parent_dir = os.path.dirname(target_path)
+        if not os.path.exists(parent_dir):
+            try:
+                os.makedirs(parent_dir)
+            except Exception as e:
+                messagebox.showerror("权限错误", f"无法创建目录: {parent_dir}\n请尝试以管理员身份运行程序。")
+                return
+        
+        # 2. 构建并执行命令
+        cmd_source = os.path.normpath(source_dir)
+        cmd_target = os.path.normpath(target_path)
+        
+        # Windows 的 mklink 命令
+        command = f'mklink /d "{cmd_target}" "{cmd_source}"'
+
+        try:
+            # 执行命令
+            result = subprocess.check_output(command, shell=True, stderr=subprocess.STDOUT, text=True)
+            messagebox.showinfo("执行成功", f"符号链接已创建！\n\n输出信息：\n{result}")
+        except subprocess.CalledProcessError as e:
+            # 常见错误：管理员权限不足、目标已存在
+            messagebox.showerror("执行失败", f"错误详情：\n{e.output}")
+        except Exception as e:
+            messagebox.showerror("异常", str(e))
 
 
     def apply_settings_with_loading(self):

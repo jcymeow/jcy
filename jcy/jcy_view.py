@@ -10,7 +10,7 @@ import threading
 import time
 import threading
 import tkinter as tk
-from tkinter import font, filedialog, messagebox
+from tkinter import font, filedialog, messagebox, scrolledtext, ttk
 import uuid
 import win32gui
 import win32process
@@ -24,7 +24,6 @@ from jcy_paths import *
 from jcy_assets import *
 from jcy_utils import *
 from PIL import Image, ImageTk
-from tkinter import filedialog, messagebox, scrolledtext, ttk
 import jcy_config
 import subprocess  # 用系统默认播放器播放 flac
 
@@ -101,6 +100,9 @@ class FeatureView:
         button_frame.pack(side=tk.BOTTOM, pady=5)
 
         self.appdata_button = ttk.Button(button_frame, text="配置路径", command=self.controller.open_appdata)
+        self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
+
+        self.appdata_button = ttk.Button(button_frame, text="创建MOD链接", command=self.controller.run_mklink_process)
         self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
 
         self.appdata_button = ttk.Button(button_frame, text="说明文档", command=lambda: readme(self.notebook))
