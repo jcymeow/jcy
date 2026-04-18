@@ -7183,6 +7183,13 @@
     "zhCN": "\nÿc8术士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
   },
   {
+    "id": 52048,
+    "Key": "kanelp52048FCRIRONTitletooltip",
+    "enUS": "\nÿc8iron Wolf\n\nÿc2FCR 000 ÿc0=ÿc2 18F Bp\nFCR 008 ÿc0=ÿc2 17F Bp\nFCR 015 ÿc0=ÿc2 16F Bp\nFCR 026 ÿc0=ÿc2 15F Bp\nFCR 039 ÿc0=ÿc2 14F Bp\nFCR 058 ÿc0=ÿc2 13 Bp\nFCR 086 = 12F Bp\nFCR 138 = 11F Bp",
+    "zhTW": "\nÿc8鐵狼衛士\n\nÿc2FCR 000 ÿc0=ÿc2 18F档位\nFCR 008 ÿc0=ÿc2 17F档位\nFCR 015 ÿc0=ÿc2 16F档位\nFCR 026 ÿc0=ÿc2 15F档位\nFCR 039 ÿc0=ÿc2 14F档位\nFCR 058 ÿc0=ÿc2 13F档位\nFCR 086 ÿc0=ÿc2 12F档位\nFCR 138 ÿc0=ÿc2 11F档位",
+    "zhCN": "\nÿc8铁狼\n\nÿc2FCR 000 ÿc0=ÿc2 18F档位\nFCR 008 ÿc0=ÿc2 17F档位\nFCR 015 ÿc0=ÿc2 16F档位\nFCR 026 ÿc0=ÿc2 15F档位\nFCR 039 ÿc0=ÿc2 14F档位\nFCR 058 ÿc0=ÿc2 13F档位\nFCR 086 ÿc0=ÿc2 12F档位\nFCR 138 ÿc0=ÿc2 11F档位"
+  },
+  {
     "id": 52064,
     "Key": "jcy52064Titletooltip",
     "enUS": "Renewed Cold Rupture",
@@ -7370,5 +7377,19 @@
     "enUS": "ÿc8\nTalic(Whirlwind) Last Kill Dropÿc3\n+95 poison damage over 1 seconds\n+5~10% to Poison Skill Damage\n-5~10% to Enemy Poison Resistance\n+3~5% to Experience Gained\n+25~50% Extra Gold from Monsters\n+15~35% Better Chance of Getting Magic Items",
     "zhTW": "ÿc8\n塔力克(旋風斬) 最終擊殺掉落ÿc3\n+95 毒素傷害，時效 1 秒\n+5~10% 毒素技能傷害\n-5~10% 敵人毒素抗性\n+3~5% 獲得的經驗值\n+25~50% 怪物金幣掉落量提高\n+15~35% 尋獲魔法物品機率提高",
     "zhCN": "ÿc8\n塔力克(旋風斬) 最終擊殺掉落ÿc3\n+95 毒素傷害，時效 1 秒\n+5~10% 毒素技能傷害\n-5~10% 敵人毒素抗性\n+3~5% 獲得的經驗值\n+25~50% 怪物金幣掉落量提高\n+15~35% 尋獲魔法物品機率提高"
+  },
+  {
+    "id": 52094,
+    "Key": "wikihelp52093",
+    "enUS": "ÿc8\nTalic(Whirlwind) Last Kill Dropÿc3\n+95 poison damage over 1 seconds\n+5~10% to Poison Skill Damage\n-5~10% to Enemy Poison Resistance\n+3~5% to Experience Gained\n+25~50% Extra Gold from Monsters\n+15~35% Better Chance of Getting Magic Items",
+    "zhTW": "ÿc8\n塔力克(旋風斬) 最終擊殺掉落ÿc3\n+95 毒素傷害，時效 1 秒\n+5~10% 毒素技能傷害\n-5~10% 敵人毒素抗性\n+3~5% 獲得的經驗值\n+25~50% 怪物金幣掉落量提高\n+15~35% 尋獲魔法物品機率提高",
+    "zhCN": "ÿc8\n塔力克(旋風斬) 最終擊殺掉落ÿc3\n+95 毒素傷害，時效 1 秒\n+5~10% 毒素技能傷害\n-5~10% 敵人毒素抗性\n+3~5% 獲得的經驗值\n+25~50% 怪物金幣掉落量提高\n+15~35% 尋獲魔法物品機率提高"
+  },
+  {
+    "id": 52095,
+    "Key": "IronWolf",
+    "enUS": "Iron Wolf",
+    "zhTW": "鐵狼衛士",
+    "zhCN": "铁狼"
   }
 ]

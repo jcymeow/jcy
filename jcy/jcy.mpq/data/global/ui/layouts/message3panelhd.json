@@ -1420,13 +1420,12 @@
                                             "fields": {
                                                 "rect": {
                                                     "x": 10,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\sorceressicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 法师 @kanelp52056FCRSORTitletooltip",
+                                                "tooltipString": "@colorhuangse @Sorceress @kanelp52056FCRSORTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1435,14 +1434,13 @@
                                             "name": "amazon",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 90,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 130,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\amazonicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 亚马逊 @kanelp52057FCRAMATitletooltip",
+                                                "tooltipString": "@colorhuangse @Amazon @kanelp52057FCRAMATitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1451,14 +1449,13 @@
                                             "name": "barbarian",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 160,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 250,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\barbarianicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 野蛮人 @kanelp52058FCRBARTitletooltip",
+                                                "tooltipString": "@colorhuangse @Barbarian @kanelp52058FCRBARTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1467,62 +1464,70 @@
                                             "name": "paladin",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 230,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 370,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\paladinicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 圣骑士 @kanelp52059FCRPALTitletooltip",
+                                                "tooltipString": "@colorhuangse @Paladin @kanelp52059FCRPALTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
                                         {
                                             "type": "ButtonWidget",
-                                            "name": "HelmBar",
+                                            "name": "necromancer",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 300,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 490,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\necromancericon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 死灵 @kanelp52060FCRNECTitletooltip",
+                                                "tooltipString": "@colorhuangse @Necromancer @kanelp52060FCRNECTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
-                                        },
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "Widget",
+                                    "name": "Row2",
+                                    "fields": {
+                                        "rect": {
+                                            "x": 10,
+                                            "y": 200
+                                        }
+                                    },
+                                    "children": [
                                         {
                                             "type": "ButtonWidget",
-                                            "name": "HelmDru",
+                                            "name": "assassin",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 370,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 10,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\assassinicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 刺客 @kanelp52061FCRASSTitletooltip",
+                                                "tooltipString": "@colorhuangse @Assassin @kanelp52061FCRASSTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
                                         {
                                             "type": "ButtonWidget",
-                                            "name": "Circlet",
+                                            "name": "druid",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 440,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 130,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\druidicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 德鲁伊 @kanelp52062FCRDRUTitletooltip",
+                                                "tooltipString": "@colorhuangse @Druid @kanelp52062FCRDRUTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1531,14 +1536,28 @@
                                             "name": "warlock",
                                             "fields": {
                                                 "rect": {
-                                                    "x": 510,
-                                                    "y": 0,
-                                                    "scale": 0.6
+                                                    "x": 250,
+                                                    "y": 0
                                                 },
                                                 "filename": "hireables\\warlockicon",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse 术士 @kanelp52063FCRWARTitletooltip",
+                                                "tooltipString": "@colorhuangse @Warlock @kanelp52063FCRWARTitletooltip",
+                                                "tooltipStyle": "$StandardToolTipStyle"
+                                            }
+                                        },
+                                        {
+                                            "type": "ButtonWidget",
+                                            "name": "ironwolf",
+                                            "fields": {
+                                                "rect": {
+                                                    "x": 370,
+                                                    "y": 0
+                                                },
+                                                "filename": "hireables\\act3hireableicon",
+                                                "hoveredFrame": 0,
+                                                "pressedFrame": 0,
+                                                "tooltipString": "@colorhuangse @IronWolf @kanelp52048FCRIRONTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }
@@ -1552,7 +1571,7 @@
                             "fields": {
                                 "rect": {
                                     "x": 0,
-                                    "y": 960
+                                    "y": 1150
                                 }
                             },
                             "children": [
