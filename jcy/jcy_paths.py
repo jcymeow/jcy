@@ -94,6 +94,8 @@ SETTINGS_JSON = "settings.json"
 TERROR_ZONE_JSON = "terror_zone.json"
 # 窗口配置文件
 WIN_JSON = "win.json"
+# 密钥文件
+MACHINE_KEY = ".machine.key"
 # --- ASSETS文件 ---
 # LOGO
 BEAR_ICO = "bear.ico"
@@ -115,11 +117,13 @@ VERSION_PATH = CONFIG_PATH / DOT_VERSION
 # 账号文件
 ACCOUNTS_PATH = CONFIG_PATH / ACCOUNTS_JSON
 # 素材配置文件
-# 用户配置文件
 ASSETS_PATH = CONFIG_PATH / ASSETS_JSON
+# 用户配置文件
 USER_SETTINGS_PATH = CONFIG_PATH / SETTINGS_JSON
 # 恐怖地带文件
 TERROR_ZONE_PATH = CONFIG_PATH / TERROR_ZONE_JSON
+# 密钥文件
+MACHINE_KEY_PATH = CONFIG_PATH / MACHINE_KEY
 # 窗口配置文件
 WIN_PATH = CONFIG_PATH / WIN_JSON
 # LOGO
@@ -130,7 +134,7 @@ DONATE_WECHAT_PATH = get_assets_file(DONATE_WECHAT_PNG)
 HELP_PATH = get_assets_file(HELP_PNG)
 # Loading
 LOADING_PATH = get_assets_file(LOADING_GIF)
-# 默认配置i文件
+# 默认配置文件
 DEFAULT_SETTINGS_PATH = get_assets_file(SETTINGS_JSON)
 # HANDLE64
 HANDLE64_PATH = get_bin_file(HANDLE64_EXE)
@@ -232,6 +236,7 @@ __all__ = [
     'ACCOUNTS_PATH',
     'USER_SETTINGS_PATH',
     'TERROR_ZONE_PATH',
+    'MACHINE_KEY_PATH',
     'WIN_PATH',
     'LOGO_PATH',
     'DONATE_WECHAT_PATH',

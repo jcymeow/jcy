@@ -694,10 +694,6 @@ class FeatureStateManager:
 
     def save_settings(self, config: dict = None):
         """确保保存完整配置"""
-        
-        print(f"[保存] 正在写入配置到 {USER_SETTINGS_PATH}")
-        print(f"[保存] 包含的键: {list(config.keys())}")
-        
         try:
             with open(USER_SETTINGS_PATH, 'w', encoding='utf-8') as f:
                 json.dump(config, f, indent=2, ensure_ascii=False)

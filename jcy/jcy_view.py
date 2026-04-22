@@ -3,7 +3,6 @@ import webbrowser
 import hashlib
 import json
 import os
-import shutil
 import subprocess
 import sys
 import threading
@@ -14,8 +13,8 @@ from tkinter import font, filedialog, messagebox, scrolledtext, ttk
 import uuid
 import win32gui
 import win32process
-import requests, zipfile, tempfile
-from jcy_paths import USER_SETTINGS_PATH
+import requests
+from jcy_paths import MACHINE_KEY_PATH
 import pystray
 
 from cryptography.fernet import Fernet, InvalidToken
@@ -1403,17 +1402,36 @@ class D2RLauncherApp(tk.Frame):
         """
         获取本机唯一密钥（基于 MAC 地址派生）
         """
+        # 1. 尝试从独立文件读取
+        if os.path.exists(MACHINE_KEY_PATH):
+            try:
+                with open(MACHINE_KEY_PATH, 'rb') as f:
+                    key = f.read().strip()
+                    if key:
+                        return key
+            except Exception as e:
+                print(f"读取 Key 文件失败: {e}")
+            
+        # 2. 如果文件不存在，则生成
         node = uuid.getnode()
-        raw = str(node).encode()
-        sha = hashlib.sha256(raw).digest()
-        return base64.urlsafe_b64encode(sha[:32])  # Fernet 需要 32-byte base64 key
+        sha = hashlib.sha256(str(node).encode()).digest()
+        machine_key_bytes = base64.urlsafe_b64encode(sha[:32])
+
+        # 3. 立即持久化到独立文件
+        try:
+            with open(MACHINE_KEY_PATH, 'wb') as f:
+                f.write(machine_key_bytes)
+        except Exception as e:
+            print(f"保存 Key 文件失败: {e}")
+
+        return machine_key_bytes
+
 
     def encrypt(self, text: str) -> str:
         """
         加密文本（UTF-8） → base64编码密文
         """
-        f = Fernet(self.get_machine_key())
-        return f.encrypt(text.encode()).decode()
+        return self.fernet.encrypt(text.encode()).decode()
 
     def decrypt(self, token: str) -> str:
         """
@@ -1421,7 +1439,7 @@ class D2RLauncherApp(tk.Frame):
         """
         f = Fernet(self.get_machine_key())
         try:
-            return f.decrypt(token.encode()).decode()
+            return self.fernet.decrypt(token.encode()).decode()
         except InvalidToken:
             return token  # 可能是明文
         
