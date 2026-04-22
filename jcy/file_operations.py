@@ -3842,8 +3842,9 @@ class FileOperations:
 
         params = {
             "0": (False, ""),
-            "1": (True, "PausePanelMessage:ExitGame"),
+            "1": (False, "PausePanelMessage:ExitGame"),
             "2": (True, ""),
+            "3": (False, ""),
         }
 
         param = params.get(radio)
@@ -3862,7 +3863,8 @@ class FileOperations:
 
             hd_json["children"][3]["children"][1]["children"][0]["fields"]["acceptsEscKeyEverywhere"] = param[0]
             hd_json["children"][-1]["fields"]["message"] = param[1]
-
+            hd_json["children"][5]["children"][2]["children"][0]["fields"]["acceptsEscKeyEverywhere"] = ("3" == radio)
+            
             with open(hd_path, 'w', encoding="utf-8") as f:
                 json.dump(hd_json, f, ensure_ascii=False, indent=4)
 

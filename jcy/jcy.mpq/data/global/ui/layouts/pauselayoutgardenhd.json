@@ -178,7 +178,7 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": true
+                                "acceptsEscKeyEverywhere": false
                             }
                         }
                     ]
@@ -312,7 +312,8 @@
                                 "text/style": "$StyleFEButtonText",
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
-                                "sound": "cursor_select"
+                                "sound": "cursor_select",
+                                "acceptsEscKeyEverywhere": true
                             }
                         }
                     ]
