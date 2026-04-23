@@ -1856,7 +1856,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -1870,7 +1869,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -1878,7 +1876,6 @@ ASSETS = [
         "list": [
             "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
-            "data/global/ui/layouts/showitemspanelhd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
             "data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
@@ -1908,7 +1905,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -1922,7 +1918,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -1930,7 +1925,6 @@ ASSETS = [
         "list": [
             "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
-            "data/global/ui/layouts/showitemspanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_man_idle.lowend.sprite",
@@ -1962,7 +1956,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -1976,7 +1969,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -1984,7 +1976,6 @@ ASSETS = [
         "list": [
             "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
-            "data/global/ui/layouts/showitemspanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.sprite",
             "data/hd/global/ui/panel/hud_02/automap.lowend.sprite",
@@ -2042,7 +2033,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -2056,7 +2046,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -2064,7 +2053,6 @@ ASSETS = [
         "list": [
             "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
-            "data/global/ui/layouts/showitemspanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.sprite",
@@ -2097,7 +2085,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -2111,7 +2098,6 @@ ASSETS = [
                     "files": [
                         "data/global/ui/layouts/hudpanelbuttonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
-                        "data/global/ui/layouts/showitemspanelhd.json",
                     ]
                 }
             }
@@ -2119,7 +2105,6 @@ ASSETS = [
         "list": [
             "data/global/ui/layouts/hudpanelbuttonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
-            "data/global/ui/layouts/showitemspanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
