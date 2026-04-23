@@ -3124,38 +3124,45 @@ class FileOperations:
             return (0, 0)
         
         funcs = []
-
-        _files = [
-            r"data/global/ui/layouts/hudwarningshd.json",
-        ]
-        
-        _controls = {
-            "1": "OpenMiniBar",
-            "2": "OpenMiniHp",
-            "3": "OpenMiniCube",
-            "6": "OpenAltBtn",
+   
+        name_to_key = {
+            "OpenMiniBar": "1",
+            "OpenMiniHp": "2",
+            "OpenMiniCube": "3",
+            "OpenAltBtn": "6",
+            "OpenSwapBar": "7",
         }
+        keys_set = set(keys)    
         
-        # 1.load
+        # --- 控件设置 --- 
         json_data = None
-        json_path = os.path.join(MOD_PATH, _files[0])
+        json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudwarningshd.json")
         with open(json_path, 'r', encoding='utf-8') as f:
             json_data = json.load(f)
+        
+        modified = False
+        for child in json_data["children"]:
+            name = child.get("name")
+            key = name_to_key.get(name)
+            if key is None:
+                continue
 
-        # 2.modify 
-        for key, name in _controls.items():
-            for child in json_data["children"]:
-                if name == child["name"]:
-                    child["fields"]["message"] = child["fields"]["default"] if key in keys else ""
-                
-        # 3.write
-        with open(json_path, 'w', encoding="utf-8") as f:
-            json.dump(json_data, f, ensure_ascii=False, indent=4)
-        funcs.append((1, len(_files)))
+            fields = child.get("fields")
+            new_value = fields.get("default", "") if key in keys_set else ""
+            if fields.get("message") != new_value:
+                fields["message"] = new_value
+                modified = True
 
-        # --- 开启 宝石/材料/符文页3合1 ---
+        if modified:
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            funcs.append((1, 1))
+        else:
+            funcs.append((0, 1))
+
+        # --- 开启 仓库3合1 ---
         banks = [r"data/global/ui/layouts/bankexpansionlayouthd.json"]
-        funcs.append(self.common_rename(banks, "5" in keys))
+        funcs.append(self.common_rename(banks, "5" in keys_set))
 
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))

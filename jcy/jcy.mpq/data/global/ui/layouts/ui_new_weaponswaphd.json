@@ -1,0 +1,25 @@
+{
+    "type": "PlayerInventoryPanel",
+    "name": "UI_New_WeaponSwap",
+    "fields": {
+        "priority": -1,
+        "anchor": {
+            "x": 0.5,
+            "y": 1
+        }
+    },
+    "children": [
+        {
+            "type": "ImageWidget",
+            "name": "background_right_arm",
+            "fields": {
+                "rect": {
+                    "x": -59,
+                    "y": -1380
+                },
+                "filename": "PANEL\\Inventory\\weapon_swap",
+                "frame": 1
+            }
+        }
+    ]
+}

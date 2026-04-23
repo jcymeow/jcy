@@ -2,7 +2,7 @@
   "type": "ShowItemsPanel",
   "name": "ShowItemsPanel",
   "fields": {
-    "priority": -10,
+    "priority": -1,
     "showDurationMilliseconds": 10000,
     "anchor": {
       "x": 0.5,
@@ -15,8 +15,8 @@
       "name": "JcyAlt",
       "fields": {
         "rect": {
-          "x": -805,
-          "y": -300
+          "x": -100,
+          "y": -1380
         },
         "filename": "PANEL/PARTY/Eyebtn"
       }

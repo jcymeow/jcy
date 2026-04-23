@@ -203,6 +203,23 @@
         },
         {
             "type": "TimerWidget",
+            "name": "CloseInventory",
+            "fields": {
+                "time": 1,
+                "message": "PlayerInventoryPanelMessage:Close"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "OpenMiniBar",
+            "fields": {
+                "time": 1,
+                "message": "PanelManager:OpenPanel:hudpanelbuttons",
+                "default": "PanelManager:OpenPanel:hudpanelbuttons"
+            }
+        },
+        {
+            "type": "TimerWidget",
             "name": "OpenMiniHp",
             "fields": {
                 "time": 1,
@@ -221,28 +238,20 @@
         },
         {
             "type": "TimerWidget",
-            "name": "CloseInventory",
-            "fields": {
-                "time": 1,
-                "message": "PlayerInventoryPanelMessage:Close"
-            }
-        },
-        {
-            "type": "TimerWidget",
-            "name": "OpenMiniBar",
-            "fields": {
-                "time": 1,
-                "message": "PanelManager:OpenPanel:hudpanelbuttons",
-                "default": "PanelManager:OpenPanel:hudpanelbuttons"
-            }
-        },
-        {
-            "type": "TimerWidget",
             "name": "OpenAltBtn",
             "fields": {
-                "time": 0.01,
+                "time": 1,
                 "message": "",
                 "default": "PanelManager:OpenPanel:ShowItemsPanel"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "OpenSwapBar",
+            "fields": {
+                "time": 1,
+                "message": "PanelManager:OpenPanel:UI_New_WeaponSwap",
+                "default": "PanelManager:OpenPanel:UI_New_WeaponSwap"
             }
         },
         {
