@@ -2389,7 +2389,7 @@ ASSETS = [
     },
     # 亚马逊(1000, 1100)
     {
-        "id": 1101,
+        "id": 1001,
         "name": "AMA_皮肤_1",
         "category": AMA,
         "type": AMA,
