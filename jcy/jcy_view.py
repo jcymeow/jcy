@@ -104,6 +104,13 @@ class FeatureView:
         self.appdata_button = ttk.Button(button_frame, text="创建MOD链接", command=self.controller.run_mklink_process)
         self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
 
+        self.appdata_button = ttk.Button(
+            button_frame, 
+            text="全局重置", 
+            command=lambda: self.controller.upgrade_setting(manual=True)
+        )
+        self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
+
         self.appdata_button = ttk.Button(button_frame, text="说明文档", command=lambda: readme(self.notebook))
         self.appdata_button.pack(side=tk.LEFT, padx=10, ipady=5)
 

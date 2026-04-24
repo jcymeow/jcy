@@ -79,23 +79,7 @@ class FeatureController:
         # 升级检查
         need_upgrade = ensure_appdata_files()
         if need_upgrade:
-            # 同步APP信息到JSON
-            self.file_operations.sync_app_data()
-
-            # 创建升级对话框
-            total_steps = 3  # 你可以根据升级流程自定义
-            self.upgrade_dialog = UpgradeDialog(master, total_steps)
-            self.upgrade_dialog.update()  # 强制刷新UI，让对话框立即显示
-
-            # 执行升级（阻塞式，但 dialog 可见）
-            self._upgrade_config(dialog=self.upgrade_dialog)
-
-            # 升级完成关闭 dialog
-            self.upgrade_dialog.destroy()
-            self.upgrade_dialog = None
-
-            # 更新 current_states
-            jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
+            self.upgrade_setting()
 
         # ---------------- 恐怖区域回调 ----------------
         def notify_fetch_success(data, **kwargs):
@@ -170,17 +154,14 @@ class FeatureController:
     def _upgrade_config(self, dialog=None):
         """执行完整的配置升级流程，可传入升级 dialog 显示进度"""
         try:
-            if dialog:
-                dialog.log("⚙ 正在升级配置文件...")
-
+            dialog.log("⚙ 正在升级配置文件...")
             # 加载配置
             default_config = load_default_config()
             user_config = load_user_config()
 
-            if dialog:
-                dialog.log("🔄 合并默认配置与用户配置...")
 
             # 合并配置
+            dialog.log("🔄 合并默认配置与用户配置...")
             merged_config = merge_configs(default_config, user_config)
 
             # 保存合并后的配置
@@ -188,9 +169,8 @@ class FeatureController:
             self.feature_state_manager.load_settings()
             jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
 
-            if dialog:
-                dialog.log("📂 同步配置到 Mod 文件...")
 
+            dialog.log("📂 同步配置到 Mod 文件...")
             # 同步配置到 Mod 文件
             self._sync_config_mods(dialog)
 
@@ -207,6 +187,7 @@ class FeatureController:
                         if dialog:
                             dialog.log(f"{asset.get('name')} 应用失败, {result.get('message')}")
                             print(f"{asset.get('name')} 应用失败, {result.get('message')}")
+                    dialog.step()
 
             if dialog:
                 dialog.log("✅ 升级完成!")
@@ -226,6 +207,8 @@ class FeatureController:
                 handler(value)
                 if dialog:
                     dialog.log(f"[同步] {fid}: {value}")
+                    dialog.step()
+
 
     
     def _setup_feature_handlers(self):
@@ -341,6 +324,31 @@ class FeatureController:
         }
 
 
+    def upgrade_setting(self, manual=False):
+        # 如果是手动触发，则需要确认
+        if manual:
+            confirm = messagebox.askyesno("确认重置", "将基于已保存的配置，重置所有设置及相关素材？", icon=messagebox.WARNING)
+            if not confirm:
+                return  # 用户取消，直接跳出
+            
+        # 同步APP信息到JSON
+        self.file_operations.sync_app_data()
+
+        # 创建升级对话框
+        total_steps = len(jcy_config.SETTINGS)
+        self.upgrade_dialog = UpgradeDialog(self.master, total_steps)
+        self.upgrade_dialog.update()  # 强制刷新UI，让对话框立即显示
+
+        # 执行升级（阻塞式，但 dialog 可见）
+        self._upgrade_config(dialog=self.upgrade_dialog)
+
+        # 升级完成关闭 dialog
+        self.upgrade_dialog.destroy()
+        self.upgrade_dialog = None
+
+        # 更新 current_states
+        jcy_config.SETTINGS = copy.deepcopy(self.feature_state_manager.loaded_states)
+    
     def run_mklink_process(self):
         # 源目录
         source_dir = os.path.dirname(MOD_PATH)
