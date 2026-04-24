@@ -335,7 +335,7 @@ class FeatureController:
         self.file_operations.sync_app_data()
 
         # 创建升级对话框
-        total_steps = len(jcy_config.SETTINGS)
+        total_steps = len(jcy_config.SETTINGS) + sum(1 for v in jcy_config.ASSET_CONFIG.values() if v != 0)
         self.upgrade_dialog = UpgradeDialog(self.master, total_steps)
         self.upgrade_dialog.update()  # 强制刷新UI，让对话框立即显示
 
