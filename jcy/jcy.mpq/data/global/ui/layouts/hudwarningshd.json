@@ -203,14 +203,6 @@
         },
         {
             "type": "TimerWidget",
-            "name": "CloseInventory",
-            "fields": {
-                "time": 1,
-                "message": "PlayerInventoryPanelMessage:Close"
-            }
-        },
-        {
-            "type": "TimerWidget",
             "name": "OpenMiniBar",
             "fields": {
                 "time": 1,
@@ -252,6 +244,14 @@
                 "time": 1,
                 "message": "PanelManager:OpenPanel:UI_New_WeaponSwap",
                 "default": "PanelManager:OpenPanel:UI_New_WeaponSwap"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "CloseInventory",
+            "fields": {
+                "time": 1,
+                "message": "PlayerInventoryPanelMessage:Close"
             }
         },
         {
