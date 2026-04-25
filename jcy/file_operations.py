@@ -3086,7 +3086,7 @@ class FileOperations:
             funcs.append((0, 1))
             print(e)
 
-        # 8.添加 重开地狱游戏按钮
+        # 8.添加 重开地狱游戏按钮, 通过 按钮框和文字 控制显隐
         try:
             pause_data = None
             pause_path = os.path.join(MOD_PATH, "data/global/ui/layouts/pauselayoutgardenhd.json")
@@ -3096,14 +3096,15 @@ class FileOperations:
 
             for child in pause_data["children"]:
                 if "TableWidget" == child.get("type", "") and "PauseTableExtra" == child.get("name", ""):
-                    # 移除 quickremakehellgame 元素
-                    child["children"] = [c for c in child["children"] if c.get("name") != "quickremakehellgame"]
-                    # 添加 quickremakehellgame 元素
-                    if "8" in keys:
-                        lng = jcy_config.SETTINGS.get(Language.ZHCN.value, Language.ZHTW.value)
-                        entity = copy.deepcopy(ENTITY_PAUSE_REMAKE_HELL_GAME)
-                        entity["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
-                        child["children"].append(entity)
+                    for grand_child in child["children"]:
+                        if "quickremakehellgame" == grand_child.get("name", ""):
+                            if "8" in keys:
+                                lng = jcy_config.SETTINGS.get(Language.ZHCN.value, Language.ZHTW.value)
+                                grand_child["children"][0]["fields"]["filename"] = "PauseMenu\\PauseButton"
+                                grand_child["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
+                            else:
+                                grand_child["children"][0]["fields"]["filename"] = ""
+                                grand_child["children"][0]["fields"]["textString"] = ""
 
             with open(pause_path, 'w', encoding="utf-8") as f:
                 json.dump(pause_data, f, ensure_ascii=False, indent=4)
