@@ -437,6 +437,10 @@ class FeatureController:
         """
         self.dialogs = "" # 每次应用设置前清空 dialogs
         changes_detected = False
+        
+        # 更新jcy_config.SETTINGS
+        for fid, var in self.feature_view.feature_vars.items():
+            jcy_config.SETTINGS[fid] = var.get()
 
         # -------------------- 自定义面板功能 --------------------
         for tab in self.feature_config.all_features_config.get("tabs"):
@@ -457,7 +461,7 @@ class FeatureController:
                         else:
                             self.dialogs += f"{text} 操作文件数量 {result[0]}/{result[1]} {result[2] if len(result) > 2 else ''}\n"
 
-        # -- 屏蔽道具 --
+        # -- 道具提醒 --
         for fid, info in self.feature_config.all_features_config["checktable"].items():
             current_value = jcy_config.SETTINGS.get(fid)
             loaded_value = self.feature_state_manager.loaded_states.get(fid)
@@ -470,14 +474,10 @@ class FeatureController:
 
         # 保存当前状态到 settings.json
         self.feature_state_manager.save_settings(jcy_config.SETTINGS)
-        self.feature_state_manager.loaded_states = copy.deepcopy(jcy_config.SETTINGS)
+        jcy_config.SETITEMS = self.feature_state_manager.load_settings()
 
         # 显示结果
         return changes_detected
-
-
-    def execute_feature_action(self, feature_id: str, value):
-        jcy_config.SETTINGS[feature_id] = value
 
 
     def open_appdata(self):

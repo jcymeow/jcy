@@ -129,6 +129,7 @@ class FeatureView:
         # --- 符文提醒 ---
         rune_tab = ItemNotificationTable(notebook, config_dict=jcy_config.SETTINGS, config_key=Function.ITEM_NOTIFICATION.value)
         self.add_tab(rune_tab, "道具提醒")
+        self.feature_vars[Function.ITEM_NOTIFICATION.value] = rune_tab
 
         # --- 素材管理 ---
         asset_tab = AssetManagerUI(notebook, self.controller)
@@ -184,100 +185,117 @@ class FeatureView:
             colspan = child.get("colspan", total_columns)  # 默认占满整行
             
             if RADIO == type:
-                group = LabeledRadioGroup(
+                feature = LabeledRadioGroup(
                     tab,
                     feature_id=fid,
-                    data=child,
-                    command=self.controller.execute_feature_action
+                    data=child
                 )
                 # 如果当前行剩余列不足，换行
                 if current_col + colspan > total_columns:
                     current_row += 1
                     current_col = 0
                 # 放置控件
-                group.grid(row=current_row, column=current_col, columnspan=colspan,
+                feature.grid(row=current_row, column=current_col, columnspan=colspan,
                         sticky="nsew", padx=10, pady=5)
                 # 更新当前列索引
                 current_col += colspan
                 # 保存引用
-                self.feature_vars[fid] = group
+                self.feature_vars[fid] = feature
             
             elif CHECK == type:
-                group = LabeledCheckGroup(
+                feature = LabeledCheckGroup(
                     tab,
                     feature_id=fid,
-                    data=child,
-                    command=self.controller.execute_feature_action
+                    data=child
                 )
                 # 如果当前行剩余列不足，换行
                 if current_col + colspan > total_columns:
                     current_row += 1
                     current_col = 0
                 # 控件
-                group.grid(row=current_row, column=current_col, columnspan=colspan, 
+                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
                            sticky="ew", padx=10, pady=5)
                 # 更新当前列索引
                 current_col += colspan
-                self.feature_vars[fid] = group
+                self.feature_vars[fid] = feature
 
             elif SPIN == type:
                 text = child.get("text")
                 _form = child.get("params").get("form")
                 _to = child.get("params").get("to")
-                spinbox = LabeledSpinBox(
+                feature = LabeledSpinBox(
                     master=tab,
                     feature_id=fid,
                     text=text,    
                     from_=_form, to=_to, increment=1,
-                    default_value=0,
-                    command=self.controller.execute_feature_action
+                    default_value=0
                 )
                 # 如果当前行剩余列不足，换行
                 if current_col + colspan > total_columns:
                     current_row += 1
                     current_col = 0
 
-                spinbox.grid(row=current_row, column=current_col, columnspan=colspan, 
+                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
                              sticky="ew", padx=20, pady=5)
                 # 更新当前列索引
                 current_col += colspan
-                self.feature_vars[fid] = spinbox  # 如果你要后面取值
+                self.feature_vars[fid] = feature  # 如果你要后面取值
 
             elif TEXT == type:
                 text = child.get("text")
-                spinbox = LabeledEntry(
+                feature = LabeledEntry(
                     master=tab,
                     feature_id=fid,
                     text=text,    
-                    default_value="0",
-                    command=self.controller.execute_feature_action
+                    default_value="0"
                 )
                 # 如果当前行剩余列不足，换行
                 if current_col + colspan > total_columns:
                     current_row += 1
                     current_col = 0
 
-                spinbox.grid(row=current_row, column=current_col, columnspan=colspan, 
+                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
                              sticky="ew", padx=20, pady=5)
                 # 更新当前列索引
                 current_col += colspan
-                self.feature_vars[fid] = spinbox  # 如果你要后面取值
+                self.feature_vars[fid] = feature  # 如果你要后面取值
+
+            elif ARRAY == type:
+                feature = LabeledIntArray(
+                    master=tab,
+                    feature_id=fid,
+                    text=child.get("text"),
+                    length=child.get("length"),
+                    labels=child.get("labels"),
+                    default_values=child.get("values"),
+                    min_value=child.get("min"),
+                    max_value=child.get("max")
+                )
+                # 如果当前行剩余列不足，换行
+                if current_col + colspan > total_columns:
+                    current_row += 1
+                    current_col = 0
+
+                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                             sticky="ew", padx=20, pady=5)
+                # 更新当前列索引
+                current_col += colspan
+                self.feature_vars[fid] = feature  # 如果你要后面取值
 
             elif LOCATION == child["type"]:
-                group = LabeledCoordinate(
+                feature = LabeledCoordinate(
                     tab,
-                    feature_id=child["fid"],
-                    data=child,
-                    command=self.controller.execute_feature_action
+                    feature_id=fid,
+                    data=child
                 )
                 # 自动换行逻辑
                 if current_col + colspan > total_columns:
                     current_row += 1
                     current_col = 0
-                group.grid(row=current_row, column=current_col, columnspan=colspan,
+                feature.grid(row=current_row, column=current_col, columnspan=colspan,
                         sticky="ew", padx=10, pady=5)
                 current_col += colspan
-                self.feature_vars[child["fid"]] = group
+                self.feature_vars[fid] = feature
 
             elif Function.TERROR_ZONE_TABLE.value == type:
                 current_row += 1
@@ -532,10 +550,9 @@ class FeatureView:
 
 
 class LabeledRadioGroup(ttk.LabelFrame):
-    def __init__(self, master, feature_id, data, default_selected=None, command=None, **kwargs):
+    def __init__(self, master, feature_id, data, default_selected=None, **kwargs):
         super().__init__(master, text=data["text"], **kwargs)
         self.feature_id = feature_id
-        self.command = command
         self.var = tk.StringVar(value=default_selected)
 
         params = data.get("params", {})
@@ -547,13 +564,9 @@ class LabeledRadioGroup(ttk.LabelFrame):
             params = merged 
 
         for j, (key, label) in enumerate(params.items()):
-            rb = ttk.Radiobutton(self, text=label, value=key, variable=self.var, command=self._on_select)
+            rb = ttk.Radiobutton(self, text=label, value=key, variable=self.var)
             rb.grid(row=0, column=j, sticky="ew", padx=5, pady=5)
             self.columnconfigure(j, weight=1)
-
-    def _on_select(self):
-        if self.command:
-            self.command(self.feature_id, self.var.get())
 
     def get(self):
         return self.var.get()
@@ -566,10 +579,9 @@ class LabeledRadioGroup(ttk.LabelFrame):
         return self.cget("text")
 
 class LabeledCheckGroup(ttk.LabelFrame):
-    def __init__(self, master, feature_id, data, default_selected=None, command=None, **kwargs):
+    def __init__(self, master, feature_id, data, default_selected=None, **kwargs):
         super().__init__(master, text=data["text"], **kwargs)
         self.feature_id = feature_id
-        self.command = command
         self.vars = {}
 
         if default_selected is None:
@@ -585,7 +597,7 @@ class LabeledCheckGroup(ttk.LabelFrame):
             label = param["text"] if isinstance(param, dict) else str(param)
 
             var = tk.BooleanVar(value=(key in default_selected))
-            chk = ttk.Checkbutton(self, text=translate(label), variable=var, command=self._on_check)
+            chk = ttk.Checkbutton(self, text=translate(label), variable=var)
             
             r = idx // columns
             c = (idx % columns) * 2  # 每列留一列给按钮
@@ -600,11 +612,6 @@ class LabeledCheckGroup(ttk.LabelFrame):
         # 配置列权重，让列均匀伸缩
         for c in range(columns * 2):
             self.grid_columnconfigure(c, weight=1)
-
-    def _on_check(self):
-        if self.command:
-            selected = self.get()
-            self.command(self.feature_id, selected)
 
     def get(self):
         return [key for key, var in self.vars.items() if var.get()]
@@ -622,7 +629,7 @@ class LabeledCheckGroup(ttk.LabelFrame):
 
 class LabeledSpinBox(ttk.LabelFrame):
     def __init__(self, master, feature_id, text, from_=0, to=9, increment=1,
-                 default_value=0, command=None, **kwargs):
+                 default_value=0, **kwargs):
         """
         :param master: 父容器
         :param feature_id: 功能id，用于回调
@@ -631,12 +638,10 @@ class LabeledSpinBox(ttk.LabelFrame):
         :param to: 最大值
         :param increment: 步进
         :param default_value: 初始值
-        :param command: 选值变动回调，签名为 command(feature_id, value)
         :param kwargs: 传给 ttk.LabelFrame 的其他参数
         """
         super().__init__(master, text=text, **kwargs)
         self.feature_id = feature_id
-        self.command = command
 
         # 容器（为了控制内边距）
         spin_container = ttk.Frame(self)
@@ -651,14 +656,9 @@ class LabeledSpinBox(ttk.LabelFrame):
             increment=increment,
             textvariable=self.var,
             state='readonly',
-            command=self._on_change,
             width=12
         )
         self.spin.pack(anchor=tk.W, padx=10, pady=2)
-
-    def _on_change(self):
-        if self.command:
-            self.command(self.feature_id, self.var.get())
 
     def get(self):
         """返回当前值"""
@@ -672,7 +672,6 @@ class LabeledSpinBox(ttk.LabelFrame):
 class LabeledEntry(ttk.LabelFrame):
     def __init__(self, master, feature_id, text,
                  default_value="",
-                 command=None,
                  readonly=False,
                  width=20,
                  **kwargs):
@@ -681,7 +680,6 @@ class LabeledEntry(ttk.LabelFrame):
         :param feature_id: 功能id，用于回调
         :param text: LabelFrame 标题
         :param default_value: 初始值
-        :param command: 内容变动回调，签名为 command(feature_id, value)
         :param readonly: 是否只读
         :param width: 输入框宽度
         :param kwargs: 传给 ttk.LabelFrame 的其他参数
@@ -689,7 +687,6 @@ class LabeledEntry(ttk.LabelFrame):
         super().__init__(master, text=text, **kwargs)
 
         self.feature_id = feature_id
-        self.command = command
 
         # 容器（统一布局风格）
         entry_container = ttk.Frame(self)
@@ -708,13 +705,6 @@ class LabeledEntry(ttk.LabelFrame):
         if readonly:
             self.entry.state(['readonly'])
 
-        # 监听变化（比 Spinbox 更可靠）
-        self.var.trace_add("write", self._on_change)
-
-    def _on_change(self, *args):
-        if self.command:
-            self.command(self.feature_id, self.var.get())
-
     def get(self):
         """返回当前值"""
         return self.var.get()
@@ -724,12 +714,110 @@ class LabeledEntry(ttk.LabelFrame):
         self.var.set(value)
 
 
+class LabeledIntArray(ttk.LabelFrame):
+    def __init__(self,
+                 master,
+                 feature_id,
+                 text,
+                 length=1,
+                 labels=None,
+                 default_values=None,
+                 min_value=None,
+                 max_value=None,
+                 width=6,
+                 max_per_row=3,
+                 **kwargs):
+
+        super().__init__(master, text=f"{text}: {min_value}-{max_value}", **kwargs)
+
+        self.feature_id = feature_id
+        self.length = length
+        self.min = min_value
+        self.max = max_value
+        self.max_per_row = max_per_row
+
+        # -------------------------
+        # 数据兜底
+        # -------------------------
+        if labels is None:
+            labels = [f"[{i}]" for i in range(length)]
+        else:
+            labels = list(labels)
+
+        if default_values is None:
+            default_values = [0] * length
+        else:
+            default_values = list(default_values)
+
+        labels = labels[:length]
+        default_values = default_values[:length]
+
+        if len(labels) < length:
+            labels += [f"[{i}]" for i in range(len(labels), length)]
+
+        if len(default_values) < length:
+            default_values += [0] * (length - len(default_values))
+
+        # -------------------------
+        # UI容器
+        # -------------------------
+        container = ttk.Frame(self)
+        container.pack(fill=tk.X, padx=10, pady=5)
+
+        self.vars = []
+        self.entries = []
+
+        # -------------------------
+        # 创建 UI
+        # -------------------------
+        for i in range(length):
+
+            row = i // max_per_row
+            col = i % max_per_row
+
+            item_frame = ttk.Frame(container)
+            item_frame.grid(row=row, column=col, padx=12, pady=5, sticky="w")
+
+            var = tk.StringVar(value=str(default_values[i]))
+
+            lbl = ttk.Label(item_frame, text=labels[i] + ":")
+            lbl.grid(row=0, column=0, sticky="e", padx=(0, 5))
+
+            entry = ttk.Entry(item_frame, textvariable=var, width=width)
+            entry.grid(row=0, column=1, sticky="w")
+
+            self.vars.append(var)
+            self.entries.append(entry)
+
+    # -------------------------
+    # 获取数据（纯读取，不修正UI）
+    # -------------------------
+    def get(self):
+        result = []
+
+        for var in self.vars:
+            try:
+                result.append(int(var.get()))
+            except ValueError:
+                result.append(0)
+
+        return result
+
+    # -------------------------
+    # 设置数据（纯写UI）
+    # -------------------------
+    def set(self, values):
+        if values is None:
+            values = [0] * self.length
+
+        for i in range(self.length):
+            self.vars[i].set(str(values[i]))
+
+
 class LabeledCoordinate(ttk.LabelFrame):
-    def __init__(self, master, feature_id, data,
-                 command=None, **kwargs):
+    def __init__(self, master, feature_id, data, **kwargs):
         super().__init__(master, text=data.get("text", ""), **kwargs)
         self.feature_id = feature_id
-        self.command = command
 
         # 从 data["params"] 获取默认值
         params = data.get("params", {})
@@ -746,13 +834,6 @@ class LabeledCoordinate(ttk.LabelFrame):
         ttk.Label(self, text="Y:").grid(row=0, column=2, padx=2, pady=2, sticky="w")
         entry_y = ttk.Entry(self, textvariable=self._var_y, width=6)
         entry_y.grid(row=0, column=3, padx=2, pady=2, sticky="w")
-
-        self._var_x.trace_add("write", self._on_change)
-        self._var_y.trace_add("write", self._on_change)
-
-    def _on_change(self, *args):
-        if self.command:
-            self.command(self.feature_id, self.get())
 
     def get(self):
         """返回整数坐标"""
@@ -773,148 +854,6 @@ class LabeledCoordinate(ttk.LabelFrame):
             y = int(value.get("y", 0))
             self._var_x.set(str(x))
             self._var_y.set(str(y))
-
-
-class TableWithCheckbox(tk.Frame):
-    def __init__(self, master, columns, data,
-                 config_dict=None, config_key=None,
-                 col_width=14, wrap_px=0,
-                 on_change=None,
-                 **kwargs):
-        super().__init__(master, **kwargs)
-        self.columns      = columns
-        self.data         = data
-        self.config_dict  = config_dict or {}
-        self.config_key   = config_key
-        self.on_change    = on_change
-
-        if self.config_key and self.config_key not in self.config_dict:
-            self.config_dict[self.config_key] = {}
-        self.state_dict = self.config_dict[self.config_key] if self.config_key else {}
-
-        # ---------- 滚动容器 ----------
-        self.canvas = tk.Canvas(self, highlightthickness=0)
-        self.vbar   = tk.Scrollbar(self, orient="vertical",   command=self.canvas.yview)
-        self.hbar   = tk.Scrollbar(self, orient="horizontal", command=self.canvas.xview)
-        self.canvas.configure(yscrollcommand=self.vbar.set, xscrollcommand=self.hbar.set)
-        # 支持鼠标滚轮滚动（Windows）
-        def _on_mousewheel(event):
-            self.canvas.yview_scroll(-1 * int(event.delta / 120), "units")
-
-        self.canvas.bind_all("<MouseWheel>", _on_mousewheel)  # Windows
-        self.canvas.bind_all("<Button-4>", lambda e: self.canvas.yview_scroll(-1, "units"))  # Linux 上滚轮向上
-        self.canvas.bind_all("<Button-5>", lambda e: self.canvas.yview_scroll(1, "units"))   # Linux 上滚轮向下
-
-        self.vbar.pack(side="right", fill="y")
-        self.hbar.pack(side="bottom", fill="x")
-        self.canvas.pack(side="left", fill="both", expand=True)
-
-        self._tbl = tk.Frame(self.canvas)
-        tbl_window = self.canvas.create_window((0, 0), window=self._tbl, anchor="nw")
-
-        def _on_config(event=None):
-            self.canvas.configure(scrollregion=self.canvas.bbox("all"))
-        self._tbl.bind("<Configure>", _on_config)
-        self.canvas.bind("<Configure>", lambda e: self.canvas.itemconfigure(tbl_window, width=e.width))
-
-        self.vars    = []
-        self.row_ids = []
-
-        # 表头全选
-        self._select_all_var = tk.BooleanVar(value=False)
-        frame = tk.Frame(self._tbl, borderwidth=1, relief="solid")
-        frame.grid(row=0, column=0, sticky="nsew")
-        tk.Checkbutton(frame, text="", variable=self._select_all_var,
-                       command=self._toggle_all).pack(expand=True, fill="both")
-
-        # 其他表头
-        for j, col in enumerate(columns, start=1):
-            tk.Label(self._tbl, text=col, width=col_width, wraplength=wrap_px,
-                     borderwidth=1, relief="solid", anchor="w").grid(row=0, column=j, sticky="nsew")
-
-        # 表体
-        for i, row in enumerate(data, start=1):
-            rid = str(row[0])
-            self.row_ids.append(rid)
-
-            var = tk.BooleanVar(value=self.state_dict.get(rid, False))
-            self.vars.append(var)
-
-            frame = tk.Frame(self._tbl, borderwidth=1, relief="solid")
-            frame.grid(row=i, column=0, sticky="nsew")
-            tk.Checkbutton(frame, variable=var, command=self._make_callback(), anchor="center").pack(expand=True, fill="both")
-
-            for j, text in enumerate(row[1:], start=1):
-                tk.Label(self._tbl, text=text, width=col_width,
-                         wraplength=wrap_px, borderwidth=1, relief="solid",
-                         anchor="w", justify="left").grid(row=i, column=j, sticky="nsew")
-
-        for c in range(len(columns) + 1):
-            self._tbl.grid_columnconfigure(c, weight=1)
-
-        self.after(1, lambda: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
-        self._enable_mousewheel_scroll()
-
-    def get(self):
-        """返回 {id: bool}"""
-        return {rid: var.get() for rid, var in zip(self.row_ids, self.vars)}
-
-    def set(self, state_dict: dict):
-        """根据字典批量设定勾选状态"""
-        for rid, var in zip(self.row_ids, self.vars):
-            var.set(state_dict.get(rid, False))
-        # 同步表头全选状态
-        self._select_all_var.set(all(var.get() for var in self.vars))
-
-    def update_config(self):
-        """把当前勾选同步进外部 config_dict"""
-        if self.config_key:
-            self.config_dict[self.config_key] = self.get()
-
-    def _make_callback(self):
-        def callback():
-            if self.on_change:
-                self.on_change(self.get())
-            # 行点击时自动刷新表头全选状态
-            self._select_all_var.set(all(var.get() for var in self.vars))
-        return callback
-    
-    def _toggle_all(self):
-        new_state = self._select_all_var.get()
-        for var in self.vars:
-            var.set(new_state)
-        if self.on_change:
-            self.on_change(self.get())
-
-    def _enable_mousewheel_scroll(self):
-        """鼠标滚入 Canvas 时启用滚轮滚动，只绑定 Canvas，不使用全局 bind_all"""
-        def _on_mousewheel(event):
-            # Windows / macOS
-            if event.num == 4 or event.delta > 0:
-                self.canvas.yview_scroll(-1, "units")
-            elif event.num == 5 or event.delta < 0:
-                self.canvas.yview_scroll(1, "units")
-            return "break"
-
-        # 鼠标进入 Canvas 时绑定滚轮
-        def _bind_scroll(event):
-            if sys.platform.startswith("win") or sys.platform == "darwin":
-                self.canvas.bind("<MouseWheel>", _on_mousewheel)
-            else:
-                # Linux 下滚轮事件
-                self.canvas.bind("<Button-4>", _on_mousewheel)
-                self.canvas.bind("<Button-5>", _on_mousewheel)
-
-        # 鼠标离开 Canvas 时解绑滚轮
-        def _unbind_scroll(event):
-            if sys.platform.startswith("win") or sys.platform == "darwin":
-                self.canvas.unbind("<MouseWheel>")
-            else:
-                self.canvas.unbind("<Button-4>")
-                self.canvas.unbind("<Button-5>")
-
-        self.canvas.bind("<Enter>", _bind_scroll)
-        self.canvas.bind("<Leave>", _unbind_scroll)
 
 
 class ItemNotificationTable(tk.Frame):
