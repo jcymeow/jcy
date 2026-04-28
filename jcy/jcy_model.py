@@ -63,6 +63,17 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.ARROW_BOLT_TIPS.value,
+                            "type": ARRAY,
+                            "text": "弓弩弹药量提示",
+                            "colspan": 100,
+                            "length": 3,
+                            "labels": ["白色提示", "黄色提示", "红色提示"],
+                            "values": [50, 25, 10],
+                            "min": 0,
+                            "max": 500,
+                        },
+                        {
                             "type": SEPARATOR
                         },
                         # {
@@ -653,7 +664,6 @@ class FeatureConfig:
             ],
             "checktable": {
                 Function.ITEM_NOTIFICATION.value: "道具提醒",
-                # Function.ITEM_FILTER.value: "道具过滤"
             }
 
         }

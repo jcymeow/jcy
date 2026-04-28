@@ -2818,6 +2818,26 @@ class FileOperations:
             json.dump(json_data, f, ensure_ascii=False, indent=4)
         
         return 1, 1
+    
+
+    def modify_arrow_bolt_tip(self, value: list):
+        """修改弓弩弹药量提示"""
+        json_data = None
+        json_path = os.path.join(MOD_PATH, "data/global/ui/layouts/hudwarningsfakehd.json")
+        with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+    
+        amounts = json_data["children"][-1]["children"][0]["fields"]
+        amounts["amountsArrowsBolts"] = {
+            "low": safe_get(value, 0),
+            "medium": safe_get(value, 1),
+            "high": safe_get(value, 2),
+        }
+
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, ensure_ascii=False, indent=4)
+        
+        return 1, 1
 
 
     def select_game_setting(self, keys: list):

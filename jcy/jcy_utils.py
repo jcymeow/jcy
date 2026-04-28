@@ -25,9 +25,17 @@ def ok_result(message):
 def err_result(message):
     return {"ok": False, "message": message }
 
+
+def safe_get(collection, idx, default=0):
+    try:
+        return collection[idx]
+    except:
+        return default
+
 __all__ = [
     'human_size',
     'check_file_md5',
     'ok_result',
     'err_result',
+    'safe_get',
 ]

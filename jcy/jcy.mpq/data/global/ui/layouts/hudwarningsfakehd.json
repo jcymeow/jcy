@@ -205,9 +205,9 @@
                     "name": "QuantityWarning",
                     "fields": {
                         "amountsArrowsBolts": {
-                            "low": 50,
-                            "medium": 25,
-                            "high": 10
+                            "low": 300,
+                            "medium": 200,
+                            "high": 100
                         },
                         "amountsJavelins": {
                             "low": 15,

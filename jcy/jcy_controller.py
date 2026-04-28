@@ -224,8 +224,10 @@ class FeatureController:
             Function.ZHTW.value: self.file_operations.modify_zhTW_language,
             # 数据版本
             Function.DATA_VERSION_BUILD.value: self.file_operations.modify_data_version_build,
-            # 数据版本
+            # 背景板透明度
             Function.BACKGROUND_COLOR.value: self.file_operations.modify_background_color,
+            # 弓弩弹药量提示
+            Function.ARROW_BOLT_TIPS.value: self.file_operations.modify_arrow_bolt_tip,
             # 恐怖区域-语言
             Function.TERROR_ZONE_LANGUAGE.value: self.file_operations.select_language,
             # 恐怖区域-预告
