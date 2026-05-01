@@ -136,7 +136,7 @@ class FileOperations:
             if apply_method:
                 self.asset_execute(apply_method)
 
-            # 7. 保存素材配置
+            # 8. 保存素材配置
             jcy_config.ASSET_CONFIG[asset_type] = asset_id
             self.save_asset_config()
             return ok_result(f"{asset.get('name')} 已应用.")
