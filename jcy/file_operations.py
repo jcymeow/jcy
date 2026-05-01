@@ -3150,7 +3150,6 @@ class FileOperations:
             "OpenMiniBar": "1",
             "OpenMiniHp": "2",
             "OpenMiniCube": "3",
-            "OpenAltBtn": "6",
             "OpenSwapBar": "7",
         }
         keys_set = set(keys)    
@@ -3178,12 +3177,14 @@ class FileOperations:
             with open(json_path, 'w', encoding="utf-8") as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
             funcs.append((1, 1))
-        else:
-            funcs.append((0, 1))
 
         # --- 开启 仓库3合1 ---
         banks = [r"data/global/ui/layouts/bankexpansionlayouthd.json"]
         funcs.append(self.common_rename(banks, "5" in keys_set))
+
+        # --- 开启 Alt提示 ---
+        alts = [r"data/global/ui/layouts/showitemspanelhd.json"]
+        funcs.append(self.common_rename(alts, "6" in keys_set))
 
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))

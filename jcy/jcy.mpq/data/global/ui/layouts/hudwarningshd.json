@@ -230,15 +230,6 @@
         },
         {
             "type": "TimerWidget",
-            "name": "OpenAltBtn",
-            "fields": {
-                "time": 1,
-                "message": "",
-                "default": "PanelManager:OpenPanel:ShowItemsPanel"
-            }
-        },
-        {
-            "type": "TimerWidget",
             "name": "OpenSwapBar",
             "fields": {
                 "time": 1,
