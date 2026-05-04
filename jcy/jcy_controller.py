@@ -476,7 +476,7 @@ class FeatureController:
 
         # 保存当前状态到 settings.json
         self.feature_state_manager.save_settings(jcy_config.SETTINGS)
-        jcy_config.SETITEMS = self.feature_state_manager.load_settings()
+        self.feature_state_manager.load_settings()
 
         # 显示结果
         return changes_detected

@@ -1476,24 +1476,14 @@ class FileOperations:
 
     def select_equipment_effects(self, keys: list):
         """
-        装备特效
-        0.道具过滤
-        1.底材 品质/重量/推荐凹槽/防御力
-        2.暗金/套装 附属英文/Max变量/吐槽
+        装备特效: 底材/暗金/套装
         """
 
         if keys is None:
             return (0, 0)
-
-        count = 0
         
         # 底材特效配置 EQIUPMENT_EFFECTS
         base_dict = jcy_config.SETTINGS[Function.BASE_EFFECTS.value]
-        # 暗金特效配置 UNIQUE_EFFECTS
-        unique_dict = jcy_config.SETTINGS[Function.UNIQUE_EFFECTS.value]
-        # 套装特效配置 SETS_EFFECTS
-        set_dict = jcy_config.SETTINGS[Function.SETS_EFFECTS.value]
-
         base_grade = "0" in base_dict
         base_weight = "1" in base_dict
         base_sockets = "2" in base_dict
@@ -1501,11 +1491,15 @@ class FileOperations:
         base_enus = "4" in base_dict
         base_grade_n = "5" in base_dict
         base_socket_light = "6" in base_dict
-
+        
+        # 暗金特效配置 UNIQUE_EFFECTS
+        unique_dict = jcy_config.SETTINGS[Function.UNIQUE_EFFECTS.value]
         unique_enus = "4" in unique_dict
         unique_max = "5" in unique_dict
         unique_mark = "6" in unique_dict
-
+        
+        # 套装特效配置 SETS_EFFECTS
+        set_dict = jcy_config.SETTINGS[Function.SETS_EFFECTS.value]
         set_enus = "4" in set_dict
         set_max = "5" in set_dict
         set_mark = "6" in set_dict
@@ -1545,7 +1539,7 @@ class FileOperations:
                 data = data_dict.get(Key, {})
                 
                 if Key in jcy_config.UNIQUEITEMS:
-                    # ---- 暗金装 ----
+                    # 暗金逻辑
                     for lang in Language:
                         lng = lang.value
                         arr = []
@@ -1564,7 +1558,7 @@ class FileOperations:
                             arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
                 elif Key in jcy_config.SETS or Key in jcy_config.SETITEMS:
-                    # 套装
+                    # 套装逻辑
                     for lang in Language:
                         lng = lang.value
                         arr = []
@@ -1583,7 +1577,7 @@ class FileOperations:
                             arr.append(f" {item.get(Language.ENUS.value)}")
                         item[lng] = ''.join(arr)
                 elif Key in ITEM_BASE:
-                    # 底材
+                    # 底材逻辑
                     for lang in Language:
                         lng = lang.value
                         arr = [item[lng]]
