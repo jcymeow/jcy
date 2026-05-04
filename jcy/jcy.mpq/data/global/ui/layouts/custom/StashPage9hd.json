@@ -1,0 +1,23 @@
+{
+    "type": "Panel", "name": "StashPage9",
+    "fields": { "priority": -1 },
+    "children": [
+        {"type": "TimerWidget", "name": "Timer1", "fields": {"time": 0.001, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer2", "fields": {"time": 0.002, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer3", "fields": {"time": 0.003, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer4", "fields": {"time": 0.004, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer5", "fields": {"time": 0.005, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer6", "fields": {"time": 0.006, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer7", "fields": {"time": 0.007, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer8", "fields": {"time": 0.008, "message": "BankPanelMessage:SharedStashLeft"}},
+        {"type": "TimerWidget", "name": "Timer9", "fields": {"time": 0.009, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer10", "fields": {"time": 0.010, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer11", "fields": {"time": 0.011, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer12", "fields": {"time": 0.012, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer13", "fields": {"time": 0.013, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer14", "fields": {"time": 0.014, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer15", "fields": {"time": 0.015, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer16", "fields": {"time": 0.016, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer17", "fields": {"time": 0.017, "message": "PanelManager:UnloadPanel:StashPage9"}}
+    ]
+}
