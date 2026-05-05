@@ -1,5 +1,5 @@
 {
-    "type": "Panel", "name": "StashPage2",
+    "type": "Panel", "name": "JcyStashPage2",
     "fields": { "priority": -1 },
     "children": [
         {"type": "TimerWidget", "name": "Timer1", "fields": {"time": 0.001, "message": "BankPanelMessage:SharedStashLeft"}},
@@ -11,6 +11,6 @@
         {"type": "TimerWidget", "name": "Timer7", "fields": {"time": 0.007, "message": "BankPanelMessage:SharedStashLeft"}},
         {"type": "TimerWidget", "name": "Timer8", "fields": {"time": 0.008, "message": "BankPanelMessage:SharedStashLeft"}},
         {"type": "TimerWidget", "name": "Timer9", "fields": {"time": 0.009, "message": "BankPanelMessage:SharedStashRight"}},
-        {"type": "TimerWidget", "name": "Timer10", "fields": {"time": 0.010, "message": "PanelManager:UnloadPanel:StashPage2"}}
+        {"type": "TimerWidget", "name": "Timer10", "fields": {"time": 0.010, "message": "PanelManager:UnloadPanel:JcyStashPage2"}}
     ]
 }

@@ -1,5 +1,5 @@
 {
-    "type": "Panel", "name": "StashPage3",
+    "type": "Panel", "name": "JcyStashPage5",
     "fields": { "priority": -1 },
     "children": [
         {"type": "TimerWidget", "name": "Timer1", "fields": {"time": 0.001, "message": "BankPanelMessage:SharedStashLeft"}},
@@ -12,6 +12,8 @@
         {"type": "TimerWidget", "name": "Timer8", "fields": {"time": 0.008, "message": "BankPanelMessage:SharedStashLeft"}},
         {"type": "TimerWidget", "name": "Timer9", "fields": {"time": 0.009, "message": "BankPanelMessage:SharedStashRight"}},
         {"type": "TimerWidget", "name": "Timer10", "fields": {"time": 0.010, "message": "BankPanelMessage:SharedStashRight"}},
-        {"type": "TimerWidget", "name": "Timer11", "fields": {"time": 0.011, "message": "PanelManager:UnloadPanel:StashPage3"}}
+        {"type": "TimerWidget", "name": "Timer11", "fields": {"time": 0.011, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer12", "fields": {"time": 0.012, "message": "BankPanelMessage:SharedStashRight"}},
+        {"type": "TimerWidget", "name": "Timer13", "fields": {"time": 0.013, "message": "PanelManager:UnloadPanel:JcyStashPage5"}}
     ]
 }

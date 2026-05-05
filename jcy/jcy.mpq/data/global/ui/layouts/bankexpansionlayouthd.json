@@ -299,7 +299,7 @@
                                         "textString": "1",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage1"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage1"
                                     }
                                 },
                                 {
@@ -315,7 +315,7 @@
                                         "textString": "2",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage2"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage2"
                                     }
                                 },
                                 {
@@ -331,7 +331,7 @@
                                         "textString": "3",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage3"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage3"
                                     }
                                 },
                                 {
@@ -347,7 +347,7 @@
                                         "textString": "4",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage4"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage4"
                                     }
                                 },
                                 {
@@ -363,7 +363,7 @@
                                         "textString": "5",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage5"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage5"
                                     }
                                 },
                                 {
@@ -379,7 +379,7 @@
                                         "textString": "6",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage6"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage6"
                                     }
                                 },
                                 {
@@ -395,7 +395,7 @@
                                         "textString": "7",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage7"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage7"
                                     }
                                 },
                                 {
@@ -411,7 +411,7 @@
                                         "textString": "8",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage8"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage8"
                                     }
                                 },
                                 {
@@ -427,7 +427,7 @@
                                         "textString": "9",
                                         "textColor": "$FontColorGreen",
                                         "text/style": "$StyleFEButtonText",
-                                        "onClickMessage": "PanelManager:OpenPanel:custom/StashPage9"
+                                        "onClickMessage": "PanelManager:OpenPanel:JcyStashPage9"
                                     }
                                 }
                             ]
