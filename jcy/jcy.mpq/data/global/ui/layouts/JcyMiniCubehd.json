@@ -1,6 +1,6 @@
 {
     "type": "HoradricCubePanel",
-    "name": "HoradricCubeMiniLayout",
+    "name": "JcyMiniCube",
     "fields": {
         "priority": 101,
         "rect": {
@@ -47,7 +47,7 @@
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",
-                "onClickMessage": "PanelManager:ClosePanel:HoradricCubeMiniLayout"
+                "onClickMessage": "PanelManager:ClosePanel:JcyMiniCube"
             }
         },
         {

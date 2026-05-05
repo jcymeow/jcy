@@ -203,7 +203,7 @@
         },
         {
             "type": "TimerWidget",
-            "name": "OpenMiniBar",
+            "name": "OpenJcyMiniButtons",
             "fields": {
                 "time": 1,
                 "message": "PanelManager:OpenPanel:JcyMiniButtons",
@@ -212,20 +212,20 @@
         },
         {
             "type": "TimerWidget",
-            "name": "OpenMiniHp",
+            "name": "OpenJcyMiniHud",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:custom/MiniHud",
-                "default": "PanelManager:OpenPanel:custom/MiniHud"
+                "message": "PanelManager:OpenPanel:JcyMiniHud",
+                "default": "PanelManager:OpenPanel:JcyMiniHud"
             }
         },
         {
             "type": "TimerWidget",
-            "name": "OpenMiniCube",
+            "name": "OpenJcyMiniCube",
             "fields": {
                 "time": 1,
                 "message": "",
-                "default": "PanelManager:OpenPanel:HoradricCubeMiniLayout"
+                "default": "PanelManager:OpenPanel:JcyMiniCube"
             }
         },
         {

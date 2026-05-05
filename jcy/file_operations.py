@@ -3141,10 +3141,9 @@ class FileOperations:
         funcs = []
    
         name_to_key = {
-            "OpenMiniBar": "1",
-            "OpenMiniHp": "2",
-            "OpenMiniCube": "3",
-            "OpenSwapBar": "7",
+            "OpenJcyMiniButtons": "1",
+            "OpenJcyMiniHud": "2",
+            "OpenJcyMiniCube": "3",
         }
         keys_set = set(keys)    
         
@@ -3172,7 +3171,7 @@ class FileOperations:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
             funcs.append((1, 1))
 
-        # --- 开启 仓库3合1 ---
+        # --- 开启 储物箱特效: 共享仓库直达+融合仓库 ---
         banks = [r"data/global/ui/layouts/bankexpansionlayouthd.json"]
         funcs.append(self.common_rename(banks, "5" in keys_set))
 

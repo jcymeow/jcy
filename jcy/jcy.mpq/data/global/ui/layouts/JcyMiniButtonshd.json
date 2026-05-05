@@ -40,7 +40,7 @@
                 },
                 "filename": "panel\\mini\\cube",
                 "tooltipString": "開關迷你盒子",
-                "onClickMessage": "PanelManager:TogglePanel:HoradricCubeMiniLayout",
+                "onClickMessage": "PanelManager:TogglePanel:JcyMiniCube",
                 "hoveredFrame": 2
             }
         },

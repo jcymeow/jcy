@@ -1911,18 +1911,18 @@ ASSETS = [
         "author": "Icemint, Sandmann, Jhyun0512, Mardok, 살신e",
         "description": "移除天使/恶魔雕像, 经验条刻度, 彩色经验条, 彩色体力条",
         "source": "https://www.inven.co.kr/board/diablo2/5842/6759",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/801.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/801.zip",
         "file": "801.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/801/801.png",
-        "size": 1403769,
-        "md5": "DDA7EFC8564CB33E20D84921BD05DDE5",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/801.png",
+        "size": 1403341,
+        "md5": "6CE5643A95889B9E0B2C9B98EE336EA0",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
@@ -1935,14 +1935,14 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/hudpanelbuttonshd.json",
+            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
@@ -1960,18 +1960,18 @@ ASSETS = [
         "author": "Gous",
         "description": "Diablo III HUD",
         "source": "https://www.nexusmods.com/diablo2resurrected/mods/819",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/802.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/802.zip",
         "file": "802.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/802/802.png",
-        "size": 23175423,
-        "md5": "4AD621F3841903CBEA395EC540C02560",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/802.png",
+        "size": 23174995,
+        "md5": "47B50C1A4DD0040C626C9694603E3322",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
@@ -1984,14 +1984,14 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/hudpanelbuttonshd.json",
+            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.sprite",
@@ -2011,18 +2011,18 @@ ASSETS = [
         "author": "未知",
         "description": "Diablo IV HUD",
         "source": "",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/803.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/803.zip",
         "file": "803.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/803/803.png",
-        "size": 5750631,
-        "md5": "6C2DE4855E44CAE6678F36BE4B5D0AAD",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/803.png",
+        "size": 5750206,
+        "md5": "C4DE6A4E1989F1F7CC7C2FB016F8F36C",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
@@ -2035,14 +2035,14 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/hudpanelbuttonshd.json",
+            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.sprite",
@@ -2088,18 +2088,18 @@ ASSETS = [
         "author": "NDState",
         "description": "极简风",
         "source": "https://www.nexusmods.com/diablo2resurrected/mods/325",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/804.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/804.zip",
         "file": "804.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/804/804.png",
-        "size": 154297,
-        "md5": "591EA22FFAA201A4EC5B1CEC632CCCF5",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/804.png",
+        "size": 153864,
+        "md5": "96088617E6D6CF38DBB6DC0CBC347154",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
@@ -2112,14 +2112,14 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/hudpanelbuttonshd.json",
+            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
@@ -2140,18 +2140,18 @@ ASSETS = [
         "author": "설류혼",
         "description": "HUD_1/2",
         "source": "https://www.inven.co.kr/board/diablo2/5842/7420",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.4/805.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/805.zip",
         "file": "805.zip",
-        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/805/805.png",
-        "size": 953533,
-        "md5": "659AB658D6B1039CDF6A2809487A09AF",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/805.png",
+        "size": 953100,
+        "md5": "1CF5ED8233EAE028253B8F486C691D19",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
@@ -2164,20 +2164,104 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/hudpanelbuttonshd.json",
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/hudpanelbuttonshd.json",
+            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
             "data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/front_panel.sprite",
+        ]
+    },
+    {
+        "id": 806,
+        "name": "HUD皮肤_6",
+        "category": Assets.HUD_SKIN.value,
+        "type": Assets.HUD_SKIN.value,
+        "author": "탈명객",
+        "description": "月牙血/蓝球, 哑铃型HUD",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7611",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/806.zip",
+        "file": "806.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/806.png",
+        "size": 9584510,
+        "md5": "DD1C17BB9409FD6C8E2EDF609F3068E5",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        "list": [
+            r"data/global/ui/layouts/JcyMiniButtonshd.json",
+            r"data/global/ui/layouts/hudpanelhd.json",
+            r"data/global/ui/layouts/skillselecthd.json",
+            r"data/hd/global/ui/panel/hud/automap.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/automap.sprite",
+            r"data/hd/global/ui/panel/hud/belt_popped_cap.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/belt_popped_cap.sprite",
+            r"data/hd/global/ui/panel/hud/belt_popped_row.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/belt_popped_row.sprite",
+            r"data/hd/global/ui/panel/hud/belt_uparrow.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/belt_uparrow.sprite",
+            r"data/hd/global/ui/panel/hud/character.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/character.sprite",
+            r"data/hd/global/ui/panel/hud/front_panel.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/front_panel.sprite",
+            r"data/hd/global/ui/panel/hud/globe_health_man_idle.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/globe_health_man_idle.sprite",
+            r"data/hd/global/ui/panel/hud/globe_hot_point.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/globe_hot_point.sprite",
+            r"data/hd/global/ui/panel/hud/healthbar_bg.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/healthbar_bg.sprite",
+            r"data/hd/global/ui/panel/hud/healthbar.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/healthbar.sprite",
+            r"data/hd/global/ui/panel/hud/hot_point_liquid.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/hot_point_liquid.sprite",
+            r"data/hd/global/ui/panel/hud/inventory.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/inventory.sprite",
+            r"data/hd/global/ui/panel/hud/manabar_bg.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/manabar_bg.sprite",
+            r"data/hd/global/ui/panel/hud/manabar.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/manabar.sprite",
+            r"data/hd/global/ui/panel/hud/messages.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/messages.sprite",
+            r"data/hd/global/ui/panel/hud/pausemenu.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/pausemenu.sprite",
+            r"data/hd/global/ui/panel/hud/questlog.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/questlog.sprite",
+            r"data/hd/global/ui/panel/hud/skilltree.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/skilltree.sprite",
+            r"data/hd/global/ui/panel/hud/sprint.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/sprint.sprite",
+            r"data/hd/global/ui/panel/hud/stamina_bar.lowend.sprite",
+            r"data/hd/global/ui/panel/hud/stamina_bar.sprite",
         ]
     },
     # 杂项(900, 1000)
@@ -4098,13 +4182,13 @@ ASSETS = [
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/1801.zip",
         "file": "1801.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/1801.png",
-        "size": 107226,
-        "md5": "38A520E8A547DAE39706B5531EAA4DB0",
+        "size": 107049,
+        "md5": "20F9C118A6027307FC214E817CFAD31E",
         PREPROCESS_METHOD: [],
         APPLY_METHOD: [],
         REMOVE_METHOD: [],
         "list": [
-            r"data/global/ui/layouts/custom/MiniHudhd.json",
+            r"data/global/ui/layouts/JcyMiniHudhd.json",
             r"data/hd/global/ui/panel/mini_hud/minihp_bg.lowend.sprite",
             r"data/hd/global/ui/panel/mini_hud/minihp_bg.sprite",
             r"data/hd/global/ui/panel/mini_hud/minihp_life.lowend.sprite",
@@ -4128,13 +4212,13 @@ ASSETS = [
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/1802.zip",
         "file": "1802.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/1802.png",
-        "size": 105572,
-        "md5": "446F5DD8064B2FCE5C48CD7F877A2D44",
+        "size": 105394,
+        "md5": "D36C3AD7C92CAA452DAD4B88217CF581",
         PREPROCESS_METHOD: [],
         APPLY_METHOD: [],
         REMOVE_METHOD: [],
         "list": [
-            r"data/global/ui/layouts/custom/MiniHudhd.json",
+            r"data/global/ui/layouts/JcyMiniHudhd.json",
             r"data/hd/global/ui/panel/mini_hud/minibar_h_bg.lowend.sprite",
             r"data/hd/global/ui/panel/mini_hud/minibar_h_bg.sprite",
             r"data/hd/global/ui/panel/mini_hud/minibar_h.lowend.sprite",
@@ -4158,13 +4242,13 @@ ASSETS = [
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/1803.zip",
         "file": "1803.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/1803.png",
-        "size": 53927,
-        "md5": "D91B97270AEBE1CBD4E1C7A7F13A060D",
+        "size": 53752,
+        "md5": "215D2B0DDFF27F64BF64BFC7E2D4F563",
         PREPROCESS_METHOD: [],
         APPLY_METHOD: [],
         REMOVE_METHOD: [],
         "list": [
-            r"data/global/ui/layouts/custom/MiniHudhd.json",
+            r"data/global/ui/layouts/JcyMiniHudhd.json",
             r"data/hd/global/ui/panel/mini_hud/healthbar_bg.lowend.sprite",
             r"data/hd/global/ui/panel/mini_hud/healthbar_bg.sprite",
             r"data/hd/global/ui/panel/mini_hud/healthbar.lowend.sprite",
