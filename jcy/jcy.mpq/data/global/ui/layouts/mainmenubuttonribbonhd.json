@@ -56,7 +56,7 @@
                 },
                 {
                     "type": "ButtonWidget",
-                    "name": "jcyModInfo",
+                    "name": "JcyModInfo",
                     "fields": {
                         "rect": {
                             "x": 165,
@@ -64,7 +64,7 @@
                         },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
                         "textString": "JCY MOD v1.5.2",
-                        "onClickMessage": "PanelManager:OpenPanel:jcyModInfo",
+                        "onClickMessage": "PanelManager:OpenPanel:JcyModInfo",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEButtonText",
                         "hoveredFrame": 3,

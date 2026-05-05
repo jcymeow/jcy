@@ -1,6 +1,6 @@
 {
     "type": "UKComplianceModal",
-    "name": "jcyModInfo",
+    "name": "JcyModInfo",
     "fields": {
         "anchor": {
             "x": 0.5,
@@ -11,7 +11,7 @@
     "children": [
         {
             "type": "NineTileImageWidget",
-            "name": "jcyModInfoTile",
+            "name": "JcyModInfoTile",
             "fields": {
                 "rect": {
                     "x": -750,
@@ -131,7 +131,7 @@
                         "filename": "Panel\\Modals\\ModalButton",
                         "focusIndicatorFilename": "Controller/HoverImages/ModalButton_NoGap_Hover",
                         "hoveredFrame": 3,
-                        "onClickMessage": "PanelManager:ClosePanel:jcyModInfo",
+                        "onClickMessage": "PanelManager:ClosePanel:JcyModInfo",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEMultiLineButtonText",
                         "textString": "@close"

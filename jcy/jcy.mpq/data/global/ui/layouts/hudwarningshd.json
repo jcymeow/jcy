@@ -206,8 +206,8 @@
             "name": "OpenMiniBar",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:custom/MiniButtons",
-                "default": "PanelManager:OpenPanel:custom/MiniButtons"
+                "message": "PanelManager:OpenPanel:JcyMiniButtons",
+                "default": "PanelManager:OpenPanel:JcyMiniButtons"
             }
         },
         {
