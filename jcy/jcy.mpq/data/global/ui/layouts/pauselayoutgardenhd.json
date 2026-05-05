@@ -178,7 +178,7 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": false
+                                "acceptsEscKeyEverywhere": true
                             }
                         }
                     ]
@@ -307,13 +307,13 @@
                                     0,
                                     0
                                 ],
-                                "onClickMessage": "PanelManager:OpenPanel:SetHellGame",
+                                "onClickMessage": "PanelManager:OpenPanel:JcyRemakeHellGame",
                                 "textColor": "$FontColorGreen",
                                 "text/style": "$StyleFEButtonText",
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": true
+                                "acceptsEscKeyEverywhere": false
                             }
                         }
                     ]

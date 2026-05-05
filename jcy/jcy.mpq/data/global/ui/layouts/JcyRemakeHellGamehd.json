@@ -1,6 +1,6 @@
 {
 	"type": "MainMenuHDPanel",
-	"name": "SetHellGame",
+	"name": "JcyRemakeHellGame",
 	"children": [
 		{
 			"type": "TimerWidget",

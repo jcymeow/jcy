@@ -215,7 +215,7 @@
             "name": "OpenJcyMiniHud",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:JcyMiniHud",
+                "message": "",
                 "default": "PanelManager:OpenPanel:JcyMiniHud"
             }
         },
