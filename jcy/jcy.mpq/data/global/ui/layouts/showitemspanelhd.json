@@ -5,7 +5,7 @@
     "priority": -1,
     "showDurationMilliseconds": 10000,
     "anchor": {
-      "x": 0.5,
+      "x": 1,
       "y": 1
     }
   },
@@ -15,8 +15,8 @@
       "name": "JcyAlt",
       "fields": {
         "rect": {
-          "x": -100,
-          "y": -1380
+          "x": -40,
+          "y": -40
         },
         "filename": "PANEL/PARTY/Eyebtn"
       }
