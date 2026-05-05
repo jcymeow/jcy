@@ -206,8 +206,8 @@
             "name": "OpenMiniBar",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:hudpanelbuttons",
-                "default": "PanelManager:OpenPanel:hudpanelbuttons"
+                "message": "PanelManager:OpenPanel:custom/MiniButtons",
+                "default": "PanelManager:OpenPanel:custom/MiniButtons"
             }
         },
         {
@@ -215,8 +215,8 @@
             "name": "OpenMiniHp",
             "fields": {
                 "time": 1,
-                "message": "",
-                "default": "PanelManager:OpenPanel:minihp"
+                "message": "PanelManager:OpenPanel:custom/MiniHud",
+                "default": "PanelManager:OpenPanel:custom/MiniHud"
             }
         },
         {
@@ -226,15 +226,6 @@
                 "time": 1,
                 "message": "",
                 "default": "PanelManager:OpenPanel:HoradricCubeMiniLayout"
-            }
-        },
-        {
-            "type": "TimerWidget",
-            "name": "OpenSwapBar",
-            "fields": {
-                "time": 1,
-                "message": "PanelManager:OpenPanel:UI_New_WeaponSwap",
-                "default": "PanelManager:OpenPanel:UI_New_WeaponSwap"
             }
         },
         {

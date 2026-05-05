@@ -1,6 +1,6 @@
 {
     "type": "TooltipsPanel",
-    "name": "hudpanelbuttons",
+    "name": "MiniButtons",
     "fields": {
         "priority": 99,
         "anchor": {
@@ -55,7 +55,7 @@
                 },
                 "filename": "panel\\mini\\hpmp",
                 "tooltipString": "開關迷你血條",
-                "onClickMessage": "PanelManager:TogglePanel:minihp",
+                "onClickMessage": "PanelManager:TogglePanel:custom/MiniHud",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2,
                 "pressedFrame": 0

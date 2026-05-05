@@ -3452,7 +3452,7 @@ class FileOperations:
         
         elif "9" == radio:
             # --- HUD方案 ---
-            hud = jcy_config.ASSET_CONFIG.get(HUD_SKIN)
+            hud = jcy_config.ASSET_CONFIG.get(Assets.HUD_SKIN.value)
             _param = None
             match hud:
                 case 803:

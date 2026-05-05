@@ -71,29 +71,30 @@ LOCAL_FILES = [
 ]
 
 # Assets
-GAME_MODEL = "GameModel"
-RUNE_SKIN = "RuneSkin"
-SKILL_SKIN = "SkillSkin"
-FONT_TYPE = "FontType"
-ACT1_HIRE = "Act1Hire"
-ACT2_HIRE = "Act2Hire"
-ACT3_HIRE = "Act3Hire"
-ACT5_HIRE = "Act5Hire"
-HUD_SKIN = "HudSkin"
-OTHERS = "Others"
-TOA = "Token of Absolution"
-MK = "Mephisto Key"
-BANK = "Bank"
-AUTOMAP = "Automap"
-
-AMA = "Ama"
-SOR = "Sor"
-NEC = "Nec"
-PAL = "Pal"
-BAR = "Bar"
-DRU = "Dru"
-ASN = "Asn"
-WAR = "War"
+class Assets(Enum):
+    GAME_MODEL = "GameModel"
+    RUNE_SKIN = "RuneSkin"
+    SKILL_SKIN = "SkillSkin"
+    FONT_TYPE = "FontType"
+    ACT1_HIRE = "Act1Hire"
+    ACT2_HIRE = "Act2Hire"
+    ACT3_HIRE = "Act3Hire"
+    ACT5_HIRE = "Act5Hire"
+    HUD_SKIN = "HudSkin"
+    MINIHUD_SKIN = "MiniHudSkin"
+    OTHERS = "Others"
+    TOA = "Token of Absolution"
+    MK = "Mephisto Key"
+    BANK = "Bank"
+    AUTOMAP = "Automap"
+    AMA = "Ama"
+    SOR = "Sor"
+    NEC = "Nec"
+    PAL = "Pal"
+    BAR = "Bar"
+    DRU = "Dru"
+    ASN = "Asn"
+    WAR = "War"
 
 METHOD = "method"
 PARAMS = "params"
@@ -986,28 +987,7 @@ __all__ = [
     'ITEM_BASE',
     'ITEM_MISC',
     'CUSTOM_SOUNDS',
-    'GAME_MODEL',
-    'RUNE_SKIN',
-    'SKILL_SKIN',
-    'FONT_TYPE',
-    'ACT1_HIRE',
-    'ACT2_HIRE',
-    'ACT3_HIRE',
-    'ACT5_HIRE',
-    'HUD_SKIN',
-    'OTHERS',
-    'TOA',
-    'BANK',
-    'MK',
-    'AUTOMAP',
-    'AMA',
-    'SOR',
-    'NEC',
-    'PAL',
-    'BAR',
-    'DRU',
-    'ASN',
-    'WAR',
+    'Assets',
     'METHOD',
     'PARAMS',
     'PREPROCESS_METHOD',
