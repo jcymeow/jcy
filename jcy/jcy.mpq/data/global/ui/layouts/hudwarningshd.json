@@ -195,10 +195,10 @@
         },
         {
             "type": "TimerWidget",
-            "name": "TimerClose",
+            "name": "OpenJcyHudWarnings",
             "fields": {
                 "time": 1,
-                "message": "PanelManager:OpenPanel:HUDWarningsFake"
+                "message": "PanelManager:OpenPanel:JcyHudWarnings"
             }
         },
         {

@@ -1,6 +1,6 @@
 {
     "type": "HUDWarningsPanel",
-    "name": "HUDWarningsFake",
+    "name": "JcyHudWarnings",
     "fields": {
         "priority": -100,
         "anchor": {
@@ -156,7 +156,7 @@
                                 "kerning": 0.9
                             }
                         },
-                        "text": ""
+                        "text": "1312"
                     }
                 }
             ]
