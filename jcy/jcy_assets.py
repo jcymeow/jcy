@@ -2318,7 +2318,7 @@ ASSETS = [
     },
     {
         "id": 902,
-        "name": "箱子(Bank)皮肤",
+        "name": "箱子(Bank)皮肤_1",
         "category": Assets.OTHERS.value,
         "type": Assets.BANK.value,
         "author": "Z풍차돌기",
@@ -2346,7 +2346,7 @@ ASSETS = [
     },
     {
         "id": 903,
-        "name": "箱子(Bank)皮肤",
+        "name": "箱子(Bank)皮肤_2",
         "category": Assets.OTHERS.value,
         "type": Assets.BANK.value,
         "author": "왕왕작작",
@@ -2568,6 +2568,26 @@ ASSETS = [
             "data/hd/global/ui/automap/default11/tiles.sprite",
             "data/hd/global/ui/automap/default13/tiles.lowend.sprite",
             "data/hd/global/ui/automap/default13/tiles.sprite",
+        ]
+    },
+    {
+        "id": 908,
+        "name": "箱子(Bank)皮肤_3",
+        "category": Assets.OTHERS.value,
+        "type": Assets.BANK.value,
+        "author": "Beatsin",
+        "description": "2倍银河箱子",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7589",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/908.zip",
+        "file": "908.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/908.png",
+        "size": 169355,
+        "md5": "86385E623EFEDA61F86147F368B2E0FF",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list": [
+            "data/hd/objects/chests/bank/texture/chest_bank_alb.texture",
+            "data/hd/objects/chests/bank.json",
         ]
     },
     # 亚马逊(1000, 1100)
