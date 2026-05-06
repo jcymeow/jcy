@@ -114,6 +114,7 @@ CHECK = "CheckGroup"
 SPIN = "SpinBox"
 TEXT = "Text"
 ARRAY = "Array"
+SELECT = "Select"
 SEPARATOR = "Separator"
 LOCATION = "Location"
 # Controller Type -->
@@ -845,6 +846,13 @@ class Function(Enum):
     TERROR_ZONE_NEXT = "TerrorZoneNext"
     TERROR_ZONE_TABLE = "TerrorZoneTable"
 
+    ACT4_WAYPOINT_4 = "Act4Waypoint4"
+    ACT4_WAYPOINT_5 = "Act4Waypoint5"
+    ACT4_WAYPOINT_6 = "Act4Waypoint6"
+    ACT4_WAYPOINT_7 = "Act4Waypoint7"
+    ACT4_WAYPOINT_8 = "Act4Waypoint8"
+    ACT4_WAYPOINT_9 = "Act4Waypoint9"
+
     GAME_SETTING = "GameSetting"
     GAME_SETTING2 = "GameSetting2"
     CONTROLS_SETTING = "ControlsSetting"
@@ -978,6 +986,7 @@ __all__ = [
     'SPIN',
     'TEXT',
     'ARRAY',
+    'SELECT',
     'LOCATION',
     'SEPARATOR',
     'REGION_DOMAIN_MAP',

@@ -282,6 +282,23 @@ class FeatureView:
                 current_col += colspan
                 self.feature_vars[fid] = feature  # 如果你要后面取值
 
+            elif SELECT == type:
+                feature = LabeledSelect(
+                    master=tab,
+                    feature_id=fid,
+                    data=child
+                )
+                # 如果当前行剩余列不足，换行
+                if current_col + colspan > total_columns:
+                    current_row += 1
+                    current_col = 0
+
+                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                             sticky="ew", padx=20, pady=5)
+                # 更新当前列索引
+                current_col += colspan
+                self.feature_vars[fid] = feature  # 如果你要后面取值
+
             elif LOCATION == child["type"]:
                 feature = LabeledCoordinate(
                     tab,
@@ -854,6 +871,50 @@ class LabeledCoordinate(ttk.LabelFrame):
             y = int(value.get("y", 0))
             self._var_x.set(str(x))
             self._var_y.set(str(y))
+
+
+class LabeledSelect(ttk.LabelFrame):
+    def __init__(self, master, feature_id, data, default_selected=None, **kwargs):
+        super().__init__(master, text=data["text"], **kwargs)
+
+        self.feature_id = feature_id
+        self.var = tk.StringVar(value=default_selected)
+
+        params = data.get("params", {})
+
+        # key -> label 映射
+        self.key_to_label = params
+        self.label_to_key = {v: k for k, v in params.items()}
+
+        # Combobox 显示的是 label
+        values = list(params.values())
+
+        self.combo = ttk.Combobox(
+            self,
+            values=values,
+            state="readonly",
+            textvariable=tk.StringVar()
+        )
+        self.combo.grid(row=0, column=0, sticky="ew", padx=5, pady=5)
+        self.columnconfigure(0, weight=1)
+
+        # 设置默认值
+        if default_selected in self.key_to_label:
+            self.combo.set(self.key_to_label[default_selected])
+        elif values:
+            self.combo.set(values[0])  # fallback
+
+    def get(self):
+        label = self.combo.get()
+        return self.label_to_key.get(label)
+
+    def set(self, key):
+        if key in self.key_to_label:
+            self.combo.set(self.key_to_label[key])
+
+    @property
+    def text(self):
+        return self.cget("text")
 
 
 class ItemNotificationTable(tk.Frame):

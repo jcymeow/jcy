@@ -2834,6 +2834,40 @@ class FileOperations:
         return 1, 1
 
 
+    def modify_act_info(self, value):
+        """修改Act4小站設置"""
+        count = 0
+        total = 1
+        try:
+            path = os.path.join(MOD_PATH, r"data/global/excel/actinfo.txt")
+
+            rows = []
+            with open(path, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f, delimiter="\t")
+                fieldnames = reader.fieldnames
+                rows = list(reader)
+
+            for row in rows:
+                if row["act"] == "4":
+                    row["waypoint4"] = jcy_config.SETTINGS.get(Function.ACT4_WAYPOINT_4.value, "")
+                    row["waypoint5"] = jcy_config.SETTINGS.get(Function.ACT4_WAYPOINT_5.value, "")
+                    row["waypoint6"] = jcy_config.SETTINGS.get(Function.ACT4_WAYPOINT_6.value, "")
+                    row["waypoint7"] = jcy_config.SETTINGS.get(Function.ACT4_WAYPOINT_7.value, "")
+                    row["waypoint8"] = jcy_config.SETTINGS.get(Function.ACT4_WAYPOINT_8.value, "")
+                    row["waypoint9"] = jcy_config.SETTINGS.get(Function.ACT4_WAYPOINT_9.value, "")
+
+            with open(path, "w", encoding="utf-8", newline="") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter='\t')
+                writer.writeheader()
+                writer.writerows(rows)
+            
+            count += 1
+        except Exception as e:
+            print(f"modify_monster_visable: {e}")
+        
+        return count, total
+
+
     def select_game_setting(self, keys: list):
         """游戏设置"""
         if keys is None:

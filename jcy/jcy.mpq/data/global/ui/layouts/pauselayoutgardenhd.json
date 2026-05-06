@@ -178,7 +178,7 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": true
+                                "acceptsEscKeyEverywhere": false
                             }
                         }
                     ]
@@ -313,7 +313,7 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": false
+                                "acceptsEscKeyEverywhere": true
                             }
                         }
                     ]

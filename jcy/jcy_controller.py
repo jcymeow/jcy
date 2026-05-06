@@ -232,7 +232,13 @@ class FeatureController:
             Function.TERROR_ZONE_LANGUAGE.value: self.file_operations.select_language,
             # 恐怖区域-预告
             Function.TERROR_ZONE_NEXT.value: self.file_operations.terror_zone_next,
-
+            # Act4小站設置
+            Function.ACT4_WAYPOINT_4.value: self.file_operations.modify_act_info,
+            Function.ACT4_WAYPOINT_5.value: self.file_operations.modify_act_info,
+            Function.ACT4_WAYPOINT_6.value: self.file_operations.modify_act_info,
+            Function.ACT4_WAYPOINT_7.value: self.file_operations.modify_act_info,
+            Function.ACT4_WAYPOINT_8.value: self.file_operations.modify_act_info,
+            Function.ACT4_WAYPOINT_9.value: self.file_operations.modify_act_info,
 
             # 游戏设置
             Function.GAME_SETTING.value: self.file_operations.select_game_setting,
