@@ -197,17 +197,17 @@ sigildeath	194																																															curse_hit									9
 bloodoath	195			1																																																																						0
 demonic_mastery	196			1																																																																						0
 levitate_mastery	197																																																																									0
-hexbane	198	6																																														hex_enchant							mele																		1	0
+hexbane	198	6																																														hex_enchant							mele								hexbane_off										1	0
 hexbanedebuff	199	7				1	1																																				hexbanedebuff					curse_hit														Warlock_Skill_Hex_Bane_Hit											1	0
-hexsiphon	200	6										1																																				hex_enchant							mele																		2	0
+hexsiphon	200	6										1																																				hex_enchant							mele								hexsiphon_off										2	0
 hexsiphondebuff	201	7				1	1																																				hexsyphondebuff					curse_hit														Warlock_Skill_Hex_Siphon_Hit											2	0
-hexpurge	202	6										1																																				hex_enchant							mele																		4	0
+hexpurge	202	6										1																																				hex_enchant							mele								hexpurge_off										4	0
 mindbarrier	203	1																																									bladeshield																															0
 shadow_mastery	204			1																																																																						0
 sigil	205			1																																																																						0
-psychicward	206	1																																									psychicward																															0
+psychicward	206	1																																									psychicward																				psychicward_off											0
 bind_demon	207																																										warlockdemonground	warlockdemontorso							19						70	130																0
-consume	208	9																																									warlockconsume																															0
+consume	208	9																																									warlockconsume																				consume_off											0
 advancedstash	209																																																																									0
 healthlink	210																																										healthlink																															0
 engorge	211																																										engorgestate																															0
@@ -220,7 +220,7 @@ hexpurgedebuff	217	7				1	1																																				hexpurgedebuff			
 chroniclebacklight	218																																										chronicle_backlight																															0
 chroniclefootprints	219																																																																									0
 chronicleportal	220																																																	customization_index																								0
-eldritchblastperiodic	221								1																																		eldritchblastperiodic																									107						0
+eldritchblastperiodic	221								1																																		eldritchblastperiodic																				eldritchblastperiodic_off					107						0
 lightningenchant	222											1									1																											lightningenchant		skill_enchant					weap	cred																		0
 coldenchant	223											1									1																											coldenchant		skill_enchant					weap	cred																		0
 talicfirepierce	224					1																	1																				talicfirepierce																															0

@@ -698,6 +698,12 @@ class FeatureConfig:
                                 "bear_off": "@Skillname229",
                                 "markwolf_off": "@SkillnameMetamorphosisWolf",
                                 "markbear_off": "@SkillnameMetamorphosisBear",
+                                "psychicward_off": "@PsychicWardName",
+                                "eldritchblastperiodic_off": "@EldritchBlastName",
+                                "hexbane_off": "@BaneHexName",
+                                "hexpurge_off": "@PurgeHexName",
+                                "hexsiphon_off": "@SiphonHexAN",
+                                "consume_off": "@ConsumeName",
                             }
                         },
                     ]

@@ -825,6 +825,12 @@ CUSTOM_SOUNDS = {
     "markwolf_off":       {True: r"skill\markwolf_off.flac",       False: r"none.flac",                 "path": "data/hd/global/sfx/skill/markwolf_off.flac"},
     "markbear_off":       {True: r"skill\markbear_off.flac",       False: r"none.flac",                 "path": "data/hd/global/sfx/skill/markbear_off.flac"},
     "fade_off":           {True: r"skill\fade_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/fade_off.flac"},
+    "psychicward_off":    {True: r"skill\psychicward_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/psychicward_off.flac"},
+    "eldritchblastperiodic_off": {True: r"skill\eldritchblastperiodic_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/eldritchblastperiodic_off.flac"},
+    "hexbane_off":        {True: r"skill\hexbane_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/hexbane_off.flac"},
+    "hexpurge_off":       {True: r"skill\hexpurge_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/hexpurge_off.flac"},
+    "hexsiphon_off":      {True: r"skill\hexsiphon_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/hexsiphon_off.flac"},
+    "consume_off":        {True: r"skill\consume_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/consume_off.flac"},
     # Mercenaries
     "guard_death_hd1":    {True: r"monster\rogue\death1_hd.flac",  False: r"monster\guard\monster_guard_death_1_hd.flac",                 "path": ""},
     "guard_death_hd2":    {True: r"monster\rogue\death2_hd.flac",  False: r"monster\guard\monster_guard_death_2_hd.flac",                 "path": ""},

@@ -3799,6 +3799,12 @@ class FileOperations:
             "bear_off":             "bear_off" in keys,
             "markwolf_off":         "markwolf_off" in keys,
             "markbear_off":         "markbear_off" in keys,
+            "psychicward_off":      "psychicward_off" in keys,
+            "eldritchblastperiodic_off": "eldritchblastperiodic_off" in keys,
+            "hexbane_off":          "hexbane_off" in keys,
+            "hexpurge_off":         "hexpurge_off" in keys,
+            "hexsiphon_off":        "hexsiphon_off" in keys,
+            "consume_off":          "consume_off" in keys,
         }
 
         return self.modify_custom_sounds(data)
