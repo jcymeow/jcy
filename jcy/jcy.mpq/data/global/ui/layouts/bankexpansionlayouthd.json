@@ -291,13 +291,12 @@
                                     "name": "page_button_1",
                                     "fields": {
                                         "rect": {
-                                            "x": 430,
-                                            "y": 0,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -1000
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "1",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "壹",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage1"
                                     }
@@ -307,13 +306,12 @@
                                     "name": "page_button_2",
                                     "fields": {
                                         "rect": {
-                                            "x": 530,
-                                            "y": 0,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -920
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "2",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "貳",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage2"
                                     }
@@ -323,13 +321,12 @@
                                     "name": "page_button_3",
                                     "fields": {
                                         "rect": {
-                                            "x": 630,
-                                            "y": 0,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -840
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "3",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "叁",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage3"
                                     }
@@ -339,13 +336,12 @@
                                     "name": "page_button_4",
                                     "fields": {
                                         "rect": {
-                                            "x": 430,
-                                            "y": 100,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -760
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "4",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "肆",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage4"
                                     }
@@ -355,13 +351,12 @@
                                     "name": "page_button_5",
                                     "fields": {
                                         "rect": {
-                                            "x": 530,
-                                            "y": 100,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -680
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "5",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "伍",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage5"
                                     }
@@ -371,13 +366,12 @@
                                     "name": "page_button_6",
                                     "fields": {
                                         "rect": {
-                                            "x": 630,
-                                            "y": 100,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -600
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "6",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "陸",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage6"
                                     }
@@ -387,13 +381,12 @@
                                     "name": "page_button_7",
                                     "fields": {
                                         "rect": {
-                                            "x": 430,
-                                            "y": 200,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -520
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "7",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "柒",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage7"
                                     }
@@ -403,13 +396,12 @@
                                     "name": "page_button_8",
                                     "fields": {
                                         "rect": {
-                                            "x": 530,
-                                            "y": 200,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -440
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "8",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "捌",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage8"
                                     }
@@ -419,13 +411,12 @@
                                     "name": "page_button_9",
                                     "fields": {
                                         "rect": {
-                                            "x": 630,
-                                            "y": 200,
-                                            "scale": 0.8
+                                            "x": 710,
+                                            "y": -360
                                         },
-                                        "filename": "custom/StashButton",
-                                        "textString": "9",
-                                        "textColor": "$FontColorGreen",
+                                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                                        "textString": "玖",
+                                        "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage9"
                                     }
