@@ -2620,7 +2620,7 @@ class FileOperations:
         count = 0
         # - data/local/lng/strings/jcy.json
         # + data/global/ui/layouts/mainmenupanelhd.json
-        # + data/global/ui/layouts/hudpanelbuttonshd.json
+        # + data/global/ui/layouts/JcyMiniButtonshd.json
         # + data/global/ui/layouts/pauselayoutgardenhd.json
         total = len(LOCAL_FILES) + 2
 
@@ -2672,7 +2672,7 @@ class FileOperations:
 
         # 修改迷你按钮Bar 提示语
         mini_data = None
-        mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
+        mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniButtonshd.json")
         try:
             with open(mini_path, 'r', encoding='utf-8') as f:
                 mini_data = json.load(f)
@@ -2748,7 +2748,7 @@ class FileOperations:
     def modify_arrow_bolt_tip(self, value: list):
         """修改弓弩弹药量提示"""
         json_data = None
-        json_path = os.path.join(MOD_PATH, "data/global/ui/layouts/hudwarningsfakehd.json")
+        json_path = os.path.join(MOD_PATH, "data/global/ui/layouts/JcyHudWarningshd.json")
         with open(json_path, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
     
@@ -3791,7 +3791,7 @@ class FileOperations:
 
         try:
             cube_json = None
-            cube_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/horadriccubeminilayouthd.json")
+            cube_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniCubehd.json")
             with open(cube_path, 'r', encoding='utf-8') as f:
                 cube_json = json.load(f)
 
