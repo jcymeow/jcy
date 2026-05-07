@@ -123,46 +123,6 @@
         },
         {
             "type": "LayoutItemWidget",
-            "name": "NextTerrorZoneInfoTextWrapper",
-            "fields": {
-                "minHeight": 50,
-                "marginRight": 12,
-                "marginTop": -24,
-                "marginBottom": 12
-            },
-            "children": [
-                {
-                    "type": "TextBoxWidget",
-                    "name": "NextTerrorZoneInfoText",
-                    "fields": {
-                        "fitToText": true,
-                        "fontType": "16pt",
-                        "style": {
-                            "pointSize": "$MediumFontSize",
-                            "fontColor": {
-                                "r": 0,
-                                "g": 255,
-                                "b": 128
-                            },
-                            "alignment": {
-                                "v": "top",
-                                "h": "right"
-                            },
-                            "options": {
-                                "pipeCharacterBehavior": "handle",
-                                "newlineHandling": "standard"
-                            },
-                            "spacing": {
-                                "kerning": 0.9
-                            }
-                        },
-                        "text": ""
-                    }
-                }
-            ]
-        },
-        {
-            "type": "LayoutItemWidget",
             "name": "QuantityWarningWrapper",
             "fields": {
                 "marginRight": 5,

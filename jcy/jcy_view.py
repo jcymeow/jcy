@@ -314,13 +314,6 @@ class FeatureView:
                 current_col += colspan
                 self.feature_vars[fid] = feature
 
-            elif Function.TERROR_ZONE_TABLE.value == type:
-                current_row += 1
-                self.tz_tab = TerrorZoneUI(tab, self.controller)
-                self.tz_tab.grid(row=current_row, column=0, columnspan=100, sticky="nsew")
-                current_row += 1
-                current_col = 0
-
             elif SEPARATOR == type:
                 current_row += 1  
                 sep = ttk.Separator(tab, orient='horizontal')
@@ -426,9 +419,6 @@ class FeatureView:
 
         # 保存win配置
         self.save_window_geometry()
-
-        # 清空tz预告信息
-        self.controller.file_operations.writeTerrorZone("")
 
         # 使用after来在主线程中安全执行退出
         self.master.after(100, self._final_quit)
@@ -1449,80 +1439,7 @@ class D2RLauncherApp(tk.Frame):
             return self.fernet.decrypt(token.encode()).decode()
         except InvalidToken:
             return token  # 可能是明文
-        
-  
-class TerrorZoneUI(tk.Frame):
-    def __init__(self, master, controller):
-        super().__init__(master)
-        self.master = master
-        self.controller = controller
-        # self.grid(row=current_row, column=current_col, sticky="nsew")
-        
-        self.create_widgets()
-        self.load_and_display_data()
 
-        # 当这个 Frame 变为可见时，自动刷新数据
-        self.bind("<Visibility>", self.on_visible)
-
-    def create_widgets(self):
-        self.tree = ttk.Treeview(self, columns=("time", "name"), show="headings")
-        self.tree.heading("time", text="时间")
-        self.tree.heading("name", text="恐怖地带")
-        self.tree.column("time", width=150, anchor=tk.CENTER)
-        self.tree.column("name", width=450, anchor=tk.CENTER)
-        self.tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
-
-    def load_and_display_data(self):
-        if not os.path.isfile(TERROR_ZONE_PATH):
-            return
-        
-        try:
-            with open(TERROR_ZONE_PATH, "r", encoding="utf-8") as f:
-                full_data = json.load(f)
-            data_list = full_data.get("data", [])
-            self.tree.delete(*self.tree.get_children())
-
-            for item in data_list:
-                if isinstance(item, dict):
-                    raw_time = item.get("time")
-                    raw_zone = item.get("zone")
-                    
-                    # 时间
-                    formatted_time = (
-                        time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time))
-                        if raw_time else "未知时间"
-                    )
-
-                    # 恐怖地带
-                    tz_list = []
-
-                    tz_lang = jcy_config.SETTINGS.get(Function.TERROR_ZONE_LANGUAGE.value, "zhTW")
-                    
-                    if isinstance(raw_zone, str):
-                        level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
-                        for level_key in level_keys:
-                            level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
-                            level_name = level.get(tz_lang, f"未知区域({level_key})")
-                            tz_list.append(level_name)
-
-                    elif isinstance(raw_zone, list):
-                        for zone_id in raw_zone:
-                            level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
-                            level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
-                            level_name = level.get(tz_lang, f"未知区域({zone_id})")
-                            tz_list.append(level_name)
-
-                    # 去重 + 保序
-                    tz_list = list(dict.fromkeys(tz_list))
-
-                    name = " ".join(tz_list)
-
-                    self.tree.insert("", "end", values=(formatted_time, name))
-        except Exception as e:
-            messagebox.showerror("错误", f"加载数据失败: {e}")
-
-    def on_visible(self, event):
-        self.load_and_display_data()
 
 class AssetManagerUI(tk.Frame):
     def __init__(self, master, controller=None, mod_root=None, assets=None, categories=None):

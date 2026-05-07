@@ -26,7 +26,6 @@ class FileOperations:
             GAME_MODEL_APPLY: self.game_model_apply,
             HIRE_SKIN_APPLY: self.modify_hire_skin,
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
-            Methods.MODIFY_HUD_PANEL_BUTTONS: self.modify_hud_panel_buttons,
             Methods.MODIFY_ASN_MARTIAL_BY_HUD: self.modify_asn_martial_by_hud,
         }
 
@@ -321,24 +320,6 @@ class FileOperations:
                 return err_result(f"{result[0]}/{result[1]}")
         else:
             return ok_result("")
-
-
-    def modify_hud_panel_buttons(self, params):
-        """修改hudpanelbuttonshd.json"""
-        json_data = None
-        json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudpanelbuttonshd.json")
-        try:
-            with open(json_path, 'r', encoding='utf-8') as f:
-                json_data = json.load(f)
-
-            json_data["fields"]["anchor"] = params.get("anchor")
-            json_data["fields"]["rect"] = params.get("rect")
-
-            with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)
-            return ok_result("")
-        except Exception as e:
-            return err_result(e)
 
 
     def common_submit(self, fid, param):
@@ -2633,56 +2614,6 @@ class FileOperations:
             return item_name.removeprefix(UE01A)
 
 
-    def select_language(self, radio: str):
-        """刷新控制器恐怖地带列表"""
-        try:
-            with open(TERROR_ZONE_PATH, "r", encoding="utf-8") as f:
-                full_data = json.load(f)
-            data_list = full_data.get("data", [])
-
-            item = data_list[0]
-            if isinstance(item, dict):
-                raw_time = item.get("time")
-                raw_zone = item.get("zone")
-                
-                # 时间
-                formatted_time = (
-                    time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(raw_time))
-                    if raw_time else "未知时间"
-                )
-
-                # 恐怖地带
-                tz_list = [formatted_time]
-
-                tz_lang = jcy_config.SETTINGS.get(Function.TERROR_ZONE_LANGUAGE.value, "zhTW")
-                
-                if isinstance(raw_zone, str):
-                    level_keys = jcy_config.TERROR_ZONE.get(str(raw_zone), "")
-                    for level_key in level_keys:
-                        level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
-                        level_name = level.get(tz_lang, f"未知区域({level_key})")
-                        tz_list.append(level_name)
-
-                elif isinstance(raw_zone, list):
-                    for zone_id in raw_zone:
-                        level_key = jcy_config.TERROR_ZONE.get(str(zone_id), "")
-                        level = jcy_config.LOCAL_ORIGINAL_DICT.get(level_key, {})
-                        level_name = level.get(tz_lang, f"未知区域({zone_id})")
-                        tz_list.append(level_name)
-
-                # 去重 + 保序
-                tz_list = list(dict.fromkeys(tz_list))
-
-                return self.writeTerrorZone("\n".join(tz_list))           
-        except Exception as e:
-            print(e)
-            return 0, 1
-        finally:
-            if self.controller:
-                if self.controller.feature_view:
-                    if self.controller.feature_view.tz_tab:
-                        self.controller.feature_view.tz_tab.load_and_display_data()
-
     def modify_selected_language(self, select_language: str):
         """修改本地化文件列表, 选中语言内容"""
         
@@ -3593,23 +3524,6 @@ class FileOperations:
         return count, total
 
 
-    def writeTerrorZone(self, data: str):
-        """写入游戏TZ预报"""
-
-        # 写tz
-        try:
-            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudwarningsfakehd.json")
-            with open(json_path, 'r', encoding='utf-8') as f:
-                json_data = json.load(f)
-            json_data["children"][3]["children"][0]["fields"]["text"] = data
-            with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)
-        except Exception as e:
-            print("[writeTerrorZone 写入异常]", e)
-        
-        return (1, 1)
-
-
     def modify_item_notification(self, data: list):
         
         sound_index = {
@@ -3936,18 +3850,6 @@ class FileOperations:
 
         return count, total
 
-
-    def terror_zone_next(self, keys: list):
-        """恐怖区域-预告"""
-        if keys is None:
-            return (0, 0)
-        
-        # 取消"游戏内预告"时, 清理面板tz信息
-        if "2" not in keys:
-            return self.writeTerrorZone("")
-        else:
-            return (0, 0)
-        
 
     def save_win_config(self, data):
         """保存窗口配置"""

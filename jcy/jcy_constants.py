@@ -848,9 +848,6 @@ class Function(Enum):
     DATA_VERSION_BUILD = "DataVersionBuild"
     BACKGROUND_COLOR = "BackgroundColor"
     ARROW_BOLT_TIPS = "ArrowBoltTips"
-    TERROR_ZONE_LANGUAGE = "TerrorZoneLanguage"
-    TERROR_ZONE_NEXT = "TerrorZoneNext"
-    TERROR_ZONE_TABLE = "TerrorZoneTable"
 
     ACT4_WAYPOINT_4 = "Act4Waypoint4"
     ACT4_WAYPOINT_5 = "Act4Waypoint5"
@@ -938,9 +935,6 @@ class Methods(Enum):
     BACKUP_RESOTRE_FILES = auto()
     """备份/还原文件"""
 
-    MODIFY_HUD_PANEL_BUTTONS = auto()
-    """修改 hudpanelbuttonshd.json, anchor rect"""
-    
     MODIFY_ASN_MARTIAL_BY_HUD = auto()
     """修改 刺客-聚气图标 如果HUD模式"""
 
