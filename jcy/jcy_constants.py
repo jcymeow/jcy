@@ -25,8 +25,11 @@ APP_DATE = "20260508"
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
 
-# APP大小
-APP_SIZE = "750x700"
+# 控制器窗口默认大小
+APP_SIZE = {
+    "width": 752,
+    "height": 833,
+}
 
 # 区服地址
 REGION_DOMAIN_MAP = {
@@ -897,6 +900,7 @@ class Function(Enum):
     MISSION_POINTER = "MissionPointer"
     UPSTAIRS_POINTER = "UpstairsPointer"
     DOWNSTAIRS_POINTER = "DownstairsPointer"
+    NEXTAREA_POINTER = "NextareaPointer"
 
     COMMON_SETTING = "CommonSetting"
     ARROW = "Arrow"

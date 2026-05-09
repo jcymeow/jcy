@@ -530,6 +530,16 @@ class FeatureConfig:
                                 "4": "双箭头",
                             }
                         },
+                        {
+                            "fid": Function.NEXTAREA_POINTER.value,
+                            "type": RADIO,
+                            "text": "环境-邻区指引",
+                            "colspan": 50,
+                            "params": {
+                                "0": "默认",
+                                "2": "白环指引"
+                            }
+                        },
                     ]
                 },
                 {

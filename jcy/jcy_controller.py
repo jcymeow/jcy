@@ -203,6 +203,8 @@ class FeatureController:
             Function.UPSTAIRS_POINTER.value: self.file_operations.modify_upstairs_pointer,
             # 环境-下口指引
             Function.DOWNSTAIRS_POINTER.value: self.file_operations.modify_downstairs_pointer,
+            # 环境-邻区指引
+            Function.NEXTAREA_POINTER.value: self.file_operations.modify_nextarea_pointer,
 
 
             # 通用设置

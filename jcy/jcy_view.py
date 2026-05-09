@@ -71,7 +71,6 @@ class FeatureView:
         self.tab_map = {}
 
         master.title(APP_FULL_NAME)
-        master.geometry(APP_SIZE)
 
         # 新增的退出控制变量
         self.is_quitting = False
@@ -533,7 +532,7 @@ class FeatureView:
         """加载窗口配置"""
         data = self.controller.file_operations.load_win_config()
         if data is not None:
-            self.master.geometry(f"{data['width']}x{data['height']}+{data['x']}+{data['y']}")
+            self.master.geometry(f"{APP_SIZE['width']}x{APP_SIZE['height']}+{data['x']}+{data['y']}")
 
     def add_tab(self, tab, tab_name: str):
         """添加Tab"""
