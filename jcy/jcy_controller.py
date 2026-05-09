@@ -266,6 +266,8 @@ class FeatureController:
             Function.ITEM_NAME_STAR.value: self.file_operations.modify_item_name_star,
             # 道具-提醒
             Function.ITEM_NOTIFICATION.value: self.file_operations.modify_item_notification,
+            # 藍裝染色
+            Function.MAGIC_ITEM.value: self.file_operations.modify_magic_affixs,
         }
 
 
@@ -415,7 +417,6 @@ class FeatureController:
                 if fid in self._handlers:
                     result = self._handlers[fid](current_value)
                     self.dialogs += f"{info} 操作文件数量 {result[0]}/{result[1]} {result[2] if len(result) > 2 else ''}\n"
-        
 
         # 保存当前状态到 settings.json
         self.feature_state_manager.save_settings(jcy_config.SETTINGS)

@@ -848,10 +848,10 @@ class FeatureConfig:
                         {
                             "fid": Function.EQIUPMENT_SETTING.value,
                             "type": CHECK,
-                            "text": "装备-设置",
+                            "text": "魔法/蓝色装备-设置",
                             "colspan": 50,
                             "params": {
-                                "2": "开启 蓝色装备染色"
+                                "2": "开启 自定义魔法/蓝色装备染色"
                             }
                         },
                         {
@@ -927,6 +927,7 @@ class FeatureConfig:
             ],
             "checktable": {
                 Function.ITEM_NOTIFICATION.value: "道具提醒",
+                Function.MAGIC_ITEM.value: "藍裝染色",
             }
 
         }

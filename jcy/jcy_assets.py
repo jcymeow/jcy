@@ -4259,7 +4259,7 @@ ASSETS = [
         "type": Assets.MINIHUD_SKIN.value,
         "author": "설류혼",
         "description": "平行MiniHud+生命/法力/弹药提示+正副手提示",
-        "source": "https://www.inven.co.kr/board/diablo2/5842/7397",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7420",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/1802.zip",
         "file": "1802.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/1802.png",

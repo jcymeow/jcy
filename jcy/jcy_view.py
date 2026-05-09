@@ -131,6 +131,11 @@ class FeatureView:
         self.add_tab(rune_tab, "道具提醒")
         self.feature_vars[Function.ITEM_NOTIFICATION.value] = rune_tab
 
+        # --- 魔法装备染色 ---
+        magic_tab = MagicAffixUnifiedTable(notebook, MAGIC_AFFIXS, jcy_config.SETTINGS.get(Function.MAGIC_ITEM.value, {}))
+        self.add_tab(magic_tab, "蓝装染色")
+        self.feature_vars[Function.MAGIC_ITEM.value] = magic_tab
+
         # --- 素材管理 ---
         asset_tab = AssetManagerUI(notebook, self.controller)
         self.add_tab(asset_tab, "素材管理")
@@ -1020,6 +1025,104 @@ class ItemNotificationTable(tk.Frame):
         if self._silent:
             return
         self.config_dict[self.config_key][i][j] = var.get()
+
+
+class MagicAffixUnifiedTable(tk.Frame):
+    """
+    统一显示魔法词缀（前缀/后缀）表格
+    key 带 PREFIX_/SUFFIX_ 行号，后台可以区分
+    """
+    COLUMNS = ["名稱", "效果", "備註", "勾選"]
+
+    def __init__(self, master, data_dict, settings_dict=None, **kwargs):
+        """
+        :param master: 父控件
+        :param data_dict: {key: {"Name":..., "NameStr":..., "effect":..., "remark":...}, ...}
+        :param settings_dict: {key: bool, ...} 初始化勾选状态
+        """
+        # ---- 自定义参数先保存 ----
+        self.data_dict = data_dict
+        self.settings_dict = settings_dict or {}
+        self.vars = {}  # key -> BooleanVar
+
+        # ---- 只把 tkinter 支持的 kwargs 传给 Frame ----
+        tk.Frame.__init__(self, master, **kwargs)
+
+        # ---------- Canvas + 滚动条 ----------
+        self.canvas = tk.Canvas(self, highlightthickness=0)
+        self.vbar = tk.Scrollbar(self, orient="vertical", command=self.canvas.yview)
+        self.canvas.configure(yscrollcommand=self.vbar.set)
+        self.vbar.pack(side="right", fill="y")
+        self.canvas.pack(side="left", fill="both", expand=True)
+
+        self._tbl = tk.Frame(self.canvas)
+        tbl_window = self.canvas.create_window((0, 0), window=self._tbl, anchor="nw")
+        self._tbl.bind("<Configure>", lambda e: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
+        self.canvas.bind("<Configure>", lambda e: self.canvas.itemconfigure(tbl_window, width=e.width))
+
+        # ---------- 表头 ----------
+        header_font = font.Font(weight="bold", size=10)
+        for j, col in enumerate(self.COLUMNS):
+            tk.Label(self._tbl, text=col, font=header_font,
+                     borderwidth=1, relief="solid", bg="#d9d9d9",
+                     anchor="center").grid(row=0, column=j, sticky="nsew", ipadx=4, ipady=6)
+        self._tbl.grid_rowconfigure(0, minsize=30)
+
+        # ---------- 构建数据行 ----------
+        for i, (key, info) in enumerate(data_dict.items()):
+            # 名称
+            tk.Label(self._tbl, text=info["NameStr"], borderwidth=1, relief="solid", anchor="w")\
+                .grid(row=i+1, column=0, sticky="nsew")
+            # 效果
+            tk.Label(self._tbl, text=info["effect"], borderwidth=1, relief="solid", anchor="w")\
+                .grid(row=i+1, column=1, sticky="nsew")
+            # 备注
+            tk.Label(self._tbl, text=info["remark"], borderwidth=1, relief="solid", anchor="w")\
+                .grid(row=i+1, column=2, sticky="nsew")
+            # 勾选框
+            checked = self.settings_dict.get(key, False)
+            var = tk.BooleanVar(value=checked)
+
+            cb_frame = tk.Frame(self._tbl, borderwidth=1, relief="solid")  # <-- 外框
+            cb_frame.grid(row=i+1, column=3, sticky="nsew")
+
+            cb = tk.Checkbutton(cb_frame, variable=var)
+            cb.pack(expand=True, fill="both")  # 让Checkbutton填满Frame
+
+            self.vars[key] = var
+
+        # 列权重
+        for c in range(4):
+            self._tbl.grid_columnconfigure(c, weight=1)
+
+        # 启用鼠标滚轮滚动
+        self._enable_mousewheel_scroll()
+
+    # ---------- 外部接口 ----------
+    def get(self):
+        """
+        返回当前勾选状态
+        :return: {key: bool, ...}
+        """
+        return {k: v.get() for k, v in self.vars.items()}
+
+    def set(self, cfg):
+        """
+        应用外部配置到 UI
+        :param cfg: {key: bool, ...}
+        """
+        for k, val in cfg.items():
+            if k in self.vars:
+                self.vars[k].set(val)
+
+    # ---------- 鼠标滚轮 ----------
+    def _enable_mousewheel_scroll(self):
+        def _on_mousewheel(event):
+            self.canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+            return "break"
+        self.canvas.bind("<Enter>", lambda e: self.canvas.bind_all("<MouseWheel>", _on_mousewheel))
+        self.canvas.bind("<Leave>", lambda e: self.canvas.unbind_all("<MouseWheel>"))
+
 
 class D2RLauncherApp(tk.Frame):
     """

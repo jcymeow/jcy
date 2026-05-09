@@ -412,19 +412,6 @@ class FileOperations:
         return self.common_rename(files_escape, isEnabled) 
     
 
-    def toggle_global_excel_affixes(self, isEnabled: bool = False):
-        """
-        开关 特殊词缀装备变色
-        """
-        files_global_excel_affixes = (
-            r"data/global/excel/magicprefix.txt",
-            r"data/global/excel/magicsuffix.txt",
-            r"data/global/ui/layouts/globaldatahd.json"
-        )
-
-        return self.common_rename(files_global_excel_affixes, isEnabled)
-
-
     def toggle_hellfire_torch(self, isEnabled: bool = False):
         """
         126": "屏蔽 地狱火炬火焰风暴特效",
@@ -907,15 +894,19 @@ class FileOperations:
         if keys is None:
             return (0, 0)
 
-        # 开启 蓝装染色
-        toggle2 = "2" in keys
-        res2 = self.toggle_global_excel_affixes(toggle2)
-        
         funcs = []
-        funcs.append(res2)
-        results = [f for f in funcs]
-        summary = tuple(sum(values) for values in zip(*results))
+
+        # 2.开启 自定义魔法/蓝色装备染色
+        _files = [
+            r"data/global/excel/magicprefix.txt",
+            r"data/global/excel/magicsuffix.txt",
+        ]
+
+        custom_magic_item_color = "2" in keys
+        funcs.append(self.common_rename(_files, custom_magic_item_color))
         
+        results = [f for f in funcs]
+        summary = tuple(sum(values) for values in zip(*results))       
         return summary
     
 
@@ -3686,6 +3677,56 @@ class FileOperations:
                 print(e)
         
         return (count, total)
+
+
+    def modify_magic_affixs(self, data):
+        """
+        根据 key(bool) 修改 magicprefix.txt / magicsuffix.txt 对应行的 Y 列
+        :param data: { "PREFIX_68": True, "SUFFIX_18": False, ... }
+        """
+
+        #Y列 染色
+        TRANSFORMCOLOR_COLUMN_INDEX = 24 
+
+        magic_affixs = {
+            "PREFIX": os.path.join(MOD_PATH, r"data/global/excel/magicprefix.txt"),
+            "SUFFIX": os.path.join(MOD_PATH, r"data/global/excel/magicsuffix.txt")
+        }
+
+        count = 0
+        total = len(magic_affixs)
+        
+
+        grouped = {"PREFIX": {}, "SUFFIX": {}}
+        for k, v in data.items():
+            parts = k.split("_", 1)
+            if len(parts) != 2:
+                continue
+            group, row = parts
+            if group in grouped:
+                grouped[group][int(row)] = v
+
+        for k, changes in grouped.items():
+            path = magic_affixs.get(k)
+            try:
+                if not os.path.exists(path):
+                    path = path + ".tmp"
+                
+                with open(path, 'r', encoding='utf-8') as f:
+                    rows = list(csv.reader(f, delimiter='\t'))
+
+                for row_num, flag in changes.items():
+                    rows[row_num-1][TRANSFORMCOLOR_COLUMN_INDEX] = 'lgrn' if flag else ''
+
+                with open(path, 'w', encoding='utf-8', newline='') as f:
+                    writer = csv.writer(f, delimiter='\t')
+                    writer.writerows(rows)
+                
+                count += 1
+            except Exception as e:
+                print(e)
+
+        return count, total
 
 
     def skill_off_sounds(self, keys: list):

@@ -841,6 +841,34 @@ CUSTOM_SOUNDS = {
     "guard_hit_hd4":      {True: r"monster\rogue\gethit4_hd.flac", False: r"monster\guard\monster_guard_gethit_4_hd.flac",                 "path": ""},
 }
 
+# 魔法詞綴<前/后綴_行號, data>
+MAGIC_AFFIXS = {
+    "PREFIX_357": {"Name": "Sapphire", "NameStr": "寶藍", "effect": "冰寒抗性(CR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
+    "PREFIX_376": {"Name": "Ruby", "NameStr": "寶紅", "effect": "火焰抗性(FR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
+    "PREFIX_396": {"Name": "Amber", "NameStr": "琥珀", "effect": "電擊抗性(LR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
+    "PREFIX_416": {"Name": "Emerald", "NameStr": "寶綠", "effect": "毒素抗性(PR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
+    "PREFIX_423": {"Name": "Artificer's", "NameStr": "工匠", "effect": "鑲孔×3", "remark": "武器/盾牌/頭盔/盔甲/不含投擲類"},
+    "PREFIX_424": {"Name": "Jeweler's", "NameStr": "珠寶匠", "effect": "鑲孔×4", "remark": "武器/盾牌/頭盔/盔甲/不含投擲類"},
+    "PREFIX_443": {"Name": "Lancer's", "NameStr": "長槍手", "effect": "+3 亞馬遜標槍與長矛", "remark": "長矛/手套"},
+    "PREFIX_449": {"Name": "Volcanic", "NameStr": "火山", "effect": "+3 魔法使火焰技能", "remark": "法杖/法球/項鏈/頭環"},
+    "PREFIX_473": {"Name": "Rose Branded", "NameStr": "玫瑰烙印", "effect": "+3 聖騎戰鬥技能", "remark": "權杖/劍/盾/聖騎盾/項鏈/頭環"},
+    "PREFIX_491": {"Name": "Echoing", "NameStr": "回音", "effect": "+3 野蠻人戰吼", "remark": "蠻子頭/武器類/項鏈"},
+    "PREFIX_509": {"Name": "Cunning", "NameStr": "狡猾", "effect": "+3 刺客陷阱", "remark": "爪/項鏈/頭環"},
+    "PREFIX_515": {"Name": "Kenshi's", "NameStr": "劍士", "effect": "+3 刺客武學技藝", "remark": "爪/項鏈/手套/頭環"},
+    "PREFIX_713": {"Name": "Malevolent", "NameStr": "惡毒", "effect": "+3 術士惡魔技能", "remark": "匕首/魔典/項鏈/頭環"},
+    "SUFFIX_171": {"Name": "of Quickness", "NameStr": "快速之", "effect": "攻擊速度(IAS) +40%", "remark":"近戰武器/不含短杖/不含法杖/不含法球"},
+    "SUFFIX_170": {"Name": "of Swiftness", "NameStr": "迅捷之", "effect": "攻擊速度(IAS) +30%", "remark":"近戰武器/不含短杖/不含法杖/不含法球"},
+    "SUFFIX_172": {"Name": "of Alacrity", "NameStr": "輕快之", "effect": "攻擊速度(IAS) +20%", "remark":"手套"},
+    "SUFFIX_175": {"Name": "of Deflecting", "NameStr": "偏折之", "effect": "格擋幾率(CTB) +20% 格擋速度(FBR) +30%", "remark":"盾"},
+    "SUFFIX_177": {"Name": "of the Magus", "NameStr": "魔導師之", "effect": "快速的施法速度(FCR) +20%", "remark":"法杖類/法球/頭環/不含權杖"},
+    "SUFFIX_400": {"Name": "of Acceleration", "NameStr": "加速之", "effect": "跑步/行走速度(FRW) +40%", "remark":"鞋子"},
+    "SUFFIX_399": {"Name": "of Traveling", "NameStr": "運輸之", "effect": "跑步/行走速度(FRW) +30%", "remark":"鞋子"},
+    "SUFFIX_322": {"Name": "of the Whale", "NameStr": "巨鯨之", "effect": "生命(Life) +(81~100)", "remark":"盔甲/腰帶/項鏈/蠻子頭/頭環"},
+    "SUFFIX_359": {"Name": "of the Lamprey", "NameStr": "八目鰻之", "effect": "擊中生命偷取(LL) +(7~8)%", "remark":"戒指/頭環"},
+    "SUFFIX_534": {"Name": "of Teleportation", "NameStr": "傳送之", "effect": "傳送聚氣 6級 52次", "remark":"法杖/法球"},
+    "SUFFIX_535": {"Name": "of Teleportation", "NameStr": "傳送之", "effect": "傳送聚氣 3級 27次", "remark":"項鏈/頭環"},
+    "SUFFIX_596": {"Name": "of Lower Resistance", "NameStr": "降低抗性之", "effect": "降低抵抗聚氣 3級 82次", "remark":"短杖/匕首/死靈盾"},
+}
 
 class Function(Enum):
     ZHCN = "zhCN"
@@ -901,6 +929,7 @@ class Function(Enum):
     MODEL_EFFECTS = "ModelEffects"
     RUNE_SIZE = "RuneSize"
     ITEM_NOTIFICATION = "ItemNotification"
+    MAGIC_ITEM = "MagicItem"
     ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
     ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
     ITEM_NAME_STAR = "ItemNameStar"
@@ -996,6 +1025,7 @@ __all__ = [
     'ITEM_BASE',
     'ITEM_MISC',
     'CUSTOM_SOUNDS',
+    'MAGIC_AFFIXS',
     'Assets',
     'METHOD',
     'PARAMS',
