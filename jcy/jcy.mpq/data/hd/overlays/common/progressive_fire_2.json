@@ -22,16 +22,16 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "component_vfx",
-                    "filename": "data/hd/vfx2/particles/assassin/fists_of_fire_2.particles",
+                    "filename": "data/hd/vfx2/particles/assassin/fist_of_fire_2.particles",
                     "hardKillOnDestroy": true
                 },
                 {
                     "type": "TransformDefinitionComponent",
                     "name": "entity_root_TransformDefinition",
                     "position": {
-                        "x": 130.5,
-                        "y": 96.0,
-                        "z": 121.5
+                        "x": 123.00,
+                        "y": 100.00,
+                        "z": 129.00
                     },
                     "inheritOnlyPosition": true
                 }

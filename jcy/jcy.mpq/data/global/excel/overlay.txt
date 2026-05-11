@@ -334,5 +334,6 @@ korliccoldpierce	330	Conviction	0	17	monster	0	1	0	0	0	0	0	0	16	0	3	8	8	255	255	
 colossal_lightning	331	ShockHitSm	0	20	common	0	1	0	0	0	0	0	0	16	0	3	11	11	255	255	255	1	0			
 warlock_shadow_cast_2	332	warlock_shadow_cast_1	100	15	warlock	1	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			
 herald	333	expansion\succcurseoverlay2	100	10	common	0	1	0	0	14	0	-14	-60	16	0	3	0	0	0	0	0	1	0			
-markbear	334	BloodRipple	100	15	common	1	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
-markwolf	335	expansion\painwormcurse	100	10	common	1	1	0	0	0	0	0	0	8	0	3	0	0	0	0	0	1	0			
+hex_bane	337	warlock_hex_bane	0	17	warlock	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			
+hex_siphon	338	warlock_hex_siphon	0	17	warlock	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			
+hex_purge	339	warlock_hex_purge	0	17	warlock	0	1	0	0	0	0	0	0	16	0	3	1	9	255	178	64	1	0			

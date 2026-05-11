@@ -1,0 +1,59 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "hex_enchant",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "vfx_entity_hex_siphon",
+            "id": 229196589,
+            "components": [
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "vfx_entity_hex_siphon_UnitSourceSkillFilter",
+                    "sourceSkill": "Hex Siphon"
+                },
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_entity_hex_siphon_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/overlays/warlock/enchant/vfx_hex_enchant_siphon.particles",
+                    "hardKillOnDestroy": false
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 229196589,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx",
+                    "filename": "data/hd/vfx2/particles/warlock/hex_siphon.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 124.5,
+                        "y": 100.0,
+                        "z": 127.5
+                    },
+                    "inheritOnlyPosition": true
+                }
+            ]
+        }
+    ]
+}

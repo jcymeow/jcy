@@ -1,22 +1,10 @@
-﻿{
+{
     "dependencies": {
-        "particles": [
-            {
-                "path": "data/hd/vfx/particles/character/npc/malachai/vfx_malachai_wing_objfx.particles"
-            }
-        ],
-        "models": [
-            {
-                "path": "data/hd/vfx/meshes/FX_Mesh_EnergyShield.model"
-            }
-        ],
+        "particles": [],
+        "models": [],
         "skeletons": [],
         "animations": [],
-        "textures": [
-            {
-                "path": "data/hd/vfx/textures/gradient/T_FX_linearGradient_parabolicfalloff.texture"
-            }
-        ],
+        "textures": [],
         "physics": [],
         "json": [],
         "variantdata": [],
@@ -28,121 +16,37 @@
     "entities": [
         {
             "type": "Entity",
-            "name": "droplight",
-            "id": 9999996974,
+            "name": "entity_root",
+            "id": 129889062,
             "components": [
                 {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 8.0,
-                        "z": 0.0
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "UnitPartComponent",
-                    "name": "entity_wings_UnitPart",
-                    "part": "head",
-                    "variant": "lit"
-                },
-                {
                     "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_gousemyideaandshareyourfilthymods",
-                    "filename": "data/hd/vfx/particles/missiles/bighead_lightning_missile/bighead_lightning_missile.particles",
-                    "hardKillOnDestroy": false
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/overlays/sorceress/energyshield/energyshield_Overlay.particles",
+                    "hardKillOnDestroy": true
                 }
             ]
         },
         {
             "type": "Entity",
-            "name": "droplight",
-            "id": 9999996974,
+            "name": "entity_root",
+            "id": 129889062,
             "components": [
                 {
-                    "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
-                    "position": {
-                        "x": 0.0,
-                        "y": 8.0,
-                        "z": 0.0
-                    },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "UnitPartComponent",
-                    "name": "entity_wings_UnitPart",
-                    "part": "head",
-                    "variant": "lit"
-                },
-                {
                     "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_gousemyideaandshareyourfilthymods",
-                    "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightningstrike.particles",
-                    "hardKillOnDestroy": false
-                }
-            ]
-        },
-        {
-            "type": "Entity",
-            "name": "droplight",
-            "id": 9999996974,
-            "components": [
+                    "name": "entity_root_VfxDefinition",
+                    "filename": "data/hd/vfx2/particles/sorceress/energy_shield.particles",
+                    "hardKillOnDestroy": true
+                },
                 {
                     "type": "TransformDefinitionComponent",
-                    "name": "component_transform1",
+                    "name": "entity_root_TransformDefinition",
                     "position": {
-                        "x": 0.0,
-                        "y": 8.0,
-                        "z": 0.0
+                        "x": 127.5,
+                        "y": 100.0,
+                        "z": 124.5
                     },
-                    "orientation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 1.0
-                    },
-                    "scale": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "inheritOnlyPosition": false
-                },
-                {
-                    "type": "UnitPartComponent",
-                    "name": "entity_wings_UnitPart",
-                    "part": "head",
-                    "variant": "lit"
-                },
-                {
-                    "type": "VfxDefinitionComponent",
-                    "name": "entity_vfx_gousemyideaandshareyourfilthymods",
-                    "filename": "data/hd/vfx/particles/missiles/lightning_strike/lightningstrike.particles",
-                    "hardKillOnDestroy": false
+                    "inheritOnlyPosition": true
                 }
             ]
         }

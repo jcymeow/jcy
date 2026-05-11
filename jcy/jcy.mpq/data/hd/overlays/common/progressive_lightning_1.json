@@ -22,16 +22,16 @@
                 {
                     "type": "VfxDefinitionComponent",
                     "name": "component_vfx",
-                    "filename": "data/hd/vfx2/particles/assassin/claws_of_thuner_1.particles",
+                    "filename": "data/hd/vfx2/particles/assassin/claws_of_thunder_1.particles",
                     "hardKillOnDestroy": true
                 },
                 {
                     "type": "TransformDefinitionComponent",
                     "name": "entity_root_TransformDefinition",
                     "position": {
-                        "x": 124.5,
-                        "y": 96.0,
-                        "z": 127.5
+                        "x": 124.50,
+                        "y":  96.00,
+                        "z": 127.50
                     },
                     "inheritOnlyPosition": true
                 }

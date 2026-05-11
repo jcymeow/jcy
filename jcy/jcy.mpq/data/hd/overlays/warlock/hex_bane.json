@@ -1,0 +1,59 @@
+{
+    "dependencies": {
+        "particles": [],
+        "models": [],
+        "skeletons": [],
+        "animations": [],
+        "textures": [],
+        "physics": [],
+        "json": [],
+        "variantdata": [],
+        "objecteffects": [],
+        "other": []
+    },
+    "type": "OverlayDefinition",
+    "name": "hex_enchant",
+    "entities": [
+        {
+            "type": "Entity",
+            "name": "vfx_entity_hex_bane",
+            "id": 3198383909,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "vfx_VfxDefinition",
+                    "filename": "data/hd/vfx/particles/overlays/warlock/enchant/vfx_hex_enchant_bane.particles",
+                    "hardKillOnDestroy": false
+                },
+                {
+                    "type": "UnitSourceSkillFilterComponent",
+                    "name": "vfx_UnitSourceSkillFilter",
+                    "sourceSkill": "Hex Bane"
+                }
+            ]
+        },
+        {
+            "type": "Entity",
+            "name": "entity_root",
+            "id": 3198383909,
+            "components": [
+                {
+                    "type": "VfxDefinitionComponent",
+                    "name": "component_vfx",
+                    "filename": "data/hd/vfx2/particles/warlock/hex_bane.particles",
+                    "hardKillOnDestroy": true
+                },
+                {
+                    "type": "TransformDefinitionComponent",
+                    "name": "entity_root_TransformDefinition",
+                    "position": {
+                        "x": 124.5,
+                        "y": 100.0,
+                        "z": 127.5
+                    },
+                    "inheritOnlyPosition": true
+                }
+            ]
+        }
+    ]
+}

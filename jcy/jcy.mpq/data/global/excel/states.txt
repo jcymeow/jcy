@@ -197,11 +197,11 @@ sigildeath	194																																															curse_hit									9
 bloodoath	195			1																																																																						0
 demonic_mastery	196			1																																																																						0
 levitate_mastery	197																																																																									0
-hexbane	198	6																																														hex_enchant							mele								hexbane_off										1	0
+hexbane	198	6																																									hex_bane					hex_enchant							mele								hexbane_off										1	0
 hexbanedebuff	199	7				1	1																																				hexbanedebuff					curse_hit														Warlock_Skill_Hex_Bane_Hit											1	0
-hexsiphon	200	6										1																																				hex_enchant							mele								hexsiphon_off										2	0
+hexsiphon	200	6										1																															hex_purge					hex_enchant							mele								hexsiphon_off										2	0
 hexsiphondebuff	201	7				1	1																																				hexsyphondebuff					curse_hit														Warlock_Skill_Hex_Siphon_Hit											2	0
-hexpurge	202	6										1																																				hex_enchant							mele								hexpurge_off										4	0
+hexpurge	202	6										1																															hex_siphon					hex_enchant							mele								hexpurge_off										4	0
 mindbarrier	203	1																																									bladeshield																															0
 shadow_mastery	204			1																																																																						0
 sigil	205			1																																																																						0
