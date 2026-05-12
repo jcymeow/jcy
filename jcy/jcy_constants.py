@@ -78,6 +78,7 @@ class Assets(Enum):
     GAME_MODEL = "GameModel"
     RUNE_SKIN = "RuneSkin"
     SKILL_SKIN = "SkillSkin"
+    SKILL_LOGO = "SkillLogo"
     FONT_TYPE = "FontType"
     ACT1_HIRE = "Act1Hire"
     ACT2_HIRE = "Act2Hire"
