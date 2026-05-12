@@ -412,73 +412,6 @@ class FileOperations:
         return self.common_rename(files_escape, isEnabled) 
     
 
-    def toggle_hellfire_torch(self, isEnabled: bool = False):
-        """
-        126": "屏蔽 地狱火炬火焰风暴特效",
-        """
-        paths = [
-            r"data/global/excel/skills.txt",
-        ]
-
-        params = {
-            "DiabWall" : {"col": "ItemCltEffect", True: "200", False: ""},
-        }
-
-        count = 0
-        total = len(paths)
-
-        for path in paths:
-            file_path = os.path.join(MOD_PATH, path)
-            temp_path = file_path + ".tmp"
-
-            try:
-                original_formatted_rows = [] # 源数据列表(保持样式)
-                working_unquoted_rows = [] # 干净数据列表(操作用)
-                # 1.读取数据
-                with open(file_path, 'r', newline='', encoding='utf-8') as f:
-                    for line_num, line in enumerate(f):
-                        line = line.rstrip('\r\n') # 移除行末的换行符，避免写入时多余空行
-                        current_original_fields = line.split('\t') 
-                        original_formatted_rows.append(current_original_fields)
-                        # 为工作台创建一份“去引号”的副本。这使得后续的查找和修改更简单。
-                        current_unquoted_fields = [
-                            field.strip('"') if field.startswith('"') and field.endswith('"') else field 
-                            for field in current_original_fields
-                        ]
-                        working_unquoted_rows.append(current_unquoted_fields)
-                
-                # 2.修改数据
-                for i, working_unquoted_row in enumerate(working_unquoted_rows):
-                    skill = working_unquoted_row[0]
-                    if(skill in params):
-                        param = params[skill]
-                        x = i
-                        y = working_unquoted_rows[0].index(param["col"])
-                        original_value = original_formatted_rows[x][y]
-                        new_value = param[isEnabled]
-                        if original_value.startswith('"') and original_value.endswith('"'):
-                            original_formatted_rows[x][y] = f"\"{new_value}\""
-                        else:
-                            original_formatted_rows[x][y] = new_value
-
-                # 3.将修改后的数据写回新文件
-                with open(temp_path, 'w', newline='', encoding='utf-8') as f:
-                    for row_fields in original_formatted_rows:
-                        line = '\t'.join(row_fields) + '\n'
-                        # 手动将字段用制表符拼接，然后写入文件，保留原始格式
-                        f.write(line) # <-- 修正点！直接字符串拼接写入
-                
-                # 4.将临时文件重命名为原文件，覆盖原文件
-                os.replace(temp_path, file_path)
-                count += 1
-            except Exception as e:
-                print(e)
-            finally:
-                if os.path.exists(temp_path):
-                    os.remove(temp_path)
-        return (count, total)
-
-
     def toggle_skill_logo(self, isEnabled: bool = False):
         """
         技能图标
@@ -3487,9 +3420,12 @@ class FileOperations:
     def common_setting(self, keys: list):
         """通用设置"""
 
-        # 屏蔽 地狱火炬 火焰风暴特效
+        # 屏蔽 地狱火炬/凤凰 火焰风暴特效
         isEnabled1 = "1" in keys
-        sub1 = self.toggle_hellfire_torch(isEnabled1)
+        _files1 = [
+            r"data/global/excel/skills.txt"
+        ]
+        sub1 = self.common_rename(_files1, isEnabled1)
 
         # 开启 技能图标(头顶:熊之印记/狼之印记 脚下:附魔/速度爆发+影散/BO 右侧:刺客聚气)
         isEnabled2 = "2" in keys
