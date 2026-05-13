@@ -3179,6 +3179,9 @@ class FileOperations:
             "1":[
                 r"data/hd/missiles/blessedhammer.json",
             ],
+            "2":[
+                r"data/hd/overlays/common/fire_hit.json",
+            ],
         }
 
         funcs = []

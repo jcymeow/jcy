@@ -617,21 +617,13 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.DRU_SETTING.value,
-                            "type": CHECK,
-                            "text": "德鲁伊",
-                            "colspan": 25,
-                            "params": {
-                                "2": "蓝色飓风术"
-                            }
-                        },
-                        {
                             "fid": Function.PAL_SETTING.value,
                             "type": CHECK,
                             "text": "圣骑士",
-                            "colspan": 25,
+                            "colspan": 50,
                             "params": {
-                                "1": "祝锤闪电弹道特效"
+                                "1": "祝锤闪电弹道特效",
+                                "2": "蓝色神圣火焰",
                             }
                         },
                         {
@@ -643,6 +635,15 @@ class FeatureConfig:
                             "params": {
                                 "1": "紫色 火焰技能",
                                 "2": "红色 沸血术"
+                            }
+                        },
+                        {
+                            "fid": Function.DRU_SETTING.value,
+                            "type": CHECK,
+                            "text": "德鲁伊",
+                            "colspan": 25,
+                            "params": {
+                                "2": "蓝色飓风术"
                             }
                         },
                         {
