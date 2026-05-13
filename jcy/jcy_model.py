@@ -474,12 +474,22 @@ class FeatureConfig:
                             "fid": Function.ENABLE_POINTER.value,
                             "type": CHECK,
                             "text": "环境-开启指引",
-                            "colspan": 100,
+                            "colspan": 70,
                             "params": {
                                 "3": "A1兵营",
                                 "4": "A2督瑞尔",
                                 "5": "A4火焰之河",
                                 "6": "A5尼拉塞克"
+                            }
+                        },
+                        {
+                            "fid": Function.NEXTAREA_POINTER.value,
+                            "type": RADIO,
+                            "text": "环境-邻区指引",
+                            "colspan": 30,
+                            "params": {
+                                "0": "默认",
+                                "2": "白环指引"
                             }
                         },
                         {
@@ -530,16 +540,6 @@ class FeatureConfig:
                                 "4": "双箭头",
                             }
                         },
-                        {
-                            "fid": Function.NEXTAREA_POINTER.value,
-                            "type": RADIO,
-                            "text": "环境-邻区指引",
-                            "colspan": 50,
-                            "params": {
-                                "0": "默认",
-                                "2": "白环指引"
-                            }
-                        },
                     ]
                 },
                 {
@@ -552,7 +552,7 @@ class FeatureConfig:
                             "colspan": 100,
                             "params": {
                                 "1": "屏蔽 地狱火炬/凤凰 火焰风暴特效",
-                                "2": "开启 技能图标(熊之印记/速度爆发or影散/狼之印记/BO)"
+                                "2": "开启 技能图标(需要素材技能LOGO)"
                             }
                         },
                         {

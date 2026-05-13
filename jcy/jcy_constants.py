@@ -27,8 +27,8 @@ APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
 
 # 控制器窗口默认大小
 APP_SIZE = {
-    "width": 752,
-    "height": 833,
+    "width": 754,
+    "height": 765,
 }
 
 # 区服地址
