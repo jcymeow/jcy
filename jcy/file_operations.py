@@ -26,7 +26,6 @@ class FileOperations:
             GAME_MODEL_APPLY: self.game_model_apply,
             HIRE_SKIN_APPLY: self.modify_hire_skin,
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
-            Methods.MODIFY_ASN_MARTIAL_BY_HUD: self.modify_asn_martial_by_hud,
         }
 
 
@@ -307,19 +306,6 @@ class FileOperations:
         funcs.append(self.common_modify_json(file="data/local/lng/strings/mercenaries.json", records=hire_name, encoding="utf-8-sig", space=2))
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
-
-
-    def modify_asn_martial_by_hud(self):
-        """修改 刺客-聚气图标 如果HUD模式"""
-        martial = jcy_config.SETTINGS[Function.ASN_MARTIAL.value]
-        if martial == "9":
-            result = self.assassin_martial("9")
-            if(result[0] == result[1]):
-                return ok_result(f"{result[0]}/{result[1]}")
-            else:
-                return err_result(f"{result[0]}/{result[1]}")
-        else:
-            return ok_result("")
 
 
     def common_submit(self, fid, param):
@@ -3284,141 +3270,6 @@ class FileOperations:
         
         return summary
 
-
-    def assassin_martial(self, radio: str = "0"):
-        """刺客-聚气图标"""
-        
-        _files = [
-            r"data/hd/overlays/common/progressive_cold_1.json",
-            r"data/hd/overlays/common/progressive_cold_2.json",
-            r"data/hd/overlays/common/progressive_cold_3.json",
-            r"data/hd/overlays/common/progressive_damage_1.json",
-            r"data/hd/overlays/common/progressive_damage_2.json",
-            r"data/hd/overlays/common/progressive_damage_3.json",
-            r"data/hd/overlays/common/progressive_fire_1.json",
-            r"data/hd/overlays/common/progressive_fire_2.json",
-            r"data/hd/overlays/common/progressive_fire_3.json",
-            r"data/hd/overlays/common/progressive_lightning_1.json",
-            r"data/hd/overlays/common/progressive_lightning_2.json",
-            r"data/hd/overlays/common/progressive_lightning_3.json",
-            r"data/hd/overlays/common/progressive_other_1.json",
-            r"data/hd/overlays/common/progressive_other_2.json",
-            r"data/hd/overlays/common/progressive_other_3.json",
-            r"data/hd/overlays/common/progressive_steal_1.json",
-            r"data/hd/overlays/common/progressive_steal_2.json",
-            r"data/hd/overlays/common/progressive_steal_3.json",
-        ]
-
-        count = 0
-        total = len(_files)
-
-        _params = {
-            # 右侧
-            "1": [
-                {"x":123,"y":100,"z":112},
-                {"x":118.5,"y":100.0,"z":107.5},
-                {"x":120.5,"y":100.0,"z":105.5},
-                {"x":125.0,"y":100.0,"z":110.0},
-                {"x":129.5,"y":100.0,"z":114.5},
-                {"x":127.5,"y":100.0,"z":116.5},
-            ],
-            # 下方
-            "3": [
-                # 4
-                {"x": 	127.50	, "y": 	96.00	, "z": 	124.50	},
-                # 5
-                {"x": 	129.00	, "y": 	96.00	, "z": 	123.00	}, 
-                # 6
-                {"x": 	130.50	, "y": 	96.00	, "z": 	121.50	}, 
-                # 2
-                {"x": 	124.50	, "y": 	96.00	, "z": 	127.50	},
-                # 3
-                {"x": 	126.00	, "y": 	96.00	, "z": 	126.00	},
-                # 1
-                {"x": 	123.00	, "y": 	96.00	, "z": 	129.00	},
-            ],
-        }
-
-        rename_result = self.common_rename(_files, radio != "0")
-        if "0" == radio:
-            return rename_result
-        
-        elif "1" == radio or "3" == radio:
-            _param = _params.get(radio)
-            try:
-                for i, _file in enumerate(_files):
-                    _file_json = None
-                    _file_path = os.path.join(MOD_PATH, _file)
-                    with open(_file_path, 'r', encoding='utf-8') as f:
-                        _file_json = json.load(f)
-
-                    _file_json["entities"][0]["components"][-1]["position"] = _param[i//3]
-
-                    with open(_file_path, 'w', encoding='utf-8') as f:
-                        json.dump(_file_json, f, ensure_ascii=False, indent=4)
-                    
-                    count += 1
-            except Exception as e:
-                print(e)
-        
-        elif "9" == radio:
-            # --- HUD方案 ---
-            hud = jcy_config.ASSET_CONFIG.get(Assets.HUD_SKIN.value)
-            _param = None
-            match hud:
-                case 803:
-                    _param = [
-                        {"x": 	125.00	, "y": 	82.00	, "z": 	127.00	},
-                        {"x": 	126.50	, "y": 	82.00	, "z": 	125.50	},
-                        {"x": 	128.00	, "y": 	82.00	, "z": 	124.00	},
-                        {"x": 	122.00	, "y": 	82.00	, "z": 	130.00	},
-                        {"x": 	123.50	, "y": 	82.00	, "z": 	128.50	},
-                        {"x": 	120.50	, "y": 	82.00	, "z": 	131.50	},
-                    ]
-                case 804:
-                    _param = [
-                        {"x": 	117.50	, "y": 	79.00	, "z": 	134.50	},
-                        {"x": 	119.00	, "y": 	79.00	, "z": 	133.00	},
-                        {"x": 	119.00	, "y": 	75.00	, "z": 	133.00	},
-                        {"x": 	116.00	, "y": 	75.00	, "z": 	136.00	},
-                        {"x": 	116.00	, "y": 	79.00	, "z": 	136.00	},
-                        {"x": 	117.50	, "y": 	75.00	, "z": 	134.50	},
-                    ]
-                case 805:
-                    _param = [
-                        {"x": 	138.50	, "y": 	78.00	, "z": 	113.50	},
-                        {"x": 	140.00	, "y": 	78.00	, "z": 	112.00	},
-                        {"x": 	141.50	, "y": 	78.00	, "z": 	110.50	},
-                        {"x": 	135.50	, "y": 	78.00	, "z": 	116.50	},
-                        {"x": 	137.00	, "y": 	78.00	, "z": 	115.00	},
-                        {"x": 	134.00	, "y": 	78.00	, "z": 	118.00	},
-                    ]
-                case _:
-                    _param = [
-                        {"x": 	133.50	, "y": 	84.00	, "z": 	118.50	},
-                        {"x": 	135.00	, "y": 	84.00	, "z": 	117.00	}, 
-                        {"x": 	136.50	, "y": 	84.00	, "z": 	115.50	}, 
-                        {"x": 	130.50	, "y": 	84.00	, "z": 	121.50	},
-                        {"x": 	132.00	, "y": 	84.00	, "z": 	120.00	},
-                        {"x": 	129.00	, "y": 	84.00	, "z": 	123.00	},
-                    ]
-            try:
-                for i, _file in enumerate(_files):
-                    _file_json = None
-                    _file_path = os.path.join(MOD_PATH, _file)
-                    with open(_file_path, 'r', encoding='utf-8') as f:
-                        _file_json = json.load(f)
-
-                    _file_json["entities"][0]["components"][-1]["position"] = _param[i//3]
-
-                    with open(_file_path, 'w', encoding='utf-8') as f:
-                        json.dump(_file_json, f, ensure_ascii=False, indent=4)
-                    
-                    count += 1
-            except Exception as e:
-                print(e)
-        return (count, total)
-    
 
     def common_setting(self, keys: list):
         """通用设置"""

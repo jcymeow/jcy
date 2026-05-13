@@ -217,8 +217,6 @@ class FeatureController:
             Function.SOR_SETTING.value: self.file_operations.sorceress_setting,
             # 刺客
             Function.ASN_SETTING.value: self.file_operations.assassin_setting,
-            # 刺客-聚气图标
-            Function.ASN_MARTIAL.value: self.file_operations.assassin_martial,
             # 德鲁伊
             Function.DRU_SETTING.value: self.file_operations.druid_setting,
             # 圣骑士

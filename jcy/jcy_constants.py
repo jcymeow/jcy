@@ -912,7 +912,6 @@ class Function(Enum):
     BAR_SETTING = "BarbarianSetting"
     DRU_SETTING = "DruidSetting"
     ASN_SETTING = "AssassinSetting"
-    ASN_MARTIAL = "AssassinMartial"
     WAR_SETTING = "WarlockSetting"
     CAIN_SETTING = "CainSetting"
     SKILL_OFF_SOUNDS = "SkillOffSounds"
@@ -968,9 +967,6 @@ class Methods(Enum):
 
     BACKUP_RESOTRE_FILES = auto()
     """备份/还原文件"""
-
-    MODIFY_ASN_MARTIAL_BY_HUD = auto()
-    """修改 刺客-聚气图标 如果HUD模式"""
 
     MODIFY_ITEMS_ORIGINAL_MEPHISTO_KEY = auto()
     """修改 items.json 使用原版火炬钥匙皮肤"""

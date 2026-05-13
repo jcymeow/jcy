@@ -605,18 +605,6 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.ASN_MARTIAL.value,
-                            "type": RADIO,
-                            "text": "刺客-聚气图标",
-                            "colspan": 50,
-                            "params": {
-                                "0": "默认",
-                                "1": "刺客右侧",
-                                "3": "刺客下方",
-                                "9": "HUD方案",
-                            }
-                        },
-                        {
                             "fid": Function.PAL_SETTING.value,
                             "type": CHECK,
                             "text": "圣骑士",
