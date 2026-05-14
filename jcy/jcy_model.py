@@ -474,22 +474,13 @@ class FeatureConfig:
                             "fid": Function.ENABLE_POINTER.value,
                             "type": CHECK,
                             "text": "环境-开启指引",
-                            "colspan": 70,
+                            "colspan": 100,
                             "params": {
                                 "3": "A1兵营",
                                 "4": "A2督瑞尔",
                                 "5": "A4火焰之河",
-                                "6": "A5尼拉塞克"
-                            }
-                        },
-                        {
-                            "fid": Function.NEXTAREA_POINTER.value,
-                            "type": RADIO,
-                            "text": "环境-邻区指引",
-                            "colspan": 30,
-                            "params": {
-                                "0": "默认",
-                                "2": "白环指引"
+                                "6": "A5尼拉塞克",
+                                "7": "A5世界之石要塞路桥"
                             }
                         },
                         {
@@ -538,6 +529,16 @@ class FeatureConfig:
                                 "2": "绿环指引",
                                 "3": "长箭头",
                                 "4": "双箭头",
+                            }
+                        },
+                        {
+                            "fid": Function.NEXTAREA_POINTER.value,
+                            "type": RADIO,
+                            "text": "环境-邻区指引",
+                            "colspan": 50,
+                            "params": {
+                                "0": "默认",
+                                "2": "白环指引"
                             }
                         },
                     ]

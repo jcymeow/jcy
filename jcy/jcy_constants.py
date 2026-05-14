@@ -28,7 +28,7 @@ APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
 # 控制器窗口默认大小
 APP_SIZE = {
     "width": 754,
-    "height": 765,
+    "height": 800,
 }
 
 # 区服地址
@@ -99,6 +99,7 @@ class Assets(Enum):
     DRU = "Dru"
     ASN = "Asn"
     WAR = "War"
+    MONSTER_HEALTH = "MonsterHealth"
 
 METHOD = "method"
 PARAMS = "params"
@@ -874,6 +875,375 @@ MAGIC_AFFIXS = {
     "SUFFIX_596": {"Name": "of Lower Resistance", "NameStr": "降低抗性之", "effect": "降低抵抗聚氣 3級 82次", "remark":"短杖/匕首/死靈盾"},
 }
 
+# 技能LOGO<技能Key, 技能对象>
+SKILL_LOGO = {
+    # 影散
+    "Skillname268": { 
+        "class": "assas", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00
+        }, 
+        "files": [
+            "data/hd/overlays/assassin/fade.json",
+        ]
+    },
+    # 速度爆發
+    "Skillname259": {
+        "class": "assas", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00
+        }, 
+        "files": [
+            "data/hd/overlays/assassin/quickness.json",
+        ]
+    },
+    # 寒冰刃
+    "Skillname275": {
+        "class": "assas", 
+        "position": {
+            "x": 127.50, 
+            "y":  96.00, 
+            "z": 124.50
+        }, 
+        "files": [
+            "data/hd/overlays/common/progressive_cold_1.json", 
+            "data/hd/overlays/common/progressive_cold_2.json", 
+            "data/hd/overlays/common/progressive_cold_3.json",
+        ]
+    },
+    # 猛虎擊
+    "Skillname255": {
+        "class": "assas", 
+        "position": {
+            "x": 129.00, 
+            "y":  96.00, 
+            "z": 123.00
+        }, 
+        "files": [
+            "data/hd/overlays/common/progressive_damage_1.json",
+            "data/hd/overlays/common/progressive_damage_2.json",
+            "data/hd/overlays/common/progressive_damage_3.json",
+        ]
+    },
+    # 烈火拳
+    "Skillname260": {
+        "class": "assas", 
+        "position": {
+            "x": 123.00, 
+            "y": 100.00, 
+            "z": 129.00
+        }, 
+        "files": [
+            "data/hd/overlays/common/progressive_fire_1.json", 
+            "data/hd/overlays/common/progressive_fire_2.json", 
+            "data/hd/overlays/common/progressive_fire_3.json"
+        ]
+    },
+    # 雷電爪
+    "Skillname270": {
+        "class": "assas", 
+        "position": {
+            "x": 124.50, 
+            "y":  96.00, 
+            "z": 127.50
+        }, 
+        "files": [
+            "data/hd/overlays/common/progressive_lightning_1.json", 
+            "data/hd/overlays/common/progressive_lightning_2.json", 
+            "data/hd/overlays/common/progressive_lightning_3.json"
+        ]
+    },
+    # 鳳凰擊
+    "Skillname281": {
+        "class": "assas", 
+        "position": {
+            "x": 126.00, 
+            "y":  96.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/common/progressive_other_1.json", 
+            "data/hd/overlays/common/progressive_other_2.json", 
+            "data/hd/overlays/common/progressive_other_3.json", 
+        ]
+    },
+    # 靈蛇擊
+    "Skillname266": {
+        "class": "assas", 
+        "position": {
+            "x": 123.00, 
+            "y":  96.00, 
+            "z": 129.00 
+        }, 
+        "files": [
+            "data/hd/overlays/common/progressive_steal_1.json", 
+            "data/hd/overlays/common/progressive_steal_2.json", 
+            "data/hd/overlays/common/progressive_steal_3.json", 
+        ]
+    },
+    # 戰鬥指揮
+    "skillname155": {
+        "class": "barbh", 
+        "position": {
+            "x": 128.25, 
+            "y": 103.00, 
+            "z": 123.75 
+        }, 
+        "files": [
+            "data/hd/overlays/common/battlecommand.json", 
+        ]
+    },
+    # 戰鬥命令
+    "skillname149": {
+        "class": "barbh", 
+        "position": {
+            "x": 128.25, 
+            "y": 103.00, 
+            "z": 123.75 
+        }, 
+        "files": [
+            "data/hd/overlays/common/battleorders.json", 
+        ]
+    },
+    # 大吼
+    "skillname138": {
+        "class": "barbh", 
+        "position": {
+            "x": 128.25, 
+            "y": 103.00, 
+            "z": 123.75 
+        }, 
+        "files": [
+            "data/hd/overlays/common/shout.json", 
+        ]
+    },
+    # 狂亂連擊
+    "skillname147": {
+        "class": "barbh", 
+        "position": {
+            "x": 124.50, 
+            "y": 100.00, 
+            "z": 127.50 
+        }, 
+        "files": [
+            "data/hd/overlays/barbarian/frenzy.json", 
+        ]
+    },
+    # 狼之印記
+    "SkillnameMetamorphosisWolf": {
+        "class": "druid", 
+        "position": {
+            "x": 127.50, 
+            "y": 100.00, 
+            "z": 124.50 
+        }, 
+        "files": [
+            "data/hd/overlays/common/impregnated.json", 
+        ]
+    },
+    # 熊之印記
+    "SkillItemMetamorphosisBear": {
+        "class": "druid", 
+        "position": {
+            "x": 124.50, 
+            "y": 100.00, 
+            "z": 127.50 
+        }, 
+        "files": [
+            "data/hd/overlays/common/bloodlust_state.json", 
+        ]
+    },
+    # 氣旋護甲
+    "Skillname236": {
+        "class": "druid", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/druid/cyclonearmor_1back.json", 
+        ]
+    },
+    # 野性狂暴
+    "Skillname233": {
+        "class": "druid", 
+        "position": {
+            "x": 129.00, 
+            "y": 100.00, 
+            "z": 123.00 
+        }, 
+        "files": [
+            "data/hd/overlays/druid/feralrage_1.json", 
+            "data/hd/overlays/druid/feralrage_2.json", 
+            "data/hd/overlays/druid/feralrage_3.json", 
+            "data/hd/overlays/druid/feralrage_4.json", 
+            "data/hd/overlays/druid/feralrage_5.json", 
+        ]
+    },
+    # 附魔
+    "skillname52": {
+        "class": "sorce", 
+        "position": {
+            "x": 123.75, 
+            "y": 102.50, 
+            "z": 128.25 
+        }, 
+        "files": [
+            "data/hd/overlays/sorceress/enchant.json", 
+        ]
+    },
+    # 雷電風暴
+    "skillname57": {
+        "class": "sorce", 
+        "position": {
+            "x": 124.50, 
+            "y": 100.00, 
+            "z": 127.50 
+        }, 
+        "files": [
+            "data/hd/overlays/sorceress/thunderstormback.json", 
+        ]
+    },
+    # 冰封甲
+    "skillname40": {
+        "class": "sorce", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/sorceress/chillarmor.json", 
+        ]
+    },
+    # 碎冰甲
+    "skillname50": {
+        "class": "sorce", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/sorceress/shiverarmor.json", 
+        ]
+    },
+    # 寒冰甲
+    "skillname60": {
+        "class": "sorce", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/sorceress/frozenarmor.json", 
+        ]
+    },
+    # 能量護盾
+    "skillname58": {
+        "class": "sorce", 
+        "position": {
+            "x": 127.50, 
+            "y": 100.00, 
+            "z": 124.50 
+        }, 
+        "files": [
+            "data/hd/overlays/sorceress/energyshield.json", 
+        ]
+    },
+    # 骸骨護甲
+    "skillname68": {
+        "class": "necro", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/necro/bonearmor_front.json", 
+        ]
+    },
+    # 邪異轟擊
+    "EldritchBlastName": {
+        "class": "warlo", 
+        "position": {
+            "x": 129.00, 
+            "y": 100.00, 
+            "z": 123.00 
+        }, 
+        "files": [
+            "data/hd/overlays/warlock/eldritchblastperiodic.json", 
+        ]
+    },
+    # 邪咒：災禍
+    "BaneHexAN": {
+        "class": "warlo", 
+        "position": {
+            "x": 124.50, 
+            "y": 100.00, 
+            "z": 127.50 
+        }, 
+        "files": [
+            "data/hd/overlays/warlock/hex_bane.json", 
+        ]
+    },
+    # 邪咒：消滅
+    "PurgeHexName": {
+        "class": "warlo", 
+        "position": {
+            "x": 124.50, 
+            "y": 100.00, 
+            "z": 127.50 
+        }, 
+        "files": [
+            "data/hd/overlays/warlock/hex_purge.json", 
+        ]
+    },
+    # 邪咒：虹吸
+    "SiphonHexName": {
+        "class": "warlo", 
+        "position": {
+            "x": 124.50, 
+            "y": 100.00, 
+            "z": 127.50 
+        }, 
+        "files": [
+            "data/hd/overlays/warlock/hex_siphon.json", 
+        ]
+    },
+    # 靈能護盾
+    "PsychicWardName": {
+        "class": "warlo", 
+        "position": {
+            "x": 126.00, 
+            "y": 100.00, 
+            "z": 126.00 
+        }, 
+        "files": [
+            "data/hd/overlays/warlock/psychicward.json", 
+        ]
+    },
+    # 吞噬
+    "ConsumeName": {
+        "class": "warlo", 
+        "position": {
+            "x": 127.50, 
+            "y": 100.00, 
+            "z": 124.50 
+        }, 
+        "files": [
+            "data/hd/overlays/warlock/warlockconsume.json", 
+        ]
+    },
+}
+
+
 class Function(Enum):
     ZHCN = "zhCN"
     ZHTW = "zhTW"
@@ -934,6 +1304,7 @@ class Function(Enum):
     RUNE_SIZE = "RuneSize"
     ITEM_NOTIFICATION = "ItemNotification"
     MAGIC_ITEM = "MagicItem"
+    SKILL_LOGO = "SkillLogo"
     ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
     ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
     ITEM_NAME_STAR = "ItemNameStar"
@@ -1027,6 +1398,7 @@ __all__ = [
     'ITEM_MISC',
     'CUSTOM_SOUNDS',
     'MAGIC_AFFIXS',
+    'SKILL_LOGO',
     'Assets',
     'METHOD',
     'PARAMS',

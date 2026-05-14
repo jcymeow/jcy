@@ -2133,7 +2133,18 @@ class FileOperations:
                 r"data/hd/env/preset/act4/diab/bridge4.json",
             ],
             # A5尼拉塞克 -> modify_act5_nihl_pointer
-            "6": []
+            "6": [],
+            # A5世界之石要塞路桥
+            "7": [
+                r"data/hd/env/preset/expansion/baallair/baaledown01.json"
+                r"data/hd/env/preset/expansion/baallair/baaledown02.json"
+                r"data/hd/env/preset/expansion/baallair/baalndown01.json"
+                r"data/hd/env/preset/expansion/baallair/baalndown02.json"
+                r"data/hd/env/preset/expansion/baallair/baalsdown01.json"
+                r"data/hd/env/preset/expansion/baallair/baalsdown02.json"
+                r"data/hd/env/preset/expansion/baallair/baalwdown01.json"
+                r"data/hd/env/preset/expansion/baallair/baalwdown02.json"
+            ],
         }
 
         funcs = []
