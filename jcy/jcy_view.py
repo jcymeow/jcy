@@ -53,8 +53,10 @@ def readme(notebook):
         3: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218052645",
         4: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218058724",
         5: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218060554",
-        6: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218062137",
-        7: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=5#pid218155737",
+        6: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=3#pid218063063",
+        7: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=2#pid218062137",
+        8: "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207&page=5#pid218155737",
+        
     }
     url = read_map.get(notebook.index("current"), default)
     open_browser(url)
