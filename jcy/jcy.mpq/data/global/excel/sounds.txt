@@ -4840,7 +4840,7 @@ impact_shadow_layer_3	4837		sfx/combat/impacts_sd	combat\impact\impact_shadow_la
 item_shard	4838				0	0	0	0	0	0	0	100	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	0	0	
 item_shard_use	4839				0	0	0	0	0	0	0	100	100	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	-1	-1	-1	0	0	
 desecrated_zone_unique_chance_gained	4840	desecrated_zone_unique_chance_gained_hd	sfx/ambient/event-3d_sd	quest\desecrated_zone_unique_chance_gained.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	0	15	90	255	1	0	0	1	0	-1	-1	-1	0	0	
-desecrated_zone_unique_spawned	4841	desecrated_zone_unique_spawned_hd	sfx/ambient/event-3d_sd	quest\desecrated_zone_unique_spawned.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	0	15	90	255	1	0	0	1	0	-1	-1	-1	0	0	
+desecrated_zone_unique_spawned	4841	desecrated_zone_unique_spawned_hd	sfx/ambient/event-3d_sd	quest\desecrated_zone_unique_spawned.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	2	15	90	255	1	0	0	1	0	-1	-1	-1	0	0	
 jungle_sewer_pool_layer_hd	4842		sfx/ambient/event-3d_hd	ambient\event\jungle_sewer_pool_layer_hd.flac	0	0	0	1	0	50	50	98	102	0	0	0	50	50	0	0	0	0	2	0	120	20	0	0	0	0	0	-1	-1	-1	0	0	
 jungle_sewer_stream_layer_hd	4843		sfx/ambient/event-3d_hd	ambient\event\jungle_sewer_stream_layer_hd.flac	0	0	0	1	0	40	40	98	102	0	0	0	50	50	0	0	0	0	1	0	90	20	0	0	0	0	0	-1	-1	-1	0	0	
 fortress_air_hd	4844		sfx/ambient/event-3d_hd	ambient\event\fortress_air_hd.flac	0	0	0	1	0	127	154	98	102	0	0	0	50	50	0	0	0	0	3	0	120	20	0	0	0	0	0	-1	-1	-1	0	0	
@@ -6834,7 +6834,7 @@ item_mephistos_brain_hd	6831		sfx/items_hd	item\item_mephistos_brain.flac	0	0	0	
 item_baals_eye_hd	6832		sfx/items_hd	item\item_baals_eye.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 item_diablos_horn_hd	6833		sfx/items_hd	item\item_diablos_horn.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 desecrated_zone_unique_chance_gained_hd	6834		sfx/ambient/event-3d_hd	quest\desecrated_zone_unique_chance_gained.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	0	15	90	255	1	0	0	1	0	-1	-1	-1	0	0	
-desecrated_zone_unique_spawned_hd	6835		sfx/ambient/event-3d_hd	quest\desecrated_zone_unique_spawned.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	0	15	90	255	1	0	0	1	0	-1	-1	-1	0	0	
+desecrated_zone_unique_spawned_hd	6835		sfx/ambient/event-3d_hd	quest\desecrated_zone_unique_spawned.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	1	0	0	0	2	15	90	255	1	0	0	1	0	-1	-1	-1	0	0	
 impact_shadow_hd1	6836		sfx/combat/impacts_sd	combat\impact\impact_shadow_01_hd.flac	0	0	0	0	0	89	127	90	110	3	0	0	0	0	0	0	0	0	1	20	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 impact_shadow_hd2	6837		sfx/combat/impacts_sd	combat\impact\impact_shadow_02_hd.flac	0	0	0	0	0	89	127	90	110	0	0	0	0	0	0	0	0	0	1	20	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 impact_shadow_hd3	6838		sfx/combat/impacts_sd	combat\impact\impact_shadow_03_hd.flac	0	0	0	0	0	89	127	90	110	0	0	0	0	0	0	0	0	0	1	20	90	100	0	0	0	0	0	-1	-1	-1	0	0	
