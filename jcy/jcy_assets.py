@@ -1160,8 +1160,8 @@ ASSETS = [
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.5.5/204.zip",
         "file": "204.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/204.png",
-        "size": 11754245,
-        "md5": "3DC9A17EAE82FF0DE876FF6BD5F359E5",
+        "size": 17755598,
+        "md5": "F88099EC38D5D320D24B8BB01F65AD34",
         "list": [
             r"data/hd/global/ui/spells/amazon/amskillicon.lowend.sprite",
             r"data/hd/global/ui/spells/amazon/amskillicon.sprite",
