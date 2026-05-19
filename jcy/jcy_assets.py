@@ -1154,7 +1154,7 @@ ASSETS = [
         "name": "技能皮肤_4",
         "category": Assets.SKILL_SKIN.value,
         "type": Assets.SKILL_SKIN.value,
-        "author": "Beatsin",
+        "author": "Beatsin, Jimssng",
         "source": "https://www.inven.co.kr/board/diablo2/5842/7614",
         "description": "技能图标彩金色效果(魔法使, 野蛮人, 术士, 公共图标已完成锐化) 墙裂推荐",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.5.5/204.zip",

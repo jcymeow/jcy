@@ -45,7 +45,7 @@
                     "y": 146
                 },
                 "tabCount": 4,
-                "filename": "PANEL\\stash\\MKB_Tabs_195_TGA",
+                "filename": "jcy\\MKB_Tabs_195_TGA",
                 "inactiveFrames": [
                     0,
                     0,
@@ -67,8 +67,8 @@
                 "textStrings": [
                     "@personal",
                     "@shared",
-                    "cannot",
-                    "craft"
+                    "Cube",
+                    "融合仓库"
                 ],
                 "textStyle": {
                     "pointSize": "$SmallPanelFontSize"
@@ -76,7 +76,7 @@
                 "activeTextColor": "$TabsActiveTextColor",
                 "inactiveTextColor": "$TabsInactiveTextColor",
                 "tabSize": {
-                    "x": 195,
+                    "x": 250,
                     "y": 72
                 },
                 "tabPadding": {
@@ -85,7 +85,7 @@
                 },
                 "onSwitchTabMessage": "BankPanelMessage:SelectTab",
                 "notificationIconTemplate": {
-                    "filename": "PANEL\\Stash\\AdditionalStash\\StashNotification"
+                    "filename": "jcy\\StashNotification"
                 }
             }
         },
