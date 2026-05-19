@@ -167,7 +167,7 @@ of Swords	100	1		47		39				4	6	thorns		10	20										tors	shld	circ										0	
 of Malice	100	1	1	37		29				4	6	thorns		1	5										jewl												0	0
 of Readiness	1	1	1	5		3				6	7	swing1		10	10										weap							wand	orb				0	0
 of Alacrity	1	1	1	25		17				6	7	swing2		20	20										weap							wand	orb				0	0
-of Swiftness	1	1	1	34		26				6	7	swing2		30	30									lgrn	mele							wand	staf	orb			0	0
+of Swiftness	1	1	1	34		26				6	7	swing2		30	30										mele							wand	staf	orb			0	0
 of Quickness	1	1	1	46		38				5	7	swing3		40	40									lgrn	mele							wand	staf	orb			0	0
 of Alacrity	100	1	1	43		35				4	7	swing2		20	20									lgrn	glov												0	0
 of Fervor	100	1		39		31				4	7	swing1		15	15										jewl												0	0

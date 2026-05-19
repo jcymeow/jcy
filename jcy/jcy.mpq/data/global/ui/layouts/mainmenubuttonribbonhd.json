@@ -63,7 +63,7 @@
                             "y": 600
                         },
                         "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
-                        "textString": "JCY MOD v1.5.4",
+                        "textString": "JCY MOD v1.5.5",
                         "onClickMessage": "PanelManager:OpenPanel:JcyModInfo",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEButtonText",

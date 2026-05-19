@@ -17,10 +17,10 @@ WM_SHOW_WINDOW = 0x5000
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.5.4"
+APP_VERSION = "v1.5.5"
 
 # 发布日期
-APP_DATE = "20260515"
+APP_DATE = "20260522"
 
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
@@ -848,19 +848,76 @@ CUSTOM_SOUNDS = {
 
 # 魔法詞綴<前/后綴_行號, data>
 MAGIC_AFFIXS = {
+    # RES
+    "PREFIX_334": {"Name": "Chromatic", "NameStr": "絢彩", "effect": "所有抗性(RES) +(21~30)%", "remark": "項鏈/頭環"},
+    "PREFIX_337": {"Name": "Scintillating", "NameStr": "燦爛", "effect": "所有抗性(RES) +(12~15)%", "remark": "戒指"},
     "PREFIX_357": {"Name": "Sapphire", "NameStr": "寶藍", "effect": "冰寒抗性(CR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
     "PREFIX_376": {"Name": "Ruby", "NameStr": "寶紅", "effect": "火焰抗性(FR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
     "PREFIX_396": {"Name": "Amber", "NameStr": "琥珀", "effect": "電擊抗性(LR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
     "PREFIX_416": {"Name": "Emerald", "NameStr": "寶綠", "effect": "毒素抗性(PR) +(31~40)%", "remark": "法杖類/鞋子/項鏈/法球/頭環"},
+    
+    # SOCKET
     "PREFIX_423": {"Name": "Artificer's", "NameStr": "工匠", "effect": "鑲孔×3", "remark": "武器/盾牌/頭盔/盔甲/不含投擲類"},
     "PREFIX_424": {"Name": "Jeweler's", "NameStr": "珠寶匠", "effect": "鑲孔×4", "remark": "武器/盾牌/頭盔/盔甲/不含投擲類"},
-    "PREFIX_443": {"Name": "Lancer's", "NameStr": "長槍手", "effect": "+3 亞馬遜標槍與長矛", "remark": "長矛/手套"},
-    "PREFIX_449": {"Name": "Volcanic", "NameStr": "火山", "effect": "+3 魔法使火焰技能", "remark": "法杖/法球/項鏈/頭環"},
-    "PREFIX_473": {"Name": "Rose Branded", "NameStr": "玫瑰烙印", "effect": "+3 聖騎戰鬥技能", "remark": "權杖/劍/盾/聖騎盾/項鏈/頭環"},
-    "PREFIX_491": {"Name": "Echoing", "NameStr": "回音", "effect": "+3 野蠻人戰吼", "remark": "蠻子頭/武器類/項鏈"},
-    "PREFIX_509": {"Name": "Cunning", "NameStr": "狡猾", "effect": "+3 刺客陷阱", "remark": "爪/項鏈/頭環"},
-    "PREFIX_515": {"Name": "Kenshi's", "NameStr": "劍士", "effect": "+3 刺客武學技藝", "remark": "爪/項鏈/手套/頭環"},
-    "PREFIX_713": {"Name": "Malevolent", "NameStr": "惡毒", "effect": "+3 術士惡魔技能", "remark": "匕首/魔典/項鏈/頭環"},
+    
+    # AMA
+    "PREFIX_563": {"Name": "Valkyrie's", "NameStr": "女武神", "effect": "+2 亞馬遜技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_565": {"Name": "Valkyrie's", "NameStr": "女武神", "effect": "+2 亞馬遜技能等級", "remark": "弓弩/標矛"},
+    "PREFIX_437": {"Name": "Archer's", "NameStr": "弓箭手", "effect": "+3 弓與弩技能", "remark": "弓弩/手套"},
+    "PREFIX_440": {"Name": "Athlete's", "NameStr": "競技", "effect": "+3 被動與魔法技能", "remark": "手套/項鏈/頭環"},
+    "PREFIX_443": {"Name": "Lancer's", "NameStr": "長槍手", "effect": "+3 標槍與長矛技能", "remark": "長矛/手套"},
+
+    # SOR
+    "PREFIX_577": {"Name": "Arch-Angel's", "NameStr": "大天使", "effect": "+2 魔法使技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_579": {"Name": "Arch-Angel's", "NameStr": "大天使", "effect": "+2 魔法使技能等級", "remark": "法杖/法球"},
+    "PREFIX_449": {"Name": "Volcanic", "NameStr": "火山", "effect": "+3 火焰技能", "remark": "法杖/法球/項鏈/頭環"},
+    "PREFIX_452": {"Name": "Powered", "NameStr": "電能", "effect": "+3 閃電技能", "remark": "法杖/法球/項鏈/頭環"},
+    "PREFIX_455": {"Name": "Glacial", "NameStr": "冰河", "effect": "+3 冰寒技能", "remark": "法杖/法球/項鏈/頭環"},
+    
+    # NEC
+    "PREFIX_573": {"Name": "Necromancer's", "NameStr": "死靈法師", "effect": "+2 死靈法師技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_575": {"Name": "Necromancer's", "NameStr": "死靈法師", "effect": "+2 死靈法師技能等級", "remark": "短杖/匕首/死靈盾"},
+    "PREFIX_461": {"Name": "Accursed", "NameStr": "詛咒", "effect": "+3 詛咒", "remark": "短杖/死靈盾/項鏈/頭環"},
+    "PREFIX_464": {"Name": "Venomous", "NameStr": "猛毒", "effect": "+3 毒素與骸骨技能", "remark": "短杖/死靈盾/項鏈/匕首/頭環"},
+    "PREFIX_467": {"Name": "Golemlord's", "NameStr": "魔像王", "effect": "+3 召喚技能", "remark": "短杖/死靈盾/項鏈/頭環"},
+
+    # PAL
+    "PREFIX_567": {"Name": "Priest's", "NameStr": "牧師", "effect": "+2 聖騎士技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_569": {"Name": "Priest's", "NameStr": "牧師", "effect": "+2 聖騎士技能等級", "remark": "權杖/聖騎盾"},
+    "PREFIX_571": {"Name": "Priest's", "NameStr": "牧師", "effect": "+2 聖騎士技能等級", "remark": "劍/釘錘/戰錘/盾牌"},
+    "PREFIX_473": {"Name": "Rose Branded", "NameStr": "玫瑰烙印", "effect": "+3 戰鬥技能", "remark": "權杖/劍/釘錘/盾牌/聖騎盾"},
+    "PREFIX_476": {"Name": "Marshal's", "NameStr": "元帥", "effect": "+3 攻擊靈氣", "remark": "權杖/劍/釘錘/盾牌/聖騎盾"},
+    "PREFIX_479": {"Name": "Guardian's", "NameStr": "守護者", "effect": "+3 防禦靈氣", "remark": "盾牌/聖騎盾/項鏈/頭環"},
+
+    # BAR
+    "PREFIX_581": {"Name": "Berserker's", "NameStr": "狂暴", "effect": "+2 野蠻人技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_583": {"Name": "Berserker's", "NameStr": "狂暴", "effect": "+2 野蠻人技能等級", "remark": "匕首/斧/標矛/棍棒/劍/重錘/釘錘"},
+    "PREFIX_585": {"Name": "Berserker's", "NameStr": "狂暴", "effect": "+2 野蠻人技能等級", "remark": "野蠻人頭盔"},
+    "PREFIX_485": {"Name": "Master's", "NameStr": "宗師", "effect": "+3 戰鬥技能", "remark": "野蠻人頭盔/武器/頭盔/不含弓弩/法杖類"},
+    "PREFIX_488": {"Name": "Furious", "NameStr": "狂怒", "effect": "+3 戰鬥專精", "remark": "野蠻人頭盔/武器/頭盔/不含弓弩/法杖類"},
+    "PREFIX_491": {"Name": "Echoing", "NameStr": "回音", "effect": "+3 戰吼", "remark": "野蠻人頭盔/武器/頭盔/不含弓弩/法杖類"},
+
+    # DRU
+    "PREFIX_587": {"Name": "Hierophant's", "NameStr": "祭司", "effect": "+2 德魯伊技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_589": {"Name": "Hierophant's", "NameStr": "祭司", "effect": "+2 德魯伊技能等級", "remark": "棍棒/德魯伊頭盔"},
+    "PREFIX_497": {"Name": "Keeper's", "NameStr": "看管者", "effect": "+3 召喚技能", "remark": "棍棒/德魯伊頭盔/項鏈/頭環"},
+    "PREFIX_500": {"Name": "Communal", "NameStr": "獸群", "effect": "+3 變形技能", "remark": "棍棒/德魯伊頭盔/項鏈/頭環"},
+    "PREFIX_503": {"Name": "Gaea's", "NameStr": "蓋亞", "effect": "+3 元素技能", "remark": "棍棒/德魯伊頭盔/項鏈/頭環"},
+
+    # ASN
+    "PREFIX_591": {"Name": "Witch-hunter's", "NameStr": "女巫獵人", "effect": "+2 刺客技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_593": {"Name": "Witch-hunter's", "NameStr": "女巫獵人", "effect": "+2 刺客技能等級", "remark": "爪"},
+    "PREFIX_509": {"Name": "Cunning", "NameStr": "狡猾", "effect": "+3 陷阱技能", "remark": "爪/項鏈/頭環"},
+    "PREFIX_512": {"Name": "Shadow", "NameStr": "暗影分身", "effect": "+3 暗影修行技能", "remark": "爪/項鏈/頭盔/頭環"},
+    "PREFIX_515": {"Name": "Kenshi's", "NameStr": "劍士", "effect": "+3 武學技藝", "remark": "爪/項鏈/手套/頭環"},
+
+    # WAR
+    "PREFIX_715": {"Name": "Arch-Devil's", "NameStr": "大妖鬼", "effect": "+2 術士技能等級", "remark": "項鏈/頭環"},
+    "PREFIX_717": {"Name": "Arch-Devil's", "NameStr": "大妖鬼", "effect": "+2 術士技能等級", "remark": "匕首/魔典"},
+    "PREFIX_707": {"Name": "Torrid", "NameStr": "熾熱", "effect": "+3 混沌技能", "remark": "匕首/魔典/項鏈/頭環"},
+    "PREFIX_710": {"Name": "Forbidden", "NameStr": "封禁", "effect": "+3 邪異技能", "remark": "匕首/魔典/項鏈/劍/頭環/不含飛刀"},
+    "PREFIX_713": {"Name": "Malevolent", "NameStr": "惡毒", "effect": "+3 惡魔技能", "remark": "匕首/魔典/項鏈/頭環"},
+
     "SUFFIX_171": {"Name": "of Quickness", "NameStr": "快速之", "effect": "攻擊速度(IAS) +40%", "remark":"近戰武器/不含短杖/不含法杖/不含法球"},
     "SUFFIX_170": {"Name": "of Swiftness", "NameStr": "迅捷之", "effect": "攻擊速度(IAS) +30%", "remark":"近戰武器/不含短杖/不含法杖/不含法球"},
     "SUFFIX_172": {"Name": "of Alacrity", "NameStr": "輕快之", "effect": "攻擊速度(IAS) +20%", "remark":"手套"},
