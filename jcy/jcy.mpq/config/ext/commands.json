@@ -1082,8 +1082,8 @@
     "D2CommandFriendsRevokeDescription": {
         "Key": "D2CommandFriendsRevokeDescription",
         "enUS": "Revokes a pending friend request.",
-        "zhCN": "撤退一条尚未处理的好友请求。",
-        "zhTW": "撤回未回覆的好友邀請。",
+        "zhCN": "撤回发向另一名玩家的战网好友请求。使用/好友 列表 发送 命令可以看到所有好友请求。",
+        "zhTW": "撤回發送給另一位玩家的 Battle.net 好友邀請。使用 /好友 列表 送出 指令即可檢視送出的好友邀請清單。",
         "sgCN": "撤退一条尚未处理的好友请求。",
         "sgTW": "撤回未回覆的好友邀請。",
         "bnCN": "撤回发向另一名玩家的战网好友请求。使用/好友 列表 发送 命令可以看到所有好友请求。"

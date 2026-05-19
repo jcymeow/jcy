@@ -744,7 +744,7 @@
     "Key": "Runeword7",
     "enUS": "Blood",
     "zhTW": "鮮血",
-    "zhCN": "鲜血",
+    "zhCN": "精华",
     "sgCN": "血腥",
     "sgTW": "血腥",
     "bnCN": "鲜血"
@@ -874,7 +874,7 @@
     "Key": "Runeword20",
     "enUS": "Death",
     "zhTW": "死神",
-    "zhCN": "死亡",
+    "zhCN": "殒灭",
     "sgCN": "死神",
     "sgTW": "死神",
     "bnCN": "死亡"
@@ -974,7 +974,7 @@
     "Key": "Runeword31",
     "enUS": "Edge",
     "zhTW": "邊緣",
-    "zhCN": "邊緣",
+    "zhCN": "锐锋",
     "sgCN": "锐锋",
     "sgTW": "邊緣",
     "bnCN": "锐锋"
@@ -2373,10 +2373,10 @@
     "id": 27361,
     "Key": "Runeword172",
     "enUS": "Hustle",
-    "zhTW": "催促",
-    "zhCN": "喧嚣",
-    "sgCN": "催促",
-    "sgTW": "催促",
+    "zhTW": "狂躁",
+    "zhCN": "癫狂",
+    "sgCN": "癫狂",
+    "sgTW": "狂躁",
     "bnCN": "喧嚣"
   },
   {

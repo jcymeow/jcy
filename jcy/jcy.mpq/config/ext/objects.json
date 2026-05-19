@@ -1702,12 +1702,12 @@
     },
     "oldStash": {
         "Key": "oldStash",
-        "enUS": "Remove Only",
+        "enUS": "Past",
         "zhCN": "过往",
-        "zhTW": "僅限取出",
-        "sgCN": "仅限取出",
-        "sgTW": "僅限取出",
-        "bnCN": "上一个"
+        "zhTW": "上賽季",
+        "sgCN": "过往",
+        "sgTW": "上賽季",
+        "bnCN": "过往"
     },
     "stashRemoveOnly": {
         "Key": "stashRemoveOnly",

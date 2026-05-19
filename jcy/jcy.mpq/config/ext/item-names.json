@@ -9994,7 +9994,7 @@
         "Key": "brz",
         "enUS": "Brain",
         "zhTW": "腦",
-        "zhCN": "大脑",
+        "zhCN": "智慧",
         "sgCN": "大脑",
         "sgTW": "腦",
         "bnCN": "大脑"
@@ -10004,7 +10004,7 @@
         "Key": "hrt",
         "enUS": "Heart",
         "zhTW": "心臟",
-        "zhCN": "心脏",
+        "zhCN": "生命核心",
         "sgCN": "心脏",
         "sgTW": "心臟",
         "bnCN": "心脏"
@@ -10214,7 +10214,7 @@
         "Key": "Fleshrender",
         "enUS": "ÿc1[200ED]\nÿc4Fleshrender",
         "zhTW": "ÿc1[200ED]\nÿc4血肉撕裂者",
-        "zhCN": "ÿc1[200ED]\nÿc4血肉撕裂者",
+        "zhCN": "ÿc1[200ED]\nÿc4外壳撕裂者",
         "sgCN": "ÿc1[200ED]\nÿc4血肉裁决者",
         "sgTW": "ÿc1[200ED]\nÿc4血肉裁決者",
         "bnCN": "ÿc1[200ED]\nÿc4血肉撕裂者"
@@ -10264,7 +10264,7 @@
         "Key": "Bloodtree Stump",
         "enUS": "ÿc1[220ED]\nÿc4Bloodtree Stump",
         "zhTW": "ÿc1[220ED]\nÿc4血樹殘株",
-        "zhCN": "ÿc1[220ED]\nÿc4龙血木桩",
+        "zhCN": "ÿc1[220ED]\nÿc4赤色木桩",
         "sgCN": "ÿc1[220ED]\nÿc4血树残株",
         "sgTW": "ÿc1[220ED]\nÿc4血樹殘株",
         "bnCN": "ÿc1[220ED]\nÿc4龙血木桩"
@@ -10284,7 +10284,7 @@
         "Key": "Bloodletter",
         "enUS": "ÿc1[3Whirlwind/4Blade Mastery]\nÿc4Bloodletter",
         "zhTW": "ÿc1[3旋風/4支配長劍]\nÿc4放血者",
-        "zhCN": "ÿc1[3旋风/4支配长剑]\nÿc4放血者",
+        "zhCN": "ÿc1[3旋风/4支配长剑]\nÿc4击破者",
         "sgCN": "ÿc1[3旋风/4支配长剑]\nÿc4血书",
         "sgTW": "ÿc1[3旋風/4支配長劍]\nÿc4血書",
         "bnCN": "ÿc1[3旋风/4支配长剑]\nÿc4放血者"
@@ -10424,7 +10424,7 @@
         "Key": "Spineripper",
         "enUS": "ÿc1[240ED]\nÿc4Spineripper",
         "zhTW": "ÿc1[240ED]\nÿc4裂脊者",
-        "zhCN": "ÿc1[240ED]\nÿc4裂脊者 ",
+        "zhCN": "ÿc1[240ED]\nÿc4裂柱者 ",
         "sgCN": "ÿc1[240ED]\nÿc4裂脊者 ",
         "sgTW": "ÿc1[240ED]\nÿc4裂脊者",
         "bnCN": "ÿc1[240ED]\nÿc4裂脊者 "
@@ -10464,7 +10464,7 @@
         "Key": "The Impaler",
         "enUS": "ÿc1[170ED]\nÿc4The Impaler",
         "zhTW": "ÿc1[170ED]\nÿc4刺穿者",
-        "zhCN": "ÿc1[170ED]\nÿc4穿刺者",
+        "zhCN": "ÿc1[170ED]\nÿc4洞穿者",
         "sgCN": "ÿc1[170ED]\nÿc4穿刺者",
         "sgTW": "ÿc1[170ED]\nÿc4穿刺者",
         "bnCN": "ÿc1[170ED]\nÿc4穿刺者"
@@ -10684,7 +10684,7 @@
         "Key": "Vampiregaze",
         "enUS": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4Vampire Gaze",
         "zhTW": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4吸血鬼的凝視",
-        "zhCN": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4吸血鬼的凝视",
+        "zhCN": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4吸能鬼的凝视",
         "sgCN": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4吸血鬼的凝视",
         "sgTW": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4吸血鬼的凝視",
         "bnCN": "ÿc1[8LM/8LL/20DR/15MDR]\nÿc4吸血鬼的凝视"
@@ -10704,7 +10704,7 @@
         "Key": "Gorerider",
         "enUS": "ÿc1[200EDef]\nÿc4Gore Rider",
         "zhTW": "ÿc1[200EDef]\nÿc4蝕肉騎士",
-        "zhCN": "ÿc1[200EDef]\nÿc4血骑士",
+        "zhCN": "ÿc1[200EDef]\nÿc4绯红骑士",
         "sgCN": "ÿc1[200EDef]\nÿc4蚀肉骑士",
         "sgTW": "ÿc1[200EDef]\nÿc4蝕肉騎士",
         "bnCN": "ÿc1[200EDef]\nÿc4血骑士"
@@ -10874,7 +10874,7 @@
         "Key": "Pitblood Thirst",
         "enUS": "Pitblood Thirst",
         "zhTW": "血之狂慾",
-        "zhCN": "深渊嗜血者",
+        "zhCN": "深渊嗜战者",
         "sgCN": "血之狂欲",
         "sgTW": "血之狂慾",
         "bnCN": "深渊嗜血者"
@@ -10994,7 +10994,7 @@
         "Key": "Gore Ripper",
         "enUS": "Gore Ripper",
         "zhTW": "血腥撕裂者",
-        "zhCN": "血肉碎裂者",
+        "zhCN": "外壳碎裂者",
         "sgCN": "血块撕裂者",
         "sgTW": "血塊撕裂者",
         "bnCN": "血肉碎裂者"
@@ -11114,7 +11114,7 @@
         "Key": "Blood Comet",
         "enUS": "Blood Comet",
         "zhTW": "血彗星",
-        "zhCN": "血色彗星",
+        "zhCN": "赤色彗星",
         "sgCN": "血之彗星",
         "sgTW": "血之彗星",
         "bnCN": "血色彗星"
@@ -11364,7 +11364,7 @@
         "Key": "Blood Chalice",
         "enUS": "Blood Chalice",
         "zhTW": "血杯",
-        "zhCN": "鲜血圣杯",
+        "zhCN": "精华圣杯",
         "sgCN": "血杯",
         "sgTW": "血杯",
         "bnCN": "鲜血圣杯"
@@ -11404,7 +11404,7 @@
         "Key": "The Ensanguinator",
         "enUS": "The Ensanguinator",
         "zhTW": "染血者",
-        "zhCN": "放血者",
+        "zhCN": "击破者",
         "sgCN": "血红之人",
         "sgTW": "血紅之人",
         "bnCN": "放血者"
@@ -11634,7 +11634,7 @@
         "Key": "Bloodmoon",
         "enUS": "ÿc1[260ED/15LL/13LK]\nÿc4Bloodmoon",
         "zhTW": "ÿc1[260ED/15LL/13LK]\nÿc4血月",
-        "zhCN": "ÿc1[260ED/15LL/13LK]\nÿc4血月",
+        "zhCN": "ÿc1[260ED/15LL/13LK]\nÿc4赤月",
         "sgCN": "ÿc1[260ED/15LL/13LK]\nÿc4血月",
         "sgTW": "ÿc1[260ED/15LL/13LK]\nÿc4血月",
         "bnCN": "ÿc1[260ED/15LL/13LK]\nÿc4血月"
@@ -11804,7 +11804,7 @@
         "Key": "Fleshripper",
         "enUS": "ÿc1[300ED]\nÿc4Fleshripper",
         "zhTW": "ÿc1[300ED]\nÿc4裂肉者",
-        "zhCN": "ÿc1[300ED]\nÿc4血肉割裂者",
+        "zhCN": "ÿc1[300ED]\nÿc4外壳割裂者",
         "sgCN": "ÿc1[300ED]\nÿc4裂肉者",
         "sgTW": "ÿc1[300ED]\nÿc4裂肉者",
         "bnCN": "ÿc1[300ED]\nÿc4血肉割裂者"
@@ -11824,7 +11824,7 @@
         "Key": "Blood Rain",
         "enUS": "Blood Rain",
         "zhTW": "血雨",
-        "zhCN": "血雨",
+        "zhCN": "赤雨",
         "sgCN": "血雨",
         "sgTW": "血雨",
         "bnCN": "血雨"
@@ -11934,7 +11934,7 @@
         "Key": "Runeslayer",
         "enUS": "Rune Slayer",
         "zhTW": "符文殺手",
-        "zhCN": "符文斩杀者",
+        "zhCN": "符文重煞者",
         "sgCN": "符文杀手",
         "sgTW": "符文殺手",
         "bnCN": "符文斩杀者"
@@ -12024,7 +12024,7 @@
         "Key": "Rabbit Slayer",
         "enUS": "Rabbit Slayer",
         "zhTW": "白兔殺手",
-        "zhCN": "兔子杀戮者",
+        "zhCN": "兔子重煞者",
         "sgCN": "白兔杀手",
         "sgTW": "白兔殺手",
         "bnCN": "兔子杀戮者"
@@ -12104,7 +12104,7 @@
         "Key": "Carnageleaver",
         "enUS": "Carnage Leaver",
         "zhTW": "屠殺遺留者",
-        "zhCN": "屠绝",
+        "zhCN": "克害",
         "sgCN": "背离屠杀者",
         "sgTW": "背離屠殺者",
         "bnCN": "屠绝"
@@ -12374,7 +12374,7 @@
         "Key": "The Spirit Shroud",
         "enUS": "ÿc1[11MDR]\nÿc4The Spirit Shroud",
         "zhTW": "ÿc1[11MDR]\nÿc4靈魂帷幕",
-        "zhCN": "ÿc1[11MDR]\nÿc4覆灵尸衣",
+        "zhCN": "ÿc1[11MDR]\nÿc4覆灵裹身布",
         "sgCN": "ÿc1[11MDR]\nÿc4灵魂帷幕",
         "sgTW": "ÿc1[11MDR]\nÿc4靈魂帷幕",
         "bnCN": "ÿc1[11MDR]\nÿc4覆灵尸衣"
@@ -12384,7 +12384,7 @@
         "Key": "Skin of the Flayed One",
         "enUS": "Skin of Flayed One",
         "zhTW": "剝皮者之皮",
-        "zhCN": "剥皮魔之皮",
+        "zhCN": "剥离者之皮",
         "sgCN": "剥皮者之皮",
         "sgTW": "剝皮者之皮",
         "bnCN": "剥皮魔之皮"
@@ -12554,7 +12554,7 @@
         "Key": "Ghoulhide",
         "enUS": "ÿc1[5LM/190EDef]\nÿc4Ghoulhide",
         "zhTW": "ÿc1[5LM/190EDef]\nÿc4食屍鬼之皮",
-        "zhCN": "ÿc1[5LM/190EDef]\nÿc4食尸鬼皮",
+        "zhCN": "ÿc1[5LM/190EDef]\nÿc4食腐鬼皮",
         "sgCN": "ÿc1[5LM/190EDef]\nÿc4食尸鬼外皮",
         "sgTW": "ÿc1[5LM/190EDef]\nÿc4食屍鬼外皮",
         "bnCN": "ÿc1[5LM/190EDef]\nÿc4食尸鬼皮"
@@ -13064,7 +13064,7 @@
         "Key": "Nosferatu's Coil",
         "enUS": "ÿc1[DEF63/7LL]\nÿc4Nosferatu's Coil",
         "zhTW": "ÿc1[防禦63/7LL]\nÿc4吸血鬼王之圈",
-        "zhCN": "ÿc1[防御63/7LL]\nÿc4吸血圣王之圈",
+        "zhCN": "ÿc1[防御63/7LL]\nÿc4吸能圣王之圈",
         "sgCN": "ÿc1[防御63/7LL]\nÿc4吸血圣王之圈",
         "sgTW": "ÿc1[防禦63/7LL]\nÿc4吸血聖王之圈",
         "bnCN": "ÿc1[防御63/7LL]\nÿc4吸血圣王之圈"
@@ -13454,7 +13454,7 @@
         "Key": "Skin of the Flayerd One",
         "enUS": "ÿc1[7LL/190EDef/25REP]\nÿc4Skin of the Flayed One",
         "zhTW": "ÿc1[7LL/190EDef/25REP]\nÿc4剝皮者之皮",
-        "zhCN": "ÿc1[7LL/190EDef/25REP]\nÿc4剥皮魔之皮",
+        "zhCN": "ÿc1[7LL/190EDef/25REP]\nÿc4剥离者之皮",
         "sgCN": "ÿc1[7LL/190EDef/25REP]\nÿc4剥皮者之皮",
         "sgTW": "ÿc1[7LL/190EDef/25REP]\nÿc4剝皮者之皮",
         "bnCN": "ÿc1[7LL/190EDef/25REP]\nÿc4剥皮魔之皮"
@@ -13644,7 +13644,7 @@
         "Key": "Hellslayer",
         "enUS": "ÿc1[20Fire Ball]\nÿc4Hellslayer",
         "zhTW": "ÿc1[20火球術]\nÿc4地獄殺戮者",
-        "zhCN": "ÿc1[20火球术]\nÿc4地狱屠戮者",
+        "zhCN": "ÿc1[20火球术]\nÿc4地狱重煞者",
         "sgCN": "ÿc1[20火球术]\nÿc4地狱毁灭者",
         "sgTW": "ÿc1[20火球術]\nÿc4地獄毀滅者",
         "bnCN": "ÿc1[20火球术]\nÿc4地狱屠戮者"
@@ -14874,7 +14874,7 @@
         "Key": "Tal Rasha's Wrappings",
         "enUS": "Tal Rasha's Wrappings",
         "zhTW": "塔拉夏的外袍",
-        "zhCN": "塔·拉夏的裹尸布",
+        "zhCN": "塔·拉夏的裹身布",
         "sgCN": "塔·拉夏的外袍",
         "sgTW": "塔拉夏的外袍",
         "bnCN": "塔·拉夏的裹尸布"
@@ -15844,7 +15844,7 @@
         "Key": "Bane's Oathmaker",
         "enUS": "Bane's Oathmaker",
         "zhTW": "貝恩的立誓者",
-        "zhCN": "贝恩的立誓者",
+        "zhCN": "祸殃立誓者",
         "sgCN": "贝恩的立誓者",
         "sgTW": "貝恩的立誓者",
         "bnCN": "贝恩的立誓者"
@@ -15854,7 +15854,7 @@
         "Key": "Bane's Wraithskin",
         "enUS": "Bane's Wraithskin",
         "zhTW": "貝恩的靈膚",
-        "zhCN": "贝恩的怨魂之肤",
+        "zhCN": "祸殃怨魂之肤",
         "sgCN": "贝恩的怨魂之肤",
         "sgTW": "貝恩的靈膚",
         "bnCN": "贝恩的怨魂之肤"
@@ -15864,7 +15864,7 @@
         "Key": "Bane's Authority",
         "enUS": "Bane's Authority",
         "zhTW": "貝恩的權威",
-        "zhCN": "贝恩的权柄",
+        "zhCN": "祸殃权柄",
         "sgCN": "贝恩的权柄",
         "sgTW": "貝恩的權威",
         "bnCN": "贝恩的权柄"
@@ -15894,7 +15894,7 @@
         "Key": "Horazon's Hold",
         "enUS": "Horazon's Hold",
         "zhTW": "赫拉森的掌控",
-        "zhCN": "霍拉松的要塞",
+        "zhCN": "霍拉松的握持",
         "sgCN": "霍拉松的要塞",
         "sgTW": "赫拉森的掌控",
         "bnCN": "霍拉松的要塞"
@@ -15934,7 +15934,7 @@
         "Key": "Bane's Garments",
         "enUS": "Bane's Garments",
         "zhTW": "貝恩的衣裝",
-        "zhCN": "贝恩的衣装",
+        "zhCN": "祸殃法衣",
         "sgCN": "贝恩的衣装",
         "sgTW": "貝恩的衣裝",
         "bnCN": "贝恩的衣装"

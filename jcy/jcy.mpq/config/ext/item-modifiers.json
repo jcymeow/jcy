@@ -3674,10 +3674,10 @@
         "Key": "ChronicleItemModifierClassSkillRandom",
         "enUS": "%+d to a random %s Skill %s",
         "zhTW": "%+d 隨機%s技能%s",
-        "zhCN": "+%d 随机%s技能%s",
-        "sgCN": "+%d 随机%s技能%s",
+        "zhCN": "%+d 随机%s技能%s",
+        "sgCN": "%+d 随机%s技能%s",
         "sgTW": "%+d 隨機%s技能%s",
-        "bnCN": "+%d 随机%s技能%s"
+        "bnCN": "%+d 随机%s技能%s"
     },
     "ChroniclePropertyGroupListBullet": {
         "id": 28016,

@@ -2043,7 +2043,7 @@
     "id": 25123,
     "Key": "D2CommandFriendsRevokeDescription",
     "enUS": "Revoke a Battle.net friend request sent to another player. Use the /friends list sent command to see a list of friend requests.",
-    "zhTW": "撤回未回覆的好友邀請。",
+    "zhTW": "撤回發送給另一位玩家的 Battle.net 好友邀請。使用 /好友 列表 送出 指令即可檢視送出的好友邀請清單。",
     "deDE": "Zieht eine Freundschaftsanfrage an einen anderen Battle.net-Spieler zurück. Der Befehl /friends list sent zeigt eine Liste der Freundschaftsanfragen an.",
     "esES": "Retira una solicitud de amistad enviada a otro jugador de Battle.net. Usa el comando /friends list sent para ver una lista de solicitudes de amistad.",
     "frFR": "Annule une demande de contact envoyée à un autre joueur sur Battle.net. Saisissez la commande /friends list sent pour accéder à la liste des demandes en attente.",
@@ -2054,7 +2054,7 @@
     "jaJP": "Battle.netのプレイヤーに送ったフレンドリクエストを取り消します。保留中のリクエストは/friend list sentで確認できます。",
     "ptBR": "Cancela uma solicitação de amizade enviada a outro jogador no Battle.net. Use o comando /friends list sent para ver uma lista de solicitações de amizade.",
     "ruRU": "Отозвать запрос на добавление в друзья для другого игрока в Battle.net. Воспользуйтесь командой /friends list sent для просмотра отправленных запросов.",
-    "zhCN": "撤回未回覆的好友邀請。"
+    "zhCN": "撤回發送給另一位玩家的 Battle.net 好友邀請。使用 /好友 列表 送出 指令即可檢視送出的好友邀請清單。"
   },
   {
     "id": 25124,
@@ -3046,7 +3046,7 @@
     "id": 25183,
     "Key": "D2CommandFriendsRevokeDescription",
     "enUS": "Revokes a pending friend request.",
-    "zhTW": "撤回未回覆的好友邀請。",
+    "zhTW": "撤回發送給另一位玩家的 Battle.net 好友邀請。使用 /好友 列表 送出 指令即可檢視送出的好友邀請清單。",
     "deDE": "Zieht eine Freundschaftsanfrage zurück.",
     "esES": "Retira una solicitud de amistad pendiente.",
     "frFR": "Révoque une demande de contact en attente.",
@@ -3057,7 +3057,7 @@
     "jaJP": "保留中のフレンドリクエストを取り消します。",
     "ptBR": "Cancela uma solicitação de amizade pendente.",
     "ruRU": "Отзывает запрос на добавление в друзья.",
-    "zhCN": "撤回未回覆的好友邀請。"
+    "zhCN": "撤回發送給另一位玩家的 Battle.net 好友邀請。使用 /好友 列表 送出 指令即可檢視送出的好友邀請清單。"
   },
   {
     "id": 25184,

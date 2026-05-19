@@ -11089,12 +11089,12 @@
     },
     "GoOnlineNotification": {
         "Key": "GoOnlineNotification",
-        "enUS": "You have not been online in the last 30 days. Please start the game while online to check for any login agreements.",
-        "zhCN": "你已经30天没有在线了。请在线开始游戏，重新确认所有登录协议。",
-        "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以檢查登入協議是否有任何更新。",
-        "sgCN": "你已经30天没有在线了。请在线开始游戏，重新确认所有登录协议。",
-        "sgTW": "你已 30 天沒有上線。請在上線時開啟遊戲以檢查登入協議是否有任何更新。",
-        "bnCN": "你已经30天没有在线了。请在线开始游戏，重新确认所有登录协议。"
+        "enUS": "You have not been online in the last 30 days. Please start the game while online to verify the product license.",
+        "zhCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。",
+        "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。",
+        "zhCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。",
+        "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。",
+        "zhCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。"
     },
     "VoiceLanguage": {
         "Key": "VoiceLanguage",
@@ -17580,9 +17580,9 @@
         "Key": "Chronicle",
         "enUS": "Chronicle",
         "zhCN": "编年史",
-        "zhTW": "記事",
+        "zhTW": "收藏記事",
         "sgCN": "编年史",
-        "sgTW": "記事",
+        "sgTW": "收藏記事",
         "bnCN": "编年史"
     },
     "Unique": {
@@ -18183,18 +18183,18 @@
         "Key": "ChronicleRewardsReturnToChronicle",
         "enUS": "Return to Chronicle",
         "zhCN": "返回编年史",
-        "zhTW": "返回記事",
+        "zhTW": "返回收藏記事",
         "sgCN": "返回编年史",
-        "sgTW": "返回記事",
+        "sgTW": "返回收藏記事",
         "bnCN": "返回编年史"
     },
     "ChronicleEligibilityNotice": {
         "Key": "ChronicleEligibilityNotice",
         "enUS": "Eligible for Chronicle",
         "zhCN": "符合编年史条件",
-        "zhTW": "符合記事資格",
+        "zhTW": "符合收藏記事資格",
         "sgCN": "符合编年史条件",
-        "sgTW": "符合記事資格",
+        "sgTW": "符合收藏記事資格",
         "bnCN": "符合编年史条件"
     },
     "LootFilterToggleCheckbox": {
@@ -18534,9 +18534,9 @@
         "Key": "strGardenConvert3",
         "enUS": "Warning: Once you convert a character to RotW, you cannot play it in Expansion Diablo II games.",
         "zhCN": "警告: 将角色转换到“术士君临”后，就无法在《暗黑破坏神2》扩展内容里游戏。",
-        "zhTW": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
+        "zhTW": "警告：轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
         "sgCN": "警告: 将角色转换到“术士君临”后，就无法在《暗黑破坏神2》扩展内容里游戏。",
-        "sgTW": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
+        "sgTW": "警告：轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
         "bnCN": "警告: 将角色转换到“术士君临”后，就无法在《暗黑破坏神2》扩展内容里游戏。"
     },
     "strGardenConvert5": {
@@ -18768,9 +18768,9 @@
         "Key": "ChronicleItemFoundPrefix",
         "enUS": "Chronicle Item Discovered",
         "zhCN": "发现编年史物品",
-        "zhTW": "發現的記事物品",
+        "zhTW": "發現的收藏記事物品",
         "sgCN": "发现编年史物品",
-        "sgTW": "發現的記事物品",
+        "sgTW": "發現的收藏記事物品",
         "bnCN": "发现编年史物品"
     },
     "ChronicleSearchPlaceholder": {
@@ -19142,10 +19142,31 @@
         "sgTW": "名稱中包含不雅字眼或系統保留字。請嘗試其他名稱。",
         "bnCN": "名称包含不当文字。请更换另一个名称。"
     },
-    "ChinesePublisher": {
-        "bnCN": "由上海网之易网络科技发展有限公司运营"
+    "DesktopModeSettingName":{
+        "Key": "DesktopModeSettingName",
+        "enUS": "Desktop Mode",
+        "zhCN": "桌面模式",
+        "zhTW": "桌面模式",
+        "sgCN": "桌面模式",
+        "sgTW": "桌面模式",
+        "bnCN": "桌面模式"
     },
-    "ChineseAgeReminder": {
-        "bnCN": "适龄提示：\nÿc1本游戏仅允许年满18周岁的玩家登录及游戏。"
+    "DesktopModeSettingTooltip":{
+        "Key": "DesktopModeSettingTooltip",
+        "enUS": "Changes the UI to match Desktop and\n enables full mouse and keyboard support",
+        "zhCN": "调整用户界面以匹配桌面，\n并启用完整的鼠标和键盘支持。",
+        "zhTW": "將使用者介面更改為桌面模式並\n啟用滑鼠與鍵盤的完整支援",
+        "sgCN": "调整用户界面以匹配桌面，\n并启用完整的鼠标和键盘支持。",
+        "sgTW": "將使用者介面更改為桌面模式並\n啟用滑鼠與鍵盤的完整支援",
+        "bnCN": "调整用户界面以匹配桌面，\n并启用完整的鼠标和键盘支持。"
+    },
+    "HandheldTitle":{
+        "Key": "HandheldTitle",
+        "enUS": "Handheld",
+        "zhCN": "手持设备",
+        "zhTW": "手持",
+        "sgCN": "手持设备",
+        "sgTW": "手持",
+        "bnCN": "手持设备"
     }
 }

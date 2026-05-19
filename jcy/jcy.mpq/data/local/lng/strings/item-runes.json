@@ -4026,24 +4026,24 @@
     "jaJP": "発奮",
     "ptBR": "Agitação",
     "ruRU": "Переполох",
-    "zhCN": "催促"
+    "zhCN": "歇斯底里"
   },
   {
     "id": 27361,
     "Key": "Runeword172",
-    "enUS": "ÿc1[200ED]\nÿc4Hustle",
-    "zhTW": "ÿc1[200ED]\nÿc4催促",
-    "deDE": "Hetze",
-    "esES": "Apremio",
-    "frFR": "Tumulte",
-    "itIT": "Imbroglio",
-    "koKR": "투지",
-    "plPL": "Zgiełk",
-    "esMX": "Apuro",
-    "jaJP": "発奮",
-    "ptBR": "Agitação",
-    "ruRU": "Переполох",
-    "zhCN": "ÿc1[200ED]\nÿc4催促"
+    "enUS": "ÿc1[200ED]\nÿc4Mania",
+    "zhTW": "ÿc1[200ED]\nÿc4狂躁",
+    "deDE": "Manie",
+    "esES": "Manía",
+    "frFR": "Mania",
+    "itIT": "Mania",
+    "koKR": "광기",
+    "plPL": "Mania",
+    "esMX": "Manía",
+    "jaJP": "マニア",
+    "ptBR": "Obsessão",
+    "ruRU": "Мания",
+    "zhCN": "ÿc1[200ED]\nÿc4狂躁"
   },
   {
     "id": 27362,

@@ -744,7 +744,7 @@
         "Key": "Runeword7",
         "enUS": "Blood",
         "zhTW": "鮮血",
-        "zhCN": "鲜血",
+        "zhCN": "精华",
         "sgCN": "血腥",
         "sgTW": "血腥",
         "bnCN": "鲜血"
@@ -874,7 +874,7 @@
         "Key": "Runeword20",
         "enUS": "ÿc1[385ED]\nÿc4Death",
         "zhTW": "ÿc1[385ED]\nÿc4死神",
-        "zhCN": "ÿc1[385ED]\nÿc4死亡",
+        "zhCN": "ÿc1[385ED]\nÿc4殒灭",
         "sgCN": "ÿc1[385ED]\nÿc4死神",
         "sgTW": "ÿc1[385ED]\nÿc4死神",
         "bnCN": "ÿc1[385ED]\nÿc4死亡"
@@ -974,7 +974,7 @@
         "Key": "Runeword31",
         "enUS": "ÿc1[380DTD/10ATTR]\nÿc4Edge",
         "zhTW": "ÿc1[380DTD/10ATTR]\nÿc4邊緣",
-        "zhCN": "ÿc1[380DTD/10ATTR]\nÿc4邊緣",
+        "zhCN": "ÿc1[380DTD/10ATTR]\nÿc4锐锋",
         "sgCN": "ÿc1[380DTD/10ATTR]\nÿc4锐锋",
         "sgTW": "ÿc1[380DTD/10ATTR]\nÿc4邊緣",
         "bnCN": "ÿc1[380DTD/10ATTR]\nÿc4锐锋"
@@ -2363,8 +2363,8 @@
         "id": 27360,
         "Key": "Runeword171",
         "enUS": "Hustle",
-        "zhTW": "催促",
-        "zhCN": "喧嚣",
+        "zhTW": "歇斯底里",
+        "zhCN": "狂乱",
         "sgCN": "催促",
         "sgTW": "催促",
         "bnCN": "喧嚣"
@@ -2373,8 +2373,8 @@
         "id": 27361,
         "Key": "Runeword172",
         "enUS": "ÿc1[200ED]\nÿc4Hustle",
-        "zhTW": "ÿc1[200ED]\nÿc4催促",
-        "zhCN": "ÿc1[200ED]\nÿc4喧嚣",
+        "zhTW": "ÿc1[200ED]\nÿc4狂躁",
+        "zhCN": "ÿc1[200ED]\nÿc4癫狂",
         "sgCN": "ÿc1[200ED]\nÿc4催促",
         "sgTW": "ÿc1[200ED]\nÿc4催促",
         "bnCN": "ÿc1[200ED]\nÿc4喧嚣"

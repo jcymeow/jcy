@@ -17146,7 +17146,7 @@
     "itIT": "Minimappa a sinistra",
     "koKR": "미니맵 왼쪽",
     "plPL": "Po lewej stronie",
-    "esMX": "Minimapa a la izquierda",
+    "esMX": "Minimapa (izquierda)",
     "jaJP": "小マップを左に表示",
     "ptBR": "Minimapa na esquerda",
     "ruRU": "Мини-карта слева",
@@ -17163,7 +17163,7 @@
     "itIT": "Minimappa a destra",
     "koKR": "미니맵 오른쪽",
     "plPL": "Po prawej stronie",
-    "esMX": "Minimapa a la derecha",
+    "esMX": "Minimapa (derecha)",
     "jaJP": "小マップを右に表示",
     "ptBR": "Minimapa na direita",
     "ruRU": "Мини-карта справа",
@@ -19035,7 +19035,7 @@
     "plPL": "USTAWIENIA",
     "esMX": "CONFIG.",
     "jaJP": "設定",
-    "ptBR": "CONFIGURAÇÃO",
+    "ptBR": "CONFIG.",
     "ruRU": "НАСТРОЙКИ",
     "zhCN": "遊戲設定"
   },
@@ -20946,19 +20946,19 @@
   {
     "id": 26352,
     "Key": "GoOnlineNotification",
-    "enUS": "You have not been online in the last 30 days. Please start the game while online to check for any login agreements.",
-    "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以檢查登入協議是否有任何更新。",
-    "deDE": "Du warst in den letzten 30 Tagen nicht online. Bitte starte das Spiel im Onlinemodus, um auf ausstehende Login-Einverständniserklärungen zu prüfen.",
-    "esES": "No has iniciado sesión en los últimos 30 días. Abre el juego con conexión a internet para ver si hay acuerdos de inicio de sesión.",
-    "frFR": "Vous n’avez pas été en ligne au cours des 30 derniers jours. Veuillez lancer le jeu tout en étant en ligne pour rechercher d’éventuels accords de connexion.",
-    "itIT": "Non sei online da più di 30 giorni. Gioca online per controllare eventuali accordi d'accesso.",
-    "koKR": "지난 30일간 온라인 상태로 접속하지 않았습니다. 온라인 상태로 게임을 실행하여 새로운 로그인 동의 약관이 있는지 확인하십시오.",
-    "plPL": "To konto nie łączyło się z siecią od ponad 30 dni. Rozpocznij rozgrywkę w sieci, żeby sprawdzić czy nie pojawiły się nowe zgody przy logowaniu.",
-    "esMX": "No te has conectado en los últimos 30 días. Inicia el juego mientras estás en línea para ver cualquier acuerdo de inicio de sesión.",
-    "jaJP": "過去30日間、オンライン状態になっていません。オンライン状態でゲームを起動してログイン規約をご確認ください。",
-    "ptBR": "Você não ficou online nenhuma vez nos últimos 30 dias. Abra o jogo enquanto estiver online para verificar se há acordos de login.",
-    "ruRU": "Вы не заходили в сеть в течение 30 дней. Запустите игру, подключившись к сети, чтобы проверить соглашения о входе в систему.",
-    "zhCN": "你已 30 天沒有上線。請在上線時開啟遊戲以檢查登入協議是否有任何更新。"
+    "enUS": "You have not been online in the last 30 days. Please start the game while online to verify the product license.",
+    "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。",
+    "deDE": "Du warst in den letzten 30 Tagen nicht online. Bitte starte das Spiel im Onlinemodus, um die Produktlizenz zu bestätigen.",
+    "esES": "No has iniciado sesión en los últimos 30 días. Abre el juego con conexión a internet para verificar la licencia del producto.",
+    "frFR": "Vous n’avez pas été en ligne au cours des 30 derniers jours. Veuillez lancer le jeu tout en étant en ligne afin de vérifier la licence du produit.",
+    "itIT": "Non sei online da più di 30 giorni. Gioca online per verificare la licenza del prodotto.",
+    "koKR": "지난 30일간 온라인 상태로 접속하지 않았습니다. 온라인 상태로 게임을 실행하여 제품 라이선스를 확인하십시오.",
+    "plPL": "To konto nie łączyło się z siecią od ponad 30 dni. Rozpocznij rozgrywkę w sieci, żeby zweryfikować licencję produktu.",
+    "esMX": "No te has conectado en los últimos 30 días. Inicia el juego mientras estás en línea para verificar la licencia del producto.",
+    "jaJP": "過去30日間、オンライン状態になっていません。オンライン状態でゲームを起動して製品ライセンスの有効性を検証してください。",
+    "ptBR": "Você não ficou online nenhuma vez nos últimos 30 dias. Abra o jogo enquanto estiver online para verificar a licença do produto.",
+    "ruRU": "Вы не заходили в сеть в течение 30 дней. Запустите игру, подключившись к сети, чтобы подтвердить подлинность продукта.",
+    "zhCN": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。"
   },
   {
     "id": 26353,
@@ -21107,7 +21107,7 @@
     "itIT": "Difficoltà",
     "koKR": "게임 난이도",
     "plPL": "Poziom trudności",
-    "esMX": "Dificultad de la partida",
+    "esMX": "Dificultad de partida",
     "jaJP": "ゲームの難易度",
     "ptBR": "Dificuldade do jogo",
     "ruRU": "Сложность игры",
@@ -29015,7 +29015,7 @@
     "esMX": "Bloqueado",
     "jaJP": "ブロック済み",
     "ptBR": "Bloqueado",
-    "ruRU": "Блокировка",
+    "ruRU": "Заблокированные",
     "zhCN": "已封鎖"
   },
   {
@@ -33204,7 +33204,7 @@
     "id": 27741,
     "Key": "Chronicle",
     "enUS": "Chronicle",
-    "zhTW": "記事",
+    "zhTW": "收藏記事",
     "deDE": "Chronik",
     "esES": "Crónica",
     "frFR": "Chroniques",
@@ -33215,7 +33215,7 @@
     "jaJP": "年代記",
     "ptBR": "Crônica",
     "ruRU": "История",
-    "zhCN": "記事"
+    "zhCN": "收藏記事"
   },
   {
     "id": 27742,
@@ -34343,7 +34343,7 @@
     "id": 27887,
     "Key": "ChronicleRewardsReturnToChronicle",
     "enUS": "Return to Chronicle",
-    "zhTW": "返回記事",
+    "zhTW": "返回收藏記事",
     "deDE": "Zurück zur Chronik",
     "esES": "Volver a la crónica",
     "frFR": "Retour aux chroniques",
@@ -34354,13 +34354,13 @@
     "jaJP": "年代記に戻る",
     "ptBR": "Voltar para Crônica",
     "ruRU": "Вернуться к истории",
-    "zhCN": "返回記事"
+    "zhCN": "返回收藏記事"
   },
   {
     "id": 27914,
     "Key": "ChronicleEligibilityNotice",
     "enUS": "Eligible for Chronicle",
-    "zhTW": "符合記事資格",
+    "zhTW": "符合收藏記事資格",
     "deDE": "Berechtigt für Chronik",
     "esES": "Crónica disponible",
     "frFR": "Éligible pour les chroniques",
@@ -34371,7 +34371,7 @@
     "jaJP": "年代記に適格",
     "ptBR": "Elegível para Crônica",
     "ruRU": "Доступно для истории",
-    "zhCN": "符合記事資格"
+    "zhCN": "符合收藏記事資格"
   },
   {
     "id": 27915,
@@ -35006,7 +35006,7 @@
     "id": 27992,
     "Key": "strGardenConvert3",
     "enUS": "Warning: Once you convert a character to RotW, you cannot play it in Expansion Diablo II games.",
-    "zhTW": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
+    "zhTW": "警告：轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。",
     "deDE": "Achtung: Sobald du deinen Charakter erst einmal für RotW konvertiert hast, kannst du ihn nicht mehr in Diablo II-Erweiterungsspielen benutzen.",
     "esES": "Aviso: una vez convertido en personaje de RotW, no podrás jugarlo en la versión de la expansión de Diablo II.",
     "frFR": "Attention : une fois un personnage converti pour RotW, vous ne pourrez plus l’utiliser dans Diablo II et l’Extension.",
@@ -35017,7 +35017,7 @@
     "jaJP": "注意:「ウォーロックの君臨」キャラクターに変換すると拡張版のゲームでは使用できなくなります。",
     "ptBR": "Aviso: Depois de converter um personagem para RotW, você não poderá usá-lo em jogos de Expansão de Diablo II.",
     "ruRU": "Внимание: перенеся персонажа в версию \"ГЧ\", вы не сможете играть им в других дополнениях для Diablo II.",
-    "zhCN": "警告：一旦轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。"
+    "zhCN": "警告：轉換為術士軍臨角色後，這個角色就再也無法進行《暗黑破壞神II》資料片遊戲。"
   },
   {
     "id": 27993,
@@ -35280,15 +35280,15 @@
     "enUS": "war",
     "zhTW": "術士",
     "deDE": "Hex",
-    "esES": "guerra",
+    "esES": "brj",
     "frFR": "dém",
     "itIT": "str",
     "koKR": "악술",
-    "plPL": "wojna",
-    "esMX": "guerra",
+    "plPL": "cza",
+    "esMX": "con",
     "jaJP": "War",
-    "ptBR": "guerra",
-    "ruRU": "черн.",
+    "ptBR": "bru",
+    "ruRU": "чкн",
     "zhCN": "術士"
   },
   {
@@ -35448,7 +35448,7 @@
     "id": 28033,
     "Key": "ChronicleItemFoundPrefix",
     "enUS": "Chronicle Item Discovered",
-    "zhTW": "發現的記事物品",
+    "zhTW": "發現的收藏記事物品",
     "deDE": "Chronikgegenstand entdeckt",
     "esES": "Objeto de crónica descubierto",
     "frFR": "Chronique découverte",
@@ -35459,7 +35459,7 @@
     "jaJP": "年代記アイテム発見",
     "ptBR": "Item de Crônica descoberto",
     "ruRU": "Открыт предмет из летописи",
-    "zhCN": "發現的記事物品"
+    "zhCN": "發現的收藏記事物品"
   },
   {
     "id": 28034,
@@ -36174,5 +36174,56 @@
     "ptBR": "O nome contém palavras proibidas ou reservadas. Tente outro nome.",
     "ruRU": "Имя содержит недопустимые или зарезервированные слова. Придумайте другое имя.",
     "zhCN": "名稱中包含不雅字眼或系統保留字。請嘗試其他名稱。"
+  },
+  {
+    "id": 28102,
+    "Key": "DesktopModeSettingName",
+    "enUS": "Desktop Mode",
+    "zhTW": "桌面模式",
+    "deDE": "Desktop-Modus",
+    "esES": "Modo escritorio",
+    "frFR": "Mode bureau",
+    "itIT": "Modalità Desktop",
+    "koKR": "데스크톱 모드",
+    "plPL": "Tryb PC",
+    "esMX": "Modo escritorio",
+    "jaJP": "デスクトップモード",
+    "ptBR": "Modo PC",
+    "ruRU": "Стационарный режим",
+    "zhCN": "桌面模式"
+  },
+  {
+    "id": 28103,
+    "Key": "DesktopModeSettingTooltip",
+    "enUS": "Changes the UI to match Desktop and\n enables full mouse and keyboard support",
+    "zhTW": "將使用者介面更改為桌面模式並\n啟用滑鼠與鍵盤的完整支援",
+    "deDE": "Passt die Benutzeroberfläche an Desktop an und\n ermöglicht vollständige Unterstützung von Maus und Tastatur.",
+    "esES": "Cambia la IU para que coincida con la del escritorio y\n permite la compatibilidad total con ratón y teclado",
+    "frFR": "Modifie l’interface pour qu’elle corresponde à celle du bureau et active la prise en charge complète de la souris et du clavier.",
+    "itIT": "Modifica l'interfaccia per adattarla al desktop e\n abilita il supporto completo per mouse e tastiera",
+    "koKR": "사용자 인터페이스를 데스크톱 컴퓨터와 동일하게\n변경하고 마우스 및 키보드를 지원합니다.",
+    "plPL": "Przełącza interfejs do trybu PC i\n włącza pełną obsługę myszy i klawiatury.",
+    "esMX": "Cambia la IU para coincidir con el escritorio\ny activa la compatibilidad para mouse y teclado",
+    "jaJP": "デスクトップに合わせてUIを変更し、\nマウスとキーボードを完全サポートします",
+    "ptBR": "Altera a interface do usuário para corresponder à versão para PC e\nhabilita o suporte completo para mouse e teclado",
+    "ruRU": "Применяет интерфейс стационарного компьютера и\n позволяет использовать клавиатуру и мышь",
+    "zhCN": "將使用者介面更改為桌面模式並\n啟用滑鼠與鍵盤的完整支援"
+  },
+  {
+    "id": 28104,
+    "Key": "HandheldTitle",
+    "enUS": "Handheld",
+    "zhTW": "手持",
+    "deDE": "Handheld",
+    "esES": "Portátil",
+    "frFR": "Portable",
+    "itIT": "Portatile",
+    "koKR": "휴대용",
+    "plPL": "Przenośny",
+    "esMX": "Portátil",
+    "jaJP": "携帯",
+    "ptBR": "Portátil",
+    "ruRU": "Портативный",
+    "zhCN": "手持"
   }
 ]
