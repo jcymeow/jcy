@@ -103,7 +103,7 @@
                     "type": "TextBoxWidget",
                     "name": "ShowPreviousLadderText",
                     "fields": {
-                        "text": "@oldStash",
+                        "text": "@stashRemoveOnly",
                         "rect": {
                             "x": 0,
                             "y": 28
@@ -137,7 +137,7 @@
                         "toggledPressedFrame": 5,
                         "toggledHoveredFrame": 6,
                         "onClickMessage": "BankPanelMessage:TogglePreviousSeasonTabs",
-                        "tooltipString": "@SharedStashPreviousSeasonToggleTooltip"
+                        "tooltipString": "@SharedStashPreviousSeasonToggleTooltipDelivery"
                     }
                 }
             ]
@@ -223,8 +223,7 @@
                                     "y": 1211,
                                     "width": 420,
                                     "height": 93
-                                },
-                                "filename": "PANEL\\Stash\\Stash_PageNavigation"
+                                }
                             },
                             "children": [
                                 {

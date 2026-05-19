@@ -6,6 +6,7 @@
         "right": 12,
         "bottom": 9
     },
+    "ConsoleUIScale": 1.0,
     "LeftPanelAnchor": {
         "x": 0.0,
         "y": 0.397
@@ -303,6 +304,9 @@
         "kerning": 0.94
     },
     "MinimumSpacing": {
+        "kerning": 0.88
+    },
+    "LowResMinimumSpacing": {
         "kerning": 0.88
     },
     "EmptyColorRange": {
@@ -1403,6 +1407,8 @@
             "lineWrap": true
         }
     },
+    "LF_ProfileDropdownWidth": 627,
+    "LF_ProfileDropdownBackgroundWidth": 625,
     "StyleSettingsNumericSlider": {
         "fontFace": "Exocet",
         "pointSize": "$MediumFontSize",
