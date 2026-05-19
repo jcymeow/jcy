@@ -3104,14 +3104,6 @@ class FileOperations:
             "2": [
                 r"data/hd/missiles/electric_nova.json",
             ],
-            # 开启 附魔双手火焰特效
-            "3": [
-                r"data/hd/overlays/sorceress/enchant.json",
-            ],
-            # 开启 蓝色能量护盾顶球
-            "4": [
-                r"data/hd/overlays/sorceress/energyshield.json"
-            ],
             # 开启 灰色九头蛇
             "5": [
                 r"data/hd/character/enemy/hydra1/textures/hydra_alb.texture",
@@ -3172,10 +3164,11 @@ class FileOperations:
             return (0, 0)
         
         _files = {
-            # 德鲁伊-飓风术
+            # 圣骑士-祝锤闪电弹道
             "1":[
                 r"data/hd/missiles/blessedhammer.json",
             ],
+            # 圣骑士-神圣火焰(蓝色燃烧)
             "2":[
                 r"data/hd/overlays/common/fire_hit.json",
             ],
