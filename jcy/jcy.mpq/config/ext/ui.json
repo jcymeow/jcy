@@ -11092,9 +11092,9 @@
         "enUS": "You have not been online in the last 30 days. Please start the game while online to verify the product license.",
         "zhCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。",
         "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。",
-        "zhCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。",
-        "zhTW": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。",
-        "zhCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。"
+        "sgCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。",
+        "sgTW": "你已 30 天沒有上線。請在上線時開啟遊戲以認證產品授權。",
+        "bnCN": "你已经30天没有在线了。请在线开始游戏以验证产品许可。"
     },
     "VoiceLanguage": {
         "Key": "VoiceLanguage",
