@@ -19142,7 +19142,7 @@
         "sgTW": "名稱中包含不雅字眼或系統保留字。請嘗試其他名稱。",
         "bnCN": "名称包含不当文字。请更换另一个名称。"
     },
-    "DesktopModeSettingName":{
+    "DesktopModeSettingName": {
         "Key": "DesktopModeSettingName",
         "enUS": "Desktop Mode",
         "zhCN": "桌面模式",
@@ -19151,7 +19151,7 @@
         "sgTW": "桌面模式",
         "bnCN": "桌面模式"
     },
-    "DesktopModeSettingTooltip":{
+    "DesktopModeSettingTooltip": {
         "Key": "DesktopModeSettingTooltip",
         "enUS": "Changes the UI to match Desktop and\n enables full mouse and keyboard support",
         "zhCN": "调整用户界面以匹配桌面，\n并启用完整的鼠标和键盘支持。",
@@ -19160,7 +19160,7 @@
         "sgTW": "將使用者介面更改為桌面模式並\n啟用滑鼠與鍵盤的完整支援",
         "bnCN": "调整用户界面以匹配桌面，\n并启用完整的鼠标和键盘支持。"
     },
-    "HandheldTitle":{
+    "HandheldTitle": {
         "Key": "HandheldTitle",
         "enUS": "Handheld",
         "zhCN": "手持设备",

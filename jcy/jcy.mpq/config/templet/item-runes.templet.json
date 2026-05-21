@@ -2362,9 +2362,9 @@
   {
     "id": 27360,
     "Key": "Runeword171",
-    "enUS": "Hustle",
-    "zhTW": "催促",
-    "zhCN": "喧嚣",
+    "enUS": "Hysteria",
+    "zhTW": "歇斯底里",
+    "zhCN": "狂乱",
     "sgCN": "催促",
     "sgTW": "催促",
     "bnCN": "喧嚣"
@@ -2372,11 +2372,11 @@
   {
     "id": 27361,
     "Key": "Runeword172",
-    "enUS": "Hustle",
+    "enUS": "Mania",
     "zhTW": "狂躁",
     "zhCN": "癫狂",
-    "sgCN": "癫狂",
-    "sgTW": "狂躁",
+    "sgCN": "催促",
+    "sgTW": "催促",
     "bnCN": "喧嚣"
   },
   {
