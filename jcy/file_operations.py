@@ -2599,8 +2599,7 @@ class FileOperations:
         # - data/local/lng/strings/jcy.json
         # + data/global/ui/layouts/mainmenupanelhd.json
         # + data/global/ui/layouts/JcyMiniButtonshd.json
-        # + data/global/ui/layouts/pauselayoutgardenhd.json
-        total = len(LOCAL_FILES) + 2
+        total = len(LOCAL_FILES) - 1 + 2
 
         lng = jcy_config.SETTINGS.get(select_language, Language.ZHTW.value)
 
@@ -2666,25 +2665,28 @@ class FileOperations:
         except Exception as e:
             print(f"[Error] {mini_path}: {e}")
 
-        # 修改重开地狱游戏 提示语
-        pause_data = None                    
-        pause_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/pauselayoutgardenhd.json")
-        try:
-            with open(pause_path, 'r', encoding='utf-8') as f:
-                pause_data = json.load(f)
+        # 修改重开地狱游戏 提示语, 当"添加 重开地狱游戏按钮"勾选时
+        setting2 = jcy_config.SETTINGS.get(Function.GAME_SETTING2.value)
+        if "8" in setting2:
+            total += 1
+            pause_data = None                    
+            pause_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/pauselayoutgardenhd.json")
+            try:
+                with open(pause_path, 'r', encoding='utf-8') as f:
+                    pause_data = json.load(f)
 
-            for child in pause_data["children"]:
-                if "TableWidget" == child.get("type", "") and "PauseTableExtra" == child.get("name", ""):
-                    for grand_child in child["children"]:
-                        if "TableRowWidget" == grand_child.get("type", "") and "quickremakehellgame" == grand_child.get("name", ""):
-                            grand_child["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
+                for child in pause_data["children"]:
+                    if "TableWidget" == child.get("type", "") and "PauseTableExtra" == child.get("name", ""):
+                        for grand_child in child["children"]:
+                            if "TableRowWidget" == grand_child.get("type", "") and "quickremakehellgame" == grand_child.get("name", ""):
+                                grand_child["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
 
-            with open(pause_path, 'w', encoding="utf-8") as f:
-                json.dump(pause_data, f, ensure_ascii=False, indent=4)
+                with open(pause_path, 'w', encoding="utf-8") as f:
+                    json.dump(pause_data, f, ensure_ascii=False, indent=4)
 
-            count += 1
-        except Exception as e:
-            print(f"[Error] {pause_path}: {e}")
+                count += 1
+            except Exception as e:
+                print(f"[Error] {pause_path}: {e}")
 
         return count, total
 
@@ -3720,7 +3722,6 @@ class FileOperations:
             return count, total
 
         try:
-            # ---- modify pauselayoutgardenhd.json ----
             hd_json = None
             hd_path = os.path.join(MOD_PATH, "data/global/ui/layouts/pauselayoutgardenhd.json")
             if not os.path.exists(hd_path):
