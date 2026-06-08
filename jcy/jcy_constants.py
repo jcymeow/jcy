@@ -90,6 +90,7 @@ class Assets(Enum):
     TOA = "Token of Absolution"
     MK = "Mephisto Key"
     BANK = "Bank"
+    CJW = "CJW"
     AUTOMAP = "Automap"
     AMA = "Ama"
     SOR = "Sor"
