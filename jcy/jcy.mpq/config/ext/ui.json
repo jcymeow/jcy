@@ -17020,12 +17020,12 @@
     },
     "HeraldName5": {
         "Key": "HeraldName5",
-        "enUS": "Herald of Terror",
-        "zhCN": "恐惧使者",
-        "zhTW": "恐懼使者",
-        "sgCN": "恐惧使者",
-        "sgTW": "恐懼使者",
-        "bnCN": "恐惧使者"
+        "enUS": "Lv.5 Herald of Terror",
+        "zhCN": "Lv.5 恐惧使者",
+        "zhTW": "Lv.5 恐懼使者",
+        "sgCN": "Lv.5 恐惧使者",
+        "sgTW": "Lv.5 恐懼使者",
+        "bnCN": "Lv.5 恐惧使者"
     },
     "DesecratedZoneUniqueSpawnedLevel": {
         "Key": "DesecratedZoneUniqueSpawnedLevel",
@@ -19090,39 +19090,39 @@
     },
     "HeraldName1": {
         "Key": "HeraldName1",
-        "enUS": "Herald of Fright",
-        "zhCN": "惊惧使者",
-        "zhTW": "驚駭使者",
-        "sgCN": "惊惧使者",
-        "sgTW": "驚駭使者",
-        "bnCN": "惊惧使者"
+        "enUS": "Lv.1 Herald of Fright",
+        "zhCN": "Lv.1 惊惧使者",
+        "zhTW": "Lv.1 驚駭使者",
+        "sgCN": "Lv.1 惊惧使者",
+        "sgTW": "Lv.1 驚駭使者",
+        "bnCN": "Lv.1 惊惧使者"
     },
     "HeraldName2": {
         "Key": "HeraldName2",
-        "enUS": "Herald of Dread",
-        "zhCN": "惊悚使者",
-        "zhTW": "畏怖使者",
-        "sgCN": "惊悚使者",
-        "sgTW": "畏怖使者",
-        "bnCN": "惊悚使者"
+        "enUS": "Lv.2 Herald of Dread",
+        "zhCN": "Lv.2 惊悚使者",
+        "zhTW": "Lv.2 畏怖使者",
+        "sgCN": "Lv.2 惊悚使者",
+        "sgTW": "Lv.2 畏怖使者",
+        "bnCN": "Lv.2 惊悚使者"
     },
     "HeraldName3": {
         "Key": "HeraldName3",
-        "enUS": "Herald of Fear",
-        "zhCN": "惊恐使者",
-        "zhTW": "驚懼使者",
-        "sgCN": "惊恐使者",
-        "sgTW": "驚懼使者",
-        "bnCN": "惊恐使者"
+        "enUS": "Lv.3 Herald of Fear",
+        "zhCN": "Lv.3 惊恐使者",
+        "zhTW": "Lv.3 驚懼使者",
+        "sgCN": "Lv.3 惊恐使者",
+        "sgTW": "Lv.3 驚懼使者",
+        "bnCN": "Lv.3 惊恐使者"
     },
     "HeraldName4": {
         "Key": "HeraldName4",
-        "enUS": "Herald of Horror",
-        "zhCN": "惊怖使者",
-        "zhTW": "恐怖使者",
-        "sgCN": "惊怖使者",
-        "sgTW": "恐怖使者",
-        "bnCN": "惊怖使者"
+        "enUS": "Lv.4 Herald of Horror",
+        "zhCN": "Lv.4 惊怖使者",
+        "zhTW": "Lv.4 恐怖使者",
+        "sgCN": "Lv.4 惊怖使者",
+        "sgTW": "Lv.4 恐怖使者",
+        "bnCN": "Lv.4 惊怖使者"
     },
     "strgamefailillegaljoinXG": {
         "Key": "strgamefailillegaljoinXG",
