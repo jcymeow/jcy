@@ -2472,12 +2472,12 @@
   {
     "id": 11003,
     "Key": "StrSklTabItem9",
-    "enUS": "+%d to Summoning Skills",
-    "zhTW": "+%d 召喚技能",
-    "zhCN": "+%d 召唤术",
-    "sgCN": "+%d 召唤术",
-    "sgTW": "+%d 召喚技能",
-    "bnCN": "+%d 召唤术"
+    "enUS": "{{color0}}+%d to Summoning Skills{{color1}}",
+    "zhTW": "{{color0}}+%d 召喚技能{{color1}}",
+    "zhCN": "{{color0}}+%d 召唤术{{color1}}",
+    "sgCN": "{{color0}}+%d 召唤术{{color1}}",
+    "sgTW": "{{color0}}+%d 召喚技能{{color1}}",
+    "bnCN": "{{color0}}+%d 召唤术{{color1}}"
   },
   {
     "id": 11018,

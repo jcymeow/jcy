@@ -4201,8 +4201,8 @@
   {
     "id": 11003,
     "Key": "StrSklTabItem9",
-    "enUS": "+%d to Summoning Skills",
-    "zhTW": "+%d 召喚技能",
+    "enUS": "ÿc8+%d to Summoning Skillsÿc3",
+    "zhTW": "ÿc8+%d 召喚技能ÿc3",
     "deDE": "+%d zu Herbeirufungfertigkeiten",
     "esES": "+%d a las habilidades de invocación",
     "frFR": "+%d en invocation",
@@ -4213,7 +4213,7 @@
     "jaJP": "〈召喚〉スキル向上（+%d）",
     "ptBR": "+%d para habilidades Evocação",
     "ruRU": "+%d к умениям призыва",
-    "zhCN": "+%d 召喚技能"
+    "zhCN": "ÿc8+%d 召喚技能ÿc3"
   },
   {
     "id": 11018,

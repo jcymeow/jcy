@@ -508,6 +508,12 @@
             "ÿc3"
         ]
     },
+    "StrSklTabItem9": {
+        "color": [
+            "ÿc8",
+            "ÿc3"
+        ]
+    },
     "StrSklTabItem10": {
         "color": [
             "ÿc8",
@@ -666,12 +672,6 @@
     },
     "ModitemdamPoissk": {
         "abbr": "(PSD)"
-    },
-    "StrSklTabItem9": {
-        "color": [
-            "ÿc8",
-            "ÿc3"
-        ]
     },
     "ItemStats1r": {
         "abbr": "(CTB)"

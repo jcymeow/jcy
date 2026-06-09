@@ -2069,6 +2069,16 @@
         "sgTW": "ÿc8%+d 詛咒ÿc3",
         "bnCN": "ÿc8%+d 诅咒术ÿc3"
     },
+    "StrSklTabItem9": {
+        "id": 11003,
+        "Key": "StrSklTabItem9",
+        "enUS": "ÿc8%+%d to Summoning Skillsÿc3",
+        "zhTW": "ÿc8%+%d 召喚技能ÿc3",
+        "zhCN": "ÿc8%+%d 召唤术ÿc3",
+        "sgCN": "ÿc8%+%d 召唤术ÿc3",
+        "sgTW": "ÿc8%+%d 召喚技能ÿc3",
+        "bnCN": "ÿc8%+%d 召唤术ÿc3"
+    },
     "StrSklTabItem10": {
         "id": 10063,
         "Key": "StrSklTabItem10",
@@ -2468,16 +2478,6 @@
         "sgCN": "%d%% 几率在消灭一名敌人时施放%d级%s",
         "sgTW": "當你殺敵時有 %d%% 機率施展等級 %d %s",
         "bnCN": "%d%% 几率在消灭一名敌人时施放%d级%s"
-    },
-    "StrSklTabItem9": {
-        "id": 11003,
-        "Key": "StrSklTabItem9",
-        "enUS": "+%d to Summoning Skills",
-        "zhTW": "+%d 召喚技能",
-        "zhCN": "+%d 召唤术",
-        "sgCN": "+%d 召唤术",
-        "sgTW": "+%d 召喚技能",
-        "bnCN": "+%d 召唤术"
     },
     "ItemStats1r": {
         "id": 11018,
