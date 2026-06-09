@@ -168,13 +168,13 @@ of Malice	100	1	1	37		29				4	6	thorns		1	5										jewl												0	0
 of Readiness	1	1	1	5		3				6	7	swing1		10	10										weap							wand	orb				0	0
 of Alacrity	1	1	1	25		17				6	7	swing2		20	20										weap							wand	orb				0	0
 of Swiftness	1	1	1	34		26				6	7	swing2		30	30										mele							wand	staf	orb			0	0
-of Quickness	1	1	1	46		38				5	7	swing3		40	40									lgrn	mele							wand	staf	orb			0	0
-of Alacrity	100	1	1	43		35				4	7	swing2		20	20									lgrn	glov												0	0
+of Quickness	1	1	1	46		38				5	7	swing3		40	40										mele							wand	staf	orb			0	0
+of Alacrity	100	1	1	43		35				4	7	swing2		20	20										glov												0	0
 of Fervor	100	1		39		31				4	7	swing1		15	15										jewl												0	0
 of Blocking	1	1	1	1		1				7	8	block		10	10	block2		15	15						shld												0	0
-of Deflecting	1	1	1	11		8				6	8	block		20	20	block2		30	30					lgrn	shld												0	0
+of Deflecting	1	1	1	11		8				6	8	block		20	20	block2		30	30						shld												0	0
 of the Apprentice	1	1	1	5		3				6	9	cast1		10	10										rod	ring	amul	orb	circ								0	0
-of the Magus	1	1	1	29		21				5	9	cast3		20	20									lgrn	rod	orb	circ					scep					0	0
+of the Magus	1	1	1	29		21				5	9	cast3		20	20										rod	orb	circ					scep					0	0
 of Frost	1	1	1	4		3				5	10	cold-min		1	1	cold-max		1	2	cold-len		50	50		weap							wand	orb				0	0
 of the Icicle	100	1	1	13		9				4	10	cold-min		1	1	cold-max		3	4	cold-len		75	75		weap							wand	orb				0	0
 of the Glacier	1	1	1	27		20				3	10	cold-min		2	4	cold-max		4	15	cold-len		100	100		weap							wand	orb				0	0
@@ -319,7 +319,7 @@ of the Tiger	1	1	1	20		15				3	26	hp		21	30										tors	belt	amul	phlm	circ			
 of the Mammoth	1	1	1	25		18				3	26	hp		31	40										tors	belt	amul	phlm	circ								0	0
 of the Colosuss	1	1	1	30		22				3	26	hp		41	60										tors	belt	amul	phlm	circ								0	0
 of the Squid	100	1		40		30				3	26	hp		61	80										tors	belt	amul	phlm	circ								0	0
-of the Whale	100	1		50		37				3	26	hp		81	100									lgrn	tors	belt	amul	phlm	circ								0	0
+of the Whale	100	1		50		37				3	26	hp		81	100										tors	belt	amul	phlm	circ								0	0
 of the Jackal	100	1	1	4		3				3	26	hp		1	5										shld	pelt											0	0
 of the Fox	100	1	1	11		8				3	26	hp		6	10										shld	pelt											0	0
 of the Wolf	100	1	1	27		20				3	26	hp		11	20										shld	pelt											0	0
@@ -356,7 +356,7 @@ of the Locust	1	1	1	20		15				7	27	lifesteal		6	7										mele							orb					0	
 of the Lamprey	100	1	1	55		43				7	27	lifesteal		8	9										mele							orb					0	0
 of the Leech	1	1	1	14		10				4	27	lifesteal		3	4										ring	circ											0	0
 of the Locust	1	1	1	47		35				4	27	lifesteal		5	6										ring	circ											0	0
-of the Lamprey	100	1	1	77		65				4	27	lifesteal		7	8									lgrn	ring	circ											0	0
+of the Lamprey	100	1	1	77		65				4	27	lifesteal		7	8										ring	circ											0	0
 of the Leech	1	1	1	34		26				4	27	lifesteal		3	3										glov												0	0
 of the Bat	1	1	1	7		4				7	28	manasteal		4	5										weap							orb					0	0
 of the Wraith	1	1	1	21		16				7	28	manasteal		6	7										mele												0	0
@@ -396,8 +396,8 @@ of Virility	100	1	1	18		13				4	31	str		1	4										jewl												0	0
 of Pacing	1	1	1	12		8				3	35	move1		10	10										boot	circ											0	0
 of Haste	1	1	1	22		16				4	35	move2		20	20										boot	circ											0	0
 of Speed	1	1	1	37		29				4	35	move3		30	30										boot	circ											0	0
-of Traveling	100	1		65		57				4	35	move3		30	30	stamdrain		80	90					lgrn	boot												0	0
-of Acceleration	100	1		51		43				4	35	move3		40	40									lgrn	boot												0	0
+of Traveling	100	1		65		57				4	35	move3		30	30	stamdrain		80	90						boot												0	0
+of Acceleration	100	1		51		43				4	35	move3		40	40										boot												0	0
 of Inertia	100	1	1	19		14				4	35	move3		7	7										lcha												0	0
 of Inertia	100	1	1	24		18				4	35	move2		5	5										mcha												0	0
 of Inertia	100	1		35		27				4	35	move1		3	3										scha												0	0
@@ -531,8 +531,8 @@ of Enchantment	100	1	1	24		24		sor	18	1	44	charged	52	-20	-3										staf	orb		
 of Enchantment	100	1	1	48		48		sor	18	1	44	charged	52	-10	-1										mele												0	0
 of Chain Lightning	100	1	1	24		24		sor	18	1	44	charged	53	-30	-6										staf	orb											0	0
 of Chain Lightning	100	1	1	48		48		sor	18	1	44	charged	53	-20	-3										spea												0	0
-of Teleportation	100	1	1	24		24		sor	18	1	44	charged	54	-30	-6									lgrn	staf	orb											0	0
-of Teleportation	100	1	1	48		48		sor	18	1	44	charged	54	-20	-3									lgrn	amul	circ											0	0
+of Teleportation	100	1	1	24		24		sor	18	1	44	charged	54	-30	-6										staf	orb											0	0
+of Teleportation	100	1	1	48		48		sor	18	1	44	charged	54	-20	-3										amul	circ											0	0
 of Glacial Spikes	100	1	1	24		24		sor	18	1	44	charged	55	-30	-6										staf	orb											0	0
 of Glacial Spikes	100	1	1	48		48		sor	18	1	44	charged	55	-20	-3										knif												0	0
 of Meteors	100	1	1	30		30		sor	24	1	44	charged	56	-30	-5										staf	orb											0	0
@@ -593,7 +593,7 @@ of Bone Imprisonment	100			30		30		nec	24	1	44	charged	88	-60	-5										wand	k
 of Bone Imprisonment	100			60		60		nec	24	1	44	charged	88	-20	-2										mace	scep											0	0
 of Iron Golem Creation	100			30		30		nec	24	1	44	charged	90	-60	-5										wand	knif	head										0	0
 of Iron Golem Creation	100			60		60		nec	24	1	44	charged	90	-20	-2										swor												0	0
-of Lower Resistance	100	1	1	36		36		nec	30	1	44	charged	91	-60	-3									lgrn	wand	knif	head										0	0
+of Lower Resistance	100	1	1	36		36		nec	30	1	44	charged	91	-60	-3										wand	knif	head										0	0
 of Lower Resistance	100	1	1	72		72		nec	30	1	44	charged	91	-20	-1										staf												0	0
 of Poison Novas	100	1	1	36		36		nec	30	1	44	charged	92	-60	-3										wand	knif	head										0	0
 of Poison Novas	100	1	1	72		72		nec	30	1	44	charged	92	-20	-1										glov												0	0
