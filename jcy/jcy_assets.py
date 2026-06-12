@@ -2279,11 +2279,11 @@ ASSETS = [
         "author": "탈명객",
         "description": "月牙血/蓝球, 哑铃型HUD",
         "source": "https://www.inven.co.kr/board/diablo2/5842/7611",
-        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.5/806.zip",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.5.6/806.zip",
         "file": "806.zip",
         "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/806.png",
         "size": 9584510,
-        "md5": "DD1C17BB9409FD6C8E2EDF609F3068E5",
+        "md5": "5AB6758F0EECA7BB74D5CF73C179D7B5",
         PREPROCESS_METHOD: [
             {
                 METHOD: Methods.BACKUP_RESOTRE_FILES,
