@@ -205,6 +205,8 @@ class FeatureController:
             Function.DOWNSTAIRS_POINTER.value: self.file_operations.modify_downstairs_pointer,
             # 环境-邻区指引
             Function.NEXTAREA_POINTER.value: self.file_operations.modify_nextarea_pointer,
+            # 环境-祭坛指引
+            Function.SHRINE_POINTER.value: self.file_operations.modify_shrine_pointer,
 
 
             # 通用设置

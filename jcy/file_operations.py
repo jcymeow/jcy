@@ -2578,6 +2578,45 @@ class FileOperations:
         return self.common_rename(_files, radio == "2")
 
 
+    def modify_shrine_pointer(self, radio: str = "0"):
+        """修改祭坛指引样式"""
+        
+        # 祭坛文件列表
+        _files = [
+            "data/hd/overlays/common/shrine_experience.json",
+            "data/hd/overlays/common/shrine_stamina.json",
+        ]
+
+        # 指引映射
+        _maps = {
+            "0": [],
+            "2": PF_BEACON_SHRINE,
+        }
+
+
+        count = 0
+        total = len(_files)
+
+        for _file in _files:
+            try:
+                json_data = None
+                json_path = os.path.join(MOD_PATH, _file)
+                with open(json_path, 'r', encoding="utf-8") as f:
+                    json_data = json.load(f)
+                
+                json_data["entities"] = [item for item in json_data["entities"] if item.get("name") != "jcy_entity_pointer"]
+                json_data["entities"].extend(_maps.get(radio))
+
+                with open(json_path, 'w', encoding="utf-8") as f:
+                    json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+                count += 1
+            except Exception as e:
+                print(e)
+
+        return (count, total)
+
+
     def filter_item_name(self, item_name: str, filter: bool) -> str:
         """
         filter=True  → 强制加 UE01A 前缀

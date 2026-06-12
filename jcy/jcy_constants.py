@@ -1330,7 +1330,7 @@ class Function(Enum):
     UPSTAIRS_POINTER = "UpstairsPointer"
     DOWNSTAIRS_POINTER = "DownstairsPointer"
     NEXTAREA_POINTER = "NextareaPointer"
-
+    SHRINE_POINTER = "ShrinePointer"
     COMMON_SETTING = "CommonSetting"
     ARROW = "Arrow"
     TELEPORT_SKIN = "TeleportSkin"

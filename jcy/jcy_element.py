@@ -222,6 +222,43 @@ PF_BEACON_PURPLE = [
     }
 ]
 
+# 祭坛指引=灰色圆环
+PF_BEACON_SHRINE = [
+    {
+        "type": "Entity",
+        "name": "jcy_entity_pointer",
+        "id": 7467890037,
+        "components": [
+            {
+                "type": "TransformDefinitionComponent",
+                "name": "prefab_TransformDefinitionComponent",
+                "position": {
+                    "x": 0.0,
+                    "y": 35.0,
+                    "z": 0.0
+                },
+                "orientation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 1.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 25.0,
+                    "z": 1.0
+                },
+                "inheritOnlyPosition": False
+            },
+            {
+                "type": "PrefabPlacementDefinitionComponent",
+                "name": "prefab_PrefabPlacementDefinitionComponent",
+                "prefab": "data/hd/env/porory/beacon/pf_beacon_shrine.json"
+            }
+        ]
+    }
+]
+
 # 出入口指引 长箭头
 ROOMTILES_ARROW_LIGHT1 = [
     {"type":"Entity","name":"jcy_entity_pointer","id":9999999666,"components":[{"type":"TransformDefinitionComponent","name":"transform_entrance_light","position":{"x":0.0,"y":200.0,"z":346.4102},"orientation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"scale":{"x":1.0,"y":1.0,"z":1.0},"inheritOnlyPosition":False},{"type":"VfxDefinitionComponent","name":"vfx_will_entrance_light","filename":"data/hd/vfx2/particles/common/fx_horadric_light_WP.particles","hardKillOnDestroy":False}]},

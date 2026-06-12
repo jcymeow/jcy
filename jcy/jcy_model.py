@@ -541,6 +541,16 @@ class FeatureConfig:
                                 "2": "白环指引"
                             }
                         },
+                        {
+                            "fid": Function.SHRINE_POINTER.value,
+                            "type": RADIO,
+                            "text": "环境-祭坛指引",
+                            "colspan": 50,
+                            "params": {
+                                "0": "默认",
+                                "2": "黑环指引"
+                            }
+                        },
                     ]
                 },
                 {
