@@ -1545,64 +1545,73 @@ class D2RLauncherApp(tk.Frame):
             return token  # 可能是明文
 
 
-class AssetManagerUI(tk.Frame):
-    def __init__(self, master, controller=None, mod_root=None, assets=None, categories=None):
+class AssetSelectionDialog(tk.Toplevel):
+    """素材选择弹窗：取消了下拉框筛选，专注于展示和操作传入的 target_type 素材"""
+    def __init__(self, master, target_type, controller, asset_dir_var, main_ui):
         super().__init__(master)
-        self.master = master
+        self.title("选择素材")
+        self.minsize(500, 400)
+        
         self.controller = controller
-        self.mod_root = mod_root or MOD_PATH
-        self._external_assets = assets if assets is not None else ASSETS
-        self._categories = categories if categories is not None else ASSET_CATEGORIES
-        self.asset_dir = tk.StringVar(value=jcy_config.SETTINGS.get(ASSET_PATH, ""))
-        self.category_var = tk.StringVar(value="")
+        self.target_type = target_type       # 目标素材类型编码 (如 "avatar")
+        self.asset_dir = asset_dir_var       # 共享主界面的 StringVar 路径
+        self.main_ui = main_ui               # 持有主界面引用，用于实时同步更新
+        
+        self._external_assets = ASSETS
+        self._types = ASSET_TYPE
         self.asset_blocks = []
-        self._build_ui()
+        
+        # 根据传入的 target_type 找到对应的中文名称
+        self.type_zh = "未知类型"
+        for t in self._types:
+            if t.get("type") == self.target_type:
+                self.type_zh = t.get("zhCN")
+                break
 
+        # ---- 问题 2：计算弹窗相对于主界面的坐标偏移 (+40) ----
+        self.update_idletasks()  # 确保主窗口尺寸/坐标已更新
+        try:
+            # 获取主界面顶层窗口的坐标和大小
+            master_x = master.winfo_toplevel().winfo_x()
+            master_y = master.winfo_toplevel().winfo_y()
+            dialog_x = master_x + 40
+            dialog_y = master_y + 40
+            self.geometry(f"650x600+{dialog_x}+{dialog_y}")
+        except Exception:
+            self.geometry("650x600")
+
+        self._build_ui()
+        
+        # 模态弹窗设置
+        self.transient(master)
+        self.grab_set()
+        
+        # 初始过滤布局与刷新
+        self.refresh_status(update_layout=True)
 
     def _build_ui(self):
-        top = tk.Frame(self)
-        top.pack(fill="x", pady=6)
-        tk.Label(top, text="素材包目录：").pack(side="left", padx=4)
-        entry = tk.Entry(top, textvariable=self.asset_dir, width=60)
-        entry.pack(side="left", padx=4, fill="x", expand=True)
-        tk.Button(top, text="选择目录", command=self._choose_dir).pack(side="left", padx=4)
-        # tk.Button(top, text="保存路径", command=self._save_path).pack(side="left", padx=4)
-
-        # ---- 素材类型筛选 ----
+        # ---- 素材类型顶部栏 ----
         filter_frame = tk.Frame(self)
-        filter_frame.pack(fill="x", pady=4)
-        tk.Label(filter_frame, text="素材类型：").pack(side="left", padx=(4, 2))
+        filter_frame.pack(fill="x", pady=8, padx=10)
+        
+        # 问题 3：去除了下拉框，改为静态 Label 提示
+        tk.Label(filter_frame, text="素材类型：", font=("Microsoft YaHei", 10, "bold")).pack(side="left", padx=(4, 2))
+        tk.Label(filter_frame, text=self.type_zh, font=("Microsoft YaHei", 10), fg="#333333").pack(side="left", padx=4)
 
-        # 所有类型中文名
-        category_values = [c.get("zhCN") for c in self._categories]
+        self.type_count_label = tk.Label(filter_frame, text="数量：0", fg="#666666")
+        self.type_count_label.pack(side="left", padx=20)
 
-        # 默认选中第一项
-        if category_values:
-            self.category_var.set(category_values[0])
+        ttk.Separator(self, orient="horizontal").pack(fill="x", pady=4)
 
-        # 下拉框
-        self.category_cb = ttk.Combobox(filter_frame, textvariable=self.category_var,
-                                    values=category_values, state="readonly", width=18)
-        self.category_cb.pack(side="left", padx=4)
-
-        # ---- 数量标签 ----
-        self.type_count_label = tk.Label(filter_frame, text="数量：0")
-        self.type_count_label.pack(side="left", padx=6)
-
-        # 选择时刷新
-        self.category_cb.bind('<<ComboboxSelected>>', lambda e: self.refresh_status(update_layout=True))
-
-        ttk.Separator(self, orient="horizontal").pack(fill="x", pady=6)
-
+        # ---- 滚动画布区域 ----
         wrapper = tk.Frame(self)
-        wrapper.pack(fill="both", expand=True)
+        wrapper.pack(fill="both", expand=True, padx=4, pady=4)
 
         self.canvas = tk.Canvas(wrapper, highlightthickness=0)
         self.canvas.pack(side="left", fill="both", expand=True)
 
         scrollbar = ttk.Scrollbar(wrapper, orient="vertical", command=self.canvas.yview)
         scrollbar.pack(side="right", fill="y")
-
         self.canvas.configure(yscrollcommand=scrollbar.set)
 
         self._tbl = tk.Frame(self.canvas)
@@ -1612,29 +1621,15 @@ class AssetManagerUI(tk.Frame):
         self.canvas.bind("<Configure>", lambda e: self.canvas.itemconfigure(self._canvas_window, width=e.width))
         self._tbl.grid_columnconfigure(0, weight=1)
 
-        # 鼠标滚轮
-        def _on_mousewheel_windows(event):
+        # 鼠标滚轮绑定
+        def _on_mousewheel(event):
             delta = int(event.delta / 120)
             self.canvas.yview_scroll(-delta, "units")
 
-        def _bind_on_enter(event):
-            self.canvas.bind_all("<MouseWheel>", _on_mousewheel_windows)
-
-        def _unbind_on_leave(event):
-            try:
-                self.canvas.unbind_all("<MouseWheel>")
-            except:
-                pass
-
-        self.canvas.bind("<Enter>", _bind_on_enter)
-        self.canvas.bind("<Leave>", _unbind_on_leave)
+        self.canvas.bind("<Enter>", lambda e: self.canvas.bind_all("<MouseWheel>", _on_mousewheel))
+        self.canvas.bind("<Leave>", lambda e: self.canvas.unbind_all("<MouseWheel>"))
 
         self._render_asset_blocks()
-
-        # 刷新状态（包括数量）
-        # self.after(150, self.refresh_status(update_layout=True))
-        self.after(150, lambda: self.refresh_status(update_layout=True))
-
 
     def _render_asset_blocks(self):
         for child in self._tbl.winfo_children():
@@ -1643,31 +1638,19 @@ class AssetManagerUI(tk.Frame):
 
         for i, asset in enumerate(self._external_assets):
             frame = self._create_asset_block(asset)
-            frame.grid(row=i, column=0, padx=8, pady=8, sticky="nwes")
+            frame.grid(row=i, column=0, padx=8, pady=6, sticky="nwes")
             self.asset_blocks.append((asset, frame))
-
 
     def _create_asset_block(self, asset):
         title = asset.get('name') or '<unnamed>'
-        frame = tk.LabelFrame(self._tbl, text=title, padx=8, pady=6)
+        frame = tk.LabelFrame(self._tbl, text=f"  {title}  ", padx=10, pady=6)
 
-        lbl_desc = tk.Label(frame, text=f"描述：{asset.get('description','')}", anchor='w', justify='left')
-        lbl_desc.pack(fill='x')
-
-        size_text = human_size(asset.get('size',0)) if asset.get('size') else '未知'
-        lbl_size = tk.Label(frame, text=f"容量：{size_text}", anchor='w', justify='left')
-        lbl_size.pack(fill='x')
-
-        author = asset.get('author','未知')
-        lbl_author = tk.Label(frame, text=f"作者：{author}", anchor='w', justify='left')
-        lbl_author.pack(fill='x')
-
-        source = asset.get('source','未知')
-        lbl_source = tk.Label(frame, text=f"出处：{source}", anchor='w', justify='left')
-        lbl_source.pack(fill='x')
+        tk.Label(frame, text=f"描述：{asset.get('description','')}", anchor='w', justify='left').pack(fill='x')
+        size_text = human_size(asset.get('size', 0)) if asset.get('size') else '未知'
+        tk.Label(frame, text=f"容量：{size_text}  |  作者：{asset.get('author','未知')}  |  出处：{asset.get('source','未知')}", anchor='w').pack(fill='x')
 
         pb = ttk.Progressbar(frame, orient="horizontal", mode="determinate")
-        pb.pack(fill='x', pady=(2, 6))
+        pb.pack(fill='x', pady=(4, 6))
         frame.progress = pb
 
         btn_frame = tk.Frame(frame)
@@ -1680,107 +1663,66 @@ class AssetManagerUI(tk.Frame):
         b_delete = tk.Button(btn_frame, text="删除", command=lambda a=asset: self._delete_asset(a))
 
         for b in (b_preview, b_download, b_apply, b_remove, b_delete):
-            b.pack(side='left', padx=4, ipadx=6)
+            b.pack(side='left', padx=4, ipadx=4)
 
         frame.buttons = {'preview': b_preview, 'download': b_download, 'apply': b_apply, 'remove': b_remove, 'delete': b_delete}
-
         return frame
 
-
     def refresh_status(self, update_layout=True):
-        
         applied_assets = {
             v for v in jcy_config.ASSET_CONFIG.values()
             if isinstance(v, int) and v > 0
         }
         row = 0
 
-        # 只在需要时计算 selected_type
-        selected_category = None
         if update_layout:
-            selected_category_zh = self.category_var.get()
-            self._category_map = {c["zhCN"]: c["category"] for c in self._categories}
-            selected_category = self._category_map.get(selected_category_zh)
-            count = sum(
-                1 for a in self._external_assets
-                if a.get("category") == selected_category
-            )
+            count = sum(1 for a in self._external_assets if a.get("type") == self.target_type)
             self.type_count_label.config(text=f"数量：{count}")
 
         for asset, frame in self.asset_blocks:
             try:
                 asset_id = asset["id"]
-
-                # ===== 布局处理（只在类型切换时）=====
                 if update_layout:
-                    if selected_category is not None and asset.get('category') != selected_category:
+                    if asset.get('type') != self.target_type:
                         frame.grid_forget()
                     else:
-                        frame.grid(row=row, column=0, padx=8, pady=8, sticky='nwes')
+                        frame.grid(row=row, column=0, padx=8, pady=6, sticky='nwes')
                         row += 1
 
-                # ===== 状态刷新（永远执行）=====
+                # 按钮状态控制
                 asset_applied = asset_id in applied_assets
                 asset_package_exist = jcy_config.ASSET_PACKAGE.get(asset_id, False)
 
-                frame.buttons['apply'].config(
-                    state=tk.NORMAL if asset_package_exist else tk.DISABLED
-                )
-                frame.buttons['remove'].config(
-                    state=tk.NORMAL if asset_applied else tk.DISABLED
-                )
-                frame.buttons['delete'].config(
-                    state=tk.NORMAL if asset_package_exist else tk.DISABLED
-                )
-
+                frame.buttons['apply'].config(state=tk.NORMAL if asset_package_exist else tk.DISABLED)
+                frame.buttons['remove'].config(state=tk.NORMAL if asset_applied else tk.DISABLED)
+                frame.buttons['delete'].config(state=tk.NORMAL if asset_package_exist else tk.DISABLED)
             except Exception as e:
-                print(f"refresh_status error: {e}")
+                print(f"dialog refresh error: {e}")
 
-        
         self.update_idletasks()
         bbox = self.canvas.bbox("all")
         if bbox:
             self.canvas.configure(scrollregion=bbox)
-
         if update_layout:
             self.canvas.yview_moveto(0)
 
-
-    def _choose_dir(self):
-        path = filedialog.askdirectory(title="选择素材存放目录")
-        if path:
-            self.asset_dir.set(path)
-            jcy_config.SETTINGS[ASSET_PATH] = path
-            self.controller.feature_state_manager.save_settings(jcy_config.SETTINGS)
-            self.controller.file_operations.scan_asset_package()
-            self.refresh_status(update_layout=True)
-
-
     def _download_asset_thread(self, asset, progress):
         threading.Thread(target=self._download_asset, args=(asset, progress), daemon=True).start()
-
 
     def _download_asset(self, asset, progress):
         asset_dir = self.asset_dir.get().strip()
         if not asset_dir:
             self.after(0, lambda: messagebox.showerror('错误', '请先选择素材目录！'))
             return
-
         os.makedirs(asset_dir, exist_ok=True)
         zip_path = os.path.join(asset_dir, asset.get('file', ''))
-        url = asset.get('url')
-        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-
         try:
-            self.after(0, lambda p=progress: p.config(value=0))
-
-            resp = requests.get(url, stream=True, timeout=15, headers=headers)
+            self.after(0, lambda: progress.config(value=0))
+            resp = requests.get(asset.get('url'), stream=True, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
             resp.raise_for_status()
-
             total = int(resp.headers.get('content-length', 0))
             downloaded = 0
             last_percent = -1
-
             with open(zip_path, 'wb') as f:
                 for chunk in resp.iter_content(8192):
                     if chunk:
@@ -1789,81 +1731,433 @@ class AssetManagerUI(tk.Frame):
                         new_percent = int(downloaded / total * 100) if total else 0
                         if new_percent != last_percent:
                             last_percent = new_percent
-                            progress.after(0, lambda v=new_percent, p=progress: p.config(value=v))
-
+                            progress.after(0, lambda v=new_percent: progress.config(value=v))
             if not check_file_md5(zip_path, asset.get('md5', '')):
-                try:
-                    os.remove(zip_path)
-                except Exception:
-                    pass
+                try: os.remove(zip_path)
+                except: pass
                 raise Exception('MD5 校验失败')
-            
-            # 下载完毕, 更新状态
             jcy_config.ASSET_PACKAGE[asset["id"]] = True
-
         except Exception as exc:
             self.after(0, lambda e=exc: messagebox.showerror('下载失败', str(e)))
-
         finally:
-            progress.after(0, lambda p=progress: p.config(value=0))
-            self.after(0, self.refresh_status(update_layout=False))
-
+            progress.after(0, lambda: progress.config(value=0))
+            # 问题 4：下载完成标记存在，通知弹窗刷新同时让主界面也刷新
+            self.after(0, lambda: (self.refresh_status(update_layout=False), self.main_ui.refresh_main_list()))
 
     def _preview(self, url):
-        if not url:
-            return messagebox.showerror('错误', '没有预览链接。')
+        if not url: return messagebox.showerror('错误', '没有预览链接。')
         import webbrowser
         webbrowser.open(url)
-
 
     def _apply_asset(self, asset):
         try:
             asset_type = asset.get("type")
-
-            # 1. 检查同类原素材,并移除
             old_asset_id = jcy_config.ASSET_CONFIG.get(asset_type)
-            if old_asset_id != 0:
+            if old_asset_id and old_asset_id != 0:
                 old_asset = ASSET_DICT.get(old_asset_id)
                 if old_asset:
-                    result = self.controller.file_operations.remove_asset(old_asset)
-                    if not result.get("ok"):
-                        return messagebox.showerror("错误", result.get("message"))
-
-            # 2. 应用新素材
+                    self.controller.file_operations.remove_asset(old_asset)
             result = self.controller.file_operations.apply_asset(asset)
-            if result.get("ok"):
-                return messagebox.showinfo("完成", result.get("message"))
-            else:
-                return messagebox.showerror("错误", result.get("message"))
-
-        except Exception as e:
-            messagebox.showerror("错误", f"应用失败：{e}")
-        finally:
+            if result.get("ok"): messagebox.showinfo("完成", result.get("message"))
+            else: messagebox.showerror("错误", result.get("message"))
+        except Exception as e: messagebox.showerror("错误", f"应用失败：{e}")
+        finally: 
+            # 问题 4：素材应用后，立刻同步刷新子窗口和主界面列表
             self.refresh_status(update_layout=False)
-
+            self.main_ui.refresh_main_list()
 
     def _remove_asset(self, asset):
         try:
             result = self.controller.file_operations.remove_asset(asset)
-            if result.get("ok"):
-                return messagebox.showinfo("完成", result.get("message"))
-            else:
-                return messagebox.showerror("错误", result.get("message"))
-        except Exception as e:
-            messagebox.showerror("错误", f"移除失败：{e}")
-        finally:
+            if result.get("ok"): messagebox.showinfo("完成", result.get("message"))
+            else: messagebox.showerror("错误", result.get("message"))
+        except Exception as e: messagebox.showerror("错误", f"移除失败：{e}")
+        finally: 
+            # 问题 4：素材移除后，立刻同步刷新子窗口和主界面列表
             self.refresh_status(update_layout=False)
-
+            self.main_ui.refresh_main_list()
 
     def _delete_asset(self, asset):
-        asset_dir = self.asset_dir.get().strip()
-        zip_path = os.path.join(asset_dir, asset.get('file',''))
+        zip_path = os.path.join(self.asset_dir.get().strip(), asset.get('file',''))
         if os.path.exists(zip_path) and messagebox.askyesno('确认', f"确定要删除 {asset.get('file')} 吗？"):
             try:
                 os.remove(zip_path)
                 jcy_config.ASSET_PACKAGE[asset["id"]] = False
                 messagebox.showinfo('完成', '素材包已删除。')
-            except Exception as e:
-                messagebox.showerror('错误', f'删除失败：{e}')
+            except Exception as e: messagebox.showerror('错误', f'删除失败：{e}')
+        # 问题 4：素材物理删除后，立刻同步刷新
         self.refresh_status(update_layout=False)
+        self.main_ui.refresh_main_list()
 
+
+class AssetManagerUI(tk.Frame):
+    """主界面：列表形式展示各个素材类型的配置状态，支持长列表纵向滚动条"""
+    def __init__(self, master, controller=None, mod_root=None, assets=None, categories=None):
+        super().__init__(master)
+        self.master = master
+        self.controller = controller
+        self.mod_root = mod_root or MOD_PATH
+        self._external_assets = assets if assets is not None else ASSETS
+        self._types = ASSET_TYPE
+        self.asset_dir = tk.StringVar(value=jcy_config.SETTINGS.get(ASSET_PATH, ""))
+        self._build_ui()
+
+    def _build_ui(self):
+        # ---- 顶部素材包目录选择 ----
+        top = tk.Frame(self)
+        top.pack(fill="x", pady=6, padx=10)
+        tk.Label(top, text="素材包目录：").pack(side="left", padx=4)
+        entry = tk.Entry(top, textvariable=self.asset_dir, width=50)
+        entry.pack(side="left", padx=4, fill="x", expand=True)
+        tk.Button(top, text="选择目录", command=self._choose_dir).pack(side="left", padx=4)
+
+        ttk.Separator(self, orient="horizontal").pack(fill="x", pady=6)
+
+        # ---- 表格头部栏 (固定在最上方，不参与滚动) ----
+        list_header = tk.Frame(self, bg="#eaeaea")
+        list_header.pack(fill="x", padx=10, pady=(4, 0))
+        list_header.grid_columnconfigure(0, weight=2, minsize=150)
+        list_header.grid_columnconfigure(1, weight=3, minsize=200)
+        list_header.grid_columnconfigure(2, weight=1, minsize=100)
+        
+        tk.Label(list_header, text="素材类型", font=("Microsoft YaHei", 10, "bold"), anchor="w", bg="#eaeaea", padx=5).grid(row=0, column=0, sticky="w", pady=6)
+        tk.Label(list_header, text="已选素材", font=("Microsoft YaHei", 10, "bold"), anchor="w", bg="#eaeaea", padx=5).grid(row=0, column=1, sticky="w", pady=6)
+        tk.Label(list_header, text="操作", font=("Microsoft YaHei", 10, "bold"), anchor="center", bg="#eaeaea").grid(row=0, column=2, sticky="we", pady=6)
+
+        # ---- 问题 1：为主界面内容列表区域包裹 Canvas 和 Scrollbar ----
+        scroll_wrapper = tk.Frame(self)
+        scroll_wrapper.pack(fill="both", expand=True, padx=10, pady=2)
+
+        self.main_canvas = tk.Canvas(scroll_wrapper, highlightthickness=0)
+        self.main_canvas.pack(side="left", fill="both", expand=True)
+
+        main_scrollbar = ttk.Scrollbar(scroll_wrapper, orient="vertical", command=self.main_canvas.yview)
+        main_scrollbar.pack(side="right", fill="y")
+        self.main_canvas.configure(yscrollcommand=main_scrollbar.set)
+
+        # 数据行主容器绑定到 Canvas Window 上
+        self.table_body = tk.Frame(self.main_canvas)
+        self.canvas_window_id = self.main_canvas.create_window((0, 0), window=self.table_body, anchor="nw")
+
+        # 动态绑定滚动区域尺寸和自适应宽度
+        self.table_body.bind("<Configure>", lambda e: self.main_canvas.configure(scrollregion=self.main_canvas.bbox("all")))
+        self.main_canvas.bind("<Configure>", lambda e: self.main_canvas.itemconfigure(self.canvas_window_id, width=e.width))
+
+        # 主界面鼠标滚轮绑定支持
+        def _on_main_mousewheel(event):
+            delta = int(event.delta / 120)
+            self.main_canvas.yview_scroll(-delta, "units")
+
+        self.main_canvas.bind("<Enter>", lambda e: self.main_canvas.bind_all("<MouseWheel>", _on_main_mousewheel))
+        self.main_canvas.bind("<Leave>", lambda e: self.main_canvas.unbind_all("<MouseWheel>"))
+
+        self.refresh_main_list()
+
+    def refresh_main_list(self):
+        """刷新主界面列表：读取并渲染各个 type 状态"""
+        for child in self.table_body.winfo_children():
+            child.destroy()
+
+        self.table_body.grid_columnconfigure(0, weight=2, minsize=150)
+        self.table_body.grid_columnconfigure(1, weight=3, minsize=200)
+        self.table_body.grid_columnconfigure(2, weight=1, minsize=100)
+
+        for idx, type_info in enumerate(self._types):
+            type_id = type_info.get("type")       
+            type_zh = type_info.get("zhCN")       
+            
+            current_asset_id = jcy_config.ASSET_CONFIG.get(type_id, 0)
+            
+            asset_name = ""
+            if current_asset_id != 0:
+                matched_asset = ASSET_DICT.get(current_asset_id)
+                asset_name = matched_asset.get("name", "未知素材包") if matched_asset else "未知素材包"
+
+            row_bg = "#fcfcfc" if idx % 2 == 0 else "#f4f4f4"
+            grid_row_idx = idx * 2
+            
+            row_frame = tk.Frame(self.table_body, bg=row_bg)
+            row_frame.grid(row=grid_row_idx, column=0, columnspan=3, sticky="nwes")
+            row_frame.grid_columnconfigure(0, weight=2, minsize=150)
+            row_frame.grid_columnconfigure(1, weight=3, minsize=200)
+            row_frame.grid_columnconfigure(2, weight=1, minsize=100)
+
+            # 1. 素材类型
+            lbl_type = tk.Label(row_frame, text=type_zh, anchor="w", bg=row_bg, padx=5)
+            lbl_type.grid(row=0, column=0, sticky="w", pady=6)
+
+            # 2. 已选素材
+            lbl_asset = tk.Label(row_frame, text=asset_name, anchor="w", bg=row_bg, padx=5, fg="#333333" if asset_name else "#999999")
+            lbl_asset.grid(row=0, column=1, sticky="w", pady=6)
+
+            # 3. 选择按钮
+            btn_select = tk.Button(
+                row_frame, 
+                text="选择素材", 
+                command=lambda t=type_id: self._open_selection_dialog(t)
+            )
+            btn_select.grid(row=0, column=2, pady=4, padx=10, sticky="e")
+
+            # 分割线
+            sep = ttk.Separator(self.table_body, orient="horizontal")
+            sep.grid(row=grid_row_idx + 1, column=0, columnspan=3, sticky="ew", pady=0)
+
+    def _open_selection_dialog(self, target_type):
+        # 传递 self 作为 main_ui 参数以便弹窗执行操作时实时回写刷新
+        AssetSelectionDialog(
+            master=self.master,
+            target_type=target_type,
+            controller=self.controller,
+            asset_dir_var=self.asset_dir,
+            main_ui=self
+        )
+
+    def _choose_dir(self):
+        path = filedialog.askdirectory(title="选择素材存放目录")
+        if path:
+            self.asset_dir.set(path)
+            jcy_config.SETTINGS[ASSET_PATH] = path
+            self.controller.feature_state_manager.save_settings(jcy_config.SETTINGS)
+            self.controller.file_operations.scan_asset_package()
+            self.refresh_main_list()
+
+
+class AssetSelectionDialog(tk.Toplevel):
+    """素材选择弹窗：根据传入的特定 type 显示可供下载和应用的素材块"""
+    def __init__(self, master, target_type, controller, asset_dir_var, main_ui):
+        super().__init__(master)
+        self.title("选择素材")
+        self.minsize(500, 400)
+        
+        self.controller = controller
+        self.target_type = target_type       
+        self.asset_dir = asset_dir_var       
+        self.main_ui = main_ui               
+        
+        self._external_assets = ASSETS
+        self._types = ASSET_TYPE
+        self.asset_blocks = []
+        
+        self.type_zh = "未知类型"
+        for t in self._types:
+            if t.get("type") == self.target_type:
+                self.type_zh = t.get("zhCN")
+                break
+
+        self.update_idletasks()  
+        try:
+            master_x = master.winfo_toplevel().winfo_x()
+            master_y = master.winfo_toplevel().winfo_y()
+            dialog_x = master_x + 40
+            dialog_y = master_y + 40
+            self.geometry(f"650x600+{dialog_x}+{dialog_y}")
+        except Exception:
+            self.geometry("650x600")
+
+        self._build_ui()
+        self.transient(master)
+        self.grab_set()
+        self.refresh_status(update_layout=True)
+
+    def _build_ui(self):
+        filter_frame = tk.Frame(self)
+        filter_frame.pack(fill="x", pady=8, padx=10)
+        
+        tk.Label(filter_frame, text="素材类型：", font=("Microsoft YaHei", 10, "bold")).pack(side="left", padx=(4, 2))
+        tk.Label(filter_frame, text=self.type_zh, font=("Microsoft YaHei", 10), fg="#333333").pack(side="left", padx=4)
+
+        self.type_count_label = tk.Label(filter_frame, text="数量：0", fg="#666666")
+        self.type_count_label.pack(side="left", padx=20)
+
+        ttk.Separator(self, orient="horizontal").pack(fill="x", pady=4)
+
+        wrapper = tk.Frame(self)
+        wrapper.pack(fill="both", expand=True, padx=4, pady=4)
+
+        self.canvas = tk.Canvas(wrapper, highlightthickness=0)
+        self.canvas.pack(side="left", fill="both", expand=True)
+
+        scrollbar = ttk.Scrollbar(wrapper, orient="vertical", command=self.canvas.yview)
+        scrollbar.pack(side="right", fill="y")
+        self.canvas.configure(yscrollcommand=scrollbar.set)
+
+        self._tbl = tk.Frame(self.canvas)
+        self._canvas_window = self.canvas.create_window((0, 0), window=self._tbl, anchor="nw")
+
+        self._tbl.bind("<Configure>", lambda e: self.canvas.configure(scrollregion=self.canvas.bbox("all")))
+        self.canvas.bind("<Configure>", lambda e: self.canvas.itemconfigure(self._canvas_window, width=e.width))
+        self._tbl.grid_columnconfigure(0, weight=1)
+
+        def _on_mousewheel(event):
+            delta = int(event.delta / 120)
+            self.canvas.yview_scroll(-delta, "units")
+
+        self.canvas.bind("<Enter>", lambda e: self.canvas.bind_all("<MouseWheel>", _on_mousewheel))
+        self.canvas.bind("<Leave>", lambda e: self.canvas.unbind_all("<MouseWheel>"))
+
+        self._render_asset_blocks()
+
+    def _render_asset_blocks(self):
+        for child in self._tbl.winfo_children():
+            child.destroy()
+        self.asset_blocks.clear()
+
+        for i, asset in enumerate(self._external_assets):
+            frame = self._create_asset_block(asset)
+            frame.grid(row=i, column=0, padx=8, pady=6, sticky="nwes")
+            self.asset_blocks.append((asset, frame))
+
+    def _create_asset_block(self, asset):
+        """核心修改点：将描述、容量、出处和作者全部独立拆分为单行 Label 渲染"""
+        title = asset.get('name') or '<unnamed>'
+        frame = tk.LabelFrame(self._tbl, text=f"  {title}  ", padx=10, pady=6)
+
+        # 1. 描述独立一行
+        tk.Label(frame, text=f"描述：{asset.get('description','')}", anchor='w', justify='left').pack(fill='x', pady=1)
+        
+        # 2. 容量独立一行
+        size_text = human_size(asset.get('size', 0)) if asset.get('size') else '未知'
+        tk.Label(frame, text=f"容量：{size_text}", anchor='w').pack(fill='x', pady=1)
+        
+        # 3. 出处独立一行
+        tk.Label(frame, text=f"出处：{asset.get('source','未知')}", anchor='w').pack(fill='x', pady=1)
+
+        # 4. 作者独立一行
+        tk.Label(frame, text=f"作者：{asset.get('author','未知')}", anchor='w').pack(fill='x', pady=1)
+
+        # 进度条
+        pb = ttk.Progressbar(frame, orient="horizontal", mode="determinate")
+        pb.pack(fill='x', pady=(6, 6))
+        frame.progress = pb
+
+        # 按钮区域
+        btn_frame = tk.Frame(frame)
+        btn_frame.pack(fill='x')
+
+        b_preview = tk.Button(btn_frame, text="预览", command=lambda url=asset.get('image'): self._preview(url))
+        b_download = tk.Button(btn_frame, text="下载", command=lambda a=asset, p=pb: self._download_asset_thread(a, p))
+        b_apply = tk.Button(btn_frame, text="应用", command=lambda a=asset: self._apply_asset(a))
+        b_remove = tk.Button(btn_frame, text="移除", command=lambda a=asset: self._remove_asset(a))
+        b_delete = tk.Button(btn_frame, text="删除", command=lambda a=asset: self._delete_asset(a))
+
+        for b in (b_preview, b_download, b_apply, b_remove, b_delete):
+            b.pack(side='left', padx=4, ipadx=4)
+
+        frame.buttons = {'preview': b_preview, 'download': b_download, 'apply': b_apply, 'remove': b_remove, 'delete': b_delete}
+        return frame
+
+    def refresh_status(self, update_layout=True):
+        applied_assets = {
+            v for v in jcy_config.ASSET_CONFIG.values()
+            if isinstance(v, int) and v > 0
+        }
+        row = 0
+
+        if update_layout:
+            count = sum(1 for a in self._external_assets if a.get("type") == self.target_type)
+            self.type_count_label.config(text=f"数量：{count}")
+
+        for asset, frame in self.asset_blocks:
+            try:
+                asset_id = asset["id"]
+                if update_layout:
+                    if asset.get('type') != self.target_type:
+                        frame.grid_forget()
+                    else:
+                        frame.grid(row=row, column=0, padx=8, pady=6, sticky='nwes')
+                        row += 1
+
+                asset_applied = asset_id in applied_assets
+                asset_package_exist = jcy_config.ASSET_PACKAGE.get(asset_id, False)
+
+                frame.buttons['apply'].config(state=tk.NORMAL if asset_package_exist else tk.DISABLED)
+                frame.buttons['remove'].config(state=tk.NORMAL if asset_applied else tk.DISABLED)
+                frame.buttons['delete'].config(state=tk.NORMAL if asset_package_exist else tk.DISABLED)
+            except Exception as e:
+                print(f"dialog refresh error: {e}")
+
+        self.update_idletasks()
+        bbox = self.canvas.bbox("all")
+        if bbox:
+            self.canvas.configure(scrollregion=bbox)
+        if update_layout:
+            self.canvas.yview_moveto(0)
+
+    def _download_asset_thread(self, asset, progress):
+        threading.Thread(target=self._download_asset, args=(asset, progress), daemon=True).start()
+
+    def _download_asset(self, asset, progress):
+        asset_dir = self.asset_dir.get().strip()
+        if not asset_dir:
+            self.after(0, lambda: messagebox.showerror('错误', '请先选择素材目录！'))
+            return
+        os.makedirs(asset_dir, exist_ok=True)
+        zip_path = os.path.join(asset_dir, asset.get('file', ''))
+        try:
+            self.after(0, lambda: progress.config(value=0))
+            resp = requests.get(asset.get('url'), stream=True, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            resp.raise_for_status()
+            total = int(resp.headers.get('content-length', 0))
+            downloaded = 0
+            last_percent = -1
+            with open(zip_path, 'wb') as f:
+                for chunk in resp.iter_content(8192):
+                    if chunk:
+                        f.write(chunk)
+                        downloaded += len(chunk)
+                        new_percent = int(downloaded / total * 100) if total else 0
+                        if new_percent != last_percent:
+                            last_percent = new_percent
+                            progress.after(0, lambda v=new_percent: progress.config(value=v))
+            if not check_file_md5(zip_path, asset.get('md5', '')):
+                try: os.remove(zip_path)
+                except: pass
+                raise Exception('MD5 校验失败')
+            jcy_config.ASSET_PACKAGE[asset["id"]] = True
+        except Exception as exc:
+            self.after(0, lambda e=exc: messagebox.showerror('下载失败', str(e)))
+        finally:
+            progress.after(0, lambda: progress.config(value=0))
+            self.after(0, lambda: (self.refresh_status(update_layout=False), self.main_ui.refresh_main_list()))
+
+    def _preview(self, url):
+        if not url: return messagebox.showerror('错误', '没有预览链接。')
+        import webbrowser
+        webbrowser.open(url)
+
+    def _apply_asset(self, asset):
+        try:
+            asset_type = asset.get("type")
+            old_asset_id = jcy_config.ASSET_CONFIG.get(asset_type)
+            if old_asset_id and old_asset_id != 0:
+                old_asset = ASSET_DICT.get(old_asset_id)
+                if old_asset:
+                    self.controller.file_operations.remove_asset(old_asset)
+            result = self.controller.file_operations.apply_asset(asset)
+            if result.get("ok"): messagebox.showinfo("完成", result.get("message"))
+            else: messagebox.showerror("错误", result.get("message"))
+        except Exception as e: messagebox.showerror("错误", f"应用失败：{e}")
+        finally: 
+            self.refresh_status(update_layout=False)
+            self.main_ui.refresh_main_list()
+
+    def _remove_asset(self, asset):
+        try:
+            result = self.controller.file_operations.remove_asset(asset)
+            if result.get("ok"): messagebox.showinfo("完成", result.get("message"))
+            else: messagebox.showerror("错误", result.get("message"))
+        except Exception as e: messagebox.showerror("错误", f"移除失败：{e}")
+        finally: 
+            self.refresh_status(update_layout=False)
+            self.main_ui.refresh_main_list()
+
+    def _delete_asset(self, asset):
+        zip_path = os.path.join(self.asset_dir.get().strip(), asset.get('file',''))
+        if os.path.exists(zip_path) and messagebox.askyesno('确认', f"确定要删除 {asset.get('file')} 吗？"):
+            try:
+                os.remove(zip_path)
+                jcy_config.ASSET_PACKAGE[asset["id"]] = False
+                messagebox.showinfo('完成', '素材包已删除。')
+            except Exception as e: messagebox.showerror('错误', f'删除失败：{e}')
+        self.refresh_status(update_layout=False)
+        self.main_ui.refresh_main_list()

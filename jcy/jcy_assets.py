@@ -23,6 +23,31 @@ ASSET_CATEGORIES = [
     { "category": Assets.WAR.value, "zhCN": "术士皮肤"},
 ]
 
+ASSET_TYPE = [
+    { "type": Assets.GAME_MODEL.value,    "zhCN": "游戏模型" },
+    { "type": Assets.HUD_SKIN.value, "zhCN": "HUD面板皮肤"},
+    { "type": Assets.MINIHUD_SKIN.value, "zhCN": "MiniHUD面板皮肤"},
+    { "type": Assets.RUNE_SKIN.value,     "zhCN": "符文皮肤" },
+    { "type": Assets.SKILL_SKIN.value,    "zhCN": "技能皮肤" },
+    { "type": Assets.SKILL_LOGO.value,    "zhCN": "技能LOGO" },
+    { "type": Assets.FONT_TYPE.value,     "zhCN": "字体文件" },
+    { "type": Assets.ACT1_HIRE.value,     "zhCN": "A1佣兵皮肤" },
+    { "type": Assets.ACT2_HIRE.value,     "zhCN": "A2佣兵皮肤" },
+    { "type": Assets.ACT5_HIRE.value,     "zhCN": "A5佣兵皮肤" },
+    { "type": Assets.AMA.value, "zhCN": "亚马逊皮肤"},
+    { "type": Assets.SOR.value, "zhCN": "法师皮肤"},
+    { "type": Assets.NEC.value, "zhCN": "死灵皮肤"},
+    { "type": Assets.BAR.value, "zhCN": "野蛮人皮肤"},
+    { "type": Assets.DRU.value, "zhCN": "德鲁伊皮肤"},
+    { "type": Assets.ASN.value, "zhCN": "刺客皮肤"},
+    { "type": Assets.WAR.value, "zhCN": "术士皮肤"},
+    { "type": Assets.TOA.value, "zhCN": "赦免勋章皮肤"},
+    { "type": Assets.MK.value, "zhCN": "火炬钥匙皮肤"},
+    { "type": Assets.BANK.value, "zhCN": "储物箱皮肤"},
+    { "type": Assets.CJW.value, "zhCN": "巨型先祖珠宝皮肤"},
+    { "type": Assets.AUTOMAP.value, "zhCN": "自动地图皮肤"},
+]
+
 # 素材列表
 ASSETS = [
     # 游戏模型(0, 100)
@@ -4601,6 +4626,7 @@ ASSET_DICT = {asset["id"]: asset for asset in ASSETS}
 
 __all__ = [
     'ASSET_CATEGORIES',
+    'ASSET_TYPE',
     'ASSETS',
     'ASSET_DICT',
 ]
