@@ -2680,6 +2680,61 @@ ASSETS = [
             "data/hd/global/ui/items/misc/body_part/fragment_poison.sprite",
         ]
     },
+    {
+        "id": 910,
+        "name": "火炬钥匙皮肤4",
+        "category": Assets.OTHERS.value,
+        "type": Assets.MK.value,
+        "author": "워갓",
+        "description": "红黄绿眼睛造型皮肤",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7731",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.5.6/910.zip",
+        "file": "910.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/910.png",
+        "size": 97130,
+        "md5": "FE644C773B9ED94275C5A284E603E18E",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
+            },
+        ],
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+                        "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+                    ]
+                }
+            },
+        ],
+        "list": [
+            "data/hd/global/ui/items/misc/key/mephisto_key1.lowend.sprite",
+            "data/hd/global/ui/items/misc/key/mephisto_key1.sprite",
+            "data/hd/global/ui/items/misc/key/mephisto_key2.lowend.sprite",
+            "data/hd/global/ui/items/misc/key/mephisto_key2.sprite",
+            "data/hd/global/ui/items/misc/key/mephisto_key3.lowend.sprite",
+            "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
+        ]
+    },
     # 亚马逊(1000, 1100)
     {
         "id": 1001,
