@@ -444,6 +444,7 @@ class FileOperations:
             r"data/hd/overlays/sorceress/shiverarmor.json",
             r"data/hd/overlays/sorceress/thunderstormback.json",
             r"data/hd/overlays/warlock/eldritchblastperiodic.json",
+            r"data/hd/overlays/warlock/engorgestate.json",
             r"data/hd/overlays/warlock/hex_bane.json",
             r"data/hd/overlays/warlock/hex_purge.json",
             r"data/hd/overlays/warlock/hex_siphon.json",
