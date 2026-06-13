@@ -2391,7 +2391,13 @@ class FileOperations:
                 "2": PF_BEACON_QUEST,
                 "3": ROOMTILES_ARROW_LIGHT1,
                 "4": ROOMTILES_ARROW_LIGHT2,
-            },            
+            }, 
+            "data/hd/character/enemy/diabloclone.json": {
+                "0": [],
+                "2": PF_BEACON_QUEST,
+                "3": ROOMTILES_ARROW_LIGHT1,
+                "4": ROOMTILES_ARROW_LIGHT2,
+            },          
         }
 
         # # 指引映射
