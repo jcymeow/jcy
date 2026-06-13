@@ -2173,15 +2173,20 @@ class FileOperations:
             "6": [],
             # A5世界之石要塞路桥
             "7": [
-                r"data/hd/env/preset/expansion/baallair/baaledown01.json"
-                r"data/hd/env/preset/expansion/baallair/baaledown02.json"
-                r"data/hd/env/preset/expansion/baallair/baalndown01.json"
-                r"data/hd/env/preset/expansion/baallair/baalndown02.json"
-                r"data/hd/env/preset/expansion/baallair/baalsdown01.json"
-                r"data/hd/env/preset/expansion/baallair/baalsdown02.json"
-                r"data/hd/env/preset/expansion/baallair/baalwdown01.json"
-                r"data/hd/env/preset/expansion/baallair/baalwdown02.json"
+                r"data/hd/env/preset/expansion/baallair/baaledown01.json",
+                r"data/hd/env/preset/expansion/baallair/baaledown02.json",
+                r"data/hd/env/preset/expansion/baallair/baalndown01.json",
+                r"data/hd/env/preset/expansion/baallair/baalndown02.json",
+                r"data/hd/env/preset/expansion/baallair/baalsdown01.json",
+                r"data/hd/env/preset/expansion/baallair/baalsdown02.json",
+                r"data/hd/env/preset/expansion/baallair/baalwdown01.json",
+                r"data/hd/env/preset/expansion/baallair/baalwdown02.json",
             ],
+            # A4地狱熔炉
+            "8": [
+                r"data/hd/env/preset/act4/lava/forgee.json",
+                r"data/hd/env/preset/act4/lava/forgew.json",
+            ]
         }
 
         funcs = []
