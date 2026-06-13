@@ -1868,10 +1868,14 @@ class AssetManagerUI(tk.Frame):
             
             current_asset_id = jcy_config.ASSET_CONFIG.get(type_id, 0)
             
-            asset_name = ""
+            full_name = ""
             if current_asset_id != 0:
                 matched_asset = ASSET_DICT.get(current_asset_id)
-                asset_name = matched_asset.get("name", "未知素材包") if matched_asset else "未知素材包"
+                if matched_asset:
+                    asset_name = matched_asset.get("name", "未知素材包")
+                    full_name = f"{current_asset_id}. {asset_name}"
+                else:
+                    full_name = f"{current_asset_id}. 未知素材包"
 
             row_bg = "#fcfcfc" if idx % 2 == 0 else "#f4f4f4"
             grid_row_idx = idx * 2
@@ -1887,7 +1891,7 @@ class AssetManagerUI(tk.Frame):
             lbl_type.grid(row=0, column=0, sticky="w", pady=6)
 
             # 2. 已选素材
-            lbl_asset = tk.Label(row_frame, text=asset_name, anchor="w", bg=row_bg, padx=5, fg="#333333" if asset_name else "#999999")
+            lbl_asset = tk.Label(row_frame, text=full_name, anchor="w", bg=row_bg, padx=5, fg="#333333" if full_name else "#999999")
             lbl_asset.grid(row=0, column=1, sticky="w", pady=6)
 
             # 3. 选择按钮
@@ -2009,7 +2013,7 @@ class AssetSelectionDialog(tk.Toplevel):
 
     def _create_asset_block(self, asset):
         """核心修改点：将描述、容量、出处和作者全部独立拆分为单行 Label 渲染"""
-        title = asset.get('name') or '<unnamed>'
+        title = f"{asset.get('id')}. {asset.get('name') or '<unnamed>'}"
         frame = tk.LabelFrame(self._tbl, text=f"  {title}  ", padx=10, pady=6)
 
         # 1. 描述独立一行
