@@ -181,156 +181,211 @@ class FeatureView:
         tab = ttk.Frame(self.notebook)
         self.add_tab(tab, config.get("text"))
 
-        total_columns = 100  # 每行总列数
-        current_row = 0
-        current_col = 0
+        if "开关设置" == config.get("text"):
+            current_row = 0
+            # --- 开关设置 ---
+            # 2. 创建一个 Canvas（画布），用来实现滚动效果
+            # borderwidth=0 和 highlightthickness=0 可以去掉 Canvas 默认的丑边框，和背景完美融合
+            canvas = tk.Canvas(tab, borderwidth=0, highlightthickness=0)
 
-        for child in config.get("children", []):
-            fid = child.get("fid")
-            type = child.get("type")
-            colspan = child.get("colspan", total_columns)  # 默认占满整行
-            
-            if RADIO == type:
-                feature = LabeledRadioGroup(
-                    tab,
+            # 3. 创建滚动条，并与 Canvas 的 Y 轴滚动绑定
+            scrollbar = ttk.Scrollbar(tab, orient="vertical", command=canvas.yview)
+            canvas.configure(yscrollcommand=scrollbar.set)
+
+            # 4. 创建真正用来放你那些 Switch 和 Radio 控件的【内部容器 Frame】
+            # 注意：它的 master 是 canvas！
+            content_frame = ttk.Frame(canvas)
+
+            # 5. 把 content_frame 塞进 Canvas 的窗口里
+            canvas_window = canvas.create_window((0, 0), window=content_frame, anchor="nw")
+
+            # 6. 核心自动化绑定：当内部控件变多、Frame 大小改变时，自动更新 Canvas 的滚动范围
+            def on_frame_configure(event):
+                canvas.configure(scrollregion=canvas.bbox("all"))
+
+            content_frame.bind("<Configure>", on_frame_configure)
+            content_frame.columnconfigure(0, weight=1)
+
+            # 7. 核心拉伸绑定：当外部窗口拉大时，让内部容器的宽度也跟着变宽（充满屏幕）
+            def on_canvas_configure(event):
+                canvas.itemconfig(canvas_window, width=event.width)
+
+            canvas.bind("<Configure>", on_canvas_configure)
+
+            # 8. 布局：Canvas 占满左边，Scrollbar 靠在右边
+            canvas.pack(side="left", fill="both", expand=True)
+            scrollbar.pack(side="right", fill="y")
+
+            # 9. 附加福利：绑定鼠标滚轮，让页面支持鼠标中键滚动
+            def _on_mousewheel(event):
+                # Windows 下 event.delta 通常是 120 或 -120
+                canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+            # 当鼠标进入 canvas 区域时绑定滚轮，离开时解绑，防止影响其他页面
+            canvas.bind("<Enter>", lambda e: canvas.bind_all("<MouseWheel>", _on_mousewheel))
+            canvas.bind("<Leave>", lambda e: canvas.bind_all("<MouseWheel>", lambda opt: None))
+
+            for child in config.get("children", []):
+                fid = child.get("fid")
+                feature = FlatSwitchRow(
+                    master=content_frame,
                     feature_id=fid,
                     data=child
                 )
-                # 如果当前行剩余列不足，换行
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
-                # 放置控件
-                feature.grid(row=current_row, column=current_col, columnspan=colspan,
-                        sticky="nsew", padx=10, pady=5)
-                # 更新当前列索引
-                current_col += colspan
-                # 保存引用
-                self.feature_vars[fid] = feature
-            
-            elif CHECK == type:
-                feature = LabeledCheckGroup(
-                    tab,
-                    feature_id=fid,
-                    data=child
-                )
-                # 如果当前行剩余列不足，换行
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
-                # 控件
-                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
-                           sticky="ew", padx=10, pady=5)
-                # 更新当前列索引
-                current_col += colspan
-                self.feature_vars[fid] = feature
-
-            elif SPIN == type:
-                text = child.get("text")
-                _form = child.get("params").get("form")
-                _to = child.get("params").get("to")
-                feature = LabeledSpinBox(
-                    master=tab,
-                    feature_id=fid,
-                    text=text,    
-                    from_=_form, to=_to, increment=1,
-                    default_value=0
-                )
-                # 如果当前行剩余列不足，换行
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
-
-                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
-                             sticky="ew", padx=20, pady=5)
-                # 更新当前列索引
-                current_col += colspan
+                current_row += 1
+                feature.grid(row=current_row, column=0, columnspan=1, sticky="ew", padx=20, pady=5)
                 self.feature_vars[fid] = feature  # 如果你要后面取值
 
-            elif TEXT == type:
-                text = child.get("text")
-                feature = LabeledEntry(
-                    master=tab,
-                    feature_id=fid,
-                    text=text,    
-                    default_value="0"
-                )
-                # 如果当前行剩余列不足，换行
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
+        else:
+            total_columns = 100  # 每行总列数
+            current_row = 0
+            current_col = 0
+            for child in config.get("children", []):
+                fid = child.get("fid")
+                type = child.get("type")
+                colspan = child.get("colspan", total_columns)  # 默认占满整行
+                
+                if RADIO == type:
+                    feature = LabeledRadioGroup(
+                        tab,
+                        feature_id=fid,
+                        data=child
+                    )
+                    # 如果当前行剩余列不足，换行
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
+                    # 放置控件
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan,
+                            sticky="nsew", padx=10, pady=5)
+                    # 更新当前列索引
+                    current_col += colspan
+                    # 保存引用
+                    self.feature_vars[fid] = feature
+                
+                elif CHECK == type:
+                    feature = LabeledCheckGroup(
+                        tab,
+                        feature_id=fid,
+                        data=child
+                    )
+                    # 如果当前行剩余列不足，换行
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
+                    # 控件
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                            sticky="ew", padx=10, pady=5)
+                    # 更新当前列索引
+                    current_col += colspan
+                    self.feature_vars[fid] = feature
 
-                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
-                             sticky="ew", padx=20, pady=5)
-                # 更新当前列索引
-                current_col += colspan
-                self.feature_vars[fid] = feature  # 如果你要后面取值
+                elif SPIN == type:
+                    text = child.get("text")
+                    _form = child.get("params").get("form")
+                    _to = child.get("params").get("to")
+                    feature = LabeledSpinBox(
+                        master=tab,
+                        feature_id=fid,
+                        text=text,    
+                        from_=_form, to=_to, increment=1,
+                        default_value=0
+                    )
+                    # 如果当前行剩余列不足，换行
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
 
-            elif ARRAY == type:
-                feature = LabeledIntArray(
-                    master=tab,
-                    feature_id=fid,
-                    text=child.get("text"),
-                    length=child.get("length"),
-                    labels=child.get("labels"),
-                    default_values=child.get("values"),
-                    min_value=child.get("min"),
-                    max_value=child.get("max")
-                )
-                # 如果当前行剩余列不足，换行
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                                sticky="ew", padx=20, pady=5)
+                    # 更新当前列索引
+                    current_col += colspan
+                    self.feature_vars[fid] = feature  # 如果你要后面取值
 
-                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
-                             sticky="ew", padx=20, pady=5)
-                # 更新当前列索引
-                current_col += colspan
-                self.feature_vars[fid] = feature  # 如果你要后面取值
+                elif TEXT == type:
+                    text = child.get("text")
+                    feature = LabeledEntry(
+                        master=tab,
+                        feature_id=fid,
+                        text=text,    
+                        default_value="0"
+                    )
+                    # 如果当前行剩余列不足，换行
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
 
-            elif SELECT == type:
-                feature = LabeledSelect(
-                    master=tab,
-                    feature_id=fid,
-                    data=child
-                )
-                # 如果当前行剩余列不足，换行
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                                sticky="ew", padx=20, pady=5)
+                    # 更新当前列索引
+                    current_col += colspan
+                    self.feature_vars[fid] = feature  # 如果你要后面取值
 
-                feature.grid(row=current_row, column=current_col, columnspan=colspan, 
-                             sticky="ew", padx=20, pady=5)
-                # 更新当前列索引
-                current_col += colspan
-                self.feature_vars[fid] = feature  # 如果你要后面取值
+                elif ARRAY == type:
+                    feature = LabeledIntArray(
+                        master=tab,
+                        feature_id=fid,
+                        text=child.get("text"),
+                        length=child.get("length"),
+                        labels=child.get("labels"),
+                        default_values=child.get("values"),
+                        min_value=child.get("min"),
+                        max_value=child.get("max")
+                    )
+                    # 如果当前行剩余列不足，换行
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
 
-            elif LOCATION == child["type"]:
-                feature = LabeledCoordinate(
-                    tab,
-                    feature_id=fid,
-                    data=child
-                )
-                # 自动换行逻辑
-                if current_col + colspan > total_columns:
-                    current_row += 1
-                    current_col = 0
-                feature.grid(row=current_row, column=current_col, columnspan=colspan,
-                        sticky="ew", padx=10, pady=5)
-                current_col += colspan
-                self.feature_vars[fid] = feature
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                                sticky="ew", padx=20, pady=5)
+                    # 更新当前列索引
+                    current_col += colspan
+                    self.feature_vars[fid] = feature  # 如果你要后面取值
 
-            elif SEPARATOR == type:
-                current_row += 1  
-                sep = ttk.Separator(tab, orient='horizontal')
-                sep.grid(row=current_row, column=0, columnspan=total_columns,
-                        sticky="ew", pady=10)
-                current_row += 1  
-                current_col = 0   # 回到第一列
+                elif SELECT == type:
+                    feature = LabeledSelect(
+                        master=tab,
+                        feature_id=fid,
+                        data=child
+                    )
+                    # 如果当前行剩余列不足，换行
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
 
-        # 均分每列权重，让控件按比例拉伸
-        for i in range(total_columns):
-            tab.grid_columnconfigure(i, weight=1)
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan, 
+                                sticky="ew", padx=20, pady=5)
+                    # 更新当前列索引
+                    current_col += colspan
+                    self.feature_vars[fid] = feature  # 如果你要后面取值
+
+                elif LOCATION == child["type"]:
+                    feature = LabeledCoordinate(
+                        tab,
+                        feature_id=fid,
+                        data=child
+                    )
+                    # 自动换行逻辑
+                    if current_col + colspan > total_columns:
+                        current_row += 1
+                        current_col = 0
+                    feature.grid(row=current_row, column=current_col, columnspan=colspan,
+                            sticky="ew", padx=10, pady=5)
+                    current_col += colspan
+                    self.feature_vars[fid] = feature
+
+                elif SEPARATOR == type:
+                    current_row += 1  
+                    sep = ttk.Separator(tab, orient='horizontal')
+                    sep.grid(row=current_row, column=0, columnspan=total_columns,
+                            sticky="ew", pady=10)
+                    current_row += 1  
+                    current_col = 0   # 回到第一列
+
+            # 均分每列权重，让控件按比例拉伸
+            for i in range(total_columns):
+                tab.grid_columnconfigure(i, weight=1)
 
     def _create_tray_icon(self):
         """创建支持双击的系统托盘图标"""
@@ -2165,3 +2220,56 @@ class AssetSelectionDialog(tk.Toplevel):
             except Exception as e: messagebox.showerror('错误', f'删除失败：{e}')
         self.refresh_status(update_layout=False)
         self.main_ui.refresh_main_list()
+
+
+class FlatSwitchRow(ttk.Frame):
+    def __init__(self, master, feature_id, data, default_selected=SWITCH_OFF, **kwargs):
+        # 1. 继承基础 Frame，彻底去掉自带的边框和标题栏
+        super().__init__(master, **kwargs)
+        
+        self.feature_id = feature_id
+        self.var = tk.StringVar(value=str(default_selected))
+        
+        # 提取三段文字
+        cat_text = data.get("category", "")
+        target_text = data.get("target", "")
+        event_text = data.get("event", "")
+        
+        # 2. 渲染文字控件
+        # 可以稍微调整一下类别的颜色（比如置灰）或固定宽度，让列表看起来更像表格对齐
+        self.lbl_cat = ttk.Label(self, text=cat_text, width=8, anchor="w", foreground="gray")
+        self.lbl_target = ttk.Label(self, text=target_text, width=15, anchor="w")
+        # 事件文本不限宽，用来占据中间所有的长文本空间
+        self.lbl_event = ttk.Label(self, text=event_text, anchor="w")
+        
+        # 3. 渲染单选按钮
+        self.rb_on = ttk.Radiobutton(self, text="开启", value=SWITCH_ON, variable=self.var)
+        self.rb_off = ttk.Radiobutton(self, text="关闭", value=SWITCH_OFF, variable=self.var)
+        
+        # 4. 第一行：网格排布 (Row 0)
+        # pady=8 给出上下的呼吸空间
+        self.lbl_cat.grid(row=0, column=0, sticky="w", padx=(5, 10), pady=8)
+        self.lbl_target.grid(row=0, column=1, sticky="w", padx=(0, 10), pady=8)
+        self.lbl_event.grid(row=0, column=2, sticky="we", padx=(0, 10), pady=8)
+        self.rb_on.grid(row=0, column=3, sticky="e", padx=5, pady=8)
+        self.rb_off.grid(row=0, column=4, sticky="e", padx=(5, 10), pady=8)
+        
+        # 5. 核心：列权重分配
+        # 只有 column=2 (事件描述) 的 weight=1，这意味着它会像弹簧一样把右侧的按钮死死顶在界面的最右边
+        self.columnconfigure(0, weight=0)
+        self.columnconfigure(1, weight=0)
+        self.columnconfigure(2, weight=1) 
+        self.columnconfigure(3, weight=0)
+        self.columnconfigure(4, weight=0)
+        
+        # 6. 第二行：底部分隔线 (Row 1)
+        # columnspan=5 让它横跨上面所有的列，形成完美的下划分割线
+        self.sep = ttk.Separator(self, orient="horizontal")
+        self.sep.grid(row=1, column=0, columnspan=5, sticky="ew", pady=0)
+
+    # 保持统一的批量读取/写入接口，外部批量保存逻辑一行都不用改
+    def get(self):
+        return self.var.get()
+
+    def set(self, key):
+        self.var.set(str(key))

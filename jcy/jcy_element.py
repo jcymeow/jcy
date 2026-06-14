@@ -467,7 +467,7 @@ WAYPOINT_ARROW_LIGHT2 = [
 ENTITY_DROP_LIGHT = {
     "type": "Entity",
     "name": "jcy_entity_pointer",
-    "id": 9999999888,
+    "id": 7467890001,
     "components": [
         {
             "type": "TransformDefinitionComponent",
