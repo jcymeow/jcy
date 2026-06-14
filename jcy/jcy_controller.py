@@ -270,6 +270,12 @@ class FeatureController:
             Function.ITEM_NOTIFICATION.value: self.file_operations.modify_item_notification,
             # 藍裝染色
             Function.MAGIC_ITEM.value: self.file_operations.modify_magic_affixs,
+
+            # --- Switch区 ---
+            # 怪物.使者.增加等级标注
+            Function.MONSTER_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
+            # 对象.Act5邪龛.增加光照效果
+            Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value: self.file_operations.switch_ice_cave_evil_urn_light,
         }
 
 
@@ -404,9 +410,14 @@ class FeatureController:
                     changes_detected = True
                     if fid in self._handlers:
                         result = self._handlers[fid](current_value) 
-                        if "radio" == type:
+                        if RADIO == type:
                             selected_description = next((param_dict[current_value] for param_dict in child["params"] if current_value in param_dict), current_value)
                             self.dialogs += f"{text} = {selected_description} 操作文件数量 {result[0]}/{result[1]} {result[2] if len(result) > 2 else ''}\n"
+                        elif SWITCH == type:
+                            category = child.get("category")
+                            target = child.get("target")
+                            event = child.get("event")
+                            self.dialogs += f"{category}-{target}-{event} 操作文件数量 {result[0]}/{result[1]} {result[2] if len(result) > 2 else ''}\n"
                         else:
                             self.dialogs += f"{text} 操作文件数量 {result[0]}/{result[1]} {result[2] if len(result) > 2 else ''}\n"
 

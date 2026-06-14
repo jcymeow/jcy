@@ -932,6 +932,26 @@ class FeatureConfig:
                             }
                         },
                     ]
+                },
+                {
+                    "text": "开关设置",
+                    "children": [
+                        {
+                            "fid": Function.MONSTER_HERALD_ADD_LEVEL.value,
+                            "type": SWITCH,
+                            "category": "怪物",
+                            "target": "使者",
+                            "event": "增加等级标注"
+                        },
+                        {
+                            "fid": Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value,
+                            "type": SWITCH,
+                            "category": "对象",
+                            "target": "Act5邪龛",
+                            "event": "增加光照效果"
+                        },
+                        
+                    ]
                 }
             ],
             "checktable": {

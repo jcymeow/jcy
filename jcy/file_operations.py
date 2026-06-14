@@ -3795,6 +3795,90 @@ class FileOperations:
         return count, total
 
 
+    def switch_herald_level(self, value):
+        """怪物.使者.增加等级标注"""
+        count = 0
+        total = 2
+
+        try:
+            # 1.jcy\jcy.mpq\config\ext\ui.json
+            ext_data = None
+            ext_path = os.path.join(MOD_PATH, r"config/ext/ui.json")
+            with open(ext_path, "r", encoding="utf-8") as f:
+                ext_data = json.load(f)
+
+            for i in range(1, 6):
+                for lang in Language:
+                    # 1. 提取出干净的字符串（剔除掉可能存在的 Lv. 前缀）
+                    clean_name = ext_data[f"HeraldName{i}"][lang.value].replace(f"Lv.{i} ", "")
+                    
+                    # 2. 根据开关决定当前的前缀
+                    prefix = f"Lv.{i} " if str(value) == "1" else ""
+                    
+                    # 3. 重新拼接并赋值
+                    ext_data[f"HeraldName{i}"][lang.value] = prefix + clean_name
+                
+            
+            with open(ext_path, 'w', encoding="utf-8") as f:
+                json.dump(ext_data, f, ensure_ascii=False, indent=4)
+
+            count += 1
+
+            # 2.jcy\jcy.mpq\data\local\lng\strings\ui.json
+            lng_data = None
+            lng_path = os.path.join(MOD_PATH, r"data/local/lng/strings/ui.json")
+            with open(lng_path, "r", encoding="utf-8-sig") as f:
+                lng_data = json.load(f)
+
+            for dic in lng_data:
+                for i in range(1, 6):
+                    Key = f"HeraldName{i}"
+                    if dic.get("Key") == Key:
+                        for lang in (Language.ENUS, Language.ZHCN, Language.ZHTW):
+                            # 1. 提取出干净的字符串（剔除掉可能存在的 Lv. 前缀）
+                            clean_name = dic[lang.value].replace(f"Lv.{i} ", "")
+                            
+                            # 2. 根据开关决定当前的前缀
+                            prefix = f"Lv.{i} " if str(value) == "1" else ""
+                            
+                            # 3. 重新拼接并赋值
+                            dic[lang.value] = prefix + clean_name
+           
+            with open(lng_path, 'w', encoding="utf-8-sig") as f:
+                json.dump(lng_data, f, ensure_ascii=False, indent=2)
+
+            count += 1
+            
+        except Exception as e:
+            print(e)
+        return count, total
+
+
+    def switch_ice_cave_evil_urn_light(self, value):
+        """对象.Act5邪龛.增加光照效果"""
+        count = 0
+        total = 1
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/hd/objects/destructibles/ice_cave_evil_urn.json")
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+
+            # 移除所有 jcy_entity_pointer 元素
+            json_data["entities"] = [item for item in json_data["entities"] if item.get("name") != "jcy_entity_pointer"]
+
+            if value == SWITCH_ON:
+                json_data["entities"].append(ENTITY_DROP_LIGHT)
+            
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+            count += 1
+        except Exception as e:
+            print(e)
+        return count, total
+
+
     def save_win_config(self, data):
         """保存窗口配置"""
         with open(WIN_PATH, "w", encoding="utf-8") as f:

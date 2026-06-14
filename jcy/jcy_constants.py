@@ -48,6 +48,9 @@ REGION_NAME_MAP = {
 # Unicode私有区字符 for 屏蔽道具
 UE01A = "" * 41
 
+SWITCH_ON = "1"
+SWITCH_OFF = "0"
+
 # 本地化文档
 LOCAL_FILES = [
     "bnet.json",
@@ -117,6 +120,7 @@ ASSET_PATH = "AssetPath"
 # <!-- Controller Type
 RADIO = "RadioGroup"
 CHECK = "CheckGroup"
+SWITCH = "SwitchLine"
 SPIN = "SpinBox"
 TEXT = "Text"
 ARRAY = "Array"
@@ -1368,6 +1372,10 @@ class Function(Enum):
     ITEM_NAME_STAR = "ItemNameStar"
     ITEM_FILTER = "ItemFilter"
 
+    # Switch 
+    MONSTER_HERALD_ADD_LEVEL = "MonsterHeraldAddLevel"
+    OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT = "ObjectsIceCaveEvilUrnAddLight"
+
 
 class Language(Enum):
     ZHCN = "zhCN"
@@ -1442,6 +1450,7 @@ __all__ = [
     'ITEM_NOTIFICATIONS',
     'RADIO',
     'CHECK',
+    'SWITCH',
     'SPIN',
     'TEXT',
     'ARRAY',
@@ -1451,6 +1460,8 @@ __all__ = [
     'REGION_DOMAIN_MAP',
     'REGION_NAME_MAP',
     'UE01A',
+    'SWITCH_ON',
+    'SWITCH_OFF',
     'TERROR_ZONE_API',
     'ITEM_BASE',
     'ITEM_MISC',

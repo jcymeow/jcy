@@ -16094,56 +16094,56 @@
     "DiabloCloneMessageTierOne": {
         "Key": "DiabloCloneMessageTierOne",
         "enUS": "[1/6]Terror gazes upon Sanctuary.",
-        "zhCN": "恐惧盯上了庇护之地。",
+        "zhCN": "[1/6]恐惧盯上了庇护之地。",
         "zhTW": "[1/6]恐懼默默凝視聖休亞瑞。",
         "sgCN": "[1/6]恐惧盯上了庇护之地。",
         "sgTW": "[1/6]恐懼默默凝視聖休亞瑞。",
-        "bnCN": "恐惧盯上了庇护之地。"
+        "bnCN": "[1/6]恐惧盯上了庇护之地。"
     },
     "DiabloCloneMessageTierTwo": {
         "Key": "DiabloCloneMessageTierTwo",
         "enUS": "[2/6]Terror approaches Sanctuary.",
-        "zhCN": "恐惧正向庇护之地袭来。",
+        "zhCN": "[2/6]恐惧正向庇护之地袭来。",
         "zhTW": "[2/6]恐懼逐漸逼近聖休亞瑞。",
         "sgCN": "[2/6]恐惧正向庇护之地袭来。",
         "sgTW": "[2/6]恐懼逐漸逼近聖休亞瑞。",
-        "bnCN": "恐惧正向庇护之地袭来。"
+        "bnCN": "[2/6]恐惧正向庇护之地袭来。"
     },
     "DiabloCloneMessageTierThree": {
         "Key": "DiabloCloneMessageTierThree",
         "enUS": "[3/6]Terror begins to form within Sanctuary.",
-        "zhCN": "恐惧开始在庇护之地成形。",
+        "zhCN": "[3/6]恐惧开始在庇护之地成形。",
         "zhTW": "[3/6]恐懼開始滲入聖休亞瑞。",
         "sgCN": "[3/6]恐惧开始在庇护之地成形。",
         "sgTW": "[3/6]恐懼開始滲入聖休亞瑞。",
-        "bnCN": "恐惧开始在庇护之地成形。"
+        "bnCN": "[3/6]恐惧开始在庇护之地成形。"
     },
     "DiabloCloneMessageTierFour": {
         "Key": "DiabloCloneMessageTierFour",
         "enUS": "[4/6]Terror spreads across Sanctuary.",
-        "zhCN": "恐惧已遍布庇护之地。",
+        "zhCN": "[4/6]恐惧已遍布庇护之地。",
         "zhTW": "[4/6]恐懼蔓延整個聖休亞瑞。",
         "sgCN": "[4/6]恐惧已遍布庇护之地。",
         "sgTW": "[4/6]恐懼蔓延整個聖休亞瑞。",
-        "bnCN": "恐惧已遍布庇护之地。"
+        "bnCN": "[4/6]恐惧已遍布庇护之地。"
     },
     "DiabloCloneMessageTierFive": {
         "Key": "DiabloCloneMessageTierFive",
         "enUS": "[5/6]Terror is about to be unleashed upon Sanctuary.",
-        "zhCN": "恐惧即将被释放到庇护之地。",
+        "zhCN": "[5/6]恐惧即将被释放到庇护之地。",
         "zhTW": "[5/6]恐懼即將現身聖休亞瑞。",
         "sgCN": "[5/6]恐惧即将被释放到庇护之地。",
         "sgTW": "[5/6]恐懼即將現身聖休亞瑞。",
-        "bnCN": "恐惧即将被释放到庇护之地。"
+        "bnCN": "[5/6]恐惧即将被释放到庇护之地。"
     },
     "DiabloCloneSpawnMessage": {
         "Key": "DiabloCloneSpawnMessage",
         "enUS": "[6/6]Diablo has invaded Sanctuary!",
-        "zhCN": "迪亚波罗已侵入庇护之地！",
+        "zhCN": "[6/6]迪亚波罗已侵入庇护之地！",
         "zhTW": "[6/6]迪亞布羅入侵聖休亞瑞了！",
         "sgCN": "[6/6]迪亚波罗已侵入庇护之地！",
         "sgTW": "[6/6]迪亞布羅入侵聖休亞瑞了！",
-        "bnCN": "迪亚波罗已侵入庇护之地！"
+        "bnCN": "[6/6]迪亚波罗已侵入庇护之地！"
     },
     "ConfineCursor": {
         "Key": "ConfineCursor",
