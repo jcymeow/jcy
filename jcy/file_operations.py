@@ -3795,10 +3795,19 @@ class FileOperations:
         return count, total
 
 
-    def switch_herald_level(self, value):
-        """怪物.使者.增加等级标注"""
+    def switch_diablo_clone_progress(self, value):
+        """本地化.地表暗黑.增加进度标注"""
         count = 0
         total = 2
+
+        params = {
+            "DiabloCloneMessageTierOne": "[1/6]",
+            "DiabloCloneMessageTierTwo": "[2/6]",
+            "DiabloCloneMessageTierThree": "[3/6]",
+            "DiabloCloneMessageTierFour": "[4/6]",
+            "DiabloCloneMessageTierFive": "[5/6]",
+            "DiabloCloneSpawnMessage": "[6/6]",
+        } 
 
         try:
             # 1.jcy\jcy.mpq\config\ext\ui.json
@@ -3806,18 +3815,15 @@ class FileOperations:
             ext_path = os.path.join(MOD_PATH, r"config/ext/ui.json")
             with open(ext_path, "r", encoding="utf-8") as f:
                 ext_data = json.load(f)
-
-            for i in range(1, 6):
+            
+            for k, v in params.items():
                 for lang in Language:
-                    # 1. 提取出干净的字符串（剔除掉可能存在的 Lv. 前缀）
-                    clean_name = ext_data[f"HeraldName{i}"][lang.value].replace(f"Lv.{i} ", "")
-                    
+                    # 1. 提取出干净的字符串
+                    clean_name = ext_data[k][lang.value].replace(v, "")
                     # 2. 根据开关决定当前的前缀
-                    prefix = f"Lv.{i} " if str(value) == "1" else ""
-                    
+                    prefix = v if str(value) == "1" else ""
                     # 3. 重新拼接并赋值
-                    ext_data[f"HeraldName{i}"][lang.value] = prefix + clean_name
-                
+                    ext_data[k][lang.value] = prefix + clean_name
             
             with open(ext_path, 'w', encoding="utf-8") as f:
                 json.dump(ext_data, f, ensure_ascii=False, indent=4)
@@ -3831,16 +3837,74 @@ class FileOperations:
                 lng_data = json.load(f)
 
             for dic in lng_data:
-                for i in range(1, 6):
-                    Key = f"HeraldName{i}"
-                    if dic.get("Key") == Key:
+                for k, v in params.items():
+                    if dic.get("Key") == k:
                         for lang in (Language.ENUS, Language.ZHCN, Language.ZHTW):
-                            # 1. 提取出干净的字符串（剔除掉可能存在的 Lv. 前缀）
-                            clean_name = dic[lang.value].replace(f"Lv.{i} ", "")
-                            
+                            # 1. 提取出干净的字符串
+                            clean_name = dic[lang.value].replace(v, "")
                             # 2. 根据开关决定当前的前缀
-                            prefix = f"Lv.{i} " if str(value) == "1" else ""
-                            
+                            prefix = v if str(value) == "1" else ""
+                            # 3. 重新拼接并赋值
+                            dic[lang.value] = prefix + clean_name
+
+            with open(lng_path, 'w', encoding="utf-8-sig") as f:
+                json.dump(lng_data, f, ensure_ascii=False, indent=2)
+
+            count += 1
+            
+        except Exception as e:
+            print(e)
+        return count, total
+
+
+    def switch_herald_level(self, value):
+        """怪物.使者.增加等级标注"""
+        count = 0
+        total = 2
+
+        params = {
+            "HeraldName1": "Lv.1 ",
+            "HeraldName2": "Lv.2 ",
+            "HeraldName3": "Lv.3 ",
+            "HeraldName4": "Lv.4 ",
+            "HeraldName5": "Lv.5 ",
+        } 
+
+        try:
+            # 1.jcy\jcy.mpq\config\ext\ui.json
+            ext_data = None
+            ext_path = os.path.join(MOD_PATH, r"config/ext/ui.json")
+            with open(ext_path, "r", encoding="utf-8") as f:
+                ext_data = json.load(f)
+
+            for k, v in params.items():
+                for lang in Language:
+                    # 1. 提取出干净的字符串
+                    clean_name = ext_data[k][lang.value].replace(v, "")
+                    # 2. 根据开关决定当前的前缀
+                    prefix = v if str(value) == "1" else ""
+                    # 3. 重新拼接并赋值
+                    ext_data[k][lang.value] = prefix + clean_name
+
+            with open(ext_path, 'w', encoding="utf-8") as f:
+                json.dump(ext_data, f, ensure_ascii=False, indent=4)
+
+            count += 1
+
+            # 2.jcy\jcy.mpq\data\local\lng\strings\ui.json
+            lng_data = None
+            lng_path = os.path.join(MOD_PATH, r"data/local/lng/strings/ui.json")
+            with open(lng_path, "r", encoding="utf-8-sig") as f:
+                lng_data = json.load(f)
+
+            for dic in lng_data:
+                for k, v in params.items():
+                    if dic.get("Key") == k:
+                        for lang in (Language.ENUS, Language.ZHCN, Language.ZHTW):
+                            # 1. 提取出干净的字符串
+                            clean_name = dic[lang.value].replace(v, "")
+                            # 2. 根据开关决定当前的前缀
+                            prefix = v if str(value) == "1" else ""
                             # 3. 重新拼接并赋值
                             dic[lang.value] = prefix + clean_name
            

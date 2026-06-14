@@ -937,6 +937,13 @@ class FeatureConfig:
                     "text": "开关设置",
                     "children": [
                         {
+                            "fid": Function.LOCAL_DIABLO_CLONE_ADD_PROGRESS.value,
+                            "type": SWITCH,
+                            "category": "本地化",
+                            "target": "地表暗黑",
+                            "event": "增加进度标注"
+                        },
+                        {
                             "fid": Function.MONSTER_HERALD_ADD_LEVEL.value,
                             "type": SWITCH,
                             "category": "怪物",
