@@ -3795,6 +3795,48 @@ class FileOperations:
         return count, total
 
 
+    def switch_date_format_timestamp(self, value):
+        """本地化.日期格式.开启'年-月-日 时:分:秒'"""
+        count = 0
+        total = 2
+
+        try:
+            # 1.jcy\jcy.mpq\config\ext\ui.json
+            ext_data = None
+            ext_path = os.path.join(MOD_PATH, r"config/ext/ui.json")
+            with open(ext_path, "r", encoding="utf-8") as f:
+                ext_data = json.load(f)
+            
+            for lang in Language:
+                ext_data["HUDWarningsShowClockFormat"][lang.value] = "%Y-%m-%d %H:%M:%S" if str(value) == "1" else "%I:%M %p"
+            
+            with open(ext_path, 'w', encoding="utf-8") as f:
+                json.dump(ext_data, f, ensure_ascii=False, indent=4)
+
+            count += 1
+
+            # 2.jcy\jcy.mpq\data\local\lng\strings\ui.json
+            lng_data = None
+            lng_path = os.path.join(MOD_PATH, r"data/local/lng/strings/ui.json")
+            with open(lng_path, "r", encoding="utf-8-sig") as f:
+                lng_data = json.load(f)
+
+            for dic in lng_data:
+                if dic.get("Key") == "HUDWarningsShowClockFormat":
+                    for lang in (Language.ENUS, Language.ZHCN, Language.ZHTW):
+                        dic[lang.value] = "%Y-%m-%d %H:%M:%S" if str(value) == "1" else "%I:%M %p"
+                    break
+
+            with open(lng_path, 'w', encoding="utf-8-sig") as f:
+                json.dump(lng_data, f, ensure_ascii=False, indent=2)
+
+            count += 1
+            
+        except Exception as e:
+            print(e)
+        return count, total
+
+
     def switch_diablo_clone_progress(self, value):
         """本地化.地表暗黑.增加进度标注"""
         count = 0

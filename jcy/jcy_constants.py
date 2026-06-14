@@ -1373,6 +1373,7 @@ class Function(Enum):
     ITEM_FILTER = "ItemFilter"
 
     # Switch 
+    LOCAL_DATE_FORMAT_TIMESTAMP = "LocalDateFormatTimestamp"
     LOCAL_DIABLO_CLONE_ADD_PROGRESS = "LocalDiabloCloneAddProgress"
     MONSTER_HERALD_ADD_LEVEL = "MonsterHeraldAddLevel"
     OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT = "ObjectsIceCaveEvilUrnAddLight"

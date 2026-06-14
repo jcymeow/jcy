@@ -272,6 +272,8 @@ class FeatureController:
             Function.MAGIC_ITEM.value: self.file_operations.modify_magic_affixs,
 
             # --- Switch区 ---
+            # 本地化.日期格式.开启'年-月-日 时:分:秒'
+            Function.LOCAL_DATE_FORMAT_TIMESTAMP.value: self.file_operations.switch_date_format_timestamp,
             # 本地化.地表暗黑.增加进度标注
             Function.LOCAL_DIABLO_CLONE_ADD_PROGRESS.value: self.file_operations.switch_diablo_clone_progress,
             # 怪物.使者.增加等级标注

@@ -937,6 +937,13 @@ class FeatureConfig:
                     "text": "开关设置",
                     "children": [
                         {
+                            "fid": Function.LOCAL_DATE_FORMAT_TIMESTAMP.value,
+                            "type": SWITCH,
+                            "category": "本地化",
+                            "target": "时间格式",
+                            "event": "变为'年-月-日 时:分:秒'"
+                        },
+                        {
                             "fid": Function.LOCAL_DIABLO_CLONE_ADD_PROGRESS.value,
                             "type": SWITCH,
                             "category": "本地化",
