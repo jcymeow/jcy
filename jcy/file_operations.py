@@ -3621,7 +3621,8 @@ class FileOperations:
                     rows = list(csv.reader(f, delimiter='\t'))
 
                 for row_num, flag in changes.items():
-                    rows[row_num-1][TRANSFORMCOLOR_COLUMN_INDEX] = 'lgrn' if flag else ''
+                    color = MAGIC_AFFIXS_COLOR.get(f"{k}_{row_num}", "lgrn")
+                    rows[row_num-1][TRANSFORMCOLOR_COLUMN_INDEX] = color if flag else ''
 
                 with open(path, 'w', encoding='utf-8', newline='') as f:
                     writer = csv.writer(f, delimiter='\t')

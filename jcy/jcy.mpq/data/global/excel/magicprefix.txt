@@ -255,7 +255,7 @@ Fine	100	1	1	22		16				4	111	att		21	48	dmg-max		4	6						lcha												0	0
 Sharp	100	1	1	29		21				4	111	att		49	76	dmg-max		7	10						lcha												0	0
 Fine	100	1	1	19		14				4	111	att		10	20	dmg-max		1	3						mcha												0	0
 Sharp	100	1	1	28		21				4	111	att		21	48	dmg-max		4	6						mcha												0	0
-Fine	100	1		28		21				4	111	att		10	20	dmg-max		1	3						scha												0	0
+Fine	100	1		28		21				4	111	att		10	20	dmg-max		1	3					whit	scha												0	0
 Sharp	1	1	1	5		3				9	111	att		10	20	dmg%		10	20						weap							staf	wand	orb			0	0
 Fine	1	1	1	12		9				9	111	att		21	40	dmg%		21	30						weap							staf	wand	orb			0	0
 Warrior's	1	1	1	19		13				8	111	att		41	60	dmg%		31	40						weap							staf	wand	orb			0	0
@@ -302,7 +302,7 @@ Serpent's	100	1	1	49		41				4	115	mana		30	34										mcha												0	0
 Lizard's	100	1	1	16		12				4	115	mana		1	2										scha												0	0
 Lizard's	100	1	1	16		12				4	115	mana		3	7										scha												0	0
 Snake's	100	1	1	32		24				4	115	mana		8	12										scha												0	0
-Serpent's	100	1		48		40				4	115	mana		13	17										scha												0	0
+Serpent's	100	1		48		40				4	115	mana		13	17									blac	scha												0	0
 Lizard's	1	1	1	3		2				4	115	mana		3	5										armo	ring	amul	rod	orb			boot	glov				0	0
 Snake's	1	1	1	6		4				4	115	mana		5	10										shld	rod	belt	ring	amul	circ							0	0
 Serpent's	1	1	1	14		10				3	115	mana		11	20										shld	rod	belt	ring	amul	circ							0	0
@@ -321,7 +321,7 @@ Shimmering	100	1		14	34	10				1	116	res-all		8	12										lcha												1280	
 Shimmering	100	1		35		27				1	116	res-all		13	15										lcha												1280	5000
 Shimmering	100	1		17	33	12				1	116	res-all		3	5										mcha												1280	1500
 Shimmering	100	1		34		26				1	116	res-all		6	8										mcha												1280	5000
-Shimmering	100	1		33		25				1	116	res-all		3	5										scha												1280	10000
+Shimmering	100	1		33		25				1	116	res-all		3	5									lpur	scha												1280	10000
 Shimmering	100	1	1	6		4				5	116	res-all		3	7										shld												1280	500
 Rainbow	100	1	1	18		13				5	116	res-all		8	11										shld												1280	2000
 Scintillating	100	1	1	28		21				5	116	res-all		12	15										shld												1280	4000
@@ -348,7 +348,7 @@ Sapphire	100	1		35		27				2	117	res-cold		13	15										mcha												0	0
 Azure	100	1	1	1		1				2	117	res-cold		3	5										scha												0	0
 Lapis	100	1	1	14		10				2	117	res-cold		6	7										scha												0	0
 Cobalt	100	1	1	27		20				2	117	res-cold		8	9										scha												0	0
-Sapphire	100	1		40		32				2	117	res-cold		10	11										scha												0	0
+Sapphire	100	1		40		32				2	117	res-cold		10	11									lblu	scha												0	0
 Azure	1	1	1	5		3				2	117	res-cold		5	10										armo	weap	ring	amul	orb	circ							0	0
 Lapis	1	1	1	12		9				4	117	res-cold		11	20										armo	ring	amul	orb	circ								0	0
 Lapis	1	1	1	35		26				2	117	res-cold		11	20										weap							orb					0	0
@@ -368,7 +368,7 @@ Ruby	100	1		35		27				2	118	res-fire		13	15										mcha												0	0
 Crimson	100	1	1	1		1				2	118	res-fire		3	5										scha												0	0
 Russet	100	1	1	14		10				2	118	res-fire		6	7										scha												0	0
 Garnet	100	1		27		20				2	118	res-fire		8	9										scha												0	0
-Ruby	100	1	1	40		32				2	118	res-fire		10	11										scha												0	0
+Ruby	100	1	1	40		32				2	118	res-fire		10	11									lred	scha												0	0
 Russet	1	1	1	12		9				4	118	res-fire		11	20										armo	ring	amul	orb	circ								0	0
 Russet	1	1	1	35		26				1	118	res-fire		11	20										weap							orb					0	0
 Garnet	1	1	1	18		13				3	118	res-fire		21	30										armo	ring	amul	orb	circ								0	0
@@ -387,7 +387,7 @@ Amber	100	1		35		27				2	119	res-ltng		13	15										mcha												0	0
 Tangerine	100	1	1	1		1				2	119	res-ltng		3	5										scha												0	0
 Ocher	100	1	1	14		10				2	119	res-ltng		6	7										scha												0	0
 Coral	100	1	1	27		20				2	119	res-ltng		8	9										scha												0	0
-Amber	100	1		40		32				2	119	res-ltng		10	11										scha												0	0
+Amber	100	1		40		32				2	119	res-ltng		10	11									lyel	scha												0	0
 Tangerine	1	1	1	5		3				4	119	res-ltng		5	10										armo	weap	ring	amul	orb	circ							0	0
 Ocher	1	1	1	12		9				4	119	res-ltng		11	20										armo	ring	amul	orb	circ								0	0
 Ocher	1	1	1	35		26				1	119	res-ltng		11	20										weap							orb					0	0
@@ -407,7 +407,7 @@ Emerald	100	1		35		27				2	120	res-pois		13	15										mcha												0	0
 Beryl	100	1	1	1		1				2	120	res-pois		3	5										scha												0	0
 Viridian	100	1	1	14		10				2	120	res-pois		6	7										scha												0	0
 Jade	100	1	1	27		20				2	120	res-pois		8	9										scha												0	0
-Emerald	100	1		40		32				2	120	res-pois		10	11										scha												0	0
+Emerald	100	1		40		32				2	120	res-pois		10	11									lgrn	scha												0	0
 Beryl	1	1	1	5		3				4	120	res-pois		5	10										armo	weap	ring	amul	orb	circ							0	0
 Viridian	1	1	1	12		9				4	120	res-pois		11	20										armo	ring	amul	orb	circ								0	0
 Viridian	1	1	1	35		26				1	120	res-pois		11	20										weap							orb					0	0
@@ -606,7 +606,7 @@ Sanguinary	100	1	1	45		37				4	103	dmg-min		2	2										lcha												0	0
 Bloody	100	1		75		67				4	103	dmg-min		3	3										lcha												0	0
 Red	100	1	1	30		22				4	103	dmg-min		1	1										mcha												0	0
 Sanguinary	100	1		60		52				4	103	dmg-min		2	2										mcha												0	0
-Red	100	1	1	90		82				4	103	dmg-min		1	1										scha												0	0
+Red	100	1	1	90		82				4	103	dmg-min		1	1									whit	scha												0	0
 Jagged	100	1	1	7		5				4	104	dmg-max		1	1										lcha												0	0
 Forked	100	1	1	37		29				4	104	dmg-max		2	2										lcha												0	0
 Serrated	100	1		67		59				4	104	dmg-max		3	3										lcha												0	0
