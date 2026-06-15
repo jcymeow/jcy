@@ -8,6 +8,15 @@
     },
     "children": [
         {
+            "type": "TimerWidget",
+            "name": "OpenJcyMiniCube",
+            "fields": {
+                "time": 0.001,
+                "message": "PanelManager:OpenPanel:JcyMiniCube",
+                "default": "PanelManager:OpenPanel:JcyMiniCube"
+            }
+        },
+        {
             "type": "ClickCatcherWidget",
             "name": "click_catcher"
         },

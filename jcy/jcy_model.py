@@ -951,6 +951,13 @@ class FeatureConfig:
                             "event": "增加进度标注"
                         },
                         {
+                            "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "物品栏",
+                            "event": "联动打开迷你盒子"
+                        },
+                        {
                             "fid": Function.MONSTER_HERALD_ADD_LEVEL.value,
                             "type": SWITCH,
                             "category": "怪物",

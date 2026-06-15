@@ -47,7 +47,8 @@
                 "hoveredFrame": 3,
                 "tooltipString": "@strClose",
                 "sound": "cursor_close_window_hd",
-                "onClickMessage": "PanelManager:ClosePanel:JcyMiniCube"
+                "onClickMessage": "PanelManager:ClosePanel:JcyMiniCube",
+                "acceptsEscKeyEverywhere": true
             }
         },
         {
