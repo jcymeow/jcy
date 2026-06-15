@@ -2849,6 +2849,7 @@ class FileOperations:
             # 画面变亮
             "4": [
                 r"data/hd/env/vis",
+                r"data/global/excel/lvlprest.txt",
             ],
             # 左键快速购买
             "6": [
