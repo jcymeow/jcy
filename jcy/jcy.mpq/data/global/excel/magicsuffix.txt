@@ -283,14 +283,14 @@ of Greed	100	1	1	7		5				4	21	gold%		21	30										lcha												0	0
 of Greed	100	1	1	19		14				4	21	gold%		31	40										lcha												0	0
 of Greed	100	1	1	1		5				4	21	gold%		5	10										mcha												0	0
 of Greed	100	1	1	20		15				4	21	gold%		11	22										mcha												0	0
-of Greed	100	1	1	1		15				4	21	gold%		5	10										scha												0	0
+of Greed	100	1	1	1		15				4	21	gold%		5	10									blac	scha												0	0
 of Avarice	100	1	1	1		1				4	21	gold%		10	30										jewl												0	0
 of Chance	1	1	1	12		9				4	22	mag%		5	15										boot	glov	ring	amul	circ								0	0
 of Fortune	1	1	1	16		12				4	22	mag%		16	25										boot	glov	amul	circ									0	0
 of Fortune	1	1		42		31				4	22	mag%		16	25										ring												0	0
 of Luck	100	1		26		19				4	22	mag%		26	35										boot	amul	circ										0	0
 of Fortune	100	1	1	31		18				3	22	mag%		3	5										scha												0	0
-of Good Luck	100	1		47		33				2	22	mag%		6	7									lpur	scha												0	0
+of Good Luck	100	1		47		33				2	22	mag%		6	7									blac	scha												0	0
 of Prosperity	100	1	1	26		19				2	22	mag%		5	10										jewl												0	0
 of Energy	1	1	1	1		1				4	23	enr		1	3										amul	orb	circ	wand	staf								0	0
 of the Mind	1	1	1	7		3				4	23	enr		4	6										amul	orb	circ	wand	staf								0	0

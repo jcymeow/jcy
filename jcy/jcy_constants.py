@@ -856,14 +856,18 @@ MAGIC_AFFIXS = {
     # SmallCharm
     "PREFIX_609": {"Name": "Red", "NameStr": "赤紅", "effect": "+1 最小傷害(MIN)", "remark": "小型咒符"},
     "PREFIX_258": {"Name": "Fine", "NameStr": "良質", "effect": "+1~3 最大傷害(MAX), +10~20 準確率(AR)", "remark": "小型咒符"},
+    
     "SUFFIX_351": {"Name": "of Vita", "NameStr": "活力之", "effect": "+16~20 生命(Life)", "remark": "小型咒符"},
     "PREFIX_305": {"Name": "Serpent's", "NameStr": "蛟龍", "effect": "+13~17 法力(Mana)", "remark": "小型咒符"},
+    
     "PREFIX_324": {"Name": "Shimmering", "NameStr": "閃耀", "effect": "所有抗性(RES) +3~5", "remark": "小型咒符"},
+    "SUFFIX_286": {"Name": "of Greed", "NameStr": "貪婪之", "effect": "尋怪物金幣掉落量提高(Gold) 5~10", "remark": "小型咒符"},
+    "SUFFIX_293": {"Name": "of Good Luck", "NameStr": "幸運之", "effect": "尋獲魔法物品機率提高(MF) 6~7", "remark": "小型咒符"},
+    
     "PREFIX_351": {"Name": "Sapphire", "NameStr": "寶藍", "effect": "冰寒抗性(CR) +10~11", "remark": "小型咒符"},
     "PREFIX_371": {"Name": "Ruby", "NameStr": "寶紅", "effect": "火焰抗性(FR) +10~11", "remark": "小型咒符"},
     "PREFIX_390": {"Name": "Amber", "NameStr": "琥珀", "effect": "電擊抗性(LR) +10~11", "remark": "小型咒符"},
     "PREFIX_410": {"Name": "Emerald", "NameStr": "寶綠", "effect": "毒素抗性(PR) +10~11", "remark": "小型咒符"},
-    "SUFFIX_293": {"Name": "of Good Luck", "NameStr": "幸運之", "effect": "尋獲魔法物品機率提高(MF) 6~7", "remark": "小型咒符"},
 
     # RES
     "PREFIX_334": {"Name": "Chromatic", "NameStr": "絢彩", "effect": "所有抗性(RES) +(21~30)%", "remark": "項鏈/頭環"},
@@ -950,16 +954,19 @@ MAGIC_AFFIXS = {
 }
 # 魔法词缀染色<前/后缀_行号, 颜色>
 MAGIC_AFFIXS_COLOR = {
-    "PREFIX_258": "whit",
-    "PREFIX_305": "blac",
-    "PREFIX_324": "lpur",
-    "PREFIX_351": "lblu",
-    "PREFIX_371": "lred",
-    "PREFIX_390": "lyel",
-    "PREFIX_410": "lgrn",
-    "PREFIX_609": "whit",
-    "SUFFIX_293": "lpur",
-    "SUFFIX_351": "blac",
+    "PREFIX_351": "dblu",# CR
+    "PREFIX_371": "dred",# FR
+    "PREFIX_390": "lyel",# LR
+    "PREFIX_410": "lgrn",# PR
+    "PREFIX_324": "lpur",# Res
+
+    "PREFIX_609": "whit",# Min
+    "PREFIX_258": "whit",# Max
+    "SUFFIX_351": "blac",# Life
+    "PREFIX_305": "blac",# Mana
+    "SUFFIX_286": "blac",# Gold
+    "SUFFIX_293": "blac",# MF
+    
 }
 
 
