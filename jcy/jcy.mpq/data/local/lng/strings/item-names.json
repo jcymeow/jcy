@@ -1601,7 +1601,7 @@
     "id": 2016,
     "Key": "dir",
     "enUS": "Dirk|Normal",
-    "zhTW": "長匕首¹",
+    "zhTW": "★長匕首★¹",
     "deDE": "[ns]Dolchmesser",
     "esES": "[ms]Dirk",
     "frFR": "[ms]Surin",
@@ -1612,7 +1612,7 @@
     "jaJP": "ダーク",
     "ptBR": "[fs]Dirk",
     "ruRU": "[ms]кортик",
-    "zhCN": "長匕首¹"
+    "zhCN": "★長匕首★¹"
   },
   {
     "id": 2017,
@@ -1635,7 +1635,7 @@
     "id": 2018,
     "Key": "bld",
     "enUS": "Blade|Normal",
-    "zhTW": "利刃匕首¹",
+    "zhTW": "★利刃匕首★¹",
     "deDE": "[ns]messer",
     "esES": "[fs]Navaja",
     "frFR": "[fs]Lame",
@@ -1646,7 +1646,7 @@
     "jaJP": "ブレイド",
     "ptBR": "[fs]Lâmina",
     "ruRU": "[ms]клинок",
-    "zhCN": "利刃匕首¹"
+    "zhCN": "★利刃匕首★¹"
   },
   {
     "id": 2019,
@@ -3675,7 +3675,7 @@
     "id": 2141,
     "Key": "9di",
     "enUS": "Rondel|Exceptional",
-    "zhTW": "圓柄匕首²",
+    "zhTW": "★圓柄匕首★²",
     "deDE": "[ms]Langdolch",
     "esES": "[ms]Rondel",
     "frFR": "[fs]Dague à rouelles",
@@ -3686,7 +3686,7 @@
     "jaJP": "ロンデル",
     "ptBR": "[ms]Rondel",
     "ruRU": "[ms]рондель",
-    "zhCN": "圓柄匕首²"
+    "zhCN": "★圓柄匕首★²"
   },
   {
     "id": 2142,
@@ -12362,7 +12362,7 @@
     "id": 11028,
     "Key": "9bl",
     "enUS": "Stiletto|Exceptional",
-    "zhTW": "窄刃匕首²",
+    "zhTW": "★窄刃匕首★²",
     "deDE": "[ns]Stilett",
     "esES": "[ms]Stiletto",
     "frFR": "[ms]Stylet",
@@ -12373,7 +12373,7 @@
     "jaJP": "スティレット",
     "ptBR": "[ms]Estilete",
     "ruRU": "[ms]стилет",
-    "zhCN": "窄刃匕首²"
+    "zhCN": "★窄刃匕首★²"
   },
   {
     "id": 11146,
@@ -13586,7 +13586,7 @@
     "id": 20241,
     "Key": "7di",
     "enUS": "Mithril Point|Elite",
-    "zhTW": "秘銀尖刀³",
+    "zhTW": "★秘銀尖刀★³",
     "deDE": "[fs]Mithrilspitze",
     "esES": "[fs]Puya de mithril",
     "frFR": "[ms]Poinçon de Mithril",
@@ -13597,7 +13597,7 @@
     "jaJP": "ミスリル・ポイント",
     "ptBR": "[fs]Ponta de Mithril",
     "ruRU": "[ms]мифриловый кинжал",
-    "zhCN": "秘銀尖刀³"
+    "zhCN": "★秘銀尖刀★³"
   },
   {
     "id": 20242,
@@ -13620,7 +13620,7 @@
     "id": 20243,
     "Key": "7bl",
     "enUS": "Legend Spike|Elite",
-    "zhTW": "傳說尖刀³",
+    "zhTW": "★傳說尖刀★³",
     "deDE": "[ms]Legendendorn",
     "esES": "[fs]Punta de leyenda",
     "frFR": "[fs]Pique légendaire",
@@ -13631,7 +13631,7 @@
     "jaJP": "レジェンド・スパイク",
     "ptBR": "[ms]Espeto Lendário",
     "ruRU": "[ms]легендарный зубец",
-    "zhCN": "傳說尖刀³"
+    "zhCN": "★傳說尖刀★³"
   },
   {
     "id": 20244,
@@ -26285,7 +26285,7 @@
     "id": 27587,
     "Key": "wa1",
     "enUS": "Old Book",
-    "zhTW": "舊書¹[輕]",
+    "zhTW": "★舊書★¹[輕]",
     "deDE": "[ns]Altes Buch",
     "esES": "[ms]Libro viejo",
     "frFR": "Livre ancien",
@@ -26296,13 +26296,13 @@
     "jaJP": "古い本",
     "ptBR": "Livro Antigo",
     "ruRU": "[fs]старая книга",
-    "zhCN": "舊書¹[輕]"
+    "zhCN": "★舊書★¹[輕]"
   },
   {
     "id": 27588,
     "Key": "wa2",
     "enUS": "Tome",
-    "zhTW": "秘典¹[輕]",
+    "zhTW": "★秘典★¹[輕]",
     "deDE": "[ms]Foliant",
     "esES": "[ms]Volumen",
     "frFR": "Tome",
@@ -26313,13 +26313,13 @@
     "jaJP": "書物",
     "ptBR": "Tomo",
     "ruRU": "[ms]фолиант",
-    "zhCN": "秘典¹[輕]"
+    "zhCN": "★秘典★¹[輕]"
   },
   {
     "id": 27589,
     "Key": "wa3",
     "enUS": "Codex",
-    "zhTW": "寶典¹[輕]",
+    "zhTW": "★寶典★¹[輕]",
     "deDE": "[ms]Kodex",
     "esES": "[ms]Códice",
     "frFR": "Codex",
@@ -26330,13 +26330,13 @@
     "jaJP": "古写本",
     "ptBR": "Códice",
     "ruRU": "[ms]кодекс",
-    "zhCN": "寶典¹[輕]"
+    "zhCN": "★寶典★¹[輕]"
   },
   {
     "id": 27590,
     "Key": "wa4",
     "enUS": "Compendium",
-    "zhTW": "綱要¹[輕]",
+    "zhTW": "★綱要★¹[輕]",
     "deDE": "[ns]Kompendium",
     "esES": "[ms]Compendio",
     "frFR": "Compendium",
@@ -26347,13 +26347,13 @@
     "jaJP": "抄録",
     "ptBR": "Compêndio",
     "ruRU": "[ms]компендиум",
-    "zhCN": "綱要¹[輕]"
+    "zhCN": "★綱要★¹[輕]"
   },
   {
     "id": 27591,
     "Key": "wa5",
     "enUS": "Grimoire",
-    "zhTW": "魔典¹[輕]",
+    "zhTW": "★魔典★¹[輕]",
     "deDE": "[ns]Grimoire",
     "esES": "[ms]Grimorio",
     "frFR": "Grimoire",
@@ -26364,13 +26364,13 @@
     "jaJP": "グリモア",
     "ptBR": "Grimório",
     "ruRU": "[ms]гримуар",
-    "zhCN": "魔典¹[輕]"
+    "zhCN": "★魔典★¹[輕]"
   },
   {
     "id": 27592,
     "Key": "wa6",
     "enUS": "Burnt Text",
-    "zhTW": "焦灼書冊²[輕]",
+    "zhTW": "★焦灼書冊★²[輕]",
     "deDE": "[ms]Verbrannter Text",
     "esES": "[ms]Texto quemado",
     "frFR": "Texte brûlé",
@@ -26381,13 +26381,13 @@
     "jaJP": "焼けた書",
     "ptBR": "Texto Queimado",
     "ruRU": "[ms]обгорелый текст",
-    "zhCN": "焦灼書冊²[輕]"
+    "zhCN": "★焦灼書冊★²[輕]"
   },
   {
     "id": 27593,
     "Key": "wa7",
     "enUS": "Dark Tome",
-    "zhTW": "黑暗秘典²[輕]",
+    "zhTW": "★黑暗秘典★²[輕]",
     "deDE": "[ms]Dunkler Foliant",
     "esES": "[ms]Volumen oscuro",
     "frFR": "Tome noir",
@@ -26398,13 +26398,13 @@
     "jaJP": "闇の書物",
     "ptBR": "Tomo Antigo",
     "ruRU": "[ms]темный фолиант",
-    "zhCN": "黑暗秘典²[輕]"
+    "zhCN": "★黑暗秘典★²[輕]"
   },
   {
     "id": 27594,
     "Key": "wa8",
     "enUS": "Dark Codex",
-    "zhTW": "黑暗寶典²[輕]",
+    "zhTW": "★黑暗寶典★²[輕]",
     "deDE": "[ms]Dunkler Kodex",
     "esES": "[ms]Códice oscuro",
     "frFR": "Codex noir",
@@ -26415,13 +26415,13 @@
     "jaJP": "闇の古写本",
     "ptBR": "Códice Sombrio",
     "ruRU": "[ms]темный кодекс",
-    "zhCN": "黑暗寶典²[輕]"
+    "zhCN": "★黑暗寶典★²[輕]"
   },
   {
     "id": 27595,
     "Key": "wa9",
     "enUS": "Possessed Compendium",
-    "zhTW": "著魔綱要²[輕]",
+    "zhTW": "★著魔綱要★²[輕]",
     "deDE": "[ns]Besessenes Kompendium",
     "esES": "[ms]Compendio poseído",
     "frFR": "Compendium possédé",
@@ -26432,13 +26432,13 @@
     "jaJP": "依代の抄録",
     "ptBR": "Compêndio Possuído",
     "ruRU": "[ms]одержимый компендиум",
-    "zhCN": "著魔綱要²[輕]"
+    "zhCN": "★著魔綱要★²[輕]"
   },
   {
     "id": 27596,
     "Key": "waa",
     "enUS": "Possessed Grimoire",
-    "zhTW": "著魔魔典²[輕]",
+    "zhTW": "★著魔魔典★²[輕]",
     "deDE": "[ns]Besessenes Grimoire",
     "esES": "[ms]Grimorio poseído",
     "frFR": "Grimoire possédé",
@@ -26449,13 +26449,13 @@
     "jaJP": "依代のグリモア",
     "ptBR": "Grimório Possuído",
     "ruRU": "[ms]одержимый гримуар",
-    "zhCN": "著魔魔典²[輕]"
+    "zhCN": "★著魔魔典★²[輕]"
   },
   {
     "id": 27597,
     "Key": "wab",
     "enUS": "Forgotten Volume",
-    "zhTW": "被遺忘的書冊³[輕]",
+    "zhTW": "★被遺忘的書冊★³[輕]",
     "deDE": "[ms]Vergessener Band",
     "esES": "[ms]Volumen olvidado",
     "frFR": "Ouvrage oublié",
@@ -26466,13 +26466,13 @@
     "jaJP": "忘れ去られし巻",
     "ptBR": "Volume Esquecido",
     "ruRU": "[ms]забытый том",
-    "zhCN": "被遺忘的書冊³[輕]"
+    "zhCN": "★被遺忘的書冊★³[輕]"
   },
   {
     "id": 27598,
     "Key": "wac",
     "enUS": "Occult Tome",
-    "zhTW": "神秘秘典³[輕]",
+    "zhTW": "★神秘秘典★³[輕]",
     "deDE": "[ms]Okkulter Foliant",
     "esES": "[ms]Tomo esotérico",
     "frFR": "Tome occulte",
@@ -26483,13 +26483,13 @@
     "jaJP": "神秘の書物",
     "ptBR": "Tomo Oculto",
     "ruRU": "[ms]оккультный фолиант",
-    "zhCN": "神秘秘典³[輕]"
+    "zhCN": "★神秘秘典★³[輕]"
   },
   {
     "id": 27599,
     "Key": "wad",
     "enUS": "Occult Codex",
-    "zhTW": "神秘寶典³[輕]",
+    "zhTW": "★神秘寶典★³[輕]",
     "deDE": "[ms]Okkulter Kodex",
     "esES": "[ms]Códice esotérico",
     "frFR": "Codex occulte",
@@ -26500,13 +26500,13 @@
     "jaJP": "神秘の古写本",
     "ptBR": "Códice Oculto",
     "ruRU": "[ms]оккультный кодекс",
-    "zhCN": "神秘寶典³[輕]"
+    "zhCN": "★神秘寶典★³[輕]"
   },
   {
     "id": 27600,
     "Key": "wae",
     "enUS": "Blasphemous Compendium",
-    "zhTW": "褻瀆綱要³[輕]",
+    "zhTW": "★褻瀆綱要★³[輕]",
     "deDE": "[ns]Blasphemisches Kompendium",
     "esES": "[ms]Compendio blasfemo",
     "frFR": "Compendium blasphématoire",
@@ -26517,13 +26517,13 @@
     "jaJP": "邪教の抄録",
     "ptBR": "Compêndio Blasfemo",
     "ruRU": "[ms]кощунственный компендиум",
-    "zhCN": "褻瀆綱要³[輕]"
+    "zhCN": "★褻瀆綱要★³[輕]"
   },
   {
     "id": 27601,
     "Key": "waf",
     "enUS": "Blasphemous Grimoire",
-    "zhTW": "褻瀆魔典³[輕]",
+    "zhTW": "★褻瀆魔典★³[輕]",
     "deDE": "[ns]Blasphemisches Grimoire",
     "esES": "[ms]Grimorio blasfemo",
     "frFR": "Grimoire blasphématoire",
@@ -26534,7 +26534,7 @@
     "jaJP": "邪教のグリモア",
     "ptBR": "Grimório Blasfemo",
     "ruRU": "[ms]кощунственный гримуар",
-    "zhCN": "褻瀆魔典³[輕]"
+    "zhCN": "★褻瀆魔典★³[輕]"
   },
   {
     "id": 27609,

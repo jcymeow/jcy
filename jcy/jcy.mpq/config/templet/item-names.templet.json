@@ -942,12 +942,12 @@
   {
     "id": 2016,
     "Key": "dir",
-    "enUS": "Dirk",
-    "zhTW": "長匕首",
-    "zhCN": "长匕首",
-    "sgCN": "长匕首",
-    "sgTW": "長匕首",
-    "bnCN": "长匕首"
+    "enUS": "★Dirk★",
+    "zhTW": "★長匕首★",
+    "zhCN": "★长匕首★",
+    "sgCN": "★长匕首★",
+    "sgTW": "★長匕首★",
+    "bnCN": "★长匕首★"
   },
   {
     "id": 2017,
@@ -962,12 +962,12 @@
   {
     "id": 2018,
     "Key": "bld",
-    "enUS": "Blade",
-    "zhTW": "利刃匕首",
-    "zhCN": "短刃",
-    "sgCN": "短刀",
-    "sgTW": "短刀",
-    "bnCN": "短刃"
+    "enUS": "★Blade★",
+    "zhTW": "★利刃匕首★",
+    "zhCN": "★短刃★",
+    "sgCN": "★短刀★",
+    "sgTW": "★短刀★",
+    "bnCN": "★短刃★"
   },
   {
     "id": 2019,
@@ -2162,12 +2162,12 @@
   {
     "id": 2141,
     "Key": "9di",
-    "enUS": "Rondel",
-    "zhTW": "圓柄匕首",
-    "zhCN": "袖匕",
-    "sgCN": "诗歌匕首",
-    "sgTW": "詩歌匕首",
-    "bnCN": "袖匕"
+    "enUS": "★Rondel★",
+    "zhTW": "★圓柄匕首★",
+    "zhCN": "★袖匕★",
+    "sgCN": "★诗歌匕首★",
+    "sgTW": "★詩歌匕首★",
+    "bnCN": "★袖匕★"
   },
   {
     "id": 2142,
@@ -7272,12 +7272,12 @@
   {
     "id": 11028,
     "Key": "9bl",
-    "enUS": "Stiletto",
-    "zhTW": "窄刃匕首",
-    "zhCN": "小剑",
-    "sgCN": "小剑",
-    "sgTW": "小劍",
-    "bnCN": "小剑"
+    "enUS": "★Stiletto★",
+    "zhTW": "★窄刃匕首★",
+    "zhCN": "★小剑★",
+    "sgCN": "★小剑★",
+    "sgTW": "★小劍★",
+    "bnCN": "★小剑★"
   },
   {
     "id": 11146,
@@ -7992,12 +7992,12 @@
   {
     "id": 20241,
     "Key": "7di",
-    "enUS": "Mithril Point",
-    "zhTW": "秘銀尖刀",
-    "zhCN": "秘银刺",
-    "sgCN": "秘银尖刀",
-    "sgTW": "秘銀尖刀",
-    "bnCN": "秘银刺"
+    "enUS": "★Mithril Point★",
+    "zhTW": "★秘銀尖刀★",
+    "zhCN": "★秘银刺★",
+    "sgCN": "★秘银尖刀★",
+    "sgTW": "★秘銀尖刀★",
+    "bnCN": "★秘银刺★"
   },
   {
     "id": 20242,
@@ -8012,12 +8012,12 @@
   {
     "id": 20243,
     "Key": "7bl",
-    "enUS": "Legend Spike",
-    "zhTW": "傳說尖刀",
-    "zhCN": "传说匕刺",
-    "sgCN": "传说尖刺",
-    "sgTW": "傳傳說尖刺",
-    "bnCN": "传说匕刺"
+    "enUS": "★Legend Spike★",
+    "zhTW": "★傳說尖刀★",
+    "zhCN": "★传说匕刺★",
+    "sgCN": "★传说尖刺★",
+    "sgTW": "★傳傳說尖刺★",
+    "bnCN": "★传说匕刺★"
   },
   {
     "id": 20244,
@@ -15462,152 +15462,152 @@
   {
     "id": 27587,
     "Key": "wa1",
-    "enUS": "Old Book",
-    "zhTW": "舊書",
-    "zhCN": "古书",
-    "sgCN": "古书",
-    "sgTW": "舊書",
-    "bnCN": "古书"
+    "enUS": "★Old Book★",
+    "zhTW": "★舊書★",
+    "zhCN": "★古书★",
+    "sgCN": "★古书★",
+    "sgTW": "★舊書★",
+    "bnCN": "★古书★"
   },
   {
     "id": 27588,
     "Key": "wa2",
-    "enUS": "Tome",
-    "zhTW": "秘典",
-    "zhCN": "典籍",
-    "sgCN": "典籍",
-    "sgTW": "秘典",
-    "bnCN": "典籍"
+    "enUS": "★Tome★",
+    "zhTW": "★秘典★",
+    "zhCN": "★典籍★",
+    "sgCN": "★典籍★",
+    "sgTW": "★秘典★",
+    "bnCN": "★典籍★"
   },
   {
     "id": 27589,
     "Key": "wa3",
-    "enUS": "Codex",
-    "zhTW": "寶典",
-    "zhCN": "法典",
-    "sgCN": "法典",
-    "sgTW": "寶典",
-    "bnCN": "法典"
+    "enUS": "★Codex★",
+    "zhTW": "★寶典★",
+    "zhCN": "★法典★",
+    "sgCN": "★法典★",
+    "sgTW": "★寶典★",
+    "bnCN": "★法典★"
   },
   {
     "id": 27590,
     "Key": "wa4",
-    "enUS": "Compendium",
-    "zhTW": "綱要",
-    "zhCN": "纲要",
-    "sgCN": "纲要",
-    "sgTW": "綱要",
-    "bnCN": "纲要"
+    "enUS": "★Compendium★",
+    "zhTW": "★綱要★",
+    "zhCN": "★纲要★",
+    "sgCN": "★纲要★",
+    "sgTW": "★綱要★",
+    "bnCN": "★纲要★"
   },
   {
     "id": 27591,
     "Key": "wa5",
-    "enUS": "Grimoire",
-    "zhTW": "魔典",
-    "zhCN": "魔典",
-    "sgCN": "魔典",
-    "sgTW": "魔典",
-    "bnCN": "魔典"
+    "enUS": "★Grimoire★",
+    "zhTW": "★魔典★",
+    "zhCN": "★魔典★",
+    "sgCN": "★魔典★",
+    "sgTW": "★魔典★",
+    "bnCN": "★魔典★"
   },
   {
     "id": 27592,
     "Key": "wa6",
-    "enUS": "Burnt Text",
-    "zhTW": "焦灼書冊",
-    "zhCN": "焦黑文本",
-    "sgCN": "焦黑文本",
-    "sgTW": "焦灼書冊",
-    "bnCN": "焦黑文本"
+    "enUS": "★Burnt Text★",
+    "zhTW": "★焦灼書冊★",
+    "zhCN": "★焦黑文本★",
+    "sgCN": "★焦黑文本★",
+    "sgTW": "★焦灼書冊★",
+    "bnCN": "★焦黑文本★"
   },
   {
     "id": 27593,
     "Key": "wa7",
-    "enUS": "Dark Tome",
-    "zhTW": "黑暗秘典",
-    "zhCN": "黑暗典籍",
-    "sgCN": "黑暗典籍",
-    "sgTW": "黑暗秘典",
-    "bnCN": "黑暗典籍"
+    "enUS": "★Dark Tome★",
+    "zhTW": "★黑暗秘典★",
+    "zhCN": "★黑暗典籍★",
+    "sgCN": "★黑暗典籍★",
+    "sgTW": "★黑暗秘典★",
+    "bnCN": "★黑暗典籍★"
   },
   {
     "id": 27594,
     "Key": "wa8",
-    "enUS": "Dark Codex",
-    "zhTW": "黑暗寶典",
-    "zhCN": "黑暗法典",
-    "sgCN": "黑暗法典",
-    "sgTW": "黑暗寶典",
-    "bnCN": "黑暗法典"
+    "enUS": "★Dark Codex★",
+    "zhTW": "★黑暗寶典★",
+    "zhCN": "★黑暗法典★",
+    "sgCN": "★黑暗法典★",
+    "sgTW": "★黑暗寶典★",
+    "bnCN": "★黑暗法典★"
   },
   {
     "id": 27595,
     "Key": "wa9",
-    "enUS": "Possessed Compendium",
-    "zhTW": "著魔綱要",
-    "zhCN": "魔附纲要",
-    "sgCN": "魔附纲要",
-    "sgTW": "著魔綱要",
-    "bnCN": "魔附纲要"
+    "enUS": "★Possessed Compendium★",
+    "zhTW": "★著魔綱要★",
+    "zhCN": "★魔附纲要★",
+    "sgCN": "★魔附纲要★",
+    "sgTW": "★著魔綱要★",
+    "bnCN": "★魔附纲要★"
   },
   {
     "id": 27596,
     "Key": "waa",
-    "enUS": "Possessed Grimoire",
-    "zhTW": "著魔魔典",
-    "zhCN": "魔附魔典",
-    "sgCN": "魔附魔典",
-    "sgTW": "著魔魔典",
-    "bnCN": "魔附魔典"
+    "enUS": "★Possessed Grimoire★",
+    "zhTW": "★著魔魔典★",
+    "zhCN": "★魔附魔典★",
+    "sgCN": "★魔附魔典★",
+    "sgTW": "★著魔魔典★",
+    "bnCN": "★魔附魔典★"
   },
   {
     "id": 27597,
     "Key": "wab",
-    "enUS": "Forgotten Volume",
-    "zhTW": "被遺忘的書冊",
-    "zhCN": "遗世卷册",
-    "sgCN": "遗世卷册",
-    "sgTW": "被遺忘的書冊",
-    "bnCN": "遗世卷册"
+    "enUS": "★Forgotten Volume★",
+    "zhTW": "★被遺忘的書冊★",
+    "zhCN": "★遗世卷册★",
+    "sgCN": "★遗世卷册★",
+    "sgTW": "★被遺忘的書冊★",
+    "bnCN": "★遗世卷册★"
   },
   {
     "id": 27598,
     "Key": "wac",
-    "enUS": "Occult Tome",
-    "zhTW": "神秘秘典",
-    "zhCN": "神秘典籍",
-    "sgCN": "神秘典籍",
-    "sgTW": "神秘秘典",
-    "bnCN": "神秘典籍"
+    "enUS": "★Occult Tome★",
+    "zhTW": "★神秘秘典★",
+    "zhCN": "★神秘典籍★",
+    "sgCN": "★神秘典籍★",
+    "sgTW": "★神秘秘典★",
+    "bnCN": "★神秘典籍★"
   },
   {
     "id": 27599,
     "Key": "wad",
-    "enUS": "Occult Codex",
-    "zhTW": "神秘寶典",
-    "zhCN": "神秘法典",
-    "sgCN": "神秘法典",
-    "sgTW": "神秘寶典",
-    "bnCN": "神秘法典"
+    "enUS": "★Occult Codex★",
+    "zhTW": "★神秘寶典★",
+    "zhCN": "★神秘法典★",
+    "sgCN": "★神秘法典★",
+    "sgTW": "★神秘寶典★",
+    "bnCN": "★神秘法典★"
   },
   {
     "id": 27600,
     "Key": "wae",
-    "enUS": "Blasphemous Compendium",
-    "zhTW": "褻瀆綱要",
-    "zhCN": "亵渎纲要",
-    "sgCN": "亵渎纲要",
-    "sgTW": "褻瀆綱要",
-    "bnCN": "亵渎纲要"
+    "enUS": "★Blasphemous Compendium★",
+    "zhTW": "★褻瀆綱要★",
+    "zhCN": "★亵渎纲要★",
+    "sgCN": "★亵渎纲要★",
+    "sgTW": "★褻瀆綱要★",
+    "bnCN": "★亵渎纲要★"
   },
   {
     "id": 27601,
     "Key": "waf",
-    "enUS": "Blasphemous Grimoire",
-    "zhTW": "褻瀆魔典",
-    "zhCN": "亵渎魔典",
-    "sgCN": "亵渎魔典",
-    "sgTW": "褻瀆魔典",
-    "bnCN": "亵渎魔典"
+    "enUS": "★Blasphemous Grimoire★",
+    "zhTW": "★褻瀆魔典★",
+    "zhCN": "★亵渎魔典★",
+    "sgCN": "★亵渎魔典★",
+    "sgTW": "★褻瀆魔典★",
+    "bnCN": "★亵渎魔典★"
   },
   {
     "id": 27609,
