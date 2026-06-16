@@ -2860,6 +2860,7 @@ class FileOperations:
                 r"data/global/excel/shrines.txt",
                 r"data/hd/overlays/common/shrine_experience.json",
                 r"data/hd/overlays/common/shrine_stamina.json",
+                r"data/hd/overlays/common/shrine_mana_regen.json",
             ],
         }
 
