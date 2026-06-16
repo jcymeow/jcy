@@ -2597,6 +2597,7 @@ class FileOperations:
         _files = [
             "data/hd/overlays/common/shrine_experience.json",
             "data/hd/overlays/common/shrine_stamina.json",
+            "data/hd/overlays/common/shrine_mana_regen.json",
         ]
 
         # 指引映射
