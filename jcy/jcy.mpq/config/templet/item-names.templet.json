@@ -942,22 +942,22 @@
   {
     "id": 2016,
     "Key": "dir",
-    "enUS": "★Dirk★",
-    "zhTW": "★長匕首★",
-    "zhCN": "★长匕首★",
-    "sgCN": "★长匕首★",
-    "sgTW": "★長匕首★",
-    "bnCN": "★长匕首★"
+    "enUS": "Dirk",
+    "zhTW": "長匕首",
+    "zhCN": "长匕首",
+    "sgCN": "长匕首",
+    "sgTW": "長匕首",
+    "bnCN": "长匕首"
   },
   {
     "id": 2017,
     "Key": "kri",
-    "enUS": "Kris",
-    "zhTW": "波刃匕首",
-    "zhCN": "波刃剑",
-    "sgCN": "波形刀",
-    "sgTW": "波形刀",
-    "bnCN": "波刃剑"
+    "enUS": "★Kris★",
+    "zhTW": "★波刃匕首★",
+    "zhCN": "★波刃剑★",
+    "sgCN": "★波形刀★",
+    "sgTW": "★波形刀★",
+    "bnCN": "★波刃剑★"
   },
   {
     "id": 2018,
@@ -2152,22 +2152,22 @@
   {
     "id": 2140,
     "Key": "9kr",
-    "enUS": "Cinquedeas",
-    "zhTW": "闊身短劍",
-    "zhCN": "五指短剑",
-    "sgCN": "强波刀",
-    "sgTW": "強波刀",
-    "bnCN": "五指短剑"
+    "enUS": "★Cinquedeas★",
+    "zhTW": "★闊身短劍★",
+    "zhCN": "★五指短剑★",
+    "sgCN": "★强波刀★",
+    "sgTW": "★強波刀★",
+    "bnCN": "★五指短剑★"
   },
   {
     "id": 2141,
     "Key": "9di",
-    "enUS": "★Rondel★",
-    "zhTW": "★圓柄匕首★",
-    "zhCN": "★袖匕★",
-    "sgCN": "★诗歌匕首★",
-    "sgTW": "★詩歌匕首★",
-    "bnCN": "★袖匕★"
+    "enUS": "Rondel",
+    "zhTW": "圓柄匕首",
+    "zhCN": "袖匕",
+    "sgCN": "诗歌匕首",
+    "sgTW": "詩歌匕首",
+    "bnCN": "袖匕"
   },
   {
     "id": 2142,
@@ -7992,22 +7992,22 @@
   {
     "id": 20241,
     "Key": "7di",
-    "enUS": "★Mithril Point★",
-    "zhTW": "★秘銀尖刀★",
-    "zhCN": "★秘银刺★",
-    "sgCN": "★秘银尖刀★",
-    "sgTW": "★秘銀尖刀★",
-    "bnCN": "★秘银刺★"
+    "enUS": "Mithril Point",
+    "zhTW": "秘銀尖刀",
+    "zhCN": "秘银刺",
+    "sgCN": "秘银尖刀",
+    "sgTW": "秘銀尖刀",
+    "bnCN": "秘银刺"
   },
   {
     "id": 20242,
     "Key": "7kr",
-    "enUS": "Fanged Knife",
-    "zhTW": "尖齒小刀",
-    "zhCN": "牙刃刀",
-    "sgCN": "齿缘小刀",
-    "sgTW": "齒緣小刀",
-    "bnCN": "牙刃刀"
+    "enUS": "★Fanged Knife★",
+    "zhTW": "★尖齒小刀★",
+    "zhCN": "★牙刃刀★",
+    "sgCN": "★齿缘小刀★",
+    "sgTW": "★齒緣小刀★",
+    "bnCN": "★牙刃刀★"
   },
   {
     "id": 20243,

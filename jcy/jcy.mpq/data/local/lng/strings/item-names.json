@@ -1601,7 +1601,7 @@
     "id": 2016,
     "Key": "dir",
     "enUS": "Dirk|Normal",
-    "zhTW": "★長匕首★¹",
+    "zhTW": "長匕首¹",
     "deDE": "[ns]Dolchmesser",
     "esES": "[ms]Dirk",
     "frFR": "[ms]Surin",
@@ -1612,13 +1612,13 @@
     "jaJP": "ダーク",
     "ptBR": "[fs]Dirk",
     "ruRU": "[ms]кортик",
-    "zhCN": "★長匕首★¹"
+    "zhCN": "長匕首¹"
   },
   {
     "id": 2017,
     "Key": "kri",
     "enUS": "Kris|Normal",
-    "zhTW": "波刃匕首¹",
+    "zhTW": "★波刃匕首★¹",
     "deDE": "[ms]Kris",
     "esES": "[ms]Kris",
     "frFR": "[ms]Kriss",
@@ -1629,7 +1629,7 @@
     "jaJP": "クリス",
     "ptBR": "[fs]Kris",
     "ruRU": "[ms]крис",
-    "zhCN": "波刃匕首¹"
+    "zhCN": "★波刃匕首★¹"
   },
   {
     "id": 2018,
@@ -3658,7 +3658,7 @@
     "id": 2140,
     "Key": "9kr",
     "enUS": "Cinquedeas|Exceptional",
-    "zhTW": "闊身短劍²",
+    "zhTW": "★闊身短劍★²",
     "deDE": "[ms]Cinquedea",
     "esES": "[fs]Cinquedea",
     "frFR": "[fp]Cinquedeas",
@@ -3669,13 +3669,13 @@
     "jaJP": "チンクエデア",
     "ptBR": "[fs]Cinquedeas",
     "ruRU": "[fs]чинкуэда",
-    "zhCN": "闊身短劍²"
+    "zhCN": "★闊身短劍★²"
   },
   {
     "id": 2141,
     "Key": "9di",
     "enUS": "Rondel|Exceptional",
-    "zhTW": "★圓柄匕首★²",
+    "zhTW": "圓柄匕首²",
     "deDE": "[ms]Langdolch",
     "esES": "[ms]Rondel",
     "frFR": "[fs]Dague à rouelles",
@@ -3686,7 +3686,7 @@
     "jaJP": "ロンデル",
     "ptBR": "[ms]Rondel",
     "ruRU": "[ms]рондель",
-    "zhCN": "★圓柄匕首★²"
+    "zhCN": "圓柄匕首²"
   },
   {
     "id": 2142,
@@ -13586,7 +13586,7 @@
     "id": 20241,
     "Key": "7di",
     "enUS": "Mithril Point|Elite",
-    "zhTW": "★秘銀尖刀★³",
+    "zhTW": "秘銀尖刀³",
     "deDE": "[fs]Mithrilspitze",
     "esES": "[fs]Puya de mithril",
     "frFR": "[ms]Poinçon de Mithril",
@@ -13597,13 +13597,13 @@
     "jaJP": "ミスリル・ポイント",
     "ptBR": "[fs]Ponta de Mithril",
     "ruRU": "[ms]мифриловый кинжал",
-    "zhCN": "★秘銀尖刀★³"
+    "zhCN": "秘銀尖刀³"
   },
   {
     "id": 20242,
     "Key": "7kr",
     "enUS": "Fanged Knife|Elite",
-    "zhTW": "尖齒小刀³",
+    "zhTW": "★尖齒小刀★³",
     "deDE": "[ns]Fangzahnmesser",
     "esES": "[ms]Cuchillo canino",
     "frFR": "[ms]Coutelas cranté",
@@ -13614,7 +13614,7 @@
     "jaJP": "ファングド・ナイフ",
     "ptBR": "[fs]Faca Dentada",
     "ruRU": "[ms]нож-клык",
-    "zhCN": "尖齒小刀³"
+    "zhCN": "★尖齒小刀★³"
   },
   {
     "id": 20243,
