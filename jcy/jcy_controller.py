@@ -278,6 +278,8 @@ class FeatureController:
             Function.LOCAL_DIABLO_CLONE_ADD_PROGRESS.value: self.file_operations.switch_diablo_clone_progress,
             # 布局.物品栏.联动打开迷你盒子
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
+            # 布局.储物箱.快速存/取款
+            Function.LAYOUTS_BANK_CONFIRM_GOLD.value: self.file_operations.switch_confirm_gold,
             # 怪物.使者.增加等级标注
             Function.MONSTER_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
             # 对象.Act5邪龛.增加光照效果

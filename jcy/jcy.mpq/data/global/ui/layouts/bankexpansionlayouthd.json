@@ -174,6 +174,34 @@
                     }
                 },
                 {
+                    "type": "ButtonWidget", "name": "custom_deposit_btn_top",
+                    "fields": {
+                        "rect": { "x": 260, "y": 70},
+                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                        "textString": "存",
+                        "textColor": "$FontColorGoldYellow",
+                        "text/style": "$StyleFEButtonText",
+                        "hoveredFrame": 2,
+                        "pressedFrame": 1,
+                        "tooltipString": "将金币存入仓库",
+                        "onClickMessage": "PlayerInventoryPanelMessage:DropGold"
+                    }
+                },
+                {
+                    "type": "ButtonWidget", "name": "custom_withdraw_btn_top",
+                    "fields": {
+                        "rect": { "x": 330, "y": 70},
+                        "filename": "lobby/creategame/creategame_advancedcheckbox",
+                        "textString": "取",
+                        "textColor": "$FontColorGoldYellow",
+                        "text/style": "$StyleFEButtonText",
+                        "hoveredFrame": 2,
+                        "pressedFrame": 1,
+                        "tooltipString": "从仓库取出金币",
+                        "onClickMessage": "BankPanelMessage:Withdraw"
+                    }
+                },
+                {
                     "type": "InventoryGridWidget",
                     "name": "grid",
                     "fields": {
@@ -297,6 +325,8 @@
                                         "textString": "壹",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage1"
                                     }
                                 },
@@ -312,6 +342,8 @@
                                         "textString": "貳",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage2"
                                     }
                                 },
@@ -327,6 +359,8 @@
                                         "textString": "叁",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage3"
                                     }
                                 },
@@ -342,6 +376,8 @@
                                         "textString": "肆",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage4"
                                     }
                                 },
@@ -357,6 +393,8 @@
                                         "textString": "伍",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage5"
                                     }
                                 },
@@ -372,6 +410,8 @@
                                         "textString": "陸",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage6"
                                     }
                                 },
@@ -387,6 +427,8 @@
                                         "textString": "柒",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage7"
                                     }
                                 },
@@ -402,6 +444,8 @@
                                         "textString": "捌",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage8"
                                     }
                                 },
@@ -417,6 +461,8 @@
                                         "textString": "玖",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
+                                        "hoveredFrame": 2,
+                                        "pressedFrame": 1,
                                         "onClickMessage": "PanelManager:OpenPanel:JcyStashPage9"
                                     }
                                 }

@@ -3956,6 +3956,32 @@ class FileOperations:
         return count, total
 
 
+    def switch_confirm_gold(self, value):
+        """布局.储物箱.快速存/取款"""
+        count = 0
+        total = 1
+
+        try:
+            # 1.jcy\jcy.mpq\data\global\ui\layouts\dropgoldmodalhd.json
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/dropgoldmodalhd.json")
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+
+            for child in json_data["children"]:
+                if "ConfirmGold" == child.get("name"):
+                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
+                    break
+            
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+            count += 1            
+        except Exception as e:
+            print(e)
+        return count, total
+
+
     def switch_herald_level(self, value):
         """怪物.使者.增加等级标注"""
         count = 0
