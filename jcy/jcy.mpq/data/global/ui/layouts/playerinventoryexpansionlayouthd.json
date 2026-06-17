@@ -12,7 +12,7 @@
             "name": "OpenJcyMiniCube",
             "fields": {
                 "time": 0.001,
-                "message": "PanelManager:OpenPanel:JcyMiniCube",
+                "message": "",
                 "default": "PanelManager:OpenPanel:JcyMiniCube"
             }
         },
