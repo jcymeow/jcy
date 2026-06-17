@@ -419,7 +419,11 @@ class FeatureController:
                     if fid in self._handlers:
                         result = self._handlers[fid](current_value) 
                         if RADIO == type:
-                            selected_description = next((param_dict[current_value] for param_dict in child["params"] if current_value in param_dict), current_value)
+                            selected_description = next(
+                                (param_dict[current_value] for param_dict in child["params"] 
+                                if isinstance(param_dict, dict) and current_value in param_dict), 
+                                current_value
+                            )
                             self.dialogs += f"{text} = {selected_description} 操作文件数量 {result[0]}/{result[1]} {result[2] if len(result) > 2 else ''}\n"
                         elif SWITCH == type:
                             category = child.get("category")
