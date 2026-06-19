@@ -3982,6 +3982,41 @@ class FileOperations:
         return count, total
 
 
+    def switch_cube_transparent(self, value):
+        """精灵图.迷你盒子.透明化"""
+        
+        # 根据开关决定源文件（1为透明，0为默认）
+        suffix = "1" if str(value) == "1" else "0"
+
+        source_files = [
+            os.path.join(MOD_PATH, f"data/hd/global/ui/panel/Horadric_Cube/cube_grid.{suffix}.lowend.sprite"),
+            os.path.join(MOD_PATH, f"data/hd/global/ui/panel/Horadric_Cube/cube_grid.{suffix}.sprite"),
+        ]
+
+        target_files = [
+            os.path.join(MOD_PATH, "data/hd/global/ui/panel/Horadric_Cube/cube_grid.lowend.sprite"),
+            os.path.join(MOD_PATH, "data/hd/global/ui/panel/Horadric_Cube/cube_grid.sprite"),
+        ]
+
+        count = 0
+        total = len(target_files)
+
+        # 执行复制操作
+        try:
+            for src, dst in zip(source_files, target_files):
+                if os.path.exists(src):
+                    shutil.copy(src, dst)  
+                    count += 1
+                else:
+                    print(f"警告: 源文件不存在 -> {src}")
+
+        except Exception as e:
+            # 实际项目中建议使用 logging 模块
+            print(f"切换盒子透明度失败: {e}")
+
+        return count, total
+
+
     def switch_herald_level(self, value):
         """怪物.使者.增加等级标注"""
         count = 0

@@ -992,6 +992,13 @@ class FeatureConfig:
                             "event": "快速存/取款"
                         },
                         {
+                            "fid": Function.SPRITE_CUBE_TRANSPARENT.value,
+                            "type": SWITCH,
+                            "category": "精灵图",
+                            "target": "迷你盒子",
+                            "event": "透明化"
+                        },
+                        {
                             "fid": Function.MONSTER_HERALD_ADD_LEVEL.value,
                             "type": SWITCH,
                             "category": "怪物",

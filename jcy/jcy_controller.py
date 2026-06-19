@@ -280,6 +280,8 @@ class FeatureController:
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
             # 布局.储物箱.快速存/取款
             Function.LAYOUTS_BANK_CONFIRM_GOLD.value: self.file_operations.switch_confirm_gold,
+            # 精灵图.迷你盒子.透明化
+            Function.SPRITE_CUBE_TRANSPARENT.value: self.file_operations.switch_cube_transparent,
             # 怪物.使者.增加等级标注
             Function.MONSTER_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
             # 对象.Act5邪龛.增加光照效果
