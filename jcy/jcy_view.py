@@ -164,8 +164,17 @@ class FeatureView:
             本Mod为Diablo爱好者制作，请您酌情考虑使用。如果您使用后导致账号被Ban，本人概不负责！如果您很介意这一点，建议您不要使用！
             本Mod完全免费使用。添加收款码仅为接受用户自愿打赏，不会为任何打赏提供额外功能或优先服务，所有功能对所有用户公开且无条件。
             如果您是相关权利方并认为本项目中的内容侵犯了您的权益，请联系我们，我们将在第一时间内进行删除或调整。
-            Email: CMCC_1020@163.com
             感谢支持!
+
+QQ群: 808507013
+凯恩之角: https://bbs.d.163.com/forum.php?mod=viewthread&tid=175119207
+NGA: https://ngabbs.com/read.php?tid=46992063
+百度贴吧: https://tieba.baidu.com/p/10795801487
+踩蘑菇: https://www.caimogu.cc/post/2327837.html
+巴哈姆特: https://forum.gamer.com.tw/C.php?bsn=742&snA=510120
+Github: https://github.com/jcymeow/jcy
+Email: CMCC_1020@163.com
+            
         """.strip()
 
         text_box = scrolledtext.ScrolledText(donate_tab, wrap='word', height=15)
