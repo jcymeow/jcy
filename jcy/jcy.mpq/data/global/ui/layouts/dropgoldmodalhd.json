@@ -19,8 +19,7 @@
             "name": "ConfirmGold",
             "fields": {
                 "time": 0.001,
-                "message": "ModalMessage:Confirm",
-                "default": "ModalMessage:Confirm"
+                "message": "ModalMessage:Confirm"
             }
         },
         {

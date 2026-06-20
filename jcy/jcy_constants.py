@@ -1409,7 +1409,6 @@ class Function(Enum):
     LOCAL_DATE_FORMAT_TIMESTAMP = "LocalDateFormatTimestamp"
     LOCAL_DIABLO_CLONE_ADD_PROGRESS = "LocalDiabloCloneAddProgress"
     LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
-    LAYOUTS_BANK_CONFIRM_GOLD = "LayoutsBankConfirmGold"
     SPRITE_CUBE_TRANSPARENT = "SpriteCubeTransparent"
     MONSTER_HERALD_ADD_LEVEL = "MonsterHeraldAddLevel"
     OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT = "ObjectsIceCaveEvilUrnAddLight"

@@ -985,13 +985,6 @@ class FeatureConfig:
                             "event": "联动打开迷你盒子"
                         },
                         {
-                            "fid": Function.LAYOUTS_BANK_CONFIRM_GOLD.value,
-                            "type": SWITCH,
-                            "category": "布局",
-                            "target": "储物箱",
-                            "event": "快速存/取款"
-                        },
-                        {
                             "fid": Function.SPRITE_CUBE_TRANSPARENT.value,
                             "type": SWITCH,
                             "category": "精灵图",

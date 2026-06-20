@@ -3197,8 +3197,11 @@ class FileOperations:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)
             funcs.append((1, 1))
 
-        # --- 开启 储物箱特效: 共享仓库直达+融合仓库 ---
-        banks = [r"data/global/ui/layouts/bankexpansionlayouthd.json"]
+        # --- 开启 储物箱特效: 快速存取+共享仓库直达+融合仓库 ---
+        banks = [
+            r"data/global/ui/layouts/bankexpansionlayouthd.json",
+            r"data/global/ui/layouts/dropgoldmodalhd.json"
+        ]
         funcs.append(self.common_rename(banks, "5" in keys_set))
 
         # --- 开启 Alt提示 ---
@@ -3944,32 +3947,6 @@ class FileOperations:
 
             for child in json_data["children"]:
                 if "OpenJcyMiniCube" == child.get("name"):
-                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
-                    break
-            
-            with open(json_path, 'w', encoding="utf-8") as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)
-
-            count += 1            
-        except Exception as e:
-            print(e)
-        return count, total
-
-
-    def switch_confirm_gold(self, value):
-        """布局.储物箱.快速存/取款"""
-        count = 0
-        total = 1
-
-        try:
-            # 1.jcy\jcy.mpq\data\global\ui\layouts\dropgoldmodalhd.json
-            json_data = None
-            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/dropgoldmodalhd.json")
-            with open(json_path, "r", encoding="utf-8") as f:
-                json_data = json.load(f)
-
-            for child in json_data["children"]:
-                if "ConfirmGold" == child.get("name"):
                     child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
                     break
             
