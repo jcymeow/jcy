@@ -134,7 +134,7 @@
                         "onClickMessage": "ModalMessage:Confirm:mods\\jcy\\sync_data_version_for_global_server.bat",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEMultiLineButtonText",
-                        "textString": "国际服_更新资料版本"
+                        "textString": "更新资料版本For国际服"
                     }
                 },
                 {
@@ -151,7 +151,24 @@
                         "onClickMessage": "ModalMessage:Confirm:mods\\jcy\\sync_data_version_for_chinese_server.bat",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEMultiLineButtonText",
-                        "textString": "国服_更新资料版本"
+                        "textString": "更新资料版本For国服"
+                    }
+                },
+                {
+                    "type": "ButtonWidget",
+                    "name": "SyncChineseDataVersion",
+                    "fields": {
+                        "rect": {
+                            "x": 790,
+                            "y": 550
+                        },
+                        "filename": "Panel\\Modals\\ModalButton",
+                        "focusIndicatorFilename": "Controller/HoverImages/ModalButton_NoGap_Hover",
+                        "hoveredFrame": 3,
+                        "onClickMessage": "ModalMessage:Confirm:mods\\jcy\\jcy.mpq\\data\\global\\dataversionbuild.txt",
+                        "textColor": "$LightButtonTextColor",
+                        "text/style": "$StyleFEMultiLineButtonText",
+                        "textString": "手动修改资料版本"
                     }
                 },
                 {
