@@ -11972,7 +11972,6 @@ markbear_off	11969		sfx/items_hd	skill\markbear_off.flac	0	0	0	0	0	255	255	100	1
 diadem	11970		sfx/items_hd	item\diadem.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 mephisto_key	11971		sfx/items_hd	item\torch_key.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	1	0	0	1	0	90	100	0	0	0	0	0	-1	-1	-1	0	0	
 fade_off	11972		sfx/items_hd	skill\fade_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
-unique_death	11973		sfx/items_hd	monster\unique_death.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 psychicward_off	11974		sfx/items_hd	skill\psychicward_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 eldritchblastperiodic_off	11975		sfx/items_hd	skill\eldritchblastperiodic_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 hexbane_off	11976		sfx/items_hd	skill\hexbane_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
