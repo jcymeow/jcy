@@ -1494,13 +1494,11 @@ class FileOperations:
                         if set_max:
                             max = data.get(lng, {}).get("max")
                             if max:
-                                arr.append(f"ÿc1[{max}]\n")
+                                arr.append(f"[{max}]\n")
                         if set_mark:
                             mark = data.get(lng, {}).get("mark")
                             if mark:
-                                arr.append(f"ÿc2{mark}\n")
-                        if len(arr) > 0:
-                            arr.append("ÿc2")
+                                arr.append(f"{mark}\n")
                         arr.append(item.get(lng))
                         if set_enus and lng != Language.ENUS.value:
                             arr.append(f" {item.get(Language.ENUS.value)}")

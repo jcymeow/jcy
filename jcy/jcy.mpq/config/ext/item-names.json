@@ -6602,12 +6602,12 @@
     "Civerb's Ward": {
         "id": 10122,
         "Key": "Civerb's Ward",
-        "enUS": "Civerb's Ward",
-        "zhTW": "克維雷布的防護",
-        "zhCN": "希弗伯的防护",
-        "sgCN": "希弗柏的防护",
-        "sgTW": "希弗柏的防護",
-        "bnCN": "希弗伯的防护"
+        "enUS": "[DEF29]\nCiverb's Ward",
+        "zhTW": "[防禦29]\n克維雷布的防護",
+        "zhCN": "[防御29]\n希弗伯的防护",
+        "sgCN": "[防御29]\n希弗柏的防护",
+        "sgTW": "[防禦29]\n希弗柏的防護",
+        "bnCN": "[防御29]\n希弗伯的防护"
     },
     "Civerb's Icon": {
         "id": 10123,
@@ -6622,32 +6622,32 @@
     "Civerb's Cudgel": {
         "id": 10124,
         "Key": "Civerb's Cudgel",
-        "enUS": "Civerb's Cudgel",
-        "zhTW": "克維雷布的短棍",
-        "zhCN": "希弗伯的短棍",
-        "sgCN": "希弗伯的短棍",
-        "sgTW": "希弗柏的短棍",
-        "bnCN": "希弗伯的短棍"
+        "enUS": "[23MAX]\nCiverb's Cudgel",
+        "zhTW": "[23MAX]\n克維雷布的短棍",
+        "zhCN": "[23MAX]\n希弗伯的短棍",
+        "sgCN": "[23MAX]\n希弗伯的短棍",
+        "sgTW": "[23MAX]\n希弗柏的短棍",
+        "bnCN": "[23MAX]\n希弗伯的短棍"
     },
     "Hsarus' Iron Heel": {
         "id": 10125,
         "Key": "Hsarus' Iron Heel",
-        "enUS": "Hsarus' Iron Heel",
-        "zhTW": "海沙魯的鐵跟",
-        "zhCN": "萨鲁斯的铁踵",
-        "sgCN": "哈斯拉柏的铁后跟",
-        "sgTW": "哈斯拉柏的鐵後跟",
-        "bnCN": "萨鲁斯的铁踵"
+        "enUS": "[DEF9]\nHsarus' Iron Heel",
+        "zhTW": "[防禦9]\n海沙魯的鐵跟",
+        "zhCN": "[防御9]\n萨鲁斯的铁踵",
+        "sgCN": "[防御9]\n哈斯拉柏的铁后跟",
+        "sgTW": "[防禦9]\n哈斯拉柏的鐵後跟",
+        "bnCN": "[防御9]\n萨鲁斯的铁踵"
     },
     "Hsarus' Iron Fist": {
         "id": 10126,
         "Key": "Hsarus' Iron Fist",
-        "enUS": "Hsarus' Iron Fist",
-        "zhTW": "海沙魯的鐵拳",
-        "zhCN": "萨鲁斯的铁拳",
-        "sgCN": "哈斯拉柏的铁拳",
-        "sgTW": "哈斯拉柏的鐵拳",
-        "bnCN": "萨鲁斯的铁拳"
+        "enUS": "[BaseDEF6]\nHsarus' Iron Fist",
+        "zhTW": "[基本防禦6]\n海沙魯的鐵拳",
+        "zhCN": "[基本防御6]\n萨鲁斯的铁拳",
+        "sgCN": "[基本防御6]\n哈斯拉柏的铁拳",
+        "sgTW": "[基本防禦6]\n哈斯拉柏的鐵拳",
+        "bnCN": "[基本防御6]\n萨鲁斯的铁拳"
     },
     "Hsarus' Iron Stay": {
         "id": 10127,
@@ -6672,22 +6672,22 @@
     "Cleglaw's Claw": {
         "id": 10129,
         "Key": "Cleglaw's Claw",
-        "enUS": "Cleglaw's Claw",
-        "zhTW": "克雷德勞之爪",
-        "zhCN": "克雷格劳之爪",
-        "sgCN": "克雷得劳之爪",
-        "sgTW": "克雷得勞之爪",
-        "bnCN": "克雷格劳之爪"
+        "enUS": "[DEF27]\nCleglaw's Claw",
+        "zhTW": "[防禦27]\n克雷德勞之爪",
+        "zhCN": "[防御27]\n克雷格劳之爪",
+        "sgCN": "[防御27]\n克雷得劳之爪",
+        "sgTW": "[防禦27]\n克雷得勞之爪",
+        "bnCN": "[防御27]\n克雷格劳之爪"
     },
     "Cleglaw's Pincers": {
         "id": 10130,
         "Key": "Cleglaw's Pincers",
-        "enUS": "Cleglaw's Pincers",
-        "zhTW": "克雷德勞之鉗",
-        "zhCN": "克雷格劳之钳",
-        "sgCN": "克雷得劳之钳",
-        "sgTW": "克雷得勞之鉗",
-        "bnCN": "克雷格劳之钳"
+        "enUS": "[DEF9]\nCleglaw's Pincers",
+        "zhTW": "[防禦9]\n克雷德勞之鉗",
+        "zhCN": "[防御9]\n克雷格劳之钳",
+        "sgCN": "[防御9]\n克雷得劳之钳",
+        "sgTW": "[防禦9]\n克雷得勞之鉗",
+        "bnCN": "[防御9]\n克雷格劳之钳"
     },
     "Iratha's Cord": {
         "id": 10131,
@@ -6702,22 +6702,22 @@
     "Iratha's Coil": {
         "id": 10132,
         "Key": "Iratha's Coil",
-        "enUS": "Iratha's Coil",
-        "zhTW": "依雷撒的盤頂",
-        "zhCN": "艾蕾萨的铁围盔",
-        "sgCN": "依雷撒的线圈",
-        "sgTW": "依雷撒的線圈",
-        "bnCN": "艾蕾萨的铁围盔"
+        "enUS": "[BaseDEF45]\nIratha's Coil",
+        "zhTW": "[基本防禦45]\n依雷撒的盤頂",
+        "zhCN": "[基本防御45]\n艾蕾萨的铁围盔",
+        "sgCN": "[基本防御45]\n依雷撒的线圈",
+        "sgTW": "[基本防禦45]\n依雷撒的線圈",
+        "bnCN": "[基本防御45]\n艾蕾萨的铁围盔"
     },
     "Iratha's Cuff": {
         "id": 10133,
         "Key": "Iratha's Cuff",
-        "enUS": "Iratha's Cuff",
-        "zhTW": "依雷撒的袖銬",
-        "zhCN": "艾蕾萨的袖手套",
-        "sgCN": "依雷撒的袖口",
-        "sgTW": "依雷撒的袖口",
-        "bnCN": "艾蕾萨的袖手套"
+        "enUS": "[DEF11]\nIratha's Cuff",
+        "zhTW": "[防禦11]\n依雷撒的袖銬",
+        "zhCN": "[防御11]\n艾蕾萨的袖手套",
+        "sgCN": "[防御11]\n依雷撒的袖口",
+        "sgTW": "[防禦11]\n依雷撒的袖口",
+        "bnCN": "[防御11]\n艾蕾萨的袖手套"
     },
     "Iratha's Collar": {
         "id": 10134,
@@ -6732,32 +6732,32 @@
     "Isenhart's Horns": {
         "id": 10135,
         "Key": "Isenhart's Horns",
-        "enUS": "Isenhart's Horns",
-        "zhTW": "依森哈特的角盔",
-        "zhCN": "依森哈特的号角",
-        "sgCN": "依森哈德的号角",
-        "sgTW": "依森哈德的號角",
-        "bnCN": "依森哈特的号角"
+        "enUS": "[DEF26]\nIsenhart's Horns",
+        "zhTW": "[防禦26]\n依森哈特的角盔",
+        "zhCN": "[防御26]\n依森哈特的号角",
+        "sgCN": "[防御26]\n依森哈德的号角",
+        "sgTW": "[防禦26]\n依森哈德的號角",
+        "bnCN": "[防御26]\n依森哈特的号角"
     },
     "Isenhart's Case": {
         "id": 10136,
         "Key": "Isenhart's Case",
-        "enUS": "Isenhart's Case",
-        "zhTW": "依森哈特的外殼",
-        "zhCN": "依森哈特的胸胄",
-        "sgCN": "依森哈德的外壳",
-        "sgTW": "依森哈德的外殼",
-        "bnCN": "依森哈特的胸胄"
+        "enUS": "[BaseDEF68]\nIsenhart's Case",
+        "zhTW": "[基本防禦68]\n依森哈特的外殼",
+        "zhCN": "[基本防御68]\n依森哈特的胸胄",
+        "sgCN": "[基本防御68]\n依森哈德的外壳",
+        "sgTW": "[基本防禦68]\n依森哈德的外殼",
+        "bnCN": "[基本防御68]\n依森哈特的胸胄"
     },
     "Isenhart's Parry": {
         "id": 10137,
         "Key": "Isenhart's Parry",
-        "enUS": "Isenhart's Parry",
-        "zhTW": "依森哈特的招架",
-        "zhCN": "依森哈特的格挡",
-        "sgCN": "依森哈德的闪避",
-        "sgTW": "依森哈德的閃避",
-        "bnCN": "依森哈特的格挡"
+        "enUS": "[DEF75]\nIsenhart's Parry",
+        "zhTW": "[防禦75]\n依森哈特的招架",
+        "zhCN": "[防御75]\n依森哈特的格挡",
+        "sgCN": "[防御75]\n依森哈德的闪避",
+        "sgTW": "[防禦75]\n依森哈德的閃避",
+        "bnCN": "[防御75]\n依森哈特的格挡"
     },
     "Isenhart's Lightbrand": {
         "id": 10138,
@@ -6782,22 +6782,22 @@
     "Vidala's Ambush": {
         "id": 10140,
         "Key": "Vidala's Ambush",
-        "enUS": "Vidala's Ambush",
-        "zhTW": "維達拉的突襲",
-        "zhCN": "维达拉的突袭",
-        "sgCN": "维达拉的突袭",
-        "sgTW": "維達拉的突襲",
-        "bnCN": "维达拉的突袭"
+        "enUS": "[BaseDEF17]\nVidala's Ambush",
+        "zhTW": "[基本防禦17]\n維達拉的突襲",
+        "zhCN": "[基本防御17]\n维达拉的突袭",
+        "sgCN": "[基本防御17]\n维达拉的突袭",
+        "sgTW": "[基本防禦17]\n維達拉的突襲",
+        "bnCN": "[基本防御17]\n维达拉的突袭"
     },
     "Vidala's Fetlock": {
         "id": 10141,
         "Key": "Vidala's Fetlock",
-        "enUS": "Vidala's Fetlock",
-        "zhTW": "維達拉的足距",
-        "zhCN": "维达拉的扣带靴",
-        "sgCN": "维达拉的距毛",
-        "sgTW": "維達拉的距毛",
-        "bnCN": "维达拉的扣带靴"
+        "enUS": "[DEF11]\nVidala's Fetlock",
+        "zhTW": "[防禦11]\n維達拉的足距",
+        "zhCN": "[防御11]\n维达拉的扣带靴",
+        "sgCN": "[防御11]\n维达拉的距毛",
+        "sgTW": "[防禦11]\n維達拉的距毛",
+        "bnCN": "[防御11]\n维达拉的扣带靴"
     },
     "Vidala's Barb": {
         "id": 10142,
@@ -6822,12 +6822,12 @@
     "Milabrega's Diadem": {
         "id": 10144,
         "Key": "Milabrega's Diadem",
-        "enUS": "Milabrega's Diadem",
-        "zhTW": "米拉伯佳權冠",
-        "zhCN": "米拉伯佳的权冠",
-        "sgCN": "米拉伯佳的王冠",
-        "sgTW": "米拉伯佳的王冠",
-        "bnCN": "米拉伯佳的权冠"
+        "enUS": "[DEF45]\nMilabrega's Diadem",
+        "zhTW": "[防禦45]\n米拉伯佳權冠",
+        "zhCN": "[防御45]\n米拉伯佳的权冠",
+        "sgCN": "[防御45]\n米拉伯佳的王冠",
+        "sgTW": "[防禦45]\n米拉伯佳的王冠",
+        "bnCN": "[防御45]\n米拉伯佳的权冠"
     },
     "Milabrega's Rod": {
         "id": 10145,
@@ -6872,22 +6872,22 @@
     "Cathan's Visage": {
         "id": 10149,
         "Key": "Cathan's Visage",
-        "enUS": "Cathan's Visage",
-        "zhTW": "卡珊的容貌",
-        "zhCN": "卡珊的面甲",
-        "sgCN": "卡珊的容貌",
-        "sgTW": "卡珊的容貌",
-        "bnCN": "卡珊的面甲"
+        "enUS": "[BaseDEF27]\nCathan's Visage",
+        "zhTW": "[基本防禦27]\n卡珊的容貌",
+        "zhCN": "[基本防御27]\n卡珊的面甲",
+        "sgCN": "[基本防御27]\n卡珊的容貌",
+        "sgTW": "[基本防禦27]\n卡珊的容貌",
+        "bnCN": "[基本防御27]\n卡珊的面甲"
     },
     "Cathan's Mesh": {
         "id": 10150,
         "Key": "Cathan's Mesh",
-        "enUS": "Cathan's Mesh",
-        "zhTW": "卡珊的網衣",
-        "zhCN": "卡珊的札甲",
-        "sgCN": "卡珊之网",
-        "sgTW": "卡珊之網",
-        "bnCN": "卡珊的札甲"
+        "enUS": "[DEF90]\nCathan's Mesh",
+        "zhTW": "[防禦90]\n卡珊的網衣",
+        "zhCN": "[防御90]\n卡珊的札甲",
+        "sgCN": "[防御90]\n卡珊之网",
+        "sgTW": "[防禦90]\n卡珊之網",
+        "bnCN": "[防御90]\n卡珊的札甲"
     },
     "Cathan's Rule": {
         "id": 10151,
@@ -6912,22 +6912,22 @@
     "Tancred's Spine": {
         "id": 10153,
         "Key": "Tancred's Spine",
-        "enUS": "Tancred's Spine",
-        "zhTW": "坦克雷的脊柱",
-        "zhCN": "坦克雷的脊柱",
-        "sgCN": "坦克雷的脊柱",
-        "sgTW": "坦克雷的脊柱",
-        "bnCN": "坦克雷的脊柱"
+        "enUS": "[BaseDEF161]\nTancred's Spine",
+        "zhTW": "[基本防禦161]\n坦克雷的脊柱",
+        "zhCN": "[基本防御161]\n坦克雷的脊柱",
+        "sgCN": "[基本防御161]\n坦克雷的脊柱",
+        "sgTW": "[基本防禦161]\n坦克雷的脊柱",
+        "bnCN": "[基本防御161]\n坦克雷的脊柱"
     },
     "Tancred's Hobnails": {
         "id": 10154,
         "Key": "Tancred's Hobnails",
-        "enUS": "Tancred's Hobnails",
-        "zhTW": "坦克雷的釘靴",
-        "zhCN": "坦克雷的钉头鞋",
-        "sgCN": "坦克雷的平头钉",
-        "sgTW": "坦克雷的平頭釘",
-        "bnCN": "坦克雷的钉头鞋"
+        "enUS": "[DEF3]\nTancred's Hobnails",
+        "zhTW": "[防禦3]\n坦克雷的釘靴",
+        "zhCN": "[防御3]\n坦克雷的钉头鞋",
+        "sgCN": "[防御3]\n坦克雷的平头钉",
+        "sgTW": "[防禦3]\n坦克雷的平頭釘",
+        "bnCN": "[防御3]\n坦克雷的钉头鞋"
     },
     "Tancred's Weird": {
         "id": 10155,
@@ -6942,22 +6942,22 @@
     "Tancred's Skull": {
         "id": 10156,
         "Key": "Tancred's Skull",
-        "enUS": "Tancred's Skull",
-        "zhTW": "坦克雷的顱骨",
-        "zhCN": "坦克雷的头骨",
-        "sgCN": "坦克雷之骷髅",
-        "sgTW": "坦克雷之骷髏",
-        "bnCN": "坦克雷的头骨"
+        "enUS": "[DEF36]\nTancred's Skull",
+        "zhTW": "[防禦36]\n坦克雷的顱骨",
+        "zhCN": "[防御36]\n坦克雷的头骨",
+        "sgCN": "[防御36]\n坦克雷之骷髅",
+        "sgTW": "[防禦36]\n坦克雷之骷髏",
+        "bnCN": "[防御36]\n坦克雷的头骨"
     },
     "Sigon's Visor": {
         "id": 10157,
         "Key": "Sigon's Visor",
-        "enUS": "Sigon's Visor",
-        "zhTW": "西剛的護面",
-        "zhCN": "西刚的面甲",
-        "sgCN": "西刚之面甲",
-        "sgTW": "西剛之面甲",
-        "bnCN": "西刚的面甲"
+        "enUS": "[DEF60]\nSigon's Visor",
+        "zhTW": "[防御60]\n西剛的護面",
+        "zhCN": "[防禦60]\n西刚的面甲",
+        "sgCN": "[防禦60]\n西刚之面甲",
+        "sgTW": "[防御60]\n西剛之面甲",
+        "bnCN": "[防禦60]\n西刚的面甲"
     },
     "Sigon's Shelter": {
         "id": 10158,
@@ -6972,42 +6972,42 @@
     "Sigon's Gage": {
         "id": 10159,
         "Key": "Sigon's Gage",
-        "enUS": "Sigon's Gage",
-        "zhTW": "西剛的挑戰",
-        "zhCN": "西刚的挑战",
-        "sgCN": "西刚的挑战",
-        "sgTW": "西剛的挑戰",
-        "bnCN": "西刚的挑战"
+        "enUS": "[DEF15]\nSigon's Gage",
+        "zhTW": "[防禦15]\n西剛的挑戰",
+        "zhCN": "[防御15]\n西刚的挑战",
+        "sgCN": "[防御15]\n西刚的挑战",
+        "sgTW": "[防禦15]\n西剛的挑戰",
+        "bnCN": "[防御15]\n西刚的挑战"
     },
     "Sigon's Sabot": {
         "id": 10160,
         "Key": "Sigon's Sabot",
-        "enUS": "Sigon's Sabot",
-        "zhTW": "西剛的硬靴",
-        "zhCN": "西刚的木底鞋",
-        "sgCN": "西刚的木鞋",
-        "sgTW": "西剛的木靴",
-        "bnCN": "西刚的木底鞋"
+        "enUS": "[DEF15]\nSigon's Sabot",
+        "zhTW": "[防禦15]\n西剛的硬靴",
+        "zhCN": "[防御15]\n西刚的木底鞋",
+        "sgCN": "[防御15]\n西刚的木鞋",
+        "sgTW": "[防禦15]\n西剛的木靴",
+        "bnCN": "[防御15]\n西刚的木底鞋"
     },
     "Sigon's Wrap": {
         "id": 10161,
         "Key": "Sigon's Wrap",
-        "enUS": "Sigon's Wrap",
-        "zhTW": "西剛的裹腰",
-        "zhCN": "西刚的腰带",
-        "sgCN": "西刚的披肩",
-        "sgTW": "西剛的披肩",
-        "bnCN": "西刚的腰带"
+        "enUS": "[BaseDEF11]\nSigon's Wrap",
+        "zhTW": "[基本防禦11]\n西剛的裹腰",
+        "zhCN": "[基本防御11]\n西刚的腰带",
+        "sgCN": "[基本防御11]\n西刚的披肩",
+        "sgTW": "[基本防禦11]\n西剛的披肩",
+        "bnCN": "[基本防御11]\n西刚的腰带"
     },
     "Sigon's Guard": {
         "id": 10162,
         "Key": "Sigon's Guard",
-        "enUS": "Sigon's Guard",
-        "zhTW": "西剛的守護",
-        "zhCN": "西刚的守护",
-        "sgCN": "西刚的守护",
-        "sgTW": "西剛的守護",
-        "bnCN": "西刚的守护"
+        "enUS": "[DEF25]\nSigon's Guard",
+        "zhTW": "[防禦25]\n西剛的守護",
+        "zhCN": "[防御25]\n西刚的守护",
+        "sgCN": "[防御25]\n西刚的守护",
+        "sgTW": "[防禦25]\n西剛的守護",
+        "bnCN": "[防御25]\n西刚的守护"
     },
     "Infernal Cranium": {
         "id": 10163,
@@ -7042,22 +7042,22 @@
     "Berserker's Headgear": {
         "id": 10166,
         "Key": "Berserker's Headgear",
-        "enUS": "Berserker's Headgear",
-        "zhTW": "狂戰士頭盔",
-        "zhCN": "狂战士的头盔",
-        "sgCN": "狂战士的头戴",
-        "sgTW": "狂戰士的頭戴",
-        "bnCN": "狂战士的头盔"
+        "enUS": "[DEF33]\nBerserker's Headgear",
+        "zhTW": "[防禦33]\n狂戰士頭盔",
+        "zhCN": "[防御33]\n狂战士的头盔",
+        "sgCN": "[防御33]\n狂战士的头戴",
+        "sgTW": "[防禦33]\n狂戰士的頭戴",
+        "bnCN": "[防御33]\n狂战士的头盔"
     },
     "Berserker's Hauberk": {
         "id": 10167,
         "Key": "Berserker's Hauberk",
-        "enUS": "Berserker's Hauberk",
-        "zhTW": "狂戰士鎖子甲",
-        "zhCN": "狂战士的半身甲",
-        "sgCN": "狂战士的锁子甲",
-        "sgTW": "狂戰士的鎖子甲",
-        "bnCN": "狂战士的半身甲"
+        "enUS": "[BaseDEF95]\nBerserker's Hauberk",
+        "zhTW": "[基本防禦95]\n狂戰士鎖子甲",
+        "zhCN": "[基本防御95]\n狂战士的半身甲",
+        "sgCN": "[基本防御95]\n狂战士的锁子甲",
+        "sgTW": "[基本防禦95]\n狂戰士的鎖子甲",
+        "bnCN": "[基本防御95]\n狂战士的半身甲"
     },
     "Berserker's Hatchet": {
         "id": 10168,
@@ -7072,12 +7072,12 @@
     "Death's Hand": {
         "id": 10169,
         "Key": "Death's Hand",
-        "enUS": "Death's Hand",
-        "zhTW": "死亡之手",
-        "zhCN": "死神之手",
-        "sgCN": "死亡之手",
-        "sgTW": "死亡之手",
-        "bnCN": "死神之手"
+        "enUS": "[DEF3]\nDeath's Hand",
+        "zhTW": "[防禦3]\n死亡之手",
+        "zhCN": "[防御3]\n死神之手",
+        "sgCN": "[防御3]\n死亡之手",
+        "sgTW": "[防禦3]\n死亡之手",
+        "bnCN": "[防御3]\n死神之手"
     },
     "Death's Guard": {
         "id": 10170,
@@ -7152,12 +7152,12 @@
     "Arctic Furs": {
         "id": 10177,
         "Key": "Arctic Furs",
-        "enUS": "Arctic Furs",
-        "zhTW": "北極毛皮",
-        "zhCN": "北极毛皮",
-        "sgCN": "北极毛皮",
-        "sgTW": "北極毛皮",
-        "bnCN": "北极毛皮"
+        "enUS": "[325ED]\nArctic Furs",
+        "zhTW": "[325ED]\n北極毛皮",
+        "zhCN": "[325ED]\n北极毛皮",
+        "sgCN": "[325ED]\n北极毛皮",
+        "sgTW": "[325ED]\n北極毛皮",
+        "bnCN": "[325ED]\n北极毛皮"
     },
     "Arctic Binding": {
         "id": 10178,
@@ -7172,12 +7172,12 @@
     "Arctic Mitts": {
         "id": 10179,
         "Key": "Arctic Mitts",
-        "enUS": "Arctic Mitts",
-        "zhTW": "北極手套",
-        "zhCN": "北极手套",
-        "sgCN": "北极手套",
-        "sgTW": "北極手套",
-        "bnCN": "北极手套"
+        "enUS": "[DEF11]\nArctic Mitts",
+        "zhTW": "[防禦11]\n北極手套",
+        "zhCN": "[防御11]\n北极手套",
+        "sgCN": "[防御11]\n北极手套",
+        "sgTW": "[防禦11]\n北極手套",
+        "bnCN": "[防御11]\n北极手套"
     },
     "Arcanna's Sign": {
         "id": 10180,
@@ -7202,22 +7202,22 @@
     "Arcanna's Head": {
         "id": 10182,
         "Key": "Arcanna's Head",
-        "enUS": "Arcanna's Head",
-        "zhTW": "阿卡娜的頭",
-        "zhCN": "阿卡娜的头",
-        "sgCN": "阿卡娜的头",
-        "sgTW": "阿卡娜的頭",
-        "bnCN": "阿卡娜的头"
+        "enUS": "[BaseDEF11]\nArcanna's Head",
+        "zhTW": "[基本防禦11]\n阿卡娜的頭",
+        "zhCN": "[基本防御11]\n阿卡娜的头",
+        "sgCN": "[基本防御11]\n阿卡娜的头",
+        "sgTW": "[基本防禦11]\n阿卡娜的頭",
+        "bnCN": "[基本防御11]\n阿卡娜的头"
     },
     "Arcanna's Flesh": {
         "id": 10183,
         "Key": "Arcanna's Flesh",
-        "enUS": "Arcanna's Flesh",
-        "zhTW": "阿卡娜的血肉",
-        "zhCN": "阿卡娜的血肉",
-        "sgCN": "阿卡娜的血肉",
-        "sgTW": "阿卡娜的血肉",
-        "bnCN": "阿卡娜的血肉"
+        "enUS": "[BaseDEF107]\nArcanna's Flesh",
+        "zhTW": "[基本防禦107]\n阿卡娜的血肉",
+        "zhCN": "[基本防御107]\n阿卡娜的血肉",
+        "sgCN": "[基本防御107]\n阿卡娜的血肉",
+        "sgTW": "[基本防禦107]\n阿卡娜的血肉",
+        "bnCN": "[基本防御107]\n阿卡娜的血肉"
     },
     "Whichwild String": {
         "id": 10911,
@@ -13732,22 +13732,22 @@
     "Trang-Oul's Guise": {
         "id": 21661,
         "Key": "Trang-Oul's Guise",
-        "enUS": "Trang-Oul's Guise",
-        "zhTW": "塔格奧之容",
-        "zhCN": "塔格奥的伪装",
-        "sgCN": "塔格奥之外装",
-        "sgTW": "塔格奧之外裝",
-        "bnCN": "塔格奥的伪装"
+        "enUS": "[DEF257/100DEF]\nTrang-Oul's Guise",
+        "zhTW": "[防禦257/100DEF]\n塔格奧之容",
+        "zhCN": "[防御257/100DEF]\n塔格奥的伪装",
+        "sgCN": "[防御257/100DEF]\n塔格奥之外装",
+        "sgTW": "[防禦257/100DEF]\n塔格奧之外裝",
+        "bnCN": "[防御257/100DEF]\n塔格奥的伪装"
     },
     "Trang-Oul's Wing": {
         "id": 21662,
         "Key": "Trang-Oul's Wing",
-        "enUS": "Trang-Oul's Wing",
-        "zhTW": "塔格奧之翼",
-        "zhCN": "塔格奥的飞翼",
-        "sgCN": "塔格奥之翼",
-        "sgTW": "塔格奧之翼",
-        "bnCN": "塔格奥的飞翼"
+        "enUS": "[DEF189/45FR]\nTrang-Oul's Wing",
+        "zhTW": "[防禦189/45FR]\n塔格奧之翼",
+        "zhCN": "[防御189/45FR]\n塔格奥的飞翼",
+        "sgCN": "[防御189/45FR]\n塔格奥之翼",
+        "sgTW": "[防禦189/45FR]\n塔格奧之翼",
+        "bnCN": "[防御189/45FR]\n塔格奥的飞翼"
     },
     "Trang-Oul's Mask": {
         "id": 21663,
@@ -13772,22 +13772,22 @@
     "Trang-Oul's Claws": {
         "id": 21665,
         "Key": "Trang-Oul's Claws",
-        "enUS": "Trang-Oul's Claws",
-        "zhTW": "塔格奧之爪",
-        "zhCN": "塔格奥的利爪",
-        "sgCN": "塔格奥之手",
-        "sgTW": "塔格奧之手",
-        "bnCN": "塔格奥的利爪"
+        "enUS": "[DEF74]\nTrang-Oul's Claws",
+        "zhTW": "[防禦74]\n塔格奧之爪",
+        "zhCN": "[防御74]\n塔格奥的利爪",
+        "sgCN": "[防御74]\n塔格奥之手",
+        "sgTW": "[防禦74]\n塔格奧之手",
+        "bnCN": "[防御74]\n塔格奥的利爪"
     },
     "Trang-Oul's Girth": {
         "id": 21666,
         "Key": "Trang-Oul's Girth",
-        "enUS": "Trang-Oul's Girth",
-        "zhTW": "塔格奧之腹",
-        "zhCN": "塔格奥的肚带",
-        "sgCN": "塔格奥之束带",
-        "sgTW": "塔格奧之束帶",
-        "bnCN": "塔格奥的肚带"
+        "enUS": "[DEF166/100DEF/50Mana]\nTrang-Oul's Girth",
+        "zhTW": "[防禦166/100DEF/50Mana]\n塔格奧之腹",
+        "zhCN": "[防御166/100DEF/50Mana]\n塔格奥的肚带",
+        "sgCN": "[防御166/100DEF/50Mana]\n塔格奥之束带",
+        "sgTW": "[防禦166/100DEF/50Mana]\n塔格奧之束帶",
+        "bnCN": "[防御166/100DEF/50Mana]\n塔格奥的肚带"
     },
     "Natalya's Odium": {
         "id": 21667,
@@ -13802,12 +13802,12 @@
     "Natalya's Totem": {
         "id": 21668,
         "Key": "Natalya's Totem",
-        "enUS": "Natalya's Totem",
-        "zhTW": "娜塔亞的圖騰",
-        "zhCN": "娜塔亚的徽记",
-        "sgCN": "娜塔亚的图腾",
-        "sgTW": "娜塔亞的圖騰",
-        "bnCN": "娜塔亚的徽记"
+        "enUS": "[DEF300/175DEF/20STR/30DEX/20RES]\nNatalya's Totem",
+        "zhTW": "[防禦300/175DEF/20STR/30DEX/20RES]\n娜塔亞的圖騰",
+        "zhCN": "[防御300/175DEF/20STR/30DEX/20RES]\n娜塔亚的徽记",
+        "sgCN": "[防御300/175DEF/20STR/30DEX/20RES]\n娜塔亚的图腾",
+        "sgTW": "[防禦300/175DEF/20STR/30DEX/20RES]\n娜塔亞的圖騰",
+        "bnCN": "[防御300/175DEF/20STR/30DEX/20RES]\n娜塔亚的徽记"
     },
     "Natalya's Mark": {
         "id": 21669,
@@ -13822,22 +13822,22 @@
     "Natalya's Shadow": {
         "id": 21670,
         "Key": "Natalya's Shadow",
-        "enUS": "Natalya's Shadow",
-        "zhTW": "娜塔亞的影子",
-        "zhCN": "娜塔亚的阴影",
-        "sgCN": "娜塔亚的影子",
-        "sgTW": "娜塔亞的影子",
-        "bnCN": "娜塔亚的阴影"
+        "enUS": "[DEF721/225DEF/3S]\nNatalya's Shadow",
+        "zhTW": "[防禦721/225DEF/3S]\n娜塔亞的影子",
+        "zhCN": "[防御721/225DEF/3S]\n娜塔亚的阴影",
+        "sgCN": "[防御721/225DEF/3S]\n娜塔亚的影子",
+        "sgTW": "[防禦721/225DEF/3S]\n娜塔亞的影子",
+        "bnCN": "[防御721/225DEF/3S]\n娜塔亚的阴影"
     },
     "Natalya's Soul": {
         "id": 21671,
         "Key": "Natalya's Soul",
-        "enUS": "Natalya's Soul",
-        "zhTW": "娜塔亞的靈魂",
-        "zhCN": "娜塔亚的灵魂",
-        "sgCN": "娜塔亚的灵魂",
-        "sgTW": "娜塔亞的靈魂",
-        "bnCN": "娜塔亚的灵魂"
+        "enUS": "[DEF169/125DEF/25CR/25LR]\nNatalya's Soul",
+        "zhTW": "[防御169/125DEF/25CR/25LR]\n娜塔亞的靈魂",
+        "zhCN": "[防禦169/125DEF/25CR/25LR]\n娜塔亚的灵魂",
+        "sgCN": "[防禦169/125DEF/25CR/25LR]\n娜塔亚的灵魂",
+        "sgTW": "[防御169/125DEF/25CR/25LR]\n娜塔亞的靈魂",
+        "bnCN": "[防禦169/125DEF/25CR/25LR]\n娜塔亚的灵魂"
     },
     "Griswold's Legacy": {
         "id": 21672,
@@ -13852,42 +13852,42 @@
     "Griswolds's Redemption": {
         "id": 21673,
         "Key": "Griswolds's Redemption",
-        "enUS": "Griswold's Redemption",
-        "zhTW": "格里斯瓦德的救贖",
-        "zhCN": "格里斯沃尔德的救赎",
-        "sgCN": "格瑞斯华尔德的救赎",
-        "sgTW": "格瑞斯華爾德的救贖",
-        "bnCN": "格里斯沃尔德的救赎"
+        "enUS": "[240ED/4S]\nGriswold's Redemption",
+        "zhTW": "[240ED/4S]\n格里斯瓦德的救贖",
+        "zhCN": "[240ED/4S]\n格里斯沃尔德的救赎",
+        "sgCN": "[240ED/4S]\n格瑞斯华尔德的救赎",
+        "sgTW": "[240ED/4S]\n格瑞斯華爾德的救贖",
+        "bnCN": "[240ED/4S]\n格里斯沃尔德的救赎"
     },
     "Griswold's Honor": {
         "id": 21674,
         "Key": "Griswold's Honor",
-        "enUS": "Griswold's Honor",
-        "zhTW": "格里斯瓦德的榮耀",
-        "zhCN": "格里斯沃尔德的荣耀",
-        "sgCN": "格瑞斯华尔德的荣耀",
-        "sgTW": "格瑞斯華爾德的榮耀",
-        "bnCN": "格里斯沃尔德的荣耀"
+        "enUS": "[DEF333]\nGriswold's Honor",
+        "zhTW": "[防禦333]\n格里斯瓦德的榮耀",
+        "zhCN": "[防御333]\n格里斯沃尔德的荣耀",
+        "sgCN": "[防御333]\n格瑞斯华尔德的荣耀",
+        "sgTW": "[防禦333]\n格瑞斯華爾德的榮耀",
+        "bnCN": "[防御333]\n格里斯沃尔德的荣耀"
     },
     "Griswold's Heart": {
         "id": 21675,
         "Key": "Griswold's Heart",
-        "enUS": "Griswold's Heart",
-        "zhTW": "格里斯瓦德之心",
-        "zhCN": "格里斯沃尔德的赤诚",
-        "sgCN": "格瑞斯华尔德之心",
-        "sgTW": "格瑞斯華爾德之心",
-        "bnCN": "格里斯沃尔德的赤诚"
+        "enUS": "[DEF950]\nGriswold's Heart",
+        "zhTW": "[防禦950]\n格里斯瓦德之心",
+        "zhCN": "[防御950]\n格里斯沃尔德的赤诚",
+        "sgCN": "[防御950]\n格瑞斯华尔德之心",
+        "sgTW": "[防禦950]\n格瑞斯華爾德之心",
+        "bnCN": "[防御950]\n格里斯沃尔德的赤诚"
     },
     "Griswold's Valor": {
         "id": 21676,
         "Key": "Griswold's Valor",
-        "enUS": "Griswold's Valor",
-        "zhTW": "格里斯瓦德的勇氣",
-        "zhCN": "格里斯沃尔德的勇气",
-        "sgCN": "格瑞斯华尔德的勇气",
-        "sgTW": "格瑞斯華爾德的勇氣",
-        "bnCN": "格里斯沃尔德的勇气"
+        "enUS": "[75EDef/30MF]\nGriswold's Valor",
+        "zhTW": "[75EDef/30MF]\n格里斯瓦德的勇氣",
+        "zhCN": "[75EDef/30MF]\n格里斯沃尔德的勇气",
+        "sgCN": "[75EDef/30MF]\n格瑞斯华尔德的勇气",
+        "sgTW": "[75EDef/30MF]\n格瑞斯華爾德的勇氣",
+        "bnCN": "[75EDef/30MF]\n格里斯沃尔德的勇气"
     },
     "Tang's Imperial Robes": {
         "id": 21677,
@@ -14092,22 +14092,22 @@
     "Aldur's Stony Gaze": {
         "id": 21697,
         "Key": "Aldur's Stony Gaze",
-        "enUS": "Aldur's Stony Gaze",
-        "zhTW": "艾爾多的冷酷凝視",
-        "zhCN": "艾尔多的冷酷凝视",
-        "sgCN": "艾尔多的冷酷凝视",
-        "sgTW": "艾爾多的冷酷凝視",
-        "bnCN": "艾尔多的冷酷凝视"
+        "enUS": "[DEF171/50CR]\nAldur's Stony Gaze",
+        "zhTW": "[防禦171/50CR]\n艾爾多的冷酷凝視",
+        "zhCN": "[防御171/50CR]\n艾尔多的冷酷凝视",
+        "sgCN": "[防御171/50CR]\n艾尔多的冷酷凝视",
+        "sgTW": "[防禦171/50CR]\n艾爾多的冷酷凝視",
+        "bnCN": "[防御171/50CR]\n艾尔多的冷酷凝视"
     },
     "Aldur's Deception": {
         "id": 21698,
         "Key": "Aldur's Deception",
-        "enUS": "Aldur's Deception",
-        "zhTW": "艾爾多的欺暪",
-        "zhCN": "艾尔多的欺骗",
-        "sgCN": "艾尔多的欺骗",
-        "sgTW": "艾爾多的欺暪",
-        "bnCN": "艾尔多的欺骗"
+        "enUS": "[DEF857/50LR]\nAldur's Deception",
+        "zhTW": "[防禦857/50LR]\n艾爾多的欺暪",
+        "zhCN": "[防御857/50LR]\n艾尔多的欺骗",
+        "sgCN": "[防御857/50LR]\n艾尔多的欺骗",
+        "sgTW": "[防禦857/50LR]\n艾爾多的欺暪",
+        "bnCN": "[防御857/50LR]\n艾尔多的欺骗"
     },
     "Aldur's Guantlet": {
         "id": 21699,
@@ -14122,12 +14122,12 @@
     "Aldur's Advance": {
         "id": 21700,
         "Key": "Aldur's Advance",
-        "enUS": "Aldur's Advance",
-        "zhTW": "艾爾多的進擊",
-        "zhCN": "艾尔多的成长",
-        "sgCN": "艾尔多的成长",
-        "sgTW": "艾爾多的成長",
-        "bnCN": "艾尔多的成长"
+        "enUS": "[DEF47/50FR]\nAldur's Advance",
+        "zhTW": "[防禦47/50FR]\n艾爾多的進擊",
+        "zhCN": "[防御47/50FR]\n艾尔多的成长",
+        "sgCN": "[防御47/50FR]\n艾尔多的成长",
+        "sgTW": "[防禦47/50FR]\n艾爾多的成長",
+        "bnCN": "[防御47/50FR]\n艾尔多的成长"
     },
     "M'avina's Battle Hymn": {
         "id": 21701,
@@ -14142,42 +14142,42 @@
     "M'avina's True Sight": {
         "id": 21702,
         "Key": "M'avina's True Sight",
-        "enUS": "M'avina's True Sight",
-        "zhTW": "馬維娜的真實之眼",
-        "zhCN": "艾维娜的真视",
-        "sgCN": "马维娜的真实之眼",
-        "sgTW": "馬維娜的真實之眼",
-        "bnCN": "艾维娜的真视"
+        "enUS": "[DEF210]\nM'avina's True Sight",
+        "zhTW": "[防禦210]\n馬維娜的真實之眼",
+        "zhCN": "[防御210]\n艾维娜的真视",
+        "sgCN": "[防御210]\n马维娜的真实之眼",
+        "sgTW": "[防禦210]\n馬維娜的真實之眼",
+        "bnCN": "[防御210]\n艾维娜的真视"
     },
     "M'avina's Embrace": {
         "id": 21703,
         "Key": "M'avina's Embrace",
-        "enUS": "M'avina's Embrace",
-        "zhTW": "馬維娜的擁抱",
-        "zhCN": "艾维娜的拥抱",
-        "sgCN": "马维娜的拥抱",
-        "sgTW": "馬維娜的擁抱",
-        "bnCN": "艾维娜的拥抱"
+        "enUS": "[DEF523/12MDR]\nM'avina's Embrace",
+        "zhTW": "[防禦523/12MDR]\n馬維娜的擁抱",
+        "zhCN": "[防御523/12MDR]\n艾维娜的拥抱",
+        "sgCN": "[防御523/12MDR]\n马维娜的拥抱",
+        "sgTW": "[防禦523/12MDR]\n馬維娜的擁抱",
+        "bnCN": "[防御523/12MDR]\n艾维娜的拥抱"
     },
     "M'avina's Icy Clutch": {
         "id": 21704,
         "Key": "M'avina's Icy Clutch",
-        "enUS": "M'avina's Icy Clutch",
-        "zhTW": "馬維娜的冰握",
-        "zhCN": "艾维娜的冰握",
-        "sgCN": "马维娜的冰握",
-        "sgTW": "馬維娜的冰握",
-        "bnCN": "艾维娜的冰握"
+        "enUS": "[DEF97/50DEF]\nM'avina's Icy Clutch",
+        "zhTW": "[防禦97/50DEF]\n馬維娜的冰握",
+        "zhCN": "[防御97/50DEF]\n艾维娜的冰握",
+        "sgCN": "[防御97/50DEF]\n马维娜的冰握",
+        "sgTW": "[防禦97/50DEF]\n馬維娜的冰握",
+        "bnCN": "[防御97/50DEF]\n艾维娜的冰握"
     },
     "M'avina's Tenet": {
         "id": 21705,
         "Key": "M'avina's Tenet",
-        "enUS": "M'avina's Tenet",
-        "zhTW": "馬維娜的教義",
-        "zhCN": "艾维娜的教义",
-        "sgCN": "马维娜的教义",
-        "sgTW": "馬維娜的教義",
-        "bnCN": "艾维娜的教义"
+        "enUS": "[DEF86]\nM'avina's Tenet",
+        "zhTW": "[防禦86]\n馬維娜的教義",
+        "zhCN": "[防御86]\n艾维娜的教义",
+        "sgCN": "[防御86]\n马维娜的教义",
+        "sgTW": "[防禦86]\n馬維娜的教義",
+        "bnCN": "[防御86]\n艾维娜的教义"
     },
     "M'avina's Caster": {
         "id": 21706,
@@ -14212,22 +14212,22 @@
     "Sazabi's Ghost Liberator": {
         "id": 21709,
         "Key": "Sazabi's Ghost Liberator",
-        "enUS": "Sazabi's Ghost Liberator",
-        "zhTW": "沙薩比的解靈框體",
-        "zhCN": "圣·沙略的魂灵解救者",
-        "sgCN": "沙撒璧的鬼魂释放者",
-        "sgTW": "沙撒璧的鬼魂釋放者",
-        "bnCN": "圣·沙略的魂灵解救者"
+        "enUS": "[DEF917/75Life]\nSazabi's Ghost Liberator",
+        "zhTW": "[防禦917/75Life]\n沙薩比的解靈框體",
+        "zhCN": "[防御917/75Life]\n圣·沙略的魂灵解救者",
+        "sgCN": "[防御917/75Life]\n沙撒璧的鬼魂释放者",
+        "sgTW": "[防禦917/75Life]\n沙撒璧的鬼魂釋放者",
+        "bnCN": "[防御917/75Life]\n圣·沙略的魂灵解救者"
     },
     "Sazabi's Mental Sheath": {
         "id": 21710,
         "Key": "Sazabi's Mental Sheath",
-        "enUS": "Sazabi's Mental Sheath",
-        "zhTW": "沙薩比的精神護罩",
-        "zhCN": "圣·沙略的心灵庇护",
-        "sgCN": "沙撒璧的精神之鞘",
-        "sgTW": "沙撒璧的精神之鞘",
-        "bnCN": "圣·沙略的心灵庇护"
+        "enUS": "[DEF184/20LR/20FR]\nSazabi's Mental Sheath",
+        "zhTW": "[防禦184/20LR/20FR]\n沙薩比的精神護罩",
+        "zhCN": "[防御184/20LR/20FR]\n圣·沙略的心灵庇护",
+        "sgCN": "[防御184/20LR/20FR]\n沙撒璧的精神之鞘",
+        "sgTW": "[防禦184/20LR/20FR]\n沙撒璧的精神之鞘",
+        "bnCN": "[防御184/20LR/20FR]\n圣·沙略的心灵庇护"
     },
     "Hwanin's Majesty": {
         "id": 21711,
@@ -14262,12 +14262,12 @@
     "Hwanin's Refuge": {
         "id": 21714,
         "Key": "Hwanin's Refuge",
-        "enUS": "Hwanin's Refuge",
-        "zhTW": "桓因的庇佑",
-        "zhCN": "桓因的庇佑",
-        "sgCN": "华宁的保护",
-        "sgTW": "華寧的保護",
-        "bnCN": "桓因的庇佑"
+        "enUS": "[DEF390]\nHwanin's Refuge",
+        "zhTW": "[防禦390]\n桓因的庇佑",
+        "zhCN": "[防御390]\n桓因的庇佑",
+        "sgCN": "[防御390]\n华宁的保护",
+        "sgTW": "[防禦390]\n華寧的保護",
+        "bnCN": "[防御390]\n桓因的庇佑"
     },
     "Hwanin's Cordon": {
         "id": 21715,
@@ -14292,52 +14292,52 @@
     "Telling of Beads": {
         "id": 21717,
         "Key": "Telling of Beads",
-        "enUS": "Telling of Beads",
-        "zhTW": "誦唸珠",
-        "zhCN": "赐福念珠",
-        "sgCN": "述说之珠",
-        "sgTW": "述說之珠",
-        "bnCN": "赐福念珠"
+        "enUS": "[50PR/10ATD]\nTelling of Beads",
+        "zhTW": "[50PR/10反傷]\n誦唸珠",
+        "zhCN": "[50PR/10反伤]\n赐福念珠",
+        "sgCN": "[50PR/10反伤]\n述说之珠",
+        "sgTW": "[50PR/10反傷]\n述說之珠",
+        "bnCN": "[50PR/10反伤]\n赐福念珠"
     },
     "Laying of Hands": {
         "id": 21718,
         "Key": "Laying of Hands",
-        "enUS": "Laying of Hands",
-        "zhTW": "按手禮",
-        "zhCN": "按手礼套",
-        "sgCN": "手掌的安置",
-        "sgTW": "手掌的安置",
-        "bnCN": "按手礼套"
+        "enUS": "[DEF87]\nLaying of Hands",
+        "zhTW": "[防禦87]\n按手禮",
+        "zhCN": "[防御87]\n按手礼套",
+        "sgCN": "[防御87]\n手掌的安置",
+        "sgTW": "[防禦87]\n手掌的安置",
+        "bnCN": "[防御87]\n按手礼套"
     },
     "Rite of Passage": {
         "id": 21719,
         "Key": "Rite of Passage",
-        "enUS": "Rite of Passage",
-        "zhTW": "入門式",
-        "zhCN": "皈依之道",
-        "sgCN": "仪式的走道",
-        "sgTW": "儀式的走道",
-        "bnCN": "皈依之道"
+        "enUS": "[DEF60/25STA]\nRite of Passage",
+        "zhTW": "[防禦60/25STA]\n入門式",
+        "zhCN": "[防御60/25STA]\n皈依之道",
+        "sgCN": "[防御60/25STA]\n仪式的走道",
+        "sgTW": "[防禦60/25STA]\n儀式的走道",
+        "bnCN": "[防御60/25STA]\n皈依之道"
     },
     "Spiritual Custodian": {
         "id": 21720,
         "Key": "Spiritual Custodian",
-        "enUS": "Dark Adherent",
-        "zhTW": "隱門徒",
-        "zhCN": "隐秘教徒",
-        "sgCN": "黑暗信徒",
-        "sgTW": "黑暗信徒",
-        "bnCN": "隐秘教徒"
+        "enUS": "[DEF882/415DEF]\nDark Adherent",
+        "zhTW": "[防禦882/415DEF]\n隱門徒",
+        "zhCN": "[防御882/415DEF]\n隐秘教徒",
+        "sgCN": "[防御882/415DEF]\n黑暗信徒",
+        "sgTW": "[防禦882/415DEF]\n黑暗信徒",
+        "bnCN": "[防御882/415DEF]\n隐秘教徒"
     },
     "Credendum": {
         "id": 21721,
         "Key": "Credendum",
-        "enUS": "Credendum",
-        "zhTW": "守信條",
-        "zhCN": "信念腰带",
-        "sgCN": "信条",
-        "sgTW": "信條",
-        "bnCN": "信念腰带"
+        "enUS": "[DEF115]\nCredendum",
+        "zhTW": "[防禦115]\n守信條",
+        "zhCN": "[防御115]\n信念腰带",
+        "sgCN": "[防御115]\n信条",
+        "sgTW": "[防禦115]\n信條",
+        "bnCN": "[防御115]\n信念腰带"
     },
     "Cow King's Leathers": {
         "id": 21722,
@@ -14352,12 +14352,12 @@
     "Cow King's Horns": {
         "id": 21723,
         "Key": "Cow King's Horns",
-        "enUS": "Cow King's Horns",
-        "zhTW": "牛王之角",
-        "zhCN": "牛魔王之角",
-        "sgCN": "牛魔王之角",
-        "sgTW": "牛魔王之角",
-        "bnCN": "牛魔王之角"
+        "enUS": "[DEF128]\nCow King's Horns",
+        "zhTW": "[防禦128]\n牛王之角",
+        "zhCN": "[防御128]\n牛魔王之角",
+        "sgCN": "[防御128]\n牛魔王之角",
+        "sgTW": "[防禦128]\n牛魔王之角",
+        "bnCN": "[防御128]\n牛魔王之角"
     },
     "Cow King's Hide": {
         "id": 21724,
@@ -14372,12 +14372,12 @@
     "Cow King's Hoofs": {
         "id": 21725,
         "Key": "Cow King's Hoofs",
-        "enUS": "Cow King's Hooves",
-        "zhTW": "牛王之蹄",
-        "zhCN": "牛魔王之蹄",
-        "sgCN": "牛魔王之蹄",
-        "sgTW": "牛魔王之蹄",
-        "bnCN": "牛魔王之蹄"
+        "enUS": "[DEF41]\nCow King's Hooves",
+        "zhTW": "[防禦41]\n牛王之蹄",
+        "zhCN": "[防御41]\n牛魔王之蹄",
+        "sgCN": "[防御41]\n牛魔王之蹄",
+        "sgTW": "[防禦41]\n牛魔王之蹄",
+        "bnCN": "[防御41]\n牛魔王之蹄"
     },
     "Aragon's Masterpiece": {
         "id": 21726,
@@ -14882,12 +14882,12 @@
     "Tal Rasha's Fire-Spun Cloth": {
         "id": 21816,
         "Key": "Tal Rasha's Fire-Spun Cloth",
-        "enUS": "Tal Rasha's Fine-Spun Cloth",
-        "zhTW": "塔拉夏的精織腰布",
-        "zhCN": "塔·拉夏的精织带",
-        "sgCN": "塔·拉夏的纤细衣服",
-        "sgTW": "塔.拉夏的纖細衣服",
-        "bnCN": "塔·拉夏的精织带"
+        "enUS": "[DEF40/15MF]\nTal Rasha's Fine-Spun Cloth",
+        "zhTW": "[防禦40/15MF]\n塔拉夏的精織腰布",
+        "zhCN": "[防御40/15MF]\n塔·拉夏的精织带",
+        "sgCN": "[防御40/15MF]\n塔·拉夏的纤细衣服",
+        "sgTW": "[防禦40/15MF]\n塔.拉夏的纖細衣服",
+        "bnCN": "[防御40/15MF]\n塔·拉夏的精织带"
     },
     "Tal Rasha's Adjudication": {
         "id": 21817,
@@ -14902,32 +14902,32 @@
     "Tal Rasha's Howling Wind": {
         "id": 21818,
         "Key": "Tal Rasha's Howling Wind",
-        "enUS": "Tal Rasha's Guardianship",
-        "zhTW": "塔拉夏的守護",
-        "zhCN": "塔·拉夏的守护",
-        "sgCN": "塔·拉夏的守护",
-        "sgTW": "塔拉夏的守護",
-        "bnCN": "塔·拉夏的守护"
+        "enUS": "[DEF941]\nTal Rasha's Guardianship",
+        "zhTW": "[防禦941]\n塔拉夏的守護",
+        "zhCN": "[防御941]\n塔·拉夏的守护",
+        "sgCN": "[防御941]\n塔·拉夏的守护",
+        "sgTW": "[防禦941]\n塔拉夏的守護",
+        "bnCN": "[防御941]\n塔·拉夏的守护"
     },
     "Tal Rasha's Lidless Eye": {
         "id": 21819,
         "Key": "Tal Rasha's Lidless Eye",
-        "enUS": "Tal Rasha's Lidless Eye",
-        "zhTW": "塔拉夏的警惕之眼",
-        "zhCN": "塔·拉夏的无睑之眼",
-        "sgCN": "塔·拉夏的警戒之眼",
-        "sgTW": "塔.拉夏的警戒之眼",
-        "bnCN": "塔·拉夏的无睑之眼"
+        "enUS": "[2CM/2LM/2FM]\nTal Rasha's Lidless Eye",
+        "zhTW": "[2CM/2LM/2FM]\n塔拉夏的警惕之眼",
+        "zhCN": "[2CM/2LM/2FM]\n塔·拉夏的无睑之眼",
+        "sgCN": "[2CM/2LM/2FM]\n塔·拉夏的警戒之眼",
+        "sgTW": "[2CM/2LM/2FM]\n塔.拉夏的警戒之眼",
+        "bnCN": "[2CM/2LM/2FM]\n塔·拉夏的无睑之眼"
     },
     "Tal Rasha's Horadric Crest": {
         "id": 21820,
         "Key": "Tal Rasha's Horadric Crest",
-        "enUS": "Tal Rasha's Horadric Crest",
-        "zhTW": "塔拉夏的赫拉迪姆之冠",
-        "zhCN": "塔·拉夏的赫拉迪姆之冠",
-        "sgCN": "塔·拉夏的赫拉迪克纹章",
-        "sgTW": "塔.拉夏的赫拉迪克紋章",
-        "bnCN": "塔·拉夏的赫拉迪姆之冠"
+        "enUS": "[DEF131]\nTal Rasha's Horadric Crest",
+        "zhTW": "[防禦131]\n塔拉夏的赫拉迪姆之冠",
+        "zhCN": "[防御131]\n塔·拉夏的赫拉迪姆之冠",
+        "sgCN": "[防御131]\n塔·拉夏的赫拉迪克纹章",
+        "sgTW": "[防禦131]\n塔.拉夏的赫拉迪克紋章",
+        "bnCN": "[防御131]\n塔·拉夏的赫拉迪姆之冠"
     },
     "Hwanin's Seal": {
         "id": 21821,
@@ -14962,32 +14962,32 @@
     "Ondal's Almighty": {
         "id": 21824,
         "Key": "Ondal's Almighty",
-        "enUS": "Ondal's Almighty",
-        "zhTW": "溫達的全靈",
-        "zhCN": "温达的全灵",
-        "sgCN": "安戴尔的全灵",
-        "sgTW": "安戴爾的全靈",
-        "bnCN": "温达的全灵"
+        "enUS": "[DEF209]\nOndal's Almighty",
+        "zhTW": "[防禦209]\n溫達的全靈",
+        "zhCN": "[防御209]\n温达的全灵",
+        "sgCN": "[防御209]\n安戴尔的全灵",
+        "sgTW": "[防禦209]\n安戴爾的全靈",
+        "bnCN": "[防御209]\n温达的全灵"
     },
     "Heaven's Taebaek": {
         "id": 21825,
         "Key": "Heaven's Taebaek",
-        "enUS": "Taebaek's Glory",
-        "zhTW": "太白山的榮光",
-        "zhCN": "泰白的荣耀",
-        "sgCN": "泰比克的光荣",
-        "sgTW": "泰比克的光榮",
-        "bnCN": "泰白的荣耀"
+        "enUS": "[DEF220]\nTaebaek's Glory",
+        "zhTW": "[防禦220]\n太白山的榮光",
+        "zhCN": "[防御220]\n泰白的荣耀",
+        "sgCN": "[防御220]\n泰比克的光荣",
+        "sgTW": "[防禦220]\n泰比克的光榮",
+        "bnCN": "[防御220]\n泰白的荣耀"
     },
     "Haemosu's Adament": {
         "id": 21826,
         "Key": "Haemosu's Adament",
-        "enUS": "Haemosu's Adamant",
-        "zhTW": "解慕漱的堅決",
-        "zhCN": "解慕苏的坚定",
-        "sgCN": "黑摩苏的坚决",
-        "sgTW": "黑摩蘇的堅決",
-        "bnCN": "解慕苏的坚定"
+        "enUS": "[DEF702]\nHaemosu's Adamant",
+        "zhTW": "[防禦702]\n解慕漱的堅決",
+        "zhCN": "[防御702]\n解慕苏的坚定",
+        "sgCN": "[防御702]\n黑摩苏的坚决",
+        "sgTW": "[防禦702]\n黑摩蘇的堅決",
+        "bnCN": "[防御702]\n解慕苏的坚定"
     },
     "Lycander's Flank": {
         "id": 21827,
@@ -15032,22 +15032,22 @@
     "Naj's Light Plate": {
         "id": 21831,
         "Key": "Naj's Light Plate",
-        "enUS": "Naj's Light Plate",
-        "zhTW": "娜吉的輕鎧",
-        "zhCN": "诺吉的轻铠甲",
-        "sgCN": "娜吉的轻铠甲",
-        "sgTW": "娜吉的輕鎧甲",
-        "bnCN": "诺吉的轻铠甲"
+        "enUS": "[DEF830]\nNaj's Light Plate",
+        "zhTW": "[防禦830]\n娜吉的輕鎧",
+        "zhCN": "[防御830]\n诺吉的轻铠甲",
+        "sgCN": "[防御830]\n娜吉的轻铠甲",
+        "sgTW": "[防禦830]\n娜吉的輕鎧甲",
+        "bnCN": "[防御830]\n诺吉的轻铠甲"
     },
     "Naj's Circlet": {
         "id": 21832,
         "Key": "Naj's Circlet",
-        "enUS": "Naj's Circlet",
-        "zhTW": "娜吉的頭環",
-        "zhCN": "诺吉的头环",
-        "sgCN": "娜吉的小环",
-        "sgTW": "娜吉的小環",
-        "bnCN": "诺吉的头环"
+        "enUS": "[DEF105/35FD]\nNaj's Circlet",
+        "zhTW": "[防禦105/35FD]\n娜吉的頭環",
+        "zhCN": "[防御105/35FD]\n诺吉的头环",
+        "sgCN": "[防御105/35FD]\n娜吉的小环",
+        "sgTW": "[防禦105/35FD]\n娜吉的小環",
+        "bnCN": "[防御105/35FD]\n诺吉的头环"
     },
     "Sander's Superstition": {
         "id": 21833,
@@ -15122,32 +15122,32 @@
     "Immortal King's Stone Crusher": {
         "id": 21840,
         "Key": "Immortal King's Stone Crusher",
-        "enUS": "Immortal King's Stone Crusher",
-        "zhTW": "不朽之王的碎魂者",
-        "zhCN": "不朽之王的碎石锤",
-        "sgCN": "不朽之王的碎魂者",
-        "sgTW": "不朽之王的碎魂者",
-        "bnCN": "不朽之王的碎石锤"
+        "enUS": "[40CB]\nImmortal King's Stone Crusher",
+        "zhTW": "[40CB]\n不朽之王的碎魂者",
+        "zhCN": "[40CB]\n不朽之王的碎石锤",
+        "sgCN": "[40CB]\n不朽之王的碎魂者",
+        "sgTW": "[40CB]\n不朽之王的碎魂者",
+        "bnCN": "[40CB]\n不朽之王的碎石锤"
     },
     "Immortal King's Pillar": {
         "id": 21841,
         "Key": "Immortal King's Pillar",
-        "enUS": "Immortal King's Pillar",
-        "zhTW": "不朽之王之柱",
-        "zhCN": "不朽之王的基石",
-        "sgCN": "不朽之王之柱",
-        "sgTW": "不朽之王之柱",
-        "bnCN": "不朽之王的基石"
+        "enUS": "[DEF128]\nImmortal King's Pillar",
+        "zhTW": "[防禦128]\n不朽之王之柱",
+        "zhCN": "[防御128]\n不朽之王的基石",
+        "sgCN": "[防御128]\n不朽之王之柱",
+        "sgTW": "[防禦128]\n不朽之王之柱",
+        "bnCN": "[防御128]\n不朽之王的基石"
     },
     "Immortal King's Forge": {
         "id": 21842,
         "Key": "Immortal King's Forge",
-        "enUS": "Immortal King's Forge",
-        "zhTW": "不朽之王的熔爐",
-        "zhCN": "不朽之王的锤炼",
-        "sgCN": "不朽之王的融炉",
-        "sgTW": "不朽之王的融爐",
-        "bnCN": "不朽之王的锤炼"
+        "enUS": "[DEF53]\nImmortal King's Forge",
+        "zhTW": "[防禦53]\n不朽之王的熔爐",
+        "zhCN": "[防御53]\n不朽之王的锤炼",
+        "sgCN": "[防御53]\n不朽之王的融炉",
+        "sgTW": "[防禦53]\n不朽之王的融爐",
+        "bnCN": "[防御53]\n不朽之王的锤炼"
     },
     "Immortal King's Detail": {
         "id": 21843,
@@ -15172,12 +15172,12 @@
     "Immortal King's Will": {
         "id": 21845,
         "Key": "Immortal King's Will",
-        "enUS": "Immortal King's Will",
-        "zhTW": "不朽之王的意志",
-        "zhCN": "不朽之王的意志",
-        "sgCN": "不朽之王的意志",
-        "sgTW": "不朽之王的意志",
-        "bnCN": "不朽之王的意志"
+        "enUS": "[DEF175/40MF]\nImmortal King's Will",
+        "zhTW": "[防禦175/40MF]\n不朽之王的意志",
+        "zhCN": "[防御175/40MF]\n不朽之王的意志",
+        "sgCN": "[防御175/40MF]\n不朽之王的意志",
+        "sgTW": "[防禦175/40MF]\n不朽之王的意志",
+        "bnCN": "[防御175/40MF]\n不朽之王的意志"
     },
     "Immortal King": {
         "id": 21846,
@@ -15192,12 +15192,12 @@
     "Aldur's Gauntlet": {
         "id": 21847,
         "Key": "Aldur's Gauntlet",
-        "enUS": "Aldur's Rhythm",
-        "zhTW": "艾爾多的律動",
-        "zhCN": "艾尔多的律动",
-        "sgCN": "艾尔多的律动",
-        "sgTW": "艾爾多的律動",
-        "bnCN": "艾尔多的律动"
+        "enUS": "[3S]\nAldur's Rhythm",
+        "zhTW": "[3S]\n艾爾多的律動",
+        "zhCN": "[3S]\n艾尔多的律动",
+        "sgCN": "[3S]\n艾尔多的律动",
+        "sgTW": "[3S]\n艾爾多的律動",
+        "bnCN": "[3S]\n艾尔多的律动"
     },
     "Ancient Statue 3": {
         "id": 21848,
@@ -15292,32 +15292,32 @@
     "McAuley's Taboo": {
         "id": 21876,
         "Key": "McAuley's Taboo",
-        "enUS": "Sander's Taboo",
-        "zhTW": "山德的禁忌",
-        "zhCN": "山德的禁忌",
-        "sgCN": "山德的禁忌",
-        "sgTW": "山德的禁忌",
-        "bnCN": "山德的禁忌"
+        "enUS": "[DEF31/25DEF]\nSander's Taboo",
+        "zhTW": "[防禦31/25DEF]\n山德的禁忌",
+        "zhCN": "[防御31/25DEF]\n山德的禁忌",
+        "sgCN": "[防御31/25DEF]\n山德的禁忌",
+        "sgTW": "[防禦31/25DEF]\n山德的禁忌",
+        "bnCN": "[防御31/25DEF]\n山德的禁忌"
     },
     "McAuley's Riprap": {
         "id": 21877,
         "Key": "McAuley's Riprap",
-        "enUS": "Sander's Riprap",
-        "zhTW": "山德的碎石",
-        "zhCN": "山德的石碓",
-        "sgCN": "山德的碎石",
-        "sgTW": "山德的碎石",
-        "bnCN": "山德的石碓"
+        "enUS": "[DEF6]\nSander's Riprap",
+        "zhTW": "[防禦6]\n山德的碎石",
+        "zhCN": "[防御6]\n山德的石碓",
+        "sgCN": "[防御6]\n山德的碎石",
+        "sgTW": "[防禦6]\n山德的碎石",
+        "bnCN": "[防御6]\n山德的石碓"
     },
     "McAuley's Paragon": {
         "id": 21878,
         "Key": "McAuley's Paragon",
-        "enUS": "Sander's Paragon",
-        "zhTW": "山德的模範",
-        "zhCN": "山德的崇拜",
-        "sgCN": "山德的模范",
-        "sgTW": "山德的模範",
-        "bnCN": "山德的崇拜"
+        "enUS": "[DEF5]\nSander's Paragon",
+        "zhTW": "[防禦5]\n山德的模範",
+        "zhCN": "[防御5]\n山德的崇拜",
+        "sgCN": "[防御5]\n山德的模范",
+        "sgTW": "[防禦5]\n山德的模範",
+        "bnCN": "[防御5]\n山德的崇拜"
     },
     "McAuley's Folly": {
         "id": 21879,
@@ -15852,12 +15852,12 @@
     "Bane's Wraithskin": {
         "id": 27642,
         "Key": "Bane's Wraithskin",
-        "enUS": "Bane's Wraithskin",
-        "zhTW": "貝恩的靈膚",
-        "zhCN": "祸殃怨魂之肤",
-        "sgCN": "贝恩的怨魂之肤",
-        "sgTW": "貝恩的靈膚",
-        "bnCN": "贝恩的怨魂之肤"
+        "enUS": "[DEF74]\nBane's Wraithskin",
+        "zhTW": "[防禦74]\n貝恩的靈膚",
+        "zhCN": "[防御74]\n祸殃怨魂之肤",
+        "sgCN": "[防御74]\n贝恩的怨魂之肤",
+        "sgTW": "[防禦74]\n貝恩的靈膚",
+        "bnCN": "[防御74]\n贝恩的怨魂之肤"
     },
     "Bane's Authority": {
         "id": 27643,
@@ -15872,52 +15872,52 @@
     "Horazon's Countenance": {
         "id": 27644,
         "Key": "Horazon's Countenance",
-        "enUS": "Horazon's Countenance",
-        "zhTW": "赫拉森的面容",
-        "zhCN": "霍拉松的面容",
-        "sgCN": "霍拉松的面容",
-        "sgTW": "赫拉森的面容",
-        "bnCN": "霍拉松的面容"
+        "enUS": "[20STR/10MDR]\nHorazon's Countenance",
+        "zhTW": "[20STR/10MDR]\n赫拉森的面容",
+        "zhCN": "[20STR/10MDR]\n霍拉松的面容",
+        "sgCN": "[20STR/10MDR]\n霍拉松的面容",
+        "sgTW": "[20STR/10MDR]\n赫拉森的面容",
+        "bnCN": "[20STR/10MDR]\n霍拉松的面容"
     },
     "Horazon's Dominion": {
         "id": 27645,
         "Key": "Horazon's Dominion",
-        "enUS": "Horazon's Dominion",
-        "zhTW": "赫拉森的統治",
-        "zhCN": "霍拉松的统治",
-        "sgCN": "霍拉松的统治",
-        "sgTW": "赫拉森的統治",
-        "bnCN": "霍拉松的统治"
+        "enUS": "[100ED/100Mana/25CR/25LR/25FR]\nHorazon's Dominion",
+        "zhTW": "[100ED/100Mana/25CR/25LR/25FR]\n赫拉森的統治",
+        "zhCN": "[100ED/100Mana/25CR/25LR/25FR]\n霍拉松的统治",
+        "sgCN": "[100ED/100Mana/25CR/25LR/25FR]\n霍拉松的统治",
+        "sgTW": "[100ED/100Mana/25CR/25LR/25FR]\n赫拉森的統治",
+        "bnCN": "[100ED/100Mana/25CR/25LR/25FR]\n霍拉松的统治"
     },
     "Horazon's Hold": {
         "id": 27646,
         "Key": "Horazon's Hold",
-        "enUS": "Horazon's Hold",
-        "zhTW": "赫拉森的掌控",
-        "zhCN": "霍拉松的握持",
-        "sgCN": "霍拉松的要塞",
-        "sgTW": "赫拉森的掌控",
-        "bnCN": "霍拉松的要塞"
+        "enUS": "[150AR/270FD/15DEX/40Life]\nHorazon's Hold",
+        "zhTW": "[150AR/270FD/15DEX/40Life]\n赫拉森的掌控",
+        "zhCN": "[150AR/270FD/15DEX/40Life]\n霍拉松的握持",
+        "sgCN": "[150AR/270FD/15DEX/40Life]\n霍拉松的要塞",
+        "sgTW": "[150AR/270FD/15DEX/40Life]\n赫拉森的掌控",
+        "bnCN": "[150AR/270FD/15DEX/40Life]\n霍拉松的要塞"
     },
     "Horazon's Legacy": {
         "id": 27647,
         "Key": "Horazon's Legacy",
-        "enUS": "Horazon's Legacy",
-        "zhTW": "赫拉森的傳承",
-        "zhCN": "霍拉松的传承",
-        "sgCN": "霍拉松的传承",
-        "sgTW": "赫拉森的傳承",
-        "bnCN": "霍拉松的传承"
+        "enUS": "[15STR/15DEX/30MR]\nHorazon's Legacy",
+        "zhTW": "[15STR/15DEX/30MR]\n赫拉森的傳承",
+        "zhCN": "[15STR/15DEX/30MR]\n霍拉松的传承",
+        "sgCN": "[15STR/15DEX/30MR]\n霍拉松的传承",
+        "sgTW": "[15STR/15DEX/30MR]\n赫拉森的傳承",
+        "bnCN": "[15STR/15DEX/30MR]\n霍拉松的传承"
     },
     "Horazon's Secrets": {
         "id": 27648,
         "Key": "Horazon's Secrets",
-        "enUS": "Horazon's Secrets",
-        "zhTW": "赫拉森的秘密",
-        "zhCN": "霍拉松的秘密",
-        "sgCN": "霍拉松的秘密",
-        "sgTW": "赫拉森的秘密",
-        "bnCN": "霍拉松的秘密"
+        "enUS": "[30VIT/50Life]\nHorazon's Secrets",
+        "zhTW": "[30VIT/50Life]\n赫拉森的秘密",
+        "zhCN": "[30VIT/50Life]\n霍拉松的秘密",
+        "sgCN": "[30VIT/50Life]\n霍拉松的秘密",
+        "sgTW": "[30VIT/50Life]\n赫拉森的秘密",
+        "bnCN": "[30VIT/50Life]\n霍拉松的秘密"
     },
     "Horazon's Splendor": {
         "id": 27649,
