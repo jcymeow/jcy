@@ -141,7 +141,7 @@
         {
             "type": "Entity",
             "name": "jcy_entity_pointer",
-            "id": 586091855,
+            "id": 7467890035,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
@@ -174,7 +174,7 @@
         {
             "type": "Entity",
             "name": "jcy_entity_pointer",
-            "id": 586091857,
+            "id": 7467890002,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
