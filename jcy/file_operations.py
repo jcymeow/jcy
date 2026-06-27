@@ -3197,8 +3197,7 @@ class FileOperations:
 
         # --- 开启 储物箱特效: 快速存取+共享仓库直达+融合仓库 ---
         banks = [
-            r"data/global/ui/layouts/bankexpansionlayouthd.json",
-            r"data/global/ui/layouts/dropgoldmodalhd.json"
+            r"data/global/ui/layouts/bankexpansionlayouthd.json"
         ]
         funcs.append(self.common_rename(banks, "5" in keys_set))
 
