@@ -1683,6 +1683,19 @@
                         },
                         "itemCode": "skz"
                     }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "tch",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 196,
+                            "x": 579,
+                            "y": 1006
+                        },
+                        "itemCode": "tch"
+                    }
                 }
             ]
         },

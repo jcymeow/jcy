@@ -2617,15 +2617,12 @@ class FileOperations:
         # 祭坛文件列表
         _files = [
             "data/hd/overlays/common/shrine_experience.json",
-            "data/hd/overlays/common/shrine_stamina.json",
-            "data/hd/overlays/common/shrine_mana_regen.json",
         ]
 
         # 指引映射
         _maps = {
             "0": [],
             "2": PF_BEACON_SHRINE,
-            "4": ROOMTILES_ARROW_LIGHT2,
         }
 
 
@@ -2882,8 +2879,6 @@ class FileOperations:
             "7":[
                 r"data/global/excel/shrines.txt",
                 r"data/hd/overlays/common/shrine_experience.json",
-                r"data/hd/overlays/common/shrine_stamina.json",
-                r"data/hd/overlays/common/shrine_mana_regen.json",
             ],
         }
 
