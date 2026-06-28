@@ -904,8 +904,6 @@ class FeatureConfig:
                             "text": "符文-设置",
                             "colspan": 100,
                             "params": {
-                                "1": "金色名字",
-                                "2": "抬头",
                                 "3": "编号",
                                 "4": "附带英文",
                                 "5": "Logo",

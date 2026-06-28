@@ -1570,8 +1570,6 @@ class FileOperations:
         item_rune_setting1 = jcy_config.SETTINGS.get(Function.ITEM_RUNE_SETTING1.value)
         item_rune_setting2 = jcy_config.SETTINGS.get(Function.ITEM_RUNE_SETTING2.value)
         
-        rune_color = "1" in item_rune_setting1
-        rune_title = "2" in item_rune_setting1
         rune_num = "3" in item_rune_setting1
         rune_enus = "4" in item_rune_setting1
         rune_logo = "5" in item_rune_setting1
@@ -1613,17 +1611,15 @@ class FileOperations:
                 if re.match(_rune, Key):
                     for lang in Language:
                         lng = lang.value
-                        item[lng] = item[lng].replace("{{color}}", "ÿc8" if rune_color else "ÿc5")
-                        item[lng] = item[lng].replace("{{title}}", data.get(lng).get("title") if rune_title else "")
                         item[lng] = item[lng].replace("{{num}}", Key.replace("r", "#") if rune_num else "")
-                        item[lng] = item[lng].replace("{{rune}}", data.get(lng).get("rune")+("ÿc8" if rune_color else "ÿc5") if rune_enus else "")
+                        item[lng] = item[lng].replace("{{rune}}", data.get(lng).get("rune") if rune_enus else "")
                         item[lng] = item[lng].replace("{{logo}}", data.get(lng).get("logo") if rune_logo else "")
                         item[lng] = item[lng].replace("{{formula}}", data.get(lng).get("formula") if rune_upgrade else "")
                         
-                        item[lng] = item[lng].replace("{{head1}}", "ÿc8┗━━━━━━━━━┛\n\n" if rune_height else "")
-                        item[lng] = item[lng].replace("{{head2}}", "ÿc8┗━━━━━━━━━┛\n" if rune_height else "")
-                        item[lng] = item[lng].replace("{{tail1}}", "\n\nÿc8┏━━━━━━━━━┓" if rune_height else "")
-                        item[lng] = item[lng].replace("{{tail2}}", "\nÿc8┏━━━━━━━━━┓" if rune_height else "")
+                        item[lng] = item[lng].replace("{{head1}}", "┗━━━━━━━━━┛\n\n" if rune_height else "")
+                        item[lng] = item[lng].replace("{{head2}}", "┗━━━━━━━━━┛\n" if rune_height else "")
+                        item[lng] = item[lng].replace("{{tail1}}", "\n\n┏━━━━━━━━━┓" if rune_height else "")
+                        item[lng] = item[lng].replace("{{tail2}}", "\n┏━━━━━━━━━┓" if rune_height else "")
 
 
                 elif re.match(_runeword, Key):
