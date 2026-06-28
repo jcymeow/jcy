@@ -2625,6 +2625,7 @@ class FileOperations:
         _maps = {
             "0": [],
             "2": PF_BEACON_SHRINE,
+            "4": ROOMTILES_ARROW_LIGHT2,
         }
 
 
