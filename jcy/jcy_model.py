@@ -976,6 +976,13 @@ class FeatureConfig:
                             "event": "增加进度标注"
                         },
                         {
+                            "fid": Function.LOCAL_HERALD_ADD_LEVEL.value,
+                            "type": SWITCH,
+                            "category": "本地化",
+                            "target": "使者",
+                            "event": "增加等级标注"
+                        },
+                        {
                             "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,
                             "type": SWITCH,
                             "category": "布局",
@@ -989,13 +996,7 @@ class FeatureConfig:
                             "target": "迷你盒子",
                             "event": "透明化"
                         },
-                        {
-                            "fid": Function.MONSTER_HERALD_ADD_LEVEL.value,
-                            "type": SWITCH,
-                            "category": "怪物",
-                            "target": "使者",
-                            "event": "增加等级标注"
-                        },
+                        
                         {
                             "fid": Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value,
                             "type": SWITCH,
