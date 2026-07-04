@@ -134,7 +134,7 @@
                         "onClickMessage": "ModalMessage:Confirm:mods\\jcy\\sync_data_version_for_global_server.bat",
                         "textColor": "$LightButtonTextColor",
                         "text/style": "$StyleFEMultiLineButtonText",
-                        "textString": "更新资料版本For国际服"
+                        "textString": "更新資料版本For國際服"
                     }
                 },
                 {
