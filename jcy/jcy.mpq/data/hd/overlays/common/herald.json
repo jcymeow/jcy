@@ -38,7 +38,7 @@
         {
             "type": "Entity",
             "name": "jcy_entity_pointer",
-            "id": 586091856,
+            "id": 7467890036,
             "components": [
                 {
                     "type": "TransformDefinitionComponent",
@@ -71,7 +71,7 @@
         {
             "type": "Entity",
             "name": "jcy_entity_pointer",
-            "id": 2238451436,
+            "id": 7467890005,
             "components": [
                 {
                     "type": "VfxDefinitionComponent",
