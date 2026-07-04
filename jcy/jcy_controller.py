@@ -116,19 +116,33 @@ class FeatureController:
             self._sync_config_mods(dialog)
 
             # 应用素材包
+            asset_modifed = False
             for asset_type, asset_id in jcy_config.ASSET_CONFIG.items():
                 if asset_id != 0:
                     asset = ASSET_DICT.get(asset_id)
+
+                    # 防御性代码：防止配置中的 asset_id 意外在全局字典中找不到
+                    if not asset:
+                        jcy_config.ASSET_CONFIG[asset_type] = 0
+                        asset_modifed = True
+                        continue
+                    
                     result = self.file_operations.apply_asset(asset)
                     if result.get("ok"):
                         if dialog:
                             dialog.log(f"{asset.get('name')} 应用成功.")
                             print(f"{asset.get('name')} 应用成功.")
                     else:
+                        # 应用失败, 素材管理对应类型修改为未配置
+                        jcy_config.ASSET_CONFIG[asset_type] = 0
+                        asset_modifed = True
                         if dialog:
                             dialog.log(f"{asset.get('name')} 应用失败, {result.get('message')}")
                             print(f"{asset.get('name')} 应用失败, {result.get('message')}")
                     dialog.step()
+
+            if asset_modifed:
+                self.file_operations.save_asset_config()
 
             if dialog:
                 dialog.log("✅ 升级完成!")
