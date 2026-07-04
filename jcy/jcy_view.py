@@ -2247,7 +2247,7 @@ class FlatSwitchRow(ttk.Frame):
         # 2. 渲染文字控件
         # 可以稍微调整一下类别的颜色（比如置灰）或固定宽度，让列表看起来更像表格对齐
         self.lbl_cat = ttk.Label(self, text=cat_text, width=8, anchor="w", foreground="gray")
-        self.lbl_target = ttk.Label(self, text=target_text, width=15, anchor="w")
+        self.lbl_target = ttk.Label(self, text=target_text, width=20, anchor="w")
         # 事件文本不限宽，用来占据中间所有的长文本空间
         self.lbl_event = ttk.Label(self, text=event_text, anchor="w")
         
