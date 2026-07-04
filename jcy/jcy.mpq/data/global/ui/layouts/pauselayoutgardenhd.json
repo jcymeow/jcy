@@ -313,7 +313,7 @@
                                 "acceptsReturnKey": true,
                                 "focusOnMouseOver": true,
                                 "sound": "cursor_select",
-                                "acceptsEscKeyEverywhere": true
+                                "acceptsEscKeyEverywhere": false
                             }
                         }
                     ]
@@ -347,7 +347,7 @@
             "name": "gotomain",
             "fields": {
                 "time": 0.1,
-                "message": ""
+                "message": "PausePanelMessage:ExitGame"
             }
         }
     ]
