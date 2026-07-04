@@ -1407,6 +1407,8 @@ class Function(Enum):
 
     # Switch 
     ENV_TOWER_CELLAR_ADD_POINTER = "EnvTowerCellarAddPointer"
+    ENV_HATE_DURANCE_ADD_POINTER = "EnvHateDuranceAddPointer"
+    ENV_WORLD_STONE_ADD_POINTER = "EnvWorldStoneAddPointer"
     LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
     LOCAL_DATE_FORMAT_TIMESTAMP = "LocalDateFormatTimestamp"
     LOCAL_DIABLO_CLONE_ADD_PROGRESS = "LocalDiabloCloneAddProgress"

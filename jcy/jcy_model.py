@@ -966,7 +966,21 @@ class FeatureConfig:
                             "type": SWITCH,
                             "category": "环境",
                             "target": "A1高塔地牢",
-                            "event": "添加箭头指引"
+                            "event": "添加方向指引"
+                        },
+                        {
+                            "fid": Function.ENV_HATE_DURANCE_ADD_POINTER.value,
+                            "type": SWITCH,
+                            "category": "环境",
+                            "target": "A3憎恨囚牢2F小站",
+                            "event": "添加方向指引"
+                        },
+                        {
+                            "fid": Function.ENV_WORLD_STONE_ADD_POINTER.value,
+                            "type": SWITCH,
+                            "category": "环境",
+                            "target": "A5世界之石要塞2F小站",
+                            "event": "添加方向指引"
                         },
                         {
                             "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,

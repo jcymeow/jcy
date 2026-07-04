@@ -3819,12 +3819,36 @@ class FileOperations:
 
 
     def switch_tower_cellar_pointer(self, value):
-        """环境.A1高塔地牢.增加指引箭头"""
+        """环境.A1高塔地牢.添加方向指引"""
         _files = [
             r"data/hd/env/preset/act1/crypt/cryptewarpprev.json",
             r"data/hd/env/preset/act1/crypt/cryptnwarpprev.json",
             r"data/hd/env/preset/act1/crypt/cryptswarpprev.json",
             r"data/hd/env/preset/act1/crypt/cryptwwarpprev.json",
+        ]
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
+    
+
+    def switch_hate_durance_pointer(self, value):
+        """环境.A3憎恨囚牢.添加方向指引"""
+        _files = [
+            r"data/hd/env/preset/act3/travincal/mephewarp.json",
+            r"data/hd/env/preset/act3/travincal/mephnwarp.json",
+            r"data/hd/env/preset/act3/travincal/mephswarp.json",
+            r"data/hd/env/preset/act3/travincal/mephwwarp.json",
+        ]
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
+    
+
+    def switch_world_stone_pointer(self, value):
+        """环境.A5世界之石要塞.添加方向指引"""
+        _files = [
+            r"data/hd/env/preset/expansion/baallair/baaleway.json",
+            r"data/hd/env/preset/expansion/baallair/baalnway.json",
+            r"data/hd/env/preset/expansion/baallair/baalsway.json",
+            r"data/hd/env/preset/expansion/baallair/baalwway.json",
         ]
         switch = str(value) == "1"
         return self.common_rename(_files, switch)

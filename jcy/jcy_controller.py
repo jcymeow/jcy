@@ -272,9 +272,12 @@ class FeatureController:
             Function.MAGIC_ITEM.value: self.file_operations.modify_magic_affixs,
 
             # --- Switch区 ---
-            # 环境.A1高塔地牢.增加指引箭头
+            # 环境.A1高塔地牢.添加方向指引
             Function.ENV_TOWER_CELLAR_ADD_POINTER.value: self.file_operations.switch_tower_cellar_pointer,
-
+            # 环境.A3憎恨囚牢.添加方向指引
+            Function.ENV_HATE_DURANCE_ADD_POINTER.value: self.file_operations.switch_hate_durance_pointer,
+            # 环境.A5世界之石要塞.添加方向指引
+            Function.ENV_WORLD_STONE_ADD_POINTER.value: self.file_operations.switch_world_stone_pointer,
             # 本地化.日期格式.开启'年-月-日 时:分:秒'
             Function.LOCAL_DATE_FORMAT_TIMESTAMP.value: self.file_operations.switch_date_format_timestamp,
             # 本地化.地表暗黑.增加进度标注
