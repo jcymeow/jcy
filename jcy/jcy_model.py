@@ -962,6 +962,20 @@ class FeatureConfig:
                     "text": "开关设置",
                     "children": [
                         {
+                            "fid": Function.ENV_TOWER_CELLAR_ADD_POINTER.value,
+                            "type": SWITCH,
+                            "category": "环境",
+                            "target": "A1高塔地牢",
+                            "event": "添加箭头指引"
+                        },
+                        {
+                            "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "物品栏",
+                            "event": "联动迷你盒子"
+                        },
+                        {
                             "fid": Function.LOCAL_DATE_FORMAT_TIMESTAMP.value,
                             "type": SWITCH,
                             "category": "本地化",
@@ -983,11 +997,11 @@ class FeatureConfig:
                             "event": "增加等级标注"
                         },
                         {
-                            "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,
+                            "fid": Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value,
                             "type": SWITCH,
-                            "category": "布局",
-                            "target": "物品栏",
-                            "event": "联动迷你盒子"
+                            "category": "对象",
+                            "target": "Act5邪龛",
+                            "event": "增加光照效果"
                         },
                         {
                             "fid": Function.SPRITE_CUBE_TRANSPARENT.value,
@@ -996,15 +1010,6 @@ class FeatureConfig:
                             "target": "迷你盒子",
                             "event": "透明化"
                         },
-                        
-                        {
-                            "fid": Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value,
-                            "type": SWITCH,
-                            "category": "对象",
-                            "target": "Act5邪龛",
-                            "event": "增加光照效果"
-                        },
-                        
                     ]
                 }
             ],

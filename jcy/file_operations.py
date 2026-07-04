@@ -3818,6 +3818,18 @@ class FileOperations:
         return count, total
 
 
+    def switch_tower_cellar_pointer(self, value):
+        """环境.A1高塔地牢.增加指引箭头"""
+        _files = [
+            r"data/hd/env/preset/act1/crypt/cryptewarpprev.json",
+            r"data/hd/env/preset/act1/crypt/cryptnwarpprev.json",
+            r"data/hd/env/preset/act1/crypt/cryptswarpprev.json",
+            r"data/hd/env/preset/act1/crypt/cryptwwarpprev.json",
+        ]
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
+
+
     def switch_date_format_timestamp(self, value):
         """本地化.日期格式.开启'年-月-日 时:分:秒'"""
         count = 0

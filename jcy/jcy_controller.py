@@ -272,16 +272,19 @@ class FeatureController:
             Function.MAGIC_ITEM.value: self.file_operations.modify_magic_affixs,
 
             # --- Switch区 ---
+            # 环境.A1高塔地牢.增加指引箭头
+            Function.ENV_TOWER_CELLAR_ADD_POINTER.value: self.file_operations.switch_tower_cellar_pointer,
+
             # 本地化.日期格式.开启'年-月-日 时:分:秒'
             Function.LOCAL_DATE_FORMAT_TIMESTAMP.value: self.file_operations.switch_date_format_timestamp,
             # 本地化.地表暗黑.增加进度标注
             Function.LOCAL_DIABLO_CLONE_ADD_PROGRESS.value: self.file_operations.switch_diablo_clone_progress,
+            # 本地化.使者.增加等级标注
+            Function.LOCAL_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
             # 布局.物品栏.联动打开迷你盒子
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
             # 精灵图.迷你盒子.透明化
             Function.SPRITE_CUBE_TRANSPARENT.value: self.file_operations.switch_cube_transparent,
-            # 怪物.使者.增加等级标注
-            Function.MONSTER_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
             # 对象.Act5邪龛.增加光照效果
             Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value: self.file_operations.switch_ice_cave_evil_urn_light,
         }

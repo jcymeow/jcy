@@ -1406,12 +1406,13 @@ class Function(Enum):
     ITEM_FILTER = "ItemFilter"
 
     # Switch 
+    ENV_TOWER_CELLAR_ADD_POINTER = "EnvTowerCellarAddPointer"
+    LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
     LOCAL_DATE_FORMAT_TIMESTAMP = "LocalDateFormatTimestamp"
     LOCAL_DIABLO_CLONE_ADD_PROGRESS = "LocalDiabloCloneAddProgress"
     LOCAL_HERALD_ADD_LEVEL = "LocalHeraldAddLevel"
-    LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
-    SPRITE_CUBE_TRANSPARENT = "SpriteCubeTransparent"
     OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT = "ObjectsIceCaveEvilUrnAddLight"
+    SPRITE_CUBE_TRANSPARENT = "SpriteCubeTransparent"
 
 
 class Language(Enum):
