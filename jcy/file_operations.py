@@ -3937,7 +3937,11 @@ class FileOperations:
             for child in json_data["children"]:
                 if "OpenJcyMiniCube" == child.get("name"):
                     child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
-                    break
+                if "UnloadJcyMiniCubeClose" == child.get("name"):
+                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
+                if "OpenJcyMiniCubeClose" == child.get("name"):
+                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
+                    
             
             with open(json_path, 'w', encoding="utf-8") as f:
                 json.dump(json_data, f, ensure_ascii=False, indent=4)

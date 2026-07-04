@@ -12,8 +12,26 @@
             "name": "OpenJcyMiniCube",
             "fields": {
                 "time": 0.001,
-                "message": "",
+                "message": "PanelManager:OpenPanel:JcyMiniCube",
                 "default": "PanelManager:OpenPanel:JcyMiniCube"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "UnloadJcyMiniCubeClose",
+            "fields": {
+                "time": 0.002,
+                "message": "PanelManager:UnloadPanel:JcyMiniCubeClose",
+                "default": "PanelManager:UnloadPanel:JcyMiniCubeClose"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "OpenJcyMiniCubeClose",
+            "fields": {
+                "time": 0.003,
+                "message": "PanelManager:OpenPanel:JcyMiniCubeClose",
+                "default": "PanelManager:OpenPanel:JcyMiniCubeClose"
             }
         },
         {

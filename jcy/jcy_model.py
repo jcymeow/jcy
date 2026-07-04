@@ -980,7 +980,7 @@ class FeatureConfig:
                             "type": SWITCH,
                             "category": "布局",
                             "target": "物品栏",
-                            "event": "联动打开迷你盒子"
+                            "event": "联动迷你盒子"
                         },
                         {
                             "fid": Function.SPRITE_CUBE_TRANSPARENT.value,
