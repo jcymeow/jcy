@@ -3828,7 +3828,23 @@ class FileOperations:
         ]
         switch = str(value) == "1"
         return self.common_rename(_files, switch)
-    
+
+
+    def switch_tomb_pointer(self, value):
+        """环境.A2墓穴.添加方向指引"""
+        _files = [
+            r"data/hd/env/preset/act2/tomb/tombnewwarpprev.json",
+            r"data/hd/env/preset/act2/tomb/tombnewwarpprev2.json",
+            r"data/hd/env/preset/act2/tomb/tombnsewarpprev.json",
+            r"data/hd/env/preset/act2/tomb/tombnsewarpprev2.json",
+            r"data/hd/env/preset/act2/tomb/tombnswwarpprev.json",
+            r"data/hd/env/preset/act2/tomb/tombnswwarpprev2.json",
+            r"data/hd/env/preset/act2/tomb/tombsewwarpprev.json",
+            r"data/hd/env/preset/act2/tomb/tombsewwarpprev2.json",
+        ]
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
+
 
     def switch_hate_durance_pointer(self, value):
         """环境.A3憎恨囚牢.添加方向指引"""

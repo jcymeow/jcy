@@ -288,6 +288,8 @@ class FeatureController:
             # --- Switch区 ---
             # 环境.A1高塔地牢.添加方向指引
             Function.ENV_TOWER_CELLAR_ADD_POINTER.value: self.file_operations.switch_tower_cellar_pointer,
+            # 环境.A2墓穴.添加方向指引
+            Function.ENV_TOMB_ADD_POINTER.value: self.file_operations.switch_tomb_pointer,
             # 环境.A3憎恨囚牢.添加方向指引
             Function.ENV_HATE_DURANCE_ADD_POINTER.value: self.file_operations.switch_hate_durance_pointer,
             # 环境.A5世界之石要塞.添加方向指引

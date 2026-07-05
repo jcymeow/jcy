@@ -969,6 +969,13 @@ class FeatureConfig:
                             "event": "添加方向指引"
                         },
                         {
+                            "fid": Function.ENV_TOMB_ADD_POINTER.value,
+                            "type": SWITCH,
+                            "category": "环境",
+                            "target": "A2墓穴",
+                            "event": "添加方向指引"
+                        },
+                        {
                             "fid": Function.ENV_HATE_DURANCE_ADD_POINTER.value,
                             "type": SWITCH,
                             "category": "环境",
