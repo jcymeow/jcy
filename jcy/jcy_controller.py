@@ -241,6 +241,8 @@ class FeatureController:
             Function.WAR_SETTING.value: self.file_operations.warlock_setting,
             # 凯恩
             Function.CAIN_SETTING.value: self.file_operations.cain_setting,
+            # 抗性面板
+            Function.RES_PANEL.value: self.file_operations.select_res_panel,
             # 技能结束提示音
             Function.SKILL_OFF_SOUNDS.value: self.file_operations.skill_off_sounds,
 

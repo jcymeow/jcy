@@ -1,0 +1,966 @@
+{
+    "type": "CharacterStatsPanel",
+    "name": "JcyCharacterRes",
+    "fields": {
+        "priority": 101,
+        "rect": {
+            "x": -320,
+            "y": 226
+        },
+        "anchor": {
+            "x": 1,
+            "y": 0.397
+        },
+        "defaultTextColor": "$FontColorWhite",
+        "statPointsRemainingActiveFontColor": "$FontColorRed",
+        "statPointsRemainingInactiveFontColor": "$TabsInactiveTextColor"
+    },
+    "children": [
+        {
+            "type": "TextBoxWidget",
+            "name": "CharacterName",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "FullClassInfo",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "ProgressBarWidget",
+            "name": "XpProgress"
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "CombinedXP",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "StrengthStat",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "DexStat",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "VitalityStat",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "EnergyStat",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "Widget",
+            "name": "LeftSkillStats",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            },
+            "children": [
+                {
+                    "type": "Widget",
+                    "name": "Damage",
+                    "fields": {
+                        "rect": {
+                            "x": -19,
+                            "y": -101,
+                            "width": 539,
+                            "height": 77
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageTitle",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": -2,
+                                    "width": 308,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "leading": 1.0
+                                    }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "kerning": 0.87,
+                                        "leading": 0.75
+                                    }
+                                },
+                                "truncateWithEllipsis": true
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackDamage",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageStat",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": -2,
+                                    "width": 225,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageStatTop",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 2,
+                                    "width": 226,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageStatBottom",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 35,
+                                    "width": 226,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Widget",
+                    "name": "Rating",
+                    "fields": {
+                        "rect": {
+                            "x": -19,
+                            "y": 103,
+                            "width": 539,
+                            "height": 86
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingTitle",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": -2,
+                                    "width": 308,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "leading": 1.0
+                                    }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "kerning": 0.87,
+                                        "leading": 0.75
+                                    }
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackRating",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingStat",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": -2,
+                                    "width": 225,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingStatTop",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": -1,
+                                    "width": 225,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingStatBottom",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 36,
+                                    "width": 225,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Widget",
+            "name": "RightSkillStats",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            },
+            "children": [
+                {
+                    "type": "Widget",
+                    "name": "Damage",
+                    "fields": {
+                        "rect": {
+                            "x": -19,
+                            "y": -72,
+                            "width": 539,
+                            "height": 86
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageTitle",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": -2,
+                                    "width": 308,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "leading": 1.0
+                                    }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "kerning": 0.87,
+                                        "leading": 0.75
+                                    }
+                                },
+                                "truncateWithEllipsis": true
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackDamage",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageStat",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": -2,
+                                    "width": 227,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageStatTop",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 0,
+                                    "width": 226,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackDamageStatBottom",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 33,
+                                    "width": 226,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Widget",
+                    "name": "Rating",
+                    "fields": {
+                        "rect": {
+                            "x": -19,
+                            "y": 135,
+                            "width": 539,
+                            "height": 86
+                        }
+                    },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingTitle",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": -2,
+                                    "width": 308,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "leading": 1.0
+                                    }
+                                },
+                                "useAltStyleIfDoesntFit": true,
+                                "altStyle": {
+                                    "fontFace": "Formal",
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard"
+                                    },
+                                    "spacing": {
+                                        "kerning": 0.87,
+                                        "leading": 0.75
+                                    }
+                                }
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "@CharacterStatsTooltipAttackRating",
+                                        "tooltipStyle": {
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingStat",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": -2,
+                                    "width": 227,
+                                    "height": 86
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$MediumPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingStatTop",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 6,
+                                    "width": 226,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "AttackRatingStatBottom",
+                            "fields": {
+                                "rect": {
+                                    "x": 315,
+                                    "y": 39,
+                                    "width": 226,
+                                    "height": 42
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorWhite",
+                                    "pointSize": "$SmallPanelFontSize",
+                                    "alignment": {
+                                        "h": "center",
+                                        "v": "center"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "ArmorClass",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "MaxStamina",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "CurrentStamina",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "MaxHP",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "CurrentHP",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "MaxMana",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "CurrentMana",
+            "fields": {
+                "rect": {
+                    "x": 9999,
+                    "y": 9999
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "FireResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": -50,
+                    "y": 0,
+                    "width": 359,
+                    "height": 59
+                },
+                "text": "@strchrfir",
+                "style": {
+                    "fontColor": "$FontColorRed",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            },
+            "children": [
+                {
+                    "type": "FocusableWidget",
+                    "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipFireResistance",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": {
+                                    "newlineHandling": "standard"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "FireText",
+            "fields": {
+                "rect": {
+                    "x": 200,
+                    "y": 0,
+                    "width": 113,
+                    "height": 59
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "ColdResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": -50,
+                    "y": 57,
+                    "width": 359,
+                    "height": 57
+                },
+                "text": "@strchrcol",
+                "style": {
+                    "fontColor": "$FontColorBlue",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            },
+            "children": [
+                {
+                    "type": "FocusableWidget",
+                    "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipColdResistance",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": {
+                                    "newlineHandling": "standard"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "ColdText",
+            "fields": {
+                "rect": {
+                    "x": 200,
+                    "y": 57,
+                    "width": 113,
+                    "height": 57
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "LightningResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": -50,
+                    "y": 114,
+                    "width": 359,
+                    "height": 59
+                },
+                "text": "@strchrlit",
+                "style": {
+                    "fontColor": "$FontColorYellow",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            },
+            "children": [
+                {
+                    "type": "FocusableWidget",
+                    "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipLightningResistance",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": {
+                                    "newlineHandling": "standard"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "LightningText",
+            "fields": {
+                "rect": {
+                    "x": 200,
+                    "y": 114,
+                    "width": 113,
+                    "height": 59
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "PoisonResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": -50,
+                    "y": 171,
+                    "width": 359,
+                    "height": 57
+                },
+                "text": "@strchrpos",
+                "style": {
+                    "fontColor": "$FontColorGreen",
+                    "fontFace": "Formal",
+                    "pointSize": "$MediumPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            },
+            "children": [
+                {
+                    "type": "FocusableWidget",
+                    "name": "Tooltip",
+                    "fields": {
+                        "fitToParent": true,
+                        "tooltipString": "@CharacterStatsTooltipPoisonResistance",
+                        "tooltipStyle": {
+                            "fontStyle": {
+                                "options": {
+                                    "newlineHandling": "standard"
+                                }
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "PoisonText",
+            "fields": {
+                "rect": {
+                    "x": 200,
+                    "y": 171,
+                    "width": 113,
+                    "height": 57
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        }
+    ]
+}

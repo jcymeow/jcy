@@ -654,6 +654,18 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.RES_PANEL.value,
+                            "type": RADIO,
+                            "text": "抗性面板",
+                            "colspan": 50,
+                            "params": {
+                                "0": "默认",
+                                "1": "右侧",
+                                "2": "左下角",
+                                "3": "右下角",
+                            }
+                        },
+                        {
                             "fid": Function.SKILL_OFF_SOUNDS.value,
                             "type": CHECK,
                             "text": "技能结束提示音",

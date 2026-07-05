@@ -1379,6 +1379,7 @@ class Function(Enum):
     ASN_SETTING = "AssassinSetting"
     WAR_SETTING = "WarlockSetting"
     CAIN_SETTING = "CainSetting"
+    RES_PANEL = "ResPanel"
     SKILL_OFF_SOUNDS = "SkillOffSounds"
     MERCENARY_LOCATION = "MercenaryLocation"
     MERCENARY_100 = "Mercenary100"

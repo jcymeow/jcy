@@ -3354,6 +3354,57 @@ class FileOperations:
         
         return summary
 
+
+    def select_res_panel(self, radio: str = "0"):
+        """抗性面板"""
+
+        count = 0
+        total = 1
+
+        _params = {
+            # 屏幕外
+            "0":{
+                "rect": { "x": 9999, "y": 9999 },
+                "anchor": { "x": 1, "y": 1 }
+            },
+            # 右侧
+            "1":{
+                "rect": { "x": -320, "y": 226 },
+                "anchor": { "x": 1, "y": 0.397 }
+            },
+            # 左下角
+            "2":{
+                "rect": {"x": 400,"y": -280},
+                "anchor": {"x": 0,"y": 1}
+            },
+            # 右下角
+            "3":{
+                "rect": { "x": -740, "y": -280 },
+                "anchor": { "x": 1, "y": 1 }
+            },
+        }
+        
+        # --- 抗性面板坐标 ---
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyCharacterReshd.json")
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+            
+            _param = _params.get(radio, {})
+            json_data["fields"]["rect"] = _param["rect"]
+            json_data["fields"]["anchor"] = _param["anchor"]
+            
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+            count += 1
+        except Exception as e:
+            print(e)
+        
+        return count, total
+
+
     def assassin_setting(self, keys: list):
         """刺客设置"""
         if keys is None:
