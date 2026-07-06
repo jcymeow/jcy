@@ -460,29 +460,6 @@ class FeatureConfig:
                     "text": "佣兵&怪物",
                     "children": [
                         {
-                            "fid": Function.MERCENARY_LOCATION.value,
-                            "type": RADIO,
-                            "text": "佣兵-图标位置",
-                            "colspan": 100,
-                            "params": {
-                                "0": "默认",
-                                "1": "左上角缩进",
-                                "2": "红球之上",
-                                "3": "红球之上上",
-                                "9": "自定义"
-                            }
-                        },
-                        {
-                            "fid": Function.MERCENARY_100.value,
-                            "type": LOCATION,
-                            "text": "佣兵-坐标 x HUD100%",
-                            "colspan": 25,
-                            "params": {
-                                "x": 1286,
-                                "y": 1640
-                            }
-                        },
-                        {
                             "fid": Function.MERCENARY_SETTING.value,
                             "type": ARRAY,
                             "text": "佣兵头像设置",

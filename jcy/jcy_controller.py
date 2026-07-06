@@ -248,10 +248,6 @@ class FeatureController:
 
             # 佣兵-头像设置
             Function.MERCENARY_SETTING.value: self.file_operations.modify_mercenary_setting,
-            # 佣兵-图标位置
-            Function.MERCENARY_LOCATION.value: self.file_operations.select_hireables_panel,
-            # 佣兵-坐标 x HUD100%
-            Function.MERCENARY_100.value: self.file_operations.mercenary_coordinate,
             # 怪物-配置
             Function.MONSTER_SETTING.value: self.file_operations.select_monster_setting,
             # 怪物-光源

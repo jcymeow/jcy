@@ -1425,8 +1425,6 @@ class Function(Enum):
     CAIN_SETTING = "CainSetting"
     RES_PANEL = "ResPanel"
     SKILL_OFF_SOUNDS = "SkillOffSounds"
-    MERCENARY_LOCATION = "MercenaryLocation"
-    MERCENARY_100 = "Mercenary100"
     MERCENARY_SETTING = "MercenarySetting"
     MONSTER_SETTING = "MonsterSetting"
     MONSTER_LIGHT = "MonsterLight"

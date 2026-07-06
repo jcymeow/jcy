@@ -1178,52 +1178,6 @@ class FileOperations:
         return count, total
 
 
-    def modify_hireablespanelhd_json(self, location:str, hud_size: str):
-        """修改佣兵面板"""
-        # 佣兵未知-位置 != 自定义, 不修改
-        if "9" != location:
-            return (0, 0)
-        
-        # 根据HUD面板尺寸, 修改对应的参数
-        rects = {
-            "0": { "x": 46, "y": 60, "scale": 0.98 },
-            "1": { "x": 46, "y": 60, "scale": 0.83 },
-            "2": { "x": 46, "y": 60, "scale": 0.73 },
-            "3": { "x": 46, "y": 60, "scale": 0.64 },
-        }
-        keys = {
-            "0": Function.MERCENARY_100.value,
-            "1": Function.MERCENARY_100.value,
-            "2": Function.MERCENARY_100.value,
-            "3": Function.MERCENARY_100.value,
-        }
-
-        try:
-            # 1.load
-            file_data = None
-            file_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hireablespanelhd.json")
-            if not os.path.exists(file_path):
-                file_path = file_path + ".tmp"
-            
-            with open(file_path, 'r', encoding='utf-8') as f:
-                file_data = json.load(f)
-
-            # 2.modify
-            file_data["fields"]["rect"] = rects.get(hud_size)
-
-            key = keys.get(hud_size)
-            value = jcy_config.SETTINGS.get(key)
-            file_data["fields"]["secondSetPosition"] = value
-
-            # 3.write
-            with open(file_path, 'w', encoding='utf-8') as f:
-                json.dump(file_data, f, ensure_ascii=False, indent=4)
-            return (1, 1)
-        except Exception as e:
-            print(e)
-            return (0, 0)
-
-
     def modify_mercenary_setting(self, value: list):
         """佣兵头像设置"""
         try:
@@ -1250,33 +1204,6 @@ class FileOperations:
         except Exception as e:
             print(e)
             return 0, 1
-
-
-    def select_hireables_panel(self, radio: str = "0"):
-        """
-        佣兵图标位置
-        """
-        
-        file_path = r"data/global/ui/layouts/hireablespanelhd.json"
-
-        funcs = []
-        funcs.append(self.common_select(file_path, radio))
-
-        # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        funcs.append(self.modify_hireablespanelhd_json(radio, "0"))
-        
-        summary = [sum(column) for column in zip(*funcs)]
-
-        return summary
-    
-
-    def mercenary_coordinate(self, val: dict):
-        """修改佣兵坐标"""
-        
-        # 佣兵图标位置 = 自定义 -> 根据hud_size进行修改
-        location = jcy_config.SETTINGS.get(Function.MERCENARY_LOCATION.value)
-        result = self.modify_hireablespanelhd_json(location, "0")
-        return (result[0], result[1], f"= {str(val)}")
 
 
     def select_affix_effects(self, keys: list):
