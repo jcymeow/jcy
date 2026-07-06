@@ -483,6 +483,16 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.MERCENARY_SETTING.value,
+                            "type": ARRAY,
+                            "text": "佣兵头像设置",
+                            "colspan": 100,
+                            "length": 5,
+                            "labels": ["坐标X", "坐标Y", "间隔", "透明度", "Tooltip延迟(ms)"],
+                            "values": [210, -206, 175, 1.0, 30000],
+                            "cols": 5
+                        },
+                        {
                             "type": "Separator"
                         },
                         {

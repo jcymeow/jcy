@@ -331,7 +331,7 @@ Email: CMCC_1020@163.com
                     self.feature_vars[fid] = feature  # 如果你要后面取值
 
                 elif ARRAY == type:
-                    feature = LabeledIntArray(
+                    feature = LabeledNumericArray(
                         master=tab,
                         feature_id=fid,
                         text=child.get("text"),
@@ -339,7 +339,8 @@ Email: CMCC_1020@163.com
                         labels=child.get("labels"),
                         default_values=child.get("values"),
                         min_value=child.get("min"),
-                        max_value=child.get("max")
+                        max_value=child.get("max"),
+                        max_per_row=child.get("cols")
                     )
                     # 如果当前行剩余列不足，换行
                     if current_col + colspan > total_columns:
@@ -791,7 +792,7 @@ class LabeledEntry(ttk.LabelFrame):
         self.var.set(value)
 
 
-class LabeledIntArray(ttk.LabelFrame):
+class LabeledNumericArray(ttk.LabelFrame):
     def __init__(self,
                  master,
                  feature_id,
@@ -805,16 +806,18 @@ class LabeledIntArray(ttk.LabelFrame):
                  max_per_row=3,
                  **kwargs):
 
-        super().__init__(master, text=f"{text}: {min_value}-{max_value}", **kwargs)
+        # 如果有最大最小值限制，显示在标题上
+        text = f"{text}: {min_value}-{max_value}" if min_value is not None and max_value is not None else f"{text}"
+        super().__init__(master, text=text, **kwargs)
 
         self.feature_id = feature_id
         self.length = length
         self.min = min_value
         self.max = max_value
-        self.max_per_row = max_per_row
+        self.max_per_row = max_per_row if max_per_row is not None else 3
 
         # -------------------------
-        # 数据兜底
+        # 数据结构兜底与清洗
         # -------------------------
         if labels is None:
             labels = [f"[{i}]" for i in range(length)]
@@ -836,7 +839,7 @@ class LabeledIntArray(ttk.LabelFrame):
             default_values += [0] * (length - len(default_values))
 
         # -------------------------
-        # UI容器
+        # UI 容器与构建
         # -------------------------
         container = ttk.Frame(self)
         container.pack(fill=tk.X, padx=10, pady=5)
@@ -844,17 +847,14 @@ class LabeledIntArray(ttk.LabelFrame):
         self.vars = []
         self.entries = []
 
-        # -------------------------
-        # 创建 UI
-        # -------------------------
         for i in range(length):
-
-            row = i // max_per_row
-            col = i % max_per_row
+            row = i // self.max_per_row
+            col = i % self.max_per_row
 
             item_frame = ttk.Frame(container)
             item_frame.grid(row=row, column=col, padx=12, pady=5, sticky="w")
 
+            # 核心：初始化时，怎么传进来的值，就原封不动变成字符串显示
             var = tk.StringVar(value=str(default_values[i]))
 
             lbl = ttk.Label(item_frame, text=labels[i] + ":")
@@ -867,28 +867,27 @@ class LabeledIntArray(ttk.LabelFrame):
             self.entries.append(entry)
 
     # -------------------------
-    # 获取数据（纯读取，不修正UI）
+    # 获取数据：原封不动吐出纯字符串
     # -------------------------
     def get(self):
-        result = []
-
-        for var in self.vars:
-            try:
-                result.append(int(var.get()))
-            except ValueError:
-                result.append(0)
-
-        return result
+        return [var.get().strip() for var in self.vars]
 
     # -------------------------
-    # 设置数据（纯写UI）
+    # 设置数据：原封不动塞入，不做任何取余或洗白
     # -------------------------
     def set(self, values):
         if values is None:
-            values = [0] * self.length
+            return
+            
+        if not isinstance(values, (list, tuple)):
+            values = [values]
+        else:
+            values = list(values)
 
         for i in range(self.length):
-            self.vars[i].set(str(values[i]))
+            if i < len(values):
+                # 无论外部给的是数字还是字符串，原汁原味显示
+                self.vars[i].set(str(values[i]).strip())
 
 
 class LabeledCoordinate(ttk.LabelFrame):

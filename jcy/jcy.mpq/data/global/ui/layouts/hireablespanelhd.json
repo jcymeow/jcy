@@ -16,12 +16,14 @@
             "x": 210,
             "y": -206
         },
-        "nextIconOffsetSecondSet": "$SecondSetIconOffset",
+        "nextIconOffsetSecondSet": {
+            "x": 125
+        },
         "tooltipOffset": {
             "x": 160,
             "y": 115
         },
-        "baseTransparency": 1,
+        "baseTransparency": 1.0,
         "mercenaryIconTooltipMouseoverDelay": 30000,
         "allyPlayerFontColor": "$FontColorGold",
         "allyNPCFontColor": "$FontColorVeryLightGray"
@@ -37,13 +39,13 @@
                     "fields": {
                         "anchor": {
                             "x": 0,
-                            "y": 0.98
+                            "y": 120
                         },
                         "style": {
-                            "fontFace": "Formal",
+                            "fontFace": "BlizzardGlobal",
                             "fontColor": "$FontColorGold",
                             "pointSize": "$SmallFontSize",
-                            "spacing": "$MinimumSpacing",
+                            "spacing": "$ReducedSpacing",
                             "alignment": {
                                 "h": "left"
                             }

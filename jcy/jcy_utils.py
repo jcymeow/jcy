@@ -31,6 +31,15 @@ def safe_get(collection, idx, default=0):
         return collection[idx]
     except:
         return default
+    
+
+def parse_numeric(val_str):
+    val_str = str(val_str).strip()
+    # 如果包含小数点，严格尊重用户的意志，转为 float (保持 .0)
+    if '.' in val_str:
+        return float(val_str)
+    # 如果没有小数点，严格转为纯 int
+    return int(val_str)
 
 __all__ = [
     'human_size',
@@ -38,4 +47,5 @@ __all__ = [
     'ok_result',
     'err_result',
     'safe_get',
+    'parse_numeric',
 ]

@@ -246,6 +246,8 @@ class FeatureController:
             # 技能结束提示音
             Function.SKILL_OFF_SOUNDS.value: self.file_operations.skill_off_sounds,
 
+            # 佣兵-头像设置
+            Function.MERCENARY_SETTING.value: self.file_operations.modify_mercenary_setting,
             # 佣兵-图标位置
             Function.MERCENARY_LOCATION.value: self.file_operations.select_hireables_panel,
             # 佣兵-坐标 x HUD100%

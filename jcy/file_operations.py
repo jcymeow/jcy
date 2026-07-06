@@ -1224,6 +1224,34 @@ class FileOperations:
             return (0, 0)
 
 
+    def modify_mercenary_setting(self, value: list):
+        """佣兵头像设置"""
+        try:
+            # jcy\jcy.mpq\data\global\ui\layouts\hireablespanelhd.json
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hireablespanelhd.json")
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            # 头像坐标x
+            json_data["fields"]["secondSetPosition"]["x"] = parse_numeric(value[0])
+            # 头像坐标y
+            json_data["fields"]["secondSetPosition"]["y"] = parse_numeric(value[1])
+            # 头像间隔
+            json_data["fields"]["nextIconOffsetSecondSet"]["x"] = parse_numeric(value[2])
+            # 头像透明度
+            json_data["fields"]["baseTransparency"] = parse_numeric(value[3])
+            # Tooltip延迟
+            json_data["fields"]["mercenaryIconTooltipMouseoverDelay"] = parse_numeric(value[4])
+
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            return 1, 1
+        except Exception as e:
+            print(e)
+            return 0, 1
+
+
     def select_hireables_panel(self, radio: str = "0"):
         """
         佣兵图标位置
@@ -2805,9 +2833,9 @@ class FileOperations:
     
         amounts = json_data["children"][-1]["children"][0]["fields"]
         amounts["amountsArrowsBolts"] = {
-            "low": safe_get(value, 0),
-            "medium": safe_get(value, 1),
-            "high": safe_get(value, 2),
+            "low": parse_numeric(value[0]),
+            "medium": parse_numeric(value[1]),
+            "high": parse_numeric(value[2]),
         }
 
         with open(json_path, 'w', encoding='utf-8') as f:
