@@ -140,6 +140,50 @@ ITEM_NOTIFICATIONS = [
     "xa1", "xa2", "xa3", "xa4", "xa5",
 ]
 
+# 小站dict
+WAYPOINT_DICT = {
+    "": "-",
+    "Act 1 - Town": "Act1 俠盜營地",
+    "Act 1 - Wilderness 2": "Act1 冰冷之原",
+    "Act 1 - Wilderness 3": "Act1 亂石曠野",
+    "Act 1 - Wilderness 4": "Act1 黑暗森林",
+    "Act 1 - Wilderness 5": "Act1 黑色荒地",
+    "Act 1 - Courtyard 1": "Act1 外側迴廊",
+    "Act 1 - Jail 1": "Act1 監牢第一層",
+    "Act 1 - Courtyard 2": "Act1 內側迴廊",
+    "Act 1 - Catacombs 2": "Act1 地下墓穴第二層",
+    "Act 2 - Town": "Act2 魯高因",
+    "Act 2 - Sewer 1 B": "Act2 下水道第二層",
+    "Act 2 - Desert 2": "Act2 乾土高地",
+    "Act 2 - Tomb 2 B": "Act2 死亡之殿第二層",
+    "Act 2 - Desert 3": "Act2 遙遠的緑洲",
+    "Act 2 - Desert 4": "Act2 失落古城",
+    "Act 2 - Basement 1": "Act2 皇宮地窖第一層",
+    "Act 2 - Arcane": "Act2 秘法聖殿",
+    "Act 2 - Valley of the Kings": "Act2 賢者之谷",
+    "Act 3 - Town": "Act3 庫拉斯特港口",
+    "Act 3 - Jungle 1": "Act3 蜘蛛森林",
+    "Act 3 - Jungle 2": "Act3 大沼澤",
+    "Act 3 - Jungle 3": "Act3 剝皮叢林",
+    "Act 3 - Kurast 1": "Act3 庫拉斯特下層",
+    "Act 3 - Kurast 2": "Act3 庫拉斯特市集",
+    "Act 3 - Kurast 3": "Act3 庫拉斯特上層",
+    "Act 3 - Travincal": "Act3 崔凡克",
+    "Act 3 - Mephisto 2": "Act3 憎恨囚牢第二層",
+    "Act 4 - Town": "Act4 混沌界要塞",
+    "Act 4 - Mesa 3": "Act4 罪罰之城",
+    "Act 4 - Lava 1": "Act4 火焰之河",
+    "Act 5 - Town": "Act5 哈洛加斯",
+    "Act 5 - Barricade 1": "Act5 冰凍高地",
+    "Act 5 - Barricade 2": "Act5 亞瑞特高原",
+    "Act 5 - Ice Cave 1": "Act5 水晶通道",
+    "Act 5 - Ice Cave 2": "Act5 冰河小徑",
+    "Act 5 - Temple 2": "Act5 痛苦之廳",
+    "Act 5 - Barricade Snow": "Act5 冰凍苔原",
+    "Act 5 - Ice Cave 3": "Act5 先祖之路",
+    "Act 5 - Baal Temple 2": "Act5 世界之石要塞第二層"
+}
+
 # 恐怖区域API
 TERROR_ZONE_API = {
     "1" : ["https://asia.d2tz.info/terror_zone?mode=online", "https://api.d2tz.info/terror_zone?mode=online"],
@@ -1504,6 +1548,7 @@ __all__ = [
     'UE01A',
     'SWITCH_ON',
     'SWITCH_OFF',
+    'WAYPOINT_DICT',
     'TERROR_ZONE_API',
     'ITEM_BASE',
     'ITEM_MISC',
