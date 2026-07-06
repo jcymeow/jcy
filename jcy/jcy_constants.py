@@ -95,6 +95,7 @@ class Assets(Enum):
     BANK = "Bank"
     CJW = "CJW"
     AUTOMAP = "Automap"
+    SPRITE = "Sprite"
     AMA = "Ama"
     SOR = "Sor"
     NEC = "Nec"

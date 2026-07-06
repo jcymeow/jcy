@@ -1821,9 +1821,12 @@ class AssetSelectionDialog(tk.Toplevel):
                 if old_asset:
                     self.controller.file_operations.remove_asset(old_asset)
             result = self.controller.file_operations.apply_asset(asset)
-            if result.get("ok"): messagebox.showinfo("完成", result.get("message"))
-            else: messagebox.showerror("错误", result.get("message"))
-        except Exception as e: messagebox.showerror("错误", f"应用失败：{e}")
+            if result.get("ok"): 
+                messagebox.showinfo("完成", result.get("message"))
+            else: 
+                messagebox.showerror("错误", result.get("message"))
+        except Exception as e: 
+            messagebox.showerror("错误", f"应用失败：{e}")
         finally: 
             # 问题 4：素材应用后，立刻同步刷新子窗口和主界面列表
             self.refresh_status(update_layout=False)
