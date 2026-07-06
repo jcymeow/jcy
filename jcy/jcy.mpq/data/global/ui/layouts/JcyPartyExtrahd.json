@@ -1,0 +1,172 @@
+{
+    "type": "PartyPanel",
+    "name": "JcyPartyExtra",
+    "fields": {
+        "priority": -99,
+        "rect": {
+            "x": 0,
+            "y": 0
+        },
+        "hostileColor": "$FontColorRed",
+        "yourPartyColor": "$FontColorGold",
+        "inAnotherPartyColor": "$FontColorPartyOrange",
+        "unpartiedColor": "$FontColorWhite",
+        "nonHardcoreSquelchXPosition": 835,
+        "hardcoreSquelchXPosition": 885,
+        "partyFrameFilename": "PANEL\\Party\\PartyGroupBorder_%dSlots"
+    },
+    "children": [
+        {
+            "type": "ListWidget",
+            "name": "ListContainer",
+            "fields": {
+                "direction": "vertical",
+                "rect": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 1000,
+                    "height": 2000
+                }
+            },
+            "children": [
+                {
+                    "type": "ListItemWidget",
+                    "name": "FriendsListTemplate",
+                    "fields": {
+                        "rect": {
+                            "x": 46,
+                            "y": 266,
+                            "width": 1,
+                            "height": 204
+                        },
+                        "focusOnMouseOver": false
+                    },
+                    "children": [
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "PlayerName",
+                            "fields": {
+                                "rect": {
+                                    "x": 130,
+                                    "y": -30,
+                                    "width": 0,
+                                    "height": 0
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorGold",
+                                    "pointSize": "$SmallFontSize",
+                                    "alignment": {
+                                        "h": "left",
+                                        "v": "top"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard",
+                                        "pipeCharacterBehavior": "handle"
+                                    },
+                                    "spacing": {
+                                        "leading": 1.0
+                                    },
+                                    "dropShadow": "$DefaultDropShadow"
+                                },
+                                "text": "",
+                                "truncateWithEllipsis": false
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "PlayerInfo",
+                            "fields": {
+                                "rect": {
+                                    "x": 130,
+                                    "y": 20,
+                                    "width": 1000,
+                                    "height": 60
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorGold",
+                                    "pointSize": "$SmallFontSize",
+                                    "alignment": {
+                                        "h": "left",
+                                        "v": "top"
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard",
+                                        "pipeCharacterBehavior": "handle",
+                                        "lineWrap": true
+                                    },
+                                    "spacing": {
+                                        "leading": 1
+                                    },
+                                    "dropShadow": "$DefaultDropShadow"
+                                },
+                                "text": "",
+                                "truncateWithEllipsis": true
+                            }
+                        },
+                        {
+                            "type": "TextBoxWidget",
+                            "name": "PartyInfoText",
+                            "fields": {
+                                "rect": {
+                                    "x": 130,
+                                    "y": 20,
+                                    "width": 400,
+                                    "height": 1
+                                },
+                                "style": {
+                                    "fontColor": "$FontColorGold",
+                                    "alignment": {
+                                        "h": "left",
+                                        "v": "top"
+                                    },
+                                    "pointSize": "$SmallFontSize",
+                                    "spacing": {
+                                        "leading": 1
+                                    },
+                                    "options": {
+                                        "newlineHandling": "standard",
+                                        "pipeCharacterBehavior": "handle",
+                                        "lineWrap": true
+                                    },
+                                    "dropShadow": "$DefaultDropShadow"
+                                },
+                                "text": "",
+                                "truncateWithEllipsis": true
+                            }
+                        },
+                        {
+                            "type": "ToggleButtonWidget",
+                            "name": "LootBodyButton",
+                            "fields": {
+                                "rect": {
+                                    "x": 9999,
+                                    "y": 9999
+                                }
+                            }
+                        },
+                        {
+                            "type": "ToggleButtonWidget",
+                            "name": "HostileButton",
+                            "fields": {
+                                "rect": {
+                                    "x": 9999,
+                                    "y": 9999
+                                }
+                            }
+                        },
+                        {
+                            "type": "ButtonWidget",
+                            "name": "InviteButton",
+                            "fields": {
+                                "rect": {
+                                    "x": 9999,
+                                    "y": 9999
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

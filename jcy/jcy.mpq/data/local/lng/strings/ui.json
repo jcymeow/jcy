@@ -5969,8 +5969,8 @@
   {
     "id": 4148,
     "Key": "Yourparty",
-    "enUS": "In your party",
-    "zhTW": "在你的隊伍中",
+    "enUS": "",
+    "zhTW": "",
     "deDE": "In Eurer Gruppe",
     "esES": "En tu grupo",
     "frFR": "Dans votre groupe",
@@ -5981,13 +5981,13 @@
     "jaJP": "あなたのパーティー",
     "ptBR": "No seu grupo",
     "ruRU": "В вашей группе",
-    "zhCN": "在你的隊伍中"
+    "zhCN": ""
   },
   {
     "id": 4149,
     "Key": "Inparty",
-    "enUS": "In a party",
-    "zhTW": "在隊伍中",
+    "enUS": "",
+    "zhTW": "",
     "deDE": "In Gruppe",
     "esES": "En un grupo",
     "frFR": "Dans un groupe",
@@ -5998,7 +5998,7 @@
     "jaJP": "他のパーティー",
     "ptBR": "Em um grupo",
     "ruRU": "В группе",
-    "zhCN": "在隊伍中"
+    "zhCN": ""
   },
   {
     "id": 4150,

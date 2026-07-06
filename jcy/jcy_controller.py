@@ -302,6 +302,8 @@ class FeatureController:
             Function.LOCAL_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
             # 布局.物品栏.联动打开迷你盒子
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
+            # 布局.队伍.展示等级/职业/位置
+            Function.LAYOUTS_PARTY_INFO_EXTRA.value: self.file_operations.switch_party_extra,
             # 精灵图.迷你盒子.透明化
             Function.SPRITE_CUBE_TRANSPARENT.value: self.file_operations.switch_cube_transparent,
             # 对象.Act5邪龛.增加光照效果

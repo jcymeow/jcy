@@ -3980,6 +3980,77 @@ class FileOperations:
         return count, total
 
 
+    def switch_party_extra(self, value):
+        """布局.队伍.展示等级/职业/位置"""
+
+        # 开关
+        switch = str(value) == "1"
+
+        count = 0
+        total = 3
+
+        # 1. jcy\jcy.mpq\data\global\ui\layouts\hudwarningshd.json 开启JcyPartyExtra
+        try:
+            hud_data = None
+            hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudwarningshd.json")
+            with open(hud_path, 'r', encoding='utf-8') as f:
+                hud_data = json.load(f)
+            
+            for child in hud_data["children"]:
+                if "OpenJcyPartyExtra" == child.get("name"):
+                    child["fields"]["message"] = child["fields"]["default"] if switch else ""
+                    break
+
+            with open(hud_path, 'w', encoding="utf-8") as f:
+                json.dump(hud_data, f, ensure_ascii=False, indent=4)
+            count += 1
+        except Exception as e:
+            print(e)
+
+        # 2. jcy\jcy.mpq\data\global\ui\layouts\hireablespanelhd.json 调整队伍面板布局
+        try:
+            hire_data = None
+            hire_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hireablespanelhd.json")
+            with open(hire_path, 'r', encoding='utf-8') as f:
+                hire_data = json.load(f)
+            
+            for child in hire_data["children"]:
+                if "Template" == child.get("name"):
+                    for grand_child in child["children"]:
+                        if "Name" == grand_child.get("name"):
+                            grand_child["fields"]["anchor"]["y"] = 120 if switch else 0.98
+            
+            with open(hire_path, 'w', encoding="utf-8") as f:
+                json.dump(hire_data, f, ensure_ascii=False, indent=4)
+            count += 1
+        except Exception as e:
+            print(e)
+
+        # 3. jcy\jcy.mpq\data\global\ui\layouts\partypanelhd.json 调度JcyPartyExtra定时器开关
+        TIMER_WIDGETS = {
+            "CloseJcyPartyExtra",
+            "UnloadJcyPartyExtraOpen",
+            "OpenJcyPartyExtraOpen",
+        }
+        try:
+            party_data = None
+            party_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/partypanelhd.json")
+            with open(party_path, 'r', encoding='utf-8') as f:
+                party_data = json.load(f)
+            
+            for child in party_data["children"]:
+                if child.get("name") in TIMER_WIDGETS:
+                    child["fields"]["message"] = child["fields"]["default"] if switch else ""
+            
+            with open(party_path, 'w', encoding="utf-8") as f:
+                json.dump(party_data, f, ensure_ascii=False, indent=4)
+            count += 1
+        except Exception as e:
+            print(e)
+
+        return count, total
+
+
     def switch_inventory_cube(self, value):
         """布局.物品栏.联动打开迷你盒子"""
         count = 0

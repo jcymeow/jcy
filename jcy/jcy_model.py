@@ -750,6 +750,13 @@ class FeatureConfig:
                             "event": "联动迷你盒子"
                         },
                         {
+                            "fid": Function.LAYOUTS_PARTY_INFO_EXTRA.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "队伍",
+                            "event": "展示等级/职业/位置"
+                        },
+                        {
                             "fid": Function.LOCAL_DATE_FORMAT_TIMESTAMP.value,
                             "type": SWITCH,
                             "category": "本地化",

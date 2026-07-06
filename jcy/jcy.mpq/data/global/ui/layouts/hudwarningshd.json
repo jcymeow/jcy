@@ -235,14 +235,22 @@
                 "time": 0.005,
                 "message": "PanelManager:OpenPanel:JcyCharacterRes",
                 "default": "PanelManager:OpenPanel:JcyCharacterRes"
-                
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "OpenJcyPartyExtra",
+            "fields": {
+                "time": 0.006,
+                "message": "PanelManager:OpenPanel:JcyPartyExtra",
+                "default": "PanelManager:OpenPanel:JcyPartyExtra"
             }
         },
         {
             "type": "TimerWidget",
             "name": "CloseInventory",
             "fields": {
-                "time": 0.006,
+                "time": 0.007,
                 "message": "PlayerInventoryPanelMessage:Close"
             }
         },
@@ -250,7 +258,7 @@
             "type": "TimerWidget",
             "name": "TimerClose",
             "fields": {
-                "time": 0.007,
+                "time": 0.008,
                 "message": "PanelManager:ClosePanel:HUDWarnings"
             }
         }

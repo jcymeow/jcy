@@ -1,0 +1,31 @@
+{
+    "type": "Panel",
+    "name": "JcyPartyExtraOpen",
+    "fields": {
+        "priority": 101,
+        "anchor": {
+            "x": 0.5,
+            "y": 0.99
+        }
+    },
+    "children": [
+        {
+            "type": "TimerWidget",
+            "name": "OpenJcyPartyExtra",
+            "fields": {
+                "time": 0.001,
+                "message": "PanelManager:OpenPanel:JcyPartyExtra",
+                "defalut": "PanelManager:OpenPanel:JcyPartyExtra"
+            }
+        },
+        {
+            "type": "TimerWidget",
+            "name": "UnloadJcyPartyExtraOpen",
+            "fields": {
+                "time": 0.002,
+                "message": "PanelManager:UnloadPanel:JcyPartyExtraOpen",
+                "defalut": "PanelManager:UnloadPanel:JcyPartyExtraOpen"
+            }
+        }
+    ]
+}

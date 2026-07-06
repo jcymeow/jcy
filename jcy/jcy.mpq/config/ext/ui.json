@@ -3160,21 +3160,21 @@
     },
     "Yourparty": {
         "Key": "Yourparty",
-        "enUS": "In your party",
-        "zhCN": "在你的队伍中",
-        "zhTW": "在你的隊伍中",
-        "sgCN": "在你的队伍中",
-        "sgTW": "在你的隊伍中",
-        "bnCN": "在你的队伍中"
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": "",
+        "bnCN": ""
     },
     "Inparty": {
         "Key": "Inparty",
-        "enUS": "In a party",
-        "zhCN": "在队伍中",
-        "zhTW": "在隊伍中",
-        "sgCN": "在队伍中",
-        "sgTW": "在隊伍中",
-        "bnCN": "在队伍中"
+        "enUS": "",
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": "",
+        "bnCN": ""
     },
     "Invite": {
         "Key": "Invite",

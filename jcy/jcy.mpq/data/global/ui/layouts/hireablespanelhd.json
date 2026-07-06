@@ -71,9 +71,9 @@
                     "name": "Health",
                     "fields": {
                         "rect": {
-                            "y": -22,
+                            "y": -19,
                             "width": 120,
-                            "height": 20
+                            "height": 18
                         },
                         "transparency": 0.95,
                         "backgroundTransparency": 0.95

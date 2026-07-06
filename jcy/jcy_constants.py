@@ -1455,6 +1455,7 @@ class Function(Enum):
     ENV_HATE_DURANCE_ADD_POINTER = "EnvHateDuranceAddPointer"
     ENV_WORLD_STONE_ADD_POINTER = "EnvWorldStoneAddPointer"
     LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
+    LAYOUTS_PARTY_INFO_EXTRA = "LayoutsPartyInfoExtra"
     LOCAL_DATE_FORMAT_TIMESTAMP = "LocalDateFormatTimestamp"
     LOCAL_DIABLO_CLONE_ADD_PROGRESS = "LocalDiabloCloneAddProgress"
     LOCAL_HERALD_ADD_LEVEL = "LocalHeraldAddLevel"
