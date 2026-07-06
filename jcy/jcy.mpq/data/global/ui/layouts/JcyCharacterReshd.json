@@ -731,12 +731,12 @@
             "name": "FireResistanceTitle",
             "fields": {
                 "rect": {
-                    "x": -50,
+                    "x": 0,
                     "y": 0,
                     "width": 359,
                     "height": 59
                 },
-                "text": "@strchrfir",
+                "text": "",
                 "style": {
                     "fontColor": "$FontColorRed",
                     "fontFace": "Formal",
@@ -747,24 +747,7 @@
                         "v": "center"
                     }
                 }
-            },
-            "children": [
-                {
-                    "type": "FocusableWidget",
-                    "name": "Tooltip",
-                    "fields": {
-                        "fitToParent": true,
-                        "tooltipString": "@CharacterStatsTooltipFireResistance",
-                        "tooltipStyle": {
-                            "fontStyle": {
-                                "options": {
-                                    "newlineHandling": "standard"
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+            }
         },
         {
             "type": "TextBoxWidget",
@@ -790,12 +773,12 @@
             "name": "ColdResistanceTitle",
             "fields": {
                 "rect": {
-                    "x": -50,
-                    "y": 57,
+                    "x": 0,
+                    "y": 64,
                     "width": 359,
                     "height": 57
                 },
-                "text": "@strchrcol",
+                "text": "",
                 "style": {
                     "fontColor": "$FontColorBlue",
                     "fontFace": "Formal",
@@ -806,24 +789,7 @@
                         "v": "center"
                     }
                 }
-            },
-            "children": [
-                {
-                    "type": "FocusableWidget",
-                    "name": "Tooltip",
-                    "fields": {
-                        "fitToParent": true,
-                        "tooltipString": "@CharacterStatsTooltipColdResistance",
-                        "tooltipStyle": {
-                            "fontStyle": {
-                                "options": {
-                                    "newlineHandling": "standard"
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+            }
         },
         {
             "type": "TextBoxWidget",
@@ -831,7 +797,7 @@
             "fields": {
                 "rect": {
                     "x": 200,
-                    "y": 57,
+                    "y": 64,
                     "width": 113,
                     "height": 57
                 },
@@ -849,12 +815,12 @@
             "name": "LightningResistanceTitle",
             "fields": {
                 "rect": {
-                    "x": -50,
-                    "y": 114,
+                    "x": 0,
+                    "y": 128,
                     "width": 359,
                     "height": 59
                 },
-                "text": "@strchrlit",
+                "text": "",
                 "style": {
                     "fontColor": "$FontColorYellow",
                     "fontFace": "Formal",
@@ -865,24 +831,7 @@
                         "v": "center"
                     }
                 }
-            },
-            "children": [
-                {
-                    "type": "FocusableWidget",
-                    "name": "Tooltip",
-                    "fields": {
-                        "fitToParent": true,
-                        "tooltipString": "@CharacterStatsTooltipLightningResistance",
-                        "tooltipStyle": {
-                            "fontStyle": {
-                                "options": {
-                                    "newlineHandling": "standard"
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+            }
         },
         {
             "type": "TextBoxWidget",
@@ -890,7 +839,7 @@
             "fields": {
                 "rect": {
                     "x": 200,
-                    "y": 114,
+                    "y": 128,
                     "width": 113,
                     "height": 59
                 },
@@ -908,12 +857,12 @@
             "name": "PoisonResistanceTitle",
             "fields": {
                 "rect": {
-                    "x": -50,
-                    "y": 171,
+                    "x": 0,
+                    "y": 192,
                     "width": 359,
                     "height": 57
                 },
-                "text": "@strchrpos",
+                "text": "",
                 "style": {
                     "fontColor": "$FontColorGreen",
                     "fontFace": "Formal",
@@ -924,24 +873,7 @@
                         "v": "center"
                     }
                 }
-            },
-            "children": [
-                {
-                    "type": "FocusableWidget",
-                    "name": "Tooltip",
-                    "fields": {
-                        "fitToParent": true,
-                        "tooltipString": "@CharacterStatsTooltipPoisonResistance",
-                        "tooltipStyle": {
-                            "fontStyle": {
-                                "options": {
-                                    "newlineHandling": "standard"
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+            }
         },
         {
             "type": "TextBoxWidget",
@@ -949,7 +881,7 @@
             "fields": {
                 "rect": {
                     "x": 200,
-                    "y": 171,
+                    "y": 192,
                     "width": 113,
                     "height": 57
                 },
