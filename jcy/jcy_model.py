@@ -743,6 +743,13 @@ class FeatureConfig:
                             "event": "添加方向指引"
                         },
                         {
+                            "fid": Function.LAYOUTS_HOSTILITY_SCALE_UP.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "敌意",
+                            "event": "强化展示效果"
+                        },
+                        {
                             "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,
                             "type": SWITCH,
                             "category": "布局",

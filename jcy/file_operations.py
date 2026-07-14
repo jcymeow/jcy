@@ -4051,6 +4051,33 @@ class FileOperations:
         return count, total
 
 
+    def switch_hostility_scale_up(self, value):
+        """布局.敌意.强化展示效果"""
+        count = 0
+        total = 1
+
+        try:
+            # 1.jcy\jcy.mpq\data\global\ui\layouts\JcyHudWarningshd.json
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyHudWarningshd.json")
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+
+            for child in json_data["children"]:
+                if "HostilityWarningWrapper" == child.get("name"):
+                    child["fields"]["rect"]["scale"] = 5 if str(value) == "1" else 1
+                    child["children"][0]["fields"]["transparency"] = 1 if str(value) == "1" else 0.7
+                    break
+            
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+            count += 1            
+        except Exception as e:
+            print(e)
+        return count, total
+
+
     def switch_inventory_cube(self, value):
         """布局.物品栏.联动打开迷你盒子"""
         count = 0

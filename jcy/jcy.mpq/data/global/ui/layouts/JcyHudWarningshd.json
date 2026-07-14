@@ -123,10 +123,11 @@
         },
         {
             "type": "LayoutItemWidget",
-            "name": "QuantityWarningWrapper",
+            "name": "HostilityWarningWrapper",
             "fields": {
-                "marginRight": 5,
-                "marginTop": 47
+                "rect": {
+                    "scale": 5
+                }
             },
             "children": [
                 {
@@ -134,7 +135,7 @@
                     "name": "HostileWarning",
                     "fields": {
                         "filename": "PANEL/hostilepic",
-                        "transparency": 0.7
+                        "transparency": 1
                     }
                 }
             ]

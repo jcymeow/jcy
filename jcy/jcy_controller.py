@@ -300,6 +300,8 @@ class FeatureController:
             Function.LOCAL_DIABLO_CLONE_ADD_PROGRESS.value: self.file_operations.switch_diablo_clone_progress,
             # 本地化.使者.增加等级标注
             Function.LOCAL_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
+            # 布局.敌意.强化展示效果
+            Function.LAYOUTS_HOSTILITY_SCALE_UP.value: self.file_operations.switch_hostility_scale_up,
             # 布局.物品栏.联动打开迷你盒子
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
             # 布局.队伍.展示等级/职业/位置
