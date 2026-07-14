@@ -2480,6 +2480,49 @@ ASSETS = [
             r"data/hd/global/ui/panel/hud_02/sprint.sprite",
         ]
     },
+    {
+        "id": 808,
+        "name": "HUD皮肤_8",
+        "category": Assets.HUD_SKIN.value,
+        "type": Assets.HUD_SKIN.value,
+        "author": "桔橙柚",
+        "description": "默认皮肤 × 85%缩放",
+        "source": "",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.0/808.zip",
+        "file": "808.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/808.png",
+        "size": 3864,
+        "md5": "86099C478BFC0C04884B9A8CC3873CB3",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        "list": [
+            r"data/global/ui/layouts/hudpanelhd.json",
+            r"data/global/ui/layouts/JcyMiniButtonshd.json",
+        ]
+    },
     # 杂项(900, 1000)
     {
         "id": 901,
