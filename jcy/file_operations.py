@@ -1524,6 +1524,7 @@ class FileOperations:
 
         item_rune_setting1 = jcy_config.SETTINGS.get(Function.ITEM_RUNE_SETTING1.value)
         item_rune_setting2 = jcy_config.SETTINGS.get(Function.ITEM_RUNE_SETTING2.value)
+        rune_color = jcy_config.SETTINGS.get(Function.RUNE_COLOR.value, "")
         
         rune_num = "3" in item_rune_setting1
         rune_enus = "4" in item_rune_setting1
@@ -1566,6 +1567,8 @@ class FileOperations:
                 if re.match(_rune, Key):
                     for lang in Language:
                         lng = lang.value
+                        item[lng] = item[lng].replace("{{color}}", rune_color)
+
                         item[lng] = item[lng].replace("{{num}}", Key.replace("r", "#") if rune_num else "")
                         item[lng] = item[lng].replace("{{rune}}", data.get(lng).get("rune") if rune_enus else "")
                         item[lng] = item[lng].replace("{{logo}}", data.get(lng).get("logo") if rune_logo else "")

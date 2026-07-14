@@ -185,6 +185,33 @@ WAYPOINT_DICT = {
     "Act 5 - Baal Temple 2": "Act5 世界之石要塞第二層"
 }
 
+WORD_COLOR = {
+    "": "默认",
+    "ÿc1": "珊瑚红 #FF5151",
+    "ÿc6": "暗夜黑 #010101",
+    "ÿc;": "电光紫 #B001FF",
+    "ÿcM": "迷幻紫 #9F4FFC",
+    "ÿcK": "石板灰 #676767",
+    "ÿc2": "荧光绿 #01FF01",
+    "ÿc7": "暗金色 #D1C480",
+    "ÿcA": "深草绿 #018301",
+    "ÿcO": "电光青 #08A8DE",
+    "ÿcT": "铁锈红 #D14242",
+    "ÿc8": "琥珀金 #FFAA01",
+    "ÿc<": "翡翠绿 #01CA01",
+    "ÿcP": "芭比粉 #FF83FF",
+    "ÿcU": "淡冰蓝 #85C7FF",
+    "ÿc4": "香槟金 #C9B57A",
+    "ÿc9": "柠檬黄 #FFFF68",
+    "ÿcC": "电光绿 #01FC01",
+    "ÿcQ": "薰衣蓝 #ACACFF",
+    "ÿcV": "正红色 #FF0101",
+    "ÿc5": "暗铁灰 #6D6D6D",
+    "ÿc0": "极光白 #FFFFFF",
+    "ÿcE": "亮灰色 #F0F0F0",
+    "ÿcS": "月光黄 #FFFF79",
+}
+
 # 恐怖区域API
 TERROR_ZONE_API = {
     "1" : ["https://asia.d2tz.info/terror_zone?mode=online", "https://api.d2tz.info/terror_zone?mode=online"],
@@ -1447,6 +1474,7 @@ class Function(Enum):
     SKILL_LOGO = "SkillLogo"
     ITEM_RUNE_SETTING1 = "ItemRuneSetting1"
     ITEM_RUNE_SETTING2 = "ItemRuneSetting2"
+    RUNE_COLOR = "RuneColor"
     ITEM_NAME_STAR = "ItemNameStar"
     ITEM_FILTER = "ItemFilter"
 
@@ -1500,13 +1528,6 @@ class Methods(Enum):
     """修改 items.json 使用素材火炬钥匙皮肤"""
 
 
-class DefaultValue(Enum):
-    HUD_PANEL_BUTTONS = {
-        "anchor": {"x": 0.7, "y": 1 },
-        "rect": { "x": 0, "y": -450}
-    }
-
-
 class JcyExt(Enum):
     QUICK_GAME = "JcyModQuickGame"
     TOGGLE_MINI_STASH = "JcyToggleMiniStash"
@@ -1523,7 +1544,6 @@ __all__ = [
     'grade_dict',
     'Operation',
     'Methods',
-    'DefaultValue',
     'JcyExt',
     'MUTEX_NAME',
     'ERROR_ALREADY_EXISTS',
@@ -1551,6 +1571,7 @@ __all__ = [
     'SWITCH_ON',
     'SWITCH_OFF',
     'WAYPOINT_DICT',
+    'WORD_COLOR',
     'TERROR_ZONE_API',
     'ITEM_BASE',
     'ITEM_MISC',

@@ -655,7 +655,7 @@ class FeatureConfig:
                             "fid": Function.ITEM_RUNE_SETTING1.value,
                             "type": CHECK,
                             "text": "符文-设置",
-                            "colspan": 100,
+                            "colspan": 70,
                             "params": {
                                 "3": "编号",
                                 "4": "附带英文",
@@ -663,6 +663,13 @@ class FeatureConfig:
                                 "6": "升级公式",
                                 "7": "大号加高",
                             }
+                        },
+                        {
+                            "fid": Function.RUNE_COLOR.value,
+                            "type": SELECT,
+                            "text": "符文-颜色",
+                            "colspan": 30,
+                            "params": WORD_COLOR
                         },
                         {
                             "fid": Function.ITEM_NAME_STAR.value,
