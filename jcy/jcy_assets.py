@@ -2410,6 +2410,76 @@ ASSETS = [
             r"data/hd/global/ui/panel/hud/stamina_bar.sprite",
         ]
     },
+    {
+        "id": 807,
+        "name": "HUD皮肤_7",
+        "category": Assets.HUD_SKIN.value,
+        "type": Assets.HUD_SKIN.value,
+        "author": "TEAM ED2R",
+        "description": "移除天使/恶魔雕像, 黑色主体",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7879",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.0/807.zip",
+        "file": "807.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/807.png",
+        "size": 1161196,
+        "md5": "61A7888F9991D91BA5DE2BD779B114F3",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        "list": [
+            r"data/global/ui/layouts/hudpanelhd.json",
+            r"data/global/ui/layouts/JcyMiniButtonshd.json",
+            r"data/hd/global/ui/panel/hud_02/automap.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/automap.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_popped_cap.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_popped_cap.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_popped_row.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_popped_row.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_uparrow.lowend.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_uparrow.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/belt_uparrow.sprite",
+            r"data/hd/global/ui/panel/hud_02/character.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/character.sprite",
+            r"data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/experience_bar.sprite",
+            r"data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/front_panel.sprite",
+            r"data/hd/global/ui/panel/hud_02/inventory.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/inventory.sprite",
+            r"data/hd/global/ui/panel/hud_02/messages.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/messages.sprite",
+            r"data/hd/global/ui/panel/hud_02/pausemenu.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/pausemenu.sprite",
+            r"data/hd/global/ui/panel/hud_02/questlog.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/questlog.sprite",
+            r"data/hd/global/ui/panel/hud_02/skilltree.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/skilltree.sprite",
+            r"data/hd/global/ui/panel/hud_02/sprint.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/sprint.sprite",
+        ]
+    },
     # 杂项(900, 1000)
     {
         "id": 901,
