@@ -3597,7 +3597,7 @@ class FileOperations:
                     rune_json["entities"].extend(PF_BEACON_ITEMS)
                 
                 if bool(data[i][3]):
-                    rune_json["entities"].append(ENTITY_DROP_EFFECT)
+                    rune_json["entities"].extend(ENTITY_DROP_EFFECT)
                 
                 # 保存文件
                 with open(rune_file, 'w', encoding='utf-8') as f:
