@@ -15892,12 +15892,12 @@
     "Horazon's Hold": {
         "id": 27646,
         "Key": "Horazon's Hold",
-        "enUS": "[150AR/270FD/15DEX/40Life]\nHorazon's Hold",
-        "zhTW": "[150AR/270FD/15DEX/40Life]\n赫拉森的掌控",
-        "zhCN": "[150AR/270FD/15DEX/40Life]\n霍拉松的握持",
-        "sgCN": "[150AR/270FD/15DEX/40Life]\n霍拉松的要塞",
-        "sgTW": "[150AR/270FD/15DEX/40Life]\n赫拉森的掌控",
-        "bnCN": "[150AR/270FD/15DEX/40Life]\n霍拉松的要塞"
+        "enUS": "[150AR/15DEX/40Life]\nHorazon's Hold",
+        "zhTW": "[150AR/15DEX/40Life]\n赫拉森的掌控",
+        "zhCN": "[150AR/15DEX/40Life]\n霍拉松的握持",
+        "sgCN": "[150AR/15DEX/40Life]\n霍拉松的要塞",
+        "sgTW": "[150AR/15DEX/40Life]\n赫拉森的掌控",
+        "bnCN": "[150AR/15DEX/40Life]\n霍拉松的要塞"
     },
     "Horazon's Legacy": {
         "id": 27647,

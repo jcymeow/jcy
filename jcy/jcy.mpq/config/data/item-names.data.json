@@ -22714,15 +22714,15 @@
     },
     "Horazon's Hold": {
         "enUS": {
-            "max": "150AR/270FD/15DEX/40Life",
+            "max": "150AR/15DEX/40Life",
             "mark": ""
         },
         "zhCN": {
-            "max": "150AR/270FD/15DEX/40Life",
+            "max": "150AR/15DEX/40Life",
             "mark": ""
         },
         "zhTW": {
-            "max": "150AR/270FD/15DEX/40Life",
+            "max": "150AR/15DEX/40Life",
             "mark": ""
         }
     },
