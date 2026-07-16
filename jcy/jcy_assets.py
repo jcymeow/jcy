@@ -2564,6 +2564,55 @@ ASSETS = [
             r"data/global/ui/layouts/JcyMiniButtonshd.json",
         ]
     },
+    {
+        "id": 809,
+        "name": "HUD皮肤_9",
+        "category": Assets.HUD_SKIN.value,
+        "type": Assets.HUD_SKIN.value,
+        "author": "풍선",
+        "description": "极简风左下角",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7680",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.0/809.zip",
+        "file": "809.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/809.png",
+        "size": 10464284,
+        "md5": "2CF16CEC85C39A5C6C1899905ED58DE7",
+        PREPROCESS_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.BACKUP,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [
+            {
+                METHOD: Methods.BACKUP_RESOTRE_FILES,
+                PARAMS: {
+                    "operation": Operation.RESOTRE,
+                    "files": [
+                        "data/global/ui/layouts/JcyMiniButtonshd.json",
+                        "data/global/ui/layouts/hudpanelhd.json",
+                    ]
+                }
+            }
+        ],
+        "list": [
+            r"data/global/ui/layouts/hudpanelhd.json",
+            r"data/global/ui/layouts/JcyMiniButtonshd.json",
+            r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.sprite",
+            r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_idle.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_idle.sprite",
+            r"data/hd/global/ui/panel/hud_02/front_panel.lowend.sprite",
+            r"data/hd/global/ui/panel/hud_02/front_panel.sprite",
+        ]
+    },
     # 杂项(900, 1000)
     {
         "id": 901,
