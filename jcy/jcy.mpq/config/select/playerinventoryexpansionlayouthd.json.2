@@ -36,32 +36,26 @@
         },
         {
             "type": "ClickCatcherWidget",
-            "name": "click_catcher",
-            "fields": {
-                "rect": {
-                    "x": 0,
-                    "y": 0,
-                    "width": 1162,
-                    "height": 1507
-                }
-            }
+            "name": "click_catcher"
         },
         {
             "type": "ImageWidget",
             "name": "background",
             "fields": {
-                "filename": "panel/inventory/Background"
+                "filename": "PANEL\\Inventory\\Background"
             }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "RightHinge"
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "title"
         },
         {
             "type": "TextBoxWidget",
             "name": "gold_amount",
-            "fields": {
-                "rect": {
-                    "x": 476,
-                    "y": 1372
-                }
-            },
             "children": [
                 {
                     "type": "FocusableWidget",
@@ -71,13 +65,7 @@
         },
         {
             "type": "ButtonWidget",
-            "name": "gold_button",
-            "fields": {
-                "rect": {
-                    "x": 426,
-                    "y": 1372
-                }
-            }
+            "name": "gold_button"
         },
         {
             "type": "ButtonWidget",
@@ -86,12 +74,6 @@
         {
             "type": "InventoryGridWidget",
             "name": "grid",
-            "fields": {
-                "rect": {
-                    "x": 92,
-                    "y": 930
-                }
-            },
             "children": [
                 {
                     "type": "AnimatedImageWidget",
@@ -101,111 +83,51 @@
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_right_hand",
-            "fields": {
-                "rect": {
-                    "x": 520,
-                    "y": 788
-                }
-            }
+            "name": "slot_right_hand"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_left_hand",
-            "fields": {
-                "rect": {
-                    "x": 876,
-                    "y": 788
-                }
-            }
+            "name": "slot_left_hand"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_belt",
-            "fields": {
-                "rect": {
-                    "x": 649,
-                    "y": 790
-                }
-            }
+            "name": "slot_belt"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_feet",
-            "fields": {
-                "rect": {
-                    "x": 876,
-                    "y": 564
-                }
-            }
+            "name": "slot_feet"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_gloves",
-            "fields": {
-                "rect": {
-                    "x": 422,
-                    "y": 564
-                }
-            }
+            "name": "slot_gloves"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_head",
-            "fields": {
-                "rect": {
-                    "x": 650,
-                    "y": 78
-                }
-            }
+            "name": "slot_head"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_neck",
-            "fields": {
-                "rect": {
-                    "x": 698,
-                    "y": 312
-                }
-            }
+            "name": "slot_neck"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_torso",
-            "fields": {
-                "rect": {
-                    "x": 649,
-                    "y": 449
-                }
-            }
+            "name": "slot_torso"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_right_arm",
-            "fields": {
-                "rect": {
-                    "x": 423,
-                    "y": 124
-                }
-            }
+            "name": "slot_right_arm"
         },
         {
             "type": "InventorySlotWidget",
-            "name": "slot_left_arm",
-            "fields": {
-                "rect": {
-                    "x": 877,
-                    "y": 124
-                }
-            }
+            "name": "slot_left_arm"
         },
         {
             "type": "ImageWidget",
             "name": "background_right_arm_selected",
             "fields": {
                 "rect": {
-                    "x": 414,
-                    "y": 66
+                    "x": 99,
+                    "y": 179
                 },
                 "filename": "PANEL\\Inventory\\Tab"
             }
@@ -215,8 +137,8 @@
             "name": "background_left_arm_selected",
             "fields": {
                 "rect": {
-                    "x": 867,
-                    "y": 66
+                    "x": 850,
+                    "y": 179
                 },
                 "filename": "PANEL\\Inventory\\Tab"
             }
@@ -226,8 +148,8 @@
             "name": "background_right_arm",
             "fields": {
                 "rect": {
-                    "x": 867,
-                    "y": 66
+                    "x": 99,
+                    "y": 179
                 },
                 "filename": "PANEL\\Inventory\\Tab",
                 "frame": 1
@@ -238,8 +160,8 @@
             "name": "background_left_arm",
             "fields": {
                 "rect": {
-                    "x": 413,
-                    "y": 66
+                    "x": 850,
+                    "y": 179
                 },
                 "filename": "PANEL\\Inventory\\Tab",
                 "frame": 1
@@ -250,8 +172,8 @@
             "name": "text_i_left",
             "fields": {
                 "rect": {
-                    "x": 414,
-                    "y": 65,
+                    "x": 99,
+                    "y": 180,
                     "width": 107,
                     "height": 48
                 },
@@ -264,8 +186,8 @@
             "name": "text_ii_left",
             "fields": {
                 "rect": {
-                    "x": 520,
-                    "y": 65,
+                    "x": 205,
+                    "y": 180,
                     "width": 107,
                     "height": 48
                 },
@@ -278,8 +200,8 @@
             "name": "text_i_right",
             "fields": {
                 "rect": {
-                    "x": 867,
-                    "y": 65,
+                    "x": 850,
+                    "y": 180,
                     "width": 107,
                     "height": 48
                 },
@@ -292,8 +214,8 @@
             "name": "text_ii_right",
             "fields": {
                 "rect": {
-                    "x": 973,
-                    "y": 65,
+                    "x": 956,
+                    "y": 180,
                     "width": 107,
                     "height": 48
                 },
@@ -306,8 +228,8 @@
             "name": "weaponswap_right_arm",
             "fields": {
                 "rect": {
-                    "x": 414,
-                    "y": 66,
+                    "x": 99,
+                    "y": 179,
                     "width": 215,
                     "height": 48
                 }
@@ -318,8 +240,8 @@
             "name": "weaponswap_left_arm",
             "fields": {
                 "rect": {
-                    "x": 867,
-                    "y": 66,
+                    "x": 850,
+                    "y": 179,
                     "width": 215,
                     "height": 48
                 }

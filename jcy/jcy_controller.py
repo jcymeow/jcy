@@ -190,6 +190,10 @@ class FeatureController:
             Function.ACT4_WAYPOINT_7.value: self.file_operations.modify_act_info,
             Function.ACT4_WAYPOINT_8.value: self.file_operations.modify_act_info,
             Function.ACT4_WAYPOINT_9.value: self.file_operations.modify_act_info,
+            # 迷你盒子模式
+            Function.MINI_CUBE_MODE.value: self.file_operations.select_mini_cube_mode,
+            # 迷你盒子位置
+            Function.MINI_CUBE.value: self.file_operations.modify_mini_cube,
 
             # 游戏设置
             Function.GAME_SETTING.value: self.file_operations.select_game_setting,
@@ -199,8 +203,6 @@ class FeatureController:
             Function.CONTROLS_SETTING.value: self.file_operations.select_controls_setting,
             # ESC设置
             Function.ESC_SETTING.value: self.file_operations.modify_esc_func,
-            # 迷你盒子位置
-            Function.MINI_CUBE.value: self.file_operations.modify_mini_cube,
             # 传送门皮肤
             Function.PORTAL_SKIN.value: self.file_operations.select_town_portal,
             # 生命法力格式
