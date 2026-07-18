@@ -3137,7 +3137,6 @@ class FileOperations:
         name_to_key = {
             "OpenJcyMiniButtons": "1",
             "OpenJcyMiniHud": "2",
-            "OpenJcyMiniCube": "3",
         }
         keys_set = set(keys)    
         
@@ -3752,8 +3751,13 @@ class FileOperations:
 
     def modify_mini_cube(self, radio: str = "2"):
         
+        _files = [
+            r"data/global/ui/layouts/JcyMiniCubehd.json",
+            r"config/select/JcyMiniCubehd.json.2",
+        ]
+
         count = 0
-        total = 1
+        total = len(_files)
 
         _params = {
             # 包裹左侧
@@ -3786,25 +3790,31 @@ class FileOperations:
             },
         }
 
-        try:
-            cube_json = None
-            cube_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniCubehd.json")
-            with open(cube_path, 'r', encoding='utf-8') as f:
-                cube_json = json.load(f)
+        for _file in _files:
+            try:
+                cube_json = None
+                cube_path = os.path.join(MOD_PATH, _file)
+                if not os.path.exists(cube_path):
+                    count += 1
+                    continue
+                
+                with open(cube_path, 'r', encoding='utf-8') as f:
+                    cube_json = json.load(f)
 
-            param = _params.get(radio)
-            cube_json["fields"]["rect"] = param["rect"]
-            cube_json["fields"]["anchor"] = param["anchor"]
-            cube_json["children"][1]["fields"]["rect"] = param["convert"]
-            cube_json["children"][2]["fields"]["rect"] = param["close"]
-                    
-            with open(cube_path, 'w', encoding="utf-8") as f:
-                json.dump(cube_json, f, ensure_ascii=False, indent=4)
-            count += 1
-        except Exception as e:
-            print(e)
+                param = _params.get(radio)
+                cube_json["fields"]["rect"] = param["rect"]
+                cube_json["fields"]["anchor"] = param["anchor"]
+                cube_json["children"][1]["fields"]["rect"] = param["convert"]
+                cube_json["children"][2]["fields"]["rect"] = param["close"]
+                        
+                with open(cube_path, 'w', encoding="utf-8") as f:
+                    json.dump(cube_json, f, ensure_ascii=False, indent=4)
+                
+                count += 1
+            except Exception as e:
+                print(e)
 
-        return (count, total)
+        return count, total
 
 
     def modify_esc_func(sefl, radio: str = "0"):

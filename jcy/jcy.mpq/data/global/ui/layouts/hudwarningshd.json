@@ -221,15 +221,6 @@
         },
         {
             "type": "TimerWidget",
-            "name": "OpenJcyMiniCube",
-            "fields": {
-                "time": 0.004,
-                "message": "",
-                "default": "PanelManager:OpenPanel:JcyMiniCube"
-            }
-        },
-        {
-            "type": "TimerWidget",
             "name": "OpenJcyRes",
             "fields": {
                 "time": 0.005,

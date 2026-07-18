@@ -178,7 +178,6 @@ class FeatureConfig:
                             "params": {
                                 "1": "迷你按钮栏",
                                 "2": "默开迷你血条",
-                                "3": "默开迷你盒子",
                                 "6": "Alt提示",
                                 "5": "储物箱特效"
                             }
@@ -187,7 +186,7 @@ class FeatureConfig:
                             "fid": Function.ESC_SETTING.value,
                             "type": RADIO,
                             "text": "ESC设置",
-                            "colspan": 40,
+                            "colspan": 50,
                             "params": {
                                 "0": "默认",
                                 "1": "单击退出",
@@ -198,13 +197,12 @@ class FeatureConfig:
                         {
                             "fid": Function.HEALTH_MANA_FORMAT.value,
                             "type": RADIO,
-                            "text": "迷你盒子位置",
-                            "colspan": 60,
+                            "text": "生命法力格式",
+                            "colspan": 50,
                             "params": {
-                                "1": "包裹左侧",
-                                "2": "包裹右侧",
-                                "3": "左下角",
-                                "4": "右下角",
+                                "0": r"抬头: 分子/分母",
+                                "1": r"分子/分母",
+                                "2": r"分子",
                             }
                         },
                         {
