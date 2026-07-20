@@ -278,6 +278,7 @@
     ],
     "HugeFontSize": 66,
     "XExtraLargeFontSize": 56,
+    "FontSize48": 48,
     "ExtraLargeFontSize": 42,
     "XLargeFontSize": 40,
     "LargeFontSize": 38,
@@ -1466,12 +1467,17 @@
         "y": -5,
         "scale": 0.8
     },
+    "RuneWordLogoWidgetRect": {
+        "x": -5,
+        "y": 8,
+        "scale": 1.0
+    },
     "RuneWordNameWidgetRect": {
-        "x": 0,
+        "x": 35,
         "y": 0,
         "width": 240,
         "height": 70,
-        "scale": 0.9
+        "scale": 1.0
     },
     "RuneWordRunesWidgetRect": {
         "x": 250,
@@ -1479,7 +1485,7 @@
         "scale": 0.8
     },
     "RuneWordTextBoxWidgetStyle": {
-        "pointSize": "$XMediumLargeFontSize",
+        "pointSize": "$FontSize48",
         "alignment": {
             "h": "left",
             "v": "center"
@@ -1487,5 +1493,41 @@
         "options": {
             "pipeCharacterBehavior": "handle"
         }
+    },
+    "RuneWordSolt1": {
+        "x": 295,
+        "y": -5,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt2": {
+        "x": 395,
+        "y": -5,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt3": {
+        "x": 495,
+        "y": -5,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt4": {
+        "x": 595,
+        "y": -5,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt5": {
+        "x": 695,
+        "y": -5,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt6": {
+        "x": 795,
+        "y": -5,
+        "width": 98,
+        "height": 98
     }
 }

@@ -901,6 +901,40 @@
     "zhCN": "ÿcU天梯限定"
   },
   {
+    "id": 60097,
+    "Key": "jghelp60097nonladderonly",
+    "enUS": "ÿcUNon-Ladder only",
+    "zhTW": "ÿcU非天梯限定",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": "ÿcU非天梯限定"
+  },
+  {
+    "id": 60098,
+    "Key": "jghelp60098RotWonly",
+    "enUS": "ÿcUReign of the WarLock only",
+    "zhTW": "ÿcU限術士君臨",
+    "deDE": "",
+    "esES": "",
+    "frFR": "",
+    "itIT": "",
+    "koKR": "",
+    "plPL": "",
+    "esMX": "",
+    "jaJP": "",
+    "ptBR": "",
+    "ruRU": "",
+    "zhCN": "ÿcU限術士君臨"
+  },
+  {
     "id": 50098,
     "Key": "jghelp50098runeword",
     "enUS": "Runeword",
@@ -1361,9 +1395,9 @@
   },
   {
     "id": 548757,
-    "Key": "Xhelp548757runewordLastWish",
-    "enUS": "50 ",
-    "zhTW": "50 ÿc4戒慎ÿcU限DLCÿc4",
+    "Key": "Xhelp548757runewordVigilance",
+    "enUS": "53 Vigilance",
+    "zhTW": "53 ÿc4戒慎",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -1374,11 +1408,11 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "50 ÿc4戒慎ÿcU限DLCÿc4"
+    "zhCN": "53 ÿc4戒慎"
   },
   {
     "id": 548758,
-    "Key": "Xhelp548758runewordtooltipLastWish",
+    "Key": "Xhelp548758runewordtooltipVigilance",
     "enUS": "",
     "zhTW": "\nÿcU(限術士君臨)ÿc4\n盾牌\nÿc35% 幾率在被擊中時施放10級火焰之環ÿc3\n+10% 更快速跑步/步行ÿc3\n+30% 更快速格擋ÿc3\n75-100% 強化防禦 ÿc1(變動)ÿc3\n20-40 生命 ÿc1(變動)ÿc3\n補充生命 +7ÿc3\n20-40 法力 ÿc1(變動)ÿc3\n+5% 毒素抗性上限ÿc3\n+25-35 所有抗性 ÿc1(變動)ÿc3\n\nÿc2底材推薦\nÿc8任意2孔 魔典, 盾牌, 死靈盾牌, 高抗聖騎士盾牌",
     "deDE": "",
@@ -1684,9 +1718,9 @@
   },
   {
     "id": 548759,
-    "Key": "Xhelp548759runewordLastWis",
-    "enUS": "40 xxxxx",
-    "zhTW": "40 ÿc4权威ÿcU限DLCÿc4",
+    "Key": "Xhelp548759runewordAuthority",
+    "enUS": "29 ÿc4Authority",
+    "zhTW": "29 ÿc4权威",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -1697,11 +1731,11 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "40 ÿc4权威ÿcU限DLCÿc4"
+    "zhCN": "29 ÿc4权威"
   },
   {
     "id": 548760,
-    "Key": "Xhelp548760runewordtooltipLastWish",
+    "Key": "Xhelp548760runewordtooltipAuthority",
     "enUS": "",
     "deDE": "",
     "esES": "",
@@ -4150,8 +4184,8 @@
   {
     "id": 50509,
     "Key": "RwhelprunewordCure",
-    "enUS": "35 ÿc4Cure ÿc:ㄸ",
-    "zhTW": "35 ÿc4治癒 ÿc:ㄸ",
+    "enUS": "35 ÿc4Cure",
+    "zhTW": "35 ÿc4治癒",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4162,7 +4196,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "35 ÿc4治癒 ÿc:ㄸ"
+    "zhCN": "35 ÿc4治癒"
   },
   {
     "id": 50510,
@@ -4184,8 +4218,8 @@
   {
     "id": 50511,
     "Key": "RwhelprunewordTemper",
-    "enUS": "35 ÿc4Temper ÿc:ㄸ",
-    "zhTW": "35 ÿc4和緩 ÿc:ㄸ",
+    "enUS": "35 ÿc4Temper",
+    "zhTW": "35 ÿc4和緩",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4196,7 +4230,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "35 ÿc4和緩 ÿc:ㄸ"
+    "zhCN": "35 ÿc4和緩"
   },
   {
     "id": 50512,
@@ -4218,8 +4252,8 @@
   {
     "id": 50513,
     "Key": "RwhelprunewordGround",
-    "enUS": "35 ÿc4Ground ÿc:ㄸ",
-    "zhTW": "35 ÿc4接地 ÿc:ㄸ",
+    "enUS": "35 ÿc4Ground",
+    "zhTW": "35 ÿc4接地",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4230,7 +4264,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "35 ÿc4接地 ÿc:ㄸ"
+    "zhCN": "35 ÿc4接地"
   },
   {
     "id": 50514,
@@ -4252,8 +4286,8 @@
   {
     "id": 50515,
     "Key": "RwhelprunewordHearth",
-    "enUS": "35 ÿc4Hearth ÿc:ㄸ",
-    "zhTW": "35 ÿc4火爐 ÿc:ㄸ",
+    "enUS": "35 ÿc4Hearth",
+    "zhTW": "35 ÿc4火爐",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4264,7 +4298,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "35 ÿc4火爐 ÿc:ㄸ"
+    "zhCN": "35 ÿc4火爐"
   },
   {
     "id": 50516,
@@ -4286,8 +4320,8 @@
   {
     "id": 50517,
     "Key": "RwhelprunewordBulwark",
-    "enUS": "35 ÿc4Bulwark ÿc:ㄸ",
-    "zhTW": "35 ÿc4壁壘 ÿc:ㄸ",
+    "enUS": "35 ÿc4Bulwark",
+    "zhTW": "35 ÿc4壁壘",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4298,7 +4332,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "35 ÿc4壁壘 ÿc:ㄸ"
+    "zhCN": "35 ÿc4壁壘"
   },
   {
     "id": 50518,
@@ -4320,8 +4354,8 @@
   {
     "id": 50519,
     "Key": "RwhelprunewordMetamorphosis",
-    "enUS": "67 ÿc4Metamorphosis ÿc:ㄸ",
-    "zhTW": "67 ÿc4變化 ÿc:ㄸ",
+    "enUS": "67 ÿc4Metamorphosis",
+    "zhTW": "67 ÿc4變化",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4332,7 +4366,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "67 ÿc4變化 ÿc:ㄸ"
+    "zhCN": "67 ÿc4變化"
   },
   {
     "id": 50520,
@@ -4353,9 +4387,9 @@
   },
   {
     "id": 548755,
-    "Key": "Xhelp548755runewordLastWish",
-    "enUS": "68 ÿc4XXXX",
-    "zhTW": "68 ÿc4巫師會ÿcU限DLCÿc4",
+    "Key": "Xhelp548755runewordCoven",
+    "enUS": "51 ÿc4Coven",
+    "zhTW": "51 ÿc4巫師會",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4366,7 +4400,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "68 ÿc4巫師會ÿcU限DLCÿc4"
+    "zhCN": "51 ÿc4巫師會"
   },
   {
     "id": 548756,
@@ -4388,8 +4422,8 @@
   {
     "id": 50521,
     "Key": "RwhelprunewordHustlea",
-    "enUS": "39 ÿc4Hysteria ÿc:ㄸ",
-    "zhTW": "39 ÿc4歇斯底里 ÿc:ㄸ",
+    "enUS": "39 ÿc4Hysteria",
+    "zhTW": "39 ÿc4歇斯底里",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4400,7 +4434,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "39 ÿc4歇斯底里 ÿc:ㄸ"
+    "zhCN": "39 ÿc4歇斯底里"
   },
   {
     "id": 50522,
@@ -4422,8 +4456,8 @@
   {
     "id": 50523,
     "Key": "RwhelprunewordHustlew",
-    "enUS": "39 ÿc4Mania ÿc:ㄸ",
-    "zhTW": "39 ÿc4狂躁 ÿc:ㄸ",
+    "enUS": "39 ÿc4Mania",
+    "zhTW": "39 ÿc4狂躁",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4434,7 +4468,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "39 ÿc4狂躁 ÿc:ㄸ"
+    "zhCN": "39 ÿc4狂躁"
   },
   {
     "id": 50524,
@@ -4456,8 +4490,8 @@
   {
     "id": 50525,
     "Key": "RwhelprunewordMosaic",
-    "enUS": "53 ÿc4Mosaic ÿc:ㄸ",
-    "zhTW": "53 ÿc4嵌飾 ÿc:ㄸ",
+    "enUS": "53 ÿc4Mosaic",
+    "zhTW": "53 ÿc4嵌飾",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4468,7 +4502,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "53 ÿc4嵌飾 ÿc:ㄸ"
+    "zhCN": "53 ÿc4嵌飾"
   },
   {
     "id": 50526,
@@ -4489,9 +4523,9 @@
   },
   {
     "id": 548751,
-    "Key": "Xhelp548751runewordLastWish",
-    "enUS": "70 ÿc4XXXX",
-    "zhTW": "70 ÿc4虛無ÿcU限DLCÿc4",
+    "Key": "Xhelp548751runewordVoid",
+    "enUS": "70 ÿc4Void",
+    "zhTW": "70 ÿc4虛無",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4502,11 +4536,11 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "70 ÿc4虛無ÿcU限DLCÿc4"
+    "zhCN": "70 ÿc4虛無"
   },
   {
     "id": 548752,
-    "Key": "Xhelp548752runewordtooltipLastWish",
+    "Key": "Xhelp548752runewordtooltipVoid",
     "enUS": "",
     "zhTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc3不可摧毀ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 強化傷害ÿc3\n+3-14 冰霜傷害ÿc3\n+10-15% 魔法技能傷害 ÿc1(變動)ÿc3\n+1-3 至深淵 ÿc1(變動)ÿc3\n+8-12 所以屬性 ÿc1(變動)ÿc3\n30% 額外幾率獲得MFÿc3\n4級衰老(35/35次充能)ÿc3\n\nÿc2底材推薦\nÿc83孔低需求匕首（3格）可用無形\n選帶適合術士天賦技能的底材\n\n\n",
     "deDE": "",
@@ -4523,9 +4557,9 @@
   },
   {
     "id": 548753,
-    "Key": "Xhelp548753runewordLastWish",
-    "enUS": "70 ÿc4XXXX",
-    "zhTW": "71 ÿc4儀式ÿcU限DLCÿc4",
+    "Key": "Xhelp548753runewordRitual",
+    "enUS": "57 ÿc4XXXX",
+    "zhTW": "57 ÿc4儀式",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4536,11 +4570,11 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "71 ÿc4儀式ÿcU限DLCÿc4"
+    "zhCN": "57 ÿc4儀式"
   },
   {
     "id": 548754,
-    "Key": "Xhelp548754runewordtooltipLastWish",
+    "Key": "Xhelp548754runewordtooltipRitual",
     "enUS": "",
     "zhTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc313% 幾率在被擊中時施放1級符徽: 死亡ÿc3\n+40% 提高攻擊速度ÿc3\n+250-320% 強化傷害ÿc3\n200-260% 加成命中值ÿc1(變動)ÿc3\n150-250% 對惡魔的傷害ÿc1(變動)ÿc3\n7% 擊中時偷取生命ÿc3\n消滅的怪物就此安息ÿc3\n3-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n\nÿc2底材推薦\nÿc83孔高傷精華匕首，尖齒小刀|精\n\n",
     "deDE": "",
