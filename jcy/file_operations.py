@@ -4123,17 +4123,19 @@ class FileOperations:
             with open(json_path, "r", encoding="utf-8") as f:
                 json_data = json.load(f)
 
+            # 修改定时器节点的message
+            modified = False
             for child in json_data["children"]:
-                if "OpenJcyMiniCube" == child.get("name"):
-                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
-                if "UnloadJcyMiniCubeClose" == child.get("name"):
-                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
-                if "OpenJcyMiniCubeClose" == child.get("name"):
-                    child["fields"]["message"] = child["fields"]["default"] if str(value) == "1" else ""
-                    
+                if child.get("name") in ("OpenJcyMiniCube", "UnloadJcyMiniCubeClose", "OpenJcyMiniCubeClose"):
+                    old_value = child["fields"]["message"]
+                    new_value = child["fields"]["default"] if str(value) == "1" else ""
+                    if old_value != new_value:
+                        child["fields"]["message"] = new_value
+                        modified = True
             
-            with open(json_path, 'w', encoding="utf-8") as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            if modified:
+                with open(json_path, 'w', encoding="utf-8") as f:
+                    json.dump(json_data, f, ensure_ascii=False, indent=4)
 
             count += 1            
         except Exception as e:
