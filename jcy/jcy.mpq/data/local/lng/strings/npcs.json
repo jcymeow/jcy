@@ -4404,7 +4404,7 @@
   },
   {
     "id": 548756,
-    "Key": "Xhelp548756runewordtooltipLastWish",
+    "Key": "Xhelp548756runewordtooltipCoven",
     "enUS": "",
     "zhTW": "\nÿcU(限術士君臨)ÿc4\n頭盔\nÿc35% 幾率在被擊中時施放10級符徽: 遲緩ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 強化防禦ÿc1(變動)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 擊中時偷取生命ÿc3\n1-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n26-40% 額外幾率獲得魔法物品ÿc1(變動)ÿc3\n",
     "deDE": "",
@@ -4524,8 +4524,8 @@
   {
     "id": 548751,
     "Key": "Xhelp548751runewordVoid",
-    "enUS": "70 ÿc4Void",
-    "zhTW": "70 ÿc4虛無",
+    "enUS": "69 ÿc4Void",
+    "zhTW": "69 ÿc4虛無",
     "deDE": "",
     "esES": "",
     "frFR": "",
@@ -4536,7 +4536,7 @@
     "jaJP": "",
     "ptBR": "",
     "ruRU": "",
-    "zhCN": "70 ÿc4虛無"
+    "zhCN": "69 ÿc4虛無"
   },
   {
     "id": 548752,

@@ -1419,7 +1419,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword180@Xhelp548756runewordtooltipLastWish",
+                                                                        "tooltipString": "@coloranjinse@Runeword180@Xhelp548756runewordtooltipCoven",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3802,7 +3802,7 @@
                                                             "name": "r08",
                                                             "fields": {
                                                                 "rect": "$RuneWordSolt1",
-                                                                "itemCode": "r07"
+                                                                "itemCode": "r08"
                                                             }
                                                         },
                                                         {
@@ -4218,26 +4218,6 @@
                                                     ]
                                                 }
                                             ]
-                                        },
-                                        {
-                                            "type": "Widget",
-                                            "name": "LAST1",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 10,
-                                                    "y": 2070
-                                                }
-                                            }
-                                        },
-                                        {
-                                            "type": "Widget",
-                                            "name": "LAST2",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 10,
-                                                    "y": 2160
-                                                }
-                                            }
                                         }
                                     ]
                                 },
@@ -7076,7 +7056,7 @@
                                                             "name": "r27",
                                                             "fields": {
                                                                 "rect": "$RuneWordSolt3",
-                                                                "itemCode": "r0r276"
+                                                                "itemCode": "r27"
                                                             }
                                                         }
                                                     ]

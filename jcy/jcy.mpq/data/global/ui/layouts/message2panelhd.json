@@ -1145,7 +1145,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548755runewordLastWish",
+                                                        "text": "@Xhelp548755runewordCoven",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1154,7 +1154,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword180@Xhelp548756runewordtooltipLastWish",
+                                                                "tooltipString": "@coloranjinse@Runeword180@Xhelp548756runewordtooltipCoven",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1785,7 +1785,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548757runewordLastWish",
+                                                        "text": "@Xhelp548757runewordVigilance",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1794,7 +1794,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword181@Xhelp548758runewordtooltipLastWish",
+                                                                "tooltipString": "@coloranjinse@Runeword181@Xhelp548758runewordtooltipVigilance",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2674,7 +2674,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548759runewordLastWis",
+                                                        "text": "@Xhelp548759runewordAuthority",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -2683,7 +2683,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword3@Xhelp548760runewordtooltipLastWish",
+                                                                "tooltipString": "@coloranjinse@Runeword3@Xhelp548760runewordtooltipAuthority",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9270,7 +9270,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548751runewordLastWish",
+                                                        "text": "@Xhelp548751runewordVoid",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -9279,7 +9279,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword157@Xhelp548752runewordtooltipLastWish",
+                                                                "tooltipString": "@coloranjinse@Runeword157@Xhelp548752runewordtooltipVoid",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9353,7 +9353,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548753runewordLastWish",
+                                                        "text": "@Xhelp548753runewordRitual",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -9362,7 +9362,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword182@Xhelp548754runewordtooltipLastWish",
+                                                                "tooltipString": "@coloranjinse@Runeword182@Xhelp548754runewordtooltipRitual",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
