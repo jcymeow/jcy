@@ -350,214 +350,13 @@
         "sgTW": "士兵",
         "bnCN": "士兵"
     },
-    "jghelp50081ItemTypeWeapontooltip": {
-        "enUS": "ㅼ Weapon",
-        "zhTW": "ㅼ 武器",
-        "zhCN": "ㅼ 武器",
-        "sgCN": "ㅼ 武器",
-        "sgTW": "ㅼ 武器",
-        "bnCN": "ㅼ 武器"
-    },
-    "jghelp50082ItemTypeGlovetooltip": {
-        "enUS": "ㅴ Gloves",
-        "zhTW": "ㅴ 手套",
-        "zhCN": "ㅴ 手套",
-        "sgCN": "ㅴ 手套",
-        "sgTW": "ㅴ 手套",
-        "bnCN": "ㅴ 手套"
-    },
-    "jghelp50083ItemTypeBoottooltip": {
-        "enUS": "ㅵ Boots",
-        "zhTW": "ㅵ 鞋子",
-        "zhCN": "ㅵ 鞋子",
-        "sgCN": "ㅵ 鞋子",
-        "sgTW": "ㅵ 鞋子",
-        "bnCN": "ㅵ 鞋子"
-    },
-    "jghelp50084ItemTypeBelttooltip": {
-        "enUS": "ㅳ Belt",
-        "zhTW": "ㅳ 腰帶",
-        "zhCN": "ㅳ 腰带",
-        "sgCN": "ㅳ 腰带",
-        "sgTW": "ㅳ 腰帶",
-        "bnCN": "ㅳ 腰带"
-    },
-    "jghelp50085ItemTypeShieldNectooltip": {
-        "enUS": "ㅻ Nec Shield",
-        "zhTW": "ㅻ 死靈法師專用盾牌",
-        "zhCN": "ㅻ 死灵法师专用盾牌",
-        "sgCN": "ㅻ 死灵法师专用盾牌",
-        "sgTW": "ㅻ 死靈法師專用盾牌",
-        "bnCN": "ㅻ 死灵法师专用盾牌"
-    },
-    "jghelp50086ItemTypeShieldPaltooltip": {
-        "enUS": "ㅺ Pal Shield",
-        "zhTW": "ㅺ 聖騎士專用盾牌",
-        "zhCN": "ㅺ 圣骑士专用盾牌",
-        "sgCN": "ㅺ 圣骑士专用盾牌",
-        "sgTW": "ㅺ 聖騎士專用盾牌",
-        "bnCN": "ㅺ 圣骑士专用盾牌"
-    },
-    "jghelp50087ItemTypeShieldtooltip": {
-        "enUS": "ㅶ Shield",
-        "zhTW": "ㅶ 盾牌",
-        "zhCN": "ㅶ 盾牌",
-        "sgCN": "ㅶ 盾牌",
-        "sgTW": "ㅶ 盾牌",
-        "bnCN": "ㅶ 盾牌"
-    },
-    "jghelp50088ItemTypeArmortooltip": {
-        "enUS": "ㅲ Armor",
-        "zhTW": "ㅲ 護甲",
-        "zhCN": "ㅲ 护甲",
-        "sgCN": "ㅲ 护甲",
-        "sgTW": "ㅲ 護甲",
-        "bnCN": "ㅲ 护甲"
-    },
-    "jghelp50089ItemTypeCirclettooltip": {
-        "enUS": "ㅷ Circlet/Coronet/Tiara/Diadem",
-        "zhTW": "ㅷ 頭環/寶冠/頭冠/權冠",
-        "zhCN": "ㅷ 头环/头冠/冠冕/权冠",
-        "sgCN": "ㅷ 头环/头冠/冠冕/权冠",
-        "sgTW": "ㅷ 頭環/寶冠/頭冠/權冠",
-        "bnCN": "ㅷ 头环/头冠/冠冕/权冠"
-    },
-    "jghelp50090ItemTypeHelmDrutooltip": {
-        "enUS": "ㅹ Dru Helm",
-        "zhTW": "ㅹ 德魯伊專用頭盔",
-        "zhCN": "ㅹ 德鲁伊专用头盔",
-        "sgCN": "ㅹ 德鲁伊专用头盔",
-        "sgTW": "ㅹ 德魯伊專用頭盔",
-        "bnCN": "ㅹ 德鲁伊专用头盔"
-    },
-    "jghelp50091ItemTypeHelmBartooltip": {
-        "enUS": "ㅸ Bar Helm",
-        "zhTW": "ㅸ 野蠻人專用頭盔",
-        "zhCN": "ㅸ 野蛮人专用头盔",
-        "sgCN": "ㅸ 野蛮人专用头盔",
-        "sgTW": "ㅸ 野蠻人專用頭盔",
-        "bnCN": "ㅸ 野蛮人专用头盔"
-    },
-    "jghelp50092ItemTypeHelmtooltip": {
-        "enUS": "ㅱ Helm",
-        "zhTW": "ㅱ 頭盔",
-        "zhCN": "ㅱ 头盔",
-        "sgCN": "ㅱ 头盔",
-        "sgTW": "ㅱ 頭盔",
-        "bnCN": "ㅱ 头盔"
-    },
-    "jghelp50096ladderonlytips": {
-        "enUS": "ÿc5The following runeword can only be activated in the latest ladder season.",
-        "zhTW": "ÿc5注意：以下是只有在最新天梯模式才可以激活使用的符文之語",
-        "zhCN": "ÿc5注意：以下是只有在最新天梯模式才可以激活使用的符文之语",
-        "sgCN": "ÿc5注意：以下是只有在最新天梯模式才可以激活使用的符文之语",
-        "sgTW": "ÿc5注意：以下是只有在最新天梯模式才可以激活使用的符文之語",
-        "bnCN": "ÿc5注意：以下是只有在最新天梯模式才可以激活使用的符文之语"
-    },
-    "jghelp50097ladderonly": {
-        "enUS": "ÿcULadder only",
-        "zhTW": "ÿcU天梯限定",
-        "zhCN": "ÿcU天梯限定",
-        "sgCN": "ÿcU天梯限定",
-        "sgTW": "ÿcU天梯限定",
-        "bnCN": "ÿcU天梯限定"
-    },
-    "jghelp60097nonladderonly": {
-        "enUS": "ÿcUNon-Ladder only",
-        "zhTW": "ÿcU非天梯限定",
-        "zhCN": "ÿcU非天梯限定",
-        "sgCN": "ÿcU非天梯限定",
-        "sgTW": "ÿcU非天梯限定",
-        "bnCN": "ÿcU非天梯限定"
-    },
-    "jghelp60098RotWonly": {
-        "enUS": "ÿcUReign of the WarLock only",
-        "zhTW": "ÿcU限術士君臨",
-        "zhCN": "ÿcU限术士君临",
-        "sgCN": "ÿcU限术士君临",
-        "sgTW": "ÿcU限術士君臨",
-        "bnCN": "ÿcU限术士君临"
-    },
-    "jghelp50098runeword": {
-        "enUS": "Runeword",
-        "zhTW": "符文之語",
-        "zhCN": "符文之语",
-        "sgCN": "符文之语",
-        "sgTW": "符文之語",
-        "bnCN": "符文之语"
-    },
-    "jghelp50100helmet": {
-        "enUS": " • Helm •",
-        "zhTW": " • 頭盔 •",
-        "zhCN": " • 头盔 •",
-        "sgCN": " • 头盔 •",
-        "sgTW": " • 頭盔 •",
-        "bnCN": " • 头盔 •"
-    },
-    "jghelp50101runewordNadir": {
-        "enUS": "13 ÿc4Nadir",
-        "zhTW": "13 ÿc4天底",
-        "zhCN": "13 ÿc4天底",
-        "sgCN": "13 ÿc4天底",
-        "sgTW": "13 ÿc4天底",
-        "bnCN": "13 ÿc4天底"
-    },
-    "jghelp50102runewordtooltipNadir": {
-        "enUS": "ÿc4\nHelm\nÿc3+50% Enhanced Defense\n+10 Defense\n+30 Defense vs. Missile\nLevel 13 ÿc2Cloak of Shadows ÿc3(9 Charges)\n+2 to Mana after each Kill\n+5 to Strength\n-33% Extra Gold from Monsters\n-3 to Light Radius\n\nÿc2Optimum Base\nÿc8Bone Helm\nFit CHAR:All CHAR Except ASN\nOther\nOther 2S Helm",
-        "zhTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n等級 13 ÿc2魔影斗蓬ÿc3（9次）\n+2 擊殺法力恢復\n+5 力量\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n\nÿcO重要屬性：魔影斗蓬聚氣\n其它亮點：2EK\n美中不足：有-EG\n\nÿc;附帶的魔影斗篷聚氣在對上電鬼、女妖、投石怪之類的\n高危遠程怪效果奇佳，極大的提高了CHAR的生存能力，\n對於喜歡在A5翻箱子的SOR也有一定幫助\n\nÿc2底材推薦\nÿc8骸骨頭盔\nDEF最高的普通級頭盔，STR需求也很低\n適用CHAR：SOLO中除ASN以外的所有CHAR，翻箱SOR\n其它\n在SOLO中只要是能拿得動的2孔頭盔都有使用價值",
-        "zhCN": "ÿc4\n头盔\nÿc3+50% 强化防御\n+10 防御\n+30 远程防御\n等级 13 ÿc2暗影斗篷ÿc3（9次）\n+2 每次消灭恢复的法力\n+5 力量\n-33% 怪物额外掉落金币\n-3 照亮范围\n\nÿcO重要属性：暗影斗篷聚气\n其它亮点：2EK\n美中不足：有-EG\n\nÿc;附带的暗影斗篷聚气在对上电鬼、女妖、投石怪之类的\n高危远程怪效果奇佳，极大的提高了CHAR的生存能力，\n对于喜欢在A5翻箱子的SOR也有一定帮助\n\nÿc2底材推荐\nÿc8骨盔\nDEF最高的普通级头盔，STR需求也很低\n适用CHAR：SOLO中除ASN以外的所有CHAR，翻箱SOR\n其它\n在SOLO中只要是能拿得动的2孔头盔都有使用价值",
-        "sgCN": "ÿc4\n头盔\nÿc3+50% 强化防御\n+10 防御\n+30 远程防御\n等级 13 ÿc2暗影斗篷ÿc3（9次）\n+2 每次消灭恢复的法力\n+5 力量\n-33% 怪物额外掉落金币\n-3 照亮范围\n\nÿcO重要属性：暗影斗篷聚气\n其它亮点：2EK\n美中不足：有-EG\n\nÿc;附带的暗影斗篷聚气在对上电鬼、女妖、投石怪之类的\n高危远程怪效果奇佳，极大的提高了CHAR的生存能力，\n对于喜欢在A5翻箱子的SOR也有一定帮助\n\nÿc2底材推荐\nÿc8骨盔\nDEF最高的普通级头盔，STR需求也很低\n适用CHAR：SOLO中除ASN以外的所有CHAR，翻箱SOR\n其它\n在SOLO中只要是能拿得动的2孔头盔都有使用价值",
-        "sgTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n等級 13 ÿc2魔影斗蓬ÿc3（9次）\n+2 擊殺法力恢復\n+5 力量\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n\nÿcO重要屬性：魔影斗蓬聚氣\n其它亮點：2EK\n美中不足：有-EG\n\nÿc;附帶的魔影斗篷聚氣在對上電鬼、女妖、投石怪之類的\n高危遠程怪效果奇佳，極大的提高了CHAR的生存能力，\n對於喜歡在A5翻箱子的SOR也有一定幫助\n\nÿc2底材推薦\nÿc8骸骨頭盔\nDEF最高的普通級頭盔，STR需求也很低\n適用CHAR：SOLO中除ASN以外的所有CHAR，翻箱SOR\n其它\n在SOLO中只要是能拿得動的2孔頭盔都有使用價值",
-        "bnCN": "ÿc4\n头盔\nÿc3+50% 强化防御\n+10 防御\n+30 远程防御\n等级 13 ÿc2暗影斗篷ÿc3（9次）\n+2 每次消灭恢复的法力\n+5 力量\n-33% 怪物额外掉落金币\n-3 照亮范围\n\nÿcO重要属性：暗影斗篷聚气\n其它亮点：2EK\n美中不足：有-EG\n\nÿc;附带的暗影斗篷聚气在对上电鬼、女妖、投石怪之类的\n高危远程怪效果奇佳，极大的提高了CHAR的生存能力，\n对于喜欢在A5翻箱子的SOR也有一定帮助\n\nÿc2底材推荐\nÿc8骨盔\nDEF最高的普通级头盔，STR需求也很低\n适用CHAR：SOLO中除ASN以外的所有CHAR，翻箱SOR\n其它\n在SOLO中只要是能拿得动的2孔头盔都有使用价值"
-    },
-    "jghelp50103runewordLore": {
-        "enUS": "27 ÿc4Lore",
-        "zhTW": "27 ÿc4知識",
-        "zhCN": "27 ÿc4学识",
-        "sgCN": "27 ÿc4学识",
-        "sgTW": "27 ÿc4知識",
-        "bnCN": "27 ÿc4学识"
-    },
-    "jghelp50104runewordtooltipLore": {
-        "enUS": "ÿc4\nHelm\nÿc3+1 to All Skill Levels\n+10 to Energy\n+2 to Mana after each Kill\nLightning Resist +30%\nDamage Reduced by 7\n+2 to Light Radius\n\nÿc2Optimum Base\nÿc8Grim Helm\nFit CHAR:All Cast CHAR\nOther\nCirclet/STAFFMOD Helm",
-        "zhTW": "ÿc4\n頭盔\nÿc3+1 所有技能等級\n+10 能量\n+2 擊殺法力恢復\n電擊抗性 +30%\n傷害降低 7\n照亮範圍 +2\n\nÿcO重要屬性：1SKILL、2EK\n其它亮點：30LR、7DR\n美中不足：缺FCR\n\nÿc;對法系CHAR而言每一條都是有用的屬性，入手也很容易\n\nÿc2底材推薦\nÿc8陰森頭盔\n擴展級中DEF最高的通用頭盔\n適用CHAR：SOLO中所有法系CHAR\n其它\n飾環適合給對造型有要求的玩家，BB和DRU可以選用\nSTAFFMOD(帶技能)的專用頭",
-        "zhCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n+2 每次消灭恢复的法力\n闪电抗性 +30%\n伤害降低 7\n+2 照亮范围\n\nÿcO重要属性：1SKILL、2EK\n其它亮点：30LR、7DR\n美中不足：缺FCR\n\nÿc;对法系CHAR而言每一条都是有用的属性，入手也很容易\n\nÿc2底材推荐\nÿc8恐怖头盔\n扩展级中DEF最高的通用头盔\n适用CHAR：SOLO中所有法系CHAR\n其它\n头环适合给对造型有要求的玩家，BB和DRU可以選用\nSTAFFMOD(带技能)的专用头",
-        "sgCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n+2 每次消灭恢复的法力\n闪电抗性 +30%\n伤害降低 7\n+2 照亮范围\n\nÿcO重要属性：1SKILL、2EK\n其它亮点：30LR、7DR\n美中不足：缺FCR\n\nÿc;对法系CHAR而言每一条都是有用的属性，入手也很容易\n\nÿc2底材推荐\nÿc8恐怖头盔\n扩展级中DEF最高的通用头盔\n适用CHAR：SOLO中所有法系CHAR\n其它\n头环适合给对造型有要求的玩家，BB和DRU可以選用\nSTAFFMOD(带技能)的专用头",
-        "sgTW": "ÿc4\n頭盔\nÿc3+1 所有技能等級\n+10 能量\n+2 擊殺法力恢復\n電擊抗性 +30%\n傷害降低 7\n照亮範圍 +2\n\nÿcO重要屬性：1SKILL、2EK\n其它亮點：30LR、7DR\n美中不足：缺FCR\n\nÿc;對法系CHAR而言每一條都是有用的屬性，入手也很容易\n\nÿc2底材推薦\nÿc8陰森頭盔\n擴展級中DEF最高的通用頭盔\n適用CHAR：SOLO中所有法系CHAR\n其它\n飾環適合給對造型有要求的玩家，BB和DRU可以選用\nSTAFFMOD(帶技能)的專用頭",
-        "bnCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n+2 每次消灭恢复的法力\n闪电抗性 +30%\n伤害降低 7\n+2 照亮范围\n\nÿcO重要属性：1SKILL、2EK\n其它亮点：30LR、7DR\n美中不足：缺FCR\n\nÿc;对法系CHAR而言每一条都是有用的属性，入手也很容易\n\nÿc2底材推荐\nÿc8恐怖头盔\n扩展级中DEF最高的通用头盔\n适用CHAR：SOLO中所有法系CHAR\n其它\n头环适合给对造型有要求的玩家，BB和DRU可以選用\nSTAFFMOD(带技能)的专用头"
-    },
-    "jghelp50105runewordRadiance": {
-        "enUS": "27 ÿc4Radiance",
-        "zhTW": "27 ÿc4光輝",
-        "zhCN": "27 ÿc4光辉",
-        "sgCN": "27 ÿc4光辉",
-        "sgTW": "27 ÿc4光輝",
-        "bnCN": "27 ÿc4光辉"
-    },
-    "jghelp50106runewordtooltipRadiance": {
-        "enUS": "ÿc4\nHelm\nÿc3+75% Enhanced Defense\n+30 Defense vs. Missile\n+10 to Energy\n+10 to Vitality\n15% Damage Taken Goes To Mana\nMagic Damage Reduced by 3\n+33 to Mana\nDamage Reduced by 7\n+5 to Light Radius\n",
-        "zhTW": "ÿc4\n頭盔\nÿc3+75% 防禦強化\n+30 對遠程防禦\n+10 能量\n+10 體能\n15% 受到的傷害轉為法力\n魔法傷害降低 3\n+33 法力\n傷害降低 7\n照亮範圍 +5\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
-        "zhCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 能量\n+10 活力\n15% 受到的伤害转换为法力\n魔法伤害降低 3\n+33 法力\n伤害降低 7\n+5 照亮范围\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
-        "sgCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 能量\n+10 活力\n15% 受到的伤害转换为法力\n魔法伤害降低 3\n+33 法力\n伤害降低 7\n+5 照亮范围\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
-        "sgTW": "ÿc4\n頭盔\nÿc3+75% 防禦強化\n+30 對遠程防禦\n+10 能量\n+10 體能\n15% 受到的傷害轉為法力\n魔法傷害降低 3\n+33 法力\n傷害降低 7\n照亮範圍 +5\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
-        "bnCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 能量\n+10 活力\n15% 受到的伤害转换为法力\n魔法伤害降低 3\n+33 法力\n伤害降低 7\n+5 照亮范围\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值"
-    },
-    "jghelp50107runewordDelirium": {
-        "enUS": "51 ÿc4Delirium",
-        "zhTW": "51 ÿc4精神錯亂",
-        "zhCN": "51 ÿc4迷狂",
-        "sgCN": "51 ÿc4迷狂",
-        "sgTW": "51 ÿc4精神錯亂",
-        "bnCN": "51 ÿc4迷狂"
-    },
-    "jghelp50108runewordtooltipDelirium": {
-        "enUS": "ÿc4\nHelm\nÿc31% Chance to cast level 50ÿc2 Deliriumÿc3 when struck\n6% Chance to cast level 14 ÿc2Mind Blastÿc3 when struck\n14% Chance to cast level 13 ÿc2Terrorÿc3 when struck\n11% Chance to cast level 18 ÿc2Confuseÿc3 on striking\n+2 to All Skills\n+261 Defense\n+10 to Vitality\n50% Extra Gold from Monsters\n25% Better Chance of Getting Magic Items\nLevel 17 ÿc2Attract ÿc3(60 Charges)\n\nÿc2Optimum Base\nÿc8Bone Visage\nFit CHAR:AMA\nJawbone Visor\nFit CHAR:BB\nBlood Spirit\nFit CHAR:DRU\nOther\nDiadem/Tiara",
-        "zhTW": "ÿc4\n頭盔\nÿc3被擊中時有 1% 機率施展等級 50ÿc2 精神錯亂ÿc3\n被擊中時有 6% 機率施展等級 14 ÿc2心靈震爆ÿc3\n被擊中時有 14% 機率施展等級 13 ÿc2恐懼ÿc3\n擊中時有 11% 機率施展等級 18 ÿc2混亂ÿc3\n+2 所有技能\n+261 防禦\n+10 體能\n怪物金幣掉落量提高 50%\n尋獲魔法物品機率提高 25%\n等級 17 ÿc2致命吸引ÿc3（60 次）\n\nÿcO重要屬性：2SKILL、致命吸引\n其它亮點：觸發18級混亂\n美中不足：有觸發50級精神錯亂\n\nÿc;俗稱娃娃頭，因會變身冥河娃娃而得名，主要利用致命吸引聚氣\n給刷牛場的AMA聚牛，也有部分CHAR可用來撐技能\n\nÿc2底材推薦\nÿc8骸骨面罩\n力量需求和防禦較平衡的頭盔，需要用到君主盾或暴風之盾的CHAR\n也肯定能拿得動\n適用CHAR：電標AMA\n顎骨面甲\n給純奶BB撐技能順帶翻屍體或者唱歌BB\n適用CHAR：純奶BB、唱歌BB\n血系靈獸帽\n和軍帽比多了自帶的3技能，但也少了不少LIFE和MANA，\n其中的取捨見仁見智\n適用CHAR：風德、火召德\n其它\n權冠和頭冠適合對造型有要求的玩家",
-        "zhCN": "ÿc4\n头盔\nÿc31% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\n6% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n11% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）\n\nÿcO重要属性：2SKILL、吸引\n其它亮点：触发18级迷乱\n美中不足：有触发50级迷狂\n\nÿc;俗称娃娃头，因会变身冥河娃娃而得名，主要利用吸引聚气\n给刷牛场的AMA聚牛，也有部分CHAR可用来撑技能\n\nÿc2底材推荐\nÿc8白骨面甲\n力量需求和防御平衡的头盔，需要用到统治者大盾或暴风之盾的CHAR\n也肯定能拿得动\n适用CHAR：电标AMA\n颚骨面甲\n给纯奶BB撑技能顺带翻尸体或者唱歌BB\n适用CHAR：纯奶BB、唱歌BB\n鲜血之灵\n和军帽比多了自带的3技能，但也少了不少LIFE和MANA，\n其中的取舍见仁见智\n适用CHAR：风德、火召德\n其它\n权冠和冠冕适合对造型有要求的玩家",
-        "sgCN": "ÿc4\n头盔\nÿc31% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\n6% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n11% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）\n\nÿcO重要属性：2SKILL、吸引\n其它亮点：触发18级迷乱\n美中不足：有触发50级迷狂\n\nÿc;俗称娃娃头，因会变身冥河娃娃而得名，主要利用吸引聚气\n给刷牛场的AMA聚牛，也有部分CHAR可用来撑技能\n\nÿc2底材推荐\nÿc8白骨面甲\n力量需求和防御平衡的头盔，需要用到统治者大盾或暴风之盾的CHAR\n也肯定能拿得动\n适用CHAR：电标AMA\n颚骨面甲\n给纯奶BB撑技能顺带翻尸体或者唱歌BB\n适用CHAR：纯奶BB、唱歌BB\n鲜血之灵\n和军帽比多了自带的3技能，但也少了不少LIFE和MANA，\n其中的取舍见仁见智\n适用CHAR：风德、火召德\n其它\n权冠和冠冕适合对造型有要求的玩家",
-        "sgTW": "ÿc4\n頭盔\nÿc3被擊中時有 1% 機率施展等級 50ÿc2 精神錯亂ÿc3\n被擊中時有 6% 機率施展等級 14 ÿc2心靈震爆ÿc3\n被擊中時有 14% 機率施展等級 13 ÿc2恐懼ÿc3\n擊中時有 11% 機率施展等級 18 ÿc2混亂ÿc3\n+2 所有技能\n+261 防禦\n+10 體能\n怪物金幣掉落量提高 50%\n尋獲魔法物品機率提高 25%\n等級 17 ÿc2致命吸引ÿc3（60 次）\n\nÿcO重要屬性：2SKILL、致命吸引\n其它亮點：觸發18級混亂\n美中不足：有觸發50級精神錯亂\n\nÿc;俗稱娃娃頭，因會變身冥河娃娃而得名，主要利用致命吸引聚氣\n給刷牛場的AMA聚牛，也有部分CHAR可用來撐技能\n\nÿc2底材推薦\nÿc8骸骨面罩\n力量需求和防禦較平衡的頭盔，需要用到君主盾或暴風之盾的CHAR\n也肯定能拿得動\n適用CHAR：電標AMA\n顎骨面甲\n給純奶BB撐技能順帶翻屍體或者唱歌BB\n適用CHAR：純奶BB、唱歌BB\n血系靈獸帽\n和軍帽比多了自帶的3技能，但也少了不少LIFE和MANA，\n其中的取捨見仁見智\n適用CHAR：風德、火召德\n其它\n權冠和頭冠適合對造型有要求的玩家",
-        "bnCN": "ÿc4\n头盔\nÿc31% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\n6% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n11% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）\n\nÿcO重要属性：2SKILL、吸引\n其它亮点：触发18级迷乱\n美中不足：有触发50级迷狂\n\nÿc;俗称娃娃头，因会变身冥河娃娃而得名，主要利用吸引聚气\n给刷牛场的AMA聚牛，也有部分CHAR可用来撑技能\n\nÿc2底材推荐\nÿc8白骨面甲\n力量需求和防御平衡的头盔，需要用到统治者大盾或暴风之盾的CHAR\n也肯定能拿得动\n适用CHAR：电标AMA\n颚骨面甲\n给纯奶BB撑技能顺带翻尸体或者唱歌BB\n适用CHAR：纯奶BB、唱歌BB\n鲜血之灵\n和军帽比多了自带的3技能，但也少了不少LIFE和MANA，\n其中的取舍见仁见智\n适用CHAR：风德、火召德\n其它\n权冠和冠冕适合对造型有要求的玩家"
-    },
+
+
+
+    
+
+    
+
     "jghelp50109runewordDream": {
         "enUS": "65 ÿc4Dream",
         "zhTW": "65 ÿc4夢境",
@@ -2790,14 +2589,7 @@
         "sgTW": "ÿc1",
         "bnCN": "ÿc1"
     },
-    "colorbaise": {
-        "enUS": "ÿc0",
-        "zhTW": "ÿc0",
-        "zhCN": "ÿc0",
-        "sgCN": "ÿc0",
-        "sgTW": "ÿc0",
-        "bnCN": "ÿc0"
-    },
+
     "coloranjinse": {
         "enUS": "ÿc4",
         "zhTW": "ÿc4",
@@ -3762,123 +3554,282 @@
         "sgCN": "ÿc8\n塔力克(旋风斩) 最终击杀掉落ÿc3\n+95 毒素伤害，持续1秒\n+5~10% 毒素技能伤害\n-5~10% 敌人的毒素抗性\n+3~5% to 获得的经验\n+25~50% 怪物额外掉落金币\n+15~35% 额外几率获得魔法物品",
         "bnCN": "ÿc8\n塔力克(旋风斩) 最终击杀掉落ÿc3\n+95 毒素伤害，持续1秒\n+5~10% 毒素技能伤害\n-5~10% 敌人的毒素抗性\n+3~5% to 获得的经验\n+25~50% 怪物额外掉落金币\n+15~35% 额外几率获得魔法物品"
     },
-    "Myc1": {
-        "id": 71101,
-        "Key": "Myc1",
-        "enUS": "ÿc1",
-        "zhTW": "ÿc1",
-        "zhCN": "ÿc1"
+    "MixedWarehouse": {
+        "id": 100001,
+        "Key": "MixedWarehouse",
+        "enUS": "Mixed",
+        "zhTW": "融合倉庫",
+        "sgTW": "融合倉庫",
+        "zhCN": "融合仓库",
+        "sgCN": "融合仓库",
+        "bnCN": "融合仓库"
     },
-    "Myc2": {
-        "id": 71102,
-        "Key": "Myc2",
-        "enUS": "ÿc2",
-        "zhTW": "ÿc2",
-        "zhCN": "ÿc2"
+    "NonLadderOnly": {
+        "id": 100011,
+        "Key": "NonLadderOnly",
+        "enUS": "ÿcUNon-Ladder only",
+        "zhTW": "ÿcU非天梯限定",
+        "sgTW": "ÿcU非天梯限定",
+        "zhCN": "ÿcU非天梯限定",
+        "sgCN": "ÿcU非天梯限定",
+        "bnCN": "ÿcU非天梯限定"
     },
-    "Myc3": {
-        "id": 71103,
-        "Key": "Myc3",
-        "enUS": "ÿc3",
-        "zhTW": "ÿc3",
-        "zhCN": "ÿc3"
+    "LadderOnly": {
+        "id": 100012,
+        "Key": "LadderOnly",
+        "enUS": "ÿcULadder only",
+        "zhTW": "ÿcU天梯限定",
+        "sgTW": "ÿcU天梯限定",
+        "zhCN": "ÿcU天梯限定",
+        "sgCN": "ÿcU天梯限定",
+        "bnCN": "ÿcU天梯限定"
     },
-    "Myc4": {
-        "id": 71104,
-        "Key": "Myc4",
-        "enUS": "ÿc4",
-        "zhTW": "ÿc4",
-        "zhCN": "ÿc4"
+    "RotwOnly": {
+        "id": 100013,
+        "Key": "RotwOnly",
+        "enUS": "ÿcURotW only",
+        "zhTW": "ÿcU限術士君臨",
+        "sgTW": "ÿcU限術士君臨",
+        "zhCN": "ÿcU限术士君临",
+        "sgCN": "ÿcU限术士君临",
+        "bnCN": "ÿcU限术士君临"
     },
-    "Myc5": {
-        "id": 71105,
-        "Key": "Myc5",
-        "enUS": "ÿc5",
-        "zhTW": "ÿc5",
-        "zhCN": "ÿc5"
-    },
-    "Myc6": {
-        "id": 71106,
-        "Key": "Myc6",
-        "enUS": "ÿc6",
-        "zhTW": "ÿc6",
-        "zhCN": "ÿc6"
-    },
-    "Myc7": {
-        "id": 71107,
-        "Key": "Myc7",
-        "enUS": "ÿc7",
-        "zhTW": "ÿc7",
-        "zhCN": "ÿc7"
-    },
-    "Myc8": {
-        "id": 71108,
-        "Key": "Myc8",
-        "enUS": "ÿc8",
-        "zhTW": "ÿc8",
-        "zhCN": "ÿc8"
-    },
-    "Myc9": {
-        "id": 71109,
-        "Key": "Myc9",
-        "enUS": "ÿc9",
-        "zhTW": "ÿc9",
-        "zhCN": "ÿc9"
-    },
-    "Myc0": {
-        "id": 71110,
-        "Key": "Myc0",
+    "Color0": {
+        "id": 100100,
+        "Key": "Color0",
         "enUS": "ÿc0",
         "zhTW": "ÿc0",
-        "zhCN": "ÿc0"
+        "sgTW": "ÿc0",
+        "zhCN": "ÿc0",
+        "sgCN": "ÿc0",
+        "bnCN": "ÿc0"
     },
-    "MycA": {
-        "id": 71111,
-        "Key": "MycA",
+    "Color1": {
+        "id": 100101,
+        "Key": "Color1",
+        "enUS": "ÿc1",
+        "zhTW": "ÿc1",
+        "sgTW": "ÿc1",
+        "zhCN": "ÿc1",
+        "sgCN": "ÿc1",
+        "bnCN": "ÿc1"
+    },
+    "Color2": {
+        "id": 100102,
+        "Key": "Color2",
+        "enUS": "ÿc2",
+        "zhTW": "ÿc2",
+        "sgTW": "ÿc2",
+        "zhCN": "ÿc2",
+        "sgCN": "ÿc2",
+        "bnCN": "ÿc2"
+    },
+    "Color3": {
+        "id": 100103,
+        "Key": "Color3",
+        "enUS": "ÿc3",
+        "zhTW": "ÿc3",
+        "sgTW": "ÿc3",
+        "zhCN": "ÿc3",
+        "sgCN": "ÿc3",
+        "bnCN": "ÿc3"
+    },
+    "Color4": {
+        "id": 100104,
+        "Key": "Color4",
+        "enUS": "ÿc4",
+        "zhTW": "ÿc4",
+        "sgTW": "ÿc4",
+        "zhCN": "ÿc4",
+        "sgCN": "ÿc4",
+        "bnCN": "ÿc4"
+    },
+    "Color5": {
+        "id": 100105,
+        "Key": "Color5",
+        "enUS": "ÿc5",
+        "zhTW": "ÿc5",
+        "sgTW": "ÿc5",
+        "zhCN": "ÿc5",
+        "sgCN": "ÿc5",
+        "bnCN": "ÿc5"
+    },
+    "Color6": {
+        "id": 100106,
+        "Key": "Color6",
+        "enUS": "ÿc6",
+        "zhTW": "ÿc6",
+        "sgTW": "ÿc6",
+        "zhCN": "ÿc6",
+        "sgCN": "ÿc6",
+        "bnCN": "ÿc6"
+    },
+    "Color7": {
+        "id": 100107,
+        "Key": "Color7",
+        "enUS": "ÿc7",
+        "zhTW": "ÿc7",
+        "sgTW": "ÿc7",
+        "zhCN": "ÿc7",
+        "sgCN": "ÿc7",
+        "bnCN": "ÿc7"
+    },
+    "Color8": {
+        "id": 100108,
+        "Key": "Color8",
+        "enUS": "ÿc8",
+        "zhTW": "ÿc8",
+        "sgTW": "ÿc8",
+        "zhCN": "ÿc8",
+        "sgCN": "ÿc8",
+        "bnCN": "ÿc8"
+    },
+    "Color9": {
+        "id": 100109,
+        "Key": "Color9",
+        "enUS": "ÿc9",
+        "zhTW": "ÿc9",
+        "sgTW": "ÿc9",
+        "zhCN": "ÿc9",
+        "sgCN": "ÿc9",
+        "bnCN": "ÿc9"
+    },
+    "ColorA": {
+        "id": 100110,
+        "Key": "ColorA",
         "enUS": "ÿcA",
         "zhTW": "ÿcA",
-        "zhCN": "ÿcA"
+        "sgTW": "ÿcA",
+        "zhCN": "ÿcA",
+        "sgCN": "ÿcA",
+        "bnCN": "ÿcA"
     },
-    "MycW": {
-        "id": 71112,
-        "Key": "MycW",
-        "enUS": "ÿc;",
-        "zhTW": "ÿc;",
-        "zhCN": "ÿc;"
-    },
-    "MycP": {
-        "id": 71113,
-        "Key": "MycP",
-        "enUS": "ÿcP",
-        "zhTW": "ÿcP",
-        "zhCN": "ÿcP"
-    },
-    "MycO": {
-        "id": 71114,
-        "Key": "MycO",
+    "ColorO": {
+        "id": 100111,
+        "Key": "ColorO",
         "enUS": "ÿcO",
         "zhTW": "ÿcO",
-        "zhCN": "ÿcO"
+        "sgTW": "ÿcO",
+        "zhCN": "ÿcO",
+        "sgCN": "ÿcO",
+        "bnCN": "ÿcO"
     },
-    "MycV": {
-        "id": 71115,
-        "Key": "MycV",
-        "enUS": "ÿcV",
-        "zhTW": "ÿcV",
-        "zhCN": "ÿcV"
+    "ColorP": {
+        "id": 100112,
+        "Key": "ColorP",
+        "enUS": "ÿcP",
+        "zhTW": "ÿcP",
+        "sgTW": "ÿcP",
+        "zhCN": "ÿcP",
+        "sgCN": "ÿcP",
+        "bnCN": "ÿcP"
     },
-    "MycU": {
-        "id": 71116,
-        "Key": "MycU",
-        "enUS": "ÿcU",
-        "zhTW": "ÿcU",
-        "zhCN": "ÿcU"
-    },
-    "MycQ": {
-        "id": 71117,
-        "Key": "MycQ",
+    "ColorQ": {
+        "id": 100113,
+        "Key": "ColorQ",
         "enUS": "ÿcQ",
         "zhTW": "ÿcQ",
-        "zhCN": "ÿcQ"
+        "sgTW": "ÿcQ",
+        "zhCN": "ÿcQ",
+        "sgCN": "ÿcQ",
+        "bnCN": "ÿcQ"
+    },
+    "ColorU": {
+        "id": 100114,
+        "Key": "ColorU",
+        "enUS": "ÿcU",
+        "zhTW": "ÿcU",
+        "sgTW": "ÿcU",
+        "zhCN": "ÿcU",
+        "sgCN": "ÿcU",
+        "bnCN": "ÿcU"
+    },
+    "ColorV": {
+        "id": 100115,
+        "Key": "ColorV",
+        "enUS": "ÿcV",
+        "zhTW": "ÿcV",
+        "sgTW": "ÿcV",
+        "zhCN": "ÿcV",
+        "sgCN": "ÿcV",
+        "bnCN": "ÿcV"
+    },
+    "ColorW": {
+        "id": 100116,
+        "Key": "ColorW",
+        "enUS": "ÿc;",
+        "zhTW": "ÿc;",
+        "sgTW": "ÿc;",
+        "zhCN": "ÿc;",
+        "sgCN": "ÿc;",
+        "bnCN": "ÿc;"
+    },
+    "Runeword22LevelName": {
+        "id": 110221,
+        "Key": "Runeword22LevelName",
+        "enUS": "51 ÿc4Delirium",
+        "zhTW": "51 ÿc4精神錯亂",
+        "sgTW": "51 ÿc4迪勒瑞姆",
+        "zhCN": "51 ÿc4迷狂",
+        "sgCN": "51 ÿc4迪勒瑞姆",
+        "bnCN": "51 ÿc4迷狂"
+    },
+    "Runeword22Info": {
+        "id": 110222,
+        "Key": "Runeword22Info",
+        "enUS": "ÿc4\nHelm\nÿc311% Chance to cast level 18 ÿc2Confuseÿc3 on striking\n1% Chance to cast level 50ÿc2 Deliriumÿc3 when struck\n6% Chance to cast level 14 ÿc2Mind Blastÿc3 when struck\n14% Chance to cast level 13 ÿc2Terrorÿc3 when struck\n+2 to All Skills\n+261 Defense\n+10 to Vitality\n50% Extra Gold from Monsters\n25% Better Chance of Getting Magic Items\nLevel 17 ÿc2Attract ÿc3(60 Charges)",
+        "zhTW": "ÿc4\n頭盔\nÿc3擊中時有 11% 機率施展等級 18 ÿc2混亂ÿc3\n被擊中時有 1% 機率施展等級 50ÿc2 精神錯亂ÿc3\n被擊中時有 6% 機率施展等級 14 ÿc2心靈震爆ÿc3\n被擊中時有 14% 機率施展等級 13 ÿc2恐懼ÿc3\n+2 所有技能\n+261 防禦\n+10 體能\n怪物金幣掉落量提高 50%\n尋獲魔法物品機率提高 25%\n等級 17 ÿc2致命吸引ÿc3（60 次）",
+        "sgTW": "ÿc4\n頭盔\nÿc3擊中時有 11% 機率施展等級 18 ÿc2混亂ÿc3\n被擊中時有 1% 機率施展等級 50ÿc2 精神錯亂ÿc3\n被擊中時有 6% 機率施展等級 14 ÿc2心靈震爆ÿc3\n被擊中時有 14% 機率施展等級 13 ÿc2恐懼ÿc3\n+2 所有技能\n+261 防禦\n+10 體能\n怪物金幣掉落量提高 50%\n尋獲魔法物品機率提高 25%\n等級 17 ÿc2致命吸引ÿc3（60 次）",
+        "zhCN": "ÿc4\n头盔\nÿc311% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n1% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\nÿc36% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）",
+        "sgCN": "ÿc4\n头盔\nÿc311% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n1% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\nÿc36% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）",
+        "bnCN": "ÿc4\n头盔\nÿc311% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n1% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\nÿc36% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）"
+    },
+    "Runeword88LevelName": {
+        "enUS": "13 ÿc4Nadir",
+        "zhTW": "13 ÿc4天底",
+        "sgTW": "13 ÿc4天底",
+        "zhCN": "13 ÿc4天底",
+        "sgCN": "13 ÿc4天底",
+        "bnCN": "13 ÿc4天底"
+    },
+    "Runeword88Info": {
+        "enUS": "ÿc4\nHelm\nÿc3+50% Enhanced Defense\n+10 Defense\n+30 Defense vs. Missile\n+5 to Strength\n+2 to Mana after each Kill\n-33% Extra Gold from Monsters\n-3 to Light Radius\nLevel 13 ÿc2Cloak of Shadows ÿc3(9 Charges)",
+        "zhTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "sgTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "zhCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "sgCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "bnCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）"
+    },
+    "Runeword75LevelName": {
+        "enUS": "27 ÿc4Lore",
+        "zhTW": "27 ÿc4知識",
+        "sgTW": "27 ÿc4知識",
+        "zhCN": "27 ÿc4学识",
+        "sgCN": "27 ÿc4学识",
+        "bnCN": "27 ÿc4学识"
+    },
+    "Runeword75Info": {
+        "enUS": "ÿc4\nHelm\nÿc3+1 to All Skill Levels\n+10 to Energy\nLightning Resist +30%\nDamage Reduced by 7\n+2 to Mana after each Kill\n+2 to Light Radius",
+        "zhTW": "ÿc4\n頭盔\nÿc3+1 所有技能等級\n+10 能量\n電擊抗性 +30%\n傷害降低 7\n+2 擊殺法力恢復\n照亮範圍 +2",
+        "sgTW": "ÿc4\n頭盔\nÿc3+1 所有技能等級\n+10 能量\n電擊抗性 +30%\n傷害降低 7\n+2 擊殺法力恢復\n照亮範圍 +2",
+        "zhCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n闪电抗性 +30%\n伤害降低 7\n+2 每次消灭恢复的法力\n+2 照亮范围",
+        "sgCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n闪电抗性 +30%\n伤害降低 7\n+2 每次消灭恢复的法力\n+2 照亮范围",
+        "bnCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n闪电抗性 +30%\n伤害降低 7\n+2 每次消灭恢复的法力\n+2 照亮范围"
+    },
+    "Runeword166LevelName": {
+        "enUS": "27 ÿc4Radiance",
+        "zhTW": "27 ÿc4光輝",
+        "sgTW": "27 ÿc4光輝",
+        "zhCN": "27 ÿc4光辉",
+        "sgCN": "27 ÿc4光辉",
+        "bnCN": "27 ÿc4光辉"
+    },
+    "Runeword166Info": {
+        "enUS": "ÿc4\nHelm\nÿc3+75% Enhanced Defense\n+30 Defense vs. Missile\n+10 to Vitality\n+10 to Energy\n+33 to Mana\nDamage Reduced by 7\nMagic Damage Reduced by 3\n15% Damage Taken Goes To Mana\n+5 to Light Radius",
+        "zhTW": "ÿc4\n頭盔\nÿc3+75% 防禦強化\n+30 對遠程防禦\n+10 體能\n+10 能量\n+33 法力\n傷害降低 7\n魔法傷害降低 3\n15% 受到的傷害轉為法力\n照亮範圍 +5",
+        "sgTW": "ÿc4\n頭盔\nÿc3+75% 防禦強化\n+30 對遠程防禦\n+10 體能\n+10 能量\n+33 法力\n傷害降低 7\n魔法傷害降低 3\n15% 受到的傷害轉為法力\n照亮範圍 +5",
+        "zhCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 活力\n+10 能量\n+33 法力\n伤害降低 7\n魔法伤害降低 3\n15% 受到的伤害转换为法力\n+5 照亮范围",
+        "sgCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 活力\n+10 能量\n+33 法力\n伤害降低 7\n魔法伤害降低 3\n15% 受到的伤害转换为法力\n+5 照亮范围",
+        "bnCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 活力\n+10 能量\n+33 法力\n伤害降低 7\n魔法伤害降低 3\n15% 受到的伤害转换为法力\n+5 照亮范围"
     }
 }

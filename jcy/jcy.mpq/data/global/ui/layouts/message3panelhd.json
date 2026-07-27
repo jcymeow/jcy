@@ -265,7 +265,7 @@
                                                 "filename": "items\\armor\\helmet\\helm",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50092ItemTypeHelmtooltip@jghelp50808MagicItemsAffixHelmTitletooltip",
+                                                "tooltipString": "@colorlanse@helms@jghelp50808MagicItemsAffixHelmTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -281,7 +281,7 @@
                                                 "filename": "items\\armor\\helmet\\fanged_helm",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50091ItemTypeHelmBartooltip@jghelp50809MagicItemsAffixHelmBarTitletooltip",
+                                                "tooltipString": "@colorlanse@barbh@helms@jghelp50809MagicItemsAffixHelmBarTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -297,7 +297,7 @@
                                                 "filename": "items\\armor\\pelt\\antlers",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50090ItemTypeHelmDrutooltip@jghelp50810MagicItemsAffixHelmDruTitletooltip",
+                                                "tooltipString": "@colorlanse@druid@helms@jghelp50810MagicItemsAffixHelmDruTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -313,7 +313,7 @@
                                                 "filename": "items\\armor\\circlet\\tiara",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50089ItemTypeCirclettooltip@jghelp50811MagicItemsAffixCircletTitletooltip",
+                                                "tooltipString": "@colorlanse@circl@jghelp50811MagicItemsAffixCircletTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -329,7 +329,7 @@
                                                 "filename": "items\\armor\\armor\\ancient_armor",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50088ItemTypeArmortooltip@jghelp50812MagicItemsAffixArmorTitletooltip",
+                                                "tooltipString": "@colorlanse@armo@jghelp50812MagicItemsAffixArmorTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -345,7 +345,7 @@
                                                 "filename": "items\\armor\\shield\\steelclash",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50087ItemTypeShieldtooltip@jghelp50813MagicItemsAffixShieldTitletooltip",
+                                                "tooltipString": "@colorlanse@shlds@jghelp50813MagicItemsAffixShieldTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -361,7 +361,7 @@
                                                 "filename": "items\\armor\\shield\\crown_shield",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50086ItemTypeShieldPaltooltip@jghelp50814MagicItemsAffixShieldPalTitletooltip",
+                                                "tooltipString": "@colorlanse@palad@shlds@jghelp50814MagicItemsAffixShieldPalTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -377,7 +377,7 @@
                                                 "filename": "items\\armor\\voodoo_head\\demon_head",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50085ItemTypeShieldNectooltip@jghelp50815MagicItemsAffixShieldNecTitletooltip",
+                                                "tooltipString": "@colorlanse@necro@shlds@jghelp50815MagicItemsAffixShieldNecTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -393,7 +393,7 @@
                                                 "filename": "items\\armor\\belt\\heavy_belt",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50084ItemTypeBelttooltip@jghelp50816MagicItemsAffixBeltTitletooltip",
+                                                "tooltipString": "@colorlanse@belts@jghelp50816MagicItemsAffixBeltTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -409,7 +409,7 @@
                                                 "filename": "items\\armor\\boot\\chain_boots",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50083ItemTypeBoottooltip@jghelp50817MagicItemsAffixBootTitletooltip",
+                                                "tooltipString": "@colorlanse@boots@jghelp50817MagicItemsAffixBootTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -425,7 +425,7 @@
                                                 "filename": "items\\armor\\glove\\bracers_m",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorlanse@jghelp50082ItemTypeGlovetooltip@jghelp50818MagicItemsAffixGloveTitletooltip",
+                                                "tooltipString": "@colorlanse@glove@jghelp50818MagicItemsAffixGloveTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }
@@ -569,7 +569,7 @@
                                                 "filename": "items\\armor\\helmet\\helm",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50092ItemTypeHelmtooltip@jghelp50905RareItemsAffixHelmTitletooltip",
+                                                "tooltipString": "@colorhuangse@helms@jghelp50905RareItemsAffixHelmTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -585,7 +585,7 @@
                                                 "filename": "items\\armor\\helmet\\fanged_helm",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50091ItemTypeHelmBartooltip@jghelp50906RareItemsAffixHelmBarTitletooltip",
+                                                "tooltipString": "@colorhuangse@barbh@helms@jghelp50906RareItemsAffixHelmBarTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -601,7 +601,7 @@
                                                 "filename": "items\\armor\\pelt\\antlers",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50090ItemTypeHelmDrutooltip@jghelp50907RareItemsAffixHelmDruTitletooltip",
+                                                "tooltipString": "@colorhuangse@druid@helms@jghelp50907RareItemsAffixHelmDruTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -617,7 +617,7 @@
                                                 "filename": "items\\armor\\circlet\\tiara",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50089ItemTypeCirclettooltip@jghelp50908RareItemsAffixCircletTitletooltip",
+                                                "tooltipString": "@colorhuangse@circl@jghelp50908RareItemsAffixCircletTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -633,7 +633,7 @@
                                                 "filename": "items\\armor\\armor\\ancient_armor",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50088ItemTypeArmortooltip@jghelp50909RareItemsAffixArmorTitletooltip",
+                                                "tooltipString": "@colorhuangse@armo@jghelp50909RareItemsAffixArmorTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -649,7 +649,7 @@
                                                 "filename": "items\\armor\\shield\\steelclash",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50087ItemTypeShieldtooltip@jghelp50910RareItemsAffixShieldTitletooltip",
+                                                "tooltipString": "@colorhuangse@shlds@jghelp50910RareItemsAffixShieldTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -665,7 +665,7 @@
                                                 "filename": "items\\armor\\shield\\crown_shield",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50086ItemTypeShieldPaltooltip@jghelp50911RareItemsAffixShieldPalTitletooltip",
+                                                "tooltipString": "@colorhuangse@palad@shlds@jghelp50911RareItemsAffixShieldPalTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -681,7 +681,7 @@
                                                 "filename": "items\\armor\\voodoo_head\\demon_head",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50085ItemTypeShieldNectooltip@jghelp50912RareItemsAffixShieldNecTitletooltip",
+                                                "tooltipString": "@colorhuangse@necro@shlds@jghelp50912RareItemsAffixShieldNecTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -697,7 +697,7 @@
                                                 "filename": "items\\armor\\belt\\heavy_belt",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50084ItemTypeBelttooltip@jghelp50913RareItemsAffixBeltTitletooltip",
+                                                "tooltipString": "@colorhuangse@belts@jghelp50913RareItemsAffixBeltTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -713,7 +713,7 @@
                                                 "filename": "items\\armor\\boot\\chain_boots",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50083ItemTypeBoottooltip@jghelp50914RareItemsAffixBootTitletooltip",
+                                                "tooltipString": "@colorhuangse@boots@jghelp50914RareItemsAffixBootTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -729,7 +729,7 @@
                                                 "filename": "items\\armor\\glove\\bracers_m",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50082ItemTypeGlovetooltip@jghelp50915RareItemsAffixGloveTitletooltip",
+                                                "tooltipString": "@colorhuangse@glove@jghelp50915RareItemsAffixGloveTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }
@@ -873,7 +873,7 @@
                                                 "filename": "items\\armor\\helmet\\helm",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50092ItemTypeHelmtooltip@jghelp50905RareItemsAffixHelmTitletooltip",
+                                                "tooltipString": "@colorhuangse@helms@jghelp50905RareItemsAffixHelmTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -889,7 +889,7 @@
                                                 "filename": "items\\armor\\helmet\\fanged_helm",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50091ItemTypeHelmBartooltip@jghelp50906RareItemsAffixHelmBarTitletooltip",
+                                                "tooltipString": "@colorhuangse@barbh@helms@jghelp50906RareItemsAffixHelmBarTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -905,7 +905,7 @@
                                                 "filename": "items\\armor\\pelt\\antlers",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50090ItemTypeHelmDrutooltip@jghelp50907RareItemsAffixHelmDruTitletooltip",
+                                                "tooltipString": "@colorhuangse@druid@helms@jghelp50907RareItemsAffixHelmDruTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -921,7 +921,7 @@
                                                 "filename": "items\\armor\\circlet\\tiara",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50089ItemTypeCirclettooltip@jghelp50908RareItemsAffixCircletTitletooltip",
+                                                "tooltipString": "@colorhuangse@circl@jghelp50908RareItemsAffixCircletTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -937,7 +937,7 @@
                                                 "filename": "items\\armor\\armor\\ancient_armor",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50088ItemTypeArmortooltip@jghelp50909RareItemsAffixArmorTitletooltip",
+                                                "tooltipString": "@colorhuangse@armo@jghelp50909RareItemsAffixArmorTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -953,7 +953,7 @@
                                                 "filename": "items\\armor\\shield\\steelclash",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50087ItemTypeShieldtooltip@jghelp50910RareItemsAffixShieldTitletooltip",
+                                                "tooltipString": "@colorhuangse@shlds@jghelp50910RareItemsAffixShieldTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -969,7 +969,7 @@
                                                 "filename": "items\\armor\\shield\\crown_shield",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50086ItemTypeShieldPaltooltip@jghelp50911RareItemsAffixShieldPalTitletooltip",
+                                                "tooltipString": "@colorhuangse@palad@shlds@jghelp50911RareItemsAffixShieldPalTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -985,7 +985,7 @@
                                                 "filename": "items\\armor\\voodoo_head\\demon_head",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50085ItemTypeShieldNectooltip@jghelp50912RareItemsAffixShieldNecTitletooltip",
+                                                "tooltipString": "@colorhuangse@necro@shldsp@jghelp50912RareItemsAffixShieldNecTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1001,7 +1001,7 @@
                                                 "filename": "items\\armor\\belt\\heavy_belt",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50084ItemTypeBelttooltip@jghelp50913RareItemsAffixBeltTitletooltip",
+                                                "tooltipString": "@colorhuangse@belts@jghelp50913RareItemsAffixBeltTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1017,7 +1017,7 @@
                                                 "filename": "items\\armor\\boot\\chain_boots",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50083ItemTypeBoottooltip@jghelp50914RareItemsAffixBootTitletooltip",
+                                                "tooltipString": "@colorhuangse@boots@jghelp50914RareItemsAffixBootTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1033,7 +1033,7 @@
                                                 "filename": "items\\armor\\glove\\bracers_m",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@colorhuangse@jghelp50082ItemTypeGlovetooltip@jghelp50915RareItemsAffixGloveTitletooltip",
+                                                "tooltipString": "@colorhuangse@glove@jghelp50915RareItemsAffixGloveTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }

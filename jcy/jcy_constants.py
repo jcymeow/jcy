@@ -17,7 +17,7 @@ WM_SHOW_WINDOW = 0x5000
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.6.1"
+APP_VERSION = "v1.6.1.1"
 
 # 发布日期
 APP_DATE = "20260724"

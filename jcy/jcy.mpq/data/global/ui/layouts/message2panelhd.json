@@ -105,7 +105,7 @@
                                             "type": "TextBoxWidget",
                                             "name": "HelmetText",
                                             "fields": {
-                                                "text": "    @jghelp50100helmet",
+                                                "text": "@helms",
                                                 "style": {
                                                     "fontColor": "$FontColorGoldYellow",
                                                     "pointSize": "$MediumLargeFontSize",
@@ -171,7 +171,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50101runewordNadir",
+                                                        "text": "@Runeword88LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -243,7 +243,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50103runewordLore",
+                                                        "text": "@Runeword75LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -252,7 +252,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword75@jghelp50104runewordtooltipLore",
+                                                                "tooltipString": "@coloranjinse@Runeword75@Runeword75Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -315,7 +315,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50105runewordRadiance",
+                                                        "text": "@Runeword166LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -324,7 +324,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword116@jghelp50106runewordtooltipRadiance",
+                                                                "tooltipString": "@coloranjinse@Runeword116@Runeword166Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -896,7 +896,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50107runewordDelirium",
+                                                        "text": "@Runeword22LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -905,7 +905,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword22@jghelp50108runewordtooltipDelirium",
+                                                                "tooltipString": "@coloranjinse@Runeword22@Runeword22Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
