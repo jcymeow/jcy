@@ -221,6 +221,15 @@
         },
         {
             "type": "TimerWidget",
+            "name": "OpenJcyMiniCube",
+            "fields": {
+                "time": 0.004,
+                "message": "PanelManager:OpenPanel:JcyMiniCube",
+                "default": "PanelManager:OpenPanel:JcyMiniCube"
+            }
+        },
+        {
+            "type": "TimerWidget",
             "name": "OpenJcyRes",
             "fields": {
                 "time": 0.005,

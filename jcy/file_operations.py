@@ -3137,6 +3137,7 @@ class FileOperations:
         name_to_key = {
             "OpenJcyMiniButtons": "1",
             "OpenJcyMiniHud": "2",
+            "OpenJcyMiniCube": "3",
         }
         keys_set = set(keys)    
         
