@@ -68,8 +68,8 @@
                 "textStrings": [
                     "@personal",
                     "@shared",
-                    "符文之语",
-                    "融合仓库"
+                    "@Runewords",
+                    "@MixedWarehouse"
                 ],
                 "textStyle": {
                     "pointSize": "$SmallPanelFontSize"
@@ -288,7 +288,7 @@
                                         "disabledTint": {
                                             "a": 1.0
                                         },
-                                        "tooltipString": "上一頁",
+                                        "tooltipString": "@NPCPreviousPage",
                                         "onClickMessage": "BankPanelMessage:SharedStashLeft"
                                     }
                                 },
@@ -307,7 +307,7 @@
                                         "disabledTint": {
                                             "a": 1.0
                                         },
-                                        "tooltipString": "下一頁",
+                                        "tooltipString": "@NPCNextPage",
                                         "onClickMessage": "BankPanelMessage:SharedStashRight"
                                     }
                                 },
@@ -344,7 +344,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "壹",
+                                        "textString": "1",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -362,7 +362,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "貳",
+                                        "textString": "2",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -380,7 +380,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "叁",
+                                        "textString": "3",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -398,7 +398,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "肆",
+                                        "textString": "4",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -416,7 +416,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "伍",
+                                        "textString": "5",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -434,7 +434,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "陸",
+                                        "textString": "6",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -452,7 +452,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "柒",
+                                        "textString": "7",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -470,7 +470,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "捌",
+                                        "textString": "8",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -488,7 +488,7 @@
                                             "scale": 1.2
                                         },
                                         "filename": "lobby/creategame/creategame_advancedcheckbox",
-                                        "textString": "玖",
+                                        "textString": "9",
                                         "textColor": "$FontColorGoldYellow",
                                         "text/style": "$StyleFEButtonText",
                                         "hoveredFrame": 2,
@@ -581,7 +581,7 @@
                                                             "y": 0,
                                                             "height": 70
                                                         },
-                                                        "text": "@jghelp50100helmet",
+                                                        "text": "@helms",
                                                         "style": {
                                                             "fontColor": "$FontColorGoldYellow",
                                                             "pointSize": "$XExtraLargeFontSize",
@@ -628,7 +628,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50101runewordNadir",
+                                                                "text": "@Runeword88LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -637,7 +637,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword88@jghelp50102runewordtooltipNadir",
+                                                                        "tooltipString": "@Color4@Runeword88@Runeword88Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -694,7 +694,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50103runewordLore",
+                                                                "text": "@Runeword75LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -703,7 +703,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword75@jghelp50104runewordtooltipLore",
+                                                                        "tooltipString": "@Color4@Runeword75@Runeword75Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -760,7 +760,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50105runewordRadiance",
+                                                                "text": "@Runeword166LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -769,7 +769,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword116@jghelp50106runewordtooltipRadiance",
+                                                                        "tooltipString": "@Color4@Runeword116@Runeword166Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -828,7 +828,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -843,7 +843,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@RwhelprunewordCure",
+                                                                "text": "@Runeword178LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -852,7 +852,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword178@RwhelprunewordtooltipCure",
+                                                                        "tooltipString": "@Color4@Runeword178@Runeword178Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -911,7 +911,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -926,7 +926,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@RwhelprunewordTemper",
+                                                                "text": "@Runeword176LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -935,7 +935,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword176@RwhelprunewordtooltipTemper",
+                                                                        "tooltipString": "@Color4@Runeword176@Runeword176Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -994,7 +994,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -1009,7 +1009,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@RwhelprunewordGround",
+                                                                "text": "@Runeword175LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1018,7 +1018,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword175@RwhelprunewordtooltipGround",
+                                                                        "tooltipString": "@Color4@Runeword175@Runeword175Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1077,7 +1077,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -1092,7 +1092,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@RwhelprunewordHearth",
+                                                                "text": "@Runeword177LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1101,7 +1101,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword177@RwhelprunewordtooltipHearth",
+                                                                        "tooltipString": "@Color4@Runeword177@Runeword177Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1160,7 +1160,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -1175,7 +1175,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@RwhelprunewordBulwark",
+                                                                "text": "@Runeword179LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1184,7 +1184,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword179@RwhelprunewordtooltipBulwark",
+                                                                        "tooltipString": "@Color4@Runeword179@Runeword179Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1249,7 +1249,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50111runewordWisdom",
+                                                                "text": "@Runeword165LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1258,7 +1258,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword165@jghelp50112runewordtooltipWisdom",
+                                                                        "tooltipString": "@Color4@Runeword165@Runeword165Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1323,7 +1323,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50107runewordDelirium",
+                                                                "text": "@Runeword22LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1332,7 +1332,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword22@jghelp50108runewordtooltipDelirium",
+                                                                        "tooltipString": "@Color4@Runeword22@Runeword22Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1395,7 +1395,7 @@
                                                             "scale": 0.35
                                                         },
                                                         "filename": "questicons\\misc\\freeroam",
-                                                        "tooltipString": "@jghelp60098RotWonly"
+                                                        "tooltipString": "@RotwOnly"
                                                     }
                                                 },
                                                 {
@@ -1410,7 +1410,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@Xhelp548755runewordCoven",
+                                                                "text": "@Runeword180LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1419,7 +1419,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword180@Xhelp548756runewordtooltipCoven",
+                                                                        "tooltipString": "@Color4@Runeword180@Runeword180Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1493,7 +1493,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword40@jghelp50114runewordtooltipFlickeringFlame",
+                                                                        "tooltipString": "@Color4@Runeword40@jghelp50114runewordtooltipFlickeringFlame",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1567,7 +1567,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword29@jghelp50110runewordtooltipDream",
+                                                                        "tooltipString": "@Color4@Runeword29@jghelp50110runewordtooltipDream",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1626,7 +1626,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -1650,7 +1650,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword174@RwhelprunewordtooltipMetamorphosis",
+                                                                        "tooltipString": "@Color4@Runeword174@RwhelprunewordtooltipMetamorphosis",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1780,7 +1780,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword1@jghelp50202runewordtooltipAncientsPledge",
+                                                                        "tooltipString": "@Color4@Runeword1@jghelp50202runewordtooltipAncientsPledge",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1854,7 +1854,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword130@jghelp50204runewordtooltipSpirit",
+                                                                        "tooltipString": "@Color4@Runeword130@jghelp50204runewordtooltipSpirit",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1936,7 +1936,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword120@jghelp50206runewordtooltipRhyme",
+                                                                        "tooltipString": "@Color4@Runeword120@jghelp50206runewordtooltipRhyme",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2002,7 +2002,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword131@jghelp50208runewordtooltipSplendor",
+                                                                        "tooltipString": "@Color4@Runeword131@jghelp50208runewordtooltipSplendor",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2068,7 +2068,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword122@jghelp50210runewordtooltipSanctuary",
+                                                                        "tooltipString": "@Color4@Runeword122@jghelp50210runewordtooltipSanctuary",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2131,7 +2131,7 @@
                                                             "scale": 0.35
                                                         },
                                                         "filename": "questicons\\misc\\freeroam",
-                                                        "tooltipString": "@jghelp60098RotWonly"
+                                                        "tooltipString": "@RotwOnly"
                                                     }
                                                 },
                                                 {
@@ -2155,7 +2155,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword181@Xhelp548758runewordtooltipVigilance",
+                                                                        "tooltipString": "@Color4@Runeword181@Xhelp548758runewordtooltipVigilance",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2221,7 +2221,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword37@jghelp50212runewordtooltipExile",
+                                                                        "tooltipString": "@Color4@Runeword37@jghelp50212runewordtooltipExile",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2303,7 +2303,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword27@jghelp50214runewordtooltipDragon",
+                                                                        "tooltipString": "@Color4@Runeword27@jghelp50214runewordtooltipDragon",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2377,7 +2377,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword29@jghelp50216runewordtooltipDream",
+                                                                        "tooltipString": "@Color4@Runeword29@jghelp50216runewordtooltipDream",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2451,7 +2451,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword103@jghelp50218runewordtooltipPhoenix",
+                                                                        "tooltipString": "@Color4@Runeword103@jghelp50218runewordtooltipPhoenix",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2591,7 +2591,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword133@jghelp50302runewordtooltipStealth",
+                                                                        "tooltipString": "@Color4@Runeword133@jghelp50302runewordtooltipStealth",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2657,7 +2657,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword87@jghelp50304runewordtooltipMyth",
+                                                                        "tooltipString": "@Color4@Runeword87@jghelp50304runewordtooltipMyth",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2731,7 +2731,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword98@jghelp50306runewordtooltipPeace",
+                                                                        "tooltipString": "@Color4@Runeword98@jghelp50306runewordtooltipPeace",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2794,7 +2794,7 @@
                                                             "scale": 0.35
                                                         },
                                                         "filename": "questicons\\misc\\freeroam",
-                                                        "tooltipString": "@jghelp60098RotWonly"
+                                                        "tooltipString": "@RotwOnly"
                                                     }
                                                 },
                                                 {
@@ -2818,7 +2818,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword3@Xhelp548760runewordtooltipAuthority",
+                                                                        "tooltipString": "@Color4@Runeword3@Xhelp548760runewordtooltipAuthority",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2892,7 +2892,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword128@jghelp50308runewordtooltipSmoke",
+                                                                        "tooltipString": "@Color4@Runeword128@jghelp50308runewordtooltipSmoke",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2943,7 +2943,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -2967,7 +2967,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword171@RwhelprunewordtooltipHustlea",
+                                                                        "tooltipString": "@Color4@Runeword171@RwhelprunewordtooltipHustlea",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3010,7 +3010,6 @@
                                                 }
                                             ]
                                         },
-                                        
                                         {
                                             "type": "Widget",
                                             "name": "Runeword74_Lionheart",
@@ -3042,7 +3041,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword74@jghelp50310runewordtooltipLionheart",
+                                                                        "tooltipString": "@Color4@Runeword74@jghelp50310runewordtooltipLionheart",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3116,7 +3115,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword148@jghelp50312runewordtooltipTreachery",
+                                                                        "tooltipString": "@Color4@Runeword148@jghelp50312runewordtooltipTreachery",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3190,7 +3189,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword160@jghelp50314runewordtooltipWealth",
+                                                                        "tooltipString": "@Color4@Runeword160@jghelp50314runewordtooltipWealth",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3264,7 +3263,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword34@jghelp50316runewordtooltipEnlightenment",
+                                                                        "tooltipString": "@Color4@Runeword34@jghelp50316runewordtooltipEnlightenment",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3338,7 +3337,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword8@jghelp50318runewordtooltipBone",
+                                                                        "tooltipString": "@Color4@Runeword8@jghelp50318runewordtooltipBone",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3412,7 +3411,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword30@jghelp50320runewordtooltipDuress",
+                                                                        "tooltipString": "@Color4@Runeword30@jghelp50320runewordtooltipDuress",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3486,7 +3485,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword45@jghelp50322runewordtooltipGloom",
+                                                                        "tooltipString": "@Color4@Runeword45@jghelp50322runewordtooltipGloom",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3560,7 +3559,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword137@jghelp50324runewordtooltipStone",
+                                                                        "tooltipString": "@Color4@Runeword137@jghelp50324runewordtooltipStone",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3642,7 +3641,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword112@jghelp50326runewordtooltipPrudence",
+                                                                        "tooltipString": "@Color4@Runeword112@jghelp50326runewordtooltipPrudence",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3708,7 +3707,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword117@jghelp50328runewordtooltipRain",
+                                                                        "tooltipString": "@Color4@Runeword117@jghelp50328runewordtooltipRain",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3782,7 +3781,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword110@jghelp50340runewordtooltipPrinciple",
+                                                                        "tooltipString": "@Color4@Runeword110@jghelp50340runewordtooltipPrinciple",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3856,7 +3855,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword41@jghelp50330runewordtooltipFortitude",
+                                                                        "tooltipString": "@Color4@Runeword41@jghelp50330runewordtooltipFortitude",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -3938,7 +3937,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword9@jghelp50332runewordtooltipBramble",
+                                                                        "tooltipString": "@Color4@Runeword9@jghelp50332runewordtooltipBramble",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4020,7 +4019,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword27@jghelp50334runewordtooltipDragon",
+                                                                        "tooltipString": "@Color4@Runeword27@jghelp50334runewordtooltipDragon",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4094,7 +4093,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword14@jghelp50336runewordtooltipChainsofHonor",
+                                                                        "tooltipString": "@Color4@Runeword14@jghelp50336runewordtooltipChainsofHonor",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4176,7 +4175,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword33@jghelp50338runewordtooltipEnigma",
+                                                                        "tooltipString": "@Color4@Runeword33@jghelp50338runewordtooltipEnigma",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4308,7 +4307,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword134@jghelp50402runewordtooltipSteel",
+                                                                        "tooltipString": "@Color4@Runeword134@jghelp50402runewordtooltipSteel",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4374,7 +4373,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword81@jghelp50404runewordtooltipMalice",
+                                                                        "tooltipString": "@Color4@Runeword81@jghelp50404runewordtooltipMalice",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4448,7 +4447,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword72@jghelp50406runewordtooltipLeaf",
+                                                                        "tooltipString": "@Color4@Runeword72@jghelp50406runewordtooltipLeaf",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4514,7 +4513,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword170@jghelp50408runewordtooltipZephyr",
+                                                                        "tooltipString": "@Color4@Runeword170@jghelp50408runewordtooltipZephyr",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4580,7 +4579,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword54@jghelp50410runewordtooltipHolyThunder",
+                                                                        "tooltipString": "@Color4@Runeword54@jghelp50410runewordtooltipHolyThunder",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4662,7 +4661,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword97@jghelp50500runewordtooltipPattern",
+                                                                        "tooltipString": "@Color4@Runeword97@jghelp50500runewordtooltipPattern",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4736,7 +4735,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword31@jghelp50412runewordtooltipEdge",
+                                                                        "tooltipString": "@Color4@Runeword31@jghelp50412runewordtooltipEdge",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4810,7 +4809,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword65@jghelp50414runewordtooltipKingsGrace",
+                                                                        "tooltipString": "@Color4@Runeword65@jghelp50414runewordtooltipKingsGrace",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4884,7 +4883,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword130@jghelp50416runewordtooltipSpirit",
+                                                                        "tooltipString": "@Color4@Runeword130@jghelp50416runewordtooltipSpirit",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -4966,7 +4965,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword139@jghelp50418runewordtooltipStrength",
+                                                                        "tooltipString": "@Color4@Runeword139@jghelp50418runewordtooltipStrength",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5032,7 +5031,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword55@jghelp50420runewordtooltipHonor",
+                                                                        "tooltipString": "@Color4@Runeword55@jghelp50420runewordtooltipHonor",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5122,7 +5121,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword62@jghelp50422runewordtooltipInsight",
+                                                                        "tooltipString": "@Color4@Runeword62@jghelp50422runewordtooltipInsight",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5204,7 +5203,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword6@jghelp50424runewordtooltipBlack",
+                                                                        "tooltipString": "@Color4@Runeword6@jghelp50424runewordtooltipBlack",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5278,7 +5277,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword162@jghelp50426runewordtooltipWhite",
+                                                                        "tooltipString": "@Color4@Runeword162@jghelp50426runewordtooltipWhite",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5344,7 +5343,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword83@jghelp50428runewordtooltipMemory",
+                                                                        "tooltipString": "@Color4@Runeword83@jghelp50428runewordtooltipMemory",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5426,7 +5425,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword49@jghelp50430runewordtooltipHarmony",
+                                                                        "tooltipString": "@Color4@Runeword49@jghelp50430runewordtooltipHarmony",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5493,7 +5492,7 @@
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
-                                                        "tooltipString": "@jghelp50097ladderonly"
+                                                        "tooltipString": "@LadderOnly"
                                                     }
                                                 },
                                                 {
@@ -5517,7 +5516,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword172@RwhelprunewordtooltipHustlew",
+                                                                        "tooltipString": "@Color4@Runeword172@RwhelprunewordtooltipHustlew",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5591,7 +5590,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword82@jghelp50432runewordtooltipMelody",
+                                                                        "tooltipString": "@Color4@Runeword82@jghelp50432runewordtooltipMelody",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5665,7 +5664,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword151@jghelp50502runewordtooltipUnbendingWill",
+                                                                        "tooltipString": "@Color4@Runeword151@jghelp50502runewordtooltipUnbendingWill",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5763,7 +5762,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword92@jghelp50434runewordtooltipObedience",
+                                                                        "tooltipString": "@Color4@Runeword92@jghelp50434runewordtooltipObedience",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5853,7 +5852,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword71@jghelp50436runewordtooltipLawbringer",
+                                                                        "tooltipString": "@Color4@Runeword71@jghelp50436runewordtooltipLawbringer",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -5927,7 +5926,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword95@jghelp50438runewordtooltipPassion",
+                                                                        "tooltipString": "@Color4@Runeword95@jghelp50438runewordtooltipPassion",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6009,7 +6008,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword99@jghelp50440runewordtooltipVoiceofReason",
+                                                                        "tooltipString": "@Color4@Runeword99@jghelp50440runewordtooltipVoiceofReason",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6091,7 +6090,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword17@jghelp50442runewordtooltipCrescentMoon",
+                                                                        "tooltipString": "@Color4@Runeword17@jghelp50442runewordtooltipCrescentMoon",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6165,7 +6164,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword91@jghelp50444runewordtooltipOath",
+                                                                        "tooltipString": "@Color4@Runeword91@jghelp50444runewordtooltipOath",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6247,7 +6246,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword154@jghelp50446runewordtooltipVenom",
+                                                                        "tooltipString": "@Color4@Runeword154@jghelp50446runewordtooltipVenom",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6310,7 +6309,7 @@
                                                             "scale": 0.5
                                                         },
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonlarge",
-                                                        "tooltipString": "@jghelp50097ladderonly",
+                                                        "tooltipString": "@LadderOnly",
                                                         "frame": 0
                                                     }
                                                 },
@@ -6335,7 +6334,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword173@RwhelprunewordtooltipMosaic",
+                                                                        "tooltipString": "@Color4@Runeword173@RwhelprunewordtooltipMosaic",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6409,7 +6408,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword66@jghelp50448runewordtooltipKingslayer",
+                                                                        "tooltipString": "@Color4@Runeword66@jghelp50448runewordtooltipKingslayer",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6491,7 +6490,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword121@jghelp50450runewordtooltipRift",
+                                                                        "tooltipString": "@Color4@Runeword121@jghelp50450runewordtooltipRift",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6573,7 +6572,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword20@jghelp50452runewordtooltipDeath",
+                                                                        "tooltipString": "@Color4@Runeword20@jghelp50452runewordtooltipDeath",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6663,7 +6662,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword51@jghelp50454runewordtooltipHeartoftheOak",
+                                                                        "tooltipString": "@Color4@Runeword51@jghelp50454runewordtooltipHeartoftheOak",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6745,7 +6744,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword126@jghelp50456runewordtooltipSilence",
+                                                                        "tooltipString": "@Color4@Runeword126@jghelp50456runewordtooltipSilence",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6843,7 +6842,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword13@jghelp50458runewordtooltipCalltoArms",
+                                                                        "tooltipString": "@Color4@Runeword13@jghelp50458runewordtooltipCalltoArms",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6933,7 +6932,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword16@jghelp50460runewordtooltipChaos",
+                                                                        "tooltipString": "@Color4@Runeword16@jghelp50460runewordtooltipChaos",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -6996,7 +6995,7 @@
                                                             "scale": 0.35
                                                         },
                                                         "filename": "questicons\\misc\\freeroam",
-                                                        "tooltipString": "@jghelp60098RotWonly"
+                                                        "tooltipString": "@RotwOnly"
                                                     }
                                                 },
                                                 {
@@ -7020,7 +7019,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword182@Xhelp548754runewordtooltipRitual",
+                                                                        "tooltipString": "@Color4@Runeword182@Xhelp548754runewordtooltipRitual",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7094,7 +7093,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword41@jghelp50462runewordtooltipFortitude",
+                                                                        "tooltipString": "@Color4@Runeword41@jghelp50462runewordtooltipFortitude",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7176,7 +7175,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword47@jghelp50464runewordtooltipGrief",
+                                                                        "tooltipString": "@Color4@Runeword47@jghelp50464runewordtooltipGrief",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7266,7 +7265,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword163@jghelp50466runewordtooltipWind",
+                                                                        "tooltipString": "@Color4@Runeword163@jghelp50466runewordtooltipWind",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7332,7 +7331,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword4@jghelp50468runewordtooltipBeast",
+                                                                        "tooltipString": "@Color4@Runeword4@jghelp50468runewordtooltipBeast",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7422,7 +7421,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword36@jghelp50470runewordtooltipEternity",
+                                                                        "tooltipString": "@Color4@Runeword36@jghelp50470runewordtooltipEternity",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7512,7 +7511,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword60@jghelp50472runewordtooltipInfinity",
+                                                                        "tooltipString": "@Color4@Runeword60@jghelp50472runewordtooltipInfinity",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7594,7 +7593,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword168@jghelp50474runewordtooltipWrath",
+                                                                        "tooltipString": "@Color4@Runeword168@jghelp50474runewordtooltipWrath",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7676,7 +7675,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword10@jghelp50476runewordtooltipBrand",
+                                                                        "tooltipString": "@Color4@Runeword10@jghelp50476runewordtooltipBrand",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7758,7 +7757,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword25@jghelp50478runewordtooltipDestruction",
+                                                                        "tooltipString": "@Color4@Runeword25@jghelp50478runewordtooltipDestruction",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7848,7 +7847,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword38@jghelp50480runewordtooltipFaith",
+                                                                        "tooltipString": "@Color4@Runeword38@jghelp50480runewordtooltipFaith",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -7930,7 +7929,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword39@jghelp50482runewordtooltipFamine",
+                                                                        "tooltipString": "@Color4@Runeword39@jghelp50482runewordtooltipFamine",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8012,7 +8011,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword44@jghelp50484runewordtooltipFury",
+                                                                        "tooltipString": "@Color4@Runeword44@jghelp50484runewordtooltipFury",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8086,7 +8085,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword59@jghelp50486runewordtooltipIce",
+                                                                        "tooltipString": "@Color4@Runeword59@jghelp50486runewordtooltipIce",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8168,7 +8167,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword69@jghelp50488runewordtooltipLastWish",
+                                                                        "tooltipString": "@Color4@Runeword69@jghelp50488runewordtooltipLastWish",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8266,7 +8265,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword103@jghelp50490runewordtooltipPhoenix",
+                                                                        "tooltipString": "@Color4@Runeword103@jghelp50490runewordtooltipPhoenix",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8348,7 +8347,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword106@jghelp50506runewordtooltipPlague",
+                                                                        "tooltipString": "@Color4@Runeword106@jghelp50506runewordtooltipPlague",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8422,7 +8421,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword84@jghelp50504runewordtooltipMist",
+                                                                        "tooltipString": "@Color4@Runeword84@jghelp50504runewordtooltipMist",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8512,7 +8511,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword26@jghelp50492runewordtooltipDoom",
+                                                                        "tooltipString": "@Color4@Runeword26@jghelp50492runewordtooltipDoom",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8602,7 +8601,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword48@jghelp50494runewordtooltipHandofJustice",
+                                                                        "tooltipString": "@Color4@Runeword48@jghelp50494runewordtooltipHandofJustice",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8684,7 +8683,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword109@jghelp50496runewordtooltipPride",
+                                                                        "tooltipString": "@Color4@Runeword109@jghelp50496runewordtooltipPride",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8766,7 +8765,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword94@jghelp50508runewordtooltipObsession",
+                                                                        "tooltipString": "@Color4@Runeword94@jghelp50508runewordtooltipObsession",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8853,7 +8852,7 @@
                                                             "scale": 0.35
                                                         },
                                                         "filename": "questicons\\misc\\freeroam",
-                                                        "tooltipString": "@jghelp60098RotWonly"
+                                                        "tooltipString": "@RotwOnly"
                                                     }
                                                 },
                                                 {
@@ -8877,7 +8876,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword157@Xhelp548752runewordtooltipVoid",
+                                                                        "tooltipString": "@Color4@Runeword157@Xhelp548752runewordtooltipVoid",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -8951,7 +8950,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@coloranjinse@Runeword11@jghelp50498runewordtooltipBreathoftheDying",
+                                                                        "tooltipString": "@Color4@Runeword11@jghelp50498runewordtooltipBreathoftheDying",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -9125,23 +9124,10 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 89,
-                            "y": 320
+                            "x": 677,
+                            "y": 222
                         },
                         "itemCode": "r07"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "r07",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 187,
-                            "y": 320
-                        },
-                        "itemCode": "r08"
                     }
                 },
                 {
@@ -9151,10 +9137,10 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 285,
-                            "y": 320
+                            "x": 775,
+                            "y": 222
                         },
-                        "itemCode": "r09"
+                        "itemCode": "r08"
                     }
                 },
                 {
@@ -9164,10 +9150,10 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 383,
-                            "y": 320
+                            "x": 873,
+                            "y": 222
                         },
-                        "itemCode": "r10"
+                        "itemCode": "r09"
                     }
                 },
                 {
@@ -9177,10 +9163,10 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 481,
-                            "y": 320
+                            "x": 971,
+                            "y": 222
                         },
-                        "itemCode": "r11"
+                        "itemCode": "r10"
                     }
                 },
                 {
@@ -9190,7 +9176,20 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
+                            "x": 89,
+                            "y": 320
+                        },
+                        "itemCode": "r11"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "r12",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 187,
                             "y": 320
                         },
                         "itemCode": "r12"
@@ -9203,8 +9202,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 89,
-                            "y": 418
+                            "x": 285,
+                            "y": 320
                         },
                         "itemCode": "r13"
                     }
@@ -9216,8 +9215,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 187,
-                            "y": 418
+                            "x": 383,
+                            "y": 320
                         },
                         "itemCode": "r14"
                     }
@@ -9229,8 +9228,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 285,
-                            "y": 418
+                            "x": 481,
+                            "y": 320
                         },
                         "itemCode": "r15"
                     }
@@ -9242,8 +9241,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 383,
-                            "y": 418
+                            "x": 579,
+                            "y": 320
                         },
                         "itemCode": "r16"
                     }
@@ -9255,8 +9254,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 481,
-                            "y": 418
+                            "x": 677,
+                            "y": 320
                         },
                         "itemCode": "r17"
                     }
@@ -9268,8 +9267,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
-                            "y": 418
+                            "x": 775,
+                            "y": 320
                         },
                         "itemCode": "r18"
                     }
@@ -9281,8 +9280,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 89,
-                            "y": 516
+                            "x": 873,
+                            "y": 320
                         },
                         "itemCode": "r19"
                     }
@@ -9294,8 +9293,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 187,
-                            "y": 516
+                            "x": 971,
+                            "y": 320
                         },
                         "itemCode": "r20"
                     }
@@ -9307,8 +9306,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 285,
-                            "y": 516
+                            "x": 89,
+                            "y": 418
                         },
                         "itemCode": "r21"
                     }
@@ -9320,8 +9319,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 383,
-                            "y": 516
+                            "x": 187,
+                            "y": 418
                         },
                         "itemCode": "r22"
                     }
@@ -9333,8 +9332,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 481,
-                            "y": 516
+                            "x": 285,
+                            "y": 418
                         },
                         "itemCode": "r23"
                     }
@@ -9346,8 +9345,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
-                            "y": 516
+                            "x": 383,
+                            "y": 418
                         },
                         "itemCode": "r24"
                     }
@@ -9359,8 +9358,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 89,
-                            "y": 614
+                            "x": 481,
+                            "y": 418
                         },
                         "itemCode": "r25"
                     }
@@ -9372,8 +9371,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 187,
-                            "y": 614
+                            "x": 579,
+                            "y": 418
                         },
                         "itemCode": "r26"
                     }
@@ -9385,8 +9384,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 285,
-                            "y": 614
+                            "x": 677,
+                            "y": 418
                         },
                         "itemCode": "r27"
                     }
@@ -9398,8 +9397,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 383,
-                            "y": 614
+                            "x": 775,
+                            "y": 418
                         },
                         "itemCode": "r28"
                     }
@@ -9411,8 +9410,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 481,
-                            "y": 614
+                            "x": 873,
+                            "y": 418
                         },
                         "itemCode": "r29"
                     }
@@ -9424,8 +9423,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
-                            "y": 614
+                            "x": 971,
+                            "y": 418
                         },
                         "itemCode": "r30"
                     }
@@ -9437,8 +9436,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 383,
-                            "y": 712
+                            "x": 89,
+                            "y": 516
                         },
                         "itemCode": "r31"
                     }
@@ -9450,8 +9449,8 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 481,
-                            "y": 712
+                            "x": 187,
+                            "y": 516
                         },
                         "itemCode": "r32"
                     }
@@ -9463,155 +9462,39 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
-                            "y": 712
+                            "x": 285,
+                            "y": 516
                         },
                         "itemCode": "r33"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "pk1",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 196,
-                            "x": 89,
-                            "y": 712
-                        },
-                        "itemCode": "pk1"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "pk2",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 196,
-                            "x": 187,
-                            "y": 712
-                        },
-                        "itemCode": "pk2"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "pk3",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 196,
-                            "x": 285,
-                            "y": 712
-                        },
-                        "itemCode": "pk3"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "dhn",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 89,
-                            "y": 908
-                        },
-                        "itemCode": "dhn"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "bey",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 187,
-                            "y": 908
-                        },
-                        "itemCode": "bey"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "mbr",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 285,
-                            "y": 908
-                        },
-                        "itemCode": "mbr"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "tes",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 89,
-                            "y": 1006
-                        },
-                        "itemCode": "tes"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "ceh",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 187,
-                            "y": 1006
-                        },
-                        "itemCode": "ceh"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "bet",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 285,
-                            "y": 1006
-                        },
-                        "itemCode": "bet"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "fed",
+                    "name": "rvs",
                     "fields": {
                         "rect": {
                             "width": 98,
                             "height": 98,
                             "x": 383,
-                            "y": 1006
+                            "y": 516
                         },
-                        "itemCode": "fed"
+                        "itemCode": "rvs"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "toa",
+                    "name": "rvl",
                     "fields": {
                         "rect": {
                             "width": 98,
                             "height": 98,
                             "x": 481,
-                            "y": 1006
+                            "y": 516
                         },
-                        "itemCode": "toa"
+                        "itemCode": "rvl"
                     }
                 },
+                
                 {
                     "type": "AdvancedStashSlotWidget",
                     "name": "xa1",
@@ -9620,7 +9503,7 @@
                             "width": 98,
                             "height": 98,
                             "x": 89,
-                            "y": 1104
+                            "y": 810
                         },
                         "itemCode": "xa1"
                     }
@@ -9633,7 +9516,7 @@
                             "width": 98,
                             "height": 98,
                             "x": 187,
-                            "y": 1104
+                            "y": 810
                         },
                         "itemCode": "xa2"
                     }
@@ -9646,7 +9529,7 @@
                             "width": 98,
                             "height": 98,
                             "x": 285,
-                            "y": 1104
+                            "y": 810
                         },
                         "itemCode": "xa3"
                     }
@@ -9659,7 +9542,7 @@
                             "width": 98,
                             "height": 98,
                             "x": 383,
-                            "y": 1104
+                            "y": 810
                         },
                         "itemCode": "xa4"
                     }
@@ -9672,9 +9555,74 @@
                             "width": 98,
                             "height": 98,
                             "x": 481,
-                            "y": 1104
+                            "y": 810
                         },
                         "itemCode": "xa5"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "tes",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 89,
+                            "y": 908
+                        },
+                        "itemCode": "tes"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "ceh",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 187,
+                            "y": 908
+                        },
+                        "itemCode": "ceh"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "bet",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 285,
+                            "y": 908
+                        },
+                        "itemCode": "bet"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "fed",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 383,
+                            "y": 908
+                        },
+                        "itemCode": "fed"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "toa",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 481,
+                            "y": 908
+                        },
+                        "itemCode": "toa"
                     }
                 },
                 {
@@ -9685,7 +9633,7 @@
                             "width": 98,
                             "height": 196,
                             "x": 89,
-                            "y": 1202
+                            "y": 1006
                         },
                         "itemCode": "ua1"
                     }
@@ -9698,7 +9646,7 @@
                             "width": 98,
                             "height": 196,
                             "x": 187,
-                            "y": 1202
+                            "y": 1006
                         },
                         "itemCode": "ua2"
                     }
@@ -9711,7 +9659,7 @@
                             "width": 98,
                             "height": 196,
                             "x": 285,
-                            "y": 1202
+                            "y": 1006
                         },
                         "itemCode": "ua3"
                     }
@@ -9724,7 +9672,7 @@
                             "width": 98,
                             "height": 196,
                             "x": 383,
-                            "y": 1202
+                            "y": 1006
                         },
                         "itemCode": "ua4"
                     }
@@ -9737,128 +9685,90 @@
                             "width": 98,
                             "height": 196,
                             "x": 481,
-                            "y": 1202
+                            "y": 1006
                         },
                         "itemCode": "ua5"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "rvs",
+                    "name": "dhn",
                     "fields": {
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
+                            "x": 89,
                             "y": 1202
                         },
-                        "itemCode": "rvs"
+                        "itemCode": "dhn"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "rvl",
+                    "name": "bey",
                     "fields": {
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 579,
+                            "x": 187,
+                            "y": 1202
+                        },
+                        "itemCode": "bey"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "mbr",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 89,
                             "y": 1300
                         },
-                        "itemCode": "rvl"
+                        "itemCode": "mbr"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "gzv",
+                    "name": "pk1",
                     "fields": {
                         "rect": {
                             "width": 98,
-                            "height": 98,
-                            "x": 971,
-                            "y": 222
+                            "height": 196,
+                            "x": 285,
+                            "y": 1202
                         },
-                        "itemCode": "gzv"
+                        "itemCode": "pk1"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "gly",
+                    "name": "pk2",
                     "fields": {
                         "rect": {
                             "width": 98,
-                            "height": 98,
-                            "x": 971,
-                            "y": 320
+                            "height": 196,
+                            "x": 383,
+                            "y": 1202
                         },
-                        "itemCode": "gly"
+                        "itemCode": "pk2"
                     }
                 },
                 {
                     "type": "AdvancedStashSlotWidget",
-                    "name": "glb",
+                    "name": "pk3",
                     "fields": {
                         "rect": {
                             "width": 98,
-                            "height": 98,
-                            "x": 971,
-                            "y": 418
+                            "height": 196,
+                            "x": 481,
+                            "y": 1202
                         },
-                        "itemCode": "glb"
+                        "itemCode": "pk3"
                     }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "glg",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 971,
-                            "y": 516
-                        },
-                        "itemCode": "glg"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "glr",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 873,
-                            "y": 614
-                        },
-                        "itemCode": "glr"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "glw",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 775,
-                            "y": 614
-                        },
-                        "itemCode": "glw"
-                    }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "skl",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 98,
-                            "x": 677,
-                            "y": 614
-                        },
-                        "itemCode": "skl"
-                    }
-                },
+                },               
+                
                 {
                     "type": "AdvancedStashSlotWidget",
                     "name": "gcv",
@@ -9866,7 +9776,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 712
                         },
                         "itemCode": "gcv"
@@ -9879,7 +9789,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 712
                         },
                         "itemCode": "gfv"
@@ -9892,10 +9802,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 712
                         },
                         "itemCode": "gsv"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "gzv",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 712
+                        },
+                        "itemCode": "gzv"
                     }
                 },
                 {
@@ -9918,7 +9841,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 810
                         },
                         "itemCode": "gcy"
@@ -9931,7 +9854,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 810
                         },
                         "itemCode": "gfy"
@@ -9944,10 +9867,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 810
                         },
                         "itemCode": "gsy"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "gly",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 810
+                        },
+                        "itemCode": "gly"
                     }
                 },
                 {
@@ -9970,7 +9906,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 908
                         },
                         "itemCode": "gcb"
@@ -9983,7 +9919,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 908
                         },
                         "itemCode": "gfb"
@@ -9996,10 +9932,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 908
                         },
                         "itemCode": "gsb"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "glb",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 908
+                        },
+                        "itemCode": "glb"
                     }
                 },
                 {
@@ -10022,7 +9971,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 1006
                         },
                         "itemCode": "gcg"
@@ -10035,7 +9984,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 1006
                         },
                         "itemCode": "gfg"
@@ -10048,10 +9997,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 1006
                         },
                         "itemCode": "gsg"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "glg",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 1006
+                        },
+                        "itemCode": "glg"
                     }
                 },
                 {
@@ -10074,7 +10036,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 1104
                         },
                         "itemCode": "gcr"
@@ -10087,7 +10049,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 1104
                         },
                         "itemCode": "gfr"
@@ -10100,10 +10062,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 1104
                         },
                         "itemCode": "gsr"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "glr",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 1104
+                        },
+                        "itemCode": "glr"
                     }
                 },
                 {
@@ -10126,7 +10101,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 1202
                         },
                         "itemCode": "gcw"
@@ -10139,7 +10114,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 1202
                         },
                         "itemCode": "gfw"
@@ -10152,10 +10127,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 1202
                         },
                         "itemCode": "gsw"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "glw",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 1202
+                        },
+                        "itemCode": "glw"
                     }
                 },
                 {
@@ -10178,7 +10166,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 677,
+                            "x": 579,
                             "y": 1300
                         },
                         "itemCode": "skc"
@@ -10191,7 +10179,7 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 775,
+                            "x": 677,
                             "y": 1300
                         },
                         "itemCode": "skf"
@@ -10204,10 +10192,23 @@
                         "rect": {
                             "width": 98,
                             "height": 98,
-                            "x": 873,
+                            "x": 775,
                             "y": 1300
                         },
                         "itemCode": "sku"
+                    }
+                },
+                {
+                    "type": "AdvancedStashSlotWidget",
+                    "name": "skl",
+                    "fields": {
+                        "rect": {
+                            "width": 98,
+                            "height": 98,
+                            "x": 873,
+                            "y": 1300
+                        },
+                        "itemCode": "skl"
                     }
                 },
                 {
@@ -10222,20 +10223,8 @@
                         },
                         "itemCode": "skz"
                     }
-                },
-                {
-                    "type": "AdvancedStashSlotWidget",
-                    "name": "tch",
-                    "fields": {
-                        "rect": {
-                            "width": 98,
-                            "height": 196,
-                            "x": 579,
-                            "y": 1006
-                        },
-                        "itemCode": "tch"
-                    }
                 }
+                
             ]
         },
         {
@@ -10244,7 +10233,72 @@
         },
         {
             "type": "Widget",
-            "name": "advancedstash_horadriccube"
+            "name": "advancedstash_horadriccube",
+            "children": [
+                {
+                    "type": "InventoryGridWidget",
+                    "name": "horadriccube_grid",
+                    "fields": {
+                        "rect": {
+                            "x": 1190,
+                            "y": 1090
+                        },
+                        "cellCount": {
+                            "x": 3,
+                            "y": 4
+                        },
+                        "cellSize": "$ItemCellSize",
+                        "gemSocketFilename": "PANEL\\gemsocket"
+                    },
+                    "children": [
+                        {
+                            "type": "AnimatedImageWidget",
+                            "name": "chronicleFlourish",
+                            "fields": {
+                                "rect": {
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 370,
+                                    "height": 540,
+                                    "scale": 2
+                                },
+                                "filename": "PANEL\\Chronicle\\RewardAnims\\PANEL_ChronicleReward_1x1",
+                                "blendMode": "black",
+                                "fps": 30,
+                                "playing": false,
+                                "loop": false,
+                                "frame": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "horadriccube_cover",
+                    "fields": {
+                        "rect": {
+                            "x": 1190,
+                            "y": 1090
+                        },
+                        "filename": "panel\\stash\\additionalstash\\horadriccubecover"
+                    }
+                },
+                {
+                    "type": "ButtonWidget",
+                    "name": "convert",
+                    "fields": {
+                        "rect": {
+                            "x": 1502,
+                            "y": 1390,
+                            "scale": 1
+                        },
+                        "filename": "panel\\horadric_cube\\transmutebutton",
+                        "tooltipString": "@strUiMenu2",
+                        "hoveredFrame": 2,
+                        "onClickMessage": "BankPanelMessage:Convert"
+                    }
+                }
+            ]
         }
     ]
 }
