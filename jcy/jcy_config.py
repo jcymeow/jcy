@@ -22,10 +22,10 @@ LOCAL_EXT_DICT = {}
 LOCAL_ORIGINAL_DICT = {}
 
 # 暗金物品
-UNIQUEITEMS = []
+UNIQUEITEMS = {}
 
 # 套装
-SETS = []
+SETS = {}
 
 # 套装组件
-SETITEMS = []
+SETITEMS = {}

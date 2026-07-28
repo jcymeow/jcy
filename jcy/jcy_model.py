@@ -593,18 +593,17 @@ class FeatureConfig:
                             "params": {
                                 "4": "附带英文",
                                 "5": "MAX变量",
-                                "6": "吐槽信息"
+                                "6": "吐槽信息",
                             }
                         },
                         {
-                            "fid": Function.SETS_EFFECTS.value,
+                            "fid": Function.AFFIX_EFFECTS.value,
                             "type": CHECK,
-                            "text": "装备-套装/绿装特效",
+                            "text": "装备-词缀特效",
                             "colspan": 50,
                             "params": {
-                                "4": "附带英文",
-                                "5": "MAX变量",
-                                "6": "吐槽信息"
+                                "1": "英文缩写",
+                                "2": "词缀着色"
                             }
                         },
                         {
@@ -615,7 +614,7 @@ class FeatureConfig:
                             "params": {
                                 "7": "附带英文",
                                 "8": "MAX变量",
-                                "9": "吐槽信息"
+                                "9": "吐槽信息",
                             }
                         },
                         {
@@ -628,15 +627,14 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.UNIQUE_COLOR.value,
+                            "fid": Function.SETS_EFFECTS.value,
                             "type": CHECK,
-                            "text": "暗金/独特装备-染色",
+                            "text": "装备-套装/绿装特效",
                             "colspan": 50,
                             "params": {
-                                "1": "諧角之冠",
-                                "2": "奧瑪斯之袍",
-                                "3": "蜘蛛之網",
-                                "4": "基德的財運"
+                                "4": "附带英文",
+                                "5": "MAX变量",
+                                "6": "吐槽信息",
                             }
                         },
                         {
@@ -650,13 +648,15 @@ class FeatureConfig:
                             }
                         },
                         {
-                            "fid": Function.AFFIX_EFFECTS.value,
+                            "fid": Function.UNIQUE_COLOR.value,
                             "type": CHECK,
-                            "text": "装备-词缀特效",
-                            "colspan": 40,
+                            "text": "暗金/独特装备-染紫",
+                            "colspan": 100,
                             "params": {
-                                "1": "英文缩写",
-                                "2": "词缀着色"
+                                "1": "諧角之冠",
+                                "2": "奧瑪斯之袍",
+                                "3": "蜘蛛之網",
+                                "4": "基德的財運"
                             }
                         },
                         {

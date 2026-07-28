@@ -1421,43 +1421,51 @@ class FileOperations:
             for item in templet_list:
                 Key = item["Key"]
                 data = data_dict.get(Key, {})
-                
+
                 if Key in jcy_config.UNIQUEITEMS:
                     # 暗金逻辑
                     for lang in Language:
                         lng = lang.value
                         arr = []
+                        # 装备名称
+                        arr.append(item.get(lng))
+                        # 附带英文
+                        if unique_enus and lng != Language.ENUS.value:
+                            arr.append(f"ÿcU{item.get(Language.ENUS.value)}")
+                        # MAX变量
                         if unique_max:
                             max = data.get(lng, {}).get("max")
                             if max:
-                                arr.append(f"ÿc1[{max}]\n")
+                                arr.append(f"ÿc1[{max}]")
+                        # 吐槽信息
                         if unique_mark:
                             mark = data.get(lng, {}).get("mark")
                             if mark:
-                                arr.append(f"ÿc2[{mark}]\n")
-                        if len(arr) > 0:
-                            arr.append("ÿc4")
-                        arr.append(item.get(lng))
-                        if unique_enus and lng != Language.ENUS.value:
-                            arr.append(f" {item.get(Language.ENUS.value)}")
-                        item[lng] = ''.join(arr)
+                                arr.append(f"\nÿc5{mark}")
+                        
+                        item[lng] = ' '.join(arr)
                 elif Key in jcy_config.SETS or Key in jcy_config.SETITEMS:
                     # 套装逻辑
                     for lang in Language:
                         lng = lang.value
                         arr = []
+                        # 装备名称
+                        arr.append(item.get(lng))
+                        # 附带英文
+                        if set_enus and lng != Language.ENUS.value:
+                            arr.append(f"ÿcU{item.get(Language.ENUS.value)}")
+                        # MAX变量
                         if set_max:
                             max = data.get(lng, {}).get("max")
                             if max:
-                                arr.append(f"[{max}]\n")
+                                arr.append(f"ÿc1[{max}]")
+                        # 吐槽信息
                         if set_mark:
                             mark = data.get(lng, {}).get("mark")
                             if mark:
-                                arr.append(f"{mark}\n")
-                        arr.append(item.get(lng))
-                        if set_enus and lng != Language.ENUS.value:
-                            arr.append(f" {item.get(Language.ENUS.value)}")
-                        item[lng] = ''.join(arr)
+                                arr.append(f"\nÿc5{mark}")
+
+                        item[lng] = ' '.join(arr)
                 elif Key in ITEM_BASE:
                     # 底材逻辑
                     for lang in Language:
@@ -1584,20 +1592,22 @@ class FileOperations:
                     for lang in Language:
                         lng = lang.value
                         arr = []
+                        # 符文之语
+                        arr.append(item.get(lng))
+                        # 附带英文
+                        if runeword_enus and lng != Language.ENUS.value:
+                            arr.append(f"ÿcU{item.get(Language.ENUS.value)}")
+                        # MAX变量
                         if runeword_max:
                             max = data.get(lng).get("max")
                             if max:
-                                arr.append(f"ÿc1[{max}]\n")
+                                arr.append(f"ÿc1[{max}]")
+                        # 吐槽信息
                         if runeword_mark:
-                            mark = data.get(lng).get("mark")
+                            mark = data.get(lng, {}).get("mark")
                             if mark:
-                                arr.append(f"ÿc2{mark}\n")
-                        if len(arr) > 0:
-                            arr.append("ÿc4")
-                        arr.append(item.get(lng))
-                        if runeword_enus and lng != Language.ENUS.value:
-                            arr.append(f" {item.get(Language.ENUS.value)}")
-                        item[lng] = ''.join(arr)
+                                arr.append(f"\nÿc5{mark}")
+                        item[lng] = ' '.join(arr)
                 ext_json[Key] = item
 
             # 写ext
@@ -4328,60 +4338,36 @@ class FileOperations:
 
 
     def load_uniqueitems(self):
-        uniqueitems = []
+        path = os.path.join(MOD_PATH, r"config/original/excel/uniqueitems.txt")
         try:
-            path = os.path.join(MOD_PATH, r"config/original/excel/uniqueitems.txt")
-
-            rows = []
             with open(path, "r", encoding="utf-8") as f:
                 reader = csv.DictReader(f, delimiter="\t")
-                fieldnames = reader.fieldnames
-                rows = list(reader)
-
-            for row in rows:
-                index = row["index"]
-                uniqueitems.append(index)
+                # 一行搞定：过滤空行，提取 index，直接生成 set
+                return {row["index"] for row in reader if row.get("index")}
         except Exception as e:
-            print(e)
-        
-        return uniqueitems
+            print(f"Error loading uniqueitems: {e}")
+            return set()
 
 
     def load_sets(self):
-        sets = []
+        path = os.path.join(MOD_PATH, r"config/original/excel/sets.txt")
         try:
-            path = os.path.join(MOD_PATH, r"config/original/excel/sets.txt")
-
-            rows = []
             with open(path, "r", encoding="utf-8") as f:
                 reader = csv.DictReader(f, delimiter="\t")
-                fieldnames = reader.fieldnames
-                rows = list(reader)
-
-            for row in rows:
-                index = row["index"]
-                sets.append(index)
+                # 一行搞定：过滤空行，提取 index，直接生成 set
+                return {row["index"] for row in reader if row.get("index")}
         except Exception as e:
-            print(e)
-        
-        return sets
+            print(f"Error loading sets: {e}")
+            return set()
 
 
     def load_setitems(self):
-        setitems = []
+        path = os.path.join(MOD_PATH, r"config/original/excel/setitems.txt")
         try:
-            path = os.path.join(MOD_PATH, r"config/original/excel/setitems.txt")
-
-            rows = []
             with open(path, "r", encoding="utf-8") as f:
                 reader = csv.DictReader(f, delimiter="\t")
-                fieldnames = reader.fieldnames
-                rows = list(reader)
-
-            for row in rows:
-                index = row["index"]
-                setitems.append(index)
+                # 一行搞定：过滤空行，提取 index，直接生成 set
+                return {row["index"] for row in reader if row.get("index")}
         except Exception as e:
-            print(e)
-        
-        return setitems
+            print(f"Error loading setitems: {e}")
+            return set()

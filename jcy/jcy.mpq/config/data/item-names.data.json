@@ -21221,15 +21221,15 @@
     },
     "Tal Rasha's Lidless Eye": {
         "enUS": {
-            "max": "2CM/2LM/2FM",
+            "max": "2/2/2",
             "mark": ""
         },
         "zhCN": {
-            "max": "2CM/2LM/2FM",
+            "max": "2/2/2",
             "mark": ""
         },
         "zhTW": {
-            "max": "2CM/2LM/2FM",
+            "max": "2/2/2",
             "mark": ""
         }
     },
