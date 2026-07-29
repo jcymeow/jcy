@@ -2617,26 +2617,6 @@ class FileOperations:
         return (count, total)
 
 
-    def select_mini_cube_mode(self, radio: str = "0"):
-        """迷你盒子模式"""
-        
-        funcs = []
-
-        _files = [
-            "data/global/ui/layouts/playerinventoryexpansionlayouthd.json",
-            "data/global/ui/layouts/JcyMiniCubehd.json",
-            "data/hd/global/ui/panel/inventory/background.sprite",
-            "data/hd/global/ui/panel/inventory/background.lowend.sprite",
-        ]
-
-        for _file in _files:
-            result = self.common_select(_file, radio)
-            funcs.append(result)
-        
-        summary = [sum(column) for column in zip(*funcs)]
-        return summary
-
-
     def filter_item_name(self, item_name: str, filter: bool) -> str:
         """
         filter=True  → 强制加 UE01A 前缀

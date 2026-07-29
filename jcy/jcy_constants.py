@@ -1425,8 +1425,6 @@ class Function(Enum):
     ACT4_WAYPOINT_8 = "Act4Waypoint8"
     ACT4_WAYPOINT_9 = "Act4Waypoint9"
 
-    MINI_CUBE_MODE = "MiniCubeMode"
-
     GAME_SETTING = "GameSetting"
     GAME_SETTING2 = "GameSetting2"
     CONTROLS_SETTING = "ControlsSetting"

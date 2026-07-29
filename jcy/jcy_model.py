@@ -119,17 +119,6 @@ class FeatureConfig:
                             "params": WAYPOINT_DICT
                         },
                         {
-                            "fid": Function.MINI_CUBE_MODE.value,
-                            "type": RADIO,
-                            "text": "迷你盒子模式",
-                            "colspan": 100,
-                            "params": {
-                                "0": "默认(无迷你盒子)",
-                                "1": "融合模式(盒子嵌入物品栏)",
-                                "2": "挂载模式(盒子嵌入主界面)",
-                            }
-                        },
-                        {
                             "fid": Function.MINI_CUBE.value,
                             "type": RADIO,
                             "text": "挂载模式_迷你盒子位置",
