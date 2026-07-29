@@ -4154,6 +4154,13 @@ class FileOperations:
         return count, total
 
 
+    def switch_inventory_extra(self, value):
+        """布局.物品栏.扩展(收缩装备槽位&添加迷你盒子/公式提示)"""
+        file_path = r"data/global/ui/layouts/playerinventoryexpansionlayouthd.json"
+        radio = "1" if str(value) == "1" else "0"
+        return self.common_select(file_path, radio)
+
+
     def switch_cube_transparent(self, value):
         """精灵图.迷你盒子.透明化"""
         

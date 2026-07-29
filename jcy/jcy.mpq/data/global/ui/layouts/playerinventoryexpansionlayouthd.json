@@ -50,7 +50,7 @@
             "type": "ImageWidget",
             "name": "background",
             "fields": {
-                "filename": "panel/inventory/Background"
+                "filename": "jcy/inventory/Background"
             }
         },
         {

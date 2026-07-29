@@ -768,6 +768,13 @@ class FeatureConfig:
                             "event": "强化展示效果"
                         },
                         {
+                            "fid": Function.LAYOUTS_INVENTORY_EXTRA.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "物品栏",
+                            "event": "扩展(收缩装备槽位&添加迷你盒子/公式提示)"
+                        },
+                        {
                             "fid": Function.LAYOUTS_INVENTORY_ADD_CUBE.value,
                             "type": SWITCH,
                             "category": "布局",
