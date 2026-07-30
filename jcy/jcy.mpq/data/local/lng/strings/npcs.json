@@ -6660,7 +6660,6 @@
     "zhTW": " • 施法檔位查詢 •",
     "zhCN": " • 施法檔位查詢 •"
   },
-
   {
     "id": 52055,
     "Key": "kanelp52055FCRLookupTitletooltip",
@@ -7239,15 +7238,15 @@
     "id": 100202,
     "Key": "AsnFcr",
     "enUS": "\nÿc8assassin\n\nÿc2FCR 0 = 16F Bp\nFCR 8 = 15F Bp\nFCR 16 = 14F Bp\nFCR 27 = 13F Bp\nFCR 42 = 12F Bp\nFCR 65 = 11F Bp\nFCR 102 = 10F Bp\nFCR 174 = 9F Bp",
-    "zhTW": "\nÿc8刺客\n\nÿc2FCR 000 ÿc0=ÿc2 16F档位\nFCR 008 ÿc0=ÿc2 15F档位\nFCR 016 ÿc0=ÿc2 14F档位\nFCR 027 ÿc0=ÿc2 13F档位\nFCR 042 ÿc0=ÿc2 12F档位\nFCR 065 ÿc0=ÿc2 11F档位\nFCR 102 ÿc0=ÿc2 10F档位\nFCR 174 ÿc0=ÿc2 09F档位",
-    "zhCN": "\nÿc8刺客\n\nÿc2FCR 000 ÿc0=ÿc2 16F档位\nFCR 008 ÿc0=ÿc2 15F档位\nFCR 016 ÿc0=ÿc2 14F档位\nFCR 027 ÿc0=ÿc2 13F档位\nFCR 042 ÿc0=ÿc2 12F档位\nFCR 065 ÿc0=ÿc2 11F档位\nFCR 102 ÿc0=ÿc2 10F档位\nFCR 174 ÿc0=ÿc2 09F档位"
+    "zhTW": "\nÿc8刺客\n\nÿc2FCR 000 ÿc0=ÿc2 16F檔位\nFCR 008 ÿc0=ÿc2 15F檔位\nFCR 016 ÿc0=ÿc2 14F檔位\nFCR 027 ÿc0=ÿc2 13F檔位\nFCR 042 ÿc0=ÿc2 12F檔位\nFCR 065 ÿc0=ÿc2 11F檔位\nFCR 102 ÿc0=ÿc2 10F檔位\nFCR 174 ÿc0=ÿc2 09F檔位",
+    "zhCN": "\nÿc8刺客\n\nÿc2FCR 000 ÿc0=ÿc2 16F檔位\nFCR 008 ÿc0=ÿc2 15F檔位\nFCR 016 ÿc0=ÿc2 14F檔位\nFCR 027 ÿc0=ÿc2 13F檔位\nFCR 042 ÿc0=ÿc2 12F檔位\nFCR 065 ÿc0=ÿc2 11F檔位\nFCR 102 ÿc0=ÿc2 10F檔位\nFCR 174 ÿc0=ÿc2 09F檔位"
   },
   {
     "id": 100203,
     "Key": "NecFcr",
     "enUS": "\nÿc8necromancer\n\nÿc2FCR 000 ÿc0=ÿc2 15F Bp\nFCR 009 ÿc0=ÿc2 14F Bp\nFCR 018 ÿc0=ÿc2 13F Bp\nFCR 030 ÿc0=ÿc2 12F Bp\nFCR 048 ÿc0=ÿc2 11F Bp\nFCR 075 ÿc0=ÿc2 10F Bp\nFCR 125 = 9F Bp",
-    "zhTW": "\nÿc8死灵\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位",
-    "zhCN": "\nÿc8死灵\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
+    "zhTW": "\nÿc8死靈法師\n\nÿc2FCR 000 ÿc0=ÿc2 15F檔位\nFCR 009 ÿc0=ÿc2 14F檔位\nFCR 018 ÿc0=ÿc2 13F檔位\nFCR 030 ÿc0=ÿc2 12F檔位\nFCR 048 ÿc0=ÿc2 11F檔位\nFCR 075 ÿc0=ÿc2 10F檔位\nFCR 125 ÿc0=ÿc2 09F檔位",
+    "zhCN": "\nÿc8死靈法師\n\nÿc2FCR 000 ÿc0=ÿc2 15F檔位\nFCR 009 ÿc0=ÿc2 14F檔位\nFCR 018 ÿc0=ÿc2 13F檔位\nFCR 030 ÿc0=ÿc2 12F檔位\nFCR 048 ÿc0=ÿc2 11F檔位\nFCR 075 ÿc0=ÿc2 10F檔位\nFCR 125 ÿc0=ÿc2 09F檔位"
   },
   {
     "id": 100204,
@@ -7260,8 +7259,8 @@
     "id": 100205,
     "Key": "PalFcr",
     "enUS": "\nÿc8paladin\n\nÿc2FCR 0 ÿc0=ÿc2 15F Bp\nFCR 9 ÿc0=ÿc2 14F Bp\nFCR 18 ÿc0=ÿc2= 13F Bp\nFCR 30 ÿc0=ÿc2= 12F Bp\nFCR 48 ÿc0=ÿc2= 11F Bp\nFCR 75 ÿc0=ÿc2= 10F Bp\nFCR 125 ÿc0=ÿc2= 9F Bp",
-    "zhTW": "\nÿc8圣骑士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位",
-    "zhCN": "\nÿc8圣骑士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
+    "zhTW": "\nÿc8聖騎士\n\nÿc2FCR 000 ÿc0=ÿc2 15F檔位\nFCR 009 ÿc0=ÿc2 14F檔位\nFCR 018 ÿc0=ÿc2 13F檔位\nFCR 030 ÿc0=ÿc2 12F檔位\nFCR 048 ÿc0=ÿc2 11F檔位\nFCR 075 ÿc0=ÿc2 10F檔位\nFCR 125 ÿc0=ÿc2 09F檔位",
+    "zhCN": "\nÿc8聖騎士\n\nÿc2FCR 000 ÿc0=ÿc2 15F檔位\nFCR 009 ÿc0=ÿc2 14F檔位\nFCR 018 ÿc0=ÿc2 13F檔位\nFCR 030 ÿc0=ÿc2 12F檔位\nFCR 048 ÿc0=ÿc2 11F檔位\nFCR 075 ÿc0=ÿc2 10F檔位\nFCR 125 ÿc0=ÿc2 09F檔位"
   },
   {
     "id": 100206,
@@ -7274,22 +7273,22 @@
     "id": 100207,
     "Key": "WarFcr",
     "enUS": "\nÿc8warlock\n\nÿc2FCR 000 ÿc0=ÿc2 15F Bp\nFCR 009 ÿc0=ÿc2 14F Bp\nFCR 018 ÿc0=ÿc2 13F Bp\nFCR 030 ÿc0=ÿc2 12F Bp\nFCR 048 ÿc0=ÿc2 11F Bp\nFCR 075 ÿc0=ÿc2 10F Bp\nFCR 125 = 9F Bp",
-    "zhTW": "\nÿc8术士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位",
-    "zhCN": "\nÿc8术士\n\nÿc2FCR 000 ÿc0=ÿc2 15F档位\nFCR 009 ÿc0=ÿc2 14F档位\nFCR 018 ÿc0=ÿc2 13F档位\nFCR 030 ÿc0=ÿc2 12F档位\nFCR 048 ÿc0=ÿc2 11F档位\nFCR 075 ÿc0=ÿc2 10F档位\nFCR 125 ÿc0=ÿc2 09F档位"
+    "zhTW": "\nÿc8術士\n\nÿc2FCR 000 ÿc0=ÿc2 15F檔位\nFCR 009 ÿc0=ÿc2 14F檔位\nFCR 018 ÿc0=ÿc2 13F檔位\nFCR 030 ÿc0=ÿc2 12F檔位\nFCR 048 ÿc0=ÿc2 11F檔位\nFCR 075 ÿc0=ÿc2 10F檔位\nFCR 125 ÿc0=ÿc2 09F檔位",
+    "zhCN": "\nÿc8術士\n\nÿc2FCR 000 ÿc0=ÿc2 15F檔位\nFCR 009 ÿc0=ÿc2 14F檔位\nFCR 018 ÿc0=ÿc2 13F檔位\nFCR 030 ÿc0=ÿc2 12F檔位\nFCR 048 ÿc0=ÿc2 11F檔位\nFCR 075 ÿc0=ÿc2 10F檔位\nFCR 125 ÿc0=ÿc2 09F檔位"
   },
   {
     "id": 100208,
     "Key": "DruFcr",
     "enUS": "\nÿc8HD\n\nÿc2FCR 0 = 18F Bp\nFCR 4 = 17F Bp\nFCR 10 = 16F Bp\nFCR 19 = 15F Bp\nFCR 30 = 14F Bp\nFCR 45 = 13F Bp\nFCR 68 = 12F Bp\nFCR 99 = 11F Bp\nFCR 163 = 10F Bp\nFCR 292 = 9F Bp\n\nÿc8WW\n\nÿc2FCR 0 = 16F Bp\nFCR 6 = 15F Bp\nFCR 14 = 14F Bp\nFCR 26 = 13F Bp\nFCR 40 = 12F Bp\nFCR 60 = 11F Bp\nFCR 95 = 10F Bp\nFCR 157 = 9F Bp\n\nÿc8WB\n\nÿc2FCR 0 = 17F Bp\nFCR 7 = 16F Bp\nFCR 15 = 15F Bp\nFCR 26 = 14F Bp\nFCR 40 = 13F Bp\nFCR 63 = 12F Bp\nFCR 99 = 11F Bp\nFCR 163 = 10F Bp\nFCR 330 = 9F Bp",
-    "zhTW": "\nÿc8人德\n\nÿc2FCR 000  ÿc0=ÿc2 18F档位\nFCR 004  ÿc0=ÿc2 17F档位\nFCR 010  ÿc0=ÿc2 16F档位\nFCR 019  ÿc0=ÿc2 15F档位\nFCR 030  ÿc0=ÿc2 14F档位\nFCR 045  ÿc0=ÿc2 13F档位\nFCR 068  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 292  ÿc0=ÿc2 09F档位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F档位\nFCR 006  ÿc0=ÿc2 15F档位\nFCR 014  ÿc0=ÿc2 14F档位\nFCR 026  ÿc0=ÿc2 13F档位\nFCR 040  ÿc0=ÿc2 12F档位\nFCR 060  ÿc0=ÿc2 11F档位\nFCR 095  ÿc0=ÿc2 10F档位\nFCR 157  ÿc0=ÿc2 09F档位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F档位\nFCR 007  ÿc0=ÿc2 16F档位\nFCR 015  ÿc0=ÿc2 15F档位\nFCR 026  ÿc0=ÿc2 14F档位\nFCR 040  ÿc0=ÿc2 13F档位\nFCR 063  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 330  ÿc0=ÿc2 09F档位",
-    "zhCN": "\nÿc8人德\n\nÿc2FCR 000  ÿc0=ÿc2 18F档位\nFCR 004  ÿc0=ÿc2 17F档位\nFCR 010  ÿc0=ÿc2 16F档位\nFCR 019  ÿc0=ÿc2 15F档位\nFCR 030  ÿc0=ÿc2 14F档位\nFCR 045  ÿc0=ÿc2 13F档位\nFCR 068  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 292  ÿc0=ÿc2 09F档位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F档位\nFCR 006  ÿc0=ÿc2 15F档位\nFCR 014  ÿc0=ÿc2 14F档位\nFCR 026  ÿc0=ÿc2 13F档位\nFCR 040  ÿc0=ÿc2 12F档位\nFCR 060  ÿc0=ÿc2 11F档位\nFCR 095  ÿc0=ÿc2 10F档位\nFCR 157  ÿc0=ÿc2 09F档位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F档位\nFCR 007  ÿc0=ÿc2 16F档位\nFCR 015  ÿc0=ÿc2 15F档位\nFCR 026  ÿc0=ÿc2 14F档位\nFCR 040  ÿc0=ÿc2 13F档位\nFCR 063  ÿc0=ÿc2 12F档位\nFCR 099  ÿc0=ÿc2 11F档位\nFCR 163  ÿc0=ÿc2 10F档位\nFCR 330  ÿc0=ÿc2 09F档位"
+    "zhTW": "\nÿc8人德\n\nÿc2FCR 000  ÿc0=ÿc2 18F檔位\nFCR 004  ÿc0=ÿc2 17F檔位\nFCR 010  ÿc0=ÿc2 16F檔位\nFCR 019  ÿc0=ÿc2 15F檔位\nFCR 030  ÿc0=ÿc2 14F檔位\nFCR 045  ÿc0=ÿc2 13F檔位\nFCR 068  ÿc0=ÿc2 12F檔位\nFCR 099  ÿc0=ÿc2 11F檔位\nFCR 163  ÿc0=ÿc2 10F檔位\nFCR 292  ÿc0=ÿc2 09F檔位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F檔位\nFCR 006  ÿc0=ÿc2 15F檔位\nFCR 014  ÿc0=ÿc2 14F檔位\nFCR 026  ÿc0=ÿc2 13F檔位\nFCR 040  ÿc0=ÿc2 12F檔位\nFCR 060  ÿc0=ÿc2 11F檔位\nFCR 095  ÿc0=ÿc2 10F檔位\nFCR 157  ÿc0=ÿc2 09F檔位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F檔位\nFCR 007  ÿc0=ÿc2 16F檔位\nFCR 015  ÿc0=ÿc2 15F檔位\nFCR 026  ÿc0=ÿc2 14F檔位\nFCR 040  ÿc0=ÿc2 13F檔位\nFCR 063  ÿc0=ÿc2 12F檔位\nFCR 099  ÿc0=ÿc2 11F檔位\nFCR 163  ÿc0=ÿc2 10F檔位\nFCR 330  ÿc0=ÿc2 09F檔位",
+    "zhCN": "\nÿc8人德\n\nÿc2FCR 000  ÿc0=ÿc2 18F檔位\nFCR 004  ÿc0=ÿc2 17F檔位\nFCR 010  ÿc0=ÿc2 16F檔位\nFCR 019  ÿc0=ÿc2 15F檔位\nFCR 030  ÿc0=ÿc2 14F檔位\nFCR 045  ÿc0=ÿc2 13F檔位\nFCR 068  ÿc0=ÿc2 12F檔位\nFCR 099  ÿc0=ÿc2 11F檔位\nFCR 163  ÿc0=ÿc2 10F檔位\nFCR 292  ÿc0=ÿc2 09F檔位\nÿc8狼德\nÿc2FCR 000  ÿc0=ÿc2 16F檔位\nFCR 006  ÿc0=ÿc2 15F檔位\nFCR 014  ÿc0=ÿc2 14F檔位\nFCR 026  ÿc0=ÿc2 13F檔位\nFCR 040  ÿc0=ÿc2 12F檔位\nFCR 060  ÿc0=ÿc2 11F檔位\nFCR 095  ÿc0=ÿc2 10F檔位\nFCR 157  ÿc0=ÿc2 09F檔位\nÿc8熊德\nÿc2FCR 000  ÿc0=ÿc2 17F檔位\nFCR 007  ÿc0=ÿc2 16F檔位\nFCR 015  ÿc0=ÿc2 15F檔位\nFCR 026  ÿc0=ÿc2 14F檔位\nFCR 040  ÿc0=ÿc2 13F檔位\nFCR 063  ÿc0=ÿc2 12F檔位\nFCR 099  ÿc0=ÿc2 11F檔位\nFCR 163  ÿc0=ÿc2 10F檔位\nFCR 330  ÿc0=ÿc2 09F檔位"
   },
   {
     "id": 100313,
     "Key": "IronWolfFcr",
     "enUS": "\nÿc8iron Wolf\n\nÿc2FCR 000 ÿc0=ÿc2 18F Bp\nFCR 008 ÿc0=ÿc2 17F Bp\nFCR 015 ÿc0=ÿc2 16F Bp\nFCR 026 ÿc0=ÿc2 15F Bp\nFCR 039 ÿc0=ÿc2 14F Bp\nFCR 058 ÿc0=ÿc2 13 Bp\nFCR 086 = 12F Bp\nFCR 138 = 11F Bp",
     "zhTW": "\nÿc8鐵狼衛士\n\nÿc2FCR 000 ÿc0=ÿc2 18F档位\nFCR 008 ÿc0=ÿc2 17F档位\nFCR 015 ÿc0=ÿc2 16F档位\nFCR 026 ÿc0=ÿc2 15F档位\nFCR 039 ÿc0=ÿc2 14F档位\nFCR 058 ÿc0=ÿc2 13F档位\nFCR 086 ÿc0=ÿc2 12F档位\nFCR 138 ÿc0=ÿc2 11F档位",
-    "zhCN": "\nÿc8铁狼\n\nÿc2FCR 000 ÿc0=ÿc2 18F档位\nFCR 008 ÿc0=ÿc2 17F档位\nFCR 015 ÿc0=ÿc2 16F档位\nFCR 026 ÿc0=ÿc2 15F档位\nFCR 039 ÿc0=ÿc2 14F档位\nFCR 058 ÿc0=ÿc2 13F档位\nFCR 086 ÿc0=ÿc2 12F档位\nFCR 138 ÿc0=ÿc2 11F档位"
+    "zhCN": "\nÿc8鐵狼衛士\n\nÿc2FCR 000 ÿc0=ÿc2 18F档位\nFCR 008 ÿc0=ÿc2 17F档位\nFCR 015 ÿc0=ÿc2 16F档位\nFCR 026 ÿc0=ÿc2 15F档位\nFCR 039 ÿc0=ÿc2 14F档位\nFCR 058 ÿc0=ÿc2 13F档位\nFCR 086 ÿc0=ÿc2 12F档位\nFCR 138 ÿc0=ÿc2 11F档位"
   },
   {
     "id": 110221,
