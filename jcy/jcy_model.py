@@ -121,10 +121,11 @@ class FeatureConfig:
                         {
                             "fid": Function.MINI_CUBE.value,
                             "type": RADIO,
-                            "text": "挂载模式_迷你盒子位置",
+                            "text": "迷你盒子位置",
                             "colspan": 100,
                             "params": {
                                 "1": "包裹左侧",
+                                "5": "包裹中(需要开启:布局.物品栏.扩展)",
                                 "2": "包裹右侧",
                                 "3": "左下角",
                                 "4": "右下角",

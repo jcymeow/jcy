@@ -3741,69 +3741,61 @@ class FileOperations:
 
 
     def modify_mini_cube(self, radio: str = "2"):
-        
-        _files = [
-            r"data/global/ui/layouts/JcyMiniCubehd.json",
-            r"config/select/JcyMiniCubehd.json.2",
-        ]
-
+        """迷你盒子位置"""
         count = 0
-        total = len(_files)
+        total = 1
 
         _params = {
             # 包裹左侧
             "1":{
-                "rect": { "x": -1648, "y": 226},
+                "rect": { "x": -1616, "y": 256},
                 "anchor": { "x": 1, "y": 0.397 },
-                "convert": { "x": 180, "y": 460, "scale": 0.5 },
-                "close": { "x": 240, "y": 454 },
+                "convert": { "x": 220, "y": 420, "scale": 0.8 },
             },
             # 包裹右侧
             "2":{
-                "rect": { "x": -320, "y": 226 },
+                "rect": { "x": -344, "y": 256 },
                 "anchor": { "x": 1, "y": 0.397 },
-                "convert": { "x": 180, "y": 460, "scale": 0.5 },
-                "close": { "x": 240, "y": 454 },
+                "convert": { "x": 20, "y": 420, "scale": 0.8 },
             },
             # 左下角
             "3":{
-                "rect": {"x": 400,"y": -430},
+                "rect": {"x": 400,"y": -420},
                 "anchor": {"x": 0,"y": 1},
-                "convert": { "x": 340, "y": 100, "scale": 0.5 },
-                "close": { "x": 328, "y": 160 },
+                "convert": { "x": 320, "y": 22, "scale": 0.8 },
             },
             # 右下角
             "4":{
-                "rect": { "x": -740, "y": -430 },
+                "rect": { "x": -740, "y": -420 },
                 "anchor": { "x": 1, "y": 1 },
-                "convert": { "x": -50, "y": 100, "scale": 0.5 },
-                "close": { "x": -62, "y": 160 },
+                "convert": { "x": -80, "y": 22, "scale": 0.8 },
             },
+            # 包裹中(需要开启:布局.物品栏.扩展)
+            "5":{
+                "rect": { "x": -1322, "y": -138 },
+                "anchor": { "x": 1, "y": 0.397 },
+                "convert": { "x": 320, "y": 320, "scale": 0.8 },
+            }
         }
 
-        for _file in _files:
-            try:
-                cube_json = None
-                cube_path = os.path.join(MOD_PATH, _file)
-                if not os.path.exists(cube_path):
-                    count += 1
-                    continue
-                
-                with open(cube_path, 'r', encoding='utf-8') as f:
-                    cube_json = json.load(f)
-
-                param = _params.get(radio)
-                cube_json["fields"]["rect"] = param["rect"]
-                cube_json["fields"]["anchor"] = param["anchor"]
-                cube_json["children"][1]["fields"]["rect"] = param["convert"]
-                cube_json["children"][2]["fields"]["rect"] = param["close"]
+        try:
+            cube_json = None
+            cube_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniCubehd.json")
                         
-                with open(cube_path, 'w', encoding="utf-8") as f:
-                    json.dump(cube_json, f, ensure_ascii=False, indent=4)
-                
-                count += 1
-            except Exception as e:
-                print(e)
+            with open(cube_path, 'r', encoding='utf-8') as f:
+                cube_json = json.load(f)
+
+            param = _params.get(radio)
+            cube_json["fields"]["rect"] = param["rect"]
+            cube_json["fields"]["anchor"] = param["anchor"]
+            cube_json["children"][1]["fields"]["rect"] = param["convert"]
+                    
+            with open(cube_path, 'w', encoding="utf-8") as f:
+                json.dump(cube_json, f, ensure_ascii=False, indent=4)
+            
+            count += 1
+        except Exception as e:
+            print(e)
 
         return count, total
 

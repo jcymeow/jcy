@@ -2,85 +2,31 @@
     "type": "HoradricCubePanel",
     "name": "JcyMiniCube",
     "fields": {
+        "priority": 101,
         "rect": {
-            "x": -1354,
-            "y": -615,
-            "width": 379,
-            "height": 850
+            "x": -1322,
+            "y": -138
         },
-        "anchor": "$RightPanelAnchor"
+        "anchor": {
+            "x": 1,
+            "y": 0.397
+        }
     },
     "children": [
-        {
-            "type": "ClickCatcherWidget",
-            "name": "click_catcher",
-            "fields": {
-                "rect": {
-                    "x": 0,
-                    "y": 0,
-                    "width": 379,
-                    "height": 850
-                }
-            }
-        },
         {
             "type": "ImageWidget",
             "name": "background",
             "fields": {
-                "rect": {
-                    "x": 5,
-                    "y": 205
-                },
-                "filename": "panel/cube/horadriccube_bg"
+                "filename": "panel\\cube\\cube1"
             }
-        },
-        {
-            "type": "InventoryGridWidget",
-            "name": "grid",
-            "fields": {
-                "rect": {
-                    "x": 50,
-                    "y": 475
-                },
-                "cellCount": {
-                    "x": 3,
-                    "y": 4
-                },
-                "cellSize": "$ItemCellSize",
-                "gemSocketFilename": "PANEL\\gemsocket"
-            },
-            "children": [
-                {
-                    "type": "AnimatedImageWidget",
-                    "name": "chronicleFlourish",
-                    "fields": {
-                        "rect": {
-                            "x": 0,
-                            "y": 0,
-                            "width": 370,
-                            "height": 540,
-                            "scale": 2
-                        },
-                        "filename": "PANEL\\Chronicle\\RewardAnims\\PANEL_ChronicleReward_1x1",
-                        "blendMode": "black",
-                        "fps": 30,
-                        "playing": false,
-                        "loop": false,
-                        "frame": 30
-                    }
-                }
-            ]
         },
         {
             "type": "ButtonWidget",
             "name": "convert",
             "fields": {
-                "anchor": {
-                    "y": 0.0
-                },
                 "rect": {
-                    "x": 373,
-                    "y": 760,
+                    "x": 320,
+                    "y": 320,
                     "scale": 0.8
                 },
                 "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
@@ -90,284 +36,20 @@
             }
         },
         {
-            "type": "AnimatedImageWidget",
-            "name": "flourish",
+            "type": "InventoryGridWidget",
+            "name": "grid",
             "fields": {
                 "rect": {
-                    "x": -206,
-                    "y": -60,
-                    "scale": 2
+                    "x": 25,
+                    "y": 20
                 },
-                "filename": "PANEL\\Horadric_Cube\\Flourish",
-                "blendMode": "black",
-                "fps": 14,
-                "playing": false,
-                "loop": false
+                "cellCount": {
+                    "x": 3,
+                    "y": 4
+                },
+                "cellSize": "$ItemCellSize",
+                "gemSocketFilename": "PANEL\\gemsocket"
             }
-        },
-        {
-            "type": "Widget",
-            "name": "cubing",
-            "fields": {
-                "rect": {
-                    "x": 0,
-                    "y": 0
-                }
-            },
-            "children": [
-                {
-                    "type": "ImageWidget",
-                    "name": "rune",
-                    "fields": {
-                        "rect": {
-                            "x": 30,
-                            "y": 30,
-                            "scale": 1.2
-                        },
-                        "filename": "panel/cube/rune_button"
-                    },
-                    "children": [
-                        {
-                            "type": "FocusableWidget",
-                            "name": "rune_tooltip",
-                            "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "\n@Color1  > 符文升级 <\n\n@ColorQ  符文#1~9 @Color5 x@Color0 3 =@ColorQ 符文#2~10\n@ColorQ  @r10L @Color5 x@Color0 3@Color5 +@Color9 @gcy @Color5 =@ColorQ @r11L\n@ColorQ  @r11L @Color5 x@Color0 3@Color5 +@ColorW @gcv @Color5 =@ColorQ @r12L\n@ColorQ  @r12L @Color5 x@Color0 3@Color5 +@ColorO @gcb @Color5 =@ColorQ @r13L\n@ColorQ  @r13L @Color5 x@Color0 3@Color5 +@Color1 @gcr @Color5 =@ColorQ @r14L\n@ColorQ  @r14L @Color5 x@Color0 3@Color5 +@Color2 @gcg @Color5 =@Color4 @r15L\n@Color4  @r15L @Color5 x@Color0 3@Color5 +@Color0 @gcw @Color5 =@Color4 @r16L\n@Color4  @r16L @Color5 x@Color0 3@Color5 +@Color9 @gfy @Color5 =@Color4 @r17L\n@Color4  @r17L @Color5 x@Color0 3@Color5 +@ColorW @gfv @Color5 =@Color4 @r18L\n@Color4  @r18L @Color5 x@Color0 3@Color5 +@ColorO @gfb @Color5 =@Color4 @r19L\n@Color4  @r19L @Color5 x@Color0 3@Color5 +@Color1 @gfr @Color5 =@Color2 @r20L\n@Color2  @r20L @Color2 x@Color0 3 @Color5 +@Color2 @gfg @Color5 =@Color2 @r21L\n@Color2  @r21L @Color5 x@Color0 2@Color5 +@Color0 @gfw @Color5 =@Color2 @r22L\n@Color2  @r22L @Color5 x@Color0 2@Color5 +@Color9 @gsy @Color5 =@Color2 @r23L\n@Color2  @r23L @Color5 x@Color0 2@Color5 +@ColorW @gsv @Color5 =@Color2 @r24L\n@Color2  @r24L @Color5 x@Color0 2@Color5 +@ColorO @gsb @Color5 =@Color2 @r25L\n@Color2  @r25L @Color5 x@Color0 2@Color5 +@ColorV @gsr @Color5 =@Color1 @r26L\n@Color1  @r26L @Color5 x@Color0 2@Color5 +@Color2 @gsg @Color5 =@Color1 @r27L\n@Color1  @r27L @Color5 x@Color0 2@Color5 +@Color0 @gsw @Color5 =@Color1 @r28L\n@Color1  @r28L @Color5 x@Color0 2@Color5 +@Color9 @gly @Color5 =@ColorV @r29L\n@ColorV  @r29L @Color5 x@Color0 2@Color5 +@ColorW @gzv @Color5 =@ColorV @r30L\n@ColorV  @r30L @Color5 x@Color0 2@Color5 +@ColorO @glb @Color5 =@ColorV @r31L\n@ColorV  @r31L @Color5 x@Color0 2@Color5 +@ColorV @glr @Color5 =@ColorV @r32L\n@ColorV  @r32L @Color5 x@Color0 2@Color5 +@Color2 @glg @Color5 =@ColorV @r33L\n",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "socket",
-                    "fields": {
-                        "rect": {
-                            "x": 144,
-                            "y": 30,
-                            "scale": 1.2
-                        },
-                        "filename": "panel/cube/socket_Button"
-                    },
-                    "children": [
-                        {
-                            "type": "FocusableWidget",
-                            "name": "socket_tooltip",
-                            "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "\n@Color1  > 赌孔公式 <\n\n@Color0  @r08L@Color5 + @ColorQ@r11L@Color5 +@ColorW @gpv @Color5 +@Color0 @NormalQuality@weap\n@Color0  @r07L@Color5 + @ColorQ@r11L@Color5 +@ColorV @gpr @Color5 +@Color0 @NormalQuality@shlds\n@Color0  @r08L@Color5 + @r10L@Color5 +@ColorO @gpb @Color5 +@Color0 @NormalQuality@helms\n@Color0  @r07L@Color5 + @r10L@Color5 +@Color9 @gpy @Color5 +@Color0 @NormalQuality@armo\n\n@Color1  > 鑲嵌移除 <\n\n@Color4  @r15L +@Color3 @tsc @Color5 +@Color0 @Gemmed@weap/@shlds/@helms/@armo \n",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "upgrade",
-                    "fields": {
-                        "rect": {
-                            "x": 258,
-                            "y": 30,
-                            "scale": 1.2
-                        },
-                        "filename": "panel/cube/upgrade_Button"
-                    },
-                    "children": [
-                        {
-                            "type": "FocusableWidget",
-                            "name": "upgrade_tooltip",
-                            "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "\n@Color1  > 稀有装备升级 <\n\n@Color9  @ExceptionalQuality@weap @Color5 =@Color0 @r09L@Color5 +@ColorQ @r11L@Color5 +@ColorO @gpb +@Color9 @NormalQuality@weap@Color5\n@Color9  @EliteQuality@weap @Color5 =@Color4 @r19L@Color5 +@Color2 @r22L@Color5 +@ColorO @gpb @Color5 +@Color9 @ExceptionalQuality@weap\n\n@Color9  @ExceptionalQuality@armo @Color5 =@Color0 @r08L@Color5 +@Color0 @r10L@Color5 +@ColorW @gpv @Color5 +@Color9 @NormalQuality@armo\n@Color9  @EliteQuality@armo @Color5 =@Color4 @r18L@Color5 +@Color2 @r21L@Color5 +@ColorW @gpv @Color5 +@Color9 @ExceptionalQuality@armo\n\n@Color1  > 独特/套装装备升级 <\n\n@Color4  @ExceptionalQuality@weap @Color5 =@Color0 @r08L@Color5 +@ColorQ @r12L@Color5 +@Color2 @gpg @Color5 +@Color4 @NormalQuality@weap\n@Color4  @EliteQuality@weap @Color5 =@Color4 @r17L@Color5 +@Color2 @r21L@Color5 +@Color2 @gpg @Color5 +@Color4 @ExceptionalQuality@weap\n\n@Color4  @ExceptionalQuality@armo @Color5 =@Color0 @r07L@Color5 +@ColorQ @r13L@Color5 +@Color0 @gpw @Color5 +@Color4 @NormalQuality@armo\n@Color4  @EliteQuality@armo @Color5 =@Color4 @r18L@Color5 +@Color2 @r20L@Color5 +@Color0 @gpw @Color5 +@Color4 @ExceptionalQuality@armo\n\n@Color1  > 劣等裝備升級 <\n\n@Color0 @NormalQuality@weap = @r02L@Color5 +@ColorU 任意碎裂的寶石 @Color5 +@Color5 劣等的@weap\n@Color0 @NormalQuality@armo = @r01L@Color5 +@ColorU 任意碎裂的寶石 @Color5 +@Color5 劣等的@armo\n\n@Color5 p.s. 物品等級 = 1\n",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "craft",
-                    "fields": {
-                        "rect": {
-                            "x": 30,
-                            "y": 140,
-                            "scale": 1.2
-                        },
-                        "filename": "panel/cube/craft_Button"
-                    },
-                    "children": [
-                        {
-                            "type": "FocusableWidget",
-                            "name": "craft_tooltip",
-                            "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "\n@Color1  > 手工裝備 <\n\n@ColorW  < Caster Craft > 施法系\n  - 法力回復 4~10% / 法力 +10~20\n\n@Color3  @vbl/@zvb/@uvc @Color5 +@Color0 @r06L @Color3 +@ColorW @gpv @Color5 +@Color0 @jew @Color5 =@ColorW @ModStr4u 5~10%\n@Color3  @amu @Color5 +@Color0 @r08L @Color5 +@ColorW @gpv @Color3 +@Color0 @jew @Color5 =@ColorW @ModStr4u 5~10%\n@Color3  @rin @Color5 +@ColorQ @r11L@Color3 +@ColorW @gpv @Color3 +@Color0 @jew @Color5 =@ColorW @strchrman +1~5\n\n@ColorV  < Blood Craft > 血腥系\n  - 擊中竊取 1~3% 法力 1~3% / @strchrlif +10~20\n\n@Color3  @vgl/@xvg/@uvg @Color5 +@Color0 @r04L @Color5 +@ColorV @gpr @Color5 +@Color0 @jew@Color5 =@ColorV 5~10% 機率造成粉碎打擊(CB) \n@Color3  @amu @Color5 +@ColorQ @r11L @Color5 +@ColorV @gpr @Color5 +@Color0 @jew @Color5 =@ColorV 5~10% 跑步 / 行走速度 \n@Color3  @rin @Color5 +@ColorQ @r12L @Color5 +@ColorV @gpr @Color5 +@Color0 @jew @Color5 =@ColorV +1~5 力量 \n\n@ColorO  < Hit Power Craft > 打擊系 \n  - 擊中時有 5% 機率施展等級 4 冰霜新星 / 攻擊者反傷(ATD)：3~7\n\n@Color3  @mgl/@xmg/@umg @Color5 +@Color0 @r09L @Color5 +@ColorO @gpb @Color5 +@Color0 @jew@Color5 =@ColorO @ModStr1y \n@Color3  @amu @Color5 +@Color0 @r10L @Color5 +@ColorO @gpb @Color5 +@Color0 @jew @Color5 =@ColorO 3~11% 機率擊中使怪物逃跑 \n@Color3  @rin @Color5 +@ColorQ @r11L @Color5 +@ColorO @gpb @Color5 +@Color0 @jew @Color5 =@ColorO @strchrdex +1~5\n\n@Color2  < Safety Craft > 安全系 \n@Color2  - 魔法傷害降低(MDR) 1~2 / 傷害降低(DR) 1~4\n\n@Color3  @amu @Color5 +@Color0 @r10L @Color5 +@Color2 @gpg @Color5 +@Color0 @jew @Color5 =@Color2 格擋機率提高 1~10%\n@Color3  @rin @Color5 +@ColorQ @r11L @Color5 +@Color2 @gpg @Color5 +@Color0 @jew @Color5 =@Color2 @strchrvit +1~5\n\n",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "repair",
-                    "fields": {
-                        "rect": {
-                            "x": 144,
-                            "y": 140,
-                            "scale": 1.2
-                        },
-                        "filename": "panel/cube/repair_button"
-                    },
-                    "children": [
-                        {
-                            "type": "FocusableWidget",
-                            "name": "repair_tooltip",
-                            "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "\n@Color1  > 裝備洗練 <\n\n@ColorO  任意完美寶石 @Color5 x@Color0 3@Color5 +@Color3 @LootFilterMiscItems @Color5 =@Color3 隨機屬性@LootFilterMiscItems\n@Color0  @skz @Color5 x@Color0 6@Color5 +@Color9 @LootFilterRareRarity@LootFilterMiscItems @Color5 =@Color9 隨機屬性@LootFilterRareRarity@LootFilterMiscItems\n@ColorO  @gpv+@gpy+@gpb+@gpg+@gpr+@gpw @Color5 +@Color3 @amu @Color5 =@Color3 16~20% @GemeffectX52\n@Color3  @rin @Color5 x@Color0 3@Color5 =@Color3 @amu@Color5 (等级越高的角色获得的项链品质越好。)\n@Color3  @amu @Color5 x@Color0 3@Color5 =@Color3 @rin @Color5(等级越高的角色获得的戒指品质越好。)\n\n@Color1  > 裝備修復 <\n\n@Color0  @r09L@Color5 +@Color0 @weap\n@Color0  @r08L@Color5 +@Color0 @armo\n\n@Color1  > 裝備修復并充能 <\n\n@Color0  @r09L@Color5 +@Color0 任意碎裂的寶石@Color5 +@Color0 @weap\n@Color0  @r08L@Color5 +@Color0 任意碎裂的寶石@Color5 +@Color0 @armo\n\n@Color5  @strethereal\n",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "etc",
-                    "fields": {
-                        "rect": {
-                            "x": 258,
-                            "y": 140,
-                            "scale": 1.2
-                        },
-                        "filename": "panel/cube/etc_button"
-                    },
-                    "children": [
-                        {
-                            "type": "FocusableWidget",
-                            "name": "etc_tooltip",
-                            "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "\n@Color1  > @toa <\n\n@Color0  - @UseTokenOfAbsolution \n\n@Color8  @tes @Color2(@Andariel/@Duriel)\n@Color8  @ceh @Color9(@Mephisto)\n@Color8  @bet @ColorV(@Diablo)\n@Color8  @fed @ColorO(@Baal)\n\n@Color5  由击败地狱难度 Boss 获得的 4 种精华组合而成。\n\n@Color1  > 破免板升級 <\n\n@Color7  潛伏火焰裂隙 @Color5 +@Color4 @r16L@Color5 +@ColorV @gpr @Color5 +@Color8 @xa4\n@Color7  潛伏冰寒裂縫 @Color5 +@Color4 @r17L@Color5 +@ColorO @gpb @Color5 +@Color8 @xa2\n@Color7  潛伏腐敗裂痕 @Color5 +@Color4 @r18L@Color5 +@Color2 @gpg @Color5 +@Color8 @xa1\n@Color7  潛伏天堂裂擊 @Color5 +@Color4 @r19L@Color5 +@Color9 @gpy @Color5 +@Color8 @xa3\n@Color7  潛伏分筋裂骨 @Color5 +@Color2 @r21L@Color5 +@ColorW @gpv @Color5 +@Color8 @xa5\n@Color7  潛伏漆黑裂口 @Color5 +@Color2 @r23L@Color5 +@Color0 @gpw @Color5 +@Color8 +@xa3 +@xa4 +@xa5\n",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
-                                    }
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
         }
     ]
 }
