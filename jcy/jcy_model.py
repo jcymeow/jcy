@@ -758,6 +758,13 @@ class FeatureConfig:
                             "event": "扩展(增加各职业施法档位提示)"
                         },
                         {
+                            "fid": Function.LAYOUTS_HIRELING_INVENTORY_EXTRA.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "佣兵面板",
+                            "event": "扩展(增加佣兵信息提示)"
+                        },
+                        {
                             "fid": Function.LAYOUTS_HOSTILITY_SCALE_UP.value,
                             "type": SWITCH,
                             "category": "布局",

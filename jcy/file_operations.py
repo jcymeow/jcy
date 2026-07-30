@@ -4101,6 +4101,15 @@ class FileOperations:
         return self.common_select(characterstatspanelhd, value)
 
 
+    def switch_hireling_extra(self, value):
+        """布局.傭兵面板.扩展"""
+
+        _files = [
+            r"data/global/ui/layouts/hirelinginventorypanelhd.json"
+        ]
+        return self.common_rename(_files, str(value) == "1")
+
+
     def switch_inventory_cube(self, value):
         """布局.物品栏.联动打开迷你盒子"""
         count = 0
