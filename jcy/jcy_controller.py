@@ -303,6 +303,8 @@ class FeatureController:
             Function.LOCAL_HERALD_ADD_LEVEL.value: self.file_operations.switch_herald_level,
             # 布局.敌意.强化展示效果
             Function.LAYOUTS_HOSTILITY_SCALE_UP.value: self.file_operations.switch_hostility_scale_up,
+            # 布局.角色属性.扩展(添加各职业施法档位提示)
+            Function.LAYOUTS_CHARACTER_STATS_EXTRA.value: self.file_operations.switch_character_stats,
             # 布局.物品栏.联动打开迷你盒子
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
             # 布局.物品栏.扩展(收缩装备槽位&添加迷你盒子/公式提示)

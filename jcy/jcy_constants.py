@@ -1483,6 +1483,7 @@ class Function(Enum):
     ENV_TOMB_ADD_POINTER = "EnvTombAddPointer"
     ENV_HATE_DURANCE_ADD_POINTER = "EnvHateDuranceAddPointer"
     ENV_WORLD_STONE_ADD_POINTER = "EnvWorldStoneAddPointer"
+    LAYOUTS_CHARACTER_STATS_EXTRA = "LayoutsCharacterStatsExtra"
     LAYOUTS_HOSTILITY_SCALE_UP = "LayoutsHostilityScaleUp"
     LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
     LAYOUTS_INVENTORY_EXTRA = "LayoutsInventoryExtra"

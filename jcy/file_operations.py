@@ -4094,6 +4094,13 @@ class FileOperations:
         return count, total
 
 
+    def switch_character_stats(self, value):
+        """布局.角色属性.扩展"""
+
+        characterstatspanelhd = r"data/global/ui/layouts/characterstatspanelhd.json"
+        return self.common_select(characterstatspanelhd, value)
+
+
     def switch_inventory_cube(self, value):
         """布局.物品栏.联动打开迷你盒子"""
         count = 0

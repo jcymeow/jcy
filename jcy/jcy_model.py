@@ -751,6 +751,13 @@ class FeatureConfig:
                             "event": "添加方向指引"
                         },
                         {
+                            "fid": Function.LAYOUTS_CHARACTER_STATS_EXTRA.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "角色属性",
+                            "event": "扩展(增加各职业施法档位提示)"
+                        },
+                        {
                             "fid": Function.LAYOUTS_HOSTILITY_SCALE_UP.value,
                             "type": SWITCH,
                             "category": "布局",
