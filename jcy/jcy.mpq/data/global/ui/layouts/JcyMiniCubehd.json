@@ -17,7 +17,7 @@
             "type": "ImageWidget",
             "name": "background",
             "fields": {
-                "filename": "panel\\cube\\cube1"
+                "filename": "jcy\\horadric_cube\\cube0"
             }
         },
         {

@@ -4135,36 +4135,35 @@ class FileOperations:
 
     def switch_cube_transparent(self, value):
         """精灵图.迷你盒子.透明化"""
-        
-        # 根据开关决定源文件（1为透明，0为默认）
-        suffix = "1" if str(value) == "1" else "0"
-
-        source_files = [
-            os.path.join(MOD_PATH, f"data/hd/global/ui/panel/Horadric_Cube/cube_grid.{suffix}.lowend.sprite"),
-            os.path.join(MOD_PATH, f"data/hd/global/ui/panel/Horadric_Cube/cube_grid.{suffix}.sprite"),
-        ]
-
-        target_files = [
-            os.path.join(MOD_PATH, "data/hd/global/ui/panel/Horadric_Cube/cube_grid.lowend.sprite"),
-            os.path.join(MOD_PATH, "data/hd/global/ui/panel/Horadric_Cube/cube_grid.sprite"),
-        ]
 
         count = 0
-        total = len(target_files)
+        total = 1
 
-        # 执行复制操作
         try:
-            for src, dst in zip(source_files, target_files):
-                if os.path.exists(src):
-                    shutil.copy(src, dst)  
-                    count += 1
-                else:
-                    print(f"警告: 源文件不存在 -> {src}")
+            # 1.jcy\jcy.mpq\data\global\ui\layouts\JcyMiniCubehd.json
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniCubehd.json")
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
 
+            # 修改迷你盒子精灵图
+            modified = False
+            for child in json_data["children"]:
+                if child.get("type") == "ImageWidget" and child.get("name") == "background" :
+                    old_value = child["fields"]["filename"]
+                    new_value = f"jcy\\horadric_cube\\cube{value}"
+                    if old_value != new_value:
+                        child["fields"]["filename"] = new_value
+                        modified = True
+                    break
+            
+            if modified:
+                with open(json_path, 'w', encoding="utf-8") as f:
+                    json.dump(json_data, f, ensure_ascii=False, indent=4)
+
+            count += 1            
         except Exception as e:
-            # 实际项目中建议使用 logging 模块
-            print(f"切换盒子透明度失败: {e}")
-
+            print(e)
         return count, total
 
 
