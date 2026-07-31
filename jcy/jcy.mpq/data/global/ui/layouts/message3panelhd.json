@@ -1149,7 +1149,7 @@
                                                 "filename": "jcy\\transparent",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @jcy52064Titletooltip @kanehelp52074NBPTitletooltip",
+                                                "tooltipString": "@Color4 @jcy52064Titletooltip @kanehelp52074NBPTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1185,7 +1185,7 @@
                                                 "filename": "jcy\\transparent",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @jcy52065Titletooltip @kanehelp52075NBPTitletooltip",
+                                                "tooltipString": "@Color4 @jcy52065Titletooltip @kanehelp52075NBPTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1221,7 +1221,7 @@
                                                 "filename": "jcy\\transparent",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @jcy52066Titletooltip @kanehelp52076NBPTitletooltip",
+                                                "tooltipString": "@Color4 @jcy52066Titletooltip @kanehelp52076NBPTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1257,7 +1257,7 @@
                                                 "filename": "jcy\\transparent",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @jcy52067Titletooltip @kanehelp52077NBPTitletooltip",
+                                                "tooltipString": "@Color4 @jcy52067Titletooltip @kanehelp52077NBPTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1293,7 +1293,7 @@
                                                 "filename": "jcy\\transparent",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @jcy52068Titletooltip @kanehelp52078NBPTitletooltip",
+                                                "tooltipString": "@Color4 @jcy52068Titletooltip @kanehelp52078NBPTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1329,7 +1329,7 @@
                                                 "filename": "jcy\\transparent",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @jcy52069Titletooltip @kanehelp52079NBPTitletooltip",
+                                                "tooltipString": "@Color4 @jcy52069Titletooltip @kanehelp52079NBPTitletooltip",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }
@@ -1652,7 +1652,7 @@
                                                 "filename": "items\\misc\\body_part\\fragment_cold",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @wikihelp52082 @wikihelp52083",
+                                                "tooltipString": "@Color4 @wikihelp52082 @wikihelp52083",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1667,7 +1667,7 @@
                                                 "filename": "items\\misc\\body_part\\fragment_fire",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @wikihelp52084 @wikihelp52085",
+                                                "tooltipString": "@Color4 @wikihelp52084 @wikihelp52085",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1682,7 +1682,7 @@
                                                 "filename": "items\\misc\\body_part\\fragment_lightning",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @wikihelp52086 @wikihelp52087",
+                                                "tooltipString": "@Color4 @wikihelp52086 @wikihelp52087",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1697,7 +1697,7 @@
                                                 "filename": "items\\misc\\body_part\\fragment_magic",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @wikihelp52088 @wikihelp52089",
+                                                "tooltipString": "@Color4 @wikihelp52088 @wikihelp52089",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1712,7 +1712,7 @@
                                                 "filename": "items\\misc\\body_part\\fragment_physical",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse @wikihelp52090 @wikihelp52091",
+                                                "tooltipString": "@Color4 @wikihelp52090 @wikihelp52091",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         },
@@ -1727,7 +1727,7 @@
                                                 "filename": "items\\misc\\body_part\\fragment_poison",
                                                 "hoveredFrame": 0,
                                                 "pressedFrame": 0,
-                                                "tooltipString": "@coloranjinse  @wikihelp52092 @wikihelp52093",
+                                                "tooltipString": "@Color4  @wikihelp52092 @wikihelp52093",
                                                 "tooltipStyle": "$StandardToolTipStyle"
                                             }
                                         }

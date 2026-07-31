@@ -168,7 +168,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword88@Runeword88Info",
+                                                                "tooltipString": "@Color4@Runeword88@Runeword88Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -240,7 +240,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword75@Runeword75Info",
+                                                                "tooltipString": "@Color4@Runeword75@Runeword75Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -312,7 +312,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword116@Runeword166Info",
+                                                                "tooltipString": "@Color4@Runeword116@Runeword166Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -395,7 +395,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword178@RwhelprunewordtooltipCure",
+                                                                "tooltipString": "@Color4@Runeword178@RwhelprunewordtooltipCure",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -478,7 +478,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword176@Runeword176Info",
+                                                                "tooltipString": "@Color4@Runeword176@Runeword176Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -561,7 +561,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword175@Runeword175Info",
+                                                                "tooltipString": "@Color4@Runeword175@Runeword175Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -644,7 +644,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword177@Runeword177Info",
+                                                                "tooltipString": "@Color4@Runeword177@Runeword177Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -727,7 +727,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword179@Runeword179Info",
+                                                                "tooltipString": "@Color4@Runeword179@Runeword179Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -810,7 +810,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword165@Runeword165Info",
+                                                                "tooltipString": "@Color4@Runeword165@Runeword165Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -893,7 +893,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword22@Runeword22Info",
+                                                                "tooltipString": "@Color4@Runeword22@Runeword22Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -976,7 +976,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword40@Runeword40Info",
+                                                                "tooltipString": "@Color4@Runeword40@Runeword40Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1059,7 +1059,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword29@Runeword29Info",
+                                                                "tooltipString": "@Color4@Runeword29@Runeword29InfoHelms",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1142,7 +1142,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword180@Runeword180Info",
+                                                                "tooltipString": "@Color4@Runeword180@Runeword180Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1225,7 +1225,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword174@Runeword174Info",
+                                                                "tooltipString": "@Color4@Runeword174@Runeword174Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1303,7 +1303,7 @@
                                             "type": "TextBoxWidget",
                                             "name": "ShieldText",
                                             "fields": {
-                                                "text": "    @jghelp50200shield",
+                                                "text": "@shlds",
                                                 "style": {
                                                     "fontColor": "$FontColorGoldYellow",
                                                     "pointSize": "$MediumLargeFontSize",
@@ -1319,18 +1319,6 @@
                                                         "height": 70
                                                     }
                                                 }
-                                            }
-                                        },
-                                        {
-                                            "type": "ImageWidget",
-                                            "name": "ShieldImage",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 5,
-                                                    "y": -30,
-                                                    "scale": 0.2
-                                                },
-                                                "filename": "items\\armor\\shield\\kite_shield"
                                             }
                                         },
                                         {
@@ -1369,7 +1357,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50201runewordAncientsPledge",
+                                                        "text": "@Runeword1LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1378,7 +1366,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword1@jghelp50202runewordtooltipAncientsPledge",
+                                                                "tooltipString": "@Color4@Runeword1@Runeword1Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1452,7 +1440,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50203runewordSpirit",
+                                                        "text": "@Runeword130LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1461,7 +1449,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword130@jghelp50204runewordtooltipSpirit",
+                                                                "tooltipString": "@Color4@Runeword130@Runeword130Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1546,7 +1534,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50205runewordRhyme",
+                                                        "text": "@Runeword120LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1555,7 +1543,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword120@jghelp50206runewordtooltipRhyme",
+                                                                "tooltipString": "@Color4@Runeword120@Runeword120Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1618,7 +1606,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50207runewordSplendor",
+                                                        "text": "@Runeword131LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1627,7 +1615,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword131@jghelp50208runewordtooltipSplendor",
+                                                                "tooltipString": "@Color4@Runeword131@Runeword131Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1690,7 +1678,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50209runewordSanctuary",
+                                                        "text": "@Runeword122LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1699,7 +1687,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword122@jghelp50210runewordtooltipSanctuary",
+                                                                "tooltipString": "@Color4@Runeword122@Runeword122Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1753,7 +1741,7 @@
                                 },
                                 {
                                     "type": "Widget",
-                                    "name": "WeaponRuneWordLastWish",
+                                    "name": "ShieldRuneWordVigilance",
                                     "fields": {
                                         "rect": {
                                             "x": 10,
@@ -1773,7 +1761,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548757runewordVigilance",
+                                                        "text": "@Runeword181LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1782,7 +1770,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword181@Xhelp548758runewordtooltipVigilance",
+                                                                "tooltipString": "@Color4@Runeword181@Runeword181Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1845,7 +1833,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50211runewordExile",
+                                                        "text": "@Runeword37LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1854,7 +1842,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword37@jghelp50212runewordtooltipExile",
+                                                                "tooltipString": "@Color4@Runeword37@Runeword37Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1939,7 +1927,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50213runewordDragon",
+                                                        "text": "@Runeword27LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1948,7 +1936,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword27@jghelp50214runewordtooltipDragon",
+                                                                "tooltipString": "@Color4@Runeword27@Runeword27Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2022,7 +2010,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50215runewordDream",
+                                                        "text": "@Runeword29LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -2031,7 +2019,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword29@jghelp50216runewordtooltipDream",
+                                                                "tooltipString": "@Color4@Runeword29@Runeword29InfoShields",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2105,7 +2093,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50217runewordPhoenix",
+                                                        "text": "@Runeword103LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -2114,7 +2102,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword103@jghelp50218runewordtooltipPhoenix",
+                                                                "tooltipString": "@Color4@Runeword103@Runeword103InfoShields",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2278,7 +2266,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword133@jghelp50302runewordtooltipStealth",
+                                                                "tooltipString": "@Color4@Runeword133@jghelp50302runewordtooltipStealth",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2350,7 +2338,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword87@jghelp50304runewordtooltipMyth",
+                                                                "tooltipString": "@Color4@Runeword87@jghelp50304runewordtooltipMyth",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2433,7 +2421,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword98@jghelp50306runewordtooltipPeace",
+                                                                "tooltipString": "@Color4@Runeword98@jghelp50306runewordtooltipPeace",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2516,7 +2504,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword128@jghelp50308runewordtooltipSmoke",
+                                                                "tooltipString": "@Color4@Runeword128@jghelp50308runewordtooltipSmoke",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2588,7 +2576,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword171@RwhelprunewordtooltipHustlea",
+                                                                "tooltipString": "@Color4@Runeword171@RwhelprunewordtooltipHustlea",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2671,7 +2659,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword3@Xhelp548760runewordtooltipAuthority",
+                                                                "tooltipString": "@Color4@Runeword3@Xhelp548760runewordtooltipAuthority",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2754,7 +2742,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword74@jghelp50310runewordtooltipLionheart",
+                                                                "tooltipString": "@Color4@Runeword74@jghelp50310runewordtooltipLionheart",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2837,7 +2825,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword148@jghelp50312runewordtooltipTreachery",
+                                                                "tooltipString": "@Color4@Runeword148@jghelp50312runewordtooltipTreachery",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -2920,7 +2908,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword160@jghelp50314runewordtooltipWealth",
+                                                                "tooltipString": "@Color4@Runeword160@jghelp50314runewordtooltipWealth",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3003,7 +2991,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword34@jghelp50316runewordtooltipEnlightenment",
+                                                                "tooltipString": "@Color4@Runeword34@jghelp50316runewordtooltipEnlightenment",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3086,7 +3074,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword8@jghelp50318runewordtooltipBone",
+                                                                "tooltipString": "@Color4@Runeword8@jghelp50318runewordtooltipBone",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3169,7 +3157,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword30@jghelp50320runewordtooltipDuress",
+                                                                "tooltipString": "@Color4@Runeword30@jghelp50320runewordtooltipDuress",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3252,7 +3240,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword45@jghelp50322runewordtooltipGloom",
+                                                                "tooltipString": "@Color4@Runeword45@jghelp50322runewordtooltipGloom",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3335,7 +3323,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword137@jghelp50324runewordtooltipStone",
+                                                                "tooltipString": "@Color4@Runeword137@jghelp50324runewordtooltipStone",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3429,7 +3417,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword112@jghelp50326runewordtooltipPrudence",
+                                                                "tooltipString": "@Color4@Runeword112@jghelp50326runewordtooltipPrudence",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3501,7 +3489,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword117@jghelp50328runewordtooltipRain",
+                                                                "tooltipString": "@Color4@Runeword117@jghelp50328runewordtooltipRain",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3584,7 +3572,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword110@jghelp50340runewordtooltipPrinciple",
+                                                                "tooltipString": "@Color4@Runeword110@jghelp50340runewordtooltipPrinciple",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3667,7 +3655,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword41@jghelp50330runewordtooltipFortitude",
+                                                                "tooltipString": "@Color4@Runeword41@jghelp50330runewordtooltipFortitude",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3761,7 +3749,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword9@jghelp50332runewordtooltipBramble",
+                                                                "tooltipString": "@Color4@Runeword9@jghelp50332runewordtooltipBramble",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3855,7 +3843,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword27@jghelp50334runewordtooltipDragon",
+                                                                "tooltipString": "@Color4@Runeword27@jghelp50334runewordtooltipDragon",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -3938,7 +3926,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword14@jghelp50336runewordtooltipChainsofHonor",
+                                                                "tooltipString": "@Color4@Runeword14@jghelp50336runewordtooltipChainsofHonor",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4032,7 +4020,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword33@jghelp50338runewordtooltipEnigma",
+                                                                "tooltipString": "@Color4@Runeword33@jghelp50338runewordtooltipEnigma",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4185,7 +4173,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword134@jghelp50402runewordtooltipSteel",
+                                                                "tooltipString": "@Color4@Runeword134@jghelp50402runewordtooltipSteel",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4257,7 +4245,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword81@jghelp50404runewordtooltipMalice",
+                                                                "tooltipString": "@Color4@Runeword81@jghelp50404runewordtooltipMalice",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4340,7 +4328,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword72@jghelp50406runewordtooltipLeaf",
+                                                                "tooltipString": "@Color4@Runeword72@jghelp50406runewordtooltipLeaf",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4412,7 +4400,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword170@jghelp50408runewordtooltipZephyr",
+                                                                "tooltipString": "@Color4@Runeword170@jghelp50408runewordtooltipZephyr",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4484,7 +4472,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword54@jghelp50410runewordtooltipHolyThunder",
+                                                                "tooltipString": "@Color4@Runeword54@jghelp50410runewordtooltipHolyThunder",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4578,7 +4566,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword97@jghelp50500runewordtooltipPattern",
+                                                                "tooltipString": "@Color4@Runeword97@jghelp50500runewordtooltipPattern",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4661,7 +4649,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword31@jghelp50412runewordtooltipEdge",
+                                                                "tooltipString": "@Color4@Runeword31@jghelp50412runewordtooltipEdge",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4744,7 +4732,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword65@jghelp50414runewordtooltipKingsGrace",
+                                                                "tooltipString": "@Color4@Runeword65@jghelp50414runewordtooltipKingsGrace",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4827,7 +4815,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword130@jghelp50416runewordtooltipSpirit",
+                                                                "tooltipString": "@Color4@Runeword130@jghelp50416runewordtooltipSpirit",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4921,7 +4909,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword139@jghelp50418runewordtooltipStrength",
+                                                                "tooltipString": "@Color4@Runeword139@jghelp50418runewordtooltipStrength",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -4993,7 +4981,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword55@jghelp50420runewordtooltipHonor",
+                                                                "tooltipString": "@Color4@Runeword55@jghelp50420runewordtooltipHonor",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5098,7 +5086,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword62@jghelp50422runewordtooltipInsight",
+                                                                "tooltipString": "@Color4@Runeword62@jghelp50422runewordtooltipInsight",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5192,7 +5180,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword6@jghelp50424runewordtooltipBlack",
+                                                                "tooltipString": "@Color4@Runeword6@jghelp50424runewordtooltipBlack",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5275,7 +5263,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword162@jghelp50426runewordtooltipWhite",
+                                                                "tooltipString": "@Color4@Runeword162@jghelp50426runewordtooltipWhite",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5347,7 +5335,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword83@jghelp50428runewordtooltipMemory",
+                                                                "tooltipString": "@Color4@Runeword83@jghelp50428runewordtooltipMemory",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5441,7 +5429,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword49@jghelp50430runewordtooltipHarmony",
+                                                                "tooltipString": "@Color4@Runeword49@jghelp50430runewordtooltipHarmony",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5535,7 +5523,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword172@RwhelprunewordtooltipHustlew",
+                                                                "tooltipString": "@Color4@Runeword172@RwhelprunewordtooltipHustlew",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5618,7 +5606,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword82@jghelp50432runewordtooltipMelody",
+                                                                "tooltipString": "@Color4@Runeword82@jghelp50432runewordtooltipMelody",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5701,7 +5689,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword151@jghelp50502runewordtooltipUnbendingWill",
+                                                                "tooltipString": "@Color4@Runeword151@jghelp50502runewordtooltipUnbendingWill",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5817,7 +5805,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword92@jghelp50434runewordtooltipObedience",
+                                                                "tooltipString": "@Color4@Runeword92@jghelp50434runewordtooltipObedience",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -5922,7 +5910,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword71@jghelp50436runewordtooltipLawbringer",
+                                                                "tooltipString": "@Color4@Runeword71@jghelp50436runewordtooltipLawbringer",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6005,7 +5993,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword95@jghelp50438runewordtooltipPassion",
+                                                                "tooltipString": "@Color4@Runeword95@jghelp50438runewordtooltipPassion",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6099,7 +6087,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword99@jghelp50440runewordtooltipVoiceofReason",
+                                                                "tooltipString": "@Color4@Runeword99@jghelp50440runewordtooltipVoiceofReason",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6193,7 +6181,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword17@jghelp50442runewordtooltipCrescentMoon",
+                                                                "tooltipString": "@Color4@Runeword17@jghelp50442runewordtooltipCrescentMoon",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6276,7 +6264,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword91@jghelp50444runewordtooltipOath",
+                                                                "tooltipString": "@Color4@Runeword91@jghelp50444runewordtooltipOath",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6370,7 +6358,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword154@jghelp50446runewordtooltipVenom",
+                                                                "tooltipString": "@Color4@Runeword154@jghelp50446runewordtooltipVenom",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6453,7 +6441,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword173@RwhelprunewordtooltipMosaic",
+                                                                "tooltipString": "@Color4@Runeword173@RwhelprunewordtooltipMosaic",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6536,7 +6524,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword66@jghelp50448runewordtooltipKingslayer",
+                                                                "tooltipString": "@Color4@Runeword66@jghelp50448runewordtooltipKingslayer",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6630,7 +6618,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword121@jghelp50450runewordtooltipRift",
+                                                                "tooltipString": "@Color4@Runeword121@jghelp50450runewordtooltipRift",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6724,7 +6712,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword20@jghelp50452runewordtooltipDeath",
+                                                                "tooltipString": "@Color4@Runeword20@jghelp50452runewordtooltipDeath",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6829,7 +6817,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword51@jghelp50454runewordtooltipHeartoftheOak",
+                                                                "tooltipString": "@Color4@Runeword51@jghelp50454runewordtooltipHeartoftheOak",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -6923,7 +6911,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword126@jghelp50456runewordtooltipSilence",
+                                                                "tooltipString": "@Color4@Runeword126@jghelp50456runewordtooltipSilence",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7039,7 +7027,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword13@jghelp50458runewordtooltipCalltoArms",
+                                                                "tooltipString": "@Color4@Runeword13@jghelp50458runewordtooltipCalltoArms",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7144,7 +7132,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword16@jghelp50460runewordtooltipChaos",
+                                                                "tooltipString": "@Color4@Runeword16@jghelp50460runewordtooltipChaos",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7227,7 +7215,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword41@jghelp50462runewordtooltipFortitude",
+                                                                "tooltipString": "@Color4@Runeword41@jghelp50462runewordtooltipFortitude",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7321,7 +7309,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword47@jghelp50464runewordtooltipGrief",
+                                                                "tooltipString": "@Color4@Runeword47@jghelp50464runewordtooltipGrief",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7426,7 +7414,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword163@jghelp50466runewordtooltipWind",
+                                                                "tooltipString": "@Color4@Runeword163@jghelp50466runewordtooltipWind",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7498,7 +7486,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword4@jghelp50468runewordtooltipBeast",
+                                                                "tooltipString": "@Color4@Runeword4@jghelp50468runewordtooltipBeast",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7603,7 +7591,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword36@jghelp50470runewordtooltipEternity",
+                                                                "tooltipString": "@Color4@Runeword36@jghelp50470runewordtooltipEternity",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7708,7 +7696,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword60@jghelp50472runewordtooltipInfinity",
+                                                                "tooltipString": "@Color4@Runeword60@jghelp50472runewordtooltipInfinity",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7802,7 +7790,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword168@jghelp50474runewordtooltipWrath",
+                                                                "tooltipString": "@Color4@Runeword168@jghelp50474runewordtooltipWrath",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7896,7 +7884,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword10@jghelp50476runewordtooltipBrand",
+                                                                "tooltipString": "@Color4@Runeword10@jghelp50476runewordtooltipBrand",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -7990,7 +7978,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword25@jghelp50478runewordtooltipDestruction",
+                                                                "tooltipString": "@Color4@Runeword25@jghelp50478runewordtooltipDestruction",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8095,7 +8083,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword38@jghelp50480runewordtooltipFaith",
+                                                                "tooltipString": "@Color4@Runeword38@jghelp50480runewordtooltipFaith",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8189,7 +8177,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword39@jghelp50482runewordtooltipFamine",
+                                                                "tooltipString": "@Color4@Runeword39@jghelp50482runewordtooltipFamine",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8283,7 +8271,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword44@jghelp50484runewordtooltipFury",
+                                                                "tooltipString": "@Color4@Runeword44@jghelp50484runewordtooltipFury",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8366,7 +8354,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword59@jghelp50486runewordtooltipIce",
+                                                                "tooltipString": "@Color4@Runeword59@jghelp50486runewordtooltipIce",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8460,7 +8448,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword69@jghelp50488runewordtooltipLastWish",
+                                                                "tooltipString": "@Color4@Runeword69@jghelp50488runewordtooltipLastWish",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8576,7 +8564,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword103@jghelp50490runewordtooltipPhoenix",
+                                                                "tooltipString": "@Color4@Runeword103@jghelp50490runewordtooltipPhoenix",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8670,7 +8658,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword106@jghelp50506runewordtooltipPlague",
+                                                                "tooltipString": "@Color4@Runeword106@jghelp50506runewordtooltipPlague",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8753,7 +8741,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword84@jghelp50504runewordtooltipMist",
+                                                                "tooltipString": "@Color4@Runeword84@jghelp50504runewordtooltipMist",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8858,7 +8846,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword26@jghelp50492runewordtooltipDoom",
+                                                                "tooltipString": "@Color4@Runeword26@jghelp50492runewordtooltipDoom",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -8963,7 +8951,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword48@jghelp50494runewordtooltipHandofJustice",
+                                                                "tooltipString": "@Color4@Runeword48@jghelp50494runewordtooltipHandofJustice",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9057,7 +9045,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword109@jghelp50496runewordtooltipPride",
+                                                                "tooltipString": "@Color4@Runeword109@jghelp50496runewordtooltipPride",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9151,7 +9139,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword94@jghelp50508runewordtooltipObsession",
+                                                                "tooltipString": "@Color4@Runeword94@jghelp50508runewordtooltipObsession",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9267,7 +9255,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword157@Xhelp548752runewordtooltipVoid",
+                                                                "tooltipString": "@Color4@Runeword157@Xhelp548752runewordtooltipVoid",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9350,7 +9338,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword182@Xhelp548754runewordtooltipRitual",
+                                                                "tooltipString": "@Color4@Runeword182@Xhelp548754runewordtooltipRitual",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -9433,7 +9421,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword11@jghelp50498runewordtooltipBreathoftheDying",
+                                                                "tooltipString": "@Color4@Runeword11@jghelp50498runewordtooltipBreathoftheDying",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }

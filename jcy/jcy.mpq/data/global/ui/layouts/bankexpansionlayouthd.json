@@ -1567,7 +1567,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword29@Runeword29Info",
+                                                                        "tooltipString": "@Color4@Runeword29@Runeword29InfoHelms",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1724,7 +1724,7 @@
                                                             "y": 0,
                                                             "height": 70
                                                         },
-                                                        "text": "@jghelp50200shield",
+                                                        "text": "@shlds",
                                                         "style": {
                                                             "fontColor": "$FontColorGoldYellow",
                                                             "pointSize": "$XExtraLargeFontSize",
@@ -1771,7 +1771,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50201runewordAncientsPledge",
+                                                                "text": "@Runeword1LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1780,7 +1780,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword1@jghelp50202runewordtooltipAncientsPledge",
+                                                                        "tooltipString": "@Color4@Runeword1@Runeword1Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1845,7 +1845,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50203runewordSpirit",
+                                                                "text": "@Runeword130LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1854,7 +1854,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword130@jghelp50204runewordtooltipSpirit",
+                                                                        "tooltipString": "@Color4@Runeword130@Runeword130Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1927,7 +1927,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50205runewordRhyme",
+                                                                "text": "@Runeword120LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -1936,7 +1936,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword120@jghelp50206runewordtooltipRhyme",
+                                                                        "tooltipString": "@Color4@Runeword120@Runeword120Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -1993,7 +1993,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50207runewordSplendor",
+                                                                "text": "@Runeword131LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2002,7 +2002,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword131@jghelp50208runewordtooltipSplendor",
+                                                                        "tooltipString": "@Color4@Runeword131@Runeword131Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2059,7 +2059,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50209runewordSanctuary",
+                                                                "text": "@Runeword122LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2068,7 +2068,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword122@jghelp50210runewordtooltipSanctuary",
+                                                                        "tooltipString": "@Color4@Runeword122@Runeword122Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2146,7 +2146,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@Xhelp548757runewordVigilance",
+                                                                "text": "@Runeword181LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2155,7 +2155,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword181@Xhelp548758runewordtooltipVigilance",
+                                                                        "tooltipString": "@Color4@Runeword181@Runeword181Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2212,7 +2212,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50211runewordExile",
+                                                                "text": "@Runeword37LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2221,7 +2221,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword37@jghelp50212runewordtooltipExile",
+                                                                        "tooltipString": "@Color4@Runeword37@Runeword37Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2294,7 +2294,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50213runewordDragon",
+                                                                "text": "@Runeword27LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2303,7 +2303,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword27@jghelp50214runewordtooltipDragon",
+                                                                        "tooltipString": "@Color4@Runeword27@Runeword27Info",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2368,7 +2368,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50215runewordDream",
+                                                                "text": "@Runeword29LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2377,7 +2377,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword29@jghelp50216runewordtooltipDream",
+                                                                        "tooltipString": "@Color4@Runeword29@Runeword29InfoShields",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
@@ -2442,7 +2442,7 @@
                                                             "name": "RuneWordText",
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
-                                                                "text": "@jghelp50217runewordPhoenix",
+                                                                "text": "@Runeword103LevelName",
                                                                 "style": "$RuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
@@ -2451,7 +2451,7 @@
                                                                     "name": "Tooltip",
                                                                     "fields": {
                                                                         "fitToParent": true,
-                                                                        "tooltipString": "@Color4@Runeword103@jghelp50218runewordtooltipPhoenix",
+                                                                        "tooltipString": "@Color4@Runeword103@Runeword103InfoShields",
                                                                         "tooltipStyle": "$StandardToolTipStyle"
                                                                     }
                                                                 }
