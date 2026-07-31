@@ -3204,6 +3204,12 @@ class FileOperations:
             sub = self.common_rename(files, key in keys)
             funcs.append(sub)
 
+        # 开关多头蛇佣兵头像
+        pettype_key = "pet type"
+        pettype_records = {"hydra": {"icontype": 2}} if "7" in keys else {"hydra": {"icontype": 0}}
+        pettype_result = self.common_modify_excel(file="data/global/excel/pettype.txt", key=pettype_key, records=pettype_records)
+        funcs.append(pettype_result)
+
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
         
@@ -3389,10 +3395,10 @@ class FileOperations:
             "2":[
                 r"data/global/excel/itemstatcost.txt",
             ],
-            # 开启 陷阱佣兵头像
-            "3":[
-                r"data/global/excel/pettype.txt",
-            ],
+            # # 开启 陷阱佣兵头像
+            # "3":[
+            #     r"data/global/excel/pettype.txt",
+            # ],
         }
 
         funcs = []
@@ -3400,6 +3406,12 @@ class FileOperations:
             sub = self.common_rename(files, key in keys)
             funcs.append(sub)
 
+        # 开关陷阱头像
+        pettype_key = "pet type"
+        pettype_records = {"assassintrap": {"icontype": 2}} if "3" in keys else {"assassintrap": {"icontype": 0}}
+        pettype_result = self.common_modify_excel(file="data/global/excel/pettype.txt", key=pettype_key, records=pettype_records)
+        funcs.append(pettype_result)
+            
         results = [f for f in funcs]
         summary = tuple(sum(values) for values in zip(*results))
         
