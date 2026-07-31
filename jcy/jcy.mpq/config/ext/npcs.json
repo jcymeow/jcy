@@ -350,61 +350,6 @@
         "sgTW": "士兵",
         "bnCN": "士兵"
     },
-
-
-
-    
-
-    
-
-    "jghelp50109runewordDream": {
-        "enUS": "65 ÿc4Dream",
-        "zhTW": "65 ÿc4夢境",
-        "zhCN": "65 ÿc4梦境",
-        "sgCN": "65 ÿc4梦境",
-        "sgTW": "65 ÿc4夢境",
-        "bnCN": "65 ÿc4梦境"
-    },
-    "jghelp50110runewordtooltipDream": {
-        "enUS": "ÿc4\nHelm\nÿc310% Chance to cast level 15 ÿc2Confuseÿc3 when struck\nLevel 15 ÿc2Holy Shockÿc3 Aura When Equipped\n+20-30% Faster Hit Recovery ÿc1(floating)ÿc3\n+30% Enhanced Defense\n+150-220 Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\n+(0.625-61.875) to Mana (Based on Character Level) [0.625 * clvl]\nAll Resistances +5-20 ÿc1(floating)ÿc3\n12-25% Better Chance of Getting Magic Items ÿc1(floating)ÿc3\n\nÿc2Optimum Base\nÿc8Bone Visage\nFit CHAR:GASOR/2Dream SOR/2Dream PAL/Conviction PAL",
-        "zhTW": "ÿc4\n頭盔\nÿc3被擊中時有 10% 機率施展等級 15 ÿc2混亂ÿc3\n裝備時賦予等級 15 ÿc2神聖電擊ÿc3靈氣\n+20-30% 打擊恢復 ÿc1(變動)ÿc3\n+30% 防禦強化\n+150-220 防禦 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n+(0.625-61.875) 法力 （依角色等級而定） [0.625 * clvl]\n所有抗性 +5-20 ÿc1(變動)ÿc3\n尋獲魔法物品機率提高 12-25% ÿc1(變動)ÿc3\n\nÿcO重要屬性：15級神聖電擊靈氣\n其它亮點：30FHR、20RES、0.625MANA每級\n美中不足：缺-LR\n\nÿc;多搭配自開信念的PAL，收CHAR自身加成的特性也衍生出一些娛樂練法，\n也有GASOR在PK中用來限制對手裝備\n\nÿc2底材推薦\nÿc8骸骨面罩\n力量需求和防禦較平衡的頭盔\n適用CHAR：GASOR、雙夢SOR、雙夢PAL、信念PAL",
-        "zhCN": "ÿc4\n头盔\nÿc310% 几率在被击中时施放 15 级ÿc2迷乱ÿc3\n装备时获得 15 级ÿc2神圣之雷ÿc3光环\n+20-30% 更快速打击回复 ÿc1(变动)ÿc3\n+30% 强化防御\n+150-220 防御 ÿc1(变动)ÿc3\n+10 活力\n+5% 生命最大值\n+(0.625-61.875) 法力 （基于角色等级） [0.625 * clvl]\n+5-20 所有抗性 ÿc1(变动)ÿc3\n12-25% 额外几率获得魔法物品 ÿc1(变动)ÿc3\n\nÿcO重要属性：15级神圣之雷光环\n其它亮点：30FHR、20RES、0.625MANA每级\n美中不足：缺-LR\n\nÿc;多搭配自开定罪的PAL，收CHAR自身加成的特性也衍生出一些娱乐练法，\n也有GASOR在PK中用来限制对手装备\n\nÿc2底材推荐\nÿc8白骨面甲\n力量需求和防御较平衡的头盔\n适用CHAR：GASOR、双梦SOR、双梦PAL、定罪PAL",
-        "sgCN": "ÿc4\n头盔\nÿc310% 几率在被击中时施放 15 级ÿc2迷乱ÿc3\n装备时获得 15 级ÿc2神圣之雷ÿc3光环\n+20-30% 更快速打击回复 ÿc1(变动)ÿc3\n+30% 强化防御\n+150-220 防御 ÿc1(变动)ÿc3\n+10 活力\n+5% 生命最大值\n+(0.625-61.875) 法力 （基于角色等级） [0.625 * clvl]\n+5-20 所有抗性 ÿc1(变动)ÿc3\n12-25% 额外几率获得魔法物品 ÿc1(变动)ÿc3\n\nÿcO重要属性：15级神圣之雷光环\n其它亮点：30FHR、20RES、0.625MANA每级\n美中不足：缺-LR\n\nÿc;多搭配自开定罪的PAL，收CHAR自身加成的特性也衍生出一些娱乐练法，\n也有GASOR在PK中用来限制对手装备\n\nÿc2底材推荐\nÿc8白骨面甲\n力量需求和防御较平衡的头盔\n适用CHAR：GASOR、双梦SOR、双梦PAL、定罪PAL",
-        "sgTW": "ÿc4\n頭盔\nÿc3被擊中時有 10% 機率施展等級 15 ÿc2混亂ÿc3\n裝備時賦予等級 15 ÿc2神聖電擊ÿc3靈氣\n+20-30% 打擊恢復 ÿc1(變動)ÿc3\n+30% 防禦強化\n+150-220 防禦 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n+(0.625-61.875) 法力 （依角色等級而定） [0.625 * clvl]\n所有抗性 +5-20 ÿc1(變動)ÿc3\n尋獲魔法物品機率提高 12-25% ÿc1(變動)ÿc3\n\nÿcO重要屬性：15級神聖電擊靈氣\n其它亮點：30FHR、20RES、0.625MANA每級\n美中不足：缺-LR\n\nÿc;多搭配自開信念的PAL，收CHAR自身加成的特性也衍生出一些娛樂練法，\n也有GASOR在PK中用來限制對手裝備\n\nÿc2底材推薦\nÿc8骸骨面罩\n力量需求和防禦較平衡的頭盔\n適用CHAR：GASOR、雙夢SOR、雙夢PAL、信念PAL",
-        "bnCN": "ÿc4\n头盔\nÿc310% 几率在被击中时施放 15 级ÿc2迷乱ÿc3\n装备时获得 15 级ÿc2神圣之雷ÿc3光环\n+20-30% 更快速打击回复 ÿc1(变动)ÿc3\n+30% 强化防御\n+150-220 防御 ÿc1(变动)ÿc3\n+10 活力\n+5% 生命最大值\n+(0.625-61.875) 法力 （基于角色等级） [0.625 * clvl]\n+5-20 所有抗性 ÿc1(变动)ÿc3\n12-25% 额外几率获得魔法物品 ÿc1(变动)ÿc3\n\nÿcO重要属性：15级神圣之雷光环\n其它亮点：30FHR、20RES、0.625MANA每级\n美中不足：缺-LR\n\nÿc;多搭配自开定罪的PAL，收CHAR自身加成的特性也衍生出一些娱乐练法，\n也有GASOR在PK中用来限制对手装备\n\nÿc2底材推荐\nÿc8白骨面甲\n力量需求和防御较平衡的头盔\n适用CHAR：GASOR、双梦SOR、双梦PAL、定罪PAL"
-    },
-    "jghelp50111runewordWisdom": {
-        "enUS": "45 ÿc4Wisdom",
-        "zhTW": "45 ÿc4智慧",
-        "zhCN": "45 ÿc4智慧",
-        "sgCN": "45 ÿc4智慧",
-        "sgTW": "45 ÿc4智慧",
-        "bnCN": "45 ÿc4智慧"
-    },
-    "jghelp50112runewordtooltipWisdom": {
-        "enUS": "ÿc4\nHelm\nÿc3+33% Piercing Attack\n15-25% Bonus to Attack Rating ÿc1(floating)ÿc3\n4-8% Mana stolen per hit ÿc1(floating)ÿc3\n+30% Enhanced Defense\n+10 to Energy\nSlower Stamina Drain 15%\nCannot Be Frozen\n+5 to Mana after each Kill\n+15% Damage Taken Goes To Mana\n",
-        "zhTW": "ÿc4\n頭盔\nÿc3+33% 穿透攻擊\n15-25% 準確率加成 ÿc1(變動)ÿc3\n擊中竊取 4-8% 法力 ÿc1(變動)ÿc3\n+30% 防禦強化\n+10 能量\n精力消耗減緩 15%\n無法凍結\n+5 擊殺法力恢復\n+15% 受到的傷害轉為法力\n",
-        "zhCN": "ÿc4\n头盔\nÿc3+33% 穿刺攻击\n15-25% 加成命中值 ÿc1(变动)ÿc3\n4-8% 击中时偷取法力 ÿc1(变动)ÿc3\n+30% 强化防御\n+10 能量\n15% 降低耐力消耗\n无法被冻结\n+5 每次消灭恢复的法力\n+15% 受到的伤害转换为法力\n",
-        "sgCN": "ÿc4\n头盔\nÿc3+33% 穿刺攻击\n15-25% 加成命中值 ÿc1(变动)ÿc3\n4-8% 击中时偷取法力 ÿc1(变动)ÿc3\n+30% 强化防御\n+10 能量\n15% 降低耐力消耗\n无法被冻结\n+5 每次消灭恢复的法力\n+15% 受到的伤害转换为法力\n",
-        "sgTW": "ÿc4\n頭盔\nÿc3+33% 穿透攻擊\n15-25% 準確率加成 ÿc1(變動)ÿc3\n擊中竊取 4-8% 法力 ÿc1(變動)ÿc3\n+30% 防禦強化\n+10 能量\n精力消耗減緩 15%\n無法凍結\n+5 擊殺法力恢復\n+15% 受到的傷害轉為法力\n",
-        "bnCN": "ÿc4\n头盔\nÿc3+33% 穿刺攻击\n15-25% 加成命中值 ÿc1(变动)ÿc3\n4-8% 击中时偷取法力 ÿc1(变动)ÿc3\n+30% 强化防御\n+10 能量\n15% 降低耐力消耗\n无法被冻结\n+5 每次消灭恢复的法力\n+15% 受到的伤害转换为法力\n"
-    },
-    "jghelp50113runewordFlickeringFlame": {
-        "enUS": "55 ÿc4Flickering Flame",
-        "zhTW": "55 ÿc4閃爍火焰",
-        "zhCN": "55 ÿc4闪烁火焰",
-        "sgCN": "55 ÿc4闪烁火焰",
-        "sgTW": "55 ÿc4閃爍火焰",
-        "bnCN": "55 ÿc4闪烁火焰"
-    },
-    "jghelp50114runewordtooltipFlickeringFlame": {
-        "enUS": "ÿc4\nHelm\nÿc3Level 4-8 ÿc2Resist Fireÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+3 to Fire Skills\n-10-15% to Enemy Fire Resistance ÿc1(floating)ÿc3\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+50-75 to Mana ÿc1(floating)ÿc3\nHalf Freeze Duration\n+5% to Maximum Fire Resist\nPoison Length Reduced by 50%\n",
-        "zhTW": "ÿc4\n頭盔\nÿc3裝備時賦予等級 4-8 ÿc2抗火ÿc3靈氣 ÿc1(變動)ÿc3\n+3 火焰技能\n敵人火焰抗性 -10-15% ÿc1(變動)ÿc3\n+30% 防禦強化\n+30 對遠程防禦\n+50-75 法力 ÿc1(變動)ÿc3\n被凍結的時效減半\n火焰抗性上限 +5%\n中毒的時效縮短 50%\n",
-        "zhCN": "ÿc4\n头盔\nÿc3装备时获得 4-8 级ÿc2抗火ÿc3光环 ÿc1(变动)ÿc3\n+3 至火系法术\n-10-15% 敌人的火焰抗性ÿc1(变动)ÿc3\n+30% 强化防御\n+30 远程防御\n+50-75 法力 ÿc1(变动)ÿc3\n冻结时间减半\n+5% 火焰抗性上限\n中毒时间缩短 50%\n",
-        "sgCN": "ÿc4\n头盔\nÿc3装备时获得 4-8 级ÿc2抗火ÿc3光环 ÿc1(变动)ÿc3\n+3 至火系法术\n-10-15% 敌人的火焰抗性ÿc1(变动)ÿc3\n+30% 强化防御\n+30 远程防御\n+50-75 法力 ÿc1(变动)ÿc3\n冻结时间减半\n+5% 火焰抗性上限\n中毒时间缩短 50%\n",
-        "sgTW": "ÿc4\n頭盔\nÿc3裝備時賦予等級 4-8 ÿc2抗火ÿc3靈氣 ÿc1(變動)ÿc3\n+3 火焰技能\n敵人火焰抗性 -10-15% ÿc1(變動)ÿc3\n+30% 防禦強化\n+30 對遠程防禦\n+50-75 法力 ÿc1(變動)ÿc3\n被凍結的時效減半\n火焰抗性上限 +5%\n中毒的時效縮短 50%\n",
-        "bnCN": "ÿc4\n头盔\nÿc3装备时获得 4-8 级ÿc2抗火ÿc3光环 ÿc1(变动)ÿc3\n+3 至火系法术\n-10-15% 敌人的火焰抗性ÿc1(变动)ÿc3\n+30% 强化防御\n+30 远程防御\n+50-75 法力 ÿc1(变动)ÿc3\n冻结时间减半\n+5% 火焰抗性上限\n中毒时间缩短 50%\n"
-    },
     "jghelp50200shield": {
         "enUS": " • Shield •",
         "zhTW": " • 盾牌 •",
@@ -534,7 +479,7 @@
         "bnCN": "61 ÿc4巨龙"
     },
     "jghelp50214runewordtooltipDragon": {
-        "enUS": "ÿc4\nShield\nÿc320% Chance to cast level 18 ÿc2Venomÿc3 when struck\n12% Chance to cast level 15 ÿc2Hydraÿc3 on striking\nLevel 14 ÿc2Holy Fireÿc3 Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3-5 to all Attributes ÿc1(floating)ÿc3\n+(0.375-37.125) to Strength (Based on Character Level) [0.375 * clvl]\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7\n\nÿc2Optimum Base\nÿc8Sacred Targe\n",
+        "enUS": "ÿc4\nShield\nÿc320% Chance to cast level 18 ÿc2Venomÿc3 when struck\n12% Chance to cast level 15 ÿc2Hydraÿc3 on striking\nLevel 14 ÿc2Holy Fireÿc3 Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3-5 to all Attributes ÿc1(floating)ÿc3\n+(0.375-37.125) to Strength (Based on Character Level) [0.375 * clvl]\n+50 to Mana\n+5% to Maximum Lightning Resist\nDamage Reduced by 7\n\nÿc2Optimum Base\nÿc8Sacred Targe",
         "zhTW": "ÿc4\n盾牌\nÿc3被擊中時有 20% 機率施展等級 18 ÿc2淬毒ÿc3\n擊中時有 12% 機率施展等級 15 ÿc2多頭蛇ÿc3\n裝備時賦予等級 14 ÿc2神聖火焰ÿc3靈氣\n+360 防禦\n+230 對遠程防禦\n+3-5 所有屬性 ÿc1(變動)ÿc3\n+(0.375-37.125) 力量 （依角色等級而定） [0.375 * clvl]\n+50 法力\n電擊抗性上限 +5%\n傷害降低 7\n\nÿcO重要屬性：14級神聖火焰靈氣\n其它亮點：0.375STR每級\n美中不足：缺-FR\n\nÿc;盾的位置和雙夢境衝突\n\nÿc2底材推薦\nÿc8神聖小盾\n神聖小盾會被某些娛樂練法的PAL使用",
         "zhCN": "ÿc4\n盾牌\nÿc320% 几率在被击中时施放 18 级ÿc2涂毒ÿc3\n12% 几率在击中时施放 15 级ÿc2多头蛇ÿc3\n装备时获得 14 级ÿc2神圣之火ÿc3光环\n+360 防御\n+230 远程防御\n+3-5 所有属性 ÿc1(变动)ÿc3\n+(0.375-37.125) 力量 （基于角色等级） [0.375 * clvl]\n+50 法力\n+5% 闪电抗性上限\n伤害降低 7\n\nÿcO重要属性：14级神圣之火光环\n其它亮点：0.375STR每级\n美中不足：缺-FR\n\nÿc;盾的位置和双梦境冲突\n\nÿc2底材推荐\nÿc8神圣小盾\n神圣小盾会被某些娱乐练法的PAL使用",
         "sgCN": "ÿc4\n盾牌\nÿc320% 几率在被击中时施放 18 级ÿc2涂毒ÿc3\n12% 几率在击中时施放 15 级ÿc2多头蛇ÿc3\n装备时获得 14 级ÿc2神圣之火ÿc3光环\n+360 防御\n+230 远程防御\n+3-5 所有属性 ÿc1(变动)ÿc3\n+(0.375-37.125) 力量 （基于角色等级） [0.375 * clvl]\n+50 法力\n+5% 闪电抗性上限\n伤害降低 7\n\nÿcO重要属性：14级神圣之火光环\n其它亮点：0.375STR每级\n美中不足：缺-FR\n\nÿc;盾的位置和双梦境冲突\n\nÿc2底材推荐\nÿc8神圣小盾\n神圣小盾会被某些娱乐练法的PAL使用",
@@ -718,7 +663,7 @@
         "bnCN": "45 ÿc4启迪"
     },
     "jghelp50316runewordtooltipEnlightenment": {
-        "enUS": "ÿc4\nArmor\nÿc35% Chance to cast level 15 ÿc2Blazeÿc3 when struck\n5% Chance to cast level 15 ÿc2Fire Ballÿc3 on striking\n+2 to Sorceress Skill Levels\n+1 to ÿc2Warmthÿc3\n+30% Enhanced Defense\nFire Resist +30%\nDamage Reduced by 7\n",
+        "enUS": "ÿc4\nArmor\nÿc35% Chance to cast level 15 ÿc2Blazeÿc3 when struck\n5% Chance to cast level 15 ÿc2Fire Ballÿc3 on striking\n+2 to Sorceress Skill Levels\n+1 to ÿc2Warmthÿc3\n+30% Enhanced Defense\nFire Resist +30%\nDamage Reduced by 7",
         "zhTW": "ÿc4\n護甲\nÿc3被擊中時有 5% 機率施展等級 15 ÿc2熾烈之徑ÿc3\n擊中時有 5% 機率施展等級 15 ÿc2火球術ÿc3\n+2 魔法使技能等級\n+1 至ÿc2暖流ÿc3\n+30% 防禦強化\n火焰抗性 +30%\n傷害降低 7\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n护甲\nÿc35% 几率在被击中时施放 15 级ÿc2足跟火ÿc3\n5% 几率在击中时施放 15 级ÿc2火球术ÿc3\n+2 巫师技能等级\n+1 至ÿc2暖身术ÿc3\n+30% 强化防御\n火焰抗性 +30%\n伤害降低 7\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n护甲\nÿc35% 几率在被击中时施放 15 级ÿc2足跟火ÿc3\n5% 几率在击中时施放 15 级ÿc2火球术ÿc3\n+2 巫师技能等级\n+1 至ÿc2暖身术ÿc3\n+30% 强化防御\n火焰抗性 +30%\n伤害降低 7\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -798,7 +743,7 @@
         "bnCN": "49 ÿc4谨慎"
     },
     "jghelp50326runewordtooltipPrudence": {
-        "enUS": "ÿc4\nArmor\nÿc3+25% Faster Hit Recovery\n+140-170% Enhanced Defense ÿc1(floating)ÿc3\nAll Resistances +25-35 ÿc1(floating)ÿc3\nDamage Reduced by 3\nMagic Damage Reduced by 17\n+2 to Mana after each Kill\n+1 to Light Radius\nRepairs 1 durability in 4 seconds\n\nÿc2Optimum Base\nÿc8Archon Plate\nFit CHAR:SOR/DRU/AMA\n",
+        "enUS": "ÿc4\nArmor\nÿc3+25% Faster Hit Recovery\n+140-170% Enhanced Defense ÿc1(floating)ÿc3\nAll Resistances +25-35 ÿc1(floating)ÿc3\nDamage Reduced by 3\nMagic Damage Reduced by 17\n+2 to Mana after each Kill\n+1 to Light Radius\nRepairs 1 durability in 4 seconds\n\nÿc2Optimum Base\nÿc8Archon Plate\nFit CHAR:SOR/DRU/AMA",
         "zhTW": "ÿc4\n護甲\nÿc3+25% 打擊恢復\n+140-170% 防禦強化 ÿc1(變動)ÿc3\n所有抗性 +25-35 ÿc1(變動)ÿc3\n傷害降低 3\n魔法傷害降低 17\n+2 擊殺法力恢復\n照亮範圍 +1\n每 4 秒修復 1 點耐久度\n\nÿcO重要屬性：修復耐久、170ed\n其它亮點：25FHR、35RES\n美中不足：缺屬性\n\nÿc;由於有恢復耐久的屬性，可以放心地給CHAR用無形甲大幅提高DEF，\n也讓打壞的2孔盔甲有了用途\n\nÿc2底材推薦\nÿc8統御者鎧甲\nDEF最高的輕甲\n適用CHAR：引牛SOR、狂怒狼、物理矛AMA\n其它\n打壞的2孔精華輕甲都是可選用的底材",
         "zhCN": "ÿc4\n护甲\nÿc3+25% 更快速打击回复\n+140-170% 强化防御 ÿc1(变动)ÿc3\n+25-35 所有抗性 ÿc1(变动)ÿc3\n伤害降低 3\n魔法伤害降低 17\n+2 每次消灭恢复的法力\n+1 照亮范围\n每 4 秒修复 1 点耐久度\n\nÿcO重要属性：修复耐久、170ed\n其它亮点：25FHR、35RES\n美中不足：缺属性\n\nÿc;由于有修复耐久的属性，可以放心地给CHAR用无形甲大幅提高DEF，\n也让打坏的2孔盔甲有了用途\n\nÿc2底材推荐\nÿc8统治者板甲\nDEF最高的轻甲\n适用CHAR：引牛SOR、狂怒狼、物理矛AMA\n其它\n打坏的2孔精华轻甲都是可选用的底材",
         "sgCN": "ÿc4\n护甲\nÿc3+25% 更快速打击回复\n+140-170% 强化防御 ÿc1(变动)ÿc3\n+25-35 所有抗性 ÿc1(变动)ÿc3\n伤害降低 3\n魔法伤害降低 17\n+2 每次消灭恢复的法力\n+1 照亮范围\n每 4 秒修复 1 点耐久度\n\nÿcO重要属性：修复耐久、170ed\n其它亮点：25FHR、35RES\n美中不足：缺属性\n\nÿc;由于有修复耐久的属性，可以放心地给CHAR用无形甲大幅提高DEF，\n也让打坏的2孔盔甲有了用途\n\nÿc2底材推荐\nÿc8统治者板甲\nDEF最高的轻甲\n适用CHAR：引牛SOR、狂怒狼、物理矛AMA\n其它\n打坏的2孔精华轻甲都是可选用的底材",
@@ -814,7 +759,7 @@
         "bnCN": "49 ÿc4暴雨"
     },
     "jghelp50328runewordtooltipRain": {
-        "enUS": "ÿc4\nArmor\nÿc35% Chance to cast level 15 ÿc2Cyclone Armorÿc3 when struck\n5% Chance to cast level 15 ÿc2Twisterÿc3 on striking\n+2 to Druid Skill Levels\n+100-150 Mana ÿc1(floating)ÿc3\nLightning Resist +30%\nMagic Damage Reduced by 7\n15% Damage Taken Goes To Mana\n",
+        "enUS": "ÿc4\nArmor\nÿc35% Chance to cast level 15 ÿc2Cyclone Armorÿc3 when struck\n5% Chance to cast level 15 ÿc2Twisterÿc3 on striking\n+2 to Druid Skill Levels\n+100-150 Mana ÿc1(floating)ÿc3\nLightning Resist +30%\nMagic Damage Reduced by 7\n15% Damage Taken Goes To Mana",
         "zhTW": "ÿc4\n護甲\nÿc3被擊中時有 5% 機率施展等級 15 ÿc2氣旋護甲ÿc3\n擊中時有 5% 機率施展等級 15 ÿc2旋風術ÿc3\n+2 德魯伊技能等級\n+100-150 法力 ÿc1(變動)ÿc3\n電擊抗性 +30%\n魔法傷害降低 7\n15% 受到的傷害轉為法力\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n护甲\nÿc35% 几率在被击中时施放 15 级ÿc2气旋护甲ÿc3\n5% 几率在击中时施放 15 级ÿc2小旋风ÿc3\n+2 德鲁伊技能等级\n+100-150 法力 ÿc1(变动)ÿc3\n闪电抗性 +30%\n魔法伤害降低 7\n15% 受到的伤害转换为法力\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n护甲\nÿc35% 几率在被击中时施放 15 级ÿc2气旋护甲ÿc3\n5% 几率在击中时施放 15 级ÿc2小旋风ÿc3\n+2 德鲁伊技能等级\n+100-150 法力 ÿc1(变动)ÿc3\n闪电抗性 +30%\n魔法伤害降低 7\n15% 受到的伤害转换为法力\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -830,7 +775,7 @@
         "bnCN": "59 ÿc4刚毅"
     },
     "jghelp50330runewordtooltipFortitude": {
-        "enUS": "ÿc4\nArmor\nÿc3Damage Reduced by 7\n+15 Defense\nReplenish Life +7\n+5% to Maximum Lightning Resist\n+200% Enhanced Defense\nAll Resistances +25-30 ÿc1(floating)ÿc3\n+300% Enhanced Damage\n+1-148.5 to Life (Based on Character Level) ÿc1(floating)ÿc3\n20% Chance to cast level 15 ÿc2Chill'n Armorÿc3 when struck\n+25% Faster Cast Rate\n+1 to Light Radius\n12% Damage Taken Goes To Mana\n\nÿc2Optimum Base\nÿc8Archon Plate\nFit CHAR:PAL/BB/DRU/AMA\nSacred Armor\nFit CHAR:BB/DRU\nLacquered Plate\nFit CHAR:PET\n",
+        "enUS": "ÿc4\nArmor\nÿc3Damage Reduced by 7\n+15 Defense\nReplenish Life +7\n+5% to Maximum Lightning Resist\n+200% Enhanced Defense\nAll Resistances +25-30 ÿc1(floating)ÿc3\n+300% Enhanced Damage\n+1-148.5 to Life (Based on Character Level) ÿc1(floating)ÿc3\n20% Chance to cast level 15 ÿc2Chill'n Armorÿc3 when struck\n+25% Faster Cast Rate\n+1 to Light Radius\n12% Damage Taken Goes To Mana\n\nÿc2Optimum Base\nÿc8Archon Plate\nFit CHAR:PAL/BB/DRU/AMA\nSacred Armor\nFit CHAR:BB/DRU\nLacquered Plate\nFit CHAR:PET",
         "zhTW": "ÿc4\n護甲\nÿc3傷害降低 7\n+15 防禦\n生命回復 +7\n電擊抗性上限 +5%\n+200% 防禦強化\n所有抗性 +25-30 ÿc1(變動)ÿc3\n+300% 傷害強化\n+1-148.5 生命 （依角色等級而定） ÿc1(變動)ÿc3\n被擊中時有 20% 機率施展等級 15 ÿc2寒冰甲ÿc3\n+25% 施法速度\n照亮範圍 +1\n12% 受到的傷害轉為法力\n\nÿcO重要屬性：300ED、1.5LIFE每級、30RES\n其它亮點：25FCR、觸發15級寒冰甲\n美中不足：缺IAS\n\nÿc;300ED使其成為近戰物理CHAR的最強輸出甲，綜合防禦能力也是數一數二，\n同時也是PET的最強甲\n\nÿc2底材推薦\nÿc8統御者鎧甲\n精華輕甲中DEF最高的甲，STR需求也容易達到\n適用CHAR：雙熱PAL、狂暴之擊BB、狼嚎BB、打錢BB、槌擊熊、物理弓AMA\n神聖戰甲\n所有盔甲中DEF最高的甲，適合STR高的CHAR，在安臉的支持下A2PET也能使用\n適用CHAR：WWBB、狂亂連擊BB、專注打擊BB、狂怒狼\n漆護鎧甲\nPET無需任何加STR的裝備即能使用，常搭配鰻魚頭\n適用CHAR：PET\n其它\n精華輕甲都是可考慮的對象，海怪之殼和炎魔皮板甲也可以PET用",
         "zhCN": "ÿc4\n护甲\nÿc3伤害降低 7\n+15 防御\n补充生命 +7\n+5% 闪电抗性上限\n+200% 强化防御\n+25-30 所有抗性 ÿc1(变动)ÿc3\n+300% 强化伤害\n+1-148.5 生命 （基于角色等级） ÿc1(变动)ÿc3\n20% 几率在被击中时施放 15 级ÿc2冰棱甲ÿc3\n+25% 更快速施法\n+1 照亮范围\n12% 受到的伤害转换为法力\n\nÿcO重要属性：300ED、1.5LIFE每级、30RES\n其它亮点：25FCR、触发15级冰棱甲\n美中不足：缺IAS\n\nÿc;300ED使其成为近战物理CHAR的最强输出甲，综合防御能力也是数一数二，\n同时也是PET的最强甲\n\nÿc2底材推荐\nÿc8统治者板甲\n精华轻甲中DEF最高的甲，STR需求也容易达到\n适用CHAR：双热PAL、狂战士BB、狼嚎BB、打钱BB、猛槌熊、物理弓AMA\n神圣铠甲\n所有盔甲中DEF最高的甲，适合STR高的CHAR，在安脸的支持下A2PET也能使用\n适用CHAR：WWBB、狂乱BB、专注BB、狂怒狼\n漆甲\nPET无需任何加STR的装备即能使用，常搭配鳗鱼头\n适用CHAR：PET\n其它\n精华轻甲都是可考虑的对象，深海巨妖之壳和炎魔皮也可以PET用",
         "sgCN": "ÿc4\n护甲\nÿc3伤害降低 7\n+15 防御\n补充生命 +7\n+5% 闪电抗性上限\n+200% 强化防御\n+25-30 所有抗性 ÿc1(变动)ÿc3\n+300% 强化伤害\n+1-148.5 生命 （基于角色等级） ÿc1(变动)ÿc3\n20% 几率在被击中时施放 15 级ÿc2冰棱甲ÿc3\n+25% 更快速施法\n+1 照亮范围\n12% 受到的伤害转换为法力\n\nÿcO重要属性：300ED、1.5LIFE每级、30RES\n其它亮点：25FCR、触发15级冰棱甲\n美中不足：缺IAS\n\nÿc;300ED使其成为近战物理CHAR的最强输出甲，综合防御能力也是数一数二，\n同时也是PET的最强甲\n\nÿc2底材推荐\nÿc8统治者板甲\n精华轻甲中DEF最高的甲，STR需求也容易达到\n适用CHAR：双热PAL、狂战士BB、狼嚎BB、打钱BB、猛槌熊、物理弓AMA\n神圣铠甲\n所有盔甲中DEF最高的甲，适合STR高的CHAR，在安脸的支持下A2PET也能使用\n适用CHAR：WWBB、狂乱BB、专注BB、狂怒狼\n漆甲\nPET无需任何加STR的装备即能使用，常搭配鳗鱼头\n适用CHAR：PET\n其它\n精华轻甲都是可考虑的对象，深海巨妖之壳和炎魔皮也可以PET用",
@@ -846,7 +791,7 @@
         "bnCN": "61 ÿc4荆棘"
     },
     "jghelp50332runewordtooltipBramble": {
-        "enUS": "ÿc4\nArmor\nÿc3Level 15-21 ÿc2Thornsÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+50% Faster Hit Recovery\n+25-50% to Poison Skill Damage ÿc1(floating)ÿc3\n+300 Defense\nIncrease Maximum Mana 5%\nRegenerate Mana 15%\n+5% to Maximum Cold Resist\nFire Resist +30%\nPoison Resist +100%\n+13 Life after each Kill\nLevel 13 ÿc2Spirit of Barbs ÿc3(33 Charges)\n\nÿc2Optimum Base\nÿc8Archon Plate\nFit CHAR:NEC/DRU\n",
+        "enUS": "ÿc4\nArmor\nÿc3Level 15-21 ÿc2Thornsÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+50% Faster Hit Recovery\n+25-50% to Poison Skill Damage ÿc1(floating)ÿc3\n+300 Defense\nIncrease Maximum Mana 5%\nRegenerate Mana 15%\n+5% to Maximum Cold Resist\nFire Resist +30%\nPoison Resist +100%\n+13 Life after each Kill\nLevel 13 ÿc2Spirit of Barbs ÿc3(33 Charges)\n\nÿc2Optimum Base\nÿc8Archon Plate\nFit CHAR:NEC/DRU",
         "zhTW": "ÿc4\n護甲\nÿc3裝備時賦予等級 15-21 ÿc2荊棘ÿc3靈氣 ÿc1(變動)ÿc3\n+50% 打擊恢復\n+25-50% 毒素技能傷害 ÿc1(變動)ÿc3\n+300 防禦\n法力上限提高 5%\n法力恢復 15%\n冰寒抗性上限 +5%\n火焰抗性 +30%\n毒素抗性 +100%\n+13 擊殺生命恢復\n等級 13 ÿc2荊棘之靈ÿc3（33 次）\n\nÿcO重要屬性：+50%PD\n其它亮點：50FHR\n美中不足：缺-PR\n\nÿc;乍看之下似乎專為毒系CHAR打造，但實際效果卻比不上謎團和毒珠甲，\n賦予的荊棘靈氣能有效的吸引仇恨，用途尚待開發\n\nÿc2底材推薦\nÿc8統御者鎧甲\nDEF最高的輕甲\n適用CHAR：毒NEC、毒狼\n其它\n毒系CHAR都不扛怪，所有精華輕甲皆可一用",
         "zhCN": "ÿc4\n护甲\nÿc3装备时获得 15-21 级ÿc2荊棘ÿc3光环 ÿc1(变动)ÿc3\n+50% 更快速打击回复\n+25-50% 毒素技能伤害 ÿc1(变动)ÿc3\n+300 防御\n+5% 法力最大值\n15% 法力回复\n+5% 冰霜抗性上限\n火焰抗性 +30%\n毒素抗性 +100%\n+13 每次消灭恢复的生命\n等级 13 ÿc2棘灵ÿc3（33 次）\n\nÿcO重要属性：+50%PD\n其它亮点：50FHR\n美中不足：缺-PR\n\nÿc;乍看之下似乎专为毒系CHAR打造，但实际效果却比不上谜团和毒珠甲，\n赋予的荊棘光环能有效的吸引仇恨，用途尚待开发\n\nÿc2底材推荐\nÿc8统治者板甲\nDEF最高的轻甲\n适用CHAR：毒NEC、毒狼\n其它\n毒系CHAR都不扛怪，所有精华轻甲皆可一用",
         "sgCN": "ÿc4\n护甲\nÿc3装备时获得 15-21 级ÿc2荊棘ÿc3光环 ÿc1(变动)ÿc3\n+50% 更快速打击回复\n+25-50% 毒素技能伤害 ÿc1(变动)ÿc3\n+300 防御\n+5% 法力最大值\n15% 法力回复\n+5% 冰霜抗性上限\n火焰抗性 +30%\n毒素抗性 +100%\n+13 每次消灭恢复的生命\n等级 13 ÿc2棘灵ÿc3（33 次）\n\nÿcO重要属性：+50%PD\n其它亮点：50FHR\n美中不足：缺-PR\n\nÿc;乍看之下似乎专为毒系CHAR打造，但实际效果却比不上谜团和毒珠甲，\n赋予的荊棘光环能有效的吸引仇恨，用途尚待开发\n\nÿc2底材推荐\nÿc8统治者板甲\nDEF最高的轻甲\n适用CHAR：毒NEC、毒狼\n其它\n毒系CHAR都不扛怪，所有精华轻甲皆可一用",
@@ -910,7 +855,7 @@
         "bnCN": "53 ÿc4信条"
     },
     "jghelp50340runewordtooltipPrinciple": {
-        "enUS": "ÿc4\nArmor\nÿc3100% Chance to cast level 5 ÿc2Holy Boltÿc3 on striking\n+2 to Paladin Skill Levels\n+50% Damage to Undead\n+100-150 to Life ÿc1(floating)ÿc3\nSlower Stamina Drain 15%\n+5% to Maximum Poison Resist\nFire Resist +30%\n",
+        "enUS": "ÿc4\nArmor\nÿc3100% Chance to cast level 5 ÿc2Holy Boltÿc3 on striking\n+2 to Paladin Skill Levels\n+50% Damage to Undead\n+100-150 to Life ÿc1(floating)ÿc3\nSlower Stamina Drain 15%\n+5% to Maximum Poison Resist\nFire Resist +30%",
         "zhTW": "ÿc4\n護甲\nÿc3擊中時有 100% 機率施展等級 5 ÿc2聖光彈ÿc3\n+2 聖騎士技能等級\n+50% 對不死怪物的傷害\n+100-150 生命 ÿc1(變動)ÿc3\n精力消耗減緩 15%\n毒素抗性上限 +5%\n火焰抗性 +30%\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n护甲\nÿc3100% 几率在击中时施放 5 级ÿc2圣光弹ÿc3\n+2 圣骑士技能等级\n+50% 对亡灵的伤害\n+100-150 生命 ÿc1(变动)ÿc3\n15% 降低耐力消耗\n+5% 毒素抗性上限\n火焰抗性 +30%\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n护甲\nÿc3100% 几率在击中时施放 5 级ÿc2圣光弹ÿc3\n+2 圣骑士技能等级\n+50% 对亡灵的伤害\n+100-150 生命 ÿc1(变动)ÿc3\n15% 降低耐力消耗\n+5% 毒素抗性上限\n火焰抗性 +30%\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -966,7 +911,7 @@
         "bnCN": "19 ÿc4叶子"
     },
     "jghelp50406runewordtooltipLeaf": {
-        "enUS": "ÿc4\nStaff\nÿc3Adds 5-10 fire damage\n+3 to Fire Skills\n+3 to ÿc2Fire Bolt ÿc3(Sorceress Only)\n+3 to ÿc2Inferno ÿc3(Sorceress Only)\n+3 to ÿc2Warmth ÿc3(Sorceress Only)\n+2 to Mana after each Kill\n+(2-198) Defense (Based on Character Level) [2 * clvl]\nCold Resist +33%\n\nÿc2Optimum Base\nÿc8Long Staff\n",
+        "enUS": "ÿc4\nStaff\nÿc3Adds 5-10 fire damage\n+3 to Fire Skills\n+3 to ÿc2Fire Bolt ÿc3(Sorceress Only)\n+3 to ÿc2Inferno ÿc3(Sorceress Only)\n+3 to ÿc2Warmth ÿc3(Sorceress Only)\n+2 to Mana after each Kill\n+(2-198) Defense (Based on Character Level) [2 * clvl]\nCold Resist +33%\n\nÿc2Optimum Base\nÿc8Long Staff",
         "zhTW": "ÿc4\n雙手法杖\nÿc3附加 5 - 10 火焰傷害\n+3 火焰技能\n+3 至ÿc2火焰彈ÿc3（只限魔法使）\n+3 至ÿc2煉獄之火ÿc3（只限魔法使）\n+3 至ÿc2暖流ÿc3（只限魔法使）\n+2 擊殺法力恢復\n+(2-198) 防禦 （依角色等級而定） [2 * clvl]\n冰寒抗性 +33%\n\nÿcO重要屬性：3火SKILL\n其他亮點：2EK、+3暖流\n美中不足：缺FCR\n\nÿc;純火SOR和冰火SOR的開荒利器，底材可以找阿卡拉或者卓格南\n\nÿc2底材推薦\nÿc8長杖\n技能自然是火系為佳，帶輔助技能省技能點也可以考慮\n其他：SOLO中有3火球的底材皆可使用",
         "zhCN": "ÿc4\n双手法杖\nÿc3+ 5 - 10 火焰伤害\n+3 火系法术\n+3 至ÿc2火焰弹ÿc3（只限巫师）\n+3 至ÿc2地狱火ÿc3（只限巫师）\n+3 至ÿc2暖身术ÿc3（只限巫师）\n+2 每次消灭恢复的法力\n+(2-198) 防御 （基于角色等级） [2 * clvl]\n冰霜抗性 +33%\n\nÿcO重要属性：3火SKILL\n其他亮点：2EK、+3暖身术\n美中不足：缺FCR\n\nÿc;纯火SOR和冰火SOR的开荒利器，底材可以找阿卡拉或者卓格楠\n\nÿc2底材推荐\nÿc8长杖\n技能自然是火系为佳，带辅助技能省技能点也可以考虑\n其他：SOLO中有3火球的底材皆可使用",
         "sgCN": "ÿc4\n双手法杖\nÿc3+ 5 - 10 火焰伤害\n+3 火系法术\n+3 至ÿc2火焰弹ÿc3（只限巫师）\n+3 至ÿc2地狱火ÿc3（只限巫师）\n+3 至ÿc2暖身术ÿc3（只限巫师）\n+2 每次消灭恢复的法力\n+(2-198) 防御 （基于角色等级） [2 * clvl]\n冰霜抗性 +33%\n\nÿcO重要属性：3火SKILL\n其他亮点：2EK、+3暖身术\n美中不足：缺FCR\n\nÿc;纯火SOR和冰火SOR的开荒利器，底材可以找阿卡拉或者卓格楠\n\nÿc2底材推荐\nÿc8长杖\n技能自然是火系为佳，带辅助技能省技能点也可以考虑\n其他：SOLO中有3火球的底材皆可使用",
@@ -1030,7 +975,7 @@
         "bnCN": "25 ÿc4王恩"
     },
     "jghelp50414runewordtooltipKingsGrace": {
-        "enUS": "ÿc4\nSword/Scepter\nÿc3+100% Enhanced Damage\n+100% Damage to Demons\n+50% Damage to Undead\nAdds 5-30 fire damage\nAdds 3-14 cold damage\n+150 to Attack Rating\n+100 to Attack Rating vs. Demons\n+100 to Attack Rating vs. Undead\n7% Life stolen per hit\n",
+        "enUS": "ÿc4\nSword/Scepter\nÿc3+100% Enhanced Damage\n+100% Damage to Demons\n+50% Damage to Undead\nAdds 5-30 fire damage\nAdds 3-14 cold damage\n+150 to Attack Rating\n+100 to Attack Rating vs. Demons\n+100 to Attack Rating vs. Undead\n7% Life stolen per hit",
         "zhTW": "ÿc4\n刀劍、權杖\nÿc3+100% 傷害強化\n+100% 對惡魔的傷害\n+50% 對不死怪物的傷害\n附加 5 - 30 火焰傷害\n附加 3 - 14 冰寒傷害\n+150 準確率\n+100 對惡魔的準確率\n+100 對不死怪物的準確率\n擊中竊取 7% 生命\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n刀剑、权杖\nÿc3+100% 强化伤害\n+100% 对恶魔的伤害\n+50% 对亡灵的伤害\n+ 5 - 30 火焰伤害\n+ 3 - 14 冰霜伤害\n+150 命中值\n+100 对恶魔的命中值\n+100 对亡灵的命中值\n7% 击中时偷取生命\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n刀剑、权杖\nÿc3+100% 强化伤害\n+100% 对恶魔的伤害\n+50% 对亡灵的伤害\n+ 5 - 30 火焰伤害\n+ 3 - 14 冰霜伤害\n+150 命中值\n+100 对恶魔的命中值\n+100 对亡灵的命中值\n7% 击中时偷取生命\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1174,7 +1119,7 @@
         "bnCN": "39 ÿc4旋律"
     },
     "jghelp50432runewordtooltipMelody": {
-        "enUS": "ÿc4\nBow/Crossbow\nÿc3+50% Enhanced Damage\n+300% Damage to Undead\n+3 to Bow and Crossbow Skills (Amazon Only)\n+3 to ÿc2Critical Strike ÿc3(Amazon Only)\n+3 to ÿc2Dodge ÿc3(Amazon Only)\n+3 to ÿc2Slow Missiles ÿc3(Amazon Only)\n+20% Increased Attack Speed\n+10 to Dexterity\nKnockback\n",
+        "enUS": "ÿc4\nBow/Crossbow\nÿc3+50% Enhanced Damage\n+300% Damage to Undead\n+3 to Bow and Crossbow Skills (Amazon Only)\n+3 to ÿc2Critical Strike ÿc3(Amazon Only)\n+3 to ÿc2Dodge ÿc3(Amazon Only)\n+3 to ÿc2Slow Missiles ÿc3(Amazon Only)\n+20% Increased Attack Speed\n+10 to Dexterity\nKnockback",
         "zhTW": "ÿc4\n弓或弩\nÿc3+50% 傷害強化\n+300% 對不死怪物的傷害\n+3 弓與弩技能 （只限亞馬遜）\n+3 至ÿc2致命攻勢ÿc3（只限亞馬遜）\n+3 至ÿc2閃躲ÿc3（只限亞馬遜）\n+3 至ÿc2緩箭術ÿc3（只限亞馬遜）\n攻擊速度 +20%\n+10 敏捷\n擊退\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n弓或弩\nÿc3+50% 强化伤害\n+300% 对亡灵的伤害\n+3 弓和弩技能 （仅限亚马逊）\n+3 至ÿc2致命攻击ÿc3（仅限亚马逊）\n+3 至ÿc2闪避ÿc3（仅限亚马逊）\n+3 至ÿc2飞矢减速ÿc3（仅限亚马逊）\n+20% 提高攻击速度\n+10 敏捷\n击退\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n弓或弩\nÿc3+50% 强化伤害\n+300% 对亡灵的伤害\n+3 弓和弩技能 （仅限亚马逊）\n+3 至ÿc2致命攻击ÿc3（仅限亚马逊）\n+3 至ÿc2闪避ÿc3（仅限亚马逊）\n+3 至ÿc2飞矢减速ÿc3（仅限亚马逊）\n+20% 提高攻击速度\n+10 敏捷\n击退\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1238,7 +1183,7 @@
         "bnCN": "43 ÿc4理智之声"
     },
     "jghelp50440runewordtooltipVoiceofReason": {
-        "enUS": "ÿc4\nSword/Mace\nÿc315% Chance to cast level 13 ÿc2Frozen Orbÿc3 on striking\n18% Chance to cast level 20 ÿc2Ice Blastÿc3 on striking\n+50 to Attack Rating\n+220-350% Damage to Demons ÿc1(floating)ÿc3\n+355-375% Damage to Undead ÿc1(floating)ÿc3\n+50 to Attack Rating vs. Undead\nAdds 100-220 cold damage\n-24% to Enemy Cold Resistance\n+10 to Dexterity\nCannot Be Frozen\n75% Extra Gold from Monsters\n+1 to Light Radius\n",
+        "enUS": "ÿc4\nSword/Mace\nÿc315% Chance to cast level 13 ÿc2Frozen Orbÿc3 on striking\n18% Chance to cast level 20 ÿc2Ice Blastÿc3 on striking\n+50 to Attack Rating\n+220-350% Damage to Demons ÿc1(floating)ÿc3\n+355-375% Damage to Undead ÿc1(floating)ÿc3\n+50 to Attack Rating vs. Undead\nAdds 100-220 cold damage\n-24% to Enemy Cold Resistance\n+10 to Dexterity\nCannot Be Frozen\n75% Extra Gold from Monsters\n+1 to Light Radius",
         "zhTW": "ÿc4\n刀劍、釘錘\nÿc3擊中時有 15% 機率施展等級 13 ÿc2冰封球ÿc3\n擊中時有 18% 機率施展等級 20 ÿc2寒冰球ÿc3\n+50 準確率\n+220-350% 對惡魔的傷害 ÿc1(變動)ÿc3\n+355-375% 對不死怪物的傷害 ÿc1(變動)ÿc3\n+50 對不死怪物的準確率\n附加 100 - 220 冰寒傷害\n敵人冰寒抗性 -24%\n+10 敏捷\n無法凍結\n怪物金幣掉落量提高 75%\n照亮範圍 +1\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n刀剑、钉锤\nÿc315% 几率在击中时施放 13 级ÿc2冰封球ÿc3\n18% 几率在击中时施放 20 级ÿc2冰球爆ÿc3\n+50 命中值\n+220-350% 对恶魔的伤害 ÿc1(变动)ÿc3\n+355-375% 对亡灵的伤害 ÿc1(变动)ÿc3\n+50 对亡灵的命中值\n+ 100 - 220 冰霜伤害\n-24% 敌人的冰霜抗性\n+10 敏捷\n无法被冻结\n75% 怪物额外掉落金币\n+1 照亮范围\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n刀剑、钉锤\nÿc315% 几率在击中时施放 13 级ÿc2冰封球ÿc3\n18% 几率在击中时施放 20 级ÿc2冰球爆ÿc3\n+50 命中值\n+220-350% 对恶魔的伤害 ÿc1(变动)ÿc3\n+355-375% 对亡灵的伤害 ÿc1(变动)ÿc3\n+50 对亡灵的命中值\n+ 100 - 220 冰霜伤害\n-24% 敌人的冰霜抗性\n+10 敏捷\n无法被冻结\n75% 怪物额外掉落金币\n+1 照亮范围\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1286,7 +1231,7 @@
         "bnCN": "49 ÿc4毒液"
     },
     "jghelp50446runewordtooltipVenom": {
-        "enUS": "ÿc4\nWeapon\nÿc3Hit Causes Monster to Flee 25%\nPrevent Monster Heal\nIgnore Target's Defense\n7% Mana stolen per hit\nLevel 15 ÿc2Poison Explosion ÿc3(27 Charges)\nLevel 13 ÿc2Poison Nova ÿc3(11 Charges)\n+273 poison damage over 6 seconds 6\n",
+        "enUS": "ÿc4\nWeapon\nÿc3Hit Causes Monster to Flee 25%\nPrevent Monster Heal\nIgnore Target's Defense\n7% Mana stolen per hit\nLevel 15 ÿc2Poison Explosion ÿc3(27 Charges)\nLevel 13 ÿc2Poison Nova ÿc3(11 Charges)\n+273 poison damage over 6 seconds 6",
         "zhTW": "ÿc4\n武器\nÿc325% 機率擊中使怪物逃跑\n防止怪物自療\n無視目標防禦\n擊中竊取 7% 法力\n等級 15 ÿc2毒爆ÿc3（27 次）\n等級 13 ÿc2劇毒新星ÿc3（11 次）\n+273 毒素傷害，時效 6 秒\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n武器\nÿc325% 几率命中使怪物逃跑\n防止怪物治愈\n忽略目标的防御\n7% 击中时偷取法力\n等级 15 ÿc2毒爆ÿc3（27 次）\n等级 13 ÿc2剧毒新星ÿc3（11 次）\n+273 毒素伤害，持续 6 秒\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n武器\nÿc325% 几率命中使怪物逃跑\n防止怪物治愈\n忽略目标的防御\n7% 击中时偷取法力\n等级 15 ÿc2毒爆ÿc3（27 次）\n等级 13 ÿc2剧毒新星ÿc3（11 次）\n+273 毒素伤害，持续 6 秒\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1318,7 +1263,7 @@
         "bnCN": "53 ÿc4裂隙"
     },
     "jghelp50450runewordtooltipRift": {
-        "enUS": "ÿc4\nPolearm/Scepter\nÿc320% Chance to cast level 16 ÿc2Tornadoÿc3 on striking\n16% Chance to cast level 21 ÿc2Frozen Orbÿc3 on attack\n20% Bonus to Attack Rating\nAdds 160-250 magic damage\nAdds 60-180 fire damage\n+5-10 to all Attributes ÿc1(floating)ÿc3\n+10 to Dexterity\n38% Damage Taken Goes To Mana\n75% Extra Gold from Monsters\nLevel 15 ÿc2Iron Maiden ÿc3(40 Charges)\nRequirements -20%\n",
+        "enUS": "ÿc4\nPolearm/Scepter\nÿc320% Chance to cast level 16 ÿc2Tornadoÿc3 on striking\n16% Chance to cast level 21 ÿc2Frozen Orbÿc3 on attack\n20% Bonus to Attack Rating\nAdds 160-250 magic damage\nAdds 60-180 fire damage\n+5-10 to all Attributes ÿc1(floating)ÿc3\n+10 to Dexterity\n38% Damage Taken Goes To Mana\n75% Extra Gold from Monsters\nLevel 15 ÿc2Iron Maiden ÿc3(40 Charges)\nRequirements -20%",
         "zhTW": "ÿc4\n長柄武器、權杖\nÿc3擊中時有 20% 機率施展等級 16 ÿc2龍捲風ÿc3\n攻擊時有 16% 機率施展等級 21 ÿc2冰封球ÿc3\n20% 準確率加成\n附加 160 - 250 魔法傷害\n附加 60 - 180 火焰傷害\n+5-10 所有屬性 ÿc1(變動)ÿc3\n+10 敏捷\n38% 受到的傷害轉為法力\n怪物金幣掉落量提高 75%\n等級 15 ÿc2攻擊反噬ÿc3（40 次）\n需求 -20%\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n长柄武器、权杖\nÿc320% 几率在击中时施放 16 级ÿc2龙卷风ÿc3\n16% 几率在攻击时施放 21 级ÿc2冰封球ÿc3\n20% 加成命中值\n+ 160 - 250 魔法伤害\n+ 60 - 180 火焰伤害\n+5-10 所有属性 ÿc1(变动)ÿc3\n+10 敏捷\n38% 受到的伤害转换为法力\n75% 怪物额外掉落金币\n等級 15 ÿc2铁处女ÿc3（40 次）\n需求 -20%\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n长柄武器、权杖\nÿc320% 几率在击中时施放 16 级ÿc2龙卷风ÿc3\n16% 几率在攻击时施放 21 级ÿc2冰封球ÿc3\n20% 加成命中值\n+ 160 - 250 魔法伤害\n+ 60 - 180 火焰伤害\n+5-10 所有属性 ÿc1(变动)ÿc3\n+10 敏捷\n38% 受到的伤害转换为法力\n75% 怪物额外掉落金币\n等級 15 ÿc2铁处女ÿc3（40 次）\n需求 -20%\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1446,7 +1391,7 @@
         "bnCN": "61 ÿc4疾风"
     },
     "jghelp50466runewordtooltipWind": {
-        "enUS": "ÿc4\nMelee Weapon\nÿc310% Chance to cast level 9 ÿc2Tornadoÿc3 on striking\n+20% Faster Run/Walk\n+40% Increased Attack Speed\n+15% Faster Hit Recovery\n+120-160% Enhanced Damage ÿc1(floating)ÿc3\n-50% Target Defense\n+50 to Attack Rating\nHit Blinds Target\n+1 to Light Radius\nLevel 13 ÿc2Twister ÿc3(127 Charges)\n",
+        "enUS": "ÿc4\nMelee Weapon\nÿc310% Chance to cast level 9 ÿc2Tornadoÿc3 on striking\n+20% Faster Run/Walk\n+40% Increased Attack Speed\n+15% Faster Hit Recovery\n+120-160% Enhanced Damage ÿc1(floating)ÿc3\n-50% Target Defense\n+50 to Attack Rating\nHit Blinds Target\n+1 to Light Radius\nLevel 13 ÿc2Twister ÿc3(127 Charges)",
         "zhTW": "ÿc4\n近戰武器\nÿc3擊中時有 10% 機率施展等級 9 ÿc2龍捲風ÿc3\n+20% 跑步 / 行走速度\n攻擊速度 +40%\n+15% 打擊恢復\n+120-160% 傷害強化 ÿc1(變動)ÿc3\n-50% 目標防禦\n+50 準確率\n擊中使目標目盲\n照亮範圍 +1\n等級 13 ÿc2旋風術ÿc3（127 次）\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n近战武器\nÿc310% 几率在击中时施放 9 级ÿc2龙卷风ÿc3\n+20% 更快速跑步/步行\n+40% 提高攻击速度\n+15% 更快速打击回复\n+120-160% 强化伤害 ÿc1(变动)ÿc3\n-50% 目标防御\n+50 命中值\n命中可致盲目标\n+1 照亮范围\n等级 13 ÿc2小旋风ÿc3（127 次）\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n近战武器\nÿc310% 几率在击中时施放 9 级ÿc2龙卷风ÿc3\n+20% 更快速跑步/步行\n+40% 提高攻击速度\n+15% 更快速打击回复\n+120-160% 强化伤害 ÿc1(变动)ÿc3\n-50% 目标防御\n+50 命中值\n命中可致盲目标\n+1 照亮范围\n等级 13 ÿc2小旋风ÿc3（127 次）\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1542,7 +1487,7 @@
         "bnCN": "65 ÿc4毁灭"
     },
     "jghelp50478runewordtooltipDestruction": {
-        "enUS": "ÿc4\nPolearm/Sword\nÿc323% Chance to cast level 12 ÿc2Volcanoÿc3 on striking\n5% Chance to cast level 23 ÿc2Molten Boulderÿc3 on striking\n100% Chance to cast level 45 ÿc2Meteorÿc3 when you Die\n15% Chance to cast level 22 ÿc2Novaÿc3 on attack\n+350% Enhanced Damage\nIgnore Target's Defense\nAdds 100-180 magic damage\n7% Mana stolen per hit\n20% Chance of Crushing Blow\n20% Deadly Strike\nPrevent Monster Heal\n+10 to Dexterity\n",
+        "enUS": "ÿc4\nPolearm/Sword\nÿc323% Chance to cast level 12 ÿc2Volcanoÿc3 on striking\n5% Chance to cast level 23 ÿc2Molten Boulderÿc3 on striking\n100% Chance to cast level 45 ÿc2Meteorÿc3 when you Die\n15% Chance to cast level 22 ÿc2Novaÿc3 on attack\n+350% Enhanced Damage\nIgnore Target's Defense\nAdds 100-180 magic damage\n7% Mana stolen per hit\n20% Chance of Crushing Blow\n20% Deadly Strike\nPrevent Monster Heal\n+10 to Dexterity",
         "zhTW": "ÿc4\n長柄武器、刀劍\nÿc3擊中時有 23% 機率施展等級 12 ÿc2火山噴發ÿc3\n擊中時有 5% 機率施展等級 23 ÿc2熔火巨石ÿc3\n當你死亡時有 100% 機率施展等級 45 ÿc2隕石術ÿc3\n攻擊時有 15% 機率施展等級 22 ÿc2閃電新星ÿc3\n+350% 傷害強化\n無視目標防禦\n附加 100 - 180 魔法傷害\n擊中竊取 7% 法力\n20% 機率造成粉碎打擊\n20% 致命打擊\n防止怪物自療\n+10 敏捷\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n长柄武器、刀剑\nÿc323% 几率在击中时施放 12 级ÿc2火山爆ÿc3\n5% 几率在击中时施放 23 级ÿc2熔岩巨石ÿc3\n100% 几率在死亡时施放 45 级ÿc2陨石术ÿc3\n15% 几率在攻击时施放 22 级ÿc2闪电新星ÿc3\n+350% 强化伤害\n忽略目标的防御\n+ 100 - 180 魔法伤害\n7% 击中时偷取法力\n20% 几率粉碎打击\n20% 致死打击\n防止怪物治愈\n+10 敏捷\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n长柄武器、刀剑\nÿc323% 几率在击中时施放 12 级ÿc2火山爆ÿc3\n5% 几率在击中时施放 23 级ÿc2熔岩巨石ÿc3\n100% 几率在死亡时施放 45 级ÿc2陨石术ÿc3\n15% 几率在攻击时施放 22 级ÿc2闪电新星ÿc3\n+350% 强化伤害\n忽略目标的防御\n+ 100 - 180 魔法伤害\n7% 击中时偷取法力\n20% 几率粉碎打击\n20% 致死打击\n防止怪物治愈\n+10 敏捷\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1574,7 +1519,7 @@
         "bnCN": "65 ÿc4饥荒"
     },
     "jghelp50482runewordtooltipFamine": {
-        "enUS": "ÿc4\nAxe/Mace\nÿc3+30% Increased Attack Speed\n+320-370% Enhanced Damage ÿc1(floating)ÿc3\nIgnore Target's Defense\nAdds 180-200 magic damage\nAdds 50-200 fire damage\nAdds 51-250 lightning damage\nAdds 50-200 cold damage\n12% Life stolen per hit\nPrevent Monster Heal\n+10 to Strength\n",
+        "enUS": "ÿc4\nAxe/Mace\nÿc3+30% Increased Attack Speed\n+320-370% Enhanced Damage ÿc1(floating)ÿc3\nIgnore Target's Defense\nAdds 180-200 magic damage\nAdds 50-200 fire damage\nAdds 51-250 lightning damage\nAdds 50-200 cold damage\n12% Life stolen per hit\nPrevent Monster Heal\n+10 to Strength",
         "zhTW": "ÿc4\n斧、重鎚\nÿc3攻擊速度 +30%\n+320-370% 傷害強化 ÿc1(變動)ÿc3\n無視目標防禦\n附加 180 - 200 魔法傷害\n附加 50 - 200 火焰傷害\n附加 51 - 250 電擊傷害\n附加 50 - 200 冰寒傷害\n擊中竊取 12% 生命\n防止怪物自療\n+10 力量\n\nÿc;坑爹貨，也許還等待著誰去挖掘他們的價值",
         "zhCN": "ÿc4\n斧、大锤\nÿc3+30% 提高攻击速度\n+320-370% 强化伤害 ÿc1(变动)ÿc3\n忽略目标的防御\n+ 180 - 200 魔法伤害\n+ 50 - 200 火焰伤害\n+ 51 - 250 闪电伤害\n+ 50 - 200 冰霜伤害\n12% 击中时偷取生命\n防止怪物治愈\n+10 力量\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
         "sgCN": "ÿc4\n斧、大锤\nÿc3+30% 提高攻击速度\n+320-370% 强化伤害 ÿc1(变动)ÿc3\n忽略目标的防御\n+ 180 - 200 魔法伤害\n+ 50 - 200 火焰伤害\n+ 51 - 250 闪电伤害\n+ 50 - 200 冰霜伤害\n12% 击中时偷取生命\n防止怪物治愈\n+10 力量\n\nÿc;坑爹货，也许还等待着谁去挖掘他们的价值",
@@ -1718,12 +1663,12 @@
         "bnCN": "23 ÿc4典范"
     },
     "jghelp50500runewordtooltipPattern": {
-        "enUS": "ÿc4\nClaw\nÿc3+30% Faster Block Rate\n+40-80% Enhanced Damage ÿc1(floating)ÿc3\n10% Bonus to Attack Rating\nAdds 12-32 fire damage\nAdds 1-50 lightning damage\nAdds 3-14 cold damage\n+75 poison damage over 5 seconds\n+6 to Strength\n+6 to Dexterity\nAll Resistances +15\n",
-        "zhTW": "ÿc4\n爪或拳刃\nÿc3+30% 格擋速度\n+40-80% 傷害強化 ÿc1(變動)ÿc3\n10% 準確率加成\n附加 12 - 32 火焰傷害\n附加 1 - 50 電擊傷害\n附加 3 - 14 冰寒傷害\n+75 毒素傷害，時效 5 秒\n+6 力量\n+6 敏捷\n所有抗性 +15\n",
-        "zhCN": "ÿc4\n爪或拳刃\nÿc3+30% 更快速格挡\n+40-80% 强化伤害 ÿc1(变动)ÿc3\n10% 加成命中值\n+ 12 - 32 火焰伤害\n+ 1 - 50 闪电伤害\n+ 3 - 14 冰霜伤害\n+75 毒素伤害，持续 5 秒\n+6 力量\n+6 敏捷\n+15 所有抗性\n",
-        "sgCN": "ÿc4\n爪或拳刃\nÿc3+30% 更快速格挡\n+40-80% 强化伤害 ÿc1(变动)ÿc3\n10% 加成命中值\n+ 12 - 32 火焰伤害\n+ 1 - 50 闪电伤害\n+ 3 - 14 冰霜伤害\n+75 毒素伤害，持续 5 秒\n+6 力量\n+6 敏捷\n+15 所有抗性\n",
-        "sgTW": "ÿc4\n爪或拳刃\nÿc3+30% 格擋速度\n+40-80% 傷害強化 ÿc1(變動)ÿc3\n10% 準確率加成\n附加 12 - 32 火焰傷害\n附加 1 - 50 電擊傷害\n附加 3 - 14 冰寒傷害\n+75 毒素傷害，時效 5 秒\n+6 力量\n+6 敏捷\n所有抗性 +15\n",
-        "bnCN": "ÿc4\n爪或拳刃\nÿc3+30% 更快速格挡\n+40-80% 强化伤害 ÿc1(变动)ÿc3\n10% 加成命中值\n+ 12 - 32 火焰伤害\n+ 1 - 50 闪电伤害\n+ 3 - 14 冰霜伤害\n+75 毒素伤害，持续 5 秒\n+6 力量\n+6 敏捷\n+15 所有抗性\n"
+        "enUS": "ÿc4\nClaw\nÿc3+30% Faster Block Rate\n+40-80% Enhanced Damage ÿc1(floating)ÿc3\n10% Bonus to Attack Rating\nAdds 12-32 fire damage\nAdds 1-50 lightning damage\nAdds 3-14 cold damage\n+75 poison damage over 5 seconds\n+6 to Strength\n+6 to Dexterity\nAll Resistances +15",
+        "zhTW": "ÿc4\n爪或拳刃\nÿc3+30% 格擋速度\n+40-80% 傷害強化 ÿc1(變動)ÿc3\n10% 準確率加成\n附加 12 - 32 火焰傷害\n附加 1 - 50 電擊傷害\n附加 3 - 14 冰寒傷害\n+75 毒素傷害，時效 5 秒\n+6 力量\n+6 敏捷\n所有抗性 +15",
+        "zhCN": "ÿc4\n爪或拳刃\nÿc3+30% 更快速格挡\n+40-80% 强化伤害 ÿc1(变动)ÿc3\n10% 加成命中值\n+ 12 - 32 火焰伤害\n+ 1 - 50 闪电伤害\n+ 3 - 14 冰霜伤害\n+75 毒素伤害，持续 5 秒\n+6 力量\n+6 敏捷\n+15 所有抗性",
+        "sgCN": "ÿc4\n爪或拳刃\nÿc3+30% 更快速格挡\n+40-80% 强化伤害 ÿc1(变动)ÿc3\n10% 加成命中值\n+ 12 - 32 火焰伤害\n+ 1 - 50 闪电伤害\n+ 3 - 14 冰霜伤害\n+75 毒素伤害，持续 5 秒\n+6 力量\n+6 敏捷\n+15 所有抗性",
+        "sgTW": "ÿc4\n爪或拳刃\nÿc3+30% 格擋速度\n+40-80% 傷害強化 ÿc1(變動)ÿc3\n10% 準確率加成\n附加 12 - 32 火焰傷害\n附加 1 - 50 電擊傷害\n附加 3 - 14 冰寒傷害\n+75 毒素傷害，時效 5 秒\n+6 力量\n+6 敏捷\n所有抗性 +15",
+        "bnCN": "ÿc4\n爪或拳刃\nÿc3+30% 更快速格挡\n+40-80% 强化伤害 ÿc1(变动)ÿc3\n10% 加成命中值\n+ 12 - 32 火焰伤害\n+ 1 - 50 闪电伤害\n+ 3 - 14 冰霜伤害\n+75 毒素伤害，持续 5 秒\n+6 力量\n+6 敏捷\n+15 所有抗性"
     },
     "jghelp50501runewordUnbendingWill": {
         "enUS": "41 ÿc4Unbending Will",
@@ -1734,12 +1679,12 @@
         "bnCN": "41 ÿc4不屈之志"
     },
     "jghelp50502runewordtooltipUnbendingWill": {
-        "enUS": "ÿc4\nSword\nÿc318% Chance to cast level 18 ÿc2Tauntÿc3 on striking\n+3 Combat Skills (Barbarian Only)\n+20-30% Increased Attack Speed ÿc1(floating)ÿc3\n+300-350% Enhanced Damage ÿc1(floating)ÿc3\n+9 to Maximum Damage\n+50 to Attack Rating\n+75% Damage to Undead\n+50 to Attack Rating vs. Undead\n8-10% Life stolen per hit ÿc1(floating)ÿc3\nPrevent Monster Heal\n+10 to Strength\n+10 to Vitality\nDamage Reduced by 8\n+1 to Light Radius\nRequirements -20%\n",
-        "zhTW": "ÿc4\n刀劍\nÿc3擊中時有 18% 機率施展等級 18 ÿc2嘲諷ÿc3\n+3 戰鬥技能 （只限野蠻人）\n攻擊速度 +20-30% ÿc1(變動)ÿc3\n+300-350% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n+50 準確率\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n擊中竊取 8-10% 生命 ÿc1(變動)ÿc3\n防止怪物自療\n+10 力量\n+10 體能\n傷害降低 8\n照亮範圍 +1\n需求 -20%\n",
-        "zhCN": "ÿc4\n刀剑\nÿc318% 几率在击中时施放 18 级ÿc2嘲讽ÿc3\n+3 至战斗技能 （仅限野蛮人）\n+20-30% 提高攻击速度 ÿc1(变动)ÿc3\n+300-350% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n+50 命中值\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n8-10% 击中时偷取生命 ÿc1(变动)ÿc3\n防止怪物治愈\n+10 力量\n+10 活力\n伤害降低 8\n+1 照亮范围\n需求 -20%\n",
-        "sgCN": "ÿc4\n刀剑\nÿc318% 几率在击中时施放 18 级ÿc2嘲讽ÿc3\n+3 至战斗技能 （仅限野蛮人）\n+20-30% 提高攻击速度 ÿc1(变动)ÿc3\n+300-350% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n+50 命中值\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n8-10% 击中时偷取生命 ÿc1(变动)ÿc3\n防止怪物治愈\n+10 力量\n+10 活力\n伤害降低 8\n+1 照亮范围\n需求 -20%\n",
-        "sgTW": "ÿc4\n刀劍\nÿc3擊中時有 18% 機率施展等級 18 ÿc2嘲諷ÿc3\n+3 戰鬥技能 （只限野蠻人）\n攻擊速度 +20-30% ÿc1(變動)ÿc3\n+300-350% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n+50 準確率\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n擊中竊取 8-10% 生命 ÿc1(變動)ÿc3\n防止怪物自療\n+10 力量\n+10 體能\n傷害降低 8\n照亮範圍 +1\n需求 -20%\n",
-        "bnCN": "ÿc4\n刀剑\nÿc318% 几率在击中时施放 18 级ÿc2嘲讽ÿc3\n+3 至战斗技能 （仅限野蛮人）\n+20-30% 提高攻击速度 ÿc1(变动)ÿc3\n+300-350% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n+50 命中值\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n8-10% 击中时偷取生命 ÿc1(变动)ÿc3\n防止怪物治愈\n+10 力量\n+10 活力\n伤害降低 8\n+1 照亮范围\n需求 -20%\n"
+        "enUS": "ÿc4\nSword\nÿc318% Chance to cast level 18 ÿc2Tauntÿc3 on striking\n+3 Combat Skills (Barbarian Only)\n+20-30% Increased Attack Speed ÿc1(floating)ÿc3\n+300-350% Enhanced Damage ÿc1(floating)ÿc3\n+9 to Maximum Damage\n+50 to Attack Rating\n+75% Damage to Undead\n+50 to Attack Rating vs. Undead\n8-10% Life stolen per hit ÿc1(floating)ÿc3\nPrevent Monster Heal\n+10 to Strength\n+10 to Vitality\nDamage Reduced by 8\n+1 to Light Radius\nRequirements -20%",
+        "zhTW": "ÿc4\n刀劍\nÿc3擊中時有 18% 機率施展等級 18 ÿc2嘲諷ÿc3\n+3 戰鬥技能 （只限野蠻人）\n攻擊速度 +20-30% ÿc1(變動)ÿc3\n+300-350% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n+50 準確率\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n擊中竊取 8-10% 生命 ÿc1(變動)ÿc3\n防止怪物自療\n+10 力量\n+10 體能\n傷害降低 8\n照亮範圍 +1\n需求 -20%",
+        "zhCN": "ÿc4\n刀剑\nÿc318% 几率在击中时施放 18 级ÿc2嘲讽ÿc3\n+3 至战斗技能 （仅限野蛮人）\n+20-30% 提高攻击速度 ÿc1(变动)ÿc3\n+300-350% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n+50 命中值\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n8-10% 击中时偷取生命 ÿc1(变动)ÿc3\n防止怪物治愈\n+10 力量\n+10 活力\n伤害降低 8\n+1 照亮范围\n需求 -20%",
+        "sgCN": "ÿc4\n刀剑\nÿc318% 几率在击中时施放 18 级ÿc2嘲讽ÿc3\n+3 至战斗技能 （仅限野蛮人）\n+20-30% 提高攻击速度 ÿc1(变动)ÿc3\n+300-350% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n+50 命中值\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n8-10% 击中时偷取生命 ÿc1(变动)ÿc3\n防止怪物治愈\n+10 力量\n+10 活力\n伤害降低 8\n+1 照亮范围\n需求 -20%",
+        "sgTW": "ÿc4\n刀劍\nÿc3擊中時有 18% 機率施展等級 18 ÿc2嘲諷ÿc3\n+3 戰鬥技能 （只限野蠻人）\n攻擊速度 +20-30% ÿc1(變動)ÿc3\n+300-350% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n+50 準確率\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n擊中竊取 8-10% 生命 ÿc1(變動)ÿc3\n防止怪物自療\n+10 力量\n+10 體能\n傷害降低 8\n照亮範圍 +1\n需求 -20%",
+        "bnCN": "ÿc4\n刀剑\nÿc318% 几率在击中时施放 18 级ÿc2嘲讽ÿc3\n+3 至战斗技能 （仅限野蛮人）\n+20-30% 提高攻击速度 ÿc1(变动)ÿc3\n+300-350% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n+50 命中值\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n8-10% 击中时偷取生命 ÿc1(变动)ÿc3\n防止怪物治愈\n+10 力量\n+10 活力\n伤害降低 8\n+1 照亮范围\n需求 -20%"
     },
     "jghelp50503runewordMist": {
         "enUS": "67 ÿc4Mist",
@@ -1750,12 +1695,12 @@
         "bnCN": "67 ÿc4迷雾"
     },
     "jghelp50504runewordtooltipMist": {
-        "enUS": "ÿc4\nBow/Crossbow\nÿc3Level 8-12 ÿc2Concentrationÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+3 to All Skills\n+20% Increased Attack Speed\n+100% Piercing Attack\n+325-375% Enhanced Damage ÿc1(floating)ÿc3\n+9 to Maximum Damage\n20% Bonus to Attack Rating\nAdds 3-14 cold damage\n+24 to Vitality\nAll Resistances +40\n",
-        "zhTW": "ÿc4\n弓或弩\nÿc3裝備時賦予等級 8-12 ÿc2專注ÿc3靈氣 ÿc1(變動)ÿc3\n+3 所有技能\n攻擊速度 +20%\n+100% 穿透攻擊\n+325-375% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n20% 準確率加成\n附加 3 - 14 冰寒傷害\n+24 體能\n所有抗性 +40\n",
-        "zhCN": "ÿc4\n弓或弩\nÿc3装备时获得 8-12 级ÿc2专注ÿc3光环 ÿc1(变动)ÿc3\n+3 所有技能\n+20% 提高攻击速度\n+100% 穿刺攻击\n+325-375% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n20% 加成命中值\n+ 3 - 14 冰霜伤害\n+24 活力\n+40 所有抗性\n",
-        "sgCN": "ÿc4\n弓或弩\nÿc3装备时获得 8-12 级ÿc2专注ÿc3光环 ÿc1(变动)ÿc3\n+3 所有技能\n+20% 提高攻击速度\n+100% 穿刺攻击\n+325-375% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n20% 加成命中值\n+ 3 - 14 冰霜伤害\n+24 活力\n+40 所有抗性\n",
-        "sgTW": "ÿc4\n弓或弩\nÿc3裝備時賦予等級 8-12 ÿc2專注ÿc3靈氣 ÿc1(變動)ÿc3\n+3 所有技能\n攻擊速度 +20%\n+100% 穿透攻擊\n+325-375% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n20% 準確率加成\n附加 3 - 14 冰寒傷害\n+24 體能\n所有抗性 +40\n",
-        "bnCN": "ÿc4\n弓或弩\nÿc3装备时获得 8-12 级ÿc2专注ÿc3光环 ÿc1(变动)ÿc3\n+3 所有技能\n+20% 提高攻击速度\n+100% 穿刺攻击\n+325-375% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n20% 加成命中值\n+ 3 - 14 冰霜伤害\n+24 活力\n+40 所有抗性\n"
+        "enUS": "ÿc4\nBow/Crossbow\nÿc3Level 8-12 ÿc2Concentrationÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+3 to All Skills\n+20% Increased Attack Speed\n+100% Piercing Attack\n+325-375% Enhanced Damage ÿc1(floating)ÿc3\n+9 to Maximum Damage\n20% Bonus to Attack Rating\nAdds 3-14 cold damage\n+24 to Vitality\nAll Resistances +40",
+        "zhTW": "ÿc4\n弓或弩\nÿc3裝備時賦予等級 8-12 ÿc2專注ÿc3靈氣 ÿc1(變動)ÿc3\n+3 所有技能\n攻擊速度 +20%\n+100% 穿透攻擊\n+325-375% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n20% 準確率加成\n附加 3 - 14 冰寒傷害\n+24 體能\n所有抗性 +40",
+        "zhCN": "ÿc4\n弓或弩\nÿc3装备时获得 8-12 级ÿc2专注ÿc3光环 ÿc1(变动)ÿc3\n+3 所有技能\n+20% 提高攻击速度\n+100% 穿刺攻击\n+325-375% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n20% 加成命中值\n+ 3 - 14 冰霜伤害\n+24 活力\n+40 所有抗性",
+        "sgCN": "ÿc4\n弓或弩\nÿc3装备时获得 8-12 级ÿc2专注ÿc3光环 ÿc1(变动)ÿc3\n+3 所有技能\n+20% 提高攻击速度\n+100% 穿刺攻击\n+325-375% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n20% 加成命中值\n+ 3 - 14 冰霜伤害\n+24 活力\n+40 所有抗性",
+        "sgTW": "ÿc4\n弓或弩\nÿc3裝備時賦予等級 8-12 ÿc2專注ÿc3靈氣 ÿc1(變動)ÿc3\n+3 所有技能\n攻擊速度 +20%\n+100% 穿透攻擊\n+325-375% 傷害強化 ÿc1(變動)ÿc3\n+9 最大傷害\n20% 準確率加成\n附加 3 - 14 冰寒傷害\n+24 體能\n所有抗性 +40",
+        "bnCN": "ÿc4\n弓或弩\nÿc3装备时获得 8-12 级ÿc2专注ÿc3光环 ÿc1(变动)ÿc3\n+3 所有技能\n+20% 提高攻击速度\n+100% 穿刺攻击\n+325-375% 强化伤害 ÿc1(变动)ÿc3\n+9 最大伤害\n20% 加成命中值\n+ 3 - 14 冰霜伤害\n+24 活力\n+40 所有抗性"
     },
     "jghelp50505runewordPlague": {
         "enUS": "67 ÿc4Plague",
@@ -1766,12 +1711,12 @@
         "bnCN": "67 ÿc4瘟疫"
     },
     "jghelp50506runewordtooltipPlague": {
-        "enUS": "ÿc4\nSword/Claw/Dagger\nÿc320% Chance to cast level 12 ÿc2Lowers Resistanceÿc3 when struck\n25% Chance to cast level 15 ÿc2Poison Novaÿc3 on striking\nLevel 13-17 ÿc2Cleansingÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+1-2 to All Skills ÿc1(floating)ÿc3\nIncreased Attack Speed +20%\n+220-320% Enhanced Damage ÿc1(floating)ÿc3\n-23% to Enemy Poison Resistance\n+(0-29.7)% Deadly Strike (Based on Character Level) [0.3 * clvl]\n+25% Chance of Open Wounds\nFreezes target +3\n",
-        "zhTW": "ÿc4\n刀劍、爪或拳刃、匕首\nÿc3被擊中時有 20% 機率施展等級 12 ÿc2降低抵抗ÿc3\n擊中時有 25% 機率施展等級 15 ÿc2劇毒新星ÿc3\n裝備時賦予等級 13-17 ÿc2淨化ÿc3靈氣 ÿc1(變動)ÿc3\n+1-2 所有技能 ÿc1(變動)ÿc3\n攻擊速度 +20%\n+220-320% 傷害強化 ÿc1(變動)ÿc3\n敵人毒素抗性 -23%\n+(0-29.7)% 致命打擊 （依角色等級而定） [0.3 * clvl]\n+25% 機率造成開放傷口\n凍結目標 +3\n",
-        "zhCN": "ÿc4\n刀剑、爪或拳刃、匕首\nÿc320% 几率在被击中时施放 12 级ÿc2降低抗性ÿc3\n25% 几率在击中时施放 15 级ÿc2剧毒新星ÿc3\n装备时获得 13-17 级ÿc2净化ÿc3光环 ÿc1(变动)ÿc3\n+1-2 所有技能 ÿc1(变动)ÿc3\n+20% 提高攻击速度\n+220-320% 强化伤害 ÿc1(变动)ÿc3\n-23% 敌人的毒素抗性\n+(0-29.7)% 致死打击 （基于角色等级） [0.3 * clvl]\n+25% 几率造成开创性伤口\n冻结目标 +3\n",
-        "sgCN": "ÿc4\n刀剑、爪或拳刃、匕首\nÿc320% 几率在被击中时施放 12 级ÿc2降低抗性ÿc3\n25% 几率在击中时施放 15 级ÿc2剧毒新星ÿc3\n装备时获得 13-17 级ÿc2净化ÿc3光环 ÿc1(变动)ÿc3\n+1-2 所有技能 ÿc1(变动)ÿc3\n+20% 提高攻击速度\n+220-320% 强化伤害 ÿc1(变动)ÿc3\n-23% 敌人的毒素抗性\n+(0-29.7)% 致死打击 （基于角色等级） [0.3 * clvl]\n+25% 几率造成开创性伤口\n冻结目标 +3\n",
-        "sgTW": "ÿc4\n刀劍、爪或拳刃、匕首\nÿc3被擊中時有 20% 機率施展等級 12 ÿc2降低抵抗ÿc3\n擊中時有 25% 機率施展等級 15 ÿc2劇毒新星ÿc3\n裝備時賦予等級 13-17 ÿc2淨化ÿc3靈氣 ÿc1(變動)ÿc3\n+1-2 所有技能 ÿc1(變動)ÿc3\n攻擊速度 +20%\n+220-320% 傷害強化 ÿc1(變動)ÿc3\n敵人毒素抗性 -23%\n+(0-29.7)% 致命打擊 （依角色等級而定） [0.3 * clvl]\n+25% 機率造成開放傷口\n凍結目標 +3\n",
-        "bnCN": "ÿc4\n刀剑、爪或拳刃、匕首\nÿc320% 几率在被击中时施放 12 级ÿc2降低抗性ÿc3\n25% 几率在击中时施放 15 级ÿc2剧毒新星ÿc3\n装备时获得 13-17 级ÿc2净化ÿc3光环 ÿc1(变动)ÿc3\n+1-2 所有技能 ÿc1(变动)ÿc3\n+20% 提高攻击速度\n+220-320% 强化伤害 ÿc1(变动)ÿc3\n-23% 敌人的毒素抗性\n+(0-29.7)% 致死打击 （基于角色等级） [0.3 * clvl]\n+25% 几率造成开创性伤口\n冻结目标 +3\n"
+        "enUS": "ÿc4\nSword/Claw/Dagger\nÿc320% Chance to cast level 12 ÿc2Lowers Resistanceÿc3 when struck\n25% Chance to cast level 15 ÿc2Poison Novaÿc3 on striking\nLevel 13-17 ÿc2Cleansingÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+1-2 to All Skills ÿc1(floating)ÿc3\nIncreased Attack Speed +20%\n+220-320% Enhanced Damage ÿc1(floating)ÿc3\n-23% to Enemy Poison Resistance\n+(0-29.7)% Deadly Strike (Based on Character Level) [0.3 * clvl]\n+25% Chance of Open Wounds\nFreezes target +3",
+        "zhTW": "ÿc4\n刀劍、爪或拳刃、匕首\nÿc3被擊中時有 20% 機率施展等級 12 ÿc2降低抵抗ÿc3\n擊中時有 25% 機率施展等級 15 ÿc2劇毒新星ÿc3\n裝備時賦予等級 13-17 ÿc2淨化ÿc3靈氣 ÿc1(變動)ÿc3\n+1-2 所有技能 ÿc1(變動)ÿc3\n攻擊速度 +20%\n+220-320% 傷害強化 ÿc1(變動)ÿc3\n敵人毒素抗性 -23%\n+(0-29.7)% 致命打擊 （依角色等級而定） [0.3 * clvl]\n+25% 機率造成開放傷口\n凍結目標 +3",
+        "zhCN": "ÿc4\n刀剑、爪或拳刃、匕首\nÿc320% 几率在被击中时施放 12 级ÿc2降低抗性ÿc3\n25% 几率在击中时施放 15 级ÿc2剧毒新星ÿc3\n装备时获得 13-17 级ÿc2净化ÿc3光环 ÿc1(变动)ÿc3\n+1-2 所有技能 ÿc1(变动)ÿc3\n+20% 提高攻击速度\n+220-320% 强化伤害 ÿc1(变动)ÿc3\n-23% 敌人的毒素抗性\n+(0-29.7)% 致死打击 （基于角色等级） [0.3 * clvl]\n+25% 几率造成开创性伤口\n冻结目标 +3",
+        "sgCN": "ÿc4\n刀剑、爪或拳刃、匕首\nÿc320% 几率在被击中时施放 12 级ÿc2降低抗性ÿc3\n25% 几率在击中时施放 15 级ÿc2剧毒新星ÿc3\n装备时获得 13-17 级ÿc2净化ÿc3光环 ÿc1(变动)ÿc3\n+1-2 所有技能 ÿc1(变动)ÿc3\n+20% 提高攻击速度\n+220-320% 强化伤害 ÿc1(变动)ÿc3\n-23% 敌人的毒素抗性\n+(0-29.7)% 致死打击 （基于角色等级） [0.3 * clvl]\n+25% 几率造成开创性伤口\n冻结目标 +3",
+        "sgTW": "ÿc4\n刀劍、爪或拳刃、匕首\nÿc3被擊中時有 20% 機率施展等級 12 ÿc2降低抵抗ÿc3\n擊中時有 25% 機率施展等級 15 ÿc2劇毒新星ÿc3\n裝備時賦予等級 13-17 ÿc2淨化ÿc3靈氣 ÿc1(變動)ÿc3\n+1-2 所有技能 ÿc1(變動)ÿc3\n攻擊速度 +20%\n+220-320% 傷害強化 ÿc1(變動)ÿc3\n敵人毒素抗性 -23%\n+(0-29.7)% 致命打擊 （依角色等級而定） [0.3 * clvl]\n+25% 機率造成開放傷口\n凍結目標 +3",
+        "bnCN": "ÿc4\n刀剑、爪或拳刃、匕首\nÿc320% 几率在被击中时施放 12 级ÿc2降低抗性ÿc3\n25% 几率在击中时施放 15 级ÿc2剧毒新星ÿc3\n装备时获得 13-17 级ÿc2净化ÿc3光环 ÿc1(变动)ÿc3\n+1-2 所有技能 ÿc1(变动)ÿc3\n+20% 提高攻击速度\n+220-320% 强化伤害 ÿc1(变动)ÿc3\n-23% 敌人的毒素抗性\n+(0-29.7)% 致死打击 （基于角色等级） [0.3 * clvl]\n+25% 几率造成开创性伤口\n冻结目标 +3"
     },
     "jghelp50507runewordObsession": {
         "enUS": "69 ÿc4Obsession",
@@ -1782,124 +1727,12 @@
         "bnCN": "69 ÿc4执着"
     },
     "jghelp50508runewordtooltipObsession": {
-        "enUS": "ÿc4\nStaff\nÿc3Indestructible\n24% Chance to cast level 10 ÿc2Weakenÿc3 when struck\n+4 to All Skills\n+65% Faster Cast Rate\n+60% Faster Hit Recovery\nKnockback\n+10 to Vitality\n+10 to Energy\nIncrease Maximum Life 15-25% ÿc1(floating)ÿc3\nRegenerate Mana 15-30% ÿc1(floating)ÿc3\nAll Resistances +60-70 ÿc1(floating)ÿc3\n75% Extra Gold from Monsters\n30% Better Chance of Getting Magic Items\n",
-        "zhTW": "ÿc4\n法杖\nÿc3永不毀損\n被擊中時有 24% 機率施展等級 10 ÿc2削弱ÿc3\n+4 所有技能\n+65% 施法速度\n+60% 打擊恢復\n擊退\n+10 體能\n+10 能量\n生命上限提高 15-25% ÿc1(變動)ÿc3\n法力恢復 15-30% ÿc1(變動)ÿc3\n所有抗性 +60-70 ÿc1(變動)ÿc3\n怪物金幣掉落量提高 75%\n尋獲魔法物品機率提高 30%\n",
-        "zhCN": "ÿc4\n法杖\nÿc3不可摧毁\n24% 几率在被击中时施放 10 级ÿc2削弱ÿc3\n+4 所有技能\n+65% 更快速施法\n+60% 更快速打击回复\n击退\n+10 活力\n+10 能量\n15-25% 生命最大值 ÿc1(变动)ÿc3\n15-30% 法力回复 ÿc1(变动)ÿc3\n+60-70 所有抗性 ÿc1(变动)ÿc3\n75% 怪物额外掉落金币\n30% 额外几率获得魔法物品\n",
-        "sgCN": "ÿc4\n法杖\nÿc3不可摧毁\n24% 几率在被击中时施放 10 级ÿc2削弱ÿc3\n+4 所有技能\n+65% 更快速施法\n+60% 更快速打击回复\n击退\n+10 活力\n+10 能量\n15-25% 生命最大值 ÿc1(变动)ÿc3\n15-30% 法力回复 ÿc1(变动)ÿc3\n+60-70 所有抗性 ÿc1(变动)ÿc3\n75% 怪物额外掉落金币\n30% 额外几率获得魔法物品\n",
-        "sgTW": "ÿc4\n法杖\nÿc3永不毀損\n被擊中時有 24% 機率施展等級 10 ÿc2削弱ÿc3\n+4 所有技能\n+65% 施法速度\n+60% 打擊恢復\n擊退\n+10 體能\n+10 能量\n生命上限提高 15-25% ÿc1(變動)ÿc3\n法力恢復 15-30% ÿc1(變動)ÿc3\n所有抗性 +60-70 ÿc1(變動)ÿc3\n怪物金幣掉落量提高 75%\n尋獲魔法物品機率提高 30%\n",
-        "bnCN": "ÿc4\n法杖\nÿc3不可摧毁\n24% 几率在被击中时施放 10 级ÿc2削弱ÿc3\n+4 所有技能\n+65% 更快速施法\n+60% 更快速打击回复\n击退\n+10 活力\n+10 能量\n15-25% 生命最大值 ÿc1(变动)ÿc3\n15-30% 法力回复 ÿc1(变动)ÿc3\n+60-70 所有抗性 ÿc1(变动)ÿc3\n75% 怪物额外掉落金币\n30% 额外几率获得魔法物品\n"
-    },
-    "RwhelprunewordCure": {
-        "enUS": "35 ÿc4Cure",
-        "zhTW": "35 ÿc4治癒",
-        "zhCN": "35 ÿc4解药",
-        "sgCN": "35 ÿc4解药",
-        "sgTW": "35 ÿc4治癒",
-        "bnCN": "35 ÿc4解药"
-    },
-    "RwhelprunewordtooltipCure": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3Level 1 ÿc2Cleansingÿc3 Aura When Equipped\n+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nPoison Resist +40-60% ÿc1(floating)ÿc3\nPoison Length Reduced by 50%\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3裝備時賦予等級 1 ÿc2淨化ÿc3靈氣\n+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n毒素抗性 +40-60% ÿc1(變動)ÿc3\n中毒的時效縮短 50%\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3装备时获得 1 级ÿc2净化ÿc3光环\n+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n毒素抗性 +40-60% ÿc1(变动)ÿc3\n中毒时间缩短 50%\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3装备时获得 1 级ÿc2净化ÿc3光环\n+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n毒素抗性 +40-60% ÿc1(变动)ÿc3\n中毒时间缩短 50%\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3裝備時賦予等級 1 ÿc2淨化ÿc3靈氣\n+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n毒素抗性 +40-60% ÿc1(變動)ÿc3\n中毒的時效縮短 50%\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3装备时获得 1 级ÿc2净化ÿc3光环\n+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n毒素抗性 +40-60% ÿc1(变动)ÿc3\n中毒时间缩短 50%\n"
-    },
-    "RwhelprunewordTemper": {
-        "enUS": "35 ÿc4Temper",
-        "zhTW": "35 ÿc4和緩",
-        "zhCN": "35 ÿc4淬火",
-        "sgCN": "35 ÿc4淬火",
-        "sgTW": "35 ÿc4和緩",
-        "bnCN": "35 ÿc4淬火"
-    },
-    "RwhelprunewordtooltipTemper": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nFire Resist +40-60% ÿc1(floating)ÿc3\nFire Absorb +10-15% ÿc1(floating)\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n火焰抗性 +40-60% ÿc1(變動)ÿc3\n火焰吸收 +10-15% ÿc1(變動)\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n火焰抗性 +40-60% ÿc1(变动)ÿc3\n火焰伤害吸收 +10-15% ÿc1(变动)\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n火焰抗性 +40-60% ÿc1(变动)ÿc3\n火焰伤害吸收 +10-15% ÿc1(变动)\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n火焰抗性 +40-60% ÿc1(變動)ÿc3\n火焰吸收 +10-15% ÿc1(變動)\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n火焰抗性 +40-60% ÿc1(变动)ÿc3\n火焰伤害吸收 +10-15% ÿc1(变动)\n"
-    },
-    "RwhelprunewordGround": {
-        "enUS": "35 ÿc4Ground",
-        "zhTW": "35 ÿc4接地",
-        "zhCN": "35 ÿc4地面",
-        "sgCN": "35 ÿc4地面",
-        "sgTW": "35 ÿc4接地",
-        "bnCN": "35 ÿc4地面"
-    },
-    "RwhelprunewordtooltipGround": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nLightning Resist +40-60% ÿc1(floating)ÿc3\nLightning Absorb +10-15% ÿc1(floating)\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n電擊抗性 +40-60% ÿc1(變動)ÿc3\n電擊吸收 +10-15% ÿc1(變動)\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n闪电抗性 +40-60% ÿc1(变动)ÿc3\n闪电伤害吸收 +10-15% ÿc1(变动)\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n闪电抗性 +40-60% ÿc1(变动)ÿc3\n闪电伤害吸收 +10-15% ÿc1(变动)\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n電擊抗性 +40-60% ÿc1(變動)ÿc3\n電擊吸收 +10-15% ÿc1(變動)\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n闪电抗性 +40-60% ÿc1(变动)ÿc3\n闪电伤害吸收 +10-15% ÿc1(变动)\n"
-    },
-    "RwhelprunewordHearth": {
-        "enUS": "35 ÿc4Hearth",
-        "zhTW": "35 ÿc4火爐",
-        "zhCN": "35 ÿc4壁炉",
-        "sgCN": "35 ÿc4壁炉",
-        "sgTW": "35 ÿc4火爐",
-        "bnCN": "35 ÿc4壁炉"
-    },
-    "RwhelprunewordtooltipHearth": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nCold Resist +40-60% ÿc1(floating)ÿc3\nCold Absorb +10-15% ÿc1(floating)ÿc3\nCannot Be Frozen\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n冰寒抗性 +40-60% ÿc1(變動)ÿc3\n冰寒吸收 +10-15% ÿc1(變動)ÿc3\n無法凍結\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n冰霜抗性 +40-60% ÿc1(变动)ÿc3\n冰霜伤害吸收 +10-15% ÿc1(变动)ÿc3\n无法被冻结\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n冰霜抗性 +40-60% ÿc1(变动)ÿc3\n冰霜伤害吸收 +10-15% ÿc1(变动)ÿc3\n无法被冻结\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n冰寒抗性 +40-60% ÿc1(變動)ÿc3\n冰寒吸收 +10-15% ÿc1(變動)ÿc3\n無法凍結\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n冰霜抗性 +40-60% ÿc1(变动)ÿc3\n冰霜伤害吸收 +10-15% ÿc1(变动)ÿc3\n无法被冻结\n"
-    },
-    "RwhelprunewordBulwark": {
-        "enUS": "35 ÿc4Bulwark",
-        "zhTW": "35 ÿc4壁壘",
-        "zhCN": "35 ÿc4壁垒",
-        "sgCN": "35 ÿc4壁垒",
-        "sgTW": "35 ÿc4壁壘",
-        "bnCN": "35 ÿc4壁垒"
-    },
-    "RwhelprunewordtooltipBulwark": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n4-6% Life stolen per hit ÿc1(floating)ÿc3\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nReplenish Life +30\nDamage Reduced by 7\nPhysical Damage Received Reduced by 10-15% ÿc1(floating)\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n擊中竊取 4-6% 生命 ÿc1(變動)ÿc3\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n生命回復 +30\n傷害降低 7\n傷害降低 10-15% ÿc1(變動)\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n4-6% 击中时偷取生命 ÿc1(变动)ÿc3\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n补充生命 +30\n伤害降低 7\n伤害降低 10-15% ÿc1(变动)\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n4-6% 击中时偷取生命 ÿc1(变动)ÿc3\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n补充生命 +30\n伤害降低 7\n伤害降低 10-15% ÿc1(变动)\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n擊中竊取 4-6% 生命 ÿc1(變動)ÿc3\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n生命回復 +30\n傷害降低 7\n傷害降低 10-15% ÿc1(變動)\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n4-6% 击中时偷取生命 ÿc1(变动)ÿc3\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n补充生命 +30\n伤害降低 7\n伤害降低 10-15% ÿc1(变动)\n"
-    },
-    "RwhelprunewordMetamorphosis": {
-        "enUS": "67 ÿc4Metamorphosis",
-        "zhTW": "67 ÿc4變化",
-        "zhCN": "67 ÿc4变形",
-        "sgCN": "67 ÿc4变形",
-        "sgTW": "67 ÿc4變化",
-        "bnCN": "67 ÿc4变形"
-    },
-    "RwhelprunewordtooltipMetamorphosis": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf:\n+30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear:\n+25% Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid only)\n+25% Chance of Crushing Blow\n+50-80% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot Be Frozen\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3狼人變化的攻擊會賦予印記，持續 180 秒\n狼之印記：\n+30% 準確率加成\n生命上限提高 40%\n\n熊人變化的攻擊會賦予印記，持續 180 秒\n熊之印記：\n攻擊速度 +25%\n傷害降低 20%\n\n+5 變形技能 （只限德魯伊）\n+25% 機率造成粉碎打擊\n+50-80% 防禦強化 ÿc1(變動)ÿc3\n+10 力量\n+10 體能\n所有抗性 +10\n無法凍結\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3狼人攻击时会获得印记，持续 180 秒\n恶狼印记:\n+30% 加成命中值\n40% 生命最大值\n\n熊人攻击时会获得印记，持续 180 秒\n巨熊印记:\n+25% 攻击速度\n伤害降低 20%\n\n+5 变形技能 (仅限德鲁伊)\n+25% 几率粉碎打击\n+50-80% 强化防御 ÿc1(变动)ÿc3\n+10 力量\n+10 活力\n+10 所有抗性\n无法被冻结\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3狼人攻击时会获得印记，持续 180 秒\n恶狼印记:\n+30% 加成命中值\n40% 生命最大值\n\n熊人攻击时会获得印记，持续 180 秒\n巨熊印记:\n+25% 攻击速度\n伤害降低 20%\n\n+5 变形技能 (仅限德鲁伊)\n+25% 几率粉碎打击\n+50-80% 强化防御 ÿc1(变动)ÿc3\n+10 力量\n+10 活力\n+10 所有抗性\n无法被冻结\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3狼人變化的攻擊會賦予印記，持續 180 秒\n狼之印記：\n+30% 準確率加成\n生命上限提高 40%\n\n熊人變化的攻擊會賦予印記，持續 180 秒\n熊之印記：\n攻擊速度 +25%\n傷害降低 20%\n\n+5 變形技能 （只限德魯伊）\n+25% 機率造成粉碎打擊\n+50-80% 防禦強化 ÿc1(變動)ÿc3\n+10 力量\n+10 體能\n所有抗性 +10\n無法凍結\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3狼人攻击时会获得印记，持续 180 秒\n恶狼印记:\n+30% 加成命中值\n40% 生命最大值\n\n熊人攻击时会获得印记，持续 180 秒\n巨熊印记:\n+25% 攻击速度\n伤害降低 20%\n\n+5 变形技能 (仅限德鲁伊)\n+25% 几率粉碎打击\n+50-80% 强化防御 ÿc1(变动)ÿc3\n+10 力量\n+10 活力\n+10 所有抗性\n无法被冻结\n"
-    },
-    "Xhelp548755runewordCoven": {
-        "enUS": "51 ÿc4Coven",
-        "zhTW": "51 ÿc4巫師會",
-        "zhCN": "51 ÿc4女巫团",
-        "sgCN": "51 ÿc4女巫团",
-        "sgTW": "51 ÿc4巫師會",
-        "bnCN": "51 ÿc4女巫团"
-    },
-    "Xhelp548756runewordtooltipCoven": {
-        "enUS": "",
-        "zhTW": "\nÿcU(限術士君臨)ÿc4\n頭盔\nÿc35% 幾率在被擊中時施放10級符徽: 遲緩ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 強化防禦ÿc1(變動)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 擊中時偷取生命ÿc3\n1-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n26-40% 額外幾率獲得魔法物品ÿc1(變動)ÿc3\n",
-        "zhCN": "\nÿcU(限术士君临)ÿc4\n头盔\nÿc35% 几率在被击中时施放10级符徽: 迟缓ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 强化防御ÿc1(变动)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 击中时偷取生命ÿc3\n1-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n26-40% 额外几率获得魔法物品ÿc1(变动)ÿc3\n",
-        "sgCN": "\nÿcU(限术士君临)ÿc4\n头盔\nÿc35% 几率在被击中时施放10级符徽: 迟缓ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 强化防御ÿc1(变动)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 击中时偷取生命ÿc3\n1-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n26-40% 额外几率获得魔法物品ÿc1(变动)ÿc3\n",
-        "sgTW": "\nÿcU(限術士君臨)ÿc4\n頭盔\nÿc35% 幾率在被擊中時施放10級符徽: 遲緩ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 強化防禦ÿc1(變動)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 擊中時偷取生命ÿc3\n1-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n26-40% 額外幾率獲得魔法物品ÿc1(變動)ÿc3\n",
-        "bnCN": "\nÿcU(限术士君临)ÿc4\n头盔\nÿc35% 几率在被击中时施放10级符徽: 迟缓ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 强化防御ÿc1(变动)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 击中时偷取生命ÿc3\n1-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n26-40% 额外几率获得魔法物品ÿc1(变动)ÿc3\n"
+        "enUS": "ÿc4\nStaff\nÿc3Indestructible\n24% Chance to cast level 10 ÿc2Weakenÿc3 when struck\n+4 to All Skills\n+65% Faster Cast Rate\n+60% Faster Hit Recovery\nKnockback\n+10 to Vitality\n+10 to Energy\nIncrease Maximum Life 15-25% ÿc1(floating)ÿc3\nRegenerate Mana 15-30% ÿc1(floating)ÿc3\nAll Resistances +60-70 ÿc1(floating)ÿc3\n75% Extra Gold from Monsters\n30% Better Chance of Getting Magic Items",
+        "zhTW": "ÿc4\n法杖\nÿc3永不毀損\n被擊中時有 24% 機率施展等級 10 ÿc2削弱ÿc3\n+4 所有技能\n+65% 施法速度\n+60% 打擊恢復\n擊退\n+10 體能\n+10 能量\n生命上限提高 15-25% ÿc1(變動)ÿc3\n法力恢復 15-30% ÿc1(變動)ÿc3\n所有抗性 +60-70 ÿc1(變動)ÿc3\n怪物金幣掉落量提高 75%\n尋獲魔法物品機率提高 30%",
+        "zhCN": "ÿc4\n法杖\nÿc3不可摧毁\n24% 几率在被击中时施放 10 级ÿc2削弱ÿc3\n+4 所有技能\n+65% 更快速施法\n+60% 更快速打击回复\n击退\n+10 活力\n+10 能量\n15-25% 生命最大值 ÿc1(变动)ÿc3\n15-30% 法力回复 ÿc1(变动)ÿc3\n+60-70 所有抗性 ÿc1(变动)ÿc3\n75% 怪物额外掉落金币\n30% 额外几率获得魔法物品",
+        "sgCN": "ÿc4\n法杖\nÿc3不可摧毁\n24% 几率在被击中时施放 10 级ÿc2削弱ÿc3\n+4 所有技能\n+65% 更快速施法\n+60% 更快速打击回复\n击退\n+10 活力\n+10 能量\n15-25% 生命最大值 ÿc1(变动)ÿc3\n15-30% 法力回复 ÿc1(变动)ÿc3\n+60-70 所有抗性 ÿc1(变动)ÿc3\n75% 怪物额外掉落金币\n30% 额外几率获得魔法物品",
+        "sgTW": "ÿc4\n法杖\nÿc3永不毀損\n被擊中時有 24% 機率施展等級 10 ÿc2削弱ÿc3\n+4 所有技能\n+65% 施法速度\n+60% 打擊恢復\n擊退\n+10 體能\n+10 能量\n生命上限提高 15-25% ÿc1(變動)ÿc3\n法力恢復 15-30% ÿc1(變動)ÿc3\n所有抗性 +60-70 ÿc1(變動)ÿc3\n怪物金幣掉落量提高 75%\n尋獲魔法物品機率提高 30%",
+        "bnCN": "ÿc4\n法杖\nÿc3不可摧毁\n24% 几率在被击中时施放 10 级ÿc2削弱ÿc3\n+4 所有技能\n+65% 更快速施法\n+60% 更快速打击回复\n击退\n+10 活力\n+10 能量\n15-25% 生命最大值 ÿc1(变动)ÿc3\n15-30% 法力回复 ÿc1(变动)ÿc3\n+60-70 所有抗性 ÿc1(变动)ÿc3\n75% 怪物额外掉落金币\n30% 额外几率获得魔法物品"
     },
     "RwhelprunewordHustlea": {
         "enUS": "39 ÿc4Hysteria",
@@ -1910,12 +1743,12 @@
         "bnCN": "39 ÿc4喧嚣"
     },
     "RwhelprunewordtooltipHustlea": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nArmor\nÿc3+65% Faster Run/Walk\n40% Increased Attack Speed\n+20% Faster Hit Recovery\n+6 to ÿc2Evadeÿc3\n+10 to Dexterity\n50% Slower Stamina Drain\nAll Resistances +10\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n護甲\nÿc3+65% 跑步 / 行走速度\n攻擊速度 +40%\n+20% 打擊恢復\n+6 至ÿc2閃避ÿc3\n+10 敏捷\n精力消耗減緩 50%\n所有抗性 +10\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n护甲\nÿc3+65% 更快速跑步/步行\n40% 提高攻击速度\n+20% 更快速打击回复\n+6 至ÿc2回避ÿc3\n+10 敏捷\n50% 降低耐力消耗\n+10 所有抗性\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n护甲\nÿc3+65% 更快速跑步/步行\n40% 提高攻击速度\n+20% 更快速打击回复\n+6 至ÿc2回避ÿc3\n+10 敏捷\n50% 降低耐力消耗\n+10 所有抗性\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n護甲\nÿc3+65% 跑步 / 行走速度\n攻擊速度 +40%\n+20% 打擊恢復\n+6 至ÿc2閃避ÿc3\n+10 敏捷\n精力消耗減緩 50%\n所有抗性 +10\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n护甲\nÿc3+65% 更快速跑步/步行\n40% 提高攻击速度\n+20% 更快速打击回复\n+6 至ÿc2回避ÿc3\n+10 敏捷\n50% 降低耐力消耗\n+10 所有抗性\n"
+        "enUS": "\nÿcU(Ladder only)ÿc4\nArmor\nÿc3+65% Faster Run/Walk\n40% Increased Attack Speed\n+20% Faster Hit Recovery\n+6 to ÿc2Evadeÿc3\n+10 to Dexterity\n50% Slower Stamina Drain\nAll Resistances +10",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n護甲\nÿc3+65% 跑步 / 行走速度\n攻擊速度 +40%\n+20% 打擊恢復\n+6 至ÿc2閃避ÿc3\n+10 敏捷\n精力消耗減緩 50%\n所有抗性 +10",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n护甲\nÿc3+65% 更快速跑步/步行\n40% 提高攻击速度\n+20% 更快速打击回复\n+6 至ÿc2回避ÿc3\n+10 敏捷\n50% 降低耐力消耗\n+10 所有抗性",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n护甲\nÿc3+65% 更快速跑步/步行\n40% 提高攻击速度\n+20% 更快速打击回复\n+6 至ÿc2回避ÿc3\n+10 敏捷\n50% 降低耐力消耗\n+10 所有抗性",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n護甲\nÿc3+65% 跑步 / 行走速度\n攻擊速度 +40%\n+20% 打擊恢復\n+6 至ÿc2閃避ÿc3\n+10 敏捷\n精力消耗減緩 50%\n所有抗性 +10",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n护甲\nÿc3+65% 更快速跑步/步行\n40% 提高攻击速度\n+20% 更快速打击回复\n+6 至ÿc2回避ÿc3\n+10 敏捷\n50% 降低耐力消耗\n+10 所有抗性"
     },
     "RwhelprunewordHustlew": {
         "enUS": "39 ÿc4Mania",
@@ -1926,12 +1759,12 @@
         "bnCN": "39 ÿc4喧嚣"
     },
     "RwhelprunewordtooltipHustlew": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nWeapon\nÿc35% Chance to cast level 1 ÿc2Burst of Speedÿc3 on striking\nLevel 1 ÿc2Fanaticism ÿc3Aura When Equipped\n30% Increased Attack Speed\n+180-200% Enhanced Damage ÿc1(floating)ÿc3\n+75% Damage to Undead\n+50 to Attack Rating against Undead\n+10 to Dexterity\n",
-        "zhTW": "\nÿcU(限天梯)ÿc4\n武器\nÿc3擊中時有 5% 機率施展等級 1 ÿc2速度爆發ÿc3\n裝備時賦予等級 1 ÿc2狂熱ÿc3靈氣\n攻擊速度 +30%\n+180-200% 傷害強化 ÿc1(變動)ÿc3\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n+10 敏捷\n",
-        "zhCN": "\nÿcU(限天梯)ÿc4\n武器\nÿc35% 几率在击中时施放 1 级ÿc2速度爆发ÿc3\n装备时获得 1 级ÿc2狂热ÿc3光环\n30% 提高攻击速度\n+180-200% 强化伤害 ÿc1(变动)ÿc3\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n+10 敏捷\n",
-        "sgCN": "\nÿcU(限天梯)ÿc4\n武器\nÿc35% 几率在击中时施放 1 级ÿc2速度爆发ÿc3\n装备时获得 1 级ÿc2狂热ÿc3光环\n30% 提高攻击速度\n+180-200% 强化伤害 ÿc1(变动)ÿc3\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n+10 敏捷\n",
-        "sgTW": "\nÿcU(限天梯)ÿc4\n武器\nÿc3擊中時有 5% 機率施展等級 1 ÿc2速度爆發ÿc3\n裝備時賦予等級 1 ÿc2狂熱ÿc3靈氣\n攻擊速度 +30%\n+180-200% 傷害強化 ÿc1(變動)ÿc3\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n+10 敏捷\n",
-        "bnCN": "\nÿcU(限天梯)ÿc4\n武器\nÿc35% 几率在击中时施放 1 级ÿc2速度爆发ÿc3\n装备时获得 1 级ÿc2狂热ÿc3光环\n30% 提高攻击速度\n+180-200% 强化伤害 ÿc1(变动)ÿc3\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n+10 敏捷\n"
+        "enUS": "\nÿcU(Ladder only)ÿc4\nWeapon\nÿc35% Chance to cast level 1 ÿc2Burst of Speedÿc3 on striking\nLevel 1 ÿc2Fanaticism ÿc3Aura When Equipped\n30% Increased Attack Speed\n+180-200% Enhanced Damage ÿc1(floating)ÿc3\n+75% Damage to Undead\n+50 to Attack Rating against Undead\n+10 to Dexterity",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n武器\nÿc3擊中時有 5% 機率施展等級 1 ÿc2速度爆發ÿc3\n裝備時賦予等級 1 ÿc2狂熱ÿc3靈氣\n攻擊速度 +30%\n+180-200% 傷害強化 ÿc1(變動)ÿc3\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n+10 敏捷",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n武器\nÿc35% 几率在击中时施放 1 级ÿc2速度爆发ÿc3\n装备时获得 1 级ÿc2狂热ÿc3光环\n30% 提高攻击速度\n+180-200% 强化伤害 ÿc1(变动)ÿc3\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n+10 敏捷",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n武器\nÿc35% 几率在击中时施放 1 级ÿc2速度爆发ÿc3\n装备时获得 1 级ÿc2狂热ÿc3光环\n30% 提高攻击速度\n+180-200% 强化伤害 ÿc1(变动)ÿc3\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n+10 敏捷",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n武器\nÿc3擊中時有 5% 機率施展等級 1 ÿc2速度爆發ÿc3\n裝備時賦予等級 1 ÿc2狂熱ÿc3靈氣\n攻擊速度 +30%\n+180-200% 傷害強化 ÿc1(變動)ÿc3\n+75% 對不死怪物的傷害\n+50 對不死怪物的準確率\n+10 敏捷",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n武器\nÿc35% 几率在击中时施放 1 级ÿc2速度爆发ÿc3\n装备时获得 1 级ÿc2狂热ÿc3光环\n30% 提高攻击速度\n+180-200% 强化伤害 ÿc1(变动)ÿc3\n+75% 对亡灵的伤害\n+50 对亡灵的命中值\n+10 敏捷"
     },
     "RwhelprunewordMosaic": {
         "enUS": "53 ÿc4Mosaic",
@@ -1942,12 +1775,12 @@
         "bnCN": "53 ÿc4模糊"
     },
     "RwhelprunewordtooltipMosaic": {
-        "enUS": "\nÿcU(Ladder only)ÿc4\nClaw\nÿc350% chance for finishing moves to not consume charges\n(When a finisher is executed this way, it now refreshes the expiration timer of the stack)\n+2 to Martial Arts (Assassin Only)\n20% Increased Attack Speed\n+200-250% Enhanced Damage ÿc1(floating)ÿc3\n+20% Bonus to Attack Rating\n+7% Life stolen per hit\n+8-15% to Cold Skill Damage ÿc1(floating)ÿc3\n+8-15% to Lightning Skill Damage ÿc1(floating)ÿc3\n+8-15% to Fire Skill Damage ÿc1(floating)ÿc3\nPrevent Monster Heal\n",
-        "zhTW": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 機率使終結技不消耗集氣的力量\n(以此方式打出終結技時，會重置層數時限)\n+2 武學技藝（只限刺客）\n攻擊速度 +20%\n+200-250%傷害強化 ÿc1(變動)ÿc3\n+20% 準確率加成\n擊中竊取 7% 生命\n+10-15% 冰寒技能傷害 ÿc1(變動)ÿc3\n+10-15% 閃電技能傷害 ÿc1(變動)ÿc3\n+10-15% 火焰技能傷害 ÿc1(變動)ÿc3\n防止怪物自療\n",
-        "zhCN": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 几率终结技不消耗充能层数\n(以此方式打出终结技时，会重置层数持续时间)\n+2 武学技艺 (仅限刺客)\n20% 提高攻击速度\n+200-250%强化伤害 ÿc1(变动)ÿc3\n+20% 加成命中值\n7% 击中时偷取生命\n+10-15% 冰霜技能伤害 ÿc1(变动)ÿc3\n+10-15% 闪电技能伤害 ÿc1(变动)ÿc3\n+10-15% 火焰技能伤害 ÿc1(变动)ÿc3\n防止怪物治愈\n",
-        "sgCN": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 几率终结技不消耗充能层数\n(以此方式打出终结技时，会重置层数持续时间)\n+2 武学技艺 (仅限刺客)\n20% 提高攻击速度\n+200-250%强化伤害 ÿc1(变动)ÿc3\n+20% 加成命中值\n7% 击中时偷取生命\n+10-15% 冰霜技能伤害 ÿc1(变动)ÿc3\n+10-15% 闪电技能伤害 ÿc1(变动)ÿc3\n+10-15% 火焰技能伤害 ÿc1(变动)ÿc3\n防止怪物治愈\n",
-        "sgTW": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 機率使終結技不消耗集氣的力量\n(以此方式打出終結技時，會重置層數時限)\n+2 武學技藝（只限刺客）\n攻擊速度 +20%\n+200-250%傷害強化 ÿc1(變動)ÿc3\n+20% 準確率加成\n擊中竊取 7% 生命\n+10-15% 冰寒技能傷害 ÿc1(變動)ÿc3\n+10-15% 閃電技能傷害 ÿc1(變動)ÿc3\n+10-15% 火焰技能傷害 ÿc1(變動)ÿc3\n防止怪物自療\n",
-        "bnCN": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 几率终结技不消耗充能层数\n(以此方式打出终结技时，会重置层数持续时间)\n+2 武学技艺 (仅限刺客)\n20% 提高攻击速度\n+200-250%强化伤害 ÿc1(变动)ÿc3\n+20% 加成命中值\n7% 击中时偷取生命\n+10-15% 冰霜技能伤害 ÿc1(变动)ÿc3\n+10-15% 闪电技能伤害 ÿc1(变动)ÿc3\n+10-15% 火焰技能伤害 ÿc1(变动)ÿc3\n防止怪物治愈\n"
+        "enUS": "\nÿcU(Ladder only)ÿc4\nClaw\nÿc350% chance for finishing moves to not consume charges\n(When a finisher is executed this way, it now refreshes the expiration timer of the stack)\n+2 to Martial Arts (Assassin Only)\n20% Increased Attack Speed\n+200-250% Enhanced Damage ÿc1(floating)ÿc3\n+20% Bonus to Attack Rating\n+7% Life stolen per hit\n+8-15% to Cold Skill Damage ÿc1(floating)ÿc3\n+8-15% to Lightning Skill Damage ÿc1(floating)ÿc3\n+8-15% to Fire Skill Damage ÿc1(floating)ÿc3\nPrevent Monster Heal",
+        "zhTW": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 機率使終結技不消耗集氣的力量\n(以此方式打出終結技時，會重置層數時限)\n+2 武學技藝（只限刺客）\n攻擊速度 +20%\n+200-250%傷害強化 ÿc1(變動)ÿc3\n+20% 準確率加成\n擊中竊取 7% 生命\n+10-15% 冰寒技能傷害 ÿc1(變動)ÿc3\n+10-15% 閃電技能傷害 ÿc1(變動)ÿc3\n+10-15% 火焰技能傷害 ÿc1(變動)ÿc3\n防止怪物自療",
+        "zhCN": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 几率终结技不消耗充能层数\n(以此方式打出终结技时，会重置层数持续时间)\n+2 武学技艺 (仅限刺客)\n20% 提高攻击速度\n+200-250%强化伤害 ÿc1(变动)ÿc3\n+20% 加成命中值\n7% 击中时偷取生命\n+10-15% 冰霜技能伤害 ÿc1(变动)ÿc3\n+10-15% 闪电技能伤害 ÿc1(变动)ÿc3\n+10-15% 火焰技能伤害 ÿc1(变动)ÿc3\n防止怪物治愈",
+        "sgCN": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 几率终结技不消耗充能层数\n(以此方式打出终结技时，会重置层数持续时间)\n+2 武学技艺 (仅限刺客)\n20% 提高攻击速度\n+200-250%强化伤害 ÿc1(变动)ÿc3\n+20% 加成命中值\n7% 击中时偷取生命\n+10-15% 冰霜技能伤害 ÿc1(变动)ÿc3\n+10-15% 闪电技能伤害 ÿc1(变动)ÿc3\n+10-15% 火焰技能伤害 ÿc1(变动)ÿc3\n防止怪物治愈",
+        "sgTW": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 機率使終結技不消耗集氣的力量\n(以此方式打出終結技時，會重置層數時限)\n+2 武學技藝（只限刺客）\n攻擊速度 +20%\n+200-250%傷害強化 ÿc1(變動)ÿc3\n+20% 準確率加成\n擊中竊取 7% 生命\n+10-15% 冰寒技能傷害 ÿc1(變動)ÿc3\n+10-15% 閃電技能傷害 ÿc1(變動)ÿc3\n+10-15% 火焰技能傷害 ÿc1(變動)ÿc3\n防止怪物自療",
+        "bnCN": "\nÿcU(天梯不能做，目前非天梯可以做)ÿc4\n爪或拳刃\nÿc350% 几率终结技不消耗充能层数\n(以此方式打出终结技时，会重置层数持续时间)\n+2 武学技艺 (仅限刺客)\n20% 提高攻击速度\n+200-250%强化伤害 ÿc1(变动)ÿc3\n+20% 加成命中值\n7% 击中时偷取生命\n+10-15% 冰霜技能伤害 ÿc1(变动)ÿc3\n+10-15% 闪电技能伤害 ÿc1(变动)ÿc3\n+10-15% 火焰技能伤害 ÿc1(变动)ÿc3\n防止怪物治愈"
     },
     "Xhelp548751runewordVoid": {
         "enUS": "69 ÿc4Void",
@@ -1959,11 +1792,11 @@
     },
     "Xhelp548752runewordtooltipVoid": {
         "enUS": "",
-        "zhTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc3不可摧毀ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 強化傷害ÿc3\n+3-14 冰霜傷害ÿc3\n+10-15% 魔法技能傷害 ÿc1(變動)ÿc3\n+1-3 至深淵 ÿc1(變動)ÿc3\n+8-12 所以屬性 ÿc1(變動)ÿc3\n30% 額外幾率獲得MFÿc3\n4級衰老(35/35次充能)ÿc3\n\nÿc2底材推薦\nÿc83孔低需求匕首（3格）可用無形\n選帶適合術士天賦技能的底材\n\n\n",
-        "zhCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc3不可摧毁ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 强化伤害ÿc3\n+3-14 冰霜伤害ÿc3\n+10-15% 魔法技能伤害 ÿc1(变动)ÿc3\n+1-3 至深渊 ÿc1(变动)ÿc3\n+8-12 所以属性 ÿc1(变动)ÿc3\n30% 额外几率获得MFÿc3\n4级衰老(35/35次充能)ÿc3\n\nÿc2底材推荐\nÿc83孔低需求匕首（3格）可用无形\n选带适合术士天赋技能的底材\n\n\n",
-        "sgCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc3不可摧毁ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 强化伤害ÿc3\n+3-14 冰霜伤害ÿc3\n+10-15% 魔法技能伤害 ÿc1(变动)ÿc3\n+1-3 至深渊 ÿc1(变动)ÿc3\n+8-12 所以属性 ÿc1(变动)ÿc3\n30% 额外几率获得MFÿc3\n4级衰老(35/35次充能)ÿc3\n\nÿc2底材推荐\nÿc83孔低需求匕首（3格）可用无形\n选带适合术士天赋技能的底材\n\n\n",
-        "sgTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc3不可摧毀ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 強化傷害ÿc3\n+3-14 冰霜傷害ÿc3\n+10-15% 魔法技能傷害 ÿc1(變動)ÿc3\n+1-3 至深淵 ÿc1(變動)ÿc3\n+8-12 所以屬性 ÿc1(變動)ÿc3\n30% 額外幾率獲得MFÿc3\n4級衰老(35/35次充能)ÿc3\n\nÿc2底材推薦\nÿc83孔低需求匕首（3格）可用無形\n選帶適合術士天賦技能的底材\n\n\n",
-        "bnCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc3不可摧毁ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 强化伤害ÿc3\n+3-14 冰霜伤害ÿc3\n+10-15% 魔法技能伤害 ÿc1(变动)ÿc3\n+1-3 至深渊 ÿc1(变动)ÿc3\n+8-12 所以属性 ÿc1(变动)ÿc3\n30% 额外几率获得MFÿc3\n4级衰老(35/35次充能)ÿc3\n\nÿc2底材推荐\nÿc83孔低需求匕首（3格）可用无形\n选带适合术士天赋技能的底材\n\n\n"
+        "zhTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc3不可摧毀ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 強化傷害ÿc3\n+3-14 冰霜傷害ÿc3\n+10-15% 魔法技能傷害 ÿc1(變動)ÿc3\n+1-3 至深淵 ÿc1(變動)ÿc3\n+8-12 所以屬性 ÿc1(變動)ÿc3\n30% 額外幾率獲得MFÿc3\n4級衰老(35/35次充能)ÿc3\n\nÿc2底材推薦\nÿc83孔低需求匕首（3格）可用無形\n選帶適合術士天賦技能的底材\n\n",
+        "zhCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc3不可摧毁ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 强化伤害ÿc3\n+3-14 冰霜伤害ÿc3\n+10-15% 魔法技能伤害 ÿc1(变动)ÿc3\n+1-3 至深渊 ÿc1(变动)ÿc3\n+8-12 所以属性 ÿc1(变动)ÿc3\n30% 额外几率获得MFÿc3\n4级衰老(35/35次充能)ÿc3\n\nÿc2底材推荐\nÿc83孔低需求匕首（3格）可用无形\n选带适合术士天赋技能的底材\n\n",
+        "sgCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc3不可摧毁ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 强化伤害ÿc3\n+3-14 冰霜伤害ÿc3\n+10-15% 魔法技能伤害 ÿc1(变动)ÿc3\n+1-3 至深渊 ÿc1(变动)ÿc3\n+8-12 所以属性 ÿc1(变动)ÿc3\n30% 额外几率获得MFÿc3\n4级衰老(35/35次充能)ÿc3\n\nÿc2底材推荐\nÿc83孔低需求匕首（3格）可用无形\n选带适合术士天赋技能的底材\n\n",
+        "sgTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc3不可摧毀ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 強化傷害ÿc3\n+3-14 冰霜傷害ÿc3\n+10-15% 魔法技能傷害 ÿc1(變動)ÿc3\n+1-3 至深淵 ÿc1(變動)ÿc3\n+8-12 所以屬性 ÿc1(變動)ÿc3\n30% 額外幾率獲得MFÿc3\n4級衰老(35/35次充能)ÿc3\n\nÿc2底材推薦\nÿc83孔低需求匕首（3格）可用無形\n選帶適合術士天賦技能的底材\n\n",
+        "bnCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc3不可摧毁ÿc3\n+2 所有技能ÿc3\n+40% 施法速度ÿc3\n+15% 强化伤害ÿc3\n+3-14 冰霜伤害ÿc3\n+10-15% 魔法技能伤害 ÿc1(变动)ÿc3\n+1-3 至深渊 ÿc1(变动)ÿc3\n+8-12 所以属性 ÿc1(变动)ÿc3\n30% 额外几率获得MFÿc3\n4级衰老(35/35次充能)ÿc3\n\nÿc2底材推荐\nÿc83孔低需求匕首（3格）可用无形\n选带适合术士天赋技能的底材\n\n"
     },
     "Xhelp548753runewordRitual": {
         "enUS": "57 ÿc4XXXX",
@@ -1975,11 +1808,11 @@
     },
     "Xhelp548754runewordtooltipRitual": {
         "enUS": "",
-        "zhTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc313% 幾率在被擊中時施放1級符徽: 死亡ÿc3\n+40% 提高攻擊速度ÿc3\n+250-320% 強化傷害ÿc3\n200-260% 加成命中值ÿc1(變動)ÿc3\n150-250% 對惡魔的傷害ÿc1(變動)ÿc3\n7% 擊中時偷取生命ÿc3\n消滅的怪物就此安息ÿc3\n3-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n\nÿc2底材推薦\nÿc83孔高傷精華匕首，尖齒小刀|精\n\n",
-        "zhCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc313% 几率在被击中时施放1级符徽: 死亡ÿc3\n+40% 提高攻击速度ÿc3\n+250-320% 强化伤害ÿc3\n200-260% 加成命中值ÿc1(变动)ÿc3\n150-250% 对恶魔的伤害ÿc1(变动)ÿc3\n7% 击中时偷取生命ÿc3\n消灭的怪物就此安息ÿc3\n3-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n\nÿc2底材推荐\nÿc83孔高伤精华匕首，尖齿小刀|精\n\n",
-        "sgCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc313% 几率在被击中时施放1级符徽: 死亡ÿc3\n+40% 提高攻击速度ÿc3\n+250-320% 强化伤害ÿc3\n200-260% 加成命中值ÿc1(变动)ÿc3\n150-250% 对恶魔的伤害ÿc1(变动)ÿc3\n7% 击中时偷取生命ÿc3\n消灭的怪物就此安息ÿc3\n3-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n\nÿc2底材推荐\nÿc83孔高伤精华匕首，尖齿小刀|精\n\n",
-        "sgTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc313% 幾率在被擊中時施放1級符徽: 死亡ÿc3\n+40% 提高攻擊速度ÿc3\n+250-320% 強化傷害ÿc3\n200-260% 加成命中值ÿc1(變動)ÿc3\n150-250% 對惡魔的傷害ÿc1(變動)ÿc3\n7% 擊中時偷取生命ÿc3\n消滅的怪物就此安息ÿc3\n3-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n\nÿc2底材推薦\nÿc83孔高傷精華匕首，尖齒小刀|精\n\n",
-        "bnCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc313% 几率在被击中时施放1级符徽: 死亡ÿc3\n+40% 提高攻击速度ÿc3\n+250-320% 强化伤害ÿc3\n200-260% 加成命中值ÿc1(变动)ÿc3\n150-250% 对恶魔的伤害ÿc1(变动)ÿc3\n7% 击中时偷取生命ÿc3\n消灭的怪物就此安息ÿc3\n3-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n\nÿc2底材推荐\nÿc83孔高伤精华匕首，尖齿小刀|精\n\n"
+        "zhTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc313% 幾率在被擊中時施放1級符徽: 死亡ÿc3\n+40% 提高攻擊速度ÿc3\n+250-320% 強化傷害ÿc3\n200-260% 加成命中值ÿc1(變動)ÿc3\n150-250% 對惡魔的傷害ÿc1(變動)ÿc3\n7% 擊中時偷取生命ÿc3\n消滅的怪物就此安息ÿc3\n3-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n\nÿc2底材推薦\nÿc83孔高傷精華匕首，尖齒小刀|精\n",
+        "zhCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc313% 几率在被击中时施放1级符徽: 死亡ÿc3\n+40% 提高攻击速度ÿc3\n+250-320% 强化伤害ÿc3\n200-260% 加成命中值ÿc1(变动)ÿc3\n150-250% 对恶魔的伤害ÿc1(变动)ÿc3\n7% 击中时偷取生命ÿc3\n消灭的怪物就此安息ÿc3\n3-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n\nÿc2底材推荐\nÿc83孔高伤精华匕首，尖齿小刀|精\n",
+        "sgCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc313% 几率在被击中时施放1级符徽: 死亡ÿc3\n+40% 提高攻击速度ÿc3\n+250-320% 强化伤害ÿc3\n200-260% 加成命中值ÿc1(变动)ÿc3\n150-250% 对恶魔的伤害ÿc1(变动)ÿc3\n7% 击中时偷取生命ÿc3\n消灭的怪物就此安息ÿc3\n3-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n\nÿc2底材推荐\nÿc83孔高伤精华匕首，尖齿小刀|精\n",
+        "sgTW": "\nÿcU(限術士君臨)ÿc4\n匕首\nÿc313% 幾率在被擊中時施放1級符徽: 死亡ÿc3\n+40% 提高攻擊速度ÿc3\n+250-320% 強化傷害ÿc3\n200-260% 加成命中值ÿc1(變動)ÿc3\n150-250% 對惡魔的傷害ÿc1(變動)ÿc3\n7% 擊中時偷取生命ÿc3\n消滅的怪物就此安息ÿc3\n3-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n\nÿc2底材推薦\nÿc83孔高傷精華匕首，尖齒小刀|精\n",
+        "bnCN": "\nÿcU(限术士君临)ÿc4\n匕首\nÿc313% 几率在被击中时施放1级符徽: 死亡ÿc3\n+40% 提高攻击速度ÿc3\n+250-320% 强化伤害ÿc3\n200-260% 加成命中值ÿc1(变动)ÿc3\n150-250% 对恶魔的伤害ÿc1(变动)ÿc3\n7% 击中时偷取生命ÿc3\n消灭的怪物就此安息ÿc3\n3-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n\nÿc2底材推荐\nÿc83孔高伤精华匕首，尖齿小刀|精\n"
     },
     "jghelp50601rune01tooltip": {
         "enUS": "\nÿc0Required Level: 11\nÿc0Weapon:\nÿc3+50 to Attack Rating\n+1 to Light Radius\nÿc0Armor/Helm/Shield:\nÿc3+15 Defense\n+1 to Light Radius\n\nÿc0Drop rate:Normal - The Countess ÿc94.3%ÿc0 (About 23.2 Kills)",
@@ -2589,7 +2422,6 @@
         "sgTW": "ÿc1",
         "bnCN": "ÿc1"
     },
-
     "coloranjinse": {
         "enUS": "ÿc4",
         "zhTW": "ÿc4",
@@ -3167,12 +2999,12 @@
         "bnCN": "ÿc8赦免之证\n\n合成公式：\nÿc0ㅰ ÿc8扭曲的痛苦精华 ÿc5+ ÿc0ㅰ ÿc8充能的憎恨精华 ÿc5+ ÿc0ㅰ ÿc8燃烧的恐惧精华 ÿc5+ ÿc0ㅰ ÿc8腐烂的毁灭精华\n\nÿc5赦免之证右键点击使用后将重置人物的属性点和技能点"
     },
     "smhzhelp548762tem": {
-        "enUS": "\nÿc8Latent -> RenewedÿcU(Reign of the Warlock Only)ÿc4\n\nFormula：\nÿc4Latent Flame Riftÿc5+ÿc1Perfect Rubyÿc5+ÿc8Deep Worldstone Shardÿc5+ÿc8Ioÿc2(#16)\n\nÿc4Latent Cold Ruptureÿc5+ÿc1Perfect Sapphireÿc5+ÿc8Eastern Worldstone Shardÿc5+ÿc8Lumÿc2(#17) \n\nÿc4Latent Crack of the Heavensÿc5+ÿc1Perfect Topazÿc5+ÿc8Southern Worldstone Shardÿc5+ÿc8Falÿc2(#19) \n\nÿc4Latent Rotting Fissureÿc5+ÿc1Perfect Emeraldÿc5+ÿc8Western Worldstone Shardÿc5+ÿc8Koÿc2(#18) \n\nÿc4Latent Bone Breakÿc5+ÿc1Perfect Amethystÿc5+ÿc8Northern Worldstone Shardÿc5+ÿc8Pulÿc2(#21) \n\nÿc4Latent Black Cleftÿc5+ÿc1Perfect Diamondÿc5+ÿc8Southern/Deep/Northern Worldstone Shardÿc5+ÿc8Malÿc2(#23)\n",
-        "zhTW": "\nÿc8破免升級ÿcU(限術士君臨)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美紅ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美藍ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4電破免板ÿc5+ÿc1完美黃ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美綠ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#\n",
-        "zhCN": "\nÿc8破免升级ÿcU(限术士君临)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美红ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美蓝ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4电破免板ÿc5+ÿc1完美黄ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美绿ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#\n",
-        "sgCN": "\nÿc8破免升级ÿcU(限术士君临)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美红ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美蓝ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4电破免板ÿc5+ÿc1完美黄ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美绿ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#\n",
-        "sgTW": "\nÿc8破免升級ÿcU(限術士君臨)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美紅ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美藍ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4電破免板ÿc5+ÿc1完美黃ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美綠ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#\n",
-        "bnCN": "\nÿc8破免升级ÿcU(限术士君临)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美红ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美蓝ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4电破免板ÿc5+ÿc1完美黄ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美绿ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#\n"
+        "enUS": "\nÿc8Latent -> RenewedÿcU(Reign of the Warlock Only)ÿc4\n\nFormula：\nÿc4Latent Flame Riftÿc5+ÿc1Perfect Rubyÿc5+ÿc8Deep Worldstone Shardÿc5+ÿc8Ioÿc2(#16)\n\nÿc4Latent Cold Ruptureÿc5+ÿc1Perfect Sapphireÿc5+ÿc8Eastern Worldstone Shardÿc5+ÿc8Lumÿc2(#17) \n\nÿc4Latent Crack of the Heavensÿc5+ÿc1Perfect Topazÿc5+ÿc8Southern Worldstone Shardÿc5+ÿc8Falÿc2(#19) \n\nÿc4Latent Rotting Fissureÿc5+ÿc1Perfect Emeraldÿc5+ÿc8Western Worldstone Shardÿc5+ÿc8Koÿc2(#18) \n\nÿc4Latent Bone Breakÿc5+ÿc1Perfect Amethystÿc5+ÿc8Northern Worldstone Shardÿc5+ÿc8Pulÿc2(#21) \n\nÿc4Latent Black Cleftÿc5+ÿc1Perfect Diamondÿc5+ÿc8Southern/Deep/Northern Worldstone Shardÿc5+ÿc8Malÿc2(#23)",
+        "zhTW": "\nÿc8破免升級ÿcU(限術士君臨)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美紅ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美藍ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4電破免板ÿc5+ÿc1完美黃ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美綠ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#",
+        "zhCN": "\nÿc8破免升级ÿcU(限术士君临)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美红ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美蓝ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4电破免板ÿc5+ÿc1完美黄ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美绿ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#",
+        "sgCN": "\nÿc8破免升级ÿcU(限术士君临)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美红ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美蓝ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4电破免板ÿc5+ÿc1完美黄ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美绿ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#",
+        "sgTW": "\nÿc8破免升級ÿcU(限術士君臨)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美紅ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美藍ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4電破免板ÿc5+ÿc1完美黃ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美綠ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#",
+        "bnCN": "\nÿc8破免升级ÿcU(限术士君临)ÿc4\n\n合成公式：\nÿc4火破免板ÿc5+ÿc1完美红ÿc5+ÿc8A4碎片ÿc5+ÿc816#\n\nÿc4冰破免板ÿc5+ÿc1完美蓝ÿc5+ÿc8A2碎片ÿc5+ÿc817# \n\nÿc4电破免板ÿc5+ÿc1完美黄ÿc5+ÿc8A3碎片ÿc5+ÿc819# \n\nÿc4毒破免板ÿc5+ÿc1完美绿ÿc5+ÿc8A1碎片ÿc5+ÿc818# \n\nÿc4物理破免ÿc5+ÿc1完美紫ÿc5+ÿc8A5碎片ÿc5+ÿc821# \n\nÿc4魔法破免ÿc5+ÿc1完美白ÿc5+ÿc8A3A4A5碎片ÿc5+ÿc823#"
     },
     "kanehelp52049NBPLookupTitle": {
         "id": 52049,
@@ -3204,7 +3036,6 @@
         "sgTW": "\nÿc5幀數(F)：表示施法速度，幀數越低，施法速度越快\n遊戲底層復刻老暗黑設定：每秒2是5幀 =25F\n因此1F=0.04秒(s),8F=0.32秒(s)\n\nFCR=快速施法速度\n此表則為查詢不同職業，不同施法速度下所對應的施法檔位\n在FCR未達到更高檔位之前, 均按當前檔位計算",
         "bnCN": "\nÿc5帧数(F)：表示施法速度，帧数越低，施法速度越快\n游戏底层复刻老暗黑设定：每秒是25帧 =25F\n因此1F=0.04秒(s),8F=0.32秒(s)\n\nFCR=快速施法速度\n此表则为查询不同职业，不同施法速度下所对应的施法档位\n在FCR未达到更高档位之前，均按当前档位计算"
     },
-    
     "jcy52064Titletooltip": {
         "id": 52064,
         "Key": "jcy52064Titletooltip",
@@ -3795,23 +3626,44 @@
         "sgCN": "ÿc4\n头盔\nÿc311% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n1% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\nÿc36% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）",
         "bnCN": "ÿc4\n头盔\nÿc311% 几率在击中时施放 18 级ÿc2迷乱ÿc3\n1% 几率在被击中时施放 50 级ÿc2 迷狂ÿc3\nÿc36% 几率在被击中时施放 14 级ÿc2心灵爆震ÿc3\n14% 几率在被击中时施放 13 级ÿc2恐惧ÿc3\n+2 所有技能\n+261 防御\n+10 活力\n50% 怪物额外掉落金币\n25% 额外几率获得魔法物品\n等级 17 ÿc2吸引ÿc3（60 次）"
     },
-    "Runeword88LevelName": {
-        "enUS": "13 ÿc4Nadir",
-        "zhTW": "13 ÿc4天底",
-        "sgTW": "13 ÿc4天底",
-        "zhCN": "13 ÿc4天底",
-        "sgCN": "13 ÿc4天底",
-        "bnCN": "13 ÿc4天底"
+    "Runeword29LevelName": {
+        "id": 110291,
+        "enUS": "65 ÿc4Dream",
+        "zhTW": "65 ÿc4夢境",
+        "sgTW": "65 ÿc4夢境",
+        "zhCN": "65 ÿc4梦境",
+        "sgCN": "65 ÿc4梦境",
+        "bnCN": "65 ÿc4梦境"
     },
-    "Runeword88Info": {
-        "enUS": "ÿc4\nHelm\nÿc3+50% Enhanced Defense\n+10 Defense\n+30 Defense vs. Missile\n+5 to Strength\n+2 to Mana after each Kill\n-33% Extra Gold from Monsters\n-3 to Light Radius\nLevel 13 ÿc2Cloak of Shadows ÿc3(9 Charges)",
-        "zhTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
-        "sgTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
-        "zhCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
-        "sgCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
-        "bnCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）"
+    "Runeword29Info": {
+        "id": 110292,
+        "enUS": "ÿc4\nHelm\nÿc310% Chance to cast level 15 ÿc2Confuseÿc3 when struck\nLevel 15 ÿc2Holy Shockÿc3 Aura When Equipped\n+20-30% Faster Hit Recovery ÿc1(floating)ÿc3\n+30% Enhanced Defense\n+150-220 Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\n+(0.625-61.875) to Mana (Based on Character Level) [0.625 * clvl]\nAll Resistances +5-20 ÿc1(floating)ÿc3\n12-25% Better Chance of Getting Magic Items ÿc1(floating)ÿc3",
+        "zhTW": "ÿc4\n頭盔\nÿc3被擊中時有 10% 機率施展等級 15 ÿc2混亂ÿc3\n裝備時賦予等級 15 ÿc2神聖電擊ÿc3靈氣\n+20-30% 打擊恢復 ÿc1(變動)ÿc3\n+30% 防禦強化\n+150-220 防禦 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n+(0.625-61.875) 法力 （依角色等級而定） [0.625 * clvl]\n所有抗性 +5-20 ÿc1(變動)ÿc3\n尋獲魔法物品機率提高 12-25% ÿc1(變動)ÿc3",
+        "sgTW": "ÿc4\n頭盔\nÿc3被擊中時有 10% 機率施展等級 15 ÿc2混亂ÿc3\n裝備時賦予等級 15 ÿc2神聖電擊ÿc3靈氣\n+20-30% 打擊恢復 ÿc1(變動)ÿc3\n+30% 防禦強化\n+150-220 防禦 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n+(0.625-61.875) 法力 （依角色等級而定） [0.625 * clvl]\n所有抗性 +5-20 ÿc1(變動)ÿc3\n尋獲魔法物品機率提高 12-25% ÿc1(變動)ÿc3",
+        "zhCN": "ÿc4\n头盔\nÿc310% 几率在被击中时施放 15 级ÿc2迷乱ÿc3\n装备时获得 15 级ÿc2神圣之雷ÿc3光环\n+20-30% 更快速打击回复 ÿc1(变动)ÿc3\n+30% 强化防御\n+150-220 防御 ÿc1(变动)ÿc3\n+10 活力\n+5% 生命最大值\n+(0.625-61.875) 法力 （基于角色等级） [0.625 * clvl]\n+5-20 所有抗性 ÿc1(变动)ÿc3\n12-25% 额外几率获得魔法物品 ÿc1(变动)ÿc3",
+        "sgCN": "ÿc4\n头盔\nÿc310% 几率在被击中时施放 15 级ÿc2迷乱ÿc3\n装备时获得 15 级ÿc2神圣之雷ÿc3光环\n+20-30% 更快速打击回复 ÿc1(变动)ÿc3\n+30% 强化防御\n+150-220 防御 ÿc1(变动)ÿc3\n+10 活力\n+5% 生命最大值\n+(0.625-61.875) 法力 （基于角色等级） [0.625 * clvl]\n+5-20 所有抗性 ÿc1(变动)ÿc3\n12-25% 额外几率获得魔法物品 ÿc1(变动)ÿc3",
+        "bnCN": "ÿc4\n头盔\nÿc310% 几率在被击中时施放 15 级ÿc2迷乱ÿc3\n装备时获得 15 级ÿc2神圣之雷ÿc3光环\n+20-30% 更快速打击回复 ÿc1(变动)ÿc3\n+30% 强化防御\n+150-220 防御 ÿc1(变动)ÿc3\n+10 活力\n+5% 生命最大值\n+(0.625-61.875) 法力 （基于角色等级） [0.625 * clvl]\n+5-20 所有抗性 ÿc1(变动)ÿc3\n12-25% 额外几率获得魔法物品 ÿc1(变动)ÿc3"
+    },
+    "Runeword40LevelName": {
+        "id": 110401,
+        "enUS": "55 ÿc4Flickering Flame",
+        "zhTW": "55 ÿc4閃爍火焰",
+        "sgTW": "55 ÿc4閃爍火焰",
+        "zhCN": "55 ÿc4闪烁火焰",
+        "sgCN": "55 ÿc4闪烁火焰",
+        "bnCN": "55 ÿc4闪烁火焰"
+    },
+    "Runeword40Info": {
+        "id": 110402,
+        "enUS": "ÿc4\nHelm\nÿc3Level 4-8 ÿc2Resist Fireÿc3 Aura When Equipped ÿc1(floating)ÿc3\n+3 to Fire Skills\n-10-15% to Enemy Fire Resistance ÿc1(floating)ÿc3\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+50-75 to Mana ÿc1(floating)ÿc3\n+5% to Maximum Fire Resist\nHalf Freeze Duration\nPoison Length Reduced by 50%",
+        "zhTW": "ÿc4\n頭盔\nÿc3裝備時賦予等級 4-8 ÿc2抗火ÿc3靈氣 ÿc1(變動)ÿc3\n+3 火焰技能\n敵人火焰抗性 -10-15% ÿc1(變動)ÿc3\n+30% 防禦強化\n+30 對遠程防禦\n+50-75 法力 ÿc1(變動)ÿc3\n火焰抗性上限 +5%\n被凍結的時效減半\n中毒的時效縮短 50%",
+        "sgTW": "ÿc4\n頭盔\nÿc3裝備時賦予等級 4-8 ÿc2抗火ÿc3靈氣 ÿc1(變動)ÿc3\n+3 火焰技能\n敵人火焰抗性 -10-15% ÿc1(變動)ÿc3\n+30% 防禦強化\n+30 對遠程防禦\n+50-75 法力 ÿc1(變動)ÿc3\n火焰抗性上限 +5%\n被凍結的時效減半\n中毒的時效縮短 50%",
+        "zhCN": "ÿc4\n头盔\nÿc3装备时获得 4-8 级ÿc2抗火ÿc3光环 ÿc1(变动)ÿc3\n+3 至火系法术\n-10-15% 敌人的火焰抗性ÿc1(变动)ÿc3\n+30% 强化防御\n+30 远程防御\n+50-75 法力 ÿc1(变动)ÿc3\n+5% 火焰抗性上限\n冻结时间减半\n中毒时间缩短 50%",
+        "sgCN": "ÿc4\n头盔\nÿc3装备时获得 4-8 级ÿc2抗火ÿc3光环 ÿc1(变动)ÿc3\n+3 至火系法术\n-10-15% 敌人的火焰抗性ÿc1(变动)ÿc3\n+30% 强化防御\n+30 远程防御\n+50-75 法力 ÿc1(变动)ÿc3\n+5% 火焰抗性上限\n冻结时间减半\n中毒时间缩短 50%",
+        "bnCN": "ÿc4\n头盔\nÿc3装备时获得 4-8 级ÿc2抗火ÿc3光环 ÿc1(变动)ÿc3\n+3 至火系法术\n-10-15% 敌人的火焰抗性ÿc1(变动)ÿc3\n+30% 强化防御\n+30 远程防御\n+50-75 法力 ÿc1(变动)ÿc3\n+5% 火焰抗性上限\n冻结时间减半\n中毒时间缩短 50%"
     },
     "Runeword75LevelName": {
+        "id": 110751,
         "enUS": "27 ÿc4Lore",
         "zhTW": "27 ÿc4知識",
         "sgTW": "27 ÿc4知識",
@@ -3820,6 +3672,7 @@
         "bnCN": "27 ÿc4学识"
     },
     "Runeword75Info": {
+        "id": 110752,
         "enUS": "ÿc4\nHelm\nÿc3+1 to All Skill Levels\n+10 to Energy\nLightning Resist +30%\nDamage Reduced by 7\n+2 to Mana after each Kill\n+2 to Light Radius",
         "zhTW": "ÿc4\n頭盔\nÿc3+1 所有技能等級\n+10 能量\n電擊抗性 +30%\n傷害降低 7\n+2 擊殺法力恢復\n照亮範圍 +2",
         "sgTW": "ÿc4\n頭盔\nÿc3+1 所有技能等級\n+10 能量\n電擊抗性 +30%\n傷害降低 7\n+2 擊殺法力恢復\n照亮範圍 +2",
@@ -3827,7 +3680,44 @@
         "sgCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n闪电抗性 +30%\n伤害降低 7\n+2 每次消灭恢复的法力\n+2 照亮范围",
         "bnCN": "ÿc4\n头盔\nÿc3+1 所有技能等级\n+10 能量\n闪电抗性 +30%\n伤害降低 7\n+2 每次消灭恢复的法力\n+2 照亮范围"
     },
+    "Runeword88LevelName": {
+        "id": 110881,
+        "enUS": "13 ÿc4Nadir",
+        "zhTW": "13 ÿc4天底",
+        "sgTW": "13 ÿc4天底",
+        "zhCN": "13 ÿc4天底",
+        "sgCN": "13 ÿc4天底",
+        "bnCN": "13 ÿc4天底"
+    },
+    "Runeword88Info": {
+        "id": 110882,
+        "enUS": "ÿc4\nHelm\nÿc3+50% Enhanced Defense\n+10 Defense\n+30 Defense vs. Missile\n+5 to Strength\n+2 to Mana after each Kill\n-33% Extra Gold from Monsters\n-3 to Light Radius\nLevel 13 ÿc2Cloak of Shadows ÿc3(9 Charges)",
+        "zhTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "sgTW": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "zhCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "sgCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）",
+        "bnCN": "ÿc4\n頭盔\nÿc3+50% 防禦強化\n+10 防禦\n+30 對遠程防禦\n+5 力量\n+2 擊殺法力恢復\n怪物金幣掉落量提高 -33%\n照亮範圍 -3\n等級 13 ÿc2魔影斗蓬ÿc3（9次）"
+    },
+    "Runeword165LevelName": {
+        "id": 111651,
+        "enUS": "45 ÿc4Wisdom",
+        "zhTW": "45 ÿc4智慧",
+        "zhCN": "45 ÿc4智慧",
+        "sgCN": "45 ÿc4智慧",
+        "sgTW": "45 ÿc4智慧",
+        "bnCN": "45 ÿc4智慧"
+    },
+    "Runeword165Info": {
+        "id": 111652,
+        "enUS": "ÿc4\nHelm\nÿc3+33% Piercing Attack\n15-25% Bonus to Attack Rating ÿc1(floating)ÿc3\n4-8% Mana stolen per hit ÿc1(floating)ÿc3\n+30% Enhanced Defense\n+10 to Energy\nSlower Stamina Drain 15%\nCannot Be Frozen\n+5 to Mana after each Kill\n+15% Damage Taken Goes To Mana",
+        "zhTW": "ÿc4\n頭盔\nÿc3+33% 穿透攻擊\n15-25% 準確率加成 ÿc1(變動)ÿc3\n擊中竊取 4-8% 法力 ÿc1(變動)ÿc3\n+30% 防禦強化\n+10 能量\n精力消耗減緩 15%\n無法凍結\n+5 擊殺法力恢復\n+15% 受到的傷害轉為法力",
+        "zhCN": "ÿc4\n头盔\nÿc3+33% 穿刺攻击\n15-25% 加成命中值 ÿc1(变动)ÿc3\n4-8% 击中时偷取法力 ÿc1(变动)ÿc3\n+30% 强化防御\n+10 能量\n15% 降低耐力消耗\n无法被冻结\n+5 每次消灭恢复的法力\n+15% 受到的伤害转换为法力",
+        "sgCN": "ÿc4\n头盔\nÿc3+33% 穿刺攻击\n15-25% 加成命中值 ÿc1(变动)ÿc3\n4-8% 击中时偷取法力 ÿc1(变动)ÿc3\n+30% 强化防御\n+10 能量\n15% 降低耐力消耗\n无法被冻结\n+5 每次消灭恢复的法力\n+15% 受到的伤害转换为法力",
+        "sgTW": "ÿc4\n頭盔\nÿc3+33% 穿透攻擊\n15-25% 準確率加成 ÿc1(變動)ÿc3\n擊中竊取 4-8% 法力 ÿc1(變動)ÿc3\n+30% 防禦強化\n+10 能量\n精力消耗減緩 15%\n無法凍結\n+5 擊殺法力恢復\n+15% 受到的傷害轉為法力",
+        "bnCN": "ÿc4\n头盔\nÿc3+33% 穿刺攻击\n15-25% 加成命中值 ÿc1(变动)ÿc3\n4-8% 击中时偷取法力 ÿc1(变动)ÿc3\n+30% 强化防御\n+10 能量\n15% 降低耐力消耗\n无法被冻结\n+5 每次消灭恢复的法力\n+15% 受到的伤害转换为法力"
+    },
     "Runeword166LevelName": {
+        "id": 111661,
         "enUS": "27 ÿc4Radiance",
         "zhTW": "27 ÿc4光輝",
         "sgTW": "27 ÿc4光輝",
@@ -3836,11 +3726,138 @@
         "bnCN": "27 ÿc4光辉"
     },
     "Runeword166Info": {
+        "id": 111662,
         "enUS": "ÿc4\nHelm\nÿc3+75% Enhanced Defense\n+30 Defense vs. Missile\n+10 to Vitality\n+10 to Energy\n+33 to Mana\nDamage Reduced by 7\nMagic Damage Reduced by 3\n15% Damage Taken Goes To Mana\n+5 to Light Radius",
         "zhTW": "ÿc4\n頭盔\nÿc3+75% 防禦強化\n+30 對遠程防禦\n+10 體能\n+10 能量\n+33 法力\n傷害降低 7\n魔法傷害降低 3\n15% 受到的傷害轉為法力\n照亮範圍 +5",
         "sgTW": "ÿc4\n頭盔\nÿc3+75% 防禦強化\n+30 對遠程防禦\n+10 體能\n+10 能量\n+33 法力\n傷害降低 7\n魔法傷害降低 3\n15% 受到的傷害轉為法力\n照亮範圍 +5",
         "zhCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 活力\n+10 能量\n+33 法力\n伤害降低 7\n魔法伤害降低 3\n15% 受到的伤害转换为法力\n+5 照亮范围",
         "sgCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 活力\n+10 能量\n+33 法力\n伤害降低 7\n魔法伤害降低 3\n15% 受到的伤害转换为法力\n+5 照亮范围",
         "bnCN": "ÿc4\n头盔\nÿc3+75% 强化防御\n+30 远程防御\n+10 活力\n+10 能量\n+33 法力\n伤害降低 7\n魔法伤害降低 3\n15% 受到的伤害转换为法力\n+5 照亮范围"
+    },
+    "Runeword174LevelName": {
+        "id": 111741,
+        "enUS": "67 ÿc4Metamorphosis",
+        "zhTW": "67 ÿc4變化",
+        "sgTW": "67 ÿc4變化",
+        "zhCN": "67 ÿc4变形",
+        "sgCN": "67 ÿc4变形",
+        "bnCN": "67 ÿc4变形"
+    },
+    "Runeword174Info": {
+        "id": 111742,
+        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf:\n+30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear:\n+25% Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid only)\n+25% Chance of Crushing Blow\n+50-80% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot Be Frozen",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3狼人變化的攻擊會賦予印記，持續 180 秒\n狼之印記：\n+30% 準確率加成\n生命上限提高 40%\n\n熊人變化的攻擊會賦予印記，持續 180 秒\n熊之印記：\n攻擊速度 +25%\n傷害降低 20%\n\n+5 變形技能 （只限德魯伊）\n+25% 機率造成粉碎打擊\n+50-80% 防禦強化 ÿc1(變動)ÿc3\n+10 力量\n+10 體能\n所有抗性 +10\n無法凍結",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3狼人變化的攻擊會賦予印記，持續 180 秒\n狼之印記：\n+30% 準確率加成\n生命上限提高 40%\n\n熊人變化的攻擊會賦予印記，持續 180 秒\n熊之印記：\n攻擊速度 +25%\n傷害降低 20%\n\n+5 變形技能 （只限德魯伊）\n+25% 機率造成粉碎打擊\n+50-80% 防禦強化 ÿc1(變動)ÿc3\n+10 力量\n+10 體能\n所有抗性 +10\n無法凍結",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3狼人攻击时会获得印记，持续 180 秒\n恶狼印记:\n+30% 加成命中值\n40% 生命最大值\n\n熊人攻击时会获得印记，持续 180 秒\n巨熊印记:\n+25% 攻击速度\n伤害降低 20%\n\n+5 变形技能 (仅限德鲁伊)\n+25% 几率粉碎打击\n+50-80% 强化防御 ÿc1(变动)ÿc3\n+10 力量\n+10 活力\n+10 所有抗性\n无法被冻结",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3狼人攻击时会获得印记，持续 180 秒\n恶狼印记:\n+30% 加成命中值\n40% 生命最大值\n\n熊人攻击时会获得印记，持续 180 秒\n巨熊印记:\n+25% 攻击速度\n伤害降低 20%\n\n+5 变形技能 (仅限德鲁伊)\n+25% 几率粉碎打击\n+50-80% 强化防御 ÿc1(变动)ÿc3\n+10 力量\n+10 活力\n+10 所有抗性\n无法被冻结",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3狼人攻击时会获得印记，持续 180 秒\n恶狼印记:\n+30% 加成命中值\n40% 生命最大值\n\n熊人攻击时会获得印记，持续 180 秒\n巨熊印记:\n+25% 攻击速度\n伤害降低 20%\n\n+5 变形技能 (仅限德鲁伊)\n+25% 几率粉碎打击\n+50-80% 强化防御 ÿc1(变动)ÿc3\n+10 力量\n+10 活力\n+10 所有抗性\n无法被冻结"
+    },
+    "Runeword175LevelName": {
+        "id": 111751,
+        "enUS": "35 ÿc4Ground",
+        "zhTW": "35 ÿc4接地",
+        "zhCN": "35 ÿc4地面",
+        "sgCN": "35 ÿc4地面",
+        "sgTW": "35 ÿc4接地",
+        "bnCN": "35 ÿc4地面"
+    },
+    "Runeword175Info": {
+        "id": 111752,
+        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nLightning Resist +40-60% ÿc1(floating)ÿc3\nLightning Absorb +10-15% ÿc1(floating)",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n電擊抗性 +40-60% ÿc1(變動)ÿc3\n電擊吸收 +10-15% ÿc1(變動)",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n闪电抗性 +40-60% ÿc1(变动)ÿc3\n闪电伤害吸收 +10-15% ÿc1(变动)",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n闪电抗性 +40-60% ÿc1(变动)ÿc3\n闪电伤害吸收 +10-15% ÿc1(变动)",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n電擊抗性 +40-60% ÿc1(變動)ÿc3\n電擊吸收 +10-15% ÿc1(變動)",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n闪电抗性 +40-60% ÿc1(变动)ÿc3\n闪电伤害吸收 +10-15% ÿc1(变动)"
+    },
+    "Runeword176LevelName": {
+        "id": 111761,
+        "enUS": "35 ÿc4Temper",
+        "zhTW": "35 ÿc4和緩",
+        "zhCN": "35 ÿc4淬火",
+        "sgCN": "35 ÿc4淬火",
+        "sgTW": "35 ÿc4和緩",
+        "bnCN": "35 ÿc4淬火"
+    },
+    "Runeword176Info": {
+        "id": 111762,
+        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nFire Resist +40-60% ÿc1(floating)ÿc3\nFire Absorb +10-15% ÿc1(floating)",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n火焰抗性 +40-60% ÿc1(變動)ÿc3\n火焰吸收 +10-15% ÿc1(變動)",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n火焰抗性 +40-60% ÿc1(变动)ÿc3\n火焰伤害吸收 +10-15% ÿc1(变动)",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n火焰抗性 +40-60% ÿc1(变动)ÿc3\n火焰伤害吸收 +10-15% ÿc1(变动)",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n火焰抗性 +40-60% ÿc1(變動)ÿc3\n火焰吸收 +10-15% ÿc1(變動)",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n火焰抗性 +40-60% ÿc1(变动)ÿc3\n火焰伤害吸收 +10-15% ÿc1(变动)"
+    },
+    "Runeword177LevelName": {
+        "id": 111771,
+        "enUS": "35 ÿc4Hearth",
+        "zhTW": "35 ÿc4火爐",
+        "zhCN": "35 ÿc4壁炉",
+        "sgCN": "35 ÿc4壁炉",
+        "sgTW": "35 ÿc4火爐",
+        "bnCN": "35 ÿc4壁炉"
+    },
+    "Runeword177Info": {
+        "id": 111772,
+        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nCold Resist +40-60% ÿc1(floating)ÿc3\nCold Absorb +10-15% ÿc1(floating)ÿc3\nCannot Be Frozen",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n冰寒抗性 +40-60% ÿc1(變動)ÿc3\n冰寒吸收 +10-15% ÿc1(變動)ÿc3\n無法凍結",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n冰霜抗性 +40-60% ÿc1(变动)ÿc3\n冰霜伤害吸收 +10-15% ÿc1(变动)ÿc3\n无法被冻结",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n冰霜抗性 +40-60% ÿc1(变动)ÿc3\n冰霜伤害吸收 +10-15% ÿc1(变动)ÿc3\n无法被冻结",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n冰寒抗性 +40-60% ÿc1(變動)ÿc3\n冰寒吸收 +10-15% ÿc1(變動)ÿc3\n無法凍結",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n冰霜抗性 +40-60% ÿc1(变动)ÿc3\n冰霜伤害吸收 +10-15% ÿc1(变动)ÿc3\n无法被冻结"
+    },
+    "Runeword178LevelName": {
+        "id": 111781,
+        "enUS": "35 ÿc4Cure",
+        "zhTW": "35 ÿc4治癒",
+        "zhCN": "35 ÿc4解药",
+        "sgCN": "35 ÿc4解药",
+        "sgTW": "35 ÿc4治癒",
+        "bnCN": "35 ÿc4解药"
+    },
+    "Runeword178Info": {
+        "id": 111782,
+        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3Level 1 ÿc2Cleansingÿc3 Aura When Equipped\n+20% Faster Hit Recovery\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nPoison Resist +40-60% ÿc1(floating)ÿc3\nPoison Length Reduced by 50%",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3裝備時賦予等級 1 ÿc2淨化ÿc3靈氣\n+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n毒素抗性 +40-60% ÿc1(變動)ÿc3\n中毒的時效縮短 50%",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3装备时获得 1 级ÿc2净化ÿc3光环\n+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n毒素抗性 +40-60% ÿc1(变动)ÿc3\n中毒时间缩短 50%",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3装备时获得 1 级ÿc2净化ÿc3光环\n+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n毒素抗性 +40-60% ÿc1(变动)ÿc3\n中毒时间缩短 50%",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3裝備時賦予等級 1 ÿc2淨化ÿc3靈氣\n+20% 打擊恢復\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n毒素抗性 +40-60% ÿc1(變動)ÿc3\n中毒的時效縮短 50%",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3装备时获得 1 级ÿc2净化ÿc3光环\n+20% 更快速打击回复\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n毒素抗性 +40-60% ÿc1(变动)ÿc3\n中毒时间缩短 50%"
+    },
+    "Runeword179LevelName": {
+        "id": 111791,
+        "enUS": "35 ÿc4Bulwark",
+        "zhTW": "35 ÿc4壁壘",
+        "zhCN": "35 ÿc4壁垒",
+        "sgCN": "35 ÿc4壁垒",
+        "sgTW": "35 ÿc4壁壘",
+        "bnCN": "35 ÿc4壁垒"
+    },
+    "Runeword179Info": {
+        "id": 111792,
+        "enUS": "\nÿcU(Ladder only)ÿc4\nHelm\nÿc3+20% Faster Hit Recovery\n4-6% Life stolen per hit ÿc1(floating)ÿc3\n+75-100% Enhanced Defense ÿc1(floating)ÿc3\n+10 to Vitality\nIncrease Maximum Life 5%\nReplenish Life +30\nDamage Reduced by 7\nPhysical Damage Received Reduced by 10-15% ÿc1(floating)",
+        "zhTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n擊中竊取 4-6% 生命 ÿc1(變動)ÿc3\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n生命回復 +30\n傷害降低 7\n傷害降低 10-15% ÿc1(變動)",
+        "zhCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n4-6% 击中时偷取生命 ÿc1(变动)ÿc3\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n补充生命 +30\n伤害降低 7\n伤害降低 10-15% ÿc1(变动)",
+        "sgCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n4-6% 击中时偷取生命 ÿc1(变动)ÿc3\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n补充生命 +30\n伤害降低 7\n伤害降低 10-15% ÿc1(变动)",
+        "sgTW": "\nÿcU(限天梯)ÿc4\n頭盔\nÿc3+20% 打擊恢復\n擊中竊取 4-6% 生命 ÿc1(變動)ÿc3\n+75-100%  防禦強化 ÿc1(變動)ÿc3\n+10 體能\n生命上限提高 5%\n生命回復 +30\n傷害降低 7\n傷害降低 10-15% ÿc1(變動)",
+        "bnCN": "\nÿcU(限天梯)ÿc4\n头盔\nÿc3+20% 更快速打击回复\n4-6% 击中时偷取生命 ÿc1(变动)ÿc3\n+75-100%  强化防御 ÿc1(变动)ÿc3\n+10 活力\n5% 生命最大值\n补充生命 +30\n伤害降低 7\n伤害降低 10-15% ÿc1(变动)"
+    },
+    "Runeword180LevelName": {
+        "id": 111801,
+        "enUS": "51 ÿc4Coven",
+        "zhTW": "51 ÿc4巫師會",
+        "zhCN": "51 ÿc4女巫团",
+        "sgCN": "51 ÿc4女巫团",
+        "sgTW": "51 ÿc4巫師會",
+        "bnCN": "51 ÿc4女巫团"
+    },
+    "Runeword180Info": {
+        "id": 111802,
+        "enUS": "",
+        "zhTW": "\nÿcU(限術士君臨)ÿc4\n頭盔\nÿc35% 幾率在被擊中時施放10級符徽: 遲緩ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 強化防禦ÿc1(變動)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 擊中時偷取生命ÿc3\n1-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n26-40% 額外幾率獲得魔法物品ÿc1(變動)ÿc3",
+        "zhCN": "\nÿcU(限术士君临)ÿc4\n头盔\nÿc35% 几率在被击中时施放10级符徽: 迟缓ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 强化防御ÿc1(变动)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 击中时偷取生命ÿc3\n1-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n26-40% 额外几率获得魔法物品ÿc1(变动)ÿc3",
+        "sgCN": "\nÿcU(限术士君临)ÿc4\n头盔\nÿc35% 几率在被击中时施放10级符徽: 迟缓ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 强化防御ÿc1(变动)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 击中时偷取生命ÿc3\n1-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n26-40% 额外几率获得魔法物品ÿc1(变动)ÿc3",
+        "sgTW": "\nÿcU(限術士君臨)ÿc4\n頭盔\nÿc35% 幾率在被擊中時施放10級符徽: 遲緩ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 強化防禦ÿc1(變動)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 擊中時偷取生命ÿc3\n1-5 每次消滅恢復的生命ÿc1(變動)ÿc3\n26-40% 額外幾率獲得魔法物品ÿc1(變動)ÿc3",
+        "bnCN": "\nÿcU(限术士君临)ÿc4\n头盔\nÿc35% 几率在被击中时施放10级符徽: 迟缓ÿc3\n+1 所有技能ÿc3\n+20% 更快速施法ÿc3\n30-50% 强化防御ÿc1(变动)ÿc3\n+10 活力ÿc3\n火焰抗性 +30%ÿc3\n7% 击中时偷取生命ÿc3\n1-5 每次消灭恢复的生命ÿc1(变动)ÿc3\n26-40% 额外几率获得魔法物品ÿc1(变动)ÿc3"
     }
 }

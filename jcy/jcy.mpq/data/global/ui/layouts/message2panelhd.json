@@ -125,18 +125,6 @@
                                         },
                                         {
                                             "type": "ImageWidget",
-                                            "name": "HelmetImage",
-                                            "fields": {
-                                                "rect": {
-                                                    "x": 10,
-                                                    "y": -30,
-                                                    "scale": 0.3
-                                                },
-                                                "filename": "items\\armor\\circlet\\tiara"
-                                            }
-                                        },
-                                        {
-                                            "type": "ImageWidget",
                                             "name": "Divider",
                                             "fields": {
                                                 "rect": {
@@ -180,7 +168,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword88@jghelp50102runewordtooltipNadir",
+                                                                "tooltipString": "@coloranjinse@Runeword88@Runeword88Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -481,7 +469,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@RwhelprunewordTemper",
+                                                        "text": "@Runeword176LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -490,7 +478,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword176@RwhelprunewordtooltipTemper",
+                                                                "tooltipString": "@coloranjinse@Runeword176@Runeword176Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -564,7 +552,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@RwhelprunewordGround",
+                                                        "text": "@Runeword175LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -573,7 +561,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword175@RwhelprunewordtooltipGround",
+                                                                "tooltipString": "@coloranjinse@Runeword175@Runeword175Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -647,7 +635,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@RwhelprunewordHearth",
+                                                        "text": "@Runeword177LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -656,7 +644,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword177@RwhelprunewordtooltipHearth",
+                                                                "tooltipString": "@coloranjinse@Runeword177@Runeword177Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -730,7 +718,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@RwhelprunewordBulwark",
+                                                        "text": "@Runeword179LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -739,7 +727,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword179@RwhelprunewordtooltipBulwark",
+                                                                "tooltipString": "@coloranjinse@Runeword179@Runeword179Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -813,7 +801,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50111runewordWisdom",
+                                                        "text": "@Runeword165LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -822,7 +810,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword165@jghelp50112runewordtooltipWisdom",
+                                                                "tooltipString": "@coloranjinse@Runeword165@Runeword165Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -979,7 +967,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50113runewordFlickeringFlame",
+                                                        "text": "@Runeword40LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -988,7 +976,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword40@jghelp50114runewordtooltipFlickeringFlame",
+                                                                "tooltipString": "@coloranjinse@Runeword40@Runeword40Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1062,7 +1050,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@jghelp50109runewordDream",
+                                                        "text": "@Runeword29LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1071,7 +1059,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword29@jghelp50110runewordtooltipDream",
+                                                                "tooltipString": "@coloranjinse@Runeword29@Runeword29Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1145,7 +1133,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@Xhelp548755runewordCoven",
+                                                        "text": "@Runeword180LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1154,7 +1142,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword180@Xhelp548756runewordtooltipCoven",
+                                                                "tooltipString": "@coloranjinse@Runeword180@Runeword180Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
@@ -1228,7 +1216,7 @@
                                                     "name": "RuneWordText",
                                                     "fields": {
                                                         "rect": "$RuneWordNameWidgetRect",
-                                                        "text": "@RwhelprunewordMetamorphosis",
+                                                        "text": "@Runeword174LevelName",
                                                         "style": "$RuneWordTextBoxWidgetStyle"
                                                     },
                                                     "children": [
@@ -1237,7 +1225,7 @@
                                                             "name": "Tooltip",
                                                             "fields": {
                                                                 "fitToParent": true,
-                                                                "tooltipString": "@coloranjinse@Runeword174@RwhelprunewordtooltipMetamorphosis",
+                                                                "tooltipString": "@coloranjinse@Runeword174@Runeword174Info",
                                                                 "tooltipStyle": "$StandardToolTipStyle"
                                                             }
                                                         }
