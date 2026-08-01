@@ -1494,40 +1494,10 @@
             "pipeCharacterBehavior": "handle"
         }
     },
-    "RuneWordSolt1": {
-        "x": 295,
-        "y": -5,
-        "width": 98,
-        "height": 98
-    },
-    "RuneWordSolt2": {
-        "x": 395,
-        "y": -5,
-        "width": 98,
-        "height": 98
-    },
-    "RuneWordSolt3": {
-        "x": 495,
-        "y": -5,
-        "width": 98,
-        "height": 98
-    },
-    "RuneWordSolt4": {
-        "x": 595,
-        "y": -5,
-        "width": 98,
-        "height": 98
-    },
-    "RuneWordSolt5": {
-        "x": 695,
-        "y": -5,
-        "width": 98,
-        "height": 98
-    },
-    "RuneWordSolt6": {
-        "x": 795,
-        "y": -5,
-        "width": 98,
-        "height": 98
-    }
+    "RuneWordSolt1": { "x": 280, "y": -6, "width": 98, "height": 98 },
+    "RuneWordSolt2": { "x": 380, "y": -6, "width": 98, "height": 98 },
+    "RuneWordSolt3": { "x": 480, "y": -6, "width": 98, "height": 98 },
+    "RuneWordSolt4": { "x": 580, "y": -6, "width": 98, "height": 98 },
+    "RuneWordSolt5": { "x": 680, "y": -6, "width": 98, "height": 98 },
+    "RuneWordSolt6": { "x": 780, "y": -6, "width": 98, "height": 98 }
 }
