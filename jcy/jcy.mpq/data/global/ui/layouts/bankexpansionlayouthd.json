@@ -6,8 +6,8 @@
         "backgroundFile": [
             "PANEL\\Stash\\StashPanel_BG_Personal",
             "PANEL\\Stash\\StashPanel_BG_Personal",
-            "PANEL\\Stash\\AdditionalStash\\panel_additionalstash_consumables",
-            "PANEL\\Stash\\AdditionalStash\\PANEL_AdditionalStash_other"
+            "jcy\\stash\\additionalstash\\panel_additionalstash_consumables",
+            "jcy\\stash\\additionalstash\\panel_additionalstash_other"
         ],
         "tabNotificationDurationSeconds": 0.33,
         "tabNotificationFlashInterval": 3,
@@ -46,7 +46,7 @@
                     "y": 146
                 },
                 "tabCount": 4,
-                "filename": "PANEL\\stash\\MKB_Tabs_195_TGA_4",
+                "filename": "jcy\\stash\\MKB_Tabs_195_TGA_4",
                 "inactiveFrames": [
                     0,
                     0,
