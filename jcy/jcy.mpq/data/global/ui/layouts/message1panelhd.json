@@ -106,7 +106,7 @@
                                 "filename": "items/misc/rune/El_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r01L\n@Rune01Info",
+                                "tooltipString": "@Color8@r01L\n@Rune01Info",
                                 "sound": ""
                             }
                         },
@@ -122,7 +122,7 @@
                                 "filename": "items/misc/rune/Eld_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r02L\n\n@mod51091gameguidetxt6\n@r01L @colorhuise×3\n@Rune02Info",
+                                "tooltipString": "@Color8@r02L\n\n@mod51091gameguidetxt6\n@r01L @Color5×3\n@Rune02Info",
                                 "sound": ""
                             }
                         },
@@ -138,7 +138,7 @@
                                 "filename": "items/misc/rune/Tir_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r03L\n\n@mod51091gameguidetxt6\n@r02L @colorhuise×3\n@Rune03Info",
+                                "tooltipString": "@Color8@r03L\n\n@mod51091gameguidetxt6\n@r02L @Color5×3\n@Rune03Info",
                                 "sound": ""
                             }
                         },
@@ -154,7 +154,7 @@
                                 "filename": "items/misc/rune/Nef_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r04L\n\n@mod51091gameguidetxt6\n@r03L @colorhuise×3\n@Rune04Info",
+                                "tooltipString": "@Color8@r04L\n\n@mod51091gameguidetxt6\n@r03L @Color5×3\n@Rune04Info",
                                 "sound": ""
                             }
                         },
@@ -170,7 +170,7 @@
                                 "filename": "items/misc/rune/Eth_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r05L\n\n@mod51091gameguidetxt6\n@r04L @colorhuise×3\n@Rune05Info",
+                                "tooltipString": "@Color8@r05L\n\n@mod51091gameguidetxt6\n@r04L @Color5×3\n@Rune05Info",
                                 "sound": ""
                             }
                         },
@@ -186,7 +186,7 @@
                                 "filename": "items/misc/rune/Ith_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r06L\n\n@mod51091gameguidetxt6\n@r05L @colorhuise×3\n@Rune06Info",
+                                "tooltipString": "@Color8@r06L\n\n@mod51091gameguidetxt6\n@r05L @Color5×3\n@Rune06Info",
                                 "sound": ""
                             }
                         },
@@ -202,7 +202,7 @@
                                 "filename": "items/misc/rune/Tal_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r07L\n\n@mod51091gameguidetxt6\n@r06L @colorhuise×3\n@Rune07Info",
+                                "tooltipString": "@Color8@r07L\n\n@mod51091gameguidetxt6\n@r06L @Color5×3\n@Rune07Info",
                                 "sound": ""
                             }
                         },
@@ -218,7 +218,7 @@
                                 "filename": "items/misc/rune/Ral_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r08L\n\n@mod51091gameguidetxt6\n@r07L @colorhuise×3\n@Rune08Info",
+                                "tooltipString": "@Color8@r08L\n\n@mod51091gameguidetxt6\n@r07L @Color5×3\n@Rune08Info",
                                 "sound": ""
                             }
                         },
@@ -234,7 +234,7 @@
                                 "filename": "items/misc/rune/Ort_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r09L\n\n@mod51091gameguidetxt6\n@r08L @colorhuise×3\n@Rune09Info",
+                                "tooltipString": "@Color8@r09L\n\n@mod51091gameguidetxt6\n@r08L @Color5×3\n@Rune09Info",
                                 "sound": ""
                             }
                         },
@@ -250,7 +250,7 @@
                                 "filename": "items/misc/rune/Thul_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r10L\n\n@mod51091gameguidetxt6\n@r09L @colorhuise×3\n@Rune10Info",
+                                "tooltipString": "@Color8@r10L\n\n@mod51091gameguidetxt6\n@r09L @Color5×3\n@Rune10Info",
                                 "sound": ""
                             }
                         },
@@ -266,7 +266,7 @@
                                 "filename": "items/misc/rune/Amn_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r11L\n\n@mod51091gameguidetxt6\n@r10L @colorhuise×3 + @gcy\n@Rune11Info",
+                                "tooltipString": "@Color8@r11L\n\n@mod51091gameguidetxt6\n@r10L @Color5×3 + @gcy\n@Rune11Info",
                                 "sound": ""
                             }
                         },
@@ -282,7 +282,7 @@
                                 "filename": "items/misc/rune/Sol_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r12L\n\n@mod51091gameguidetxt6\n@r11L @colorhuise×3 + @gcv\n@Rune12Info",
+                                "tooltipString": "@Color8@r12L\n\n@mod51091gameguidetxt6\n@r11L @Color5×3 + @gcv\n@Rune12Info",
                                 "sound": ""
                             }
                         },
@@ -298,7 +298,7 @@
                                 "filename": "items/misc/rune/Shael_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r13L\n\n@mod51091gameguidetxt6\n@r12L @colorhuise×3 + @gcb\n@Rune13Info",
+                                "tooltipString": "@Color8@r13L\n\n@mod51091gameguidetxt6\n@r12L @Color5×3 + @gcb\n@Rune13Info",
                                 "sound": ""
                             }
                         },
@@ -314,7 +314,7 @@
                                 "filename": "items/misc/rune/Dol_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r14L\n\n@mod51091gameguidetxt6\n@r13L @colorhuise×3 + @gcr\n@Rune14Info",
+                                "tooltipString": "@Color8@r14L\n\n@mod51091gameguidetxt6\n@r13L @Color5×3 + @gcr\n@Rune14Info",
                                 "sound": ""
                             }
                         },
@@ -330,7 +330,7 @@
                                 "filename": "items/misc/rune/Hel_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r15L\n\n@mod51091gameguidetxt6\n@r14L @colorhuise×3 + @gcg\n@Rune15Info",
+                                "tooltipString": "@Color8@r15L\n\n@mod51091gameguidetxt6\n@r14L @Color5×3 + @gcg\n@Rune15Info",
                                 "sound": ""
                             }
                         },
@@ -346,7 +346,7 @@
                                 "filename": "items/misc/rune/Io_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r16L\n\n@mod51091gameguidetxt6\n@r15L @colorhuise×3 + @gcw\n@Rune16Info",
+                                "tooltipString": "@Color8@r16L\n\n@mod51091gameguidetxt6\n@r15L @Color5×3 + @gcw\n@Rune16Info",
                                 "sound": ""
                             }
                         },
@@ -362,7 +362,7 @@
                                 "filename": "items/misc/rune/Lum_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r17L\n\n@mod51091gameguidetxt6\n@r16L @colorhuise×3 + @gfy\n@Rune17Info",
+                                "tooltipString": "@Color8@r17L\n\n@mod51091gameguidetxt6\n@r16L @Color5×3 + @gfy\n@Rune17Info",
                                 "sound": ""
                             }
                         },
@@ -378,7 +378,7 @@
                                 "filename": "items/misc/rune/Ko_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r18L\n\n@mod51091gameguidetxt6\n@r17L @colorhuise×3 + @gfv\n@Rune18Info",
+                                "tooltipString": "@Color8@r18L\n\n@mod51091gameguidetxt6\n@r17L @Color5×3 + @gfv\n@Rune18Info",
                                 "sound": ""
                             }
                         },
@@ -394,7 +394,7 @@
                                 "filename": "items/misc/rune/Fal_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r19L\n\n@mod51091gameguidetxt6\n@r18L @colorhuise×3 + @gfb\n@Rune19Info",
+                                "tooltipString": "@Color8@r19L\n\n@mod51091gameguidetxt6\n@r18L @Color5×3 + @gfb\n@Rune19Info",
                                 "sound": ""
                             }
                         },
@@ -410,7 +410,7 @@
                                 "filename": "items/misc/rune/Lem_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r20L\n\n@mod51091gameguidetxt6\n@r19L @colorhuise×3 + @gfr\n@Rune20Info",
+                                "tooltipString": "@Color8@r20L\n\n@mod51091gameguidetxt6\n@r19L @Color5×3 + @gfr\n@Rune20Info",
                                 "sound": ""
                             }
                         },
@@ -426,7 +426,7 @@
                                 "filename": "items/misc/rune/Pul_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r21L\n\n@mod51091gameguidetxt6\n@r20L @colorhuise×3 +  @gfg\n@Rune21Info",
+                                "tooltipString": "@Color8@r21L\n\n@mod51091gameguidetxt6\n@r20L @Color5×3 +  @gfg\n@Rune21Info",
                                 "sound": ""
                             }
                         },
@@ -442,7 +442,7 @@
                                 "filename": "items/misc/rune/Um_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r22L\n\n@mod51091gameguidetxt6\n@r21L @colorhuise×2 + @gfw\n@Rune22Info",
+                                "tooltipString": "@Color8@r22L\n\n@mod51091gameguidetxt6\n@r21L @Color5×2 + @gfw\n@Rune22Info",
                                 "sound": ""
                             }
                         },
@@ -458,7 +458,7 @@
                                 "filename": "items/misc/rune/Mal_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r23L\n\n@mod51091gameguidetxt6\n@r22L @colorhuise×2 + @gsy\n@Rune23Info",
+                                "tooltipString": "@Color8@r23L\n\n@mod51091gameguidetxt6\n@r22L @Color5×2 + @gsy\n@Rune23Info",
                                 "sound": ""
                             }
                         },
@@ -474,7 +474,7 @@
                                 "filename": "items/misc/rune/Ist_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r24L\n\n@mod51091gameguidetxt6\n@r23L @colorhuise×2 + @gsv\n@Rune24Info",
+                                "tooltipString": "@Color8@r24L\n\n@mod51091gameguidetxt6\n@r23L @Color5×2 + @gsv\n@Rune24Info",
                                 "sound": ""
                             }
                         },
@@ -490,7 +490,7 @@
                                 "filename": "items/misc/rune/Gul_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r25L\n\n@mod51091gameguidetxt6\n@r24L @colorhuise×2 + @gsb\n@Rune25Info",
+                                "tooltipString": "@Color8@r25L\n\n@mod51091gameguidetxt6\n@r24L @Color5×2 + @gsb\n@Rune25Info",
                                 "sound": ""
                             }
                         },
@@ -506,7 +506,7 @@
                                 "filename": "items/misc/rune/Vex_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r26L\n\n@mod51091gameguidetxt6\n@r25L @colorhuise×2 + @gsr\n@Rune26Info",
+                                "tooltipString": "@Color8@r26L\n\n@mod51091gameguidetxt6\n@r25L @Color5×2 + @gsr\n@Rune26Info",
                                 "sound": ""
                             }
                         },
@@ -522,7 +522,7 @@
                                 "filename": "items/misc/rune/Ohm_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r27L\n\n@mod51091gameguidetxt6\n@r26L @colorhuise×2 + @gsg\n@Rune27Info",
+                                "tooltipString": "@Color8@r27L\n\n@mod51091gameguidetxt6\n@r26L @Color5×2 + @gsg\n@Rune27Info",
                                 "sound": ""
                             }
                         },
@@ -538,7 +538,7 @@
                                 "filename": "items/misc/rune/Lo_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r28L\n\n@mod51091gameguidetxt6\n@r27L @colorhuise×2 + @gsw\n@Rune28Info",
+                                "tooltipString": "@Color8@r28L\n\n@mod51091gameguidetxt6\n@r27L @Color5×2 + @gsw\n@Rune28Info",
                                 "sound": ""
                             }
                         },
@@ -554,7 +554,7 @@
                                 "filename": "items/misc/rune/Sur_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r29L\n\n@mod51091gameguidetxt6\n@r28L @colorhuise×2 + @gly\n@Rune29Info",
+                                "tooltipString": "@Color8@r29L\n\n@mod51091gameguidetxt6\n@r28L @Color5×2 + @gly\n@Rune29Info",
                                 "sound": ""
                             }
                         },
@@ -570,7 +570,7 @@
                                 "filename": "items/misc/rune/Ber_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r30L\n\n@mod51091gameguidetxt6\n@r29L @colorhuise×2 + @gzv\n@Rune30Info",
+                                "tooltipString": "@Color8@r30L\n\n@mod51091gameguidetxt6\n@r29L @Color5×2 + @gzv\n@Rune30Info",
                                 "sound": ""
                             }
                         },
@@ -586,7 +586,7 @@
                                 "filename": "items/misc/rune/Jah_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r31L\n\n@mod51091gameguidetxt6\n@r30L @colorhuise×2 + @glb\n@Rune31Info",
+                                "tooltipString": "@Color8@r31L\n\n@mod51091gameguidetxt6\n@r30L @Color5×2 + @glb\n@Rune31Info",
                                 "sound": ""
                             }
                         },
@@ -602,7 +602,7 @@
                                 "filename": "items/misc/rune/Cham_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r32L\n\n@mod51091gameguidetxt6\n@r31L @colorhuise×2 + @glr\n@Rune32Info",
+                                "tooltipString": "@Color8@r32L\n\n@mod51091gameguidetxt6\n@r31L @Color5×2 + @glr\n@Rune32Info",
                                 "sound": ""
                             }
                         },
@@ -618,7 +618,7 @@
                                 "filename": "items/misc/rune/Zod_rune",
                                 "hoveredFrame": 0,
                                 "pressedFrame": 0,
-                                "tooltipString": "@colorchengse@r33L\n\n@mod51091gameguidetxt6\n@r32L @colorhuise×2 + @glg\n@Rune33Info",
+                                "tooltipString": "@Color8@r33L\n\n@mod51091gameguidetxt6\n@r32L @Color5×2 + @glg\n@Rune33Info",
                                 "sound": ""
                             }
                         },
