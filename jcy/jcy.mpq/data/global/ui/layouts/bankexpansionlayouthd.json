@@ -823,11 +823,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -906,11 +908,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -989,11 +993,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -1072,11 +1078,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -1155,11 +1163,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -1386,15 +1396,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
-                                                        "rect": {
-                                                            "x": -3,
-                                                            "y": 5,
-                                                            "scale": 0.35
-                                                        },
+                                                        "rect": { "x": -3, "y": 5, "scale": 0.35 },
                                                         "filename": "questicons\\misc\\freeroam",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@RotwOnly"
                                                     }
                                                 },
@@ -1621,11 +1629,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -2122,15 +2132,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
-                                                        "rect": {
-                                                            "x": -3,
-                                                            "y": 5,
-                                                            "scale": 0.35
-                                                        },
+                                                        "rect": { "x": -3, "y": 5, "scale": 0.35 },
                                                         "filename": "questicons\\misc\\freeroam",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@RotwOnly"
                                                     }
                                                 },
@@ -2785,15 +2793,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
-                                                        "rect": {
-                                                            "x": -3,
-                                                            "y": 5,
-                                                            "scale": 0.35
-                                                        },
+                                                        "rect": { "x": -3, "y": 5, "scale": 0.35 },
                                                         "filename": "questicons\\misc\\freeroam",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@RotwOnly"
                                                     }
                                                 },
@@ -2938,11 +2944,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -5487,11 +5495,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
                                                         "rect": "$RuneWordLogoWidgetRect",
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonsmall",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@LadderOnly"
                                                     }
                                                 },
@@ -6300,17 +6310,14 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
-                                                        "rect": {
-                                                            "x": -5,
-                                                            "y": 8,
-                                                            "scale": 0.5
-                                                        },
+                                                        "rect": { "x": -5, "y": 8, "scale": 0.5 },
                                                         "filename": "frontend\\hd\\final\\frontend_laddericonlarge",
-                                                        "tooltipString": "@LadderOnly",
-                                                        "frame": 0
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
+                                                        "tooltipString": "@NonLadderOnly"
                                                     }
                                                 },
                                                 {
@@ -6986,15 +6993,13 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
-                                                        "rect": {
-                                                            "x": -3,
-                                                            "y": 5,
-                                                            "scale": 0.35
-                                                        },
+                                                        "rect": { "x": -3, "y": 5, "scale": 0.35 },
                                                         "filename": "questicons\\misc\\freeroam",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@RotwOnly"
                                                     }
                                                 },
@@ -8843,15 +8848,14 @@
                                             },
                                             "children": [
                                                 {
-                                                    "type": "ImageWidget",
+                                                    "type": "ButtonWidget",
                                                     "name": "Logo",
                                                     "fields": {
-                                                        "rect": {
-                                                            "x": -3,
-                                                            "y": 5,
-                                                            "scale": 0.35
+                                                        "rect": { "x": -3, "y": 5, "scale": 0.35
                                                         },
                                                         "filename": "questicons\\misc\\freeroam",
+                                                        "hoveredFrame": 0,
+                                                        "pressedFrame": 0,
                                                         "tooltipString": "@RotwOnly"
                                                     }
                                                 },
