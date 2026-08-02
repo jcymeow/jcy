@@ -629,7 +629,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword88LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -695,7 +695,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword75LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -761,7 +761,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword166LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -846,7 +846,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword178LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -931,7 +931,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword176LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1016,7 +1016,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword175LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1101,7 +1101,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword177LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1186,7 +1186,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword179LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1260,7 +1260,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword165LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1334,7 +1334,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword22LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1419,7 +1419,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword180LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1493,7 +1493,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword40LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1567,7 +1567,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword29LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1652,7 +1652,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword174LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1782,7 +1782,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword1LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1856,7 +1856,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword130LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -1938,7 +1938,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword120LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2004,7 +2004,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword131LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2070,7 +2070,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword122LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2155,7 +2155,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword181LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2221,7 +2221,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword37LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2303,7 +2303,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword27LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2377,7 +2377,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword29LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2451,7 +2451,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword103LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2591,7 +2591,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword133LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2657,7 +2657,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword87LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2731,7 +2731,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword98LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2816,7 +2816,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword3LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2890,7 +2890,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword128LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -2967,7 +2967,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword171LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3041,7 +3041,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword74LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3115,7 +3115,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword148LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3189,7 +3189,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword160LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3263,7 +3263,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword34LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3337,7 +3337,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword8LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3411,7 +3411,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword30LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3485,7 +3485,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword45LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3559,7 +3559,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword137LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3641,7 +3641,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword112LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3707,7 +3707,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword117LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3781,7 +3781,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword110LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3855,7 +3855,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword41LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -3937,7 +3937,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword9LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4019,7 +4019,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword27LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4093,7 +4093,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword14LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4175,7 +4175,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword33LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4307,7 +4307,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword134LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4373,7 +4373,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword81LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4447,7 +4447,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword72LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4513,7 +4513,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword170LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4579,7 +4579,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword54LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4661,7 +4661,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword97LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4735,7 +4735,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword31LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4809,7 +4809,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword65LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4883,7 +4883,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword130LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -4965,7 +4965,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword139LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5031,7 +5031,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword55LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5121,7 +5121,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword62LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5203,7 +5203,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword6LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5277,7 +5277,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword162LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5343,7 +5343,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword83LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5425,7 +5425,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword49LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5518,7 +5518,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword172LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5592,7 +5592,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword82LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5666,7 +5666,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword151LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5764,7 +5764,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword92LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5854,7 +5854,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword71LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -5928,7 +5928,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword95LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6010,7 +6010,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword99LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6092,7 +6092,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword17LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6166,7 +6166,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword91LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6248,7 +6248,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword154LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6333,7 +6333,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword173LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6407,7 +6407,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword66LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6489,7 +6489,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword121LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6571,7 +6571,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword20LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6661,7 +6661,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword51LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6743,7 +6743,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword126LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6841,7 +6841,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword13LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -6931,7 +6931,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword16LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7016,7 +7016,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword182LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7090,7 +7090,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword41LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7172,7 +7172,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword47LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7262,7 +7262,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword163LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7328,7 +7328,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword4LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7418,7 +7418,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword36LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7508,7 +7508,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword60LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7590,7 +7590,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword168LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7672,7 +7672,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword10LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7754,7 +7754,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword25LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7844,7 +7844,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword38LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -7926,7 +7926,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword39LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8008,7 +8008,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword44LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8082,7 +8082,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword59LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8164,7 +8164,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword69LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8262,7 +8262,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword103LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8344,7 +8344,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword106LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8418,7 +8418,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword84LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8508,7 +8508,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword26LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8598,7 +8598,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword48LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8680,7 +8680,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword109LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8762,7 +8762,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword94LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8872,7 +8872,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword157LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {
@@ -8946,7 +8946,7 @@
                                                             "fields": {
                                                                 "rect": "$RuneWordNameWidgetRect",
                                                                 "text": "@Runeword11LevelName",
-                                                                "style": "$RuneWordTextBoxWidgetStyle"
+                                                                "style": "$BankRuneWordTextBoxWidgetStyle"
                                                             },
                                                             "children": [
                                                                 {

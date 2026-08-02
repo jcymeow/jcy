@@ -1484,8 +1484,18 @@
         "y": 0,
         "scale": 0.8
     },
-    "RuneWordTextBoxWidgetStyle": {
+    "BankRuneWordTextBoxWidgetStyle": {
         "pointSize": "$FontSize48",
+        "alignment": {
+            "h": "left",
+            "v": "center"
+        },
+        "options": {
+            "pipeCharacterBehavior": "handle"
+        }
+    },
+    "WikiRuneWordTextBoxWidgetStyle": {
+        "pointSize": "$MediumLargeFontSize",
         "alignment": {
             "h": "left",
             "v": "center"
