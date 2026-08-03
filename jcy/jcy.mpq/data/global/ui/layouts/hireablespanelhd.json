@@ -39,7 +39,7 @@
                     "fields": {
                         "anchor": {
                             "x": 0,
-                            "y": 120
+                            "y": 0.98
                         },
                         "style": {
                             "fontFace": "BlizzardGlobal",
