@@ -1,28 +1,5 @@
 from jcy_constants import *
 
-ASSET_CATEGORIES = [
-    { "category": Assets.GAME_MODEL.value,    "zhCN": "游戏模型" },
-    { "category": Assets.RUNE_SKIN.value,     "zhCN": "符文皮肤" },
-    { "category": Assets.SKILL_SKIN.value,    "zhCN": "技能皮肤" },
-    { "category": Assets.SKILL_LOGO.value,    "zhCN": "技能LOGO" },
-    { "category": Assets.FONT_TYPE.value,     "zhCN": "字体文件" },
-    { "category": Assets.ACT1_HIRE.value,     "zhCN": "A1佣兵皮肤" },
-    { "category": Assets.ACT2_HIRE.value,     "zhCN": "A2佣兵皮肤" },
-    # { "category": Assets.ACT3_HIRE.value,     "zhCN": "A3佣兵皮肤" },
-    { "category": Assets.ACT5_HIRE.value,     "zhCN": "A5佣兵皮肤" },
-    { "category": Assets.HUD_SKIN.value, "zhCN": "HUD面板皮肤"},
-    { "category": Assets.MINIHUD_SKIN.value, "zhCN": "MiniHUD面板皮肤"},
-    { "category": Assets.OTHERS.value, "zhCN": "杂项"},
-    { "category": Assets.AMA.value, "zhCN": "亚马逊皮肤"},
-    { "category": Assets.SOR.value, "zhCN": "法师皮肤"},
-    { "category": Assets.NEC.value, "zhCN": "死灵皮肤"},
-    # { "category": Assets.PAL.value, "zhCN": "圣骑士皮肤"},
-    { "category": Assets.BAR.value, "zhCN": "野蛮人皮肤"},
-    { "category": Assets.DRU.value, "zhCN": "德鲁伊皮肤"},
-    { "category": Assets.ASN.value, "zhCN": "刺客皮肤"},
-    { "category": Assets.WAR.value, "zhCN": "术士皮肤"},
-]
-
 ASSET_TYPE = [
     { "type": Assets.GAME_MODEL.value,    "zhCN": "游戏模型" },
     { "type": Assets.HUD_SKIN.value, "zhCN": "HUD面板皮肤"},
@@ -56,7 +33,6 @@ ASSETS = [
     {
         "id": 4,
         "name": "网易国服_游戏模型",
-        "category": Assets.GAME_MODEL.value,
         "type": Assets.GAME_MODEL.value,
         "author": "桔橙柚",
         "description": "国服:外侧回廊/沃特之厅/怪模模型/反和谐",
@@ -177,7 +153,6 @@ ASSETS = [
     {
         "id": 5,
         "name": "暴雪国际服_游戏模型",
-        "category": Assets.GAME_MODEL.value,
         "type": Assets.GAME_MODEL.value,
         "author": "桔橙柚",
         "description": "国际服:外侧回廊/沃特之厅/怪物模型",
@@ -220,7 +195,6 @@ ASSETS = [
     {
         "id": 101,
         "name": "符文皮肤_1",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "右上角增加符文编号",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/rune1.zip",
@@ -300,7 +274,6 @@ ASSETS = [
     {
         "id": 102,
         "name": "符文皮肤_2",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "右上角增加符文编号, 其下增加升级宝石",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/rune2.zip",
@@ -380,7 +353,6 @@ ASSETS = [
     {
         "id": 103,
         "name": "符文皮肤_3",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "符文石染色,右上角增加符文编号",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/rune3.zip",
@@ -460,7 +432,6 @@ ASSETS = [
     {
         "id": 104,
         "name": "符文皮肤_4",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "符文石染色,右上角增加符文编号",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/rune4.zip",
@@ -540,7 +511,6 @@ ASSETS = [
     {
         "id": 105,
         "name": "符文皮肤_5",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "符文石染色,右上角增加符文编号,左下角增加英文",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/rune5.zip",
@@ -620,7 +590,6 @@ ASSETS = [
     {
         "id": 106,
         "name": "符文皮肤_6",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "3D符文石染色,右上角增加符文编号",
         "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.0.0/rune6.zip",
@@ -700,7 +669,6 @@ ASSETS = [
     {
         "id": 107,
         "name": "符文皮肤_7",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "符文石染色",
         "author": "바콘9",
@@ -782,7 +750,6 @@ ASSETS = [
     {
         "id": 108,
         "name": "符文皮肤_8",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "符文重绘,上=符文编号,下=英文",
         "author": "바콘9",
@@ -864,7 +831,6 @@ ASSETS = [
     {
         "id": 109,
         "name": "符文皮肤_9",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "author": "아드반",
         "source": "https://www.inven.co.kr/board/diablo2/5842/5270",
@@ -913,7 +879,6 @@ ASSETS = [
     {
         "id": 110,
         "name": "符文皮肤_10",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "卡通版重绘,左上=符文编号, 右上=合成所需宝石, 下=英文",
         "author": "Koorenai",
@@ -995,7 +960,6 @@ ASSETS = [
     {
         "id": 111,
         "name": "符文皮肤_11",
-        "category": Assets.RUNE_SKIN.value,
         "type": Assets.RUNE_SKIN.value,
         "description": "符文重绘加粗显示,上=符文编号, 下=英文",
         "author": "Sandman",
@@ -1078,7 +1042,6 @@ ASSETS = [
     {
         "id": 201,
         "name": "技能皮肤_1",
-        "category": Assets.SKILL_SKIN.value,
         "type": Assets.SKILL_SKIN.value,
         "author": "colinzed",
         "source": "https://www.nexusmods.com/diablo2resurrected/mods/341",
@@ -1108,7 +1071,6 @@ ASSETS = [
     {
         "id": 202,
         "name": "技能皮肤_2",
-        "category": Assets.SKILL_SKIN.value,
         "type": Assets.SKILL_SKIN.value,
         "author": "유비",
         "source": "https://www.inven.co.kr/board/diablo2/5842/6617",
@@ -1141,7 +1103,6 @@ ASSETS = [
     {
         "id": 203,
         "name": "技能皮肤_3",
-        "category": Assets.SKILL_SKIN.value,
         "type": Assets.SKILL_SKIN.value,
         "author": "길린, gemini",
         "source": "https://d2r-gilyn.tistory.com/205",
@@ -1179,7 +1140,6 @@ ASSETS = [
     {
         "id": 204,
         "name": "技能皮肤_4",
-        "category": Assets.SKILL_SKIN.value,
         "type": Assets.SKILL_SKIN.value,
         "author": "Beatsin, Jimssng",
         "source": "https://www.inven.co.kr/board/diablo2/5842/7614",
@@ -1215,7 +1175,6 @@ ASSETS = [
     {
         "id": 205,
         "name": "技能皮肤_5",
-        "category": Assets.SKILL_SKIN.value,
         "type": Assets.SKILL_SKIN.value,
         "author": "워갓",
         "source": "https://www.inven.co.kr/board/diablo2/5842/7757",
@@ -1268,7 +1227,6 @@ ASSETS = [
     {
         "id": 301,
         "name": "阿里巴巴普惠体3.0_Medium",
-        "category": Assets.FONT_TYPE.value,
         "type": Assets.FONT_TYPE.value,
         "author": "阿里巴巴",
         "description": "Alibaba PuHuiTi 3.0 - 65 Medium GB18030-2022 (实现级别1＋实现级别2)",
@@ -1286,7 +1244,6 @@ ASSETS = [
     {
         "id": 302,
         "name": "思源黑体_Medium",
-        "category": Assets.FONT_TYPE.value,
         "type": Assets.FONT_TYPE.value,
         "author": "Adobe, Google",
         "description": "Noto Sans CJK CN Medium",
@@ -1304,7 +1261,6 @@ ASSETS = [
     {
         "id": 303,
         "name": "OPPO Sans 3.0",
-        "category": Assets.FONT_TYPE.value,
         "type": Assets.FONT_TYPE.value,
         "author": "OPPO",
         "description": "OPPO Sans 3.0 Medium",
@@ -1322,7 +1278,6 @@ ASSETS = [
     {
         "id": 304,
         "name": "HarmonyOS Sans",
-        "category": Assets.FONT_TYPE.value,
         "type": Assets.FONT_TYPE.value,
         "author": "华为, 汉仪字库",
         "description": "HarmonyOS_Sans_Medium",
@@ -1340,7 +1295,6 @@ ASSETS = [
     {
         "id": 305,
         "name": "寒蝉半圆体",
-        "category": Assets.FONT_TYPE.value,
         "type": Assets.FONT_TYPE.value,
         "author": "Warren2060",
         "description": "基于日本开源字型Zen Maru Gothic進行調整的圆体字型! 更新为符合GB2312標準的字符集，使其應用范圍更广。 修正部分字形和补充部分字形。 調整到更均衡的排版。",
@@ -1359,7 +1313,6 @@ ASSETS = [
     {
         "id": 401,
         "name": "A1佣兵皮肤_1",
-        "category": Assets.ACT1_HIRE.value,
         "type": Assets.ACT1_HIRE.value,
         "author": "도깨비무사",
         "description": "白毛绿裙A1佣兵皮肤",
@@ -1396,7 +1349,6 @@ ASSETS = [
     {
         "id": 402,
         "name": "A1佣兵皮肤_2",
-        "category": Assets.ACT1_HIRE.value,
         "type": Assets.ACT1_HIRE.value,
         "author": "리히터벨몬드",
         "description": "粉红女郎A1佣兵皮肤",
@@ -1463,7 +1415,6 @@ ASSETS = [
     {
         "id": 403,
         "name": "A1佣兵皮肤_3",
-        "category": Assets.ACT1_HIRE.value,
         "type": Assets.ACT1_HIRE.value,
         "author": "ED2R",
         "description": "黑色中甲+巨角盔+大院长弓",
@@ -1505,7 +1456,6 @@ ASSETS = [
     {
         "id": 501,
         "name": "A2佣兵皮肤_1",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "koukakou@163.co",
         "description": "A2堕落罗格女性佣兵",
@@ -1544,7 +1494,6 @@ ASSETS = [
     {
         "id": 502,
         "name": "A2佣兵皮肤_2",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "koukakou@163.co",
         "description": "A2沙漠居民女性佣兵",
@@ -1584,7 +1533,6 @@ ASSETS = [
     {
         "id": 503,
         "name": "A2佣兵皮肤_3",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "Jerry MOD - ColdThures",
         "description": "A2沙漠居民女性银色涂装佣兵",
@@ -1734,7 +1682,6 @@ ASSETS = [
     {
         "id": 504,
         "name": "A2佣兵皮肤_4",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "Horizon, roryskys",
         "description": "A2近卫骑士佣兵",
@@ -1872,7 +1819,6 @@ ASSETS = [
     {
         "id": 505,
         "name": "A2佣兵皮肤_5",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "살라데리움",
         "description": "A2沙漠居民黑金涂装佣兵",
@@ -1902,7 +1848,6 @@ ASSETS = [
     {
         "id": 506,
         "name": "A2佣兵皮肤_6",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "Icemint",
         "description": "A2沙漠居民亮金涂装佣兵",
@@ -1935,7 +1880,6 @@ ASSETS = [
     {
         "id": 507,
         "name": "A2佣兵皮肤_7",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "Icemint",
         "description": "A2沙漠居民哑金涂装佣兵",
@@ -1968,7 +1912,6 @@ ASSETS = [
     {
         "id": 508,
         "name": "A2佣兵皮肤_8",
-        "category": Assets.ACT2_HIRE.value,
         "type": Assets.ACT2_HIRE.value,
         "author": "Tuluhan",
         "description": "A2佣兵术士皮肤",
@@ -2017,7 +1960,6 @@ ASSETS = [
     {
         "id": 701,
         "name": "A5佣兵皮肤_1",
-        "category": Assets.ACT5_HIRE.value,
         "type": Assets.ACT5_HIRE.value,
         "author": "풍선",
         "description": "银甲飞机头",
@@ -2062,7 +2004,6 @@ ASSETS = [
     {
         "id": 702,
         "name": "A5佣兵皮肤_2",
-        "category": Assets.ACT5_HIRE.value,
         "type": Assets.ACT5_HIRE.value,
         "author": "Beatsin",
         "description": "雅库扎纹身",
@@ -2094,7 +2035,6 @@ ASSETS = [
     {
         "id": 801,
         "name": "HUD皮肤_1",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "Icemint, Sandmann, Jhyun0512, Mardok, 살신e",
         "description": "移除天使/恶魔雕像, 经验条刻度, 彩色经验条, 彩色体力条",
@@ -2143,7 +2083,6 @@ ASSETS = [
     {
         "id": 802,
         "name": "HUD皮肤_2",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "Gous",
         "description": "Diablo III HUD",
@@ -2194,7 +2133,6 @@ ASSETS = [
     {
         "id": 803,
         "name": "HUD皮肤_3",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "未知",
         "description": "Diablo IV HUD",
@@ -2271,7 +2209,6 @@ ASSETS = [
     {
         "id": 804,
         "name": "HUD皮肤_4",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "NDState",
         "description": "极简风",
@@ -2323,7 +2260,6 @@ ASSETS = [
     {
         "id": 805,
         "name": "HUD皮肤_5",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "설류혼",
         "description": "HUD_1/2",
@@ -2371,7 +2307,6 @@ ASSETS = [
     {
         "id": 806,
         "name": "HUD皮肤_6",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "탈명객",
         "description": "月牙血/蓝球, 哑铃型HUD",
@@ -2455,7 +2390,6 @@ ASSETS = [
     {
         "id": 807,
         "name": "HUD皮肤_7",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "TEAM ED2R",
         "description": "移除天使/恶魔雕像, 黑色主体",
@@ -2525,7 +2459,6 @@ ASSETS = [
     {
         "id": 808,
         "name": "HUD皮肤_8",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "桔橙柚",
         "description": "默认皮肤 × 85%缩放",
@@ -2568,7 +2501,6 @@ ASSETS = [
     {
         "id": 809,
         "name": "HUD皮肤_9",
-        "category": Assets.HUD_SKIN.value,
         "type": Assets.HUD_SKIN.value,
         "author": "풍선",
         "description": "极简风左下角",
@@ -2618,7 +2550,6 @@ ASSETS = [
     {
         "id": 901,
         "name": "赦免勋章皮肤",
-        "category": Assets.OTHERS.value,
         "type": Assets.TOA.value,
         "author": "이게뭐시라고",
         "description": "蓝色背景更显眼",
@@ -2638,7 +2569,6 @@ ASSETS = [
     {
         "id": 902,
         "name": "箱子(Bank)皮肤_1",
-        "category": Assets.OTHERS.value,
         "type": Assets.BANK.value,
         "author": "Z풍차돌기",
         "description": "1.5倍蓝色箱子",
@@ -2666,7 +2596,6 @@ ASSETS = [
     {
         "id": 903,
         "name": "箱子(Bank)皮肤_2",
-        "category": Assets.OTHERS.value,
         "type": Assets.BANK.value,
         "author": "왕왕작작",
         "description": "1.5倍红色箱子",
@@ -2686,7 +2615,6 @@ ASSETS = [
     {
         "id": 904,
         "name": "火炬钥匙皮肤1",
-        "category": Assets.OTHERS.value,
         "type": Assets.MK.value,
         "author": "1elqnod",
         "description": "铜银金色皮肤",
@@ -2741,7 +2669,6 @@ ASSETS = [
     {
         "id": 905,
         "name": "火炬钥匙皮肤2",
-        "category": Assets.OTHERS.value,
         "type": Assets.MK.value,
         "author": "gomgu",
         "description": "单色造型皮肤",
@@ -2796,7 +2723,6 @@ ASSETS = [
     {
         "id": 906,
         "name": "火炬钥匙皮肤3",
-        "category": Assets.OTHERS.value,
         "type": Assets.MK.value,
         "author": "gomgu",
         "description": "紫金红色造型皮肤",
@@ -2851,7 +2777,6 @@ ASSETS = [
     {
         "id": 907,
         "name": "Automap_小地图",
-        "category": Assets.OTHERS.value,
         "type": Assets.AUTOMAP.value,
         "author": "CASSD2R",
         "description": "高对比度更清楚",
@@ -2892,7 +2817,6 @@ ASSETS = [
     {
         "id": 908,
         "name": "箱子(Bank)皮肤_3",
-        "category": Assets.OTHERS.value,
         "type": Assets.BANK.value,
         "author": "Beatsin",
         "description": "2倍银河箱子",
@@ -2912,7 +2836,6 @@ ASSETS = [
     {
         "id": 909,
         "name": "巨型先祖珠宝皮肤",
-        "category": Assets.OTHERS.value,
         "type": Assets.CJW.value,
         "author": "Tuluhan",
         "description": "彩色水晶",
@@ -2942,7 +2865,6 @@ ASSETS = [
     {
         "id": 910,
         "name": "火炬钥匙皮肤4",
-        "category": Assets.OTHERS.value,
         "type": Assets.MK.value,
         "author": "워갓",
         "description": "红黄绿眼睛造型皮肤",
@@ -2997,7 +2919,6 @@ ASSETS = [
     {
         "id": 911,
         "name": "火炬钥匙皮肤5",
-        "category": Assets.OTHERS.value,
         "type": Assets.MK.value,
         "author": "Jimssng",
         "description": "红蓝橙眼睛造型皮肤",
@@ -3053,7 +2974,6 @@ ASSETS = [
     {
         "id": 1001,
         "name": "AMA_皮肤_1",
-        "category": Assets.AMA.value,
         "type": Assets.AMA.value,
         "author": "안젤라1",
         "description": "希尔瓦娜斯·风行者",
@@ -3526,7 +3446,6 @@ ASSETS = [
     {
         "id": 1101,
         "name": "SOR_皮肤_1",
-        "category": Assets.SOR.value,
         "type": Assets.SOR.value,
         "author": "이게뭐시라고",
         "description": "黑色涂装",
@@ -3666,7 +3585,6 @@ ASSETS = [
     {
         "id": 1102,
         "name": "SOR_皮肤_2",
-        "category": Assets.SOR.value,
         "type": Assets.SOR.value,
         "author": "커터처퍼",
         "description": "银色涂装",
@@ -3809,7 +3727,6 @@ ASSETS = [
     {
         "id": 1201,
         "name": "NEC_皮肤_1",
-        "category": Assets.NEC.value,
         "type": Assets.NEC.value,
         "author": "Tuluhan",
         "description": "青年死灵法师",
@@ -3834,7 +3751,6 @@ ASSETS = [
     {
         "id": 1301,
         "name": "圣骑士_皮肤_1",
-        "category": Assets.PAL.value,
         "type": Assets.PAL.value,
         "author": "풍선",
         "description": "正义天使·英普瑞斯",
@@ -3924,7 +3840,6 @@ ASSETS = [
     {
         "id": 1401,
         "name": "BAR_皮肤_1",
-        "category": Assets.BAR.value,
         "type": Assets.BAR.value,
         "author": "안젤라1",
         "description": "伊利丹·怒风",
@@ -4180,7 +4095,6 @@ ASSETS = [
     {
         "id": 1402,
         "name": "BAR_皮肤_2",
-        "category": Assets.BAR.value,
         "type": Assets.BAR.value,
         "author": "deadjack",
         "description": "奎托斯",
@@ -4394,7 +4308,6 @@ ASSETS = [
     {
         "id": 1403,
         "name": "野蛮人_皮肤_3",
-        "category": Assets.BAR.value,
         "type": Assets.BAR.value,
         "author": "소배기",
         "description": "裸上身 电光武器",
@@ -4422,11 +4335,68 @@ ASSETS = [
             r"data/hd/items/weapon/sword/flamberge.json",
         ]
     },
+    {
+        "id": 1404,
+        "name": "野蛮人_皮肤_4",
+        "type": Assets.BAR.value,
+        "author": "옥이앓이",
+        "description": "黑色 皮甲",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7965",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.3/1404.zip",
+        "file": "1404.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/1404.png",
+        "size": 4373302,
+        "md5": "E75E0E135CAD5C876BC7828353DFFDC9",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list":[
+            r"data/hd/character/player/barbarian/textures/armors_alb.texture",
+            r"data/hd/character/player/barbarian/textures/barb_alb.texture",
+            r"data/hd/character/player/barbarian/textures/barb_armormed_alb.texture",
+            r"data/hd/character/player/barbarian/textures/body_alb.texture",
+            r"data/hd/character/player/barbarian/textures/body_nrm.texture",
+            r"data/hd/character/player/barbarian/textures/head_alb.texture",
+            r"data/hd/character/player/barbarian/textures/head_nrm.texture",
+            r"data/hd/character/player/barbarian.frontend",
+            r"data/hd/character/player/barbarian.json",
+            r"data/hd/items/armor/helmet/assault_helmet.json",
+            r"data/hd/items/armor/helmet/avenger_guard.json",
+        ]
+    },
+    {
+        "id": 1405,
+        "name": "野蛮人_皮肤_5",
+        "type": Assets.BAR.value,
+        "author": "옥이앓이",
+        "description": "黑红 皮甲",
+        "source": "https://www.inven.co.kr/board/diablo2/5842/7965",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.3/1405.zip",
+        "file": "1405.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/1405.png",
+        "size": 4534452,
+        "md5": "3C7FF485276FB31850949C0951F57E34",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list":[
+            r"data/hd/character/player/barbarian/textures/armors_alb.texture",
+            r"data/hd/character/player/barbarian/textures/barb_alb.texture",
+            r"data/hd/character/player/barbarian/textures/barb_armormed_alb.texture",
+            r"data/hd/character/player/barbarian/textures/body_alb.texture",
+            r"data/hd/character/player/barbarian/textures/body_nrm.texture",
+            r"data/hd/character/player/barbarian/textures/head_alb.texture",
+            r"data/hd/character/player/barbarian/textures/head_nrm.texture",
+            r"data/hd/character/player/barbarian.frontend",
+            r"data/hd/character/player/barbarian.json",
+            r"data/hd/items/armor/helmet/avenger_guard.json",
+            r"data/hd/items/weapon/sword/giant_sword/weapon_giant_sword_alb.texture",
+            r"data/hd/items/weapon/sword/giant_sword/weapon_giant_sword_orm.texture",
+            r"data/hd/items/weapon/sword/flamberge.json",
+        ]
+    },
     # 德鲁伊(1500, 1600)
     {
         "id": 1501,
         "name": "DRU_皮肤_1",
-        "category": Assets.DRU.value,
         "type": Assets.DRU.value,
         "author": "민청님",
         "description": "女性德鲁伊",
@@ -4589,7 +4559,6 @@ ASSETS = [
     {
         "id": 1502,
         "name": "德鲁伊皮肤_黑银配色_皮肤",
-        "category": Assets.DRU.value,
         "type": Assets.DRU.value,
         "author": "Tuluhan",
         "description": "年轻的脸模, 黑银配色",
@@ -4619,7 +4588,6 @@ ASSETS = [
     {
         "id": 1601,
         "name": "ASN_皮肤_1",
-        "category": Assets.ASN.value,
         "type": Assets.ASN.value,
         "author": "성전사는악운",
         "description": "黑色兜帽",
@@ -4702,7 +4670,6 @@ ASSETS = [
     {
         "id": 1701,
         "name": "WAR_皮肤_1",
-        "category": Assets.WAR.value,
         "type": Assets.WAR.value,
         "author": "Tuluhan",
         "description": "术士黑铁皮肤",
@@ -4767,7 +4734,6 @@ ASSETS = [
     {
         "id": 1702,
         "name": "WAR_皮肤_2",
-        "category": Assets.WAR.value,
         "type": Assets.WAR.value,
         "author": "자야될텐데",
         "description": "术士金红皮肤",
@@ -4833,7 +4799,6 @@ ASSETS = [
     {
         "id": 1801,
         "name": "MINIHUD_皮肤_1",
-        "category": Assets.MINIHUD_SKIN.value,
         "type": Assets.MINIHUD_SKIN.value,
         "author": "未知",
         "description": "彩虹MiniHud+生命/法力/弹药提示+正副手提示",
@@ -4863,7 +4828,6 @@ ASSETS = [
     {
         "id": 1802,
         "name": "MINIHUD_皮肤_2",
-        "category": Assets.MINIHUD_SKIN.value,
         "type": Assets.MINIHUD_SKIN.value,
         "author": "설류혼",
         "description": "平行MiniHud+生命/法力/弹药提示+正副手提示",
@@ -4893,7 +4857,6 @@ ASSETS = [
     {
         "id": 1803,
         "name": "MINIHUD_皮肤_3",
-        "category": Assets.MINIHUD_SKIN.value,
         "type": Assets.MINIHUD_SKIN.value,
         "author": "탈명객",
         "description": "圆形MiniHud+正副手提示",
@@ -4923,7 +4886,6 @@ ASSETS = [
     {
         "id": 1804,
         "name": "MINIHUD_皮肤_4",
-        "category": Assets.MINIHUD_SKIN.value,
         "type": Assets.MINIHUD_SKIN.value,
         "author": "Beatsin",
         "description": "弧形MiniHud+生命/法力/弹药提示+正副手提示",
@@ -4954,7 +4916,6 @@ ASSETS = [
     {
         "id": 2001,
         "name": "技能LOGO_1",
-        "category": Assets.SKILL_LOGO.value,
         "type": Assets.SKILL_LOGO.value,
         "author": "Koo3869, 桔橙柚",
         "description": "85%缩放",
@@ -5017,7 +4978,6 @@ ASSETS = [
     {
         "id": 2002,
         "name": "技能LOGO_2",
-        "category": Assets.SKILL_LOGO.value,
         "type": Assets.SKILL_LOGO.value,
         "author": "Koo3869, 桔橙柚",
         "description": "75%缩放",
@@ -5080,7 +5040,6 @@ ASSETS = [
     {
         "id": 2003,
         "name": "技能LOGO_3",
-        "category": Assets.SKILL_LOGO.value,
         "type": Assets.SKILL_LOGO.value,
         "author": "Koo3869, 桔橙柚",
         "description": "65%缩放",
@@ -5144,7 +5103,6 @@ ASSETS = [
     {
         "id": 2101,
         "name": "反和谐精灵图",
-        "category": Assets.SPRITE.value,
         "type": Assets.SPRITE.value,
         "author": "桔橙柚整理",
         "description": "国服反和谐",
@@ -5230,7 +5188,6 @@ ASSETS = [
 ASSET_DICT = {asset["id"]: asset for asset in ASSETS}
 
 __all__ = [
-    'ASSET_CATEGORIES',
     'ASSET_TYPE',
     'ASSETS',
     'ASSET_DICT',
