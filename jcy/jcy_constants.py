@@ -1488,6 +1488,7 @@ class Function(Enum):
     LAYOUTS_HOSTILITY_SCALE_UP = "LayoutsHostilityScaleUp"
     LAYOUTS_INVENTORY_ADD_CUBE = "LayoutsInventoryAddCube"
     LAYOUTS_INVENTORY_EXTRA = "LayoutsInventoryExtra"
+    LAYOUTS_MAINMENU_EXTRA = "LayoutsMainmenuExtra"
     LAYOUTS_PARTY_INFO_EXTRA = "LayoutsPartyInfoExtra"
     LOCAL_DATE_FORMAT_TIMESTAMP = "LocalDateFormatTimestamp"
     LOCAL_DIABLO_CLONE_ADD_PROGRESS = "LocalDiabloCloneAddProgress"

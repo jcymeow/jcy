@@ -2680,7 +2680,7 @@ class FileOperations:
                     child["fields"]["tooltipString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.QUICK_GAME.value).get(lng)
                             
             with open(quick_path, 'w', encoding="utf-8") as f:
-                json.dump(quick_data, f, ensure_ascii=False, indent=2)
+                json.dump(quick_data, f, ensure_ascii=False, indent=4)
 
             count += 1
         except Exception as e:
@@ -4159,6 +4159,50 @@ class FileOperations:
         file_path = r"data/global/ui/layouts/playerinventoryexpansionlayouthd.json"
         radio = "1" if str(value) == "1" else "0"
         return self.common_select(file_path, radio)
+
+
+    def switch_mainmenu_extra(self, value):
+        """布局.主菜单.扩展(移除关卡背景, 融合大厅, 移除聊天)"""
+        funcs = []
+        # 1.修改 HD样式文件, 大厅锚点
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/_profilehd.json")
+            with open(json_path, "r", encoding="utf-8") as f:
+                json_data = json.load(f)
+
+            modified = False
+            old_value = json_data["LobbyAnchor"]
+            new_value = { "x": 0.325, "y": 0.04 } if str(value) == "1" else {"x": 0.5}
+            if old_value != new_value:
+                json_data["LobbyAnchor"] = new_value
+                modified = True
+            
+            if modified:
+                with open(json_path, 'w', encoding="utf-8") as f:
+                    json.dump(json_data, f, ensure_ascii=False, indent=4)
+            funcs.append((1, 1))
+        except Exception as e:
+            funcs.append((0, 1))
+            print(e)
+
+        # 2.替换 加入游戏面板
+        funcs.append(self.common_select(r"data/global/ui/layouts/joingamepanelhd.json", value))
+
+        # 3.替换 天梯排名面板
+        funcs.append(self.common_select(r"data/global/ui/layouts/ladderpanelhd.json", value))
+
+        # 4.替换大厅背景面板
+        funcs.append(self.common_select(r"data/global/ui/layouts/lobbybackgroundpanelhd.json", value))
+
+        # 5.替换大厅聊天面板
+        funcs.append(self.common_select(r"data/global/ui/layouts/lobbychatpanelhd.json", value))
+
+        # 6.替换主菜单面板
+        funcs.append(self.common_select(r"data/global/ui/layouts/mainmenupanelhd.json", value))
+
+        summary = [sum(column) for column in zip(*funcs)]
+        return summary
 
 
     def switch_cube_transparent(self, value):

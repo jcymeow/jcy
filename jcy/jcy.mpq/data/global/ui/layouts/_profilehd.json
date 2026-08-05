@@ -49,7 +49,8 @@
         "height": 254
     },
     "LobbyAnchor": {
-        "x": 0.5
+        "x": 0.325,
+        "y": 0.04
     },
     "LeftLobbyRect": {
         "x": -1677,
@@ -1504,10 +1505,40 @@
             "pipeCharacterBehavior": "handle"
         }
     },
-    "RuneWordSolt1": { "x": 280, "y": -6, "width": 98, "height": 98 },
-    "RuneWordSolt2": { "x": 380, "y": -6, "width": 98, "height": 98 },
-    "RuneWordSolt3": { "x": 480, "y": -6, "width": 98, "height": 98 },
-    "RuneWordSolt4": { "x": 580, "y": -6, "width": 98, "height": 98 },
-    "RuneWordSolt5": { "x": 680, "y": -6, "width": 98, "height": 98 },
-    "RuneWordSolt6": { "x": 780, "y": -6, "width": 98, "height": 98 }
+    "RuneWordSolt1": {
+        "x": 280,
+        "y": -6,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt2": {
+        "x": 380,
+        "y": -6,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt3": {
+        "x": 480,
+        "y": -6,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt4": {
+        "x": 580,
+        "y": -6,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt5": {
+        "x": 680,
+        "y": -6,
+        "width": 98,
+        "height": 98
+    },
+    "RuneWordSolt6": {
+        "x": 780,
+        "y": -6,
+        "width": 98,
+        "height": 98
+    }
 }

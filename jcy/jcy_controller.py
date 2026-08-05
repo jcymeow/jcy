@@ -311,7 +311,8 @@ class FeatureController:
             Function.LAYOUTS_INVENTORY_ADD_CUBE.value: self.file_operations.switch_inventory_cube,
             # 布局.物品栏.扩展(收缩装备槽位&添加迷你盒子/公式提示)
             Function.LAYOUTS_INVENTORY_EXTRA.value: self.file_operations.switch_inventory_extra,
-            
+            # 布局.主菜单.扩展(移除关卡背景, 融合大厅, 移除聊天)
+            Function.LAYOUTS_MAINMENU_EXTRA.value: self.file_operations.switch_mainmenu_extra,
             # 布局.队伍.展示等级/职业/位置
             Function.LAYOUTS_PARTY_INFO_EXTRA.value: self.file_operations.switch_party_extra,
             # 精灵图.迷你盒子.透明化

@@ -787,6 +787,13 @@ class FeatureConfig:
                             "event": "联动迷你盒子"
                         },
                         {
+                            "fid": Function.LAYOUTS_MAINMENU_EXTRA.value,
+                            "type": SWITCH,
+                            "category": "布局",
+                            "target": "主菜单",
+                            "event": "扩展(移除关卡背景, 融合大厅, 移除聊天)"
+                        },
+                        {
                             "fid": Function.LAYOUTS_PARTY_INFO_EXTRA.value,
                             "type": SWITCH,
                             "category": "布局",
