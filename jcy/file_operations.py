@@ -467,36 +467,28 @@ class FileOperations:
             "4": "data/hd/vfx/particles/objects/vfx_only/town_portal/vfx_town_portal_chronicle.particles",
         }
 
-        paths = [
-            r"data/hd/objects/vfx_only/town_portal.json"
-        ]
-        count = 0
-        total = len(paths)
-        for path in paths:
-            target_path = os.path.join(MOD_PATH, path)
-            temp_path = target_path + ".tmp"
-            try:
-                # 1.load
+        json_path = r"data/hd/objects/vfx_only/town_portal.json"
+
+        # 默认=缺省
+        self.common_rename([json_path], radio != "0")
+
+        # 修改传送门样式
+        try:
+            target_path = os.path.join(MOD_PATH, json_path)
+            if os.path.exists(target_path):
                 json_data = None
                 with open(target_path, 'r', encoding='utf-8') as f:
                     json_data = json.load(f)
                 
-                # 2.modify
                 json_data["entities"][0]["components"][2]["filename"] = params[radio]
                 
-                # 3.dump temp
-                with open(temp_path, 'w', encoding="utf-8") as f:
+                with open(target_path, 'w', encoding="utf-8") as f:
                     json.dump(json_data, f, ensure_ascii=False, indent=4)
 
-                # 4.replace
-                os.replace(temp_path, target_path)
-                count += 1
-            except Exception as e:
-                print(e)
-            finally:
-                if os.path.exists(temp_path):
-                    os.remove(temp_path)
-        return (count, total)
+            return 1, 1
+        except Exception as e:
+            print(e)
+            return 0, 1
 
 
     def select_health_mana_format(self, radio: str = "0"):
