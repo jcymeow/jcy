@@ -1532,15 +1532,6 @@ class Methods(Enum):
     """修改 items.json 使用素材火炬钥匙皮肤"""
 
 
-class JcyExt(Enum):
-    QUICK_GAME = "JcyModQuickGame"
-    TOGGLE_MINI_STASH = "JcyToggleMiniStash"
-    TOGGLE_MINI_CUBE = "JcyToggleMiniCube"
-    TOGGLE_MINI_BAR = "JcyToggleMiniBar"
-    TOGGLE_FRIENDS_LIST = "JcyToggleFriendsList"
-    GAME_SETTING = "JcyGameSetting"
-    REMAKE_HELL_GAME = "JcyRemakeHellGame"
-
 # 导出所有需要的符号
 __all__ = [
     'Function',
@@ -1548,7 +1539,6 @@ __all__ = [
     'grade_dict',
     'Operation',
     'Methods',
-    'JcyExt',
     'MUTEX_NAME',
     'ERROR_ALREADY_EXISTS',
     'WM_SHOW_WINDOW',

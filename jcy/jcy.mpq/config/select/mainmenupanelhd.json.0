@@ -458,7 +458,7 @@
                 "anchor": {
                     "x": 0.5
                 },
-                "tooltipString": "點擊快速建立最高難度遊戲",
+                "tooltipString": "@JcyQuickGame",
                 "onClickMessage": "CharacterSelect:LoadCharacter:2",
                 "textColor": "$LightButtonTextColor",
                 "text/style": "$StyleFEButtonText"

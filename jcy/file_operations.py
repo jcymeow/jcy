@@ -2628,8 +2628,8 @@ class FileOperations:
         
         count = 0
         # - data/local/lng/strings/jcy.json
-        # + data/global/ui/layouts/mainmenupanelhd.json
         # + data/global/ui/layouts/JcyMiniButtonshd.json
+        # + data/global/ui/layouts/pauselayoutgardenhd.json
         total = len(LOCAL_FILES) - 1 + 2
 
         lng = jcy_config.SETTINGS.get(select_language, Language.ZHTW.value)
@@ -2658,26 +2658,6 @@ class FileOperations:
             except Exception as e:
                 print(f"[Error] {json_path}: {e}")
 
-        # 修改 快速创建游戏 提示语
-        quick_data = None
-        quick_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/mainmenupanelhd.json")
-        if not os.path.exists(quick_path):
-            quick_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/mainmenupanelhd.json.tmp")
-        try:
-            with open(quick_path, 'r', encoding='utf-8') as f:
-                quick_data = json.load(f)
-
-            for child in quick_data["children"]:
-                if child.get("name") == "GoToHell":
-                    child["fields"]["tooltipString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.QUICK_GAME.value).get(lng)
-                            
-            with open(quick_path, 'w', encoding="utf-8") as f:
-                json.dump(quick_data, f, ensure_ascii=False, indent=4)
-
-            count += 1
-        except Exception as e:
-            print(f"[Error] {quick_path}: {e}")
-
         # 修改迷你按钮Bar 提示语
         mini_data = None
         mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniButtonshd.json")
@@ -2687,7 +2667,7 @@ class FileOperations:
 
             for child in mini_data["children"]:
                 key = child["name"]
-                child["fields"]["tooltipString"] = jcy_config.LOCAL_EXT_DICT.get(key).get(lng)
+                child["fields"]["tooltipString"] = jcy_config.LOCAL_TEMP_DICT.get(key).get(lng)
 
             with open(mini_path, 'w', encoding="utf-8") as f:
                 json.dump(mini_data, f, ensure_ascii=False, indent=4)
@@ -2699,7 +2679,6 @@ class FileOperations:
         # 修改重开地狱游戏 提示语, 当"添加 重开地狱游戏按钮"勾选时
         setting2 = jcy_config.SETTINGS.get(Function.GAME_SETTING2.value)
         if "8" in setting2:
-            total += 1
             pause_data = None                    
             pause_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/pauselayoutgardenhd.json")
             try:
@@ -2710,7 +2689,7 @@ class FileOperations:
                     if "TableWidget" == child.get("type", "") and "PauseTableExtra" == child.get("name", ""):
                         for grand_child in child["children"]:
                             if "TableRowWidget" == grand_child.get("type", "") and "quickremakehellgame" == grand_child.get("name", ""):
-                                grand_child["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
+                                grand_child["children"][0]["fields"]["textString"] = "@JcyRemakeHellGame"
 
                 with open(pause_path, 'w', encoding="utf-8") as f:
                     json.dump(pause_data, f, ensure_ascii=False, indent=4)
@@ -3091,7 +3070,7 @@ class FileOperations:
                             if "8" in keys:
                                 lng = jcy_config.SETTINGS.get(Language.ZHCN.value, Language.ZHTW.value)
                                 grand_child["children"][0]["fields"]["filename"] = "PauseMenu\\PauseButton"
-                                grand_child["children"][0]["fields"]["textString"] = jcy_config.LOCAL_EXT_DICT.get(JcyExt.REMAKE_HELL_GAME.value).get(lng)
+                                grand_child["children"][0]["fields"]["textString"] = "@JcyRemakeHellGame"
                             else:
                                 grand_child["children"][0]["fields"]["filename"] = ""
                                 grand_child["children"][0]["fields"]["textString"] = ""
