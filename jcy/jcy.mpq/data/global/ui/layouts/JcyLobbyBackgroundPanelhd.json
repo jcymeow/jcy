@@ -1,0 +1,300 @@
+{
+    "type": "LobbyBackgroundPanel",
+    "name": "JcyLobbyBackgroundPanel",
+    "fields": {
+        "fitToParent": true,
+        "anchor": "$LobbyAnchor",
+        "lobbyTabs": [
+            "CreateGamePanel",
+            "JoinGamePanel",
+            "LadderPanel"
+        ],
+        "defaultTab": 1,
+        "leftRect": "$LeftLobbyRect",
+        "leftRectNarrow": "$LeftLobbyRectNarrow",
+        "rightRect": "$RightLobbyRect",
+        "rightRectNarrow": "$RightLobbyRectNarrow",
+        "rightSubpanelRect": "$RightLobbySubPanelRect",
+        "rightSubpanelRectNarrow": "$RightLobbySubPanelRectNarrow",
+        "hardcoreCharacterNameColor": "$FontColorRed",
+        "playerClassScale": [
+            {
+                "playerClass": "Assassin",
+                "scale": 1.1
+            },
+            {
+                "playerClass": "Amazon",
+                "scale": 1.05
+            },
+            {
+                "playerClass": "Druid",
+                "scale": 0.97
+            },
+            {
+                "playerClass": "Sorceress",
+                "scale": 1.1
+            }
+        ],
+        "tutorialRects": [
+            "$ChatRect",
+            "$ChatArrowRect",
+            "$CreateGameRect",
+            "$GameNameRect",
+            "$JoinGameRect",
+            "$LadderRect"
+        ],
+        "tutorialNarrowRects": [
+            "$ChatNarrowRect",
+            "$ChatArrowNarrowRect",
+            "$CreateGameNarrowRect",
+            "$GameNameNarrowRect",
+            "$JoinGameNarrowRect",
+            "$LadderNarrowRect"
+        ],
+        "deadCharacterTint": [
+            0.1,
+            0.18,
+            0.36,
+            0.9
+        ],
+        "deadCharacterTransparency": 0.7
+    },
+    "children": [
+        {
+            "type": "Widget",
+            "name": "RightPanel",
+            "fields": {
+                "rect": "$RightLobbyRect"
+            },
+            "children": [
+                {
+                    "type": "ImageWidget",
+                    "name": "RightPanelBackground",
+                    "fields": {
+                        "filename": "Lobby\\Final\\Lobby_RightPanel"
+                    }
+                },
+                {
+                    "type": "TabBarWidget",
+                    "name": "LobbyTabs",
+                    "fields": {
+                        "rect": {
+                            "x": 67,
+                            "y": 81
+                        },
+                        "tabCount": 3,
+                        "filename": "Lobby\\Final\\LobbyTabs",
+                        "inactiveFrames": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "activeFrames": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "disabledFrames": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "textStrings": [
+                            "@LobbyCreateGame",
+                            "@LobbyJoinGame",
+                            "@LobbyLadder"
+                        ],
+                        "tooltipStrings": [
+                            "",
+                            "",
+                            "@LadderLeaderboardRefreshMessage"
+                        ],
+                        "disabledTooltipStrings": [
+                            "@UnavailableFeature",
+                            "@UnavailableFeature",
+                            "@UnavailableFeature"
+                        ],
+                        "textStyle": {
+                            "pointSize": "$MediumFontSize"
+                        },
+                        "activeTextColor": "$TabsActiveTextColor",
+                        "inactiveTextColor": "$TabsInactiveTextColor",
+                        "tabSize": {
+                            "x": 386,
+                            "y": 103
+                        },
+                        "tabPadding": {
+                            "x": 1,
+                            "y": 0
+                        },
+                        "tabTextOffset": {
+                            "x": 0,
+                            "y": -5
+                        },
+                        "onSwitchTabMessage": "Lobby:SelectTab",
+                        "automaticallyPositionIndicators": true
+                    }
+                },
+                {
+                    "type": "ButtonWidget",
+                    "name": "ExitLobby",
+                    "fields": {
+                        "rect": {
+                            "x": 1060,
+                            "y": 1785,
+                            "scale": 1.5
+                        },
+                        "filename": "panel/mainmenu/lobby",
+                        "textString": "",
+                        "fontType": "10ptE",
+                        "pointSize": "$MediumFontSize",
+                        "textColor": "$LightButtonTextColor",
+                        "onClickMessage": "Lobby:Close",
+                        "hoveredFrame": 0,
+                        "disabledFrame": 1,
+                        "disabledTint": {
+                            "a": 1.0
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Widget",
+            "name": "CenterPanel",
+            "children": [
+                {
+                    "type": "ImageWidget",
+                    "name": "CenterPanelBackground",
+                    "fields": {
+                        "rect": {
+                            "x": -362,
+                            "y": 4
+                        },
+                        "filename": "Lobby\\Final\\Lobby_CenterPanel"
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "Name",
+                    "fields": {
+                        "rect": {
+                            "x": -280,
+                            "y": 1292,
+                            "width": 561,
+                            "height": 58
+                        },
+                        "fontType": "16pt",
+                        "text": "@GameName",
+                        "style": {
+                            "fontColor": "$FontColorGoldYellow",
+                            "alignment": {
+                                "v": "center",
+                                "h": "center"
+                            },
+                            "pointSize": "$LargeFontSize"
+                        },
+                        "useAltStyleIfDoesntFit": true,
+                        "altStyle": {
+                            "fontColor": {
+                                "r": 199,
+                                "g": 179,
+                                "b": 119,
+                                "a": 255
+                            },
+                            "alignment": {
+                                "v": "center",
+                                "h": "center"
+                            },
+                            "pointSize": "$SmallFontSize",
+                            "spacing": "$MinimumSpacing"
+                        }
+                    }
+                },
+                {
+                    "type": "TextBoxWidget",
+                    "name": "Level&Class",
+                    "fields": {
+                        "rect": {
+                            "x": -280,
+                            "y": 1334,
+                            "width": 561,
+                            "height": 58
+                        },
+                        "fontType": "16pt",
+                        "text": "level&class",
+                        "style": {
+                            "alignment": {
+                                "h": "center",
+                                "v": "center"
+                            },
+                            "pointSize": "$MediumFontSize"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Camera3DWidget",
+            "name": "MainCaptureCamera",
+            "fields": {
+                "yawDegrees": 91,
+                "pitchDegrees": 0,
+                "fovDegrees": 42,
+                "position": [
+                    65.14,
+                    5.28,
+                    108.8
+                ],
+                "activateOnOpened": true,
+                "frustumBoundsMin": [
+                    20.0,
+                    -10.0,
+                    70.0
+                ],
+                "frustumBoundsMax": [
+                    120.0,
+                    20.0,
+                    150.0
+                ],
+                "captureOffset": [
+                    0.0,
+                    20.0,
+                    0.0
+                ],
+                "overrideFrustumBoundsOnActivate": true,
+                "visDataPath": "data/hd/env/vis/ui_frontend_lobby.json",
+                "iblDataPath": "data/hd/env/ibl/act3_IW_over29_CUBEMAP.ibls",
+                "isCaptureCamera": true
+            }
+        },
+        {
+            "type": "PlayerLoaderWidget",
+            "name": "MainCharacterCapture",
+            "fields": {
+                "position": [
+                    78.0,
+                    1.1,
+                    108.7
+                ],
+                "yawDegrees": -105,
+                "animation": "FrontendNeutral",
+                "captureInView": 0
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "MainFigurine",
+            "fields": {
+                "rect": {
+                    "x": -390,
+                    "y": 384,
+                    "width": 780,
+                    "height": 880
+                },
+                "isLinear": true,
+                "skipScaling": true
+            }
+        }
+    ]
+}

@@ -4154,7 +4154,7 @@ class FileOperations:
 
 
     def switch_mainmenu_extra(self, value):
-        """布局.主菜单.扩展(移除关卡背景, 融合大厅, 移除聊天)"""
+        """布局.主菜单.扩展(融合大厅, 移除聊天)"""
         funcs = []
         # 1.修改 HD样式文件, 大厅锚点
         try:
@@ -4184,13 +4184,13 @@ class FileOperations:
         # 3.替换 天梯排名面板
         funcs.append(self.common_select(r"data/global/ui/layouts/ladderpanelhd.json", value))
 
-        # 4.替换大厅背景面板
+        # 4.替换 大厅背景面板
         funcs.append(self.common_select(r"data/global/ui/layouts/lobbybackgroundpanelhd.json", value))
 
-        # 5.替换大厅聊天面板
+        # 5.替换 大厅聊天面板
         funcs.append(self.common_select(r"data/global/ui/layouts/lobbychatpanelhd.json", value))
 
-        # 6.替换主菜单面板
+        # 6.替换 主菜单面板
         funcs.append(self.common_select(r"data/global/ui/layouts/mainmenupanelhd.json", value))
 
         summary = [sum(column) for column in zip(*funcs)]

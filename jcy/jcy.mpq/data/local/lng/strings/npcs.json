@@ -2722,6 +2722,24 @@
     "ruRU": "",
     "zhCN": "ÿcU限術士君臨"
   },
+  
+  {
+    "id": 100029,
+    "Key": "JcyPressTheEscKeyToReturn",
+    "enUS": "Press the Esc Key to Return",
+    "zhTW": "按 Esc 鍵返回",
+    "deDE": "Press the Esc Key to Return",
+    "esES": "Press the Esc Key to Return",
+    "frFR": "Press the Esc Key to Return",
+    "itIT": "Press the Esc Key to Return",
+    "koKR": "Press the Esc Key to Return",
+    "plPL": "Press the Esc Key to Return",
+    "esMX": "Press the Esc Key to Return",
+    "jaJP": "Press the Esc Key to Return",
+    "ptBR": "Press the Esc Key to Return",
+    "ruRU": "Press the Esc Key to Return",
+    "zhCN": "按 Esc 鍵返回"
+  },
   {
     "id": 100100,
     "Key": "Color0",

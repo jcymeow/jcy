@@ -39,10 +39,10 @@
     "children": [
         {
             "type": "TimerWidget",
-            "name": "lobbybackground on",
+            "name": "JcyLoadLobby",
             "fields": {
                 "time": 0.01,
-                "message": "PanelManager:OpenPanel:lobbybackground"
+                "message": "PanelManager:OpenPanel:JcyLobbyBackgroundPanel"
             }
         },
         {
@@ -52,9 +52,9 @@
                 "rect": {
                     "x": 0,
                     "y": 0,
-                    "scale": 2.0
+                    "scale": 4.5
                 },
-                "filename": "panel/mainmenu/background"
+                "filename": "frontend\\hd\\temporary_modal_background"
             }
         },
         {
