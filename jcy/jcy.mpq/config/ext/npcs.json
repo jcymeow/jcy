@@ -1488,6 +1488,24 @@
         "sgCN": "ÿcU限术士君临",
         "bnCN": "ÿcU限术士君临"
     },
+    "JcyVersion": {
+        "Key": "JcyVersion",
+        "enUS": "v1.6.3",
+        "zhTW": "v1.6.3",
+        "sgTW": "v1.6.3",
+        "zhCN": "v1.6.3",
+        "sgCN": "v1.6.3",
+        "bnCN": "v1.6.3"
+    },
+    "JcyReleaseDate": {
+        "Key": "JcyReleaseDate",
+        "enUS": "20260807",
+        "zhTW": "20260807",
+        "sgTW": "20260807",
+        "zhCN": "20260807",
+        "sgCN": "20260807",
+        "bnCN": "20260807"
+    },
     "JcyQuickGame": {
         "Key": "JcyQuickGame",
         "enUS": "Click to quickly create the highest difficulty game",
@@ -1560,7 +1578,7 @@
         "sgCN": "重开地狱游戏",
         "bnCN": "重开地狱游戏"
     },
-    "JcyPressTheEscKeyToReturn":{
+    "JcyPressTheEscKeyToReturn": {
         "enUS": "Press the Esc Key to Return",
         "zhTW": "按 Esc 鍵返回",
         "sgTW": "按 Esc 鍵返回",

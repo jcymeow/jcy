@@ -2672,7 +2672,7 @@
     "zhCN": "融合倉庫"
   },
   {
-    "id": 100011,
+    "id": 100002,
     "Key": "NonLadderOnly",
     "enUS": "ÿcUNon-Ladder only",
     "zhTW": "ÿcU非天梯限定",
@@ -2689,7 +2689,7 @@
     "zhCN": "ÿcU非天梯限定"
   },
   {
-    "id": 100012,
+    "id": 100003,
     "Key": "LadderOnly",
     "enUS": "ÿcULadder only",
     "zhTW": "ÿcU天梯限定",
@@ -2706,7 +2706,7 @@
     "zhCN": "ÿcU天梯限定"
   },
   {
-    "id": 100013,
+    "id": 100004,
     "Key": "RotwOnly",
     "enUS": "ÿcURotW only",
     "zhTW": "ÿcU限術士君臨",
@@ -2721,6 +2721,40 @@
     "ptBR": "",
     "ruRU": "",
     "zhCN": "ÿcU限術士君臨"
+  },
+  {
+    "id": 100005,
+    "Key": "JcyVersion",
+    "enUS": "v1.6.3",
+    "zhTW": "v1.6.3",
+    "deDE": "v1.6.3",
+    "esES": "v1.6.3",
+    "frFR": "v1.6.3",
+    "itIT": "v1.6.3",
+    "koKR": "v1.6.3",
+    "plPL": "v1.6.3",
+    "esMX": "v1.6.3",
+    "jaJP": "v1.6.3",
+    "ptBR": "v1.6.3",
+    "ruRU": "v1.6.3",
+    "zhCN": "v1.6.3"
+  },
+  {
+    "id": 100006,
+    "Key": "JcyReleaseDate",
+    "enUS": "20260807",
+    "zhTW": "20260807",
+    "deDE": "20260807",
+    "esES": "20260807",
+    "frFR": "20260807",
+    "itIT": "20260807",
+    "koKR": "20260807",
+    "plPL": "20260807",
+    "esMX": "20260807",
+    "jaJP": "20260807",
+    "ptBR": "20260807",
+    "ruRU": "20260807",
+    "zhCN": "20260807"
   },
   {
     "id": 100021,

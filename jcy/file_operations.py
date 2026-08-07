@@ -2627,10 +2627,9 @@ class FileOperations:
         """修改本地化文件列表, 选中语言内容"""
         
         count = 0
-        # - data/local/lng/strings/jcy.json
         # + data/global/ui/layouts/JcyMiniButtonshd.json
         # + data/global/ui/layouts/pauselayoutgardenhd.json
-        total = len(LOCAL_FILES) - 1 + 2
+        total = len(LOCAL_FILES) + 2
 
         lng = jcy_config.SETTINGS.get(select_language, Language.ZHTW.value)
 
@@ -2667,7 +2666,7 @@ class FileOperations:
 
             for child in mini_data["children"]:
                 key = child["name"]
-                child["fields"]["tooltipString"] = jcy_config.LOCAL_TEMP_DICT.get(key).get(lng)
+                child["fields"]["tooltipString"] = jcy_config.LOCAL_TEMP_DICT.get(key)
 
             with open(mini_path, 'w', encoding="utf-8") as f:
                 json.dump(mini_data, f, ensure_ascii=False, indent=4)
@@ -3417,29 +3416,93 @@ class FileOperations:
         count = 0
         total = 2
         try:
-            # mainmenubuttonribbonhd.json
-            menu_data = None
-            menu_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/mainmenubuttonribbonhd.json")
-            with open(menu_path, 'r', encoding='utf-8') as f:
-                menu_data = json.load(f)
-            menu_data["children"][0]["children"][3]["fields"]["textString"] = f"JCY MOD {APP_VERSION}"
-            with open(menu_path, 'w', encoding='utf-8') as f:
-                json.dump(menu_data, f, ensure_ascii=False, indent=4)
-            count += 1
-
-            # jcymodinfohd.json
             json_data = None
-            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/jcymodinfohd.json")
+            json_path = os.path.join(MOD_PATH, r"config/ext/npcs.json")
+
             with open(json_path, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
-            json_data["children"][0]["children"][0]["fields"]["text"] = f"JCY MOD {APP_VERSION}"
-            json_data["children"][0]["children"][1]["fields"]["text"] = f"{APP_DATE}"
+
+            json_data["JcyVersion"] = {
+                "Key": "JcyVersion",
+                "enUS": APP_VERSION,
+                "zhTW": APP_VERSION,
+                "sgTW": APP_VERSION,
+                "zhCN": APP_VERSION,
+                "sgCN": APP_VERSION,
+                "bnCN": APP_VERSION
+            }
+            json_data["JcyReleaseDate"] = {
+                "Key": "JcyReleaseDate",
+                "enUS": APP_DATE,
+                "zhTW": APP_DATE,
+                "sgTW": APP_DATE,
+                "zhCN": APP_DATE,
+                "sgCN": APP_DATE,
+                "bnCN": APP_DATE
+            }
+
             with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(json_data, f, ensure_ascii=False, indent=4)    
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
             count += 1
         except Exception as e:
             print(e)
-        
+
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/local/lng/strings/npcs.json")
+
+            with open(json_path, 'r', encoding='utf-8-sig') as f:
+                json_data = json.load(f)
+
+            records = 2
+            for i, obj in enumerate(json_data):
+                if obj["Key"] == "JcyVersion":
+                    json_data[i] = {
+                        "id": 100005,
+                        "Key": "JcyVersion",
+                        "enUS": APP_VERSION,
+                        "zhTW": APP_VERSION,
+                        "deDE": APP_VERSION,
+                        "esES": APP_VERSION,
+                        "frFR": APP_VERSION,
+                        "itIT": APP_VERSION,
+                        "koKR": APP_VERSION,
+                        "plPL": APP_VERSION,
+                        "esMX": APP_VERSION,
+                        "jaJP": APP_VERSION,
+                        "ptBR": APP_VERSION,
+                        "ruRU": APP_VERSION,
+                        "zhCN": APP_VERSION
+                    }
+                    records -= 1
+                if obj["Key"] == "JcyReleaseDate":
+                    json_data[i] = {
+                        "id": 100006,
+                        "Key": "JcyReleaseDate",
+                        "enUS": APP_DATE,
+                        "zhTW": APP_DATE,
+                        "deDE": APP_DATE,
+                        "esES": APP_DATE,
+                        "frFR": APP_DATE,
+                        "itIT": APP_DATE,
+                        "koKR": APP_DATE,
+                        "plPL": APP_DATE,
+                        "esMX": APP_DATE,
+                        "jaJP": APP_DATE,
+                        "ptBR": APP_DATE,
+                        "ruRU": APP_DATE,
+                        "zhCN": APP_DATE
+                    }
+                    records -= 1
+                if records <= 0:
+                    break
+
+            with open(json_path, 'w', encoding='utf-8-sig') as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=2)
+            count += 1
+        except Exception as e:
+            print(e)
+
         return count, total
 
 
@@ -3986,9 +4049,9 @@ class FileOperations:
         switch = str(value) == "1"
 
         count = 0
-        total = 3
+        total = 2
 
-        # 1. jcy\jcy.mpq\data\global\ui\layouts\hudwarningshd.json 开启JcyPartyExtra
+        # 1. 开启JcyPartyExtra
         try:
             hud_data = None
             hud_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hudwarningshd.json")
@@ -4006,26 +4069,7 @@ class FileOperations:
         except Exception as e:
             print(e)
 
-        # 2. jcy\jcy.mpq\data\global\ui\layouts\hireablespanelhd.json 调整队伍面板布局
-        try:
-            hire_data = None
-            hire_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/hireablespanelhd.json")
-            with open(hire_path, 'r', encoding='utf-8') as f:
-                hire_data = json.load(f)
-            
-            for child in hire_data["children"]:
-                if "Template" == child.get("name"):
-                    for grand_child in child["children"]:
-                        if "Name" == grand_child.get("name"):
-                            grand_child["fields"]["anchor"]["y"] = 120 if switch else 0.98
-            
-            with open(hire_path, 'w', encoding="utf-8") as f:
-                json.dump(hire_data, f, ensure_ascii=False, indent=4)
-            count += 1
-        except Exception as e:
-            print(e)
-
-        # 3. jcy\jcy.mpq\data\global\ui\layouts\partypanelhd.json 调度JcyPartyExtra定时器开关
+        # 2. 调度JcyPartyExtra定时器开关
         TIMER_WIDGETS = {
             "CloseJcyPartyExtra",
             "UnloadJcyPartyExtraOpen",

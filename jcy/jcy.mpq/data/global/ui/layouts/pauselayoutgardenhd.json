@@ -302,7 +302,7 @@
                             "fields": {
                                 "filename": "PauseMenu\\PauseButton",
                                 "hoveredFrame": 3,
-                                "textString": "重開地獄遊戲",
+                                "textString": "@JcyRemakeHellGame",
                                 "pressLabelOffset": [
                                     0,
                                     0

@@ -23,7 +23,7 @@
                     "scale": 0.65
                 },
                 "filename": "panel\\mini\\stash",
-                "tooltipString": "開關儲物箱",
+                "tooltipString": "@JcyToggleStash",
                 "onClickMessage": "PanelManager:TogglePanel:BankExpansionLayout",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
@@ -39,7 +39,7 @@
                     "scale": 0.65
                 },
                 "filename": "panel\\mini\\cube",
-                "tooltipString": "開關迷你盒子",
+                "tooltipString": "@JcyToggleMiniCube",
                 "onClickMessage": "PanelManager:TogglePanel:JcyMiniCube",
                 "hoveredFrame": 2
             }
@@ -54,7 +54,7 @@
                     "scale": 0.65
                 },
                 "filename": "panel\\mini\\hpmp",
-                "tooltipString": "開關迷你血條",
+                "tooltipString": "@JcyToggleMiniBar",
                 "onClickMessage": "PanelManager:TogglePanel:JcyMiniHud",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2,
@@ -71,7 +71,7 @@
                     "scale": 0.8
                 },
                 "filename": "panel\\hud_02\\messages",
-                "tooltipString": "開關好友列表",
+                "tooltipString": "@JcyToggleFriendsList",
                 "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
@@ -87,7 +87,7 @@
                     "scale": 0.8
                 },
                 "filename": "panel\\hud_02\\pausemenu",
-                "tooltipString": "遊戲設置",
+                "tooltipString": "@JcyGameSetting",
                 "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
@@ -103,7 +103,7 @@
                     "scale": 0.8
                 },
                 "filename": "PANEL\\HUD_02\\QuestLog",
-                "tooltipString": "知識卷軸",
+                "tooltipString": "@JcyKnowledge",
                 "onClickMessage": "PanelManager:TogglePanel:messagePanel",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2

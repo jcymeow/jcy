@@ -17,10 +17,10 @@ WM_SHOW_WINDOW = 0x5000
 APP_NAME = "jcy控制器"
 
 # MOD版本
-APP_VERSION = "v1.6.2"
+APP_VERSION = "v1.6.3"
 
 # 发布日期
-APP_DATE = "20260731"
+APP_DATE = "20260807"
 
 # 控制器全称
 APP_FULL_NAME = f"{APP_NAME}_{APP_VERSION}"
@@ -60,7 +60,6 @@ LOCAL_FILES = [
     "item-nameaffixes.json",
     "item-names.json",
     "item-runes.json",
-    "jcy.json",
     "keybinds.json",
     "levels.json",
     "mercenaries.json",
