@@ -137,24 +137,19 @@
                 },
                 {
                     "type": "ButtonWidget",
-                    "name": "ExitLobby",
+                    "name": "Lobby",
                     "fields": {
                         "rect": {
-                            "x": 1060,
+                            "x": 1436,
                             "y": 1785,
-                            "scale": 1.5
+                            "scale": 0.8
                         },
-                        "filename": "panel/mainmenu/lobby",
-                        "textString": "",
-                        "fontType": "10ptE",
-                        "pointSize": "$MediumFontSize",
-                        "textColor": "$LightButtonTextColor",
+                        "filename": "jcy\\buttons\\Lobby",
+                        "hoveredFrame": 1,
+                        "pressedFrame": 2,
+                        "tooltipString": "@LobbyButton",
                         "onClickMessage": "Lobby:Close",
-                        "hoveredFrame": 0,
-                        "disabledFrame": 1,
-                        "disabledTint": {
-                            "a": 1.0
-                        }
+                        "focusIndicatorVisible": true
                     }
                 }
             ]

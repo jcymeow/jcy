@@ -59,84 +59,102 @@
         },
         {
             "type": "ButtonWidget",
-            "name": "OnlinePlaySettingsButton",
+            "name": "NormalGame",
             "fields": {
                 "anchor": {
-                    "x": 0.5
+                    "x": 1
                 },
                 "rect": {
-                    "x": -900,
-                    "y": 1900,
-                    "scale": 1.5
+                    "x": -960,
+                    "y": 0,
+                    "scale": 0.8
                 },
-                "filename": "panel/mainmenu/setting",
-                "tooltipString": "",
-                "onClickMessage": "PanelManager:OpenPanel:OnlineGameSettingsPanel",
-                "hoveredFrame": 0,
-                "disabledFrame": 1,
-                "disabledTint": {
-                    "a": 1.0
-                }
-            }
-        },
-        {
-            "type": "ButtonWidget",
-            "name": "NormalPlayButton",
-            "fields": {
-                "anchor": {
-                    "x": 0.5
-                },
-                "rect": {
-                    "x": -375,
-                    "y": 1900,
-                    "scale": 1.5
-                },
-                "filename": "panel/mainmenu/normal",
-                "tooltipString": "",
+                "filename": "jcy\\buttons\\NormalGame",
+                "hoveredFrame": 1,
+                "pressedFrame": 2,
+                "tooltipString": "@strCreateGameNormalText",
                 "onClickMessage": "CharacterSelect:LoadCharacter:0",
-                "hoveredFrame": 0,
-                "disabledFrame": 1,
-                "sound": "cursor_launch_game_hd"
+                "focusIndicatorVisible": true
             }
         },
         {
             "type": "ButtonWidget",
-            "name": "NightmarePlayButton",
+            "name": "NightmareGame",
             "fields": {
                 "anchor": {
-                    "x": 0.5
+                    "x": 1
                 },
                 "rect": {
-                    "x": -75,
-                    "y": 1900,
-                    "scale": 1.5
+                    "x": -960,
+                    "y": 160,
+                    "scale": 0.8
                 },
-                "filename": "panel/mainmenu/nightmare",
-                "tooltipString": "",
+                "filename": "jcy\\buttons\\NightmareGame",
+                "hoveredFrame": 1,
+                "pressedFrame": 2,
+                "tooltipString": "@strCreateGameNightmareText",
                 "onClickMessage": "CharacterSelect:LoadCharacter:1",
-                "hoveredFrame": 0,
-                "disabledFrame": 1,
-                "sound": "cursor_launch_game_hd"
+                "focusIndicatorVisible": true
             }
         },
         {
             "type": "ButtonWidget",
-            "name": "HellPlayButton",
+            "name": "HellGame",
             "fields": {
                 "anchor": {
-                    "x": 0.5
+                    "x": 1
                 },
                 "rect": {
-                    "x": 225,
-                    "y": 1900,
-                    "scale": 1.5
+                    "x": -960,
+                    "y": 320,
+                    "scale": 0.8
                 },
-                "filename": "panel/mainmenu/hell",
-                "tooltipString": "",
+                "filename": "jcy\\buttons\\HellGame",
+                "hoveredFrame": 1,
+                "pressedFrame": 2,
+                "tooltipString": "@strCreateGameHellText",
                 "onClickMessage": "CharacterSelect:LoadCharacter:2",
-                "hoveredFrame": 0,
-                "disabledFrame": 1,
-                "sound": "cursor_launch_game_hd"
+                "focusIndicatorVisible": true
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "Options",
+            "fields": {
+                "anchor": {
+                    "x": 1
+                },
+                "rect": {
+                    "x": -960,
+                    "y": 480,
+                    "scale": 0.8
+                },
+                "filename": "jcy\\buttons\\Options",
+                "hoveredFrame": 1,
+                "pressedFrame": 2,
+                "tooltipString": "@Options",
+                "onClickMessage": "PanelManager:OpenPanel:OnlineGameSettingsPanel",
+                "focusIndicatorVisible": true
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "Friends",
+            "fields": {
+                "anchor": {
+                    "x": 1
+                },
+                "rect": {
+                    "x": -960,
+                    "y": 640,
+                    "scale": 0.8
+                },
+                "filename": "jcy\\buttons\\Friends",
+                "hoveredFrame": 1,
+                "pressedFrame": 2,
+                "tooltipString": "@FriendsList",
+                "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
+                "focusIndicatorVisible": true
             }
         },
         {
