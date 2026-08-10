@@ -86,7 +86,7 @@
                 },
                 "onSwitchTabMessage": "BankPanelMessage:SelectTab",
                 "notificationIconTemplate": {
-                    "filename": "PANEL\\Stash\\AdditionalStash\\StashNotification"
+                    "filename": "jcy\\stash\\additionalstash\\stashnotification4"
                 }
             }
         },
