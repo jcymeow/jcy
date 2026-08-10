@@ -46,18 +46,6 @@
             }
         },
         {
-            "type": "ImageWidget",
-            "name": "Background",
-            "fields": {
-                "rect": {
-                    "x": 0,
-                    "y": 0,
-                    "scale": 4.5
-                },
-                "filename": "frontend\\hd\\temporary_modal_background"
-            }
-        },
-        {
             "type": "ButtonWidget",
             "name": "NormalGame",
             "fields": {
