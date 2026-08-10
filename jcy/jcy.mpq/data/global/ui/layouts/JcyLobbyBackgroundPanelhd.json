@@ -147,7 +147,7 @@
                         "filename": "jcy\\buttons\\Lobby",
                         "hoveredFrame": 1,
                         "pressedFrame": 2,
-                        "tooltipString": "@LobbyButton",
+                        "tooltipString": "@JcyPressTheEscKeyToRefresh @LobbyButton",
                         "onClickMessage": "Lobby:Close",
                         "focusIndicatorVisible": true
                     }

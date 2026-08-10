@@ -1586,6 +1586,14 @@
         "sgCN": "按 Esc 键返回",
         "bnCN": "按 Esc 键返回"
     },
+    "JcyPressTheEscKeyToRefresh": {
+        "enUS": "Press the Esc Key to Return",
+        "zhTW": "按 Esc 鍵刷新",
+        "sgTW": "按 Esc 鍵刷新",
+        "zhCN": "按 Esc 键刷新",
+        "sgCN": "按 Esc 键刷新",
+        "bnCN": "按 Esc 键刷新"
+    },
     "Color0": {
         "Key": "Color0",
         "enUS": "ÿc0",

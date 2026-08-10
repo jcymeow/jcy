@@ -2910,6 +2910,23 @@
     "zhCN": "按 Esc 鍵返回"
   },
   {
+    "id": 100030,
+    "Key": "JcyPressTheEscKeyToRefresh",
+    "enUS": "Press the Esc Key to Refresh",
+    "zhTW": "按 Esc 鍵刷新",
+    "deDE": "Press the Esc Key to Refresh",
+    "esES": "Press the Esc Key to Refresh",
+    "frFR": "Press the Esc Key to Refresh",
+    "itIT": "Press the Esc Key to Refresh",
+    "koKR": "Press the Esc Key to Refresh",
+    "plPL": "Press the Esc Key to Refresh",
+    "esMX": "Press the Esc Key to Refresh",
+    "jaJP": "Press the Esc Key to Refresh",
+    "ptBR": "Press the Esc Key to Refresh",
+    "ruRU": "Press the Esc Key to Refresh",
+    "zhCN": "按 Esc 鍵刷新"
+  },
+  {
     "id": 100100,
     "Key": "Color0",
     "enUS": "ÿc0",
