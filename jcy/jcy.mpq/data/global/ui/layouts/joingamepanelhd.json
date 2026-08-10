@@ -73,6 +73,7 @@
                         "maxStringLength": 15,
                         "canInsertNewlines": false,
                         "fontType": "12ptF",
+                        "fontStyle": "$StyleSettingsNumeric",
                         "fontStyle": {
                             "fontFace": "BlizzardGlobal"
                         },
@@ -125,6 +126,7 @@
                         "maxStringLength": 15,
                         "canInsertNewlines": false,
                         "fontType": "12ptF",
+                        "fontStyle": "$StyleSettingsNumeric",
                         "fontStyle": {
                             "fontFace": "BlizzardGlobal"
                         },
@@ -806,6 +808,7 @@
                         "maxStringLength": 15,
                         "canInsertNewlines": false,
                         "fontType": "12ptF",
+                        "fontStyle": "$StyleSettingsNumeric",
                         "fontStyle": {
                             "fontFace": "BlizzardGlobal"
                         },

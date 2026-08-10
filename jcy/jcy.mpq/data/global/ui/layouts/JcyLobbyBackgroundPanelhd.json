@@ -192,7 +192,8 @@
                                 "v": "center",
                                 "h": "center"
                             },
-                            "pointSize": "$LargeFontSize"
+                            "pointSize": "$LargeFontSize",
+                            "fontFace": "BlizzardGlobal"
                         },
                         "useAltStyleIfDoesntFit": true,
                         "altStyle": {
@@ -207,7 +208,8 @@
                                 "h": "center"
                             },
                             "pointSize": "$SmallFontSize",
-                            "spacing": "$MinimumSpacing"
+                            "spacing": "$ReducedSpacing",
+                            "fontFace": "BlizzardGlobal"
                         }
                     }
                 },
@@ -230,6 +232,27 @@
                             },
                             "pointSize": "$MediumFontSize"
                         }
+                    }
+                },
+                {
+                    "type": "ToggleButtonWidget",
+                    "name": "ChatGem",
+                    "fields": {
+                        "rect": {
+                            "x": -66,
+                            "y": 1471
+                        },
+                        "hitMargin": {
+                            "top": -30,
+                            "bottom": -25,
+                            "left": -35,
+                            "right": -30
+                        },
+                        "filename": "Lobby\\Final\\ChatGem",
+                        "onClickMessage": "Lobby:ChatGem",
+                        "untoggledFrame": 0,
+                        "toggledFrame": 1,
+                        "sound": "cursor_lobby_gem_hd"
                     }
                 }
             ]
