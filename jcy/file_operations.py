@@ -2067,6 +2067,10 @@ class FileOperations:
             # A5毁灭王座石柱
             "6": [
                 r"data/hd/env/preset/expansion/baallair/wthrone.json",
+            ],
+            # A4混沌界要塞房顶
+            "7": [
+                r"data/hd/env/preset/act4/fort/fortress.json",
             ]
         }
 
