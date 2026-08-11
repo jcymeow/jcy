@@ -3886,6 +3886,23 @@ class FileOperations:
         return count, total
 
 
+    def switch_remains_pointer(self, value):
+        """动画.角色尸体.添加蓝色火苗指引"""
+        _files = [
+            r"data/hd/character/player/amazon/animation/combined.timelines",
+            r"data/hd/character/player/assassin/animation/combined.timelines",
+            r"data/hd/character/player/barbarian/animation/combined.timelines",
+            r"data/hd/character/player/druid/animation/combined.timelines",
+            r"data/hd/character/player/necromancer/animation/combined.timelines",
+            r"data/hd/character/player/paladin/animation/combined.timelines",
+            r"data/hd/character/player/sorceress/animation/combined.timelines",
+            r"data/hd/character/player/warlock/animation/combined.timelines",
+        ]
+        
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
+
+
     def switch_tower_cellar_pointer(self, value):
         """环境.A1高塔地牢.添加方向指引"""
         _files = [

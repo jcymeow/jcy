@@ -724,6 +724,13 @@ class FeatureConfig:
                     "text": "开关设置",
                     "children": [
                         {
+                            "fid": Function.ANIMATION_CHARACTER_REMAINS_ADD_POINTER.value,
+                            "type": SWITCH,
+                            "category": "动画",
+                            "target": "角色尸体",
+                            "event": "添加蓝色火苗指引"
+                        },
+                        {
                             "fid": Function.ENV_TOWER_CELLAR_ADD_POINTER.value,
                             "type": SWITCH,
                             "category": "环境",

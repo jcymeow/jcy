@@ -287,6 +287,8 @@ class FeatureController:
             Function.MAGIC_ITEM.value: self.file_operations.modify_magic_affixs,
 
             # --- Switch区 ---
+            # 动画.角色尸体.添加蓝色火苗指引
+            Function.ANIMATION_CHARACTER_REMAINS_ADD_POINTER.value: self.file_operations.switch_remains_pointer,
             # 环境.A1高塔地牢.添加方向指引
             Function.ENV_TOWER_CELLAR_ADD_POINTER.value: self.file_operations.switch_tower_cellar_pointer,
             # 环境.A2墓穴.添加方向指引

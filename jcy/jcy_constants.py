@@ -1478,6 +1478,7 @@ class Function(Enum):
     ITEM_FILTER = "ItemFilter"
 
     # Switch 
+    ANIMATION_CHARACTER_REMAINS_ADD_POINTER = "AnimationCharacterRemainsAddPointer"
     ENV_TOWER_CELLAR_ADD_POINTER = "EnvTowerCellarAddPointer"
     ENV_TOMB_ADD_POINTER = "EnvTombAddPointer"
     ENV_HATE_DURANCE_ADD_POINTER = "EnvHateDuranceAddPointer"
