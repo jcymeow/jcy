@@ -760,6 +760,13 @@ class FeatureConfig:
                             "event": "添加方向指引"
                         },
                         {
+                            "fid": Function.ENV_WEATHER_EVENT_TERROR_ZONE.value,
+                            "type": SWITCH,
+                            "category": "环境",
+                            "target": "天气事件",
+                            "event": "移除恐怖区域切换效果"
+                        },
+                        {
                             "fid": Function.LAYOUTS_CHARACTER_STATS_EXTRA.value,
                             "type": SWITCH,
                             "category": "布局",

@@ -297,6 +297,8 @@ class FeatureController:
             Function.ENV_HATE_DURANCE_ADD_POINTER.value: self.file_operations.switch_hate_durance_pointer,
             # 环境.A5世界之石要塞.添加方向指引
             Function.ENV_WORLD_STONE_ADD_POINTER.value: self.file_operations.switch_world_stone_pointer,
+            # 环境.天气事件.移除恐怖区域切换效果
+            Function.ENV_WEATHER_EVENT_TERROR_ZONE.value: self.file_operations.switch_event_terror_zone,
             # 本地化.日期格式.开启'年-月-日 时:分:秒'
             Function.LOCAL_DATE_FORMAT_TIMESTAMP.value: self.file_operations.switch_date_format_timestamp,
             # 本地化.地表暗黑.增加进度标注

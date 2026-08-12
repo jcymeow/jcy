@@ -3959,6 +3959,15 @@ class FileOperations:
         return self.common_rename(_files, switch)
 
 
+    def switch_event_terror_zone(self, value):
+            """环境.天气事件.移除恐怖区域切换效果"""
+            _files = [
+                r"data/hd/env/weather/vis_event_map.json",
+            ]
+            switch = str(value) == "1"
+            return self.common_rename(_files, switch)
+
+
     def switch_date_format_timestamp(self, value):
         """本地化.日期格式.开启'年-月-日 时:分:秒'"""
         count = 0
