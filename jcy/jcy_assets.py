@@ -1468,21 +1468,31 @@ ASSETS = [
         "md5": "4025744E7A4DA2808170430BBB015020",
         APPLY_METHOD: [
             {
-                METHOD: HIRE_SKIN_APPLY, 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
                 PARAMS: {
-                    "type": 2,
-                    "gender": 1,
+                    "act2hire": { "hirelingAlternateVoice": 1}
                 },
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act2hire": { "MonSound": "act1hire", "UMonSound": "act1hire" }
+                },
+            },
         ],
         REMOVE_METHOD: [
-            {
-                METHOD: HIRE_SKIN_APPLY, 
+            { 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
                 PARAMS: {
-                    "type": 2,
-                    "gender": 0,
+                    "act2hire": { "hirelingAlternateVoice": 0}
                 },
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act2hire": { "MonSound": "act2hire", "UMonSound": "act2hire" }
+                },
+            },
         ],
         "list": [
             "data/hd/character/enemy/act2hire_female/act2hire_female_state_machine.json",
@@ -1506,21 +1516,31 @@ ASSETS = [
         "md5": "35F0617D59FA4C9E82CE12C894B788F9",
         APPLY_METHOD: [
             {
-                METHOD: HIRE_SKIN_APPLY, 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
                 PARAMS: {
-                    "type": 2,
-                    "gender": 1,
+                    "act2hire": { "hirelingAlternateVoice": 1}
                 },
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act2hire": { "MonSound": "act1hire", "UMonSound": "act1hire" }
+                },
+            },
         ],
         REMOVE_METHOD: [
-            {
-                METHOD: HIRE_SKIN_APPLY, 
+            { 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
                 PARAMS: {
-                    "type": 2,
-                    "gender": 0,
+                    "act2hire": { "hirelingAlternateVoice": 0}
                 },
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act2hire": { "MonSound": "act2hire", "UMonSound": "act2hire" }
+                },
+            },
         ],
         "list": [
             "data/hd/character/enemy/act2hire_female/act2hire_female_state_machine.json",
@@ -1545,21 +1565,31 @@ ASSETS = [
         "md5": "005DF819EF0D6BF3C861064895173CE5",
         APPLY_METHOD: [
             {
-                METHOD: HIRE_SKIN_APPLY, 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
                 PARAMS: {
-                    "type": 2,
-                    "gender": 1,
+                    "act2hire": { "hirelingAlternateVoice": 1}
                 },
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act2hire": { "MonSound": "act1hire", "UMonSound": "act1hire" }
+                },
+            },
         ],
         REMOVE_METHOD: [
-            {
-                METHOD: HIRE_SKIN_APPLY, 
+            { 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
                 PARAMS: {
-                    "type": 2,
-                    "gender": 0,
+                    "act2hire": { "hirelingAlternateVoice": 0}
                 },
-            }
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act2hire": { "MonSound": "act2hire", "UMonSound": "act2hire" }
+                },
+            },
         ],
         "list": [
             "data/hd/character/enemy/corruptrogue1/textures/corruptrogue_armor_alb.texture",
@@ -2077,6 +2107,58 @@ ASSETS = [
             r"data/hd/items/armor/helmet/avenger_guard.json",
             r"data/hd/items/armor/helmet/horazons_countenance.json",
             r"data/hd/items/weapon/sword/falchion.json",
+        ]
+    },
+    {
+        "id": 703,
+        "name": "A5佣兵皮肤_3",
+        "type": Assets.ACT5_HIRE.value,
+        "author": "koukakou@163.co",
+        "description": "A5女性佣兵皮肤",
+        "source": "https://bbs.d.163.com/forum.php?mod=viewthread&tid=175340670",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.4/703.zip",
+        "file": "703.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/703.png",
+        "size": 47336,
+        "md5": "5B8416C003402E5CCD8F61A2DEF82F8C",
+        APPLY_METHOD: [
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
+                PARAMS: {
+                    "act5hire1": { "hirelingAlternateVoice": 1},
+                    "act5hire2": { "hirelingAlternateVoice": 1},
+                },
+            },
+            {  
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act5hire1": { "MonSound": "act1hire", "UMonSound": "act1hire" },
+                    "act5hire2": { "MonSound": "act1hire", "UMonSound": "act1hire" },
+                },
+            },
+        ],
+        REMOVE_METHOD: [
+            { 
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONPET, 
+                PARAMS: {
+                    "act5hire1": { "hirelingAlternateVoice": 0},
+                    "act5hire2": { "hirelingAlternateVoice": 0},
+                },
+            },
+            {
+                METHOD: Methods.MODIFY_HIRE_EXCEL_MONSTATS, 
+                PARAMS: {
+                    "act5hire1": { "MonSound": "act2hire", "UMonSound": "act2hire" },
+                    "act5hire2": { "MonSound": "act2hire", "UMonSound": "act2hire" },
+                },
+            },
+        ],
+        "list": [
+            r"data/hd/global/ui/hireables/barbhirable_icon.sprite",
+            r"data/hd/global/ui/hireables/barbhirable_icon.lowend.sprite",
+            r"data/hd/character/enemy/act5hire1.json",
+            r"data/hd/character/enemy/act5hire1_female/act5hire1_female_variant.json",
+            r"data/hd/character/enemy/act5hire1_female/act5hire1_female_state_machine.json",
         ]
     },
     # HUD皮肤(800, 900)
