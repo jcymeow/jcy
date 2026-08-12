@@ -1490,21 +1490,21 @@
     },
     "JcyVersion": {
         "Key": "JcyVersion",
-        "enUS": "v1.6.3",
-        "zhTW": "v1.6.3",
-        "sgTW": "v1.6.3",
-        "zhCN": "v1.6.3",
-        "sgCN": "v1.6.3",
-        "bnCN": "v1.6.3"
+        "enUS": "v1.6.4",
+        "zhTW": "v1.6.4",
+        "sgTW": "v1.6.4",
+        "zhCN": "v1.6.4",
+        "sgCN": "v1.6.4",
+        "bnCN": "v1.6.4"
     },
     "JcyReleaseDate": {
         "Key": "JcyReleaseDate",
-        "enUS": "20260807",
-        "zhTW": "20260807",
-        "sgTW": "20260807",
-        "zhCN": "20260807",
-        "sgCN": "20260807",
-        "bnCN": "20260807"
+        "enUS": "20260814",
+        "zhTW": "20260814",
+        "sgTW": "20260814",
+        "zhCN": "20260814",
+        "sgCN": "20260814",
+        "bnCN": "20260814"
     },
     "JcyQuickGame": {
         "Key": "JcyQuickGame",
@@ -1602,7 +1602,7 @@
         "sgCN": "所有抗性",
         "bnCN": "所有抗性"
     },
-    "JcyEthereal":  {
+    "JcyEthereal": {
         "enUS": "Ethereal",
         "zhTW": "無形",
         "sgTW": "無形",
