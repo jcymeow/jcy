@@ -1594,6 +1594,22 @@
         "sgCN": "按 Esc 键刷新",
         "bnCN": "按 Esc 键刷新"
     },
+    "JcyResistAll": {
+        "enUS": "Resist All",
+        "zhTW": "所有抗性",
+        "sgTW": "所有抗性",
+        "zhCN": "所有抗性",
+        "sgCN": "所有抗性",
+        "bnCN": "所有抗性"
+    },
+    "JcyEthereal":  {
+        "enUS": "Ethereal",
+        "zhTW": "無形",
+        "sgTW": "無形",
+        "zhCN": "无形",
+        "sgCN": "无形",
+        "bnCN": "无形"
+    },
     "Color0": {
         "Key": "Color0",
         "enUS": "ÿc0",

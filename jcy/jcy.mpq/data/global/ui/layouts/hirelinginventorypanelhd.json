@@ -35,17 +35,6 @@
     },
     "children": [
         {
-            "type": "ImageWidget",
-            "name": "Background",
-            "fields": {
-                "rect": {
-                    "x": 0,
-                    "y": 0
-                },
-                "filename": "\\PANEL\\Hireling\\HirelingPanel"
-            }
-        },
-        {
             "type": "ClickCatcherWidget",
             "fields": {
                 "rect": "$PanelClickCatcherRect"
@@ -53,11 +42,225 @@
         },
         {
             "type": "ImageWidget",
-            "name": "LeftHinge",
+            "name": "Background1",
             "fields": {
-                "rect": "$LeftHingeRect",
-                "filename": "$LeftHingeSprite"
-            }
+                "rect": {
+                    "x": 0,
+                    "y": 0
+                },
+                "filename": "PANEL\\Hireling\\HirelingPanel",
+                "transparency": 0.62,
+                "useAdvancedColoring": true,
+                "recolorRange": {
+                    "hue": [
+                        0.0,
+                        1.01
+                    ],
+                    "saturation": [
+                        0.0,
+                        1.01
+                    ],
+                    "value": [
+                        0.0,
+                        1.01
+                    ]
+                },
+                "hsvTransform": [
+                    0,
+                    0,
+                    0.3,
+                    0.0
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "box",
+                    "fields": {
+                        "rect": "$PanelClickCatcherRect",
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.35
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.95
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "Widget",
+            "name": "background2",
+            "fields": {
+                "rect": {
+                    "x": 72,
+                    "y": 148
+                }
+            },
+            "children": [
+                {
+                    "type": "ImageWidget",
+                    "name": "1",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "scale": 1.0149
+                        },
+                        "filename": "PANEL\\Quest_Log\\QLPanelCover",
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.35,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "2",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 310,
+                            "scale": 1.0149
+                        },
+                        "filename": "PANEL\\Quest_Log\\QLPanelCover",
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.35,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "3",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 620,
+                            "scale": 1.0149
+                        },
+                        "filename": "PANEL\\Quest_Log\\QLPanelCover",
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.35,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "4",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 914,
+                            "scale": 1.0149
+                        },
+                        "filename": "PANEL\\Quest_Log\\QLPanelCover",
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.35,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "type": "RectangleWidget",
+                    "name": "box",
+                    "fields": {
+                        "rect": {
+                            "x": 0,
+                            "y": 0,
+                            "width": 1019,
+                            "height": 1225
+                        },
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.4
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.45
+                        ]
+                    }
+                }
+            ]
         },
         {
             "type": "TextBoxWidget",
@@ -69,12 +272,95 @@
             }
         },
         {
+            "type": "RectangleWidget",
+            "name": "BG_head1",
+            "fields": {
+                "rect": {
+                    "x": 612,
+                    "y": 182,
+                    "width": 228,
+                    "height": 232
+                },
+                "color": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.35
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.85
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BGb",
+                    "fields": {
+                        "rect": {
+                            "x": 8,
+                            "y": 10,
+                            "width": 212,
+                            "height": 212
+                        },
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.8
+                        ],
+                        "borderColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.55
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "Bgi",
+                    "fields": {
+                        "rect": {
+                            "x": 16,
+                            "y": 18
+                        },
+                        "filename": "PANEL\\Inventory\\Inventory_Paperdoll_HeadArmor",
+                        "transparency": 0.55,
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.6,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
             "type": "InventorySlotWidget",
             "name": "slot_head",
             "fields": {
                 "rect": {
-                    "x": 481,
-                    "y": 193,
+                    "x": 628,
+                    "y": 200,
                     "width": 196,
                     "height": 196
                 },
@@ -86,12 +372,95 @@
             }
         },
         {
+            "type": "RectangleWidget",
+            "name": "BG_torso1",
+            "fields": {
+                "rect": {
+                    "x": 612,
+                    "y": 418,
+                    "width": 228,
+                    "height": 330
+                },
+                "color": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.35
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.85
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BGb",
+                    "fields": {
+                        "rect": {
+                            "x": 8,
+                            "y": 10,
+                            "width": 212,
+                            "height": 310
+                        },
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.8
+                        ],
+                        "borderColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.55
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "Bgi",
+                    "fields": {
+                        "rect": {
+                            "x": 16,
+                            "y": 18
+                        },
+                        "filename": "PANEL\\Inventory\\Inventory_Paperdoll_ChestArmor",
+                        "transparency": 0.55,
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.6,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
             "type": "InventorySlotWidget",
             "name": "slot_torso",
             "fields": {
                 "rect": {
-                    "x": 481,
-                    "y": 433,
+                    "x": 628,
+                    "y": 436,
                     "width": 196,
                     "height": 294
                 },
@@ -103,12 +472,95 @@
             }
         },
         {
+            "type": "RectangleWidget",
+            "name": "BG_right_arm1",
+            "fields": {
+                "rect": {
+                    "x": 379,
+                    "y": 320,
+                    "width": 228,
+                    "height": 428
+                },
+                "color": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.35
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.85
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BGb",
+                    "fields": {
+                        "rect": {
+                            "x": 8,
+                            "y": 10,
+                            "width": 212,
+                            "height": 408
+                        },
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.8
+                        ],
+                        "borderColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.55
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "Bgi",
+                    "fields": {
+                        "rect": {
+                            "x": 16,
+                            "y": 18
+                        },
+                        "filename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon",
+                        "transparency": 0.55,
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.6,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
             "type": "InventorySlotWidget",
             "name": "slot_right_arm",
             "fields": {
                 "rect": {
-                    "x": 108,
-                    "y": 336,
+                    "x": 395,
+                    "y": 338,
                     "width": 196,
                     "height": 392
                 },
@@ -120,12 +572,95 @@
             }
         },
         {
+            "type": "RectangleWidget",
+            "name": "BG_left_arm1",
+            "fields": {
+                "rect": {
+                    "x": 844,
+                    "y": 320,
+                    "width": 228,
+                    "height": 428
+                },
+                "color": [
+                    0.2,
+                    0.2,
+                    0.2,
+                    0.35
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.85
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BGb",
+                    "fields": {
+                        "rect": {
+                            "x": 8,
+                            "y": 10,
+                            "width": 212,
+                            "height": 408
+                        },
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.8
+                        ],
+                        "borderColor": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.55
+                        ]
+                    }
+                },
+                {
+                    "type": "ImageWidget",
+                    "name": "Bgi",
+                    "fields": {
+                        "rect": {
+                            "x": 15,
+                            "y": 18
+                        },
+                        "filename": "PANEL\\Inventory\\Inventory_Paperdoll_Weapon",
+                        "transparency": 0.55,
+                        "useAdvancedColoring": true,
+                        "recolorRange": {
+                            "hue": [
+                                0.0,
+                                1.01
+                            ],
+                            "saturation": [
+                                0.0,
+                                1.01
+                            ],
+                            "value": [
+                                0.0,
+                                1.01
+                            ]
+                        },
+                        "hsvTransform": [
+                            0,
+                            0,
+                            0.6,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
             "type": "InventorySlotWidget",
             "name": "slot_left_arm",
             "fields": {
                 "rect": {
-                    "x": 861,
-                    "y": 336,
+                    "x": 859,
+                    "y": 338,
                     "width": 196,
                     "height": 392
                 },
@@ -137,21 +672,58 @@
             }
         },
         {
+            "type": "HirelingSkillIconWidget",
+            "name": "Skill0",
+            "fields": {
+                "rect": {
+                    "x": 792,
+                    "y": 774,
+                    "scale": 0.6
+                },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget",
+            "name": "Skill1",
+            "fields": {
+                "rect": {
+                    "x": 892,
+                    "y": 774,
+                    "scale": 0.6
+                },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
+            "type": "HirelingSkillIconWidget",
+            "name": "Skill2",
+            "fields": {
+                "rect": {
+                    "x": 992,
+                    "y": 774,
+                    "scale": 0.6
+                },
+                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
+            }
+        },
+        {
             "type": "TextBoxWidget",
             "name": "CharacterName",
             "fields": {
                 "rect": {
-                    "x": 123,
-                    "y": 782,
-                    "width": 500,
-                    "height": 50
+                    "x": 592,
+                    "y": 870,
+                    "width": 480,
+                    "height": 60
                 },
                 "style": {
-                    "fontColor": "$FontColorWhite",
+                    "fontFace": "Formal",
+                    "fontColor": "$FontColorGoldYellow",
                     "pointSize": "$LargeFontSize",
                     "dropShadow": "$DefaultDropShadow",
                     "alignment": {
-                        "h": "left",
+                        "h": "right",
                         "v": "center"
                     }
                 }
@@ -159,18 +731,596 @@
         },
         {
             "type": "TextBoxWidget",
+            "name": "HireTypeText",
+            "fields": {
+                "rect": {
+                    "x": 592,
+                    "y": 940,
+                    "width": 480,
+                    "height": 60
+                },
+                "text": "@strchrlvl",
+                "style": {
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$MediumPanelFontSize",
+                    "dropShadow": "$DefaultDropShadow",
+                    "alignment": {
+                        "h": "right",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "ImageWidget",
+            "name": "Bg",
+            "fields": {
+                "rect": {
+                    "x": 124,
+                    "y": 1024,
+                    "width": 450,
+                    "height": 80
+                },
+                "filename": "PANEL\\Chronicle\\ProgressBar_Small_2"
+            }
+        },
+        {
+            "type": "ExpBarWidget",
+            "name": "XpProgress",
+            "fields": {
+                "rect": {
+                    "x": 140,
+                    "y": 1030,
+                    "width": 450,
+                    "height": 80
+                },
+                "filename": "PANEL\\Chronicle\\ProgressBar_Small_2_FILL",
+                "frame": 0,
+                "isHireling": true,
+                "hitMargin": {
+                    "top": 15,
+                    "bottom": 15
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1080,
+                    "width": 280,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 300,
+                            "y": 0,
+                            "width": 180,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "FireResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1080,
+                    "width": 280,
+                    "height": 60
+                },
+                "text": "@strchrfir",
+                "style": {
+                    "fontColor": {
+                        "r": 255,
+                        "g": 1,
+                        "b": 1,
+                        "a": 255
+                    },
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.8,
+                            "y": 2.8
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "FireText",
+            "fields": {
+                "rect": {
+                    "x": 392,
+                    "y": 1080,
+                    "width": 180,
+                    "height": 60
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1150,
+                    "width": 280,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 300,
+                            "y": 0,
+                            "width": 180,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "ColdResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1150,
+                    "width": 280,
+                    "height": 60
+                },
+                "text": "@strchrcol",
+                "style": {
+                    "fontColor": {
+                        "r": 133,
+                        "g": 199,
+                        "b": 255,
+                        "a": 255
+                    },
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "ColdText",
+            "fields": {
+                "rect": {
+                    "x": 392,
+                    "y": 1150,
+                    "width": 180,
+                    "height": 60
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1220,
+                    "width": 280,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 300,
+                            "y": 0,
+                            "width": 180,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "LightningResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1220,
+                    "width": 280,
+                    "height": 60
+                },
+                "text": "@strchrlit",
+                "style": {
+                    "fontColor": "$FontColorYellow",
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "LightningText",
+            "fields": {
+                "rect": {
+                    "x": 392,
+                    "y": 1220,
+                    "width": 180,
+                    "height": 60
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1290,
+                    "width": 280,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 300,
+                            "y": 0,
+                            "width": 180,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "PoisonResistanceTitle",
+            "fields": {
+                "rect": {
+                    "x": 92,
+                    "y": 1290,
+                    "width": 280,
+                    "height": 60
+                },
+                "text": "@strchrpos",
+                "style": {
+                    "fontColor": {
+                        "r": 1,
+                        "g": 131,
+                        "b": 1,
+                        "a": 255
+                    },
+                    "pointSize": "$SmallPanelFontSize",
+                    "spacing": "$ReducedSpacing",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "PoisonText",
+            "fields": {
+                "rect": {
+                    "x": 392,
+                    "y": 1290,
+                    "width": 180,
+                    "height": 60
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    },
+                    "dropShadow": {
+                        "shadowColor": {
+                            "r": 0,
+                            "g": 0,
+                            "b": 0,
+                            "a": 200
+                        },
+                        "offset": {
+                            "x": 2.2,
+                            "y": 2.2
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 592,
+                    "y": 1010,
+                    "width": 180,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 200,
+                            "y": 0,
+                            "width": 280,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
             "name": "HPTitle",
             "fields": {
                 "rect": {
-                    "x": 93,
-                    "y": 955,
-                    "width": 230,
-                    "height": 59
+                    "x": 592,
+                    "y": 1010,
+                    "width": 180,
+                    "height": 60
                 },
                 "text": "@strchrlif",
                 "style": {
                     "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "alignment": {
                         "h": "center",
@@ -184,10 +1334,10 @@
             "name": "HPStat",
             "fields": {
                 "rect": {
-                    "x": 328,
-                    "y": 955,
-                    "width": 237,
-                    "height": 59
+                    "x": 792,
+                    "y": 1010,
+                    "width": 280,
+                    "height": 60
                 },
                 "style": {
                     "fontColor": {
@@ -196,7 +1346,7 @@
                         "b": 255,
                         "a": 255
                     },
-                    "pointSize": "$SmallPanelFontSize",
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": {
                         "h": "center",
                         "v": "center"
@@ -205,60 +1355,68 @@
             }
         },
         {
-            "type": "TextBoxWidget",
-            "name": "HireTypeText",
+            "type": "RectangleWidget",
+            "name": "BG",
             "fields": {
                 "rect": {
-                    "x": 128,
-                    "y": 870,
-                    "width": 320,
-                    "height": 54
+                    "x": 592,
+                    "y": 1080,
+                    "width": 180,
+                    "height": 60
                 },
-                "text": "@strchrlvl",
-                "style": {
-                    "fontColor": "$FontColorWhite",
-                    "pointSize": "$XMediumPanelFontSize",
-                    "dropShadow": "$DefaultDropShadow",
-                    "alignment": {
-                        "h": "left",
-                        "v": "center"
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 200,
+                            "y": 0,
+                            "width": 280,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
                     }
                 }
-            }
-        },
-        {
-            "type": "ExpBarWidget",
-            "name": "XpProgress",
-            "fields": {
-                "rect": {
-                    "x": 139,
-                    "y": 845,
-                    "width": 888,
-                    "height": 10
-                },
-                "filename": "PANEL\\Hireling\\Hireling_ExpBar",
-                "frame": 0,
-                "isHireling": true,
-                "hitMargin": {
-                    "top": 15,
-                    "bottom": 15
-                }
-            }
+            ]
         },
         {
             "type": "TextBoxWidget",
             "name": "StrengthTitle",
             "fields": {
                 "rect": {
-                    "x": 93,
-                    "y": 1037,
-                    "width": 230,
-                    "height": 59
+                    "x": 592,
+                    "y": 1080,
+                    "width": 180,
+                    "height": 60
                 },
                 "text": "@strchrstr",
                 "style": {
                     "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "alignment": {
                         "h": "center",
@@ -272,10 +1430,10 @@
             "name": "StrengthStat",
             "fields": {
                 "rect": {
-                    "x": 328,
-                    "y": 1037,
-                    "width": 237,
-                    "height": 59
+                    "x": 792,
+                    "y": 1080,
+                    "width": 280,
+                    "height": 60
                 },
                 "style": {
                     "fontColor": {
@@ -284,7 +1442,7 @@
                         "b": 255,
                         "a": 255
                     },
-                    "pointSize": "$SmallPanelFontSize",
+                    "pointSize": "$MediumPanelFontSize",
                     "alignment": {
                         "h": "center",
                         "v": "center"
@@ -293,19 +1451,68 @@
             }
         },
         {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 592,
+                    "y": 1150,
+                    "width": 180,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 200,
+                            "y": 0,
+                            "width": 280,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
             "type": "TextBoxWidget",
             "name": "DexTitle",
             "fields": {
                 "rect": {
-                    "x": 93,
-                    "y": 1121,
-                    "width": 230,
-                    "height": 59
+                    "x": 592,
+                    "y": 1150,
+                    "width": 180,
+                    "height": 60
                 },
                 "text": "@strchrdex",
                 "style": {
                     "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "alignment": {
                         "h": "center",
@@ -319,10 +1526,10 @@
             "name": "DexStat",
             "fields": {
                 "rect": {
-                    "x": 328,
-                    "y": 1121,
-                    "width": 237,
-                    "height": 59
+                    "x": 792,
+                    "y": 1150,
+                    "width": 280,
+                    "height": 60
                 },
                 "style": {
                     "fontColor": {
@@ -331,6 +1538,77 @@
                         "b": 255,
                         "a": 255
                     },
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 592,
+                    "y": 1220,
+                    "width": 180,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 200,
+                            "y": 0,
+                            "width": 280,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
+            "name": "ArmorClassTitle",
+            "fields": {
+                "rect": {
+                    "x": 592,
+                    "y": 1220,
+                    "width": 180,
+                    "height": 60
+                },
+                "text": "@strchrdef",
+                "style": {
+                    "fontColor": "$FontColorWhite",
                     "pointSize": "$SmallPanelFontSize",
                     "alignment": {
                         "h": "center",
@@ -341,18 +1619,86 @@
         },
         {
             "type": "TextBoxWidget",
+            "name": "ArmorClass",
+            "fields": {
+                "rect": {
+                    "x": 792,
+                    "y": 1220,
+                    "width": 280,
+                    "height": 60
+                },
+                "style": {
+                    "pointSize": "$MediumPanelFontSize",
+                    "alignment": {
+                        "h": "center",
+                        "v": "center"
+                    }
+                }
+            }
+        },
+        {
+            "type": "RectangleWidget",
+            "name": "BG",
+            "fields": {
+                "rect": {
+                    "x": 592,
+                    "y": 1290,
+                    "width": 180,
+                    "height": 60
+                },
+                "color": [
+                    0.002,
+                    0.002,
+                    0.002,
+                    0.38
+                ],
+                "borderColor": [
+                    0.78,
+                    0.7,
+                    0.47,
+                    0.35
+                ]
+            },
+            "children": [
+                {
+                    "type": "RectangleWidget",
+                    "name": "BG",
+                    "fields": {
+                        "rect": {
+                            "x": 200,
+                            "y": 0,
+                            "width": 280,
+                            "height": 60
+                        },
+                        "color": [
+                            0.002,
+                            0.002,
+                            0.002,
+                            0.38
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.35
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "TextBoxWidget",
             "name": "DamageTitle",
             "fields": {
                 "rect": {
-                    "x": 93,
-                    "y": 1204,
-                    "width": 230,
-                    "height": 59
+                    "x": 592,
+                    "y": 1290,
+                    "width": 180,
+                    "height": 60
                 },
                 "text": "@strchrskm",
                 "style": {
                     "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
                     "pointSize": "$SmallPanelFontSize",
                     "alignment": {
                         "h": "center",
@@ -366,10 +1712,10 @@
             "name": "Damage",
             "fields": {
                 "rect": {
-                    "x": 328,
-                    "y": 1204,
-                    "width": 237,
-                    "height": 59
+                    "x": 792,
+                    "y": 1290,
+                    "width": 280,
+                    "height": 60
                 }
             },
             "children": [
@@ -380,8 +1726,8 @@
                         "rect": {
                             "x": 0,
                             "y": 0,
-                            "width": 237,
-                            "height": 59
+                            "width": 280,
+                            "height": 60
                         },
                         "style": {
                             "fontColor": {
@@ -390,7 +1736,7 @@
                                 "b": 255,
                                 "a": 255
                             },
-                            "pointSize": "$SmallPanelFontSize",
+                            "pointSize": "$MediumPanelFontSize",
                             "alignment": {
                                 "h": "center",
                                 "v": "center"
@@ -405,8 +1751,8 @@
                         "rect": {
                             "x": 0,
                             "y": 0,
-                            "width": 237,
-                            "height": 59
+                            "width": 280,
+                            "height": 60
                         },
                         "style": {
                             "fontColor": {
@@ -415,7 +1761,7 @@
                                 "b": 255,
                                 "a": 255
                             },
-                            "pointSize": "$SmallPanelFontSize",
+                            "pointSize": "$MediumPanelFontSize",
                             "alignment": {
                                 "h": "center",
                                 "v": "top"
@@ -430,8 +1776,8 @@
                         "rect": {
                             "x": 0,
                             "y": -1,
-                            "width": 237,
-                            "height": 59
+                            "width": 280,
+                            "height": 60
                         },
                         "style": {
                             "fontColor": {
@@ -440,7 +1786,7 @@
                                 "b": 255,
                                 "a": 255
                             },
-                            "pointSize": "$SmallPanelFontSize",
+                            "pointSize": "$MediumPanelFontSize",
                             "alignment": {
                                 "h": "center",
                                 "v": "bottom"
@@ -449,241 +1795,6 @@
                     }
                 }
             ]
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "ArmorClassTitle",
-            "fields": {
-                "rect": {
-                    "x": 93,
-                    "y": 1288,
-                    "width": 230,
-                    "height": 59
-                },
-                "text": "@strchrdef",
-                "style": {
-                    "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "ArmorClass",
-            "fields": {
-                "rect": {
-                    "x": 328,
-                    "y": 1288,
-                    "width": 237,
-                    "height": 59
-                },
-                "style": {
-                    "fontColor": {
-                        "r": 255,
-                        "g": 255,
-                        "b": 255,
-                        "a": 255
-                    },
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "FireResistanceTitle",
-            "fields": {
-                "rect": {
-                    "x": 596,
-                    "y": 1038,
-                    "width": 364,
-                    "height": 59
-                },
-                "text": "@strchrfir",
-                "style": {
-                    "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "FireText",
-            "fields": {
-                "rect": {
-                    "x": 953,
-                    "y": 1038,
-                    "width": 115,
-                    "height": 59
-                },
-                "style": {
-                    "fontColor": {
-                        "r": 255,
-                        "g": 255,
-                        "b": 255,
-                        "a": 255
-                    },
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "ColdResistanceTitle",
-            "fields": {
-                "rect": {
-                    "x": 596,
-                    "y": 1119,
-                    "width": 364,
-                    "height": 59
-                },
-                "text": "@strchrcol",
-                "style": {
-                    "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "ColdText",
-            "fields": {
-                "rect": {
-                    "x": 953,
-                    "y": 1119,
-                    "width": 115,
-                    "height": 59
-                },
-                "style": {
-                    "fontColor": {
-                        "r": 255,
-                        "g": 255,
-                        "b": 255,
-                        "a": 255
-                    },
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "LightningResistanceTitle",
-            "fields": {
-                "rect": {
-                    "x": 596,
-                    "y": 1204,
-                    "width": 364,
-                    "height": 59
-                },
-                "text": "@strchrlit",
-                "style": {
-                    "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "LightningText",
-            "fields": {
-                "rect": {
-                    "x": 953,
-                    "y": 1204,
-                    "width": 115,
-                    "height": 59
-                },
-                "style": {
-                    "fontColor": {
-                        "r": 255,
-                        "g": 255,
-                        "b": 255,
-                        "a": 255
-                    },
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "PoisonResistanceTitle",
-            "fields": {
-                "rect": {
-                    "x": 596,
-                    "y": 1286,
-                    "width": 364,
-                    "height": 59
-                },
-                "text": "@strchrpos",
-                "style": {
-                    "fontColor": "$FontColorWhite",
-                    "fontFace": "Formal",
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
-        },
-        {
-            "type": "TextBoxWidget",
-            "name": "PoisonText",
-            "fields": {
-                "rect": {
-                    "x": 953,
-                    "y": 1286,
-                    "width": 115,
-                    "height": 59
-                },
-                "style": {
-                    "fontColor": {
-                        "r": 255,
-                        "g": 255,
-                        "b": 255,
-                        "a": 255
-                    },
-                    "pointSize": "$SmallPanelFontSize",
-                    "alignment": {
-                        "h": "center",
-                        "v": "center"
-                    }
-                }
-            }
         },
         {
             "type": "ButtonWidget",
@@ -719,257 +1830,1011 @@
             }
         },
         {
-            "type": "HirelingSkillIconWidget",
-            "name": "Skill0",
-            "fields": {
-                "rect": {
-                    "x": 675,
-                    "y": 942,
-                    "scale": 0.6
-                },
-                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-            }
-        },
-        {
-            "type": "HirelingSkillIconWidget",
-            "name": "Skill1",
-            "fields": {
-                "rect": {
-                    "x": 782,
-                    "y": 942,
-                    "scale": 0.6
-                },
-                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-            }
-        },
-        {
-            "type": "HirelingSkillIconWidget",
-            "name": "Skill2",
-            "fields": {
-                "rect": {
-                    "x": 889,
-                    "y": 942,
-                    "scale": 0.6
-                },
-                "skillIconFilename": "Spells/Hireables/HrSkillIcon"
-            }
-        },
-        {
             "type": "Widget",
-            "name": "tooltip",
+            "name": "Hires",
             "fields": {
                 "rect": {
-                    "x": 0,
-                    "y": 0
+                    "x": 132,
+                    "y": 182
                 }
             },
             "children": [
                 {
-                    "type": "ImageWidget",
-                    "name": "a3fcr",
+                    "type": "RectangleWidget",
+                    "name": "BOX1",
                     "fields": {
                         "rect": {
-                            "x": 50,
-                            "y": 40,
-                            "scale": 0.8
+                            "x": 0,
+                            "y": 0,
+                            "width": 194,
+                            "height": 194
                         },
-                        "filename": "hireables\\act3hireableicon"
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.75
+                        ]
                     },
                     "children": [
                         {
-                            "type": "FocusableWidget",
-                            "name": "tooltip",
+                            "type": "RectangleWidget",
+                            "name": "BG",
                             "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "@Color4 @IronWolf @IronWolfFcr",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
+                                "rect": {
+                                    "x": 20,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@strLevels @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv01 @Color5 [@ColorV 32 @Color5/@ColorO 41 @Color5/@Color4 0 @Color5]\n@Color0 Lv02 @Color5 [@ColorV 33 @Color5/@ColorO 43 @Color5/@Color4 0 @Color5]\n@Color0 Lv03 @Color5 [@ColorV 35 @Color5/@ColorO 45 @Color5/@Color4 0 @Color5]\n@Color0 Lv04 @Color5 [@ColorV 36 @Color5/@ColorO 47 @Color5/@Color4 2 @Color5]\n@Color0 Lv05 @Color5 [@ColorV 37 @Color5/@ColorO 49 @Color5/@Color4 4 @Color5]\n@Color0 Lv06 @Color5 [@ColorV 38 @Color5/@ColorO 51 @Color5/@Color4 6 @Color5]\n@Color0 Lv07 @Color5 [@ColorV 40 @Color5/@ColorO 53 @Color5/@Color4 8 @Color5]\n@Color0 Lv08 @Color5 [@ColorV 41 @Color5/@ColorO 55 @Color5/@Color4 10 @Color5]\n@Color0 Lv09 @Color5 [@ColorV 42 @Color5/@ColorO 57 @Color5/@Color4 12 @Color5]\n@Color0 Lv10 @Color5 [@ColorV 43 @Color5/@ColorO 59 @Color5/@Color4 14 @Color5]\n@Color0 Lv11 @Color5 [@ColorV 45 @Color5/@ColorO 61 @Color5/@Color4 16 @Color5]\n@Color0 Lv12 @Color5 [@ColorV 46 @Color5/@ColorO 63 @Color5/@Color4 18 @Color5]\n@Color0 Lv13 @Color5 [@ColorV 47 @Color5/@ColorO 65 @Color5/@Color4 20 @Color5]\n@Color0 Lv14 @Color5 [@ColorV 48 @Color5/@ColorO 67 @Color5/@Color4 22 @Color5]\n@Color0 Lv15 @Color5 [@ColorV 50 @Color5/@ColorO 69 @Color5/@Color4 24 @Color5]\n@Color0 Lv16 @Color5 [@ColorV 51 @Color5/@ColorO 71 @Color5/@Color4 26 @Color5]\n@Color0 Lv17 @Color5 [@ColorV 52 @Color5/@ColorO 73 @Color5/@Color4 28 @Color5]\n@Color0 Lv18 @Color5 [@ColorV 53 @Color5/@ColorO 75 @Color5/@Color4 30 @Color5]\n@Color0 Lv19 @Color5 [@ColorV 55 @Color5/@ColorO 77 @Color5/@Color4 32 @Color5]\n@Color0 Lv20 @Color5 [@ColorV 56 @Color5/@ColorO 79 @Color5/@Color4 34 @Color5]\n@Color0 Lv21 @Color5 [@ColorV 57 @Color5/@ColorO 81 @Color5/@Color4 36 @Color5]\n@Color0 Lv22 @Color5 [@ColorV 58 @Color5/@ColorO 83 @Color5/@Color4 38 @Color5]\n@Color0 Lv23 @Color5 [@ColorV 60 @Color5/@ColorO 85 @Color5/@Color4 40 @Color5]\n@Color0 Lv24 @Color5 [@ColorV 61 @Color5/@ColorO 87 @Color5/@Color4 42 @Color5]\n@Color0 Lv25 @Color5 [@ColorV 62 @Color5/@ColorO 89 @Color5/@Color4 44 @Color5]  @Color8@8cb@Color5(25) / @Color0@xtp@Color5(25)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
                                     }
                                 }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv26 @Color5 [@ColorV 63 @Color5/@ColorO 91 @Color5/@Color4 46 @Color5]\n@Color0 Lv27 @Color5 [@ColorV 65 @Color5/@ColorO 93 @Color5/@Color4 48 @Color5]  @Color0@xrs@Color5(25)\n@Color0 Lv28 @Color5 [@ColorV 66 @Color5/@ColorO 95 @Color5/@Color4 50 @Color5]\n@Color0 Lv29 @Color5 [@ColorV 67 @Color5/@ColorO 97 @Color5/@Color4 52 @Color5]  @Color8@am6@Color5(29)\n@Color0 Lv30 @Color5 [@ColorV 68 @Color5/@ColorO 99 @Color5/@Color4 54 @Color5]\n@Color0 Lv31 @Color5 [@ColorV 70 @Color5/@ColorO 101 @Color5/@Color4 56 @Color5]\n@Color0 Lv32 @Color5 [@ColorV 71 @Color5/@ColorO 103 @Color5/@Color4 58 @Color5]\n@Color0 Lv33 @Color5 [@ColorV 72 @Color5/@ColorO 105 @Color5/@Color4 60 @Color5]\n@Color0 Lv34 @Color5 [@ColorV 73 @Color5/@ColorO 107 @Color5/@Color4 62 @Color5]  @Color8@8sw@Color5(27)\n@Color0 Lv35 @Color5 [@ColorV 75 @Color5/@ColorO 109 @Color5/@Color4 64 @Color5]\n@Color0 Lv36 @Color5 [@ColorV 77 @Color5/@ColorO 111 @Color5/@Color4 66 @Color5]  @Color8@am7@Color5(35)\n@Color0 Lv37 @Color5 [@ColorV 78 @Color5/@ColorO 113 @Color5/@Color4 67 @Color5]\n@Color0 Lv38 @Color5 [@ColorV 79 @Color5/@ColorO 115 @Color5/@Color4 69 @Color5]\n@Color0 Lv39 @Color5 [@ColorV 80 @Color5/@ColorO 117 @Color5/@Color4 71 @Color5]  @Color8@8l8@Color5(31)\n@Color0 Lv40 @Color5 [@ColorV 82 @Color5/@ColorO 119 @Color5/@Color4 73 @Color5]\n@Color0 Lv41 @Color5 [@ColorV 83 @Color5/@ColorO 121 @Color5/@Color4 74 @Color5]\n@Color0 Lv42 @Color5 [@ColorV 84 @Color5/@ColorO 123 @Color5/@Color4 76 @Color5]\n@Color0 Lv43 @Color5 [@ColorV 85 @Color5/@ColorO 125 @Color5/@Color4 78 @Color5]\n@Color0 Lv44 @Color5 [@ColorV 87 @Color5/@ColorO 127 @Color5/@Color4 80 @Color5]\n@Color0 Lv45 @Color5 [@ColorV 88 @Color5/@ColorO 129 @Color5/@Color4 81 @Color5]  @Color8@6hb@Color5(45)\n@Color0 Lv46 @Color5 [@ColorV 89 @Color5/@ColorO 131 @Color5/@Color4 83 @Color5]\n@Color0 Lv47 @Color5 [@ColorV 90 @Color5/@ColorO 133 @Color5/@Color4 85 @Color5]\n@Color0 Lv48 @Color5 [@ColorV 92 @Color5/@ColorO 135 @Color5/@Color4 87 @Color5]  @Color0@xhn@Color5(40)\n@Color0 Lv49 @Color5 [@ColorV 93 @Color5/@ColorO 137 @Color5/@Color4 88 @Color5]  @Color0@uui@Color5(49)\n@Color0 Lv50 @Color5 [@ColorV 94 @Color5/@ColorO 139 @Color5/@Color4 90 @Color5]  @Color0@uea@Color5(50)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 20,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv51 @Color5 [@ColorV 95 @Color5/@ColorO 141 @Color5/@Color4 92 @Color5]  @Color8@8lw@Color5(43)@Color0@ula@Color5(51)\n@Color0 Lv52 @Color5 [@ColorV 97 @Color5/@ColorO 143 @Color5/@Color4 94 @Color5]  @Color0@xpl@Color5(44)\n@Color0 Lv53 @Color5 [@ColorV 98 @Color5/@ColorO 145 @Color5/@Color4 95 @Color5]\n@Color0 Lv54 @Color5 [@ColorV 99 @Color5/@ColorO 147 @Color5/@Color4 97 @Color5]  @Color8@6s7@Color5(54)\n@Color0 Lv55 @Color5 [@ColorV 100 @Color5/@ColorO 149 @Color5/@Color4 99 @Color5]  @Color0@aar@Color5(47)\n@Color0 Lv56 @Color5 [@ColorV 102 @Color5/@ColorO 151 @Color5/@Color4 101 @Color5]  @Color2@usk@Color5(55)\n@Color0 Lv57 @Color5 [@ColorV 103 @Color5/@ColorO 153 @Color5/@Color4 102 @Color5]  @Color8@6l7@Color5(57) / @Color0@xld@Color5(49) / @Color2@xrn@Color5(49)\n@Color0 Lv58 @Color5 [@ColorV 104 @Color5/@ColorO 155 @Color5/@Color4 104 @Color5]\n@Color0 Lv59 @Color5 [@ColorV 105 @Color5/@ColorO 157 @Color5/@Color4 106 @Color5]\n@Color0 Lv60 @Color5 [@ColorV 107 @Color5/@ColorO 159 @Color5/@Color4 108 @Color5]  @Color8@6sw@Color5(60)\n@Color0 Lv61 @Color5 [@ColorV 108 @Color5/@ColorO 161 @Color5/@Color4 109 @Color5]  @Color8@amc@Color5(58)\n@Color0 Lv62 @Color5 [@ColorV 109 @Color5/@ColorO 163 @Color5/@Color4 111 @Color5]\n@Color0 Lv63 @Color5 [@ColorV 110 @Color5/@ColorO 165 @Color5/@Color4 113 @Color5]  @Color0@utp@Color5(63) / @Color2@uh9@Color5(63)\n@Color0 Lv64 @Color5 [@ColorV 112 @Color5/@ColorO 167 @Color5/@Color4 115 @Color5]  @Color0@utu@Color5(56)\n@Color0 Lv65 @Color5 [@ColorV 113 @Color5/@ColorO 169 @Color5/@Color4 116 @Color5]\n@Color0 Lv66 @Color5 [@ColorV 114 @Color5/@ColorO 171 @Color5/@Color4 118 @Color5]\n@Color0 Lv67 @Color5 [@ColorV 116 @Color5/@ColorO 173 @Color5/@Color4 121 @Color5]\n@Color0 Lv68 @Color5 [@ColorV 117 @Color5/@ColorO 175 @Color5/@Color4 122 @Color5]\n@Color0 Lv69 @Color5 [@ColorV 118 @Color5/@ColorO 177 @Color5/@Color4 123 @Color5]  @Color0@xlt@Color5(61) / @Color0@urs@Color5(61)\n@Color0 Lv70 @Color5 [@ColorV 119 @Color5/@ColorO 179 @Color5/@Color4 124 @Color5]\n@Color0 Lv71 @Color5 [@ColorV 121 @Color5/@ColorO 181 @Color5/@Color4 126 @Color5]  @Color8@6cb@Color5(64)\n@Color0 Lv72 @Color5 [@ColorV 122 @Color5/@ColorO 183 @Color5/@Color4 127 @Color5]\n@Color0 Lv73 @Color5 [@ColorV 123 @Color5/@ColorO 185 @Color5/@Color4 128 @Color5]\n@Color0 Lv74 @Color5 [@ColorV 124 @Color5/@ColorO 187 @Color5/@Color4 129 @Color5]  @Color8@amb@Color5(69)\n@Color0 Lv75 @Color5 [@ColorV 126 @Color5/@ColorO 189 @Color5/@Color4 131 @Color5]  @Color0@xth@Color5(67)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv76 @Color5 [@ColorV 127 @Color5/@ColorO 191 @Color5/@Color4 132 @Color5]\n@Color0 Lv77 @Color5 [@ColorV 128 @Color5/@ColorO 193 @Color5/@Color4 133 @Color5]\n@Color0 Lv78 @Color5 [@ColorV 129 @Color5/@ColorO 195 @Color5/@Color4 134 @Color5]\n@Color0 Lv79 @Color5 [@ColorV 131 @Color5/@ColorO 197 @Color5/@Color4 136 @Color5]  @Color0@ung@Color5(71)\n@Color0 Lv80 @Color5 [@ColorV 132 @Color5/@ColorO 199 @Color5/@Color4 137 @Color5]\n@Color0 Lv81 @Color5 [@ColorV 133 @Color5/@ColorO 201 @Color5/@Color4 138 @Color5]\n@Color0 Lv82 @Color5 [@ColorV 134 @Color5/@ColorO 203 @Color5/@Color4 139 @Color5]  @Color8@6lw@Color5(74)\n@Color0 Lv83 @Color5 [@ColorV 136 @Color5/@ColorO 205 @Color5/@Color4 141 @Color5]\n@Color0 Lv84 @Color5 [@ColorV 137 @Color5/@ColorO 207 @Color5/@Color4 142 @Color5]\n@Color0 Lv85 @Color5 [@ColorV 138 @Color5/@ColorO 209 @Color5/@Color4 143 @Color5]\n@Color0 Lv86 @Color5 [@ColorV 139 @Color5/@ColorO 211 @Color5/@Color4 144 @Color5]\n@Color0 Lv87 @Color5 [@ColorV 141 @Color5/@ColorO 213 @Color5/@Color4 146 @Color5]  @Color0@xul@Color5(79)\n@Color0 Lv88 @Color5 [@ColorV 142 @Color5/@ColorO 215 @Color5/@Color4 147 @Color5]\n@Color0 Lv89 @Color5 [@ColorV 143 @Color5/@ColorO 217 @Color5/@Color4 148 @Color5]\n@Color0 Lv90 @Color5 [@ColorV 144 @Color5/@ColorO 219 @Color5/@Color4 149 @Color5]\n@Color0 Lv91 @Color5 [@ColorV 146 @Color5/@ColorO 221 @Color5/@Color4 151 @Color5]\n@Color0 Lv92 @Color5 [@ColorV 147 @Color5/@ColorO 223 @Color5/@Color4 152 @Color5]\n@Color0 Lv93 @Color5 [@ColorV 148 @Color5/@ColorO 225 @Color5/@Color4 153 @Color5]\n@Color0 Lv94 @Color5 [@ColorV 149 @Color5/@ColorO 227 @Color5/@Color4 154 @Color5]  @Color0@ucl@Color5(86)\n@Color0 Lv95 @Color5 [@ColorV 151 @Color5/@ColorO 229 @Color5/@Color4 156 @Color5]\n@Color0 Lv96 @Color5 [@ColorV 152 @Color5/@ColorO 231 @Color5/@Color4 157 @Color5]\n@Color0 Lv97 @Color5 [@ColorV 153 @Color5/@ColorO 233 @Color5/@Color4 158 @Color5]\n@Color0 Lv98 @Color5 [@ColorV 154 @Color5/@ColorO 235 @Color5/@Color4 159 @Color5]",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ImageWidget",
+                            "name": "rogueicon",
+                            "fields": {
+                                "rect": {
+                                    "x": 55,
+                                    "y": 55,
+                                    "scale": 0.7
+                                },
+                                "filename": "hireables/rogueicon"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "ImageWidget",
-                    "name": "a1stat",
+                    "type": "RectangleWidget",
+                    "name": "BOX2",
                     "fields": {
                         "rect": {
-                            "x": 702,
-                            "y": 40,
-                            "scale": 0.8
+                            "x": 0,
+                            "y": 204,
+                            "width": 194,
+                            "height": 194
                         },
-                        "filename": "hireables\\rogueicon"
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.75
+                        ]
                     },
                     "children": [
                         {
-                            "type": "FocusableWidget",
-                            "name": "tooltip",
+                            "type": "RectangleWidget",
+                            "name": "BG",
                             "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "@Color3 [@Rogue @strchrstr、@strchrdex]\n@Color0 Lv.01 @Color8 [@strchrstr 032，@strchrdex 041] @Color0 Lv.26 @Color8 [@strchrstr 063，@strchrdex 091] @Color0 Lv.51 @Color8 [@strchrstr 095，@strchrdex 141] @Color0 Lv.76 @Color8 [@strchrstr 127，@strchrdex 191]\n@Color0 Lv.02 @Color8 [@strchrstr 033，@strchrdex 043] @Color0 Lv.27 @Color8 [@strchrstr 065，@strchrdex 093] @Color0 Lv.52 @Color8 [@strchrstr 097，@strchrdex 143] @Color0 Lv.77 @Color8 [@strchrstr 128，@strchrdex 193]\n@Color0 Lv.03 @Color8 [@strchrstr 035，@strchrdex 045] @Color0 Lv.28 @Color8 [@strchrstr 066，@strchrdex 095] @Color0 Lv.53 @Color8 [@strchrstr 098，@strchrdex 145] @Color0 Lv.78 @Color8 [@strchrstr 129，@strchrdex 195]\n@Color0 Lv.04 @Color8 [@strchrstr 036，@strchrdex 047] @Color0 Lv.29 @Color8 [@strchrstr 067，@strchrdex 097] @Color0 Lv.54 @Color8 [@strchrstr 100，@strchrdex 149] @Color0 Lv.79 @Color8 [@strchrstr 131，@strchrdex 197]\n@Color0 Lv.05 @Color8 [@strchrstr 037，@strchrdex 049] @Color0 Lv.30 @Color8 [@strchrstr 068，@strchrdex 099] @Color0 Lv.55 @Color8 [@strchrstr 100，@strchrdex 149] @Color0 Lv.80 @Color8 [@strchrstr 132，@strchrdex 199]\n@Color0 Lv.06 @Color8 [@strchrstr 038，@strchrdex 051] @Color0 Lv.31 @Color8 [@strchrstr 070，@strchrdex 101] @Color0 Lv.56 @Color8 [@strchrstr 102，@strchrdex 151] @Color0 Lv.81 @Color8 [@strchrstr 133，@strchrdex 201]\n@Color0 Lv.07 @Color8 [@strchrstr 040，@strchrdex 053] @Color0 Lv.32 @Color8 [@strchrstr 071，@strchrdex 103] @Color0 Lv.57 @Color8 [@strchrstr 103，@strchrdex 153] @Color0 Lv.82 @Color8 [@strchrstr 134，@strchrdex 203]\n@Color0 Lv.08 @Color8 [@strchrstr 041，@strchrdex 055] @Color0 Lv.33 @Color8 [@strchrstr 072，@strchrdex 105] @Color0 Lv.58 @Color8 [@strchrstr 104，@strchrdex 155] @Color0 Lv.83 @Color8 [@strchrstr 136，@strchrdex 205]\n@Color0 Lv.09 @Color8 [@strchrstr 042，@strchrdex 057] @Color0 Lv.34 @Color8 [@strchrstr 073，@strchrdex 107] @Color0 Lv.59 @Color8 [@strchrstr 105，@strchrdex 157] @Color0 Lv.84 @Color8 [@strchrstr 137，@strchrdex 207]\n@Color0 Lv.10 @Color8 [@strchrstr 043，@strchrdex 059] @Color0 Lv.35 @Color8 [@strchrstr 075，@strchrdex 109] @Color0 Lv.60 @Color8 [@strchrstr 107，@strchrdex 159] @Color0 Lv.85 @Color8 [@strchrstr 138，@strchrdex 209]\n@Color0 Lv.11 @Color8 [@strchrstr 045，@strchrdex 061] @Color0 Lv.36 @Color8 [@strchrstr 077，@strchrdex 111] @Color0 Lv.61 @Color8 [@strchrstr 108，@strchrdex 161] @Color0 Lv.86 @Color8 [@strchrstr 139，@strchrdex 211]\n@Color0 Lv.12 @Color8 [@strchrstr 046，@strchrdex 063] @Color0 Lv.37 @Color8 [@strchrstr 078，@strchrdex 113] @Color0 Lv.62 @Color8 [@strchrstr 109，@strchrdex 163] @Color0 Lv.87 @Color8 [@strchrstr 141，@strchrdex 213]\n@Color0 Lv.13 @Color8 [@strchrstr 047，@strchrdex 065] @Color0 Lv.38 @Color8 [@strchrstr 079，@strchrdex 115] @Color0 Lv.63 @Color8 [@strchrstr 110，@strchrdex 165] @Color0 Lv.88 @Color8 [@strchrstr 143，@strchrdex 215]\n@Color0 Lv.14 @Color8 [@strchrstr 048，@strchrdex 067] @Color0 Lv.39 @Color8 [@strchrstr 080，@strchrdex 117] @Color0 Lv.64 @Color8 [@strchrstr 112，@strchrdex 167] @Color0 Lv.89 @Color8 [@strchrstr 143，@strchrdex 217]\n@Color0 Lv.15 @Color8 [@strchrstr 050，@strchrdex 069] @Color0 Lv.40 @Color8 [@strchrstr 082，@strchrdex 119] @Color0 Lv.65 @Color8 [@strchrstr 113，@strchrdex 169] @Color0 Lv.90 @Color8 [@strchrstr 144，@strchrdex 219]\n@Color0 Lv.16 @Color8 [@strchrstr 051，@strchrdex 071] @Color0 Lv.41 @Color8 [@strchrstr 083，@strchrdex 121] @Color0 Lv.66 @Color8 [@strchrstr 114，@strchrdex 171] @Color0 Lv.91 @Color8 [@strchrstr 146，@strchrdex 221]\n@Color0 Lv.17 @Color8 [@strchrstr 052，@strchrdex 073] @Color0 Lv.42 @Color8 [@strchrstr 084，@strchrdex 123] @Color0 Lv.67 @Color8 [@strchrstr 116，@strchrdex 173] @Color0 Lv.92 @Color8 [@strchrstr 147，@strchrdex 223]\n@Color0 Lv.18 @Color8 [@strchrstr 053，@strchrdex 075] @Color0 Lv.43 @Color8 [@strchrstr 085，@strchrdex 125] @Color0 Lv.68 @Color8 [@strchrstr 117，@strchrdex 175] @Color0 Lv.93 @Color8 [@strchrstr 148，@strchrdex 225]\n@Color0 Lv.19 @Color8 [@strchrstr 055，@strchrdex 077] @Color0 Lv.44 @Color8 [@strchrstr 087，@strchrdex 127] @Color0 Lv.69 @Color8 [@strchrstr 118，@strchrdex 177] @Color0 Lv.94 @Color8 [@strchrstr 149，@strchrdex 227]\n@Color0 Lv.20 @Color8 [@strchrstr 056，@strchrdex 079] @Color0 Lv.45 @Color8 [@strchrstr 088，@strchrdex 129] @Color0 Lv.70 @Color8 [@strchrstr 119，@strchrdex 179] @Color0 Lv.95 @Color8 [@strchrstr 151，@strchrdex 229]\n@Color0 Lv.21 @Color8 [@strchrstr 057，@strchrdex 081] @Color0 Lv.46 @Color8 [@strchrstr 089，@strchrdex 131] @Color0 Lv.71 @Color8 [@strchrstr 121，@strchrdex 181] @Color0 Lv.96 @Color8 [@strchrstr 152，@strchrdex 231]\n@Color0 Lv.22 @Color8 [@strchrstr 058，@strchrdex 083] @Color0 Lv.47 @Color8 [@strchrstr 090，@strchrdex 133] @Color0 Lv.72 @Color8 [@strchrstr 122，@strchrdex 183] @Color0 Lv.97 @Color8 [@strchrstr 153，@strchrdex 233]\n@Color0 Lv.23 @Color8 [@strchrstr 060，@strchrdex 085] @Color0 Lv.48 @Color8 [@strchrstr 092，@strchrdex 135] @Color0 Lv.73 @Color8 [@strchrstr 123，@strchrdex 185] @Color0 Lv.98 @Color8 [@strchrstr 154，@strchrdex 235]\n@Color0 Lv.24 @Color8 [@strchrstr 061，@strchrdex 087] @Color0 Lv.49 @Color8 [@strchrstr 093，@strchrdex 137] @Color0 Lv.74 @Color8 [@strchrstr 124，@strchrdex 187]\n@Color0 Lv.25 @Color8 [@strchrstr 062，@strchrdex 089] @Color0 Lv.50 @Color8 [@strchrstr 094，@strchrdex 139] @Color0 Lv.75 @Color8 [@strchrstr 126，@strchrdex 189]",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
+                                "rect": {
+                                    "x": 20,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv01 @Color5 [@ColorV 43 @Color5/@ColorO 28 @Color5/@Color4 2 @Color5]\n@Color0 Lv02 @Color5 [@ColorV 44 @Color5/@ColorO 29 @Color5/@Color4 4 @Color5]\n@Color0 Lv03 @Color5 [@ColorV 46 @Color5/@ColorO 31 @Color5/@Color4 6 @Color5]\n@Color0 Lv04 @Color5 [@ColorV 48 @Color5/@ColorO 32 @Color5/@Color4 8 @Color5]\n@Color0 Lv05 @Color5 [@ColorV 50 @Color5/@ColorO 34 @Color5/@Color4 10 @Color5]\n@Color0 Lv06 @Color5 [@ColorV 51 @Color5/@ColorO 35 @Color5/@Color4 12 @Color5]\n@Color0 Lv07 @Color5 [@ColorV 53 @Color5/@ColorO 37 @Color5/@Color4 14 @Color5]\n@Color0 Lv08 @Color5 [@ColorV 55 @Color5/@ColorO 38 @Color5/@Color4 16 @Color5]\n@Color0 Lv09 @Color5 [@ColorV 57 @Color5/@ColorO 40 @Color5/@Color4 18 @Color5]\n@Color0 Lv10 @Color5 [@ColorV 58 @Color5/@ColorO 41 @Color5/@Color4 20 @Color5]\n@Color0 Lv11 @Color5 [@ColorV 60 @Color5/@ColorO 43 @Color5/@Color4 22 @Color5]\n@Color0 Lv12 @Color5 [@ColorV 62 @Color5/@ColorO 44 @Color5/@Color4 24 @Color5]\n@Color0 Lv13 @Color5 [@ColorV 64 @Color5/@ColorO 46 @Color5/@Color4 26 @Color5]\n@Color0 Lv14 @Color5 [@ColorV 65 @Color5/@ColorO 47 @Color5/@Color4 28 @Color5]\n@Color0 Lv15 @Color5 [@ColorV 67 @Color5/@ColorO 49 @Color5/@Color4 30 @Color5]\n@Color0 Lv16 @Color5 [@ColorV 69 @Color5/@ColorO 50 @Color5/@Color4 32 @Color5]\n@Color0 Lv17 @Color5 [@ColorV 71 @Color5/@ColorO 52 @Color5/@Color4 34 @Color5]\n@Color0 Lv18 @Color5 [@ColorV 72 @Color5/@ColorO 53 @Color5/@Color4 36 @Color5]\n@Color0 Lv19 @Color5 [@ColorV 74 @Color5/@ColorO 55 @Color5/@Color4 38 @Color5]\n@Color0 Lv20 @Color5 [@ColorV 76 @Color5/@ColorO 56 @Color5/@Color4 40 @Color5]  @Color8@hal@Color5(14)\n@Color0 Lv21 @Color5 [@ColorV 78 @Color5/@ColorO 58 @Color5/@Color4 42 @Color5]\n@Color0 Lv22 @Color5 [@ColorV 79 @Color5/@ColorO 59 @Color5/@Color4 44 @Color5]\n@Color0 Lv23 @Color5 [@ColorV 81 @Color5/@ColorO 61 @Color5/@Color4 46 @Color5]\n@Color0 Lv24 @Color5 [@ColorV 83 @Color5/@ColorO 62 @Color5/@Color4 48 @Color5]\n@Color0 Lv25 @Color5 [@ColorV 85 @Color5/@ColorO 64 @Color5/@Color4 50 @Color5]  @Color0@xtp@Color5(25) / @Color0@xrs@Color5(25)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
                                     }
                                 }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv26 @Color5 [@ColorV 86 @Color5/@ColorO 65 @Color5/@Color4 52 @Color5]\n@Color0 Lv27 @Color5 [@ColorV 88 @Color5/@ColorO 67 @Color5/@Color4 54 @Color5]\n@Color0 Lv28 @Color5 [@ColorV 90 @Color5/@ColorO 68 @Color5/@Color4 56 @Color5]\n@Color0 Lv29 @Color5 [@ColorV 92 @Color5/@ColorO 70 @Color5/@Color4 58 @Color5]  @Color0@xhn@Color5(25)\n@Color0 Lv30 @Color5 [@ColorV 93 @Color5/@ColorO 71 @Color5/@Color4 60 @Color5]\n@Color0 Lv31 @Color5 [@ColorV 95 @Color5/@ColorO 73 @Color5/@Color4 62 @Color5]  @Color8@9vo@Color5(25)\n@Color0 Lv32 @Color5 [@ColorV 97 @Color5/@ColorO 74 @Color5/@Color4 64 @Color5]  @Color0@xpl@Color5(27)\n@Color0 Lv33 @Color5 [@ColorV 99 @Color5/@ColorO 76 @Color5/@Color4 66 @Color5]\n@Color0 Lv34 @Color5 [@ColorV 100 @Color5/@ColorO 77 @Color5/@Color4 68 @Color5]  @Color0@aar@Color5(28)\n@Color0 Lv35 @Color5 [@ColorV 102 @Color5/@ColorO 79 @Color5/@Color4 70 @Color5]\n@Color0 Lv36 @Color5 [@ColorV 104 @Color5/@ColorO 80 @Color5/@Color4 72 @Color5]  @Color8@wsc@Color5(29) / @Color0@xld@Color5(30) / @Color2@xrn@Color5(30)\n@Color0 Lv37 @Color5 [@ColorV 106 @Color5/@ColorO 82 @Color5/@Color4 74 @Color5]  @Color8@9s8@Color5(31)\n@Color0 Lv38 @Color5 [@ColorV 107 @Color5/@ColorO 83 @Color5/@Color4 76 @Color5]\n@Color0 Lv39 @Color5 [@ColorV 109 @Color5/@ColorO 85 @Color5/@Color4 78 @Color5]\n@Color0 Lv40 @Color5 [@ColorV 111 @Color5/@ColorO 86 @Color5/@Color4 80 @Color5]\n@Color0 Lv41 @Color5 [@ColorV 113 @Color5/@ColorO 88 @Color5/@Color4 82 @Color5]  @Color8@9pa@Color5(36)\n@Color0 Lv42 @Color5 [@ColorV 114 @Color5/@ColorO 89 @Color5/@Color4 84 @Color5]\n@Color0 Lv43 @Color5 [@ColorV 117 @Color5/@ColorO 91 @Color5/@Color4 86 @Color5]\n@Color0 Lv44 @Color5 [@ColorV 118 @Color5/@ColorO 92 @Color5/@Color4 87 @Color5]  @Color0@xlt@Color5(39)\n@Color0 Lv45 @Color5 [@ColorV 120 @Color5/@ColorO 94 @Color5/@Color4 89 @Color5]\n@Color0 Lv46 @Color5 [@ColorV 122 @Color5/@ColorO 95 @Color5/@Color4 91 @Color5]\n@Color0 Lv47 @Color5 [@ColorV 124 @Color5/@ColorO 97 @Color5/@Color4 93 @Color5]\n@Color0 Lv48 @Color5 [@ColorV 125 @Color5/@ColorO 98 @Color5/@Color4 94 @Color5]  @Color0@xth@Color5(43)\n@Color0 Lv49 @Color5 [@ColorV 127 @Color5/@ColorO 100 @Color5/@Color4 96 @Color5]  @Color0@uui@Color5(49)\n@Color0 Lv50 @Color5 [@ColorV 129 @Color5/@ColorO 101 @Color5/@Color4 98 @Color5]  @Color0@uea@Color5(50)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 20,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv51 @Color5 [@ColorV 131 @Color5/@ColorO 103 @Color5/@Color4 100 @Color5]  @Color0@ula@Color5(51)\n@Color0 Lv52 @Color5 [@ColorV 132 @Color5/@ColorO 104 @Color5/@Color4 101 @Color5]\n@Color0 Lv53 @Color5 [@ColorV 134 @Color5/@ColorO 106 @Color5/@Color4 103 @Color5]  @Color8@9h9@Color5(47) / @Color0@utu@Color5(53)\n@Color0 Lv54 @Color5 [@ColorV 136 @Color5/@ColorO 107 @Color5/@Color4 105 @Color5]  @Color0@ung@Color5(54)\n@Color0 Lv55 @Color5 [@ColorV 138 @Color5/@ColorO 109 @Color5/@Color4 107 @Color5]  @Color2@usk@Color5(55)\n@Color0 Lv56 @Color5 [@ColorV 139 @Color5/@ColorO 110 @Color5/@Color4 108 @Color5]  @Color0@urs@Color5(56)\n@Color0 Lv57 @Color5 [@ColorV 141 @Color5/@ColorO 112 @Color5/@Color4 110 @Color5]  @Color0@xul@Color5(51)\n@Color0 Lv58 @Color5 [@ColorV 143 @Color5/@ColorO 113 @Color5/@Color4 112 @Color5]\n@Color0 Lv59 @Color5 [@ColorV 145 @Color5/@ColorO 115 @Color5/@Color4 114 @Color5]\n@Color0 Lv60 @Color5 [@ColorV 146 @Color5/@ColorO 116 @Color5/@Color4 115 @Color5]\n@Color0 Lv61 @Color5 [@ColorV 148 @Color5/@ColorO 118 @Color5/@Color4 117 @Color5]\n@Color0 Lv62 @Color5 [@ColorV 150 @Color5/@ColorO 119 @Color5/@Color4 119 @Color5]  @Color0@ucl@Color5(56)\n@Color0 Lv63 @Color5 [@ColorV 152 @Color5/@ColorO 121 @Color5/@Color4 121 @Color5]  @Color8@7s8@Color5(58) / @Color0@utp@Color5(63) / @Color2@uh9@Color5(63)\n@Color0 Lv64 @Color5 [@ColorV 153 @Color5/@ColorO 122 @Color5/@Color4 122 @Color5]\n@Color0 Lv65 @Color5 [@ColorV 155 @Color5/@ColorO 124 @Color5/@Color4 124 @Color5]\n@Color0 Lv66 @Color5 [@ColorV 157 @Color5/@ColorO 125 @Color5/@Color4 126 @Color5]  @Color0@uhn@Color5(61)\n@Color0 Lv67 @Color5 [@ColorV 159 @Color5/@ColorO 127 @Color5/@Color4 128 @Color5]\n@Color0 Lv68 @Color5 [@ColorV 160 @Color5/@ColorO 128 @Color5/@Color4 129 @Color5]\n@Color0 Lv69 @Color5 [@ColorV 162 @Color5/@ColorO 130 @Color5/@Color4 131 @Color5]\n@Color0 Lv70 @Color5 [@ColorV 164 @Color5/@ColorO 131 @Color5/@Color4 133 @Color5]\n@Color0 Lv71 @Color5 [@ColorV 166 @Color5/@ColorO 133 @Color5/@Color4 135 @Color5]  @Color8@7pa@Color5(65) / @Color0@upl@Color5(65)\n@Color0 Lv72 @Color5 [@ColorV 167 @Color5/@ColorO 134 @Color5/@Color4 136 @Color5]\n@Color0 Lv73 @Color5 [@ColorV 169 @Color5/@ColorO 136 @Color5/@Color4 138 @Color5]\n@Color0 Lv74 @Color5 [@ColorV 171 @Color5/@ColorO 137 @Color5/@Color4 140 @Color5]  @Color0@xar@Color5(68)\n@Color0 Lv75 @Color5 [@ColorV 173 @Color5/@ColorO 139 @Color5/@Color4 142 @Color5]",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv76 @Color5 [@ColorV 174 @Color5/@ColorO 140 @Color5/@Color4 143 @Color5]  @Color8@9wc@Color5(69) / @Color0@uld@Color5(70) / @Color2@urn@Color5(70)\n@Color0 Lv77 @Color5 [@ColorV 176 @Color5/@ColorO 142 @Color5/@Color4 144 @Color5]\n@Color0 Lv78 @Color5 [@ColorV 178 @Color5/@ColorO 143 @Color5/@Color4 145 @Color5]\n@Color0 Lv79 @Color5 [@ColorV 180 @Color5/@ColorO 145 @Color5/@Color4 146 @Color5]  @Color8@7h7@Color5(73)\n@Color0 Lv80 @Color5 [@ColorV 181 @Color5/@ColorO 146 @Color5/@Color4 147 @Color5]\n@Color0 Lv81 @Color5 [@ColorV 183 @Color5/@ColorO 148 @Color5/@Color4 148 @Color5]\n@Color0 Lv82 @Color5 [@ColorV 185 @Color5/@ColorO 149 @Color5/@Color4 149 @Color5]\n@Color0 Lv83 @Color5 [@ColorV 187 @Color5/@ColorO 151 @Color5/@Color4 150 @Color5]\n@Color0 Lv84 @Color5 [@ColorV 188 @Color5/@ColorO 152 @Color5/@Color4 151 @Color5]  @Color8@7wc@Color5(78)\n@Color0 Lv85 @Color5 [@ColorV 190 @Color5/@ColorO 154 @Color5/@Color4 152 @Color5]\n@Color0 Lv86 @Color5 [@ColorV 192 @Color5/@ColorO 155 @Color5/@Color4 153 @Color5]\n@Color0 Lv87 @Color5 [@ColorV 194 @Color5/@ColorO 157 @Color5/@Color4 154 @Color5]\n@Color0 Lv88 @Color5 [@ColorV 195 @Color5/@ColorO 158 @Color5/@Color4 155 @Color5]\n@Color0 Lv89 @Color5 [@ColorV 197 @Color5/@ColorO 160 @Color5/@Color4 156 @Color5]  @Color0@ult@Color5(83)\n@Color0 Lv90 @Color5 [@ColorV 199 @Color5/@ColorO 161 @Color5/@Color4 157 @Color5]\n@Color0 Lv91 @Color5 [@ColorV 201 @Color5/@ColorO 163 @Color5/@Color4 158 @Color5]\n@Color0 Lv92 @Color5 [@ColorV 202 @Color5/@ColorO 164 @Color5/@Color4 159 @Color5]\n@Color0 Lv93 @Color5 [@ColorV 204 @Color5/@ColorO 166 @Color5/@Color4 160 @Color5]\n@Color0 Lv94 @Color5 [@ColorV 206 @Color5/@ColorO 167 @Color5/@Color4 161 @Color5]\n@Color0 Lv95 @Color5 [@ColorV 208 @Color5/@ColorO 169 @Color5/@Color4 162 @Color5]  @Color0@uth@Color5(90)\n@Color0 Lv96 @Color5 [@ColorV 209 @Color5/@ColorO 170 @Color5/@Color4 163 @Color5]\n@Color0 Lv97 @Color5 [@ColorV 211 @Color5/@ColorO 172 @Color5/@Color4 164 @Color5]  @Color8@7vo@Color5(91)\n@Color0 Lv98 @Color5 [@ColorV 213 @Color5/@ColorO 173 @Color5/@Color4 165 @Color5]",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ImageWidget",
+                            "name": "Act2hire",
+                            "fields": {
+                                "rect": {
+                                    "x": 55,
+                                    "y": 55,
+                                    "scale": 0.7
+                                },
+                                "filename": "hireables/act2hireableicon"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "ImageWidget",
-                    "name": "a2stat",
+                    "type": "RectangleWidget",
+                    "name": "BOX3",
                     "fields": {
                         "rect": {
-                            "x": 798,
-                            "y": 40,
-                            "scale": 0.8
+                            "x": 0,
+                            "y": 408,
+                            "width": 194,
+                            "height": 194
                         },
-                        "filename": "hireables\\act2hireableicon"
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.75
+                        ]
                     },
                     "children": [
                         {
-                            "type": "FocusableWidget",
-                            "name": "sor_tooltip",
+                            "type": "RectangleWidget",
+                            "name": "BG",
                             "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "@Color3 [@DesertMerc @strchrstr、@strchrdex]\n@Color0 Lv.01 @Color8 [@strchrstr 043，@strchrdex 028] @Color0 Lv.26 @Color8 [@strchrstr 086，@strchrdex 065] @Color0 Lv.51 @Color8 [@strchrstr 131，@strchrdex 103] @Color0 Lv.76 @Color8 [@strchrstr 174，@strchrdex 140]\n@Color0 Lv.02 @Color8 [@strchrstr 044，@strchrdex 029] @Color0 Lv.27 @Color8 [@strchrstr 088，@strchrdex 067] @Color0 Lv.52 @Color8 [@strchrstr 132，@strchrdex 104] @Color0 Lv.77 @Color8 [@strchrstr 176，@strchrdex 142]\n@Color0 Lv.03 @Color8 [@strchrstr 046，@strchrdex 031] @Color0 Lv.28 @Color8 [@strchrstr 090，@strchrdex 068] @Color0 Lv.53 @Color8 [@strchrstr 134，@strchrdex 106] @Color0 Lv.78 @Color8 [@strchrstr 178，@strchrdex 143]\n@Color0 Lv.04 @Color8 [@strchrstr 048，@strchrdex 032] @Color0 Lv.29 @Color8 [@strchrstr 092，@strchrdex 070] @Color0 Lv.54 @Color8 [@strchrstr 136，@strchrdex 107] @Color0 Lv.79 @Color8 [@strchrstr 180，@strchrdex 145] \n@Color0 Lv.05 @Color8 [@strchrstr 050，@strchrdex 034] @Color0 Lv.30 @Color8 [@strchrstr 093，@strchrdex 071] @Color0 Lv.55 @Color8 [@strchrstr 138，@strchrdex 109] @Color0 Lv.80 @Color8 [@strchrstr 181，@strchrdex 146]\n@Color0 Lv.06 @Color8 [@strchrstr 051，@strchrdex 035] @Color0 Lv.31 @Color8 [@strchrstr 095，@strchrdex 073] @Color0 Lv.56 @Color8 [@strchrstr 139，@strchrdex 110] @Color0 Lv.81 @Color8 [@strchrstr 183，@strchrdex 148]\n@Color0 Lv.07 @Color8 [@strchrstr 053，@strchrdex 037] @Color0 Lv.32 @Color8 [@strchrstr 097，@strchrdex 074] @Color0 Lv.57 @Color8 [@strchrstr 141，@strchrdex 112] @Color0 Lv.82 @Color8 [@strchrstr 185，@strchrdex 149]\n@Color0 Lv.08 @Color8 [@strchrstr 055，@strchrdex 038] @Color0 Lv.33 @Color8 [@strchrstr 099，@strchrdex 076] @Color0 Lv.58 @Color8 [@strchrstr 143，@strchrdex 113] @Color0 Lv.83 @Color8 [@strchrstr 187，@strchrdex 151] \n@Color0 Lv.09 @Color8 [@strchrstr 057，@strchrdex 040] @Color0 Lv.34 @Color8 [@strchrstr 100，@strchrdex 077] @Color0 Lv.59 @Color8 [@strchrstr 145，@strchrdex 115] @Color0 Lv.84 @Color8 [@strchrstr 188，@strchrdex 152] \n@Color0 Lv.10 @Color8 [@strchrstr 058，@strchrdex 041] @Color0 Lv.35 @Color8 [@strchrstr 102，@strchrdex 079] @Color0 Lv.60 @Color8 [@strchrstr 146，@strchrdex 116] @Color0 Lv.85 @Color8 [@strchrstr 190，@strchrdex 154] \n@Color0 Lv.11 @Color8 [@strchrstr 060，@strchrdex 043] @Color0 Lv.36 @Color8 [@strchrstr 104，@strchrdex 080] @Color0 Lv.61 @Color8 [@strchrstr 148，@strchrdex 118] @Color0 Lv.86 @Color8 [@strchrstr 192，@strchrdex 155] \n@Color0 Lv.12 @Color8 [@strchrstr 062，@strchrdex 044] @Color0 Lv.37 @Color8 [@strchrstr 106，@strchrdex 082] @Color0 Lv.62 @Color8 [@strchrstr 150，@strchrdex 119] @Color0 Lv.87 @Color8 [@strchrstr 194，@strchrdex 157] \n@Color0 Lv.13 @Color8 [@strchrstr 064，@strchrdex 046] @Color0 Lv.38 @Color8 [@strchrstr 107，@strchrdex 083] @Color0 Lv.63 @Color8 [@strchrstr 152，@strchrdex 121] @Color0 Lv.88 @Color8 [@strchrstr 195，@strchrdex 158] \n@Color0 Lv.14 @Color8 [@strchrstr 065，@strchrdex 047] @Color0 Lv.39 @Color8 [@strchrstr 109，@strchrdex 085] @Color0 Lv.64 @Color8 [@strchrstr 153，@strchrdex 122] @Color0 Lv.89 @Color8 [@strchrstr 197，@strchrdex 160] \n@Color0 Lv.15 @Color8 [@strchrstr 067，@strchrdex 049] @Color0 Lv.40 @Color8 [@strchrstr 111，@strchrdex 086] @Color0 Lv.65 @Color8 [@strchrstr 155，@strchrdex 124] @Color0 Lv.90 @Color8 [@strchrstr 199，@strchrdex 161]\n@Color0 Lv.16 @Color8 [@strchrstr 069，@strchrdex 050] @Color0 Lv.41 @Color8 [@strchrstr 113，@strchrdex 088] @Color0 Lv.66 @Color8 [@strchrstr 157，@strchrdex 125] @Color0 Lv.91 @Color8 [@strchrstr 201，@strchrdex 163]\n@Color0 Lv.17 @Color8 [@strchrstr 071，@strchrdex 052] @Color0 Lv.42 @Color8 [@strchrstr 114，@strchrdex 089] @Color0 Lv.67 @Color8 [@strchrstr 159，@strchrdex 127] @Color0 Lv.92 @Color8 [@strchrstr 202，@strchrdex 164]\n@Color0 Lv.18 @Color8 [@strchrstr 072，@strchrdex 053] @Color0 Lv.43 @Color8 [@strchrstr 117，@strchrdex 091] @Color0 Lv.68 @Color8 [@strchrstr 160，@strchrdex 128] @Color0 Lv.93 @Color8 [@strchrstr 204，@strchrdex 166]\n@Color0 Lv.19 @Color8 [@strchrstr 074，@strchrdex 055] @Color0 Lv.44 @Color8 [@strchrstr 118，@strchrdex 092] @Color0 Lv.69 @Color8 [@strchrstr 162，@strchrdex 130] @Color0 Lv.94 @Color8 [@strchrstr 206，@strchrdex 167]\n@Color0 Lv.20 @Color8 [@strchrstr 076，@strchrdex 056] @Color0 Lv.45 @Color8 [@strchrstr 120，@strchrdex 094] @Color0 Lv.70 @Color8 [@strchrstr 164，@strchrdex 131] @Color0 Lv.95 @Color8 [@strchrstr 208，@strchrdex 169]\n@Color0 Lv.21 @Color8 [@strchrstr 078，@strchrdex 058] @Color0 Lv.46 @Color8 [@strchrstr 122，@strchrdex 095] @Color0 Lv.71 @Color8 [@strchrstr 166，@strchrdex 133] @Color0 Lv.96 @Color8 [@strchrstr 209，@strchrdex 170]\n@Color0 Lv.22 @Color8 [@strchrstr 079，@strchrdex 059] @Color0 Lv.47 @Color8 [@strchrstr 124，@strchrdex 097] @Color0 Lv.72 @Color8 [@strchrstr 167，@strchrdex 134] @Color0 Lv.97 @Color8 [@strchrstr 211，@strchrdex 172]\n@Color0 Lv.23 @Color8 [@strchrstr 081，@strchrdex 061] @Color0 Lv.48 @Color8 [@strchrstr 125，@strchrdex 098] @Color0 Lv.73 @Color8 [@strchrstr 169，@strchrdex 136] @Color0 Lv.98 @Color8 [@strchrstr 213，@strchrdex 173]\n@Color0 Lv.24 @Color8 [@strchrstr 083，@strchrdex 062] @Color0 Lv.49 @Color8 [@strchrstr 127，@strchrdex 100] @Color0 Lv.74 @Color8 [@strchrstr 171，@strchrdex 137]\n@Color0 Lv.25 @Color8 [@strchrstr 085，@strchrdex 064] @Color0 Lv.50 @Color8 [@strchrstr 129，@strchrdex 101] @Color0 Lv.75 @Color8 [@strchrstr 173，@strchrdex 139]",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
+                                "rect": {
+                                    "x": 20,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv01 @Color5 [@ColorV 31 @Color5/@ColorO 26 @Color5/@Color4 0 @Color5]\n@Color0 Lv02 @Color5 [@ColorV 32 @Color5/@ColorO 27 @Color5/@Color4 2 @Color5]\n@Color0 Lv03 @Color5 [@ColorV 34 @Color5/@ColorO 28 @Color5/@Color4 4 @Color5]\n@Color0 Lv04 @Color5 [@ColorV 35 @Color5/@ColorO 29 @Color5/@Color4 5 @Color5]\n@Color0 Lv05 @Color5 [@ColorV 36 @Color5/@ColorO 30 @Color5/@Color4 7 @Color5]\n@Color0 Lv06 @Color5 [@ColorV 37 @Color5/@ColorO 31 @Color5/@Color4 9 @Color5]\n@Color0 Lv07 @Color5 [@ColorV 39 @Color5/@ColorO 32 @Color5/@Color4 11 @Color5]\n@Color0 Lv08 @Color5 [@ColorV 40 @Color5/@ColorO 33 @Color5/@Color4 12 @Color5]\n@Color0 Lv09 @Color5 [@ColorV 41 @Color5/@ColorO 34 @Color5/@Color4 14 @Color5]\n@Color0 Lv10 @Color5 [@ColorV 42 @Color5/@ColorO 35 @Color5/@Color4 16 @Color5]\n@Color0 Lv11 @Color5 [@ColorV 44 @Color5/@ColorO 36 @Color5/@Color4 18 @Color5]\n@Color0 Lv12 @Color5 [@ColorV 45 @Color5/@ColorO 37 @Color5/@Color4 19 @Color5]\n@Color0 Lv13 @Color5 [@ColorV 46 @Color5/@ColorO 38 @Color5/@Color4 21 @Color5]\n@Color0 Lv14 @Color5 [@ColorV 47 @Color5/@ColorO 39 @Color5/@Color4 23 @Color5]\n@Color0 Lv15 @Color5 [@ColorV 49 @Color5/@ColorO 40 @Color5/@Color4 25 @Color5]\n@Color0 Lv16 @Color5 [@ColorV 50 @Color5/@ColorO 41 @Color5/@Color4 26 @Color5]\n@Color0 Lv17 @Color5 [@ColorV 51 @Color5/@ColorO 42 @Color5/@Color4 28 @Color5]\n@Color0 Lv18 @Color5 [@ColorV 52 @Color5/@ColorO 43 @Color5/@Color4 30 @Color5]\n@Color0 Lv19 @Color5 [@ColorV 54 @Color5/@ColorO 44 @Color5/@Color4 32 @Color5]\n@Color0 Lv20 @Color5 [@ColorV 55 @Color5/@ColorO 45 @Color5/@Color4 33 @Color5]\n@Color0 Lv21 @Color5 [@ColorV 56 @Color5/@ColorO 46 @Color5/@Color4 35 @Color5]\n@Color0 Lv22 @Color5 [@ColorV 57 @Color5/@ColorO 47 @Color5/@Color4 37 @Color5]\n@Color0 Lv23 @Color5 [@ColorV 59 @Color5/@ColorO 48 @Color5/@Color4 39 @Color5]\n@Color0 Lv24 @Color5 [@ColorV 60 @Color5/@ColorO 49 @Color5/@Color4 40 @Color5]\n@Color0 Lv25 @Color5 [@ColorV 61 @Color5/@ColorO 50 @Color5/@Color4 42 @Color5]  @Color0@xtp@Color5(25)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
                                     }
                                 }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv26 @Color5 [@ColorV 62 @Color5/@ColorO 51 @Color5/@Color4 44 @Color5]\n@Color0 Lv27 @Color5 [@ColorV 64 @Color5/@ColorO 52 @Color5/@Color4 46 @Color5]\n@Color0 Lv28 @Color5 [@ColorV 65 @Color5/@ColorO 53 @Color5/@Color4 47 @Color5]  @Color0@xrs@Color5(25)\n@Color0 Lv29 @Color5 [@ColorV 66 @Color5/@ColorO 54 @Color5/@Color4 49 @Color5]\n@Color0 Lv30 @Color5 [@ColorV 67 @Color5/@ColorO 55 @Color5/@Color4 51 @Color5]\n@Color0 Lv31 @Color5 [@ColorV 69 @Color5/@ColorO 56 @Color5/@Color4 53 @Color5]\n@Color0 Lv32 @Color5 [@ColorV 70 @Color5/@ColorO 57 @Color5/@Color4 54 @Color5]\n@Color0 Lv33 @Color5 [@ColorV 71 @Color5/@ColorO 58 @Color5/@Color4 56 @Color5]\n@Color0 Lv34 @Color5 [@ColorV 72 @Color5/@ColorO 59 @Color5/@Color4 58 @Color5]\n@Color0 Lv35 @Color5 [@ColorV 74 @Color5/@ColorO 60 @Color5/@Color4 60 @Color5]\n@Color0 Lv36 @Color5 [@ColorV 75 @Color5/@ColorO 61 @Color5/@Color4 61 @Color5]\n@Color0 Lv37 @Color5 [@ColorV 76 @Color5/@ColorO 62 @Color5/@Color4 63 @Color5]\n@Color0 Lv38 @Color5 [@ColorV 77 @Color5/@ColorO 63 @Color5/@Color4 65 @Color5]\n@Color0 Lv39 @Color5 [@ColorV 79 @Color5/@ColorO 64 @Color5/@Color4 67 @Color5]\n@Color0 Lv40 @Color5 [@ColorV 80 @Color5/@ColorO 65 @Color5/@Color4 68 @Color5]\n@Color0 Lv41 @Color5 [@ColorV 81 @Color5/@ColorO 66 @Color5/@Color4 70 @Color5]\n@Color0 Lv42 @Color5 [@ColorV 82 @Color5/@ColorO 67 @Color5/@Color4 72 @Color5]\n@Color0 Lv43 @Color5 [@ColorV 84 @Color5/@ColorO 68 @Color5/@Color4 74 @Color5]\n@Color0 Lv44 @Color5 [@ColorV 85 @Color5/@ColorO 69 @Color5/@Color4 75 @Color5]  @Color8@9cr@Color5(36)\n@Color0 Lv45 @Color5 [@ColorV 86 @Color5/@ColorO 70 @Color5/@Color4 77 @Color5]\n@Color0 Lv46 @Color5 [@ColorV 87 @Color5/@ColorO 71 @Color5/@Color4 79 @Color5]\n@Color0 Lv47 @Color5 [@ColorV 89 @Color5/@ColorO 72 @Color5/@Color4 81 @Color5]\n@Color0 Lv48 @Color5 [@ColorV 90 @Color5/@ColorO 73 @Color5/@Color4 82 @Color5]\n@Color0 Lv49 @Color5 [@ColorV 92 @Color5/@ColorO 74 @Color5/@Color4 85 @Color5]  @Color0@xhn@Color5(42) / @Color0@uui@Color5(49)\n@Color0 Lv50 @Color5 [@ColorV 93 @Color5/@ColorO 75 @Color5/@Color4 86 @Color5]  @Color0@uea@Color5(50)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 20,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv51 @Color5 [@ColorV 94 @Color5/@ColorO 76 @Color5/@Color4 88 @Color5]  @Color0@ula@Color5(51)\n@Color0 Lv52 @Color5 [@ColorV 95 @Color5/@ColorO 77 @Color5/@Color4 90 @Color5]\n@Color0 Lv53 @Color5 [@ColorV 97 @Color5/@ColorO 78 @Color5/@Color4 92 @Color5]  @Color0@xpl@Color5(46)\n@Color0 Lv54 @Color5 [@ColorV 98 @Color5/@ColorO 79 @Color5/@Color4 93 @Color5]\n@Color0 Lv55 @Color5 [@ColorV 99 @Color5/@ColorO 80 @Color5/@Color4 95 @Color5]\n@Color0 Lv56 @Color5 [@ColorV 100 @Color5/@ColorO 81 @Color5/@Color4 97 @Color5]  @Color0@aar@Color5(48)\n@Color0 Lv57 @Color5 [@ColorV 102 @Color5/@ColorO 82 @Color5/@Color4 99 @Color5]  @Color2@usk@Color5(55)\n@Color0 Lv58 @Color5 [@ColorV 103 @Color5/@ColorO 83 @Color5/@Color4 100 @Color5]  @Color0@xld@Color5(30) / @Color2@xrn@Color5(30)\n@Color0 Lv59 @Color5 [@ColorV 104 @Color5/@ColorO 84 @Color5/@Color4 102 @Color5]\n@Color0 Lv60 @Color5 [@ColorV 105 @Color5/@ColorO 85 @Color5/@Color4 104 @Color5]\n@Color0 Lv61 @Color5 [@ColorV 107 @Color5/@ColorO 86 @Color5/@Color4 106 @Color5]\n@Color0 Lv62 @Color5 [@ColorV 108 @Color5/@ColorO 87 @Color5/@Color4 107 @Color5]\n@Color0 Lv63 @Color5 [@ColorV 109 @Color5/@ColorO 88 @Color5/@Color4 109 @Color5]  @Color0@utp@Color5(63) / @Color2@uh9@Color5(63)\n@Color0 Lv64 @Color5 [@ColorV 110 @Color5/@ColorO 89 @Color5/@Color4 111 @Color5]\n@Color0 Lv65 @Color5 [@ColorV 112 @Color5/@ColorO 90 @Color5/@Color4 113 @Color5]  @Color0@utu@Color5(57)\n@Color0 Lv66 @Color5 [@ColorV 113 @Color5/@ColorO 91 @Color5/@Color4 114 @Color5]\n@Color0 Lv67 @Color5 [@ColorV 114 @Color5/@ColorO 92 @Color5/@Color4 116 @Color5]\n@Color0 Lv68 @Color5 [@ColorV 115 @Color5/@ColorO 93 @Color5/@Color4 118 @Color5]\n@Color0 Lv69 @Color5 [@ColorV 117 @Color5/@ColorO 94 @Color5/@Color4 120 @Color5]\n@Color0 Lv70 @Color5 [@ColorV 118 @Color5/@ColorO 95 @Color5/@Color4 121 @Color5]  @Color0@xlt@Color5(62) / @Color0@urs@Color5(62)\n@Color0 Lv71 @Color5 [@ColorV 119 @Color5/@ColorO 96 @Color5/@Color4 123 @Color5]\n@Color0 Lv72 @Color5 [@ColorV 120 @Color5/@ColorO 97 @Color5/@Color4 125 @Color5]\n@Color0 Lv73 @Color5 [@ColorV 122 @Color5/@ColorO 98 @Color5/@Color4 127 @Color5]\n@Color0 Lv74 @Color5 [@ColorV 123 @Color5/@ColorO 99 @Color5/@Color4 128 @Color5]\n@Color0 Lv75 @Color5 [@ColorV 124 @Color5/@ColorO 100 @Color5/@Color4 130 @Color5]",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv76 @Color5 [@ColorV 125 @Color5/@ColorO 101 @Color5/@Color4 132 @Color5]  @Color0@xth@Color5(68)\n@Color0 Lv77 @Color5 [@ColorV 127 @Color5/@ColorO 102 @Color5/@Color4 134 @Color5]\n@Color0 Lv78 @Color5 [@ColorV 128 @Color5/@ColorO 103 @Color5/@Color4 135 @Color5]\n@Color0 Lv79 @Color5 [@ColorV 130 @Color5/@ColorO 104 @Color5/@Color4 138 @Color5]\n@Color0 Lv80 @Color5 [@ColorV 131 @Color5/@ColorO 105 @Color5/@Color4 139 @Color5]  @Color0@ung@Color5(73)\n@Color0 Lv81 @Color5 [@ColorV 132 @Color5/@ColorO 106 @Color5/@Color4 141 @Color5]\n@Color0 Lv82 @Color5 [@ColorV 133 @Color5/@ColorO 107 @Color5/@Color4 142 @Color5]\n@Color0 Lv83 @Color5 [@ColorV 135 @Color5/@ColorO 108 @Color5/@Color4 144 @Color5]\n@Color0 Lv84 @Color5 [@ColorV 136 @Color5/@ColorO 109 @Color5/@Color4 145 @Color5]\n@Color0 Lv85 @Color5 [@ColorV 137 @Color5/@ColorO 110 @Color5/@Color4 147 @Color5]\n@Color0 Lv86 @Color5 [@ColorV 138 @Color5/@ColorO 111 @Color5/@Color4 148 @Color5]\n@Color0 Lv87 @Color5 [@ColorV 140 @Color5/@ColorO 112 @Color5/@Color4 150 @Color5]  @Color0@xul@Color5(79)\n@Color0 Lv88 @Color5 [@ColorV 141 @Color5/@ColorO 113 @Color5/@Color4 151 @Color5]\n@Color0 Lv89 @Color5 [@ColorV 142 @Color5/@ColorO 114 @Color5/@Color4 153 @Color5]\n@Color0 Lv90 @Color5 [@ColorV 143 @Color5/@ColorO 115 @Color5/@Color4 154 @Color5]\n@Color0 Lv91 @Color5 [@ColorV 145 @Color5/@ColorO 116 @Color5/@Color4 156 @Color5]\n@Color0 Lv92 @Color5 [@ColorV 146 @Color5/@ColorO 117 @Color5/@Color4 157 @Color5]\n@Color0 Lv93 @Color5 [@ColorV 147 @Color5/@ColorO 118 @Color5/@Color4 159 @Color5]\n@Color0 Lv94 @Color5 [@ColorV 148 @Color5/@ColorO 119 @Color5/@Color4 160 @Color5]\n@Color0 Lv95 @Color5 [@ColorV 150 @Color5/@ColorO 120 @Color5/@Color4 162 @Color5]  @Color0@ucl@Color5(87)\n@Color0 Lv96 @Color5 [@ColorV 151 @Color5/@ColorO 121 @Color5/@Color4 163 @Color5]\n@Color0 Lv97 @Color5 [@ColorV 152 @Color5/@ColorO 122 @Color5/@Color4 165 @Color5]\n@Color0 Lv98 @Color5 [@ColorV 153 @Color5/@ColorO 123 @Color5/@Color4 166 @Color5]",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ImageWidget",
+                            "name": "Act3hire",
+                            "fields": {
+                                "rect": {
+                                    "x": 55,
+                                    "y": 55,
+                                    "scale": 0.7
+                                },
+                                "filename": "hireables/act3hireableicon"
                             }
                         }
                     ]
                 },
                 {
-                    "type": "ImageWidget",
-                    "name": "a3stat",
+                    "type": "RectangleWidget",
+                    "name": "BOX5",
                     "fields": {
                         "rect": {
-                            "x": 894,
-                            "y": 40,
-                            "scale": 0.8
+                            "x": 0,
+                            "y": 612,
+                            "width": 194,
+                            "height": 194
                         },
-                        "filename": "hireables\\act3hireableicon"
+                        "color": [
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.05
+                        ],
+                        "borderColor": [
+                            0.78,
+                            0.7,
+                            0.47,
+                            0.75
+                        ]
                     },
                     "children": [
                         {
-                            "type": "FocusableWidget",
-                            "name": "tooltip",
+                            "type": "RectangleWidget",
+                            "name": "BG",
                             "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "@Color3 [@IronWolf @strchrstr、@strchrdex]\n@Color0 Lv.01 @Color8 [@strchrstr 032，@strchrdex 026] @Color0 Lv.26 @Color8 [@strchrstr 062，@strchrdex 051] @Color0 Lv.51 @Color8 [@strchrstr 094，@strchrdex 076] @Color0 Lv.76 @Color8 [@strchrstr 125，@strchrdex 101]\n@Color0 Lv.02 @Color8 [@strchrstr 032，@strchrdex 027] @Color0 Lv.27 @Color8 [@strchrstr 064，@strchrdex 052] @Color0 Lv.52 @Color8 [@strchrstr 095，@strchrdex 077] @Color0 Lv.77 @Color8 [@strchrstr 127，@strchrdex 102]\n@Color0 Lv.03 @Color8 [@strchrstr 034，@strchrdex 028] @Color0 Lv.28 @Color8 [@strchrstr 065，@strchrdex 053] @Color0 Lv.53 @Color8 [@strchrstr 097，@strchrdex 078] @Color0 Lv.78 @Color8 [@strchrstr 128，@strchrdex 103]\n@Color0 Lv.04 @Color8 [@strchrstr 035，@strchrdex 029] @Color0 Lv.29 @Color8 [@strchrstr 066，@strchrdex 054] @Color0 Lv.54 @Color8 [@strchrstr 098，@strchrdex 079] @Color0 Lv.79 @Color8 [@strchrstr 130，@strchrdex 104]\n@Color0 Lv.05 @Color8 [@strchrstr 036，@strchrdex 030] @Color0 Lv.30 @Color8 [@strchrstr 067，@strchrdex 055] @Color0 Lv.55 @Color8 [@strchrstr 099，@strchrdex 080] @Color0 Lv.80 @Color8 [@strchrstr 131，@strchrdex 105]\n@Color0 Lv.06 @Color8 [@strchrstr 037，@strchrdex 031] @Color0 Lv.31 @Color8 [@strchrstr 069，@strchrdex 056] @Color0 Lv.56 @Color8 [@strchrstr 100，@strchrdex 081] @Color0 Lv.81 @Color8 [@strchrstr 132，@strchrdex 106]\n@Color0 Lv.07 @Color8 [@strchrstr 039，@strchrdex 032] @Color0 Lv.32 @Color8 [@strchrstr 070，@strchrdex 057] @Color0 Lv.57 @Color8 [@strchrstr 102，@strchrdex 082] @Color0 Lv.82 @Color8 [@strchrstr 133，@strchrdex 107]\n@Color0 Lv.08 @Color8 [@strchrstr 040，@strchrdex 033] @Color0 Lv.33 @Color8 [@strchrstr 071，@strchrdex 058] @Color0 Lv.58 @Color8 [@strchrstr 103，@strchrdex 083] @Color0 Lv.83 @Color8 [@strchrstr 138，@strchrdex 108]\n@Color0 Lv.09 @Color8 [@strchrstr 041，@strchrdex 034] @Color0 Lv.34 @Color8 [@strchrstr 072，@strchrdex 059] @Color0 Lv.59 @Color8 [@strchrstr 104，@strchrdex 084] @Color0 Lv.84 @Color8 [@strchrstr 137，@strchrdex 109]\n@Color0 Lv.10 @Color8 [@strchrstr 042，@strchrdex 035] @Color0 Lv.35 @Color8 [@strchrstr 074，@strchrdex 060] @Color0 Lv.60 @Color8 [@strchrstr 105，@strchrdex 085] @Color0 Lv.85 @Color8 [@strchrstr 137，@strchrdex 110]\n@Color0 Lv.11 @Color8 [@strchrstr 044，@strchrdex 036] @Color0 Lv.36 @Color8 [@strchrstr 075，@strchrdex 061] @Color0 Lv.61 @Color8 [@strchrstr 107，@strchrdex 086] @Color0 Lv.86 @Color8 [@strchrstr 138，@strchrdex 111]\n@Color0 Lv.12 @Color8 [@strchrstr 045，@strchrdex 037] @Color0 Lv.37 @Color8 [@strchrstr 076，@strchrdex 062] @Color0 Lv.62 @Color8 [@strchrstr 108，@strchrdex 087] @Color0 Lv.87 @Color8 [@strchrstr 140，@strchrdex 112]\n@Color0 Lv.13 @Color8 [@strchrstr 046，@strchrdex 038] @Color0 Lv.38 @Color8 [@strchrstr 077，@strchrdex 063] @Color0 Lv.63 @Color8 [@strchrstr 109，@strchrdex 088] @Color0 Lv.88 @Color8 [@strchrstr 141，@strchrdex 113]\n@Color0 Lv.14 @Color8 [@strchrstr 047，@strchrdex 039] @Color0 Lv.39 @Color8 [@strchrstr 079，@strchrdex 064] @Color0 Lv.64 @Color8 [@strchrstr 110，@strchrdex 089] @Color0 Lv.89 @Color8 [@strchrstr 142，@strchrdex 114]\n@Color0 Lv.15 @Color8 [@strchrstr 049，@strchrdex 040] @Color0 Lv.40 @Color8 [@strchrstr 080，@strchrdex 065] @Color0 Lv.65 @Color8 [@strchrstr 112，@strchrdex 090] @Color0 Lv.90 @Color8 [@strchrstr 143，@strchrdex 115]\n@Color0 Lv.16 @Color8 [@strchrstr 050，@strchrdex 041] @Color0 Lv.41 @Color8 [@strchrstr 081，@strchrdex 066] @Color0 Lv.66 @Color8 [@strchrstr 113，@strchrdex 091] @Color0 Lv.91 @Color8 [@strchrstr 145，@strchrdex 116]\n@Color0 Lv.17 @Color8 [@strchrstr 051，@strchrdex 042] @Color0 Lv.42 @Color8 [@strchrstr 082，@strchrdex 067] @Color0 Lv.67 @Color8 [@strchrstr 114，@strchrdex 092] @Color0 Lv.92 @Color8 [@strchrstr 146，@strchrdex 117]\n@Color0 Lv.18 @Color8 [@strchrstr 052，@strchrdex 043] @Color0 Lv.43 @Color8 [@strchrstr 084，@strchrdex 068] @Color0 Lv.68 @Color8 [@strchrstr 115，@strchrdex 093] @Color0 Lv.93 @Color8 [@strchrstr 147，@strchrdex 118]\n@Color0 Lv.19 @Color8 [@strchrstr 054，@strchrdex 044] @Color0 Lv.44 @Color8 [@strchrstr 085，@strchrdex 069] @Color0 Lv.69 @Color8 [@strchrstr 117，@strchrdex 094] @Color0 Lv.94 @Color8 [@strchrstr 148，@strchrdex 119]\n@Color0 Lv.20 @Color8 [@strchrstr 055，@strchrdex 045] @Color0 Lv.45 @Color8 [@strchrstr 086，@strchrdex 070] @Color0 Lv.70 @Color8 [@strchrstr 118，@strchrdex 095] @Color0 Lv.95 @Color8 [@strchrstr 150，@strchrdex 120]\n@Color0 Lv.21 @Color8 [@strchrstr 056，@strchrdex 046] @Color0 Lv.46 @Color8 [@strchrstr 087，@strchrdex 071] @Color0 Lv.71 @Color8 [@strchrstr 119，@strchrdex 096] @Color0 Lv.96 @Color8 [@strchrstr 151，@strchrdex 120]\n@Color0 Lv.22 @Color8 [@strchrstr 057，@strchrdex 047] @Color0 Lv.47 @Color8 [@strchrstr 089，@strchrdex 072] @Color0 Lv.72 @Color8 [@strchrstr 120，@strchrdex 097] @Color0 Lv.97 @Color8 [@strchrstr 152，@strchrdex 122]\n@Color0 Lv.23 @Color8 [@strchrstr 059，@strchrdex 048] @Color0 Lv.48 @Color8 [@strchrstr 090，@strchrdex 073] @Color0 Lv.73 @Color8 [@strchrstr 122，@strchrdex 098] @Color0 Lv.98 @Color8 [@strchrstr 153，@strchrdex 123]\n@Color0 Lv.24 @Color8 [@strchrstr 060，@strchrdex 049] @Color0 Lv.49 @Color8 [@strchrstr 092，@strchrdex 074] @Color0 Lv.74 @Color8 [@strchrstr 123，@strchrdex 099]\n@Color0 Lv.25 @Color8 [@strchrstr 061，@strchrdex 050] @Color0 Lv.50 @Color8 [@strchrstr 093，@strchrdex 075] @Color0 Lv.75 @Color8 [@strchrstr 124，@strchrdex 100]",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
+                                "rect": {
+                                    "x": 20,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv01 @Color5 [@ColorV 50 @Color5/@ColorO 29 @Color5/@Color4 8 @Color5]\n@Color0 Lv02 @Color5 [@ColorV 52 @Color5/@ColorO 30 @Color5/@Color4 10 @Color5]\n@Color0 Lv03 @Color5 [@ColorV 54 @Color5/@ColorO 31 @Color5/@Color4 12 @Color5]\n@Color0 Lv04 @Color5 [@ColorV 56 @Color5/@ColorO 33 @Color5/@Color4 14 @Color5]\n@Color0 Lv05 @Color5 [@ColorV 57 @Color5/@ColorO 34 @Color5/@Color4 15 @Color5]\n@Color0 Lv06 @Color5 [@ColorV 59 @Color5/@ColorO 35 @Color5/@Color4 17 @Color5]\n@Color0 Lv07 @Color5 [@ColorV 61 @Color5/@ColorO 36 @Color5/@Color4 19 @Color5]\n@Color0 Lv08 @Color5 [@ColorV 63 @Color5/@ColorO 38 @Color5/@Color4 21 @Color5]\n@Color0 Lv09 @Color5 [@ColorV 65 @Color5/@ColorO 39 @Color5/@Color4 22 @Color5]\n@Color0 Lv10 @Color5 [@ColorV 67 @Color5/@ColorO 40 @Color5/@Color4 24 @Color5]\n@Color0 Lv11 @Color5 [@ColorV 69 @Color5/@ColorO 41 @Color5/@Color4 26 @Color5]\n@Color0 Lv12 @Color5 [@ColorV 71 @Color5/@ColorO 43 @Color5/@Color4 28 @Color5]\n@Color0 Lv13 @Color5 [@ColorV 72 @Color5/@ColorO 44 @Color5/@Color4 29 @Color5]\n@Color0 Lv14 @Color5 [@ColorV 74 @Color5/@ColorO 45 @Color5/@Color4 31 @Color5]\n@Color0 Lv15 @Color5 [@ColorV 76 @Color5/@ColorO 46 @Color5/@Color4 33 @Color5]\n@Color0 Lv16 @Color5 [@ColorV 78 @Color5/@ColorO 48 @Color5/@Color4 35 @Color5]\n@Color0 Lv17 @Color5 [@ColorV 80 @Color5/@ColorO 49 @Color5/@Color4 36 @Color5]\n@Color0 Lv18 @Color5 [@ColorV 82 @Color5/@ColorO 50 @Color5/@Color4 38 @Color5]\n@Color0 Lv19 @Color5 [@ColorV 84 @Color5/@ColorO 51 @Color5/@Color4 40 @Color5]\n@Color0 Lv20 @Color5 [@ColorV 86 @Color5/@ColorO 53 @Color5/@Color4 42 @Color5]\n@Color0 Lv21 @Color5 [@ColorV 87 @Color5/@ColorO 54 @Color5/@Color4 43 @Color5]\n@Color0 Lv22 @Color5 [@ColorV 89 @Color5/@ColorO 55 @Color5/@Color4 45 @Color5]\n@Color0 Lv23 @Color5 [@ColorV 91 @Color5/@ColorO 56 @Color5/@Color4 47 @Color5]\n@Color0 Lv24 @Color5 [@ColorV 93 @Color5/@ColorO 58 @Color5/@Color4 49 @Color5]\n@Color0 Lv25 @Color5 [@ColorV 95 @Color5/@ColorO 59 @Color5/@Color4 50 @Color5]  @Color0@xtp@Color5(25) / @Color0@xrs@Color5(25) / @Color0@xhn@Color5(25)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
                                     }
                                 }
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "ImageWidget",
-                    "name": "a5stat",
-                    "fields": {
-                        "rect": {
-                            "x": 990,
-                            "y": 40,
-                            "scale": 0.8
+                            ]
                         },
-                        "filename": "hireables\\barbhirable_icon"
-                    },
-                    "children": [
                         {
-                            "type": "FocusableWidget",
-                            "name": "tooltip",
+                            "type": "RectangleWidget",
+                            "name": "BG",
                             "fields": {
-                                "fitToParent": true,
-                                "tooltipString": "@Color3 [@Barbarian @strchrstr、@strchrdex]\n@Color0 Lv.01 @Color8 [@strchrstr 050，@strchrdex 029] @Color0 Lv.26 @Color8 [@strchrstr 097，@strchrdex 060] @Color0 Lv.51 @Color8 [@strchrstr 144，@strchrdex 091] @Color0 Lv.76 @Color8 [@strchrstr 191，@strchrdex 123]\n@Color0 Lv.02 @Color8 [@strchrstr 052，@strchrdex 030] @Color0 Lv.27 @Color8 [@strchrstr 099，@strchrdex 061] @Color0 Lv.52 @Color8 [@strchrstr 146，@strchrdex 098] @Color0 Lv.77 @Color8 [@strchrstr 193，@strchrdex 124]\n@Color0 Lv.03 @Color8 [@strchrstr 054，@strchrdex 031] @Color0 Lv.28 @Color8 [@strchrstr 101，@strchrdex 063] @Color0 Lv.53 @Color8 [@strchrstr 147，@strchrdex 094] @Color0 Lv.78 @Color8 [@strchrstr 195，@strchrdex 126]\n@Color0 Lv.04 @Color8 [@strchrstr 056，@strchrdex 033] @Color0 Lv.29 @Color8 [@strchrstr 102，@strchrdex 064] @Color0 Lv.54 @Color8 [@strchrstr 149，@strchrdex 095] @Color0 Lv.79 @Color8 [@strchrstr 197，@strchrdex 127]\n@Color0 Lv.05 @Color8 [@strchrstr 057，@strchrdex 034] @Color0 Lv.30 @Color8 [@strchrstr 104，@strchrdex 065] @Color0 Lv.55 @Color8 [@strchrstr 151，@strchrdex 096] @Color0 Lv.80 @Color8 [@strchrstr 200，@strchrdex 129] \n@Color0 Lv.06 @Color8 [@strchrstr 059，@strchrdex 035] @Color0 Lv.31 @Color8 [@strchrstr 106，@strchrdex 066] @Color0 Lv.56 @Color8 [@strchrstr 153，@strchrdex 098] @Color0 Lv.81 @Color8 [@strchrstr 201，@strchrdex 130] \n@Color0 Lv.07 @Color8 [@strchrstr 061，@strchrdex 036] @Color0 Lv.32 @Color8 [@strchrstr 106，@strchrdex 066] @Color0 Lv.57 @Color8 [@strchrstr 155，@strchrdex 099] @Color0 Lv.82 @Color8 [@strchrstr 203，@strchrdex 131] \n@Color0 Lv.08 @Color8 [@strchrstr 063，@strchrdex 038] @Color0 Lv.33 @Color8 [@strchrstr 110，@strchrdex 069] @Color0 Lv.58 @Color8 [@strchrstr 158，@strchrdex 101] @Color0 Lv.83 @Color8 [@strchrstr 205，@strchrdex 132]\n@Color0 Lv.09 @Color8 [@strchrstr 065，@strchrdex 039] @Color0 Lv.34 @Color8 [@strchrstr 112，@strchrdex 070] @Color0 Lv.59 @Color8 [@strchrstr 159，@strchrdex 102] @Color0 Lv.84 @Color8 [@strchrstr 207，@strchrdex 134]\n@Color0 Lv.10 @Color8 [@strchrstr 067，@strchrdex 040] @Color0 Lv.35 @Color8 [@strchrstr 114，@strchrdex 071] @Color0 Lv.60 @Color8 [@strchrstr 161，@strchrdex 103] @Color0 Lv.85 @Color8 [@strchrstr 209，@strchrdex 135]\n@Color0 Lv.11 @Color8 [@strchrstr 069，@strchrdex 041] @Color0 Lv.36 @Color8 [@strchrstr 116，@strchrdex 073] @Color0 Lv.61 @Color8 [@strchrstr 163，@strchrdex 104] @Color0 Lv.86 @Color8 [@strchrstr 211，@strchrdex 136] \n@Color0 Lv.12 @Color8 [@strchrstr 071，@strchrdex 043] @Color0 Lv.37 @Color8 [@strchrstr 117，@strchrdex 074] @Color0 Lv.62 @Color8 [@strchrstr 165，@strchrdex 106] @Color0 Lv.87 @Color8 [@strchrstr 213，@strchrdex 137] \n@Color0 Lv.13 @Color8 [@strchrstr 072，@strchrdex 044] @Color0 Lv.38 @Color8 [@strchrstr 119，@strchrdex 075] @Color0 Lv.63 @Color8 [@strchrstr 167，@strchrdex 107] @Color0 Lv.88 @Color8 [@strchrstr 215，@strchrdex 139] \n@Color0 Lv.14 @Color8 [@strchrstr 074，@strchrdex 045] @Color0 Lv.39 @Color8 [@strchrstr 121，@strchrdex 076] @Color0 Lv.64 @Color8 [@strchrstr 169，@strchrdex 108] @Color0 Lv.89 @Color8 [@strchrstr 216，@strchrdex 140] \n@Color0 Lv.15 @Color8 [@strchrstr 076，@strchrdex 046] @Color0 Lv.40 @Color8 [@strchrstr 123，@strchrdex 078] @Color0 Lv.65 @Color8 [@strchrstr 171，@strchrdex 109] @Color0 Lv.90 @Color8 [@strchrstr 218，@strchrdex 141]\n@Color0 Lv.16 @Color8 [@strchrstr 078，@strchrdex 048] @Color0 Lv.41 @Color8 [@strchrstr 125，@strchrdex 079] @Color0 Lv.66 @Color8 [@strchrstr 173，@strchrdex 111] @Color0 Lv.91 @Color8 [@strchrstr 220，@strchrdex 142]\n@Color0 Lv.17 @Color8 [@strchrstr 080，@strchrdex 049] @Color0 Lv.42 @Color8 [@strchrstr 127，@strchrdex 080] @Color0 Lv.67 @Color8 [@strchrstr 174，@strchrdex 112] @Color0 Lv.92 @Color8 [@strchrstr 222，@strchrdex 144]\n@Color0 Lv.18 @Color8 [@strchrstr 082，@strchrdex 050] @Color0 Lv.43 @Color8 [@strchrstr 129，@strchrdex 081] @Color0 Lv.68 @Color8 [@strchrstr 176，@strchrdex 113] @Color0 Lv.93 @Color8 [@strchrstr 224，@strchrdex 145]\n@Color0 Lv.19 @Color8 [@strchrstr 084，@strchrdex 051] @Color0 Lv.44 @Color8 [@strchrstr 131，@strchrdex 083] @Color0 Lv.69 @Color8 [@strchrstr 178，@strchrdex 114] @Color0 Lv.94 @Color8 [@strchrstr 226，@strchrdex 146]\n@Color0 Lv.20 @Color8 [@strchrstr 086，@strchrdex 053] @Color0 Lv.45 @Color8 [@strchrstr 132，@strchrdex 084] @Color0 Lv.70 @Color8 [@strchrstr 180，@strchrdex 116] @Color0 Lv.95 @Color8 [@strchrstr 228，@strchrdex 147]\n@Color0 Lv.21 @Color8 [@strchrstr 087，@strchrdex 054] @Color0 Lv.46 @Color8 [@strchrstr 134，@strchrdex 085] @Color0 Lv.71 @Color8 [@strchrstr 182，@strchrdex 117] @Color0 Lv.96 @Color8 [@strchrstr 230，@strchrdex 149]\n@Color0 Lv.22 @Color8 [@strchrstr 089，@strchrdex 055] @Color0 Lv.47 @Color8 [@strchrstr 136，@strchrdex 086] @Color0 Lv.72 @Color8 [@strchrstr 184，@strchrdex 118] @Color0 Lv.97 @Color8 [@strchrstr 231，@strchrdex 150]\n@Color0 Lv.23 @Color8 [@strchrstr 091，@strchrdex 056] @Color0 Lv.48 @Color8 [@strchrstr 138，@strchrdex 088] @Color0 Lv.73 @Color8 [@strchrstr 186，@strchrdex 119] @Color0 Lv.98 @Color8 [@strchrstr 233，@strchrdex 151]\n@Color0 Lv.24 @Color8 [@strchrstr 093，@strchrdex 058] @Color0 Lv.49 @Color8 [@strchrstr 140，@strchrdex 089] @Color0 Lv.74 @Color8 [@strchrstr 188，@strchrdex 121]\n@Color0 Lv.25 @Color8 [@strchrstr 095，@strchrdex 059] @Color0 Lv.50 @Color8 [@strchrstr 142，@strchrdex 090] @Color0 Lv.75 @Color8 [@strchrstr 189，@strchrdex 122]",
-                                "tooltipStyle": "$TooltipStyle",
-                                "tooltipStyle": {
-                                    "drawBorder": true,
-                                    "backgroundColor": [
-                                        0.01,
-                                        0.01,
-                                        0.01,
-                                        0.9
-                                    ],
-                                    "fontStyle": {
-                                        "options": {
-                                            "newlineHandling": "standard"
-                                        },
-                                        "alignment": {
-                                            "h": "left",
-                                            "v": "center"
-                                        },
-                                        "pointSize": "$XMediumLargeFontSize"
+                                "rect": {
+                                    "x": 100,
+                                    "y": 20,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv26 @Color5 [@ColorV 97 @Color5/@ColorO 60 @Color5/@Color4 52 @Color5]\n@Color0 Lv27 @Color5 [@ColorV 99 @Color5/@ColorO 61 @Color5/@Color4 54 @Color5]  @Color0@xpl@Color5(27)\n@Color0 Lv28 @Color5 [@ColorV 101 @Color5/@ColorO 63 @Color5/@Color4 56 @Color5]  @Color0@aar@Color5(23)\n@Color0 Lv29 @Color5 [@ColorV 102 @Color5/@ColorO 64 @Color5/@Color4 57 @Color5]  @Color2@ba7@Color5(29) / @Color2@ba8@Color5(29)\n@Color0 Lv30 @Color5 [@ColorV 104 @Color5/@ColorO 65 @Color5/@Color4 59 @Color5]  @Color0@xld@Color5(25) / @Color2@xrn@Color5(25)\n@Color0 Lv31 @Color5 [@ColorV 106 @Color5/@ColorO 66 @Color5/@Color4 61 @Color5]\n@Color0 Lv32 @Color5 [@ColorV 108 @Color5/@ColorO 68 @Color5/@Color4 63 @Color5]  @Color2@ba9@Color5(32)\n@Color0 Lv33 @Color5 [@ColorV 110 @Color5/@ColorO 69 @Color5/@Color4 64 @Color5]\n@Color0 Lv34 @Color5 [@ColorV 112 @Color5/@ColorO 70 @Color5/@Color4 66 @Color5]\n@Color0 Lv35 @Color5 [@ColorV 114 @Color5/@ColorO 71 @Color5/@Color4 68 @Color5]\n@Color0 Lv36 @Color5 [@ColorV 116 @Color5/@ColorO 73 @Color5/@Color4 70 @Color5]\n@Color0 Lv37 @Color5 [@ColorV 117 @Color5/@ColorO 74 @Color5/@Color4 71 @Color5]\n@Color0 Lv38 @Color5 [@ColorV 119 @Color5/@ColorO 75 @Color5/@Color4 73 @Color5]  @Color0@xlt@Color5(32)\n@Color0 Lv39 @Color5 [@ColorV 121 @Color5/@ColorO 76 @Color5/@Color4 75 @Color5]\n@Color0 Lv40 @Color5 [@ColorV 123 @Color5/@ColorO 78 @Color5/@Color4 77 @Color5]  @Color2@baa@Color5(40)\n@Color0 Lv41 @Color5 [@ColorV 125 @Color5/@ColorO 79 @Color5/@Color4 78 @Color5]  @Color0@xth@Color5(36)\n@Color0 Lv42 @Color5 [@ColorV 127 @Color5/@ColorO 80 @Color5/@Color4 80 @Color5]\n@Color0 Lv43 @Color5 [@ColorV 129 @Color5/@ColorO 81 @Color5/@Color4 82 @Color5]\n@Color0 Lv44 @Color5 [@ColorV 131 @Color5/@ColorO 83 @Color5/@Color4 84 @Color5]\n@Color0 Lv45 @Color5 [@ColorV 132 @Color5/@ColorO 84 @Color5/@Color4 85 @Color5]  @Color2@bab@Color5(45)\n@Color0 Lv46 @Color5 [@ColorV 134 @Color5/@ColorO 85 @Color5/@Color4 87 @Color5]\n@Color0 Lv47 @Color5 [@ColorV 136 @Color5/@ColorO 86 @Color5/@Color4 89 @Color5]\n@Color0 Lv48 @Color5 [@ColorV 138 @Color5/@ColorO 88 @Color5/@Color4 91 @Color5]\n@Color0 Lv49 @Color5 [@ColorV 140 @Color5/@ColorO 89 @Color5/@Color4 92 @Color5]  @Color0@xul@Color5(44) / @Color0@uui@Color5(49) / @Color2@bac@Color5(49)\n@Color0 Lv50 @Color5 [@ColorV 142 @Color5/@ColorO 90 @Color5/@Color4 94 @Color5]  @Color0@uea@Color5(50)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
                                     }
                                 }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 20,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv51 @Color5 [@ColorV 144 @Color5/@ColorO 91 @Color5/@Color4 96 @Color5]  @Color0@ula@Color5(51)\n@Color0 Lv52 @Color5 [@ColorV 146 @Color5/@ColorO 93 @Color5/@Color4 98 @Color5]\n@Color0 Lv53 @Color5 [@ColorV 147 @Color5/@ColorO 94 @Color5/@Color4 99 @Color5]  @Color8@9fb@Color5(45) / @Color0@utu@Color5(53)\n@Color0 Lv54 @Color5 [@ColorV 149 @Color5/@ColorO 95 @Color5/@Color4 101 @Color5]  @Color0@ung@Color5(54)\n@Color0 Lv55 @Color5 [@ColorV 151 @Color5/@ColorO 96 @Color5/@Color4 103 @Color5]  @Color0@ucl@Color5(55) / @Color2@usk@Color5(55) / @Color2@bad@Color5(54)\n@Color0 Lv56 @Color5 [@ColorV 153 @Color5/@ColorO 98 @Color5/@Color4 105 @Color5]  @Color0@urs@Color5(56)\n@Color0 Lv57 @Color5 [@ColorV 155 @Color5/@ColorO 99 @Color5/@Color4 106 @Color5]\n@Color0 Lv58 @Color5 [@ColorV 158 @Color5/@ColorO 101 @Color5/@Color4 109 @Color5]  @Color0@uhn@Color5(53)\n@Color0 Lv59 @Color5 [@ColorV 159 @Color5/@ColorO 102 @Color5/@Color4 110 @Color5]\n@Color0 Lv60 @Color5 [@ColorV 161 @Color5/@ColorO 103 @Color5/@Color4 112 @Color5]\n@Color0 Lv61 @Color5 [@ColorV 163 @Color5/@ColorO 104 @Color5/@Color4 114 @Color5]\n@Color0 Lv62 @Color5 [@ColorV 165 @Color5/@ColorO 106 @Color5/@Color4 116 @Color5]  @Color0@upl@Color5(57)\n@Color0 Lv63 @Color5 [@ColorV 167 @Color5/@ColorO 107 @Color5/@Color4 117 @Color5]  @Color0@utp@Color5(63) / @Color2@uh9@Color5(63)\n@Color0 Lv64 @Color5 [@ColorV 169 @Color5/@ColorO 108 @Color5/@Color4 119 @Color5]\n@Color0 Lv65 @Color5 [@ColorV 171 @Color5/@ColorO 109 @Color5/@Color4 121 @Color5]  @Color0@xar@Color5(60)\n@Color0 Lv66 @Color5 [@ColorV 173 @Color5/@ColorO 111 @Color5/@Color4 123 @Color5]  @Color8@9gd@Color5(60)\n@Color0 Lv67 @Color5 [@ColorV 174 @Color5/@ColorO 112 @Color5/@Color4 124 @Color5]  @Color0@uld@Color5(62) / @Color2@urn@Color5(66) / @Color2@bae@Color5(62)\n@Color0 Lv68 @Color5 [@ColorV 176 @Color5/@ColorO 113 @Color5/@Color4 126 @Color5]\n@Color0 Lv69 @Color5 [@ColorV 178 @Color5/@ColorO 114 @Color5/@Color4 128 @Color5]\n@Color0 Lv70 @Color5 [@ColorV 180 @Color5/@ColorO 116 @Color5/@Color4 130 @Color5]\n@Color0 Lv71 @Color5 [@ColorV 182 @Color5/@ColorO 117 @Color5/@Color4 131 @Color5]  @Color8@7fb@Color5(66)\n@Color0 Lv72 @Color5 [@ColorV 184 @Color5/@ColorO 118 @Color5/@Color4 133 @Color5]\n@Color0 Lv73 @Color5 [@ColorV 186 @Color5/@ColorO 119 @Color5/@Color4 135 @Color5]\n@Color0 Lv74 @Color5 [@ColorV 188 @Color5/@ColorO 121 @Color5/@Color4 137 @Color5]\n@Color0 Lv75 @Color5 [@ColorV 189 @Color5/@ColorO 122 @Color5/@Color4 138 @Color5]  @Color8@7gd@Color5(70)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "RectangleWidget",
+                            "name": "BG",
+                            "fields": {
+                                "rect": {
+                                    "x": 100,
+                                    "y": 100,
+                                    "width": 74,
+                                    "height": 74
+                                },
+                                "color": [
+                                    0.4,
+                                    0.4,
+                                    0.4,
+                                    0.2
+                                ],
+                                "borderColor": [
+                                    0.78,
+                                    0.7,
+                                    0.47,
+                                    0.65
+                                ]
+                            },
+                            "children": [
+                                {
+                                    "type": "FocusableWidget",
+                                    "name": "Tooltip",
+                                    "fields": {
+                                        "fitToParent": true,
+                                        "tooltipString": "\n@Color0@Level @Color5[ @ColorV@strchrstr @Color5/ @ColorO@strchrdex @Color5/@Color4 @JcyResistAll @Color5]  @Color8@weap @Color5/ @Color0@armo @Color5/ @Color2@helms @Color5(@JcyEthereal Lv)\n\n@Color0 Lv76 @Color5 [@ColorV 191 @Color5/@ColorO 123 @Color5/@Color4 140 @Color5]\n@Color0 Lv77 @Color5 [@ColorV 193 @Color5/@ColorO 124 @Color5/@Color4 142 @Color5]\n@Color0 Lv78 @Color5 [@ColorV 195 @Color5/@ColorO 126 @Color5/@Color4 144 @Color5]\n@Color0 Lv79 @Color5 [@ColorV 197 @Color5/@ColorO 127 @Color5/@Color4 145 @Color5]  @Color2@baf@Color5(73) / @Color0@ult@Color5(73)\n@Color0 Lv80 @Color5 [@ColorV 200 @Color5/@ColorO 129 @Color5/@Color4 148 @Color5]\n@Color0 Lv81 @Color5 [@ColorV 201 @Color5/@ColorO 130 @Color5/@Color4 149 @Color5]\n@Color0 Lv82 @Color5 [@ColorV 203 @Color5/@ColorO 131 @Color5/@Color4 150 @Color5]\n@Color0 Lv83 @Color5 [@ColorV 205 @Color5/@ColorO 132 @Color5/@Color4 151 @Color5]\n@Color0 Lv84 @Color5 [@ColorV 207 @Color5/@ColorO 134 @Color5/@Color4 152 @Color5]\n@Color0 Lv85 @Color5 [@ColorV 209 @Color5/@ColorO 135 @Color5/@Color4 153 @Color5]  @Color0@uth@Color5(80)\n@Color0 Lv86 @Color5 [@ColorV 211 @Color5/@ColorO 136 @Color5/@Color4 154 @Color5]\n@Color0 Lv87 @Color5 [@ColorV 213 @Color5/@ColorO 137 @Color5/@Color4 155 @Color5]\n@Color0 Lv88 @Color5 [@ColorV 215 @Color5/@ColorO 139 @Color5/@Color4 156 @Color5]\n@Color0 Lv89 @Color5 [@ColorV 216 @Color5/@ColorO 140 @Color5/@Color4 157 @Color5]\n@Color0 Lv90 @Color5 [@ColorV 218 @Color5/@ColorO 141 @Color5/@Color4 158 @Color5]\n@Color0 Lv91 @Color5 [@ColorV 220 @Color5/@ColorO 142 @Color5/@Color4 159 @Color5]\n@Color0 Lv92 @Color5 [@ColorV 222 @Color5/@ColorO 144 @Color5/@Color4 160 @Color5]\n@Color0 Lv93 @Color5 [@ColorV 224 @Color5/@ColorO 145 @Color5/@Color4 161 @Color5]\n@Color0 Lv94 @Color5 [@ColorV 226 @Color5/@ColorO 146 @Color5/@Color4 162 @Color5]\n@Color0 Lv95 @Color5 [@ColorV 228 @Color5/@ColorO 147 @Color5/@Color4 163 @Color5]\n@Color0 Lv96 @Color5 [@ColorV 230 @Color5/@ColorO 149 @Color5/@Color4 164 @Color5]  @Color0@uul@Color5(91)\n@Color0 Lv97 @Color5 [@ColorV 231 @Color5/@ColorO 150 @Color5/@Color4 165 @Color5]\n@Color0 Lv98 @Color5 [@ColorV 233 @Color5/@ColorO 151 @Color5/@Color4 166 @Color5]  @Color0@uar@Color5(92)",
+                                        "tooltipStyle": {
+                                            "drawBorder": true,
+                                            "backgroundColor": [
+                                                0.01,
+                                                0.01,
+                                                0.01,
+                                                0.9
+                                            ],
+                                            "fontStyle": {
+                                                "options": {
+                                                    "newlineHandling": "standard"
+                                                },
+                                                "alignment": {
+                                                    "h": "left",
+                                                    "v": "center"
+                                                },
+                                                "pointSize": "$MediumLargeFontSize"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "ImageWidget",
+                            "name": "Act5hire",
+                            "fields": {
+                                "rect": {
+                                    "x": 55,
+                                    "y": 55,
+                                    "scale": 0.7
+                                },
+                                "filename": "hireables/barbhirable_icon"
                             }
                         }
                     ]
