@@ -1533,6 +1533,12 @@ class Methods(Enum):
     MODIFY_ITEMS_ASSET_MEPHISTO_KEY = auto()
     """修改 items.json 使用素材火炬钥匙皮肤"""
 
+    MODIFY_HIRE_EXCEL_MONPET = auto()
+    """修改 佣兵Excel参数(monpet.txt)"""
+
+    MODIFY_HIRE_EXCEL_MONSTATS = auto()
+    """修改 佣兵Excel参数(monstats.txt)"""
+
 
 # 导出所有需要的符号
 __all__ = [

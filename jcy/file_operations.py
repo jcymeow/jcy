@@ -26,6 +26,8 @@ class FileOperations:
             GAME_MODEL_APPLY: self.game_model_apply,
             HIRE_SKIN_APPLY: self.modify_hire_skin,
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
+            Methods.MODIFY_HIRE_EXCEL_MONPET: self.modify_hire_excel_monpet,
+            Methods.MODIFY_HIRE_EXCEL_MONSTATS: self.modify_hire_excel_monstats,
         }
 
 
@@ -188,6 +190,11 @@ class FileOperations:
 
 
     def common_modify_excel(self, file, key, records):
+        """公共方法 修改Excel"""
+        # file 目标excel文件路径 从data开始
+        # key 目标excel文件主键 (确定行)
+        # records 修改对象 (确定列和newValue)
+
         count = 0
         total = len(records)
 
@@ -291,6 +298,17 @@ class FileOperations:
         summary = [sum(column) for column in zip(*funcs)]
         return ok_result(summary)
 
+
+    def modify_hire_excel_monpet(self, param: dict):
+        """修改 佣兵Excel参数 monpet.txt"""
+        result = self.common_modify_excel(file="data/global/excel/monpet.txt", key="monster", records=param)
+        return ok_result(result)
+
+
+    def modify_hire_excel_monstats(self, param: dict):
+        """修改 佣兵Excel参数 monstats.txt"""
+        result = self.common_modify_excel(file="data/global/excel/monstats.txt", key="Id", records=param)
+        return ok_result(result)
 
     def modify_hire_skin(self, param: dict):
         """佣兵皮肤应用"""

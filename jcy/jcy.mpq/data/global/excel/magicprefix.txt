@@ -393,7 +393,7 @@ Ocher	1	1	1	12		9				4	119	res-ltng		11	20										armo	ring	amul	orb	circ					
 Ocher	1	1	1	35		26				1	119	res-ltng		11	20										weap							orb					0	0
 Coral	1	1	1	18		13				3	119	res-ltng		21	30										armo	ring	amul	orb	circ								0	0
 Coral	1	1	1	55		41				1	119	res-ltng		21	30										weap							orb					0	0
-Amber	1	1	1	25		18				3	119	res-ltng		31	40										rod	boot	amul	orb	circ								0	0
+Amber	1	1	1	25		18				3	119	res-ltng		31	40									lgrn	rod	boot	amul	orb	circ								0	0
 Camphor	100	1	1	2		1				4	117	res-ltng		5	15										jewl												0	0
 Ambergris	100	1	1	19		14				4	117	res-ltng		16	30										jewl												0	0
 Beryl	100	1	1	1		1				2	120	res-pois		7	15										lcha												0	0
@@ -420,7 +420,7 @@ Triumphant	1	1	1	3		2				4	121	mana-kill		1	1										weap	ring	circ										0
 Victorious	100	1	1	17		12				4	121	mana-kill		2	5										weap	circ											0	0
 Aureolin	100	1	1	22		16				4	121	mana-kill		1	3										jewl												0	0
 Mechanist's	100	1	1	10		7				3	122	sock		1	2										weap	shld	helm	tors	circ			thro					0	0
-Artificer's	100	1		33		25				2	122	sock	3												weap	shld	helm	tors				thro					0	0
+Artificer's	100	1		33		25				2	122	sock	3											lgrn	weap	shld	helm	tors				thro					0	0
 Jeweler's	100	1		55		47				1	122	sock	4												weap	shld	helm	tors				thro					0	0
 Assamic	100	1	1	3		1				2	123	att-demon		25	50	dmg-demon		10	25						weap	circ						wand	orb				0	0
 Arcadian	100	1	1	15		11				2	123	att-demon		51	100	dmg-demon		26	50						weap	circ						wand	orb				0	0
