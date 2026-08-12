@@ -1495,6 +1495,7 @@ class Function(Enum):
     LOCAL_HERALD_ADD_LEVEL = "LocalHeraldAddLevel"
     OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT = "ObjectsIceCaveEvilUrnAddLight"
     SPRITE_CUBE_TRANSPARENT = "SpriteCubeTransparent"
+    TEXTURES_CORNER_SHADOW = "TexturesCornerShadow"
 
 
 class Language(Enum):

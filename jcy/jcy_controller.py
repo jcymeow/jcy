@@ -321,6 +321,8 @@ class FeatureController:
             Function.SPRITE_CUBE_TRANSPARENT.value: self.file_operations.switch_cube_transparent,
             # 对象.Act5邪龛.增加光照效果
             Function.OBJECTS_ICE_CAVE_EVIL_URN_ADD_LIGHT.value: self.file_operations.switch_ice_cave_evil_urn_light,
+            # 纹理.屏幕四角.祛除黑雾
+            Function.TEXTURES_CORNER_SHADOW.value: self.file_operations.switch_textures_vignette,
         }
 
 

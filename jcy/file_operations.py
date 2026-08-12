@@ -4361,6 +4361,15 @@ class FileOperations:
         return count, total
 
 
+    def switch_textures_vignette(self, value):
+        """纹理.屏幕四角.祛除黑雾"""
+        _files = [
+            r"data/hd/global/textures/vignette/vignette.texture",
+        ]
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
+
+
     def save_win_config(self, data):
         """保存窗口配置"""
         with open(WIN_PATH, "w", encoding="utf-8") as f:

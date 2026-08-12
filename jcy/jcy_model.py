@@ -843,6 +843,13 @@ class FeatureConfig:
                             "target": "迷你盒子",
                             "event": "透明化"
                         },
+                        {
+                            "fid": Function.TEXTURES_CORNER_SHADOW.value,
+                            "type": SWITCH,
+                            "category": "纹理",
+                            "target": "屏幕四角",
+                            "event": "祛除黑雾"
+                        },
                     ]
                 }
             ],
