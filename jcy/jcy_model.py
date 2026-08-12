@@ -729,7 +729,7 @@ class FeatureConfig:
                             "type": SWITCH,
                             "category": "动画",
                             "target": "角色尸体",
-                            "event": "添加蓝色火苗指引"
+                            "event": "添加光照指引"
                         },
                         {
                             "fid": Function.ENV_TOWER_CELLAR_ADD_POINTER.value,

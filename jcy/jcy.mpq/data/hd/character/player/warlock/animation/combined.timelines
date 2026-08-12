@@ -17081,6 +17081,112 @@
                 }
             ]
         },
+        "hth_dead": {
+            "type": "AnimationTimeline",
+            "name": "hth_dead",
+            "duration": 0.0,
+            "timeStep": 0.03333334,
+            "animationEvents": [
+                {
+                    "type": "ChangeEquipmentLayerWeight",
+                    "name": "ChangeEquipmentLayerWeight_Item034",
+                    "eventTimestamp": 0.0,
+                    "duration": -1.0,
+                    "isCritical": false,
+                    "eventParams": [
+                        {
+                            "type": "ChangeEquipmentLayerWeightLayerNameEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_layerName069",
+                            "value": "ShieldEquipLayer",
+                            "parameterName": "layerName"
+                        },
+                        {
+                            "type": "ChangeEquipmentLayerWeightWeightEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_weight069",
+                            "value": 0.0,
+                            "parameterName": "weight"
+                        },
+                        {
+                            "type": "ChangeEquipmentLayerWeightBlendInTimeEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_blendInTime069",
+                            "value": 0.25,
+                            "parameterName": "blendInTime"
+                        },
+                        {
+                            "type": "ChangeEquipmentLayerWeightBlendOutTimeEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_blendOutTime069",
+                            "value": 0.25,
+                            "parameterName": "blendOutTime"
+                        }
+                    ]
+                },
+                {
+                    "type": "SpawnVFX",
+                    "name": "SpawnVFX_Item005",
+                    "eventTimestamp": 0.0,
+                    "duration": -1.0,
+                    "isCritical": false,
+                    "eventParams": [
+                        {
+                            "type": "VFXSourceAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_filename007",
+                            "value": "data/hd/vfx/particles/overlays/object/horadric_light/fx_horadric_light.particles",
+                            "parameterName": "filename"
+                        },
+                        {
+                            "type": "AttachToEntityAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_attachToEntity007",
+                            "value": true,
+                            "parameterName": "attachToEntity"
+                        },
+                        {
+                            "type": "BoneNameAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_boneName007",
+                            "value": "root",
+                            "parameterName": "boneName"
+                        },
+                        {
+                            "type": "OrientationBoneNameAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_orientationBoneName007",
+                            "value": "root",
+                            "parameterName": "orientationBoneName"
+                        },
+                        {
+                            "type": "TranslationOffsetAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_translationOffset007",
+                            "value": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parameterName": "translationOffset"
+                        },
+                        {
+                            "type": "RotationOffsetAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_rotationOffset007",
+                            "value": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parameterName": "rotationOffset"
+                        },
+                        {
+                            "type": "HardKillVFXAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_name007",
+                            "value": false,
+                            "parameterName": "hardKillOnTimeout"
+                        },
+                        {
+                            "type": "AttachToDeadBodyEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_attachToDeadBody001",
+                            "value": true,
+                            "parameterName": "attachToDeadBody"
+                        }
+                    ]
+                }
+            ]
+        },
         "hth_death": {
             "type": "AnimationTimeline",
             "name": "hth_death",
@@ -26367,112 +26473,6 @@
                     ]
                 }
             ]
-        },
-		"hth_dead": {
-			"type": "AnimationTimeline",
-			"name": "hth_dead",
-			"duration": 0.0,
-			"timeStep": 0.33333334,
-			"animationEvents": [
-				{
-					"type": "ChangeEquipmentLayerWeight",
-					"name": "ChangeEquipmentLayerWeight_Item034",
-					"eventTimestamp": 0.0,
-					"duration": -1.0,
-					"isCritical": false,
-					"eventParams": [
-						{
-							"type": "ChangeEquipmentLayerWeightLayerNameEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_layerName069",
-							"value": "ShieldEquipLayer",
-							"parameterName": "layerName"
-						},
-						{
-							"type": "ChangeEquipmentLayerWeightWeightEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_weight069",
-							"value": 0.0,
-							"parameterName": "weight"
-						},
-						{
-							"type": "ChangeEquipmentLayerWeightBlendInTimeEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_blendInTime069",
-							"value": 0.25,
-							"parameterName": "blendInTime"
-						},
-						{
-							"type": "ChangeEquipmentLayerWeightBlendOutTimeEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_blendOutTime069",
-							"value": 0.25,
-							"parameterName": "blendOutTime"
-						}
-					]
-				},
-				{
-					"type": "SpawnVFX",
-					"name": "SpawnVFX_Item005",
-					"eventTimestamp": 0.0,
-					"duration": 10.0,
-					"isCritical": false,
-					"eventParams": [
-						{
-							"type": "VFXSourceAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_filename007",
-							"value": "data/hd/vfx/particles/objects/shrines_other/shrine_baal_magic/vfx_shrine_baal_magic.particles",
-							"parameterName": "filename"
-						},
-						{
-							"type": "AttachToEntityAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_attachToEntity007",
-							"value": true,
-							"parameterName": "attachToEntity"
-						},
-						{
-							"type": "BoneNameAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_boneName007",
-							"value": "root",
-							"parameterName": "boneName"
-						},
-						{
-							"type": "OrientationBoneNameAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_orientationBoneName007",
-							"value": "root",
-							"parameterName": "orientationBoneName"
-						},
-						{
-							"type": "TranslationOffsetAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_translationOffset007",
-							"value": {
-								"x": 0.0,
-								"y": 0.0,
-								"z": 0.0
-							},
-							"parameterName": "translationOffset"
-						},
-						{
-							"type": "RotationOffsetAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_rotationOffset007",
-							"value": {
-								"x": 0.0,
-								"y": 0.0,
-								"z": 0.0
-							},
-							"parameterName": "rotationOffset"
-						},
-						{
-							"type": "HardKillVFXAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_name007",
-							"value": false,
-							"parameterName": "hardKillOnTimeout"
-						},
-						{
-							"type": "AttachToDeadBodyEventParameter",
-							"name": "SpawnVFX_Track_eventParams_attachToDeadBody001",
-							"value": true,
-							"parameterName": "attachToDeadBody"
-						}
-					]
-				}
-			]
-		}
+        }
     }
 }

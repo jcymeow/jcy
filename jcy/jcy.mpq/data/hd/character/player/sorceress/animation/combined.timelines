@@ -2,6 +2,9 @@
     "dependencies": {
         "particles": [
             {
+                "path": "data/hd/vfx/particles/character/common/vfx_player_death_blood_pool.particles"
+            },
+            {
                 "path": "data/hd/vfx/particles/character/player/sorceress/sorc_handglow.particles"
             },
             {
@@ -27,6 +30,9 @@
         "skeletons": [],
         "animations": [],
         "textures": [
+            {
+                "path": "data/hd/vfx/textures/decal/T_FX_blood_pool_decal_02_directional_ORM.texture"
+            },
             {
                 "path": "data/hd/vfx/textures/default/White.texture"
             },
@@ -8586,7 +8592,179 @@
             "name": "hth_death",
             "duration": 0.9333334,
             "timeStep": 0.03333334,
-            "animationEvents": []
+            "animationEvents": [
+                {
+                    "type": "SpawnVFX",
+                    "name": "SpawnVFX_Item",
+                    "eventTimestamp": 0.733333468,
+                    "duration": 0.0,
+                    "isCritical": false,
+                    "eventParams": [
+                        {
+                            "type": "VFXSourceAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_filename001",
+                            "value": "data/hd/vfx/particles/character/common/vfx_player_death_blood_pool.particles",
+                            "parameterName": "filename"
+                        },
+                        {
+                            "type": "AttachToEntityAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_attachToEntity001",
+                            "value": true,
+                            "parameterName": "attachToEntity"
+                        },
+                        {
+                            "type": "BoneNameAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_boneName001",
+                            "value": "chest",
+                            "parameterName": "boneName"
+                        },
+                        {
+                            "type": "OrientationBoneNameAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_orientationBoneName001",
+                            "value": "root",
+                            "parameterName": "orientationBoneName"
+                        },
+                        {
+                            "type": "TranslationOffsetAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_translationOffset001",
+                            "value": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parameterName": "translationOffset"
+                        },
+                        {
+                            "type": "RotationOffsetAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_rotationOffset001",
+                            "value": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parameterName": "rotationOffset"
+                        },
+                        {
+                            "type": "HardKillVFXAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_hardKillOnTimeout001",
+                            "value": false,
+                            "parameterName": "hardKillOnTimeout"
+                        },
+                        {
+                            "type": "AttachToDeadBodyEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_attachToDeadBody001",
+                            "value": false,
+                            "parameterName": "attachToDeadBody"
+                        }
+                    ]
+                }
+            ]
+        },
+        "hth_dead": {
+            "type": "AnimationTimeline",
+            "name": "hth_dead",
+            "duration": 0.0,
+            "timeStep": 0.03333334,
+            "animationEvents": [
+                {
+                    "type": "ChangeEquipmentLayerWeight",
+                    "name": "ChangeEquipmentLayerWeight_Item034",
+                    "eventTimestamp": 0.0,
+                    "duration": -1.0,
+                    "isCritical": false,
+                    "eventParams": [
+                        {
+                            "type": "ChangeEquipmentLayerWeightLayerNameEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_layerName069",
+                            "value": "ShieldEquipLayer",
+                            "parameterName": "layerName"
+                        },
+                        {
+                            "type": "ChangeEquipmentLayerWeightWeightEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_weight069",
+                            "value": 0.0,
+                            "parameterName": "weight"
+                        },
+                        {
+                            "type": "ChangeEquipmentLayerWeightBlendInTimeEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_blendInTime069",
+                            "value": 0.25,
+                            "parameterName": "blendInTime"
+                        },
+                        {
+                            "type": "ChangeEquipmentLayerWeightBlendOutTimeEventParameter",
+                            "name": "ChangeEquipmentLayerWeight_Track_eventParams_blendOutTime069",
+                            "value": 0.25,
+                            "parameterName": "blendOutTime"
+                        }
+                    ]
+                },
+                {
+                    "type": "SpawnVFX",
+                    "name": "SpawnVFX_Item005",
+                    "eventTimestamp": 0.0,
+                    "duration": -1.0,
+                    "isCritical": false,
+                    "eventParams": [
+                        {
+                            "type": "VFXSourceAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_filename007",
+                            "value": "data/hd/vfx/particles/overlays/object/horadric_light/fx_horadric_light.particles",
+                            "parameterName": "filename"
+                        },
+                        {
+                            "type": "AttachToEntityAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_attachToEntity007",
+                            "value": true,
+                            "parameterName": "attachToEntity"
+                        },
+                        {
+                            "type": "BoneNameAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_boneName007",
+                            "value": "root",
+                            "parameterName": "boneName"
+                        },
+                        {
+                            "type": "OrientationBoneNameAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_orientationBoneName007",
+                            "value": "root",
+                            "parameterName": "orientationBoneName"
+                        },
+                        {
+                            "type": "TranslationOffsetAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_translationOffset007",
+                            "value": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parameterName": "translationOffset"
+                        },
+                        {
+                            "type": "RotationOffsetAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_rotationOffset007",
+                            "value": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            },
+                            "parameterName": "rotationOffset"
+                        },
+                        {
+                            "type": "HardKillVFXAnimationEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_name007",
+                            "value": false,
+                            "parameterName": "hardKillOnTimeout"
+                        },
+                        {
+                            "type": "AttachToDeadBodyEventParameter",
+                            "name": "SpawnVFX_Track_eventParams_attachToDeadBody001",
+                            "value": true,
+                            "parameterName": "attachToDeadBody"
+                        }
+                    ]
+                }
+            ]
         },
         "hth_fe_neutral_to_selected": {
             "type": "AnimationTimeline",
@@ -8807,38 +8985,38 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item",
+                    "name": "SpawnVFX_Item007",
                     "eventTimestamp": 0.0,
                     "duration": -1.0,
                     "isCritical": false,
                     "eventParams": [
                         {
                             "type": "VFXSourceAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_filename001",
+                            "name": "SpawnVFX_Track_eventParams_filename003",
                             "value": "data/hd/vfx/particles/character/player/sorceress/sorceress_selectionWand_loop.particles",
                             "parameterName": "filename"
                         },
                         {
                             "type": "AttachToEntityAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_attachToEntity001",
+                            "name": "SpawnVFX_Track_eventParams_attachToEntity003",
                             "value": true,
                             "parameterName": "attachToEntity"
                         },
                         {
                             "type": "BoneNameAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_boneName001",
+                            "name": "SpawnVFX_Track_eventParams_boneName003",
                             "value": "R_weapon_attach",
                             "parameterName": "boneName"
                         },
                         {
                             "type": "OrientationBoneNameAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_orientationBoneName001",
+                            "name": "SpawnVFX_Track_eventParams_orientationBoneName003",
                             "value": "",
                             "parameterName": "orientationBoneName"
                         },
                         {
                             "type": "TranslationOffsetAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_translationOffset001",
+                            "name": "SpawnVFX_Track_eventParams_translationOffset003",
                             "value": {
                                 "x": 0.0,
                                 "y": 0.0,
@@ -8848,7 +9026,7 @@
                         },
                         {
                             "type": "RotationOffsetAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_rotationOffset001",
+                            "name": "SpawnVFX_Track_eventParams_rotationOffset003",
                             "value": {
                                 "x": 0.0,
                                 "y": 0.0,
@@ -8858,7 +9036,7 @@
                         },
                         {
                             "type": "HardKillVFXAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_hardKillOnTimeout001",
+                            "name": "SpawnVFX_Track_eventParams_hardKillOnTimeout003",
                             "value": false,
                             "parameterName": "hardKillOnTimeout"
                         }
@@ -9439,38 +9617,38 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item007",
+                    "name": "SpawnVFX_Item008",
                     "eventTimestamp": 1.566667,
                     "duration": 1.36666691,
                     "isCritical": false,
                     "eventParams": [
                         {
                             "type": "VFXSourceAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_filename003",
+                            "name": "SpawnVFX_Track_eventParams_filename005",
                             "value": "data/hd/vfx/particles/character/player/sorceress/sorceress_selectionWand.particles",
                             "parameterName": "filename"
                         },
                         {
                             "type": "AttachToEntityAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_attachToEntity003",
+                            "name": "SpawnVFX_Track_eventParams_attachToEntity005",
                             "value": true,
                             "parameterName": "attachToEntity"
                         },
                         {
                             "type": "BoneNameAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_boneName003",
+                            "name": "SpawnVFX_Track_eventParams_boneName005",
                             "value": "R_weapon_attach",
                             "parameterName": "boneName"
                         },
                         {
                             "type": "OrientationBoneNameAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_orientationBoneName003",
+                            "name": "SpawnVFX_Track_eventParams_orientationBoneName005",
                             "value": "",
                             "parameterName": "orientationBoneName"
                         },
                         {
                             "type": "TranslationOffsetAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_translationOffset003",
+                            "name": "SpawnVFX_Track_eventParams_translationOffset005",
                             "value": {
                                 "x": 0.0,
                                 "y": 0.0,
@@ -9480,7 +9658,7 @@
                         },
                         {
                             "type": "RotationOffsetAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_rotationOffset003",
+                            "name": "SpawnVFX_Track_eventParams_rotationOffset005",
                             "value": {
                                 "x": 0.0,
                                 "y": 0.0,
@@ -9490,7 +9668,7 @@
                         },
                         {
                             "type": "HardKillVFXAnimationEventParameter",
-                            "name": "SpawnVFX_Track_eventParams_hardKillOnTimeout003",
+                            "name": "SpawnVFX_Track_eventParams_hardKillOnTimeout005",
                             "value": false,
                             "parameterName": "hardKillOnTimeout"
                         }
@@ -9498,7 +9676,7 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item008",
+                    "name": "SpawnVFX_Item009",
                     "eventTimestamp": 1.80000031,
                     "duration": 0.0,
                     "isCritical": false,
@@ -9557,7 +9735,7 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item009",
+                    "name": "SpawnVFX_Item010",
                     "eventTimestamp": 1.866667,
                     "duration": 0.0,
                     "isCritical": false,
@@ -9616,7 +9794,7 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item010",
+                    "name": "SpawnVFX_Item011",
                     "eventTimestamp": 1.73333359,
                     "duration": 0.0,
                     "isCritical": false,
@@ -9675,7 +9853,7 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item011",
+                    "name": "SpawnVFX_Item012",
                     "eventTimestamp": 1.83333361,
                     "duration": 0.0,
                     "isCritical": false,
@@ -9734,7 +9912,7 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item012",
+                    "name": "SpawnVFX_Item013",
                     "eventTimestamp": 1.766667,
                     "duration": 0.0,
                     "isCritical": false,
@@ -9793,7 +9971,7 @@
                 },
                 {
                     "type": "SpawnVFX",
-                    "name": "SpawnVFX_Item013",
+                    "name": "SpawnVFX_Item014",
                     "eventTimestamp": 1.566667,
                     "duration": 1.43333352,
                     "isCritical": false,
@@ -14138,112 +14316,6 @@
                     ]
                 }
             ]
-        },
-		"hth_dead": {
-			"type": "AnimationTimeline",
-			"name": "hth_dead",
-			"duration": 0.0,
-			"timeStep": 0.33333334,
-			"animationEvents": [
-				{
-					"type": "ChangeEquipmentLayerWeight",
-					"name": "ChangeEquipmentLayerWeight_Item034",
-					"eventTimestamp": 0.0,
-					"duration": -1.0,
-					"isCritical": false,
-					"eventParams": [
-						{
-							"type": "ChangeEquipmentLayerWeightLayerNameEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_layerName069",
-							"value": "ShieldEquipLayer",
-							"parameterName": "layerName"
-						},
-						{
-							"type": "ChangeEquipmentLayerWeightWeightEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_weight069",
-							"value": 0.0,
-							"parameterName": "weight"
-						},
-						{
-							"type": "ChangeEquipmentLayerWeightBlendInTimeEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_blendInTime069",
-							"value": 0.25,
-							"parameterName": "blendInTime"
-						},
-						{
-							"type": "ChangeEquipmentLayerWeightBlendOutTimeEventParameter",
-							"name": "ChangeEquipmentLayerWeight_Track_eventParams_blendOutTime069",
-							"value": 0.25,
-							"parameterName": "blendOutTime"
-						}
-					]
-				},
-				{
-					"type": "SpawnVFX",
-					"name": "SpawnVFX_Item005",
-					"eventTimestamp": 0.0,
-					"duration": 10.0,
-					"isCritical": false,
-					"eventParams": [
-						{
-							"type": "VFXSourceAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_filename007",
-							"value": "data/hd/vfx/particles/objects/shrines_other/shrine_baal_magic/vfx_shrine_baal_magic.particles",
-							"parameterName": "filename"
-						},
-						{
-							"type": "AttachToEntityAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_attachToEntity007",
-							"value": true,
-							"parameterName": "attachToEntity"
-						},
-						{
-							"type": "BoneNameAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_boneName007",
-							"value": "root",
-							"parameterName": "boneName"
-						},
-						{
-							"type": "OrientationBoneNameAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_orientationBoneName007",
-							"value": "root",
-							"parameterName": "orientationBoneName"
-						},
-						{
-							"type": "TranslationOffsetAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_translationOffset007",
-							"value": {
-								"x": 0.0,
-								"y": 0.0,
-								"z": 0.0
-							},
-							"parameterName": "translationOffset"
-						},
-						{
-							"type": "RotationOffsetAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_rotationOffset007",
-							"value": {
-								"x": 0.0,
-								"y": 0.0,
-								"z": 0.0
-							},
-							"parameterName": "rotationOffset"
-						},
-						{
-							"type": "HardKillVFXAnimationEventParameter",
-							"name": "SpawnVFX_Track_eventParams_name007",
-							"value": false,
-							"parameterName": "hardKillOnTimeout"
-						},
-						{
-							"type": "AttachToDeadBodyEventParameter",
-							"name": "SpawnVFX_Track_eventParams_attachToDeadBody001",
-							"value": true,
-							"parameterName": "attachToDeadBody"
-						}
-					]
-				}
-			]
-		}
+        }
     }
 }

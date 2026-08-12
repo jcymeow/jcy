@@ -3891,7 +3891,7 @@ class FileOperations:
 
 
     def switch_remains_pointer(self, value):
-        """动画.角色尸体.添加蓝色火苗指引"""
+        """动画.角色尸体.添加光照指引"""
         _files = [
             r"data/hd/character/player/amazon/animation/combined.timelines",
             r"data/hd/character/player/assassin/animation/combined.timelines",
