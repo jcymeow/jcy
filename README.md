@@ -84,8 +84,8 @@
   更新 环境-屏蔽元素 
     添加 混沌界要塞房顶
   添加 素材
-    A3佣兵皮肤_1 来自 https://bbs.d.163.com/forum.php?mod=viewthread&tid=175340670 作者 oukakou@163.co
-    A5佣兵皮肤_3 来自 https://bbs.d.163.com/forum.php?mod=viewthread&tid=175340670 作者 oukakou@163.co
+    A3佣兵皮肤_1 来自 https://bbs.d.163.com/forum.php?mod=viewthread&tid=175340670 作者 koukakou@163.co
+    A5佣兵皮肤_3 来自 https://bbs.d.163.com/forum.php?mod=viewthread&tid=175340670 作者 koukakou@163.co
 
 * v1.6.3
   修正 储物箱特效 
