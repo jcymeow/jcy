@@ -57,17 +57,11 @@
 * Handle -- 杀进程用
    Handle 是一个实用工具，用于显示有关系统中任何进程的打开句柄的信息。 可以使用它查看打开了文件的程序，或查看程序的所有句柄的对象类型和名称。
 
-* sync_data_version_for_chinese_server.bat
-  同步国际服数据版本编号 到 jcy/jcy.mpq/data/globaldatabuild.txt
-  来源 https://gist.githubusercontent.com/jcymeow/3781261d482005da57f7946321072e18/raw/3588f1a6a4481ee080c5e7edd6f7def6aa8bbd25/dataversionbuild.txt
-  由作者维护
-
-* sync_data_version_for_global_server.bat
-  同步国服数据版本编号 到 jcy/jcy.mpq/data/globaldatabuild.txt
-  来源 https://gist.githubusercontent.com/jcymeow/8b259ad1d5f931a8ad058f122b20ed45/raw/af751d161530a77264c36e41f98dfa628c7c1efb/dataversionbuild.txt
-  由作者维护
-
 ## 版本
+* v1.6.6
+  移除 同步版本号按钮
+    gist地址非固定, 需要同步更新gist和bat. 请使用控制器更新版本号
+  
 * v1.6.5
   适配v3.3
   国服版本号: 93854
