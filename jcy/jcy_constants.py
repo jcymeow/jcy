@@ -898,7 +898,7 @@ CUSTOM_SOUNDS = {
     "holyshield_off":     {True: r"skill\holyshield_off.flac",     False: r"none.flac",                 "path": "data/hd/global/sfx/skill/holyshield_off.flac"},
     "cyclonearmor_off":   {True: r"skill\cyclonearmor_off.flac",   False: r"none.flac",                 "path": "data/hd/global/sfx/skill/cyclonearmor_off.flac"},
     "quickness_off":      {True: r"skill\quickness_off.flac",      False: r"none.flac",                 "path": "data/hd/global/sfx/skill/quickness_off.flac"},
-    "bladeshield_off":    {True: r"skill\bladeshield_off",         False: r"none.flac",                 "path": "data/hd/global/sfx/skill/bladeshield_off.flac"},
+    "bladeshield_off":    {True: r"skill\bladeshield_off.flac",    False: r"none.flac",                 "path": "data/hd/global/sfx/skill/bladeshield_off.flac"},
     "wolf_off":           {True: r"skill\wolf_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/wolf_off.flac"},
     "bear_off":           {True: r"skill\bear_off.flac",           False: r"none.flac",                 "path": "data/hd/global/sfx/skill/bear_off.flac"},
     "frozenarmor_off":    {True: r"skill\frozenarmor_off.flac",    False: r"none.flac",                 "path": "data/hd/global/sfx/skill/frozenarmor_off.flac"},
