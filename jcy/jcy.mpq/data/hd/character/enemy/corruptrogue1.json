@@ -295,7 +295,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/corruptrogue1/skeleton/corruptrogue1.skeleton"
+                    "filename": "data/hd/character/enemy/corruptrogue1/skeleton/corruptrogue1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -119,7 +119,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/radament/skeleton/radament.skeleton"
+                    "filename": "data/hd/character/enemy/radament/skeleton/radament.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

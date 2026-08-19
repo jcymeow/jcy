@@ -60,7 +60,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/seventombs/skeleton/seventombs.skeleton"
+                    "filename": "data/hd/character/enemy/seventombs/skeleton/seventombs.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

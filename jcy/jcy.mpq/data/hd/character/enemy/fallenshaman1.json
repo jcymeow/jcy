@@ -115,7 +115,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/fallenshaman1/skeleton/fallenshaman1.skeleton"
+                    "filename": "data/hd/character/enemy/fallenshaman1/skeleton/fallenshaman1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

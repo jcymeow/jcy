@@ -103,7 +103,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/regurgitator1/skeleton/regurgitator1.skeleton"
+                    "filename": "data/hd/character/enemy/regurgitator1/skeleton/regurgitator1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

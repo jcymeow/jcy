@@ -151,7 +151,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/cantor1/skeleton/cantor1.skeleton"
+                    "filename": "data/hd/character/enemy/cantor1/skeleton/cantor1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

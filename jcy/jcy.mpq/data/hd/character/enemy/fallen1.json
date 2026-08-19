@@ -145,7 +145,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/fallen1/skeleton/fallen1.skeleton"
+                    "filename": "data/hd/character/enemy/fallen1/skeleton/fallen1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -169,7 +169,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/overseer1/skeleton/overseer1.skeleton"
+                    "filename": "data/hd/character/enemy/overseer1/skeleton/overseer1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

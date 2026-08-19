@@ -124,7 +124,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/bloodraven/skeleton/bloodraven.skeleton"
+                    "filename": "data/hd/character/enemy/bloodraven/skeleton/bloodraven.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

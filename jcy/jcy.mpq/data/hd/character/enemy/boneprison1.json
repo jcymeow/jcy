@@ -40,12 +40,6 @@
             },
             {
                 "path": "data/hd/vfx/textures/common/FX_T_bone_ORM.texture"
-            },
-            {
-                "path": "data/hd/vfx/textures/energy/T_FX_warcrywave_mono_02.texture"
-            },
-            {
-                "path": "data/hd/vfx/textures/mask/T_FX_radialGradient_Mask_soft_01.texture"
             }
         ],
         "physics": [],

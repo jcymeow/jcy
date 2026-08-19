@@ -74,7 +74,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/bladecreeper/skeleton/bladecreeper.skeleton"
+                    "filename": "data/hd/character/enemy/bladecreeper/skeleton/bladecreeper.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -54,7 +54,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/compellingorb/skeleton/compellingorb.skeleton"
+                    "filename": "data/hd/character/enemy/compellingorb/skeleton/compellingorb.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

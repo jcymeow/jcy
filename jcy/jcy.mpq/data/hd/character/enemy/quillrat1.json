@@ -70,7 +70,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/quillrat1/skeleton/quillrat1.skeleton"
+                    "filename": "data/hd/character/enemy/quillrat1/skeleton/quillrat1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

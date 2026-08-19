@@ -149,7 +149,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/catapult1/skeleton/catapult1.skeleton"
+                    "filename": "data/hd/character/enemy/catapult1/skeleton/catapult1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

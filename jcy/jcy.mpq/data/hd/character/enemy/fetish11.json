@@ -97,7 +97,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/fetish1/skeleton/fetish1.skeleton"
+                    "filename": "data/hd/character/enemy/fetish1/skeleton/fetish1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -83,7 +83,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/boneprison2/skeleton/boneprison2.skeleton"
+                    "filename": "data/hd/character/enemy/boneprison2/skeleton/boneprison2.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

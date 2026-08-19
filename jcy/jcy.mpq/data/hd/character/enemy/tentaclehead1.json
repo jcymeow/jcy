@@ -89,7 +89,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/tentaclehead1/skeleton/tentaclehead1.skeleton"
+                    "filename": "data/hd/character/enemy/tentaclehead1/skeleton/tentaclehead1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -54,7 +54,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/invisopet/skeleton/invisopet.skeleton"
+                    "filename": "data/hd/character/enemy/invisopet/skeleton/invisopet.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

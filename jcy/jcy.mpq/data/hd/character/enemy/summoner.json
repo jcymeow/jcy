@@ -145,7 +145,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/summoner/skeleton/summoner.skeleton"
+                    "filename": "data/hd/character/enemy/summoner/skeleton/summoner.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

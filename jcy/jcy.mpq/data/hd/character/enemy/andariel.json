@@ -4,9 +4,6 @@
         "models": [
             {
                 "path": "data/hd/character/enemy/andariel/torso.model"
-            },
-            {
-                "path": "data/hd/vfx/particles/overlays/npcs/FX_npcalert.particles"
             }
         ],
         "skeletons": [
@@ -138,9 +135,9 @@
                     "state_machine_filename": "data/hd/character/enemy/andariel/andariel_state_machine.json",
                     "doNotInheritRotation": false,
                     "rotationOverride": {
-                        "x": 0,
+                        "x": 0.0,
                         "y": 0.3826834,
-                        "z": 0,
+                        "z": 0.0,
                         "w": 0.9238795
                     },
                     "doNotUseHDHeight": false,
@@ -151,7 +148,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/andariel/skeleton/andariel.skeleton"
+                    "filename": "data/hd/character/enemy/andariel/skeleton/andariel.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
@@ -179,7 +177,7 @@
                 {
                     "type": "DeadAnimationSpeedOverrideComponent",
                     "name": "entity_root_DeadAnimationSpeedOverrideComponent",
-                    "speed": 1
+                    "speed": 1.0
                 },
                 {
                     "type": "IKComponent",
@@ -196,8 +194,8 @@
                                 "hipBoneName": "leg_knee_00_L_JNT",
                                 "locationTrackName": "L_IK_position",
                                 "enabledTrackName": "L_FKIK",
-                                "hyperExtensionStart": 0,
-                                "hyperExtensionScale": 1,
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
                                 "defaultEnabled": false,
                                 "kneeRotationAxis": 0,
                                 "flipKneeRotationAxis": false
@@ -210,8 +208,8 @@
                                 "hipBoneName": "leg_knee_00_R_JNT",
                                 "locationTrackName": "R_IK_position",
                                 "enabledTrackName": "R_FKIK",
-                                "hyperExtensionStart": 0,
-                                "hyperExtensionScale": 1,
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
                                 "defaultEnabled": false,
                                 "kneeRotationAxis": 0,
                                 "flipKneeRotationAxis": false
@@ -237,10 +235,10 @@
                             "layerName": "Aim_Head",
                             "yawAnimationState": "HeadAim_Yaw",
                             "yawOutOfRangeBehavior": 2,
-                            "yawAngleOffset": 0,
+                            "yawAngleOffset": 0.0,
                             "pitchAnimationState": "HeadAim_Pitch",
                             "pitchOutOfRangeBehavior": 0,
-                            "pitchAngleOffset": 0,
+                            "pitchAngleOffset": 0.0,
                             "aimLocationTrackName": "aim_location",
                             "aimDampingFactor": 0.15,
                             "aimTarget": 1
@@ -251,10 +249,10 @@
                             "layerName": "Aim_Melee",
                             "yawAnimationState": "",
                             "yawOutOfRangeBehavior": 2,
-                            "yawAngleOffset": 0,
+                            "yawAngleOffset": 0.0,
                             "pitchAnimationState": "MeleeAim_Pitch",
                             "pitchOutOfRangeBehavior": 0,
-                            "pitchAngleOffset": 0,
+                            "pitchAngleOffset": 0.0,
                             "aimLocationTrackName": "aim_location",
                             "aimDampingFactor": 0.3,
                             "aimTarget": 1

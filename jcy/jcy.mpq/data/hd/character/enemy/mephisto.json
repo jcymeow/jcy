@@ -136,7 +136,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/mephisto/skeleton/mephisto.skeleton"
+                    "filename": "data/hd/character/enemy/mephisto/skeleton/mephisto.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -88,7 +88,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/darkwanderer/skeleton/darkwanderer.skeleton"
+                    "filename": "data/hd/character/enemy/darkwanderer/skeleton/darkwanderer.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

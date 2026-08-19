@@ -85,7 +85,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/darkelder/skeleton/darkelder.skeleton"
+                    "filename": "data/hd/character/enemy/darkelder/skeleton/darkelder.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

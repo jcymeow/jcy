@@ -151,7 +151,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/succubuswitch1/skeleton/succubuswitch1.skeleton"
+                    "filename": "data/hd/character/enemy/succubuswitch1/skeleton/succubuswitch1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

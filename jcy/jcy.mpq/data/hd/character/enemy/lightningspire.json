@@ -86,7 +86,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/lightningspire/skeleton/lightningspire.skeleton"
+                    "filename": "data/hd/character/enemy/lightningspire/skeleton/lightningspire.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

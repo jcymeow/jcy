@@ -94,7 +94,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/deathmauler1/skeleton/deathmauler1.skeleton"
+                    "filename": "data/hd/character/enemy/deathmauler1/skeleton/deathmauler1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

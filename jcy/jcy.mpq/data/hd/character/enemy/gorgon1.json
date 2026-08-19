@@ -54,7 +54,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/gorgon1/skeleton/gorgon1.skeleton"
+                    "filename": "data/hd/character/enemy/gorgon1/skeleton/gorgon1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

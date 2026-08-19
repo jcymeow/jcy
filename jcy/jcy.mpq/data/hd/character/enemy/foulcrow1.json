@@ -79,7 +79,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/foulcrow1/skeleton/foulcrow1.skeleton"
+                    "filename": "data/hd/character/enemy/foulcrow1/skeleton/foulcrow1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -112,7 +112,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/duriel/skeleton/duriel.skeleton"
+                    "filename": "data/hd/character/enemy/duriel/skeleton/duriel.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

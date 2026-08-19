@@ -161,7 +161,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/scarab1/skeleton/scarab1.skeleton"
+                    "filename": "data/hd/character/enemy/scarab1/skeleton/scarab1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

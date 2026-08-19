@@ -67,7 +67,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/window1/skeleton/window1.skeleton"
+                    "filename": "data/hd/character/enemy/window1/skeleton/window1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

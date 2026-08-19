@@ -73,9 +73,6 @@
             },
             {
                 "path": "data/hd/vfx/textures/fluid/T_FX_BloodDroplet_N.texture"
-            },
-            {
-                "path": "data/hd/vfx/textures/gradient/T_FX_AlphaRemapCurve_blinkfix.texture"
             }
         ],
         "physics": [],

@@ -113,7 +113,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/arach1/skeleton/arach1.skeleton"
+                    "filename": "data/hd/character/enemy/arach1/skeleton/arach1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

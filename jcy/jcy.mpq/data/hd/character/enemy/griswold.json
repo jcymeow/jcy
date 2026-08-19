@@ -100,7 +100,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/griswold/skeleton/griswold.skeleton"
+                    "filename": "data/hd/character/enemy/griswold/skeleton/griswold.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

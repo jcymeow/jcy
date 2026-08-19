@@ -145,7 +145,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/baalcrab/skeleton/baalcrab.skeleton"
+                    "filename": "data/hd/character/enemy/baalcrab/skeleton/baalcrab.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

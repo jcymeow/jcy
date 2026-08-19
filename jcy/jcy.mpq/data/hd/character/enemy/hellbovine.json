@@ -107,7 +107,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/hellbovine/skeleton/hellbovine.skeleton"
+                    "filename": "data/hd/character/enemy/hellbovine/skeleton/hellbovine.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

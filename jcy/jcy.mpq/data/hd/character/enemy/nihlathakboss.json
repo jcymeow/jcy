@@ -93,9 +93,9 @@
                     "state_machine_filename": "data/hd/character/enemy/nihlathakboss/nihlathakboss_state_machine.json",
                     "doNotInheritRotation": false,
                     "rotationOverride": {
-                        "x": 0,
+                        "x": 0.0,
                         "y": 0.3826834,
-                        "z": 0,
+                        "z": 0.0,
                         "w": 0.9238795
                     },
                     "doNotUseHDHeight": false,
@@ -127,7 +127,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/nihlathakboss/skeleton/nihlathakboss.skeleton"
+                    "filename": "data/hd/character/enemy/nihlathakboss/skeleton/nihlathakboss.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
@@ -156,7 +157,7 @@
                 {
                     "type": "DeadAnimationSpeedOverrideComponent",
                     "name": "entity_root_DeadAnimationSpeedOverride",
-                    "speed": 1
+                    "speed": 1.0
                 },
                 {
                     "type": "AimLayersComponent",
@@ -168,10 +169,10 @@
                             "layerName": "Aim_Head",
                             "yawAnimationState": "HeadAimLayer_Yaw",
                             "yawOutOfRangeBehavior": 2,
-                            "yawAngleOffset": 0,
+                            "yawAngleOffset": 0.0,
                             "pitchAnimationState": "",
                             "pitchOutOfRangeBehavior": 0,
-                            "pitchAngleOffset": 0,
+                            "pitchAngleOffset": 0.0,
                             "aimLocationTrackName": "aim_location",
                             "aimDampingFactor": 0.15,
                             "aimTarget": 1

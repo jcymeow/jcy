@@ -94,7 +94,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/smith/skeleton/smith.skeleton"
+                    "filename": "data/hd/character/enemy/smith/skeleton/smith.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

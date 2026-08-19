@@ -121,7 +121,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/goatman1/skeleton/goatman1.skeleton"
+                    "filename": "data/hd/character/enemy/goatman1/skeleton/goatman1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

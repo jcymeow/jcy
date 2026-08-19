@@ -67,7 +67,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/sandleaper1/skeleton/sandleaper1.skeleton"
+                    "filename": "data/hd/character/enemy/sandleaper1/skeleton/sandleaper1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

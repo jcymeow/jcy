@@ -243,7 +243,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/player/amazon/skeleton/amazon.skeleton"
+                    "filename": "data/hd/character/player/amazon/skeleton/amazon.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "DefinitionPreloadComponent",

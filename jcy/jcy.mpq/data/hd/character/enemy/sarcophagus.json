@@ -173,7 +173,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/sarcophagus/skeleton/sarcophagus.skeleton"
+                    "filename": "data/hd/character/enemy/sarcophagus/skeleton/sarcophagus.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

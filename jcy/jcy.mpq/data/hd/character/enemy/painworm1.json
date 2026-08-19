@@ -100,7 +100,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/painworm1/skeleton/painworm1.skeleton"
+                    "filename": "data/hd/character/enemy/painworm1/skeleton/painworm1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
@@ -375,7 +376,8 @@
                 {
                     "type": "ObjectEffectDefinitionComponent",
                     "name": "entity_shell_mesh_ObjectEffectDefinition",
-                    "filename": "data/hd/vfx/particles/character/enemy/painworm1/vfx_painworm1_objFX.particles"
+                    "filename": "data/hd/vfx/particles/character/enemy/painworm1/vfx_painworm1_objFX.particles",
+                    "isWarlockWeaponVfx": false
                 },
                 {
                     "type": "ModelDefinitionComponent",

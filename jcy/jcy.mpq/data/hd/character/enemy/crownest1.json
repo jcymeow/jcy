@@ -100,7 +100,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/crownest1/skeleton/crownest1.skeleton"
+                    "filename": "data/hd/character/enemy/crownest1/skeleton/crownest1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

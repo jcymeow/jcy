@@ -80,7 +80,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/baboon1/skeleton/baboon1.skeleton"
+                    "filename": "data/hd/character/enemy/baboon1/skeleton/baboon1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

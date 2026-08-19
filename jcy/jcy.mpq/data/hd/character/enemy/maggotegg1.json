@@ -173,7 +173,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/maggotegg1/skeleton/maggotegg1.skeleton"
+                    "filename": "data/hd/character/enemy/maggotegg1/skeleton/maggotegg1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

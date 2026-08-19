@@ -98,7 +98,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/barricadetower/skeleton/barricadetower.skeleton"
+                    "filename": "data/hd/character/enemy/barricadetower/skeleton/barricadetower.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

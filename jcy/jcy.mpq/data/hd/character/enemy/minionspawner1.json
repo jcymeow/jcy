@@ -101,7 +101,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/minionspawner1/skeleton/minionspawner1.skeleton"
+                    "filename": "data/hd/character/enemy/minionspawner1/skeleton/minionspawner1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -227,7 +227,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/sk_archer1/skeleton/sk_archer1.skeleton"
+                    "filename": "data/hd/character/enemy/sk_archer1/skeleton/sk_archer1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

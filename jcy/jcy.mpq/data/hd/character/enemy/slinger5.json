@@ -253,7 +253,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/slinger5/skeleton/slinger5.skeleton"
+                    "filename": "data/hd/character/enemy/slinger5/skeleton/slinger5.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

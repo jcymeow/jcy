@@ -127,9 +127,9 @@
                     "state_machine_filename": "data/hd/character/enemy/cowking/cowking_state_machine.json",
                     "doNotInheritRotation": false,
                     "rotationOverride": {
-                        "x": 0,
+                        "x": 0.0,
                         "y": 0.3826834,
-                        "z": 0,
+                        "z": 0.0,
                         "w": 0.9238795
                     },
                     "doNotUseHDHeight": false,
@@ -140,7 +140,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/cowking/skeleton/cowking.skeleton"
+                    "filename": "data/hd/character/enemy/cowking/skeleton/cowking.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
@@ -194,9 +195,9 @@
                             "validForRun": true,
                             "validInsideTown": true,
                             "validOutsideTown": true,
-                            "minMoveSpeed": 0,
-                            "maxMoveSpeed": 6,
-                            "baseMoveSpeed": 5,
+                            "minMoveSpeed": 0.0,
+                            "maxMoveSpeed": 6.0,
+                            "baseMoveSpeed": 5.0,
                             "animationName": "Walk"
                         }
                     ],
@@ -217,8 +218,8 @@
                                 "hipBoneName": "L_leg_01_bind_jnt",
                                 "locationTrackName": "L_IK_Position",
                                 "enabledTrackName": "L_FKIK",
-                                "hyperExtensionStart": 0,
-                                "hyperExtensionScale": 1,
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
                                 "defaultEnabled": true,
                                 "kneeRotationAxis": 0,
                                 "flipKneeRotationAxis": false
@@ -231,8 +232,8 @@
                                 "hipBoneName": "R_leg_01_bind_jnt",
                                 "locationTrackName": "R_IK_Position",
                                 "enabledTrackName": "R_FKIK",
-                                "hyperExtensionStart": 0,
-                                "hyperExtensionScale": 1,
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
                                 "defaultEnabled": true,
                                 "kneeRotationAxis": 0,
                                 "flipKneeRotationAxis": false
@@ -300,19 +301,19 @@
                         "type": "Transform",
                         "name": "entity_rhand_hal_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
+                            "x": 0.0,
                             "y": -0.3,
-                            "z": 0
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
-                            "x": 1,
-                            "y": 1,
-                            "z": 1
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
                         }
                     },
                     "attachmentStateMachineFilename": "",
@@ -354,19 +355,19 @@
                         "type": "Transform",
                         "name": "entity_rhand_pax_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
-                            "x": 1,
+                            "x": 1.0,
                             "y": 0.8,
-                            "z": 1
+                            "z": 1.0
                         }
                     },
                     "attachmentStateMachineFilename": "",
@@ -408,19 +409,19 @@
                         "type": "Transform",
                         "name": "entity_rhand_btx_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
-                            "x": 1,
+                            "x": 1.0,
                             "y": 0.7,
-                            "z": 1
+                            "z": 1.0
                         }
                     },
                     "attachmentStateMachineFilename": "",

@@ -152,7 +152,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/evilhut/skeleton/evilhut.skeleton"
+                    "filename": "data/hd/character/enemy/evilhut/skeleton/evilhut.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

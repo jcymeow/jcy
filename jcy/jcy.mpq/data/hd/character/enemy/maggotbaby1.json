@@ -92,7 +92,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/maggotbaby1/skeleton/maggotbaby1.skeleton"
+                    "filename": "data/hd/character/enemy/maggotbaby1/skeleton/maggotbaby1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

@@ -86,7 +86,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/frozenhorror1/skeleton/frozenhorror1.skeleton"
+                    "filename": "data/hd/character/enemy/frozenhorror1/skeleton/frozenhorror1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

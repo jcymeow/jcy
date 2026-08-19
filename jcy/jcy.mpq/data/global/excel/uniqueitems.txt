@@ -11,7 +11,7 @@ Brainhew	8	0		1					1		34	25	gax	Great Axe		5	5000	whit			invgaxu				dmg-min		14
 The Humongous	9	0		1					1		39	29	gix	Giant Axe		5	5000	blac	blac						str		20	30	dmg-min		8	8	dmg-max		15	25	crush		33	33	ease		20	20	dmg%		80	120																										0
 Iros Torch	10	0		1					1		7	5	wnd	Wand		5	5000	cred			invwndu				nec		1	1	lifesteal		6	6	dmg-fire		5	9	light		3	3	enr		10	10	regen-mana		5	5																										0
 Maelstromwrath	11	0		1					1		19	14	ywn	Yew Wand		5	5000	dblu	dblu						ltng-min		1	1	ltng-max		9	9	res-ltng		40	40	mana		13	13	cast2		30	30	skill	74	1	3	skill	77	1	3	skill	66	1	3	skill	76	1	3														0
-Gravenspine	12	0		1					1		27	20	bwn	Bone Wand		5	5000	cgrn			invbwnu				str		10	10	dex		10	10	cold-min		4	4	cold-max		8	8	cold-len		75	75	manasteal		5	5	nec		2	2	mana		25	50																		0
+Gravenspine	12	0		1			15	15	1		27	20	bwn	Bone Wand		5	5000	cgrn			invbwnu				str		10	10	dex		10	10	cold-min		4	4	cold-max		8	8	cold-len		75	75	manasteal		5	5	nec		2	2	mana		25	50	cast2		10	10														0
 Umes Lament	13	0		1					1		38	28	gwn	Grim Wand		5	5000	lblu	lblu						nec		2	2	mana		40	40	cast2		20	20	howl		64	64	skill	77	3	3	skill	87	2	2																										0
 Felloak	14	0		1					1		4	3	clb	Club		5	5000	lgry			invclbu				res-ltng		60	60	res-fire		20	20	knock		1	1	fire-min		6	6	fire-max		8	8	dmg%		70	80																										0
 Knell Striker	15	0		1					1		7	5	scp	Scepter		5	5000	dred	dred						crush		25	25	res-fire		20	20	res-pois		20	20	mana		15	15	att		35	35	dmg%		70	80																										0
@@ -50,18 +50,18 @@ The Tannr Gorerod	47	0		1					1		36	27	pik	Pike		5	5000	lgry	lgry						fire-min	
 Dimoaks Hew	48	0		1					1		11	8	bar	Bardiche		5	5000	blac	blac						dex		15	15	dmg%		100	100	swing2		20	20	ac		-8	-8																																		0
 Steelgoad	49	0		1					1		19	14	vou	Voulge		5	5000	cgrn	cgrn						howl		96	96	deadly		30	30	att		30	30	res-all		5	5	dmg%		60	80	dur		20	40																										0
 Soul Harvest	50	0		1					1		26	19	scy	Scythe		5	5000	dgry			invscyu				openwounds		30	30	att		45	45	res-all		20	20	dmg%		50	90	manasteal		10	10	enr		5	5																										0
-The Battlebranch	51	0		1					1		34	25	pax	Poleaxe		5	5000	lblu	lblu						swing3		30	30	dex		10	10	dmg%		50	70	att		50	100	lifesteal		7	7																														0
+The Battlebranch	51	0		1			15	15	1		30	17	pax	Poleaxe		5	5000	lblu	lblu						swing3		30	30	dex		10	10	dmg%		50	70	att		50	100	lifesteal		7	7																														0
 Woestave	52	0		1					1		38	28	hal	Halberd		5	5000	dblu	dblu						slow		50	50	openwounds		50	50	stupidity		3	3	dmg-ac		-50	-50	freeze		1	1	light		-3	-3	noheal		1	1	dmg%		20	40																		0
 The Grim Reaper	53	0		1					1		39	29	wsc	War Scythe		5	5000	lpur	lpur						deadly		100	100	noheal		1	1	manasteal		5	5	dmg%		20	20	dmg-min		15	15	*hp		-20	-20																										0
-Bane Ash	54	0		1					1		7	5	sst	Short Staff		5	5000	lgrn	lgrn						fire-min		4	4	fire-max		6	6	res-fire		50	50	mana		30	30	swing2		20	20	dmg%		50	60	skill	36	5	5	skill	37	2	2																		0
+Bane Ash	54	0		1			15	15	1		7	5	sst	Short Staff		5	5000	lgrn	lgrn						fire-min		4	4	fire-max		6	6	res-fire		50	50	mana		30	30	cast2		20	20	skill	36	5	5	skill	37	2	2																						0
 Serpent Lord	55	0		1					1		12	9	lst	Long Staff		5	5000	cgrn	cgrn						dmg-pois	75	40	40	res-pois		50	50	light		-1	-1	mana		10	10	dmg%		30	40	manasteal		100	100	reduce-ac		50	50																						0
 Lazarus Spire	56	0		1					1		24	18	cst	Gnarled Staff		5	5000	lgry			invcstu				res-ltng		75	75	red-dmg		5	5	enr		15	15	skill	53	1	1	skill	49	2	2	skill	42	3	3	regen-mana		43	43	dmg-ltng		1	28	sor		1	1														0
 The Salamander	57	0		1					1		28	21	bst	Battle Staff		5	5000	dred	dred						dmg-fire		15	32	res-fire		30	30	skill	51	1	1	skill	47	2	2	skill	37	3	3	fireskill		2	2																										0
 The Iron Jang Bong	58	0		1					1		38	28	wst	War Staff		5	5000	dyel	dyel						ac		30	30	cast3		20	20	dmg%		100	100	att%		50	50	skill	48	2	2	skill	46	2	2	skill	44	3	3	sor		2	2																		0
-Pluckeye	59	0		1					1		10	7	sbw	Short Bow		5	5000	cblu	cblu						att		28	28	dmg%		100	100	hp		10	10	light		2	2	manasteal		3	3	mana-kill		2	2																										0
+Pluckeye	59	0		1			15	15	1		10	7	sbw	Short Bow		5	5000	cblu	cblu						att		28	28	dmg%		100	100	hp		10	10	light		2	2	manasteal		3	3	mana-kill		2	2	swing2		25	25																						0
 Witherstring	60	0		1					1		18	13	hbw	Hunter\92s Bow		5	5000	lred	lred						swing3		30	30	dmg-min		1	1	dmg-max		3	3	att		50	50	magicarrow		3	3	dmg%		40	50																										0
 Rimeraven	61	0		1					1		20	15	lbw	Long Bow		5	5000	dred	dred						att%		50	50	dex		3	3	explosivearrow		3	3	str		3	3	dmg%		60	70																														0
-Piercerib	62	0		1					1		27	20	cbw	Composite Bow		5	5000	cred			invcbwu				res-all		10	10	deadly		30	30	att		60	60	dmg-undead		100	100	dmg%		40	60	swing2		50	50																										0
+Piercerib	62	0		1			15	15	1		27	20	cbw	Composite Bow		5	5000	cred			invcbwu				res-all		10	10	deadly		30	30	att		60	60	dmg-undead		100	100	dmg%		40	60	swing2		50	50	roguesbow-affix1		1	1																						0
 Pullspite	63	0		1					1		34	25	sbb	Short Battle Bow		5	5000	lgrn			invsbbu				dmg-ltng		1	30	str		8	8	att		28	28	pierce		25	25	res-ltng		25	25	dmg%		70	90																										0
 Wizendraw	64	0		1					1		35	26	lbb	Long Battle Bow		5	5000	dgrn	dgrn						magicarrow		5	5	mana		30	30	swing2		20	20	res-cold		26	26	att		50	100	dmg%		70	80	enr		15	15	pierce-cold		20	35																		0
 Hellclap	65	0		1					1		36	27	swb	Short War Bow		5	5000	cgrn			invswbu				swing1		10	10	fire-min		15	15	fire-max		30	50	att		50	75	res-fire		40	40	dex		12	12	dmg%		70	90	fireskill		1	1																		0
@@ -79,7 +79,7 @@ Howltusk	76	0		1					1		34	25	ghm	Great Helm		5	5000	dgry	dgry						red-mag		2	2
 Undead Crown	77	0		1					1		39	29	crn	Crown		5	5000	blac	blac						lifesteal		5	5	ac		40	40	res-pois		50	50	half-freeze		1	1	ac%		30	60	dmg-undead		50	50	att-undead		50	100	skill	69	3	3																		0
 The Face of Horror	78	0		1					1		27	20	msk	Mask		5	5000	lblu	lblu						howl		64	64	str		20	20	res-all		10	10	dmg-undead		50	50	ac		25	25																														0
 Greyform	79	0		1					1		10	7	qui	Quilted Armor		5	5000	lgry	lgry						red-mag		3	3	res-cold		20	20	res-fire		20	20	dex		10	10	lifesteal		5	5	ac		20	20																										0
-Blinkbats Form	80	0		1					1		16	12	lea	Leather Armor		5	5000	dred	dred						ac-miss		50	50	move2		10	10	ac		25	25	fire-min		3	3	fire-max		6	6	balance2		40	40																										0
+Blinkbats Form	80	0		1			15	15	1		16	12	lea	Leather Armor		5	5000	dred	dred						ac-miss		50	50	move2		30	30	ac		25	25	fire-min		3	3	fire-max		6	6	balance2		40	40	mana-kill		1	1																						0
 The Centurion	81	0		1					1		19	14	hla	Hard Leather		5	5000	cred	cred						ac		30	30	att		50	50	red-dmg		2	2	hp		15	15	mana		15	15	stam		15	15	regen		5	5	stamdrain		25	25																		0
 Twitchthroe	82	0		1					1		22	16	stu	Studded Leather		5	5000	lgrn	lgrn						swing2		20	20	dex		10	10	block		25	25	ac		25	25	str		10	10	balance2		20	20																										0
 Darkglow	83	0		1					1		19	14	rng	Ring Mail		5	5000	dgrn	dgrn						att		20	20	res-all-max		5	5	light		3	3	ac-hth		50	50	res-all		10	10	ac%		70	100																										0
@@ -100,7 +100,7 @@ Wall of the Eyeless	97	0		1					1		27	20	bsh	Bone Shield		5	5000	lgld			invbshu	
 Swordback Hold	98	0		1					1		20	15	spk	Spiked Shield		5	5000	lred			invspku				thorns		5	5	block		20	20	openwounds		50	50	bloody		3	5	ac%		30	60	thorns		5	5	ac		10	10																						0
 Steelclash	99	0		1					1		23	17	kit	Kite Shield		5	5000	blac			invkitu				block		25	25	pal		1	1	red-dmg		3	3	light		3	3	ac%		60	100	block2		20	20	res-all		15	15	ac		20	20	dur		15	20														0
 Bverrit Keep	100	0		1					1		26	19	tow	Tower Shield		5	5000	lblu			invtowu				ac		30	30	res-fire		75	75	str		5	5	red-mag		5	5	ac%		80	120	block		10	10	dur		80	100																						0
-The Ward	101	0		1					1		35	26	gts	Gothic Shield		5	5000	dblu			invgtsu				ac		40	40	red-mag		2	2	str		10	10	block		10	10	ac%		100	100	res-all		30	50																										0
+The Ward	101	0		1			15	15	1		35	26	gts	Gothic Shield		5	5000	dblu			invgtsu				ac		40	40	red-mag		2	2	str		10	10	block		10	10	ac%		100	100	res-all		30	50	sock	1																								0
 The Hand of Broc	102	0		1					1		7	5	lgl	Gloves		5	5000	cblu	cblu						manasteal		3	3	lifesteal		3	3	res-pois		10	10	mana		20	20	ac		10	10	ac%		10	20																										0
 Bloodfist	103	0		1					1		12	9	vgl	Heavy Gloves		5	5000	oran	oran						dmg-min		5	5	hp		40	40	balance2		30	30	ac		10	10	ac%		10	20	swing2		10	10																										0
 Chance Guards	104	0		1					1		20	15	mgl	Bracers		5	5000	lred	lred						gold%		200	200	mag%		25	40	att		25	25	ac		15	15	light		2	2	ac%		20	30																										0
@@ -120,7 +120,7 @@ Nokozan Relic	117	0		1					20		14	10	amu	Amulet		5	5000	lgld							dmg-fire		3	6
 The Eye of Etlich	118	0		1					5		20	15	amu	Amulet		5	5000	dgld							ac-miss		10	40	light		1	5	allskills		1	1	lifesteal		3	7	cold-min		1	2	cold-max		3	5	cold-len		50	250																						0
 The Mahim-Oak Curio	119	0		1					10		34	25	amu	Amulet		5	5000	lpur							dex		10	10	str		10	10	enr		10	10	vit		10	10	ac		10	10	att%		10	10	res-all		10	10	ac%		10	10																		0
 Nagelring	120	0		1					15		10	7	rin	Ring		5	5000	dpur							red-mag		3	3	thorns		3	3	att		50	75	mag%		15	30																																		0
-Manald Heal	121	0		1					15		20	15	rin	Ring		5	5000	oran							manasteal		4	7	regen		5	8	hp		20	20	regen-mana		20	20																																		0
+Manald Heal	121	0		1			15	15	15		20	15	rin	Ring		5	5000	oran							manasteal		4	7	regen		5	8	hp		20	20	regen-mana		20	20	cast2		10	10																														0
 The Stone of Jordan	122	0		1					1		39	29	rin	Ring		5	5000	whit							mana		20	20	mana%		25	25	ltng-min		1	1	allskills		1	1	ltng-max		12	12																													1	0
 Amulet of the Viper	123	0		1					1		0	0	vip	Amulet		5	5000	lgry							mana		10	10	res-pois		25	25	hp		10	10			0	0			0	0			0	0			0	0																						0
 Staff of Kings	124	0		1					1		0	0	msf	Staff		5	5000	dgry							res-all		10	10	swing3		50	50			0	0			0	0			0	0			0	0			0	0																						0
@@ -154,7 +154,7 @@ Baezil's Vortex	150	100		1					1		53	45	9fl	Knout		5	5000	dblu	dblu						hit-ski
 Earthshaker	151	100		1					1		51	43	9wh	Battle Hammer		5	5000								hit-skill	234	5	7	knock		1	1	swing3		30	30	dmg%		180	180	stupidity		1	1	skilltab	17	3	3	dur		50	50																						0
 Bloodtree Stump	152	100		1					1		56	48	9m9	War Club		5	5000	dred							crush		50	50	dmg%		180	220	res-all		20	20	str		25	25	skilltab	13	2	2	skill	129	3	3	dur		40	40																						0
 The Gavel of Pain	153	100		1					1		53	45	9gm	Martel de Fer		5	5000				inv9gmu				hit-skill	66	5	1	gethit-skill	76	5	1	thorns		26	26	indestruct		1	1	dmg-norm		12	30	dmg%		130	160	charged	66	3	8																						0
-Bloodletter	154	100		1					1		38	30	9ss	Gladius		5	5000	cred	cred						dmg-norm		12	45	att		90	90	lifesteal		8	8	stamdrain		10	10	swing2		20	20	dmg%		140	140	skill	127	2	4	skill	151	1	3	dur		30	30														0
+Bloodletter	154	100		1			15	15	1		38	30	9ss	Gladius		5	5000	cred	cred						dmg-norm		12	45	att		90	90	lifesteal		8	8	stamdrain		10	10	swing2		20	20	dmg%		140	140	skill	127	2	4	skill	151	1	3	dur		30	30	move2		20	20										0
 Coldsteel Eye	155	100		1					1		39	31	9sm	Cutlass		5	5000	dgry			invscmu				stupidity		1	1	slow		30	30	deadly		50	50	dur		50	50	dmg%		200	250	swing2		20	20	manasteal		6	6																						0
 Hexfire	156	100		1					1		41	33	9sb	Shamshir		5	5000				invsbru				charged	62	36	6	ignore-ac		1	1	res-fire		25	25	res-fire-max		10	10	dmg-norm		35	40	dmg%		140	160	fireskill		3	3																						0
 Blade of Ali Baba	157	100		1					1		43	35	9fc	Tulwar		5	5000	cred	cred						sock	3			gold%/lvl	20			mag%/lvl	8			mana		15	15	dmg%		60	120	dex		5	15																										0
@@ -359,7 +359,7 @@ Wolfhowl	355	100		1					1		85	79	bac	fury visor		3	5000	cred	cred						ac%		120	
 Spirit Ward	356	100		1					1		76	68	uts	ward		3	5000	dblu	dblu		invgtsu				ac%		130	180	abs-cold		6	11	res-all		30	40	block		20	30	block2		25	25	gethit-skill	Fade	5	8																										0
 Kira's Guardian	357	100		1					1		85	77	ci2	tiara		3	5000	blac	blac						ac		50	120	res-all		50	70	nofreeze		1	1	balance2		20	20																																		0
 Ormus' Robes	358	100		1					1		83	75	uui	dusk shroud		3	5000	lpur	lpur						ac		10	20	cast2		20	20	extra-fire		10	15	extra-cold		10	15	extra-ltng		10	15	regen-mana		10	15	skill-rand	3	36	60																						0
-Gheed's Fortune	359	100		1					1		70	62	cm3	charm	1001	3	5000	lpur	lpur						mag%		20	40	gold%		80	160	cheap		10	15																																						0
+Gheed's Fortune	359	100		1					15		70	62	cm3	charm	1001	3	5000	lpur	lpur						mag%		20	40	gold%		80	160	cheap		10	15																																						0
 Stormlash	360	100		1					1		86	82	7fl	scourge		3	5000	dgry	dgry						dmg%		240	300	swing2		30	30	hit-skill	Static Field	15	10	hit-skill	Tornado	20	18	dmg-ltng		1	473	light-thorns		30	30	crush		33	33	abs-ltng		3	9																		0
 Halaberd's Reign	361	100		1					1		85	77	bae	conqueror crown		3	5000								ac%		140	170	skilltab	13	1	1	bar		2	2	balance2		20	20	regen		15	23	skill	Battle Orders	1	2	skill	Battle Command	1	2																						0
 Warriv's Warder	362	100			1				1							3	5000																																																									0
@@ -426,15 +426,15 @@ Protector's Frost	422	100							1		110	75	cjw	jewel		3	5000				invgswe				Gethit
 Defender's Fire	423	100							1		110	75	cjw	jewel		3	5000				invgswe				Gethit-skill	46	1	25	extra-fire		5	10	dmg-fire		20	60	pierce-fire		5	10	addxp		3	5	mag%		15	35	gold%		25	50																						0
 Protector's Stone	424	100							1		110	75	cjw	jewel		3	5000				invgswe				Gethit-skill	267	1	15	dmg%		30	50	dmg-norm		10	30	pierce-dmg		5	10	addxp		3	5	mag%		15	35	gold%		25	50																						0
 Guardian's Light	425	100							1		110	75	cjw	jewel		3	5000				invgswe				Gethit-skill	387	1	25	extra-mag		5	10	dmg-mag		15	35	pierce-mag		5	10	addxp		3	5	mag%		15	35	gold%		25	50																						0
-PreCrafted Cold Rupture	426	100		1					1		69	75	cm3	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-90	-70																																										0
-Crafted Cold Rupture	427	100			1				1		69	75	cs2	charm	1004	3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-70	-70	Gelid-Affix1		1	1	Gelid-Affix2		1	1	Gelid-Affix3		1	1	Gelid-Affix4		1	1	Gelid-Affix5		1	1	Gelid-Affix6		1	1																		0
-PreCrafted Flame Rift	428	100		1					1		69	75	cm3	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-90	-70																																										0
-PreCrafted Crack of the Heavens	429	100		1					1		69	75	cm3	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-90	-70																																										0
-PreCrafted Rotting Fissure	430	100		1					1		69	75	cm3	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-90	-70																																										0
-PreCrafted Bone Break	431	100		1					1		69	75	cm3	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-20	-10																																										0
-PreCrafted Black Cleft	432	100		1					1		69	75	cm3	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-65	-45																																										0
-Crafted Flame Rift	433	100			1				1		69	75	cs2	charm	1004	3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-70	-70	Incendiary-Affix1		1	1	Incendiary-Affix2		1	1	Incendiary-Affix3		1	1	Incendiary-Affix4		1	1					Incendiary-Affix6		1	1																		0
-Crafted Crack of the Heavens	434	100			1				1		69	75	cs2	charm	1004	3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-70	-70	Magnetic-Affix1		1	1	Magnetic-Affix2		1	1	Magnetic-Affix3		1	1	Magnetic-Affix4		1	1					Magnetic-Affix6		1	1																		0
-Crafted Rotting Fissure	435	100			1				1		69	75	cs2	charm	1004	3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-70	-70	Virulent-Affix1		1	1	Virulent-Affix2		1	1	Virulent-Affix3		1	1	Virulent-Affix4		1	1					Virulent-Affix6		1	1																		0
-Crafted Bone Break	436	100			1				1		69	75	cs2	charm	1004	3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-10	-10	Breaching-Affix1		1	1	Breaching-Affix2		1	1	Breaching-Affix3		1	1	Breaching-Affix4		1	1					Breaching-Affix6		1	1																		0
-Crafted Black Cleft	437	100			1				1		69	75	cs2	charm	1004	3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-45	-45	Mystical-Affix1		1	1	Mystical-Affix2		1	1	Mystical-Affix3		1	1	Mystical-Affix4		1	1					Mystical-Affix6		1	1																		0
+PreCrafted Cold Rupture	426	100		1		"cond('Difficulty', hell)"			1		75	75	cm3	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-90	-70																																										0
+Crafted Cold Rupture	427	100			1				1		75	75	cs2	charm	1004	3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-70	-70	Gelid-Affix1		1	1	Gelid-Affix2		1	1	Gelid-Affix3		1	1	Gelid-Affix4		1	1	Gelid-Affix5		1	1	Gelid-Affix6		1	1																		0
+PreCrafted Flame Rift	428	100		1		"cond('Difficulty', hell)"			1		75	75	cm3	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-90	-70																																										0
+PreCrafted Crack of the Heavens	429	100		1		"cond('Difficulty', hell)"			1		75	75	cm3	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-90	-70																																										0
+PreCrafted Rotting Fissure	430	100		1		"cond('Difficulty', hell)"			1		75	75	cm3	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-90	-70																																										0
+PreCrafted Bone Break	431	100		1		"cond('Difficulty', hell)"			1		75	75	cm3	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-20	-10																																										0
+PreCrafted Black Cleft	432	100		1		"cond('Difficulty', hell)"			1		75	75	cm3	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-65	-45																																										0
+Crafted Flame Rift	433	100			1				1		75	75	cs2	charm	1004	3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-70	-70	Incendiary-Affix1		1	1	Incendiary-Affix2		1	1	Incendiary-Affix3		1	1	Incendiary-Affix4		1	1					Incendiary-Affix6		1	1																		0
+Crafted Crack of the Heavens	434	100			1				1		75	75	cs2	charm	1004	3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-70	-70	Magnetic-Affix1		1	1	Magnetic-Affix2		1	1	Magnetic-Affix3		1	1	Magnetic-Affix4		1	1					Magnetic-Affix6		1	1																		0
+Crafted Rotting Fissure	435	100			1				1		75	75	cs2	charm	1004	3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-70	-70	Virulent-Affix1		1	1	Virulent-Affix2		1	1	Virulent-Affix3		1	1	Virulent-Affix4		1	1					Virulent-Affix6		1	1																		0
+Crafted Bone Break	436	100			1				1		75	75	cs2	charm	1004	3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-10	-10	Breaching-Affix1		1	1	Breaching-Affix2		1	1	Breaching-Affix3		1	1	Breaching-Affix4		1	1					Breaching-Affix6		1	1																		0
+Crafted Black Cleft	437	100			1				1		75	75	cs2	charm	1004	3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-45	-45	Mystical-Affix1		1	1	Mystical-Affix2		1	1	Mystical-Affix3		1	1	Mystical-Affix4		1	1					Mystical-Affix6		1	1																		0

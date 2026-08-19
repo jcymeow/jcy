@@ -54,7 +54,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/invisospawner/skeleton/invisospawner.skeleton"
+                    "filename": "data/hd/character/enemy/invisospawner/skeleton/invisospawner.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

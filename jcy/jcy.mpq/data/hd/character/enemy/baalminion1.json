@@ -79,7 +79,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/baalminion1/skeleton/baalminion1.skeleton"
+                    "filename": "data/hd/character/enemy/baalminion1/skeleton/baalminion1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

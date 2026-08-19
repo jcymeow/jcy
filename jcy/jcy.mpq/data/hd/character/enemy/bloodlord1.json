@@ -156,9 +156,9 @@
                     "state_machine_filename": "data/hd/character/enemy/bloodlord1/bloodlord1_state_machine.json",
                     "doNotInheritRotation": false,
                     "rotationOverride": {
-                        "x": 0,
+                        "x": 0.0,
                         "y": 0.3826834,
-                        "z": 0,
+                        "z": 0.0,
                         "w": 0.9238795
                     },
                     "doNotUseHDHeight": false,
@@ -169,7 +169,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/bloodlord1/skeleton/bloodlord1.skeleton"
+                    "filename": "data/hd/character/enemy/bloodlord1/skeleton/bloodlord1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
@@ -204,8 +205,8 @@
                                 "hipBoneName": "L_leg_01_bind_jnt",
                                 "locationTrackName": "L_IK_Position",
                                 "enabledTrackName": "L_FKIK",
-                                "hyperExtensionStart": 0,
-                                "hyperExtensionScale": 1,
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
                                 "defaultEnabled": true,
                                 "kneeRotationAxis": 0,
                                 "flipKneeRotationAxis": false
@@ -218,8 +219,8 @@
                                 "hipBoneName": "R_leg_01_bind_jnt",
                                 "locationTrackName": "R_IK_Position",
                                 "enabledTrackName": "R_FKIK",
-                                "hyperExtensionStart": 0,
-                                "hyperExtensionScale": 1,
+                                "hyperExtensionStart": 0.0,
+                                "hyperExtensionScale": 1.0,
                                 "defaultEnabled": true,
                                 "kneeRotationAxis": 0,
                                 "flipKneeRotationAxis": false
@@ -231,15 +232,15 @@
                     "type": "TransformDefinitionComponent",
                     "name": "entity_root_TransformDefinition",
                     "position": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
                     },
                     "orientation": {
-                        "x": 0,
-                        "y": 0,
-                        "z": 0,
-                        "w": 1
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 1.0
                     },
                     "scale": {
                         "x": 1.05,
@@ -358,14 +359,14 @@
                         "type": "Transform",
                         "name": "entity_rhand_axe_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
                             "x": 0.9,
@@ -412,19 +413,19 @@
                         "type": "Transform",
                         "name": "entity_rhand_fla_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
-                            "x": 2,
-                            "y": 2,
-                            "z": 2
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 2.0
                         }
                     },
                     "attachmentStateMachineFilename": "data/hd/items/weapon/mace/flail/flail_bloodlord1_rh_statemachine.json",
@@ -466,14 +467,14 @@
                         "type": "Transform",
                         "name": "entity_lhand_axe_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
                             "x": 0.9,
@@ -520,19 +521,19 @@
                         "type": "Transform",
                         "name": "entity_lhand_fla_UnitAttachment_attachmentTransform",
                         "translation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "rotation": {
-                            "x": 0,
-                            "y": 0,
-                            "z": 0
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
                         },
                         "scale": {
-                            "x": 2,
-                            "y": 2,
-                            "z": 2
+                            "x": 2.0,
+                            "y": 2.0,
+                            "z": 2.0
                         }
                     },
                     "attachmentStateMachineFilename": "data/hd/items/weapon/mace/flail/flail_bloodlord1_lh_statemachine.json",

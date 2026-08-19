@@ -86,7 +86,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/swarm1/skeleton/swarm1.skeleton"
+                    "filename": "data/hd/character/enemy/swarm1/skeleton/swarm1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "DamageFXComponent",

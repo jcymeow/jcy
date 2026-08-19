@@ -118,7 +118,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/blunderbore1/skeleton/blunderbore1.skeleton"
+                    "filename": "data/hd/character/enemy/blunderbore1/skeleton/blunderbore1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

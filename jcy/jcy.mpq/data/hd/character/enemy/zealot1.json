@@ -199,7 +199,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/zealot1/skeleton/zealot1.skeleton"
+                    "filename": "data/hd/character/enemy/zealot1/skeleton/zealot1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

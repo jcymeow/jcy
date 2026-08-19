@@ -70,7 +70,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/chargeboltsentry/skeleton/chargeboltsentry.skeleton"
+                    "filename": "data/hd/character/enemy/chargeboltsentry/skeleton/chargeboltsentry.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

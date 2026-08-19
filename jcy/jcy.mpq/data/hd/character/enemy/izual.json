@@ -173,7 +173,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/izual/skeleton/izual.skeleton"
+                    "filename": "data/hd/character/enemy/izual/skeleton/izual.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

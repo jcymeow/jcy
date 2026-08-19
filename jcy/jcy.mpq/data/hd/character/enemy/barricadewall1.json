@@ -83,7 +83,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/barricadewall1/skeleton/barricadewall1.skeleton"
+                    "filename": "data/hd/character/enemy/barricadewall1/skeleton/barricadewall1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

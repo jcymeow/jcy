@@ -136,7 +136,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/megademon1/skeleton/megademon1.skeleton"
+                    "filename": "data/hd/character/enemy/megademon1/skeleton/megademon1.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

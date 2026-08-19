@@ -70,7 +70,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/wakeofdestruction/skeleton/wakeofdestruction.skeleton"
+                    "filename": "data/hd/character/enemy/wakeofdestruction/skeleton/wakeofdestruction.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

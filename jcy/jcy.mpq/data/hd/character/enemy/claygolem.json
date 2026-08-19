@@ -89,7 +89,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/claygolem/skeleton/claygolem.skeleton"
+                    "filename": "data/hd/character/enemy/claygolem/skeleton/claygolem.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",

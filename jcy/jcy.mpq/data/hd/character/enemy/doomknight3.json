@@ -227,7 +227,8 @@
                 {
                     "type": "SkeletonDefinitionComponent",
                     "name": "component_skeleton",
-                    "filename": "data/hd/character/enemy/doomknight3/skeleton/doomknight3.skeleton"
+                    "filename": "data/hd/character/enemy/doomknight3/skeleton/doomknight3.skeleton",
+                    "enableWeaponAttachInertialization": false
                 },
                 {
                     "type": "VariantDefinitionComponent",
