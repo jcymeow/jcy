@@ -134,23 +134,6 @@
                         "onSwitchTabMessage": "Lobby:SelectTab",
                         "automaticallyPositionIndicators": true
                     }
-                },
-                {
-                    "type": "ButtonWidget",
-                    "name": "Lobby",
-                    "fields": {
-                        "rect": {
-                            "x": 1436,
-                            "y": 1785,
-                            "scale": 0.8
-                        },
-                        "filename": "jcy\\buttons\\Lobby",
-                        "hoveredFrame": 1,
-                        "pressedFrame": 2,
-                        "tooltipString": "@JcyPressTheEscKeyToRefresh @LobbyButton",
-                        "onClickMessage": "Lobby:Close",
-                        "focusIndicatorVisible": true
-                    }
                 }
             ]
         },
@@ -312,6 +295,23 @@
                 },
                 "isLinear": true,
                 "skipScaling": true
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "Lobby",
+            "fields": {
+                "rect": {
+                    "x": -235,
+                    "y": -80
+                },
+                "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonMed",
+                "textString": "@JcyPressTheEscKeyToRefresh",
+                "onClickMessage": "Lobby:Close",
+                "textColor": "$LightButtonTextColor",
+                "text/style": "$StyleFEButtonText",
+                "hoveredFrame": 3,
+                "disabledFrame": 2
             }
         }
     ]
