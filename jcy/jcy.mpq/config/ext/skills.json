@@ -20927,10 +20927,10 @@
     "StrSkillChainMaxCount": {
         "Key": "StrSkillChainMaxCount",
         "enUS": "Max Chains: %d",
-        "zhCN": "最大锁链数: %d",
-        "zhTW": "鎖鏈上限：%d",
-        "sgCN": "最大锁链数: %d",
-        "sgTW": "鎖鏈上限：%d",
-        "bnCN": "最大锁链数: %d"
+        "zhCN": "",
+        "zhTW": "",
+        "sgCN": "",
+        "sgTW": "",
+        "bnCN": ""
     }
 }
