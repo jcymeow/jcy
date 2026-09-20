@@ -3100,6 +3100,35 @@ ASSETS = [
             "data/hd/global/ui/items/misc/key/mephisto_key3.sprite",
         ]
     },
+    {
+        "id": 912,
+        "name": "巨型先祖珠宝皮肤_2",
+        "type": Assets.CJW.value,
+        "author": "桔橙柚, Gemini",
+        "description": "修改珠宝材质颜色",
+        "source": "",
+        "url": "https://gitee.com/jcymeow/jcymod_d2r_assets/releases/download/v1.6.6/912.zip",
+        "file": "912.zip",
+        "image": "https://gitee.com/jcymeow/jcymod_d2r_assets/raw/master/release/912.png",
+        "size": 117102,
+        "md5": "D652B160AD2151D7070A2E73C1190CA9",
+        APPLY_METHOD: [],
+        REMOVE_METHOD: [],
+        "list": [
+            "data/hd/global/ui/items/misc/body_part/fragment_cold.lowend.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_cold.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_fire.lowend.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_fire.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_lightning.lowend.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_lightning.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_magic.lowend.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_magic.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_physical.lowend.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_physical.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_poison.lowend.sprite",
+            "data/hd/global/ui/items/misc/body_part/fragment_poison.sprite",
+        ]
+    },
     # 亚马逊(1000, 1100)
     {
         "id": 1001,
