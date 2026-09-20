@@ -2110,8 +2110,8 @@
   {
     "id": 3581,
     "Key": "ModStr5g",
-    "enUS": "Fire Absorb(FDA) %+d%%",
-    "zhTW": "火焰吸收(FDA) %+d%%",
+    "enUS": "Fire Absorb(FA) %+d%%",
+    "zhTW": "火焰吸收(FA) %+d%%",
     "deDE": "Feuerabsorption %+d%%",
     "esES": "%+d%% de absorción de fuego",
     "frFR": "Absorption du Feu : %+d%%",
@@ -2122,13 +2122,13 @@
     "jaJP": "火炎吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Fogo",
     "ruRU": "%+d%% к поглощению урона от огня",
-    "zhCN": "火焰吸收(FDA) %+d%%"
+    "zhCN": "火焰吸收(FA) %+d%%"
   },
   {
     "id": 3582,
     "Key": "ModStr5h",
-    "enUS": "%+d Fire Absorb(FDA)",
-    "zhTW": "%+d 火焰吸收(FDA)",
+    "enUS": "%+d Fire Absorb(FA)",
+    "zhTW": "%+d 火焰吸收(FA)",
     "deDE": "%+d Feuerabsorption",
     "esES": "%+d de absorción de fuego",
     "frFR": "%+d à l’absorption du Feu",
@@ -2139,13 +2139,13 @@
     "jaJP": "火炎吸収（%+d）",
     "ptBR": "%+d de Absorve Fogo",
     "ruRU": "%+d поглощаемого урона от огня",
-    "zhCN": "%+d 火焰吸收(FDA)"
+    "zhCN": "%+d 火焰吸收(FA)"
   },
   {
     "id": 3583,
     "Key": "ModStr5i",
-    "enUS": "Lightning Absorb(LDA) %+d%%",
-    "zhTW": "電擊吸收(LDA) %+d%%",
+    "enUS": "Lightning Absorb(LA) %+d%%",
+    "zhTW": "電擊吸收(LA) %+d%%",
     "deDE": "Blitzabsorption %+d%%",
     "esES": "%+d%% de absorción de rayos",
     "frFR": "Absorption de la Foudre : %+d%%",
@@ -2156,13 +2156,13 @@
     "jaJP": "電撃吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Eletricidade",
     "ruRU": "%+d%% к поглощению урона от молнии",
-    "zhCN": "電擊吸收(LDA) %+d%%"
+    "zhCN": "電擊吸收(LA) %+d%%"
   },
   {
     "id": 3584,
     "Key": "ModStr5j",
-    "enUS": "%+d Lightning Absorb(LDA)",
-    "zhTW": "%+d 電擊吸收(LDA)",
+    "enUS": "%+d Lightning Absorb(LA)",
+    "zhTW": "%+d 電擊吸收(LA)",
     "deDE": "%+d Blitzabsorption",
     "esES": "%+d de absorción de rayos",
     "frFR": "%+d à l’absorption de la Foudre",
@@ -2173,13 +2173,13 @@
     "jaJP": "電撃吸収（%+d）",
     "ptBR": "%+d de Absorve Eletricidade",
     "ruRU": "%+d поглощаемого урона от молнии",
-    "zhCN": "%+d 電擊吸收(LDA)"
+    "zhCN": "%+d 電擊吸收(LA)"
   },
   {
     "id": 3585,
     "Key": "ModStr5k",
     "enUS": "Magic Absorb(MA) %+d%%",
-    "zhTW": "魔法吸收(MDA) %+d%%",
+    "zhTW": "魔法吸收(MA) %+d%%",
     "deDE": "Magieabsorption %+d%%",
     "esES": "%+d%% de absorción de magia",
     "frFR": "Absorption de la Magie : %+d%%",
@@ -2190,13 +2190,13 @@
     "jaJP": "魔法吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Magia",
     "ruRU": "%+d%% к поглощению магического урона",
-    "zhCN": "魔法吸收(MDA) %+d%%"
+    "zhCN": "魔法吸收(MA) %+d%%"
   },
   {
     "id": 3586,
     "Key": "ModStr5l",
     "enUS": "%+d Magic Absorb(MA)",
-    "zhTW": "%+d 魔法吸收(MDA)",
+    "zhTW": "%+d 魔法吸收(MA)",
     "deDE": "%+d Magieabsorption",
     "esES": "%+d de absorción de magia",
     "frFR": "%+d à l’absorption de la Magie",
@@ -2207,13 +2207,13 @@
     "jaJP": "魔法吸収（%+d）",
     "ptBR": "%+d de Absorve Magia",
     "ruRU": "%+d поглощаемого магического урона",
-    "zhCN": "%+d 魔法吸收(MDA)"
+    "zhCN": "%+d 魔法吸收(MA)"
   },
   {
     "id": 3587,
     "Key": "ModStr5m",
-    "enUS": "Cold Absorb(CDA) %+d%%",
-    "zhTW": "冰寒吸收(CDA) %+d%%",
+    "enUS": "Cold Absorb(CA) %+d%%",
+    "zhTW": "冰寒吸收(CA) %+d%%",
     "deDE": "Kälteabsorption %+d%%",
     "esES": "%+d%% de absorción de frío",
     "frFR": "Absorption du Froid : %+d%%",
@@ -2224,13 +2224,13 @@
     "jaJP": "冷気吸収（%+d%%）",
     "ptBR": "%+d%% de Absorve Gelo",
     "ruRU": "%+d%% к поглощению урона от льда",
-    "zhCN": "冰寒吸收(CDA) %+d%%"
+    "zhCN": "冰寒吸收(CA) %+d%%"
   },
   {
     "id": 3588,
     "Key": "ModStr5n",
-    "enUS": "%+d Cold Absorb(CDA)",
-    "zhTW": "%+d 冰寒吸收(CDA)",
+    "enUS": "%+d Cold Absorb(CA)",
+    "zhTW": "%+d 冰寒吸收(CA)",
     "deDE": "%+d Kälteabsorption",
     "esES": "%+d de absorción de frío",
     "frFR": "%+d à l’absorption du Froid",
@@ -2241,7 +2241,7 @@
     "jaJP": "冷気吸収（%+d）",
     "ptBR": "%+d de Absorve Gelo",
     "ruRU": "%+d поглощаемого урона от льда",
-    "zhCN": "%+d 冰寒吸收(CDA)"
+    "zhCN": "%+d 冰寒吸收(CA)"
   },
   {
     "id": 3589,
@@ -3300,8 +3300,8 @@
   {
     "id": 10043,
     "Key": "ModStre9n",
-    "enUS": "%+d Absorbs Magic Damage(MDA)",
-    "zhTW": "%+d 魔法傷害吸收(MDA)",
+    "enUS": "%+d Absorbs Magic Damage(MA)",
+    "zhTW": "%+d 魔法傷害吸收(MA)",
     "deDE": "%+d absorbiert Magieschaden",
     "esES": "%+d de absorción de daño mágico",
     "frFR": "%+d absorbe les dégâts magiques",
@@ -3312,13 +3312,13 @@
     "jaJP": "魔法ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano mágico",
     "ruRU": "%+d к поглощению урона от магии",
-    "zhCN": "%+d 魔法傷害吸收(MDA)"
+    "zhCN": "%+d 魔法傷害吸收(MA)"
   },
   {
     "id": 10044,
     "Key": "ModStre9o",
-    "enUS": "%+d Absorbs Fire Damage(FDA)",
-    "zhTW": "%+d 火焰傷害吸收(FDA)",
+    "enUS": "%+d Absorbs Fire Damage(FA)",
+    "zhTW": "%+d 火焰傷害吸收(FA)",
     "deDE": "%+d absorbiert Feuerschaden",
     "esES": "%+d de absorción de daño de fuego",
     "frFR": "%+d absorbe les dégâts de Feu",
@@ -3329,13 +3329,13 @@
     "jaJP": "火炎ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano ígneo",
     "ruRU": "%+d к поглощению урона от огня",
-    "zhCN": "%+d 火焰傷害吸收(FDA)"
+    "zhCN": "%+d 火焰傷害吸收(FA)"
   },
   {
     "id": 10045,
     "Key": "ModStre9p",
-    "enUS": "%+d Absorbs Cold Damage(CDA)",
-    "zhTW": "%+d 冰寒傷害吸收(CDA)",
+    "enUS": "%+d Absorbs Cold Damage(CA)",
+    "zhTW": "%+d 冰寒傷害吸收(CA)",
     "deDE": "%+d absorbiert Kälteschaden",
     "esES": "%+d de absorción de daño de frío",
     "frFR": "%+d absorbe les dégâts de Froid",
@@ -3346,13 +3346,13 @@
     "jaJP": "冷気ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano gélido",
     "ruRU": "%+d к поглощению урона от льда",
-    "zhCN": "%+d 冰寒傷害吸收(CDA)"
+    "zhCN": "%+d 冰寒傷害吸收(CA)"
   },
   {
     "id": 10046,
     "Key": "ModStre9q",
-    "enUS": "%+d Absorbs Lightning Damage(LDA)",
-    "zhTW": "%+d 電擊傷害吸收(LDA)",
+    "enUS": "%+d Absorbs Lightning Damage(LA)",
+    "zhTW": "%+d 電擊傷害吸收(LA)",
     "deDE": "%+d absorbiert Blitzschaden",
     "esES": "%+d de absorción de daño de rayos",
     "frFR": "%+d absorbe les dégâts de Foudre",
@@ -3363,13 +3363,13 @@
     "jaJP": "電撃ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano elétrico",
     "ruRU": "%+d к поглощению урона от молнии",
-    "zhCN": "%+d 電擊傷害吸收(LDA)"
+    "zhCN": "%+d 電擊傷害吸收(LA)"
   },
   {
     "id": 10047,
     "Key": "ModStre9r",
-    "enUS": "%+d Absorbs Poison Damage(PDA)",
-    "zhTW": "%+d 毒素傷害吸收(PDA)",
+    "enUS": "%+d Absorbs Poison Damage(PA)",
+    "zhTW": "%+d 毒素傷害吸收(PA)",
     "deDE": "%+d absorbiert Giftschaden",
     "esES": "%+d de absorción de daño de veneno",
     "frFR": "%+d absorbe les dégâts de Poison",
@@ -3380,7 +3380,7 @@
     "jaJP": "毒ダメージを吸収（%+d）",
     "ptBR": "Absorve %+d de dano venenoso",
     "ruRU": "%+d к поглощению урона от яда",
-    "zhCN": "%+d 毒素傷害吸收(PDA)"
+    "zhCN": "%+d 毒素傷害吸收(PA)"
   },
   {
     "id": 10054,

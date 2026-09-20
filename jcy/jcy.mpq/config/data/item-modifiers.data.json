@@ -319,28 +319,28 @@
         "abbr": "(EK)"
     },
     "ModStr5g": {
-        "abbr": "(FDA)"
+        "abbr": "(FA)"
     },
     "ModStr5h": {
-        "abbr": "(FDA)"
+        "abbr": "(FA)"
     },
     "ModStr5i": {
-        "abbr": "(LDA)"
+        "abbr": "(LA)"
     },
     "ModStr5j": {
-        "abbr": "(LDA)"
+        "abbr": "(LA)"
     },
     "ModStr5k": {
-        "abbr": "(MDA)"
+        "abbr": "(MA)"
     },
     "ModStr5l": {
-        "abbr": "(MDA)"
+        "abbr": "(MA)"
     },
     "ModStr5m": {
-        "abbr": "(CDA)"
+        "abbr": "(CA)"
     },
     "ModStr5n": {
-        "abbr": "(CDA)"
+        "abbr": "(CA)"
     },
     "ModStr5q": {
         "abbr": "(DS)"
@@ -446,19 +446,19 @@
         "abbr": "(PDR)"
     },
     "ModStre9n": {
-        "abbr": "(MDA)"
+        "abbr": "(MA)"
     },
     "ModStre9o": {
-        "abbr": "(FDA)"
+        "abbr": "(FA)"
     },
     "ModStre9p": {
-        "abbr": "(CDA)"
+        "abbr": "(CA)"
     },
     "ModStre9q": {
-        "abbr": "(LDA)"
+        "abbr": "(LA)"
     },
     "ModStre9r": {
-        "abbr": "(PDA)"
+        "abbr": "(PA)"
     },
     "StrSklTabItem1": {
         "color": [
