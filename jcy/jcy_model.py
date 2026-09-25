@@ -364,32 +364,11 @@ class FeatureConfig:
                             "fid": Function.ASN_SETTING.value,
                             "type": CHECK,
                             "text": "刺客",
-                            "colspan": 100,
+                            "colspan": 75,
                             "params": {
                                 "1": "马赛克护眼",
                                 "2": "取消 影散隐身效果",
                                 "3": "开启 陷阱佣兵头像",
-                            }
-                        },
-                        {
-                            "fid": Function.PAL_SETTING.value,
-                            "type": CHECK,
-                            "text": "圣骑士",
-                            "colspan": 50,
-                            "params": {
-                                "1": "祝锤闪电弹道特效",
-                                "2": "蓝色神圣火焰",
-                            }
-                        },
-                        {
-                            "fid": Function.WAR_SETTING.value,
-                            "type": CHECK,
-                            "text": "术士",
-                            "columns": 4,
-                            "colspan": 50,
-                            "params": {
-                                "1": "紫色 火焰技能",
-                                "2": "红色 沸血术"
                             }
                         },
                         {
@@ -402,12 +381,34 @@ class FeatureConfig:
                             }
                         },
                         {
+                            "fid": Function.WAR_SETTING.value,
+                            "type": CHECK,
+                            "text": "术士",
+                            "columns": 4,
+                            "colspan": 75,
+                            "params": {
+                                "1": "紫色 火焰技能",
+                                "2": "红色 沸血术",
+                                "3": "绿色 咒印:昏沉",
+                            }
+                        },
+                        {
                             "fid": Function.CAIN_SETTING.value,
                             "type": CHECK,
                             "text": "凯恩",
                             "colspan": 25,
                             "params": {
                                 "1": "开启 套装光效"
+                            }
+                        },
+                        {
+                            "fid": Function.PAL_SETTING.value,
+                            "type": CHECK,
+                            "text": "圣骑士",
+                            "colspan": 50,
+                            "params": {
+                                "1": "祝锤闪电弹道特效",
+                                "2": "蓝色神圣火焰",
                             }
                         },
                         {

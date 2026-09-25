@@ -3269,7 +3269,7 @@ class FileOperations:
             return (0, 0)
         
         _files = {
-            # 紫色火焰技能
+            # 紫色 火焰技能
             "1":[
                 r"data/hd/missiles/apocalypse_missile.json",
                 r"data/hd/missiles/flamewave.json",
@@ -3277,9 +3277,14 @@ class FileOperations:
                 r"data/hd/missiles/ringoffire.json",
                 r"data/hd/missiles/ringoffireexplode.json",
             ],
+            # 红色 沸血术
             "2":[
                 r"data/hd/vfx/particles/missiles/blood_boil/vfx_blood_boil.particles",
             ],
+            # 绿色 咒印:昏沉
+            "3":[
+                r"data/hd/missiles/seal_lethargy.json",
+            ]
         }
 
         funcs = []
