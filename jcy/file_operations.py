@@ -3983,13 +3983,28 @@ class FileOperations:
 
 
     def switch_event_terror_zone(self, value):
-            """环境.天气事件.移除恐怖区域切换效果"""
-            _files = [
-                r"data/hd/env/weather/vis_event_map.json",
-            ]
-            switch = str(value) == "1"
-            return self.common_rename(_files, switch)
+        """环境.天气事件.移除恐怖区域切换效果"""
+        _files = [
+            r"data/hd/env/weather/vis_event_map.json",
+        ]
+        switch = str(value) == "1"
+        return self.common_rename(_files, switch)
 
+
+    def switch_excel_states_remove_body(self, value):
+        """Excel.状态.寻找药水/物品后尸体消失"""
+        switch = str(value) == "1"
+
+        excel = r"data/global/excel/states.txt"
+        key = "state"
+        records = {
+            "corpse_noselect": {
+                "hide": 1 if switch else "",
+                "setfunc": 12 if switch else ""               
+            }
+        }
+        return self.common_modify_excel(excel, key, records)
+    
 
     def switch_date_format_timestamp(self, value):
         """本地化.日期格式.开启'年-月-日 时:分:秒'"""

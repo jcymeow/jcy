@@ -768,6 +768,13 @@ class FeatureConfig:
                             "event": "移除恐怖区域切换效果"
                         },
                         {
+                            "fid": Function.EXCEL_STATES_REMOVE_BODY.value,
+                            "type": SWITCH,
+                            "category": "Excel",
+                            "target": "状态",
+                            "event": "寻找药水/物品后尸体消失"
+                        },
+                        {
                             "fid": Function.LAYOUTS_CHARACTER_STATS_EXTRA.value,
                             "type": SWITCH,
                             "category": "布局",
