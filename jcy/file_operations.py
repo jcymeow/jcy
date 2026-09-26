@@ -3821,33 +3821,33 @@ class FileOperations:
         _params = {
             # 包裹左侧
             "1":{
-                "rect": { "x": -1616, "y": 256},
-                "anchor": { "x": 1, "y": 0.397 },
-                "convert": { "x": 220, "y": 420, "scale": 0.8 },
+                "rect": "$CubeRect1",
+                "anchor": "$RightPanelAnchor",
+                "convert": "$CubeConvert1",
             },
             # 包裹右侧
             "2":{
-                "rect": { "x": -344, "y": 256 },
-                "anchor": { "x": 1, "y": 0.397 },
-                "convert": { "x": 20, "y": 420, "scale": 0.8 },
+                "rect": "$CubeRect2",
+                "anchor": "$RightPanelAnchor",
+                "convert": "$CubeConvert2",
             },
             # 左下角
             "3":{
-                "rect": {"x": 400,"y": -420},
-                "anchor": {"x": 0,"y": 1},
-                "convert": { "x": 320, "y": 22, "scale": 0.8 },
+                "rect": "$CubeRect3",
+                "anchor": "$BottomLeftAnchor",
+                "convert": "$CubeConvert3",
             },
             # 右下角
             "4":{
-                "rect": { "x": -740, "y": -420 },
-                "anchor": { "x": 1, "y": 1 },
-                "convert": { "x": -80, "y": 22, "scale": 0.8 },
+                "rect": "$CubeRect4",
+                "anchor": "$BottomRightAnchor",
+                "convert": "$CubeConvert4",
             },
             # 包裹中(需要开启:布局.物品栏.扩展)
             "5":{
-                "rect": { "x": -1322, "y": -138 },
-                "anchor": { "x": 1, "y": 0.397 },
-                "convert": { "x": 320, "y": 320, "scale": 0.8 },
+                "rect": "$CubeRect5",
+                "anchor": "$RightPanelAnchor",
+                "convert": "$CubeConvert5",
             }
         }
 

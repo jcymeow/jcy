@@ -405,5 +405,52 @@
         "options": {
             "lineWrap": true
         }
+    },
+    "CubeRect1": { 
+        "x": -1265, 
+        "y": -256, 
+        "scale": 1.16
+    },
+    "CubeRect2": { 
+        "x": -1265, 
+        "y": -256, 
+        "scale": 1.16
+    },
+    "CubeRect3": { 
+        "x": 400, 
+        "y": -486, 
+        "scale": 1.16
+    },
+    "CubeRect4": { 
+        "x": -740, 
+        "y": -486, 
+        "scale": 1.16
+    },
+    "CubeRect5": { 
+        "x": -1265, 
+        "y": -256, 
+        "scale": 1.16
+    },
+    "CubeConvert1": {
+        "x": 320,
+        "y": 290
+    },
+    "CubeConvert2": {
+        "x": 320,
+        "y": 290
+    },
+    "CubeConvert3": {
+        "x": 320,
+        "y": 22,
+        "scale": 0.8
+    },
+    "CubeConvert4": {
+        "x": -70,
+        "y": 22,
+        "scale": 0.8
+    },
+    "CubeConvert5": {
+        "x": 320,
+        "y": 290
     }
 }

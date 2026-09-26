@@ -3,14 +3,8 @@
     "name": "JcyMiniCube",
     "fields": {
         "priority": 101,
-        "rect": {
-            "x": -1322,
-            "y": -138
-        },
-        "anchor": {
-            "x": 1,
-            "y": 0.397
-        }
+        "rect": "$CubeRect5",
+        "anchor": "$RightPanelAnchor"
     },
     "children": [
         {
@@ -24,11 +18,7 @@
             "type": "ButtonWidget",
             "name": "convert",
             "fields": {
-                "rect": {
-                    "x": 320,
-                    "y": 320,
-                    "scale": 0.8
-                },
+                "rect": "$CubeConvert5",
                 "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
                 "tooltipString": "@strUiMenu2",
                 "hoveredFrame": 2,
