@@ -1429,6 +1429,7 @@ class Function(Enum):
     CONTROLS_SETTING = "ControlsSetting"
     ESC_SETTING = "EscSetting"
     MINI_CUBE = "MiniCube"
+    MINI_BUTTONS = "MiniButtons"
     PORTAL_SKIN = "ProtalSkin"
     HEALTH_MANA_FORMAT = "HealthManaFormat"
     DISABLE_EFFECTS = "DisableEffects"
@@ -1539,6 +1540,9 @@ class Methods(Enum):
 
     MODIFY_HIRE_EXCEL_MONSTATS = auto()
     """修改 佣兵Excel参数(monstats.txt)"""
+
+    MODIFY_MINI_BUTTONS_FIELDS = auto()
+    """修改 迷你按钮栏"""
 
 
 # 导出所有需要的符号

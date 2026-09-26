@@ -1,5 +1,5 @@
 {
-    "type": "TooltipsPanel",
+    "type": "PausePanel",
     "name": "JcyMiniButtons",
     "fields": {
         "priority": 99,
@@ -15,10 +15,10 @@
     "children": [
         {
             "type": "ButtonWidget",
-            "name": "JcyToggleMiniStash",
+            "name": "stash",
             "fields": {
                 "rect": {
-                    "x": 0,
+                    "x": 0.0,
                     "y": 0,
                     "scale": 0.65
                 },
@@ -31,7 +31,7 @@
         },
         {
             "type": "ButtonWidget",
-            "name": "JcyToggleMiniCube",
+            "name": "cube",
             "fields": {
                 "rect": {
                     "x": 65.0,
@@ -41,48 +41,16 @@
                 "filename": "panel\\mini\\cube",
                 "tooltipString": "@JcyToggleMiniCube",
                 "onClickMessage": "PanelManager:TogglePanel:JcyMiniCube",
+                "focusIndicatorVisible": true,
                 "hoveredFrame": 2
             }
         },
         {
             "type": "ButtonWidget",
-            "name": "JcyToggleMiniBar",
+            "name": "settings",
             "fields": {
                 "rect": {
                     "x": 130.0,
-                    "y": 0,
-                    "scale": 0.65
-                },
-                "filename": "panel\\mini\\hpmp",
-                "tooltipString": "@JcyToggleMiniBar",
-                "onClickMessage": "PanelManager:TogglePanel:JcyMiniHud",
-                "focusIndicatorVisible": true,
-                "hoveredFrame": 2,
-                "pressedFrame": 0
-            }
-        },
-        {
-            "type": "ButtonWidget",
-            "name": "JcyToggleFriendsList",
-            "fields": {
-                "rect": {
-                    "x": 195.0,
-                    "y": 0,
-                    "scale": 0.8
-                },
-                "filename": "panel\\hud_02\\messages",
-                "tooltipString": "@JcyToggleFriendsList",
-                "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
-                "focusIndicatorVisible": true,
-                "hoveredFrame": 2
-            }
-        },
-        {
-            "type": "ButtonWidget",
-            "name": "JcyGameSetting",
-            "fields": {
-                "rect": {
-                    "x": 260.0,
                     "y": 0,
                     "scale": 0.8
                 },
@@ -95,16 +63,48 @@
         },
         {
             "type": "ButtonWidget",
-            "name": "JcyKnowledge",
+            "name": "knowledge",
+            "fields": {
+                "rect": {
+                    "x": 195.0,
+                    "y": 0,
+                    "scale": 0.8
+                },
+                "filename": "panel\\HUD_02\\QuestLog",
+                "tooltipString": "@JcyKnowledge",
+                "onClickMessage": "PanelManager:TogglePanel:messagePanel",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "chronicle",
+            "fields": {
+                "rect": {
+                    "x": 260.0,
+                    "y": 0,
+                    "scale": 0.65
+                },
+                "filename": "panel\\mini\\chronicle",
+                "tooltipString": "@Chronicle",
+                "onClickMessage": "PanelManager:OpenPanel:ChroniclePanel",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "lootfilter",
             "fields": {
                 "rect": {
                     "x": 325.0,
                     "y": 0,
-                    "scale": 0.8
+                    "scale": 0.65
                 },
-                "filename": "PANEL\\HUD_02\\QuestLog",
-                "tooltipString": "@JcyKnowledge",
-                "onClickMessage": "PanelManager:TogglePanel:messagePanel",
+                "filename": "panel\\mini\\filter",
+                "tooltipString": "@LootFilter",
+                "onClickMessage": "PausePanelMessage:OpenLootFilter",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
             }

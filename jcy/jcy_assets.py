@@ -2180,9 +2180,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
@@ -2193,14 +2201,21 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/experience_bar.sprite",
@@ -2228,9 +2243,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
@@ -2241,14 +2264,21 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle.sprite",
@@ -2278,9 +2308,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.5,
+                    "anchor.y": 1,
+                    "rect.x": -195,
+                    "rect.y": -64,
                 }
             }
         ],
@@ -2291,14 +2329,21 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.lowend.sprite",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_man_idle1.sprite",
@@ -2354,10 +2399,18 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
                 }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                        "anchor.x": 0.5,
+                        "anchor.y": 1,
+                        "rect.x": -200,
+                        "rect.y": -350,
+                    }
             }
         ],
         APPLY_METHOD: [],
@@ -2367,14 +2420,21 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
@@ -2405,9 +2465,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.5,
+                    "anchor.y": 1,
+                    "rect.x": -200,
+                    "rect.y": -400,
                 }
             }
         ],
@@ -2418,14 +2486,21 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
-            "data/global/ui/layouts/JcyMiniButtonshd.json",
             "data/global/ui/layouts/hudpanelhd.json",
             "data/global/ui/layouts/skillselecthd.json",
             "data/hd/global/ui/panel/hud_02/experience_bar.lowend.sprite",
@@ -2452,9 +2527,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.5,
+                    "anchor.y": 1,
+                    "rect.x": -500,
+                    "rect.y": -350,
                 }
             }
         ],
@@ -2465,14 +2548,21 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
-            r"data/global/ui/layouts/JcyMiniButtonshd.json",
             r"data/global/ui/layouts/hudpanelhd.json",
             r"data/global/ui/layouts/skillselecthd.json",
             r"data/hd/global/ui/panel/hud/automap.lowend.sprite",
@@ -2535,9 +2625,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
@@ -2548,15 +2646,22 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
             r"data/global/ui/layouts/hudpanelhd.json",
-            r"data/global/ui/layouts/JcyMiniButtonshd.json",
             r"data/hd/global/ui/panel/hud_02/automap.lowend.sprite",
             r"data/hd/global/ui/panel/hud_02/automap.sprite",
             r"data/hd/global/ui/panel/hud_02/belt_popped_cap.lowend.sprite",
@@ -2604,9 +2709,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": -100,
+                    "rect.y": -400,
                 }
             }
         ],
@@ -2617,15 +2730,22 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
             r"data/global/ui/layouts/hudpanelhd.json",
-            r"data/global/ui/layouts/JcyMiniButtonshd.json",
         ]
     },
     {
@@ -2646,9 +2766,17 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.BACKUP,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0,
+                    "anchor.y": 1,
+                    "rect.x": 540,
+                    "rect.y": -360,
                 }
             }
         ],
@@ -2659,15 +2787,22 @@ ASSETS = [
                 PARAMS: {
                     "operation": Operation.RESOTRE,
                     "files": [
-                        "data/global/ui/layouts/JcyMiniButtonshd.json",
                         "data/global/ui/layouts/hudpanelhd.json",
                     ]
+                }
+            },
+            {
+                METHOD: Methods.MODIFY_MINI_BUTTONS_FIELDS,
+                PARAMS: {
+                    "anchor.x": 0.7,
+                    "anchor.y": 1,
+                    "rect.x": 0,
+                    "rect.y": -450,
                 }
             }
         ],
         "list": [
             r"data/global/ui/layouts/hudpanelhd.json",
-            r"data/global/ui/layouts/JcyMiniButtonshd.json",
             r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.lowend.sprite",
             r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_health_idle.sprite",
             r"data/hd/global/ui/panel/hud_02/healthmanaanimation/healthidle/4k/globe_mana_idle.lowend.sprite",

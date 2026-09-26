@@ -28,6 +28,7 @@ class FileOperations:
             HIRE_SKIN_REMOVE: self.modify_hire_skin,
             Methods.MODIFY_HIRE_EXCEL_MONPET: self.modify_hire_excel_monpet,
             Methods.MODIFY_HIRE_EXCEL_MONSTATS: self.modify_hire_excel_monstats,
+            Methods.MODIFY_MINI_BUTTONS_FIELDS: self.modify_mini_buttons_fields,
         }
 
 
@@ -309,6 +310,30 @@ class FileOperations:
         """修改 佣兵Excel参数 monstats.txt"""
         result = self.common_modify_excel(file="data/global/excel/monstats.txt", key="Id", records=param)
         return ok_result(result)
+
+
+    def modify_mini_buttons_fields(self, param: dict):
+        """修改 迷你按钮栏属性"""
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniButtonshd.json")
+                        
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            json_data["fields"]["anchor"]["x"] = param.get("anchor.x", 0.7)
+            json_data["fields"]["anchor"]["y"] = param.get("anchor.y", 1)
+            json_data["fields"]["rect"]["x"] = param.get("rect.x", 0)
+            json_data["fields"]["rect"]["y"] = param.get("rect.y", -450)
+                    
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
+            
+            return ok_result(f"modify JcyMiniButtonshd.fields success")
+        except Exception as e:
+            print(e)
+            return err_result(f"modify JcyMiniButtonshd.fields failed：{e}")
+
 
     def modify_hire_skin(self, param: dict):
         """佣兵皮肤应用"""
@@ -2649,9 +2674,8 @@ class FileOperations:
         """修改本地化文件列表, 选中语言内容"""
         
         count = 0
-        # + data/global/ui/layouts/JcyMiniButtonshd.json
         # + data/global/ui/layouts/pauselayoutgardenhd.json
-        total = len(LOCAL_FILES) + 2
+        total = len(LOCAL_FILES) + 1
 
         lng = jcy_config.SETTINGS.get(select_language, Language.ZHTW.value)
 
@@ -2678,24 +2702,6 @@ class FileOperations:
                 count += 1
             except Exception as e:
                 print(f"[Error] {json_path}: {e}")
-
-        # 修改迷你按钮Bar 提示语
-        mini_data = None
-        mini_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniButtonshd.json")
-        try:
-            with open(mini_path, 'r', encoding='utf-8') as f:
-                mini_data = json.load(f)
-
-            for child in mini_data["children"]:
-                key = child["name"]
-                child["fields"]["tooltipString"] = jcy_config.LOCAL_TEMP_DICT.get(key)
-
-            with open(mini_path, 'w', encoding="utf-8") as f:
-                json.dump(mini_data, f, ensure_ascii=False, indent=4)
-
-            count += 1
-        except Exception as e:
-            print(f"[Error] {mini_path}: {e}")
 
         # 修改重开地狱游戏 提示语, 当"添加 重开地狱游戏按钮"勾选时
         setting2 = jcy_config.SETTINGS.get(Function.GAME_SETTING2.value)
@@ -3865,6 +3871,126 @@ class FileOperations:
                     
             with open(cube_path, 'w', encoding="utf-8") as f:
                 json.dump(cube_json, f, ensure_ascii=False, indent=4)
+            
+            count += 1
+        except Exception as e:
+            print(e)
+
+        return count, total
+
+
+    def modify_mini_buttons(self, keys: list):
+        """迷你按钮栏"""
+        count = 0
+        total = 1
+
+        _params = {
+            # "储物箱",
+            "1":{
+                "name": "stash",
+                "scale": 0.65,
+                "filename": "panel\\mini\\stash",
+                "tooltipString": "@JcyToggleStash",
+                "onClickMessage": "PanelManager:TogglePanel:BankExpansionLayout",
+            },
+            # "迷你盒子",
+            "2":{
+                "name": "cube",
+                "scale": 0.65,
+                "filename": "panel\\mini\\cube",
+                "tooltipString": "@JcyToggleMiniCube",
+                "onClickMessage": "PanelManager:TogglePanel:JcyMiniCube",
+            },
+            # "迷你血条",
+            "3":{
+                "name": "hpmp",
+                "scale": 0.65,
+                "filename": "panel\\mini\\hpmp",
+                "tooltipString": "@JcyToggleMiniBar",
+                "onClickMessage": "PanelManager:TogglePanel:JcyMiniHud",
+            },
+            # "好友列表",
+            "4":{
+                "name": "friends",
+                "scale": 0.8,
+                "filename": "panel\\hud_02\\messages",
+                "tooltipString": "@JcyToggleFriendsList",
+                "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
+            },
+            # "游戏设置",
+            "5":{
+                "name": "settings",
+                "scale": 0.8,
+                "filename": "panel\\hud_02\\pausemenu",
+                "tooltipString": "@JcyGameSetting",
+                "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
+            },
+            # "知识卷轴",
+            "6":{
+                "name": "knowledge",
+                "scale": 0.8,
+                "filename": "panel\\HUD_02\\QuestLog",
+                "tooltipString": "@JcyKnowledge",
+                "onClickMessage": "PanelManager:TogglePanel:messagePanel",
+            },
+            # "编年史",
+            "7":{
+                "name": "chronicle",
+                "scale": 0.65,
+                "filename": "panel\\mini\\chronicle",
+                "tooltipString": "@Chronicle",
+                "onClickMessage": "PanelManager:OpenPanel:ChroniclePanel",
+            },
+            # "过滤器",
+            "8":{
+                "name": "lootfilter",
+                "scale": 0.65,
+                "filename": "panel\\mini\\filter",
+                "tooltipString": "@LootFilter",
+                "onClickMessage": "PausePanelMessage:OpenLootFilter",
+            },
+        }
+
+        try:
+            json_data = None
+            json_path = os.path.join(MOD_PATH, r"data/global/ui/layouts/JcyMiniButtonshd.json")
+                        
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            # 1. 清空 children 列表（如果不存在则初始化为 []）
+            json_data["children"] = []
+
+            # 2. 遍历传入的 keys 列表，生成并 append 对应的 Widget 节点
+            for i, key in enumerate(keys):
+                # 转换为 str 以兼容数字或字符串类型的 key
+                key_str = str(key)
+                if key_str not in _params:
+                    continue
+
+                item = _params[key_str]
+
+                button_widget = {
+                    "type": "ButtonWidget",
+                    "name": item["name"],
+                    "fields": {
+                        "rect": {
+                            "x": i * 65.0,
+                            "y": 0,
+                            "scale": item["scale"]
+                        },
+                        "filename": item["filename"],
+                        "tooltipString": item["tooltipString"],
+                        "onClickMessage": item["onClickMessage"],
+                        "focusIndicatorVisible": True,
+                        "hoveredFrame": 2
+                    }
+                }
+
+                json_data["children"].append(button_widget)
+                    
+            with open(json_path, 'w', encoding="utf-8") as f:
+                json.dump(json_data, f, ensure_ascii=False, indent=4)
             
             count += 1
         except Exception as e:

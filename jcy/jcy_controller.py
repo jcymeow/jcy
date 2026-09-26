@@ -192,6 +192,9 @@ class FeatureController:
             Function.ACT4_WAYPOINT_9.value: self.file_operations.modify_act_info,
             # 迷你盒子位置
             Function.MINI_CUBE.value: self.file_operations.modify_mini_cube,
+            # 迷你按钮栏
+            Function.MINI_BUTTONS.value: self.file_operations.modify_mini_buttons,
+
 
             # 游戏设置
             Function.GAME_SETTING.value: self.file_operations.select_game_setting,
