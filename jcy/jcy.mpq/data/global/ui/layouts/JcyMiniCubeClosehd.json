@@ -10,7 +10,7 @@
             "fields": {
                 "time": 0.001,
                 "message": "PanelManager:ClosePanel:JcyMiniCube",
-                "defalut": "PanelManager:ClosePanel:JcyMiniCube"
+                "default": "PanelManager:ClosePanel:JcyMiniCube"
             }
         },
         {
@@ -19,7 +19,7 @@
             "fields": {
                 "time": 0.002,
                 "message": "PanelManager:UnloadPanel:JcyMiniCubeClose",
-                "defalut": "PanelManager:UnloadPanel:JcyMiniCubeClose"
+                "default": "PanelManager:UnloadPanel:JcyMiniCubeClose"
             }
         }
     ]

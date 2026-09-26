@@ -15,7 +15,7 @@
             "fields": {
                 "time": 0.001,
                 "message": "PanelManager:OpenPanel:JcyPartyExtra",
-                "defalut": "PanelManager:OpenPanel:JcyPartyExtra"
+                "default": "PanelManager:OpenPanel:JcyPartyExtra"
             }
         },
         {
@@ -24,7 +24,7 @@
             "fields": {
                 "time": 0.002,
                 "message": "PanelManager:UnloadPanel:JcyPartyExtraOpen",
-                "defalut": "PanelManager:UnloadPanel:JcyPartyExtraOpen"
+                "default": "PanelManager:UnloadPanel:JcyPartyExtraOpen"
             }
         }
     ]

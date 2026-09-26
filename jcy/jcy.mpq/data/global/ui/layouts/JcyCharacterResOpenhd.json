@@ -10,7 +10,7 @@
             "fields": {
                 "time": 0.001,
                 "message": "PanelManager:OpenPanel:JcyCharacterRes",
-                "defalut": "PanelManager:OpenPanel:JcyCharacterRes"
+                "default": "PanelManager:OpenPanel:JcyCharacterRes"
             }
         },
         {
@@ -19,7 +19,7 @@
             "fields": {
                 "time": 0.002,
                 "message": "PanelManager:UnloadPanel:JcyCharacterResOpen",
-                "defalut": "PanelManager:UnloadPanel:JcyCharacterResOpen"
+                "default": "PanelManager:UnloadPanel:JcyCharacterResOpen"
             }
         }
     ]
