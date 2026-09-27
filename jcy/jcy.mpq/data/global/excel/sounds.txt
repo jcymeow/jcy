@@ -11962,7 +11962,7 @@ shiverarmor_off	11959		sfx/items_hd	skill\shiverarmor_off.flac	0	0	0	0	0	255	255
 holyshield_off	11960		sfx/items_hd	skill\holyshield_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 cyclonearmor_off	11961		sfx/items_hd	skill\cyclonearmor_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 quickness_off	11962		sfx/items_hd	skill\quickness_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
-bladeshield_off	11963		sfx/items_hd	skill\bladeshield_off	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
+bladeshield_off	11963		sfx/items_hd	skill\bladeshield_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 wolf_off	11964		sfx/items_hd	skill\wolf_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 bear_off	11965		sfx/items_hd	skill\bear_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	
 frozenarmor_off	11966		sfx/items_hd	skill\frozenarmor_off.flac	0	0	0	0	0	255	255	100	100	0	0	0	0	0	0	0	0	0	2	0	90	255	0	0	1	1	0	-1	-1	-1	0	0	

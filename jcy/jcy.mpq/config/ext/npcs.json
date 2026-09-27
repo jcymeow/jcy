@@ -1490,21 +1490,21 @@
     },
     "JcyVersion": {
         "Key": "JcyVersion",
-        "enUS": "v1.6.5",
-        "zhTW": "v1.6.5",
-        "sgTW": "v1.6.5",
-        "zhCN": "v1.6.5",
-        "sgCN": "v1.6.5",
-        "bnCN": "v1.6.5"
+        "enUS": "v1.6.6",
+        "zhTW": "v1.6.6",
+        "sgTW": "v1.6.6",
+        "zhCN": "v1.6.6",
+        "sgCN": "v1.6.6",
+        "bnCN": "v1.6.6"
     },
     "JcyReleaseDate": {
         "Key": "JcyReleaseDate",
-        "enUS": "20260819",
-        "zhTW": "20260819",
-        "sgTW": "20260819",
-        "zhCN": "20260819",
-        "sgCN": "20260819",
-        "bnCN": "20260819"
+        "enUS": "20260927",
+        "zhTW": "20260927",
+        "sgTW": "20260927",
+        "zhCN": "20260927",
+        "sgCN": "20260927",
+        "bnCN": "20260927"
     },
     "JcyQuickGame": {
         "Key": "JcyQuickGame",
