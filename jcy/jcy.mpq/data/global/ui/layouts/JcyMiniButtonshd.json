@@ -1,5 +1,5 @@
 {
-    "type": "PausePanel",
+    "type": "TooltipsPanel",
     "name": "JcyMiniButtons",
     "fields": {
         "priority": 99,
@@ -20,9 +20,9 @@
                 "rect": {
                     "x": 0.0,
                     "y": 0,
-                    "scale": 0.65
+                    "scale": 0.8
                 },
-                "filename": "panel\\mini\\stash",
+                "filename": "jcy\\mini\\stash",
                 "tooltipString": "@JcyToggleStash",
                 "onClickMessage": "PanelManager:TogglePanel:BankExpansionLayout",
                 "focusIndicatorVisible": true,
@@ -36,11 +36,27 @@
                 "rect": {
                     "x": 65.0,
                     "y": 0,
-                    "scale": 0.65
+                    "scale": 0.8
                 },
-                "filename": "panel\\mini\\cube",
+                "filename": "jcy\\mini\\cube",
                 "tooltipString": "@JcyToggleMiniCube",
                 "onClickMessage": "PanelManager:TogglePanel:JcyMiniCube",
+                "focusIndicatorVisible": true,
+                "hoveredFrame": 2
+            }
+        },
+        {
+            "type": "ButtonWidget",
+            "name": "friends",
+            "fields": {
+                "rect": {
+                    "x": 130.0,
+                    "y": 0,
+                    "scale": 0.8
+                },
+                "filename": "panel\\hud_02\\messages",
+                "tooltipString": "@JcyToggleFriendsList",
+                "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
             }
@@ -50,7 +66,7 @@
             "name": "settings",
             "fields": {
                 "rect": {
-                    "x": 130.0,
+                    "x": 195.0,
                     "y": 0,
                     "scale": 0.8
                 },
@@ -66,7 +82,7 @@
             "name": "knowledge",
             "fields": {
                 "rect": {
-                    "x": 195.0,
+                    "x": 260.0,
                     "y": 0,
                     "scale": 0.8
                 },
@@ -82,29 +98,13 @@
             "name": "chronicle",
             "fields": {
                 "rect": {
-                    "x": 260.0,
-                    "y": 0,
-                    "scale": 0.65
-                },
-                "filename": "panel\\mini\\chronicle",
-                "tooltipString": "@Chronicle",
-                "onClickMessage": "PanelManager:OpenPanel:ChroniclePanel",
-                "focusIndicatorVisible": true,
-                "hoveredFrame": 2
-            }
-        },
-        {
-            "type": "ButtonWidget",
-            "name": "lootfilter",
-            "fields": {
-                "rect": {
                     "x": 325.0,
                     "y": 0,
-                    "scale": 0.65
+                    "scale": 0.8
                 },
-                "filename": "panel\\mini\\filter",
-                "tooltipString": "@LootFilter",
-                "onClickMessage": "PausePanelMessage:OpenLootFilter",
+                "filename": "jcy\\mini\\chronicle",
+                "tooltipString": "@Chronicle",
+                "onClickMessage": "PanelManager:OpenPanel:ChroniclePanel",
                 "focusIndicatorVisible": true,
                 "hoveredFrame": 2
             }

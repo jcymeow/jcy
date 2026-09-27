@@ -3892,31 +3892,27 @@ class FileOperations:
             # "储物箱",
             "1":{
                 "name": "stash",
-                "scale": 0.65,
-                "filename": "panel\\mini\\stash",
+                "filename": "jcy\\mini\\stash",
                 "tooltipString": "@JcyToggleStash",
                 "onClickMessage": "PanelManager:TogglePanel:BankExpansionLayout",
             },
             # "迷你盒子",
             "2":{
                 "name": "cube",
-                "scale": 0.65,
-                "filename": "panel\\mini\\cube",
+                "filename": "jcy\\mini\\cube",
                 "tooltipString": "@JcyToggleMiniCube",
                 "onClickMessage": "PanelManager:TogglePanel:JcyMiniCube",
             },
             # "迷你血条",
             "3":{
                 "name": "hpmp",
-                "scale": 0.65,
-                "filename": "panel\\mini\\hpmp",
+                "filename": "jcy\\mini\\hpmp",
                 "tooltipString": "@JcyToggleMiniBar",
                 "onClickMessage": "PanelManager:TogglePanel:JcyMiniHud",
             },
             # "好友列表",
             "4":{
                 "name": "friends",
-                "scale": 0.8,
                 "filename": "panel\\hud_02\\messages",
                 "tooltipString": "@JcyToggleFriendsList",
                 "onClickMessage": "PanelManager:TogglePanel:FriendsListPanel",
@@ -3924,7 +3920,6 @@ class FileOperations:
             # "游戏设置",
             "5":{
                 "name": "settings",
-                "scale": 0.8,
                 "filename": "panel\\hud_02\\pausemenu",
                 "tooltipString": "@JcyGameSetting",
                 "onClickMessage": "PanelManager:TogglePanel:SettingsPanel",
@@ -3932,7 +3927,6 @@ class FileOperations:
             # "知识卷轴",
             "6":{
                 "name": "knowledge",
-                "scale": 0.8,
                 "filename": "panel\\HUD_02\\QuestLog",
                 "tooltipString": "@JcyKnowledge",
                 "onClickMessage": "PanelManager:TogglePanel:messagePanel",
@@ -3940,18 +3934,9 @@ class FileOperations:
             # "编年史",
             "7":{
                 "name": "chronicle",
-                "scale": 0.65,
-                "filename": "panel\\mini\\chronicle",
+                "filename": "jcy\\mini\\chronicle",
                 "tooltipString": "@Chronicle",
                 "onClickMessage": "PanelManager:OpenPanel:ChroniclePanel",
-            },
-            # "过滤器",
-            "8":{
-                "name": "lootfilter",
-                "scale": 0.65,
-                "filename": "panel\\mini\\filter",
-                "tooltipString": "@LootFilter",
-                "onClickMessage": "PausePanelMessage:OpenLootFilter",
             },
         }
 
@@ -3981,7 +3966,7 @@ class FileOperations:
                         "rect": {
                             "x": i * 65.0,
                             "y": 0,
-                            "scale": item["scale"]
+                            "scale": 0.8
                         },
                         "filename": item["filename"],
                         "tooltipString": item["tooltipString"],
